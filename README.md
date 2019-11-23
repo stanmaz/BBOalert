@@ -23,15 +23,13 @@ In the alert explanation field, comma must be avoided.
 Each field may contain leading or trailing spaces ot tabs for better readability during coding.
 Fourth field is optional and may be used for comments
 
-Example for :
-
-,1C,17+HCP any distribution,this is the 1C opening for Precision system
-1C--,1D,0-7HCP any distribution,this is the negative response to 1C opening
-1C--1D--,1N,17-19HCP balanced hand,this is the first rebid of the opener
-
-Note : -- represents opponents "pass" but may be replaced by an overcall if any
-
 To use BBOalert you should :
-- open the table file with your favorite text editor
+- open the table file with your favorite text editor and keep it open until the end of the BBO session. I advise to use a collaborative online text editor (e.g. https://cryptpad.fr/code) which allows you to share the file with your partner in real time
 - select all text
 - copy it to clipboard
+- open BBO session using URL https://www.bridgebase.com/v3/?lang=en
+- after you correctly login into BBO, a dialog box should appear confirming that the table has been loaded from clipboard
+
+If you alert manually during the game, the clipboard wil contain the text to be appended to the table file by pasting it.
+
+
