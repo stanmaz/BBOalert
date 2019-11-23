@@ -5,7 +5,7 @@ Automatic alert in BBO
 The software is still under development (Alpha release). 
 
 
-During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO becomes unpractical because explaining each alerted call is time consuming and therefore frustrating for all participants.
+During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table and opponents get the explanation automatically and immediately. Explanations entered manually during the game are added to the table for future use.
 
