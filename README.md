@@ -27,6 +27,7 @@ The keyword -- is used for pass for better readability.
 In the explanation field, comma must be avoided.
 Each field may contain leading or trailing spaces or tabs for better readability during coding.
 Fourth field is optional and may be used for comments
+See 'sample.txt' file for more information.
 
 To use BBOalert you should :
 - open the table file with your favorite text editor and keep it open until the end of the BBO session. I advise to use a collaborative online text editor (e.g. https://cryptpad.fr/code) which allows you to share the file with your partner in real time
@@ -36,5 +37,6 @@ To use BBOalert you should :
 - after you correctly login into BBO, a dialog box should appear confirming that the table has been loaded from clipboard
 
 If you alert manually during the game, the clipboard wil contain the text to be appended to the table file by pasting it.
+
 
 
