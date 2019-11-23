@@ -10,10 +10,11 @@ During the bidding, conventional calls must be alerted and explained to the oppo
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table and opponents get the explanation automatically and immediately. Explanations entered manually during the game are added to the table for future use.
 
 To install BBOalert :
-- download BBOalert project source files into an empty directory
+- download BBOalert project source files in a ZIP-container
+- expand the ZIP-container into an empty directory
 - open Chrome browser session with URL "chrome://extensions"
 - make sure the Developer Mode is switched ON
-- click at "Load Unpacked" button and navigate to the directory where the BBOalert source files are stored and confirm. the BBOalert extension should appear on the list of installed extensions
+- click at "Load Unpacked" button and navigate to the directory where the BBOalert source files are stored and confirm. BBOalert should appear on the list of installed extensions
 - create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
 Create a CSV formatted file containing the table of alerted calls. The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by comma:
