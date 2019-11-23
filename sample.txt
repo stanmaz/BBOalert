@@ -1,0 +1,37 @@
+BBOalert, file must begin with BBOalert keyword
+
+Empty lines are allowed for better readability
+Comment lines like this are ignored
+
+The opening bid must begin with empty field
+,1C,17+HCP any distribution,Comment: this is the typical opening bid of Precision System
+
+You should ignore eventual passes preceding the opening bid
+--1C,17+HCP any distribution, this wil not work
+
+The negative response to 1C opening is 1D
+1C--,1D,0-7HCP any distribution
+The bidding context is 1C-- which means opening 1C followed by opponent's pass (-- code)
+
+Opener's rebid after 1D response will be coded
+1C--1D--,1N,17-19HCP balanced hand
+
+Similar after the 1H overcall after 1D
+1C--1D1H,1N,17-19HCP balanced hand
+
+Our own overcalls after opponent's opening are represented by code
+1H,2N,minor two-suiter
+
+For better readability leading spaces or tabs are allowed
+1H,     2N,     minor two-suiter
+
+You can define shortcuts for chat messages by using Message keywords
+Message,gtg,Good-bye. It was a pleasure to play at this table but I must go
+
+So typical short expression 'gtg' will be replaced by the the complete phrase you define
+But remember : do not use comma in the text as it is used as separator
+
+If the same bidding sequence is defined twice, only the las one will be considered.
+Typical situation when during the game, you modify the exeplanation for the alerted call.
+Any modification made during the game will appear in the clipboard (paste into the existing table).
+In the comment field ou will find the time stamp and the deal number for eventual review.
