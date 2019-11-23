@@ -8,7 +8,7 @@ var callText = "";
 var updateText = "";
 var cbData = "";
 var alertData = "";
-/*postMessage*/
+
 alertTable = null;
 /* force user interface language to english*/
 console.log("Navigator language = " + window.navigator.language);
@@ -16,45 +16,10 @@ if (document.location != 'https://www.bridgebase.com/v3/?lang=en') {
 	alert("Restart BBO session using URL :\n\n  \
 https://www.bridgebase.com/v3/?lang=en");
 }
+
 /* 
 Get actual date and time
 */
-
-function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-
-
-function readAlertsFromFile() {
-	var input = document.createElement('input');
-	input.type = 'file';
-	input.files = null;
-	input.onabort = function() { console.log('aborted') };
-	input.onchange = function() { console.log('changed') };
-	input.oncancel = function() { console.log('cancelled') };
-	input.onclose = function() { console.log('closed') };
-	input.oninput = function() { console.log('input') };
-	input.oninvalid = function() { console.log('invalid') };
-	input.onended = function() { console.log('ended') };
-	input.onformdata = function() { console.log('formdata') };
-	input.onforcus = function() { console.log('focus') };
-	input.onerror = function() { console.log('error') };
-	input.onclick = function() { console.log('click') };
-	input.click();
-	console.log(input.files);
-
-	if (input.files.length == 0) {
-		alert("No file selected");
-		return "";
-	}
-	file = input.files[0];
-	var reader = new FileReader();
-	reader.readAsText(file, 'UTF-8');
-	console.log("Data read from " + file.name + " size " + alertData.length);
-	return reader.result;
-}
-
 function getNow() {
 	now = new Date();
 	yyyy = now.getFullYear().toString();
@@ -64,6 +29,7 @@ function getNow() {
 	mn = now.getMinutes().toString();
 	return yyyy + mm + dd + "_" + hh + ":" + mn;
 }
+
 /*
 Get actual bidding context
 */
@@ -110,6 +76,7 @@ function getContext() {
 	}
 	return ctx;
 }
+
 /*
 Write text to clipboard
 */
@@ -120,6 +87,7 @@ function writeToClipboard(txt) {
 		}
 	);
 }
+
 /*
 Retrieve text from clipboard
 */
@@ -147,6 +115,7 @@ BBOalert ready")
 	}
 	);
 }
+
 /*
 Find explanation text for alerted call in the bidding context
 */
@@ -160,6 +129,7 @@ function findAlert(context, call) {
 	}
 	return alertText;
 }
+
 /*
 Check chat box for eventual shortcut and replace it by the text from table
 */
@@ -169,6 +139,7 @@ function messageOnKeyup(key) {
 	console.log("Message " + elMessage.value + " replace by " + msgText);
 	if (msgText != "") elMessage.value = msgText;
 }
+
 /*
 Find the bidding box
 */
@@ -193,6 +164,7 @@ function getBiddingBox() {
 	}
 };
 timerId = setInterval(() => getBiddingBox(), 2000);
+
 /*
 Clear explanation text field
 */
@@ -201,6 +173,7 @@ function clearAlert() {
 	elAlertExplain.value = "";
 	elAlertExplain.dispatchEvent(eventInput);
 };
+
 /*
 Retrieve text from the chat box
 */
@@ -208,6 +181,7 @@ function getMessage() {
 	elMessage = document.querySelector("[placeholder=\"Message\"]");
 	return elMessage.value;
 }
+
 /*
 Set message text in the chat box
 */
@@ -215,6 +189,7 @@ function setMessage(msg) {
 	elMessage = document.querySelector("[placeholder=\"Message\"]");
 	elMessage.value = msg;
 }
+
 /*
 Search for explanation text and set in in the bidding box
 */
@@ -224,6 +199,7 @@ function getAlert() {
 	elAlertExplain.value = findAlert(getContext(), callText).trim();
 	elAlertExplain.dispatchEvent(eventInput);
 };
+
 /*
 Append current explanation text, if not found in the alert table
 */
@@ -243,6 +219,7 @@ function saveAlert() {
 		console.log(updateText);
 	}
 };
+
 /*
 Set action for each bidding box button
 */
