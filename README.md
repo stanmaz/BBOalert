@@ -25,7 +25,7 @@ Create a CSV formatted file containing the table of alerted calls. The first lin
 The calls should be coded using two-character keywords: 1C 1D 1H 1S 1N Db Rd --
 The keyword -- is used for pass for better readability.
 In the explanation field, comma must be avoided.
-Each field may contain leading or trailing spaces ot tabs for better readability during coding.
+Each field may contain leading or trailing spaces or tabs for better readability during coding.
 Fourth field is optional and may be used for comments
 
 To use BBOalert you should :
