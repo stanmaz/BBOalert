@@ -4,6 +4,7 @@ Automatic alert in BBO
 
 The software is still under development (Alpha release). 
 
+We assume that you are experienced BBO and CHROME user.
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
@@ -11,9 +12,9 @@ BBOalert resolves this problem. Artificial bidding sequences can be predefined i
 
 To install BBOalert :
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
-- expand the ZIP-container directory. This will create a subdirectory "BBOalert-master" in the "Downloads" directory
+- Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
 - open Chrome browser session with URL "chrome://extensions"
-- make sure the Developer Mode is switched ON
+- make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
 - create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
@@ -36,7 +37,7 @@ To use BBOalert you should :
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
 - after you correctly login into BBO, a dialog box should appear confirming that the table has been loaded from clipboard
 
-If you alert manually during the game, the clipboard wil contain the text to be appended to the table file by pasting it.
+If you alert manually during the game, the clipboard wil contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can find the deal to review the alerted text before make it definitive.
 
 
 
