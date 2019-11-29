@@ -4,7 +4,7 @@ Automatic alert in BBO
 
 The software is still under development (Alpha release). 
 
-We assume that you are experienced BBO and CHROME user.
+We assume that you are familiar with BBO and CHROME.
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
