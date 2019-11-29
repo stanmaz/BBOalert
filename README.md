@@ -7,17 +7,17 @@ The software is still under development (Alpha release).
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
-BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table and opponents get the explanation automatically and immediately. Explanations entered manually during the game are added to the table for future use.
+BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are added to the table for future use.
 
 To install BBOalert :
-- download BBOalert project source files in a ZIP-container
-- expand the ZIP-container into an empty directory
+- download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
+- expand the ZIP-container directory. This will create a subdirectory "BBOalert-master" in the "Downloads" directory
 - open Chrome browser session with URL "chrome://extensions"
 - make sure the Developer Mode is switched ON
-- click at "Load Unpacked" button and navigate to the directory where the BBOalert source files are stored and confirm. BBOalert should appear on the list of installed extensions
+- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
 - create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
-Create a CSV formatted file containing the table of alerted calls. The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by comma:
+Create a CSV formatted file containing the table of alerted calls (see sample.txt). The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by comma:
 - bidding seauence preceding the alerted call including opponent's calls
 - your bidding call
 - explanation text
