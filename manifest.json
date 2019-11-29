@@ -2,7 +2,7 @@
   "manifest_version":2,
   "name":"BBOalert",
   "description":"Auto alert on BBO",
-  "version":"0.1.10",
+  "version":"0.1.11",
   "permissions": [
     "storage",
     "clipboardRead",

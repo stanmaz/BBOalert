@@ -13,8 +13,7 @@ alertTable = null;
 /* force user interface language to english*/
 console.log("Navigator language = " + window.navigator.language);
 if (document.location != 'https://www.bridgebase.com/v3/?lang=en') {
-	alert("Restart BBO session using URL :\n\n  \
-https://www.bridgebase.com/v3/?lang=en");
+document.location = "https://www.bridgebase.com/v3/?lang=en";
 }
 
 /* 
