@@ -9,6 +9,17 @@ var updateText = "";
 var cbData = "";
 var alertData = "";
 
+var textWelcome = "\
+BBOalert extension is activated\n\n\
+Warning : The clipboard does not contain the necessary data.\n\
+Please,\n\
+- open the alert data file using your favorite text editor\n\
+- select all text\n\
+- copy it to the clipboard\n\
+BBOalert will automatically retrieve it.\n\
+Otherwise an empty table will be created and alert calls\n\
+will be recorded in the clipboard for future use"
+
 alertTable = null;
 /* force user interface language to english*/
 console.log("Navigator language = " + window.navigator.language);
@@ -95,9 +106,8 @@ function getClipboardData() {
 		console.log("Clipboard length = " + cbData.length);
 		if (!cbData.startsWith("BBOalert")) {
 			if (alertData == "") {
-				alert("Alert table not found in the clipboard\n\n \
-Open alert table text file, select all text and copy to clipboard")
-				alertTable = null;
+				alert(textWelcome);
+				alertData = "BBOalert\n\n"
 			}
 			return;
 		}
