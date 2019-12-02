@@ -27,15 +27,19 @@ On Android devices, only Firefox browser supports extensions.
 BBOalert communicates thru clipboard using CSV formatted text :
 - at BBO startup, the clipboard must contain the table of alerted calls
 - at the end of the BBO session, clipboard will contain the list of manually entered or modified alerts. You will be able to append this data at the end of the file.
+
 The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by commas:
   - bidding sequence preceding the alerted call including opponent's calls
   - your bidding call
   - explanation text
+
 The calls should be coded using two-character keywords: 1C 1D 1H 1S 1N Db Rd --
+
 The keyword -- is used for pass for better readability.
 In the explanation field, comma must be avoided.
 Each field may contain leading or trailing spaces or tabs for better readability during coding.
 Fourth field is optional and may be used for comments
+
 See 'sample.txt' file for more information.
 
 To use BBOalert you should :
