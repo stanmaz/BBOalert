@@ -30,7 +30,7 @@ Fourth field is optional and may be used for comments
 See 'sample.txt' file for more information.
 
 To use BBOalert you should :
-- open the table file with your favorite text editor and keep it open until the end of the BBO session. I advise to use a collaborative online text editor (e.g. https://cryptpad.fr/code) which allows you to share the file with your partner in real time
+- open the table file with your favorite text editor and keep it open until the end of the BBO session. I advise to create a document in Google Docs and make it sharable to keep it in sync in real time.
 - select all text
 - copy it to clipboard
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
