@@ -17,10 +17,10 @@ To install BBOalert manually in CHROME browser:
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extension create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
-This software can be installed in Firefox browser directly from the add-on repository :
-- enter the page "about:addons"
-- using "Find more extensions" search for "BBOalert"
-- select "BBOalert" and then "Add to Firefox"
+This software can be installed in Firefox browser directly :
+- follow the link to https://addons.mozilla.org/addon/bboalert/.
+- press "Add to Firefox" button
+- accept the proposed default options
 On Android devices, only Firefox browser supports extensions.
 
 BBOalert communicates thru clipboard using CSV formatted text :
