@@ -21,6 +21,7 @@ This software can be installed in Firefox browser directly :
 - follow the link to https://addons.mozilla.org/addon/bboalert/.
 - press "Add to Firefox" button
 - accept the proposed default options
+
 On Android devices, only Firefox browser supports extensions.
 
 BBOalert communicates thru clipboard using CSV formatted text :
