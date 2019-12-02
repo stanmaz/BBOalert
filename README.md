@@ -1,3 +1,5 @@
+BBOalert
+
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
 The software is still under development (Alpha release). 
