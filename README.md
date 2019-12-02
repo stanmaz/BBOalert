@@ -1,5 +1,3 @@
-# BBOalert
-
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
 The software is still under development (Alpha release). 
@@ -14,7 +12,7 @@ To install BBOalert manually in CHROME browser:
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
 - Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
 - open Chrome browser session with URL "chrome://extensions"
-- make sure, the Developer Mode is switched ON (in right-upper corner)
+- make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extension create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
 This software can be installed in Firefox browser directly from the add-on repository :
@@ -25,9 +23,9 @@ On Android devices, only Firefox browser supports extensions.
 
 BBOalert communicates thru clipboard using CSV formatted text :
 - at BBO startup, the clipboard must contain the table of alerted calls
-- at the end of the BBO session, clipboard will contain the list of manually entred or modified alerts. You will be able to append this data at the end of the file.
-The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by comma:
-- bidding seauence preceding the alerted call including opponent's calls
+- at the end of the BBO session, clipboard will contain the list of manually entered or modified alerts. You will be able to append this data at the end of the file.
+The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by commas:
+- bidding sequence preceding the alerted call including opponent's calls
 - your bidding call
 - explanation text
 The calls should be coded using two-character keywords: 1C 1D 1H 1S 1N Db Rd --
@@ -46,12 +44,8 @@ To use BBOalert you should :
 
 If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before.
 
-Instead of a simple text editor, I recommand to use Google Docs. This will enable you to :
+Instead of a simple text editor, I recommend to use Google Docs. This will enable you to :
 - share the data with your partner in real time to be always in sync. Therefore you should make the document "Sharable" with write access for your partner. Do not forget to make a local backup copy.
-- add supplementary text and using text processing features. BBOalert will ignore all irrelevant data while retrieving the data from the cliboard
+- add supplementary text and using text processing features. BBOalert will ignore all irrelevant data while retrieving the data from the clipboard
 - start eventually with the existing file describing your bidding system (I expect that you did it already). Then, you can insert anywhere in the text the BBOalert data. Remember : the file must begin with "BBOalert" keyword.
-
-
-
-
 
