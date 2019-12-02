@@ -49,10 +49,10 @@ To use BBOalert you should :
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
 - after you correctly login into BBO, a dialog box should appear confirming that the table has been loaded from clipboard
 
-If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before.
+If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before commiting the changes.
 
 Instead of a simple text editor, I recommend to use Google Docs. This will enable you to :
 - share the data with your partner in real time to be always in sync. Therefore you should make the document "Sharable" with write access for your partner. Do not forget to make a local backup copy.
 - add supplementary text and using text processing features. BBOalert will ignore all irrelevant data while retrieving the data from the clipboard
-- start eventually with the existing file describing your bidding system (I expect that you did it already). Then, you can insert anywhere in the text the BBOalert data. Remember : the file must begin with "BBOalert" keyword.
+- start eventually with the existing file describing your bidding system (I expect that you did it already). Then, you can insert  the BBOalert data anywhere in the text Remember : the file must begin with the "BBOalert" keyword.
 
