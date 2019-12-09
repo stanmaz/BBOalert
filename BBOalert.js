@@ -2,29 +2,25 @@ var timerId;
 var elBiddingBox = null;
 var elBiddingButtons = null;
 var elAlertExplain = null;
-var eTable;
 var eventInput = new Event('input');
 var callText = "";
 var updateText = "";
 var cbData = "";
 var alertData = "";
 
-var textWelcome = "\
-BBOalert extension is activated\n\n\
-Warning : The clipboard does not contain the necessary data.\n\
-Please,\n\
-- open the alert data file using your favorite text editor\n\
-- select all text\n\
-- copy it to the clipboard\n\
-BBOalert will automatically retrieve it.\n\
-Otherwise an empty table will be created and alert calls\n\
-will be recorded in the clipboard for future use"
-
 alertTable = null;
 /* force user interface language to english*/
-console.log("Navigator language = " + window.navigator.language);
-if (document.location != 'https://www.bridgebase.com/v3/?lang=en') {
+if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
 document.location = "https://www.bridgebase.com/v3/?lang=en";
+}
+
+function setTitleText(txt) {
+	t = document.querySelectorAll('div.titleSpanClass');
+	if (t.length == 0) return;
+	for (i = 0; i < t.length; i++) {
+		t[i].innerHTML = txt;
+	}
+
 }
 
 /* 
@@ -106,7 +102,7 @@ function getClipboardData() {
 		console.log("Clipboard length = " + cbData.length);
 		if (!cbData.startsWith("BBOalert")) {
 			if (alertData == "") {
-				alert(textWelcome);
+				setTitleText('BBOalert: no data found in clipboard');
 				alertData = "BBOalert\n\n"
 			}
 			return;
@@ -117,8 +113,7 @@ function getClipboardData() {
 		}
 		alertData = cbData;
 		alertTable = alertData.split("\n");
-		alert("Alert table retrieved from clipboard\n\n \
-BBOalert ready")
+		setTitleText("BBOalert : " + alertTable.length + " records retrieved from clipboard")
 		console.log("Table length = " + alertTable.length);
 		return;
 	}
@@ -140,31 +135,17 @@ function findAlert(context, call) {
 }
 
 /*
-Check chat box for eventual shortcut and replace it by the text from table
-*/
-function messageOnKeyup(key) {
-	elMessage = document.querySelector("[placeholder=\"Message\"]");
-	msgText = findAlert("Message", elMessage.value);
-	console.log("Message " + elMessage.value + " replace by " + msgText);
-	if (msgText != "") elMessage.value = msgText;
-}
-
-/*
 Find the bidding box
 */
 function getBiddingBox() {
-	elMessage = document.querySelector("[placeholder=\"Message\"]");
-	if (elMessage == null) {
-		return
-	}
-	elMessage.addEventListener('keyup', messageOnKeyup);
 	getClipboardData();
 	elBiddingBox = document.querySelector(".biddingBoxClass");
 	if (elBiddingBox != null) {
+					console.log("Biddingbox present");
 		if (elBiddingButtons == null) {
 			elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 			setButtonEvents();
-			console.log("Biddingbox present");
+
 			console.log(elAlertExplain);
 		}
 	}
@@ -184,26 +165,10 @@ function clearAlert() {
 };
 
 /*
-Retrieve text from the chat box
-*/
-function getMessage() {
-	elMessage = document.querySelector("[placeholder=\"Message\"]");
-	return elMessage.value;
-}
-
-/*
-Set message text in the chat box
-*/
-function setMessage(msg) {
-	elMessage = document.querySelector("[placeholder=\"Message\"]");
-	elMessage.value = msg;
-}
-
-/*
 Search for explanation text and set in in the bidding box
 */
 function getAlert() {
-	console.log("Get Alert");
+	setTitleText("Get Alert*" + callText + "*" + findAlert(getContext(), callText).trim());
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	elAlertExplain.value = findAlert(getContext(), callText).trim();
 	elAlertExplain.dispatchEvent(eventInput);
@@ -263,18 +228,22 @@ function setButtonEvents() {
 	};
 	elBiddingButtons[7].onmousedown = function() {
 		callText = callText[0] + "C";
+		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[8].onmousedown = function() {
 		callText = callText[0] + "D";
+		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[9].onmousedown = function() {
 		callText = callText[0] + "H";
+		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[10].onmousedown = function() {
 		callText = callText[0] + "S";
+		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[11].onmousedown = function() {
