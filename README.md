@@ -8,7 +8,7 @@ We assume that you are familiar with BBO and CHROME.
 
 ## Purpose
 
-During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
+During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants. As SAYC is standard within BBO community, practicing other 'natural' bidding system like French Standard or Acol will require frequent alerting too.
 
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
 
