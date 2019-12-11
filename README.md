@@ -22,7 +22,7 @@ The program is not yet officially published in Google's web-store. Therefore you
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extension create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
-Note : CHROME does not support extensions under Android OS. In the next future it will be possible to run this extension with Android version of Firefox.
+Note : CHROME does not support extensions under Android OS. You should use YANDEX browser instead. The installation procedure is identical, except the last step : you should select the manifest.json file to complete the installation.
 
 ## Function
 
