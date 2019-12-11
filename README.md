@@ -30,7 +30,7 @@ Note : CHROME does not support extensions under Android OS. You should use YANDE
 
 BBOalert communicates thru clipboard using CSV formatted text :
 - at BBO startup, the clipboard must contain the table of alerted calls
-- at the end of the BBO session, clipboard will contain the list of manually entered or modified alerts. You will be able to append this data at the end of the file.
+- at the end of the BBO session, clipboard will contain the list of manually entered or modified alerts. You will be able to append this data by pasting it at the end of the file.
 
 The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by commas:
   - bidding sequence preceding the alerted call including opponent's calls
