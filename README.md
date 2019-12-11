@@ -12,6 +12,8 @@ During the bidding, conventional calls must be alerted and explained to the oppo
 
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
 
+BBOalert has similar functionallity as "Full Diclosure" which is no longer supported by BBO.
+
 ## Installation
 
 The program is not yet officially published in Google's web-store. Therefore you should install it in CHROME browser manually from source code :
