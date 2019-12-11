@@ -55,7 +55,7 @@ To use BBOalert you should :
 - select all text
 - copy it to clipboard
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
-- after you correctly login into BBO, a dialog box should appear confirming that the table has been loaded from clipboard
+- after you correctly login into BBO, the message should appear confirming that the table has been loaded from clipboard
 
 If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before commiting the changes.
 
