@@ -1,4 +1,4 @@
-BBOalert
+# BBOalert
 
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
@@ -6,9 +6,13 @@ The software is still under development (Alpha release).
 
 We assume that you are familiar with BBO and CHROME.
 
+## Purpose
+
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
+
+## Installation
 
 To install BBOalert manually in CHROME browser:
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
@@ -23,6 +27,8 @@ This software can be installed in Firefox browser directly :
 - accept the proposed default options
 
 On Android devices, only Firefox browser supports extensions.
+
+## Function
 
 BBOalert communicates thru clipboard using CSV formatted text :
 - at BBO startup, the clipboard must contain the table of alerted calls
@@ -41,6 +47,8 @@ Each field may contain leading or trailing spaces or tabs for better readability
 Fourth field is optional and may be used for comments
 
 See 'sample.txt' file for more information.
+
+## How to use
 
 To use BBOalert you should :
 - open the table file with your favorite text editor and keep it open until the end of the BBO session.
