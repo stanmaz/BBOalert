@@ -25,13 +25,7 @@ Our own overcalls after opponent's opening are represented by code
 For better readability leading spaces or tabs are allowed
 1H,     2N,     minor two-suiter
 
-You can define shortcuts for chat messages by using Message keyword instead of bidding context
-Message,gtg,Good-bye. It was a pleasure to play at this table but I must go
-
-So typical short expression 'gtg' will be replaced by the the complete phrase that you define
-But remember : do not use comma in the text as it is used as separator
-
 If the same bidding sequence is defined twice, only the last one will be considered.
-Typical situation when during the game, you modify the exeplanation for the alerted call.
+Typical situation when, during the game, you modify the exeplanation for the alerted call.
 Any modification made during the game will appear in the clipboard (paste at the end of the existing table).
 In the comment field you will find the time stamp and the deal number for eventual review.
