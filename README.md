@@ -14,19 +14,15 @@ BBOalert resolves this problem. Artificial bidding sequences can be predefined i
 
 ## Installation
 
-To install BBOalert manually in CHROME browser:
+The program is not yet officially published in Google's web-store. Therefore you should install it in CHROME browser manually from source code :
+
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
 - Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
 - open Chrome browser session with URL "chrome://extensions"
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extension create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
-This software can be installed in Firefox browser directly :
-- follow the link to https://addons.mozilla.org/addon/bboalert/.
-- press "Add to Firefox" button
-- accept the proposed default options
-
-On Android devices, only Firefox browser supports extensions.
+Note : CHROME does not support extensions under Android OS. In the next future it will be possible to run this extension with Android version of Firefox.
 
 ## Function
 
