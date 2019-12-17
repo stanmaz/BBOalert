@@ -23,6 +23,14 @@ function setTitleText(txt) {
 
 }
 
+
+/*
+Is element visible ?
+*/
+function isVisible(e) {
+    return !!( e.offsetWidth || e.offsetHeight || e.getClientRects().length );
+}
+
 /* 
 Get actual date and time
 */
