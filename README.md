@@ -76,4 +76,4 @@ Instead of a simple text editor, I recommend to use Google Docs. This will enabl
 - add supplementary text using text processing features. BBOalert will ignore all irrelevant text while retrieving the data from the clipboard
 - start eventually with the existing file describing your bidding system (I expect that you did it already). Then, you can insert  the BBOalert data anywhere in the text. Remember : the file must begin with the "BBOalert" keyword.
 
-"Confirm bids" option in BBO ("Account" + "Settings") is required to be able to enter or review alert's explanation before making the call.
+"Confirm bids" option in BBO ("Account" + "Settings") is required to be able to enter or review alert's explanation before confirming the call.
