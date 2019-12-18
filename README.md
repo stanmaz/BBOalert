@@ -53,7 +53,7 @@ In the explanation field, comma must be avoided.
 Each field may contain leading or trailing spaces or tabs for better readability during coding.
 Fourth field is optional and may be used for comments
 
-You can also define keyboard shortcuts which are expanded to the predefined text.
+You can also define keyboard shortcuts which are expanded to the predefined text while typing.
 
 See 'sample.txt' file for more information.
 
