@@ -2,7 +2,7 @@
 
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
-We assume that you are familiar with BBO and CHROME.
+We assume that you are familiar with BBO.
 
 ## Purpose
 
