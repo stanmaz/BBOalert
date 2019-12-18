@@ -2,8 +2,6 @@
 
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
-The software is still under development (Alpha release). 
-
 We assume that you are familiar with BBO and CHROME.
 
 ## Purpose
@@ -43,6 +41,8 @@ The keyword -- is used for pass for better readability.
 In the explanation field, comma must be avoided.
 Each field may contain leading or trailing spaces or tabs for better readability during coding.
 Fourth field is optional and may be used for comments
+
+You can also define keyboard shortcuts which are expanded to the predefined text.
 
 See 'sample.txt' file for more information.
 
