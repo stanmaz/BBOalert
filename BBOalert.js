@@ -24,6 +24,7 @@ var updateText = "";
 var cbData = "";
 var alertData = "";
 var alertTable = null;
+var clipBoard = navigator.clipboard;
 
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
 
@@ -43,7 +44,7 @@ function setTitleText(txt) {
 	t = document.querySelectorAll('div.titleSpanClass');
 	if (t.length == 0) return;
 	for (i = 0; i < t.length; i++) {
-		t[i].innerHTML = txt;
+		t[i].textContent = txt;
 	}
 }
 
