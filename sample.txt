@@ -29,3 +29,11 @@ If the same bidding sequence is defined twice, only the last one will be conside
 Typical situation when, during the game, you modify the exeplanation for the alerted call.
 Any modification made during the game will appear in the clipboard (paste at the end of the existing table).
 In the comment field you will find the time stamp and the deal number for eventual review.
+
+Keyboard shortcuts can be defined :
+Shortcut,   TC,   Texas !C
+Shortcut,   TD,   Texas !D
+Shortcut,   TH,   Texas !H
+Shortcut,   TS,   Texas !S
+Shortcut,   GTG,  Sorry but I have to leave. I enjoyed to play with you all
+
