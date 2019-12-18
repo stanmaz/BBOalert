@@ -30,7 +30,8 @@ The extension is not yet officially published in Google's web-store. Therefore y
 - Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
 - open Chrome browser session with URL "chrome://extensions"
 - make sure the Developer Mode is switched ON (in right-upper corner)
-- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extension create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
+- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
+- create a bookmark with URL: "https://www.bridgebase.com/v3/?lang=en".
 
 Note : CHROME does not support extensions under Android. You should use YANDEX browser instead. The installation procedure is identical, except the last step : you should select the manifest.json file to complete the installation.
 
