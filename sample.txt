@@ -10,7 +10,8 @@ You should ignore eventual passes preceding the opening bid
 ----,1C,17+HCP any distribution, this will not work
 If the opening is seat sensitive you can always mention it in the explanation text
 ,1H,9-14HCP 4+!S (11-16HCP 4+!H if 3/4th seat)
-This kind of situation is rare (example from MOSCITO system). 3rd seat light openings are usual and do not have to be alerted. But on responder's side you should alert :
+This kind of situation is rare (example from MOSCITO system).
+3rd seat light openings are usual and do not have to be alerted. But on responder's side you should alert :
 1S--,2C,GF (Drury after initial pass)
 
 The negative response to 1C opening is 1D
