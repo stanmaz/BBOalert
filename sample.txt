@@ -7,7 +7,11 @@ The opening bid must begin with empty field
 ,1C,17+HCP any distribution,Comment: this is the typical opening bid of Precision System
 
 You should ignore eventual passes preceding the opening bid
---1C,17+HCP any distribution, this will not work
+----,1C,17+HCP any distribution, this will not work
+If the opening is seat sensitive you can always mention it in the explanation text
+,1H,9-14HCP 4+!S (11-16HCP 4+!H if 3/4th seat)
+This kind of situation is rare (example from MOSCITO system). 3rd seat light openings are usual and do not have to be alerted. But on responder's side you should alert :
+1S--,2C,GF (Drury after initial pass)
 
 The negative response to 1C opening is 1D
 1C--,1D,0-7HCP any distribution
@@ -36,4 +40,5 @@ Shortcut,   TD,   Texas !D
 Shortcut,   TH,   Texas !H
 Shortcut,   TS,   Texas !S
 Shortcut,   GTG,  Sorry but I have to leave. I enjoyed to play with you all
+Shortcut,   BW,   Blackwood 4-1,3-0 (5 key cards)
 
