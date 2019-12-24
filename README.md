@@ -14,7 +14,7 @@ BBOalert resolves this problem. Artificial bidding sequences can be predefined i
 
 BBOalert has similar functionallity as "Full Disclosure" which is no longer supported by BBO. Certain features of "Full Disclusure" have not been implemented yet (e.g. seat sensitive openings) and will be perhaps added as needed by the community. One difference should be emphasized :
 
-- "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to the complexity 
+- "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to its complexity 
 - BBOalert is strictly for personal use and should help to automate the disclosure of specific agreements. The simplicity of the code makes it readable.
 
 ## Installation
