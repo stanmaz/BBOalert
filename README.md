@@ -73,10 +73,21 @@ To use BBOalert you should :
 
 If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before commiting the changes.
 
-Instead of a simple text editor, I recommend to use Google Docs. This will enable you to :
-
-- share the data with your partner in real time to be always in sync. Therefore you should make the document "Sharable" with write access for your partner. Do not forget to make a local backup copy.
-- add supplementary text using text processing features. BBOalert will ignore all irrelevant text while retrieving the data from the clipboard
-- start eventually with the existing file describing your bidding system (I expect that you did it already). Then, you can insert  the BBOalert data anywhere in the text. Remember : the file must begin with the "BBOalert" keyword.
-
 "Confirm bids" option in BBO ("Account" + "Settings") is required to be able to enter or review alert's explanation before confirming the call.
+
+## Recommended way
+
+We recommend the "You only alert once" principle.
+
+It is needless to code your entire system at once. It is a huge task. In each artificial bidding system there are sequences which occur almost never.
+
+The program records each alerted call for which no explanation has been found in the data file. Use this feature to complete your code with the bidding sequences as they come during the game. I recommend to to proceed this way :
+
+- Instead of a simple text editor, create a new file in Google Docs beginning with the keyword BBOalert
+- make this file "Sharable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
+- enter the code for opening bids and frequently used responses
+- start playing using this data (remember : select all text + copy to clipboard before starting BBO session)
+- alert your calls by hand if necessary
+- at the end of the session, paste the clipboard content at the end of the file. Your partner should do it too.
+
+This way, the file is ready for the next session and will contain recently alerted calls.
