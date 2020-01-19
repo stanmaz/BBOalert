@@ -19,13 +19,15 @@ BBOalert has similar functionallity as "Full Disclosure" which is no longer supp
 
 ## Installation
 
+BBOalert extension is not compatible with touch screens.
+
 ### Firefox
 
 This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
-Windows, Linux and Android platforms are supported
+Windows and Linux platforms are supported.
 
 ### Chrome
 
@@ -36,8 +38,6 @@ The extension is not yet officially published in Google's web-store. Therefore y
 - open Chrome browser session with URL "chrome://extensions"
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
-
-Note : CHROME does not support extensions under Android. You should use YANDEX browser instead. The installation procedure is identical, except the last step : you should select the manifest.json file to complete the installation.
 
 ## Function
 
