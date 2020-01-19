@@ -19,7 +19,7 @@ BBOalert has similar functionallity as "Full Disclosure" which is no longer supp
 
 ## Installation
 
-BBOalert extension is not compatible with touch screens.
+Note : on devices with touch screens, mouse or touchpad should be used.
 
 ### Firefox
 
