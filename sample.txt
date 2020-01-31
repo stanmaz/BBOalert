@@ -1,13 +1,31 @@
 BBOalert, file must begin with BBOalert keyword
 
+1. File format
+
+Valid records should contain at least 3 fields seperated by comma
+<context>,<call>,<explanation>,<comment>
+where <context> represents the bidding before <call>. <explanation> is the text to accompany tha alerted call.
+<comment> field is optional. Spaces or tabs are allowed at the beginning or end of each field for better readability.
+
 Empty lines are allowed for better readability
 Comment lines like this are ignored
+
+Example :
+1C--1D--1H--,	1N,		explanation text, 
+
+Note -- which represents passed oponents. Instead of -- you can use double underscore __ as wild card if the meaning of the call
+does not depend of eventual overcalls made by oponents.
+In the example below, the meaning of each of each call remains the same, even if oponents bid.
+1C__1D__1H__,	1N,		explanation text,
+
+ 
 
 The opening bid must begin with empty field
 ,1C,17+HCP any distribution,Comment: this is the typical opening bid of Precision System
 
 You should ignore eventual passes preceding the opening bid
 ----,1C,17+HCP any distribution, this will not work
+
 If the opening is seat sensitive you can always mention it in the explanation text
 ,1H,9-14HCP 4+!S (11-16HCP 4+!H if 3/4th seat)
 This kind of situation is rare (example from MOSCITO system).
@@ -35,11 +53,15 @@ Typical situation when, during the game, you modify the exeplanation for the ale
 Any modification made during the game will appear in the clipboard (paste at the end of the existing table).
 In the comment field you will find the time stamp and the deal number for eventual review.
 
-Keyboard shortcuts can be defined :
+Keyboard abbreviations can be defined :
 Shortcut,   TC,   Texas !C
 Shortcut,   TD,   Texas !D
 Shortcut,   TH,   Texas !H
 Shortcut,   TS,   Texas !S
-Shortcut,   GTG,  Sorry but I have to leave. I enjoyed to play with you all
+Shortcut,   GTG,  Sorry but I have to leave. I enjoyed the game
 Shortcut,   BW,   Blackwood 4-1,3-0 (5 key cards)
+
+or Alt-key shortcuts :
+Shortcut,	AltA, Hello. You pressed ALt-A key
+ 
 

@@ -8,18 +8,22 @@ We assume that you are familiar with BBO.
 
 Tired of repeating always the same story while alerting your bids in BBO. If yes, this extension is your friend.
 
-During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants. As SAYC is standard within BBO community, practicing other 'natural' bidding system like French Standard or Acol will require frequent alerting too.
+During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
 BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
 
-BBOalert has similar functionallity as "Full Disclosure" which is no longer supported by BBO. Certain features of "Full Disclusure" have not been implemented yet (e.g. seat sensitive openings) and will be perhaps added as needed by the community. One difference should be emphasized :
+BBOalert has similar functionality as "Full Disclosure" which is no longer supported by BBO. One difference should be emphasized :
 
 - "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to its complexity 
 - BBOalert is strictly for personal use and should help to automate the disclosure of specific agreements. The simplicity of the code makes it readable.
 
-## Installation
+BBOalert is useful for all types of BBO users :
 
-Note : on devices with touch screens, mouse or touchpad should be used.
+- <b>casual players without a fixed partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if identical situation occurs. You only alert once ! The program enables you to define also keyboard shortcuts for frequently used expressions.
+- <b>'natural' players with a fixed partner</b> : SAYC is simple but inefficient in many situations. Adding some gadgets gives obvious advantages. BBOalert will help to document particular agreements. By using a common database with the partner, the explanation given to the opponents will be coherent. Practicing natural systems other than SAYC imply frequent alerting because of few, but essential differences.
+- <b>'artificial' players with a fixed partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and the opponents will receive correct information. Advanced features enable you to differentiate seat dependent openings and to program different defense schemes depending on conventions used by opponents.
+
+## Installation
 
 ### Firefox
 
@@ -27,7 +31,7 @@ This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
-Windows and Linux platforms are supported.
+Windows, Linux and Android platforms are supported
 
 ### Chrome
 
@@ -39,56 +43,36 @@ The extension is not yet officially published in Google's web-store. Therefore y
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
 
-## Function
-
-BBOalert communicates thru clipboard using CSV formatted text :
-
-- at BBO startup, the clipboard must contain the table of alerted calls
-- at the end of the BBO session, clipboard will contain the list of manually entered or modified alerts. You will be able to append this data by pasting it at the end of the file.
-
-The first line must begin with "BBOalert" keyword. Other lines should contain at least three text fields separated by commas:
-
-  - bidding sequence preceding the alerted call including opponent's calls
-  - your bidding call
-  - explanation text
-
-The calls should be coded using two-character keywords: 1C 1D 1H 1S 1N Db Rd --
-
-The keyword -- is used for pass for better readability.
-In the explanation field, comma must be avoided.
-Each field may contain leading or trailing spaces or tabs for better readability during coding.
-Fourth field is optional and may be used for comments
-
-You can also define keyboard shortcuts which are expanded to the predefined text while typing.
-
-See 'sample.txt' file for more information.
+Note : CHROME does not support extensions under Android. You should use YANDEX browser instead. The installation procedure is identical, except the last step : you should select the manifest.json file to complete the installation.
 
 ## How to use
 
+The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to send eventual updates.
+
 To use BBOalert you should :
 
-- open the table file with your favorite text editor and keep it open until the end of the BBO session.
+- open the table file with your favorite text editor
 - select all text
 - copy it to clipboard
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
-- after you correctly login into BBO, the message should appear confirming that the table has been loaded from clipboard
+- press "Import" button
 
-If you alert manually during the game, the clipboard shall contain the text to be appended to the table file by pasting it. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before commiting the changes.
+BBOalert records manually alerted calls during the game, To copy the data to the clipboard use "Export" button. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before committing the changes.
 
 "Confirm bids" option in BBO ("Account" + "Settings") is required to be able to enter or review alert's explanation before confirming the call. You are responsible for the explanation sent to the opponents.
 
-## Recommended way
+## Recommended way of using BBOalert
 
 We use the "You only alert once" principle.
 
-It is needless to code your entire system at once. It is a huge task. In each bidding system there are sequences which occur almost never.
+It is needless to code your entire system at once. It is a huge task. In each bidding system there are sequences which almost never occur.
 
 The program records each alerted call for which no explanation has been found in the data file. Use this feature to complete your code with the bidding sequences as they come during the game. Your data file will grow as needed.
 
-I recommend to to proceed this way :
+I recommend to proceed this way :
 
 - Instead of a simple text editor, create a new file in Google Docs beginning with the keyword BBOalert
-- make this file "Sharable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
+- make this file "Shareable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
 - enter the code for opening bids and frequently used responses
 - start playing using this data (remember : select all text + copy to clipboard before starting BBO session)
 - alert your calls by hand if necessary. You can define shortcuts for frequently used phrases and use them while entering explanations.
@@ -96,3 +80,90 @@ I recommend to to proceed this way :
 - review with your partner all newly created alerts and make the necessary corrections
 
 This way, the file is ready for the next session and will contain recently alerted calls.
+
+## Data file format
+
+The file must begin with the <b>BBOalert</b> keyword to be recognized by the program.
+
+The data file can include three sections in the order as shown :
+
+- opening bids and development
+- development after opponent's intervention
+- our overcalls after opponent's opening
+
+Comma separated value (CSV) format is used. Each record contains three text fields separated by commas :
+
+	<context>,<call>,<explanation>
+	
+where "context" is the bidding sequence preceding the "call". In those two fields we use two-characters self-explaining tokens :
+
+	1C 1D 1H 1S 1N Db Rd 2C 2D ....
+	
+To increase the readability of the code, we use -- token for pass and not Pa. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in data fields.
+
+### Opening bids and development
+
+Trivial example of code :
+
+	,1N,12-14p balanced
+	1N--,2C,Stayman can be weak 
+	1N--2C--,2D,No 4 card major
+	
+Note : empty "context" field in the first record, because there is no bid before the opening. Eventual passes preceding the opening should be ignored, unless the opening is seat dependend as in the typical example where 3rd seat opening can be made below 10p, and the responder after initial pass with 11p uses Drury convention :
+
+	,1S,11-21p 5!S							,this applies to all seats
+	----,1S,8-21p 5+!S					,except if explicitly overriden for the 3rd seat
+	----1S--,2C,Drury
+
+### Development after opponent's intervention
+
+In the previous section we assumed, that opponents pass. If they make an overcall, we have to use the same structure of records but the -- code should be replaced by the overcall as in example :
+
+	1HDb,Rd,9+p misfit !H penalty redouble
+	
+In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one caracter and have the same effect. In the example :
+
+	1N__,2H,Transfer->!S
+	
+the code means : whatever the opponents do, 2H remains a mandatory transfer to 2S. Wildcard should be used carefully and require some experience. In our particular bidding system the overcalls at level 1 have little influence on development. Exemple :
+
+	1C1*,2C,Texas->!D	can be weak with 6!D
+
+### Overcalls
+
+Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some fixed pairs will use another bidding system like ACOL or French Standard. If you do not play with your ususal partner, you are not concerned by this section. You will be condemned to improvise. But if you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch between different defense options. Examples : 
+
+- 1NT opening is normally 15-17p, but if the opponents play ACOL the defense against 12-14p range is totally different
+- 2D opening is weak in SAYC, but some players use 2D MULTI
+- 2H or 2S are weak openings with 6 card suit. Many players use 2H or 2S Muiderberg (5m and 4+m)
+
+To resolve this problem, the keyword Against is used. Exemple :
+
+Against,Weak_NT
+	any code here specific for defense against 1NT 12-14
+Against,2D_Multi
+	any code here specific for defense against 2D Multi
+Against,Muiderberg
+	any code here specific for defense against Muiderberg
+	
+You will be able to select the option on-the-fly with a drop-down box at the left side of the screen.
+The 'Against' options should be placed at the very end of the file.
+
+### Shortcuts
+
+Shortcut format :
+
+	Shortcut,<abbreviation",<full text>
+	
+In the axample :
+
+	Shortcut,TH,Texas->!H
+	
+TH string will be immediately expanded to the "Texas->!H" during text entry in the Message or Explanation text box. We advise to use uppercase two-character tokens to avoid confusion during normal text entry. The tokens can be of any length.
+
+You are allowed also to define Alt-key shortcuts like this :
+
+	Shortcut,AltA,this text will be inserted if you press Alt-A key
+	
+Note : check for potential conflicts with Alt key shortcuts of the browser.
+
