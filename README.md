@@ -153,7 +153,7 @@ The 'Against' options should be placed at the very end of the file.
 
 Shortcut format :
 
-	Shortcut,<abbreviation",<full text>
+	Shortcut,<abbreviation>,<full text>
 	
 In the axample :
 
