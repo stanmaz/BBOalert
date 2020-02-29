@@ -14,8 +14,10 @@ BBOalert resolves this problem. Artificial bidding sequences can be predefined i
 
 BBOalert has similar functionality as "Full Disclosure" which is no longer supported by BBO. One difference should be emphasized :
 
-- "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to its complexity 
+- "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to its complexity.
 - BBOalert is strictly for personal use and should help to automate the disclosure of specific agreements. The simplicity of the code makes it readable.
+
+The program can read "Full Disclosure" old BSS files.
 
 BBOalert is useful for all types of BBO users :
 
@@ -101,6 +103,10 @@ where "context" is the bidding sequence preceding the "call". In those two field
 	
 To increase the readability of the code, we use -- token for pass and not Pa. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in data fields.
 
+If more than 39 characters (BBO's limit) are needed to describe the bid, you can use the '#' character within the first 39 characters of the "explanation" string. BBOalert will display the text preceeding '#' in the alert box and the remaining text will be displayed in chat message box. To complete the alert, you need to send the chat message to the opponents. Example :
+
+	1S,2C,Please read chat for explanation#Natural overcall with at least a decent 5-card suit
+
 ### Opening bids and development
 
 Trivial example of code :
@@ -153,7 +159,7 @@ The 'Against' options should be placed at the very end of the file.
 
 Shortcut format :
 
-	Shortcut,<abbreviation>,<full text>
+	Shortcut,<abbreviation",<full text>
 	
 In the axample :
 
@@ -166,4 +172,14 @@ You are allowed also to define Alt-key shortcuts like this :
 	Shortcut,AltA,this text will be inserted if you press Alt-A key
 	
 Note : check for potential conflicts with Alt key shortcuts of the browser.
+
+### Full Diclosure BSS file support
+
+BBOalert can read BSS files in the same way as native BBOalert :
+
+- open the BSS file with a text editor
+- select all text and copy it to the clipboard
+- in BBOalert use 'Import' button
+
+BBOalert converts BSS data internally to the BBOalert native format. With the 'Export' button the converted data will be written to the clipboard.
 

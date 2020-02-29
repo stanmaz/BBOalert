@@ -204,7 +204,7 @@ function addDefenseSelectorOption(optionText) {
 function getClipboardData() {
 	navigator.clipboard.readText().then(function(cbData) {
 		//		console.log("Clipboard length = " + cbData.length);
-		if (!cbData.startsWith("BBOalert")) {
+		if (!cbData.startsWith("BBOalert") && !cbData.startsWith("*00") && !cbData.startsWith("?00")) {
 			setTitleText(version + ' : no valid data found in clipboard');
 			if (alertData == "") {
 				alertData = "BBOalert\n\n"
@@ -216,20 +216,78 @@ function getClipboardData() {
 			//			console.log("Same table in clipboard");
 			return;
 		}
+		updateText = "";
+		updateCount = 0;
 		alertData = cbData;
 		alertTable = alertData.split("\n");
 		clearDefenseSelector();
-		for (var i = 0; i < alertTable.length; i++) {
-			rec = alertTable[i].split(",");
-			if (rec.length > 1) {
-				if (rec[0] == 'Against') {
-					for (var j = 1; j < rec.length; j++) {
-						//						console.log('Option ' + rec[j].trim())
-						addDefenseSelectorOption(rec[j]);
+		if (cbData.startsWith("BBOalert")) {
+			for (var i = 0; i < alertTable.length; i++) {
+				rec = alertTable[i].split(",");
+				if (rec.length > 1) {
+					if (rec[0] == 'Against') {
+						for (var j = 1; j < rec.length; j++) {
+							//						console.log('Option ' + rec[j].trim())
+							addDefenseSelectorOption(rec[j]);
+						}
 					}
 				}
+				//			if (rec.length < 3) alertTable.splice(i, 1);
 			}
-			//			if (rec.length < 3) alertTable.splice(i, 1);
+		} else {
+			lvls = "1234567";
+			suits = "CDHSN";
+			for (var i = 1; i < alertTable.length; i++) {
+				ctx = '';
+				r = alertTable[i];
+				theyOpen = false;
+				if (r.startsWith('*')) {
+					theyOpen = true;
+					r = r.slice(1);
+				}
+				rec = r.split("=");
+				if (rec.length < 2) continue;
+				if (rec[0].length < 4) continue;
+				if (rec[1].length < 9) continue;
+				for (var j = 2; j < rec[0].length; j++) {
+					c1 = rec[0].charAt(j);
+					if (lvls.indexOf(c1) != -1) {
+						c2 = rec[0].charAt(j + 1);
+						ctx = ctx + c1 + c2;
+						j++;
+					} else {
+						if (c1 == "P") ctx = ctx + "--";
+						if (c1 == "D") ctx = ctx + "Db";
+						if (c1 == "R") ctx = ctx + "Rd";
+					}
+				}
+				badRec = false;
+				if (theyOpen) {
+					if (ctx.length < 4) {
+						badRec = true;
+					}
+					if ((ctx.length / 2) % 2 == 1) {
+						badRec = true;
+					}
+				}
+				ctx = ctx.slice(0, ctx.length - 2) + "," + ctx.slice(ctx.length - 2);
+				if (badRec) ctx = 'Error ' + alertTable[i] + "|" + ctx;
+				n = 10;
+				if (ctx.endsWith("N")) n = 8;
+				if (ctx.endsWith("--")) n = 7;
+				if (ctx.endsWith("Db")) n = 7;
+				if (ctx.endsWith("Rd")) n = 7;
+				exp = rec[1].slice(n);
+				exp = exp.replace(",", ";");
+				if (exp.length > 39) {
+					exp = "Explanation too long; Please read chat" + "#" + exp;
+				}
+				alertTable[i] = ctx + "," + exp;
+				updateText = updateText + alertTable[i] + "\n";
+				updateCount++;
+				console.log(alertTable[i]);
+			}
+
 		}
 		alertTableSize = alertTable.length;
 		setTitleText(version + " : " + alertTable.length + " records retrieved from clipboard")
@@ -362,8 +420,8 @@ function explainOnKeyup(key) {
 
 // Find the bidding box element and check if new data present in the clipboard
 function getBiddingBox() {
-var adPanel = document.getElementById("bbo_ad1_i");
-adPanel.style.backgroundColor = "rgb(240, 238, 208)";
+	var adPanel = document.getElementById("bbo_ad1_i");
+	adPanel.style.backgroundColor = "rgb(240, 238, 208)";
 	cleanAdPanel();
 	setAdPanel();
 	elMessage = getVisibleMessageInput();
@@ -403,9 +461,23 @@ function clearAlert() {
 // Search for explanation text and set in in the bidding box
 function getAlert() {
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
-	elAlertExplain.value = findAlert(getContext(), callText).trim();
+	exp = findAlert(getContext(), callText).trim().split('#');
+	console.log('Length = ' + exp.length);
+	elAlertExplain.value = exp[0];
+	if (exp.length > 1) console.log('Message ' + exp[1]);
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
+	elMessage = getVisibleMessageInput();
+	console.log('Message box = ' + elMessage);
+	if (elMessage == null) return;
+	console.log('Message ' + exp[1]);
+	if (exp.length > 1) {
+		elMessage.value = exp[1];
+	} else {
+		elMessage.value = "";
+	}
+	eventInput = new Event('input');
+	elMessage.dispatchEvent(eventInput);
 };
 
 // Append current explanation text in update table, if not found in the alert table
@@ -417,7 +489,7 @@ function saveAlert() {
 	alertText = findAlert(getContext(), callText).trim();
 	if (explainText != alertText) {
 		newrec = stripContext(getContext()) + "," + callText + "," + explainText;
-//		console.log("New record " + newrec)
+		//		console.log("New record " + newrec)
 		alertTable.push(newrec);
 		dealElement = document.querySelector('.vulPanelInnerPanelClass');
 		updateText = updateText + newrec + "," + getNow() + " Deal " + dealElement.outerText + "\n";
