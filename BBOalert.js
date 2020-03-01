@@ -278,14 +278,14 @@ function getClipboardData() {
 				if (ctx.endsWith("Db")) n = 7;
 				if (ctx.endsWith("Rd")) n = 7;
 				exp = rec[1].slice(n);
-				exp = exp.replace(",", ";");
+				exp = exp.split(',').join(';');
 				if (exp.length > 39) {
 					exp = "Explanation too long; Please read chat" + "#" + exp;
 				}
 				alertTable[i] = ctx + "," + exp;
 				updateText = updateText + alertTable[i] + "\n";
 				updateCount++;
-				console.log(alertTable[i]);
+//				console.log(alertTable[i]);
 			}
 
 		}
@@ -462,15 +462,15 @@ function clearAlert() {
 function getAlert() {
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	exp = findAlert(getContext(), callText).trim().split('#');
-	console.log('Length = ' + exp.length);
+//	console.log('Length = ' + exp.length);
 	elAlertExplain.value = exp[0];
-	if (exp.length > 1) console.log('Message ' + exp[1]);
+//	if (exp.length > 1) console.log('Message ' + exp[1]);
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
 	elMessage = getVisibleMessageInput();
-	console.log('Message box = ' + elMessage);
+//	console.log('Message box = ' + elMessage);
 	if (elMessage == null) return;
-	console.log('Message ' + exp[1]);
+//	console.log('Message ' + exp[1]);
 	if (exp.length > 1) {
 		elMessage.value = exp[1];
 	} else {
