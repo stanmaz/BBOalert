@@ -49,6 +49,8 @@ Note : CHROME does not support extensions under Android. You should use YANDEX b
 
 ## How to use
 
+<b>Important : ad blockers must be disabled before using BBOalert. This can be done by disabling ad blockers globally or by declaring www.bridgebase.com in the whitelist of the ad blocker allowing ads specifically for the BBO site</b>
+
 The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to send eventual updates.
 
 To use BBOalert you should :
