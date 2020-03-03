@@ -29,7 +29,7 @@ var alertTableSize = 0;
 var clipBoard = navigator.clipboard;
 var adPanel = null;
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
-var p1 = document.createElement("P");
+var p1 = document.createElement("span");
 var b1 = document.createElement("button");
 var b2 = document.createElement("button");
 var p2 = document.createElement("P");
@@ -41,38 +41,47 @@ if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
 }
 
 // Set BBO specific control elements
-p1.textContent = "BBOalert";
+p1.textContent = "BBOalert ";
 p1.id = 'bboalert-p1';
 p1.style.lineHeight = "0";
 b1.textContent = "Import";
 b1.id = 'bboalert-b1';
-b1.style.width = "100%"
-b1.style.fontSize = "16px"
+//b1.style.width = "100%"
+b1.style.fontSize = "22px"
 b1.onmousedown = getClipboardData;
 b2.textContent = "Export";
 b2.id = 'bboalert-b2';
-b2.style.width = "100%"
-b2.style.fontSize = "16px"
+//b2.style.width = "100%"
+b2.style.fontSize = "22px"
 b2.onmousedown = exportUpdateData;
 p2.textContent = "Bid against:";
 p2.id = 'bboalert-p2';
 p1.style.lineHeight = "0";
-defenseSelector.add(new Option('Default'));
+defenseSelector.add(new Option('Def.option'));
 defenseSelector.id = 'bboalert-ds';
-defenseSelector.style.width = "100%";
-defenseSelector.style.fontSize = "16px";
-
+defenseSelector.style.height = "100%";
+defenseSelector.style.marginRight = "5px";
+defenseSelector.style.fontSize = "22px";
+defenseSelector.style.verticalAlign = 'middle'
+bar = document.querySelector('.moreMenuDivClass');
+bar.insertBefore(defenseSelector,bar.firstChild);
 
 
 // Add BBOalert control elements to the panel
 function setAdPanel() {
-	adPanel = document.getElementById("bbo_ad1_i");
-	if (adPanel.children.length > 2) return;
-	adPanel.appendChild(p1);
-	adPanel.appendChild(b1);
-	adPanel.appendChild(b2);
-	adPanel.appendChild(p2);
-	adPanel.appendChild(defenseSelector);
+//	adPanel = document.getElementById("bbo_ad1_i");
+//	if (adPanel.children.length > 2) return;
+adPanel = document.querySelector('.statsClass');
+if (adPanel == null) return;
+adPanel.insertBefore(b2,adPanel.firstChild)
+adPanel.insertBefore(b1,adPanel.firstChild)
+adPanel.insertBefore(p1,adPanel.firstChild)
+
+//	adPanel.appendChild(p1);
+//	adPanel.appendChild(b1);
+//	adPanel.appendChild(b2);
+//	adPanel.appendChild(p2);
+//	adPanel.appendChild(defenseSelector);
 }
 
 // Erase advertizing from the panel
@@ -420,9 +429,9 @@ function explainOnKeyup(key) {
 
 // Find the bidding box element and check if new data present in the clipboard
 function getBiddingBox() {
-	var adPanel = document.getElementById("bbo_ad1_i");
-	adPanel.style.backgroundColor = "rgb(240, 238, 208)";
-	cleanAdPanel();
+//	var adPanel = document.getElementById("bbo_ad1_i");
+//	adPanel.style.backgroundColor = "rgb(240, 238, 208)";
+//	cleanAdPanel();
 	setAdPanel();
 	elMessage = getVisibleMessageInput();
 	if (elMessage != null) {
