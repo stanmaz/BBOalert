@@ -32,6 +32,7 @@ var version = 'BBOalert ' + chrome.runtime.getManifest().version;
 var p1 = document.createElement("span");
 var b1 = document.createElement("button");
 var b2 = document.createElement("button");
+var b3 = document.createElement("button");
 var p2 = document.createElement("P");
 var defenseSelector = document.createElement("select");
 
@@ -44,44 +45,65 @@ if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
 p1.textContent = "BBOalert ";
 p1.id = 'bboalert-p1';
 p1.style.lineHeight = "0";
+
 b1.textContent = "Import";
 b1.id = 'bboalert-b1';
 //b1.style.width = "100%"
 b1.style.fontSize = "22px"
-b1.onmousedown = getClipboardData;
+b1.onmousedown = importClipboardData;
+b1.style.verticalAlign = 'middle';
+b1.style.marginRight = "5px";
+
 b2.textContent = "Export";
 b2.id = 'bboalert-b2';
 //b2.style.width = "100%"
 b2.style.fontSize = "22px"
 b2.onmousedown = exportUpdateData;
+b2.style.verticalAlign = 'middle';
+b2.style.marginRight = "5px";
+
+b3.textContent = "Append";
+b3.id = 'bboalert-b2';
+//b2.style.width = "100%"
+b3.style.fontSize = "22px"
+b3.onmousedown = appendClipboardData;
+b3.style.verticalAlign = 'middle';
+b3.style.marginRight = "5px";
+
+
 p2.textContent = "Bid against:";
 p2.id = 'bboalert-p2';
 p1.style.lineHeight = "0";
-defenseSelector.add(new Option('Def.option'));
+defenseSelector.add(new Option('Option'));
 defenseSelector.id = 'bboalert-ds';
 defenseSelector.style.height = "100%";
 defenseSelector.style.marginRight = "5px";
 defenseSelector.style.fontSize = "22px";
 defenseSelector.style.verticalAlign = 'middle'
 bar = document.querySelector('.moreMenuDivClass');
-bar.insertBefore(defenseSelector,bar.firstChild);
+bar.insertBefore(defenseSelector, bar.firstChild);
+bar.insertBefore(b2, bar.firstChild)
+bar.insertBefore(b3, bar.firstChild)
+bar.insertBefore(b1, bar.firstChild)
+//bar.insertBefore(p1, bar.firstChild)
 
 
 // Add BBOalert control elements to the panel
 function setAdPanel() {
-//	adPanel = document.getElementById("bbo_ad1_i");
-//	if (adPanel.children.length > 2) return;
-adPanel = document.querySelector('.statsClass');
-if (adPanel == null) return;
-adPanel.insertBefore(b2,adPanel.firstChild)
-adPanel.insertBefore(b1,adPanel.firstChild)
-adPanel.insertBefore(p1,adPanel.firstChild)
+	//	adPanel = document.getElementById("bbo_ad1_i");
+	//	if (adPanel.children.length > 2) return;
+	adPanel = document.querySelector('.statsClass');
+	if (adPanel == null) return;
+	adPanel.insertBefore(b2, adPanel.firstChild)
+	adPanel.insertBefore(b3, adPanel.firstChild)
+	adPanel.insertBefore(b1, adPanel.firstChild)
+	adPanel.insertBefore(p1, adPanel.firstChild)
 
-//	adPanel.appendChild(p1);
-//	adPanel.appendChild(b1);
-//	adPanel.appendChild(b2);
-//	adPanel.appendChild(p2);
-//	adPanel.appendChild(defenseSelector);
+	//	adPanel.appendChild(p1);
+	//	adPanel.appendChild(b1);
+	//	adPanel.appendChild(b2);
+	//	adPanel.appendChild(p2);
+	//	adPanel.appendChild(defenseSelector);
 }
 
 // Erase advertizing from the panel
@@ -209,8 +231,17 @@ function addDefenseSelectorOption(optionText) {
 	defenseSelector.add(new Option(optionText));
 }
 
+function importClipboardData() {
+	getClipboardData(true)
+}
+
+function appendClipboardData() {
+	getClipboardData(false)
+}
+
+
 // Retrieve text from clipboard
-function getClipboardData() {
+function getClipboardData(newData) {
 	navigator.clipboard.readText().then(function(cbData) {
 		//		console.log("Clipboard length = " + cbData.length);
 		if (!cbData.startsWith("BBOalert") && !cbData.startsWith("*00") && !cbData.startsWith("?00")) {
@@ -220,14 +251,22 @@ function getClipboardData() {
 			}
 			return;
 		}
-		if (alertData.length == cbData.length) {
-			setTitleText(version + ' : same data in clipboard');
-			//			console.log("Same table in clipboard");
+		//		if (alertData.length == cbData.length) {
+		//			setTitleText(version + ' : same data in clipboard');
+		//			//			console.log("Same table in clipboard");
+		//			return;
+		//		}
+		if (!cbData.startsWith("BBOalert") && !newData) {
+			setTitleText(version + ' : can not append BSS formatted data');
 			return;
 		}
-		updateText = "";
-		updateCount = 0;
-		alertData = cbData;
+		if (newData) {
+			updateText = "";
+			updateCount = 0;
+			alertData = cbData;
+		} else {
+			alertData = alertData + cbData;
+		}
 		alertTable = alertData.split("\n");
 		clearDefenseSelector();
 		if (cbData.startsWith("BBOalert")) {
@@ -294,12 +333,12 @@ function getClipboardData() {
 				alertTable[i] = ctx + "," + exp;
 				updateText = updateText + alertTable[i] + "\n";
 				updateCount++;
-//				console.log(alertTable[i]);
+				//				console.log(alertTable[i]);
 			}
 
 		}
 		alertTableSize = alertTable.length;
-		setTitleText(version + " : " + alertTable.length + " records retrieved from clipboard")
+		setTitleText(version + " : total of " + alertTable.length + " records")
 		//		console.log("Table length = " + alertTable.length);
 		return;
 	}
@@ -429,10 +468,10 @@ function explainOnKeyup(key) {
 
 // Find the bidding box element and check if new data present in the clipboard
 function getBiddingBox() {
-//	var adPanel = document.getElementById("bbo_ad1_i");
-//	adPanel.style.backgroundColor = "rgb(240, 238, 208)";
-//	cleanAdPanel();
-	setAdPanel();
+	//	var adPanel = document.getElementById("bbo_ad1_i");
+	//	adPanel.style.backgroundColor = "rgb(240, 238, 208)";
+	//	cleanAdPanel();
+//	setAdPanel();
 	elMessage = getVisibleMessageInput();
 	if (elMessage != null) {
 		elMessage.addEventListener('keyup', messageOnKeyup);
@@ -471,15 +510,15 @@ function clearAlert() {
 function getAlert() {
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	exp = findAlert(getContext(), callText).trim().split('#');
-//	console.log('Length = ' + exp.length);
+	//	console.log('Length = ' + exp.length);
 	elAlertExplain.value = exp[0];
-//	if (exp.length > 1) console.log('Message ' + exp[1]);
+	//	if (exp.length > 1) console.log('Message ' + exp[1]);
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
 	elMessage = getVisibleMessageInput();
-//	console.log('Message box = ' + elMessage);
+	//	console.log('Message box = ' + elMessage);
 	if (elMessage == null) return;
-//	console.log('Message ' + exp[1]);
+	//	console.log('Message ' + exp[1]);
 	if (exp.length > 1) {
 		elMessage.value = exp[1];
 	} else {

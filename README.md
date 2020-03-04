@@ -24,7 +24,7 @@ BBOalert is useful for all types of BBO users :
 - <b>casual players without a fixed partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if identical situation occurs. You only alert once ! The program enables you to define also keyboard shortcuts for frequently used expressions.
 - <b>'natural' players with a fixed partner</b> : SAYC is simple but inefficient in many situations. Adding some gadgets gives obvious advantages. BBOalert will help to document particular agreements. By using a common database with the partner, the explanation given to the opponents will be coherent. Practicing natural systems other than SAYC imply frequent alerting because of few, but essential differences.
 - <b>'artificial' players with a fixed partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and the opponents will receive correct information. Advanced features enable you to differentiate seat dependent openings and to program different defense schemes depending on conventions used by opponents.
-
+\pagebreak
 ## Installation
 
 ### Firefox
@@ -49,8 +49,6 @@ Note : CHROME does not support extensions under Android. You should use YANDEX b
 
 ## How to use
 
-<b>Important : ad blockers must be disabled before using BBOalert. This can be done by disabling ad blockers globally or by declaring www.bridgebase.com in the whitelist of the ad blocker allowing ads specifically for the BBO site</b>
-
 The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to send eventual updates.
 
 To use BBOalert you should :
@@ -60,6 +58,10 @@ To use BBOalert you should :
 - copy it to clipboard
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
 - press "Import" button
+
+'Append' button allows to add code to the already imported code. This allows to split data in more than one file. Eg. separate file for openings and development, the second for overcalls and the third for keyboard shortcuts.
+
+<b>Only BBOalert native code can be appended, not BSS data.</b> Appending BBOalert native data to the previously imported BSS data is allowed.
 
 BBOalert records manually alerted calls during the game, To copy the data to the clipboard use "Export" button. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before committing the changes.
 
@@ -153,9 +155,10 @@ Against,2D_Multi
 	any code here specific for defense against 2D Multi
 Against,Muiderberg
 	any code here specific for defense against Muiderberg
-	
-You will be able to select the option on-the-fly with a drop-down box at the left side of the screen.
+
 The 'Against' options should be placed at the very end of the file.
+
+You will be able to select the defense option on-the-fly with the <b>Option</b> drop-down box at the top-left side of the screen.
 
 ### Shortcuts
 
