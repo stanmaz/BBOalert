@@ -57,6 +57,7 @@ To use BBOalert you should :
 - select all text
 - copy it to clipboard
 - open BBO session using URL https://www.bridgebase.com/v3/?lang=en
+- make sure that BBO is in 'Split Screen' mode (Account + Settings + Split Screen switch)
 - press "Import" button
 
 'Append' button allows to add code to the already imported code. This allows to split data in more than one file. Eg. separate file for openings and development, the second for overcalls and the third for keyboard shortcuts.
