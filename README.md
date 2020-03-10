@@ -37,11 +37,11 @@ Windows, Linux and Android platforms are supported
 
 ### Chrome
 
-The extension is not yet officially published in Google's web-store. Therefore you should install it in CHROME browser manually from source code :
+The extension is not yet officially published in Google's web-store. Therefore you should install it in the CHROME browser manually from source code :
 
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
 - Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
-- open Chrome browser session with URL "chrome://extensions"
+- open Chrome browser tab with "chrome://extensions"
 - make sure the Developer Mode is switched ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
 
@@ -64,7 +64,7 @@ To use BBOalert you should :
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> Appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert records manually alerted calls during the game, To copy the data to the clipboard use "Export" button. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before committing the changes.
+BBOalert records all manually alerted calls during the game, To copy the data to the clipboard use "Export" button. In the text editor, navigate to the end of the file, and do 'Paste', The records imported from BBO alert will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the alerted calls before committing the changes.
 
 "Confirm bids" option in BBO ("Account" + "Settings") is required to be able to enter or review alert's explanation before confirming the call. You are responsible for the explanation sent to the opponents.
 
