@@ -3,7 +3,7 @@
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
 We assume that you are familiar with BBO.
-![Screenshot at 2020-03-09 16-52-46](https://user-images.githubusercontent.com/54308645/76295297-a7f97400-62b4-11ea-82c5-61a2cbafcf46.png)
+
 ## Purpose
 
 Tired of repeating always the same story while alerting your bids in BBO. If yes, this extension is your friend.
