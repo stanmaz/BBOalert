@@ -53,9 +53,9 @@ The data should be stored in a CSV-formatted text file. BBOalert uses the clipbo
 
 BBOalert requires following conditions :
 
-- ad blockers must be disabled globally or selectivelly for the URL www.bridgebase.com
-- BBO must be used in split screen mode (Account + Settings + Split Screen)
-- BBO must be used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
+- ad blockers disabled globally or selectivelly for the URL www.bridgebase.com
+- BBO in split screen mode (Account + Settings + Split Screen)
+- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
 - BBO should be started using URL https://www.bridgebase.com/v3/?lang=en ensuring english language user interface
 
 At each BBO session, you should :
