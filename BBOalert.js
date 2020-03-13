@@ -137,7 +137,6 @@ function initOptionDefaults() {
 	for (var i = 0; i < adPanel.children.length; i++) {
 		txt = adPanel.children[i].textContent;
 		txt1 = txt.split(" ");
-		console.log(i + " " + adPanel.children[i].textContent + " " + txt1[0] + " - " + oldPrefix);
 		if (txt1[0] == oldPrefix) {
 			adPanel.children[i].style.backgroundColor = 'white';
 		} else {
@@ -227,7 +226,6 @@ function getContext() {
 		return "xx"
 	}
 	auction = bs[0].querySelectorAll('.auctionBoxCellClass')
-	//	console.log(auction.length)
 	if (auction.length == 0) {
 		return "xx"
 	};
@@ -291,7 +289,6 @@ function appendClipboardData() {
 // Retrieve text from clipboard
 function getClipboardData(newData) {
 	navigator.clipboard.readText().then(function(cbData) {
-		console.log("Clipboard length = " + cbData.length);
 		if (!cbData.startsWith("BBOalert") && !cbData.startsWith("*00") && !cbData.startsWith("?00")) {
 			setTitleText(version + ' : no valid data found in clipboard');
 			if (alertData == "") {
@@ -299,11 +296,6 @@ function getClipboardData(newData) {
 			}
 			return;
 		}
-		//		if (alertData.length == cbData.length) {
-		//			setTitleText(version + ' : same data in clipboard');
-		//			//			console.log("Same table in clipboard");
-		//			return;
-		//		}
 		if (!cbData.startsWith("BBOalert") && !newData) {
 			setTitleText(version + ' : can not append BSS formatted data');
 			return;
@@ -380,13 +372,11 @@ function getClipboardData(newData) {
 				alertTable[i] = ctx + "," + exp;
 				updateText = updateText + alertTable[i] + "\n";
 				updateCount++;
-				//				console.log(alertTable[i]);
 			}
 
 		}
 		alertTableSize = alertTable.length;
 		setTitleText(version + " : " + alertTable.length + " records")
-		//		console.log("Table length = " + alertTable.length);
 		return;
 	}
 	);
@@ -441,7 +431,6 @@ function checkOption(r) {
 
 // Find explanation text for alerted call in the bidding context
 function findAlert(context, call) {
-//	console.log('findAlert :' + context + ':' + call);
 	matchOption = true;
 	lastContext = "";
 	idx = -1;
@@ -455,7 +444,6 @@ function findAlert(context, call) {
 		currentContext = rec[0].trim();
 		if (currentContext == "+") {
 			currentContext = lastContext;
-			console.log('New context ' + currentContext);
 		} else {
 			lastContext = currentContext;
 		}
@@ -494,11 +482,9 @@ function messageOnKeyup(key) {
 	elMessage = elMessage = getVisibleMessageInput();
 	text1 = elMessage.value;
 	if (key.altKey) {
-		//		console.log('Alt' + key.key.toUpperCase());
 		text1 = text1 + 'Alt' + key.key.toUpperCase();
 	}
 	text2 = findShortcut(text1);
-	//	console.log("Message " + key.key + ' ' + key.altKey + ' ' + text1 + " replace by " + text2);
 	if (text1 != text2) {
 		elMessage.value = text2;
 		eventInput = new Event('input');
@@ -525,11 +511,9 @@ function explainOnKeyup(key) {
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	text1 = elAlertExplain.value;
 	if (key.altKey) {
-		//		console.log('Alt' + key.key.toUpperCase());
 		text1 = text1 + 'Alt' + key.key.toUpperCase();
 	}
 	text2 = findShortcut(text1);
-	//	console.log("Explain " + text1 + " replace by " + text2);
 	if (text1 != text2) {
 		elAlertExplain.value = text2;
 		eventInput = new Event('input');
@@ -552,15 +536,11 @@ function clearAlert() {
 function getAlert() {
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	exp = findAlert(getContext(), callText).trim().split('#');
-	//	console.log('Length = ' + exp.length);
 	elAlertExplain.value = exp[0];
-	//	if (exp.length > 1) console.log('Message ' + exp[1]);
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
 	elMessage = getVisibleMessageInput();
-	//	console.log('Message box = ' + elMessage);
 	if (elMessage == null) return;
-	//	console.log('Message ' + exp[1]);
 	if (exp.length > 1) {
 		elMessage.value = exp[1];
 	} else {
@@ -572,20 +552,17 @@ function getAlert() {
 
 // Append current explanation text in update table, if not found in the alert table
 function saveAlert() {
-	//	console.log("Save Alert");
 	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 	explainText = elAlertExplain.value;
 	if (explainText == "") return;
 	alertText = findAlert(getContext(), callText).trim();
 	if (explainText != alertText) {
 		newrec = stripContext(getContext()) + "," + callText + "," + explainText;
-		//		console.log("New record " + newrec)
 		alertTable.push(newrec);
 		dealElement = document.querySelector('.vulPanelInnerPanelClass');
 		updateText = updateText + newrec + "," + getNow() + " Deal " + dealElement.outerText + "\n";
 		updateCount++;
 		writeToClipboard(updateText);
-		//		console.log(updateText);
 	}
 };
 
@@ -649,42 +626,34 @@ function setButtonEvents() {
 	});
 	elBiddingButtons[7].onmousedown = function() {
 		callText = callText[0] + "C";
-		//		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[7].addEventListener("touchstart", function() {
 		callText = callText[0] + "C";
-		//		console.log(callText);
 		getAlert();
 	});
 	elBiddingButtons[8].onmousedown = function() {
 		callText = callText[0] + "D";
-		//		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[8].addEventListener("touchstart", function() {
 		callText = callText[0] + "D";
-		//		console.log(callText);
 		getAlert();
 	});
 	elBiddingButtons[9].onmousedown = function() {
 		callText = callText[0] + "H";
-		//		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[9].addEventListener("touchstart", function() {
 		callText = callText[0] + "H";
-		//		console.log(callText);
 		getAlert();
 	});
 	elBiddingButtons[10].onmousedown = function() {
 		callText = callText[0] + "S";
-		//		console.log(callText);
 		getAlert();
 	};
 	elBiddingButtons[10].addEventListener("touchstart", function() {
 		callText = callText[0] + "S";
-		//		console.log(callText);
 		getAlert();
 	});
 	elBiddingButtons[11].onmousedown = function() {
@@ -693,7 +662,6 @@ function setButtonEvents() {
 	};
 	elBiddingButtons[11].addEventListener("touchstart", function() {
 		callText = callText[0] + "N";
-		//		console.log(callText);
 		getAlert();
 	});
 	elBiddingButtons[12].onmousedown = function() {
