@@ -91,21 +91,23 @@ I recommend to proceed this way :
 
 This way, the file is ready for the next session and will contain recently alerted calls.
 
+The best method to learn BBOalert is to create e teaching table and to experiment with data.
+
 ## Data file format
 
-The file must begin with the <b>BBOalert</b> keyword to be recognized by the program.
+The file must begin with the <b>BBOalert</b> keyword (case sensitive) to be recognized by the program.
 
 Comma separated value (CSV) format is used for each record.
 
-Alerted calls should contain three text fields separated by commas :
+Alerted calls should contain at least three text fields separated by commas :
 
-	<context>,<call>,<explanation>
+	<context>,<call>,<explanation>[,optional text ignored by BBOalert]
 	
-where "context" is the bidding sequence preceding the "call". In those two fields we use two-characters self-explaining tokens :
+where <context> is the bidding sequence preceding the <call>. In those two fields we use two-characters self-explaining tokens :
 
 	1C 1D 1H 1S 1N Db Rd 2C 2D ....
 	
-To increase the readability of the code, we use -- token for pass and not Pa. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in data fields.
+To increase the readability of the code, we use '--' token for pass and not 'Pa'. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in data fields.
 
 ### Examples
 
@@ -138,7 +140,7 @@ Note : -- codes mean pass by opponents
 
 An empty <context> field means seat independent opening. By using -- codes you can define seat dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
 	
-	,1S,12-21p 5+!S,	This is the normal opening for all
+	,1S,12-21p 5+!S,	This is the normal opening for all seats
 	----,1S,8-21 5+!S,	except after two passes. It can be weaker
 	----1S--,2C,Drury,	in such a case Drury is used
 
@@ -157,10 +159,12 @@ you can use code
 	1N--,	2C,	Stayman
 	+,	2D,	Texas !H
 	+,	2H,	Texas !S
-
+	
 #### Long explanation text
 
-If you need more than 39 characters to explain your alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat area which should be sent to the opponents to complete the alert procedure. Example :
+If you need more than 39 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat messaage should be sent to the opponents to complete the alert procedure. 
+
+Example :
 
 	1S,2C,Please read chat for explanation#Natural overcall with at least a decent 5-card suit
 
@@ -174,9 +178,11 @@ the code means : whatever the opponents do, 2H remains a mandatory transfer to 2
 
 ### Optional code
 
-Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some fixed pairs will use another bidding system like ACOL or French Standard. If you do not play with your ususal partner, you are not concerned by this section. You will be condemned to improvise. But if you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch between different defense options during the game.
+Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some pairs will use another bidding system like ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch on-the-fly between different defense options during the game.
 
-To resolve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen. The susequent options having the same prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
+To resolve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
+
+The susequent options having the common prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
 
 It is recommended to provide all overcalls in as optional code blocks for each possible opening. This will enable you to unselect portions of code if necessary.
 
