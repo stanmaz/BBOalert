@@ -103,7 +103,7 @@ Alerted calls should contain at least three text fields separated by commas :
 
 	<context>,<call>,<explanation>[,optional text ignored by BBOalert]
 	
-where <context> is the bidding sequence preceding the <call>. In those two fields we use two-characters self-explaining tokens :
+where "context" is the bidding sequence preceding the <call>. In those two fields we use two-characters self-explaining tokens :
 
 	1C 1D 1H 1S 1N Db Rd 2C 2D ....
 	
@@ -138,7 +138,7 @@ Note : -- codes mean pass by opponents
 
 #### Seat dependent openings
 
-An empty <context> field means seat independent opening. By using -- codes you can define seat dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
+An empty "context" field means seat independent opening. By using -- codes you can define seat dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
 	
 	,1S,12-21p 5+!S,	This is the normal opening for all seats
 	----,1S,8-21 5+!S,	except after two passes. It can be weaker
@@ -146,7 +146,7 @@ An empty <context> field means seat independent opening. By using -- codes you c
 
 #### Continued context
 
-If the context is identical with the previous record, the '+' character can be used in the <context> field
+If the context is identical with the previous record, the '+' character can be used in the "context" field
 
 Example : instead of code 
 
@@ -170,7 +170,7 @@ Example :
 
 #### Wild cards
 
-In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the <context> field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one caracter and have the same effect. In the example :
+In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one caracter and have the same effect. In the example :
 
 	1N__,2H,Transfer->!S
 	
