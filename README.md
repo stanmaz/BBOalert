@@ -1,5 +1,7 @@
 # BBOalert
 
+Actual version : 2.3
+
 Automatic alert in Bridge Base Online service (www.bridgebase.com)
 
 We assume that you are familiar with BBO.
@@ -180,11 +182,13 @@ the code means : whatever the opponents do, 2H remains a mandatory transfer to 2
 
 Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some pairs will use another bidding system like ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch on-the-fly between different defense options during the game.
 
-To resolve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
+To solve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
 
 The susequent options having the common prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
 
 It is recommended to provide all overcalls in as optional code blocks for each possible opening. This will enable you to unselect portions of code if necessary.
+
+Optional blocks of data can be used also for vulnerability dependend openings. Actually only manual selection is possible.
 
 Example :
 
@@ -230,4 +234,8 @@ BBOalert converts BSS data internally to the BBOalert native format. Actually se
 
 With the 'Export' button the converted data will be written to the clipboard. You can paste it into the text editor and use as starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a sepatated file to be appendend ('Append' button).
 
+## Issues
+
+- vulnerability and seat dependent openings to be supported by BSS file reader
+- vulnerability dependent code blocks to be swiched automatically
 
