@@ -51,7 +51,7 @@ b2.onmousedown = exportUpdateData;
 b2.style.verticalAlign = 'middle';
 b2.style.marginRight = "5px";
 b3.textContent = "Append";
-b3.id = 'bboalert-b2';
+b3.id = 'bboalert-b3';
 b3.style.fontSize = "22px"
 b3.onmousedown = appendClipboardData;
 b3.style.verticalAlign = 'middle';
@@ -105,26 +105,24 @@ function setControlButtons() {
 
 // Erase advertizing from the panel
 function cleanAdPanel() {
-	adPanel0 = document.getElementById("bbo_ad1");
-	adPanel = document.getElementById("adpanel");
-	if (adPanel != null) {
-		adPanel0.style.display = "none";
-		return;
-	}
-	adPanel = adPanel0.cloneNode("false");
+	if (document.getElementById("adpanel") != null) return;
+	appPanel = document.getElementById("bbo_app");
+	bboad1Panel = document.getElementById("bbo_ad1");
+	adPanel = document.createElement("div");
+	adPanel.style.cssText = bboad1Panel.style.cssText;
 	adPanel.id = "adpanel";
-	adPanel0.style.display = "none";
 	adPanel.style.backgroundColor = 'black';
-	document.body.insertBefore(adPanel, document.body.firstChild);
 	adPanel.style.display = "block";
 	adPanel.style.overflow = "scroll";
 	adPanel.style.overflowX = "hidden";
+	document.body.insertBefore(adPanel, appPanel);
 }
 
 // Erase all BBOalert buttons
 function clearOptionButtons() {
 	adPanel = document.getElementById("adpanel");
-	while (adpanel.hasChildNodes()) {
+	if (adPanel == null) return;
+	while (adPanel.hasChildNodes()) {
 		adPanel.removeChild(adPanel.firstChild);
 	}
 }
@@ -308,8 +306,8 @@ function getClipboardData(newData) {
 			alertData = alertData + cbData;
 		}
 		alertTable = alertData.split("\n");
+		clearOptionButtons();
 		if (cbData.startsWith("BBOalert")) {
-			clearOptionButtons();
 			for (var i = 0; i < alertTable.length; i++) {
 				rec = alertTable[i].split(",");
 				if (rec.length > 1) {
@@ -447,7 +445,7 @@ function findAlert(context, call) {
 		} else {
 			lastContext = currentContext;
 		}
-		
+
 		if (currentContext == 'Option') {
 			matchOption = checkOption(rec);
 			continue;
@@ -695,3 +693,4 @@ function setButtonEvents() {
 		saveAlert();
 	});
 }
+
