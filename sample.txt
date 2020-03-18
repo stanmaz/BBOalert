@@ -78,4 +78,10 @@ Option,1NT Standard
 Option,1NT Weak
 1N,Db,For penalties
 
+Option,MyOpenings @n
+,1N,12-14 balanced
+
+Option,MyOpenings @v
+,1N,15-17 balanced
+
 Option
