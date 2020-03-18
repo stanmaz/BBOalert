@@ -1,8 +1,16 @@
 # BBOalert
 
-Actual version : 2.3
+Actual version : 2.4
 
-Automatic alert in Bridge Base Online service (www.bridgebase.com)
+The purpose of this browser extension is to reduce to the minimum the manual operations due to the alerting procedure while playin bridge on BBO (www.bridgebase.com).
+
+Main features :
+- Automatic alert
+- Alert recording
+- Seat dependent openings and development
+- Vulnerability dependent openings and development
+- Keyboard shortcuts and abbreviations
+- Full Disclosure BSS file support
 
 We assume that you are familiar with BBO.
 
@@ -180,7 +188,7 @@ the code means : whatever the opponents do, 2H remains a mandatory transfer to 2
 
 ### Optional code
 
-Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some pairs will use another bidding system like ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch on-the-fly between different defense options during the game.
+Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world standard and some opponents will use another bidding system like ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch on-the-fly between different defense options during the game.
 
 To solve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
 
@@ -188,9 +196,10 @@ The susequent options having the common prefix word will be automatically groupe
 
 It is recommended to provide all overcalls in as optional code blocks for each possible opening. This will enable you to unselect portions of code if necessary.
 
-Optional blocks of data can be used also for vulnerability dependend openings. Actually only manual selection is possible.
+Optional blocks of data can be used also for vulnerability dependend openings. The selection is done automatically if the block name contains one of the tags : @n of @v. This selection can be manually overriden by the user during the game.
 
 Example :
+
 
 	Option,NT 15-17
 		1N,Db,any 6 card suit (DONT)	 
@@ -200,9 +209,13 @@ Example :
 		... code specific for the defense against weak-2 opening
 	Option,2H weak 5!H and 4+m
 		... code specific for the defense against Muiderberg opening
+	Option,Openings @n
+		,1N,12-14 balanced
+	Option,Openings @v
+		,1N,15-17 balanced
 	Option
 
-In this example two separated groups of options are created.
+In this example three separated groups of options are created.
 
 ### Shortcuts
 
@@ -230,12 +243,9 @@ BBOalert can read BSS files in the same way as native BBOalert :
 - select all text and copy it to the clipboard
 - in BBOalert use 'Import' button.
 
-BBOalert converts BSS data internally to the BBOalert native format. Actually seat- and vulnerability dependent calls are ignored and reported with error code.
+BBOalert converts BSS data internally to the BBOalert native format. Vulnerability dependent calls are supported. Seat dependent openings are set in separated optional blocks that can be manually switched ON and OFF during the game.
 
 With the 'Export' button the converted data will be written to the clipboard. You can paste it into the text editor and use as starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a sepatated file to be appendend ('Append' button).
 
-## Issues
 
-- vulnerability and seat dependent openings to be supported by BSS file reader
-- vulnerability dependent code blocks to be swiched automatically
 
