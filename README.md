@@ -192,7 +192,7 @@ Almost everyone on BBO is using SAYC bidding system. But SAYC is not the world s
 
 To solve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
 
-The susequent options having the common prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
+The subsequent options having the common prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
 
 It is recommended to provide all overcalls in as optional code blocks for each possible opening. This will enable you to unselect portions of code if necessary.
 
@@ -209,9 +209,9 @@ Example :
 		... code specific for the defense against weak-2 opening
 	Option,2H weak 5!H and 4+m
 		... code specific for the defense against Muiderberg opening
-	Option,Openings @n
+	Option,MyOpenings @n
 		,1N,12-14 balanced
-	Option,Openings @v
+	Option,MyOpenings @v
 		,1N,15-17 balanced
 	Option
 
