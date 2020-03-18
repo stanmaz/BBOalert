@@ -1,18 +1,22 @@
 {
-  "manifest_version":2,
-  "name":"BBOalert",
-  "description":"Auto alert on BBO",
-  "version":"2.3",
-  "permissions": [
-    "storage",
-    "clipboardRead",
-    "clipboardWrite"],
-  "content_scripts": [
-    {
-      "matches": [
-        "*://www.bridgebase.com/*"],
-      "js": [
-        "BBOalert.js"]
-    }
-  ]
+	"manifest_version": 2,
+	"name": "BBOalert",
+	"description": "Auto alert on BBO",
+	"version": "2.4",
+	"permissions": [
+		"storage",
+		"clipboardRead",
+		"clipboardWrite"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://www.bridgebase.com/*"
+			],
+			"js": [
+				"functions.js",
+				"BBOalert.js"
+			]
+		}
+	]
 }

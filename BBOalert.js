@@ -1,8 +1,6 @@
 /*
 BBOalert extension will :
 - be activated at www.bridgebase.com startup
-- check periodically if clipboard contains the apropriate data and read it to the internal alert table.
-  If data in the clipboard is changed, the table will be overwritten.
 - During bidding, BBOalert checks if for the actual bidding context the call is defined as alerted.
   If yes, the explanation text is retrieved from the table and shown in the 'Explanation' text field
 - Explanation can be modified by hand or a new explanation can be entered. In such a case the update text
@@ -37,6 +35,7 @@ var adPanel = null;
 var b1 = document.createElement("button");
 var b2 = document.createElement("button");
 var b3 = document.createElement("button");
+var lastDealNumber = '';
 // Set BBO specific control elements
 b1.textContent = "Import";
 b1.id = 'bboalert-b1';
@@ -58,7 +57,7 @@ b3.style.verticalAlign = 'middle';
 b3.style.marginRight = "5px";
 
 // Check every second if bidding box is present
-var timerId = setInterval(() => getBiddingBox(), 1000);
+var timerId = setInterval(() => getBiddingBox(), 500);
 
 // Find the bidding box element and check if new data present in the clipboard
 function getBiddingBox() {
@@ -76,6 +75,10 @@ function getBiddingBox() {
 	//	set listeners to bidding box buttons 
 	elBiddingBox = document.querySelector(".biddingBoxClass");
 	if (elBiddingBox != null) {
+		if (getDealNumber() != lastDealNumber) {
+			lastDealNumber = getDealNumber();
+			checkOptionsVulnerability();
+		}
 		elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
 		if (elAlertExplain != null) {
 			elAlertExplain.addEventListener('keyup', explainOnKeyup);
@@ -143,18 +146,41 @@ function initOptionDefaults() {
 		}
 		oldPrefix = txt1[0];
 	}
+	checkOptionsVulnerability();
 }
 
 // Make sure thet only the selected option is acvite
 function unselectOtherButtons(selectedOption) {
-	adPanel = document.getElementById("adpanel");
-	txt0 = selectedOption.split(" ");
+	var adPanel = document.getElementById("adpanel");
+	var txt0 = selectedOption.split(" ");
 	for (var i = 0; i < adPanel.children.length; i++) {
-		txt = adPanel.children[i].textContent;
-		txt1 = txt.split(" ");
-		if (txt == selectedOption) continue;
+		var txt = adPanel.children[i].textContent;
+		var txt1 = txt.split(" ");
+		if (txt.trim() == selectedOption.trim()) continue;
 		if (txt0[0] != txt1[0]) continue;
 		adPanel.children[i].style.backgroundColor = 'white';
+	}
+}
+
+// Make sure thet only the selected option is acvite
+function checkOptionsVulnerability() {
+	var vText = '@' + areWeVulnerable()
+	if (vText == '@') return;
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	for (var i = 0; i < adPanel.children.length; i++) {
+		var txt = adPanel.children[i].textContent.trim();
+		if (vText == '@n') {
+			if (txt.indexOf('@n') != -1) {
+				adPanel.children[i].style.backgroundColor = 'lightgreen';
+			}
+			if (txt.indexOf('@v') != -1) adPanel.children[i].style.backgroundColor = 'white';
+		} else {
+			if (txt.indexOf('@v') != -1) {
+				adPanel.children[i].style.backgroundColor = 'lightgreen';
+			}
+			if (txt.indexOf('@n') != -1) adPanel.children[i].style.backgroundColor = 'white';
+		}
 	}
 }
 
@@ -178,100 +204,6 @@ function addOptionButton(lbl) {
 	adPanel.appendChild(bt);
 }
 
-// BBO titile bar is used to show BBOalert messages
-function setTitleText(txt) {
-	t = document.querySelector('.titleClass');
-	if (isVisible(t)) {
-		t.innerText = txt;
-		return;
-	}
-	t = document.querySelectorAll('div.titleSpanClass');
-	if (t.length == 0) return;
-	for (var i = 0; i < t.length; i++) {
-		t[i].textContent = txt;
-	}
-}
-
-// Check if element is visible
-function isVisible(e) {
-	return !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
-}
-
-// Get formatted actual date and time
-function getNow() {
-	now = new Date();
-	yyyy = now.getFullYear().toString();
-	mm = now.getMonth().toString();
-	dd = now.getDate().toString();
-	hh = now.getHours().toString();
-	mn = now.getMinutes().toString();
-	return yyyy + mm + dd + "_" + hh + ":" + mn;
-}
-
-// Strip context from leading passes
-function stripContext(ctx) {
-	if (ctx.startsWith('------')) return ctx.substr(6);
-	if (ctx.startsWith('----')) return ctx.substr(4);
-	if (ctx.startsWith('--')) return ctx.substr(2);
-	return ctx;
-}
-
-// Get actual bidding context
-function getContext() {
-	ctx = ''
-	bs = document.querySelectorAll('bridge-screen')
-	if (bs.length == 0) {
-		return "xx"
-	}
-	auction = bs[0].querySelectorAll('.auctionBoxCellClass')
-	if (auction.length == 0) {
-		return "xx"
-	};
-	if (auction.length == 1) {
-		return ""
-	};
-	for (var i = 1; i < auction.length; i++) {
-		el = auction[i].innerText;
-		//	Translate Double, Redouble and Pass from different language interfaces
-		if (el.startsWith('R')) {
-			ctx = ctx + 'Rdbl';
-			continue
-		};
-		if (el == 'X') el = 'Dbl';
-		if (el == 'XX') el = 'Rdbl';
-		if (el == 'p') el = 'P';
-		if (el.startsWith('P')) {
-			ctx = ctx + '--';
-			continue
-		};
-		if (el.length > 1) {
-			el = el.el = el.substr(0, 2);
-			if (el.charCodeAt(1) == 9827) {
-				el = el[0] + 'C'
-			};
-			if (el.charCodeAt(1) == 9830) {
-				el = el[0] + 'D'
-			};
-			if (el.charCodeAt(1) == 9829) {
-				el = el[0] + 'H'
-			};
-			if (el.charCodeAt(1) == 9824) {
-				el = el[0] + 'S'
-			};
-			ctx = ctx + el;
-		}
-	}
-	return ctx;
-}
-
-// Write text to clipboard
-function writeToClipboard(txt) {
-	navigator.clipboard.writeText(txt).then(function() {
-	}
-		, function() {
-		}
-	);
-}
 
 function importClipboardData() {
 	cleanAdPanel();
@@ -321,6 +253,9 @@ function getClipboardData(newData) {
 		} else {
 			lvls = "1234567";
 			suits = "CDHSN";
+			alertTable.sort();
+			optionPrefix = 'Opening';
+			option = '00';
 			for (var i = 1; i < alertTable.length; i++) {
 				ctx = '';
 				r = alertTable[i];
@@ -328,6 +263,16 @@ function getClipboardData(newData) {
 				if (r.startsWith('*')) {
 					theyOpen = true;
 					r = r.slice(1);
+				}
+				if (!r.startsWith(option)) {
+					if (r.startsWith('*')) {
+						option = r.slice(1, 3);
+						optionPrefix = 'Overcall';
+					} else {
+						option = r.slice(0, 2);
+						optionPrefix = 'Opening';
+					}
+					updateText = updateText + 'Option,' + optionPrefix + ' ' + decodeOption(option) + '\n';
 				}
 				rec = r.split("=");
 				if (rec.length < 2) continue;
@@ -371,7 +316,17 @@ function getClipboardData(newData) {
 				updateText = updateText + alertTable[i] + "\n";
 				updateCount++;
 			}
-
+			alertTable = updateText.split("\n");
+			for (var i = 0; i < alertTable.length; i++) {
+				rec = alertTable[i].split(",");
+				if (rec.length > 1) {
+					if (rec[0].trim() == 'Option') {
+						addOptionButton(rec[1].trim());
+					}
+				}
+				//			if (rec.length < 3) alertTable.splice(i, 1);
+			}
+			initOptionDefaults();
 		}
 		alertTableSize = alertTable.length;
 		setTitleText(version + " : " + alertTable.length + " records")
@@ -390,28 +345,9 @@ function exportUpdateData() {
 }
 
 
-// Check if actual bidding context matches refeence context from the table
-function matchContext(refContext, actContext) {
-	if (refContext == actContext) return true;
-	if (refContext.length != actContext.length) return false;
-	for (var j = 0; j < refContext.length; j++) {
-		if (refContext.substr(j, 1) == '_') continue;
-		if (refContext.substr(j, 1) == '*') continue;
-		if (refContext.substr(j, 1) != actContext.substr(j, 1)) return false;
-	}
-	return true;
-}
-
 
 // Check if the selected defense option matches table option
 function checkOption(r) {
-	//	selopt = defenseSelector.selectedIndex;
-	//	if (selopt < 1) return false;
-	//	seltext = defenseSelector.options[selopt].text.trim();
-	//	for (var i = 1; i < r.length; i++) {
-	//		if (seltext == r[i].trim()) return true;
-	//	}
-	//	return false;
 	adPanel = document.getElementById("adpanel");
 	if (adPanel == null) {
 		return false;
@@ -488,20 +424,6 @@ function messageOnKeyup(key) {
 		eventInput = new Event('input');
 		elMessage.dispatchEvent(eventInput);
 	}
-}
-
-// Get visible message input element
-function getVisibleMessageInput() {
-	cr = document.querySelectorAll('.chatRowClass');
-	if (cr.length == 0) return null;
-	m = cr[0].querySelector('.messageInputClass');
-	if (m == null) return null;
-	if (isVisible(m)) return m;
-	if (cr.length == 1) return null;
-	m = cr[1].querySelector('.messageInputClass');
-	if (m == null) return null;
-	if (isVisible(m)) return m;
-	return null;
 }
 
 // Check explain box for eventual shortcut and replace it by the text from table
