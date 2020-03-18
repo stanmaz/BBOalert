@@ -99,6 +99,8 @@ I recommend to proceed this way :
 - at the end of the session, paste the clipboard content at the end of the file. Your partner should do it too.
 - review with your partner all newly created alerts and make the necessary corrections
 
+For very large files, collaborative online code editors are preferred like https://cryptpad.fr/code/.
+
 This way, the file is ready for the next session and will contain recently alerted calls.
 
 The best method to learn BBOalert is to create e teaching table and to experiment with data.
