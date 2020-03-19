@@ -75,6 +75,8 @@ At each BBO session, you should :
 - copy it to clipboard
 - press "Import" button on the BBO page
 
+See GettingStarted.pdf for basic operations.
+
 'Append' button allows to add code to the already imported code. This allows to split data in more than one file. Eg. separate file for openings and development, the second for overcalls and the third for keyboard shortcuts.
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> Appending BBOalert native data to the previously imported BSS data is allowed.
