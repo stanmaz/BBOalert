@@ -1,0 +1,1533 @@
+BBOalert
+Option
+,1C,17+HcP; ANY
+,1D,See chat message#12-16HcP; 3+!D. Canape' style - may have longer
+,1H,See chat message#12-16HcP; 4+!H. Canape' style - may have longer
+,1S,See chat message#12-16HcP; 4+!S. Canape' style - may have longer
+,1N,13-17HcP with clubs. Semi-balanced
+,2C,12-16HcP; 6+!C or 5+!C + a side suit
+,2D,7-12HcP; 6!D
+,2H,7-12HcP; 6!H
+,2S,7-12HcP; 6!S
+,2N,10-14HcP. 7+!D or 7+!H or 7+!S
+,3C,8-12HcP; Good !C suit
+,3D,5-10HcP; 7!D
+,3H,5-10HcP; 7!H
+,3S,5-10HcP; 7!S
+,3N,Gambling. Long minor + side entry
+,4C,5-10HcP; 8+!C
+,4D,5-10HcP; 8+!D
+,4H,8-12HcP; Solid 8+!H
+,4S,8-12HcP; Solid 8+!S
+Option
+1C,--, 
+1C,Dbl, 
+1C,1D, 
+1C,1H, 
+1C,1S, 
+1C,1N, 
+1C,2C, 
+1C,2D, 
+1C,2H, 
+1C,2S, 
+1C--,1D,No CTRL; forcing to 1NT
+1C--,1H,1 CTRL; forcing to 1NT
+1C--,1S,2 CTRL; forcing to 2NT
+1C--,1N,4 CTRL; GF
+1C--,2C,3 CTRL; GF
+1C--,2D,5 CTRL; GF
+1C--,2H,6+!H; No controls
+1C--,2S,6+!S; No controls
+1C--,2N,6+CTRL; GF
+1C--,3C,6+!C; No controls
+1C--,3D,6+!D; No controls
+1C--1D--,1H,4+!H; NF; may have longer minor
+1C--1D--,1S,4+!S; NF; may have longer minor
+1C--1D--,1N,17-21HcP; bal
+1C--1D--,2H,4+!H; Round
+1C--1D--,2S,4+!S; Round
+1C--1D--,2N,22-24HcP; bal
+1C--1D--,3C,4+!C; Round
+1C--1D--,3D,4+!D; Round
+1C--1D--,3H,6+!H; GF
+1C--1D--,3S,6+!S; GF
+1C--1D--,3N,25-27HcP; bal
+1C--1D--1N--,--,0-5HcP
+1C--1D--1N--,2C,Stayman
+1C--1D--1N--,2D,Signoff
+1C--1D--1N--,2H,Signoff
+1C--1D--1N--,2S,Signoff
+1C--1D--1N--,2N,5-7HcP; bal
+1C--1D--1N--,3C,Invite; 6+!C headed by K/Q
+1C--1D--1N--,3D,Invite; 6+!D headed by K/Q
+1C--1D--1N--,3H,Invite; 6+!H headed by K/Q
+1C--1D--1N--,3S,Invite; 6+!S headed by K/Q
+1C--1D--1N--,3N,8-9HcP; bal
+1C--1D--1N--2C--,2D,No 4card MAJOR; minimum
+1C--1D--1N--2C--,2H,4!H; 2-4!S; minimum
+1C--1D--1N--2C--,2S,4!S; 2-3!H; minimum
+1C--1D--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C--1D--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C--1D--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C--1D--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C--1D--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C--1D--1N--2C--2H--,3D,ASK !S
+1C--1D--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C--1D--1N--2C--2H--3D--,3S,4!H + 4!S
+1C--1D--1N--2C--3H--,3S,ASK !S
+1C--1D--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C--1D--1N--2C--3H--3S--,4H,4!H + 4!S
+1C--1D--2N--,3C,Baron; Bid 4card suits up the line
+1C--1D--2N--,3D,5+!D
+1C--1D--2N--,3H,5+!H
+1C--1D--2N--,3S,5+!S
+1C--1D--2N--,3N,3-8HcP; balanced. Signoff
+1C--1H--,1S,4+!S; NF; may have longer minor
+1C--1H--,1N,17-20HcP; bal
+1C--1H--,2H,4+!H; Round
+1C--1H--,2S,4+!S; Round
+1C--1H--,2N,21-22HcP; bal
+1C--1H--,3C,4+!C; Round
+1C--1H--,3D,4+!D; Round
+1C--1H--,3H,6+!H; GF
+1C--1H--,3S,6+!S; GF
+1C--1H--,3N,23-25HcP; bal
+1C--1H--1N--,--,0-5HcP
+1C--1H--1N--,2C,Stayman
+1C--1H--1N--,2D,Signoff
+1C--1H--1N--,2H,Signoff
+1C--1H--1N--,2S,Signoff
+1C--1H--1N--,2N,5-7HcP; bal
+1C--1H--1N--,3C,Invite; 6+!C headed by K/Q
+1C--1H--1N--,3D,Invite; 6+!D headed by K/Q
+1C--1H--1N--,3H,Invite; 6+!H headed by K/Q
+1C--1H--1N--,3S,Invite; 6+!S headed by K/Q
+1C--1H--1N--,3N,8-9HcP; bal
+1C--1H--1N--2C--,2D,No 4card MAJOR; minimum
+1C--1H--1N--2C--,2H,4!H; 2-4!S; minimum
+1C--1H--1N--2C--,2S,4!S; 2-3!H; minimum
+1C--1H--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C--1H--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C--1H--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C--1H--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C--1H--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C--1H--1N--2C--2H--,3D,ASK !S
+1C--1H--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C--1H--1N--2C--2H--3D--,3S,4!H + 4!S
+1C--1H--1N--2C--3H--,3S,ASK !S
+1C--1H--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C--1H--1N--2C--3H--3S--,4H,4!H + 4!S
+1C--1H--2N--,3C,Baron; Bid 4card suits up the line
+1C--1H--2N--,3D,5+!D
+1C--1H--2N--,3H,5+!H
+1C--1H--2N--,3S,5+!S
+1C--1H--2N--,3N,3-8HcP; balanced. Signoff
+1C--1S--,1N,18-20HcP; bal
+1C--1S--,2C,5+!C; Round
+1C--1S--,2D,5+!D; Round
+1C--1S--,2H,5+!H; Round
+1C--1S--,2S,5+!S; Round
+1C--1S--,2N,21-22HcP; bal. GF
+1C--1S--,3C,5+!C; GF
+1C--1S--,3D,5+!D; GF
+1C--1S--,3H,5+!H; GF
+1C--1S--,3S,5+!S; GF
+1C--1S--,3N,23-24HcP; bal
+1C--1S--1N--,--,0-5HcP
+1C--1S--1N--,2C,Stayman
+1C--1S--1N--,2D,Signoff
+1C--1S--1N--,2H,Signoff
+1C--1S--1N--,2S,Signoff
+1C--1S--1N--,2N,5-7HcP; bal
+1C--1S--1N--,3C,Invite; 6+!C headed by K/Q
+1C--1S--1N--,3D,Invite; 6+!D headed by K/Q
+1C--1S--1N--,3H,Invite; 6+!H headed by K/Q
+1C--1S--1N--,3S,Invite; 6+!S headed by K/Q
+1C--1S--1N--,3N,8-9HcP; bal
+1C--1S--1N--2C--,2D,No 4card MAJOR; minimum
+1C--1S--1N--2C--,2H,4!H; 2-4!S; minimum
+1C--1S--1N--2C--,2S,4!S; 2-3!H; minimum
+1C--1S--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C--1S--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C--1S--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C--1S--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C--1S--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C--1S--1N--2C--2H--,3D,ASK !S
+1C--1S--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C--1S--1N--2C--2H--3D--,3S,4!H + 4!S
+1C--1S--1N--2C--3H--,3S,ASK !S
+1C--1S--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C--1S--1N--2C--3H--3S--,4H,4!H + 4!S
+1C--1S--2N--,3C,Baron; Bid 4card suits up the line
+1C--1S--2N--,3D,5+!D
+1C--1S--2N--,3H,5+!H
+1C--1S--2N--,3S,5+!S
+1C--1S--2N--,3N,3-8HcP; balanced. Signoff
+1C--1N--,2C,5+!C
+1C--1N--,2D,5+!D
+1C--1N--,2H,5+!H
+1C--1N--,2S,5+!S
+1C--1N--,2N,18-20HcP; bal
+1C--1N--,3C,6+!C; Self-sufficient suit
+1C--1N--,3D,6+!D; Self-sufficient suit
+1C--1N--,3H,6+!H; Self-sufficient suit
+1C--1N--,3S,6+!S; Self-sufficient suit
+1C--1N--,3N,21+HcP; bal
+1C--1N--2N--,3C,Baron; Bid 4card suits up the line
+1C--1N--2N--,3D,5+!D
+1C--1N--2N--,3H,5+!H
+1C--1N--2N--,3S,5+!S
+1C--1N--2N--,3N,Signoff
+1C--1N--3N--,4C,Baron; Bid 4card suits up the line
+1C--1N--3N--,4D,5+!D
+1C--1N--3N--,4H,5+!H
+1C--1N--3N--,4S,5+!S
+1C--2C--,2D,5+!D
+1C--2C--,2H,5+!H
+1C--2C--,2S,5+!S
+1C--2C--,2N,18-20HcP; bal
+1C--2C--,3C,5+!C
+1C--2C--,3D,6+!D; Self-sufficient suit
+1C--2C--,3H,6+!H; Self-sufficient suit
+1C--2C--,3S,6+!S; Self-sufficient suit
+1C--2C--,3N,21+HcP; bal
+1C--2C--,4C,6+!C; Self-sufficient suit
+1C--2C--2N--,3C,Baron; Bid 4card suits up the line
+1C--2C--2N--,3D,5+!D
+1C--2C--2N--,3H,5+!H
+1C--2C--2N--,3S,5+!S
+1C--2C--2N--,3N,Signoff
+1C--2C--3N--,4C,Baron; Bid 4card suits up the line
+1C--2C--3N--,4D,5+!D
+1C--2C--3N--,4H,5+!H
+1C--2C--3N--,4S,5+!S
+1C--2D--,2H,5+!H
+1C--2D--,2S,5+!S
+1C--2D--,2N,18-20HcP; bal
+1C--2D--,3C,5+!C
+1C--2D--,3D,5+!D
+1C--2D--,3H,6+!H; Self-sufficient suit
+1C--2D--,3S,6+!S; Self-sufficient suit
+1C--2D--,3N,21+HcP; bal
+1C--2D--,4C,6+!C; Self-sufficient suit
+1C--2D--,4D,6+!D; Self-sufficient suit
+1C--2D--2N--,3C,Baron; Bid 4card suits up the line
+1C--2D--2N--,3D,5+!D
+1C--2D--2N--,3H,5+!H
+1C--2D--2N--,3S,5+!S
+1C--2D--2N--,3N,Signoff
+1C--2D--3N--,4C,Baron; Bid 4card suits up the line
+1C--2D--3N--,4D,5+!D
+1C--2D--3N--,4H,5+!H
+1C--2D--3N--,4S,5+!S
+1C--2N--,3C,5+!C
+1C--2N--,3D,5+!D
+1C--2N--,3H,5+!H
+1C--2N--,3S,5+!S
+1C--2N--,3N,21+HcP; bal
+1C--2N--,4C,6+!C; Self-sufficient suit
+1C--2N--,4D,6+!D; Self-sufficient suit
+1C--2N--,4H,6+!H; Self-sufficient suit
+1C--2N--,4S,6+!S; Self-sufficient suit
+1C--2N--3N--,4C,Baron; Bid 4card suits up the line
+1C--2N--3N--,4D,5+!D
+1C--2N--3N--,4H,5+!H
+1C--2N--3N--,4S,5+!S
+1CDbl,--,No control
+1CDbl,1D,No CTRL; forcing to 1NT
+1CDbl,1H,1 CTRL; forcing to 1NT
+1CDbl,1S,2 CTRL; forcing to 2NT
+1CDbl,1N,4 CTRL; GF
+1CDbl,Rdbl,No control. 5+!C
+1CDbl,2C,3 CTRL; GF
+1CDbl,2D,5 CTRL; GF
+1CDbl,2H,6+!H; No controls
+1CDbl,2S,6+!S; No controls
+1CDbl,2N,6+CTRL; GF
+1CDbl,3C,6+!C; No controls
+1CDbl,3D,6+!D; No controls
+1CDbl1D--,1H,4+!H; NF; may have longer minor
+1CDbl1D--,1S,4+!S; NF; may have longer minor
+1CDbl1D--,1N,17-21HcP; bal
+1CDbl1D--,2H,4+!H; Round
+1CDbl1D--,2S,4+!S; Round
+1CDbl1D--,2N,22-24HcP; bal
+1CDbl1D--,3C,4+!C; Round
+1CDbl1D--,3D,4+!D; Round
+1CDbl1D--,3H,6+!H; GF
+1CDbl1D--,3S,6+!S; GF
+1CDbl1D--,3N,25-27HcP; bal
+1CDbl1D--1N--,--,0-5HcP
+1CDbl1D--1N--,2C,Stayman
+1CDbl1D--1N--,2D,Signoff
+1CDbl1D--1N--,2H,Signoff
+1CDbl1D--1N--,2S,Signoff
+1CDbl1D--1N--,2N,5-7HcP; bal
+1CDbl1D--1N--,3C,Invite; 6+!C headed by K/Q
+1CDbl1D--1N--,3D,Invite; 6+!D headed by K/Q
+1CDbl1D--1N--,3H,Invite; 6+!H headed by K/Q
+1CDbl1D--1N--,3S,Invite; 6+!S headed by K/Q
+1CDbl1D--1N--,3N,8-9HcP; bal
+1CDbl1D--1N--2C--,2D,No 4card MAJOR; minimum
+1CDbl1D--1N--2C--,2H,4!H; 2-4!S; minimum
+1CDbl1D--1N--2C--,2S,4!S; 2-3!H; minimum
+1CDbl1D--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1CDbl1D--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1CDbl1D--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1CDbl1D--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1CDbl1D--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1CDbl1D--1N--2C--2H--,3D,ASK !S
+1CDbl1D--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1CDbl1D--1N--2C--2H--3D--,3S,4!H + 4!S
+1CDbl1D--1N--2C--3H--,3S,ASK !S
+1CDbl1D--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1CDbl1D--1N--2C--3H--3S--,4H,4!H + 4!S
+1CDbl1D--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl1D--2N--,3D,5+!D
+1CDbl1D--2N--,3H,5+!H
+1CDbl1D--2N--,3S,5+!S
+1CDbl1D--2N--,3N,3-8HcP; balanced. Signoff
+1CDbl1H--,1S,4+!S; NF; may have longer minor
+1CDbl1H--,1N,17-20HcP; bal
+1CDbl1H--,2H,4+!H; Round
+1CDbl1H--,2S,4+!S; Round
+1CDbl1H--,2N,21-22HcP; bal
+1CDbl1H--,3C,4+!C; Round
+1CDbl1H--,3D,4+!D; Round
+1CDbl1H--,3H,6+!H; GF
+1CDbl1H--,3S,6+!S; GF
+1CDbl1H--,3N,23-25HcP; bal
+1CDbl1H--1N--,--,0-5HcP
+1CDbl1H--1N--,2C,Stayman
+1CDbl1H--1N--,2D,Signoff
+1CDbl1H--1N--,2H,Signoff
+1CDbl1H--1N--,2S,Signoff
+1CDbl1H--1N--,2N,5-7HcP; bal
+1CDbl1H--1N--,3C,Invite; 6+!C headed by K/Q
+1CDbl1H--1N--,3D,Invite; 6+!D headed by K/Q
+1CDbl1H--1N--,3H,Invite; 6+!H headed by K/Q
+1CDbl1H--1N--,3S,Invite; 6+!S headed by K/Q
+1CDbl1H--1N--,3N,8-9HcP; bal
+1CDbl1H--1N--2C--,2D,No 4card MAJOR; minimum
+1CDbl1H--1N--2C--,2H,4!H; 2-4!S; minimum
+1CDbl1H--1N--2C--,2S,4!S; 2-3!H; minimum
+1CDbl1H--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1CDbl1H--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1CDbl1H--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1CDbl1H--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1CDbl1H--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1CDbl1H--1N--2C--2H--,3D,ASK !S
+1CDbl1H--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1CDbl1H--1N--2C--2H--3D--,3S,4!H + 4!S
+1CDbl1H--1N--2C--3H--,3S,ASK !S
+1CDbl1H--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1CDbl1H--1N--2C--3H--3S--,4H,4!H + 4!S
+1CDbl1H--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl1H--2N--,3D,5+!D
+1CDbl1H--2N--,3H,5+!H
+1CDbl1H--2N--,3S,5+!S
+1CDbl1H--2N--,3N,3-8HcP; balanced. Signoff
+1CDbl1S--,1N,18-20HcP; bal
+1CDbl1S--,2C,5+!C; Round
+1CDbl1S--,2D,5+!D; Round
+1CDbl1S--,2H,5+!H; Round
+1CDbl1S--,2S,5+!S; Round
+1CDbl1S--,2N,21-22HcP; bal. GF
+1CDbl1S--,3C,5+!C; GF
+1CDbl1S--,3D,5+!D; GF
+1CDbl1S--,3H,5+!H; GF
+1CDbl1S--,3S,5+!S; GF
+1CDbl1S--,3N,23-24HcP; bal
+1CDbl1S--1N--,--,0-5HcP
+1CDbl1S--1N--,2C,Stayman
+1CDbl1S--1N--,2D,Signoff
+1CDbl1S--1N--,2H,Signoff
+1CDbl1S--1N--,2S,Signoff
+1CDbl1S--1N--,2N,5-7HcP; bal
+1CDbl1S--1N--,3C,Invite; 6+!C headed by K/Q
+1CDbl1S--1N--,3D,Invite; 6+!D headed by K/Q
+1CDbl1S--1N--,3H,Invite; 6+!H headed by K/Q
+1CDbl1S--1N--,3S,Invite; 6+!S headed by K/Q
+1CDbl1S--1N--,3N,8-9HcP; bal
+1CDbl1S--1N--2C--,2D,No 4card MAJOR; minimum
+1CDbl1S--1N--2C--,2H,4!H; 2-4!S; minimum
+1CDbl1S--1N--2C--,2S,4!S; 2-3!H; minimum
+1CDbl1S--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1CDbl1S--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1CDbl1S--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1CDbl1S--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1CDbl1S--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1CDbl1S--1N--2C--2H--,3D,ASK !S
+1CDbl1S--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1CDbl1S--1N--2C--2H--3D--,3S,4!H + 4!S
+1CDbl1S--1N--2C--3H--,3S,ASK !S
+1CDbl1S--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1CDbl1S--1N--2C--3H--3S--,4H,4!H + 4!S
+1CDbl1S--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl1S--2N--,3D,5+!D
+1CDbl1S--2N--,3H,5+!H
+1CDbl1S--2N--,3S,5+!S
+1CDbl1S--2N--,3N,3-8HcP; balanced. Signoff
+1CDbl1N--,2C,5+!C
+1CDbl1N--,2D,5+!D
+1CDbl1N--,2H,5+!H
+1CDbl1N--,2S,5+!S
+1CDbl1N--,2N,18-20HcP; bal
+1CDbl1N--,3C,6+!C; Self-sufficient suit
+1CDbl1N--,3D,6+!D; Self-sufficient suit
+1CDbl1N--,3H,6+!H; Self-sufficient suit
+1CDbl1N--,3S,6+!S; Self-sufficient suit
+1CDbl1N--,3N,21+HcP; bal
+1CDbl1N--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl1N--2N--,3D,5+!D
+1CDbl1N--2N--,3H,5+!H
+1CDbl1N--2N--,3S,5+!S
+1CDbl1N--2N--,3N,Signoff
+1CDbl1N--3N--,4C,Baron; Bid 4card suits up the line
+1CDbl1N--3N--,4D,5+!D
+1CDbl1N--3N--,4H,5+!H
+1CDbl1N--3N--,4S,5+!S
+1CDbl2C--,2D,5+!D
+1CDbl2C--,2H,5+!H
+1CDbl2C--,2S,5+!S
+1CDbl2C--,2N,18-20HcP; bal
+1CDbl2C--,3C,5+!C
+1CDbl2C--,3D,6+!D; Self-sufficient suit
+1CDbl2C--,3H,6+!H; Self-sufficient suit
+1CDbl2C--,3S,6+!S; Self-sufficient suit
+1CDbl2C--,3N,21+HcP; bal
+1CDbl2C--,4C,6+!C; Self-sufficient suit
+1CDbl2C--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl2C--2N--,3D,5+!D
+1CDbl2C--2N--,3H,5+!H
+1CDbl2C--2N--,3S,5+!S
+1CDbl2C--2N--,3N,Signoff
+1CDbl2C--3N--,4C,Baron; Bid 4card suits up the line
+1CDbl2C--3N--,4D,5+!D
+1CDbl2C--3N--,4H,5+!H
+1CDbl2C--3N--,4S,5+!S
+1CDbl2D--,2H,5+!H
+1CDbl2D--,2S,5+!S
+1CDbl2D--,2N,18-20HcP; bal
+1CDbl2D--,3C,5+!C
+1CDbl2D--,3D,5+!D
+1CDbl2D--,3H,6+!H; Self-sufficient suit
+1CDbl2D--,3S,6+!S; Self-sufficient suit
+1CDbl2D--,3N,21+HcP; bal
+1CDbl2D--,4C,6+!C; Self-sufficient suit
+1CDbl2D--,4D,6+!D; Self-sufficient suit
+1CDbl2D--2N--,3C,Baron; Bid 4card suits up the line
+1CDbl2D--2N--,3D,5+!D
+1CDbl2D--2N--,3H,5+!H
+1CDbl2D--2N--,3S,5+!S
+1CDbl2D--2N--,3N,Signoff
+1CDbl2D--3N--,4C,Baron; Bid 4card suits up the line
+1CDbl2D--3N--,4D,5+!D
+1CDbl2D--3N--,4H,5+!H
+1CDbl2D--3N--,4S,5+!S
+1CDbl2N--,3C,5+!C
+1CDbl2N--,3D,5+!D
+1CDbl2N--,3H,5+!H
+1CDbl2N--,3S,5+!S
+1CDbl2N--,3N,21+HcP; bal
+1CDbl2N--,4C,6+!C; Self-sufficient suit
+1CDbl2N--,4D,6+!D; Self-sufficient suit
+1CDbl2N--,4H,6+!H; Self-sufficient suit
+1CDbl2N--,4S,6+!S; Self-sufficient suit
+1CDbl2N--3N--,4C,Baron; Bid 4card suits up the line
+1CDbl2N--3N--,4D,5+!D
+1CDbl2N--3N--,4H,5+!H
+1CDbl2N--3N--,4S,5+!S
+1C1D,--,No CTRL
+1C1D,Dbl,Penalty
+1C1D,1H,1 CTRL; forcing to 1NT
+1C1D,1S,2 CTRL; forcing to 2NT
+1C1D,1N,4 CTRL + Stop; GF
+1C1D,2C,*3 CTRL; GF *4 CTRL; No stop; GF
+1C1D,2D,5 CTRL; GF
+1C1D,2H,6+!H; No controls
+1C1D,2S,6+!S; No controls
+1C1D,2N,6+CTRL; GF
+1C1D,3C,6+!C; No controls
+1C1D,3D,6+!D; No controls
+1C1DDbl--,1N,ASK controls in hand
+1C1DDbl--,2D,ASK controls outside opps' suit
+1C1DDbl--1N--,2C,No CTRL
+1C1DDbl--1N--,2D,1 CTRL
+1C1DDbl--1N--,2H,2 CTRL
+1C1DDbl--1N--,2S,3 CTRL
+1C1DDbl--1N--,2N,4 CTRL
+1C1DDbl--1N--,3C,5 CTRL
+1C1DDbl--1N--,3D,6+ CTRL
+1C1DDbl--2D--,2H,No CTRL
+1C1DDbl--2D--,2S,1 CTRL
+1C1DDbl--2D--,2N,2 CTRL
+1C1DDbl--2D--,3C,3 CTRL
+1C1DDbl--2D--,3D,4 CTRL
+1C1DDbl--2D--,3H,5 CTRL
+1C1DDbl--2D--,3S,6+ CTRL
+1C1DDbl1H,1N,ASK controls in hand
+1C1DDbl1H,2D,ASK controls outside opps' suit
+1C1DDbl1H1N--,2C,No CTRL
+1C1DDbl1H1N--,2D,1 CTRL
+1C1DDbl1H1N--,2H,2 CTRL
+1C1DDbl1H1N--,2S,3 CTRL
+1C1DDbl1H1N--,2N,4 CTRL
+1C1DDbl1H1N--,3C,5 CTRL
+1C1DDbl1H1N--,3D,6+ CTRL
+1C1DDbl1H2D--,2H,No CTRL
+1C1DDbl1H2D--,2S,1 CTRL
+1C1DDbl1H2D--,2N,2 CTRL
+1C1DDbl1H2D--,3C,3 CTRL
+1C1DDbl1H2D--,3D,4 CTRL
+1C1DDbl1H2D--,3H,5 CTRL
+1C1DDbl1H2D--,3S,6+ CTRL
+1C1DDbl1S,1N,ASK controls in hand
+1C1DDbl1S,2D,ASK controls outside opps' suit
+1C1DDbl1S1N--,2C,No CTRL
+1C1DDbl1S1N--,2D,1 CTRL
+1C1DDbl1S1N--,2H,2 CTRL
+1C1DDbl1S1N--,2S,3 CTRL
+1C1DDbl1S1N--,2N,4 CTRL
+1C1DDbl1S1N--,3C,5 CTRL
+1C1DDbl1S1N--,3D,6+ CTRL
+1C1DDbl1S2D--,2H,No CTRL
+1C1DDbl1S2D--,2S,1 CTRL
+1C1DDbl1S2D--,2N,2 CTRL
+1C1DDbl1S2D--,3C,3 CTRL
+1C1DDbl1S2D--,3D,4 CTRL
+1C1DDbl1S2D--,3H,5 CTRL
+1C1DDbl1S2D--,3S,6+ CTRL
+1C1DDblRdbl,1N,ASK controls in hand
+1C1DDblRdbl,2D,ASK controls outside opps' suit
+1C1DDblRdbl1N--,2C,No CTRL
+1C1DDblRdbl1N--,2D,1 CTRL
+1C1DDblRdbl1N--,2H,2 CTRL
+1C1DDblRdbl1N--,2S,3 CTRL
+1C1DDblRdbl1N--,2N,4 CTRL
+1C1DDblRdbl1N--,3C,5 CTRL
+1C1DDblRdbl1N--,3D,6+ CTRL
+1C1DDblRdbl2D--,2H,No CTRL
+1C1DDblRdbl2D--,2S,1 CTRL
+1C1DDblRdbl2D--,2N,2 CTRL
+1C1DDblRdbl2D--,3C,3 CTRL
+1C1DDblRdbl2D--,3D,4 CTRL
+1C1DDblRdbl2D--,3H,5 CTRL
+1C1DDblRdbl2D--,3S,6+ CTRL
+1C1D1H--,1S,4+!S; NF; may have longer minor
+1C1D1H--,1N,17-20HcP; bal
+1C1D1H--,2H,4+!H; Round
+1C1D1H--,2S,4+!S; Round
+1C1D1H--,2N,21-22HcP; bal
+1C1D1H--,3C,4+!C; Round
+1C1D1H--,3D,4+!D; Round
+1C1D1H--,3H,6+!H; GF
+1C1D1H--,3S,6+!S; GF
+1C1D1H--,3N,23-25HcP; bal
+1C1D1H--1N--,--,0-5HcP
+1C1D1H--1N--,2C,Stayman
+1C1D1H--1N--,2D,Signoff
+1C1D1H--1N--,2H,Signoff
+1C1D1H--1N--,2S,Signoff
+1C1D1H--1N--,2N,5-7HcP; bal
+1C1D1H--1N--,3C,Invite; 6+!C headed by K/Q
+1C1D1H--1N--,3D,Invite; 6+!D headed by K/Q
+1C1D1H--1N--,3H,Invite; 6+!H headed by K/Q
+1C1D1H--1N--,3S,Invite; 6+!S headed by K/Q
+1C1D1H--1N--,3N,8-9HcP; bal
+1C1D1H--1N--2C--,2D,No 4card MAJOR; minimum
+1C1D1H--1N--2C--,2H,4!H; 2-4!S; minimum
+1C1D1H--1N--2C--,2S,4!S; 2-3!H; minimum
+1C1D1H--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C1D1H--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C1D1H--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C1D1H--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C1D1H--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C1D1H--1N--2C--2H--,3D,ASK !S
+1C1D1H--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C1D1H--1N--2C--2H--3D--,3S,4!H + 4!S
+1C1D1H--1N--2C--3H--,3S,ASK !S
+1C1D1H--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C1D1H--1N--2C--3H--3S--,4H,4!H + 4!S
+1C1D1H--2N--,3C,Baron; Bid 4card suits up the line
+1C1D1H--2N--,3D,5+!D
+1C1D1H--2N--,3H,5+!H
+1C1D1H--2N--,3S,5+!S
+1C1D1H--2N--,3N,3-8HcP; balanced. Signoff
+1C1D1S--,1N,18-20HcP; bal
+1C1D1S--,2C,5+!C; Round
+1C1D1S--,2D,5+!D; Round
+1C1D1S--,2H,5+!H; Round
+1C1D1S--,2S,5+!S; Round
+1C1D1S--,2N,21-22HcP; bal. GF
+1C1D1S--,3C,5+!C; GF
+1C1D1S--,3D,5+!D; GF
+1C1D1S--,3H,5+!H; GF
+1C1D1S--,3S,5+!S; GF
+1C1D1S--,3N,23-24HcP; bal
+1C1D1S--1N--,--,0-5HcP
+1C1D1S--1N--,2C,Stayman
+1C1D1S--1N--,2D,Signoff
+1C1D1S--1N--,2H,Signoff
+1C1D1S--1N--,2S,Signoff
+1C1D1S--1N--,2N,5-7HcP; bal
+1C1D1S--1N--,3C,Invite; 6+!C headed by K/Q
+1C1D1S--1N--,3D,Invite; 6+!D headed by K/Q
+1C1D1S--1N--,3H,Invite; 6+!H headed by K/Q
+1C1D1S--1N--,3S,Invite; 6+!S headed by K/Q
+1C1D1S--1N--,3N,8-9HcP; bal
+1C1D1S--1N--2C--,2D,No 4card MAJOR; minimum
+1C1D1S--1N--2C--,2H,4!H; 2-4!S; minimum
+1C1D1S--1N--2C--,2S,4!S; 2-3!H; minimum
+1C1D1S--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C1D1S--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C1D1S--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C1D1S--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C1D1S--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C1D1S--1N--2C--2H--,3D,ASK !S
+1C1D1S--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C1D1S--1N--2C--2H--3D--,3S,4!H + 4!S
+1C1D1S--1N--2C--3H--,3S,ASK !S
+1C1D1S--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C1D1S--1N--2C--3H--3S--,4H,4!H + 4!S
+1C1D1S--2N--,3C,Baron; Bid 4card suits up the line
+1C1D1S--2N--,3D,5+!D
+1C1D1S--2N--,3H,5+!H
+1C1D1S--2N--,3S,5+!S
+1C1D1S--2N--,3N,3-8HcP; balanced. Signoff
+1C1D1N--,2C,5+!C
+1C1D1N--,2D,5+!D
+1C1D1N--,2H,5+!H
+1C1D1N--,2S,5+!S
+1C1D1N--,2N,18-20HcP; bal
+1C1D1N--,3C,6+!C; Self-sufficient suit
+1C1D1N--,3D,6+!D; Self-sufficient suit
+1C1D1N--,3H,6+!H; Self-sufficient suit
+1C1D1N--,3S,6+!S; Self-sufficient suit
+1C1D1N--,3N,21+HcP; bal
+1C1D1N--2N--,3C,Baron; Bid 4card suits up the line
+1C1D1N--2N--,3D,5+!D
+1C1D1N--2N--,3H,5+!H
+1C1D1N--2N--,3S,5+!S
+1C1D1N--2N--,3N,Signoff
+1C1D1N--3N--,4C,Baron; Bid 4card suits up the line
+1C1D1N--3N--,4D,5+!D
+1C1D1N--3N--,4H,5+!H
+1C1D1N--3N--,4S,5+!S
+1C1D2C--,2D,5+!D
+1C1D2C--,2H,5+!H
+1C1D2C--,2S,5+!S
+1C1D2C--,2N,18-20HcP; bal
+1C1D2C--,3C,5+!C
+1C1D2C--,3D,6+!D; Self-sufficient suit
+1C1D2C--,3H,6+!H; Self-sufficient suit
+1C1D2C--,3S,6+!S; Self-sufficient suit
+1C1D2C--,3N,21+HcP; bal
+1C1D2C--,4C,6+!C; Self-sufficient suit
+1C1D2C--2N--,3C,Baron; Bid 4card suits up the line
+1C1D2C--2N--,3D,5+!D
+1C1D2C--2N--,3H,5+!H
+1C1D2C--2N--,3S,5+!S
+1C1D2C--2N--,3N,Signoff
+1C1D2C--3N--,4C,Baron; Bid 4card suits up the line
+1C1D2C--3N--,4D,5+!D
+1C1D2C--3N--,4H,5+!H
+1C1D2C--3N--,4S,5+!S
+1C1D2D--,2H,5+!H
+1C1D2D--,2S,5+!S
+1C1D2D--,2N,18-20HcP; bal
+1C1D2D--,3C,5+!C
+1C1D2D--,3D,5+!D
+1C1D2D--,3H,6+!H; Self-sufficient suit
+1C1D2D--,3S,6+!S; Self-sufficient suit
+1C1D2D--,3N,21+HcP; bal
+1C1D2D--,4C,6+!C; Self-sufficient suit
+1C1D2D--,4D,6+!D; Self-sufficient suit
+1C1D2D--2N--,3C,Baron; Bid 4card suits up the line
+1C1D2D--2N--,3D,5+!D
+1C1D2D--2N--,3H,5+!H
+1C1D2D--2N--,3S,5+!S
+1C1D2D--2N--,3N,Signoff
+1C1D2D--3N--,4C,Baron; Bid 4card suits up the line
+1C1D2D--3N--,4D,5+!D
+1C1D2D--3N--,4H,5+!H
+1C1D2D--3N--,4S,5+!S
+1C1D2N--,3C,5+!C
+1C1D2N--,3D,5+!D
+1C1D2N--,3H,5+!H
+1C1D2N--,3S,5+!S
+1C1D2N--,3N,21+HcP; bal
+1C1D2N--,4C,6+!C; Self-sufficient suit
+1C1D2N--,4D,6+!D; Self-sufficient suit
+1C1D2N--,4H,6+!H; Self-sufficient suit
+1C1D2N--,4S,6+!S; Self-sufficient suit
+1C1D2N--3N--,4C,Baron; Bid 4card suits up the line
+1C1D2N--3N--,4D,5+!D
+1C1D2N--3N--,4H,5+!H
+1C1D2N--3N--,4S,5+!S
+1C1H,--,No CTRL
+1C1H,Dbl,Penalty
+1C1H,1S,1-2 CTRL
+1C1H,1N,4 CTRL + Stop; GF
+1C1H,2C,*3 CTRL; GF *4 CTRL; No stop; GF
+1C1H,2D,5 CTRL; GF
+1C1H,2H,6+!H; No controls
+1C1H,2S,6+!S; No controls
+1C1H,2N,6+CTRL; GF
+1C1H,3C,6+!C; No controls
+1C1H,3D,6+!D; No controls
+1C1HDbl--,1N,ASK controls in hand
+1C1HDbl--,2D,ASK controls outside opps' suit
+1C1HDbl--1N--,2C,No CTRL
+1C1HDbl--1N--,2D,1 CTRL
+1C1HDbl--1N--,2H,2 CTRL
+1C1HDbl--1N--,2S,3 CTRL
+1C1HDbl--1N--,2N,4 CTRL
+1C1HDbl--1N--,3C,5 CTRL
+1C1HDbl--1N--,3D,6+ CTRL
+1C1HDbl--2D--,2H,No CTRL
+1C1HDbl--2D--,2S,1 CTRL
+1C1HDbl--2D--,2N,2 CTRL
+1C1HDbl--2D--,3C,3 CTRL
+1C1HDbl--2D--,3D,4 CTRL
+1C1HDbl--2D--,3H,5 CTRL
+1C1HDbl--2D--,3S,6+ CTRL
+1C1HDbl1H,1N,ASK controls in hand
+1C1HDbl1H,2D,ASK controls outside opps' suit
+1C1HDbl1H1N--,2C,No CTRL
+1C1HDbl1H1N--,2D,1 CTRL
+1C1HDbl1H1N--,2H,2 CTRL
+1C1HDbl1H1N--,2S,3 CTRL
+1C1HDbl1H1N--,2N,4 CTRL
+1C1HDbl1H1N--,3C,5 CTRL
+1C1HDbl1H1N--,3D,6+ CTRL
+1C1HDbl1H2D--,2H,No CTRL
+1C1HDbl1H2D--,2S,1 CTRL
+1C1HDbl1H2D--,2N,2 CTRL
+1C1HDbl1H2D--,3C,3 CTRL
+1C1HDbl1H2D--,3D,4 CTRL
+1C1HDbl1H2D--,3H,5 CTRL
+1C1HDbl1H2D--,3S,6+ CTRL
+1C1HDbl1S,1N,ASK controls in hand
+1C1HDbl1S,2D,ASK controls outside opps' suit
+1C1HDbl1S1N--,2C,No CTRL
+1C1HDbl1S1N--,2D,1 CTRL
+1C1HDbl1S1N--,2H,2 CTRL
+1C1HDbl1S1N--,2S,3 CTRL
+1C1HDbl1S1N--,2N,4 CTRL
+1C1HDbl1S1N--,3C,5 CTRL
+1C1HDbl1S1N--,3D,6+ CTRL
+1C1HDbl1S2D--,2H,No CTRL
+1C1HDbl1S2D--,2S,1 CTRL
+1C1HDbl1S2D--,2N,2 CTRL
+1C1HDbl1S2D--,3C,3 CTRL
+1C1HDbl1S2D--,3D,4 CTRL
+1C1HDbl1S2D--,3H,5 CTRL
+1C1HDbl1S2D--,3S,6+ CTRL
+1C1HDblRdbl,1N,ASK controls in hand
+1C1HDblRdbl,2D,ASK controls outside opps' suit
+1C1HDblRdbl1N--,2C,No CTRL
+1C1HDblRdbl1N--,2D,1 CTRL
+1C1HDblRdbl1N--,2H,2 CTRL
+1C1HDblRdbl1N--,2S,3 CTRL
+1C1HDblRdbl1N--,2N,4 CTRL
+1C1HDblRdbl1N--,3C,5 CTRL
+1C1HDblRdbl1N--,3D,6+ CTRL
+1C1HDblRdbl2D--,2H,No CTRL
+1C1HDblRdbl2D--,2S,1 CTRL
+1C1HDblRdbl2D--,2N,2 CTRL
+1C1HDblRdbl2D--,3C,3 CTRL
+1C1HDblRdbl2D--,3D,4 CTRL
+1C1HDblRdbl2D--,3H,5 CTRL
+1C1HDblRdbl2D--,3S,6+ CTRL
+1C1H1S--,1N,18-20HcP; bal
+1C1H1S--,2C,5+!C; Round
+1C1H1S--,2D,5+!D; Round
+1C1H1S--,2H,5+!H; Round
+1C1H1S--,2S,5+!S; Round
+1C1H1S--,2N,21-22HcP; bal. GF
+1C1H1S--,3C,5+!C; GF
+1C1H1S--,3D,5+!D; GF
+1C1H1S--,3H,5+!H; GF
+1C1H1S--,3S,5+!S; GF
+1C1H1S--,3N,23-24HcP; bal
+1C1H1S--1N--,--,0-5HcP
+1C1H1S--1N--,2C,Stayman
+1C1H1S--1N--,2D,Signoff
+1C1H1S--1N--,2H,Signoff
+1C1H1S--1N--,2S,Signoff
+1C1H1S--1N--,2N,5-7HcP; bal
+1C1H1S--1N--,3C,Invite; 6+!C headed by K/Q
+1C1H1S--1N--,3D,Invite; 6+!D headed by K/Q
+1C1H1S--1N--,3H,Invite; 6+!H headed by K/Q
+1C1H1S--1N--,3S,Invite; 6+!S headed by K/Q
+1C1H1S--1N--,3N,8-9HcP; bal
+1C1H1S--1N--2C--,2D,No 4card MAJOR; minimum
+1C1H1S--1N--2C--,2H,4!H; 2-4!S; minimum
+1C1H1S--1N--2C--,2S,4!S; 2-3!H; minimum
+1C1H1S--1N--2C--,2N,No 4card MAJOR; MAXIMUM
+1C1H1S--1N--2C--,3C,5+!C; No 4card MAJOR; MAXIMUM
+1C1H1S--1N--2C--,3D,5+!D; No 4card MAJOR; MAXIMUM
+1C1H1S--1N--2C--,3H,4!H; 2-4!S; MAXIMUM
+1C1H1S--1N--2C--,3S,4!S; 2-3!H; MAXIMUM
+1C1H1S--1N--2C--2H--,3D,ASK !S
+1C1H1S--1N--2C--2H--3D--,3H,4!H + 2-3!S
+1C1H1S--1N--2C--2H--3D--,3S,4!H + 4!S
+1C1H1S--1N--2C--3H--,3S,ASK !S
+1C1H1S--1N--2C--3H--3S--,3N,4!H + 2-3!S
+1C1H1S--1N--2C--3H--3S--,4H,4!H + 4!S
+1C1H1S--2N--,3C,Baron; Bid 4card suits up the line
+1C1H1S--2N--,3D,5+!D
+1C1H1S--2N--,3H,5+!H
+1C1H1S--2N--,3S,5+!S
+1C1H1S--2N--,3N,3-8HcP; balanced. Signoff
+1C1H1N--,2C,5+!C
+1C1H1N--,2D,5+!D
+1C1H1N--,2H,5+!H
+1C1H1N--,2S,5+!S
+1C1H1N--,2N,18-20HcP; bal
+1C1H1N--,3C,6+!C; Self-sufficient suit
+1C1H1N--,3D,6+!D; Self-sufficient suit
+1C1H1N--,3H,6+!H; Self-sufficient suit
+1C1H1N--,3S,6+!S; Self-sufficient suit
+1C1H1N--,3N,21+HcP; bal
+1C1H1N--2N--,3C,Baron; Bid 4card suits up the line
+1C1H1N--2N--,3D,5+!D
+1C1H1N--2N--,3H,5+!H
+1C1H1N--2N--,3S,5+!S
+1C1H1N--2N--,3N,Signoff
+1C1H1N--3N--,4C,Baron; Bid 4card suits up the line
+1C1H1N--3N--,4D,5+!D
+1C1H1N--3N--,4H,5+!H
+1C1H1N--3N--,4S,5+!S
+1C1H2C--,2D,5+!D
+1C1H2C--,2H,5+!H
+1C1H2C--,2S,5+!S
+1C1H2C--,2N,18-20HcP; bal
+1C1H2C--,3C,5+!C
+1C1H2C--,3D,6+!D; Self-sufficient suit
+1C1H2C--,3H,6+!H; Self-sufficient suit
+1C1H2C--,3S,6+!S; Self-sufficient suit
+1C1H2C--,3N,21+HcP; bal
+1C1H2C--,4C,6+!C; Self-sufficient suit
+1C1H2C--2N--,3C,Baron; Bid 4card suits up the line
+1C1H2C--2N--,3D,5+!D
+1C1H2C--2N--,3H,5+!H
+1C1H2C--2N--,3S,5+!S
+1C1H2C--2N--,3N,Signoff
+1C1H2C--3N--,4C,Baron; Bid 4card suits up the line
+1C1H2C--3N--,4D,5+!D
+1C1H2C--3N--,4H,5+!H
+1C1H2C--3N--,4S,5+!S
+1C1H2D--,2H,5+!H
+1C1H2D--,2S,5+!S
+1C1H2D--,2N,18-20HcP; bal
+1C1H2D--,3C,5+!C
+1C1H2D--,3D,5+!D
+1C1H2D--,3H,6+!H; Self-sufficient suit
+1C1H2D--,3S,6+!S; Self-sufficient suit
+1C1H2D--,3N,21+HcP; bal
+1C1H2D--,4C,6+!C; Self-sufficient suit
+1C1H2D--,4D,6+!D; Self-sufficient suit
+1C1H2D--2N--,3C,Baron; Bid 4card suits up the line
+1C1H2D--2N--,3D,5+!D
+1C1H2D--2N--,3H,5+!H
+1C1H2D--2N--,3S,5+!S
+1C1H2D--2N--,3N,Signoff
+1C1H2D--3N--,4C,Baron; Bid 4card suits up the line
+1C1H2D--3N--,4D,5+!D
+1C1H2D--3N--,4H,5+!H
+1C1H2D--3N--,4S,5+!S
+1C1H2N--,3C,5+!C
+1C1H2N--,3D,5+!D
+1C1H2N--,3H,5+!H
+1C1H2N--,3S,5+!S
+1C1H2N--,3N,21+HcP; bal
+1C1H2N--,4C,6+!C; Self-sufficient suit
+1C1H2N--,4D,6+!D; Self-sufficient suit
+1C1H2N--,4H,6+!H; Self-sufficient suit
+1C1H2N--,4S,6+!S; Self-sufficient suit
+1C1H2N--3N--,4C,Baron; Bid 4card suits up the line
+1C1H2N--3N--,4D,5+!D
+1C1H2N--3N--,4H,5+!H
+1C1H2N--3N--,4S,5+!S
+1C1S,--,*No CTRL *1-2 CTRL; 0-5HcP
+1C1S,Dbl,Penalty
+1C1S,1N,1-2 CTRL incl. stop; Natural continue
+1C1S,2C,1-2 CTRL; No stop; Natural continue
+1C1S,2D,3 CTRL; Natural continue
+1C1S,2H,6+!H; No controls
+1C1S,2S,4 CTRL; Natural continue
+1C1S,2N,5+ CTRL; Natural continue
+1C1SDbl--,1N,ASK controls in hand
+1C1SDbl--,2D,ASK controls outside opps' suit
+1C1SDbl--1N--,2C,No CTRL
+1C1SDbl--1N--,2D,1 CTRL
+1C1SDbl--1N--,2H,2 CTRL
+1C1SDbl--1N--,2S,3 CTRL
+1C1SDbl--1N--,2N,4 CTRL
+1C1SDbl--1N--,3C,5 CTRL
+1C1SDbl--1N--,3D,6+ CTRL
+1C1SDbl--2D--,2H,No CTRL
+1C1SDbl--2D--,2S,1 CTRL
+1C1SDbl--2D--,2N,2 CTRL
+1C1SDbl--2D--,3C,3 CTRL
+1C1SDbl--2D--,3D,4 CTRL
+1C1SDbl--2D--,3H,5 CTRL
+1C1SDbl--2D--,3S,6+ CTRL
+1C1SDblRdbl,1N,ASK controls in hand
+1C1SDblRdbl,2D,ASK controls outside opps' suit
+1C1SDblRdbl1N--,2C,No CTRL
+1C1SDblRdbl1N--,2D,1 CTRL
+1C1SDblRdbl1N--,2H,2 CTRL
+1C1SDblRdbl1N--,2S,3 CTRL
+1C1SDblRdbl1N--,2N,4 CTRL
+1C1SDblRdbl1N--,3C,5 CTRL
+1C1SDblRdbl1N--,3D,6+ CTRL
+1C1SDblRdbl2D--,2H,No CTRL
+1C1SDblRdbl2D--,2S,1 CTRL
+1C1SDblRdbl2D--,2N,2 CTRL
+1C1SDblRdbl2D--,3C,3 CTRL
+1C1SDblRdbl2D--,3D,4 CTRL
+1C1SDblRdbl2D--,3H,5 CTRL
+1C1SDblRdbl2D--,3S,6+ CTRL
+1C1N,--,*No CTRL *1CTRL; No fillers
+1C1N,Dbl,Penalty
+1C1N,2C,*1 CTRL + fillers *2 CTRL
+1C1N,2D,3 CTRL; GF
+1C1N,2H,6+!H; No CTRL
+1C1N,2S,6+!S; No CTRL
+1C1N,2N,4+ CTRL
+1C1NDbl--,2N,ASK controls in hand
+1C1NDbl--2N--,3C,No CTRL
+1C1NDbl--2N--,3D,1 CTRL
+1C1NDbl--2N--,3H,2 CTRL
+1C1NDbl--2N--,3S,3 CTRL
+1C1NDbl--2N--,3N,4 CTRL
+1C1NDbl--2N--,4C,5 CTRL
+1C2C,--,0-2 CTRL
+1C2C,Dbl,Penalty
+1C2C,2D,3 CTRL
+1C2C,2H,6+!H; No CTRL
+1C2C,2S,6+!S; No CTRL
+1C2C,2N,4 CTRL
+1C2C,3C,5+ CTRL
+1C2C,3D,6+!D; strong suit. 0-2 CTRL
+1C2C,3H,6+!H; strong suit. 0-2 CTRL
+1C2C,3S,6+!S; strong suit. 0-2 CTRL
+1C2CDbl--,2N,ASK controls in hand
+1C2CDbl--,3C,ASK controls outside opps' suit
+1C2CDbl--2N--,3C,No CTRL
+1C2CDbl--2N--,3D,1 CTRL
+1C2CDbl--2N--,3H,2 CTRL
+1C2CDbl--2N--,3S,3 CTRL
+1C2CDbl--2N--,3N,4 CTRL
+1C2CDbl--2N--,4C,5 CTRL
+1C2CDbl--3C--,3D,No CTRL
+1C2CDbl--3C--,3H,1 CTRL
+1C2CDbl--3C--,3S,2 CTRL
+1C2CDbl--3C--,3N,3 CTRL
+1C2CDbl--3C--,4C,4 CTRL
+1C2CDbl--3C--,4D,5 CTRL
+1C2D,--,0-2 CTRL
+1C2D,Dbl,Penalty
+1C2D,2H,6+!H; No CTRL
+1C2D,2S,6+!S; No CTRL
+1C2D,2N,* 3 CTRL *2 CTRL; 9+HcP
+1C2D,3C,6+!C; strong suit. 0-2 CTRL
+1C2D,3D,4+ CTRL
+1C2D,3H,6+!H; strong suit. 0-2 CTRL
+1C2D,3S,6+!S; strong suit. 0-2 CTRL
+1C2DDbl--,2N,ASK controls in hand
+1C2DDbl--,3D,ASK controls outside opps' suit
+1C2DDbl--2N--,3C,No CTRL
+1C2DDbl--2N--,3D,1 CTRL
+1C2DDbl--2N--,3H,2 CTRL
+1C2DDbl--2N--,3S,3 CTRL
+1C2DDbl--2N--,3N,4 CTRL
+1C2DDbl--2N--,4C,5 CTRL
+1C2DDbl--3D--,3H,No CTRL
+1C2DDbl--3D--,3S,1 CTRL
+1C2DDbl--3D--,3N,2 CTRL
+1C2DDbl--3D--,4C,3 CTRL
+1C2DDbl--3D--,4D,4 CTRL
+1C2DDbl--3D--,4H,5 CTRL
+1C2H,--,0-2 CTRL
+1C2H,Dbl,Penalty
+1C2H,2S,6+!S; No CTRL
+1C2H,2N,* 3 CTRL *2 CTRL; 9+HcP
+1C2H,3C,6+!C; strong suit. 0-2 CTRL
+1C2H,3D,6+!D; strong suit. 0-2 CTRL
+1C2H,3H,4+ CTRL
+1C2H,3S,6+!S; strong suit. 0-2 CTRL
+1C2HDbl--,2N,ASK controls in hand
+1C2HDbl--,3H,ASK controls outside opps' suit
+1C2HDbl--2N--,3C,No CTRL
+1C2HDbl--2N--,3D,1 CTRL
+1C2HDbl--2N--,3H,2 CTRL
+1C2HDbl--2N--,3S,3 CTRL
+1C2HDbl--2N--,3N,4 CTRL
+1C2HDbl--2N--,4C,5 CTRL
+1C2HDbl--3H--,3S,NO CTRL
+1C2HDbl--3H--,3N,1 CTRL
+1C2HDbl--3H--,4C,2 CTRL
+1C2HDbl--3H--,4D,3 CTRL
+1C2HDbl--3H--,4H,4 CTRL
+1C2HDbl--3H--,4S,5 CTRL
+1C2S,--,0-2 CTRL
+1C2S,Dbl,Penalty
+1C2S,2N,* 3 CTRL *2 CTRL; 9+HcP
+1C2S,3C,6+!C; strong suit. 0-2 CTRL
+1C2S,3D,6+!D; strong suit. 0-2 CTRL
+1C2S,3H,6+!H; strong suit. 0-2 CTRL
+1C2S,3S,4+ CTRL
+1C2SDbl--,2N,ASK controls in hand
+1C2SDbl--,3H,ASK controls outside opps' suit
+1C2SDbl--,3S,ASK controls outside opps' suit
+1C2SDbl--2N--,3C,No CTRL
+1C2SDbl--2N--,3D,1 CTRL
+1C2SDbl--2N--,3H,2 CTRL
+1C2SDbl--2N--,3S,3 CTRL
+1C2SDbl--2N--,3N,4 CTRL
+1C2SDbl--2N--,4C,5 CTRL
+1C2SDbl--3H--,3S,NO CTRL
+1C2SDbl--3H--,3N,1 CTRL
+1C2SDbl--3H--,4C,2 CTRL
+1C2SDbl--3H--,4D,3 CTRL
+1C2SDbl--3H--,4H,4 CTRL
+1C2SDbl--3H--,4S,5 CTRL
+1C2SDbl--3S--,3N,No CTRL
+1C2SDbl--3S--,4C,1 CTRL
+1C2SDbl--3S--,4D,2 CTRL
+1C2SDbl--3S--,4H,3 CTRL
+1C2SDbl--3S--,4S,4 CTRL
+1C2SDbl--3S--,4N,5 CTRL
+Option
+1D,--, 
+1D,Dbl, 
+1D,1H, 
+1D,1S, 
+1D,2C, 
+1D--,--,0-7HcP; 3+!D
+1D--,1H,5+HcP; 4+!H; Round. Canape' - may have longer
+1D--,1S,5+HcP; 4+!S; Round. Canape' - may have longer
+1D--,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1D--,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1D--,2D,3+!D; No 4 card MAJOR
+1D--,2H,14+HcP; 5+!H; Semi-solid
+1D--,2S,14+HcP; 5+!S; Semi-solid
+1D--,2N,11-12HcP;bal. NF
+1D--,3C,14+HcP; 5+!C
+1D--,3D,4+!D; No 4 card MAJOR
+1D--,3H,Preempt
+1D--,3S,Preempt
+1D--,3N,13-15HcP; bal
+1D--,4D,Preempt
+1D--,5D,Signoff
+1D--1H--,1S,5+!S
+1D--1H--,1N,12-15HcP; bal
+1D--1H--,2C,5+!C
+1D--1H--,2D,5+!D
+1D--1H--,2H,4+!H
+1D--1H--,2N,16-17HcP; balanced
+1D--1H--1S--,2D,Preference
+1D--1H--1S--,2H,Weak; 6+!H
+1D--1H--1S--,2S,Preference
+1D--1H--1S--,3D,5+!D; Limit
+1D--1H--1S--,3H,4!H; Limit
+1D--1H--1S--,4D,Strong !S support
+1D--1H--1N--,2H,Weak 6+!H
+1D--1H--2C--,2H,Weak 6+!H
+1D--1H--2C--,3C,Signoff force
+1D--1H--2C--3C--,3D,Relay
+1D--1H--2C--3C--3D--,--,To play
+1D--1H--2C--3C--3D--,3H,Signoff
+1D--1H--2D--,2H,Weak 6+!H
+1D--1H--2D--,3C,Signoff force
+1D--1H--2D--3C--,3D,Relay
+1D--1H--2D--3C--3D--,--,To play
+1D--1H--2D--3C--3D--,3H,Signoff
+1D--1H--2N--,3C,Signoff force
+1D--1H--2N--3C--,3D,Relay
+1D--1H--2N--3C--3D--,--,To play
+1D--1H--2N--3C--3D--,3H,Signoff
+1D--1S--,1N,12-15HcP; bal
+1D--1S--,2C,5+!C
+1D--1S--,2D,5+!D
+1D--1S--,2H,5+!H
+1D--1S--,2S,4+!S
+1D--1S--,2N,16-17HcP; bal
+1D--1S--1N--,2S,Weak 6+!S
+1D--1S--2C--,2S,Weak 6+!S
+1D--1S--2D--,2S,Weak 6+!S
+1D--1S--2H--,2S,Weak 6+!S
+1D--1S--2H--,3D,Preference
+1D--1S--2H--,3H,Preference
+1D--1S--2H--,4D,Strong !H support
+1D--1S--2N--,3C,Signoff force
+1D--1S--2N--3C--,3D,Relay
+1D--1S--2N--3C--3D--,--,To play
+1D--1S--2N--3C--3D--,3S,Signoff
+1DDbl,--,Weak or trap
+1DDbl,1H,5+!H
+1DDbl,1S,5+!S
+1DDbl,1N,5-8HcP; short in opps
+1DDbl,Rdbl,12+HcP; short in opps
+1DDbl,2C,5+!C
+1DDbl,2D,Preempt
+1DDbl,2H,8-12HcP; 5+!H; good suit
+1DDbl,2S,8-12HcP; 5+!S; good suit
+1DDbl,2N,12+HcP; stop opps
+1DDbl,3C,8-12HcP; 5+!C; good suit
+1D1H,--,0-7HcP; 3+!D
+1D1H,Dbl,Penalty
+1D1H,1S,5+HcP; 4+!S; Round. Canape' - may have longer
+1D1H,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1D1H,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1D1H,2D,3+!D; No 4 card MAJOR
+1D1H,2H,Slam try; 1st round control
+1D1H,2S,14+HcP; 5+!S; Semi-solid
+1D1H,2N,11-12HcP;bal. NF
+1D1H,3C,14+HcP; 5+!C
+1D1H,3D,4+!D; No 4 card MAJOR
+1D1H,3H,Preempt
+1D1H,3S,Preempt
+1D1H,3N,13-15HcP; bal
+1D1H,4D,Preempt
+1D1H,5D,Signoff
+1D1H1S--,1N,12-15HcP; bal
+1D1H1S--,2C,5+!C
+1D1H1S--,2D,5+!D
+1D1H1S--,2H,5+!H
+1D1H1S--,2S,4+!S
+1D1H1S--,2N,16-17HcP; bal
+1D1H1S--1N--,2S,Weak 6+!S
+1D1H1S--2C--,2S,Weak 6+!S
+1D1H1S--2D--,2S,Weak 6+!S
+1D1H1S--2H--,2S,Weak 6+!S
+1D1H1S--2H--,3D,Preference
+1D1H1S--2H--,3H,Preference
+1D1H1S--2H--,4D,Strong !H support
+1D1H1S--2N--,3C,Signoff force
+1D1H1S--2N--3C--,3D,Relay
+1D1H1S--2N--3C--3D--,--,To play
+1D1H1S--2N--3C--3D--,3S,Signoff
+1D1S,--,0-7HcP; 3+!D
+1D1S,Dbl,Penalty
+1D1S,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1D1S,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1D1S,2D,3+!D; No 4 card MAJOR
+1D1S,2H,14+HcP; 5+!H; Semi-solid
+1D1S,2S,Slam try; 1st round control
+1D1S,2N,11-12HcP;bal. NF
+1D1S,3C,14+HcP; 5+!C
+1D1S,3D,4+!D; No 4 card MAJOR
+1D1S,3H,Preempt
+1D1S,3S,Preempt
+1D1S,3N,13-15HcP; bal
+1D1S,4D,Preempt
+1D1S,5D,Signoff
+1D2C,--,0-7HcP; 3+!D
+1D2C,Dbl,Penalty
+1D2C,2D,3+!D; No 4 card MAJOR
+1D2C,2H,14+HcP; 5+!H; Semi-solid
+1D2C,2S,14+HcP; 5+!S; Semi-solid
+1D2C,2N,11-12HcP;bal. NF
+1D2C,3C,Slam try; 1st round control
+1D2C,3D,4+!D; No 4 card MAJOR
+1D2C,3H,Preempt
+1D2C,3S,Preempt
+1D2C,3N,13-15HcP; bal
+1D2C,4D,Preempt
+1D2C,5D,Signoff
+Option
+1H,--, 
+1H,Dbl, 
+1H,1S, 
+1H,2C, 
+1H,2D, 
+1H--,--,0-7HcP; 3+!H
+1H--,1S,5+HcP; 4+!S; Round. Canape' - may have longer
+1H--,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1H--,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1H--,2D,4+!D; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!D
+1H--,2H,3+!H
+1H--,2S,14+HcP; 5+!S; Semi-solid
+1H--,2N,11-12HcP;bal. NF
+1H--,3C,14+HcP; 5+!C; Semi-solid
+1H--,3D,14+HcP; 5+!D; Semi-solid
+1H--,3H,4+!H
+1H--,3S,Preempt
+1H--,3N,13-15HcP; bal
+1H--,4H,Signoff
+1H--1S--,1N,12-15HcP; bal
+1H--1S--,2C,5+!C
+1H--1S--,2D,5+!D
+1H--1S--,2H,1-suiter
+1H--1S--,2S,4+!S
+1H--1S--,2N,16-17HcP; bal
+1H--1S--2C--,2H,Preference
+1H--1S--2C--,2S,Weak 6+!S
+1H--1S--2C--,3H,Limit
+1H--1S--2C--,4D,Strong !H support
+1H--1S--2D--,2H,Preference
+1H--1S--2D--,2S,Weak 6+!S
+1H--1S--2D--,3H,Limit
+1H--1S--2N--,3C,Signoff force
+1H--1S--2N--3C--,3D,Relay
+1H--1S--2N--3C--3D--,--,To play
+1H--1S--2N--3C--3D--,3S,Signoff
+1HDbl,--,Weak or trap
+1HDbl,1S,5+!S
+1HDbl,1N,5-8HcP; short in opps
+1HDbl,Rdbl,12+HcP; short in opps
+1HDbl,2C,5+!C
+1HDbl,2D,5+!D
+1HDbl,2H,Preempt
+1HDbl,2S,8-12HcP; 5+!S; good suit
+1HDbl,2N,12+HcP; stop opps
+1HDbl,3C,8-12HcP; 5+!C; good suit
+1HDbl,3D,8-12HcP; 5+!D; good suit
+1H1S,--,0-7HcP; 3+!H
+1H1S,Dbl,Penalty
+1H1S,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1H1S,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1H1S,2D,4+!D; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!D
+1H1S,2H,3+!H
+1H1S,2S,Slam try; 1st round control
+1H1S,2N,11-12HcP;bal. NF
+1H1S,3C,14+HcP; 5+!C; Semi-solid
+1H1S,3D,14+HcP; 5+!D; Semi-solid
+1H1S,3H,4+!H
+1H1S,3N,13-15HcP; bal
+1H1S,4H,Signoff
+1H2C,--,0-7HcP; 3+!H
+1H2C,Dbl,Penalty
+1H2C,2D,4+!D; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!D
+1H2C,2H,3+!H
+1H2C,2S,14+HcP; 5+!S; Semi-solid
+1H2C,2N,11-12HcP;bal. NF
+1H2C,3C,Slam try. 1st round control
+1H2C,3D,14+HcP; 5+!D; Semi-solid
+1H2C,3H,4+!H
+1H2C,3S,Preempt
+1H2C,3N,13-15HcP; bal
+1H2C,4H,Signoff
+1H2D,--,0-7HcP; 3+!H
+1H2D,Dbl,Penalty
+1H2D,2H,3+!H
+1H2D,2S,14+HcP; 5+!S; Semi-solid
+1H2D,2N,11-12HcP;bal. NF
+1H2D,3C,14+HcP; 5+!C; Semi-solid
+1H2D,3D,Slam try. 1st round control
+1H2D,3H,4+!H
+1H2D,3S,Preempt
+1H2D,3N,13-15HcP; bal
+1H2D,4H,Signoff
+Option
+1S,--, 
+1S,Dbl, 
+1S,2C, 
+1S,2D, 
+1S,2H, 
+1S--,--,0-7HcP; 3+!S
+1S--,1N,6-7HcP; balanced. No 4 card MAJOR. NF
+1S--,2C,4+!C; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!C
+1S--,2D,4+!D; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!D
+1S--,2H,11+HcP; 4+!H; Round
+1S--,2S,3+!S
+1S--,2N,11-12HcP;bal. NF
+1S--,3C,4+!C; No 4 card MAJOR
+1S--,3D,4+!D; No 4 card MAJOR
+1S--,3H,Preempt
+1S--,3S,4+!S
+1S--,3N,13-15HcP; bal
+1S--,4S,Signoff
+1S--2C--,2D,5+!D
+1S--2C--,2H,5+!H
+1S--2C--,2S,1-suiter
+1S--2C--,3C,4+!C
+1S--2C--2D--,3D,Preference
+1S--2C--2D--,4D,Limit
+1S--2C--2H--,2S,Preference
+1S--2C--2H--,3H,(2)3!H Limit
+1S--2C--2H--,4D,Strong !H support
+1S--2D--,2H,5+!H
+1S--2D--,2S,1-suiter
+1S--2D--,3D,4+!D
+1S--2D--2H--,2S,Preference
+1S--2D--2H--,3H,(2)3!H Limit
+1S--2D--2H--,4D,Strong !H support
+1SDbl,--,Weak or trap
+1SDbl,1N,5-8HcP; short in opps
+1SDbl,Rdbl,12+HcP; short in opps
+1SDbl,2C,5+!C
+1SDbl,2D,5+!D
+1SDbl,2H,5+!H
+1SDbl,2S,Preempt
+1SDbl,2N,12+HcP; stop opps
+1SDbl,3C,8-12HcP; 5+!C; good suit
+1SDbl,3D,8-12HcP; 5+!D; good suit
+1SDbl,3H,8-12HcP; 5+!H; good suit
+1S2C,--,0-7HcP; 3+!S
+1S2C,Dbl,Penalty
+1S2C,2D,4+!D; Round. *11+HcP; No MAJOR * 8-10HcP; 6+!D
+1S2C,2H,11+HcP; 4+!H; Round
+1S2C,2S,3+!S
+1S2C,2N,11-12HcP;bal. NF
+1S2C,3C,Slam try. 1st round control
+1S2C,3D,4+!D; No 4 card MAJOR
+1S2C,3H,Preempt
+1S2C,3S,4+!S
+1S2C,3N,13-15HcP; bal
+1S2C,4S,Signoff
+1S2C2D--,2H,5+!H
+1S2C2D--,2S,1-suiter
+1S2C2D--,3D,4+!D
+1S2C2D--2H--,2S,Preference
+1S2C2D--2H--,3H,(2)3!H Limit
+1S2C2D--2H--,4D,Strong !H support
+1S2D,--,0-7HcP; 3+!S
+1S2D,Dbl,Penalty
+1S2D,2H,11+HcP; 4+!H; Round
+1S2D,2S,3+!S
+1S2D,2N,11-12HcP;bal. NF
+1S2D,3C,4+!C; No 4 card MAJOR
+1S2D,3D,Slam try. 1st round control
+1S2D,3H,Preempt
+1S2D,3S,4+!S
+1S2D,3N,13-15HcP; bal
+1S2D,4S,Signoff
+1S2H,--,0-7HcP; 3+!S
+1S2H,Dbl,Penalty
+1S2H,2S,3+!S
+1S2H,2N,11-12HcP;bal. NF
+1S2H,3C,4+!C; No 4 card MAJOR
+1S2H,3D,4+!D; No 4 card MAJOR
+1S2H,3H,Slam try. 1st round control
+1S2H,3S,4+!S
+1S2H,3N,13-15HcP; bal
+1S2H,4S,Signoff
+Option
+1N,--, 
+1N,Dbl, 
+1N,2C, 
+1N,2D, 
+1N,2H, 
+1N,2S, 
+1N--,--,0-8HcP; balanced
+1N--,2C,5-10HcP; 3+!C
+1N--,2D,A suit
+1N--,2H,8+HcP; 6+!H; Round
+1N--,2S,8+HcP; 6+!S; Round
+1N--,2N,10-11HcP; bal. Stop !D+!H+!S
+1N--,3C,12+HcP; 3+!C
+1N--,3D,6+!D; Semi-solid; GF
+1N--,3H,5+!H; Semi-solid; GF
+1N--,3S,5+!S; Semi-solid; GF
+1N--,3N,12+HcP; bal. Stop !D+!H+!S
+1N--2C--,--,13-14HcP; To play
+1N--2C--,2D,Stop !D. Bid stoppers up the line
+1N--2C--,2H,Stop !H. Bid stoppers up the line
+1N--2C--,2S,Stop !S. Bid stoppers up the line
+1N--2C--,2N,Stop !D+!H+!S
+1N--2C--,3N,Signoff. Stop !D+!H+!S
+1N--2C--2D--,2H,!H Stop OK
+1N--2C--2D--,2S,!S Stop OK
+1N--2C--2D--,2N,9-10HcP; Stop OK
+1N--2C--2D--,3C,5-18HcP; Signoff
+1N--2C--2D--,3N,11-12HcP; Stop OK
+1N--2C--2H--,2S,!S Stop OK
+1N--2C--2H--,2N,9-10HcP; Stop OK
+1N--2C--2H--,3C,5-18HcP; Signoff
+1N--2C--2H--,3N,11-12HcP; Stop OK
+1N--2C--2S--,2N,9-10HcP; Stop OK
+1N--2C--2S--,3C,5-18HcP; Signoff
+1N--2C--2S--,3N,11-12HcP; Stop OK
+1N--2D--,2H,Relay
+1N--2D--2H--,--,To play
+1N--2D--2H--,2S,Signoff
+1N--2D--2H--,3C,10-12HcP; 5!D + 3!C
+1N--2D--2H--,3D,11-12HcP; 6+!D
+1N--2D--2H--,3H,6+!H; GF
+1N--2D--2H--,3S,6+!S; GF
+1N--2H--,2N,13-14HcP
+1N--2H--,3C,13-14HcP
+1N--2H--,3H,MAXIMUM; Fit in !H
+1N--2H--,3N,Signoff
+1N--2H--2N--,3D,Invite
+1N--2H--2N--,3H,minimum
+1N--2H--2N--,3S,CUE; GF
+1N--2H--2N--,4C,CUE; GF
+1N--2H--2N--,4D,CUE; GF
+1N--2H--3C--,3D,Invite
+1N--2H--3C--,3H,minimum
+1N--2H--3C--,3S,CUE; GF
+1N--2H--3C--,4C,CUE; GF
+1N--2H--3C--,4D,CUE; GF
+1N--2S--,2N,13-14HcP
+1N--2S--,3C,13-14HcP
+1N--2S--,3S,MAXIMUM; Fit in !S
+1N--2S--,3N,Signoff
+1N--2S--2N--,3D,Invite
+1N--2S--2N--,3H,Invite
+1N--2S--2N--,3S,minimum
+1N--2S--2N--,4C,CUE; GF
+1N--2S--2N--,4D,CUE; GF
+1N--2S--2N--,4H,CUE; GF
+1N--2S--3C--,3D,Invite
+1N--2S--3C--,3H,Invite
+1N--2S--3C--,3S,minimum
+1N--2S--3C--,4C,CUE; GF
+1N--2S--3C--,4D,CUE; GF
+1N--2S--3C--,4H,CUE; GF
+1N--3C--,3D,Stop !D. Bid stoppers up the line
+1N--3C--,3H,Stop !H. Bid stoppers up the line
+1N--3C--,3S,Stop !S. Bid stoppers up the line
+1N--3C--,3N,Stop !D+!H+!S
+1N--3C--3D--,3H,!H Stop OK
+1N--3C--3D--,3S,!S Stop OK
+1N--3C--3D--,3N,Signoff. Stop OK
+1N--3C--3H--,3S,!S Stop OK
+1N--3C--3H--,3N,Signoff. Stop OK
+1N--3C--3S--,3N,Signoff. Stop OK
+1NDbl,--,Weak; 0-1!C
+1NDbl,Rdbl,Strong; ANY. Natural continue
+1NDbl,2C,Weak; Signoff
+1NDbl,2D,5+!D; Natural continue
+1NDbl,2H,5+!H; Natural continue
+1NDbl,2S,5+!S; Natural continue
+1N2C,--,To play
+1N2C,Dbl,Penalty
+1N2C,2D,5+!D; Natural continue
+1N2C,2H,5+!H; Natural continue
+1N2C,2S,5+!S; Natural continue
+1N2C,3C,Preempt
+1N2C,4C,Preempt
+1N2C,5C,Signoff
+1N2D,--,To play
+1N2D,Dbl,Penalty
+1N2D,2H,5+!H; Natural continue
+1N2D,2S,5+!S; Natural continue
+1N2D,2N,Stop OK
+1N2D,3C,Preempt
+1N2D,3D,GF; No stop
+1N2D,3N,STOP OK
+1N2D,4C,Preempt
+1N2D,5C,Signoff
+1N2H,--,To play
+1N2H,Dbl,Penalty
+1N2H,2S,5+!S; Natural continue
+1N2H,2N,Stop OK
+1N2H,3C,Preempt
+1N2H,3D,5+!D; Natural continue
+1N2H,3H,GF; No stop
+1N2H,3N,STOP OK
+1N2H,4C,Preempt
+1N2H,5C,Signoff
+1N2S,--,To play
+1N2S,Dbl,Penalty
+1N2S,2N,Stop OK
+1N2S,3C,Preempt
+1N2S,3D,5+!D; Natural continue
+1N2S,3H,5+!H; Natural continue
+1N2S,3S,GF; No stop
+1N2S,3N,STOP OK
+1N2S,4C,Preempt
+1N2S,5C,Signoff
+Option
+2C,--, 
+2C,Dbl, 
+2C--,2D,6+HcP;ANY. Round
+2C--,2H,6+HcP; 5+!H; Round
+2C--,2S,6+HcP; 5+!S; Round
+2C--,2N,10-12HcP; bal.
+2C--,3D,12+HcP;GF. Strong suit
+2C--,3H,12+HcP;GF. Strong suit
+2C--,3S,12+HcP;GF. Strong suit
+2C--,3N,12-14HcP; balanced. Stoppers
+2C--,4C,4-5HcP; 4+!C
+2C--2D--,2H,4!H
+2C--2D--,2S,4!S
+2C--2D--,2N,4!D
+2C--2D--,3C,6+!C; 1-suiter
+2C--2D--3C--,3D,ASK stop
+2C--2D--3C--,3H,12+HcP; 5!H
+2C--2D--3C--,3S,12+HcP; 5!S
+2C--2D--3C--3D--,3H,!H stop
+2C--2D--3C--3D--,3S,!S stop
+2C--2D--3C--3D--,3N,!D stop
+2C--2H--,2S,4!S
+2C--2H--,2N,4!D
+2C--2H--,3C,6+!C; 1-suiter
+2C--2H--,3H,3+!H; minimum
+2C--2H--,4H,3+!H; MAXIMUM
+2C--2H--3C--,3D,ASK stop
+2C--2H--3C--,3H,12+HcP; 6!H
+2C--2H--3C--3D--,3H,!H stop
+2C--2H--3C--3D--,3S,!S stop
+2C--2H--3C--3D--,3N,!D stop
+2C--2S--,2N,4!D
+2C--2S--,3C,6+!C; 1-suiter
+2C--2S--,3H,4!H
+2C--2S--,3S,3+!S; minimum
+2C--2S--,4S,3+!S; MAXIMUM
+2C--2S--3C--,3D,ASK stop
+2C--2S--3C--,3H,12+HcP; 5!H
+2C--2S--3C--,3S,12+HcP; 5!S
+2C--2S--3C--3D--,3H,!H stop
+2C--2S--3C--3D--,3S,!S stop
+2C--2S--3C--3D--,3N,!D stop
+2C--2N--,--,Weak/broken 6!C
+2C--2N--,3C,Solid 6+!C; 1-suiter
+2C--2N--,3D,*5!C+5!D *6!C+4!D
+2C--2N--,3H,*5!C+5!H *6!C+4!H
+2C--2N--,3S,*5!C+5!S *6!C+4!S
+2C--2N--,3N,Strong 6+!C; 1-suiter
+2C--2N--,4D,6!C+5!D
+2C--2N--,4H,6!C+5!H
+2C--2N--,4S,6!C+5!S
+2C--3D--,3H,5+!C + 4+!H
+2C--3D--,3S,5+!C + 4+!S
+2C--3D--,3N,3!D; Weak 6!C 1-suiter. Stop unbid
+2C--3D--,4C,6!C 1-suiter
+2C--3D--,4D,3!D; Weak 6!C 1-suiter
+2C--3D--,4N,3!D; Blackwood in !D
+2C--3H--,3S,5+!C + 4+!S
+2C--3H--,3N,3!H; Weak 6!C 1-suiter. Stop unbid
+2C--3H--,4C,6!C 1-suiter
+2C--3H--,4D,5+!C + 4+!D
+2C--3H--,4H,3!H; Weak 6!C 1-suiter
+2C--3H--,4N,3!H; Blackwood in !H
+2C--3S--,3N,Weak 6!C 1-suiter. Stop unbid
+2C--3S--,4C,6!C 1-suiter
+2C--3S--,4D,5+!C + 4+!D
+2C--3S--,4H,5+!C + 4+!H
+2C--3S--,4S,3!S; Weak 6!C 1-suiter
+2C--3S--,4N,3!S; Blackwood in !S
+2C--4C--,--,To play
+2C--4C--,4D,6!C + 5!D
+2C--4C--,4H,6!C + 5!H
+2C--4C--,4S,6!C + 5!S
+2CDbl,--,To play
+2CDbl,Rdbl,11+HcP; ANY
+Option
+2D,--, 
+2D--,2H,5+!H
+2D--,2S,5+!S
+2D--,2N,GF
+Option
+2H,--, 
+2H--,2S,6+!S; 0-1!H
+2H--,2N,GF
+Option
+2S,--, 
+2S--,2N,GF
+2S--,3H,6+!H; 0-1!S
+Option
+2N,--, 
+2N--,3C,ASK suit
+2N--3C--,3D,7+!D
+2N--3C--,3H,7+!H
+2N--3C--,3S,7+!S
+
