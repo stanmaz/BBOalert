@@ -1,0 +1,4109 @@
+BBOalert
+Option
+,1C,See chat message#Balanced; 18-23 HCPOR 24+ 6+ control in A=2; K=1OR 4441 25+ HCPOR Unbalanced 16+ HCP
+,1D,1+!D; 11-16 HCP; catchall
+,1H,11-16 HCP; Denies 4!S5!Hxx
+,1S,Can be strong 4 in 3rd/4th11-16 HCP
+,1N,See chat message#semi-Balanced; 15-17 HCP; may have 5card Major
+,2C,6+; 11-16 HCP
+,2D,See chat message#any (4441); 16-24 HCPOR 6 Hearts; 6-12 HCPOR Balanced; 26-27 HCP;3-4 Qs; 9+ points in quacks (Balanced duck)(Forcing)
+,2H,See chat message#4414 or 4405; 12-15(Bad 16 HCP)OR 45xx; 12-15 (Bad 16 HCP)
+,2S,See chat message#6; no void; no 5 card side Suit; 2 of top 4; 6-12 HCP
+,2N,Balanced; 24-25 HCP; at most 5/8 AKs
+,3C,Any AKQ seventh somewhere; 9-11 HCP
+,3D,6+ NV; 7+ V; 0-9 HCP
+,3H,6+ NV; 7+ V; 0-9 HCP
+,3S,6+ NV; 7+ V; 0-9 HCP
+,3N,8+ minor; no Ace; 2-8 HCP
+,4C,See chat message#7-8 Hearts; K!H at least; 9-15 HCP; 2 2nd round controls; 8-9 tricks
+,4D,See chat message#7-8 spades; K!S at least; 9-15 HCP; 2 2nd round controls; 8-9 tricks
+,4H,74 or 8; 0-10 HCP
+,4S,74 or 8; 0-10 HCP
+,4N,Acol Ace AsKing bid
+Option
+1C,--, 
+1C--,1D,0-8 HCP (or 9 HCP with 0 controls)
+1C--,1H,5+; 9+ HCP; GF
+1C--,1S,5+; 9+HCP; GF
+1C--,1N,Balanced; 9-14 HCP; gf
+1C--,2C,5+; clubs longest; 9+ HCP; gf
+1C--,2D,5+; diamonds longest(could have equal # of clubs); 9+ HCP; gf
+1C--,2H,1!S; 1444; 1+ controls; 9+ HCP; gf
+1C--,2S,4441; 1+ controls; 9+ HCP; gf
+1C--,2N,(4333) or (4432); 15+ HCP; gfForcing to 5 of a Suit/5N
+1C--,3C,4414; 1+ controls; 9+ HCP; gf
+1C--,3D,4144; 1+ controls; 9+ HCP; gf
+1C--,3H,AKQJxx any Suit(6); 10+ HCP; gf and outside control
+1C--,3S,AKQxxxx Any Suit (7); no outside A or K; gf
+1C--,3N,AKQ seventh anywhere; at least one outside control; gf
+1C--,4C,AKQxxxxx; Any Suit (8); gf
+1C--1D--,1H,(1) 5+ Hearts OR(2) Balanced; 20-23 HCP; Forcing
+1C--1D--,1S,usually 5; 16-19 HCP
+1C--1D--,1N,Balanced; may have 5cM; 18-19 HCP
+1C--1D--,2C,Unbalanced; clubs longest; 16-21 HCP
+1C--1D--,2D,Unbalanced; diamonds longest; 16-21 HCP
+1C--1D--,2H,xx(54)+; 19+ HCP (19-21 Balanced)
+1C--1D--,2S,strong two spades; almost gf
+1C--1D--,2N,Balanced; 22-23 HCP; no 5cM
+1C--1D--,3C,strong two clubs; Forcing
+1C--1D--,3D,strong two diamonds; Forcing
+1C--1D--,3H,9 tricks in !H
+1C--1D--,3S,9 tricks in !S
+1C--1D--,3N,semi-Balanced; solid 6-7 minor; 18-21 HCP; two stoppers.
+1C--1D--,4C,undefined (6-5 in minors?)
+1C--1D--,4D,undefined (6-5 in minors?)
+1C--1D--,4H,16-19 HCP
+1C--1D--,4S,16-19 HCP
+1C--1D--,4N,Balanced; exactly 31 HCP
+1C--1D--1H--,1S,Artifical and Forcing (bid 95% of the time)
+1C--1D--1H--,1N,Balanced; 7-8 HCP
+1C--1D--1H--,2C,6-7; no side 4 HCP; 0-3 HCP; 0 controls
+1C--1D--1H--,2D,6-7; no side 4 HCP; 0-3 HCP; 0 controls
+1C--1D--1H--,2H,6-7; no side 4 HCP; 0-3 HCP; 0 controls
+1C--1D--1H--,2S,6-7; no side 4 HCP; 0-3 HCP; 0 controls
+1C--1D--1H--,3C,KQJ sixth/seventh
+1C--1D--1H--,3D,KQJ sixth/seventh
+1C--1D--1H--,3S,KQJ sixth/seventh
+1C--1D--1H--1S--,1N,Balanced; 20-21 HCP
+1C--1D--1H--1S--,2C,4+; 5+ Hearts
+1C--1D--1H--1S--,2D,4+; 5+ Hearts
+1C--1D--1H--1S--,2H,strong two Hearts; no other 5 card Suit (21+ HCP); gf
+1C--1D--1H--1S--,2S,4+; 5+ Hearts
+1C--1D--1H--1S--,2N,Balanced; gf; 6+ AKs.
+1C--1D--1H--1S--,3C,5(?)+; 5+ Hearts; Forcing
+1C--1D--1H--1S--,3D,5(?)+; 5+ Hearts; Forcing
+1C--1D--1H--1S--,3H,6 Hearts; no 4 card side Suit (16-23)"
+1C--1D--1H--1S--,3S,reverse(4+ spades); Forcing
+1C--1D--1H--1S--2H--,2S,5+; at most 2 Hearts; 5-8 points
+1C--1D--1H--1S--2H--,2N,Balanced; 2 Hearts; 7-8 HCP
+1C--1D--1H--1S--2H--,3C,Double negative; 0-5 HCP (still gf)
+1C--1D--1H--1S--2H--,3D,5; at most 2 Hearts; 3+ D HCP; 5-8 HCP
+1C--1D--1H--1S--2H--,3H,3+; 5-8 HCP
+1C--1D--1H--1S--2H--,3S,splinter; 5-8 HCP
+1C--1D--1H--1S--2H--,3N,Undefined.
+1C--1D--1H--1S--2H--,4C,splinter; 5-8 HCP
+1C--1D--1H--1S--2H--,4D,splinter; 5-8 HCP
+1C--1D--1H--1S--2H--,4H,4+; a doubleton; no controls or singletons"
+1C--1D--1H--1S--2H--2S--,2N,5332 pattern
+1C--1D--1H--1S--2H--2S--,3C,!C Suit
+1C--1D--1H--1S--2H--2S--,3D,!D Suit
+1C--1D--1H--1S--2H--2S--,3H,6+ !H
+1C--1D--1H--1S--2H--3H--,3S,could be new Suit or an Ace
+1C--1D--1H--1S--2H--3H--,4C,could be new Suit or an Ace
+1C--1D--1H--1S--2H--3H--,4D,could be new Suit or an Ace
+1C--1D--1S--,--,at most 2 spades; 0-4 HCP
+1C--1D--1S--,1N,at most 2 spades; 5-8 HCP
+1C--1D--1S--,2C,at most 2 spades; 5+; 3-8 HCP
+1C--1D--1S--,2H,at most 2 spades; 5+; 3-8 HCP
+1C--1D--1S--,2S,3+; 4-7 points
+1C--1D--1S--,2N,3!S; (3433 pattern); good 7-8 HCP
+1C--1D--1S--,3C,3 spades; stiff somewhere; 7-8 HCP
+1C--1D--1S--,3D,6+ (mini-splinter with 3m?)
+1C--1D--1S--,3H,3 spades; 5+; 7-8 HCP
+1C--1D--1S--,3S,4; 7-9 points
+1C--1D--1S--,3N,Balanced; 4-5 spades; 8-9 points; Forcing
+1C--1D--1S--,4C,splinter; 9-11 points
+1C--1D--1S--,4D,splinter; 9-11 points
+1C--1D--1S--,4H,splinter; 9-11 points
+1C--1D--1S--,4S,4+; sign-off; 0-6 points
+1C--1D--1S--3N--,4C,Slam Try
+1C--1D--1S--3N--,4D,Slam Try
+1C--1D--1S--3N--,4H,Slam Try
+1C--1D--1S--3N--,4S,To play.
+1C--1D--2C--,2D,artificial and Forcing; 6-8 HCP
+1C--1D--2C--,2H,5-6; 5-8 HCP
+1C--1D--2C--,2S,5-6; 5-8 HCP
+1C--1D--2C--,2N,Balanced; no 4cM; 6-bad 8 HCP
+1C--1D--2C--,3C,3+; no 5cM; 5-8 HCP (points?)
+1C--1D--2C--,3D,KJT sixth+; 4-8 HCP; Forcing to 4C
+1C--1D--2C--,3H,KJT sixth+; 4-8 HCP; Forcing to 4C
+1C--1D--2C--,3S,KJT sixth+; 4-8 HCP; Forcing to 4C
+1C--1D--2C--,3N,Balanced; 2 stoppers outside; good 8 HCP
+1C--1D--2C--,4C,4+; 8-10 points (no stiff outside?)
+1C--1D--2C--,4D,splinter; 8-10 points
+1C--1D--2C--,4H,splinter; 8-10 points
+1C--1D--2C--,4S,splinter; 8-10 points
+1C--1D--2D--,--,0-5 HCP; no Suit
+1C--1D--2D--,2H,5-6; 4-8 HCP
+1C--1D--2D--,2S,5-6; 4-8 HCP
+1C--1D--2D--,2N,Balanced; no 5cM; 6-7 HCP; Asks for 4cM
+1C--1D--2D--,3C,5-6; 5-8 HCP
+1C--1D--2D--,3D,3+; no 5cM; 5-8 points
+1C--1D--2D--,3H,KJT sixth+; 4-8 HCP; Forcing to 4D
+1C--1D--2D--,3S,KJT sixth+; 4-8 HCP; Forcing to 4D
+1C--1D--2D--,3N,Balanced; 2 stoppers outside; 8 HCP
+1C--1D--2D--,4C,splinter; 8-10 points
+1C--1D--2D--,4D,4+; 8-10 points (no stiff outside?)
+1C--1D--2D--,4H,splinter; 8-10 points
+1C--1D--2D--,4S,splinter; 8-10 points
+1C--1D--2H--,2S,waiting; 6-8 HCP
+1C--1D--2H--,2N,6-8 HCP with most strength in majors
+1C--1D--2H--,3C,To play.
+1C--1D--2H--,3D,To play.
+1C--1D--2H--,3H,Forcing 5-6!Hs
+1C--1D--2H--,3S,Forcing 5-6!Ss
+1C--1D--2H--,3N,Signoff 
+1C--1D--2H--,4C,invitational to game; not many high cards
+1C--1D--2H--,4D,invitational to game; not many high cards
+1C--1D--2H--,4H,Slam Try in !C's.
+1C--1D--2H--,4S,Slam try in !D's
+1C--1D--2H--2S--,2N,22(54); 19-20 HCP
+1C--1D--2H--2S--,3C,(31)45; 19-20 HCP
+1C--1D--2H--2S--,3D,xx5(4-5); 19-20 HCP
+1C--1D--2H--2S--,3H,3 cd; 19+ HCP
+1C--1D--2H--2S--,3S,3 cd; 19+ HCP
+1C--1D--2H--2S--,3N,22(54); 20-21 HCP
+1C--1D--2H--2S--3N--,4C,invitational to game in m
+1C--1D--2H--2S--3N--,4D,invitational to game in m
+1C--1D--2H--2S--3N--,4H,slam try in clubs
+1C--1D--2H--2S--3N--,4S,slam try in !D.
+1C--1D--2S--,2N,Balanced; 2 spades; 7-8 HCP
+1C--1D--2S--,3C,double negative; 0-5 HCP (can pass 3S rebid with 0-3 HCP)
+1C--1D--2S--,3D,5; at most 2 spades; 3+ HCP in diamonds; 5-8 HCP
+1C--1D--2S--,3H,5+; at most 2 spades; 5-8 HCP
+1C--1D--2S--,3S,3+; 5-8 HCP
+1C--1D--2S--,3N,undefined
+1C--1D--2S--,4C,splinter; 5-8 HCP
+1C--1D--2S--,4D,splinter; 5-8 HCP
+1C--1D--2S--,4H,splinter; 5-8 HCP
+1C--1D--2S--,4S,4+; doubleton on side; no controls or singletons
+1C--1D--2S--3S--,4C,could be new Suit or an Ace
+1C--1D--2S--3S--,4D,could be new Suit or an Ace
+1C--1D--2S--3S--,4H,could be new Suit or an Ace
+1C--1D--2N--,3C,[stayman]; 3-8 HCP
+1C--1D--2N--,3D,5+ Hearts; 0-8 HCP
+1C--1D--2N--,3H,5+ spades; 0-8 HCP
+1C--1D--2N--,3S,[minor Suit stayman]
+1C--1D--2N--,3N,Sign Off.
+1C--1D--2N--,4C,minor-Suit slam try; 6-7 card minor; 6-8 HCP
+1C--1D--2N--,4D,[modified roman redwood] (RKC?) (NOT texas)
+1C--1D--2N--,4H,6+; slam interest; not Forcing (NOT texas)
+1C--1D--2N--,4S,6+; slam interest; not Forcing (NOT texas)
+1C--1D--2N--,4N,Balanced slam try; 10 HCP
+1C--1D--2N--3C--,3D,no 4cM
+1C--1D--2N--3C--,3H,4H
+1C--1D--2N--3C--,3S,4S and does not deny 4H
+1C--1D--2N--3C--3D--,3H,4; 5 card other major
+1C--1D--2N--3C--3D--,3S,4; 5 card other major
+1C--1D--2N--3C--3D--,3N,Signoff 
+1C--1D--2N--3C--3D--,4C,5+; 4cM; Forcing
+1C--1D--2N--3C--3D--,4D,5+; 4cM; Forcing
+1C--1D--2N--3C--3H--,3S,Artificial slam try in Hearts
+1C--1D--2N--3C--3H--,3N,4 spades; To play
+1C--1D--2N--3C--3H--,4C,5+; 4cM; Forcing
+1C--1D--2N--3C--3H--,4D,5+; 4cM; Forcing
+1C--1D--2N--3C--3S--,3N,4 Hearts; To play
+1C--1D--2N--3C--3S--,4C,5+; 4cM; Forcing
+1C--1D--2N--3C--3S--,4D,Forcing 5-6!Ds
+1C--1D--2N--3C--3S--,4H,artificial slam try in spades
+1C--1D--2N--3D--,3H,less than 4 Hearts
+1C--1D--2N--3D--,3S,4 Hearts; Ace of spades; many controls
+1C--1D--2N--3D--,3N,undefined (3433; 23 HCP?)
+1C--1D--2N--3D--,4C,4 Hearts; Ace; many controls
+1C--1D--2N--3D--,4D,4 Hearts; Ace; many controls
+1C--1D--2N--3D--,4H,4 Hearts; Ace; many controls
+1C--1D--2N--3H--,3S,4 Hearts; Ace of spades; many controls
+1C--1D--2N--3H--,3N,undefined (3433; 23 HCP?)
+1C--1D--2N--3H--,4C,4 spades; Ace; many controls
+1C--1D--2N--3H--,4D,4 spades; Ace; many controls
+1C--1D--2N--3H--,4H,4 spades; Ace; many controls
+1C--1D--2N--3S--,3N,To play.
+1C--1D--2N--3S--,4C,3+; Slam try.
+1C--1D--2N--3S--,4D,3+; Slam try.
+1C--1D--2N--3S--3N--,4C,Strong Suit
+1C--1D--2N--3S--3N--,4D,Strong Suit
+1C--1D--2N--3S--3N--,4H,0-1 card
+1C--1D--2N--3S--3N--,4S,0-1 card
+1C--1D--2N--4C--,4D,no interest
+1C--1D--2N--4C--,4H,slam try if responder has clubs
+1C--1D--2N--4C--,4S,slam try if responder has Diamonds
+1C--1D--2N--4C--,4N,slam try in either minor
+1C--1D--2N--4D--,4H,0/3 Aces
+1C--1D--2N--4D--,4S,1/4 Aces
+1C--1D--2N--4D--,4N,2 ACES
+1C--1D--3C--,3D,double negative; at most 2 clubs; 0-4 HCP and OR 3334--aiming for 3N.
+1C--1D--3C--,3H,5+; could have 3 clubs; 5-8 HCP
+1C--1D--3C--,3S,5+; could have 3 clubs; 5-8 HCP
+1C--1D--3C--,3N,Balanced; 5-8 HCP
+1C--1D--3C--,4C,3+; 5-8 points
+1C--1D--3C--,4D,splinter; 4-8 HCP
+1C--1D--3C--,4H,splinter; 4-8 HCP
+1C--1D--3C--,4S,splinter; 4-8 HCP
+1C--1D--3C--,4N,Undefined
+1C--1D--3C--,5C,4-5; a doubleton; no controls or singletons
+1C--1D--3C--3N--,4H,4!H
+1C--1D--3C--3N--,4S,4!S
+1C--1D--3D--,3H,double negative; at most 2 diamonds; 0-4 HCP and OR 3343--aiming for 3N.
+1C--1D--3D--,3S,5+; could have 3 diamonds; 5-8 HCP
+1C--1D--3D--,3N,Balanced; 6-8 HCP
+1C--1D--3D--,4C,5-6; 5-8 HCP
+1C--1D--3D--,4D,3+; 5-8 points
+1C--1D--3D--,4H,5-6!H; 5-8 HCP
+1C--1D--3D--,4S,splinter; 5-8 HCP
+1C--1D--3D--,4N,splinter in Hearts; 5-8 HCP
+1C--1D--3D--,5C,splinter in !C; 5-8 HCP
+1C--1D--3D--,5D,4-5; a doubleton; no controls or singletons
+1C--1D--3D--3N--,4H,4!H
+1C--1D--3D--3N--,4S,4!S
+1C--1D--3H--,3S,cue-bid with slam interest
+1C--1D--3H--,3N,undefined.
+1C--1D--3H--,4C,cue-bid with slam interest
+1C--1D--3H--,4D,cue-bid with slam interest
+1C--1D--3H--,4H,1 cover card
+1C--1D--3H--,4S,jump shift :: splinter; 3+ Hearts; 2+ controls(6-8 HCP)
+1C--1D--3H--,5C,jump shift :: splinter; 3+ Hearts; 2+ controls(6-8 HCP)
+1C--1D--3H--,5D,jump shift :: splinter; 3+ Hearts; 2+ controls(6-8 HCP)
+1C--1D--4C--,4H,A!H
+1C--1D--4C--,4S,A!S
+1C--1D--4C--,4N,two Top minor honors
+1C--1D--4D--,4H,A!H
+1C--1D--4D--,4S,A!S
+1C--1D--4D--,4N,two Top minor honors
+1C--1D--4H--,--,Less than 2 Aces.
+1C--1D--4H--,4S,2 Aces
+1C--1D--4H--,5C,2 Aces
+1C--1D--4H--,5D,2 Aces
+1C--1D--4S--,--,Less than 2 Aces.
+1C--1D--4S--,5C,2 Aces
+1C--1D--4S--,5D,2 Aces
+1C--1D--4S--,5H,2 Aces.
+1C--1D--4N--,5N,Q or QJ
+1C--1D--4N--,6N,two queens or a control; less than 6 HCP
+1C--1D--4N--,7N,6+ HCP
+1C--1H--,1S,5+ support Ask?
+1C--1H--,1N,control-AsKing bid
+1C--1H--,2C,4+ (most likely 5); [support-Ask]
+1C--1H--,2D,4+ (most likely 5); [support-Ask]
+1C--1H--,2H,trump Ask
+1C--1H--,2S,Unbalanced; solid Suit (sets trump)
+1C--1H--,3C,Unbalanced; solid Suit (sets trump)
+1C--1H--,3D,Unbalanced; solid Suit (sets trump)
+1C--1H--,3H,unknown splinter; no 5-card headed by 2/3 top honors; 19-21 HCP
+1C--1H--,3S,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1H--,4C,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1H--,4D,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1H--1S--,1N,0-3 controls; less than queen-third support
+1C--1H--1S--,2C,4+ controls; less than queen-third support
+1C--1H--1S--,2D,0-3 controls; queen-third+
+1C--1H--1S--,2H,4+ controls; queen-third+
+1C--1H--1S--,2S,4+ controls; four-card support; no top honor
+1C--1H--1S--,3C,strong 55
+1C--1H--1S--,3D,strong 55
+1C--1H--1S--,3H,semi solid Suit
+1C--1H--1S--1N--,3N,To play
+1C--1H--1S--2C--,3N,To play
+1C--1H--1S--2D--,2N,0-3 control Ask
+1C--1H--1S--2D--2N--,3C,0 controls; 1 K; or 1 A
+1C--1H--1S--2D--2N--,3D,2 Kings
+1C--1H--1S--2D--2N--,3H,3 controls
+1C--1H--1S--2D--2N--,3S,3 controls; 4 trump; stiff or void
+1C--1H--1S--2D--2N--3S--,3N,Stiff Ask?
+1C--1H--1S--2D--2N--3S--3N--,4C,C
+1C--1H--1S--2D--2N--3S--3N--,4D,D
+1C--1H--1S--2H--,2N,control Ask
+1C--1H--1S--2H--2N--,3C,4
+1C--1H--1S--2H--2N--,3D,5
+1C--1H--1S--2H--2N--,3H,6
+1C--1H--1S--2S--,2N,Control Ask
+1C--1H--1S--2S--2N--,3C,4
+1C--1H--1S--2S--2N--,3D,5
+1C--1H--1S--2S--2N--,3H,6
+1C--1H--1N--,2C,0-2 controls
+1C--1H--1N--,2D,3 controls
+1C--1H--1N--,2H,4 controls
+1C--1H--1N--,2S,5 controls
+1C--1H--1N--,2N,6+ controls
+1C--1H--1N--,3C,5+; 2/top 3 in !H and !C
+1C--1H--1N--,3D,5+; 2/top 3 in !H and !D
+1C--1H--1N--,3H,2 of top 3 and Jack
+1C--1H--1N--,3S,56xx hand
+1C--1H--1N--2C--,2D,Re-Ask controls and description
+1C--1H--1N--2C--,2H,Trump Ask
+1C--1H--1N--2C--,2N,Distribution Ask?
+1C--1H--1N--2C--2D--,2H,0 or 1 King
+1C--1H--1N--2C--2D--,2S,1 Ace
+1C--1H--1N--2C--2D--,2N,(5332); 2 Kings
+1C--1H--1N--2C--2D--,3C,4+; 2 Kings
+1C--1H--1N--2C--2D--,3D,4+; 2 Kings
+1C--1H--1N--2C--2D--,3H,6+; 2 Kings
+1C--1H--1N--2C--2D--,3S,4+; 2 Kings
+1C--1H--1N--2C--2H--,2S,5 or 6 with 0 top honors
+1C--1H--1N--2C--2H--,2N,5 with 1 top honor
+1C--1H--1N--2C--2H--,3C,6 with 1 top honor
+1C--1H--1N--2C--2H--,3D,5 with 2 top honors
+1C--1H--1N--2C--2H--,3H,6+ with 2 top honors
+1C--1H--1N--2C--2H--2S--,3H,Re-Ask trump?
+1C--1H--1N--2C--2H--2S--3H--,3S,ten-fifth or worse
+1C--1H--1N--2C--2H--2S--3H--,3N,Jack-fifth
+1C--1H--1N--2C--2H--2S--3H--,4C,ten-sixth or worse
+1C--1H--1N--2C--2H--2S--3H--,4D,Jack-sixth
+1C--1H--1N--2C--2H--2N--,3H,Trump re-Ask
+1C--1H--1N--2C--2H--2N--3H--,3S,Jack
+1C--1H--1N--2C--2H--2N--3H--,3N,queen; no Jack
+1C--1H--1N--2C--2H--2N--3H--,4C,King; no Jack
+1C--1H--1N--2C--2H--2N--3H--,4D,Ace; no Jack
+1C--1H--1N--2C--2H--2N--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2C--2H--2N--3H--3S--3N--,4C,Q!H
+1C--1H--1N--2C--2H--2N--3H--3S--3N--,4D,K!H
+1C--1H--1N--2C--2H--2N--3H--3S--3N--,4H,A!H
+1C--1H--1N--2C--2H--3C--,3H,re-Ask trump
+1C--1H--1N--2C--2H--3C--3H--,3S,Jack
+1C--1H--1N--2C--2H--3C--3H--,3N,queen; no Jack
+1C--1H--1N--2C--2H--3C--3H--,4C,King; no Jack
+1C--1H--1N--2C--2H--3C--3H--,4D,Ace; no Jack
+1C--1H--1N--2C--2H--3C--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2C--2H--3C--3H--3S--3N--,4C,Q!H
+1C--1H--1N--2C--2H--3C--3H--3S--3N--,4D,K!H
+1C--1H--1N--2C--2H--3C--3H--3S--3N--,4H,A!H
+1C--1H--1N--2C--2H--3D--,3H,Trump re-Ask
+1C--1H--1N--2C--2H--3D--3H--,3S,Jack
+1C--1H--1N--2C--2H--3D--3H--,3N,KQxxx !H
+1C--1H--1N--2C--2H--3D--3H--,4C,AQxxx !H
+1C--1H--1N--2C--2H--3D--3H--,4D,AKxxx !H
+1C--1H--1N--2C--2H--3D--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2C--2H--3D--3H--3S--3N--,4C,KQJxx !H
+1C--1H--1N--2C--2H--3D--3H--3S--3N--,4D,AQJxx !H
+1C--1H--1N--2C--2H--3D--3H--3S--3N--,4H,AKJxx !H
+1C--1H--1N--2C--2H--3H--,3N,trump Re-Ask
+1C--1H--1N--2C--2H--3H--3N--,4C,J!H
+1C--1H--1N--2C--2H--3H--3N--,4D,KQ; no Jack
+1C--1H--1N--2C--2H--3H--3N--,4H,AQ; no Jack
+1C--1H--1N--2C--2H--3H--3N--,4S,AK; no Jack
+1C--1H--1N--2C--2H--3H--3N--4C--,4D,Top Honor Ask
+1C--1H--1N--2C--2H--3H--3N--4C--4D--,4H,KQJ
+1C--1H--1N--2C--2H--3H--3N--4C--4D--,4S,AQJ
+1C--1H--1N--2C--2H--3H--3N--4C--4D--,4N,AKJ
+1C--1H--1N--2C--2N--,3C,4+
+1C--1H--1N--2C--2N--,3D,4+
+1C--1H--1N--2C--2N--,3H,6+
+1C--1H--1N--2C--2N--,3S,4+
+1C--1H--1N--2C--2N--,3N,5332
+1C--1H--1N--2C--2N--3N--,4C,Queen Ask
+1C--1H--1N--2C--2N--3N--,4D,Queen Ask
+1C--1H--1N--2C--2N--3N--,4H,To play
+1C--1H--1N--2C--2N--3N--,4S,Queen Ask
+1C--1H--1N--2C--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1H--1N--2C--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1H--1N--2C--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1H--1N--2C--2N--3N--4C--,4N,0 Queens
+1C--1H--1N--2C--2N--3N--4C--,5C,Q!C
+1C--1H--1N--2C--2N--3N--4D--,4H,Q!H and no Q!D
+1C--1H--1N--2C--2N--3N--4D--,4S,Q!S and no Q!D
+1C--1H--1N--2C--2N--3N--4D--,4N,No queens
+1C--1H--1N--2C--2N--3N--4D--,5C,Q!C and no Q!D
+1C--1H--1N--2C--2N--3N--4D--,5D,Q!D
+1C--1H--1N--2C--2N--3N--4S--,4N,0 queens
+1C--1H--1N--2C--2N--3N--4S--,5C,Q!C and No Q!S
+1C--1H--1N--2C--2N--3N--4S--,5D,Q!D and No Q!S
+1C--1H--1N--2C--2N--3N--4S--,5H,Q!H and No Q!S
+1C--1H--1N--2C--2N--3N--4S--,5S,Q!S
+1C--1H--1N--2D--,2H,Trump Ask
+1C--1H--1N--2D--,2N,Distribution Ask
+1C--1H--1N--2D--2H--,2S,5 or 6 with 0 top honors
+1C--1H--1N--2D--2H--,2N,5 with 1 top honor
+1C--1H--1N--2D--2H--,3C,6 with 1 top honor
+1C--1H--1N--2D--2H--,3D,5 with 2 top honors
+1C--1H--1N--2D--2H--,3H,6+ with 2 top honors
+1C--1H--1N--2D--2H--2S--,3H,Re-Ask trump?
+1C--1H--1N--2D--2H--2S--3H--,3S,ten-fifth or worse
+1C--1H--1N--2D--2H--2S--3H--,3N,Jack-fifth
+1C--1H--1N--2D--2H--2S--3H--,4C,ten-sixth or worse
+1C--1H--1N--2D--2H--2S--3H--,4D,Jack-sixth
+1C--1H--1N--2D--2H--2N--,3H,Trump re-Ask
+1C--1H--1N--2D--2H--2N--3H--,3S,Jack
+1C--1H--1N--2D--2H--2N--3H--,3N,queen; no Jack
+1C--1H--1N--2D--2H--2N--3H--,4C,King; no Jack
+1C--1H--1N--2D--2H--2N--3H--,4D,Ace; no Jack
+1C--1H--1N--2D--2H--2N--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2D--2H--2N--3H--3S--3N--,4C,Q!H
+1C--1H--1N--2D--2H--2N--3H--3S--3N--,4D,K!H
+1C--1H--1N--2D--2H--2N--3H--3S--3N--,4H,A!H
+1C--1H--1N--2D--2H--3C--,3H,re-Ask trump
+1C--1H--1N--2D--2H--3C--3H--,3S,Jack
+1C--1H--1N--2D--2H--3C--3H--,3N,queen; no Jack
+1C--1H--1N--2D--2H--3C--3H--,4C,King; no Jack
+1C--1H--1N--2D--2H--3C--3H--,4D,Ace; no Jack
+1C--1H--1N--2D--2H--3C--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2D--2H--3C--3H--3S--3N--,4C,Q!H
+1C--1H--1N--2D--2H--3C--3H--3S--3N--,4D,K!H
+1C--1H--1N--2D--2H--3C--3H--3S--3N--,4H,A!H
+1C--1H--1N--2D--2H--3D--,3H,Trump re-Ask
+1C--1H--1N--2D--2H--3D--3H--,3S,Jack
+1C--1H--1N--2D--2H--3D--3H--,3N,KQxxx !H
+1C--1H--1N--2D--2H--3D--3H--,4C,AQxxx !H
+1C--1H--1N--2D--2H--3D--3H--,4D,AKxxx !H
+1C--1H--1N--2D--2H--3D--3H--3S--,3N,Re Ask trump
+1C--1H--1N--2D--2H--3D--3H--3S--3N--,4C,KQJxx !H
+1C--1H--1N--2D--2H--3D--3H--3S--3N--,4D,AQJxx !H
+1C--1H--1N--2D--2H--3D--3H--3S--3N--,4H,AKJxx !H
+1C--1H--1N--2D--2H--3H--,3N,trump Re-Ask
+1C--1H--1N--2D--2H--3H--3N--,4C,J!H
+1C--1H--1N--2D--2H--3H--3N--,4D,KQ; no Jack
+1C--1H--1N--2D--2H--3H--3N--,4H,AQ; no Jack
+1C--1H--1N--2D--2H--3H--3N--,4S,AK; no Jack
+1C--1H--1N--2D--2H--3H--3N--4C--,4D,Top Honor Ask
+1C--1H--1N--2D--2H--3H--3N--4C--4D--,4H,KQJ
+1C--1H--1N--2D--2H--3H--3N--4C--4D--,4S,AQJ
+1C--1H--1N--2D--2H--3H--3N--4C--4D--,4N,AKJ
+1C--1H--1N--2D--2N--,3C,4+
+1C--1H--1N--2D--2N--,3D,4+
+1C--1H--1N--2D--2N--,3H,6+
+1C--1H--1N--2D--2N--,3S,4+
+1C--1H--1N--2D--2N--,3N,5332
+1C--1H--1N--2D--2N--3N--,4C,Queen Ask
+1C--1H--1N--2D--2N--3N--,4D,Queen Ask
+1C--1H--1N--2D--2N--3N--,4H,To play
+1C--1H--1N--2D--2N--3N--,4S,Queen Ask
+1C--1H--1N--2D--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1H--1N--2D--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1H--1N--2D--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1H--1N--2D--2N--3N--4C--,4N,0 Queens
+1C--1H--1N--2D--2N--3N--4C--,5C,Q!C
+1C--1H--1N--2D--2N--3N--4D--,4H,Q!H and no Q!D
+1C--1H--1N--2D--2N--3N--4D--,4S,Q!S and no Q!D
+1C--1H--1N--2D--2N--3N--4D--,4N,No queens
+1C--1H--1N--2D--2N--3N--4D--,5C,Q!C and no Q!D
+1C--1H--1N--2D--2N--3N--4D--,5D,Q!D
+1C--1H--1N--2D--2N--3N--4S--,4N,0 queens
+1C--1H--1N--2D--2N--3N--4S--,5C,Q!C and No Q!S
+1C--1H--1N--2D--2N--3N--4S--,5D,Q!D and No Q!S
+1C--1H--1N--2D--2N--3N--4S--,5H,Q!H and No Q!S
+1C--1H--1N--2D--2N--3N--4S--,5S,Q!S
+1C--1H--1N--2H--,2N,Distribution Ask
+1C--1H--1N--2H--,3H,Trump Ask
+1C--1H--1N--2H--2N--,3C,4+
+1C--1H--1N--2H--2N--,3D,4+
+1C--1H--1N--2H--2N--,3H,6+
+1C--1H--1N--2H--2N--,3S,4+
+1C--1H--1N--2H--2N--,3N,5332
+1C--1H--1N--2H--2N--3N--,4C,Queen Ask
+1C--1H--1N--2H--2N--3N--,4D,Queen Ask
+1C--1H--1N--2H--2N--3N--,4H,To play
+1C--1H--1N--2H--2N--3N--,4S,Queen Ask
+1C--1H--1N--2H--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1H--1N--2H--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1H--1N--2H--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1H--1N--2H--2N--3N--4C--,4N,0 Queens
+1C--1H--1N--2H--2N--3N--4C--,5C,Q!C
+1C--1H--1N--2H--2N--3N--4D--,4H,Q!H and no Q!D
+1C--1H--1N--2H--2N--3N--4D--,4S,Q!S and no Q!D
+1C--1H--1N--2H--2N--3N--4D--,4N,No queens
+1C--1H--1N--2H--2N--3N--4D--,5C,Q!C and no Q!D
+1C--1H--1N--2H--2N--3N--4D--,5D,Q!D
+1C--1H--1N--2H--2N--3N--4S--,4N,0 queens
+1C--1H--1N--2H--2N--3N--4S--,5C,Q!C and No Q!S
+1C--1H--1N--2H--2N--3N--4S--,5D,Q!D and No Q!S
+1C--1H--1N--2H--2N--3N--4S--,5H,Q!H and No Q!S
+1C--1H--1N--2H--2N--3N--4S--,5S,Q!S
+1C--1H--1N--2H--3H--,3S,No top honor
+1C--1H--1N--2H--3H--,3N,5 to a 1 top honor
+1C--1H--1N--2H--3H--,4C,6 to a 1 top honor
+1C--1H--1N--2H--3H--,4D,5 to 2 Top honors
+1C--1H--1N--2H--3H--,4H,6 to 2 top honors
+1C--1H--1N--2H--3H--,4S,5-6 with AKQ
+1C--1H--1N--2S--,2N,Distribution Ask
+1C--1H--1N--2S--,3H,Trump Ask
+1C--1H--1N--2S--2N--,3C,4+
+1C--1H--1N--2S--2N--,3D,4+
+1C--1H--1N--2S--2N--,3H,6+
+1C--1H--1N--2S--2N--,3S,4+
+1C--1H--1N--2S--2N--,3N,5332
+1C--1H--1N--2S--2N--3N--,4C,Queen Ask
+1C--1H--1N--2S--2N--3N--,4D,Queen Ask
+1C--1H--1N--2S--2N--3N--,4H,To play
+1C--1H--1N--2S--2N--3N--,4S,Queen Ask
+1C--1H--1N--2S--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1H--1N--2S--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1H--1N--2S--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1H--1N--2S--2N--3N--4C--,4N,0 Queens
+1C--1H--1N--2S--2N--3N--4C--,5C,Q!C
+1C--1H--1N--2S--2N--3N--4D--,4H,Q!H and no Q!D
+1C--1H--1N--2S--2N--3N--4D--,4S,Q!S and no Q!D
+1C--1H--1N--2S--2N--3N--4D--,4N,No queens
+1C--1H--1N--2S--2N--3N--4D--,5C,Q!C and no Q!D
+1C--1H--1N--2S--2N--3N--4D--,5D,Q!D
+1C--1H--1N--2S--2N--3N--4S--,4N,0 queens
+1C--1H--1N--2S--2N--3N--4S--,5C,Q!C and No Q!S
+1C--1H--1N--2S--2N--3N--4S--,5D,Q!D and No Q!S
+1C--1H--1N--2S--2N--3N--4S--,5H,Q!H and No Q!S
+1C--1H--1N--2S--2N--3N--4S--,5S,Q!S
+1C--1H--1N--2S--3H--,3S,No top honor
+1C--1H--1N--2S--3H--,3N,5 to a 1 top honor
+1C--1H--1N--2S--3H--,4C,6 to a 1 top honor
+1C--1H--1N--2S--3H--,4D,5 to 2 Top honors
+1C--1H--1N--2S--3H--,4H,6 to 2 top honors
+1C--1H--1N--2S--3H--,4S,5-6 with AKQ
+1C--1H--1N--2N--,3C,6+-control Ask
+1C--1H--1N--2N--,3H,Trump Ask
+1C--1H--1N--2N--3C--,3D,6 controls
+1C--1H--1N--2N--3C--,3H,7 controls
+1C--1H--1N--2N--3C--,3S,8 controls
+1C--1H--1N--2N--3C--,3N,9 controls
+1C--1H--1N--2N--3H--,3S,No top honor
+1C--1H--1N--2N--3H--,3N,5 to a 1 top honor
+1C--1H--1N--2N--3H--,4C,6 to a 1 top honor
+1C--1H--1N--2N--3H--,4D,5 to 2 Top honors
+1C--1H--1N--2N--3H--,4H,6 to 2 top honors
+1C--1H--1N--2N--3H--,4S,5-6 with AKQ
+1C--1H--1N--3C--,3D,control Ask
+1C--1H--1N--3C--,3H,Trump Ask
+1C--1H--1N--3C--3D--,3H,2
+1C--1H--1N--3C--3D--,3S,3
+1C--1H--1N--3C--3D--,3N,4
+1C--1H--1N--3C--3D--,4C,5
+1C--1H--1N--3C--3D--,4D,6
+1C--1H--1N--3C--3H--,3S,No top honor
+1C--1H--1N--3C--3H--,3N,5 to a 1 top honor
+1C--1H--1N--3C--3H--,4C,6 to a 1 top honor
+1C--1H--1N--3C--3H--,4D,5 to 2 Top honors
+1C--1H--1N--3C--3H--,4H,6 to 2 top honors
+1C--1H--1N--3C--3H--,4S,5-6 with AKQ
+1C--1H--1N--3D--,3S,control re-Ask
+1C--1H--1N--3D--3S--,3N,2
+1C--1H--1N--3D--3S--,4C,3
+1C--1H--1N--3D--3S--,4D,4
+1C--1H--1N--3D--3S--,4H,5
+1C--1H--1N--3D--3S--,4S,6
+1C--1H--1N--3H--,3S,control Ask
+1C--1H--1N--3H--3S--,3N,2
+1C--1H--1N--3H--3S--,4C,3
+1C--1H--1N--3H--3S--,4D,4
+1C--1H--1N--3H--3S--,4H,5
+1C--1H--1N--3H--3S--,4S,6
+1C--1H--1N--3S--,4C,2+ Control Ask
+1C--1H--1N--3S--4C--,4D,2
+1C--1H--1N--3S--4C--,4H,3
+1C--1H--1N--3S--4C--,4S,4
+1C--1H--1N--3S--4C--,4N,5
+1C--1H--1N--3S--4C--,5C,6+
+1C--1H--2C--,2D,0-3 controls; less than queen-third support
+1C--1H--2C--,2H,4+ controls; less than queen-third support
+1C--1H--2C--,2S,0-3 controls; queen-third+ !C
+1C--1H--2C--,2N,4+ controls; queen-third+
+1C--1H--2C--,3C,4+ controls; four-card support; no top honor
+1C--1H--2C--,3D,strong 55
+1C--1H--2C--,3H,semi solid Suit
+1C--1H--2C--,3S,strong 55
+1C--1H--2C--2D--,3N,To play
+1C--1H--2C--2H--,3N,To play
+1C--1H--2C--2S--,2N,0-3 control-Ask
+1C--1H--2C--2S--2N--,3C,0 or one A or K
+1C--1H--2C--2S--2N--,3D,2 Kings
+1C--1H--2C--2S--2N--,3H,3 controls
+1C--1H--2C--2S--2N--,3S,3 controls; 4 trumps !C; stiff or void
+1C--1H--2C--2S--2N--3S--,3N,To play
+1C--1H--2C--2S--2N--3S--,4C,Stiff Ask
+1C--1H--2C--2S--2N--3S--4C--,4D,!D stiff or void
+1C--1H--2C--2S--2N--3S--4C--,4H,!S Stiff or void
+1C--1H--2C--2N--,3N,Controls Ask
+1C--1H--2C--2N--3N--,4C,4
+1C--1H--2C--2N--3N--,4D,5
+1C--1H--2C--2N--3N--,4H,6
+1C--1H--2C--2N--3N--,4S,7
+1C--1H--2C--3C--,3N,Controls Ask
+1C--1H--2C--3C--3N--,4C,4
+1C--1H--2C--3C--3N--,4D,5
+1C--1H--2C--3C--3N--,4H,6
+1C--1H--2C--3C--3N--,4S,7
+1C--1H--2D--,2H,0-3 controls; less than queen-third+ !D
+1C--1H--2D--,2S,4+ controls; less than queen-third+ !D
+1C--1H--2D--,2N,0-3 controls; queen-third+ !D
+1C--1H--2D--,3C,4+ controls; queen-third+ !D
+1C--1H--2D--,3D,4+ controls; four-card support; no top honor
+1C--1H--2D--,3H,strong 55
+1C--1H--2D--,3S,semi solid Suit
+1C--1H--2D--2H--,3N,To play
+1C--1H--2D--2S--,3N,To play
+1C--1H--2D--2N--,3N,Controls Ask?
+1C--1H--2D--2N--3N--,4C,0 or one A or K
+1C--1H--2D--2N--3N--,4D,Two Kings
+1C--1H--2D--2N--3N--,4H,3
+1C--1H--2D--2N--3N--,4S,3 controls; 4 trump; stiff or void
+1C--1H--2D--2N--3N--4S--,4N,stiff Ask
+1C--1H--2D--2N--3N--4S--4N--,5C,!C Stiff
+1C--1H--2D--2N--3N--4S--4N--,5D,!S stiff
+1C--1H--2D--3C--,3N,Controls Ask
+1C--1H--2D--3C--3N--,4C,4
+1C--1H--2D--3C--3N--,4D,5
+1C--1H--2D--3C--3N--,4H,6
+1C--1H--2D--3C--3N--,4S,7
+1C--1H--2D--3C--3N--4S--,4N,stiff Ask
+1C--1H--2D--3C--3N--4S--4N--,5C,!C
+1C--1H--2D--3C--3N--4S--4N--,5D,!D
+1C--1H--2D--3C--3N--4S--4N--,5H,!H
+1C--1H--2D--3D--,3N,Controls Ask
+1C--1H--2D--3D--3N--,4C,4
+1C--1H--2D--3D--3N--,4D,5
+1C--1H--2D--3D--3N--,4H,6
+1C--1H--2D--3D--3N--,4S,7
+1C--1H--2H--,2S,5 or 6; No top honors
+1C--1H--2H--,2N,5 with 1 top honor
+1C--1H--2H--,3C,6 with 1 top honor
+1C--1H--2H--,3D,5 with 2 top honors
+1C--1H--2H--,3H,6+ with 2 top honors
+1C--1H--2H--,3S,AKQ with 5-6
+1C--1H--2H--2S--,3H,Re-Ask trump?
+1C--1H--2H--2S--3H--,3S,ten-fifth or worse
+1C--1H--2H--2S--3H--,3N,Jack-fifth
+1C--1H--2H--2S--3H--,4C,ten-sixth or worse
+1C--1H--2H--2S--3H--,4D,Jack-sixth
+1C--1H--2H--2N--,3H,Trump re-Ask
+1C--1H--2H--2N--3H--,3S,Jack
+1C--1H--2H--2N--3H--,3N,queen; no Jack
+1C--1H--2H--2N--3H--,4C,King; no Jack
+1C--1H--2H--2N--3H--,4D,Ace; no Jack
+1C--1H--2H--2N--3H--3S--,3N,Re Ask trump
+1C--1H--2H--2N--3H--3S--3N--,4C,Q!H
+1C--1H--2H--2N--3H--3S--3N--,4D,K!H
+1C--1H--2H--2N--3H--3S--3N--,4H,A!H
+1C--1H--2H--3C--,3H,re-Ask trump
+1C--1H--2H--3C--3H--,3S,Jack
+1C--1H--2H--3C--3H--,3N,queen; no Jack
+1C--1H--2H--3C--3H--,4C,King; no Jack
+1C--1H--2H--3C--3H--,4D,Ace; no Jack
+1C--1H--2H--3C--3H--3S--,3N,Re Ask trump
+1C--1H--2H--3C--3H--3S--3N--,4C,Q!H
+1C--1H--2H--3C--3H--3S--3N--,4D,K!H
+1C--1H--2H--3C--3H--3S--3N--,4H,A!H
+1C--1H--2H--3D--,3H,Trump re-Ask
+1C--1H--2H--3D--3H--,3S,Jack
+1C--1H--2H--3D--3H--,3N,KQxxx !H
+1C--1H--2H--3D--3H--,4C,AQxxx !H
+1C--1H--2H--3D--3H--,4D,AKxxx !H
+1C--1H--2H--3D--3H--3S--,3N,Re Ask trump
+1C--1H--2H--3D--3H--3S--3N--,4C,KQJxx !H
+1C--1H--2H--3D--3H--3S--3N--,4D,AQJxx !H
+1C--1H--2H--3D--3H--3S--3N--,4H,AKJxx !H
+1C--1H--2H--3H--,3N,trump Re-Ask
+1C--1H--2H--3H--3N--,4C,J!H
+1C--1H--2H--3H--3N--,4D,KQ; no Jack
+1C--1H--2H--3H--3N--,4H,AQ; no Jack
+1C--1H--2H--3H--3N--,4S,AK; no Jack
+1C--1H--2H--3H--3N--4C--,4D,Top Honor Ask
+1C--1H--2H--3H--3N--4C--4D--,4H,KQJ
+1C--1H--2H--3H--3N--4C--4D--,4S,AQJ
+1C--1H--2H--3H--3N--4C--4D--,4N,AKJ
+1C--1H--2S--,2N,Less than 3!S
+1C--1H--2S--,3C,Cue bid
+1C--1H--2S--,3D,Cue bid
+1C--1H--2S--,3H,length; or A!H
+1C--1H--3C--,3D,cue bid
+1C--1H--3C--,3H,cue bid or length
+1C--1H--3C--,3S,cue bid
+1C--1H--3D--,3H,cue bid or length
+1C--1H--3D--,3S,cue bid
+1C--1H--3D--,3N,To play
+1C--1H--3D--,4C,cue bid
+1C--1H--3H--,3S,where is the singleton?
+1C--1H--3H--3S--,3N,!S
+1C--1H--3H--3S--,4C,!C
+1C--1H--3H--3S--,4D,!D
+1C--1S--,1N,control-AsKing bid
+1C--1S--,2C,4+ (most likely 5); [support-Ask]
+1C--1S--,2D,4+ (most likely 5); [support-Ask]
+1C--1S--,2H,4+ (most likely 5); [support-Ask]
+1C--1S--,2S,Trump AsKing bid
+1C--1S--,3C,Unbalanced; solid Suit (sets trump)
+1C--1S--,3D,Unbalanced; solid Suit (sets trump)
+1C--1S--,3H,Unbalanced; solid Suit (sets trump)
+1C--1S--,3S,unknown splinter; no 5-card Suit headed by 2/3 top honors; 19-21 HCP
+1C--1S--,4C,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1S--,4D,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1S--,4H,splinter; no 5-card headed by 2/3 top honors 16-18 HCP
+1C--1S--1N--,2C,0-2
+1C--1S--1N--,2D,3
+1C--1S--1N--,2H,4
+1C--1S--1N--,2S,5
+1C--1S--1N--,2N,6+
+1C--1S--1N--,3C,5+; 2/top 3 in !S and !C
+1C--1S--1N--,3D,5+; 2/top 3 in !S and !D
+1C--1S--1N--,3H,Strong 55xx hand
+1C--1S--1N--,3S,6-7; 2 of top 3 and Jack
+1C--1S--1N--2C--,2D,Re-Ask
+1C--1S--1N--2C--2D--,2H,0 or 1 King
+1C--1S--1N--2C--2D--,2S,1 Ace
+1C--1S--1N--2C--2D--,2N,(5332); 2 Kings
+1C--1S--1N--2C--2D--,3C,4+; 2 Kings
+1C--1S--1N--2C--2D--,3D,4+; 2 Kings
+1C--1S--1N--2C--2D--,3H,4+; 2 Kings
+1C--1S--1N--2C--2D--,3S,6+; 2 Kings
+1C--1S--1N--2D--,2S,Trump AsKing bid
+1C--1S--1N--2D--,2N,Distribution Ask
+1C--1S--1N--2D--2S--,2N,5 or 6 with No top honors
+1C--1S--1N--2D--2S--,3C,5 with 1 top honor
+1C--1S--1N--2D--2S--,3D,6 with 1 top honor
+1C--1S--1N--2D--2S--,3H,5 with 2 top honor
+1C--1S--1N--2D--2S--,3S,6 with 2 top honor
+1C--1S--1N--2D--2S--,3N,AKQ with 5-6
+1C--1S--1N--2D--2S--2N--,3S,Trump re-Ask
+1C--1S--1N--2D--2S--2N--3S--,3N,ten-fifth or worse
+1C--1S--1N--2D--2S--2N--3S--,4C,Jack-fifth
+1C--1S--1N--2D--2S--2N--3S--,4D,ten-sixth or worse
+1C--1S--1N--2D--2S--2N--3S--,4H,Jack-sixth
+1C--1S--1N--2D--2S--3C--,3S,Trump Re-Ask
+1C--1S--1N--2D--2S--3C--3S--,3N,J!S
+1C--1S--1N--2D--2S--3C--3S--,4C,Q!S; no Jack
+1C--1S--1N--2D--2S--3C--3S--,4D,K!S; no Jack
+1C--1S--1N--2D--2S--3C--3S--,4H,A!S; no Jack
+1C--1S--1N--2D--2S--3C--3S--3N--,4C,Top Honor Ask
+1C--1S--1N--2D--2S--3C--3S--3N--4C--,4D,QJxxx !S
+1C--1S--1N--2D--2S--3C--3S--3N--4C--,4H,KJxxx !S
+1C--1S--1N--2D--2S--3C--3S--3N--4C--,4S,AJxxx !S
+1C--1S--1N--2D--2S--3D--,3S,Trump Re-Ask
+1C--1S--1N--2D--2S--3D--3S--,3N,J!S
+1C--1S--1N--2D--2S--3D--3S--,4C,Q!S; no Jack
+1C--1S--1N--2D--2S--3D--3S--,4D,K!S; no Jack
+1C--1S--1N--2D--2S--3D--3S--,4H,A!S; no Jack
+1C--1S--1N--2D--2S--3D--3S--3N--,4C,Top Honor Ask
+1C--1S--1N--2D--2S--3D--3S--3N--4C--,4D,QJ!S; 6+ card
+1C--1S--1N--2D--2S--3D--3S--3N--4C--,4H,KJ!S; 6+ card
+1C--1S--1N--2D--2S--3D--3S--3N--4C--,4S,AJ!S; 6+ card
+1C--1S--1N--2D--2S--3H--,3S,Trump Re-Ask
+1C--1S--1N--2D--2S--3H--3S--,3N,J!S
+1C--1S--1N--2D--2S--3H--3S--,4C,KQxxx !S
+1C--1S--1N--2D--2S--3H--3S--,4D,AQxxx !S
+1C--1S--1N--2D--2S--3H--3S--,4H,AKxxx !S
+1C--1S--1N--2D--2S--3H--3S--3N--,4C,Top honor-Ask
+1C--1S--1N--2D--2S--3H--3S--3N--4C--,4D,KQJxx !S
+1C--1S--1N--2D--2S--3H--3S--3N--4C--,4H,AQJxx !S
+1C--1S--1N--2D--2S--3H--3S--3N--4C--,4S,AKJxx !S
+1C--1S--1N--2D--2S--3S--,3N,Trump Re-Ask
+1C--1S--1N--2D--2S--3S--3N--,4C,J!S
+1C--1S--1N--2D--2S--3S--3N--,4D,KQxxxx !S
+1C--1S--1N--2D--2S--3S--3N--,4H,AQxxxx !S
+1C--1S--1N--2D--2S--3S--3N--,4S,AKxxxx !S
+1C--1S--1N--2D--2S--3S--3N--4C--,4D,top honor-Ask
+1C--1S--1N--2D--2S--3S--3N--4C--4D--,4H,KQJxxx !S
+1C--1S--1N--2D--2S--3S--3N--4C--4D--,4S,AQJxxx !S
+1C--1S--1N--2D--2S--3S--3N--4C--4D--,4N,AKJxxx !S
+1C--1S--1N--2D--2N--,3C,4+
+1C--1S--1N--2D--2N--,3D,4+
+1C--1S--1N--2D--2N--,3H,4+
+1C--1S--1N--2D--2N--,3S,6+
+1C--1S--1N--2D--2N--,3N,5332
+1C--1S--1N--2D--2N--,4N,5332 with extra quacks tricks
+1C--1S--1N--2D--2N--3N--,4C,Queen Ask?
+1C--1S--1N--2D--2N--3N--,4D,Queen Ask?
+1C--1S--1N--2D--2N--3N--,4H,Queen Ask?
+1C--1S--1N--2D--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1S--1N--2D--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1S--1N--2D--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1S--1N--2D--2N--3N--4C--,4N,No queens
+1C--1S--1N--2D--2N--3N--4C--,5C,Q!C and no other Q
+1C--1S--1N--2D--2N--3N--4C--,5D,Q!C and Q!D
+1C--1S--1N--2D--2N--3N--4C--,5H,Q!C and Q!H
+1C--1S--1N--2D--2N--3N--4C--,5S,Q!C and Q!S
+1C--1S--1N--2D--2N--3N--4C--4D--,4N,To play.
+1C--1S--1N--2D--2N--3N--4C--4H--,4N,To play
+1C--1S--1N--2D--2N--3N--4D--,4H,Q!H and No Q!D
+1C--1S--1N--2D--2N--3N--4D--,4S,Q!S and No Q!D
+1C--1S--1N--2D--2N--3N--4D--,4N,No queens
+1C--1S--1N--2D--2N--3N--4D--,5C,Q!C and No Q!D
+1C--1S--1N--2D--2N--3N--4D--,5D,Q!D and no other Q
+1C--1S--1N--2D--2N--3N--4D--,5H,Q!D and Q!H
+1C--1S--1N--2D--2N--3N--4D--,5S,Q!D and Q!S
+1C--1S--1N--2D--2N--3N--4D--4H--,4N,To play
+1C--1S--1N--2D--2N--3N--4H--,4S,Q!S and No Q!H
+1C--1S--1N--2D--2N--3N--4H--,4N,No queens
+1C--1S--1N--2D--2N--3N--4H--,5C,Q!C and No Q!H
+1C--1S--1N--2D--2N--3N--4H--,5D,Q!D and No Q!H
+1C--1S--1N--2D--2N--3N--4H--,5H,Q!H and no other Q
+1C--1S--1N--2D--2N--3N--4H--,5S,Q!H and Q!S
+1C--1S--1N--2D--2N--3N--4H--,5N,Q!H and Q!D
+1C--1S--1N--2D--2N--3N--4H--,6C,Q!H and Q!C
+1C--1S--1N--2H--,2S,Trump AsKing bid
+1C--1S--1N--2H--,2N,Distribution Ask
+1C--1S--1N--2H--2S--,2N,5 or 6 with No top honors
+1C--1S--1N--2H--2S--,3C,5 with 1 top honor
+1C--1S--1N--2H--2S--,3D,6 with 1 top honor
+1C--1S--1N--2H--2S--,3H,5 with 2 top honor
+1C--1S--1N--2H--2S--,3S,6 with 2 top honor
+1C--1S--1N--2H--2S--,3N,AKQ with 5-6
+1C--1S--1N--2H--2S--2N--,3S,Trump re-Ask
+1C--1S--1N--2H--2S--2N--3S--,3N,ten-fifth or worse
+1C--1S--1N--2H--2S--2N--3S--,4C,Jack-fifth
+1C--1S--1N--2H--2S--2N--3S--,4D,ten-sixth or worse
+1C--1S--1N--2H--2S--2N--3S--,4H,Jack-sixth
+1C--1S--1N--2H--2S--3C--,3S,Trump Re-Ask
+1C--1S--1N--2H--2S--3C--3S--,3N,J!S
+1C--1S--1N--2H--2S--3C--3S--,4C,Q!S; no Jack
+1C--1S--1N--2H--2S--3C--3S--,4D,K!S; no Jack
+1C--1S--1N--2H--2S--3C--3S--,4H,A!S; no Jack
+1C--1S--1N--2H--2S--3C--3S--3N--,4C,Top Honor Ask
+1C--1S--1N--2H--2S--3C--3S--3N--4C--,4D,QJxxx !S
+1C--1S--1N--2H--2S--3C--3S--3N--4C--,4H,KJxxx !S
+1C--1S--1N--2H--2S--3C--3S--3N--4C--,4S,AJxxx !S
+1C--1S--1N--2H--2S--3D--,3S,Trump Re-Ask
+1C--1S--1N--2H--2S--3D--3S--,3N,J!S
+1C--1S--1N--2H--2S--3D--3S--,4C,Q!S; no Jack
+1C--1S--1N--2H--2S--3D--3S--,4D,K!S; no Jack
+1C--1S--1N--2H--2S--3D--3S--,4H,A!S; no Jack
+1C--1S--1N--2H--2S--3D--3S--3N--,4C,Top Honor Ask
+1C--1S--1N--2H--2S--3D--3S--3N--4C--,4D,QJ!S; 6+ card
+1C--1S--1N--2H--2S--3D--3S--3N--4C--,4H,KJ!S; 6+ card
+1C--1S--1N--2H--2S--3D--3S--3N--4C--,4S,AJ!S; 6+ card
+1C--1S--1N--2H--2S--3H--,3S,Trump Re-Ask
+1C--1S--1N--2H--2S--3H--3S--,3N,J!S
+1C--1S--1N--2H--2S--3H--3S--,4C,KQxxx !S
+1C--1S--1N--2H--2S--3H--3S--,4D,AQxxx !S
+1C--1S--1N--2H--2S--3H--3S--,4H,AKxxx !S
+1C--1S--1N--2H--2S--3H--3S--3N--,4C,Top honor-Ask
+1C--1S--1N--2H--2S--3H--3S--3N--4C--,4D,KQJxx !S
+1C--1S--1N--2H--2S--3H--3S--3N--4C--,4H,AQJxx !S
+1C--1S--1N--2H--2S--3H--3S--3N--4C--,4S,AKJxx !S
+1C--1S--1N--2H--2S--3S--,3N,Trump Re-Ask
+1C--1S--1N--2H--2S--3S--3N--,4C,J!S
+1C--1S--1N--2H--2S--3S--3N--,4D,KQxxxx !S
+1C--1S--1N--2H--2S--3S--3N--,4H,AQxxxx !S
+1C--1S--1N--2H--2S--3S--3N--,4S,AKxxxx !S
+1C--1S--1N--2H--2S--3S--3N--4C--,4D,top honor-Ask
+1C--1S--1N--2H--2S--3S--3N--4C--4D--,4H,KQJxxx !S
+1C--1S--1N--2H--2S--3S--3N--4C--4D--,4S,AQJxxx !S
+1C--1S--1N--2H--2S--3S--3N--4C--4D--,4N,AKJxxx !S
+1C--1S--1N--2H--2N--,3C,4+
+1C--1S--1N--2H--2N--,3D,4+
+1C--1S--1N--2H--2N--,3H,4+
+1C--1S--1N--2H--2N--,3S,6+
+1C--1S--1N--2H--2N--,3N,5332
+1C--1S--1N--2H--2N--,4N,5332 with extra quacks tricks
+1C--1S--1N--2H--2N--3N--,4C,Queen Ask?
+1C--1S--1N--2H--2N--3N--,4D,Queen Ask?
+1C--1S--1N--2H--2N--3N--,4H,Queen Ask?
+1C--1S--1N--2H--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1S--1N--2H--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1S--1N--2H--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1S--1N--2H--2N--3N--4C--,4N,No queens
+1C--1S--1N--2H--2N--3N--4C--,5C,Q!C and no other Q
+1C--1S--1N--2H--2N--3N--4C--,5D,Q!C and Q!D
+1C--1S--1N--2H--2N--3N--4C--,5H,Q!C and Q!H
+1C--1S--1N--2H--2N--3N--4C--,5S,Q!C and Q!S
+1C--1S--1N--2H--2N--3N--4C--4D--,4N,To play.
+1C--1S--1N--2H--2N--3N--4C--4H--,4N,To play
+1C--1S--1N--2H--2N--3N--4D--,4H,Q!H and No Q!D
+1C--1S--1N--2H--2N--3N--4D--,4S,Q!S and No Q!D
+1C--1S--1N--2H--2N--3N--4D--,4N,No queens
+1C--1S--1N--2H--2N--3N--4D--,5C,Q!C and No Q!D
+1C--1S--1N--2H--2N--3N--4D--,5D,Q!D and no other Q
+1C--1S--1N--2H--2N--3N--4D--,5H,Q!D and Q!H
+1C--1S--1N--2H--2N--3N--4D--,5S,Q!D and Q!S
+1C--1S--1N--2H--2N--3N--4D--4H--,4N,To play
+1C--1S--1N--2H--2N--3N--4H--,4S,Q!S and No Q!H
+1C--1S--1N--2H--2N--3N--4H--,4N,No queens
+1C--1S--1N--2H--2N--3N--4H--,5C,Q!C and No Q!H
+1C--1S--1N--2H--2N--3N--4H--,5D,Q!D and No Q!H
+1C--1S--1N--2H--2N--3N--4H--,5H,Q!H and no other Q
+1C--1S--1N--2H--2N--3N--4H--,5S,Q!H and Q!S
+1C--1S--1N--2H--2N--3N--4H--,5N,Q!H and Q!D
+1C--1S--1N--2H--2N--3N--4H--,6C,Q!H and Q!C
+1C--1S--1N--2S--,2N,Distribution Ask
+1C--1S--1N--2S--,3S,Trump AsKing bid
+1C--1S--1N--2S--2N--,3C,4+
+1C--1S--1N--2S--2N--,3D,4+
+1C--1S--1N--2S--2N--,3H,4+
+1C--1S--1N--2S--2N--,3S,6+
+1C--1S--1N--2S--2N--,3N,5332
+1C--1S--1N--2S--2N--,4N,5332 with extra quacks tricks
+1C--1S--1N--2S--2N--3N--,4C,Queen Ask?
+1C--1S--1N--2S--2N--3N--,4D,Queen Ask?
+1C--1S--1N--2S--2N--3N--,4H,Queen Ask?
+1C--1S--1N--2S--2N--3N--4C--,4D,Q!D and No Q!C
+1C--1S--1N--2S--2N--3N--4C--,4H,Q!H and No Q!C
+1C--1S--1N--2S--2N--3N--4C--,4S,Q!S and No Q!C
+1C--1S--1N--2S--2N--3N--4C--,4N,No queens
+1C--1S--1N--2S--2N--3N--4C--,5C,Q!C and no other Q
+1C--1S--1N--2S--2N--3N--4C--,5D,Q!C and Q!D
+1C--1S--1N--2S--2N--3N--4C--,5H,Q!C and Q!H
+1C--1S--1N--2S--2N--3N--4C--,5S,Q!C and Q!S
+1C--1S--1N--2S--2N--3N--4C--4D--,4N,To play.
+1C--1S--1N--2S--2N--3N--4C--4H--,4N,To play
+1C--1S--1N--2S--2N--3N--4D--,4H,Q!H and No Q!D
+1C--1S--1N--2S--2N--3N--4D--,4S,Q!S and No Q!D
+1C--1S--1N--2S--2N--3N--4D--,4N,No queens
+1C--1S--1N--2S--2N--3N--4D--,5C,Q!C and No Q!D
+1C--1S--1N--2S--2N--3N--4D--,5D,Q!D and no other Q
+1C--1S--1N--2S--2N--3N--4D--,5H,Q!D and Q!H
+1C--1S--1N--2S--2N--3N--4D--,5S,Q!D and Q!S
+1C--1S--1N--2S--2N--3N--4D--4H--,4N,To play
+1C--1S--1N--2S--2N--3N--4H--,4S,Q!S and No Q!H
+1C--1S--1N--2S--2N--3N--4H--,4N,No queens
+1C--1S--1N--2S--2N--3N--4H--,5C,Q!C and No Q!H
+1C--1S--1N--2S--2N--3N--4H--,5D,Q!D and No Q!H
+1C--1S--1N--2S--2N--3N--4H--,5H,Q!H and no other Q
+1C--1S--1N--2S--2N--3N--4H--,5S,Q!H and Q!S
+1C--1S--1N--2S--2N--3N--4H--,5N,Q!H and Q!D
+1C--1S--1N--2S--2N--3N--4H--,6C,Q!H and Q!C
+1C--1S--1N--2S--3S--,3N,No top honors
+1C--1S--1N--2S--3S--,4C,5 with a Top honor
+1C--1S--1N--2S--3S--,4D,6 with a Top honor
+1C--1S--1N--2S--3S--,4H,5 with two Top honors
+1C--1S--1N--2S--3S--,4S,6 with two Top honors
+1C--1S--1N--2S--3S--,4N,AKQ !S
+1C--1S--1N--2N--,3C,6+ control Ask again
+1C--1S--1N--2N--,3S,Trump AsKing bid
+1C--1S--1N--2N--,3N,Distribution Ask
+1C--1S--1N--2N--3C--,3D,6
+1C--1S--1N--2N--3C--,3H,7
+1C--1S--1N--2N--3C--,3S,8
+1C--1S--1N--2N--3C--,3N,9
+1C--1S--1N--2N--3S--,3N,No top honors
+1C--1S--1N--2N--3S--,4C,5 with a Top honor
+1C--1S--1N--2N--3S--,4D,6 with a Top honor
+1C--1S--1N--2N--3S--,4H,5 with two Top honors
+1C--1S--1N--2N--3S--,4S,6 with two Top honors
+1C--1S--1N--2N--3S--,4N,AKQ !S
+1C--1S--1N--2N--3N--,4C,4+
+1C--1S--1N--2N--3N--,4D,4+
+1C--1S--1N--2N--3N--,4H,4+
+1C--1S--1N--2N--3N--,4S,6+
+1C--1S--1N--2N--3N--,4N,5332
+1C--1S--1N--3C--,3D,2+ control Ask
+1C--1S--1N--3C--3D--,3H,2
+1C--1S--1N--3C--3D--,3S,3
+1C--1S--1N--3C--3D--,3N,4
+1C--1S--1N--3C--3D--,4C,5
+1C--1S--1N--3C--3D--,4D,6
+1C--1S--1N--3D--,3H,2+ Control Ask
+1C--1S--1N--3D--3H--,3S,2
+1C--1S--1N--3D--3H--,3N,3
+1C--1S--1N--3D--3H--,4C,4
+1C--1S--1N--3D--3H--,4D,5
+1C--1S--1N--3D--3H--,4H,6
+1C--1S--1N--3H--,3S,Trump-Ask
+1C--1S--1N--3H--,4C,2+ Control Ask
+1C--1S--1N--3H--3S--,3N,No !S Top Honor
+1C--1S--1N--3H--3S--,4C,5 with 1 !S Top honor
+1C--1S--1N--3H--3S--,4D,5 with 2 !S Top honors
+1C--1S--1N--3H--3S--,4H,6 with 1 !S Top honor
+1C--1S--1N--3H--3S--,4S,6 with 2 !S Top honors
+1C--1S--1N--3H--3S--,4N,AKQ with 5+ !S
+1C--1S--1N--3H--4C--,4D,2
+1C--1S--1N--3H--4C--,4H,3
+1C--1S--1N--3H--4C--,4S,4
+1C--1S--1N--3H--4C--,4N,5
+1C--1S--1N--3H--4C--,5C,6+
+1C--1S--1N--3S--,4C,2+ Control Ask
+1C--1S--1N--3S--4C--,4D,2
+1C--1S--1N--3S--4C--,4H,3
+1C--1S--1N--3S--4C--,4S,4
+1C--1S--1N--3S--4C--,4N,5
+1C--1S--1N--3S--4C--,5C,6+
+1C--1S--2C--,2D,0-3 controls; less than queen-third support
+1C--1S--2C--,2H,4+ controls; less than queen-third support
+1C--1S--2C--,2S,0-3 controls; queen-third+ !C
+1C--1S--2C--,2N,4+ controls; queen-third+
+1C--1S--2C--,3C,4+ controls; four-card support; no top honor
+1C--1S--2C--,3D,strong 55
+1C--1S--2C--,3H,strong 55
+1C--1S--2C--,3S,semi solid Suit
+1C--1S--2C--2D--,3N,To play
+1C--1S--2C--2H--,3N,To play
+1C--1S--2C--2S--,2N,0-3 control-Ask
+1C--1S--2C--2S--2N--,3C,0 or one A or K
+1C--1S--2C--2S--2N--,3D,2 Kings
+1C--1S--2C--2S--2N--,3H,3 controls
+1C--1S--2C--2S--2N--,3S,3 controls; 4 trumps !C; stiff or void
+1C--1S--2C--2S--2N--3S--,3N,To play
+1C--1S--2C--2S--2N--3S--,4C,Stiff Ask
+1C--1S--2C--2S--2N--3S--4C--,4D,!D stiff or void
+1C--1S--2C--2S--2N--3S--4C--,4H,!H Stiff or void
+1C--1S--2C--2N--,3N,Controls Ask
+1C--1S--2C--2N--3N--,4C,4
+1C--1S--2C--2N--3N--,4D,5
+1C--1S--2C--2N--3N--,4H,6
+1C--1S--2C--2N--3N--,4S,7
+1C--1S--2C--3C--,3N,Controls Ask
+1C--1S--2C--3C--3N--,4C,4
+1C--1S--2C--3C--3N--,4D,5
+1C--1S--2C--3C--3N--,4H,6
+1C--1S--2C--3C--3N--,4S,7
+1C--1S--2D--,2H,0-3 controls; less than queen-third+ !D
+1C--1S--2D--,2S,4+ controls; less than queen-third+ !D
+1C--1S--2D--,2N,0-3 controls; queen-third+ !D
+1C--1S--2D--,3C,4+ controls; queen-third+ !D
+1C--1S--2D--,3D,4+ controls; four-card support; no top honor
+1C--1S--2D--,3H,strong 55
+1C--1S--2D--,3S,semi solid Suit
+1C--1S--2D--2H--,3N,To play
+1C--1S--2D--2S--,3N,To play
+1C--1S--2D--2N--,3N,Controls Ask?
+1C--1S--2D--2N--3N--,4C,0 or one A or K
+1C--1S--2D--2N--3N--,4D,Two Kings
+1C--1S--2D--2N--3N--,4H,3
+1C--1S--2D--2N--3N--,4S,3 controls; 4 trump; stiff or void
+1C--1S--2D--2N--3N--4S--,4N,stiff Ask
+1C--1S--2D--2N--3N--4S--4N--,5C,!C
+1C--1S--2D--2N--3N--4S--4N--,5D,!H stiff
+1C--1S--2D--3C--,3N,Controls Ask
+1C--1S--2D--3C--3N--,4C,4
+1C--1S--2D--3C--3N--,4D,5
+1C--1S--2D--3C--3N--,4H,6
+1C--1S--2D--3C--3N--,4S,7
+1C--1S--2D--3C--3N--4S--,4N,stiff Ask
+1C--1S--2D--3C--3N--4S--4N--,5C,!C
+1C--1S--2D--3C--3N--4S--4N--,5D,!D
+1C--1S--2D--3C--3N--4S--4N--,5H,!H
+1C--1S--2D--3D--,3N,Controls Ask
+1C--1S--2D--3D--3N--,4C,4
+1C--1S--2D--3D--3N--,4D,5
+1C--1S--2D--3D--3N--,4H,6
+1C--1S--2D--3D--3N--,4S,7
+1C--1S--2H--,2S,0-3 controls; less than queen-third+ !H
+1C--1S--2H--,2N,4+ controls; less than queen-third+ !H
+1C--1S--2H--,3C,0-3 controls; queen-third+ !H
+1C--1S--2H--,3D,4+ controls; queen-third+ !H
+1C--1S--2H--,3H,4+ controls; four-card support; no top honor
+1C--1S--2H--,3S,semi solid Suit
+1C--1S--2H--2S--,3N,To play
+1C--1S--2H--2N--,3N,To play.
+1C--1S--2H--3C--,3N,Controls Ask?
+1C--1S--2H--3C--3N--,4C,0 or one A or K
+1C--1S--2H--3C--3N--,4D,Two Kings
+1C--1S--2H--3C--3N--,4H,3
+1C--1S--2H--3C--3N--,4S,3 controls; 4 trump; stiff or void
+1C--1S--2H--3C--3N--4S--,4N,stiff Ask
+1C--1S--2H--3C--3N--4S--4N--,5C,!C
+1C--1S--2H--3C--3N--4S--4N--,5D,!D
+1C--1S--2H--3C--3N--4S--4N--,5H,!H
+1C--1S--2H--3D--,3N,Controls Ask
+1C--1S--2H--3D--3N--,4C,4
+1C--1S--2H--3D--3N--,4D,5
+1C--1S--2H--3D--3N--,4H,6
+1C--1S--2H--3D--3N--,4S,7
+1C--1S--2H--3H--,3N,Controls Ask
+1C--1S--2H--3H--3N--,4C,4
+1C--1S--2H--3H--3N--,4D,5
+1C--1S--2H--3H--3N--,4H,6
+1C--1S--2H--3H--3N--,4S,7
+1C--1S--2S--,2N,5 or 6 with No top honors
+1C--1S--2S--,3C,5 with 1 top honor
+1C--1S--2S--,3D,6 with 1 top honor
+1C--1S--2S--,3H,5 with 2 top honor
+1C--1S--2S--,3S,6 with 2 top honor
+1C--1S--2S--,3N,AKQ with 5-6
+1C--1S--2S--2N--,3S,Trump re-Ask
+1C--1S--2S--2N--3S--,3N,ten-fifth or worse
+1C--1S--2S--2N--3S--,4C,Jack-fifth
+1C--1S--2S--2N--3S--,4D,ten-sixth or worse
+1C--1S--2S--2N--3S--,4H,Jack-sixth
+1C--1S--2S--3C--,3S,Trump Re-Ask
+1C--1S--2S--3C--3S--,3N,J!S
+1C--1S--2S--3C--3S--,4C,Q!S; no Jack
+1C--1S--2S--3C--3S--,4D,K!S; no Jack
+1C--1S--2S--3C--3S--,4H,A!S; no Jack
+1C--1S--2S--3C--3S--3N--,4C,Top Honor Ask
+1C--1S--2S--3C--3S--3N--4C--,4D,QJxxx !S
+1C--1S--2S--3C--3S--3N--4C--,4H,KJxxx !S
+1C--1S--2S--3C--3S--3N--4C--,4S,AJxxx !S
+1C--1S--2S--3D--,3S,Trump Re-Ask
+1C--1S--2S--3D--3S--,3N,J!S
+1C--1S--2S--3D--3S--,4C,Q!S; no Jack
+1C--1S--2S--3D--3S--,4D,K!S; no Jack
+1C--1S--2S--3D--3S--,4H,A!S; no Jack
+1C--1S--2S--3D--3S--3N--,4C,Top Honor Ask
+1C--1S--2S--3D--3S--3N--4C--,4D,QJ!S; 6+ card
+1C--1S--2S--3D--3S--3N--4C--,4H,KJ!S; 6+ card
+1C--1S--2S--3D--3S--3N--4C--,4S,AJ!S; 6+ card
+1C--1S--2S--3H--,3S,Trump Re-Ask
+1C--1S--2S--3H--3S--,3N,J!S
+1C--1S--2S--3H--3S--,4C,KQxxx !S
+1C--1S--2S--3H--3S--,4D,AQxxx !S
+1C--1S--2S--3H--3S--,4H,AKxxx !S
+1C--1S--2S--3H--3S--3N--,4C,Top honor-Ask
+1C--1S--2S--3H--3S--3N--4C--,4D,KQJxx !S
+1C--1S--2S--3H--3S--3N--4C--,4H,AQJxx !S
+1C--1S--2S--3H--3S--3N--4C--,4S,AKJxx !S
+1C--1S--2S--3S--,3N,Trump Re-Ask
+1C--1S--2S--3S--3N--,4C,J!S
+1C--1S--2S--3S--3N--,4D,KQxxxx !S
+1C--1S--2S--3S--3N--,4H,AQxxxx !S
+1C--1S--2S--3S--3N--,4S,AKxxxx !S
+1C--1S--2S--3S--3N--4C--,4D,top honor-Ask
+1C--1S--2S--3S--3N--4C--4D--,4H,KQJxxx !S
+1C--1S--2S--3S--3N--4C--4D--,4S,AQJxxx !S
+1C--1S--2S--3S--3N--4C--4D--,4N,AKJxxx !S
+1C--1S--3C--,3D,Cue bid
+1C--1S--3C--,3H,Cue bid
+1C--1S--3D--,3H,Cue-bid
+1C--1S--3D--,4C,Cue-bid
+1C--1S--3H--,4C,Cue-bid
+1C--1S--3H--,4D,Cue-bid
+1C--1S--3S--,3N,Asks for singleton (forced)
+1C--1S--3S--3N--,4C,singleton
+1C--1S--3S--3N--,4D,singleton
+1C--1S--3S--3N--,4H,singleton
+1C--1S--3S--3N--,4S,singleton
+1C--1N--,2C,Balanced (except 4333 18-20 or minimum with 5cd M); general Ask
+1C--1N--,2D,5+; Unbalanced.(support Ask)
+1C--1N--,2H,5+; could be Balanced 16-18(support Ask)
+1C--1N--,2S,5+; could be Balanced 16-18;(support Ask)
+1C--1N--,3C,solid 6-7; stiff/void on side
+1C--1N--,3D,solid 6-7; stiff/void on side
+1C--1N--,3H,solid 6-7; stiff/void on side
+1C--1N--,3S,solid 6-7; stiff/void on side
+1C--1N--,3N,(4333); 18-20 HCP
+1C--1N--2C--,2D,4 Hearts; Bad 9-12 HCP
+1C--1N--2C--,2H,4 spades; at most 3 Hearts; 9-bad 12 HCP
+1C--1N--2C--,2S,no 4 card major; 9-bad 12 HCP (forces 2N?)
+1C--1N--2C--,2N,any 4333; good 12-14 HCP
+1C--1N--2C--,3C,(any 432)+4!C; good 12-14 HCP
+1C--1N--2C--,3D,3442 or 2443; good 12-14 HCP
+1C--1N--2C--,3H,44 +(any 32 minor); good 12-14 HCP
+1C--1N--2C--,3S,4342 or 4243; good 12-14 HCP
+1C--1N--2C--,3N,any (5332); good 12-14 HCP
+1C--1N--2C--2D--,2H,Trump-strength-Ask
+1C--1N--2C--2D--,2S,5(332); 19+ HCP
+1C--1N--2C--2D--,2N,side-Suit-Ask
+1C--1N--2C--2D--2H--,2S,No top honors
+1C--1N--2C--2D--2H--,2N,1 top honor w/o J
+1C--1N--2C--2D--2H--,3C,1 Top honor + J
+1C--1N--2C--2D--2H--,3D,2 Top honors w/o J
+1C--1N--2C--2D--2H--,3H,2 Top honors w+ J
+1C--1N--2C--2D--2H--,3S,AKQx
+1C--1N--2C--2D--2H--2S--,2N,Side Suit Ask
+1C--1N--2C--2D--2H--2S--2N--,3C,4
+1C--1N--2C--2D--2H--2S--2N--,3D,4
+1C--1N--2C--2D--2H--2S--2N--,3H,3433
+1C--1N--2C--2D--2H--2S--2N--,3N,3433
+1C--1N--2C--2D--2H--2S--2N--3C--,4C,Trump strength Ask?
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,4D,NO Top honor
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,4H,1 Top honor!C and w/O J
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,4S,1 Top honor!C and J!C
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,4N,2 Top honors!C and w/O J
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,5C,2 Top honor!C and w/O J
+1C--1N--2C--2D--2H--2S--2N--3C--4C--,5D,AKQx !C
+1C--1N--2C--2D--2H--2S--2N--3D--,4D,Trump strength Ask
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,4H,No Top honor!D
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,4S,1 Top honor!D w/o J!D
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,4N,1 Top honors!D + J
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,5C,2 Top honor!D and w/O J
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,5D,2 Top honors !D + J
+1C--1N--2C--2D--2H--2S--2N--3D--4D--,5H,AKQx !D
+1C--1N--2C--2D--2S--,2N,2 spades; 9-10 HCP
+1C--1N--2C--2D--2S--,3C,two of top three honors in !C
+1C--1N--2C--2D--2S--,3D,two of top three honors !D
+1C--1N--2C--2D--2S--,3H,two of top three honors in this Suit
+1C--1N--2C--2D--2S--,3S,3+
+1C--1N--2C--2D--2S--,3N,2 spades; 11-12 HCP
+1C--1N--2C--2D--2S--,4C,AKQ !C
+1C--1N--2C--2D--2S--,4D,AKQ !D
+1C--1N--2C--2D--2S--,4S,good trumps
+1C--1N--2C--2D--2N--,3C,4
+1C--1N--2C--2D--2N--,3D,4
+1C--1N--2C--2D--2N--,3S,4
+1C--1N--2C--2D--2N--3C--,4C,Trump strength Ask?
+1C--1N--2C--2D--2N--3C--4C--,4D,NO Top honor
+1C--1N--2C--2D--2N--3C--4C--,4H,1 Top honor!C and w/O J
+1C--1N--2C--2D--2N--3C--4C--,4S,1 Top honor!C and J!C
+1C--1N--2C--2D--2N--3C--4C--,4N,2 Top honors!C and w/O J
+1C--1N--2C--2D--2N--3C--4C--,5C,2 Top honor!C and w/O J
+1C--1N--2C--2D--2N--3C--4C--,5D,AKQx !C
+1C--1N--2C--2D--2N--3D--,4D,Trump strength Ask
+1C--1N--2C--2D--2N--3D--4D--,4H,No Top honor!D
+1C--1N--2C--2D--2N--3D--4D--,4S,1 Top honor!D w/o J!D
+1C--1N--2C--2D--2N--3D--4D--,4N,1 Top honors!D + J
+1C--1N--2C--2D--2N--3D--4D--,5C,2 Top honor!D and w/O J
+1C--1N--2C--2D--2N--3D--4D--,5D,2 Top honors !D + J
+1C--1N--2C--2D--2N--3D--4D--,5H,AKQx !D
+1C--1N--2C--2D--2N--3S--,4S,Trump strength Ask
+1C--1N--2C--2D--2N--3S--4S--,4N,N top honor in !S
+1C--1N--2C--2D--2N--3S--4S--,5C,1 top honor!S w/o J!S
+1C--1N--2C--2D--2N--3S--4S--,5D,1 Top Honor !S + J!S
+1C--1N--2C--2D--2N--3S--4S--,5H,2 top honors w/o J
+1C--1N--2C--2D--2N--3S--4S--,5S,2 top honros !S + J!S
+1C--1N--2C--2D--2N--3S--4S--,5N,AKQx !S
+1C--1N--2C--2H--,2S,Trump strength Ask
+1C--1N--2C--2H--,2N,side Suit Ask?
+1C--1N--2C--2H--,3C,natural
+1C--1N--2C--2H--,3D,natural
+1C--1N--2C--2H--,3H,5!H and (332); 19HCP
+1C--1N--2C--2H--,3S,4
+1C--1N--2C--2H--2S--,2N,No top honor !S
+1C--1N--2C--2H--2S--,3C,1 Top honor w/o J!S
+1C--1N--2C--2H--2S--,3D,1 Top honor + J!S
+1C--1N--2C--2H--2S--,3H,2 Top honor w/o J!S
+1C--1N--2C--2H--2S--,3S,2 Top honor + J!S
+1C--1N--2C--2H--2S--,3N,AKQx!S
+1C--1N--2C--2H--2N--,3C,4
+1C--1N--2C--2H--2N--,3D,4
+1C--1N--2C--2H--2N--,3H,2-3
+1C--1N--2C--2H--2N--3C--,4C,Trump strength Ask?
+1C--1N--2C--2H--2N--3C--4C--,4D,NO Top honor
+1C--1N--2C--2H--2N--3C--4C--,4H,1 Top honor!C and w/O J
+1C--1N--2C--2H--2N--3C--4C--,4S,1 Top honor!C and J!C
+1C--1N--2C--2H--2N--3C--4C--,4N,2 Top honors!C and w/O J
+1C--1N--2C--2H--2N--3C--4C--,5C,2 Top honor!C and w/O J
+1C--1N--2C--2H--2N--3C--4C--,5D,AKQx !C
+1C--1N--2C--2H--2N--3D--,4D,Trump strength Ask
+1C--1N--2C--2H--2N--3D--4D--,4H,No Top honor!D
+1C--1N--2C--2H--2N--3D--4D--,4S,1 Top honor!D w/o J!D
+1C--1N--2C--2H--2N--3D--4D--,4N,1 Top honors!D + J
+1C--1N--2C--2H--2N--3D--4D--,5C,2 Top honor!D and w/O J
+1C--1N--2C--2H--2N--3D--4D--,5D,2 Top honors !D + J
+1C--1N--2C--2H--2N--3D--4D--,5H,AKQx !D
+1C--1N--2C--2H--3H--,3S,2 Top Honors
+1C--1N--2C--2H--3H--,3N,2!H
+1C--1N--2C--2H--3H--,4C,1 qiuck trick in !C + 3 card !H with honor
+1C--1N--2C--2H--3H--,4D,1 qiuck trick in !D + 3 card !H with honor
+1C--1N--2C--2H--3H--,4H,3!H; To play.
+1C--1N--2C--2H--3S--,4C,trump strength AsKing in !C
+1C--1N--2C--2H--3S--,4D,All Control Ask
+1C--1N--2C--2H--3S--,4H,trump strength AsKing in !S
+1C--1N--2C--2H--3S--,4S,To play
+1C--1N--2C--2H--3S--4C--,4D,No top honor in !C
+1C--1N--2C--2H--3S--4C--,4H,1 Top Honor !C w/o J
+1C--1N--2C--2H--3S--4C--,4S,1 Top Honor !C + J
+1C--1N--2C--2H--3S--4C--,4N,2 Top Honor !C w/o J
+1C--1N--2C--2H--3S--4C--,5C,2 Top Honor !C + J
+1C--1N--2C--2H--3S--4C--,5D,AKQ!C
+1C--1N--2C--2S--,2N,Distribution Ask
+1C--1N--2C--2S--2N--,3C,xx44; 9-11 HCP
+1C--1N--2C--2S--2N--,3D,33(43)
+1C--1N--2C--2S--2N--,3H,2344; two small !S; 11-12HCP
+1C--1N--2C--2S--2N--,3S,3244; 2 small !H and 11-12HCP
+1C--1N--2C--2S--2N--,3N,(5332)
+1C--1N--2C--2S--2N--3C--,3D,Trump strength Ask in !D
+1C--1N--2C--2S--2N--3C--,3H,Major Suit Ask
+1C--1N--2C--2S--2N--3C--,3S,All Control Ask
+1C--1N--2C--2S--2N--3C--,3N,To play
+1C--1N--2C--2S--2N--3C--,4C,Trump Strength Ask in !C
+1C--1N--2C--2S--2N--3C--3D--,3H,No top honor!D
+1C--1N--2C--2S--2N--3C--3D--,3S,1 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3D--,3N,1 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3D--,4C,2 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3D--,4D,2 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3D--,4H,AKQx !D
+1C--1N--2C--2S--2N--3C--3H--,3S,3!S
+1C--1N--2C--2S--2N--3C--3H--,3N,3!H
+1C--1N--2C--2S--2N--3C--3H--3S--,4C,Trump strength Ask in !C
+1C--1N--2C--2S--2N--3C--3H--3S--,4D,Trump strength Ask in !D
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,4D,No Top !C honor
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,4S,1 Top !C honor + J
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,5C,2 Top !C honor + J
+1C--1N--2C--2S--2N--3C--3H--3S--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,4H,No Top !D honor
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,4S,1 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,4N,1 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,5C,2 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,5D,2 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3H--3S--4D--,5H,AKQx !D
+1C--1N--2C--2S--2N--3C--3H--3N--,4C,Trump strength Ask
+1C--1N--2C--2S--2N--3C--3H--3N--,4D,Trump strength Ask in !D
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,4D,No Top !C honor
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,4S,1 Top !C honor + J
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,5C,2 Top !C honor + J
+1C--1N--2C--2S--2N--3C--3H--3N--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,4H,No Top !D honor
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,4S,1 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,4N,1 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,5C,2 Top !D honor w/o J
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,5D,2 Top !D honor + J
+1C--1N--2C--2S--2N--3C--3H--3N--4D--,5H,AKQx !D
+1C--1N--2C--2S--2N--3C--3S--,3N,0 or A or K
+1C--1N--2C--2S--2N--3C--3S--,4C,Two K
+1C--1N--2C--2S--2N--3C--3S--,4D,3
+1C--1N--2C--2S--2N--3C--3S--,4H,4
+1C--1N--2C--2S--2N--3C--3S--,4S,5
+1C--1N--2C--2S--2N--3C--3S--,4N,6
+1C--1N--2C--2S--2N--3C--4C--,4D,No Top !C honor
+1C--1N--2C--2S--2N--3C--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--4C--,4S,1 Top !C honor + J
+1C--1N--2C--2S--2N--3C--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--2S--2N--3C--4C--,5C,2 Top !C honor + J
+1C--1N--2C--2S--2N--3C--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3D--,3H,Minor Suit Ask
+1C--1N--2C--2S--2N--3D--3H--,3S,4!C
+1C--1N--2C--2S--2N--3D--3H--,3N,4!D
+1C--1N--2C--2S--2N--3D--3H--3S--,4C,Trump strength Ask
+1C--1N--2C--2S--2N--3D--3H--3S--,4D,All control Ask
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,4D,No Top !C honor
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,4S,1 Top !C honor + J
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,5C,2 Top !C honor + J
+1C--1N--2C--2S--2N--3D--3H--3S--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,4H,0 or A or K
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,4S,Two K
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,4N,3
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,5C,4
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,5D,4
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,5H,5
+1C--1N--2C--2S--2N--3D--3H--3S--4D--,5S,6
+1C--1N--2C--2S--2N--3D--3H--3N--,4C,All control Ask
+1C--1N--2C--2S--2N--3D--3H--3N--,4D,Trump strength Ask
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,4D,0 or A or K
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,4H,two K
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,4S,3
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,4N,4
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,5C,5
+1C--1N--2C--2S--2N--3D--3H--3N--4C--,5D,6
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,4H,No Top !D honor
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,4S,1 Top !D honor w/o J
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,4N,1 Top !D honor + J
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,5C,2 Top !D honor w/o J
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,5D,2 Top !D honor + J
+1C--1N--2C--2S--2N--3D--3H--3N--4D--,5H,AKQx !D
+1C--1N--2C--2S--2N--3H--,3S,All Control Ask
+1C--1N--2C--2S--2N--3H--,3N,To play
+1C--1N--2C--2S--2N--3H--,4C,Trump strength Ask in !C
+1C--1N--2C--2S--2N--3H--,4D,Trump strength Ask in !D
+1C--1N--2C--2S--2N--3H--,4H,To play
+1C--1N--2C--2S--2N--3H--3S--,3N,0 or A or K
+1C--1N--2C--2S--2N--3H--3S--,4C,Two K
+1C--1N--2C--2S--2N--3H--3S--,4D,3
+1C--1N--2C--2S--2N--3H--3S--,4H,4
+1C--1N--2C--2S--2N--3H--3S--,4S,5
+1C--1N--2C--2S--2N--3H--3S--,4N,6
+1C--1N--2C--2S--2N--3H--4C--,4D,No top honor !C
+1C--1N--2C--2S--2N--3H--4C--,4H,1 top !C honor w/o J
+1C--1N--2C--2S--2N--3H--4C--,4S,1 top !C honor + J
+1C--1N--2C--2S--2N--3H--4C--,4N,2 top !C honor w/o J
+1C--1N--2C--2S--2N--3H--4C--,5C,2 top !C honor + J
+1C--1N--2C--2S--2N--3H--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3H--4D--,4H,No top !D honor
+1C--1N--2C--2S--2N--3H--4D--,4S,1 top !D honor w/o J
+1C--1N--2C--2S--2N--3H--4D--,4N,1 top !D honor + J
+1C--1N--2C--2S--2N--3H--4D--,5C,2 top !D honor w/o J
+1C--1N--2C--2S--2N--3H--4D--,5D,2 top !D honor + J
+1C--1N--2C--2S--2N--3H--4D--,5H,AKQx !D
+1C--1N--2C--2S--2N--3S--,3N,To play
+1C--1N--2C--2S--2N--3S--,4C,Trump strength Ask in !C
+1C--1N--2C--2S--2N--3S--,4D,Trump strength Ask in !D
+1C--1N--2C--2S--2N--3S--,4H,All control Ask
+1C--1N--2C--2S--2N--3S--,4S,To play
+1C--1N--2C--2S--2N--3S--4C--,4D,No top honor !C
+1C--1N--2C--2S--2N--3S--4C--,4H,1 top !C honor w/o J
+1C--1N--2C--2S--2N--3S--4C--,4S,1 top !C honor + J
+1C--1N--2C--2S--2N--3S--4C--,4N,2 top !C honor w/o J
+1C--1N--2C--2S--2N--3S--4C--,5C,2 top !C honor + J
+1C--1N--2C--2S--2N--3S--4C--,5D,AKQx !C
+1C--1N--2C--2S--2N--3S--4D--,4H,No top !D honor
+1C--1N--2C--2S--2N--3S--4D--,4S,1 top !D honor w/o J
+1C--1N--2C--2S--2N--3S--4D--,4N,1 top !D honor + J
+1C--1N--2C--2S--2N--3S--4D--,5C,2 top !D honor w/o J
+1C--1N--2C--2S--2N--3S--4D--,5D,2 top !D honor + J
+1C--1N--2C--2S--2N--3S--4D--,5H,AKQx !D
+1C--1N--2C--2S--2N--3S--4H--,4S,0 or A or K
+1C--1N--2C--2S--2N--3S--4H--,4N,Two K
+1C--1N--2C--2S--2N--3S--4H--,5C,3
+1C--1N--2C--2S--2N--3S--4H--,5D,4
+1C--1N--2C--2S--2N--3S--4H--,5H,5
+1C--1N--2C--2S--2N--3S--4H--,5S,6
+1C--1N--2C--2S--2N--3N--,4C,5 card minor Ask
+1C--1N--2C--2S--2N--3N--4C--,4D,5!C
+1C--1N--2C--2S--2N--3N--4C--,4H,5!D
+1C--1N--2C--2S--2N--3N--4C--4D--,4H,All control Ask
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,4S,0 or A or K
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,4N,two K
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,5C,3
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,5D,4
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,5H,5
+1C--1N--2C--2S--2N--3N--4C--4D--4H--,5S,6
+1C--1N--2C--2S--2N--3N--4C--4H--,4S,All control Ask
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,4N,0 or A or K
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,5C,two K
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,5D,3
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,5H,4
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,5S,5
+1C--1N--2C--2S--2N--3N--4C--4H--4S--,5N,6
+1C--1N--2C--2N--,3C,Distribution Ask
+1C--1N--2C--2N--3C--,3D,4!D
+1C--1N--2C--2N--3C--,3H,4!H
+1C--1N--2C--2N--3C--,3S,4!S
+1C--1N--2C--2N--3C--,3N,4!C
+1C--1N--2C--2N--3C--3D--,3H,All Control Ask
+1C--1N--2C--2N--3C--3D--,3S,!D Trump strength Ask
+1C--1N--2C--2N--3C--3D--3H--,3S,1 control or 1 Ace
+1C--1N--2C--2N--3C--3D--3H--,3N,2 K
+1C--1N--2C--2N--3C--3D--3H--,4C,3 controls
+1C--1N--2C--2N--3C--3D--3H--,4D,4 controls
+1C--1N--2C--2N--3C--3D--3H--,4H,5 controls
+1C--1N--2C--2N--3C--3D--3H--,4S,6 controls
+1C--1N--2C--2N--3C--3D--3H--,4N,7
+1C--1N--2C--2N--3C--3D--3H--3S--,3N,Signoff 
+1C--1N--2C--2N--3C--3D--3H--3S--,4C,All control Ask
+1C--1N--2C--2N--3C--3D--3H--3S--,4D,Trump strength Ask
+1C--1N--2C--2N--3C--3D--3S--,3N,No Top Honor
+1C--1N--2C--2N--3C--3D--3S--,4C,1 Top Honor !D w/o J
+1C--1N--2C--2N--3C--3D--3S--,4D,1 Top Honor !D + J!D
+1C--1N--2C--2N--3C--3D--3S--,4H,2 Top Honor !D w/o J
+1C--1N--2C--2N--3C--3D--3S--,4S,2 Top Honor !D w J
+1C--1N--2C--2N--3C--3D--3S--,4N,AKQx !D
+1C--1N--2C--2N--3C--3H--,3S,All Control Ask
+1C--1N--2C--2N--3C--3H--,3N,!H Trump strength Ask
+1C--1N--2C--2N--3C--3H--3S--,3N,One K or A
+1C--1N--2C--2N--3C--3H--3S--,4C,2K
+1C--1N--2C--2N--3C--3H--3S--,4D,3 controls
+1C--1N--2C--2N--3C--3H--3S--,4H,4 controls
+1C--1N--2C--2N--3C--3H--3S--,4S,5 controls
+1C--1N--2C--2N--3C--3H--3S--,4N,6 controls
+1C--1N--2C--2N--3C--3H--3N--,4C,No Top Honor !H
+1C--1N--2C--2N--3C--3H--3N--,4D,1 Top Honor !H w/o J!H
+1C--1N--2C--2N--3C--3H--3N--,4H,1 Top Honor !H + J!H
+1C--1N--2C--2N--3C--3H--3N--,4S,2 Top Honor !H w/o J!H
+1C--1N--2C--2N--3C--3H--3N--,4N,2 Top Honor !H + J!H
+1C--1N--2C--2N--3C--3H--3N--,5C,AKQx !H
+1C--1N--2C--2N--3C--3S--,3N,To play
+1C--1N--2C--2N--3C--3S--,4C,All control Ask
+1C--1N--2C--2N--3C--3S--,4D,Trump strength Ask in !S
+1C--1N--2C--2N--3C--3S--4C--,4D,one A or K
+1C--1N--2C--2N--3C--3S--4C--,4H,1 ACE
+1C--1N--2C--2N--3C--3S--4C--,4S,3 controls
+1C--1N--2C--2N--3C--3S--4C--,4N,4 controls
+1C--1N--2C--2N--3C--3S--4C--,5C,5 controls
+1C--1N--2C--2N--3C--3S--4C--,5D,6 controls
+1C--1N--2C--2N--3C--3S--4D--,4H,No Top Honors
+1C--1N--2C--2N--3C--3S--4D--,4S,1 Top Honor !S w/o J!S
+1C--1N--2C--2N--3C--3S--4D--,4N,1 Top Honor !S + J!S
+1C--1N--2C--2N--3C--3S--4D--,5C,2 Top Honors !S w/o J!S
+1C--1N--2C--2N--3C--3S--4D--,5D,2 Top Honors !S + J!S
+1C--1N--2C--2N--3C--3S--4D--,5H,AKQx !S
+1C--1N--2C--2N--3C--3N--,4C,All control Ask
+1C--1N--2C--2N--3C--3N--,4D,!C Trump strength Ask
+1C--1N--2C--2N--3C--3N--4C--,4D,one A or K
+1C--1N--2C--2N--3C--3N--4C--,4H,1 ACE
+1C--1N--2C--2N--3C--3N--4C--,4S,3 controls
+1C--1N--2C--2N--3C--3N--4C--,4N,4 controls
+1C--1N--2C--2N--3C--3N--4C--,5C,5 controls
+1C--1N--2C--2N--3C--3N--4C--,5D,6 controls
+1C--1N--2C--2N--3C--3N--4D--,4H,No Top Honors
+1C--1N--2C--2N--3C--3N--4D--,4S,1 Top Honor !C w/o J!C
+1C--1N--2C--2N--3C--3N--4D--,4N,1 Top Honor !C + J!C
+1C--1N--2C--2N--3C--3N--4D--,5C,2 Top Honor !C w/o J!C
+1C--1N--2C--2N--3C--3N--4D--,5D,2 Top Honor !C + J!C
+1C--1N--2C--2N--3C--3N--4D--,5H,AKQ!C
+1C--1N--2C--3C--,3D,second Suit Ask
+1C--1N--2C--3C--,4C,Trump strength Ask in !C
+1C--1N--2C--3C--3D--,3H,4!H
+1C--1N--2C--3C--3D--,3S,4!S
+1C--1N--2C--3C--3D--,3N,4!D
+1C--1N--2C--3C--3D--3H--,3S,All control Ask
+1C--1N--2C--3C--3D--3H--,3N,To play
+1C--1N--2C--3C--3D--3H--,4C,Trump strength Ask in !C
+1C--1N--2C--3C--3D--3H--,4D,Trump strength Ask in !H
+1C--1N--2C--3C--3D--3H--,4H,To play
+1C--1N--2C--3C--3D--3H--3S--,3N,0 or A or K
+1C--1N--2C--3C--3D--3H--3S--,4C,Two K
+1C--1N--2C--3C--3D--3H--3S--,4D,3
+1C--1N--2C--3C--3D--3H--3S--,4H,4
+1C--1N--2C--3C--3D--3H--3S--,4S,5
+1C--1N--2C--3C--3D--3H--3S--,4N,6+
+1C--1N--2C--3C--3D--3H--4C--,4D,No Top !C honor
+1C--1N--2C--3C--3D--3H--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--3C--3D--3H--4C--,4S,1 Top !C honor + J
+1C--1N--2C--3C--3D--3H--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--3C--3D--3H--4C--,5C,2 Top !C honor + J
+1C--1N--2C--3C--3D--3H--4C--,5D,AKQx !C
+1C--1N--2C--3C--3D--3H--4D--,4H,No Top !H Honor
+1C--1N--2C--3C--3D--3H--4D--,4S,1 Top !H honor w/o J
+1C--1N--2C--3C--3D--3H--4D--,4N,1 Top !H honor + J
+1C--1N--2C--3C--3D--3H--4D--,5C,2 Top !H honor w/o J
+1C--1N--2C--3C--3D--3H--4D--,5D,2 Top !H honor + J
+1C--1N--2C--3C--3D--3H--4D--,5H,AKQx !H
+1C--1N--2C--3C--3D--3S--,3N,To play
+1C--1N--2C--3C--3D--3S--,4C,Trump strength Ask in !C
+1C--1N--2C--3C--3D--3S--,4D,All control Ask
+1C--1N--2C--3C--3D--3S--,4H,Trump strength Ask in !S
+1C--1N--2C--3C--3D--3S--,4S,To play
+1C--1N--2C--3C--3D--3S--4C--,4D,No Top !C honor
+1C--1N--2C--3C--3D--3S--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--3C--3D--3S--4C--,4S,1 Top !C honor + J
+1C--1N--2C--3C--3D--3S--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--3C--3D--3S--4C--,5C,2 Top !C honor + J
+1C--1N--2C--3C--3D--3S--4C--,5D,AKQx !C
+1C--1N--2C--3C--3D--3S--4H--,4S,No Top !S honor
+1C--1N--2C--3C--3D--3S--4H--,4N,1 Top !S honor w/o J
+1C--1N--2C--3C--3D--3S--4H--,5C,1 Top !S honor + J
+1C--1N--2C--3C--3D--3S--4H--,5D,2 Top !S honor w/o J
+1C--1N--2C--3C--3D--3S--4H--,5H,2 Top !S honor + J
+1C--1N--2C--3C--3D--3S--4H--,5S,AKQx !S
+1C--1N--2C--3C--3D--3N--,4C,Trump strength Ask in !C
+1C--1N--2C--3C--3D--3N--,4D,Trump strength Ask in !D
+1C--1N--2C--3C--3D--3N--,4H,All control Ask
+1C--1N--2C--3C--3D--3N--4C--,4D,No Top !C honor
+1C--1N--2C--3C--3D--3N--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--3C--3D--3N--4C--,4S,1 Top !C honor + J
+1C--1N--2C--3C--3D--3N--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--3C--3D--3N--4C--,5C,2 Top !C honor + J
+1C--1N--2C--3C--3D--3N--4C--,5D,AKQx !C
+1C--1N--2C--3C--3D--3N--4D--,4H,No Top !D honor
+1C--1N--2C--3C--3D--3N--4D--,4S,1 Top !D honor w/o J
+1C--1N--2C--3C--3D--3N--4D--,4N,1 Top !D honor + J
+1C--1N--2C--3C--3D--3N--4D--,5C,2 Top !D honor w/o J
+1C--1N--2C--3C--3D--3N--4D--,5D,2 Top !D honor + J
+1C--1N--2C--3C--3D--3N--4D--,5H,AKQx !D
+1C--1N--2C--3C--3D--3N--4H--,4S,0 or A or K
+1C--1N--2C--3C--3D--3N--4H--,4N,Two K
+1C--1N--2C--3C--3D--3N--4H--,5C,3
+1C--1N--2C--3C--3D--3N--4H--,5D,4
+1C--1N--2C--3C--3D--3N--4H--,5H,5
+1C--1N--2C--3C--3D--3N--4H--,5S,6+
+1C--1N--2C--3C--4C--,4D,No !C Top honor
+1C--1N--2C--3C--4C--,4H,1 Top !C honor w/o J
+1C--1N--2C--3C--4C--,4S,1 Top !C honor + J
+1C--1N--2C--3C--4C--,4N,2 Top !C honor w/o J
+1C--1N--2C--3C--4C--,5C,2 Top !C honor + J
+1C--1N--2C--3C--4C--,5D,AKQx !C
+1C--1N--2C--3D--,3H,Trump strength Ask
+1C--1N--2C--3D--,3S,All Control Ask
+1C--1N--2C--3D--,4D,Trump Strength Ask
+1C--1N--2C--3D--3H--,3S,No top Honors !H
+1C--1N--2C--3D--3H--,3N,1 Top Honor !H w/o J
+1C--1N--2C--3D--3H--,4C,1 Top Honor !H + J
+1C--1N--2C--3D--3H--,4D,2 Top Honor !H w/o J
+1C--1N--2C--3D--3H--,4H,2 Top Honor !H + J
+1C--1N--2C--3D--3H--,4S,AKQx!H
+1C--1N--2C--3D--3S--,3N,0-2
+1C--1N--2C--3D--3S--,4C,3
+1C--1N--2C--3D--3S--,4D,4
+1C--1N--2C--3D--3S--,4H,5
+1C--1N--2C--3D--3S--,4S,6
+1C--1N--2C--3D--4D--,4H,No Top Honor !D
+1C--1N--2C--3D--4D--,4S,1 Top Honor !D w/o J
+1C--1N--2C--3D--4D--,4N,1 Top Honor !D + J
+1C--1N--2C--3D--4D--,5C,2 Top Honor !D w/o J
+1C--1N--2C--3D--4D--,5D,2 Top Honor !D + J
+1C--1N--2C--3D--4D--,5H,AKQx !D
+1C--1N--2C--3H--,3S,Trump strength Ask in !S
+1C--1N--2C--3H--,3N,To play
+1C--1N--2C--3H--,4C,All control Ask
+1C--1N--2C--3H--,4D,Trump strength Ask in !H
+1C--1N--2C--3H--3S--,3N,No top honor !S
+1C--1N--2C--3H--3S--,4C,1 Top Honor !S w/o J
+1C--1N--2C--3H--3S--,4D,1 Top Honor !S + J
+1C--1N--2C--3H--3S--,4H,2 Top Honors !S w/o J
+1C--1N--2C--3H--3S--,4S,2 Top Honor !S + J
+1C--1N--2C--3H--3S--,4N,AKQx !S
+1C--1N--2C--3H--3S--3N--,4C,All control Ask
+1C--1N--2C--3H--3S--3N--,4D,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--3N--4C--,4D,0 or A or K
+1C--1N--2C--3H--3S--3N--4C--,4H,two K
+1C--1N--2C--3H--3S--3N--4C--,4S,3
+1C--1N--2C--3H--3S--3N--4C--,4N,4
+1C--1N--2C--3H--3S--3N--4C--,5C,5
+1C--1N--2C--3H--3S--3N--4C--,5D,6+
+1C--1N--2C--3H--3S--3N--4D--,4H,No top !H Honor
+1C--1N--2C--3H--3S--3N--4D--,4S,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--3N--4D--,4N,1 top !H Honor + J
+1C--1N--2C--3H--3S--3N--4D--,5C,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--3N--4D--,5D,2 top !H Honor + J
+1C--1N--2C--3H--3S--3N--4D--,5H,AKQx !H
+1C--1N--2C--3H--3S--4C--,4D,All control Ask
+1C--1N--2C--3H--3S--4C--,4H,Signoff 
+1C--1N--2C--3H--3S--4C--,4S,Signoff 
+1C--1N--2C--3H--3S--4C--,5C,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--4C--4D--,4H,One A or K
+1C--1N--2C--3H--3S--4C--4D--,4S,Two K
+1C--1N--2C--3H--3S--4C--4D--,4N,3
+1C--1N--2C--3H--3S--4C--4D--,5C,4
+1C--1N--2C--3H--3S--4C--4D--,5D,5
+1C--1N--2C--3H--3S--4C--4D--,5H,6
+1C--1N--2C--3H--3S--4C--5C--,5D,No top !H Honor
+1C--1N--2C--3H--3S--4C--5C--,5H,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--4C--5C--,5S,1 top !H Honor + J
+1C--1N--2C--3H--3S--4C--5C--,5N,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--4C--5C--,6C,2 top !H Honor + J
+1C--1N--2C--3H--3S--4C--5C--,6D,AKQx !H
+1C--1N--2C--3H--3S--4D--,4H,Signoff 
+1C--1N--2C--3H--3S--4D--,4S,Signoff 
+1C--1N--2C--3H--3S--4D--,4N,All control Ask
+1C--1N--2C--3H--3S--4D--,5C,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--4D--4N--,5C,Two K
+1C--1N--2C--3H--3S--4D--4N--,5D,3
+1C--1N--2C--3H--3S--4D--4N--,5H,4
+1C--1N--2C--3H--3S--4D--4N--,5S,5
+1C--1N--2C--3H--3S--4D--4N--,5N,6
+1C--1N--2C--3H--3S--4D--5C--,5D,No top !H Honor
+1C--1N--2C--3H--3S--4D--5C--,5H,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--4D--5C--,5S,1 top !H Honor + J
+1C--1N--2C--3H--3S--4D--5C--,5N,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--4D--5C--,6C,2 top !H Honor + J
+1C--1N--2C--3H--3S--4D--5C--,6D,AKQx !H
+1C--1N--2C--3H--3S--4H--,4S,Signoff 
+1C--1N--2C--3H--3S--4H--,4N,All control Ask
+1C--1N--2C--3H--3S--4H--,5C,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--4H--4N--,5C,Two K
+1C--1N--2C--3H--3S--4H--4N--,5D,3
+1C--1N--2C--3H--3S--4H--4N--,5H,4
+1C--1N--2C--3H--3S--4H--4N--,5S,5
+1C--1N--2C--3H--3S--4H--4N--,5N,6
+1C--1N--2C--3H--3S--4H--5C--,5D,No top !H Honor
+1C--1N--2C--3H--3S--4H--5C--,5H,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--4H--5C--,5S,1 top !H Honor + J
+1C--1N--2C--3H--3S--4H--5C--,5N,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--4H--5C--,6C,2 top !H Honor + J
+1C--1N--2C--3H--3S--4H--5C--,6D,AKQx !H
+1C--1N--2C--3H--3S--4S--,4N,All control Ask
+1C--1N--2C--3H--3S--4S--,5C,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--4S--4N--,5C,Two K
+1C--1N--2C--3H--3S--4S--4N--,5D,3
+1C--1N--2C--3H--3S--4S--4N--,5H,4
+1C--1N--2C--3H--3S--4S--4N--,5S,5
+1C--1N--2C--3H--3S--4S--4N--,5N,6
+1C--1N--2C--3H--3S--4S--5C--,5D,No top !H Honor
+1C--1N--2C--3H--3S--4S--5C--,5H,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--4S--5C--,5S,1 top !H Honor + J
+1C--1N--2C--3H--3S--4S--5C--,5N,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--4S--5C--,6C,2 top !H Honor + J
+1C--1N--2C--3H--3S--4S--5C--,6D,AKQx !H
+1C--1N--2C--3H--3S--4N--,5C,Trump strength AsKing in !H
+1C--1N--2C--3H--3S--4N--5C--,5D,No top !H Honor
+1C--1N--2C--3H--3S--4N--5C--,5H,1 top !H Honor w/o J
+1C--1N--2C--3H--3S--4N--5C--,5S,1 top !H Honor + J
+1C--1N--2C--3H--3S--4N--5C--,5N,2 top !H Honor w/o J
+1C--1N--2C--3H--3S--4N--5C--,6C,2 top !H Honor + J
+1C--1N--2C--3H--3S--4N--5C--,6D,AKQx !H
+1C--1N--2C--3H--4C--,4D,0 or A or K
+1C--1N--2C--3H--4C--,4H,two K
+1C--1N--2C--3H--4C--,4S,3
+1C--1N--2C--3H--4C--,4N,4
+1C--1N--2C--3H--4C--,5C,5
+1C--1N--2C--3H--4C--,5D,6+
+1C--1N--2C--3H--4D--,4H,No Top Honor !H
+1C--1N--2C--3H--4D--,4S,1 Top Honor !H w/o J
+1C--1N--2C--3H--4D--,4N,1 Top Honor !H + J
+1C--1N--2C--3H--4D--,5C,2 Top Honor !H w/o J
+1C--1N--2C--3H--4D--,5D,2 Top Honor !H + J
+1C--1N--2C--3H--4D--,5H,AKQx !H
+1C--1N--2C--3S--,3N,To play
+1C--1N--2C--3S--,4C,All control Ask
+1C--1N--2C--3S--,4D,Trump strength Ask
+1C--1N--2C--3S--4C--,4D,0-2
+1C--1N--2C--3S--4C--,4H,3
+1C--1N--2C--3S--4C--,4S,4
+1C--1N--2C--3S--4C--,4N,5
+1C--1N--2C--3S--4C--,5C,6+
+1C--1N--2C--3S--4C--4D--,4S,To play
+1C--1N--2C--3S--4C--4D--,4N,To play
+1C--1N--2C--3S--4C--4D--,5C,Trump strength Ask in !D
+1C--1N--2C--3S--4C--4D--,5D,To play
+1C--1N--2C--3S--4C--4D--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4C--4D--5C--,5D,No top honor
+1C--1N--2C--3S--4C--4D--5C--,5H,1 top honor!D w/o J
+1C--1N--2C--3S--4C--4D--5C--,5S,1 top honor!D + J
+1C--1N--2C--3S--4C--4D--5C--,5N,2 top honor!D w/o J
+1C--1N--2C--3S--4C--4D--5C--,6C,2 top honor!D + J
+1C--1N--2C--3S--4C--4D--5C--,6D,AKQx !D
+1C--1N--2C--3S--4C--4D--5H--,5S,No top honor !S
+1C--1N--2C--3S--4C--4D--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4C--4D--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4C--4D--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4C--4D--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4C--4D--5H--,6S,AKQx !S
+1C--1N--2C--3S--4C--4H--,4S,To play
+1C--1N--2C--3S--4C--4H--,4N,To play
+1C--1N--2C--3S--4C--4H--,5C,Trump strength Ask in !D
+1C--1N--2C--3S--4C--4H--,5D,To play
+1C--1N--2C--3S--4C--4H--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4C--4H--5C--,5D,No top honor
+1C--1N--2C--3S--4C--4H--5C--,5H,1 top honor!D w/o J
+1C--1N--2C--3S--4C--4H--5C--,5S,1 top honor!D + J
+1C--1N--2C--3S--4C--4H--5C--,5N,2 top honor!D w/o J
+1C--1N--2C--3S--4C--4H--5C--,6C,2 top honor!D + J
+1C--1N--2C--3S--4C--4H--5C--,6D,AKQx !D
+1C--1N--2C--3S--4C--4H--5H--,5S,No top honor !S
+1C--1N--2C--3S--4C--4H--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4C--4H--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4C--4H--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4C--4H--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4C--4H--5H--,6S,AKQx !S
+1C--1N--2C--3S--4C--4S--,4N,To play
+1C--1N--2C--3S--4C--4S--,5C,Trump strength Ask in !D
+1C--1N--2C--3S--4C--4S--,5D,To play
+1C--1N--2C--3S--4C--4S--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4C--4S--5C--,5D,No top honor
+1C--1N--2C--3S--4C--4S--5C--,5H,1 top honor!D w/o J
+1C--1N--2C--3S--4C--4S--5C--,5S,1 top honor!D + J
+1C--1N--2C--3S--4C--4S--5C--,5N,2 top honor!D w/o J
+1C--1N--2C--3S--4C--4S--5C--,6C,2 top honor!D + J
+1C--1N--2C--3S--4C--4S--5C--,6D,AKQx !D
+1C--1N--2C--3S--4C--4S--5H--,5S,No top honor !S
+1C--1N--2C--3S--4C--4S--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4C--4S--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4C--4S--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4C--4S--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4C--4S--5H--,6S,AKQx !S
+1C--1N--2C--3S--4C--4N--,5C,Trump strength Ask in !D
+1C--1N--2C--3S--4C--4N--,5D,To play
+1C--1N--2C--3S--4C--4N--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4C--4N--5C--,5D,No top honor
+1C--1N--2C--3S--4C--4N--5C--,5H,1 top honor!D w/o J
+1C--1N--2C--3S--4C--4N--5C--,5S,1 top honor!D + J
+1C--1N--2C--3S--4C--4N--5C--,5N,2 top honor!D w/o J
+1C--1N--2C--3S--4C--4N--5C--,6C,2 top honor!D + J
+1C--1N--2C--3S--4C--4N--5C--,6D,AKQx !D
+1C--1N--2C--3S--4C--4N--5H--,5S,No top honor !S
+1C--1N--2C--3S--4C--4N--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4C--4N--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4C--4N--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4C--4N--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4C--4N--5H--,6S,AKQx !S
+1C--1N--2C--3S--4C--5C--,5D,To play
+1C--1N--2C--3S--4C--5C--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4C--5C--5H--,5S,No top honor !S
+1C--1N--2C--3S--4C--5C--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4C--5C--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4C--5C--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4C--5C--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4C--5C--5H--,6S,AKQx !S
+1C--1N--2C--3S--4D--,4H,No Top Honor !D
+1C--1N--2C--3S--4D--,4S,1 Top Honor !D w/o J
+1C--1N--2C--3S--4D--,4N,1 Top Honor !D + J
+1C--1N--2C--3S--4D--,5C,2 Top Honor !D w/o J
+1C--1N--2C--3S--4D--,5D,2 Top Honor !D + J
+1C--1N--2C--3S--4D--,5H,2 Top Honor !D + J
+1C--1N--2C--3S--4D--,5S,AKQx !D
+1C--1N--2C--3S--4D--4H--,5C,All control Ask
+1C--1N--2C--3S--4D--4H--5C--,5D,0-2
+1C--1N--2C--3S--4D--4H--5C--,5H,3
+1C--1N--2C--3S--4D--4H--5C--,5S,4
+1C--1N--2C--3S--4D--4H--5C--,5N,5
+1C--1N--2C--3S--4D--4H--5C--,6C,6+
+1C--1N--2C--3S--4D--4H--5C--5D--,5H,Trump strength Ask in !S
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,5S,No top honor !S
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,5N,1 top honor!S w/o J
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,6C,1 top honor!S + J
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,6D,2 top honor!S w/o J
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,6H,2 top honor!S + J
+1C--1N--2C--3S--4D--4H--5C--5D--5H--,6S,AKQx !S
+1C--1N--2C--3S--4D--4H--5C--5H--,6C,Trump strength Ask in !S
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,6D,No Top honor!S
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,6H,1 top honor!S w/o J
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,6S,1 Top Honor!S + J
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,6N,2 top honors !S w/o J
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,7C,2 top honors + J
+1C--1N--2C--3S--4D--4H--5C--5H--6C--,7D,AKQx !S
+1C--1N--2C--3S--4D--4H--5C--5S--,6C,Trump strength Ask in !S
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,6D,No top honor !S
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,6H,1 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,6S,1 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,6N,2 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,7C,2 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--5S--6C--,7D,AKQx !S
+1C--1N--2C--3S--4D--4H--5C--5N--,6C,Trump strength Ask in !S
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,6D,No top honor !S
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,6H,1 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,6S,1 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,6N,2 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,7C,2 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--5N--6C--,7D,AKQx !S
+1C--1N--2C--3S--4D--4H--5C--6C--,6H,Trump strength Ask in !S
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,6S,No top honor !S
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,6N,1 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,7C,1 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,7D,2 top honor !S w/o J
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,7H,2 top honor !S + J
+1C--1N--2C--3S--4D--4H--5C--6C--6H--,7S,AKQx !S
+1C--1N--2C--3N--,4C,Minor Suit Ask
+1C--1N--2C--3N--4C--,4D,5!D
+1C--1N--2C--3N--4C--,4H,5!C
+1C--1N--2C--3N--4C--4D--,4H,All Control Ask
+1C--1N--2C--3N--4C--4D--4H--,4S,1 A or 1 K
+1C--1N--2C--3N--4C--4D--4H--,4N,2 controls and not 1 Ace
+1C--1N--2C--3N--4C--4D--4H--,5C,3 controls
+1C--1N--2C--3N--4C--4D--4H--,5D,4 controls
+1C--1N--2C--3N--4C--4D--4H--,5H,5 controls
+1C--1N--2C--3N--4C--4D--4H--,5S,6 controls
+1C--1N--2C--3N--4C--4H--,4S,All control Ask
+1C--1N--2C--3N--4C--4H--4S--,4N,One A or one K
+1C--1N--2C--3N--4C--4H--4S--,5C,Two K
+1C--1N--2C--3N--4C--4H--4S--,5D,3 controls
+1C--1N--2C--3N--4C--4H--4S--,5H,4 controls
+1C--1N--2C--3N--4C--4H--4S--,5S,5 controls
+1C--1N--2C--3N--4C--4H--4S--,5N,6 controls
+1C--1N--2D--,2H,0-3 controls; less than queen-third support
+1C--1N--2D--,2S,4+ controls; less than queen-third support
+1C--1N--2D--,2N,0-3 controls; queen-third+ support
+1C--1N--2D--,3C,4+ controls; queen-third + support
+1C--1N--2D--,3D,4+ controls; four-card support; no top honor
+1C--1N--2D--2H--,3N,To play
+1C--1N--2D--2S--,3N,To play
+1C--1N--2D--2N--,3N,0-3 Control Ask
+1C--1N--2D--2N--3N--,4C,0 controls or one K or one A
+1C--1N--2D--2N--3N--,4D,2 Kings
+1C--1N--2D--2N--3N--,4H,3 controls
+1C--1N--2D--2N--3N--,4S,3 controls; 4 Trumps; 1Stiff may be
+1C--1N--2D--3C--,3N,4+ Control Ask
+1C--1N--2D--3C--3N--,4C,4 controls
+1C--1N--2D--3C--3N--,4D,5 controls
+1C--1N--2D--3C--3N--,4H,6 controls
+1C--1N--2D--3D--,3N,4+ controls Ask
+1C--1N--2D--3D--3N--,4C,4 controls
+1C--1N--2D--3D--3N--,4D,5 controls
+1C--1N--2D--3D--3N--,4H,6 controls
+1C--1N--2H--,2S,0-3 controls; less than queen-third support
+1C--1N--2H--,2N,4+ controls; less than queen-third support
+1C--1N--2H--,3C,0-3 controls; queen-third+ support
+1C--1N--2H--,3D,4+ controls; queen-third + support
+1C--1N--2H--,3H,4+ controls; four-card support; no top honor
+1C--1N--2H--2S--,3C,Natural
+1C--1N--2H--2S--,3D,Natural
+1C--1N--2H--2S--,3S,Natural
+1C--1N--2H--2S--,3N,To play
+1C--1N--2H--2N--,3C,Natural
+1C--1N--2H--2N--,3D,Natural
+1C--1N--2H--2N--,3S,Natural
+1C--1N--2H--2N--,3N,To play.
+1C--1N--2H--3C--,3D,Natural
+1C--1N--2H--3C--,3S,Natural
+1C--1N--2H--3C--,3N,0-3 Control Ask
+1C--1N--2H--3C--3N--,4C,0 controls or one K or one A
+1C--1N--2H--3C--3N--,4D,2 Kings
+1C--1N--2H--3C--3N--,4H,3 controls
+1C--1N--2H--3C--3N--,4S,3 controls; 4 Trumps; 1Stiff may be
+1C--1N--2H--3D--,3S,Natural
+1C--1N--2H--3D--,3N,4+ controls Ask
+1C--1N--2H--3D--3N--,4C,4 controls
+1C--1N--2H--3D--3N--,4D,5 controls
+1C--1N--2H--3D--3N--,4H,6 controls
+1C--1N--2H--3H--,3S,Natural
+1C--1N--2H--3H--,3N,4+ controls Ask
+1C--1N--2H--3H--3N--,4C,4 controls
+1C--1N--2H--3H--3N--,4D,5 controls
+1C--1N--2H--3H--3N--,4H,6 controls
+1C--1N--2S--,2N,0-3 controls; less than queen-third support
+1C--1N--2S--,3C,4+ controls; less than queen-third support
+1C--1N--2S--,3D,0-3 controls; queen-third+ support
+1C--1N--2S--,3H,4+ controls; queen-third + support
+1C--1N--2S--,3S,4+ controls; four-card support; no top honor
+1C--1N--2S--2N--,3N,To play
+1C--1N--2S--3C--,3N,To play
+1C--1N--2S--3D--,3N,0-3 controls Ask
+1C--1N--2S--3D--3N--,4C,0 controls or one K or one A
+1C--1N--2S--3D--3N--,4D,2 Kings
+1C--1N--2S--3D--3N--,4H,3 controls
+1C--1N--2S--3D--3N--,4S,3 controls; 4 Trumps; 1Stiff may be
+1C--1N--2S--3H--,3N,4+ controls Ask
+1C--1N--2S--3H--3N--,4C,4 controls
+1C--1N--2S--3H--3N--,4D,5 controls
+1C--1N--2S--3H--3N--,4H,6 controls
+1C--1N--2S--3S--,3N,4+ controls Ask
+1C--1N--2S--3S--3N--,4C,4 controls
+1C--1N--2S--3S--3N--,4D,5 controls
+1C--1N--2S--3S--3N--,4H,6 controls
+1C--1N--3C--,3D,Control showing bid
+1C--1N--3C--,3H,Control showing bid
+1C--1N--3C--,3S,Control showing bid
+1C--1N--3C--,3N,Honors in all unbid Suits and no Aces outside.
+1C--1N--3C--3D--,3H,Control showing bid
+1C--1N--3C--3D--,3S,Control showing bid
+1C--1N--3C--3D--,4D,Control showing bid
+1C--1N--3C--3H--,3S,Control showing bid
+1C--1N--3C--3H--,4D,Control showing bid
+1C--1N--3C--3S--,4D,Control showing bid
+1C--1N--3C--3S--,4H,Control showing bid
+1C--1N--3D--,3H,Control showing bid
+1C--1N--3D--,3S,Control showing bid
+1C--1N--3D--,3N,Honors in all unbid Suits and no Aces outside.
+1C--1N--3D--,4C,Control showing bid
+1C--1N--3D--3H--,3S,Control showing bid
+1C--1N--3D--3H--,4C,Control showing bid
+1C--1N--3D--3H--,4D,Control showing bid
+1C--1N--3D--3S--,4C,control showing bid
+1C--1N--3D--3S--,4D,Control showing bid
+1C--1N--3D--3S--,4H,Control showing bid
+1C--1N--3H--,3S,Control showing bid
+1C--1N--3H--,3N,Honors in all unbid Suits and no Aces outside.
+1C--1N--3H--,4C,Control showing bid
+1C--1N--3H--,4D,Control showing bid
+1C--1N--3H--3S--,4C,Control showing bid
+1C--1N--3H--3S--,4D,Control showing bid
+1C--1N--3H--4C--,4D,Control showing bid
+1C--1N--3H--4C--,4S,Control showing bid
+1C--1N--3H--4D--,4S,Control showing bid
+1C--1N--3H--4D--,5C,Control showing bid
+1C--1N--3S--,3N,Honors in all unbid Suits and no Aces outside.
+1C--1N--3S--,4C,Control showing bid
+1C--1N--3S--,4D,Control showing bid
+1C--1N--3S--,4H,Control showing bid
+1C--1N--3S--4C--,4D,Control showing bid
+1C--1N--3S--4C--,4H,Control showing bid
+1C--1N--3S--4D--,4H,Control showing bid
+1C--1N--3S--4D--,5C,Control showing bid
+1C--1N--3S--4H--,5C,Control showing bid
+1C--1N--3S--4H--,5D,Control showing bid
+1C--2C--,2D,Asks clarification
+1C--2C--,2H,5+; support-Ask plus controls
+1C--2C--,2S,5+; support-Ask plus controls
+1C--2C--,2N,5+ !D andsupport-Ask in diamonds plus controls
+1C--2C--,3C,Trump Control Ask
+1C--2C--2D--,2H,4+ Hearts; 5+ clubs
+1C--2C--2D--,2S,4+ spades; denies 4 Hearts; 5+ clubs
+1C--2C--2D--,2N,4+ diamonds; 5+ clubs
+1C--2C--2D--,3C,6-7; no other 4 card Suit
+1C--2C--2D--,3D,4 diamonds and 6-7 clubs
+1C--2C--2D--,3H,(any 332)5; 0-2 controls
+1C--2C--2D--,3S,(any 332)5; 3 controls and 9-12 HCP
+1C--2C--2D--,3N,(any 332)5; 4-6 controls and 9-12 HCP
+1C--2C--2D--,4C,(any 332)5; 3 controls and 13+ HCP
+1C--2C--2D--,4D,(any332)5; 4 controls and 13+ HCP
+1C--2C--2D--,4H,(any332)5; 5 controls and 13+ HCP
+1C--2C--2D--,4S,(any332)5; 6 controls and 13+ HCP
+1C--2C--2D--,4N,(any332)5; 7 controls and 15+ HCP
+1C--2C--2D--2H--,2S,distribution Ask
+1C--2C--2D--2H--,2N,Balanced
+1C--2C--2D--2H--,3C,Trump control Ask
+1C--2C--2D--2H--,3D,Minor control Ask
+1C--2C--2D--2H--,3H,trump strength Ask
+1C--2C--2D--2H--2S--,2N,4405
+1C--2C--2D--2H--2S--,3C,x4x6 or x4x7
+1C--2C--2D--2H--2S--,3D,1435
+1C--2C--2D--2H--2S--,3H,2425; 9 to bad 12 HCP
+1C--2C--2D--2H--2S--,3S,3415
+1C--2C--2D--2H--2S--,3N,2425; 12+ HCP
+1C--2C--2D--2H--2S--,4C,x5x6
+1C--2C--2D--2H--2S--,4D,0445
+1C--2C--2D--2H--3C--,3D,5-6; No top honor
+1C--2C--2D--2H--3C--,3H,5 to a top honor
+1C--2C--2D--2H--3C--,3S,6 to a top honor
+1C--2C--2D--2H--3C--,3N,5 to 2 top honors
+1C--2C--2D--2H--3C--,4C,6 to 2 top honors
+1C--2C--2D--2H--3C--,4D,5-6 with AKQ
+1C--2C--2D--2H--3D--,3H,0-2 controls
+1C--2C--2D--2H--3D--,3S,3
+1C--2C--2D--2H--3D--,3N,4
+1C--2C--2D--2H--3D--,4C,5
+1C--2C--2D--2H--3H--,3S,No top Honor
+1C--2C--2D--2H--3H--,3N,Axxx or Kxxx or Qxxx
+1C--2C--2D--2H--3H--,4C,AJxx or KJxx or QJxx
+1C--2C--2D--2H--3H--,4D,AKxx or AQxx or KQxx
+1C--2C--2D--2H--3H--,4H,AKJx or AQJx or KQJx
+1C--2C--2D--2H--3H--,4S,AKQx !H
+1C--2C--2D--2S--,2N,Distribution Ask
+1C--2C--2D--2S--,3C,Trump control Ask
+1C--2C--2D--2S--,3D,[minor(20)-control-Ask]
+1C--2C--2D--2S--,3H,[trump-strength-Ask] in spades
+1C--2C--2D--2S--2N--,3C,4xx6 or 4xx7
+1C--2C--2D--2S--2N--,3D,4135
+1C--2C--2D--2S--2N--,3H,4315
+1C--2C--2D--2S--2N--,3S,4225; 9-bad 12 HCP
+1C--2C--2D--2S--2N--,3N,4225; good 12+ HCP
+1C--2C--2D--2S--2N--,4C,5xx6
+1C--2C--2D--2S--2N--,4D,4045
+1C--2C--2D--2S--3C--,3D,5-6; No top honor
+1C--2C--2D--2S--3C--,3H,5 to a top honor
+1C--2C--2D--2S--3C--,3S,6 to a top honor
+1C--2C--2D--2S--3C--,3N,5 to 2 top honors
+1C--2C--2D--2S--3C--,4C,6 to 2 top honors
+1C--2C--2D--2S--3C--,4D,5-6 with AKQ
+1C--2C--2D--2S--3D--,3H,0-2
+1C--2C--2D--2S--3D--,3S,3
+1C--2C--2D--2S--3D--,3N,4
+1C--2C--2D--2S--3D--,4C,5
+1C--2C--2D--2S--3H--,3S,NO top honor
+1C--2C--2D--2S--3H--,3N,1 Top honor w/o J
+1C--2C--2D--2S--3H--,4C,1 Top Honor with J
+1C--2C--2D--2S--3H--,4D,2 Top Honor w/o J
+1C--2C--2D--2S--3H--,4H,2 Top Honor with J
+1C--2C--2D--2S--3H--,4S,AKQx !S
+1C--2C--2D--2N--,3C,DIstribution Ask
+1C--2C--2D--2N--,3D,trump strength Ask
+1C--2C--2D--2N--,3H,minor control Ask
+1C--2C--2D--2N--,3N,To play
+1C--2C--2D--2N--,4C,trump Ask
+1C--2C--2D--2N--3C--,3D,2245; 9-12 HCP
+1C--2C--2D--2N--3C--,3H,1345
+1C--2C--2D--2N--3C--,3S,3145
+1C--2C--2D--2N--3C--,3N,2245; 13 HCP
+1C--2C--2D--2N--3C--,4C,xx56
+1C--2C--2D--2N--3D--,3H,xxxx; No top honor
+1C--2C--2D--2N--3D--,3S,Axxx or Kxxx or Qxxx in !D
+1C--2C--2D--2N--3D--,3N,AJxx or KJxx; QJxx in !D
+1C--2C--2D--2N--3D--,4C,AKxx or AQxx or KQxx in !D
+1C--2C--2D--2N--3D--,4D,AKJx or AQJx or KQJx in !D
+1C--2C--2D--2N--3D--,4H,AKQx in !D
+1C--2C--2D--2N--3H--,3S,0-2
+1C--2C--2D--2N--3H--,3N,3
+1C--2C--2D--2N--3H--,4C,4
+1C--2C--2D--2N--4C--,4D,5+; No top honor
+1C--2C--2D--2N--4C--,4H,5 with 1 top honors
+1C--2C--2D--2N--4C--,4S,6 with 1 top honor
+1C--2C--2D--2N--4C--,4N,5 with 2 top honors
+1C--2C--2D--2N--4C--,5C,6 with two top honors
+1C--2C--2D--2N--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3C--,3D,[minor(20)-control-Ask]
+1C--2C--2D--3C--,3H,4!H 5!D
+1C--2C--2D--3C--,3S,4!S and 5!D
+1C--2C--2D--3C--,3N,To play
+1C--2C--2D--3C--,4C,trump strength Ask
+1C--2C--2D--3C--3D--,3H,0-2 controls
+1C--2C--2D--3C--3D--,3S,3
+1C--2C--2D--3C--3D--,3N,4
+1C--2C--2D--3C--3H--,3S,top honor in spades
+1C--2C--2D--3C--3H--,3N,stopper in !S and !D
+1C--2C--2D--3C--3H--,4H,queen-third+
+1C--2C--2D--3C--3S--,3N,stoppers in D and H
+1C--2C--2D--3C--3S--,4S,queen-third+
+1C--2C--2D--3C--4C--,4D,5+; No top honor
+1C--2C--2D--3C--4C--,4H,5 with 1 top honors
+1C--2C--2D--3C--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3C--4C--,4N,5 with 2 top honors
+1C--2C--2D--3C--4C--,5C,6 with two top honors
+1C--2C--2D--3C--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3D--,3H,minor control Ask
+1C--2C--2D--3D--,3S,spade stopper; no heart stopper
+1C--2C--2D--3D--,3N,To play
+1C--2C--2D--3D--,4C,[trump-strength-Ask]
+1C--2C--2D--3D--,4D,[trump-strength-Ask]
+1C--2C--2D--3D--3H--,3S,0-2
+1C--2C--2D--3D--3H--,3N,3
+1C--2C--2D--3D--3H--,4C,4
+1C--2C--2D--3D--4C--,4D,5+; No top honor
+1C--2C--2D--3D--4C--,4H,5 with 1 top honors
+1C--2C--2D--3D--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3D--4C--,4N,5 with 2 top honors
+1C--2C--2D--3D--4C--,5C,6 with two top honors
+1C--2C--2D--3D--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3D--4D--,4H,xxxx; No top honor
+1C--2C--2D--3D--4D--,4S,Axxx or Kxxx or Qxxx
+1C--2C--2D--3D--4D--,4N,AJxx or KJxx or QJxx
+1C--2C--2D--3D--4D--,5C,AKxx or AQxx or KQxx in !D
+1C--2C--2D--3D--4D--,5D,AKJx; or AQJx or KQJx
+1C--2C--2D--3D--4D--,5H,AKQx in !D
+1C--2C--2D--3H--,3S,control Ask
+1C--2C--2D--3H--,3N,To play
+1C--2C--2D--3H--,4C,trump-strength-Ask
+1C--2C--2D--3H--3S--,3N,0-1 control
+1C--2C--2D--3H--3S--3N--,4C,trump-strength-Ask
+1C--2C--2D--3H--3S--3N--4C--,4D,5+; No top honor
+1C--2C--2D--3H--3S--3N--4C--,4H,5 with 1 top honors
+1C--2C--2D--3H--3S--3N--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3H--3S--3N--4C--,4N,5 with 2 top honors
+1C--2C--2D--3H--3S--3N--4C--,5C,6 with two top honors
+1C--2C--2D--3H--3S--3N--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3H--4C--,4D,5+; No top honor
+1C--2C--2D--3H--4C--,4H,5 with 1 top honors
+1C--2C--2D--3H--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3H--4C--,4N,5 with 2 top honors
+1C--2C--2D--3H--4C--,5C,6 with two top honors
+1C--2C--2D--3H--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3S--,3N,To play
+1C--2C--2D--3S--,4C,trump-strength-Ask
+1C--2C--2D--3S--4C--,4D,5+; No top honor
+1C--2C--2D--3S--4C--,4H,5 with 1 top honors
+1C--2C--2D--3S--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3S--4C--,4N,5 with 2 top honors
+1C--2C--2D--3S--4C--,5C,6 with two top honors
+1C--2C--2D--3S--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3N--,4C,trump-strength-Ask
+1C--2C--2D--3N--,4D,4 control Ask
+1C--2C--2D--3N--4C--,4D,5+; No top honor
+1C--2C--2D--3N--4C--,4H,5 with 1 top honors
+1C--2C--2D--3N--4C--,4S,6 with 1 top honor !C
+1C--2C--2D--3N--4C--,4N,5 with 2 top honors
+1C--2C--2D--3N--4C--,5C,6 with two top honors
+1C--2C--2D--3N--4C--,5D,5-6 with AKQ!C
+1C--2C--2D--3N--4D--,4H,0-2
+1C--2C--2D--3N--4D--,4S,3
+1C--2C--2D--3N--4D--,4N,4
+1C--2C--2D--4N--,5C,[trump-strength-Ask] in clubs
+1C--2C--2D--4N--,5H,re Ask
+1C--2C--2D--4N--5H--,5S,7 controls
+1C--2C--2D--4N--5H--,5N,8 controls
+1C--2C--2H--,2S,0-3 controls; less than queen-third support
+1C--2C--2H--,2N,4+ controls; less than queen-third support
+1C--2C--2H--,3C,0-3 controls; queen-third+
+1C--2C--2H--,3D,4+ controls; queen-third+
+1C--2C--2H--,3H,4+ controls; four-card support; no top honor
+1C--2C--2H--,3S,5xx6; with strong black Suits (2 top honors in each)
+1C--2C--2H--,3N,6+ semi-solid Suit; 4+ controls
+1C--2C--2H--,4C,xx56; with strong minors (2 top honors in each)
+1C--2C--2H--2S--,2N,natural
+1C--2C--2H--2S--,3C,[trump-Ask] in clubs
+1C--2C--2H--2S--,3D,natural
+1C--2C--2H--2S--,3H,natural
+1C--2C--2H--2S--,3S,natural
+1C--2C--2H--2S--,3N,To play
+1C--2C--2H--2S--3C--,3D,5-6; No top honor
+1C--2C--2H--2S--3C--,3H,5 to a top honor
+1C--2C--2H--2S--3C--,3S,6 to a top honor
+1C--2C--2H--2S--3C--,3N,5 to 2 top honors
+1C--2C--2H--2S--3C--,4C,6 to 2 top honors
+1C--2C--2H--2S--3C--,4D,5-6 to all top honors
+1C--2C--2H--2N--,3C,[trump-Ask] in clubs
+1C--2C--2H--2N--,3D,natural
+1C--2C--2H--2N--,3H,natural
+1C--2C--2H--2N--,3S,natural
+1C--2C--2H--2N--,3N,To play
+1C--2C--2H--2N--3C--,3D,5+; No top honor
+1C--2C--2H--2N--3C--,3H,5 to a top honor
+1C--2C--2H--2N--3C--,3S,6 to a top honor
+1C--2C--2H--2N--3C--,3N,5 to two honors
+1C--2C--2H--2N--3C--,4C,6 to two honors
+1C--2C--2H--2N--3C--,4D,5-6 with AKQ honors
+1C--2C--2H--3C--,3D,natural
+1C--2C--2H--3C--,3H,natural
+1C--2C--2H--3C--,3S,natural
+1C--2C--2H--3C--,3N,0-3 control-Ask
+1C--2C--2H--3C--3N--,4C,0 controls; 1 K; or 1 A
+1C--2C--2H--3C--3N--,4D,2 Kings
+1C--2C--2H--3C--3N--,4H,3 controls
+1C--2C--2H--3C--3N--,4S,3 controls; 4 trump; stiff or void
+1C--2C--2H--3C--3N--4S--,4N,stiff Ask (can't go beyond 5 Suit)
+1C--2C--2H--3C--3N--4S--4N--,5C,1 or 0
+1C--2C--2H--3C--3N--4S--4N--,5D,1 or 0
+1C--2C--2H--3C--3N--4S--4N--,5H,(can't go beyond 5 Suit) !S =1 or 0
+1C--2C--2H--3D--,3N,control Ask?
+1C--2C--2H--3D--3N--,4C,4 controls
+1C--2C--2H--3D--3N--,4D,5 controls
+1C--2C--2H--3D--3N--,4H,6 controls
+1C--2C--2H--3D--3N--,4S,7 controls
+1C--2C--2H--3H--,3N,control Ask?
+1C--2C--2H--3H--3N--,4C,4 controls
+1C--2C--2H--3H--3N--,4D,5 controls
+1C--2C--2H--3H--3N--,4H,6 controls
+1C--2C--2H--3H--3N--,4S,7 controls
+1C--2C--2S--,2N,0-3 controls; less than queen-third support
+1C--2C--2S--,3C,4+ controls; less than queen-third support
+1C--2C--2S--,3D,0-3 controls; queen-third+
+1C--2C--2S--,3H,4+ controls; queen-third+
+1C--2C--2S--,3S,4+ controls; four-card support; no top honor
+1C--2C--2S--,3N,To play
+1C--2C--2S--,4C,6+ semi-solid Suit; 4+ controls
+1C--2C--2S--,4D,xx56; with strong minor Suits (2 top honors in each)
+1C--2C--2S--,4H,x5x6; with strong !C and !H Suits (2 top honors in each)
+1C--2C--2S--2N--,3C,[trump-Ask] in clubs
+1C--2C--2S--2N--,3D,natural
+1C--2C--2S--2N--,3H,natural
+1C--2C--2S--2N--,3S,natural
+1C--2C--2S--2N--,3N,To play
+1C--2C--2S--2N--3C--,3D,5-6; No top honor
+1C--2C--2S--2N--3C--,3H,5 to a top honor
+1C--2C--2S--2N--3C--,3S,6 to a top honor
+1C--2C--2S--2N--3C--,3N,5 to 2 top honors
+1C--2C--2S--2N--3C--,4C,6 to 2 top honors
+1C--2C--2S--2N--3C--,4D,5-6 to all top honors
+1C--2C--2S--3C--,3D,natural
+1C--2C--2S--3C--,3H,natural
+1C--2C--2S--3C--,3S,natural
+1C--2C--2S--3C--,3N,To play
+1C--2C--2S--3C--,4C,trump Ask in !C
+1C--2C--2S--3C--3N--,4C,0 controls; 1 K; or 1 A
+1C--2C--2S--3C--3N--,4D,2 Kings
+1C--2C--2S--3C--3N--,4H,3 controls
+1C--2C--2S--3C--3N--,4S,3 controls; 4 trump; stiff or void
+1C--2C--2S--3C--3N--4S--,4N,stiff Ask (can't go beyond 5 Suit)
+1C--2C--2S--3C--3N--4S--4N--,5C,1 or 0
+1C--2C--2S--3C--3N--4S--4N--,5D,1 or 0
+1C--2C--2S--3C--3N--4S--4N--,5H,(can't go beyond 5 Suit) !S =1 or 0
+1C--2C--2S--3C--4C--,4D,5-6 NO top honors
+1C--2C--2S--3C--4C--,4H,5 to a top honor
+1C--2C--2S--3C--4C--,4S,6 to a top honor
+1C--2C--2S--3C--4C--,4N,5 to 2 top honor
+1C--2C--2S--3C--4C--,5C,6 to 2 top honor
+1C--2C--2S--3C--4C--,5D,5-6 to all 3 top honors
+1C--2C--2S--3D--,3H,Natural
+1C--2C--2S--3D--,3S,Natural
+1C--2C--2S--3D--,3N,control Ask?
+1C--2C--2S--3D--3N--,4C,0 controls; 1 K; or 1 A
+1C--2C--2S--3D--3N--,4D,2 Kings
+1C--2C--2S--3D--3N--,4H,3 controls
+1C--2C--2S--3D--3N--,4S,3 controls; 4 trump; stiff or void
+1C--2C--2S--3D--3N--4S--,4N,stiff Ask (can't go beyond 5 Suit)
+1C--2C--2S--3D--3N--4S--4N--,5C,void in !D and !H
+1C--2C--2S--3D--3N--4S--4N--,5D,1 or 0
+1C--2C--2S--3D--3N--4S--4N--,5H,1 or 0
+1C--2C--2S--3D--3N--4S--4N--,5S,(can't go beyond 5 Suit)
+1C--2C--2S--3H--,3S,Natural
+1C--2C--2S--3H--,3N,control Ask?
+1C--2C--2S--3H--,4C,trump-Ask in clubs
+1C--2C--2S--3H--3N--,4C,4
+1C--2C--2S--3H--3N--,4D,5
+1C--2C--2S--3H--3N--,4H,6
+1C--2C--2S--3H--3N--,4S,7
+1C--2C--2S--3H--3N--,4N,8
+1C--2C--2S--3H--4C--,4D,5+; No top honor
+1C--2C--2S--3H--4C--,4H,5 with 1 top honors
+1C--2C--2S--3H--4C--,4S,6 with 1 top honor !C
+1C--2C--2S--3H--4C--,4N,5 with 2 top honors
+1C--2C--2S--3H--4C--,5C,6 with two top honors
+1C--2C--2S--3H--4C--,5D,5-6 with AKQ!C
+1C--2C--2S--3S--,3N,control Ask
+1C--2C--2S--3S--3N--,4C,4
+1C--2C--2S--3S--3N--,4D,5
+1C--2C--2S--3S--3N--,4H,6
+1C--2C--2S--3S--3N--,4S,7
+1C--2C--2S--3S--3N--,4N,8
+1C--2C--2N--,3C,0-3 controls; less than queen-third support in !D
+1C--2C--2N--,3D,4+ controls; less than queen-third support in !D
+1C--2C--2N--,3H,0-3 controls; queen-third+ in !D
+1C--2C--2N--,3S,4+ controls; queen-third+
+1C--2C--2N--,3N,4+ controls; four-card support !D; no top honor
+1C--2C--2N--,4C,semi-solid Suit; 4+ controls
+1C--2C--2N--,4H,x5x6; with strong rounds (2 top honors in each)
+1C--2C--2N--,4S,5xx6; with strong blacks (2 top honors in each)
+1C--2C--2N--3C--,3D,Natural
+1C--2C--2N--3C--,3H,Natural
+1C--2C--2N--3C--,3S,Natural
+1C--2C--2N--3C--,3N,To play
+1C--2C--2N--3C--,4C,Trump Ask in !C
+1C--2C--2N--3C--4C--,4D,5+!C; No top honor
+1C--2C--2N--3C--4C--,4H,5+!C; 1 Top Honor
+1C--2C--2N--3C--4C--,4S,6+!C; 1 Top honor
+1C--2C--2N--3C--4C--,4N,5+!C; 2 top honors
+1C--2C--2N--3C--4C--,5C,6+!C; 2 top honors
+1C--2C--2N--3C--4C--,5D,5-6!C; AKQ
+1C--2C--2N--3D--,3H,Natural
+1C--2C--2N--3D--,3S,Natural
+1C--2C--2N--3D--,3N,To play
+1C--2C--2N--3D--,4C,Trump AsKing in !C
+1C--2C--2N--3D--4C--,4D,5+; No top honor !C
+1C--2C--2N--3D--4C--,4H,5!C; 1 Top Honor !C
+1C--2C--2N--3D--4C--,4S,6!C; 1 Top Honor !C
+1C--2C--2N--3D--4C--,4N,5!C; 2 Top Honor !C
+1C--2C--2N--3D--4C--,5C,6!C; 2 Top Honor !C
+1C--2C--2N--3D--4C--,5D,5-6!C; AKQ !C
+1C--2C--2N--3H--,3S,Natural
+1C--2C--2N--3H--,3N,control Ask
+1C--2C--2N--3H--3N--,4C,0 controls; 1 K; or 1 A
+1C--2C--2N--3H--3N--,4D,2 Kings
+1C--2C--2N--3H--3N--,4H,3 controls
+1C--2C--2N--3H--3N--,4S,3 controls; 4 trump; stiff or void
+1C--2C--2N--3H--3N--4S--,4N,stiff Ask (can't go beyond 5 Suit)
+1C--2C--2N--3H--3N--4S--4N--,5C,void in !D and !H
+1C--2C--2N--3H--3N--4S--4N--,5D,1 or 0
+1C--2C--2N--3H--3N--4S--4N--,5H,1 or 0
+1C--2C--2N--3H--3N--4S--4N--,5S,(can't go beyond 5 Suit)
+1C--2C--2N--3S--,3N,control Ask
+1C--2C--2N--3S--3N--,4C,4
+1C--2C--2N--3S--3N--,4D,5
+1C--2C--2N--3S--3N--,4H,6
+1C--2C--2N--3S--3N--,4S,7
+1C--2C--2N--3S--3N--,4N,8
+1C--2C--2N--3N--,4C,Trump control Ask
+1C--2C--3C--,3D,5+; No top honor
+1C--2C--3C--,3H,5 to a top honor
+1C--2C--3C--,3S,6 to a top honor
+1C--2C--3C--,3N,5 to two honors
+1C--2C--3C--,4C,6 to two honors
+1C--2C--3C--,4D,5-6 with AKQ honors
+1C--2D--,2H,Asks clarification
+1C--2D--,2S,5+ support-Ask plus
+1C--2D--,2N,5+ Hearts;[support-Ask] in Hearts plus
+1C--2D--,3C,5+; support-Ask plus controls Ask
+1C--2D--,3D,Trump Ask
+1C--2D--2H--,2S,4+ spades; 5+ diamonds
+1C--2D--2H--,2N,4+ Hearts; 5+ diamonds
+1C--2D--2H--,3C,4+ clubs; 5+ diamonds
+1C--2D--2H--,3D,6-7; no other 4 card Suit
+1C--2D--2H--,3H,4 Hearts; 6-7 diamonds
+1C--2D--2H--,3S,(332)5!D; 0-3 controls and 9-12 HCP
+1C--2D--2H--,3N,(332)5!D; 4-6 controls and 9-12 HCP
+1C--2D--2H--,4C,(332)5!D; 3 controls and 13+ HCP
+1C--2D--2H--,4D,(332)5!D; 4 controls and 13+ HCP
+1C--2D--2H--,4H,(332)5!D; 5 controls and 13+ HCP
+1C--2D--2H--,4S,(332)5!D; 6 controls and 13+ HCP
+1C--2D--2H--,4N,(332)5!D; 7 controls and 13+ HCP
+1C--2D--2H--2S--,2N,Distribution Ask
+1C--2D--2H--2S--,3C,minor-control-Ask
+1C--2D--2H--2S--,3D,trump Ask
+1C--2D--2H--2S--,3S,Trump strength Ask
+1C--2D--2H--2S--,3N,To play
+1C--2D--2H--2S--2N--,3C,4153
+1C--2D--2H--2S--2N--,3D,4x6x or 4x7x
+1C--2D--2H--2S--2N--,3H,4351; 9-bad 12 HCP
+1C--2D--2H--2S--2N--,3S,4252
+1C--2D--2H--2S--2N--,3N,4252; good 12+ HCP
+1C--2D--2H--2S--2N--,4C,4054
+1C--2D--2H--2S--2N--,4D,5x6x
+1C--2D--2H--2S--2N--,4H,4450
+1C--2D--2H--2S--3C--,3D,0-2
+1C--2D--2H--2S--3C--,3H,3
+1C--2D--2H--2S--3C--,3S,4
+1C--2D--2H--2S--3D--,3H,No top honor
+1C--2D--2H--2S--3D--,3S,5 with 1 top honor
+1C--2D--2H--2S--3D--,3N,6 with 1 top honor
+1C--2D--2H--2S--3D--,4C,5 with 2 top honors
+1C--2D--2H--2S--3D--,4D,6 with two honors
+1C--2D--2H--2S--3D--,4H,5-6; AKQ
+1C--2D--2H--2S--3S--,3N,No top honor
+1C--2D--2H--2S--3S--,4C,1 Top Honor w/o J
+1C--2D--2H--2S--3S--,4D,1 Top Honor w/ J
+1C--2D--2H--2S--3S--,4H,2 Top Honors w/o J
+1C--2D--2H--2S--3S--,4S,2 Top Honors w/ J
+1C--2D--2H--2S--3S--,4N,AKQx
+1C--2D--2H--2N--,3C,distribution Ask
+1C--2D--2H--2N--,3D,Trump Ask
+1C--2D--2H--2N--,3H,trump-strength-Ask
+1C--2D--2H--2N--,3S,minor-control-Ask
+1C--2D--2H--2N--,3N,To play
+1C--2D--2H--2N--3C--,3D,1453
+1C--2D--2H--2N--3C--,3H,2453; 9-bad 12 HCP
+1C--2D--2H--2N--3C--,3S,3451
+1C--2D--2H--2N--3C--,3N,2452; good 12+ HCP
+1C--2D--2H--2N--3C--,4C,0454
+1C--2D--2H--2N--3C--,4D,x56x
+1C--2D--2H--2N--3D--,3H,No top honor
+1C--2D--2H--2N--3D--,3S,5 with 1 top honor
+1C--2D--2H--2N--3D--,3N,6 with 1 top honor
+1C--2D--2H--2N--3D--,4C,5 with 2 top honors
+1C--2D--2H--2N--3D--,4D,6 with 2 top honors
+1C--2D--2H--2N--3D--,4H,5-6; AKQ
+1C--2D--2H--2N--3H--,3S,No top honors
+1C--2D--2H--2N--3H--,3N,1 top honor w/o J
+1C--2D--2H--2N--3H--,4C,1 top honor + J
+1C--2D--2H--2N--3H--,4D,2 top honor w/o J
+1C--2D--2H--2N--3H--,4H,2 Top Honor + J
+1C--2D--2H--2N--3H--,4S,AKQx!H
+1C--2D--2H--2N--3S--,3N,0-2
+1C--2D--2H--2N--3S--,4C,3
+1C--2D--2H--2N--3S--,4D,4
+1C--2D--2H--3C--,3D,Distribution Ask
+1C--2D--2H--3C--,3H,minor(20)-control-Ask
+1C--2D--2H--3C--,3S,spade stopper; no heart stopper
+1C--2D--2H--3C--,3N,To play
+1C--2D--2H--3C--,4C,trump-strength-Ask
+1C--2D--2H--3C--3D--,3H,1354
+1C--2D--2H--3C--3D--,3S,3154
+1C--2D--2H--3C--3D--,3N,2254; 9-bad 12 HCP
+1C--2D--2H--3C--3D--,4C,xx55
+1C--2D--2H--3C--3D--,4D,xx64
+1C--2D--2H--3C--3D--,4H,2254; 3 controls; 13+ HCP
+1C--2D--2H--3C--3D--,4S,2254; 4 controls; 13+ HCP
+1C--2D--2H--3C--3D--,4N,2254; 5 controls; 13+ HCP
+1C--2D--2H--3C--3D--,5C,xx65; 0-10 minor HCP
+1C--2D--2H--3C--3D--,5D,xx65; 11+ minor HCP
+1C--2D--2H--3C--3D--5D--,5H,trump-strength-Ask in C
+1C--2D--2H--3C--3D--5D--,5S,trump-strength-Ask in D
+1C--2D--2H--3C--3H--,3S,0-2
+1C--2D--2H--3C--3H--,3N,3
+1C--2D--2H--3C--3H--,4C,4
+1C--2D--2H--3C--4C--,4D,No top honor in C
+1C--2D--2H--3C--4C--,4H,1 top honor w/o J in C
+1C--2D--2H--3C--4C--,4S,1 Top Honor +J !C
+1C--2D--2H--3C--4C--,4N,2 Top Honor w/o J in C
+1C--2D--2H--3C--4C--,5C,2 Top honor w/ J in C
+1C--2D--2H--3C--4C--,5D,AKQx in C
+1C--2D--2H--3D--,3H,minor(20)-control-Ask
+1C--2D--2H--3D--,3S,spade stopper; no heart stopper
+1C--2D--2H--3D--,3N,To play
+1C--2D--2H--3D--,4D,trump-strength-Ask
+1C--2D--2H--3D--3H--,3S,0-2
+1C--2D--2H--3D--3H--,3N,3
+1C--2D--2H--3D--3H--,4C,4
+1C--2D--2H--3D--4D--,4H,No top Honor
+1C--2D--2H--3D--4D--,4S,5 to a 1 Top honor
+1C--2D--2H--3D--4D--,4N,6 to a 1 top honor
+1C--2D--2H--3D--4D--,5C,5 to 2 top honor
+1C--2D--2H--3D--4D--,5D,6 to 2 top honors
+1C--2D--2H--3D--4D--,5H,5-6 and AKQ
+1C--2D--2H--3H--,3S,minor(20)-control-Ask
+1C--2D--2H--3H--,3N,To play
+1C--2D--2H--3H--,4C,trump-strength-Ask in Hearts
+1C--2D--2H--3H--,4D,trump-strength-Ask in diamonds
+1C--2D--2H--3H--3S--,3N,0-2
+1C--2D--2H--3H--3S--,4C,3
+1C--2D--2H--3H--3S--,4D,4
+1C--2D--2H--3H--4C--,4D,No top honor in H
+1C--2D--2H--3H--4C--,4H,1 top honor w/o J
+1C--2D--2H--3H--4C--,4S,1 top honor w/ J
+1C--2D--2H--3H--4C--,4N,2 top honor w/o J
+1C--2D--2H--3H--4C--,5C,2 top honor w/ J
+1C--2D--2H--3H--4C--,5D,AKQx in H
+1C--2D--2H--3H--4D--,4H,No top honor D
+1C--2D--2H--3H--4D--,4S,1 top honor D; W/O J
+1C--2D--2H--3H--4D--,4N,1 top honor D; W/ J
+1C--2D--2H--3H--4D--,5C,2 top honor D; W/O J
+1C--2D--2H--3H--4D--,5D,2 top honor D; W/ J
+1C--2D--2H--3H--4D--,5H,AKQ D
+1C--2D--2H--3S--,3N,To play
+1C--2D--2H--3S--,4C,A1-control-Ask
+1C--2D--2H--3S--,4D,trump-strength-Ask in diamonds
+1C--2D--2H--3S--4C--,4D,A or K
+1C--2D--2H--3S--4C--,4H,two K
+1C--2D--2H--3S--4C--,4S,3= AK or KKK
+1C--2D--2H--3S--4D--,4H,No top honor D
+1C--2D--2H--3S--4D--,4S,1 top honor D; W/O J
+1C--2D--2H--3S--4D--,4N,1 top honor D; W/ J
+1C--2D--2H--3S--4D--,5C,2 top honor D; W/O J
+1C--2D--2H--3S--4D--,5D,2 top honor D; W/ J
+1C--2D--2H--3S--4D--,5H,AKQ D
+1C--2D--2H--3N--,4C,4 control Ask
+1C--2D--2H--3N--,4D,trump-strength-Ask in diamonds
+1C--2D--2H--3N--4C--,4D,4
+1C--2D--2H--3N--4C--,4H,5
+1C--2D--2H--3N--4C--,4S,6
+1C--2D--2H--3N--4D--,4H,No top honor D
+1C--2D--2H--3N--4D--,4S,1 top honor D; W/O J
+1C--2D--2H--3N--4D--,4N,1 top honor D; W/ J
+1C--2D--2H--3N--4D--,5C,2 top honor D; W/O J
+1C--2D--2H--3N--4D--,5D,2 top honor D; W/ J
+1C--2D--2H--3N--4D--,5H,AKQ D
+1C--2D--2H--4C--,4D,Trump strength Ask
+1C--2D--2H--4C--4D--,4H,No top honor D
+1C--2D--2H--4C--4D--,4S,5D 1 top Honor w/o J
+1C--2D--2H--4C--4D--,4N,5D 1 top Honor w/ J
+1C--2D--2H--4C--4D--,5C,5D 2 top Honor w/o J
+1C--2D--2H--4C--4D--,5D,5D 2 top Honor w/ J
+1C--2D--2H--4C--4D--,5H,AKQxx !D
+1C--2D--2H--4D--,4H,trump-strength-Ask in diamonds
+1C--2D--2H--4D--4H--,4S,No top honor D
+1C--2D--2H--4D--4H--,4N,5D; 1 top honor w/o J
+1C--2D--2H--4D--4H--,5C,5D; 1 top honor w/ J
+1C--2D--2H--4D--4H--,5D,5D; 2 top honors w/o J
+1C--2D--2H--4D--4H--,5H,5D; 2 top honors w/ J
+1C--2D--2H--4D--4H--,5S,AKQxx !D
+1C--2D--2H--4H--,4S,trump-strength-Ask in diamonds
+1C--2D--2H--4H--4S--,4N,No top honor !D
+1C--2D--2H--4H--4S--,5C,5D; 1 Top Honor w/o J
+1C--2D--2H--4H--4S--,5D,5D; 1 Top Honor w/ J
+1C--2D--2H--4H--4S--,5H,5D; 2 Top Honor w/o J
+1C--2D--2H--4H--4S--,5S,5D; 2 Top Honor w/ J
+1C--2D--2H--4H--4S--,5N,AKQXX !D
+1C--2D--2H--4S--,4N,trump-strength-Ask in diamonds
+1C--2D--2H--4S--4N--,5C,5!D; No Top Honor
+1C--2D--2H--4S--4N--,5D,5D; 1 Top honor w/o J
+1C--2D--2H--4S--4N--,5H,5D; 1 Top honor w/ J
+1C--2D--2H--4S--4N--,5S,5D; 2 Top honor w/o J
+1C--2D--2H--4S--4N--,5N,5D; 2 Top honor w/ J
+1C--2D--2H--4S--4N--,6C,AKQxx !D
+1C--2D--2H--4N--,5C,trump-strength-Ask in diamonds
+1C--2D--2H--4N--,5H,Re Ask control
+1C--2D--2H--4N--5C--,5D,5D; No top honor
+1C--2D--2H--4N--5C--,5H,5D; 1 Top honor w/o J
+1C--2D--2H--4N--5C--,5S,5D; 1 Top honor w/ J
+1C--2D--2H--4N--5C--,5N,5D; 2 Top honor w/o J
+1C--2D--2H--4N--5C--,6C,5D; 2 Top honor w/ J
+1C--2D--2H--4N--5C--,6D,AKQxx !D
+1C--2D--2H--4N--5H--,5S,7
+1C--2D--2H--4N--5H--,5N,8
+1C--2D--2S--,4C,xx65; with strong minors (2 top honors in each)
+1C--2D--2S--,4D,semi-solid Suit; 4+ controls
+1C--2D--2S--,4H,x56x; with strong reds (2 top honors in each
+1C--2D--2N--,4C,xx65; with strong minors (2 top honors in each)
+1C--2D--2N--,4D,semi-solid Suit; 4+ controls
+1C--2D--2N--,4H,5x6x; with strong !S and !D (2 top honors in each)
+1C--2D--3C--,4D,semi-solid Suit; 4+ controls
+1C--2D--3C--,4H,x56x; with strong reds (2 top honors in each)
+1C--2D--3C--,4S,5x6x; with strong pointeds (2 top honors in each)
+1C--2D--3D--,3H,No top honor
+1C--2D--3D--,3S,5 with 1 top honor
+1C--2D--3D--,3N,6 with 1 top honor
+1C--2D--3D--,4C,5 with 2 top honors
+1C--2D--3D--,4D,6 with two honors
+1C--2D--3D--,4H,5-6; AKQ
+1C--2H--,2S,control AsKing; Ignore stiff K.
+1C--2H--,2N,no fit; 18-19 HCP.
+1C--2H--,3S,solid !S; Ask for cuebids.
+1C--2H--,3N,no fit; 20-21 HCP)
+1C--2H--,4N,no fit; 22-23 HCP)
+1C--2H--2S--,2N,1
+1C--2H--2S--,3C,2
+1C--2H--2S--,3D,3
+1C--2H--2S--,3H,4
+1C--2H--2S--,3S,5
+1C--2H--2S--2N--,3S,Q Ask? grand slam try;Ignore stiff queen.
+1C--2H--2S--2N--3S--,3N,0 queens
+1C--2H--2S--2N--3S--,4C,1-2 Queens and Q!C must
+1C--2H--2S--2N--3S--,4D,1-2 Queens and Q!D must
+1C--2H--2S--2N--3S--,4H,Q!H
+1C--2H--2S--2N--3S--,4S,3 Queens; Ignore stiff Q!S.
+1C--2H--2S--2N--3S--4C--,4S,Ask for more queens?
+1C--2H--2S--2N--3S--4C--4S--,4N,No more additional queen
+1C--2H--2S--2N--3S--4C--4S--,5D,Q!D
+1C--2H--2S--2N--3S--4C--4S--,5H,Q!H
+1C--2H--2S--2N--3S--4C--4S--,5S,Q!S
+1C--2H--2S--2N--3S--4D--,4S,Ask for more queens?
+1C--2H--2S--2N--3S--4D--4S--,4N,No more additional queen
+1C--2H--2S--2N--3S--4D--4S--,5C,Q!H
+1C--2H--2S--3C--,3S,Q Ask? grand slam try;Ignore stiff queen.
+1C--2H--2S--3C--3S--,3N,0 queens
+1C--2H--2S--3C--3S--,4C,1-2 Queens and Q!C must
+1C--2H--2S--3C--3S--,4D,1-2 Queens and Q!D must
+1C--2H--2S--3C--3S--,4H,Q!H
+1C--2H--2S--3C--3S--,4S,3 Queens; Ignore stiff Q!S.
+1C--2H--2S--3C--3S--4C--,4S,Ask for more queens?
+1C--2H--2S--3C--3S--4C--4S--,4N,No more additional queen
+1C--2H--2S--3C--3S--4C--4S--,5D,Q!D
+1C--2H--2S--3C--3S--4C--4S--,5H,Q!H
+1C--2H--2S--3C--3S--4C--4S--,5S,Q!S
+1C--2H--2S--3C--3S--4D--,4S,Ask for more queens?
+1C--2H--2S--3C--3S--4D--4S--,4N,No more additional queen
+1C--2H--2S--3C--3S--4D--4S--,5C,Q!H
+1C--2H--2S--3D--,3S,Q Ask? grand slam try;Ignore stiff queen.
+1C--2H--2S--3D--3S--,3N,0 queens
+1C--2H--2S--3D--3S--,4C,1-2 Queens and Q!C must
+1C--2H--2S--3D--3S--,4D,1-2 Queens and Q!D must
+1C--2H--2S--3D--3S--,4H,Q!H
+1C--2H--2S--3D--3S--,4S,3 Queens; Ignore stiff Q!S.
+1C--2H--2S--3D--3S--4C--,4S,Ask for more queens?
+1C--2H--2S--3D--3S--4C--4S--,4N,No more additional queen
+1C--2H--2S--3D--3S--4C--4S--,5D,Q!D
+1C--2H--2S--3D--3S--4C--4S--,5H,Q!H
+1C--2H--2S--3D--3S--4C--4S--,5S,Q!S
+1C--2H--2S--3D--3S--4D--,4S,Ask for more queens?
+1C--2H--2S--3D--3S--4D--4S--,4N,No more additional queen
+1C--2H--2S--3D--3S--4D--4S--,5C,Q!H
+1C--2H--2S--3H--,3S,Q Ask? grand slam try;Ignore stiff queen.
+1C--2H--2S--3H--3S--,3N,0 queens
+1C--2H--2S--3H--3S--,4C,1-2 Queens and Q!C must
+1C--2H--2S--3H--3S--,4D,1-2 Queens and Q!D must
+1C--2H--2S--3H--3S--,4H,Q!H
+1C--2H--2S--3H--3S--,4S,3 Queens; Ignore stiff Q!S.
+1C--2H--2S--3H--3S--4C--,4S,Ask for more queens?
+1C--2H--2S--3H--3S--4C--4S--,4N,No more additional queen
+1C--2H--2S--3H--3S--4C--4S--,5D,Q!D
+1C--2H--2S--3H--3S--4C--4S--,5H,Q!H
+1C--2H--2S--3H--3S--4C--4S--,5S,Q!S
+1C--2H--2S--3H--3S--4D--,4S,Ask for more queens?
+1C--2H--2S--3H--3S--4D--4S--,4N,No more additional queen
+1C--2H--2S--3H--3S--4D--4S--,5C,Q!H
+1C--2H--2S--3S--,3N,Q Ask? grand slam try;Ignore stiff queen.
+1C--2H--2S--3S--3N--,4C,No Queens
+1C--2H--2S--3S--3N--,4D,1-2 Queens; Includes Q!D
+1C--2H--2S--3S--3N--,4H,1-2 Queens; Includes Q!H
+1C--2H--2S--3S--3N--,4S,3 queens
+1C--2H--2S--3S--3N--4D--,4S,Ask for more queens?
+1C--2H--2S--3S--3N--4D--4S--,4N,No more additional queen
+1C--2H--2S--3S--3N--4D--4S--,5C,Q!C
+1C--2H--2S--3S--3N--4D--4S--,5H,Q!H
+1C--2H--2S--3S--3N--4D--4S--,5S,Q!S
+1C--2H--2S--3S--3N--4H--,4S,AsKing for more queens
+1C--2H--2S--3S--3N--4H--4S--,4N,No more queens
+1C--2H--2S--3S--3N--4H--4S--,5C,Q!C
+1C--2S--,2N,no fit; 18-19 HCP
+1C--2S--,3C,control-Ask; Ignore Stiff K!C
+1C--2S--,3N,no fit; 20-21 HCP
+1C--2S--,4N,no fit; 22-23 HCP
+1C--2S--3C--,3D,1
+1C--2S--3C--,3H,2
+1C--2S--3C--,3S,3
+1C--2S--3C--,3N,4
+1C--2S--3C--,4C,5
+1C--2S--3C--,4D,6
+1C--2S--3C--3D--,4C,Queen Ask;Grand slam try; Ignore stiff Q
+1C--2S--3C--3D--4C--,4D,1-2 queens includes Q!D
+1C--2S--3C--3D--4C--,4H,1-2 queens includes Q!H
+1C--2S--3C--3D--4C--,4S,Q!S
+1C--2S--3C--3D--4C--,4N,0 queens
+1C--2S--3C--3D--4C--,5C,3 queens
+1C--2S--3C--3D--4C--4D--,4N,Ask for more queens
+1C--2S--3C--3D--4C--4D--4N--,5C,No other queens
+1C--2S--3C--3D--4C--4D--4N--,5D,Q!D; Q!H
+1C--2S--3C--3D--4C--4D--4N--,5H,Q!D; Q!S
+1C--2S--3C--3D--4C--4H--,4N,Ask for more queens
+1C--2S--3C--3D--4C--4H--4N--,5C,No other queens
+1C--2S--3C--3D--4C--4H--4N--,5D,Q!S; Q!H
+1C--2S--3C--3H--,4C,Queen Ask;Grand slam try; Ignore stiff Q
+1C--2S--3C--3H--4C--,4D,1-2 queens includes Q!D
+1C--2S--3C--3H--4C--,4H,1-2 queens includes Q!H
+1C--2S--3C--3H--4C--,4S,1 queen includes Q!S
+1C--2S--3C--3H--4C--,4N,0 queens
+1C--2S--3C--3H--4C--,5C,3 queens
+1C--2S--3C--3H--4C--4D--,4N,Ask for more queens
+1C--2S--3C--3H--4C--4D--4N--,5C,No other queens
+1C--2S--3C--3H--4C--4D--4N--,5D,Q!D; Q!H
+1C--2S--3C--3H--4C--4D--4N--,5H,Q!D; Q!S
+1C--2S--3C--3H--4C--4H--,4N,Ask for more queens
+1C--2S--3C--3H--4C--4H--4N--,5C,No other queens
+1C--2S--3C--3H--4C--4H--4N--,5D,Q!S; Q!H
+1C--2S--3C--3S--,4C,Queen Ask;Grand slam try; Ignore stiff Q
+1C--2S--3C--3S--4C--,4D,1-2 queens includes Q!D
+1C--2S--3C--3S--4C--,4H,1-2 queens includes Q!H
+1C--2S--3C--3S--4C--,4S,1 queen includes Q!S
+1C--2S--3C--3S--4C--,4N,0 queens
+1C--2S--3C--3S--4C--,5C,3 queens
+1C--2S--3C--3S--4C--4D--,4N,Ask for more queens
+1C--2S--3C--3S--4C--4D--4N--,5C,No other queens
+1C--2S--3C--3S--4C--4D--4N--,5D,Q!D; Q!H
+1C--2S--3C--3S--4C--4D--4N--,5H,Q!D; Q!S
+1C--2S--3C--3S--4C--4H--,4N,Ask for more queens
+1C--2S--3C--3S--4C--4H--4N--,5C,No other queens
+1C--2S--3C--3S--4C--4H--4N--,5D,Q!S; Q!H
+1C--2S--3C--3N--,4C,Queen Ask;Grand slam try; Ignore stiff Q
+1C--2S--3C--3N--4C--,4D,1-2 queens includes Q!D
+1C--2S--3C--3N--4C--,4H,1-2 queens includes Q!H
+1C--2S--3C--3N--4C--,4S,Q!S
+1C--2S--3C--3N--4C--,4N,0 queens
+1C--2S--3C--3N--4C--,5C,3 queens
+1C--2S--3C--3N--4C--4D--,4N,Ask for more queens
+1C--2S--3C--3N--4C--4D--4N--,5C,No other queens
+1C--2S--3C--3N--4C--4D--4N--,5D,Q!D; Q!H
+1C--2S--3C--3N--4C--4D--4N--,5H,Q!D; Q!S
+1C--2S--3C--3N--4C--4H--,4N,Ask for more queens
+1C--2S--3C--3N--4C--4H--4N--,5C,No other queens
+1C--2S--3C--3N--4C--4H--4N--,5D,Q!S; Q!H
+1C--2S--3C--4C--,4N,Queen Ask; Grand slam try.Ignore stiff Queen.
+1C--2S--3C--4C--4N--,5C,Q!C; No other queens
+1C--2S--3C--4C--4N--,5D,1-2 Queens; inlcudes Q!D
+1C--2S--3C--4C--4N--,5H,1-2 Queens; inlcudes Q!H
+1C--2S--3C--4C--4N--,5S,Q!S
+1C--2S--3C--4C--4N--,5N,0 queen
+1C--2S--3C--4C--4N--5D--,5N,Ask for more queen
+1C--2S--3C--4C--4N--5D--5N--,6C,Q!D; No more queens
+1C--2S--3C--4C--4N--5D--5N--,6D,Q!D and Q!H
+1C--2S--3C--4C--4N--5D--5N--,6H,Q!D and Q!S
+1C--2S--3C--4C--4N--5H--,5N,Ask for more queen
+1C--2S--3C--4C--4N--5H--5N--,6C,Q!H; No more queens
+1C--2S--3C--4C--4N--5H--5N--,6D,Q!H and Q!S
+1C--2N--,3C,Asks responder to bid up-the-line the 4 card Suit
+1C--2N--,3D,5-6; support-Ask
+1C--2N--,3H,5-6 support Ask
+1C--2N--,3S,5-6 support Ask
+1C--2N--,3N,(4333); 18-19 HCP
+1C--2N--,4C,5-6 support Ask
+1C--2N--,4N,(4333); 20-21 HCP
+1C--2N--,7N,Balanced; 22-23 HCP
+1C--2N--3C--,3D,4D
+1C--2N--3C--,3H,4H
+1C--2N--3C--,3S,4S
+1C--2N--3C--,3N,3334
+1C--2N--3C--3D--,4D,Sets Trump
+1C--2N--3C--3D--4D--,4H,3-control-Ask
+1C--2N--3C--3D--4D--,4N,RKC 0314 blackwood
+1C--2N--3C--3D--4D--4H--,4S,3 controls
+1C--2N--3C--3D--4D--4H--,4N,4 controls
+1C--2N--3C--3D--4D--4H--,5C,5 controls
+1C--2N--3C--3D--4D--4H--,5D,6 controls
+1C--2N--3C--3H--,4H,Sets Trump
+1C--2N--3C--3H--4H--,4S,Control Ask
+1C--2N--3C--3H--4H--,4N,RKC 0314 blackwood
+1C--2N--3C--3H--4H--4S--,4N,3 Controls
+1C--2N--3C--3H--4H--4S--,5C,4 Controls
+1C--2N--3C--3H--4H--4S--,5D,5 Controls
+1C--2N--3C--3H--4H--4S--,5H,6 Controls
+1C--2N--3C--3S--,4S,Sets Trump
+1C--2N--3C--3S--4S--,4N,RKC 0314 Blackwood
+1C--2N--3D--,3H,0-3 controls; less than queen-third support
+1C--2N--3D--,3S,4+ controls; less than queen-third support
+1C--2N--3D--,3N,0-3 controls; queen-third+
+1C--2N--3D--,4C,4+ controls; queen-third+
+1C--2N--3D--,4D,4+ controls; four-card support; no top honor
+1C--2N--3D--3H--,3N,Signoff 
+1C--2N--3D--3S--,3N,Signoff 
+1C--2N--3H--,3S,0-3 controls; less than queen-third support
+1C--2N--3H--,3N,4+ controls; less than queen-third support
+1C--2N--3H--,4C,0-3 controls; queen-third support
+1C--2N--3H--,4D,4+ controls; queen-third support
+1C--2N--3H--,4H,4+ controls; four-card support; no top honor
+1C--2N--3S--,3N,0-3 controls; less than queen-third support
+1C--2N--3S--,4C,4+ controls; less than queen-third support
+1C--2N--3S--,4D,0-3 controls; queen-third+ support
+1C--2N--3S--,4H,4+ controls; queen-third+ support
+1C--2N--3S--,4S,4+ controls; four-card support; no top honor
+1C--2N--3N--,4C,Asks opener to bid 4 card Suit
+1C--2N--3N--4C--,4D,!D
+1C--2N--3N--4C--,4H,!H
+1C--2N--3N--4C--,4S,!S
+1C--2N--3N--4C--,4N,4 card !C
+1C--2N--4C--,4D,0-3 controls; less than queen-third support
+1C--2N--4C--,4H,4+ controls; less than queen-third support
+1C--2N--4C--,4S,0-3 controls; queen-third+ support
+1C--2N--4C--,4N,4+ controls; Queen-third+ support
+1C--2N--4C--,5C,4+ controls; 4 card support; No top cards
+1C--2N--4N--,5C,Asks opener to bid 4 card Suit
+1C--2N--4N--5C--,5D,4!D
+1C--2N--4N--5C--,5H,4!H
+1C--2N--4N--5C--,5S,4!S
+1C--2N--4N--5C--,5N,4!C
+1C--3C--,3D,Control Ask; Ignore Stiff K!D
+1C--3C--,3N,no fit; 20-21 HCP
+1C--3C--,4N,no fit; 22-23 HCP
+1C--3C--3D--,3H,1
+1C--3C--3D--,3S,2
+1C--3C--3D--,3N,3
+1C--3C--3D--,4C,4
+1C--3C--3D--,4D,5
+1C--3C--3D--3H--,4D,Queen Ask; Slam Try; Ignore stiff queen
+1C--3C--3D--3H--4D--,4H,1-2 Queens Includes Q!H
+1C--3C--3D--3H--4D--,4S,1-2 Queens Includes Q!S
+1C--3C--3D--3H--4D--,4N,0 Queen
+1C--3C--3D--3H--4D--,5C,Q!C
+1C--3C--3D--3H--4D--,5D,3 queens
+1C--3C--3D--3H--4D--4H--,4N,Ask for more queens; Ignore stiff Q!D
+1C--3C--3D--3H--4D--4H--4N--,5C,no more queens
+1C--3C--3D--3H--4D--4H--4N--,5D,Q!H and Q!C
+1C--3C--3D--3H--4D--4H--4N--,5H,Q!H and Q!S
+1C--3C--3D--3H--4D--4S--,4N,Ask for more queens
+1C--3C--3D--3H--4D--4S--4N--,5C,No more queens
+1C--3C--3D--3H--4D--4S--4N--,5D,Q!S and Q!C
+1C--3C--3D--3S--,4D,Queen Ask; Slam Try; Ignore stiff queen
+1C--3C--3D--3S--4D--,4H,1-2 Queens Includes Q!H
+1C--3C--3D--3S--4D--,4S,1-2 Queens Includes Q!S
+1C--3C--3D--3S--4D--,4N,0 Queen
+1C--3C--3D--3S--4D--,5C,Q!C
+1C--3C--3D--3S--4D--,5D,3 queens
+1C--3C--3D--3S--4D--4H--,4N,Ask for more queens
+1C--3C--3D--3S--4D--4H--4N--,5C,no more queens
+1C--3C--3D--3S--4D--4H--4N--,5D,Q!H and Q!C
+1C--3C--3D--3S--4D--4H--4N--,5H,Q!H and Q!S
+1C--3C--3D--3S--4D--4S--,4N,Ask for more queens
+1C--3C--3D--3S--4D--4S--4N--,5C,No more queens
+1C--3C--3D--3S--4D--4S--4N--,5D,Q!S and Q!C
+1C--3C--3D--3N--,4D,Queen Ask; Slam Try; Ignore stiff queen
+1C--3C--3D--3N--4D--,4H,1-2 Queens Includes Q!H
+1C--3C--3D--3N--4D--,4S,1-2 Queens Includes Q!S
+1C--3C--3D--3N--4D--,4N,0 Queen
+1C--3C--3D--3N--4D--,5C,Q!C
+1C--3C--3D--3N--4D--,5D,3 queens
+1C--3C--3D--3N--4D--4H--,4N,Ask for more queens
+1C--3C--3D--3N--4D--4H--4N--,5C,no more queens
+1C--3C--3D--3N--4D--4H--4N--,5D,Q!H and Q!C
+1C--3C--3D--3N--4D--4H--4N--,5H,Q!H and Q!S
+1C--3C--3D--3N--4D--4S--,4N,Ask for more queens
+1C--3C--3D--3N--4D--4S--4N--,5C,No more queens
+1C--3C--3D--3N--4D--4S--4N--,5D,Q!S and Q!C
+1C--3C--3D--4C--,4D,Queen Ask; Slam Try; Ignore stiff queen
+1C--3C--3D--4C--4D--,4H,1-2 Queens Includes Q!H
+1C--3C--3D--4C--4D--,4S,1-2 Queens Includes Q!S
+1C--3C--3D--4C--4D--,4N,0 Queen
+1C--3C--3D--4C--4D--,5C,Q!C
+1C--3C--3D--4C--4D--,5D,3 queens
+1C--3C--3D--4C--4D--4H--,4N,Ask for more queens
+1C--3C--3D--4C--4D--4H--4N--,5C,no more queens
+1C--3C--3D--4C--4D--4H--4N--,5D,Q!H and Q!C
+1C--3C--3D--4C--4D--4H--4N--,5H,Q!H and Q!S
+1C--3C--3D--4C--4D--4S--,4N,Ask for more queens
+1C--3C--3D--4C--4D--4S--4N--,5C,No more queens
+1C--3C--3D--4C--4D--4S--4N--,5D,Q!S and Q!C
+1C--3C--3D--4D--,4N,Ask for queen; Slam try; Ignore stiff Q!D
+1C--3C--3D--4D--4N--,5C,1-2 queens include Q!C
+1C--3C--3D--4D--4N--,5D,3 queens
+1C--3C--3D--4D--4N--,5H,1-2 queens include Q!H
+1C--3C--3D--4D--4N--,5S,Q!S
+1C--3C--3D--4D--4N--,5N,0 queens
+1C--3C--3D--4D--4N--5C--,5D,Ask for more queens
+1C--3C--3D--4D--4N--5C--5D--,5H,No more queens
+1C--3C--3D--4D--4N--5C--5D--,5S,Q!C and Q!H
+1C--3C--3D--4D--4N--5C--5D--,5N,Q!C and Q!S
+1C--3C--3D--4D--4N--5H--,5N,Ask for more queens
+1C--3C--3D--4D--4N--5H--5N--,6C,No more queens
+1C--3C--3D--4D--4N--5H--5N--,6D,Q!S and Q!H
+1C--3D--,3H,Control Ask; Ignore Stiff K!H
+1C--3D--,3N,no fit; 20-21 HCP
+1C--3D--,4N,no fit; 22-23 HCP
+1C--3D--3H--,3S,1
+1C--3D--3H--,3N,2
+1C--3D--3H--,4C,3
+1C--3D--3H--,4D,4
+1C--3D--3H--,4H,5
+1C--3D--3H--3S--,4H,Queen Ask; Slam Try; Ignore stiff queen
+1C--3D--3H--3S--4H--,4S,1-2 Queens Includes Q!S
+1C--3D--3H--3S--4H--,4N,0 Queen
+1C--3D--3H--3S--4H--,5C,1-2 Queens Includes Q!C
+1C--3D--3H--3S--4H--,5D,Q!D
+1C--3D--3H--3S--4H--,5H,3 queens
+1C--3D--3H--3S--4H--4S--,4N,Ask for more queens
+1C--3D--3H--3S--4H--4S--4N--,5C,No more queens
+1C--3D--3H--3S--4H--4S--4N--,5D,Q!S and Q!C
+1C--3D--3H--3S--4H--4S--4N--,5H,Q!S and Q!D
+1C--3D--3H--3S--4H--5C--,5H,Ask for more queens
+1C--3D--3H--3S--4H--5C--5H--,5S,No more queens
+1C--3D--3H--3S--4H--5C--5H--,5N,Q!C and Q!D
+1C--3D--3H--3N--,4H,Queen Ask; Slam Try; Ignore stiff queen
+1C--3D--3H--3N--4H--,4S,1-2 Queens Includes Q!S
+1C--3D--3H--3N--4H--,4N,0 Queen
+1C--3D--3H--3N--4H--,5C,1-2 Queens Includes Q!C
+1C--3D--3H--3N--4H--,5D,Q!D
+1C--3D--3H--3N--4H--,5H,3 queens
+1C--3D--3H--3N--4H--4S--,4N,Ask for more queens
+1C--3D--3H--3N--4H--4S--4N--,5C,No more queens
+1C--3D--3H--3N--4H--4S--4N--,5D,Q!S and Q!C
+1C--3D--3H--3N--4H--4S--4N--,5H,Q!S and Q!D
+1C--3D--3H--3N--4H--5C--,5H,Ask for more queens
+1C--3D--3H--3N--4H--5C--5H--,5S,No more queens
+1C--3D--3H--3N--4H--5C--5H--,5N,Q!C and Q!D
+1C--3D--3H--4C--,4H,Queen Ask; Slam Try; Ignore stiff queen
+1C--3D--3H--4C--4H--,4S,1-2 Queens Includes Q!S
+1C--3D--3H--4C--4H--,4N,0 Queen
+1C--3D--3H--4C--4H--,5C,1-2 Queens Includes Q!C
+1C--3D--3H--4C--4H--,5D,Q!D
+1C--3D--3H--4C--4H--,5H,3 queens
+1C--3D--3H--4C--4H--4S--,4N,Ask for more queens
+1C--3D--3H--4C--4H--4S--4N--,5C,No more queens
+1C--3D--3H--4C--4H--4S--4N--,5D,Q!S and Q!C
+1C--3D--3H--4C--4H--4S--4N--,5H,Q!S and Q!D
+1C--3D--3H--4C--4H--5C--,5H,Ask for more queens
+1C--3D--3H--4C--4H--5C--5H--,5S,No more queens
+1C--3D--3H--4C--4H--5C--5H--,5N,Q!C and Q!D
+1C--3D--3H--4D--,4H,Queen Ask; Slam Try; Ignore stiff queen
+1C--3D--3H--4D--4H--,4S,1-2 Queens Includes Q!S
+1C--3D--3H--4D--4H--,4N,0 Queen
+1C--3D--3H--4D--4H--,5C,1-2 Queens Includes Q!C
+1C--3D--3H--4D--4H--,5D,Q!D
+1C--3D--3H--4D--4H--,5H,3 queens
+1C--3D--3H--4D--4H--4S--,4N,Ask for more queens
+1C--3D--3H--4D--4H--4S--4N--,5C,No more queens
+1C--3D--3H--4D--4H--4S--4N--,5D,Q!S and Q!C
+1C--3D--3H--4D--4H--4S--4N--,5H,Q!S and Q!D
+1C--3D--3H--4D--4H--5C--,5H,Ask for more queens
+1C--3D--3H--4D--4H--5C--5H--,5S,No more queens
+1C--3D--3H--4D--4H--5C--5H--,5N,Q!C and Q!D
+1C--3D--3H--4H--,4N,Ask for queen; Slam try; Ignore stiff Q!H
+1C--3D--3H--4H--4N--,5C,1-2 queens include Q!C
+1C--3D--3H--4H--4N--,5D,1-2 queens include Q!D
+1C--3D--3H--4H--4N--,5H,3 queens
+1C--3D--3H--4H--4N--,5S,Q!S
+1C--3D--3H--4H--4N--,5N,0 queens
+1C--3D--3H--4H--4N--5C--,5N,Ask for more queens
+1C--3D--3H--4H--4N--5C--5N--,6C,No more queens
+1C--3D--3H--4H--4N--5C--5N--,6D,Q!C and Q!D
+1C--3D--3H--4H--4N--5C--5N--,6H,Q!C and Q!H
+1C--3D--3H--4H--4N--5D--,5N,Ask for more queen
+1C--3D--3H--4H--4N--5D--5N--,6C,No more queens
+1C--3D--3H--4H--4N--5D--5N--,6D,Q!D and Q!S
+1C--3D--3H--4H--4N--5H--,5N,Ask for more queens
+1C--3D--3H--4H--4N--5H--5N--,6C,No more queens
+1C--3D--3H--4H--4N--5H--5N--,6D,Q!S and Q!D
+1C--3H--,3N,To play
+1C--3H--,4C,solid Suit known to opener; Ask for control
+1C--3H--,4D,Asks responder to bid his solid Suit
+1C--3H--,4H,To play
+1C--3H--,4S,To play
+1C--3H--4C--,4D,1 outside control
+1C--3H--4C--,4H,2 outside control
+1C--3H--4C--,4S,3 outside control
+1C--3H--4C--,4N,4+ outside controls
+1C--3H--4C--4H--,4N,describe the control
+1C--3H--4C--4H--4N--,5C,2 -K's
+1C--3H--4C--4H--4N--,5D,A
+1C--3H--4C--4S--,4N,describe the control
+1C--3H--4C--4S--4N--,5C,3 Kings
+1C--3H--4C--4S--4N--,5D,1 ACE and 1 K
+1C--3H--4D--,4H,solid !H
+1C--3H--4D--,4S,solid !S
+1C--3H--4D--,4N,solid !D
+1C--3H--4D--,5C,solid !C
+1C--3S--,3N,To play
+1C--3S--,4C,solid Suit known to opener; Ask for shortness
+1C--3S--,4D,Asks responder to bid his solid Suit
+1C--3S--,4H,To play
+1C--3S--,4S,To play
+1C--3S--4C--,4D,!D shortage
+1C--3S--4C--,4H,!H shortage
+1C--3S--4C--,4S,!S shortage
+1C--3S--4C--,4N,!C shortage
+1C--3S--4C--4D--,4H,Suit control Ask
+1C--3S--4C--4D--,4S,Suit control Ask
+1C--3S--4C--4D--,4N,describe the shortness
+1C--3S--4C--4D--,5C,Suit control Ask
+1C--3S--4C--4D--4H--,4S,No 1/2/3 round control
+1C--3S--4C--4D--4H--,4N,third round control
+1C--3S--4C--4D--4H--,5C,2nd round control
+1C--3S--4C--4D--4H--,5D,1st round control
+1C--3S--4C--4D--4S--,4N,No 1/2/3 round controls
+1C--3S--4C--4D--4S--,5C,3rd round control
+1C--3S--4C--4D--4S--,5D,2nd round control
+1C--3S--4C--4D--4S--,5H,1st round control
+1C--3S--4C--4D--4N--,5C,singleton !D
+1C--3S--4C--4D--4N--,5D,void !D
+1C--3S--4C--4D--5C--,5D,No 1/2/3 round controls
+1C--3S--4C--4D--5C--,5H,3rd round control
+1C--3S--4C--4D--5C--,5S,2nd round control
+1C--3S--4C--4D--5C--,5N,1st round control
+1C--3S--4C--4H--,4S,Suit control Ask
+1C--3S--4C--4H--,4N,describe the shortness
+1C--3S--4C--4H--,5C,Suit control Ask
+1C--3S--4C--4H--,5D,Suit control Ask
+1C--3S--4C--4H--4S--,4N,No 1/2/3 round controls
+1C--3S--4C--4H--4S--,5C,3rd round control
+1C--3S--4C--4H--4S--,5D,2nd round control
+1C--3S--4C--4H--4S--,5H,1st round control
+1C--3S--4C--4H--4N--,5C,singleton !H
+1C--3S--4C--4H--4N--,5D,void !H
+1C--3S--4C--4H--5C--,5D,No 1/2/3 round control
+1C--3S--4C--4H--5C--,5H,3rd round control
+1C--3S--4C--4H--5C--,5S,2nd round control
+1C--3S--4C--4H--5C--,5N,1st round control
+1C--3S--4C--4H--5D--,5H,No 1/2/3 round control
+1C--3S--4C--4H--5D--,5S,3rd round control
+1C--3S--4C--4H--5D--,5N,2nd round control
+1C--3S--4C--4H--5D--,6C,1st round control
+1C--3S--4C--4S--,4N,describe the shortness
+1C--3S--4C--4S--,5C,Suit control Ask
+1C--3S--4C--4S--,5D,Suit control Ask
+1C--3S--4C--4S--,5H,Suit control Ask
+1C--3S--4C--4S--4N--,5C,singleton !S
+1C--3S--4C--4S--4N--,5D,void !S
+1C--3S--4C--4S--5C--,5D,No 1/2/3 round control
+1C--3S--4C--4S--5C--,5H,3rd round control
+1C--3S--4C--4S--5C--,5S,2nd round control
+1C--3S--4C--4S--5C--,5N,1st round control
+1C--3S--4C--4S--5D--,5H,No 1/2/3 round control
+1C--3S--4C--4S--5D--,5S,3rd round control
+1C--3S--4C--4S--5D--,5N,2nd round control
+1C--3S--4C--4S--5D--,6C,1st round control
+1C--3S--4C--4S--5H--,5S,No 1/2/3 round control
+1C--3S--4C--4S--5H--,5N,3rd round control
+1C--3S--4C--4S--5H--,6C,2nd round control
+1C--3S--4C--4S--5H--,6D,1st round control
+1C--3S--4C--4N--,5D,Suit control Ask
+1C--3S--4C--4N--,5H,Suit control Ask
+1C--3S--4C--4N--,5S,Suit control Ask
+1C--3S--4C--4N--,5N,describe the shortness
+1C--3S--4C--4N--5D--,5H,No 1/2/3 round control
+1C--3S--4C--4N--5D--,5S,3rd round control
+1C--3S--4C--4N--5D--,5N,2nd round control
+1C--3S--4C--4N--5D--,6C,1st round control
+1C--3S--4C--4N--5H--,5S,No 1/2/3 round control
+1C--3S--4C--4N--5H--,5N,3rd round control
+1C--3S--4C--4N--5H--,6C,2nd round control
+1C--3S--4C--4N--5H--,6D,1st round control
+1C--3S--4C--4N--5S--,5N,NO 1/2/3 round control
+1C--3S--4C--4N--5S--,6C,3rdround control
+1C--3S--4C--4N--5S--,6D,2nd round control
+1C--3S--4C--4N--5S--,6H,1st round control
+1C--3S--4C--4N--5N--,6C,singleton !C
+1C--3S--4C--4N--5N--,6D,void !C
+1C--3S--4D--,4H,!H
+1C--3S--4D--,4S,!S
+1C--3S--4D--,4N,solid !D
+1C--3S--4D--,5C,!C
+1C--3N--,4C,solid Suit known to opener; Ask for control
+1C--3N--,4D,Asks responder to bid his solid Suit
+1C--3N--,4H,To play
+1C--3N--,4S,To play
+1C--3N--4C--,4D,1 outside control
+1C--3N--4C--,4H,2 outside control
+1C--3N--4C--,4S,3 outside control
+1C--3N--4C--,4N,4+ outside controls
+1C--3N--4C--4H--,4N,describe the control
+1C--3N--4C--4H--4N--,5C,2 -K's
+1C--3N--4C--4H--4N--,5D,one A
+1C--3N--4C--4S--,4N,describe the control
+1C--3N--4C--4S--4N--,5C,3 Kings
+1C--3N--4C--4S--4N--,5D,1 ACE and 1 K
+1C--3N--4D--,4H,solid !H
+1C--3N--4D--,4S,solid !S
+1C--3N--4D--,4N,solid !D
+1C--3N--4D--,5C,solid !C
+1C--4C--,4D,solid Suit known to opener; Ask for control
+1C--4C--,4H,Asks responder to bid his solid Suit
+1C--4C--,4S,To play
+1C--4C--4D--,4H,0
+1C--4C--4D--,4S,1
+1C--4C--4D--,4N,2
+1C--4C--4D--,5C,3
+1C--4C--4D--,5D,4+
+1C--4C--4H--,4S,!S
+1C--4C--4H--,5C,!C
+1C--4C--4H--,5D,!D
+1C--4C--4H--,5H,!H
+Option
+1D,--, 
+1D,Dbl, 
+1D,1H, 
+1D,1S, 
+1D,1N, 
+1D,2C, 
+1D--,--,sign-off; 0-5 HCP
+1D--,1H,4+ Hearts; 6+ HCP
+1D--,1S,4+ spades; 6+ HCP
+1D--,1N,No 4cM; 6-10 HCP
+1D--,2C,5+ clubs; 10+ HCP; Forcing; promises another bid
+1D--,2D,4+ diamonds; 10+ HCP; Forcing
+1D--,2H,strong Hearts; 16+ HCP; slam try.
+1D--,2S,strong spades; 16+ HCP; slam try.
+1D--,2N,Balanced; 12-15 HCP or 18-19 HCP; no 4cM
+1D--,3C,strong clubs; 16+ HCP; slam try.
+1D--,3D,strong diamonds; 16+ HCP; slam try.
+1D--,3H,QJ+; 7 Hearts; almost nothing outside
+1D--,3S,QJ+; 7 spades; almost nothing outside
+1D--,3N,Balanced; 16-17 HCP; no 4cM;
+1D--,4C,undefined (!)
+1D--,4D,7+ diamonds; almost nothing outside
+1D--,4H,sign-off
+1D--,4S,sign-off
+1DDbl,1H,5+ Hearts; Forcing
+1DDbl,1S,5+ spades; Forcing
+1DDbl,1N,Balanced; 7-9 HCP
+1DDbl,Rdbl,10+ HCP; no 5cM
+1DDbl,2C,5-6 clubs; <10 HCP
+1DDbl,2D,5-6 diamonds; <10 HCP
+1DDbl,2H,6+ Hearts; 4-7 HCP
+1DDbl,2S,6+ spades; 4-7 HCP
+1DDbl,2N,5 clubs; 5 diamonds; 7-9 HCP
+1DDbl,3C,6-7 clubs; 7-9 HCP
+1DDbl,3D,6-7 diamonds; 7-9 HCP
+1D1H,Dbl,4+ spades; Forcing
+1D1H,1S,5+ spades; Forcing
+1D1S,Dbl,4+ Hearts; Forcing
+1D1S,1N,semi-Balanced; 7-9 HCP; (stopper yes)
+1D1N,Dbl,penalty
+1D1N,2C,4+; Forcing
+1D2C,Dbl,a four-card major; Forcing
+1D2C,2D,4+
+1D2C,2H,5+; Forcing
+1D2C,2S,5+; Forcing
+1D2C,2N,12+ HCP; 1.5 plus+ stoppers; gf
+1D2C,3C,shows Ax or Kxx or Qxx of Hearts
+1D2C,3D,(6+; 5-8 HCP?; diamond raise? (could be 1))
+1D2C,3H,6+; 5-8 HCP
+1D2C,3S,6+; 5-8 HCP
+1D2C,4C,stiff or void
+Option
+1H,--, 
+1H,Dbl, 
+1H,1S, 
+1H,2C, 
+1H,2D, 
+1H--,--,To play
+1H--,1S,5+!; Forcing
+1H--,1N,Forcing if nonpassed; 0-12 HCP
+1H--,2C,non-passed: 5+; lawrence gf
+1H--,2D,non-passed: 5+; lawrence gf
+1H--,2H,7-9HCP
+1H--,2S,To play
+1H--,2N,Balanced; 13-15 HCP
+1H--,3C,4+ to Jack; strong(13+)
+1H--,3D,strong jump shift; 16+ HCP
+1H--,3H,4+; 10-12 HCP
+1H--,3S,splinter; 11-13 HCP
+1H--,3N,4+; strong preempt; stiff; no more than 1 King outside; good trump
+1H--,4C,splinter; 11-13 HCP
+1H--,4D,splinter; 11-13 HCP
+1H--1S--,2S,3
+1H--1S--,3S,46
+1H--1N--,2C,3+
+1H--1N--,2D,3+
+1H--1N--,2H,6+
+1H--1N--,2S,46 in majors Exact
+1H--1N--,2N,6(322); 15-16 HCP
+1H--1N--,3C,5+
+1H--1N--,3D,5+
+1H--1N--,3H,rebid is 6-7; Unbalanced
+1H--1N--,3S,Unbalanced; 56 in major; strong
+1H--1N--,4H,To play
+1H--1N--2C--,2D,To play
+1H--1N--2C--,2H,2+; 0-6 HCP; To play
+1H--1N--2C--,2S,5+; To play
+1H--1N--2C--,2N,max 2!H; semi-Balanced;10-12 HCP
+1H--1N--2C--,3C,5+; 9-10 HCP
+1H--1N--2C--,3D,10 minor cards; 9-10 HCP
+1H--1N--2C--,3H,3!H; semi-Balanced; 10-12 HCP
+1H--1N--2D--,2H,2+; 0-6 HCP; To play
+1H--1N--2D--,2S,5+; To play
+1H--1N--2D--,2N,Max 2!H; semi-Balanced;10-12 HCP
+1H--1N--2D--,3C,5+; 9-10 HCP
+1H--1N--2D--,3D,10 minor cards; 9-10 HCP
+1H--1N--2D--,3H,3!H; semi-Balanced; 10-12 HCP
+1H--1N--2H--,2S,To play; Correction
+1H--1N--2S--,2N,Inv
+1H--1N--2S--,3C,To play
+1H--1N--2S--,3D,To play
+1H--1N--2S--,3H,Inv
+1H--1N--2N--,3C,To play
+1H--1N--2N--,3D,To play
+1H--1N--2N--,3H,To play
+1H--1N--2N--,3S,To play
+1H--1N--2N--,3N,To play
+1H--2H--,2S,help Suit game try
+1H--2H--,2N,game try
+1H--2H--,3C,help-Suit game try
+1H--2H--,3D,help-Suit game try
+1H--2H--,3H,trump Ask?
+1H--2H--,3S,control AsKing bid
+1H--2H--,4C,Control AsKing bid
+1H--2H--,4D,Control AsKing bid
+1H--2H--,4H,To play
+1H--2H--3H--,3S,No top honor
+1H--2H--3H--,3N,1 top honor without J
+1H--2H--3H--,4C,1 top honor with J
+1H--2H--3H--,4D,2 top honor without J
+1H--2H--3H--,4H,2 top honor with J
+1H--2H--3H--,4S,3 Top honor AKQ
+1H--2H--3S--,3N,No first or second round control
+1H--2H--3S--,4C,singleton or K
+1H--2H--3S--,4D,void or Ace
+1H--2H--4C--,4D,No first or second round control
+1H--2H--4C--,4H,singleton or K
+1H--2H--4C--,4S,void or Ace
+1H--2H--4D--,4H,No first or second round control
+1H--2H--4D--,4S,singleton or K
+1H--2H--4D--,4N,void or Ace
+1H--3C--,3D,shows shortness somewhere
+1H--3C--,3H,2 of top three trumps; no shortness
+1H--3C--,3S,A|K; no Q; no shortness
+1H--3C--,3N,No A or K!S; no shortness
+1H--3C--,4C,solid trumps; [Suit-control-Ask]
+1H--3C--,4D,solid trumps; [Suit-control-Ask]
+1H--3C--,4H,(super-solid Suit with no control interest)
+1H--3C--,4S,solid trumps; [Suit-control-Ask]
+1H--3C--3D--,3H,2 of top 3 trumps
+1H--3C--3D--,3S,A|K; no Q
+1H--3C--3D--,3N,No A or K
+1H--3C--3D--3H--,3S,1 of top 3
+1H--3C--3D--3H--,3N,0 of top 3; nothing to cue-bid(except shortness)
+1H--3C--3D--3H--,4C,0 of top 3; cue-bid; slam interest
+1H--3C--3D--3H--,4D,0 of top 3; cue-bid; slam interest
+1H--3C--3D--3H--,4H,0 of top 3; no interest
+1H--3C--3D--3H--,4S,0 of top 3; cue-bid; slam interest
+1H--3C--3D--3H--3S--,3N,shortness Ask
+1H--3C--3D--3H--3S--3N--,4C,!C
+1H--3C--3D--3H--3S--3N--,4D,!D
+1H--3C--3D--3H--3S--3N--,4H,!H
+1H--3C--3D--3H--3N--,4C,shortness Ask
+1H--3C--3D--3H--3N--4C--,4D,!D
+1H--3C--3D--3H--3N--4C--,4H,!H
+1H--3C--3D--3H--3N--4C--,4S,!C short
+1H--3C--3D--3S--,3N,2 of top 3 trumps
+1H--3C--3D--3S--,4C,at most 1 of top 3; cue-bid
+1H--3C--3D--3S--,4D,at most 1 of top 3; cue-bid
+1H--3C--3D--3S--,4H,To play
+1H--3C--3D--3S--,4S,at most 1 of top 3; cue-bid
+1H--3C--3D--3S--3N--,4C,shortness Ask
+1H--3C--3D--3S--3N--4C--,4D,!D
+1H--3C--3D--3S--3N--4C--,4S,!S
+1H--3C--3D--3S--3N--4C--,4N,!C shortage
+1H--3C--3D--3N--,4C,cue-bid; slam interest
+1H--3C--3D--3N--,4D,cue-bid; slam interest
+1H--3C--3D--3N--,4H,To play.
+1H--3C--3D--3N--,4S,cue-bid; slam interest
+1H--3C--3H--,3S,1 of top 3
+1H--3C--3H--,3N,0 of top 3; nothing to cue-bid; slam interest
+1H--3C--3H--,4C,0 of top 3; cue-bid; slam interest
+1H--3C--3H--,4D,0 of top 3; cue-bid; slam interest
+1H--3C--3H--,4H,To play
+1H--3C--3H--,4S,0 of top 3; cue-bid; slam interest
+1H--3C--3S--,3N,2 of top 3
+1H--3C--3S--,4C,1 of top 3; slam interest
+1H--3C--3S--,4D,1 of top 3; slam interest
+1H--3C--3S--,4H,To play
+1H--3C--3S--,4S,1 of top 3 and slam interest
+1H--3C--3N--,4C,cue-bid; slam interest
+1H--3C--3N--,4D,cue-bid; slam interest
+1H--3C--3N--,4H,To play
+1H--3C--3N--,4S,cue-bid; slam interest
+1H--3C--4C--,4D,No first and second round control
+1H--3C--4C--,4H,singleton or K
+1H--3C--4C--,4S,Ace or void
+1H--3C--4D--,4H,No first or second round control
+1H--3C--4D--,4S,singleton or K
+1H--3C--4D--,4N,Ace or void
+1H--3C--4S--,4N,No first second round control
+1H--3C--4S--,5C,singleton or King
+1H--3C--4S--,5D,Ace or void
+1H--3H--,3N,Mathe AsKing bid
+1HDbl,2N,4 trumps !H; and limit raiseJordan
+1H1S,2S,Ax or Kxx in trumps; limit raise or better
+1H1S,3H,4+ trump and limit raise
+1H2C,3C,Ax or Kxx in trumps; limit raise or better
+1H2C,3H,4+ trump and limit raise
+1H2D,3D,Ax or Kxx in trumps; limit raise or better
+1H2D,3H,4+ trump and limit raise
+Option
+1S,--, 
+1S,Dbl, 
+1S,2C, 
+1S,2D, 
+1S,2H, 
+1S--,--,sign-off
+1S--,1N,Forcing if nonpassed; 0-12 HCP
+1S--,2C,5+
+1S--,2D,5+
+1S--,2H,5+
+1S--,2S,3+; 7-9 HCP
+1S--,2N,Balanced; 13-15 HCP
+1S--,3C,4!S atleast J high; strong 13+
+1S--,3D,strong jump shift; 16+ HCP
+1S--,3H,strong jump shift; 16+ HCP
+1S--,3S,4+; 10-12 HCP
+1S--,3N,4+; strong preempt; stiff; no more than 1 King outside; good trump
+1S--,4C,splinter; 11-13 HCP
+1S--,4D,splinter; 11-13 HCP
+1S--,4H,splinter; 11-13 HCP
+1S--,4S,weaker than 3NT
+1S--1N--,2C,3+
+1S--1N--,2D,3+
+1S--1N--,2H,54+ in majors
+1S--1N--,2S,6+
+1S--1N--,2N,6!S (322); 15-16 HCP;
+1S--1N--,3C,5+
+1S--1N--,3D,5+
+1S--1N--,3H,55
+1S--1N--,3S,rebid is 6-7; Unbalanced
+1S--1N--,4S,To play
+1S--1N--2C--,2D,To play
+1S--1N--2C--,2H,To play
+1S--1N--2C--,2S,2+; 0-6 HCP; To play
+1S--1N--2C--,2N,at most 2 of M; semi-Balanced10-12 HCP
+1S--1N--2C--,3C,5+; 9-10 HCP
+1S--1N--2C--,3D,10 minor cards; 9-10 HCP
+1S--1N--2C--,3S,3; semi-Balanced; 10-12 HCP
+1S--1N--2D--,2H,To play
+1S--1N--2D--,2S,2+; 0-6 HCP; To play
+1S--1N--2D--,2N,at most 2 of M; semi-Balanced10-12 HCP
+1S--1N--2D--,3C,5+; 9-10 HCP
+1S--1N--2D--,3D,10 minor cards; 9-10 HCP
+1S--1N--2D--,3S,3; semi-Balanced; 10-12 HCP
+1S--1N--2H--,2S,preference
+1S--1N--2S--,2N,inv
+1S--1N--2S--,3C,To play
+1S--1N--2S--,3D,To play
+1S--1N--2S--,3S,inv
+1S--1N--2N--,3C,To play
+1S--1N--2N--,3D,To play
+1S--1N--2N--,3H,To play
+1S--1N--2N--,3S,To play
+1S--2S--,3C,help Suit game try
+1S--2S--,3D,help Suit game try
+1S--2S--,3H,help Suit game try
+1S--2S--,3S,trump Ask
+1S--2S--3S--,3N,No top honor
+1S--2S--3S--,4C,1 top honor without J
+1S--2S--3S--,4D,1 top honor with J
+1S--2S--3S--,4H,2 top honor with out J
+1S--2S--3S--,4S,2 top honor with J
+1S--2S--3S--,4N,3 Top honor AKQ
+1S--3C--,3D,shows shortness somewhere
+1S--3C--,3H,2 of top three trumps; no shortness
+1S--3C--,3S,A or K; no Q; no shortness
+1S--3C--,3N,No A or K!S; no shortness
+1S--3C--,4C,solid trumps; [Suit-control-Ask]
+1S--3C--,4D,solid trumps; [Suit-control-Ask]
+1S--3C--,4H,solid trumps; [Suit-control-Ask]
+1S--3C--,4S,(super-solid Suit with no control interest)
+1S--3C--3D--,3H,2 of top 3 trumps
+1S--3C--3D--,3S,A or K; no Q
+1S--3C--3D--,3N,No A or K
+1S--3C--3D--3H--,3S,1 of top 3
+1S--3C--3D--3H--,3N,0 of top 3; nothing to cue-bid(except shortness)
+1S--3C--3D--3H--,4C,0 of top 3; cue-bid; slam interest
+1S--3C--3D--3H--,4D,0 of top 3; cue-bid; slam interest
+1S--3C--3D--3H--,4H,0 of top 3; cue-bid; slam interest
+1S--3C--3D--3H--,4S,0 of top 3; no interest
+1S--3C--3D--3H--3S--,3N,shortness Ask
+1S--3C--3D--3H--3S--3N--,4C,!C
+1S--3C--3D--3H--3S--3N--,4D,!D
+1S--3C--3D--3H--3S--3N--,4H,!H
+1S--3C--3D--3H--3N--,4C,shortness Ask
+1S--3C--3D--3H--3N--4C--,4D,!D
+1S--3C--3D--3H--3N--4C--,4H,!H
+1S--3C--3D--3H--3N--4C--,4S,!C short
+1S--3C--3D--3S--,3N,2 of top 3 trumps
+1S--3C--3D--3S--,4C,at most 1 of top 3; cue-bid
+1S--3C--3D--3S--,4D,at most 1 of top 3; cue-bid
+1S--3C--3D--3S--,4H,at most 1 of top 3; cue-bid
+1S--3C--3D--3S--,4S,To play
+1S--3C--3D--3S--3N--,4C,shortness Ask
+1S--3C--3D--3S--3N--4C--,4D,!D
+1S--3C--3D--3S--3N--4C--,4H,!H
+1S--3C--3D--3S--3N--4C--,4S,!C
+1S--3C--3D--3N--,4C,cue-bid; slam interest
+1S--3C--3D--3N--,4D,cue-bid; slam interest
+1S--3C--3D--3N--,4H,cue-bid; slam interest
+1S--3C--3D--3N--,4S,To play
+1S--3C--3H--,3S,1 of top 3
+1S--3C--3H--,3N,0 of top 3; nothing to cue-bid; slam interest
+1S--3C--3H--,4C,0 of top 3; cue-bid; slam interest
+1S--3C--3H--,4D,0 of top 3; cue-bid; slam interest
+1S--3C--3H--,4H,0 of top 3; cue-bid; slam interest
+1S--3C--3H--,4S,To play
+1S--3C--3S--,3N,2 of top 3
+1S--3C--3S--,4C,1 of top 3; slam interest
+1S--3C--3S--,4D,1 of top 3; slam interest
+1S--3C--3S--,4H,1 of top 3; slam interest
+1S--3C--3S--,4S,To play
+1S--3C--3N--,4C,cue-bid; slam interest
+1S--3C--3N--,4D,cue-bid; slam interest
+1S--3C--3N--,4H,cue-bid; slam interest
+1S--3C--3N--,4S,To play
+1SDbl,2N,(4+ trump) and limit
+1S2C,3C,Promises Ax or Kxx or Qxx
+1S2C,3S,limit
+1S2D,3D,Promises Ax or Kxx or Qxx
+1S2D,3S,Limit
+1S2H,3H,Promises Ax or Kxx or Qxx
+1S2H,3S,Limit
+Option
+1N,--, 
+1N--,--,No 5card M or 6card m; 0-7 HCP
+1N--,2C,Forcing stayman
+1N--,2D,[advanced jacoby transfer] 5+ Hearts
+1N--,2H,[advanced jacoby transfer] 5+ spades
+1N--,2S,[minor Suit stayman] relay to 2N; promises (45) in minors
+1N--,2N,to 3!C
+1N--,3C,1444 or4441 with a black card stiff; 9+ HCP
+1N--,3D,4(14)4; 9+ HCP; red card singleton
+1N--,3H,6-7 strong clubs; no 4 card side Suit; slam interest
+1N--,3S,6-7 strong diamonds; no 4 card side Suit; slam interest
+1N--,3N,To play
+1N--,4C,Ask Aces
+1N--,4D,[Texas] 6+; transfer to 4H
+1N--,4H,[Texas] 6+; transfer to 4S
+1N--,4S,xx66; weak Suits
+1N--,4N,4333; 15-16 HCP
+1N--2C--,2D,no 4cd M
+1N--2C--,2H,4+ !H
+1N--2C--,2S,4+ spades; denies 4 Hearts
+1N--2C--2D--,2H,4+
+1N--2C--2D--,2S,4+
+1N--2C--2D--,2N,8-9 HCP; could have no 4cM
+1N--2C--2D--,3C,5+; gf (4+ major may be)
+1N--2C--2D--,3D,5+; gf (4+ major may be)
+1N--2C--2D--,3H,splinter
+1N--2C--2D--,3S,splinter
+1N--2C--2D--,3N,To play
+1N--2C--2D--,4C,splinter
+1N--2C--2H--,2S,4+
+1N--2C--2H--,2N,8-9 HCP; could have no 4cM
+1N--2C--2H--,3C,5+; gf (4+ major may be)
+1N--2C--2H--,3D,5+; gf (4+ major may be)
+1N--2C--2H--,3H,4+
+1N--2C--2H--,3S,splinter
+1N--2C--2H--,3N,To play
+1N--2C--2H--,4C,splinter
+1N--2C--2H--,4D,splinter
+1N--2C--2S--,2N,8-9 HCP; could have no 4cM
+1N--2C--2S--,3C,5+; gf (4+ major may be)
+1N--2C--2S--,3D,5+; gf (4+ major may be)
+1N--2C--2S--,3H,5+; gf (4+ major may be)
+1N--2C--2S--,3S,4+
+1N--2C--2S--,3N,To play
+1N--2C--2S--,4C,splinter
+1N--2C--2S--,4D,splinter
+1N--2C--2S--,4H,splinter
+1N--2C--2S--,4S,To play
+1N--2D--,2H,less than 3 Hearts or 15-16 HCP
+1N--2D--,2S,doubleton !H; 17 HCP
+1N--2D--,2N,3 cd !H and 17 HCP; x3xx
+1N--2D--,3C,doubleton !H; 17 HCP
+1N--2D--,3D,doubleton !H; 17 HCP
+1N--2D--,3H,3433; 17HCP
+1N--2D--2H--,2S,55xx; 4-6 HCP
+1N--2D--2H--,3S,6-7 Hearts; no 4 card side Suit; splinter
+1N--2D--2H--,3N,To play.
+1N--2D--2H--,4C,6-7 Hearts; no 4 card side Suit; splinter
+1N--2D--2H--,4D,6-7 Hearts; no 4 card side Suit; splinter
+1N--2H--,2S,less than 3 spades or 15-16 HCP
+1N--2H--,2N,3xxx; 17 HCP
+1N--2H--,3C,doubleton !S; 17 HCP
+1N--2H--,3D,doubleton !S; 17 HCP
+1N--2H--,3H,doubleton !S; 17 HCP
+1N--2H--,3S,4333; 17 HCP
+1N--2H--2S--,3H,55xx; 10+ HCP; gf
+1N--2H--2S--,3S,6-7 spades; no 4 card side Suit
+1N--2H--2S--,3N,To play.
+1N--2H--2S--,4C,6-7 spades; no 4 card side Suit; splinter
+1N--2H--2S--,4D,6-7 spades; no 4 card side Suit; splinter
+1N--2H--2S--,4H,6-7 spades; no 4 card side Suit; splinter
+1N--2S--,2N,Forced
+1N--2S--2N--,3C,5+5+ minors; 0-9 HCP
+1N--2S--2N--,3D,5+5+ minors; 10+ HCP; Forcing to 4m
+1N--2S--2N--,3H,31(45); 10+ HCP
+1N--2S--2N--,3S,1345); 10+ HCP
+1N--2S--2N--,3N,22(45); 10-13 HCP; both doubletons weak
+1N--2S--2N--3C--,3D,To play
+1N--2N--,3C,Forced
+1N--2N--3C--,--,6+!C; To play
+1N--2N--3C--,3D,6+ D
+1N--2N--3C--,3H,40(54); 8+HCP
+1N--2N--3C--,3S,04(54); 8+HCP
+1N--2N--3C--,3N,22(54); 14-15 HCP; both doubletons weak
+1N--2N--3C--,4C,5+; Balanced; 15-16 HCP
+1N--2N--3C--,4D,5+; Balanced; 15-16 HCP
+1N--3C--,3D,singleton Ask?
+1N--3C--3D--,3H,!S singleton
+1N--3C--3D--,3S,!C singleton
+1N--3C--3D--3H--,3S,control Ask
+1N--3C--3D--3H--3S--,3N,1-2
+1N--3C--3D--3H--3S--,4C,3
+1N--3C--3D--3H--3S--,4D,4
+1N--3C--3D--3H--3S--,4H,5
+1N--3C--3D--3S--,4C,control Ask?
+1N--3C--3D--3S--4C--,4D,1-2
+1N--3C--3D--3S--4C--,4H,3
+1N--3C--3D--3S--4C--,4S,4
+1N--3C--3D--3S--4C--,4N,5
+1N--3D--,3H,singleton Ask
+1N--3D--3H--,3S,diamond stiff
+1N--3D--3H--,3N,heart stiff
+1N--3D--3H--3S--,4D,control-Ask
+1N--3D--3H--3S--4D--,4H,1-2
+1N--3D--3H--3S--4D--,4S,3
+1N--3D--3H--3S--4D--,4N,4
+1N--3D--3H--3S--4D--,5C,5
+1N--3D--3H--3N--,4H,control-Ask
+1N--3D--3H--3N--4H--,4S,1-2
+1N--3D--3H--3N--4H--,4N,3
+1N--3D--3H--3N--4H--,5C,4
+1N--3D--3H--3N--4H--,5D,5
+1N--4D--,4H,Forced
+1N--4D--4H--,4N,Blackwood
+Option
+2C,--, 
+2C,Dbl, 
+2C,2D, 
+2C,2H, 
+2C,2S, 
+2C,2N, 
+2C,3D, 
+2C,3H, 
+2C,3S, 
+2C,4D, 
+2C,4H, 
+2C--,--,To play
+2C--,2D,artificial; Asks for further description
+2C--,2H,5+ (not Forcing); 0-11 HCP
+2C--,2S,5+ (not Forcing); 0-11 HCP
+2C--,2N,Balanced 10-11 or 5cM 12+ HCP; Forcing
+2C--,3C,Probably denies 4cM; invites to game in clubs
+2C--,3D,good Suit; GF
+2C--,3H,good Suit; GF
+2C--,3S,good Suit; GF
+2C--,3N,Balanced; all Suits stopped; 15-16 HCP
+2C--,4C,3-4; sign-off; 0 HCP
+2C--,4D,Modified Roman Redwood
+2C--,4H,To play
+2C--,4S,To play
+2C--,5C,To play
+2C--2D--,2H,4card H or S
+2C--2D--,2S,no 4cd M; 12-14 HCP
+2C--2D--,2N,two outside stoppers; 14-16 HCP
+2C--2D--,3C,6-7; good Suit; one outside stopper; no outside four-card Suit.
+2C--2D--,3D,4-5!D; 6+ clubs; 14-16 HCP
+2C--2D--,3H,1516 distribution
+2C--2D--,3S,5116 distribution
+2C--2D--,3N,No singleton; AKQ clubs; two outside queens+
+2C--2D--,5C,To play
+2C--2D--2H--,2S,which major?
+2C--2D--2H--,2N,no 4cM; 10-11 HCP; invitational
+2C--2D--2H--,3C,9-11HCP
+2C--2D--2H--,3D,12+ HCP
+2C--2D--2H--,3H,12+ HCP
+2C--2D--2H--,3S,12+ HCP
+2C--2D--2H--,3N,To play
+2C--2D--2H--,4C,slam try in clubs
+2C--2D--2H--,4H,To play
+2C--2D--2H--,4S,To play
+2C--2D--2H--,5C,To play
+2C--2D--2H--2S--,2N,4!H
+2C--2D--2H--2S--,3C,4!S
+2C--2D--2H--2S--2N--,3D,slam try
+2C--2D--2H--2S--2N--,3H,Inv
+2C--2D--2H--2S--2N--,3S,Inv
+2C--2D--2H--2S--2N--,3N,To play
+2C--2D--2H--2S--2N--,4H,Signoff 4-6!Hs
+2C--2D--2H--2S--2N--,4S,Signoff 6+!Ss
+2C--2D--2H--2S--3C--,3D,slam try
+2C--2D--2H--2S--3C--,3H,Invitational 6-7!Hs
+2C--2D--2H--2S--3C--,3S,Invitational 5-7!Ss
+2C--2D--2H--2S--3C--,3N,Signoff 
+2C--2D--2H--2S--3C--,4H,Signoff 6+!Hs
+2C--2D--2H--2S--3C--,4S,Signoff 4-6!Ss
+2C--2D--2S--,2N,inv to 3NT
+2C--2D--2S--,3C,To play
+2C--2D--2S--,3D,stopper Ask
+2C--2D--2S--,3H,H
+2C--2D--2S--,3S,S
+2C--2D--2S--,3N,To play
+2C--2D--2S--,4C,3+; slam-try in clubs
+2C--2D--2S--,5C,Signoff 
+2C--2D--2S--3D--,3H,H
+2C--2D--2S--3D--,3S,S
+2C--2D--2S--3D--,3N,D
+2C--2D--2S--3D--,4C,No stopper in any Suit
+2C--2D--2S--3H--,3S,A or void
+2C--2D--2S--3H--,3N,1 or 0 !H
+2C--2D--2S--3H--,4C,7+; bad for No trump
+2C--2D--2S--3H--,4D,A or void
+2C--2D--2S--3H--,4H,2+
+2C--2D--2S--3S--,3N,1 or 0
+2C--2D--2S--3S--,4C,7+; bad for No trump
+2C--2D--2S--3S--,4D,A or void
+2C--2D--2S--3S--,4H,A or void
+2C--2D--2S--3S--,4S,2+
+2C--2D--2N--,3C,invitational to 3N or 5C
+2C--2D--2N--,3D,stopper-Ask ["Diamond stopper-Ask"]
+2C--2D--2N--,3H,6+; Non Forcing
+2C--2D--2N--,3S,6+ non force
+2C--2D--2N--,3N,To play
+2C--2D--2N--,4C,Inv in clubs
+2C--2D--2N--,4D,3 clubs; slam try in clubs
+2C--2D--2N--,5C,To play
+2C--2D--2N--3D--,3H,!H + !D
+2C--2D--2N--3D--,3S,!S + !D
+2C--2D--2N--3D--,3N,!H and !S
+2C--2D--2N--3H--,4C,2+!H; control for slam
+2C--2D--2N--3H--,4D,2+!H; control for slam
+2C--2D--2N--3H--,4H,2+
+2C--2D--2N--3H--,4S,2+!H; Control for slam
+2C--2D--2N--3S--,4C,2+!S; control for slam
+2C--2D--2N--3S--,4D,2+!S; control for slam
+2C--2D--2N--3S--,4H,2+!S; control for slam
+2C--2D--2N--3S--,4S,2+!S
+2C--2D--2N--4D--,4H,cue-bid
+2C--2D--2N--4D--,4S,cue-bid
+2C--2D--2N--4D--,4N,cue-bid for D
+2C--2D--2N--4D--,5C,To play
+2C--2D--3C--,3D,stopper-Ask
+2C--2D--3C--,3H,6+ (nf)
+2C--2D--3C--,3S,6+ Non force
+2C--2D--3C--,3N,Signoff 
+2C--2D--3C--,4C,invite to game
+2C--2D--3C--,4D,3 clubs; slam try in clubs
+2C--2D--3C--,5C,Signoff 
+2C--2D--3C--3D--,3H,H stopper
+2C--2D--3C--3D--,3S,S stopper
+2C--2D--3C--3D--,3N,!D stopper
+2C--2D--3C--3H--,3S,2+; control for slam
+2C--2D--3C--3H--,3N,1 or 0
+2C--2D--3C--3H--,4D,2+; control for slam
+2C--2D--3C--3H--,4H,2+
+2C--2D--3C--3S--,3N,1 or 0
+2C--2D--3C--3S--,4D,2+; control for slam
+2C--2D--3C--3S--,4H,2+ control for slam
+2C--2D--3C--3S--,4S,2+
+2C--2D--3C--4D--,4H,A
+2C--2D--3C--4D--,4S,A
+2C--2D--3C--4D--,4N,A!D
+2C--2D--3C--4D--,5C,Signoff 
+2C--2D--3D--,3H,6+
+2C--2D--3D--,3S,6+
+2C--2D--3D--,3N,To play
+2C--2D--3D--,4C,slam try
+2C--2D--3D--,4D,slam try in minor
+2C--2D--3D--,4H,RKC for D
+2C--2D--3D--,5C,To play
+2C--2D--3D--4H--,4S,0 or 3 in D
+2C--2D--3D--4H--,4N,1 or 4 in !D
+2C--2D--3D--4H--,5C,2 keycards
+2C--2D--3H--,3N,To play
+2C--2D--3H--,4C,inv game in C
+2C--2D--3H--,4D,slam try in H
+2C--2D--3H--,4H,To play
+2C--2D--3H--,4S,RKC for H
+2C--2D--3H--,5C,To play
+2C--2D--3S--,3N,To play
+2C--2D--3S--,4C,Inv game in C
+2C--2D--3S--,4D,slam try in S
+2C--2D--3S--,4H,RKC for S
+2C--2D--3S--,4S,To play
+2C--2D--3S--,5C,To play
+2C--2D--3S--4H--,4S,0 or 3
+2C--2D--3S--4H--,4N,1 or 4
+2C--2D--3S--4H--,5C,2
+2C--2D--3N--,5C,To play
+2C--2H--,--,12-14 HCP; 2-3 in M
+2C--2H--,2S,5
+2C--2H--,2N,unbid Suits stopped; 15-16 HCP
+2C--2H--,3C,preference
+2C--2H--,3D,5
+2C--2H--,3H,3invite to game? 3 card support with 15-16
+2C--2H--,3S,5invite to game? 3 card support with 15-16
+2C--2H--,4H,To play
+2C--2S--,--,12-14 HCP; 2-3 in M
+2C--2S--,2N,unbid Suits stopped; 15-16 HCP
+2C--2S--,3C,preference
+2C--2S--,3D,5
+2C--2S--,3H,5invite to game? 3 card support with 15-16
+2C--2S--,3S,3invite to game? 3 card support with 15-16
+2C--2S--,4S,To play
+2C--2N--,3C,12-14 HCP
+2C--2N--,3D,4-5; 6 clubs; 14-16 HCP
+2C--2N--,3H,3-4; 14-16 HCP
+2C--2N--,3S,3-4; 14-16 HCP
+2C--2N--,3N,no 3 card major or 4 card diamond Suit; 14-16 HCP
+2C--2N--3C--,3H,5; 12+ HCP; Forcing
+2C--2N--3C--3H--,3N,denies 3-card support
+2C--2N--3C--3H--,4H,3
+2C--3C--,3D,4+
+2C--3C--,3H,5
+2C--3C--,3S,5
+2C--3C--,3N,To play
+2C--3C--3H--,4H,3
+2C--3C--3H--,4S,3
+2C--4D--,4H,0 or 3 Aces
+2C--4D--,4S,1 or 4 Aces
+2C--4D--,4N,2 Aces
+2C--4D--,5C,2 Aces with Q!C
+2C--4D--4H--,5D,King Ask?
+2C--4D--4H--5D--,5H,0 or 3 Kings
+2C--4D--4H--5D--,5S,1 or 4 Kings
+2C--4D--4H--5D--,5N,2 Kings
+2C--4D--4S--,5D,King Ask?
+2C--4D--4S--5D--,5H,0 or 3 Kings
+2C--4D--4S--5D--,5S,1 or 4 Kings
+2C--4D--4S--5D--,5N,2 Kings
+2C--4D--4N--,5D,King Ask?
+2C--4D--4N--5D--,5H,0 or 3 Kings
+2C--4D--4N--5D--,5S,1 or 4 Kings
+2C--4D--4N--5D--,5N,2 Kings
+2C--4D--5C--,5D,King Ask?
+2C--4D--5C--5D--,5H,0 or 3 Kings
+2C--4D--5C--5D--,5S,1 or 4 Kings
+2C--4D--5C--5D--,5N,2 Kings
+2CDbl,Rdbl,Ignore competition when appropriate?
+2C2D,Dbl,Negative thru 4!S
+2C2H,Dbl,Negative thru 4!S
+2C2S,Dbl,Negative thru 4!S
+2C2N,Dbl,Negative thru 4!S
+2C3D,Dbl,Negative thru 4!S
+2C3H,Dbl,Negative thru 4!S
+2C3S,Dbl,Negative thru 4!S
+2C4D,Dbl,Negative thru 4!S
+2C4H,Dbl,Negative thru 4!S
+Option
+2D,--, 
+2D,2H, 
+2D,2S, 
+2D--,2H,not strong enough to bid over weak-two in Hearts
+2D--,2S,5+; Forcing
+2D--,2N,Balanced; Forcing
+2D--,3C,5+; game invite values (14+ HCP?); Forcing
+2D--,3D,5+; game invite values (14+ HCP?); Forcing
+2D--,3H,3; preemptive
+2D--,4H,To play if weak-two
+2D--2H--,--,weak-two in Hearts
+2D--2H--,2S,major stiff; 16-19 HCP
+2D--2H--,2N,4441; 16-19 HCP
+2D--2H--,3C,4414; 16-19 HCP
+2D--2H--,3D,4144; 20-24 HCP
+2D--2H--,3H,1444; 20-24 HCP
+2D--2H--,3S,4441; 20-24 HCP
+2D--2H--,3N,Balanced duck
+2D--2H--2S--,2N,AsKing bid
+2D--2H--2S--2N--,3C,4144
+2D--2H--2S--2N--,3D,1444; 16-17 HCP
+2D--2H--2S--2N--,3H,1444; 18-19 HCP
+2D--2H--2S--2N--3C--,3H,strength Ask
+2D--2H--2S--2N--3C--3H--,3S,16-17 HCP
+2D--2H--2S--2N--3C--3H--,3N,18-19 HCP
+2D--2H--2S--2N--3C--3H--3N--,4H,[4-control Ask]
+2D--2H--2S--2N--3D--,3S,4-control Ask
+2D--2H--2S--2N--3H--,3S,[4-control Ask]
+2D--2H--2N--,3C,strength Ask
+2D--2H--2N--3C--,3D,16-17 HCP
+2D--2H--2N--3C--,3H,18-19 HCP
+2D--2H--2N--3C--3H--,4C,[4-control Ask]
+2D--2H--3C--,3D,strength Ask
+2D--2H--3C--3D--,3H,16-17 HCP
+2D--2H--3C--3D--,3S,18-19 HCP
+2D--2H--3D--,3H,[6-control Ask]
+2D--2H--3H--,3S,[6-control Ask]
+2D--2H--3S--,4C,[6-control Ask]
+2D--2H2S,Dbl,opener has 4441 and 4 in the Suit overcalled
+2D--2H2S,2N,opener has 4441 and 1 in the Suit overcalled
+2D--2H3C,Dbl,opener has 4441 and 4 in the Suit overcalled
+2D--2H3C,3D,opener has 4441 and 1 in the Suit overcalled
+2D--2H3D,Dbl,opener has 4441 and 4 in the Suit overcalled
+2D--2H3D,3H,opener has 4441 and 1 in the Suit overcalled
+2D--2S--,2N,(4441); 16-19 HCP
+2D--2S--,3C,3-4; honor; 6+ Hearts; 9-12 HCP
+2D--2S--,3D,3-4; honor; 6+ Hearts; 9-12 HCP
+2D--2S--,3H,6+; 6-9 HCP
+2D--2S--,3S,A/K/Q-doubleton or three; 6+ Hearts
+2D--2S--,3N,4441; 20-24 HCP
+2D--2S--,4C,4414; 20-24 HCP
+2D--2S--,4D,4144; 20-24 HCP
+2D--2S--,4H,1444; 20-24 HCP
+2D--2S--2N--,3C,singleton-Ask
+2D--2S--2N--3C--,3D,heart stiff
+2D--2S--2N--3C--,3H,spade stiff
+2D--2S--2N--3C--,3S,club stiff
+2D--2S--2N--3C--,4C,diamond stiff
+2D--2S--3C--,3D,GF
+2D--2S--3C--,3H,To play.
+2D--2S--3C--,3S,To play.
+2D--2S--3C--,4C,Forcing to game 
+2D--2S--3C--,4D,Forcing to game 
+2D--2S--3C--,4H,Signoff 
+2D--2S--4H--,4S,To play
+2D--2S--4H--,4N,6-control Ask
+2D--2N--,3C,6+ Hearts; 2/top 3; 3/top 5 (good Suit)
+2D--2N--,3D,6+ Hearts; maximum
+2D--2N--,3H,6+ Hearts; minimum
+2D--2N--,3S,4441; 16-24 HCP
+2D--2N--,3N,6+ Hearts; AKQ of Hearts
+2D--2N--,4C,4414; 16-24 HCP
+2D--2N--,4D,4144; 16-24 HCP
+2D--2N--,4H,1444; 16-24 HCP
+2D--2N--3C--,3D,GF
+2D--2N--3C--,3H,To play
+2D--2N--3C--,3S,GF
+2D--3C--,3D,feature in diamonds; maximum weak two
+2D--3C--,3H,6+; minimum weak two
+2D--3C--,3S,feature in spades; maximum weak two; gf
+2D--3C--,3N,6+ Hearts; maximum weak two; at least Qx in pointed Suits
+2D--3C--,4C,3+; 6+ Hearts
+2D--3C--,4D,4144; 16-24 HCP
+2D--3C--,4H,1444; 16-24 HCP
+2D--3C--,4S,4414; 16-24 HCP
+2D--3C--,4N,4441; 16-24 HCP
+2D--3C--3D--,4C,Signoff 6+!Cs
+2D--3C--3D--,4D,Forcing to game 5+!Ds
+2D--3C--3D--,4H,Signoff 5+!Hs
+2D--3C--3D--,4S,Signoff 5+!Ss
+2D--3H--,3S,4441; 16-24 HCP
+2D--3H--,3N,4144; 16-24 HCP
+2D--3H--,4C,4414; 16-24 HCP
+2D--3H--,4D,1444; 16-24 HCP
+2D--3H--,4N,Balanced
+2D--4H--,4S,4441; 16-24 HCP
+2D--4H--,4N,4144; 16-24 HCP
+2D--4H--,5C,4414; 16-24 HCP
+2D--4H--,5D,1444; 16-24 HCP
+2D2H,Dbl,penalty
+2D2S,Dbl,penalty
+Option
+2H,--, 
+2H--,--,To play
+2H--,2S,To play
+2H--,2N,Distribution Ask?
+2H--,3C,good 6+; game invite in NT or clubs
+2H--,3D,6+(3 of top 4); game invite in NT or diamonds
+2H--,3H,trump strength-based invite in Hearts
+2H--,3S,trump strength-based invite in spades
+2H--,3N,To play
+2H--,4H,To play.
+2H--,4S,To play
+2H--2N--,3C,4414 or 4405
+2H--2N--,3D,4531 (three diamonds)
+2H--2N--,3H,4522; 12-13 HCP
+2H--2N--,3S,4513
+2H--2N--,3N,4522; 14-16 HCP
+2H--2N--,4C,4504
+2H--2N--,4D,4540
+2H--2N--3C--,3D,further-Ask details
+2H--2N--3C--3D--,3H,4414; 12-13 HCP
+2H--2N--3C--3D--,3S,4405; 12-13 HCP
+2H--2N--3C--3D--,3N,4414; 14-16 HCP; stiff top honor
+2H--2N--3C--3D--,4C,4414; 14-16 HCP; no stiff top honor
+2H--2N--3C--3D--,4D,4405; 14-16 HCP
+2H--2N--3D--,3H,Signoff 4-5!Hs
+2H--2N--3D--,3S,Signoff 4-5!Ss
+2H--2N--3D--,3N,Signoff 
+2H--2N--3D--,4C,general slam try
+2H--2N--3D--,4D,slam try in !D
+2H--2N--3D--,4H,To play
+2H--2N--3H--,3S,Signoff 4-5!Ss
+2H--2N--3H--,3N,Signoff 
+2H--2N--3H--,4H,To play.
+2H--2N--3S--,3N,To play
+2H--2N--3S--,4C,slam try in !C
+2H--2N--3S--,4D,general slam try
+2H--2N--4C--,4D,general slam try
+2H--2N--4C--,4H,To play
+2H--2N--4C--,5C,slam try in !C
+2H--2N--4D--,4H,To play
+2H--2N--4D--,5C,general slam try
+2H--2N--4D--,5D,slam try in !D
+Option
+2S,--, 
+2S--,--,Sign off
+2S--,2N,general Ask?
+2S--,3C,5+; game invite values (14+ HCP?); Forcing
+2S--,3D,5+; game invite values (14+ HCP?); Forcing
+2S--,3H,5+; game invite values (14+ HCP?); Forcing
+2S--,3S,To play
+2S--,3N,To play
+2S--,4C,[Suit-control-Ask]
+2S--,4D,[Suit-control-Ask]
+2S--,4H,[Suit-control-Ask]
+2S--,4S,To play
+2S--2N--,3C,6 spades; 2/top 3; 3/top 5 (good Suit)
+2S--2N--,3D,6and any 332; max
+2S--2N--,3H,6and any(331) or 6and any(421); maximum
+2S--2N--,3S,To play and minimum
+2S--2N--,3N,AKQxxx in !S
+2S--2N--,4C,6xx4; one of top 3 clubs;9+ (S and C) HCP
+2S--2N--,4D,6xx4; one of top 3 diamonds;9+ (S+D) HCP
+2S--2N--3C--,3D,GF
+2S--2N--3C--,3H,GF
+2S--2N--3C--,3S,To play
+2S--3D--,3H,control; maximum
+2S--3D--,3S,no fit and min
+2S--3D--,3N,high honor in both unbid Suits
+2S--3D--,4C,control; maximum
+2S--3D--,4D,A/K/Q doubleton or three in !D
+Option
+2N,--, 
+2N--,--,no 5cM; 0-1 HCP; yarborough
+2N--,3C,[stayman] (puppet this!); Forcing
+2N--,3D,5 Hearts; 0-16 HCP; Forcing
+2N--,3H,5 spades; 0-16 HCP; Forcing
+2N--,3S,[minor-Suit stayman]
+2N--,3N,To play
+2N--,4C,slam interest in a minor(6+); 5+ HCP
+2N--,4D,modified roman redwood
+2N--,4H,slam try
+2N--,4S,slam try
+2N--,4N,Balanced slam try; 8 HCP
+2N--3C--,3D,no 4cd Major
+2N--3C--,3H,4 Hearts
+2N--3C--,3S,4 spades
+2N--3C--3D--,3H,5 spades; 4 Hearts
+2N--3C--3D--,3S,4 spades; 5 Hearts
+2N--3C--3D--,4N,Balanced; 8 HCP
+2N--3C--3H--,3S,slam try in major
+2N--3C--3H--,4N,Balanced; 8 HCP
+2N--3C--3S--,4H,slam try in major
+2N--3C--3S--,4N,Balanced; 8 HCP
+2N--3D--,3H,default
+2N--3D--,3S,4 Hearts; Ace of spades
+2N--3D--,4C,4 Hearts; Ace of m
+2N--3D--,4D,4 Hearts; Ace of m
+2N--3D--,4H,4; lots of Aces and Kings
+2N--3H--,3S,default
+2N--3H--,4C,4 spade; A!C
+2N--3H--,4D,4 spade; A!D
+2N--3H--,4H,4 spade; A!H
+2N--3H--,4S,4; lots of Aces and Kings
+2N--3S--,3N,not interested in minor Suits; To play
+2N--3S--,4C,good minor
+2N--3S--,4D,good minor
+2N--3S--3N--,4C,strong minor
+2N--3S--3N--,4D,strong minor
+2N--3S--3N--,4H,singleton or void in M
+2N--3S--3N--,4S,singleton or void in M
+2N--4C--,4D,no slam interest
+2N--4C--,4H,slam interest in clubs
+2N--4C--,4S,slam interest in diamonds
+2N--4C--,4N,slam interest in both
+2N--4D--,4H,0 or 3 Aces
+2N--4D--,4S,1 or 4 Aces
+2N--4D--,4N,2 Aces.
+Option
+3C,--, 
+3C--,3D,which Suit?
+3C--,3H,7+; GF
+3C--,3S,7+; GF
+3C--3D--,3H,!H
+3C--3D--,3S,!S
+3C--3D--3H--,3S,Control Ask
+3C--3D--3H--,4H,To play.
+3C--3H--,3S,own Suit; No support
+3C--3H--,4C,own Suit; No support
+3C--3H--,4D,own Suit; No support
+3C--3H--,4H,2+
+3C--3S--,4C,own Suit; No support
+3C--3S--,4D,own Suit; No support
+3C--3S--,4H,own Suit; No support
+3C--3S--,4S,2+
+Option
+3D,--, 
+3D--,3H,Natural
+3D--,3S,Natural
+3D--,3N,To play
+3D--,4C,Trump Ask
+3D--,4D,To play
+3D--,5D,To play
+3D--4C--,4D,No A/K
+3D--4C--,4H,4H: A/K sixth -NV4H: A/K seventh-V
+3D--4C--,4S,4S: A/K seventh- NV4S: Two of top three seventh- V
+3D--4C--,4N,Two of top three sixth
+3D--4C--,5C,Two of top three seventh
+3D--4C--4D--,4H,Suit control Ask
+3D--4C--4D--,4S,Suit control Ask
+3D--4C--4D--,5C,Suit control Ask
+3D--4C--4D--4H--,4S,No A/K/Q
+3D--4C--4D--4H--,4N,3rd round control
+3D--4C--4D--4H--,5C,2nd round control
+3D--4C--4D--4H--,5D,1st round control
+3D--4C--4D--4S--,4N,No A/K/Q
+3D--4C--4D--4S--,5C,3rd round control
+3D--4C--4D--4S--,5D,2nd round control
+3D--4C--4D--4S--,5H,1st round control
+3D--4C--4D--5C--,5D,No A/K/Q
+3D--4C--4D--5C--,5H,3rd round control
+3D--4C--4D--5C--,5S,2nd round control
+3D--4C--4D--5C--,5N,1st round control
+3D--4C--4H--,4S,Suit control Ask
+3D--4C--4H--,5C,Suit control Ask
+3D--4C--4H--,5H,Suit control Ask
+3D--4C--4H--4S--,4N,No A/K/Q
+3D--4C--4H--4S--,5C,3rd round control
+3D--4C--4H--4S--,5D,2nd round control
+3D--4C--4H--4S--,5H,1st round control
+3D--4C--4H--5C--,5D,No A/K/Q
+3D--4C--4H--5C--,5H,3rd round control
+3D--4C--4H--5C--,5S,2nd round control
+3D--4C--4H--5C--,5N,1st round control
+3D--4C--4H--5H--,5S,No A/K/Q
+3D--4C--4H--5H--,5N,3rd round control
+3D--4C--4H--5H--,6C,2nd round control
+3D--4C--4H--5H--,6D,1st round control
+3D--4C--4S--,5C,Suit control Ask
+3D--4C--4S--,5H,Suit control Ask
+3D--4C--4S--,5S,Suit control Ask
+3D--4C--4S--5C--,5D,No A/K/Q
+3D--4C--4S--5C--,5H,3rd round control
+3D--4C--4S--5C--,5S,2nd round control
+3D--4C--4S--5C--,5N,1st round control
+3D--4C--4S--5H--,5S,No A/K/Q
+3D--4C--4S--5H--,5N,3rd round control
+3D--4C--4S--5H--,6C,2nd round control
+3D--4C--4S--5H--,6D,1st round control
+3D--4C--4S--5S--,5N,No A/K/Q
+3D--4C--4S--5S--,6C,3rd round control
+3D--4C--4S--5S--,6D,2nd round control
+3D--4C--4S--5S--,6H,1st round control
+Option
+3H,--, 
+3H--,3S,Natural
+3H--,3N,To play
+3H--,4C,Trump Ask
+3H--,4D,To play
+3H--,5D,To play
+3H--4C--,4D,No A/K
+3H--4C--,4H,4H: A/K sixth -NV4H: A/K seventh-V
+3H--4C--,4S,4S: A/K seventh- NV4S: Two of top three seventh- V
+3H--4C--,4N,Two of top three sixth
+3H--4C--,5C,Two of top three seventh
+3H--4C--4D--,4H,Suit control Ask
+3H--4C--4D--,4S,Suit control Ask
+3H--4C--4D--,5C,Suit control Ask
+3H--4C--4D--4H--,4S,No A/K/Q
+3H--4C--4D--4H--,4N,3rd round control
+3H--4C--4D--4H--,5C,2nd round control
+3H--4C--4D--4H--,5D,1st round control
+3H--4C--4D--4S--,4N,No A/K/Q
+3H--4C--4D--4S--,5C,3rd round control
+3H--4C--4D--4S--,5D,2nd round control
+3H--4C--4D--4S--,5H,1st round control
+3H--4C--4D--5C--,5D,No A/K/Q
+3H--4C--4D--5C--,5H,3rd round control
+3H--4C--4D--5C--,5S,2nd round control
+3H--4C--4D--5C--,5N,1st round control
+3H--4C--4H--,4S,Suit control Ask
+3H--4C--4H--,5C,Suit control Ask
+3H--4C--4H--,5H,Suit control Ask
+3H--4C--4H--4S--,4N,No A/K/Q
+3H--4C--4H--4S--,5C,3rd round control
+3H--4C--4H--4S--,5D,2nd round control
+3H--4C--4H--4S--,5H,1st round control
+3H--4C--4H--5C--,5D,No A/K/Q
+3H--4C--4H--5C--,5H,3rd round control
+3H--4C--4H--5C--,5S,2nd round control
+3H--4C--4H--5C--,5N,1st round control
+3H--4C--4H--5H--,5S,No A/K/Q
+3H--4C--4H--5H--,5N,3rd round control
+3H--4C--4H--5H--,6C,2nd round control
+3H--4C--4H--5H--,6D,1st round control
+3H--4C--4S--,5C,Suit control Ask
+3H--4C--4S--,5H,Suit control Ask
+3H--4C--4S--,5S,Suit control Ask
+3H--4C--4S--5C--,5D,No A/K/Q
+3H--4C--4S--5C--,5H,3rd round control
+3H--4C--4S--5C--,5S,2nd round control
+3H--4C--4S--5C--,5N,1st round control
+3H--4C--4S--5H--,5S,No A/K/Q
+3H--4C--4S--5H--,5N,3rd round control
+3H--4C--4S--5H--,6C,2nd round control
+3H--4C--4S--5H--,6D,1st round control
+3H--4C--4S--5S--,5N,No A/K/Q
+3H--4C--4S--5S--,6C,3rd round control
+3H--4C--4S--5S--,6D,2nd round control
+3H--4C--4S--5S--,6H,1st round control
+Option
+3S,--, 
+3S--,3N,To play
+3S--,4C,Trump Ask
+3S--,4D,To play
+3S--,5D,To play
+3S--4C--,4D,No A/K
+3S--4C--,4H,4H: A/K sixth -NV4H: A/K seventh-V
+3S--4C--,4S,4S: A/K seventh- NV4S: Two of top three seventh- V
+3S--4C--,4N,Two of top three sixth
+3S--4C--,5C,Two of top three seventh
+3S--4C--4D--,4H,Suit control Ask
+3S--4C--4D--,4S,Suit control Ask
+3S--4C--4D--,5C,Suit control Ask
+3S--4C--4D--4H--,4S,No A/K/Q
+3S--4C--4D--4H--,4N,3rd round control
+3S--4C--4D--4H--,5C,2nd round control
+3S--4C--4D--4H--,5D,1st round control
+3S--4C--4D--4S--,4N,No A/K/Q
+3S--4C--4D--4S--,5C,3rd round control
+3S--4C--4D--4S--,5D,2nd round control
+3S--4C--4D--4S--,5H,1st round control
+3S--4C--4D--5C--,5D,No A/K/Q
+3S--4C--4D--5C--,5H,3rd round control
+3S--4C--4D--5C--,5S,2nd round control
+3S--4C--4D--5C--,5N,1st round control
+3S--4C--4H--,4S,Suit control Ask
+3S--4C--4H--,5C,Suit control Ask
+3S--4C--4H--,5H,Suit control Ask
+3S--4C--4H--4S--,4N,No A/K/Q
+3S--4C--4H--4S--,5C,3rd round control
+3S--4C--4H--4S--,5D,2nd round control
+3S--4C--4H--4S--,5H,1st round control
+3S--4C--4H--5C--,5D,No A/K/Q
+3S--4C--4H--5C--,5H,3rd round control
+3S--4C--4H--5C--,5S,2nd round control
+3S--4C--4H--5C--,5N,1st round control
+3S--4C--4H--5H--,5S,No A/K/Q
+3S--4C--4H--5H--,5N,3rd round control
+3S--4C--4H--5H--,6C,2nd round control
+3S--4C--4H--5H--,6D,1st round control
+3S--4C--4S--,5C,Suit control Ask
+3S--4C--4S--,5H,Suit control Ask
+3S--4C--4S--,5S,Suit control Ask
+3S--4C--4S--5C--,5D,No A/K/Q
+3S--4C--4S--5C--,5H,3rd round control
+3S--4C--4S--5C--,5S,2nd round control
+3S--4C--4S--5C--,5N,1st round control
+3S--4C--4S--5H--,5S,No A/K/Q
+3S--4C--4S--5H--,5N,3rd round control
+3S--4C--4S--5H--,6C,2nd round control
+3S--4C--4S--5H--,6D,1st round control
+3S--4C--4S--5S--,5N,No A/K/Q
+3S--4C--4S--5S--,6C,3rd round control
+3S--4C--4S--5S--,6D,2nd round control
+3S--4C--4S--5S--,6H,1st round control
+Option
+3N,--, 
+3N--,4C,To play four of opener's minor
+3N--,4D,To play four diamonds or five clubs
+3N--,4H,To play
+3N--,4S,To play
+3N--,4N,[small slam force]
+3N--,5C,To play five of opener's minor
+3N--,5D,To play
+3N--,5N,[grand slam force]
+3N--4N--,5C,at most 1 top trump honor
+3N--4N--,5D,at most 1 top trump honor
+3N--4N--,5N,2 top honors in 8 card club Suit
+3N--4N--,6C,2 top honors in 8 card diamond Suit
+3N--5N--,6C,at most 1 top trump honor
+3N--5N--,6D,at most 1 top trump honor
+3N--5N--,7C,2 top trump honors
+3N--5N--,7D,2 top trump honors
+Option
+4C,--, 
+4C--,4D,quick-loser Ask
+4C--,4H,To play
+4C--,4N,blackwood
+4C--4D--,4H,no 2-loser Suit; non-solid trumps
+4C--4D--,4S,two losers in spades
+4C--4D--,4N,no 2-loser Suit; solid trumps
+4C--4D--,5C,two losers in clubs
+4C--4D--,5D,two losers in diamonds
+Option
+4D,--, 
+4D--,4H,quick-loser Ask
+4D--,4S,To play
+4D--,4N,Blackwood
+4D--4H--,4S,no 2-loser Suit; non-solid trumps
+4D--4H--,4N,no 2-loser Suit; solid trumps
+4D--4H--,5C,two losers in clubs
+4D--4H--,5D,two losers in diamonds
+4D--4H--,5H,two losers in Hearts
+Option
+4H,--, 
+4H--,4S,To play.
+4H--,4N,Blackwood
+4H--,5C,To play.
+4H--,5D,To play.
+4H--,5H,trump-Ask
+4H--5H--,6H,can play trumps for 1 loser opposite xx
+Option
+4S,--, 
+4S--,4N,Blackwood
+4S--,5C,To play.
+4S--,5D,To play
+4S--,5H,To play.
+4S--,5S,trump-Ask
+4S--5S--,6S,can play trumps for 1 loser opposite xx
+Option
+4N,--, 
+4N--,5C,0 Ace
+4N--,5D,A!D
+4N--,5H,A!H
+4N--,5S,A!S
+4N--,5N,2 Aces
+4N--,6C,A!C
+
