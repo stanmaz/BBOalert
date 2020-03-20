@@ -1,0 +1,1993 @@
+BBOalert
+Option
+,1C,See chat message#16+ HCP Artificial & forcing with Transfer Responses: 17+ Balanced.
+,1D,See chat message#10-15 HCP 4+!D. Canape If 5+- 4 Distribution; May be 3!D (NT); Rarely 2!D cards (3325).
+,1H,See chat message#10-15 HCP 4+!H; Canape.If new suit bid at two or three Level.
+,1S,See chat message#10-15 HCP 4+!S; Canape.If new suit bid at two or three Level.
+,1N,See chat message#V; 14-16; HCP; Balanced:No good 5 card major or 6 card minor
+,1N,See chat message#NV; 11-13 HCP; Balanced:No good 5 card major or 6 card minor
+,2C,10-15 HCP;6!C and (No 4 card Major)
+,2D,See chat message#10-15 HCP; 6!D+(0-2)!S+(0-2)!H(No 3 card Major)
+,2H,See chat message#11-15 HCP 5-cards:5!H332 / 5!H+22+4!CAk/KQ/AQ/AJT in !H.
+,2S,See chat message#11-15 HCP 5-cards: 5!S332 / 5!S224!CAK/KQ/AQ/AJT in !S.
+,2N,See chat message#6-12 HCP; Unusual: 5/5 !C+!D& Unbalanced.
+,3C,See chat message#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3D,See chat message#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3H,See chat message#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3S,See chat message#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,4C,Transfer to 4!H.
+,4D,Transfer to 4!S.
+,4H,Natural.
+,4S,Natural.
+Option
+1C,--, 
+1C,Dbl, 
+1C,1H, 
+1C,1S, 
+1C,2C, 
+1C,2D, 
+1C,2H, 
+1C--,1D,0-7 HCP Negative: 8 HCP Must Include A OR K; 7 HCP Positive = AX + KXXXX; Negative = QJ + QJ + QJ
+1C--,1H,4+!S; 8+ HCP Transfer. GF[Unbalanced hand OR 5-4 OR 6+!S.; May have 4+!H. If both Majors]Not 5!S332 distribution.
+1C--,1S,4+!H; 8+ HCP Positive Transfer:Game Forcing.
+1C--,1N,11-14 HCP Positive: Balanced.11-14 HCP or 15+ HCP.
+1C--,2C,8+ HCP Positive: One or Both minors (NO 4M); Not 5332.
+1C--,2D,8-10 HCP Positive: Balanced
+1C--,2H,8+ HCP Positive: Exactly 5!H332:
+1C--,2S,8+ HCP Positive: Exactly 5!S332:
+1C--,2N,15+ HCP Positive: Balanced; Maybe 5-Card minor
+1C--,3C,8+ HCP Unusual Positive:4414/4441
+1C--,3D,8+ HCP Unusual Positive: 4=1!H=4=4
+1C--,3H,8+ HCP Unusual Positive: 1!S=4=4=4
+1C--,3S,9 HCP Positive:AKQXXXX in !C or !D
+1C--,3N,9+ HCP Positive: AKQXXXX in any solid suit; May have outside controls.
+1C--,4C,Transfer to 4!H.5-7 HCP Semi- Positive:8-CARD SUIT: NO OUTSIDE A/K
+1C--,4D,Transfer to 4!S.5-7 HCP Semi- Positive:8-CARD SUIT: NO OUTSIDE A/K
+1C--1D--,1H,Forcing 1 round. 4+!H
+1C--1D--,1S,Forcing 1 round. 4+!S
+1C--1D--,1N,17-20 HCP; 17+ HCP; & balanced to keep bidding low.
+1C--1D--,2C,5+ CARDS & DENIES A 4 M = QXXX+
+1C--1D--,2D,5+ CARDS & DENIES A 4M = QXXX+
+1C--1D--,2H,Super Flannery: 4!S&5!H or 4!S& 6!H.
+1C--1D--,2S,Forcing 0-3!Ss
+1C--1D--,2N,22-23 HCP;
+1C--1D--,3C,Forcing 1 round. Showing 6m + 4M
+1C--1D--,3D,Forcing 1 round. Showing 6m + 4M
+1C--1D--,3H,9 tricks exactly.
+1C--1D--,3S,9 tricks exactly.
+1C--1D--1H--,--,Do Not Pass; Must bid.
+1C--1D--1H--,1S,0-4 HCP Dble Neg. [No Ace]
+1C--1D--1H--,1N,5-7 HCP. 5+!S.
+1C--1D--1H--,2C,0-4 HCP.
+1C--1D--1H--,2D,0-4 HCP.
+1C--1D--1H--,2H,3-5 HCP. !H Raise: xxxx / Hxx
+1C--1D--1H--,2S,mini splinter
+1C--1D--1H--,2N,5-7 HCP Fit Jump: !Hxxxx + !SQJxxx
+1C--1D--1H--,3C,5-7 HCP Fit Jump: !Hxxxx + !CQJxxx
+1C--1D--1H--,3D,5-7 HCP Fit Jump: !Hxxxx + !DQJxxx
+1C--1D--1H--,3H,5-7 HCP Fit Jump:!HHonorxxx + balanced.
+1C--1D--1H--,3S,6-7 HCP. Maxi- splinter
+1C--1D--1H--,3N,6-7 HCP. !SVoid & 5!H.
+1C--1D--1H--,4C,6-7 HCP. !CVoid & 5!H.
+1C--1D--1H--,4D,6-7 HCP. !DVoid & 5!H.
+1C--1D--1H--,4H,0-5 HCP. 5!H.Any singleton(No A or K).
+1C--1D--1H--1S--,1N,20-21 HCP
+1C--1D--1H--2S--,2N,which suit?
+1C--1D--1H--2S--2N--,3C,!C
+1C--1D--1H--2S--2N--,3D,!D
+1C--1D--1H--2S--2N--,3S,!S
+1C--1D--1H--3S--,3N,which suit?
+1C--1D--1H--3S--3N--,4C,!C
+1C--1D--1H--3S--3N--,4D,!D
+1C--1D--1H--3S--3N--,4S,!S
+1C--1D--1S--,--,May be passed if 0-4 HCP.
+1C--1D--1S--,1N,5-7 HCP
+1C--1D--1S--,2C,0-4 HCP. 5+!C
+1C--1D--1S--,2D,0-4 HCP. 5+!D
+1C--1D--1S--,2H,0-4 HCP; 5+!H.
+1C--1D--1S--,2S,!S Raise; xxxx or Honorxx
+1C--1D--1S--,2N,3-5 HCP. mini splinter
+1C--1D--1S--,3C,5-7 HCP Fit Jump: !Sxxxx + !CQJxxx
+1C--1D--1S--,3D,5-7 HCP Fit Jump: !Sxxxx + !DQJxxx
+1C--1D--1S--,3H,5-7 HCP Fit Jump: !Sxxxx + !HQJxxx
+1C--1D--1S--,3S,5-7 HCP Fit Jump:!SHonorxxx + balanced.
+1C--1D--1S--,3N,3-5 HCP. maxi splinter
+1C--1D--1S--,4C,6-7 HCP. !CVoid & 5!S.
+1C--1D--1S--,4D,6-7 HCP. !DVoid & 5!S.
+1C--1D--1S--,4H,6-7 HCP. !HVoid & 5!S.
+1C--1D--1S--,4S,0-5 HCP. 5+!S andsingleton( no A or K)
+1C--1D--1S--2S--,2N,which suit?
+1C--1D--1S--2S--2N--,3C,!C
+1C--1D--1S--2S--2N--,3D,!D
+1C--1D--1S--2S--2N--,3S,!S
+1C--1D--1S--2N--,3C,which suit?
+1C--1D--1S--2N--3C--,3D,!D
+1C--1D--1S--2N--3C--,3H,!H
+1C--1D--1S--2N--3C--,3N,0-1!C
+1C--1D--1S--3S--,3N,which suit?
+1C--1D--1S--3S--3N--,4C,!C
+1C--1D--1S--3S--3N--,4D,!D
+1C--1D--1S--3S--3N--,4S,!S
+1C--1D--1S--3N--,4C,which suit?
+1C--1D--1S--3N--4C--,4D,!D
+1C--1D--1S--3N--4C--,4H,!H
+1C--1D--1S--3N--4C--,5C,!C
+1C--1D--2C--,--,0-4 HCP ---- No suit worth showing; no support; no Ace ----
+1C--1D--2C--,2D,5-7 HCP !D: QJxxx+
+1C--1D--2C--,2H,5-7 HCP !H: QJxxx+
+1C--1D--2C--,2S,5-7 HCP !S: QJxxx+
+1C--1D--2C--,2N,5-7 HCP Good raise; HonorXX(X)
+1C--1D--2C--,3C,0-4 HCP !C: xxx+ Raise
+1C--1D--2C--,3D,5-7 HCP !D: AQxxxx / KQxxxx
+1C--1D--2C--,3H,5-7 HCP !H: AQxxxx or KQxxxx
+1C--1D--2C--,3S,5-7 HCP !S: AQxxxx or KQxxxx
+1C--1D--2C--,3N,To Play.
+1C--1D--2C--,4C,6-7 HCP !C: Qxxx Raise
+1C--1D--2D--,--,0-4 HCP ---- No suit worth showing; no support; no Ace ----
+1C--1D--2D--,2H,5-7 HCP !H: QJxxx+
+1C--1D--2D--,2S,5-7 HCP !S: QJxxx+
+1C--1D--2D--,2N,5-7 HCP Good raise; HonorXX(X)
+1C--1D--2D--,3C,5-7 HCP !C: QJxxxx+
+1C--1D--2D--,3D,0-4 HCP !D: xxx+ Raise
+1C--1D--2D--,3H,5-7 HCP !H: AQxxxx or KQxxxx
+1C--1D--2D--,3S,5-7 HCP !S: AQxxxx or KQxxxx
+1C--1D--2D--,3N,To Play.
+1C--1D--2D--,4C,Constructive 4-5!Cs
+1C--1D--2D--,4D,6-7 HCP !D: Qxxx Raise
+1C--1D--2H--,2S,To Play.
+1C--1D--2H--,2N,More than 3!C.
+1C--1D--2H--,3C,More than 3!D.
+1C--1D--2H--,3D,more than 3!H + Honor!D.
+1C--1D--2H--,3H,weak raise. No tricks.
+1C--1D--2H--,3S,4!S and !Hhonor.
+1C--1D--2H--2N--,3H,Game invitation.
+1C--1D--2H--2N--,3S,Game invitation.
+1C--1D--2H--3C--,3H,Game invitation.
+1C--1D--2H--3C--,3S,Game invitation.
+1C--1D--2S--,3C,To Play.
+1C--1D--2S--,3D,To Play.
+1C--1D--2S--,3H,suit or stopper
+1C--1D--2S--,3S,suit or stopper
+1C--1D--2S--,3N,To Play.
+1C--1D--3C--,3H,4!S and nothing about !H.
+1C--1D--3C--,3S,4!H and nothing about !S.
+1C--1D--3H--,--,No tricks
+1C--1D--3S--,--,No tricks
+1C--1H--,1S,RELAY: The usual follow on.
+1C--1H--,1N,2-Suited Without 4+!S.
+1C--1H--,2C,5+!C. slam invite; 19+ HCP0-1!S; NO 3+!H & 1 loser !C suit.Asking for 3 card !C support.
+1C--1H--,2D,5+!D. slam invite; 19+ HCP0-1!S; 0-2!C; NO 3+!H & 1 loser !D suit.Asking for 3 card !D support.
+1C--1H--,2H,5+!H. slam invite; 19+ HCP0-1!S; 0-2!C; & 1 loser !H suit.Asking for 3 card !H support.
+1C--1H--,2S,4+!S; Usually slam interest (19+HCP)
+1C--1H--1S--,1N,5-4 or 5-5 Major Hands
+1C--1H--1S--,2C,4!S+ (5+minor); canape and catch all
+1C--1H--1S--,2D,Reverse canape and catch all.5!S-4!C/!Dor 5!S=0!H=4!D=4!C
+1C--1H--1S--,2H,6+!S; May be (4 minor)
+1C--1H--1S--,2S,5+!S + (5+ minor)
+1C--1H--1S--,2N,6!S+(5 minor)
+1C--1H--1S--,3C,5!S+6!C
+1C--1H--1S--,3D,5!S+6!D
+1C--1H--1S--,3H,6!S+6!C
+1C--1H--1S--,3S,6!S+6!D
+1C--1H--1S--1N--,2C,Ask for majors
+1C--1H--1S--1N--,2D,Support asking bid (3 Cards) with Beta control asking bid
+1C--1H--1S--1N--,2H,Beta; Controls asking bid
+1C--1H--1S--1N--,2S,Beta; Controls asking bid
+1C--1H--1S--1N--,2N,4=4=0=5
+1C--1H--1S--1N--,3C,4=4=5=0
+1C--1H--1S--1N--2C--,2D,Freak; 6-5 or 6-6 or 7-5
+1C--1H--1S--1N--2C--,2H,5-4 or 5-5 majors
+1C--1H--1S--1N--2C--,2S,6-4 Majors
+1C--1H--1S--1N--2C--2D--,2H,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2D--,2S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2D--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--,2S,!H longer 6!H+5!S
+1C--1H--1S--1N--2C--2D--2H--,2N,6!S+5!H
+1C--1H--1S--1N--2C--2D--2H--,3C,6!S+6!H
+1C--1H--1S--1N--2C--2D--2H--,3D,7!H+5!S
+1C--1H--1S--1N--2C--2D--2H--,3H,7!S+5!H
+1C--1H--1S--1N--2C--2D--2H--2S--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2D--2H--2S--,3C,Support asking bid (2 Cards !C)
+1C--1H--1S--1N--2C--2D--2H--2S--,3D,Support asking bid (2 Cards !D)
+1C--1H--1S--1N--2C--2D--2H--2S--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2S--,3N,To Play.
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3C,!C void
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3D,!D void
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3H,1-1 minors
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3D,0-1 !C's
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3H,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3S,xx & 2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3N,xx & 3+ controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3H,0-1!D
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3S,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3N,xx & 3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,4C,xx & 4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,4D,xx & 5 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4H,5 controls
+1C--1H--1S--1N--2C--2D--2H--2N--,3C,Support asking bid (2 Cards !C)
+1C--1H--1S--1N--2C--2D--2H--2N--,3D,Support asking bid (2 Cards !D)
+1C--1H--1S--1N--2C--2D--2H--2N--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2N--,3N,To Play.
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3D,0-1 !C's
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3H,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3S,xx & 2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3N,xx & 3+ controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3H,0-1!D
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3S,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3N,xx & 3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,4C,xx & 4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,4D,xx & 5 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4H,5 controls
+1C--1H--1S--1N--2C--2D--2S--,2N,1-2 controls
+1C--1H--1S--1N--2C--2D--2S--,3C,3 controls
+1C--1H--1S--1N--2C--2D--2S--,3D,4 controls
+1C--1H--1S--1N--2C--2D--2S--,3H,5 controls
+1C--1H--1S--1N--2C--2D--2N--,3C,0!C.
+1C--1H--1S--1N--2C--2D--2N--,3D,0!D
+1C--1H--1S--1N--2C--2D--2N--,3H,1-1 minors
+1C--1H--1S--1N--2C--2D--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2H--,2S,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2H--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2H--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2H--2S--,2N,5!H+4!S
+1C--1H--1S--1N--2C--2H--2S--,3C,5!S+4!H
+1C--1H--1S--1N--2C--2H--2S--,3D,5!S+5!H
+1C--1H--1S--1N--2C--2H--2N--,3C,!C shortage
+1C--1H--1S--1N--2C--2H--2N--,3D,!D shortage
+1C--1H--1S--1N--2C--2H--2N--,3H,2!C-2!D
+1C--1H--1S--1N--2C--2H--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2H--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2H--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2H--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2H--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2H--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2H--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2H--3S--,4H,5 controls
+1C--1H--1S--1N--2C--2S--,2N,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2S--,3C,Support asking bid (2 Cards)
+1C--1H--1S--1N--2C--2S--,3D,Support asking bid (2 Cards)
+1C--1H--1S--1N--2C--2S--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2S--2N--,3C,6!H+4!S
+1C--1H--1S--1N--2C--2S--2N--,3D,6!S+4!H
+1C--1H--1S--1N--2C--2S--3C--,3D,1 or Less support
+1C--1H--1S--1N--2C--2S--3C--,3H,2+!C with 1-2 controls
+1C--1H--1S--1N--2C--2S--3C--,3S,2+!C with 3 controls
+1C--1H--1S--1N--2C--2S--3C--,3N,2+!C with 4 controls
+1C--1H--1S--1N--2C--2S--3D--,3H,1 or Less support
+1C--1H--1S--1N--2C--2S--3D--,3S,2+!D with 1-2 controls
+1C--1H--1S--1N--2C--2S--3D--,3N,2+!D with 3 controls
+1C--1H--1S--1N--2C--2S--3D--,4C,2+!D with 4 controls
+1C--1H--1S--1N--2C--2S--3D--,4D,2+!D with 5 controls
+1C--1H--1S--1N--2C--2S--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2S--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2S--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2S--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2S--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2S--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2S--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2S--3S--,4H,5 controls
+1C--1H--1S--1N--2D--,2N,4=4=0=5 distribution
+1C--1H--1S--1N--2D--,3C,4=4=5=0 distribution
+1C--1H--1S--1N--2D--2N--,3C,Beta
+1C--1H--1S--1N--2D--3C--,3D,Beta
+1C--1H--1S--1N--2H--,2N,4=4=0=5 distribution
+1C--1H--1S--1N--2H--,3C,4=4=5=0 distribution
+1C--1H--1S--1N--2H--2N--,3H,Beta
+1C--1H--1S--1N--2H--3C--,3H,Beta
+1C--1H--1S--1N--2S--,2N,4=4=0=5 distribution
+1C--1H--1S--1N--2S--,3C,4=4=5=0 distribution
+1C--1H--1S--1N--2S--2N--,3S,Beta
+1C--1H--1S--1N--2S--3C--,3S,Beta
+1C--1H--1S--2C--,2D,Asks pd to further describe the hand.for minors
+1C--1H--1S--2C--,2S,Beta; Controls asking bid
+1C--1H--1S--2C--,2N,!H cards asking bid
+1C--1H--1S--2C--,3C,!C Support asking bid (3 Cards)
+1C--1H--1S--2C--,3D,!D Support asking bid (3 Cards)
+1C--1H--1S--2C--2D--,2H,4!S+5!C
+1C--1H--1S--2C--2D--,2S,4!S+5!D
+1C--1H--1S--2C--2D--,2N,4!S+ 6+!C
+1C--1H--1S--2C--2D--,3C,4!S+ 6+!D
+1C--1H--1S--2C--2D--2H--,2S,Asks pd to further describe the hand.
+1C--1H--1S--2C--2D--2H--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--,3D,Support asking bid (3 Cards)
+1C--1H--1S--2C--2D--2H--,3H,Support asking bid (3 Cards)
+1C--1H--1S--2C--2D--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--,2N,4=3=1=5
+1C--1H--1S--2C--2D--2H--2S--,3C,4=1=3=5
+1C--1H--1S--2C--2D--2H--2S--,3D,4=2=2=5
+1C--1H--1S--2C--2D--2H--2S--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--2N--,3S,CAB; suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,3N,K!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4C,A!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4D,xxxx!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4H,Q or Jxxx!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4S,AK or AQxx!S
+1C--1H--1S--2C--2D--2H--2S--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--3C--,4C,CAB; !C suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4D,K!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4H,A!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4S,xxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4N,Q or Jxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,5C,AK or AQxxx!C
+1C--1H--1S--2C--2D--2H--2S--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--3D--,4C,CAB; !C suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4D,K!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4H,A!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4S,xxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4N,Q or Jxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,5C,AK or AQxxx!C
+1C--1H--1S--2C--2D--2H--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2H--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2H--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2H--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2H--3D--,3H,2 or Less !D support
+1C--1H--1S--2C--2D--2H--3D--,3S,3!D with 1-2 controls
+1C--1H--1S--2C--2D--2H--3D--,3N,3!D with 3 controls
+1C--1H--1S--2C--2D--2H--3D--,4C,3!D with 4 controls
+1C--1H--1S--2C--2D--2H--3D--,4D,3!D with 5 controls
+1C--1H--1S--2C--2D--2H--3H--,3S,2 or Less !H support
+1C--1H--1S--2C--2D--2H--3H--,3N,3!H with 1-2 controls
+1C--1H--1S--2C--2D--2H--3H--,4C,3!H with 3 controls
+1C--1H--1S--2C--2D--2H--3H--,4D,3!H with 4 controls
+1C--1H--1S--2C--2D--2H--3H--,4H,3!H with 5 controls
+1C--1H--1S--2C--2D--2H--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--,2N,Asks pd to further describe the hand.
+1C--1H--1S--2C--2D--2S--2N--,3C,4=3=5=1
+1C--1H--1S--2C--2D--2S--2N--,3D,4=1=5=3
+1C--1H--1S--2C--2D--2S--2N--,3H,4=2=5=2
+1C--1H--1S--2C--2D--2S--2N--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,4C,5 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3D--,4D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,5C,5 controls
+1C--1H--1S--2C--2D--2S--2N--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3H--,4D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,5C,5 controls
+1C--1H--1S--2C--2D--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2N--,3D,Stopper showing
+1C--1H--1S--2C--2D--2N--,3H,Stopper showing
+1C--1H--1S--2C--2D--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2N--,3N,To Play.
+1C--1H--1S--2C--2D--2N--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2N--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2N--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2N--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2N--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2N--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2N--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2N--3S--,4H,5 controls
+1C--1H--1S--2C--2D--3C--,3D,Stopper showing
+1C--1H--1S--2C--2D--3C--,3H,Stopper showing
+1C--1H--1S--2C--2D--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--3C--,3N,To Play.
+1C--1H--1S--2C--2D--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--3C--3S--,4H,5 controls
+1C--1H--1S--2C--2S--,2N,1-2 controls
+1C--1H--1S--2C--2S--,3C,3 controls
+1C--1H--1S--2C--2S--,3D,4 controls
+1C--1H--1S--2C--2S--,3H,5 controls
+1C--1H--1S--2C--2N--,3C,3!H
+1C--1H--1S--2C--2N--,3D,2!H
+1C--1H--1S--2C--2N--,3H,1!H
+1C--1H--1S--2C--2N--,3S,0!H
+1C--1H--1S--2C--2N--3C--,3D,what is your 4 card minor?
+1C--1H--1S--2C--2N--3C--3D--,4C,!C
+1C--1H--1S--2C--2N--3C--3D--,4D,!D
+1C--1H--1S--2C--2N--3D--,3H,what is your 4 card minor?
+1C--1H--1S--2C--2N--3D--3H--,4C,!C
+1C--1H--1S--2C--2N--3D--3H--,4D,!D
+1C--1H--1S--2C--3C--,3D,0-2 !C
+1C--1H--1S--2C--3C--,3H,3+!C with 1-2 controls
+1C--1H--1S--2C--3C--,3S,3+!C with 3 controls
+1C--1H--1S--2C--3C--,3N,3+!C with 4 controls
+1C--1H--1S--2C--3D--,3H,2 or Less support
+1C--1H--1S--2C--3D--,3S,3+!D with 1-2 controls
+1C--1H--1S--2C--3D--,3N,3+!D with 3 controls
+1C--1H--1S--2D--,2H,Asks pd to further describe the hand.for minors
+1C--1H--1S--2D--,2S,!S; Beta; Controls asking bid
+1C--1H--1S--2D--,2N,!H support Asking bid
+1C--1H--1S--2D--,3C,!C Support asking bid (3 Cards)
+1C--1H--1S--2D--,3D,!D Support asking bid (3 Cards)
+1C--1H--1S--2D--2H--,2S,5!S+4!C
+1C--1H--1S--2D--2H--,2N,5!S+4!D
+1C--1H--1S--2D--2H--,3C,5=0=4=4
+1C--1H--1S--2D--2H--2S--,2N,Shortage ask?
+1C--1H--1S--2D--2H--2S--,3C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--,3C,5=3=1=4
+1C--1H--1S--2D--2H--2S--2N--,3D,5=1=3=4
+1C--1H--1S--2D--2H--2S--2N--,3H,5=2=2=4
+1C--1H--1S--2D--2H--2S--2N--3C--,3D,Beta; Controls asking bid with !H as trumps.
+1C--1H--1S--2D--2H--2S--2N--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3C--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3S,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3N,4 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--,3H,Beta; Controls asking bid with !D.
+1C--1H--1S--2D--2H--2S--2N--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3D--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,3S,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,3N,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,4C,4 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,4D,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--2N--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3H--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--3C--,3D,1-2 controls
+1C--1H--1S--2D--2H--2S--3C--,3H,3 controls
+1C--1H--1S--2D--2H--2S--3C--,3S,4 controls
+1C--1H--1S--2D--2H--2S--3C--,3N,5 controls
+1C--1H--1S--2D--2H--2S--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2N--,3C,Shortage ask?
+1C--1H--1S--2D--2H--2N--,3D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--,3D,5=3=4=1
+1C--1H--1S--2D--2H--2N--3C--,3H,5=1=4=3
+1C--1H--1S--2D--2H--2N--3C--,3S,5=2=4=2
+1C--1H--1S--2D--2H--2N--3C--3D--,3H,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,3S,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,3N,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,4C,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,4D,5 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--3C--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--3C--3S--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3S--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--2N--3D--,3S,3 controls
+1C--1H--1S--2D--2H--2N--3D--,3N,4 controls
+1C--1H--1S--2D--2H--2N--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3S--,4H,5 controls
+1C--1H--1S--2D--2H--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--3C--3D--,3S,3 controls
+1C--1H--1S--2D--2H--3C--3D--,3N,4 controls
+1C--1H--1S--2D--2H--3C--3D--,4C,5 controls
+1C--1H--1S--2D--2H--3C--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--3C--3S--,4C,3 controls
+1C--1H--1S--2D--2H--3C--3S--,4D,4 controls
+1C--1H--1S--2D--2H--3C--3S--,4H,5 controls
+1C--1H--1S--2D--2H--3C--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--3C--4C--,4H,3 controls
+1C--1H--1S--2D--2H--3C--4C--,4S,4 controls
+1C--1H--1S--2D--2H--3C--4C--,4N,5 controls
+1C--1H--1S--2D--2S--,2N,1-2 controls
+1C--1H--1S--2D--2S--,3C,3 controls
+1C--1H--1S--2D--2S--,3D,4 controls
+1C--1H--1S--2D--2S--,3H,5 controls
+1C--1H--1S--2D--2N--,3C,3!H
+1C--1H--1S--2D--2N--,3D,2!H
+1C--1H--1S--2D--2N--,3H,1!H
+1C--1H--1S--2D--2N--,3S,0!H
+1C--1H--1S--2D--2N--3C--,3D,what is your 4 card minor?
+1C--1H--1S--2D--2N--3C--3D--,4C,4!C
+1C--1H--1S--2D--2N--3C--3D--,4D,4!D
+1C--1H--1S--2D--2N--3D--,3H,what is your 4 card minor?
+1C--1H--1S--2D--2N--3D--3H--,4C,4!C
+1C--1H--1S--2D--2N--3D--3H--,4D,4!D
+1C--1H--1S--2D--3C--,3D,0-2 !C
+1C--1H--1S--2D--3C--,3H,3+!C with 1-2 controls
+1C--1H--1S--2D--3C--,3S,3+!C with 3 controls
+1C--1H--1S--2D--3C--,3N,3+!C with 4 controls
+1C--1H--1S--2D--3D--,3H,2 or Less support
+1C--1H--1S--2D--3D--,3S,3+!D with 1-2 controls
+1C--1H--1S--2D--3D--,3N,3+!D with 3 controls
+1C--1H--1S--2H--,2S,Asks pd to further describe the hand for Distribution.
+1C--1H--1S--2H--,3C,!C suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--,3D,!D suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--,3H,!H suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--,2N,6!S+4!C
+1C--1H--1S--2H--2S--,3C,6!S+4!D
+1C--1H--1S--2H--2S--,3D,6!S+3!H
+1C--1H--1S--2H--2S--,3H,6!S+(x+x+x)
+1C--1H--1S--2H--2S--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2H--2S--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--2N--3C--,3D,1-2 controls
+1C--1H--1S--2H--2S--2N--3C--,3H,3 controls
+1C--1H--1S--2H--2S--2N--3C--,3S,4 controls
+1C--1H--1S--2H--2S--2N--3C--,3N,5 controls
+1C--1H--1S--2H--2S--2N--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--2N--3S--,4C,3 controls
+1C--1H--1S--2H--2S--2N--3S--,4D,4 controls
+1C--1H--1S--2H--2S--2N--3S--,4H,5 controls
+1C--1H--1S--2H--2S--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3C--3D--,3H,1-2 controls
+1C--1H--1S--2H--2S--3C--3D--,3S,3 controls
+1C--1H--1S--2H--2S--3C--3D--,3N,4 controls
+1C--1H--1S--2H--2S--3C--3D--,4C,5 controls
+1C--1H--1S--2H--2S--3C--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3C--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3C--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3C--3S--,4H,5 controls
+1C--1H--1S--2H--2S--3D--,3H,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3D--3H--,3S,1-2 controls
+1C--1H--1S--2H--2S--3D--3H--,3N,3 controls
+1C--1H--1S--2H--2S--3D--3H--,4C,4 controls
+1C--1H--1S--2H--2S--3D--3H--,4D,5 controls
+1C--1H--1S--2H--2S--3D--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3D--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3D--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3D--3S--,4H,5 controls
+1C--1H--1S--2H--2S--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3H--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3H--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3H--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3H--3S--,4H,5 controls
+1C--1H--1S--2H--3C--,3D,0-2 !C
+1C--1H--1S--2H--3C--,3H,3+!C with 1-2 controls
+1C--1H--1S--2H--3C--,3S,3+!C with 3 controls
+1C--1H--1S--2H--3C--,3N,3+!C with 4 controls
+1C--1H--1S--2H--3D--,3H,2 or Less support
+1C--1H--1S--2H--3D--,3S,3+!D with 1-2 controls
+1C--1H--1S--2H--3D--,3N,3+!D with 3 controls
+1C--1H--1S--2H--3H--,3S,2 or Less support
+1C--1H--1S--2H--3H--,3N,3+!H with 1-2 controls
+1C--1H--1S--2H--3H--,4C,3+!H with 3 controls
+1C--1H--1S--2H--3H--,4D,3+!H with 4 controls
+1C--1H--1S--2H--3H--,4H,3+!H with 5 controls
+1C--1H--1S--2H--3S--,3N,1-2 controls
+1C--1H--1S--2H--3S--,4C,3 controls
+1C--1H--1S--2H--3S--,4D,4 controls
+1C--1H--1S--2H--3S--,4H,5 controls
+1C--1H--1S--2S--,2N,Asks pd to further describe the hand.for minors
+1C--1H--1S--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--2S--2N--,3C,5!C+5!S
+1C--1H--1S--2S--2N--,3D,5!S+5!D
+1C--1H--1S--2S--2N--3C--,3S,Beta
+1C--1H--1S--2S--2N--3C--,4C,Beta
+1C--1H--1S--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2S--2N--3D--,3S,Beta
+1C--1H--1S--2S--2N--3D--,4D,Beta
+1C--1H--1S--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2S--3S--,3N,1-2 controls
+1C--1H--1S--2S--3S--,4C,3 controls
+1C--1H--1S--2S--3S--,4D,4 controls
+1C--1H--1S--2S--3S--,4H,5 controls
+1C--1H--1S--2N--,3C,Is it 5!C?
+1C--1H--1S--2N--,3D,Is it 5!D?
+1C--1H--1S--2N--3C--,3D,No
+1C--1H--1S--2N--3C--,3H,Yes 5!C and 1-2 controls.
+1C--1H--1S--2N--3C--,3S,!C's and 3 controls
+1C--1H--1S--2N--3C--,3N,!C's and 4 controls
+1C--1H--1S--2N--3D--,3H,NO
+1C--1H--1S--2N--3D--,3S,Yes !D and 1-2 Controls
+1C--1H--1S--2N--3D--,3N,Yes !D and 3+ Controls
+1C--1H--1S--3C--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3C--,4C,!C; Beta; Controls asking bid
+1C--1H--1S--3C--3S--,3N,1-2 controls
+1C--1H--1S--3C--3S--,4C,3 controls
+1C--1H--1S--3C--3S--,4D,4 controls
+1C--1H--1S--3C--3S--,4H,5 controls
+1C--1H--1S--3C--4C--,4D,1-2 controls
+1C--1H--1S--3C--4C--,4H,3 controls
+1C--1H--1S--3C--4C--,4S,4 controls
+1C--1H--1S--3C--4C--,4N,5 controls
+1C--1H--1S--3D--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3D--,4D,!D; Beta; Controls asking bid
+1C--1H--1S--3D--3S--,3N,1-2 controls
+1C--1H--1S--3D--3S--,4C,3 controls
+1C--1H--1S--3D--3S--,4D,4 controls
+1C--1H--1S--3D--3S--,4H,5 controls
+1C--1H--1S--3D--4D--,4H,1-2 controls
+1C--1H--1S--3D--4D--,4S,3 controls
+1C--1H--1S--3D--4D--,4N,4 controls
+1C--1H--1S--3D--4D--,5C,5 controls
+1C--1H--1S--3H--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3H--,4C,!C; Beta; Controls asking bid
+1C--1H--1S--3H--3S--,3N,1-2 controls
+1C--1H--1S--3H--3S--,4C,3 controls
+1C--1H--1S--3H--3S--,4D,4 controls
+1C--1H--1S--3H--3S--,4H,5 controls
+1C--1H--1S--3H--4C--,4D,1-2 controls
+1C--1H--1S--3H--4C--,4H,3 controls
+1C--1H--1S--3H--4C--,4S,4 controls
+1C--1H--1S--3H--4C--,4N,5 controls
+1C--1H--1S--3S--,4D,!D; Beta; Controls asking bid
+1C--1H--1S--3S--4D--,4H,1-2 controls
+1C--1H--1S--3S--4D--,4S,3 controls
+1C--1H--1S--3S--4D--,4N,4 controls
+1C--1H--1S--3S--4D--,5C,5 controls
+1C--1H--1N--,2C,Asks pd to further describe the hand.
+1C--1H--1N--2C--,2D,5!D+5!H
+1C--1H--1N--2C--,2H,5!H+5!C
+1C--1H--1N--2C--,2S,5!C+5!D
+1C--1H--2C--,2D,2 or Less support
+1C--1H--2C--,2H,3+!C with 1-2 controls
+1C--1H--2C--,2S,3+!C with 3 controls
+1C--1H--2C--,2N,3+!C with 4 controls
+1C--1H--2C--,3C,3+!C with 5 controls
+1C--1H--2D--,2H,2 or Less support
+1C--1H--2D--,2S,3+!D with 1-2 controls
+1C--1H--2D--,2N,3+!D with 3 controls
+1C--1H--2D--,3C,3+!D with 4 controls
+1C--1H--2D--,3D,3+!D with 5 controls
+1C--1H--2H--,2S,2 or Less support
+1C--1H--2H--,2N,3+!H with 1-2 controls
+1C--1H--2H--,3C,3+!H with 3 controls
+1C--1H--2H--,3D,3+!H with 4 controls
+1C--1H--2H--,3H,3+!H with 5 controls
+1C--1S--,1N,17+ HCP; & balanced to keep bidding low.
+1C--1N--,2C,Transfer stayman
+1C--1N--,2D,3 cards Support asking bid.
+1C--1N--,2H,3 cards Support asking bid.
+1C--1N--,2S,3 cards Support asking bid.
+1C--1N--,2N,Asks for 15+
+1C--1N--,3C,3 cards Support asking bid.
+1C--1N--2C--,2D,4!H; may be 4!S.
+1C--1N--2C--,2H,4!S
+1C--1N--2C--,2S,11-14HCP; No 4 card major or5 minor with 5332 distribution.
+1C--1N--2C--,2N,11-14HCP; 5!C. (5!C332)
+1C--1N--2C--,3C,11-14HCP; 5!D. (5!D332)
+1C--1N--2C--,3D,11-14HCP; 2!S=3!H=44
+1C--1N--2C--,3H,11-14HCP; 3!S=2!H=44
+1C--1N--2C--,3S,11-14HCP; 3=3=3=4
+1C--1N--2C--,3N,11-14HCP; 3=3=4!D=3
+1C--1N--2C--2D--,2H,Beta
+1C--1N--2C--2D--,2S,4 cards Support asking bid.
+1C--1N--2C--2D--2H--,2S,1-2 controls
+1C--1N--2C--2D--2H--,2N,3 controls
+1C--1N--2C--2D--2H--,3C,4 controls
+1C--1N--2C--2D--2H--,3D,5 controls
+1C--1N--2C--2D--2S--,2N,2 card !S
+1C--1N--2C--2D--2S--,3C,3 card !S
+1C--1N--2C--2D--2S--,3D,4 card !S + 0-2 controls
+1C--1N--2C--2D--2S--,3H,4 card !S + 3 controls
+1C--1N--2C--2D--2S--,3S,4 card !S + 4 controls
+1C--1N--2C--2D--2S--,3N,4 card !S + 5 controls
+1C--1N--2C--2H--,2S,Beta
+1C--1N--2C--2H--,2N,Asking for minors
+1C--1N--2C--2H--2S--,2N,1-2 controls
+1C--1N--2C--2H--2S--,3C,3 controls
+1C--1N--2C--2H--2S--,3D,4 controls
+1C--1N--2C--2H--2S--,3H,5 controls
+1C--1N--2C--2H--2N--,3C,4!D
+1C--1N--2C--2H--2N--,3D,4!C
+1C--1N--2C--2S--,2N,Asking for minors
+1C--1N--2C--2S--2N--,3C,5!C or 5!D
+1C--1N--2C--2S--2N--,3D,2=3!H=44
+1C--1N--2C--2S--2N--,3H,3=2!H=44
+1C--1N--2C--2S--2N--,3S,333=4!C
+1C--1N--2C--2N--,3C,Beta
+1C--1N--2C--2N--,3D,5!D
+1C--1N--2C--2N--3C--,3D,1-2 controls
+1C--1N--2C--2N--3C--,3H,3 controls
+1C--1N--2C--2N--3C--,3S,4 controls
+1C--1N--2C--2N--3C--,3N,5 controls
+1C--1N--2C--2N--3D--,3H,5!C and 3 controls
+1C--1N--2C--2N--3D--,3S,5!C and 4 controls
+1C--1N--2C--2N--3D--,3N,5!C and 5 controls
+1C--1N--2C--3C--,3D,Beta
+1C--1N--2C--3C--3D--,3H,1-2 controls
+1C--1N--2C--3C--3D--,3S,3 controls
+1C--1N--2C--3C--3D--,3N,4+ controls
+1C--1N--2D--,2H,2!D
+1C--1N--2D--,2S,3+!D+ 1-2 Controls
+1C--1N--2D--,2N,3+!D+ 3 Controls
+1C--1N--2D--,3C,3+!D+ 4 Controls
+1C--1N--2D--,3D,3+!D+ 5 Controls
+1C--1N--2D--,3H,3+!D+ 6 Controls
+1C--1N--2H--,2S,2!H; balanced.
+1C--1N--2H--,2N,3+!H+ 1-2 Controls
+1C--1N--2H--,3C,3+!H+ 3 Controls
+1C--1N--2H--,3D,3+!H+ 4 Controls
+1C--1N--2H--,3H,3+!H+ 5 Controls
+1C--1N--2H--,3S,3+!H+ 6 Controls
+1C--1N--2S--,2N,2!S.
+1C--1N--2S--,3C,3+!S+ 1-2 Controls
+1C--1N--2S--,3D,3+!S+ 3 Controls
+1C--1N--2S--,3H,3+!S+ 4 Controls
+1C--1N--2S--,3S,3+!S+ 5 Controls
+1C--1N--2S--,3N,3+!S+ 6 Controls
+1C--1N--2N--,3N,No. 11-14HCP.
+1C--1N--3C--,3D,2!C
+1C--1N--3C--,3H,3+!C+ 1-2 Controls
+1C--1N--3C--,3S,3+!C+ 3 Controls
+1C--1N--3C--,3N,3+!C+ 4+ Controls
+1C--2C--,2D,Asks pd to further describe the hand.
+1C--2C--,2H,support asking bid (3 cards)
+1C--2C--,2S,support asking bid (3 cards)
+1C--2C--,2N,Fragment Ask about 3 card major?
+1C--2C--,3C,support asking bid (3 cards)
+1C--2C--,3D,support asking bid (3 cards)
+1C--2C--,3H,support asking bid (J!H)?
+1C--2C--,3S,support asking bid (J!S)?
+1C--2C--,3N,To Play.
+1C--2C--2D--,2H,5+!C;
+1C--2C--2D--,2S,5+!D
+1C--2C--2D--,2N,6!C+4!D
+1C--2C--2D--,3C,4!C+6!D
+1C--2C--2D--,3D,0=3=5=5
+1C--2C--2D--,3H,3=0=5=5
+1C--2C--2D--,3S,2=1=5=5
+1C--2C--2D--,3N,1=2=5=5
+1C--2C--2D--2H--,2S,Asks pd to further describe the hand.
+1C--2C--2D--2H--2S--,2N,6+!C
+1C--2C--2D--2H--2S--,3C,3=1=4=5!C
+1C--2C--2D--2H--2S--,3D,1=3=4=5!C
+1C--2C--2D--2H--2S--,3H,2=2=4=5; No !H stopper
+1C--2C--2D--2H--2S--,3S,2=2=4=5; No !S stopper
+1C--2C--2D--2H--2S--,3N,2=2=4=5; both major controls
+1C--2C--2D--2S--,2N,Asks pd to further describe the hand.
+1C--2C--2D--2S--2N--,3C,6+!D
+1C--2C--2D--2S--2N--,3D,1=3=5!D=4
+1C--2C--2D--2S--2N--,3H,3=1=5!D=4
+1C--2C--2D--2S--2N--,3S,2=2=5!D=4; No !S stopper
+1C--2C--2D--2S--2N--,3N,2=2=5!D=4; No !H stopper
+1C--2C--2D--2N--,3C,Beta; Controls asking bid
+1C--2C--2D--2N--,3D,Beta; Controls asking bid
+1C--2C--2D--2N--,3H,support asking bid (3 cards)
+1C--2C--2D--2N--,3S,support asking bid (3 cards)
+1C--2C--2D--2N--3C--,3D,1-2 controls
+1C--2C--2D--2N--3C--,3H,3 controls
+1C--2C--2D--2N--3C--,3S,4 controls
+1C--2C--2D--2N--3C--,3N,5 controls
+1C--2C--2D--2N--3D--,3H,1-2 controls
+1C--2C--2D--2N--3D--,3S,3 controls
+1C--2C--2D--2N--3D--,3N,4 controls
+1C--2C--2D--2N--3H--,3S,0-2
+1C--2C--2D--2N--3H--,3N,3!H with 1-2 controls
+1C--2C--2D--2N--3H--,4C,3!H with 3 controls
+1C--2C--2D--2N--3H--,4D,3!H with 4 controls
+1C--2C--2D--2N--3H--,4H,3!H with 5 controls
+1C--2C--2D--2N--3S--,3N,0-2
+1C--2C--2D--2N--3S--,4C,3!S with 1-2 controls
+1C--2C--2D--2N--3S--,4D,3!S with 3 controls
+1C--2C--2D--2N--3S--,4H,3!S with 4 controls
+1C--2C--2D--2N--3S--,4S,3!S with 5 controls
+1C--2C--2D--3C--,3D,Beta; Controls asking bid
+1C--2C--2D--3C--,3H,Support asking bid (3 Cards)
+1C--2C--2D--3C--,3S,Support asking bid (3 Cards)
+1C--2C--2D--3C--,4C,Beta; Controls asking bid
+1C--2C--2D--3C--3D--,3H,1-2 controls
+1C--2C--2D--3C--3D--,3S,3 controls
+1C--2C--2D--3C--3D--,3N,4 controls
+1C--2C--2D--3C--3H--,3S,0-2
+1C--2C--2D--3C--3H--,3N,3!H with 1-2 controls
+1C--2C--2D--3C--3H--,4C,3!H with 3 controls
+1C--2C--2D--3C--3H--,4D,3!H with 4 controls
+1C--2C--2D--3C--3H--,4H,3!H with 5 controls
+1C--2C--2D--3C--3S--,3N,0-2
+1C--2C--2D--3C--3S--,4C,3!S with 1-2 controls
+1C--2C--2D--3C--3S--,4D,3!S with 3 controls
+1C--2C--2D--3C--3S--,4H,3!S with 4 controls
+1C--2C--2D--3C--3S--,4S,3!S with 5 controls
+1C--2C--2D--3C--4C--,4D,1-2 controls
+1C--2C--2D--3C--4C--,4H,3 controls
+1C--2C--2D--3C--4C--,4S,4 controls
+1C--2C--2D--3C--4C--,4N,5 controls
+1C--2C--2H--,2S,0-1!H
+1C--2C--2H--,2N,2!H
+1C--2C--2H--,3C,3+!H with 1-2 controls
+1C--2C--2H--,3D,3+!H with 3 controls
+1C--2C--2H--,3H,3+!H with 4 controls
+1C--2C--2H--,3S,3+!H with 5 controls
+1C--2C--2S--,2N,0-1!S
+1C--2C--2S--,3C,2!S
+1C--2C--2S--,3D,3+!S with 1-2 controls
+1C--2C--2S--,3H,3+!S with 3 controls
+1C--2C--2S--,3S,3+!S with 4 controls
+1C--2C--2S--,3N,3+!S with 5 controls
+1C--2C--2N--,3C,No 3 card major.
+1C--2C--2N--,3D,3!H; May be 3!S also.
+1C--2C--2N--,3H,3!S
+1C--2C--2N--3C--,3H,support asking bid (2 cards)
+1C--2C--2N--3C--3H--,3S,No 2!H.
+1C--2C--2N--3C--3H--,3N,yes 2!H.
+1C--2C--2N--3D--,3H,Beta; Controls asking bid
+1C--2C--2N--3D--3H--,3S,1-2 Control
+1C--2C--2N--3D--3H--,3N,3 Controls
+1C--2C--2N--3D--3H--,4C,4 Controls
+1C--2C--2N--3D--3H--,4D,5 Controls
+1C--2C--2N--3H--,3S,Beta; Controls asking bid
+1C--2C--2N--3H--3S--,3N,1-2 Controls
+1C--2C--2N--3H--3S--,4C,3 Controls
+1C--2C--2N--3H--3S--,4D,4 Controls
+1C--2C--2N--3H--3S--,4H,5 Controls
+1C--2C--3C--,3D,0-2!C
+1C--2C--3C--,3H,2!C+; 1-2 controls
+1C--2C--3C--,3S,3!C+; 3 controls
+1C--2C--3C--,3N,3!C+; 4 controls
+1C--2C--3C--,4C,3!C+; 5 controls; 11+HCP
+1C--2C--3D--,3H,0-2!D
+1C--2C--3D--,3S,3+!D + 1-2 Controls
+1C--2C--3D--,3N,3+!D + 3 Controls
+1C--2D--,2H,Support asking bid (3 Cards)
+1C--2D--,2S,Support asking bid (3 Cards)
+1C--2D--,2N,Waiting bid: Usually a balanced hand with interest in major or slam in 4+ major suits.
+1C--2D--,3C,Support asking bid (3 Cards);opener denies 4 card major
+1C--2D--,3D,Support asking bid (3 Cards); opener denies 4 card major
+1C--2D--,3H,Support asking bid (J!H)
+1C--2D--,3S,Support asking bid (2 Cards)
+1C--2D--,3N,Natural.
+1C--2D--2H--,2S,2!H
+1C--2D--2H--,2N,3+!H with 1-2 controls
+1C--2D--2H--,3C,3+!H with 3 controls
+1C--2D--2H--,3D,3+!H with 4 controls
+1C--2D--2H--2S--,2N,Asks pd to further describe the hand.
+1C--2D--2H--2S--2N--,3C,5!D.
+1C--2D--2H--2S--2N--,3H,4!S
+1C--2D--2H--2S--2N--,3S,3!S=2!H=44
+1C--2D--2H--2S--2N--,3N,5!C
+1C--2D--2S--,2N,2!S
+1C--2D--2S--,3C,3+!S with 1-2 controls
+1C--2D--2S--,3D,3+!S with 3 controls
+1C--2D--2S--,3H,3+!S with 4 controls
+1C--2D--2S--2N--,3C,Support asking bid (4 Cards)
+1C--2D--2S--2N--,3D,Support asking bid (4 Cards)
+1C--2D--2S--2N--,3H,Support asking bid (4 Cards)
+1C--2D--2S--2N--3C--,3D,2-3!C
+1C--2D--2S--2N--3C--,3H,4+!C with 1-2 controls
+1C--2D--2S--2N--3C--,3S,4+!C with 3 controls
+1C--2D--2S--2N--3C--,3N,4+!C with 4 controls
+1C--2D--2S--2N--3D--,3H,2-3!D
+1C--2D--2S--2N--3D--,3S,4+!D with 1-2 controls
+1C--2D--2S--2N--3D--,3N,4+!D with 3 controls
+1C--2D--2S--2N--3H--,3S,2-3!H
+1C--2D--2S--2N--3H--,3N,4+!H with 1-2 controls
+1C--2D--2S--2N--3H--,4C,4+!H with 3 controls
+1C--2D--2S--2N--3H--,4D,4+!H with 4 controls
+1C--2D--2N--,3C,5!D+No 4 cd majors.
+1C--2D--2N--,3D,4!H and may be 4!S.
+1C--2D--2N--,3H,4!S
+1C--2D--2N--,3S,No 4 cd majors and 5 cd minors
+1C--2D--2N--,3N,5!C and No 4 cd major
+1C--2D--2N--3D--,3H,Beta; Controls asking bid
+1C--2D--2N--3D--,3S,Support asking bid (4 Cards)
+1C--2D--2N--3D--3H--,3S,1-2 controls
+1C--2D--2N--3D--3H--,3N,3 controls
+1C--2D--2N--3D--3H--,4C,4 controls
+1C--2D--2N--3D--3S--,3N,2-3!S
+1C--2D--2N--3D--3S--,4C,4!S with 1-2 controls
+1C--2D--2N--3D--3S--,4D,4!S with 3 controls
+1C--2D--2N--3D--3S--,4H,4!S with 4 controls
+1C--2D--2N--3H--,3S,Beta; Controls asking bid
+1C--2D--2N--3H--3S--,3N,1-2 controls
+1C--2D--2N--3H--3S--,4C,3 controls
+1C--2D--2N--3H--3S--,4D,4 controls
+1C--2D--2N--3S--,4C,Beta; Controls asking bid
+1C--2D--2N--3S--4C--,4D,4!D; 1-2 controls
+1C--2D--2N--3S--4C--,4H,4!C; 1-2 controls
+1C--2D--2N--3S--4C--,4S,3 controls
+1C--2D--2N--3S--4C--,4N,4 controls
+1C--2D--3C--,3D,2!C
+1C--2D--3C--,3H,3+!C; 1-2 controls
+1C--2D--3C--,3S,3+!C; 3 controls
+1C--2D--3C--,3N,3+!C; 4 controls
+1C--2D--3D--,3H,2!D
+1C--2D--3D--,3S,3+!D + 1-2 Controls
+1C--2D--3D--,3N,3+!D + 3 Controls
+1C--2D--3H--,3S,No J!H
+1C--2D--3H--,3N,J!H with 1-2 controls
+1C--2D--3H--,4C,J!H with 3 controls
+1C--2D--3H--,4D,J!H with 4 controls
+1C--2D--3S--,3N,No J!S
+1C--2D--3S--,4C,J!S with 1-2 controls
+1C--2D--3S--,4D,J!S with 3 controls
+1C--2D--3S--,4H,J!S with 4 controls
+1C--2H--,2S,Support asking bid (3 Cards)
+1C--2H--,2N,Asking: For Weak Doubleton
+1C--2H--,3C,Support asking bid (3 Cards)
+1C--2H--,3D,Support asking bid (3 Cards)
+1C--2H--,3H,Beta; Controls asking bid
+1C--2H--,3N,To Play.
+1C--2H--2S--,2N,2!S
+1C--2H--2S--,3C,3!S
+1C--2H--2N--,3C,xx !C
+1C--2H--2N--,3D,xx !D
+1C--2H--2N--,3H,xx !S
+1C--2H--2N--,3S,Any suit Kx
+1C--2H--2N--,3N,Any suit Ax
+1C--2H--3C--,3D,2!C
+1C--2H--3C--,3H,3!C
+1C--2H--3D--,3H,2!D
+1C--2H--3D--,3S,3!D
+1C--2H--3H--,3S,1-2 controls
+1C--2H--3H--,3N,3 controls
+1C--2H--3H--,4C,4 controls
+1C--2H--3H--,4D,5 controls
+1C--2S--,2N,Asking: For Weak Doubleton
+1C--2S--,3C,Support asking bid (3 Cards)
+1C--2S--,3D,Support asking bid (3 Cards)
+1C--2S--,3H,Support asking bid (3 Cards)
+1C--2S--,3S,Beta; Controls asking bid
+1C--2S--,3N,To Play.
+1C--2S--2N--,3C,xx !C
+1C--2S--2N--,3D,xx !D
+1C--2S--2N--,3H,xx !H
+1C--2S--2N--,3S,Any other suit Kx
+1C--2S--2N--,3N,Any other suit Ax
+1C--2S--3C--,3D,2!C
+1C--2S--3C--,3H,3!C
+1C--2S--3D--,3H,2!D
+1C--2S--3D--,3S,3!D
+1C--2S--3H--,3S,2!H
+1C--2S--3H--,3N,3!H
+1C--2S--3S--,3N,3 controls
+1C--2S--3S--,4C,4 controls
+1C--2S--3S--,4D,5 controls
+1C--2N--,3C,Transfer stayman
+1C--2N--,3D,3 cards Support asking bid.
+1C--2N--,3H,3 cards Support asking bid.
+1C--2N--,3S,3 cards Support asking bid.
+1C--2N--,3N,3 cards Support asking bid for !C.
+1C--2N--3C--,3D,4!H
+1C--2N--3C--,3H,4!S
+1C--2N--3C--,3S,No 4-card Major or 5-card Minor
+1C--2N--3C--,3N,5!C
+1C--2N--3C--,4C,5!D
+1C--2N--3C--,4D,2=3=4=4
+1C--2N--3C--,4H,3=2=4=4
+1C--2N--3C--,4S,333 4!C
+1C--2N--3C--,4N,3=3=4=3
+1C--2N--3D--,3H,2!D
+1C--2N--3D--,3S,3!D
+1C--2N--3H--,3S,2!H
+1C--2N--3H--,3N,3!H
+1C--2N--3S--,3N,2!S
+1C--2N--3S--,4C,3!S
+1C--2N--3N--,4C,2!C
+1C--2N--3N--,4D,3!C
+1C--3C--,3D,Asks for singleton?
+1C--3C--,3H,Sets !H as trumpsBeta Asks controls
+1C--3C--,3S,Sets !S as trumpsBeta Asks controls
+1C--3C--,3N,To Play.
+1C--3C--,4C,4 cards Support asking bid.
+1C--3C--,4D,4 cards Support asking bid.
+1C--3C--3D--,3H,singleton !C
+1C--3C--3D--,3S,singleton !D
+1C--3C--3D--3H--,3N,To Play.
+1C--3C--3D--3S--,3N,To Play.
+1C--3C--4C--,4D,Singleton !C
+1C--3C--4C--,4H,4!C and 1-2 controls
+1C--3C--4C--,4S,4!C and 3 controls
+1C--3C--4C--,4N,4!C and 4 controls
+1C--3C--4D--,4H,Singleton !D
+1C--3C--4D--,4S,4!D and 1-3 controls
+1C--3C--4D--,4N,4!D and 4 controls
+1C--3D--,3H,Beta; Controls asking bid; To save space; trumps sets for minors.
+1C--3D--,3S,Beta; Controls asking bid.!S as trumps and interested in Q!S.
+1C--3D--,3N,To Play.
+1C--3D--,4C,Beta; Controls asking bid.!C as trumps and interested in Q!C.
+1C--3D--,4D,Beta; Controls asking bid.!D as trumps and interested in Q!D.
+1C--3D--3H--,3S,1-3 controls
+1C--3D--3H--,3N,4 controls
+1C--3D--3S--,3N,No Q!S
+1C--3D--3S--,4C,Q!S; 1-3 controls
+1C--3D--3S--,4D,Q!S; 4 controls
+1C--3D--3S--,4H,Q!S; 5 controls
+1C--3D--4C--,4D,No Q!C
+1C--3D--4C--,4H,Q!C; 1-3 controls
+1C--3D--4C--,4S,Q!C; 4 controls
+1C--3D--4C--,4N,Q!C; 5 controls
+1C--3D--4D--,4H,No Q!D
+1C--3D--4D--,4S,Q!D; 1-3 controls
+1C--3D--4D--,4N,Q!D; 4 controls
+1C--3D--4D--,5C,Q!D; 5 controls
+1C--3H--,3S,Beta; Controls asking bid.!H as trumps and interested in Q!H.
+1C--3H--,3N,To Play.
+1C--3H--,4C,Beta; Controls asking bid.!C as trumps and interested in Q!C.
+1C--3H--,4D,Beta; Controls asking bid.!D as trumps and interested in Q!D.
+1C--3H--,4H,To Play.
+1C--3H--3S--,3N,No Q!H
+1C--3H--3S--,4C,Q!H; 1-3 controls
+1C--3H--3S--,4D,Q!H; 4 controls
+1C--3H--3S--,4H,To Play.
+1C--3H--4C--,4D,No Q!C
+1C--3H--4C--,4H,Q!C; 1-3 controls
+1C--3H--4C--,4S,Q!C; 4 controls
+1C--3H--4C--,4N,Q!C; 5 controls
+1C--3H--4D--,4H,No Q!D
+1C--3H--4D--,4S,Q!D; 1-3 controls
+1C--3H--4D--,4N,Q!D; 4 controls
+1C--3H--4D--,5C,Q!D; 5 controls
+1C--3S--,3N,To Play.
+1C--3S--3N--,4C,One Extra A or K
+1C--3S--3N--,4D,Two Extra A or K
+1C--3S--3N--,4H,Three Extra A or K
+1C--3N--,4C,Asks which Suit?
+1C--3N--,4D,Asks for extra controls?
+1C--3N--4C--,4D,!D
+1C--3N--4C--,4H,!H
+1C--3N--4C--,4S,!S
+1C--3N--4C--,4N,AKQxxxx !C
+1C--3N--4D--,4H,1 Control extra
+1C--3N--4D--,4S,2 Controls extra
+1C--3N--4D--,4N,3 Controls extra
+1C--4C--,4D,Asks for shortness
+1C--4C--,4H,Accepts transfer
+1C--4C--,4S,Kickback for !H
+1C--4C--4D--,4S,!S Shortage
+1C--4C--4D--,4N,!D shortage
+1C--4C--4D--,5C,!C shortage
+1C--4C--4S--,4N,1 key card
+1C--4C--4S--,5C,0 key cards
+1C--4C--4S--,5D,1 key card with Q!H
+1C--4D--,4H,Asks for shortness
+1C--4D--,4S,Accepts transfer
+1C--4D--,4N,Kickback for !S
+1C--4D--4H--,4N,!H shortage
+1C--4D--4H--,5C,!C shortage
+1C--4D--4H--,5D,!D shortage
+1C--4D--4N--,5C,1 key card
+1C--4D--4N--,5D,0 key cards
+1C--4D--4N--,5H,1 key card with Q!S
+1CDbl,--,0-4 HCP Negative:
+1CDbl,1D,5-7 HCP NO 4-card Major.
+1CDbl,1H,8+ HCP POSITIVE: System ON:
+1CDbl,Rdbl,5-7 HCP 1 or more 4-card MPenalty oriented.
+1C1H,--, 
+1C1H,Dbl,8+ HCP Positive (b) Cue Later = 5-Card Suit (Theirs); (C) NT Balanced Wo Stop
+1C1H,1S,Transfer to 1NT
+1C1H,1N,Transfer to 1NT
+1C1H,2C,Transfer to 2!D
+1C1H,2D,Transfer to 2!H;Stayman W Stop; Or 3NT = No Stop
+1C1H,2H,Transfer to 2!S
+1C1H,2S,A & G.F.: Both minors
+1C1H,2N,11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C1S,--, 
+1C1S,Dbl,8+ HCP Positive (B) Cue Later = 5-Card Suit (Theirs); (C) NT Balanced Wo Stop
+1C1S,1N,Transfer to 1NT
+1C1S,2C,Transfer to 2!D
+1C1S,2D,Transfer to 2!H;Stayman W Stop; Or 3NT = No Stop
+1C1S,2H,Transfer to 2!S
+1C1S,2S,A & G.F.: Both minors
+1C1S,2N,11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2C,--, 
+1C2C,Dbl,8+ HCP Positive (B) Cue Later = 5-Card Suit (Theirs); (C) NT Balanced Wo Stop
+1C2C,2D,Transfer to 2!H;Stayman W Stop; Or 3NT = No Stop
+1C2C,2H,Transfer to 2!S
+1C2C,2S,A & G.F.: Both minors
+1C2C,2N,11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2D,--, 
+1C2D,Dbl,8+ HCP Positive (B) Cue Later = 5-Card Suit (Theirs); (C) NT Balanced Wo Stop
+1C2D,2H,Transfer to 2!S
+1C2D,2S,A & G.F.: Both minors
+1C2D,2N,11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2H,--, 
+1C2H,Dbl,8+ Hcp Positive (B) Cue Later = 5-Card Suit (Theirs); (C) NT Balanced Wo Stop
+1C2H,2S,A & G.F.: Both minors
+1C2H,2N,11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2H,3C,8+ HCP Transfer To 3!D.
+1C2H,3D,8+ HCP Transfer TO 3!H.
+1C2H,3H,8+ HCP Transfer To 3!S.
+1C2H,3S,8+ HCP Both minors; G.F.
+1C2H,3N,8+; To Play.
+Option
+1D,--, 
+1D--,1H,6+HCP
+1D--,1S,6+HCP
+1D--,1N,8-11HCP; Perhaps 6-7 if shortage.
+1D--,2C,Forcing to game 
+1D--,2D,4+!D; 6-9 HCP; unsuitable for 1NT; Usually singleton or 5+!D; Unbalanced.
+1D--,2H,12+HCP; 5 Major (!Sor!H)
+1D--,2S,4!D+5!C
+1D--,2N,16+HCP;
+1D--,3C,6+!C; 10-11HCP; G.I.
+1D--,3D,6+!D; 10-11 HCP; G.I.No 3 card majors.
+1D--,3H,12 HCP; Fit Jump; 4+!D.
+1D--,3S,10-11 HCP; Fit Jump; 4+!D.
+1D--,3N,14-15HCP; 3 cards in each major(Allows for canape)
+1D--,4N,Regular Blackwood for aces only; 1430
+1D--2C--,2D,No canape & unbalanced.
+1D--2C--,2H,5!H and 4!D canape
+1D--2C--,2S,5!S and 4!D canape
+1D--2C--,2N,Balanced; 11-13 or 14-16
+1D--2C--,3C,4!D and 5!C
+1D--2H--,2S,Canape
+1D--2H--,2N,Which Major?
+1D--2H--,3C,5-4 either way in the minors & no 3M
+1D--2H--,3D,5+!D. and no 3M;
+1D--2H--,3H,5+!H; canape
+1D--2H--,3S,5+!S; canape
+1D--2H--,3N,AKQxxx(x) No 3M
+1D--2H--2N--,3C,5!H
+1D--2H--2N--,3D,5!S
+1D--2H--2N--,3H,6!H
+1D--2H--2N--,3S,6!S
+1D--2H--2N--,3N,AKQxxx
+1D--2H--2N--,4C,7card !H
+1D--2H--2N--,4D,7card !S
+1D--2H--2N--,4H,8!H
+1D--2H--2N--,4S,8!S
+1D--2N--,3C,Stayman
+1D--2N--3C--,3D,Bidding up the line; May have 4 card major.
+1D--2N--3C--,3H,Bidding up the line;May have 4 card !S.
+1D--2N--3C--,3S,4!S; denies 4!H/4!D
+1D--2N--3C--,3N,Denies 4!S/4!H/4!D.
+1D--2N--3C--3D--,3H,4 cards
+1D--2N--3C--3D--,3S,4 cards ; denies 4 card !H.
+1D--2N--3C--3D--,3N,Denies both majors.
+1D--2N--3C--3D--3H--,3S,4 cards and denies 4 cards !H.
+1D--2N--3C--3D--3H--,3N,Denies 4 card !S and !H.
+1D--2N--3C--3D--3S--,3N,Denies 4!S.
+1D--2N--3C--3H--,3S,4!S
+1D--2N--3C--3H--,3N,Denies 4!H/4!S.
+1D--2N--3C--3H--,4H,4!H.
+1D--2N--3C--3S--,3N,Denies 4!S and To Play.
+1D--2N--3C--3S--,4S,4!S
+1D--3C--,3H,Canape and G.I.
+1D--3C--,3S,Canape and G.I.
+1D--3D--,3H,Canape 6!H-4!D
+1D--3D--,3S,Canape 6!S-4!D
+Option
+1H,--, 
+1H--,1S,8-11HCP
+1H--,1N,Asks pd to further describe the hand.
+1H--,2C,G.F. & Suit Inquiry
+1H--,2D,About 10 pts. and 5+!D; Opener can pass.
+1H--,2H,6-9 hcp
+1H--,2S,6!S; or 5!S3!Hxx;or Good !H Support
+1H--,2N,Game invite with 4!H.
+1H--,3C,Game invite; 4!H and 5 card !C
+1H--,3D,Game invite; 4!H and 5 card !D
+1H--,3H,4!H and 3 cover cards.eg: Qxxx+A+K
+1H--,3S,Fit Jump; 4!H and 5!S and GF
+1H--,3N,13-15hcp; 2-3!H and 44
+1H--,4C,Fit Jump; !C KQxxx and 4!H & G.F.
+1H--,4D,Fit Jump; !D KQxxx and 4!H & G.F.
+1H--,4H,2 way; G.F.: Balanced / Semi-Balanced hand or pre-emptive
+1H--1S--,1N,Natural
+1H--1S--,2C,canape; 4!H-5!C
+1H--1S--,2D,canape; 4!H-5!D
+1H--1S--,2H,6!H / maybe 5!H & 4!C & Minimum
+1H--1S--,2S,Reverse: 5!H & 4!S & Minimum
+1H--1S--,2N,5!H; 4!C & Maximum: 15-16 hcp
+1H--1S--,3C,canape; 4!H-6!C; max
+1H--1N--,2C,4!H-5!C canape
+1H--1N--,2D,4!H-5!D canape
+1H--1N--,2H,6!H or 5!H and 4!C and minimum
+1H--1N--,2S,5!H and 4!S and minimum
+1H--1N--,2N,canape; 5!H-4!C; max; 15-16hcp
+1H--2C--,2D,All other hands that would not fit for other calls.
+1H--2C--,2H,4!H+5!C
+1H--2C--,2S,4!H+5!D
+1H--2C--,2N,4!H+6!C
+1H--2C--,3C,4!H+6!D
+1H--2C--,3D,5!H+4!S
+1H--2C--,3H,6!H
+1H--2C--,3S,6!H+5!S
+1H--2D--,--,minimum hand & xx!D
+1H--2D--,2S,max
+1H--2D--,2N,To Play.
+1H--2D--,3C,Max
+1H--2H--,2S,GAME TRY.
+1H--2H--,2N,Short suit game try. for !S.
+1H--2H--,3C,Short suit game try. for !C.
+1H--2H--,3D,Short suit game try. for !D.
+1H--2H--,3H,Power game try. Ususally 6-losers
+1H--2S--,2N,minimum hands
+1H--2S--,3C,Some canape
+1H--2S--,3D,Good !H hand
+1H--2S--,3H,moderate !H hand
+1H--2S--,3S,Good hand for !S
+1H--2S--,3N,Probably 1=4=4=4
+1H--2S--2N--,3C,Natural & 4+
+1H--2S--2N--,3D,Natural & 4+
+1H--2S--2N--,3H,5=3=x=x
+1H--2S--2N--,3S,single suited !S
+1H--2S--2N--,3N,Signoff 
+1H--2S--2N--,4C,5332
+1H--2S--2N--,4D,5323
+1H--2S--2N--4C--,4N,To Play.
+1H--2S--2N--4D--,4N,To Play.
+1H--2S--3C--,3D,Asking for Canape?
+1H--2S--3C--3D--,3H,5-6!C
+1H--2S--3C--3D--,3S,5-6!D + NO !C stopper
+1H--2S--3C--3D--,3N,5-6!D + A !C stopper
+1H--2N--,3C,5 losers; G.F.
+1H--2N--,3D,6 losers; G.I.
+1H--2N--,3H,7-8 losers
+1H--2N--,3S,55 or 64 in majors; 5 losers; GF
+1H--2N--,3N,15-16HCP; 4333 or 4432 with Hx in 2; alternate contract
+1H--2N--,4C,Canape; slam interest; 2nd suit;5 losers
+1H--2N--,4D,Canape; slam interest; 2nd suit;5 losers
+1H--2N--,4H,Full opener; 5 losers. No slam interest
+1H--2N--3C--,3D,cue-bid and slam interest
+1H--2N--3C--,3S,cue-bid and slam interest
+1H--2N--3C--,4C,cue-bid and slam interest
+Option
+1S,--, 
+1S--,1N,Asks pd to further describe the hand.
+1S--,2C,G.F. & !S Suit Inquiry
+1S--,2D,About 10 pts. and 5+!D; Opener can pass.
+1S--,2H,About 10 pts. and 5+!H; Opener can pass.
+1S--,2S,6-9 HCP
+1S--,2N,Game invite with 4!S.
+1S--,3C,Game invite; 4!S and 5 card !C
+1S--,3D,Game invite; 4!S and 5 card !D
+1S--,3H,Fit Jump; 4!S and 5!H and GF
+1S--,3S,4!S and 3 cover cards.eg: Qxxx+A+K
+1S--,3N,13-15hcp; 2-3!S and 44
+1S--,4C,Fit Jump; !C KQxxx and 4!S & G.F.
+1S--,4D,Fit Jump; !D KQxxx and 4!S & G.F.
+1S--,4S,2 way; G.F.: Balanced / Semi-Balanced hand or pre-emptive
+1S--1N--,2C,4!S-5!C canape
+1S--1N--,2D,4!S-5!D canape
+1S--1N--,2H,4!S-5!H canape
+1S--1N--,2S,6!S or 5!S and 4!C and minimum
+1S--1N--,2N,canape; 5!S-4!C; max; 15-16hcp
+1S--2C--,2D,All other hands that would not fit for other calls.
+1S--2C--,2H,4!S+5!C
+1S--2C--,2S,4!S+5!D
+1S--2C--,2N,4!S+6!C
+1S--2C--,3C,4!S+6!D
+1S--2C--,3D,5!S+4!H
+1S--2C--,3H,5!S+5!H
+1S--2C--,3S,6!S
+1S--2D--,--,minimum hand & xx!D
+1S--2D--,2H,minimum
+1S--2D--,2S,minimum
+1S--2D--,2N,To Play.
+1S--2D--,3C,Max
+1S--2H--,--,minimum hand & xx!D
+1S--2H--,2S,minimum
+1S--2H--,2N,To Play.
+1S--2H--,3C,Max
+1S--2S--,--,minimum; 7-8 losers
+1S--2S--,2N,artficial game try.
+1S--2S--,3C,Short suit game try. for !C.
+1S--2S--,3D,Short suit game try. for !D.
+1S--2S--,3H,Short suit game try. for !H.
+1S--2S--,3S,Power game try. Ususally 6-losers
+1S--2N--,3C,5 losers; G.F.
+1S--2N--,3D,6 losers; G.I.
+1S--2N--,3H,7-8 losers
+1S--2N--,3S,55 or 64 in majors; 5 losers; GF
+1S--2N--,3N,15-16HCP; 4333 or 4432 with Hx in 2; alternate contract
+1S--2N--,4C,Canape; slam interest; 2nd suit;5 losers
+1S--2N--,4D,Canape; slam interest; 2nd suit;5 losers
+1S--2N--,4H,Full opener; 5 losers. No slam interest
+1S--2N--3C--,3D,cue-bid and slam interest
+1S--2N--3C--,3S,cue-bid and slam interest
+1S--2N--3C--,4C,cue-bid and slam interest
+Option
+2C,--, 
+2C--,2D,8+HCP; 5+!H; Playable at 3 level.
+2C--,2H,8+HCP; 5+!S; Playable at 3 level.
+2C--,2S,8+HCP; 6+!D; Playable at 3 level.
+2C--,2N,10-11 HCP.GI; or 12+ & G.F.
+2C--,3C,8-10HCP.
+2C--,3D,6+!D; Support asking bid (2 cards)
+2C--,3H,6+!H; Support asking bid (2 cards)
+2C--,3S,6+!S; Support asking bid (2 cards)
+2C--,3N,To Play.
+2C--,4C,4+!C
+2C--2D--,2H,2+!H
+2C--2D--,2S,0-1!H; !S stopper and maximum.
+2C--2D--,2N,0-1!H; !D stopper and maximum
+2C--2D--,3C,0-1!H; 6+!C; minimum
+2C--2D--,3H,3+!H; maximum
+2C--2D--,3N,AKQxxx!C
+2C--2D--2H--,--,To Play.
+2C--2D--2H--,2S,55 in majors
+2C--2D--2H--,2N,5!H. Balanced
+2C--2D--2H--,3C,5!H+3!C
+2C--2D--2H--,3D,5!H+5!D
+2C--2D--2H--,3H,6!H
+2C--2D--2H--,3S,6!H+5!S
+2C--2D--2H--,3N,5!H.
+2C--2D--2H--,4C,5!H+4!C
+2C--2D--2H--,4D,5!H+5!D
+2C--2D--2H--,4H,6!H
+2C--2H--,2N,0-1!S and maximum
+2C--2H--,3C,0-1!S and minimum
+2C--2S--,2N,0-3!D and maximum
+2C--2S--,3C,0-1!D and minimum
+2C--2S--,3D,2+!D and minimum
+2C--2N--,3C,Minimum
+2C--2N--,4C,minorwood 1430
+2C--2N--3C--,4C,minorwood 1430
+2C--2N--3C--4C--,4D,1 or 4 keycards
+2C--2N--3C--4C--,4H,3 or 0 keycards
+2C--2N--3C--4C--,4S,2 key cards with no Q!C.
+2C--2N--3C--4C--,4N,2 key cards with Q!C.
+2C--2N--3C--4C--,5C,2 key cards with Q!C and K.
+2C--2N--4C--,4D,1 or 4 keycards
+2C--2N--4C--,4H,3 or 0 keycards
+2C--2N--4C--,4S,2 key cards with no Q!C.
+2C--2N--4C--,4N,2 key cards with Q!C.
+2C--2N--4C--,5C,2 key cards with Q!C and outside K.
+2C--2N--4C--4D--,4H,Asking Q!C?
+2C--2N--4C--4D--4H--,4S,No Q!C
+2C--2N--4C--4D--4H--,4N,Yes Q!C.
+2C--2N--4C--4D--4H--,5D,Yes Q!C with K!D.
+2C--2N--4C--4D--4H--,5H,Yes Q!C with K!H
+2C--2N--4C--4D--4H--,5S,Yes Q!C with K!S
+2C--3D--,3H,0-1!D
+2C--3D--,3S,2!D and 1-2 controls
+2C--3D--,3N,2+!D and 3 controls
+2C--3H--,3S,0-1 !H
+2C--3H--,3N,2+!H and 1-2 controls
+2C--3H--,4C,2+!H and 3 controls
+2C--3S--,3N,0-1!S
+2C--3S--,4C,2+!S and 0-2 controls
+2C--3S--,4D,2+!S and 3 controls
+Option
+2D,--, 
+2D--,2H,6+!H; Natural; 10-11HCP; & Non forcing. or 8+with !D (Hxx) support.
+2D--,2S,6+!S;10-11HCP; & Non forcing.or 8+with (Hxx)!D support.
+2D--,2N,Natural; 10-11HCP with G.I.+with !D (Hxx) support.Or 12+HCP & GF
+2D--,3C,0-1!D. and Long !C; non forcing.
+2D--,3D,Preemptive
+2D--,3H,GF; support asking bid (2 cards)
+2D--,3S,GF; support asking bid (2 cards)
+2D--,3N,To Play.
+2D--,4C,Splinter; Agreeing !D suit
+2D--,4D,Preemptive
+2D--,4H,Splinter; Agreeing !D suit
+2D--,4S,Splinter; Agreeing !D suit
+2D--,4N,Regular Blackwood for Aces only
+2D--,5C,To Play.
+2D--,5D,To Play.
+2D--2H--,--,pass Hx/xx & minimum
+2D--2H--,2S,(HX)!S & xx in !H & MAXIMUM:2263 / 2164 / 2173
+2D--2H--,2N,14-15 HCP; !C & !S Stoppers
+2D--2H--,3C,14-15 HCP; !C Stoppers and No !S stopper.
+2D--2H--,3D,0-1!H. & 6!D.: KQJxxxx+
+2D--2H--,3H,2!H. & 6!D max; 2263
+2D--2H--,3N,AKQxxx(x)!D & 6(7)222+ with K or Q in 2 suits outside of !C suit.
+2D--2S--,--,pass Hx/xx & minimum
+2D--2S--,2N,14-15 HCP; !C & !H Stoppers
+2D--2S--,3C,14-15 HCP; !C Stoppers and No !H stopper.
+2D--2S--,3D,0-1!S & 6!D: KQJxxxx+
+2D--2S--,3S,2!S & 6!D max; 2263
+2D--2S--,3N,AKQxxx(x)!D & 6(7)222+ with K or Q in 2 suits outside of !D suit.
+2D--2N--,3C,Max with !C stopper and only 1 Major stopper
+2D--2N--,3D,Minimum
+2D--2N--,3H,Max with !H stopper
+2D--2N--,3S,Max with !S stopper
+2D--2N--,3N,accepts with 14+HCP
+2D--2N--3D--,4D,minorwood 1430
+2D--2N--3D--4D--,4H,1 or 4 keycards
+2D--2N--3D--4D--,4S,0 or 3 key cards
+2D--2N--3D--4D--,4N,2 key cards with no Q!D.
+2D--2N--3D--4D--,5C,2 key cards with Q!D.
+2D--2N--3D--4D--,5D,2 key cards with Q!D and outside K.
+2D--3H--,3S,0-1 !H
+2D--3H--,3N,2!H and 0-2 controls
+2D--3H--,4C,2!H and 3 controls
+2D--3H--,4D,2!H and 4 controls
+2D--3H--,4H,2!H and 5 controls
+2D--3S--,3N,(0-1)!S
+2D--3S--,4C,2!S and 1-2 controls
+2D--3S--,4D,2!S and 3 controls
+2D--3S--,4H,2!S and 4 controls
+2D--3S--,4S,2!S and 5 controls
+2D--4N--,5C,0-4 Aces.
+2D--4N--,5D,1 ACE.
+2D--4N--,5H,2 ACES.
+2D--4N--,5S,3 ACES.
+Option
+2H,--, 
+2H--,--,Also; Ususally pass with 1!H with 5+!S
+2H--,2S,5+!S; Natural; 9+HCP;Non forcing.
+2H--,2N,Forced to bid 3!C. (strong or weak)
+2H--,3C,Natural.10-11 HCP; Game Invitational.
+2H--,3D,Natural.10-11 HCP; Game Invitational.
+2H--,3H,Natural.10-11 HCP; Game Invitational.
+2H--,3S,Natural.10-11 HCP; Game Invitational.
+2H--,3N,To Play.
+2H--,4C,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2H--,4D,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2H--,4H,To Play.
+2H--,4S,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2H--,4N,Blackwood for aces only 1430
+2H--2S--,2N,Signoff 
+2H--2S--,3H,Signoff 
+2H--2S--,3N,Signoff 
+2H--2N--,3C,Forced to bid.
+2H--2N--3C--,--,<10 HCP; 6+!C. TO PLAY & 0-1!H.
+2H--2N--3C--,3D,<10 HCP 6+!D. To Play & 0-1!H.
+2H--2N--3C--,3H,12+HCP; 3+!H. GF; BETA
+2H--2N--3C--,3S,12+HCP 5+!S. G.F.3 cards Support asking bid.
+2H--2N--3C--,3N,12+HCP 6+!S. G.F.Beta.
+2H--2N--3C--,4C,12+HCP 6+!C. G.F.3 cards Support asking bid.
+2H--2N--3C--,4D,12+HCP 6+!D. G.F.3 cards Support asking bid.
+2H--2N--3C--3H--,3S,1-2 Controls.
+2H--2N--3C--3H--,3N,3 Controls.
+2H--2N--3C--3H--,4C,4 Controls.
+2H--2N--3C--3H--,4D,5 Controls.
+2H--2N--3C--3S--,3N,xx in !S
+2H--2N--3C--3S--,4C,3!S and 1-2 controls
+2H--2N--3C--3S--,4D,3!S and 3 controls
+2H--2N--3C--3S--,4H,3!S and 4 controls
+2H--2N--3C--3S--,4S,3!S and 5 controls
+2H--2N--3C--3N--,3N,xx in !S
+2H--2N--3C--3N--,4C,1-2 controls
+2H--2N--3C--3N--,4D,3 controls
+2H--2N--3C--3N--,4H,4 controls
+2H--2N--3C--3N--,4S,5 controls
+2H--2N--3C--4C--,4D,2!C
+2H--2N--3C--4C--,4H,3!C+1-2 Controls
+2H--2N--3C--4C--,4S,3!C+ 3 Controls
+2H--2N--3C--4C--,4N,3!C+ 4 Controls
+2H--2N--3C--4C--,5C,3!C+ 5 Controls
+2H--2N--3C--4D--,4H,2!D
+2H--2N--3C--4D--,4S,3!D+ 1-2 Controls
+2H--2N--3C--4D--,4N,3!D+ 3 Controls
+2H--2N--3C--4D--,5C,3!D+ 4 Controls
+2H--2N--3C--4D--,5D,3!D+ 5 Controls
+2H--3C--,--,Minimum hand.
+2H--3C--,3D,Cheapest Stopper Looking For 3NT: Maximum Hand
+2H--3C--,3H,AKQXX & Weak Doubleton &14-15 HCP
+2H--3C--,3S,cheapest Stopper Looking For 3nt: Maximum Hand
+2H--3C--,3N,To Play. Good !C's and max.
+2H--3D--,--,Minimum hand.
+2H--3D--,3H,AKQXX & Weak Doubleton &14-15 HCP
+2H--3D--,3S,cheapest Stopper Looking For 3nt: Maximum Hand
+2H--3D--,3N,To Play. Good !D's and max.
+2H--4N--,5C,1 or 4 Aces only
+2H--4N--,5D,0 or 3 Aces only.
+2H--4N--,5H,2 Aces with out Q!H
+2H--4N--,5S,2 Aces with Q!H
+Option
+2S,--, 
+2S--,--,Also; Ususally pass with 1!H with 5+!S
+2S--,2N,Forced to bid 3!C. (strong or weak)
+2S--,3C,Natural.10-11 HCP; Game Invitational.
+2S--,3D,Natural.10-11 HCP; Game Invitational.
+2S--,3H,Natural.10-11 HCP; Game Invitational.
+2S--,3S,Natural.10-11 HCP; Game Invitational.
+2S--,3N,To Play. 12+HCP
+2S--,4C,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2S--,4D,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2S--,4H,Splinter 12+ HCP Slam interest.Ask for Cuebid to accept.
+2S--,4S,To Play.
+2S--,4N,Blackwood for aces only 1430
+2S--2N--,3C,Forced.
+2S--2N--3C--,--,<10 HCP; 6+!C. TO PLAY & 0-1!S.
+2S--2N--3C--,3D,<10 HCP 6+!D. TO PLAY & 0-1!S.
+2S--2N--3C--,3H,<10 HCP 6+!H. TO PLAY & 0-1!S.
+2S--2N--3C--,3S,12+HCP 3+!S. G.F.Beta
+2S--2N--3C--,3N,12+HCP; 5+!H. G.F.support asking bid (3 cards)
+2S--2N--3C--,4C,12+HCP; 5+!C. G.F.support asking bid (3 cards)
+2S--2N--3C--,4D,12+HCP; 5+!D. G.F.Suit asking bid (3 cards)
+2S--2N--3C--,4H,Signoff 
+2S--2N--3C--,4S,Signoff 
+2S--2N--3C--,4N,Signoff 
+2S--2N--3C--3S--,3N,1-2 controls
+2S--2N--3C--3S--,4C,3 controls
+2S--2N--3C--3S--,4D,4 controls
+2S--2N--3C--3S--,4H,5 controls
+2S--2N--3C--3N--,4C,2 card !Hs
+2S--2N--3C--3N--,4D,3!H and 1-2 Controls
+2S--2N--3C--3N--,4H,3!H and 3 Controls
+2S--2N--3C--3N--,4S,3!H and 4 Controls
+2S--2N--3C--3N--,4N,3!H and 5 Controls
+2S--2N--3C--4C--,4D,xx in !C.
+2S--2N--3C--4C--,4H,3!C and 1-2 Controls
+2S--2N--3C--4C--,4S,3!C and 3 Controls
+2S--2N--3C--4C--,4N,3!C and 4 Controls
+2S--2N--3C--4C--,5C,3!C and 5 Controls
+2S--2N--3C--4D--,4H,2 cards !D
+2S--2N--3C--4D--,4S,3!D and 1-2 Controls
+2S--2N--3C--4D--,4N,3!D and 3 Controls
+2S--2N--3C--4D--,5C,3!D and 4 Controls
+2S--2N--3C--4D--,5D,3!D and 5 Controls
+2S--3C--,--,Minimum hand.
+2S--3C--,3D,CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3C--,3H,CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3C--,3S,AKQXX & WEAK DOUBLETON &14-15 HCP
+2S--3C--,3N,To Play. Good !C's and max.
+2S--3D--,--,Minimum hand.
+2S--3D--,3H,CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3D--,3S,AKQXX & WEAK DOUBLETON &14-15 HCP
+2S--3D--,3N,To Play. Good !D's and max.
+2S--3H--,3S,minimum
+2S--4N--,5C,1 or 4 Aces only
+2S--4N--,5D,0 or 3 Aces only.
+2S--4N--,5H,2 Aces with out Q!S
+2S--4N--,5S,2 Aces with Q!S
+Option
+2N,--, 
+2N,Dbl, 
+2N--,3C,To Play.
+2N--,3D,To Play.
+2N--,3H,11+HCP; GF or Slam interest.Asks pd to further describe the hand.
+2N--,3S,Slam interest; which is better minor?
+2N--,3N,11-14HCP; To Play. stoppers in majors.
+2N--,4C,Asks to bid game if max?
+2N--,4D,Asks to bid game if max?
+2N--,4H,Control asking bid?
+2N--,4S,Control asking bid?
+2N--3H--,3S,1=2=5=5
+2N--3H--,3N,2=1!H=5=5
+2N--3H--,4C,1156
+2N--3H--,4D,1165
+2N--3H--,4H,0=3=5=5
+2N--3H--,4S,3=0=5=5
+2N--3H--,4N,1066 or 0166
+2N--3S--,3N,!C accept
+2N--3S--,4C,!D accept
+2N--3S--3N--,4C,Betacontrol asking bid
+2N--3S--3N--4C--,4D,1-2 Control
+2N--3S--3N--4C--,4H,3 Controls
+2N--3S--3N--4C--,4S,4 Controls
+2N--3S--4C--,4D,Betacontrol asking bid
+2N--3S--4C--4D--,4H,1-2 Controls
+2N--3S--4C--4D--,4S,3 Controls
+2N--3S--4C--4D--,4N,4 Controls
+2N--4H--,4S,No !H control.
+2N--4H--,4N,K!H
+2N--4H--,5C,A!H and none
+2N--4H--,5D,AK or AQ!H.
+2N--4S--,4N,No !S Control.
+2N--4S--,5C,K!S
+2N--4S--,5D,A!S and none
+2N--4S--,5H,AK or AQ!S
+2NDbl,--,willing to play !C.
+2NDbl,Rdbl,For penalty
+2NDbl,3C,To Play.
+2NDbl,3D,To Play.
+Option
+4C,--, 
+4C--,4D,Slam try. Asking outside controls?
+4C--4D--,4H,No controls.
+4C--4D--,4S,Ace or void.
+4C--4D--,4N,Outside King.
+4C--4D--,5C,Ace or void.
+4C--4D--,5D,Ace or void.
+4C--4D--4N--,5C,Which King?
+4C--4D--4N--5C--,5D,K!D.
+4C--4D--4N--5C--,5H,K!C.
+4C--4D--4N--5C--,5S,K!S.
+Option
+4D,--, 
+4D--,4H,Slam try. Asking outside controls?
+4D--4H--,4S,No controls.
+4D--4H--,4N,Outside King.
+4D--4H--,5C,Ace or void.
+4D--4H--,5D,Ace or void.
+4D--4H--,5H,Ace or void.
+4D--4H--4N--,5C,Which King?
+4D--4H--4N--5C--,5D,K!D.
+4D--4H--4N--5C--,5H,K!H.
+4D--4H--4N--5C--,5S,K!C.
+Option
+4H,--, 
+4H--,4S,RKCB for !H as trumps.
+4H--,4N,1st round control of !S and asking for Cue-bids.
+4H--,5C,Cue-bid. 1st round control.
+4H--,5D,Cue-bid. 1st round control.
+4H--,5H,Asking to bid 6!H with good trumps.
+4H--,5N,Grand slam force.
+4H--5H--,--,2 and more trump losers.
+4H--5H--,5S,2nd round control and No trump losers.
+4H--5H--,6C,2nd round control and No trump losers.
+4H--5H--,6D,2nd round control and No trump losers.
+4H--5H--,6H,1 trump loser.
+4H--5N--,6C,Only 1 of the top 2 trump honors.
+4H--5N--,6D,Missing A or K(has 2 / 3 trump honors).
+4H--5N--,6H,A&K!H and missing Q!H.
+4H--5N--,6S,AKQ......!H trumps.
+Option
+4S,--, 
+4S--,4S,RKCB for !H as trumps.
+4S--,4N,RKCB for !S as trumps.
+4S--,5C,Cue-bid. 1st round control.
+4S--,5D,Cue-bid. 1st round control.
+4S--,5H,Asking to bid 6!H with good trumps.
+4S--,5S,Asking to bid 6!S with good trumps.
+4S--,5N,Grand slam force.
+4S--5H--,--,2 and more trump losers.
+4S--5H--,5S,2nd round control and No trump losers.
+4S--5H--,6C,2nd round control and No trump losers.
+4S--5H--,6D,2nd round control and No trump losers.
+4S--5H--,6H,1 trump loser.
+4S--5S--,--,2 and more trump losers.
+4S--5S--,6C,2nd round control and No trump losers.
+4S--5S--,6D,2nd round control and No trump losers.
+4S--5S--,6H,2nd round control and No trump losers.
+4S--5S--,6S,1 trump loser
+4S--5N--,6C,Only 1 of the top 2 trump honors.
+4S--5N--,6D,Missing A or K(has 2 / 3 trump honors).
+4S--5N--,6H,A&K!S and missing Q!S.
+4S--5N--,6S,AKQ......!S trumps.
+Option,1NT 14-16p @v
+1N,--, 
+1N--,--,To Play.
+1N--,2C,Asks partner to bid 2!D
+1N--,2D,Transfer to 2!HOr game invite with 44-45-55 majors
+1N--,2H,Transfer to 2!SOr game invite with 44-45-55 majors
+1N--,2S,Range asking bid?Invitation to game/slam with one 5 card suit and no 4 card suit.
+1N--,2N,Transfer to 3!C
+1N--,4C,Transfer to 4!H
+1N--,4D,Transfer to 4!S
+1N--2C--,2D,Forced to bid 2!D
+1N--2C--2D--,--,To Play.
+1N--2C--2D--,2H,Invite game with 4+ card suit4-5 in majors
+1N--2C--2D--,2S,Invite game with 4+ card suit
+1N--2C--2D--,2N,Asking bid 
+1N--2C--2D--,3C,Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3D,Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3H,Force to game with a5-card !D Minor & a 4-card Major
+1N--2C--2D--,3S,Force to game with a5-card !D Minor & a 4-card Major
+1N--2C--2D--,3N,5332 and slam interest
+1N--2C--2D--2N--,3C,No 4 card major
+1N--2C--2D--2N--,3H,!H
+1N--2C--2D--2N--,3S,!S
+1N--2CDbl,--,No !C Stopper
+1N--2CDbl,2D,Forced to bid 2!D and !C stopper
+1N--2CDbl----,Rdbl,system on
+1N--2D--,2H,Forced to bid 2!H
+1N--2D--2H--,--,To Play.
+1N--2D--2H--,2S,Invite game with majors (4-4)
+1N--2D--2H--,2N,Force to game with Major minor 5-4 or better
+1N--2D--2H--,3C,Force to game with Major minor 5-5 or better
+1N--2D--2H--,3D,Force to game with Major minor 5-5 or better
+1N--2D--2H--,3H,Invite game with 6 card suit
+1N--2D--2H--,3S,Force to game with Both Majors 5-4 or better
+1N--2D--2H--,3N,5332
+1N--2D--2H--,4H,Force to game with one 6-card suit & no 4-card suit
+1N--2DDbl,--,2 card support; No !D Stopper.
+1N--2DDbl,Rdbl,Any hand with !H support and system on.
+1N--2DDbl,2H,Accept transfer; !D Stopper.
+1N--2H--,--,2 card support; No !H Stopper.
+1N--2H--,Rdbl,any hand with !H support and system on.
+1N--2H--,2S,Forced to bid 2!S
+1N--2H--2S--,--,To Play.
+1N--2H--2S--,2N,Force to game with Major minor 5-4 or better
+1N--2H--2S--,3C,Force to game with Major minor 5-5 or better
+1N--2H--2S--,3D,Force to game with Major minor 5-5 or better
+1N--2H--2S--,3H,Force to game with Both Majors 5-4 or better
+1N--2H--2S--,3S,Invite game with 6 card suit
+1N--2H--2S--,3N,5332
+1N--2H--2S--,4H,Force to game with Both Majors 5-5 or better
+1N--2H--2S--,4S,Force to game with one 6-card suit & no 4-card suit
+1N--2HDbl,--,2 card support; No !H Stopper.
+1N--2HDbl,Rdbl,Any hand with !S support and system on.
+1N--2HDbl,2S,Accept transfer; 2 card support; !H stopper.
+1N--2S--,2N,Minimum
+1N--2S--,3C,maximum
+1N--2S--2N--,--,To Play.
+1N--2S--2N--,3C,5+!C and No 4 card suit.
+1N--2S--2N--,3D,5+!D and No 4 card suit.
+1N--2S--2N--,3H,RKCB for !H
+1N--2S--2N--,3S,RKCB for !S
+1N--2S--2N--,3N,To Play.
+1N--2S--2N--,4C,RKCB for !C
+1N--2S--2N--,4D,RKCB for !D.
+1N--2S--2N--3H--,3S,1 or 4 Key cards.
+1N--2S--2N--3H--,3N,0 or 3 Key cards.
+1N--2S--2N--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--2N--3H--,4D,2 Key cards; and Q!H.
+1N--2S--2N--3S--,3N,1 or 4 Key cards.
+1N--2S--2N--3S--,4C,0 or 3 Key cards.
+1N--2S--2N--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--2N--3S--,4H,2 Key cards + Q!S.
+1N--2S--2N--4C--,4D,1 or 4 Key cards.
+1N--2S--2N--4C--,4H,0 or 3 Key cards.
+1N--2S--2N--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--2N--4C--,4N,2 Key cards; and Q!C.
+1N--2S--2N--4D--,4H,1 or 4 Key cards.
+1N--2S--2N--4D--,4S,0 or 3 Key cards.
+1N--2S--2N--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--2N--4D--,5C,2 Key cards; and Q!D.
+1N--2S--3C--,--,To Play.
+1N--2S--3C--,3D,5+!D and No 4 card suit.
+1N--2S--3C--,3H,RKCB for !H
+1N--2S--3C--,3S,RKCB for !S
+1N--2S--3C--,3N,To Play.
+1N--2S--3C--,4C,RKCB for !C
+1N--2S--3C--,4D,RKCB for !D.
+1N--2S--3C--3H--,3S,1 or 4 Key cards.
+1N--2S--3C--3H--,3N,0 or 3 Key cards.
+1N--2S--3C--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--3C--3H--,4D,2 Key cards; and Q!H.
+1N--2S--3C--3S--,3N,1 or 4 Key cards.
+1N--2S--3C--3S--,4C,0 or 3 Key cards.
+1N--2S--3C--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--3C--3S--,4H,2 Key cards + Q!S.
+1N--2S--3C--4C--,4D,1 or 4 Key cards.
+1N--2S--3C--4C--,4H,0 or 3 Key cards.
+1N--2S--3C--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--3C--4C--,4N,2 Key cards; and Q!C.
+1N--2S--3C--4D--,4H,1 or 4 Key cards.
+1N--2S--3C--4D--,4S,0 or 3 Key cards.
+1N--2S--3C--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--3C--4D--,5C,2 Key cards; and Q!D.
+1N--2N--,--,2 card support; No !C Stopper.
+1N--2N--,Rdbl,any hand with !H support and system on.
+1N--2N--,2S,Forced to bid 2!S
+1N--2N--,3C,Forced to bid 3!C.
+1N--2N--2S--,--,To Play.
+1N--2N--2S--,2N,Force to game with Major minor 5-4 or better
+1N--2N--2S--,3C,Force to game with Major minor 5-5 or better
+1N--2N--2S--,3D,Force to game with Major minor 5-5 or better
+1N--2N--2S--,3H,Force to game with Both Majors 5-4 or better
+1N--2N--2S--,3S,Invite game with 6 card suit
+1N--2N--2S--,3N,5332
+1N--2N--2S--,4H,Force to game with Both Majors 5-5 or better
+1N--2N--2S--,4S,Force to game with one 6-card suit & no 4-card suit
+1N--2N--3C--,--,To Play.
+1N--2N--3C--,3D,Force to game with Both minors 5-4 or better
+1N--2N--3C--,3H,Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3S,Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3N,5332 and slam interest
+1N--2NDbl,--,2 card support; No !C Stopper.
+1N--2NDbl,Rdbl,Any hand with !C support and system on.
+1N--2NDbl,2S,Accept transfer; 2 card support; !H stopper.
+1N--2NDbl,3C,Accept transfer 3!C.
+1N--4C--,4H,forced to bid 4!H
+1N--4C--4H--,4S,RKCB for !H
+1N--4C--4H--4S--,4N,1 or 4 Key cards.
+1N--4C--4H--4S--,5C,0 or 3 Key cards.
+1N--4C--4H--4S--,5D,2 Key cards ; NO Q!H.
+1N--4C--4H--4S--,5H,2 Key cards; and Q!H
+1N--4C--4H--4S--5H--,--,2 and more trump losers.
+1N--4D--,4S,forced to bid 4!S
+1N--4D--4S--,4N,RKCB for !S
+1N--4D--4S--4N--,5C,1 or 4 Key cards.
+1N--4D--4S--4N--,5D,0 or 3 Key cards.
+1N--4D--4S--4N--,5H,2 Key cards; NO Q!S.
+1N--4D--4S--4N--,5S,2 Key cards + Q!S.
+Option,1NT 11-13p @n
+1N,--, 
+1N--,--,To Play.
+1N--,2C,Asks partner to bid 2!D
+1N--,2D,Transfer to 2!HOr game invite with 44-45-55 majors
+1N--,2H,Transfer to 2!SOr game invite with 44-45-55 majors
+1N--,2S,Range asking bid?Invitation to game/slam with one 5 card suit and no 4 card suit.
+1N--,2N,Transfer to 3!C
+1N--,4C,Transfer to 4!H
+1N--,4D,Transfer to 4!S
+1N--2C--,2D,Forced to bid 2!D
+1N--2C--2D--,--,To Play.
+1N--2C--2D--,2H,Invite game with 4+ card suit4-5 in majors
+1N--2C--2D--,2S,Invite game with 4+ card suit
+1N--2C--2D--,2N,Asking bid 
+1N--2C--2D--,3C,Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3D,Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3H,Force to game with a5-card !D Minor & a 4-card Major
+1N--2C--2D--,3S,Force to game with a5-card !D Minor & a 4-card Major
+1N--2C--2D--,3N,5332 and slam interest
+1N--2C--2D--2N--,3C,No 4 card major
+1N--2C--2D--2N--,3H,!H
+1N--2C--2D--2N--,3S,!S
+1N--2CDbl,--,No !C Stopper
+1N--2CDbl,2D,Forced to bid 2!D and !C stopper
+1N--2CDbl----,Rdbl,system on
+1N--2D--,2H,Forced to bid 2!H
+1N--2D--2H--,--,To Play.
+1N--2D--2H--,2S,Invite game with majors (4-4)
+1N--2D--2H--,2N,Force to game with Major minor 5-4 or better
+1N--2D--2H--,3C,Force to game with Major minor 5-5 or better
+1N--2D--2H--,3D,Force to game with Major minor 5-5 or better
+1N--2D--2H--,3H,Invite game with 6 card suit
+1N--2D--2H--,3S,Force to game with Both Majors 5-4 or better
+1N--2D--2H--,3N,5332
+1N--2D--2H--,4H,Force to game with one 6-card suit & no 4-card suit
+1N--2DDbl,--,2 card support; No !D Stopper.
+1N--2DDbl,Rdbl,Any hand with !H support and system on.
+1N--2DDbl,2H,Accept transfer; !D Stopper.
+1N--2H--,--,2 card support; No !H Stopper.
+1N--2H--,Rdbl,any hand with !H support and system on.
+1N--2H--,2S,Forced to bid 2!S
+1N--2H--2S--,--,To Play.
+1N--2H--2S--,2N,Force to game with Major minor 5-4 or better
+1N--2H--2S--,3C,Force to game with Major minor 5-5 or better
+1N--2H--2S--,3D,Force to game with Major minor 5-5 or better
+1N--2H--2S--,3H,Force to game with Both Majors 5-4 or better
+1N--2H--2S--,3S,Invite game with 6 card suit
+1N--2H--2S--,3N,5332
+1N--2H--2S--,4H,Force to game with Both Majors 5-5 or better
+1N--2H--2S--,4S,Force to game with one 6-card suit & no 4-card suit
+1N--2HDbl,--,2 card support; No !H Stopper.
+1N--2HDbl,Rdbl,Any hand with !S support and system on.
+1N--2HDbl,2S,Accept transfer; 2 card support; !H stopper.
+1N--2S--,2N,Minimum
+1N--2S--,3C,maximum
+1N--2S--2N--,--,To Play.
+1N--2S--2N--,3C,5+!C and No 4 card suit.
+1N--2S--2N--,3D,5+!D and No 4 card suit.
+1N--2S--2N--,3H,RKCB for !H
+1N--2S--2N--,3S,RKCB for !S
+1N--2S--2N--,3N,To Play.
+1N--2S--2N--,4C,RKCB for !C
+1N--2S--2N--,4D,RKCB for !D.
+1N--2S--2N--3H--,3S,1 or 4 Key cards.
+1N--2S--2N--3H--,3N,0 or 3 Key cards.
+1N--2S--2N--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--2N--3H--,4D,2 Key cards; and Q!H.
+1N--2S--2N--3S--,3N,1 or 4 Key cards.
+1N--2S--2N--3S--,4C,0 or 3 Key cards.
+1N--2S--2N--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--2N--3S--,4H,2 Key cards + Q!S.
+1N--2S--2N--4C--,4D,1 or 4 Key cards.
+1N--2S--2N--4C--,4H,0 or 3 Key cards.
+1N--2S--2N--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--2N--4C--,4N,2 Key cards; and Q!C.
+1N--2S--2N--4D--,4H,1 or 4 Key cards.
+1N--2S--2N--4D--,4S,0 or 3 Key cards.
+1N--2S--2N--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--2N--4D--,5C,2 Key cards; and Q!D.
+1N--2S--3C--,--,To Play.
+1N--2S--3C--,3D,5+!D and No 4 card suit.
+1N--2S--3C--,3H,RKCB for !H
+1N--2S--3C--,3S,RKCB for !S
+1N--2S--3C--,3N,To Play.
+1N--2S--3C--,4C,RKCB for !C
+1N--2S--3C--,4D,RKCB for !D.
+1N--2S--3C--3H--,3S,1 or 4 Key cards.
+1N--2S--3C--3H--,3N,0 or 3 Key cards.
+1N--2S--3C--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--3C--3H--,4D,2 Key cards; and Q!H.
+1N--2S--3C--3S--,3N,1 or 4 Key cards.
+1N--2S--3C--3S--,4C,0 or 3 Key cards.
+1N--2S--3C--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--3C--3S--,4H,2 Key cards + Q!S.
+1N--2S--3C--4C--,4D,1 or 4 Key cards.
+1N--2S--3C--4C--,4H,0 or 3 Key cards.
+1N--2S--3C--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--3C--4C--,4N,2 Key cards; and Q!C.
+1N--2S--3C--4D--,4H,1 or 4 Key cards.
+1N--2S--3C--4D--,4S,0 or 3 Key cards.
+1N--2S--3C--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--3C--4D--,5C,2 Key cards; and Q!D.
+1N--2N--,--,2 card support; No !C Stopper.
+1N--2N--,Rdbl,any hand with !H support and system on.
+1N--2N--,2S,Forced to bid 2!S
+1N--2N--,3C,Forced to bid 3!C.
+1N--2N--2S--,--,To Play.
+1N--2N--2S--,2N,Force to game with Major minor 5-4 or better
+1N--2N--2S--,3C,Force to game with Major minor 5-5 or better
+1N--2N--2S--,3D,Force to game with Major minor 5-5 or better
+1N--2N--2S--,3H,Force to game with Both Majors 5-4 or better
+1N--2N--2S--,3S,Invite game with 6 card suit
+1N--2N--2S--,3N,5332
+1N--2N--2S--,4H,Force to game with Both Majors 5-5 or better
+1N--2N--2S--,4S,Force to game with one 6-card suit & no 4-card suit
+1N--2N--3C--,--,To Play.
+1N--2N--3C--,3D,Force to game with Both minors 5-4 or better
+1N--2N--3C--,3H,Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3S,Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3N,5332 and slam interest
+1N--2NDbl,--,2 card support; No !C Stopper.
+1N--2NDbl,Rdbl,Any hand with !C support and system on.
+1N--2NDbl,2S,Accept transfer; 2 card support; !H stopper.
+1N--2NDbl,3C,Accept transfer 3!C.
+1N--4C--,4H,Forced to bid 4!H
+1N--4C--4H--,4S,RKCB for !H
+1N--4C--4H--4S--,4N,1 or 4 Key cards.
+1N--4C--4H--4S--,5C,0 or 3 Key cards.
+1N--4C--4H--4S--,5D,2 Key cards ; NO Q!H.
+1N--4C--4H--4S--,5H,2 Key cards; and Q!H
+1N--4C--4H--4S--5H--,--,2 and more trump losers.
+1N--4D--,4S,Forced to bid 4!S
+1N--4D--4S--,4N,RKCB for !S
+1N--4D--4S--4N--,5C,1 or 4 Key cards.
+1N--4D--4S--4N--,5D,0 or 3 Key cards.
+1N--4D--4S--4N--,5H,2 Key cards; NO Q!S.
+1N--4D--4S--4N--,5S,2 Key cards + Q!S.
+
