@@ -66,7 +66,12 @@ BBOalert requires following conditions :
 - ad blockers disabled globally or selectivelly for the URL www.bridgebase.com
 - BBO in split screen mode (Account + Settings + Split Screen)
 - BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
-- BBO should be started using URL https://www.bridgebase.com/v3/?lang=en ensuring english language user interface
+
+BBO should be started using URL https://www.bridgebase.com/v3/?lang=en ensuring english language user interface. BBOalert will force you to use this URL, preventing access to other BBO options like 'forums' and 'myhands'. To solve this conflict you can :
+
+* Use BBO in a private window, where by default, BBOalert is disabled
+* Enable BBOalert only when needed
+* Use two different browsers : one with and another without BBOalert installed
 
 At each BBO session, you should :
 
