@@ -3,6 +3,7 @@
 
 // Check if element is visible
 function isVisible(e) {
+	if (e == null) return false;
 	return !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
 }
 
@@ -54,6 +55,45 @@ function decodeOption(opt) {
 	return optText;
 }
 
+function translateCall(call) {
+	if (call == 'D') return 'Db';
+	if (call == 'Dbl') return 'Db';
+	if (call == 'Ktr.') return 'Db';
+	if (call == 'Ktr') return 'Db';
+	if (call == 'ктр') return 'Db';
+	if (call == 'X') return 'Db';
+	if (call == 'Rktr') return 'Rd';
+	if (call == 'рктр') return 'Rd';
+	if (call == 'Rdbl') return 'Rd';
+	if (call == 'RD') return 'Rd';
+	if (call == 'XX') return 'Rd';
+	if (call == 'p') return '--';
+	if (call == 'P') return '--';
+	if (call == 'Pass') return '--';
+	if (call == 'Pas') return '--';
+	if (call == 'Paso') return '--';
+	if (call == 'пас') return '--';
+	el = call;
+//	console.log(el);
+	if (el.length > 1) {
+		el = el.el = el.substr(0, 2);
+		if (el.charCodeAt(1) == 9827) {
+			el = el[0] + 'C'
+		};
+		if (el.charCodeAt(1) == 9830) {
+			el = el[0] + 'D'
+		};
+		if (el.charCodeAt(1) == 9829) {
+			el = el[0] + 'H'
+		};
+		if (el.charCodeAt(1) == 9824) {
+			el = el[0] + 'S'
+		};
+	}
+	return el;
+}
+
+
 // Get actual bidding context
 function getContext() {
 	ctx = ''
@@ -69,36 +109,10 @@ function getContext() {
 		return ""
 	};
 	for (var i = 1; i < auction.length; i++) {
-		el = auction[i].innerText;
+		el = translateCall(auction[i].innerText);
+		ctx = ctx + el;
 		//	Translate Double, Redouble and Pass from different language interfaces
-		if (el.startsWith('R')) {
-			ctx = ctx + 'Rdbl';
-			continue
-		};
-		if (el == 'X') el = 'Dbl';
-		if (el == 'XX') el = 'Rdbl';
-		if (el == 'p') el = 'P';
-		if (el.startsWith('P')) {
-			ctx = ctx + '--';
-			continue
-		};
-		if (el.length > 1) {
-			el = el.el = el.substr(0, 2);
-			if (el.charCodeAt(1) == 9827) {
-				el = el[0] + 'C'
-			};
-			if (el.charCodeAt(1) == 9830) {
-				el = el[0] + 'D'
-			};
-			if (el.charCodeAt(1) == 9829) {
-				el = el[0] + 'H'
-			};
-			if (el.charCodeAt(1) == 9824) {
-				el = el[0] + 'S'
-			};
-			ctx = ctx + el;
-		}
-	}
+	};
 	return ctx;
 }
 
@@ -115,6 +129,14 @@ function getDealNumber() {
 	if (vpi == null) return '';
 	if (!isVisible(vpi)) return '';
 	return vpi.textContent.trim();
+}
+
+function setTitle(txt) {
+	t = document.querySelectorAll('div.titleSpanClass');
+	if (t.length == 0) return;
+	for (var i = 0; i < t.length; i++) {
+		t[i].textContent = txt;
+	}	
 }
 
 // BBO titile bar is used to show BBOalert messages
@@ -158,5 +180,58 @@ function getVisibleMessageInput() {
 	return null;
 }
 
+function getBiddingBox() {
+	return document.querySelector(".biddingBoxClass");
+}
 
+function getExplainInput() {
+	var bbox = getBiddingBox();
+	if (bbox == null) return null;
+	if (!isVisible(bbox)) return null;
+	return bbox.querySelector(".mat-form-field-infix").querySelector('input');
+}
+
+function setExplainText(txt) {
+	var elAlertExplain = getExplainInput();
+	if (elAlertExplain == null) return;
+	elAlertExplain.value = txt;
+	eventInput = new Event('input');
+	elAlertExplain.dispatchEvent(eventInput);
+};
+
+function isSplitScreen() {
+	var nb = document.querySelector('.navBarClass');
+	return isVisible(nb);
+}
+
+function isAdBlockerOn() {
+	app = document.getElementById('bbo_app');
+	return (app.style.left =="0px");
+}
+
+function isBBOready() {
+	return (isVisible(document.querySelector('.infoStat')));
+}
+
+function setStatTextDiv () {
+	if (document.getElementById('statText') != null) return;
+	var st = document.createElement('div');
+	st.style.height = '100%';
+	st.id = 'statText';
+	st.textContent = 'BBOalert';
+	is = document.querySelector('.infoStat');
+	isp = is.parentNode;
+	isp.insertBefore(st, isp.firstChild);
+}
+
+function setStatText (txt) {
+	var st = document.getElementById('statText');
+	if (st == null) return;
+	st.textContent = txt;
+	if (txt != '') {
+		st.style.backgroundColor = 'coral';
+	} else {
+		st.style.backgroundColor = '#e7eaed';
+	}
+}
 

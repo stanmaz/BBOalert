@@ -11,12 +11,16 @@ in 'Message' and 'Explanation' fields
 */
 // Only english UI of BBO is supported
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
-if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
-	window.alert(version + " : BBO will be restarted with English user interface");
-	document.location = "https://www.bridgebase.com/v3/?lang=en";
-} else {
-	window.alert(version + " started. Make sure : \n - ad blockers are disabled\n - BBO is in Split Screen mode\n - Confirm Bids is set");
-};
+//if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
+//	window.alert(version + " : BBO will be restarted with English user interface");
+//	document.location = "https://www.bridgebase.com/v3/?lang=en";
+//} else {
+//	window.alert(version + " started. Make sure : \n - ad blockers are disabled\n - BBO is in Split Screen mode\n - Confirm Bids is set");
+//};
+// if (isAdBlockerOn) window.alert('Warning : Please disable ad Blocker and restart BBO session');
+document.addEventListener("DOMContentLoaded", function(event) {
+	window.alert('Fully loaded');
+});
 
 // Global variables
 var elBiddingBox = null;
@@ -56,14 +60,28 @@ b3.onmousedown = appendClipboardData;
 b3.style.verticalAlign = 'middle';
 b3.style.marginRight = "5px";
 
+var alertShown = false;
+
 // Check every second if bidding box is present
-var timerId = setInterval(() => getBiddingBox(), 500);
+var timerId = setInterval(() => setBiddingBox(), 500);
 
 // Find the bidding box element and check if new data present in the clipboard
-function getBiddingBox() {
+function setBiddingBox() {
+	if (isBBOready()) {
+		setStatTextDiv();
+		var txt = '';
+		if (!isSplitScreen()) {
+			txt = 'BBOalert : set BBO to split screen mode (Account/Settings/Split Screen)';	
+		} else if (isAdBlockerOn()) {
+			txt = 'BBOalert : disable ad blocker and restart BBO';	
+		}
+		setStatText(txt);
+	}
 	//	switch advertizing off
 	adPanel0 = document.getElementById("bbo_ad1");
-	adPanel0.style.display = "none";
+	if (adPanel0 != null) {
+		if (adPanel0.style != null) adPanel0.style.display = "none";
+	}
 	//	set BBOalert control buttons
 	setControlButtons();
 	//	set keyboard listener to chat input
@@ -79,7 +97,7 @@ function getBiddingBox() {
 			lastDealNumber = getDealNumber();
 			checkOptionsVulnerability();
 		}
-		elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
+		elAlertExplain = getExplainInput();
 		if (elAlertExplain != null) {
 			elAlertExplain.addEventListener('keyup', explainOnKeyup);
 		}
@@ -259,6 +277,7 @@ function getClipboardData(newData) {
 			for (var i = 1; i < alertTable.length; i++) {
 				ctx = '';
 				r = alertTable[i];
+				if (r.startsWith('%')) continue;
 				theyOpen = false;
 				if (r.startsWith('*')) {
 					theyOpen = true;
@@ -310,12 +329,13 @@ function getClipboardData(newData) {
 				exp = rec[1].slice(n);
 				exp = exp.split(',').join(';');
 				if (exp.length > 39) {
-					exp = "Explanation too long; Please read chat" + "#" + exp;
+					exp = "Please read chat" + "#" + exp;
 				}
 				alertTable[i] = ctx + "," + exp;
 				updateText = updateText + alertTable[i] + "\n";
 				updateCount++;
 			}
+			updateText = updateText + 'Option\n';
 			alertTable = updateText.split("\n");
 			for (var i = 0; i < alertTable.length; i++) {
 				rec = alertTable[i].split(",");
@@ -413,7 +433,7 @@ function findShortcut(text) {
 
 // Check chat box for eventual shortcut and replace it by the text from table
 function messageOnKeyup(key) {
-	elMessage = elMessage = getVisibleMessageInput();
+	elMessage = getVisibleMessageInput();
 	text1 = elMessage.value;
 	if (key.altKey) {
 		text1 = text1 + 'Alt' + key.key.toUpperCase();
@@ -428,7 +448,8 @@ function messageOnKeyup(key) {
 
 // Check explain box for eventual shortcut and replace it by the text from table
 function explainOnKeyup(key) {
-	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
+	elAlertExplain = getExplainInput();
+	if (elAlertExplain == null) return;
 	text1 = elAlertExplain.value;
 	if (key.altKey) {
 		text1 = text1 + 'Alt' + key.key.toUpperCase();
@@ -441,12 +462,10 @@ function explainOnKeyup(key) {
 	}
 }
 
-// Check every 2 secs if bidding box is present
-timerId = setInterval(() => getBiddingBox(), 2000);
-
 // Clear explanation text field
 function clearAlert() {
-	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
+	elAlertExplain = getExplainInput();
+	if (elAlertExplain == null) return;
 	elAlertExplain.value = "";
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
@@ -454,7 +473,8 @@ function clearAlert() {
 
 // Search for explanation text and set in in the bidding box
 function getAlert() {
-	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
+	elAlertExplain = getExplainInput();
+	if (elAlertExplain == null) return;
 	exp = findAlert(getContext(), callText).trim().split('#');
 	elAlertExplain.value = exp[0];
 	eventInput = new Event('input');
@@ -472,7 +492,8 @@ function getAlert() {
 
 // Append current explanation text in update table, if not found in the alert table
 function saveAlert() {
-	elAlertExplain = elBiddingBox.querySelector("[placeholder=\"Explain\"]");
+	elAlertExplain = getExplainInput();
+	if (elAlertExplain == null) return;
 	explainText = elAlertExplain.value;
 	if (explainText == "") return;
 	alertText = findAlert(getContext(), callText).trim();
