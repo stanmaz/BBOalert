@@ -1,6 +1,6 @@
 # BBOalert
 
-Actual version : 2.4
+Actual version : 2.5
 
 The purpose of this browser extension is to reduce to the minimum the manual operations due to the alerting procedure while playin bridge on BBO (www.bridgebase.com).
 
@@ -11,6 +11,7 @@ Main features :
 - Vulnerability dependent openings and development
 - Keyboard shortcuts and abbreviations
 - Full Disclosure BSS file support
+- multilingual BBO user interface support
 
 We assume that you are familiar with BBO.
 
@@ -66,11 +67,6 @@ BBOalert requires following conditions :
 - ad blockers disabled globally or selectivelly for the URL www.bridgebase.com
 - BBO in split screen mode (Account + Settings + Split Screen)
 - BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
-- BBO should be started using URL https://www.bridgebase.com/v3/?lang=en ensuring english language user interface. BBOalert will force you to use this URL, preventing access to other BBO options like 'forums' and 'myhands'. To solve this conflict you can apply one of possible solutions :
-
-    * Use BBO in a private window, where by default, BBOalert is disabled
-    * Enable BBOalert only when needed
-    * Use two different browsers : one with and another without BBOalert installed
 
 At each BBO session, you should :
 
