@@ -18,19 +18,8 @@ does not depend of eventual overcalls made by oponents.
 In the example below, the meaning of each of each call remains the same, even if oponents bid.
 1C__1D__1H__,	1N,		explanation text,
 
- 
-
 The opening bid must begin with empty field
 ,1C,17+HCP any distribution,Comment: this is the typical opening bid of Precision System
-
-You should ignore eventual passes preceding the opening bid
-----,1C,17+HCP any distribution, this will not work
-
-If the opening is seat sensitive you can always mention it in the explanation text
-,1H,9-14HCP 4+!S (11-16HCP 4+!H if 3/4th seat)
-This kind of situation is rare (example from MOSCITO system).
-3rd seat light openings are usual and do not have to be alerted. But on responder's side you should alert :
-1S--,2C,GF (Drury after initial pass)
 
 The negative response to 1C opening is 1D
 1C--,1D,0-7HCP any distribution
@@ -42,6 +31,10 @@ Opener's rebid after 1D response will be coded
 Similar after the 1H overcall after 1D
 1C--1D1H,1N,17-19HCP balanced hand
 
+If the opening is seat sensitive you should mention explicitely initial passes
+----,1H,9-14HCP 4+!S
+----1S--,2C,10-11p Drury after initial pass
+
 Our own overcalls after opponent's opening are represented by code
 1H,2N,minor two-suiter
 
@@ -52,6 +45,11 @@ If the same bidding sequence is defined twice, only the last one will be conside
 Typical situation when, during the game, you modify the exeplanation for the alerted call.
 Any modification made during the game will appear in the clipboard (paste at the end of the existing table).
 In the comment field you will find the time stamp and the deal number for eventual review.
+
+If the explanation text excceds 39 characters, you can use # character to split it in to parts.
+The first will appear in the explanation field of the bidding box, the second part in the chat box.
+You should send the chat message to the opponents manually. Example :
+,1D,Short explanation text#Long chat message text limited to 249 characters
 
 Keyboard abbreviations can be defined :
 Shortcut,   TC,   Texas !C
@@ -78,10 +76,13 @@ Option,1NT Standard
 Option,1NT Weak
 1N,Db,For penalties
 
+Tags @n and @v will enable automatic switching of code depending on actual
+vulnerability.
 Option,MyOpenings @n
 ,1N,12-14 balanced
 
 Option,MyOpenings @v
 ,1N,15-17 balanced
 
+Bare 'Option' keyword will end the optional block 
 Option
