@@ -1,5 +1,16 @@
 BBOalert, file must begin with BBOalert keyword
 
+You can use this sample data to test BBOalert features. You should
+- press 'Raw' button on this page
+- Ctrl-A to select all text
+- Ctrl-C to copy it to the clipboard
+- In BBO
+    - Practice
+    - Start a Teaching Table
+    - Start Table
+    - sit in all four directions
+    - make a call included in this sample and see what happens
+
 1. File format
 
 Valid records should contain at least 3 fields seperated by comma
