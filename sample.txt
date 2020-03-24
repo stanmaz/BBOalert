@@ -76,7 +76,7 @@ Option,1NT Standard
 Option,1NT Weak
 1N,Db,For penalties
 
-Tags @n and @v will enable automatic switching of code depending on actual
+Reserved tags @n and @v will enable automatic switching of code depending on actual
 vulnerability.
 Option,MyOpenings @n
 ,1N,12-14 balanced
