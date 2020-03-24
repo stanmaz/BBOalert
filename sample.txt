@@ -4,7 +4,8 @@ You can use this sample data to test BBOalert features. You should
 - press 'Raw' button on this page
 - Ctrl-A to select all text
 - Ctrl-C to copy it to the clipboard
-- In BBO
+- In BBO, after successfull login
+    - press 'Import' button
     - Practice
     - Start a Teaching Table
     - Start Table
