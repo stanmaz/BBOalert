@@ -291,7 +291,11 @@ function getClipboardData(newData) {
 						option = r.slice(0, 2);
 						optionPrefix = 'Opening';
 					}
-					updateText = updateText + 'Option,' + optionPrefix + ' ' + decodeOption(option) + '\n';
+					if (decodeOption(option) != '') {
+						updateText = updateText + 'Option,' + optionPrefix + ' ' + decodeOption(option) + '\n';
+					} else {
+						updateText = updateText + 'Option\n';
+					}
 				}
 				rec = r.split("=");
 				if (rec.length < 2) continue;
