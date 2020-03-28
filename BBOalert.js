@@ -11,13 +11,6 @@ in 'Message' and 'Explanation' fields
 */
 // Only english UI of BBO is supported
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
-//if (document.location.href != 'https://www.bridgebase.com/v3/?lang=en') {
-//	window.alert(version + " : BBO will be restarted with English user interface");
-//	document.location = "https://www.bridgebase.com/v3/?lang=en";
-//} else {
-//	window.alert(version + " started. Make sure : \n - ad blockers are disabled\n - BBO is in Split Screen mode\n - Confirm Bids is set");
-//};
-// if (isAdBlockerOn) window.alert('Warning : Please disable ad Blocker and restart BBO session');
 
 // Global variables
 var elBiddingBox = null;
