@@ -233,7 +233,9 @@ function toggleOptions() {
 	if (adPanel == null) return;
 	sc = document.querySelector('.statsClass');
 	if (adPanel.style.display == 'none') {
-		if (sc != null) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
+		if (sc != null) {
+			if (isVisible(sc)) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
+		}
 		adPanel.style.display = 'block';
 	} else {
 		adPanel.style.display = 'none';
