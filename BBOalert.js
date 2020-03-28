@@ -18,9 +18,6 @@ var version = 'BBOalert ' + chrome.runtime.getManifest().version;
 //	window.alert(version + " started. Make sure : \n - ad blockers are disabled\n - BBO is in Split Screen mode\n - Confirm Bids is set");
 //};
 // if (isAdBlockerOn) window.alert('Warning : Please disable ad Blocker and restart BBO session');
-document.addEventListener("DOMContentLoaded", function(event) {
-	window.alert('Fully loaded');
-});
 
 // Global variables
 var elBiddingBox = null;
