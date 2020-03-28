@@ -1,6 +1,6 @@
 # BBOalert
 
-Actual version : 2.5.1
+Actual version : 2.6
 
 The purpose of this browser extension is to reduce to the minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -32,9 +32,9 @@ The program can read "Full Disclosure" old BSS files.
 
 BBOalert is useful for all types of BBO users :
 
-- <b>casual players without a fixed partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only a few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if identical situation occurs. You only alert once ! The program enables you to define also keyboard shortcuts for frequently used expressions.
-- <b>'natural' players with a fixed partner</b> : SAYC is simple but inefficient in many situations. Adding some gadgets gives obvious advantages. BBOalert will help to document particular agreements. By using a common database with the partner, the explanation given to the opponents will be coherent. Practicing natural systems other than SAYC imply frequent alerting because of few, but essential differences.
-- <b>'artificial' players with a fixed partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and the opponents will receive correct information. Advanced features enable you to differentiate seat dependent openings and to program different defense schemes depending on conventions used by opponents.
+- <b>casual players without a regular partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only a few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if identical situation occurs. You only alert once ! The program enables you to define also keyboard shortcuts for frequently used expressions.
+- <b>'natural' players with a regular partner</b> : SAYC is simple but inefficient in many situations. Adding some gadgets gives obvious advantages. BBOalert will help to document particular agreements. By using a common database with the partner, the explanation given to the opponents will be coherent. Practicing natural systems other than SAYC imply frequent alerting because of few, but essential differences.
+- <b>'artificial' players with a regular partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and the opponents will receive correct information. Advanced features enable you to differentiate seat dependent openings and to program different defense schemes depending on conventions used by opponents.
 
 ## Installation
 
@@ -64,7 +64,6 @@ The data should be stored in a CSV-formatted text file. BBOalert uses the clipbo
 
 BBOalert requires following conditions :
 
-- ad blockers disabled globally or selectively for the URL www.bridgebase.com
 - BBO in split screen mode (Account + Settings + Split Screen)
 - BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
 
@@ -202,6 +201,8 @@ It is recommended to provide all overcalls in as optional code blocks for each p
 
 Optional blocks of data can be used also for vulnerability dependend openings. The selection is done automatically if the block name contains one of the tags : @n of @v. This selection can be manually overridden by the user during the game.
 
+Options can be selected with a menu which is normally hidden. To toggle the display of this menu, use the 'Options' button.
+
 Example :
 
 
@@ -250,8 +251,3 @@ BBOalert can read BSS files in the same way as native BBOalert :
 BBOalert converts BSS data internally to the BBOalert native format. Vulnerability dependent calls are supported. Seat dependent openings are set in separated optional blocks that can be manually switched ON and OFF during the game.
 
 With the 'Export' button the converted data will be written to the clipboard. You can paste it into the text editor and use as starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separated file to be appended ('Append' button).
-
-
-
-
-
