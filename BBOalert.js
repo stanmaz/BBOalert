@@ -36,11 +36,19 @@ var alertTable = alertData.split("\n");
 var alertTableSize = 0;
 var clipBoard = navigator.clipboard;
 var adPanel = null;
+var b0 = document.createElement("button");
 var b1 = document.createElement("button");
 var b2 = document.createElement("button");
 var b3 = document.createElement("button");
 var lastDealNumber = '';
 // Set BBO specific control elements
+b0.textContent = "Options";
+b0.id = 'bboalert-b0';
+b0.style.fontSize = "22px"
+b0.onmousedown = toggleOptions;
+b0.style.verticalAlign = 'middle';
+b0.style.marginRight = "5px";
+b0.style.top = "47px";
 b1.textContent = "Import";
 b1.id = 'bboalert-b1';
 b1.style.fontSize = "22px"
@@ -67,20 +75,20 @@ var timerId = setInterval(() => setBiddingBox(), 500);
 
 // Find the bidding box element and check if new data present in the clipboard
 function setBiddingBox() {
+	adPanel = document.getElementById("adpanel");
+	if (adPanel != null) {
+		sc = document.querySelector('.statsClass');
+		if (sc == null) adPanel.style.display = 'none';
+	}
 	if (isBBOready()) {
 		setStatTextDiv();
 		var txt = '';
 		if (!isSplitScreen()) {
-			txt = 'BBOalert : set BBO to split screen mode (Account/Settings/Split Screen)';	
-		} else if (isAdBlockerOn()) {
-			txt = 'BBOalert : disable ad blocker and restart BBO';	
+			txt = 'BBOalert : set BBO to split screen mode (Account/Settings/Split Screen)';
+			setStatText(txt);
+		} else {
+			setStatText('');
 		}
-		setStatText(txt);
-	}
-	//	switch advertizing off
-	adPanel0 = document.getElementById("bbo_ad1");
-	if (adPanel0 != null) {
-		if (adPanel0.style != null) adPanel0.style.display = "none";
 	}
 	//	set BBOalert control buttons
 	setControlButtons();
@@ -121,6 +129,8 @@ function setControlButtons() {
 	bar.insertBefore(b2, bar.firstChild);
 	bar.insertBefore(b3, bar.firstChild);
 	bar.insertBefore(b1, bar.firstChild);
+	bar.insertBefore(b0, bar.firstChild);
+	cleanAdPanel();
 }
 
 
@@ -128,14 +138,20 @@ function setControlButtons() {
 function cleanAdPanel() {
 	if (document.getElementById("adpanel") != null) return;
 	appPanel = document.getElementById("bbo_app");
-	bboad1Panel = document.getElementById("bbo_ad1");
+	sc = document.querySelector('.statsClass');
+	//	bboad1Panel = document.getElementById("bbo_ad1");
 	adPanel = document.createElement("div");
-	adPanel.style.cssText = bboad1Panel.style.cssText;
+	adPanel.style.position = 'absolute';
+	adPanel.style.left = '0px';
+	adPanel.style.top = '47px';
+	adPanel.style.width = '161px';
+	adPanel.style.height = '100%';
 	adPanel.id = "adpanel";
-	adPanel.style.backgroundColor = 'black';
-	adPanel.style.display = "block";
+	adPanel.style.backgroundColor = 'red';
+	adPanel.style.display = "none";
 	adPanel.style.overflow = "scroll";
 	adPanel.style.overflowX = "hidden";
+	adPanel.style.zIndex = "1";
 	document.body.insertBefore(adPanel, appPanel);
 }
 
@@ -204,8 +220,8 @@ function checkOptionsVulnerability() {
 
 // Add option selection button
 function addOptionButton(lbl) {
-	adPanel = document.getElementById("adpanel");
-	bt = document.createElement("button");
+	var adPanel = document.getElementById("adpanel");
+	var bt = document.createElement("button");
 	bt.textContent = lbl;
 	bt.id = lbl;
 	bt.style.width = "100%";
@@ -222,6 +238,17 @@ function addOptionButton(lbl) {
 	adPanel.appendChild(bt);
 }
 
+function toggleOptions() {
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	sc = document.querySelector('.statsClass');
+	if (adPanel.style.display == 'none') {
+		if (sc != null) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
+		adPanel.style.display = 'block';
+	} else {
+		adPanel.style.display = 'none';
+	}
+}
 
 function importClipboardData() {
 	cleanAdPanel();
