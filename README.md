@@ -44,11 +44,11 @@ This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
-Windows, Linux and Android platforms are supported
+Firefox is the default browser for which BBOalert is fully supported.
 
 ### Chrome
 
-The extension is not yet officially published in Google's web-store. Therefore you should install it in the CHROME browser manually from source code :
+The extension is not published in Google's web-store. Firefox is available for all platforms and there is no reason not to use it. Hoever, if for some particular reason you are bound to Chrome, you can install BBOalert with the CHROME browser manually from source code :
 
 - download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
 - Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
