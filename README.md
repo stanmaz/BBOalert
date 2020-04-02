@@ -1,6 +1,6 @@
 # BBOalert
 
-Actual version : 2.6.1
+Version : 2.6.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -43,7 +43,6 @@ BBOalert is useful for all types of BBO users :
 This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
-
 
 ### Chrome
 
