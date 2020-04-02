@@ -2,13 +2,13 @@
 
 Actual version : 2.6.1
 
-The purpose of this browser extension is to reduce to the minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
+The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
 Main features :
 - Automatic alert
 - Alert recording
-- Seat dependent openings and development
-- Vulnerability dependent openings and development
+- Seat-dependent openings and development
+- Vulnerability-dependent openings and development
 - Keyboard shortcuts and abbreviations
 - Full Disclosure BSS file support
 - multilingual BBO user interface support
@@ -32,9 +32,9 @@ The program can read "Full Disclosure" old BSS files.
 
 BBOalert is useful for all types of BBO users :
 
-- <b>casual players without a regular partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only a few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if identical situation occurs. You only alert once ! The program enables you to define also keyboard shortcuts for frequently used expressions.
+- <b>casual players without a regular partner</b> : the common bidding system for all BBO users is SAYC. In such a case, only a few bids should be alerted 'pro forma' because all players are supposed to know SAYC basics. BBOalert will record each alerted bid and will automatically recall it if an identical situation occurs. You only alert once ! The program also allows you to define keyboard shortcuts for the frequently used expressions.
 - <b>'natural' players with a regular partner</b> : SAYC is simple but inefficient in many situations. Adding some gadgets gives obvious advantages. BBOalert will help to document particular agreements. By using a common database with the partner, the explanation given to the opponents will be coherent. Practicing natural systems other than SAYC imply frequent alerting because of few, but essential differences.
-- <b>'artificial' players with a regular partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and the opponents will receive correct information. Advanced features enable you to differentiate seat dependent openings and to program different defense schemes depending on conventions used by opponents.
+- <b>'artificial' players with a regular partner</b> : playing an artificial system on BBO is an impossible task. Practically every bid should be alerted and explained. Frustrated opponents will quickly abandon your table. BBOalert enables the formal description of the system in all details and provides the opponents with correct information. Advanced features enable you to differentiate seat-dependent openings and to program different defense schemes depending on the conventions used by opponents.
 
 ## Installation
 
@@ -44,25 +44,22 @@ This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
-Firefox is the default browser for which BBOalert is fully supported.
 
 ### Chrome
 
-The extension is not published in Google's web-store. Firefox is available for all platforms and there is no reason not to use it. Hoever, if for some particular reason you are bound to Chrome, you can install BBOalert with the CHROME browser manually from source code :
+The extension is not published in Google's web-store.  therefore, you should install it in the CHROME browser manually from source code :
 
-- download BBOalert project source files in a ZIP-container ("Clone or Download" button, then "Download ZIP")
-- Navigate to the "Downloads" directory, open the ZIP-container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
+- download BBOalert project source files in a ZIP file ("Clone or Download" button, then "Download ZIP")
+- Navigate to the "Downloads" directory, open the ZIP container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
 - open Chrome browser tab with "chrome://extensions"
-- make sure the Developer Mode is switched ON (in right-upper corner)
-- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of installed extensions
-
-Note : CHROME does not support extensions under Android. You should use YANDEX browser instead. The installation procedure is identical, except the last step : you should select the manifest.json file to complete the installation.
+- make sure the Developer Mode is turned ON (in right-upper corner)
+- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of the installed extensions
 
 ## How to use
 
 The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to export eventual updates.
 
-BBOalert requires following conditions :
+BBOalert requires the following :
 
 - BBO in split screen mode (Account + Settings + Split Screen)
 - BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
@@ -76,19 +73,19 @@ At each BBO session, you should :
 
 See GettingStarted.pdf for basic operations.
 
-'Append' button allows you to add code to the already imported code. This allows to split data in more than one file. Eg. separate file for openings and development, the second for overcalls and the third for keyboard shortcuts.
+'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.  
 
-<b>Only BBOalert native code can be appended, not BSS data.</b> Appending BBOalert native data to the previously imported BSS data is allowed.
+<b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert saves in its memory all calls manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
+BBOalert saves in its memoryall the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
 
 ## Recommended way of using BBOalert
 
 We use the "You only alert once" principle.
 
-It is needless to code your entire system at once. It is a huge task. In each bidding system there are sequences which almost never occur.
+It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
 
-The program records each alerted call for which no explanation has been found in the data file. Use this feature to complete your code with the bidding sequences as they come during the game. Your data file will grow as needed.
+The program records each alerted call for which no explanation has been found in the data file. Use this feature to complete your code with the bidding sequences as they come during the game. Your data file will expand as needed.
 
 I recommend to proceed this way :
 
@@ -96,7 +93,7 @@ I recommend to proceed this way :
 - make this file "Shareable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
 - enter the code for opening bids and frequently used responses
 - start playing using this data (remember : select all text + copy to clipboard before starting BBO session)
-- alert your calls by hand if necessary. You can define shortcuts for frequently used phrases and use them while entering explanations.
+- alert your calls by hand if necessary. You can define shortcuts for the frequently used phrases and use them while entering explanations.
 - at the end of the session, paste the clipboard content at the end of the file. Your partner should do it too.
 - review with your partner all newly created alerts and make the necessary corrections
 
@@ -116,11 +113,11 @@ Alerted calls should contain at least three text fields separated by commas :
 
     <context>,<call>,<explanation>[,optional text ignored by BBOalert]
     
-where "context" is the bidding sequence preceding the <call>. In those two fields we use two-characters self-explaining tokens :
+where "context" is the bidding sequence preceding the <call>. In those two fields we use two-character self-explaining tokens :
 
     1C 1D 1H 1S 1N Db Rd 2C 2D ....
     
-To increase the readability of the code, we use '--' token for pass and not 'Pa'. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in data fields.
+To increase the readability of the code, we use '--' token for pass instead of 'Pa'. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in the data fields.
 
 ### Examples
 
@@ -149,9 +146,9 @@ Note : -- codes mean pass by opponents
 
 ### Advanced features
 
-#### Seat dependent openings
+#### Seat-dependent openings
 
-An empty "context" field means seat independent opening. By using -- codes you can define seat dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
+An empty "context" field means seat-independent opening. By using -- codes you can define seat-dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
     
     ,1S,12-21p 5+!S,    This is the normal opening for all seats
     ----,1S,8-21 5+!S,    except after two passes. It can be weaker
@@ -175,7 +172,7 @@ you can use code
     
 #### Long explanation text
 
-If you need more than 39 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat messaage should be sent to the opponents to complete the alert procedure.
+If you need more than 39 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat message should be sent to the opponents to complete the alert procedure.
 
 Example :
 
@@ -183,23 +180,23 @@ Example :
 
 #### Wild cards
 
-In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one caracter and have the same effect. In the example :
+In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one character and have the same effect. In this example :
 
     1N__,2H,Transfer->!S
     
-the code means : whatever the opponents do, 2H remains a mandatory transfer to 2S. Otherwise code should be privided for all possible overcalls made by opponents.
+the code means : whatever the opponents do, 2H remains a mandatory transfer to 2S. Otherwise code should be provided for all possible overcalls made by the opponents.
 
 ### Optional code
 
-Almost everyone on BBO is using the SAYC bidding system. But SAYC is not the world standard and some opponents will use another bidding system like ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system with particular agreements depending on the conventions used by opponents, you must be able to switch on-the-fly between different defense options during the game.
+Almost everyone on BBO is using the SAYC bidding system. But SAYC is not the world standard and some opponents will use another bidding system such as ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system - with particular agreements that depend on the conventions used by the opponents - you must be able to switch on-the-fly between different defense options during the game.
 
-To solve this problem, the keyword 'Option' is used followed by option name. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
+To solve this problem, the keyword 'Option' followed by the option name are used. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
 
-The subsequent options having the common prefix word will be automatically grouped. Within the group only one option can be selected to avoid conficting codes. You are free to disable any option. Initially the first memeber of each group is enabled.
+The subsequent options with the common prefix word will be grouped automatically. Within the group only one option can be selected to avoid conflicting codes. You are free to disable any option. Initially the first member of each group is enabled.
 
-It is recommended to provide all overcalls in as optional code blocks for each possible opening. This will enable you to unselect portions of code if necessary.
+It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary.
 
-Optional blocks of data can be used also for vulnerability dependend openings. The selection is done automatically if the block name contains one of the tags : @n of @v. This selection can be manually overridden by the user during the game.
+Optional blocks of data can be used also for vulnerability-dependent openings. The selection is done automatically if the block name contains @n or @v tag. This selection can be manually overridden by the user during the game.
 
 Options can be selected with a menu which is normally hidden. To toggle the display of this menu, use the 'Options' button.
 
@@ -228,13 +225,13 @@ Shortcut format :
 
     Shortcut,<token>,<full text>
     
-In the example :
+In this example :
 
     Shortcut,TH,Texas->!H
     
 TH string will be immediately expanded to the "Texas->!H" during text entry in the Message or Explanation text box. The tokens can be of any length , but we advise to use uppercase two-character tokens to avoid confusion during normal text entry.
 
-You are allowed also to define Alt-key shortcuts like this :
+You are also allowed to define Alt-key shortcuts as shown in this example :
 
     Shortcut,AltA,this text will be inserted if you press Alt-A key
     
@@ -248,6 +245,6 @@ BBOalert can read BSS files in the same way as native BBOalert :
 - select all text and copy it to the clipboard
 - in BBOalert use 'Import' button.
 
-BBOalert converts BSS data internally to the BBOalert native format. Vulnerability dependent calls are supported. Seat dependent openings are set in separated optional blocks that can be manually switched ON and OFF during the game.
+BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name) that can be manually turned ON and OFF during the game.
 
-With the 'Export' button the converted data will be written to the clipboard. You can paste it into the text editor and use as starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separated file to be appended ('Append' button).
+The 'Export' button will write the converted data to the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
