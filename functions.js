@@ -35,10 +35,14 @@ function isVisible(e) {
 function getNow() {
 	now = new Date();
 	yyyy = now.getFullYear().toString();
-	mm = now.getMonth().toString();
+	m = now.getMonth() + 1;
+	mm = m.toString();
+    if (mm.length == 1) mm = '0' + mm;
 	dd = now.getDate().toString();
+	if (dd.length == 1) dd = '0' + dd;
 	hh = now.getHours().toString();
 	mn = now.getMinutes().toString();
+	if (mn.length == 1) mn = '0' + mn;
 	return yyyy + mm + dd + "_" + hh + ":" + mn;
 }
 
@@ -116,19 +120,20 @@ function translateCall(call) {
 	el = call;
 //	console.log(el);
 	if (el.length > 1) {
-		el = el.el = el.substr(0, 2);
+		el = el.substr(0, 2);
 		if (el.charCodeAt(1) == 9827) {
-			el = el[0] + 'C'
+			return el[0] + 'C'
 		};
 		if (el.charCodeAt(1) == 9830) {
-			el = el[0] + 'D'
+			return el[0] + 'D'
 		};
 		if (el.charCodeAt(1) == 9829) {
-			el = el[0] + 'H'
+			return el[0] + 'H'
 		};
 		if (el.charCodeAt(1) == 9824) {
-			el = el[0] + 'S'
+			return el[0] + 'S'
 		};
+		return el[0] + 'N'
 	}
 	return el;
 }
