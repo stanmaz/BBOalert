@@ -21,7 +21,7 @@ Tired of repeating the same story while alerting your bids in BBO. If yes, this 
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
-BBOalert resolves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
+BBOalert solves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
 
 BBOalert has similar functionality as "Full Disclosure" which is no longer supported by BBO. One difference should be emphasized :
 
@@ -67,7 +67,7 @@ At each BBO session, you should :
 
 - open the data file using your favorite text editor (see sections : 'Data file format'
 - select all text
-- copy it to clipboard
+- copy it to the clipboard
 - press "Import" button on the BBO page
 
 See GettingStarted.pdf for basic operations.
@@ -76,7 +76,7 @@ See GettingStarted.pdf for basic operations.
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert saves in its memoryall the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
+BBOalert saves in its memory all the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
 
 ## Recommended way of using BBOalert
 
@@ -104,7 +104,7 @@ The best method to learn BBOalert is to create a teaching table and to experimen
 
 ## Data file format
 
-The file must begin with the <b>BBOalert</b> keyword (case sensitive) to be recognized by the program.
+The file must begin with the <b>BBOalert</b> keyword (case insensitive) to be recognized by the program.
 
 Comma separated value (CSV) format is used for each record.
 
@@ -112,11 +112,15 @@ Alerted calls should contain at least three text fields separated by commas :
 
     <context>,<call>,<explanation>[,optional text ignored by BBOalert]
     
-where "context" is the bidding sequence preceding the <call>. In those two fields we use two-character self-explaining tokens :
+where "context" is the bidding sequence preceding the "call". In those two fields we use two-character self-explaining tokens :
 
     1C 1D 1H 1S 1N Db Rd 2C 2D ....
     
-To increase the readability of the code, we use '--' token for pass instead of 'Pa'. Outside of the data records free text is allowed for documentation purposes. Leading and trailing spaces and tabs are allowed in the data fields.
+To increase the readability of the code :
+- we use '--' token for pass instead of 'Pa'
+- outside of the data records free text is allowed for documentation purposes
+- leading and trailing spaces and tabs are allowed in all fields.
+- spaces are allowed in the context field
 
 ### Examples
 
@@ -147,12 +151,14 @@ Note : -- codes mean pass by opponents
 
 #### Seat-dependent openings
 
-An empty "context" field means seat-independent opening. By using -- codes you can define seat-dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
+An empty "context" field means seat-independent opening. By using leading -- codes you can define seat-dependent opening. Placed after seat independent opening code, it will override it for the specified seat. Example
     
     ,1S,12-21p 5+!S,    This is the normal opening for all seats
     ----,1S,8-21 5+!S,    except after two passes. It can be weaker
     ----1S--,2C,Drury,    in such a case Drury is used
 
+The alternative method of coding seat-dependent openings is presented in the section "Optional code".
+ 
 #### Continued context
 
 If the context is identical with the previous record, the '+' character can be used in the "context" field
@@ -195,7 +201,15 @@ The subsequent options with the common prefix word will be grouped automatically
 
 It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary.
 
-Optional blocks of data can be used also for vulnerability-dependent openings. The selection is done automatically if the block name contains @n or @v tag. This selection can be manually overridden by the user during the game.
+Optional blocks of data can be used also for :
+- vulnerability-dependent openings by using @v or @v tags
+- seat-dependent openings by using @1 @2 @3 and @4 tags
+
+The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combinig tags is allowed. In this example :
+
+    Option,Opening @v@3@4
+
+the option will be enabled if vulnerable in 3rd or 4th seat.
 
 Options can be selected with a menu which is normally hidden. To toggle the display of this menu, use the 'Options' button.
 
@@ -244,6 +258,6 @@ BBOalert can read BSS files in the same way as native BBOalert :
 - select all text and copy it to the clipboard
 - in BBOalert use 'Import' button.
 
-BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name) that can be manually turned ON and OFF during the game.
+BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name).
 
 The 'Export' button will write the converted data to the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
