@@ -13,7 +13,8 @@ in 'Message' and 'Explanation' fields
 2.6.2 - BBOalert and BSS data : bss header identification detection within first 80 characters
 2.6.2 - BBOalert data : allow spaces in context field
 2.6.2 - BBOalert data reader : strip multiple spaces and tabs from explanation text
-
+2.7	  - automatic switching of vulnerability- and seat-dependent optional blocks
+2.7.1 - bug fix : misinterpretation of NT calls in multilingual user interface
 */
 // Only english UI of BBO is supported
 
