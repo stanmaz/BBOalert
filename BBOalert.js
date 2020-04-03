@@ -1,5 +1,5 @@
 /*
-BBOalert extension will :
+BBOalert dataBBOalert extension will :
 - be activated at www.bridgebase.com startup
 - During bidding, BBOalert checks if for the actual bidding context the call is defined as alerted.
   If yes, the explanation text is retrieved from the table and shown in the 'Explanation' text field
@@ -8,8 +8,15 @@ BBOalert extension will :
 
 BBOalert allows to define in the table keybord shortcuts which are automatically expanded during manual text entry
 in 'Message' and 'Explanation' fields
+
+2.6.2 - BBOalert data : header identification no more case sensitive
+2.6.2 - BBOalert and BSS data : bss header identification detection within first 80 characters
+2.6.2 - BBOalert data : allow spaces in context field
+2.6.2 - BBOalert data reader : strip multiple spaces and tabs from explanation text
+
 */
 // Only english UI of BBO is supported
+
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
 
 // Global variables
@@ -91,9 +98,9 @@ function setBiddingBox() {
 	//	set listeners to bidding box buttons 
 	elBiddingBox = document.querySelector(".biddingBoxClass");
 	if (elBiddingBox != null) {
+		checkOptionsVulnerability();
 		if (getDealNumber() != lastDealNumber) {
 			lastDealNumber = getDealNumber();
-			checkOptionsVulnerability();
 		}
 		elAlertExplain = getExplainInput();
 		if (elAlertExplain != null) {
@@ -187,7 +194,7 @@ function unselectOtherButtons(selectedOption) {
 }
 
 // Make sure thet only the selected option is acvite
-function checkOptionsVulnerability() {
+function checkOptionsSeat() {
 	var vText = '@' + areWeVulnerable()
 	if (vText == '@') return;
 	var adPanel = document.getElementById("adpanel");
@@ -205,6 +212,23 @@ function checkOptionsVulnerability() {
 			}
 			if (txt.indexOf('@n') != -1) adPanel.children[i].style.backgroundColor = 'white';
 		}
+	}
+}
+
+// Make sure thet only the selected option is acvite
+function checkOptionsVulnerability() {
+	var vText = areWeVulnerable()
+	if (vText == '') return;
+	sText = getSeatNr();
+	if (sText == '') return;
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	for (var i = 0; i < adPanel.children.length; i++) {
+		// Clear all auto selectable options 
+		var txt = adPanel.children[i].textContent.trim();
+		if (matchVulSeat(vText, sText, txt) == '') continue;
+		if (matchVulSeat(vText, sText, txt) == 'Y') adPanel.children[i].style.backgroundColor = 'lightgreen';
+		if (matchVulSeat(vText, sText, txt) == 'N') adPanel.children[i].style.backgroundColor = 'white';
 	}
 }
 
@@ -252,18 +276,26 @@ function appendClipboardData() {
 	getClipboardData(false)
 }
 
+function getDataType (data) {
+	header = data.slice(0,80);
+	if (header.search(/bboalert/i) != -1) return 'BBOalert';
+	if (header.indexOf('*00') != -1) return 'BSS';
+	if (header.indexOf('?00') != -1) return 'BSS';
+	return '';
+}
+
 
 // Retrieve text from clipboard
 function getClipboardData(newData) {
 	navigator.clipboard.readText().then(function(cbData) {
-		if (!cbData.startsWith("BBOalert") && !cbData.startsWith("*00") && !cbData.startsWith("?00")) {
+		if (getDataType(cbData) == '') {
 			setTitleText(version + ' : no valid data found in clipboard');
 			if (alertData == "") {
 				alertData = "BBOalert\n\n"
 			}
 			return;
 		}
-		if (!cbData.startsWith("BBOalert") && !newData) {
+		if ((getDataType(cbData) == 'BSS') && !newData) {
 			setTitleText(version + ' : can not append BSS formatted data');
 			return;
 		}
@@ -276,7 +308,7 @@ function getClipboardData(newData) {
 		}
 		alertTable = alertData.split("\n");
 		clearOptionButtons();
-		if (cbData.startsWith("BBOalert")) {
+		if (getDataType(cbData) == 'BBOalert') {
 			for (var i = 0; i < alertTable.length; i++) {
 				rec = alertTable[i].split(",");
 				if (rec.length > 1) {
@@ -418,7 +450,7 @@ function findAlert(context, call) {
 		// Keyword Option alone end optional block
 		if (alertTable[i] == 'Option') matchOption = true;
 		if (rec.length < 2) continue;
-		currentContext = rec[0].trim();
+		currentContext = elimineSpaces(rec[0].trim());
 		if (currentContext == "+") {
 			currentContext = lastContext;
 		} else {
@@ -434,7 +466,7 @@ function findAlert(context, call) {
 		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) alertText = rec[2];
 		if (matchContext(currentContext, context) && (rec[1].trim() == call)) alertText = rec[2];
 	}
-	return alertText;
+	return elimine2Spaces(alertText);
 }
 
 // Check if text ends with a shortcut and expand it

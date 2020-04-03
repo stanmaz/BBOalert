@@ -1,6 +1,30 @@
 // This file contaoins all stand-alone functione
 
 
+// match vulnerability and seat conditions in text
+function matchVulSeat(v, s, t) {
+	// set option only during the first round of bidding
+	if (s == '') return '';
+	var n = t.split('@').length - 1;
+	// if no @ tags in option name, let the option unchanged
+	if (n == 0) return '';
+	// if only one tag in option name, v or s must match 
+	if (n == 1) {
+		if (t.indexOf(v) > 0) return 'Y';
+		if (t.indexOf(s) > 0) return 'Y';
+		return 'N';
+	}
+	// if no vulnerability specified match seat
+	if ((t.indexOf('@n') == -1) && (t.indexOf('@v') == -1)) {
+		if (t.indexOf(s) > 0) return 'Y';
+		return 'N';
+	}
+	// if only more than one tag in option name, v and s must match
+	if ((t.indexOf(v) > 0) && (t.indexOf(s) > 0)) return 'Y';
+	return 'N';
+}
+
+
 // Check if element is visible
 function isVisible(e) {
 	if (e == null) return false;
@@ -16,6 +40,22 @@ function getNow() {
 	hh = now.getHours().toString();
 	mn = now.getMinutes().toString();
 	return yyyy + mm + dd + "_" + hh + ":" + mn;
+}
+
+// Elimine spaces and tabs
+function elimine2Spaces(str) {
+	var s = str.replace(/\t+/g, ' ');
+	s = s.replace(/\s\s+/g, ' ');
+	return s;
+}
+
+
+
+// Elimine spaces and tabs
+function elimineSpaces(str) {
+	var s = str.replace(/\s+/g, '');
+	s = s.replace(/\t+/g, '');
+	return s;
 }
 
 // Write text to clipboard
@@ -93,6 +133,14 @@ function translateCall(call) {
 	return el;
 }
 
+function getSeatNr() {
+	var c = getContext();
+	if (c == '') return '@1';
+	if (c == '--') return '@2';
+	if (c == '----') return '@3';
+	if (c == '------') return '@4';
+	return '';
+}
 
 // Get actual bidding context
 function getContext() {
@@ -120,8 +168,8 @@ function areWeVulnerable() {
 	cells = document.querySelectorAll('.auctionBoxHeaderCellClass');
 	if (cells == null) return '';
 	if (cells.length != 4) return '';
-	if (cells[3].style.backgroundColor == "rgb(255, 255, 255)") return 'n';
-	return 'v';
+	if (cells[3].style.backgroundColor == "rgb(255, 255, 255)") return '@n';
+	return '@v';
 }
 
 function getDealNumber() {
