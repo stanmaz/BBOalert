@@ -210,7 +210,7 @@ Optional blocks of data can be used also for :
 - vulnerability-dependent openings by using @v or @v tags
 - seat-dependent openings by using @1 @2 @3 and @4 tags
 
-The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combinig tags is allowed. In this example :
+The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combining tags is allowed. In this example :
 
     Option,Opening @v@3@4
 
