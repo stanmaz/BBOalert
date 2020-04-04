@@ -93,7 +93,7 @@ I recommend to proceed this way :
 - enter the code for opening bids and frequently used responses
 - start playing using this data (remember : select all text + copy to clipboard before starting BBO session)
 - alert your calls by hand if necessary. You can define shortcuts for the frequently used phrases and use them while entering explanations.
-- at the end of the session, paste the clipboard content at the end of the file. Your partner should do it too.
+- at the end of the session, press the 'Export' button and paste the clipboard content at the end of the file. Your partner should do it too.
 - review with your partner all newly created alerts and make the necessary corrections
 
 For very large files, collaborative online code editors are preferred like https://cryptpad.fr/code/.
