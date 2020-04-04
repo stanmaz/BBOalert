@@ -46,7 +46,7 @@ https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
 ### Chrome
 
-The extension is not published in Google's web-store.  therefore, you should install it in the CHROME browser manually from source code :
+The extension is not published in Google's web-store.  therefore, you should install it in the CHROME browser manually from the source code :
 
 - download BBOalert project source files in a ZIP file ("Clone or Download" button, then "Download ZIP")
 - Navigate to the "Downloads" directory, open the ZIP container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
