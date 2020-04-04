@@ -28,7 +28,7 @@ BBOalert has similar functionality as "Full Disclosure" which is no longer suppo
 - "Full Disclosure" served the purpose of formal and complete description of a bidding system to be maintained on BBO server. The readability of the code is extremely low due to its complexity.
 - BBOalert is strictly for personal use and should help to automate the disclosure of specific agreements. The simplicity of the code makes it readable.
 
-The program can read "Full Disclosure" old BSS files.
+The program can read "Full Disclosure" old BSS files. This will enable many users of the old Windows Flash version og BBO, to migrate to the HTML version and still keep the Full Discloseure functionnality.
 
 BBOalert is useful for all types of BBO users :
 
