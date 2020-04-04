@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 2.7
+Version : 2.7.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -79,6 +79,11 @@ See GettingStarted.pdf for basic operations.
 BBOalert saves in its memory all the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
 
 ## Recommended way of using BBOalert
+
+BBOalert was designed initially for BBO in English and then adapted to other languages. If you discover incompatibilies of BBOalert with BBO in your language :
+
+- switch to https://www.bridgebase.com/v3/?lang=en
+- report the problem to stanmaz.git@gmail.com
 
 We use the "You only alert once" principle.
 
