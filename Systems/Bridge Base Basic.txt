@@ -1,0 +1,3357 @@
+BBOalert
+1C,1D,7-16 hcp | 5+!D
+1C,1H,7-16 hcp | 5+!H
+1C,1N,15-18 HCP | Balanced | !C stopper
+1C1N--,2C,Please read chat#STAYMAN | 8+ | Asks for 4+ card major | 
+1C1N--2C--,2D,No 4+ card major | Any strength
+1C1N--2C--2D--,2H,Please read chat#8-9 | 5!H | 4!S | Invites game in 3NT or 4!H | Non-forcing
+1C1N--2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1C1N--2C--2D--,2S,Please read chat#8-9 | 5!S | 4!H | Invites game in 3NT or 4!S | Non-forcing
+1C1N--2C--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1C1N--2C--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1C1N--2C--2D--,3H,Please read chat#10-14 | 5!H | 4!S | Choice of 3NT or 4!H
+1C1N--2C--2D--,3N,10-14 |
+1C1N--2C--2D--,3S,Please read chat#10-14 | 5!S | 4!H | Choice of 3NT or 4!S
+1C1N--2C--,2H,4-5 !H | May have 4!S
+1C1N--2C--2H--,2N,8-9 | 0-3!H | 4!S | Non-forcing
+1C1N--2C--2H--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1C1N--2C--2H--2N--3H--,3N,0-2!H |
+1C1N--2C--2H--2N--3H--,4H,3!H |
+1C1N--2C--2H--2N--,3N,good 16-17 | 2-3!S |
+1C1N--2C--2H--2N--,3S,15 or bad 16 | 4!S |
+1C1N--2C--2H--2N--,4S,good 16-17 | 4!S |
+1C1N--2C--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!S
+1C1N--2C--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!S
+1C1N--2C--2H--,3H,8-9 | 4-5!H |
+1C1N--2C--2H--3H--,4H,good 16-17 | Accepting invite
+1C1N--2C--2H--,3N,10-14 | 0-3!H | 4!S | Non-forcing
+1C1N--2C--2H--3N--,4S,4!S |
+1C1N--2C--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1C1N--2C--2H--,4H,10-14 | 4-5!H |
+1C1N--2C--,2S,4-5 !S | 2-3 !H |
+1C1N--2C--2S--,2N,8-9 | 0-3!S | 4!H | Non-forcing
+1C1N--2C--2S--2N--,3N,good 16-17 |
+1C1N--2C--2S--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1C1N--2C--2S--2N--3S--,3N,0-2!S |
+1C1N--2C--2S--2N--3S--,4S,3!S |
+1C1N--2C--2S--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1C1N--2C--2S--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1C1N--2C--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1C1N--2C--2S--,3N,10-14 | 0-3!S | 4!H | Non-forcing
+1C1N--2C--2S--,3S,8-9 | 4-5!S |
+1C1N--2C--2S--3S--,4S,good 16-17 | Accepting invite
+1C1N--,2D,5+!H | Any strength
+1C1N--2D--,2H,2+!H | 
+1C1N--2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1C1N--2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1C1N--2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1C1N--2D--2H--2N--,4H,good 16-17 | 3+!H
+1C1N--2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1C1N--2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1C1N--2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1C1N--2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1C1N--2D--2H--3H--,4H,good 16-17
+1C1N--2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1C1N--2D--2H--3N--,4H,3+!H
+1C1N--2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1C1N--2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1C1N--2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1C1N--2D--2H--,4H,6+!H | Mild slam interest
+1C1N--2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1C1N--2D--2H--4N--,6H,Accepting invite with !H fit
+1C1N--2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1C1N--2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1C1N--2D--3H--,4C,Control showing cuebid.
+1C1N--2D--3H--,4D,Control showing cuebid.
+1C1N--2D--3H--,4H,Control showing cuebid.
+1C1N--2D--3H--,4N,Blackwood (!H)
+1C1N--,2H,5+!S | Any strength
+1C1N--2H--,2S,2+!S | 
+1C1N--2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1C1N--2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1C1N--2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1C1N--2H--2S--2N--,4S,good 16-17 | 3+!S
+1C1N--2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1C1N--2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1C1N--2H--2S--,3H,10+ | 5!H | 5!S | 
+1C1N--2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1C1N--2H--2S--3N--,4S,3+!S
+1C1N--2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1C1N--2H--2S--3S--,4S,good 16-17
+1C1N--2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1C1N--2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1C1N--2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1C1N--2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1C1N--2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1C1N--2H--2S--4N--,6S,Accepting invite with !S fit
+1C1N--2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1C1N--2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1C1N--2H--3S--,4C,Control showing cuebid.
+1C1N--2H--3S--,4D,Control showing cuebid.
+1C1N--2H--3S--,4H,Control showing cuebid.
+1C1N--2H--3S--,4N,Blackwood (!S)
+1C1N--,2N,8-9 | No 4+ card major unless 4333
+1C1N--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1C1N--2N--,3N,good 16-17
+1C1N--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1C1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1C1N--2S--,3C,Responder will pass or correct to 3!D
+1C1N--2S--3C--,3D,0-7 | 6+!D | To play
+1C1N--,3D,Please read chat#6+!D | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1C1N--3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1C1N--,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1C1N--3H--,3S,Control showing cuebid.
+1C1N--3H--,4C,Control showing cuebid.
+1C1N--3H--,4D,Control showing cuebid.
+1C1N--,3N,10-14 | No 4+ card major unless 4333
+1C1N--,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1C1N--3S--,4C,Control showing cuebid.
+1C1N--3S--,4D,Control showing cuebid.
+1C1N--3S--,4H,Control showing cuebid.
+1C1N--,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1C1N--4D--,4H,2+!H
+1C1N--4D--4H--,4N,Blackwood (!H)
+1C1N--,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1C1N--4H--,4S,2+!S
+1C1N--4H--4S--,4N,Blackwood (!S)
+1C,1S,7-16 hcp | 5+!S
+1C,2C,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+ |
+1C2C--,2D,6+!D | No 3 card major | To play
+1C2C--,2H,Prefers !H | No game interest
+1C2C--,2S,Prefers !S | No game interest
+1C2C--,3C,Game or slam try in a major
+1C2C--3C--,3H,Please read chat#Minimum; rejecting invite | Any other bid shows a non-minimum
+1C2C--,3H,
+1C2C--,3N,To play
+1C2C--,3S,
+1C2C--,4H,To play. Often preemptive.
+1C2C--,4S,To play. Often preemptive.
+1C,2D,5-10 hcp | 6+!D
+1C,2H,5-10 hcp | 6+!H
+1C,2N,Please read chat#Unusual 2NT | !D+!H | At least 5-5 | Usually 6-10 or 15+
+1C2N--,3D,Prefers !D | No game interest
+1C2N--,3H,Prefers !H | No game interest
+1C2N--,3N,To play.
+1C2N--,4D,
+1C2N--,4H,To play. May be preemptive.
+1C2N--,5D,To play. May be preemptive.
+1C,2S,5-10 hcp | 6+!S
+1C,3C,Natural | 6+ good !C | 11-15 hcp
+1C,3D,<10 hcp | 7+!D (occasionally 6)
+1C,3H,<10 hcp | 7+!H (occasionally 6)
+1C,3N,To play
+1C,3S,<10 hcp | 7+!S (occasionally 6)
+1C,4D,
+1C,4H,To play. May be preemptive.
+1C,4S,To play. May be preemptive.
+1C,Db,Please read chat#Takeout | 13+ (hcp + shortness) | Short !C; 3+ card support for !D/!H/!S | (or any 17+)
+1CDb--,1D,0-8 | 4+!D | Usually no 4 card major
+1CDb--,1H,0-8 | 4+!H (rarely 3)
+1CDb--,1N,Please read chat#7-10 hcp | !C stopper | Balanced; no 4 card major
+1CDb--,1S,0-8 | 4+!S (rarely 3)
+1CDb--,2C,Please read chat#11+ | Asks partner to pick a major | Usually 4!H+4!S
+1CDb--,2D,8-11 | 4+!D
+1CDb--,2H,8-11 | 4+!H
+1CDb--,2N,Please read chat#11-13 hcp | !C stopper | Balanced; no 4 card major
+1CDb--,2S,8-11 | 4+!S
+1CDb--,3D,8-11
+1CDb--,3H,Please read chat#8-11 | Distributional game invite | Non-forcing
+1CDb--,3N,Please read chat#13+ hcp | !C stopper | Balanced; no 4 card major
+1CDb--,3S,Please read chat#8-11 | Distributional game invite | Non-forcing
+1CDb--,4H,To play
+1CDb--,4S,To play
+1CDb--,--,Penalty | 5+ strong !Cs
+1C--1D,2N,Unusual 2NT | !H+!S | At least 5-5
+1C--1D,Db,Takeout | !H+!S | At least 4-4
+1C--1H,2N,Unusual 2NT | !D+!S | At least 5-5
+1C--1H,Db,Takeout | !D+!S | At least 4-4
+1C--1N,2C,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+
+1C--1N,Db,Takeout of !C | !D+!H+!S
+1C--1S,2N,Unusual 2NT | !D+!H | At least 5-5
+1C--1S,Db,Takeout | !D+!H | At least 4-4
+1C--2C,Db,Takeout of !C | !D+!H+!S
+1C----,1N,10-15 | Balanced |
+1C----1N--,2C,STAYMAN | 8+ | Asks for 4 card major
+1C----1N--,2D,5+!H | any strength
+1C----1N--,2H,5+!S | any strength
+1C----1N--,2N,11-13 hcp
+1C----1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1C----1N--2S--,3C,Responder will pass or correct to 3!D
+1C----1N--2S--3C--,3D,0-7 | 6+!D | To play
+1C----,2C,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+ |
+1C----2C--,2D,6+!D | No 3 card major | To play
+1C----2C--,2H,Prefers !H | No game interest
+1C----2C--,2S,Prefers !S | No game interest
+1C----2C--,3C,Game or slam try in a major
+1C----2C--3C--,3H,Please read chat#Minimum; rejecting invite | Any other bid shows a non-minimum
+1C----2C--,3H,
+1C----2C--,3N,To play
+1C----2C--,3S,
+1C----2C--,4H,To play. Often preemptive.
+1C----2C--,4S,To play. Often preemptive.
+1C----,2N,Please read chat#18-20 HCP | Balanced | Natural; non-forcing
+1D,1H,7-16 hcp | 5+!H
+1D,1N,15-18 HCP | Balanced | !D stopper
+1D1N--,2C,Please read chat#STAYMAN | 8+ | Asks for 4+ card major | 
+1D1N--2C--,2D,No 4+ card major | Any strength
+1D1N--2C--2D--,2H,Please read chat#8-9 | 5!H | 4!S | Invites game in 3NT or 4!H | Non-forcing
+1D1N--2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1D1N--2C--2D--,2S,Please read chat#8-9 | 5!S | 4!H | Invites game in 3NT or 4!S | Non-forcing
+1D1N--2C--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1D1N--2C--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1D1N--2C--2D--,3H,Please read chat#10-14 | 5!H | 4!S | Choice of 3NT or 4!H
+1D1N--2C--2D--,3N,10-14 |
+1D1N--2C--2D--,3S,Please read chat#10-14 | 5!S | 4!H | Choice of 3NT or 4!S
+1D1N--2C--,2H,4-5 !H | May have 4!S
+1D1N--2C--2H--,2N,8-9 | 0-3!H | 4!S | Non-forcing
+1D1N--2C--2H--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1D1N--2C--2H--2N--3H--,3N,0-2!H |
+1D1N--2C--2H--2N--3H--,4H,3!H |
+1D1N--2C--2H--2N--,3N,good 16-17 | 2-3!S |
+1D1N--2C--2H--2N--,3S,15 or bad 16 | 4!S |
+1D1N--2C--2H--2N--,4S,good 16-17 | 4!S |
+1D1N--2C--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!S
+1D1N--2C--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!S
+1D1N--2C--2H--,3H,8-9 | 4-5!H |
+1D1N--2C--2H--3H--,4H,good 16-17 | Accepting invite
+1D1N--2C--2H--,3N,10-14 | 0-3!H | 4!S | Non-forcing
+1D1N--2C--2H--3N--,4S,4!S |
+1D1N--2C--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1D1N--2C--2H--,4H,10-14 | 4-5!H |
+1D1N--2C--,2S,4-5 !S | 2-3 !H |
+1D1N--2C--2S--,2N,8-9 | 0-3!S | 4!H | Non-forcing
+1D1N--2C--2S--2N--,3N,good 16-17 |
+1D1N--2C--2S--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1D1N--2C--2S--2N--3S--,3N,0-2!S |
+1D1N--2C--2S--2N--3S--,4S,3!S |
+1D1N--2C--2S--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1D1N--2C--2S--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1D1N--2C--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1D1N--2C--2S--,3N,10-14 | 0-3!S | 4!H | Non-forcing
+1D1N--2C--2S--,3S,8-9 | 4-5!S |
+1D1N--2C--2S--3S--,4S,good 16-17 | Accepting invite
+1D1N--,2D,5+!H | Any strength
+1D1N--2D--,2H,2+!H | 
+1D1N--2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1D1N--2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1D1N--2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1D1N--2D--2H--2N--,4H,good 16-17 | 3+!H
+1D1N--2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1D1N--2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1D1N--2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1D1N--2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1D1N--2D--2H--3H--,4H,good 16-17
+1D1N--2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1D1N--2D--2H--3N--,4H,3+!H
+1D1N--2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1D1N--2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1D1N--2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1D1N--2D--2H--,4H,6+!H | Mild slam interest
+1D1N--2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1D1N--2D--2H--4N--,6H,Accepting invite with !H fit
+1D1N--2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1D1N--2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1D1N--2D--3H--,4C,Control showing cuebid.
+1D1N--2D--3H--,4D,Control showing cuebid.
+1D1N--2D--3H--,4H,Control showing cuebid.
+1D1N--2D--3H--,4N,Blackwood (!H)
+1D1N--,2H,5+!S | Any strength
+1D1N--2H--,2S,2+!S | 
+1D1N--2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1D1N--2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1D1N--2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1D1N--2H--2S--2N--,4S,good 16-17 | 3+!S
+1D1N--2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1D1N--2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1D1N--2H--2S--,3H,10+ | 5!H | 5!S | 
+1D1N--2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1D1N--2H--2S--3N--,4S,3+!S
+1D1N--2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1D1N--2H--2S--3S--,4S,good 16-17
+1D1N--2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1D1N--2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1D1N--2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1D1N--2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1D1N--2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1D1N--2H--2S--4N--,6S,Accepting invite with !S fit
+1D1N--2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1D1N--2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1D1N--2H--3S--,4C,Control showing cuebid.
+1D1N--2H--3S--,4D,Control showing cuebid.
+1D1N--2H--3S--,4H,Control showing cuebid.
+1D1N--2H--3S--,4N,Blackwood (!S)
+1D1N--,2N,8-9 | No 4+ card major unless 4333
+1D1N--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1D1N--2N--,3N,good 16-17
+1D1N--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1D1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1D1N--2S--,3C,Responder will pass or correct to 3!D
+1D1N--2S--3C--,3D,0-7 | 6+!D | To play
+1D1N--,3C,Please read chat#6+!C | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1D1N--3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1D1N--,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1D1N--3H--,3S,Control showing cuebid.
+1D1N--3H--,4C,Control showing cuebid.
+1D1N--3H--,4D,Control showing cuebid.
+1D1N--,3N,10-14 | No 4+ card major unless 4333
+1D1N--,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1D1N--3S--,4C,Control showing cuebid.
+1D1N--3S--,4D,Control showing cuebid.
+1D1N--3S--,4H,Control showing cuebid.
+1D1N--,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1D1N--4D--,4H,2+!H
+1D1N--4D--4H--,4N,Blackwood (!H)
+1D1N--,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1D1N--4H--,4S,2+!S
+1D1N--4H--4S--,4N,Blackwood (!S)
+1D,1S,7-16 hcp | 5+!S
+1D,2C,5+!C | 11+ points
+1D,2D,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+ |
+1D2D--,2H,Prefers !H | No game interest
+1D2D--,2S,Prefers !S | No game interest
+1D2D--,3D,Game or slam try in a major
+1D2D--3D--,3H,Please read chat#Minimum; rejecting invite | Any other bid shows a non-minimum
+1D2D--,3H,
+1D2D--,3N,To play
+1D2D--,3S,
+1D2D--,4H,To play. Often preemptive.
+1D2D--,4S,To play. Often preemptive.
+1D,2H,5-10 hcp | 6+!H
+1D,2N,Please read chat#Unusual 2NT | !C+!H | At least 5-5 | Usually 6-10 or 15+
+1D2N--,3C,Prefers !C | No game interest
+1D2N--,3H,Prefers !H | No game interest
+1D2N--,3N,To play.
+1D2N--,4C,
+1D2N--,4H,To play. May be preemptive.
+1D2N--,5C,To play. May be preemptive.
+1D,2S,5-10 hcp | 6+!S
+1D,3C,<10 hcp | 7+!C (occasionally 6)
+1D,3D,Natural | 6+ good !D | 11-15 hcp
+1D,3H,<10 hcp | 7+!H (occasionally 6)
+1D,3N,To play
+1D,3S,<10 hcp | 7+!S (occasionally 6)
+1D,4C,
+1D,4H,To play. May be preemptive.
+1D,4S,To play. May be preemptive.
+1D,Db,Please read chat#Takeout | 13+ (hcp + shortness) | Short !D; 3+ card support for !C/!H/!S | (or any 17+)
+1DDb--,1H,0-8 | 4+!H (rarely 3)
+1DDb--,1N,Please read chat#7-10 hcp | !D stopper | Balanced; no 4 card major
+1DDb--,1S,0-8 | 4+!S (rarely 3)
+1DDb--,2C,0-8 | 4+!C | Usually no 4 card major
+1DDb--,2D,Please read chat#11+ | Asks partner to pick a major | Usually 4!H+4!S
+1DDb--,2H,8-11 | 4+!H
+1DDb--,2N,Please read chat#11-13 hcp | !D stopper | Balanced; no 4 card major
+1DDb--,2S,8-11 | 4+!S
+1DDb--,3C,
+1DDb--,3H,Please read chat#8-11 | Distributional game invite | Non-forcing
+1DDb--,3N,Please read chat#13+ hcp | !D stopper | Balanced; no 4 card major
+1DDb--,3S,Please read chat#8-11 | Distributional game invite | Non-forcing
+1DDb--,4H,To play
+1DDb--,4S,To play
+1DDb--,--,Penalty | 5+ strong !Ds
+1D--1H,2N,Unusual 2NT | !C+!S | At least 5-5
+1D--1H,Db,Takeout | !C+!S | At least 4-4
+1D--1N,2D,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+
+1D--1N,Db,Takeout of !D | !C+!H+!S
+1D--1S,2N,Unusual 2NT | !C+!H | At least 5-5
+1D--1S,Db,Takeout | !C+!H | At least 4-4
+1D--2C,2N,Takeout | !H+!S | At least 5-5
+1D--2C,Db,Takeout | !H+!S | At least 5-4
+1D--2D,Db,Takeout of !D | !C+!H+!S
+1D----,1N,10-15 | Balanced |
+1D----1N--,2C,STAYMAN | 8+ | Asks for 4 card major
+1D----1N--,2D,5+!H | any strength
+1D----1N--,2H,5+!S | any strength
+1D----1N--,2N,11-13 hcp
+1D----1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1D----1N--2S--,3C,Responder will pass or correct to 3!D
+1D----1N--2S--3C--,3D,0-7 | 6+!D | To play
+1D----,2D,Please read chat#MICHAELS | !H+!S | At least 5-5 | Usually 6-10 or 15+ |
+1D----2D--,2H,Prefers !H | No game interest
+1D----2D--,2S,Prefers !S | No game interest
+1D----2D--,3D,Game or slam try in a major
+1D----2D--3D--,3H,Please read chat#Minimum; rejecting invite | Any other bid shows a non-minimum
+1D----2D--,3H,
+1D----2D--,3N,To play
+1D----2D--,3S,
+1D----2D--,4H,To play. Often preemptive.
+1D----2D--,4S,To play. Often preemptive.
+1D----,2N,Please read chat#18-20 HCP | Balanced | Natural; non-forcing
+1H,1N,15-18 HCP | Balanced | !H stopper
+1H1N--,2C,Please read chat#STAYMAN | 8+ | Asks for 4+ card spade suit | 
+1H1N--2C--,2D,2-3!S | Any strength
+1H1N--2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1H1N--2C--2D--,3C,10+ | 5+!C | May not have 4!S
+1H1N--2C--2D--,3D,10+ | 5+!D | May not have 4!S
+1H1N--2C--2D--,3N,10-14 |
+1H1N--2C--,2S,4-5 !S |
+1H1N--2C--2S--,3C,10+ | 5+!C | May not have 4!S
+1H1N--2C--2S--,3D,10+ | 5+!D | May not have 4!S
+1H1N--2C--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1H1N--2C--2S--,3S,8-9 | 4-5!S |
+1H1N--2C--2S--3S--,4S,good 16-17 | Accepting invite
+1H1N--,2H,5+!S | Any strength
+1H1N--2H--,2S,2+!S | 
+1H1N--2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1H1N--2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1H1N--2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1H1N--2H--2S--2N--,4S,good 16-17 | 3+!S
+1H1N--2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1H1N--2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1H1N--2H--2S--,3H,10+ | 5!H | 5!S | 
+1H1N--2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1H1N--2H--2S--3N--,4S,3+!S
+1H1N--2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1H1N--2H--2S--3S--,4S,good 16-17
+1H1N--2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1H1N--2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1H1N--2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1H1N--2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1H1N--2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1H1N--2H--2S--4N--,6S,Accepting invite with !S fit
+1H1N--2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1H1N--2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1H1N--2H--3S--,4C,Control showing cuebid.
+1H1N--2H--3S--,4D,Control showing cuebid.
+1H1N--2H--3S--,4H,Control showing cuebid.
+1H1N--2H--3S--,4N,Blackwood (!S)
+1H1N--,2N,8-9 | No 4+ card major unless 4333
+1H1N--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1H1N--2N--,3N,good 16-17
+1H1N--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1H1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1H1N--2S--,3C,Responder will pass or correct to 3!D
+1H1N--2S--3C--,3D,0-7 | 6+!D | To play
+1H1N--,3C,Please read chat#6+!C | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1H1N--3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1H1N--,3D,Please read chat#6+!D | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1H1N--3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1H1N--,3N,10-14 | No 4+ card major unless 4333
+1H1N--,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1H1N--3S--,4C,Control showing cuebid.
+1H1N--3S--,4D,Control showing cuebid.
+1H1N--3S--,4H,Control showing cuebid.
+1H1N--,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1H1N--4H--,4S,2+!S
+1H1N--4H--4S--,4N,Blackwood (!S)
+1H,1S,7-16 hcp | 5+!S
+1H,2C,5+!C | 11+ points
+1H,2D,5+!D | 11+ points
+1H,2H,Please read chat#MICHAELS | !S + a minor | At least 5-5 | Usually 6-10 or 15+ |
+1H2H--,2N,Asks for minor
+1H2H--2N--,3C,
+1H2H--2N--,3D,
+1H2H--,2S,Prefers !S | No game interest
+1H2H--,3C,6+!C | Non-forcing
+1H2H--,3D,6+!D | Non-forcing
+1H2H--,3H,Game or slam try in !S
+1H2H--3H--,3S,Minimum; rejecting invite
+1H2H--,3N,To play
+1H2H--,3S,
+1H2H--,4S,To play. Often preemptive.
+1H,2N,Please read chat#Unusual 2NT | !C+!D | At least 5-5 | Usually 6-10 or 15+
+1H2N--,3C,Prefers !C | No game interest
+1H2N--,3D,Prefers !D | No game interest
+1H2N--,3N,To play.
+1H2N--,4C,
+1H2N--,4D,
+1H2N--,5C,To play. Often preemptive.
+1H2N--,5D,To play. Often preemptive.
+1H,2S,5-10 hcp | 6+!S
+1H,3C,<10 hcp | 7+!C (occasionally 6)
+1H,3D,<10 hcp | 7+!D (occasionally 6)
+1H,3N,To play
+1H,3S,<10 hcp | 7+!S (occasionally 6)
+1H,4C,
+1H,4D,
+1H,4S,To play. May be preemptive.
+1H,Db,Please read chat#Takeout | 13+ (hcp + shortness) | Short !H; 3+ card support for !C/!D/!S | (or any 17+)
+1HDb--,1N,Please read chat#7-10 hcp | !H stopper | Balanced without 4!S
+1HDb--,1S,0-8 | 4+!S (rarely 3)
+1HDb--,2C,0-8 | 4+!C | Usually 0-3!S
+1HDb--,2D,0-8 | 4+!D | Usually 0-3!S
+1HDb--,2H,Please read chat#11+ | Unsure of best suit or game forcing 
+1HDb--,2N,Please read chat#11-13 hcp | !H stoppers | Balanced without 4!S
+1HDb--,2S,8-11 | 4+!S
+1HDb--,3C,
+1HDb--,3D,
+1HDb--,3N,Please read chat#13+ hcp | !H stoppers | Balanced without 4!S
+1HDb--,3S,Please read chat#8-11 | Distributional game invite | Non-forcing
+1HDb--,4S,To play
+1HDb--,--,Penalty | 3-4 sure !H tricks
+1H--1N,2H,Please read chat#MICHAELS | !S+minor | At least 5-5 | Usually 6-10 or 15+
+1H--1N,Db,Takeout of !H | !C+!D+!S
+1H--1S,2N,Unusual 2NT | !C+!D | At least 5-5
+1H--1S,Db,Takeout | !C+!D | At least 4-4
+1H--2C,2N,Unusual 2NT | !D+!S | At least 5-5
+1H--2C,Db,Takeout | !D+!S | At least 5-4
+1H--2D,2N,Unusual 2NT | !C+!S | At least 5-5
+1H--2D,Db,Takeout | !C+!S | At least 5-4
+1H--2H,Db,Takeout of !H | !C+!D+!S
+1H----,1N,11-15 | Balanced |
+1H----1N--,2C,STAYMAN | 8+ | Asks for 4 card major
+1H----1N--,2H,5+!S | any strength
+1H----1N--,2N,11-13 hcp
+1H----1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1H----1N--2S--,3C,Responder will pass or correct to 3!D
+1H----1N--2S--3C--,3D,0-7 | 6+!D | To play
+1H----,2H,Please read chat#MICHAELS | !S + a minor | At least 5-5 | Usually 6-10 or 15+ |
+1H----2H--,2N,Asks for minor
+1H----2H--2N--,3C,
+1H----2H--2N--,3D,
+1H----2H--,2S,Prefers !S | No game interest
+1H----2H--,3C,6+!C | Non-forcing
+1H----2H--,3D,6+!D | Non-forcing
+1H----2H--,3H,Game or slam try in !S
+1H----2H--3H--,3S,Minimum; rejecting invite
+1H----2H--,3N,To play
+1H----2H--,3S,
+1H----2H--,4S,To play. Often preemptive.
+1H----,2N,Please read chat#18-20 HCP | Balanced | Natural; non-forcing
+1S,1N,15-18 HCP | Balanced | !C stopper
+1S1N--,2C,Please read chat#STAYMAN | 8+ | Asks for 4 card heart suit| 
+1S1N--2C--,2D,2-3!H | Any strength
+1S1N--2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1S1N--2C--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1S1N--2C--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1S1N--2C--2D--,3N,10-14 |
+1S1N--2C--,2H,4-5 !H | 
+1S1N--2C--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1S1N--2C--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1S1N--2C--2H--,3H,8-9 | 4-5!H |
+1S1N--2C--2H--3H--,4H,good 16-17 | Accepting invite
+1S1N--2C--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1S1N--2C--2H--,4H,10-14 | 4-5!H |
+1S1N--,2D,5+!H | Any strength
+1S1N--2D--,2H,2+!H | 
+1S1N--2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1S1N--2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1S1N--2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1S1N--2D--2H--2N--,4H,good 16-17 | 3+!H
+1S1N--2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1S1N--2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1S1N--2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1S1N--2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1S1N--2D--2H--3H--,4H,good 16-17
+1S1N--2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1S1N--2D--2H--3N--,4H,3+!H
+1S1N--2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1S1N--2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1S1N--2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1S1N--2D--2H--,4H,6+!H | Mild slam interest
+1S1N--2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1S1N--2D--2H--4N--,6H,Accepting invite with !H fit
+1S1N--2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1S1N--2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1S1N--2D--3H--,4C,Control showing cuebid.
+1S1N--2D--3H--,4D,Control showing cuebid.
+1S1N--2D--3H--,4H,Control showing cuebid.
+1S1N--2D--3H--,4N,Blackwood (!H)
+1S1N--,2N,8-9 | No 4+ card major unless 4333
+1S1N--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1S1N--2N--,3N,good 16-17
+1S1N--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1S1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1S1N--2S--,3C,Responder will pass or correct to 3!D
+1S1N--2S--3C--,3D,0-7 | 6+!D | To play
+1S1N--,3C,Please read chat#6+!C | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1S1N--3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1S1N--,3D,Please read chat#6+!D | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1S1N--3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1S1N--,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1S1N--3H--,3S,Control showing cuebid.
+1S1N--3H--,4C,Control showing cuebid.
+1S1N--3H--,4D,Control showing cuebid.
+1S1N--,3N,10-14 | No 4+ card major unless 4333
+1S1N--,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1S1N--4D--,4H,2+!H
+1S1N--4D--4H--,4N,Blackwood (!H)
+1S1N--,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1S1N--4H--,4S,2+!S
+1S1N--4H--4S--,4N,Blackwood (!S)
+1S,2C,5+!C | 11+ points
+1S,2D,5+!D | 11+ points
+1S,2H,5+!H | 11+ points
+1S,2N,Please read chat#Unusual 2NT | !C+!D | At least 5-5 | Usually 6-10 or 15+
+1S2N--,3C,Prefers !C | No game interest
+1S2N--,3D,Prefers !D | No game interest
+1S2N--,3N,To play.
+1S2N--,4C,
+1S2N--,4D,
+1S2N--,5C,To play. Often preemptive.
+1S2N--,5D,To play. Often preemptive.
+1S,2S,Please read chat#MICHAELS | !H + a minor | At least 5-5 | Usually 6-10 or 15+ |
+1S2S--,2N,Asks for minor
+1S2S--2N--,3C,
+1S2S--2N--3C--,3H,3+!H | Invitational
+1S2S--2N--,3D,
+1S2S--2N--3D--,3H,3+!H | Invitational
+1S2S--,3C,6+!C | Non-forcing
+1S2S--,3D,6+!D | Non-forcing
+1S2S--,3H,3+!H | No game interest
+1S2S--,3N,To play
+1S2S--,4H,To play. Often preemptive.
+1S,3C,<10 hcp | 7+!C (occasionally 6)
+1S,3D,<10 hcp | 7+!D (occasionally 6)
+1S,3H,<10 hcp | 7+!H (occasionally 6)
+1S,3N,To play
+1S,4C,
+1S,4D,
+1S,4H,To play. May be preemptive.
+1S,Db,Please read chat#Takeout | 13+ (hcp + shortness) | Short !S; 3+ card support for !C/!D/!H | (or any 17+)
+1SDb--,1N,Please read chat#7-10 hcp | !S stopper | Balanced without 4!H
+1SDb--,2C,0-8 | 4+!C | Usually 0-3!H
+1SDb--,2D,0-8 | 4+!D | Usually 0-3!H
+1SDb--,2H,0-8 | 4+!H | 
+1SDb--,2N,Please read chat#11-13 hcp | !S stoppers | Balanced without 4!H
+1SDb--,2S,Please read chat#11+ | Unsure of best suit or game forcing 
+1SDb--,3C,
+1SDb--,3D,
+1SDb--,3H,8-11 | 4+!H |
+1SDb--,3N,Please read chat#13+ hcp | !S stoppers | Balanced without 4!H
+1SDb--,4H,To play
+1SDb--,--,Penalty | 3-4 sure !S tricks
+1S--1N,2S,Please read chat#MICHAELS | !H+minor | At least 5-5 | Usually 6-10 or 15+
+1S--1N,Db,Takeout of !S | !C+!D+!H
+1S--2C,2N,Unusual 2NT | !D+!H | At least 5-5
+1S--2C,Db,Takeout | !D+!H | At least 5-4
+1S--2D,2N,Unusual 2NT | !C+!H | At least 5-5
+1S--2D,Db,Takeout | !C+!H | At least 5-4
+1S--2H,2N,Unusual 2NT | !C+!D | At least 5-5
+1S--2H,Db,Takeout | !C+!D | At least 5-4
+1S--2S,Db,Takeout of !S | !C+!D+!H
+1S----,1N,11-15 | Balanced |
+1S----1N--,2C,STAYMAN | 8+ | Asks for 4 card major
+1S----1N--,2D,5+!H | any strength
+1S----1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1S----1N--2S--,3C,Responder will pass or correct to 3!D
+1S----1N--2S--3C--,3D,0-7 | 6+!D | To play
+1S----,2N,Please read chat#18-20 HCP | Balanced | Natural; non-forcing
+1S----,2S,Please read chat#MICHAELS | !H + a minor | At least 5-5 | Usually 6-10 or 15+ |
+1S----2S--,2N,Asks for minor
+1S----2S--2N--,3C,
+1S----2S--2N--3C--,3H,3+!H | Invitational
+1S----2S--2N--,3D,
+1S----2S--2N--3D--,3H,3+!H | Invitational
+1S----2S--,3C,6+!C | Non-forcing
+1S----2S--,3D,6+!D | Non-forcing
+1S----2S--,3H,3+!H | No game interest
+1S----2S--,3N,To play
+1S----2S--,4H,To play. Often preemptive.
+Error *00{SAYC}=NYYYYYYBBO Standard - SAYC based                             Last update: 06-03-16|,,Please read chat# Standard - SAYC based                             Last update: 06-03-16
+1C1D,1H,6+ | 4+!H
+1C1D,1N,Please read chat#WK (6-10) | No 4 card major | !D stopper
+1C1D,1S,6+ | 4+!S
+1C1D,2C,Please read chat#WK (6-10) | 4+!C (usually 5+) | No 4 card major
+1C1D,2D,Please read chat#11+ | 5+!C | Inv or better !C raise | No 4 card major
+1C1D,2H,Weak jump shift
+1C1D,2N,Please read chat#INV (11-12) | No 4 card major | !D stoppers
+1C1D,2S,Weak jump shift
+1C1D,3C,<8 hcp | 5+!C | Usually no 4 card major
+1C1D,3H,
+1C1D,3N,Please read chat#GF (13-15) | No 4 card major | !D stoppers
+1C1D,3S,
+1C1D,4C,
+1C1D,4H,To play
+1C1D,4S,To play
+1C1D,Db,Please read chat#Neg X | 6+ pts; exactly 4!H+4!S | (May be 5-4 if 6-10 pts)
+1C1H,1N,WK (6-10) | No 4!S | !H stopper
+1C1H,1S,6+ | 5+!S
+1C1H,2C,WK (6-10) | 4+!C (usually 5+) | No 4!S
+1C1H,2D,11+ | 5+!D 
+1C1H,2H,Please read chat#11+ | 5+!C | Inv or better !C raise | No 4!S
+1C1H,2N,Please read chat#INV (11-12) | !H stoppers | Balanced without 4!S
+1C1H,2S,Weak jump shift
+1C1H,3C,<8 hcp | 5+!C | Usually without 4!S
+1C1H,3N,GF (13-15) | !H stoppers | No 4!S
+1C1H,3S,
+1C1H,4C,
+1C1H,4S,To play
+1C1H,Db,Please read chat#Neg X | 6+ pts; exactly 4!S | Does not promise !D
+1C1S,1N,Please read chat#WK (6-10) | !S stopper | Balanced; usually without 4!H
+1C1S,2C,WK (6-10) | 4+!C (usually 5+) | No 4!H
+1C1S,2D,11+ | 5+!D 
+1C1S,2H,11+ | 5+!H
+1C1S,2N,Please read chat#INV (11-12) | !S stoppers | Balanced without 4!H
+1C1S,2S,Please read chat#11+ | 5+!C | Inv or better !C raise | No 4!H
+1C1S,3C,<8 hcp | 5+!C | Usually without 4!H
+1C1S,3N,Please read chat#GF (13-15) | !S stoppers | Balanced without 4!H
+1C1S,4C,
+1C1S,4H,To play
+1C1S,Db,Please read chat#Neg X | 6+ pts with 4!H | or | 5-10 pts with 5+!H
+1C2C,2D,
+1C2C,2H,Please read chat#11+ | !H stopper | Usually looking for 3NT
+1C2C,2N,Please read chat#11-12 hcp | !H+!S stoppers | Invites 3NT
+1C2C,2S,Please read chat#11+ | !S stopper | Usually looking for 3NT
+1C2C,3C,WK (6-10) | 5+!C | Competitive raise
+1C2C,3H,SPLINTER | 11+ hcp | 6+!C | 0-1 !H
+1C2C,3N,GF (13-15) | !H+!S stoppers
+1C2C,3S,SPLINTER | 11+ hcp | 6+!C | 0-1 !S
+1C2C,4C,5+!C | Preemptive
+1C2C,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one major)
+1C2D,2H,11+ | 5+!H
+1C2D,2N,Please read chat#INV (11-12) | !D stoppers | Usually no 4 card major
+1C2D,2S,11+ | 5+!S
+1C2D,3C,
+1C2D,Db,Please read chat#Neg X | 8+ hcp | At least one 4+ card major
+1C2H,2N,INV (11-12) | !H stoppers | No 4!S
+1C2H,2S,11+ | 5+!S
+1C2H,3C,
+1C2H,3D,13+ | 5+!D | Usually without 4!S
+1C2H,3N,GF (13-15) | !H stoppers | No 4!S
+1C2H,Db,Neg X | 9+ hcp | 4+!S
+1C2N,3C,Non-forcing
+1C2N,3D,13+ | 5+!C | 
+1C2N,3H,11+ | 5+!S |
+1C2N,3N,Please read chat#To play | !D+!H stoppers | Natural; balanced
+1C2N,3S,WK (6-10) | 5+!S | Non-forcing
+1C2N,4C,
+1C2N,4S,To play
+1C2N,5C,To play. May be preemptive.
+1C2N,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one suit)
+1C2S,2N,INV (11-12) | !S stoppers | 
+1C2S,3C,
+1C2S,3D,13+ | 5+!D | Usually without 4!H
+1C2S,3H,13+ | 5+!H
+1C2S,3N,Please read chat#GF (13-15) | !S stoppers | Usually without 4!H
+1C2S,Db,Neg X | 9+ hcp | 4+!H
+1C3D,Db,Neg X | 10+ hcp | 
+1C3H,Db,Please read chat#Neg X | 10+ hcp | Usually 4+!S and no !H stopper
+1C3S,Db,Please read chat#Neg X | 11+ hcp | Usually 4+!H and no !S stopper 
+,1C,Please read chat#13+ | 3+!C | Usually open 1!C with 3-3 in minors; 1!D with 4-4.
+1CDb,1D,6+ | 4+!D
+1CDb,1H,6+ | 4+!H
+1CDb,1N,Please read chat#7-10 | Balanced | May have a weak 4 card major
+1CDb,1S,6+ | 4+!S
+1CDb,2C,WK (6-10) | 4+!C (usually 5+!)
+1CDb,2D,6+!D | Usually <8 hcp
+1CDb,2H,6+!H | Usually <8 hcp
+1CDb,2N,Please read chat#INV (11-12) | Balanced with stoppers. Non-forcing
+1CDb,2S,6+!S | Usually <8 hcp
+1CDb,3C,5+!C | Usually <8 hcp
+1CDb,3D,
+1CDb,3H,
+1CDb,3N,To play.
+1CDb,3S,
+1CDb,4C,
+1CDb,5C,To play. Often preemptive.
+1CDb,Rd,Please read chat#10+ HCP | Usually balanced | Any later Dbl by responder or opener 
+1C--,1D,6+ | 4+!D | May have a 4 card major
+1C--1D--,1H,MIN (13-15) or MID (16-18) | 4 !H |
+1C--1D--1H--,1N,WK (6-10) | No 4 card major
+1C--1D--1H--1N--,2C,MIN (13-15) | 5+!C |
+1C--1D--1H--1N--,2D,Please read chat#MIN (13-15) | 3-4 !D | Often 0-4-4-5 or 1-4-3-5
+1C--1D--1H--1N--,2H,13-18 | 6+!C | 5+!H | Longer !C than !H
+1C--1D--1H--1N--2H--,3C,2+!C | 0-2 !H |
+1C--1D--1H--1N--2H--,3H,3 !H |
+1C--1D--1H--1N--2H--,4H,3 !H |
+1C--1D--1H--1N--,2N,MID (16-18) | 
+1C--1D--1H--1N--2S--,3C,2+!C | 0-2 !S |
+1C--1D--1H--1N--2S--,3S,3 !S |
+1C--1D--1H--1N--2S--,4S,3 !S |
+1C--1D--1H--1N--,3C,MID (16-18) | 6+!C |
+1C--1D--1H--1N--,3D,Please read chat#MID (16-18) | 3-4 !D | Often 0-4-4-5 or 1-4-3-5
+1C--1D--1H--1N--,3N,Please read chat#~16-17 hcp | Often 4!H + 6+ solid !C | Expects to run 9 tricks
+1C--1D--1H--,1S,6+ | 4+!S | 0-3 !H |
+1C--1D--1H--1S--,1N,MIN (13-15) | 0-3 !S |
+1C--1D--1H--1S--1N--,2C,Please read chat#WK (6-10) | 4+!C | Unbalanced | Opener must pass
+1C--1D--1H--1S--1N--,2D,Please read chat#WK (6-10) | Usually 6+!D | Opener must pass
+1C--1D--1H--1S--1N--,2N,INV (11-12) | 
+1C--1D--1H--1S--1N--2N--,3N,14-15 | Top of range for earlier 1N bid
+1C--1D--1H--1S--1N--,2S,13+ | 4 !S | Game forcing
+1C--1D--1H--1S--1N--,3C,INV (11-12) | 4+!C |
+1C--1D--1H--1S--1N--,3D,INV (11-12) | 6+!D |
+1C--1D--1H--1S--1N--,3N,GF (13-16) |
+1C--1D--1H--1S--1N--,4N,Please read chat#17-19 | Quantitative | Natural invite to 6NT. Non-forcing.
+1C--1D--1H--1S--,2C,Please read chat#MIN (13-15) | Usually 6+!C | 0-3 !S | Unbalanced
+1C--1D--1H--1S--2C--,2D,WK (6-10) | 6+ good !D |
+1C--1D--1H--1S--2C--,2N,INV (11-12) |
+1C--1D--1H--1S--2C--2N--,3C,12-13 | 6+!C |
+1C--1D--1H--1S--2C--2N--,3N,14-15 and/or strong !C suit
+1C--1D--1H--1S--2C--,2S,13+ | 4 !S | Game forcing
+1C--1D--1H--1S--2C--,3C,INV (11-12) | 4+!C
+1C--1D--1H--1S--2C--,3D,Please read chat#INV (11-12) | 6+!D | Final game contract (if any) is usually 3NT; but may be 5!D if opener is also unbalanced.
+1C--1D--1H--1S--2C--,3N,GF (13-16) |
+1C--1D--1H--1S--,2D,MIN (13-15) | 4 !D | 0-3 !S | 
+1C--1D--1H--1S--2D--,2N,INV (11-12) |
+1C--1D--1H--1S--2D--2N--,3C,12-13 | 6+!C | 
+1C--1D--1H--1S--2D--2N--,3N,Please read chat#14-15 | Top of range for earlier 2!D bid
+1C--1D--1H--1S--2D--,2S,13+ | 4 !S | Game forcing
+1C--1D--1H--1S--2D--,3C,INV (11-12) | 4!C | 
+1C--1D--1H--1S--2D--,3D,INV (11-12) | 5+!D | 
+1C--1D--1H--1S--2D--,3N,GF (13-16) |
+1C--1D--1H--1S--,2H,13-18 | 6+!C | 5+!H | Longer !C than !H
+1C--1D--1H--1S--2H--,3C,WK (6-10) | 2+!C | 0-2 !H |
+1C--1D--1H--1S--2H--,3H,WK (6-10) | 3 !H |
+1C--1D--1H--1S--2H--,3N,To play | 0-2 !H |
+1C--1D--1H--1S--2H--,4H,To play | 3 !H |
+1C--1D--1H--1S--,2N,Please read chat#MID (16-18) | 5+!C | 4 !H | 0-3 !S | Usually 5-4-2-2 or 5-4-3-1 distribution.
+1C--1D--1H--1S--,2S,MIN (13-15) | 4 !S |
+1C--1D--1H--1S--2S--,2N,Please read chat#INV (11-12) | 4 !S | Inviting 3N or 4!S. Non-forcing.
+1C--1D--1H--1S--2S--,3C,Please read chat#INV (11-12) | Game try bid. Forcing to 3!S.
+1C--1D--1H--1S--2S--,3D,Please read chat#INV (11-12) | Game try bid. Forcing to 3!S.
+1C--1D--1H--1S--2S--,3H,Please read chat#INV (11-12) | Game try bid. Forcing to 3!S.
+1C--1D--1H--1S--2S--,3N,Please read chat#GF (13-16) | 4 !S | Choice of 3N or 4!S. Non-forcing.
+1C--1D--1H--1S--2S--3N--,4S,Preference to !S
+1C--1D--1H--1S--2S--,3S,INV (11-12) | Invites 4!S. Non-forcing.
+1C--1D--1H--1S--2S--,4S,GF (13-16) | 4 !S |
+1C--1D--1H--1S--,3C,MID (16-18) | 6+!C | 0-3 !S |
+1C--1D--1H--1S--,3D,MID (16-18) | 4 !D | 0-3 !S |
+1C--1D--1H--1S--,3N,Please read chat#~16-17 hcp | Often 4!H + 6+ solid !C | Expects to run 9 tricks
+1C--1D--1H--1S--,3S,MID (16-18) | 4 !S |
+1C--1D--1H--1S--3S--,4C,Please read chat#Control showing cuebid. Slam interest. Subsequent non-spade bids 
+1C--1D--1H--1S--3S--,4D,Please read chat#Control showing cuebid. Slam interest. Subsequent non- spade bids 
+1C--1D--1H--1S--3S--,4H,Please read chat#Control showing cuebid. Slam interest. Subsequent non- spade bids 
+1C--1D--1H--1S--3S--,4N,Blackwood (!S)
+1C--1D--1H--1S--3S--,4S,8-12 | 4 !S | No slam interest
+1C--1D--1H--1S--,4S,MAX (19-21) | 4 !S |
+1C--1D--1H--1S--4S--,4N,Blackwood (!S)
+1C--1D--1H--,2C,WK (6-10) | 4+!C | No 4 card major
+1C--1D--1H--2C--,2D,Please read chat#MID (16-18) | 3-4 !D | Often 1-4-3-5 or 0-4-4-5
+1C--1D--1H--2C--,2N,MID (16-18) | !S stopper | 
+1C--1D--1H--2C--,2S,Please read chat#MID (16-18) | 3-4 !S | Often 3-4-1-5; 4-4-1-4 or 3-4-0-5
+1C--1D--1H--2C--,3C,Please read chat#MID (16-18) | 5+!C | Suggests no !S stopper
+1C--1D--1H--2C--,3N,MAX (19-21) or expects 9 tricks
+1C--1D--1H--,2D,WK (6-10) | 6+!D | No 4 card major
+1C--1D--1H--2D--,2N,Please read chat#MID (16-18) | !S stopper | Often 4-4-1-4 or 3-4-1-5
+1C--1D--1H--2D--,3D,Please read chat#MID (16-18) | 3-4 !D | Suggests no !S stopper
+1C--1D--1H--2D--,3N,MAX (19-21) | !S stopper |
+1C--1D--1H--,2H,WK (6-10) | 4 !H |
+1C--1D--1H--2H--,2N,Please read chat#MID (16-18) | !S stopper | Often 2-4-2-5. Non-forcing.
+1C--1D--1H--2H--2N--,3H,Please read chat#6-8 | Rejecting invite. Suit-oriented hand.
+1C--1D--1H--2H--2N--,3N,Please read chat#8-10 | Accepting invite. Notrump-oriented hand.
+1C--1D--1H--2H--2N--,4H,Please read chat#8-10 | Accepting invite. Suit-oriented hand.
+1C--1D--1H--2H--,2S,MID (16-18) | Game try bid
+1C--1D--1H--2H--2S--,3C,Please read chat#Counter-try. Cant accept game try in spades; but has a good club holding and game interest.
+1C--1D--1H--2H--2S--,3D,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong diamond holding and game interest.
+1C--1D--1H--2H--2S--,3H,6-8 | Rejecting invite
+1C--1D--1H--2H--2S--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump-oriented hand. Choice of 3N or 4!H.
+1C--1D--1H--2H--2S--,4H,8-10 | Accepting invite
+1C--1D--1H--2H--,3C,MID (16-18) | Game try bid
+1C--1D--1H--2H--3C--,3D,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong diamond holding and game interest.
+1C--1D--1H--2H--3C--,3H,6-8 | Rejecting invite
+1C--1D--1H--2H--3C--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump-oriented hand with strong spade holding. Choice of 3N or 4!H.
+1C--1D--1H--2H--3C--,4H,8-10 | Accepting invite
+1C--1D--1H--2H--,3D,MID (16-18) | Game try bid
+1C--1D--1H--2H--3D--,3H,6-8 | Rejecting invite
+1C--1D--1H--2H--3D--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump oriented hand with strong spade holding. Choice of 3N or 4!H.
+1C--1D--1H--2H--3D--,4H,8-10 | Accepting invite
+1C--1D--1H--2H--,3H,MID (16-18) | Invitational to 4!H
+1C--1D--1H--2H--3H--,4H,8-10 | Accepting invite
+1C--1D--1H--2H--,3N,Please read chat#MAX (19-21) | Notrump-oriented hand. Choice of 3N or 4!H.
+1C--1D--1H--2H--3N--,4H,Preference to 4!H
+1C--1D--1H--2H--,3S,Please read chat#MAX (19-21) | 0-1 !S | Splinter Bid | Slam interest
+1C--1D--1H--2H--,4D,Please read chat#MAX (19-21) | 0-1 !D | Splinter Bid | Slam interest
+1C--1D--1H--2H--,4H,MAX (19-21) | No slam interest
+1C--1D--1H--2H--,4N,Blackwood (!H)
+1C--1D--1H--,2N,INV (11-12) | No 4 card major
+1C--1D--1H--2N--,3C,12-13 | 6+!C | Rejecting invite
+1C--1D--1H--2N--,3D,12-13 | 4 !D | Rejecting invite
+1C--1D--1H--2N--,3N,14-18 | No slam interest
+1C--1D--1H--2N--,4N,Please read chat#MAX (19-21) | Quantitative | Balanced invite to 6N. Non-forcing.
+1C--1D--1H--,2S,Please read chat#13+ | 0-3 !S | Usually 0-3 !H | 4th Suit Forcing | Artificial game force
+1C--1D--1H--2S--,2N,!S stopper
+1C--1D--1H--2S--2N--,3C,17+ | 4-5 !C | Slam interest
+1C--1D--1H--2S--2N--,3N,To play | No slam interest
+1C--1D--1H--2S--2N--,4N,Please read chat#17-19 | Quantitative | Balanced invite to 6N. Non-forcing.
+1C--1D--1H--2S--,3C,5+!C | Suggests no !S stopper
+1C--1D--1H--2S--3C--,4C,17+ | 4-5 !C | Slam interest
+1C--1D--1H--2S--,3D,3-4 !D |
+1C--1D--1H--2S--3D--,4C,17+ | 4-5 !C | Slam interest
+1C--1D--1H--2S--,3N,MID (16-18) | !S stopper
+1C--1D--1H--2S--3N--,4C,17+ | 4-5 !C | Slam interest
+1C--1D--1H--2S--3N--,4N,Please read chat#Quantitative. Invite to 6N. Non-forcing.
+1C--1D--1H--,3C,INV (11-12) | 4+!C | No 4 card major
+1C--1D--1H--3C--,3N,14-18 | !S stopper | No slam interest
+1C--1D--1H--,3D,INV (11-12) | 6+!D | No 4 card major
+1C--1D--1H--3D--,3N,14-18 | !S stopper | No slam interest
+1C--1D--1H--,3H,INV (11-12) | 4 !H |
+1C--1D--1H--3H--,3S,Please read chat#Control showing cuebid. Slam interest. Subsequent non-heart bids 
+1C--1D--1H--3H--,4C,Please read chat#Control showing cuebid. Slam interest; denies !S control. Subsequent non-heart bids 
+1C--1D--1H--3H--,4D,Please read chat#Control showing cuebid. Slam interest; denies !S or !C control. Subsequent non-heart bids 
+1C--1D--1H--3H--,4H,14-18 | 4 !H | No slam interest
+1C--1D--1H--3H--,4N,Blackwood (!H)
+1C--1D--1H--,3N,GF (13-16) | No 4 card major
+1C--1D--1H--,3S,13+ | 4 !H | 0-1 !S | Splinter Bid |
+1C--1D--1H--3S--,3N,Please read chat#Balanced or semi-balanced with strong spade holding (i.e. KJxx or QJTx) and notrump-oriented values.
+1C--1D--1H--3S--,4C,Please read chat#Control showing cuebid. Subsequent non-heart bids 
+1C--1D--1H--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Subsequent non-heart bids 
+1C--1D--1H--3S--,4H,Please read chat#Not willing to cooperate for slam. Suggests wasted spade values.
+1C--1D--1H--3S--,4N,Blackwood (!H)
+1C--1D--1H--,4H,GF (13-16) | 4 !H |
+1C--1D--1H--,4N,Blackwood
+1C--1D--,1N,MIN (13-15) | No 4 card major
+1C--1D--1N--,2C,WK (6-10) | 4+!C | Opener must pass
+1C--1D--1N--,2H,13+ | 5+!D | 4+!H | Longer !D than !H
+1C--1D--1N--,2N,INV (11-12) | May have a 4 card major
+1C--1D--1N--,2S,13+ | 5+!D | 4+!S | Longer !D than !S
+1C--1D--1N--,3C,Please read chat#INV (11-12) | 4+!C | May have a 4 card major
+1C--1D--1N--,3D,Please read chat#INV (11-12) | 6+!D | May have a 4 card major
+1C--1D--1N--,3N,GF (13-16) | May have a 4 card major
+1C--1D--1N--,4N,Please read chat#17-19 | Quantitative | Natural invite to 6N. Non-forcing.
+1C--1D--,1S,MIN (13-15) or MID (16-18) | 4 !S |
+1C--1D--1S--,1N,WK (6-10) | 0-3 !S |
+1C--1D--1S--1N--,2C,MIN (13-15) | 6+!C |
+1C--1D--1S--1N--,2D,MIN (13-15) | 4 !D |
+1C--1D--1S--1N--,2N,MID (16-18) | 
+1C--1D--1S--1N--,2S,13-18 | 6+!C | 5+!S | Longer !C than !S
+1C--1D--1S--1N--,3C,MID (16-18) | 6+!C |
+1C--1D--1S--1N--,3D,MID (16-18) | 4 !D |
+1C--1D--1S--1N--,3N,Please read chat#~16-17 hcp | Often 4!S + 6 strong !C | Expects to run 9 tricks
+1C--1D--1S--,2C,WK (6-10) | 4+!C | 0-3 !S |
+1C--1D--1S--2C--,2D,Please read chat#MID (16-18) | 3-4 !D | Often 4-1-3-5 or 4-0-4-5
+1C--1D--1S--2C--,2H,MID (16-18) | 3 !H | Often 4-3-1-5 
+1C--1D--1S--2C--,2N,MID (16-18) | !H stopper |
+1C--1D--1S--2C--,3C,Please read chat#MID (16-18) | 5+!C | Suggests no !H stopper
+1C--1D--1S--2C--,3N,Please read chat#~16-17 hcp | Often 4!S + 6 strong !C | Expects to run 9 tricks
+1C--1D--1S--,2D,WK (6-10) | 6+!D |
+1C--1D--1S--2D--,3N,Please read chat#~16-17 hcp | Often 4!S + 6+ solid !C | Expects to run 9 tricks
+1C--1D--1S--,2H,Please read chat#13+ | 0-4 !H | 4th Suit Forcing | Artificial game force
+1C--1D--1S--2H--,2N,MIN (13-15) or MAX (19-21) | !H stopper
+1C--1D--1S--2H--2N--,3C,17+ | 4-5 !C | Slam interest
+1C--1D--1S--2H--2N--,3N,GF (13-16) |
+1C--1D--1S--2H--,3C,5+!C | Suggests no !S stopper
+1C--1D--1S--2H--3C--,4C,17+ | 4-5 !C | Slam interest
+1C--1D--1S--2H--,3D,3-4 !D |
+1C--1D--1S--2H--3D--,4D,17+ | 4-5 !D | Slam interest
+1C--1D--1S--2H--,3N,MID (16-18) | !H stopper
+1C--1D--1S--,2N,INV (11-12) | 0-3 !S |
+1C--1D--1S--2N--,3C,12-13 | 6+!C | Rejecting invite
+1C--1D--1S--2N--,3D,12-13 | 4 !D | Rejecting invite
+1C--1D--1S--2N--,3N,14-18 | No slam interest
+1C--1D--1S--2N--,4N,Please read chat#MAX (19-21) | Quantitative | Balanced invite to 6N. Non-forcing.
+1C--1D--1S--,2S,WEAK (6-10) | 4 !S |
+1C--1D--1S--2S--,2N,Please read chat#MID (16-18) | Often 4-2-2-5 distribution likely. Invites 3N or 4!S. Non-forcing.
+1C--1D--1S--2S--2N--,3N,Please read chat#8-10 | Accepting invite. Notrump-oriented hand.
+1C--1D--1S--2S--2N--,3S,Please read chat#6-8 | Rejecting invite. Suit-oriented hand.
+1C--1D--1S--2S--2N--,4S,Please read chat#8-10 | Accepting invite. Suit-oriented hand.
+1C--1D--1S--2S--,3C,MID (16-18) | Game try bid
+1C--1D--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong diamond holding and game interest.
+1C--1D--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong heart holding and game interest.
+1C--1D--1S--2S--3C--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump-oriented hand with strong heart holding. Choice of 3N or 4!S.
+1C--1D--1S--2S--3C--,3S,6-8 | Rejecting invite
+1C--1D--1S--2S--3C--,4S,8-10 | Accepting invite
+1C--1D--1S--2S--,3D,MID (16-18) | Game try bid
+1C--1D--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in diamonds; but has a strong heart holding and game interest.
+1C--1D--1S--2S--3D--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump-oriented hand with strong heart holding. Choice of 3N or 4!S.
+1C--1D--1S--2S--3D--3N--,4S,Preference to !S
+1C--1D--1S--2S--3D--,3S,6-8 | Rejecting invite
+1C--1D--1S--2S--3D--,4S,8-10 | Accepting invite
+1C--1D--1S--2S--,3H,MID (16-18) | Game try bid
+1C--1D--1S--2S--3H--,3N,Please read chat#8-10 | Accepting invite. Balanced; notrump-oriented hand. Choice of 3N or 4!S.
+1C--1D--1S--2S--3H--,3S,6-8 | Rejecting invite
+1C--1D--1S--2S--3H--,4S,8-10 | Accepting invite
+1C--1D--1S--2S--,3N,Please read chat#Notrump-oriented hand. Choice of 3N or 4!S.
+1C--1D--1S--2S--3N--,4S,Preference to 4!S
+1C--1D--1S--2S--,3S,MID (16-18) | Invitational to 4!S
+1C--1D--1S--2S--3S--,4S,8-10 | Accepting invite
+1C--1D--1S--2S--3S--,--,16-8 | Rejecting invite
+1C--1D--1S--2S--,4D,Please read chat#MAX (19-21) | 0-1 !D | Splinter Bid | Slam interest
+1C--1D--1S--2S--,4H,Please read chat#MAX (19-21) | 0-1 !H | Splinter Bid | Slam interest
+1C--1D--1S--2S--,4N,Blackwood (!S)
+1C--1D--1S--2S--,4S,MAX (19-21) | No slam interest
+1C--1D--1S--,3C,INV (11-12) | 4+!C | 0-3 !S |
+1C--1D--1S--3C--,3N,14-18 | !H stopper | No slam interest
+1C--1D--1S--,3D,INV (11-12) | 6+!D | 0-3 !S |
+1C--1D--1S--3D--,3N,14-18 | !H stopper | No slam interest
+1C--1D--1S--,3N,GF (13-16) | 0-3 !S |
+1C--1D--1S--,3S,INV (11-12) | 4 !S |
+1C--1D--1S--3S--,4C,Please read chat#Control showing cuebid. Slam interest. Subsequent non-spade bids 
+1C--1D--1S--3S--,4D,Please read chat#Control showing cuebid. Slam interest. Denies !C control. Subsequent non-spade bids 
+1C--1D--1S--3S--,4H,Please read chat#Control showing cuebid. Slam interest. Denies !C or !D control. Subsequent non-spade bids 
+1C--1D--1S--3S--,4N,Blackwood (!S)
+1C--1D--1S--3S--,4S,14-18 | 4 !S | No slam interest
+1C--1D--1S--,4H,13+ | 4 !S | 0-1 !H | Splinter Bid |.
+1C--1D--1S--4H--,4N,Blackwood (!S)
+1C--1D--1S--4H--,4S,Please read chat#Not willing to cooperate for slam. Suggests wasted heart values.
+1C--1D--1S--,4N,Blackwood
+1C--1D--1S--,4S,GF (13-16) | 4 !S |
+1C--1D--,2C,MIN (13-15) | 6+!C |
+1C--1D--2C--,2D,Please read chat#WK (6-10) | 6+ strong !D | Opener is expected to pass
+1C--1D--2C--,2H,13+ | 5+!D | 4+!H | Longer !D than !H
+1C--1D--2C--,2N,INV (11-12) | May have a 4 card major
+1C--1D--2C--2N--,3C,12-13 | 6+!C | Rejecting invite
+1C--1D--2C--2N--,3N,14-15 | Accepting invite
+1C--1D--2C--,2S,13+ | 5+!D | 4+!S | Longer !D than !S
+1C--1D--2C--,3C,INV (11-12) | 3+!C |
+1C--1D--2C--3C--,3H,14-15 | !H stopper | no !S stopper |
+1C--1D--2C--3C--,3N,14-15 | !H + !S stoppers | 
+1C--1D--2C--3C--,3S,14-15 | !S stopper | no !H stopper |
+1C--1D--2C--,3D,INV (11-12) | 6+!D |
+1C--1D--2C--3D--,3H,14-15 | !H stopper | no !S stopper |
+1C--1D--2C--3D--,3N,14-15 | !H + !S stoppers | 
+1C--1D--2C--3D--,3S,14-15 | !S stopper | no !H stopper |
+1C--1D--2C--,3N,GF (13-16) | !H + !S stoppers | 
+1C--1D--,2D,MIN (13-15)| 4 !D | No 4 card major
+1C--1D--2D--,2H,Please read chat#11+ | !H values | Suggests no !S stopper | Usually a try for 3NT
+1C--1D--2D--2H--,2N,12-13 | !S stopper | 
+1C--1D--2D--2H--,3C,12-13 | 5+!C | Implies no !S stopper
+1C--1D--2D--2H--,3D,Please read chat#12-13 | 4 !D | 5 !C | Implies no !S stopper
+1C--1D--2D--2H--,3H,Please read chat#14-15 | 3 !H | Usually 1-3-4-5 distribution.
+1C--1D--2D--2H--,3N,14-15 | !S stopper |
+1C--1D--2D--,2N,INV (11-12) | Stoppers in both majors
+1C--1D--2D--2N--,3C,12-13 | 5-6 !C | Rejecting invite
+1C--1D--2D--2N--,3D,12-13 | 4 !D | Rejecting invite
+1C--1D--2D--2N--,3N,14-15 | Accepting invite
+1C--1D--2D--,2S,Please read chat#11+ | !S values | Suggests no !H stopper | Usually a try for 3NT 
+1C--1D--2D--2S--,2N,12-13 | !H stopper | 
+1C--1D--2D--2S--,3C,12-13 | 5+!C | Implies no !H stopper
+1C--1D--2D--2S--,3D,Please read chat#12-13 | 4 !D | 5 !C | Implies no !H stopper
+1C--1D--2D--2S--,3N,14-15 | !H stopper |
+1C--1D--2D--2S--,3S,Please read chat#14-15 | 3 !S | Usually 3-1-4-5 distribution.
+1C--1D--2D--,3D,INV (11-12) | 5+ !D |
+1C--1D--2D--,3H,Please read chat#17 + | 5+ !D | 0-1 !H | Splinter Bid | Slam interest
+1C--1D--2D--,3N,GF (13-16) | !H + !S stoppers |
+1C--1D--2D--,3S,Please read chat#17 + | 5+ !D | 0-1 !S | Splinter Bid | Slam interest
+1C--1D--,2H,MAX (19-21) | Strong Jump Shift
+1C--1D--,2N,Please read chat#18-19 HCP | Balanced | May have a 4 card major
+1C--1D--2N--,3C,5-6 | 5+!C
+1C--1D--2N--,3D,7+ | 6+!D | No 4 card major
+1C--1D--2N--,3H,7+ | 4!H 
+1C--1D--2N--,3N,7+ | Balanced | No slam interest
+1C--1D--2N--,3S,7+ | 4!S 
+1C--1D--,2S,MAX (19-21) | Strong Jump Shift
+1C--1D--,3C,MID (16-18) | 6+!C | No 4 card major
+1C--1D--3C--,3H,Please read chat#8+ | Values in !H | Suggests no !S stopper 
+1C--1D--3C--,3N,8+ | !H + !S stoppers |
+1C--1D--3C--,3S,Please read chat#8+ | Values in !S | Suggests no !H stopper
+1C--1D--,3D,MID (16-18) | 4 !D | No 4 card major
+1C--1D--3D--,3H,Please read chat#8+ | Values in !H | Suggests no !S stopper
+1C--1D--3D--,3N,8+ | !H + !S stoppers |
+1C--1D--3D--,3S,Please read chat#8+ | Values in !S | Suggests no !H stopper
+1C--1D--,3H,Please read chat#MAX (19-21) | 4-5 !D | 0-1 !H | Splinter Raise | Subsequent non-diamond bids 
+1C--1D--3H--,3N,Natural with strong !H holding.
+1C--1D--,3N,Please read chat#MAX (19-21) or expects to have 9 winners. No 4 card major
+1C--1D--,3S,Please read chat#MAX (19-21) | 4-5 !D | 0-1 !S | Splinter Raise | Subsequent non-diamond bids 
+1C--1D--3S--,3N,Natural with strong !S holding.
+1C--,1H,Please read chat#6+ | 4+ !H | Can bypass a 4 card !D suit if weak.
+1C--1H--,1N,MIN (13-15) | No 4 card major
+1C--1H--1N--,2C,WK (6-10) | 4+!C | Opener must pass
+1C--1H--1N--,2D,WK (6-10) | 5+!D | 
+1C--1H--1N--2D--,2H,MIN (13-15) | 3 !H |
+1C--1H--1N--,2H,WK (6-10) | 6+!H | Opener must pass
+1C--1H--1N--,2N,INV (11-12) | May have 5 !H
+1C--1H--1N--2N--,3H,14-15 | 3 !H | Choice of 3NT or 4!H
+1C--1H--1N--2N--3H--,3N,4 card !H suit
+1C--1H--1N--2N--3H--,4H,5 card !H suit
+1C--1H--1N--2N--,3N,14-15 | 0-2 !H | 
+1C--1H--1N--,2S,13+ | 5+!H | 4+!S | Longer !H than !S
+1C--1H--1N--,3C,INV (11-12) | 5+!C |
+1C--1H--1N--3C--,3H,14-15 | 3 !H | Choice of games
+1C--1H--1N--3C--3H--,3N,4 card !H suit
+1C--1H--1N--3C--3H--,4H,5 card !H suit
+1C--1H--1N--3C--,3N,Please read chat#14-15 | 0-2 !H | Confirms side suit stoppers
+1C--1H--1N--,3D,Please read chat#GF (13-16) | 3+!D | Often looking for 3 card !H support
+1C--1H--1N--3D--,3H,3 !H |
+1C--1H--1N--3D--,3N,0-2 !H |
+1C--1H--1N--,3H,INV (11-12) | 6+!H |
+1C--1H--1N--3H--,4H,14-15 | 2-3 !H |
+1C--1H--1N--,3N,GF (13-16) | 
+1C--1H--1N--,4N,Please read chat#17-19 | Quantitative | Natural invite to 6N. Non-forcing.
+1C--1H--,1S,Please read chat#MIN (13-15) or MID (16-18) | 4 !S | 0-3 !H |
+1C--1H--1S--,1N,WK (6-10) | 1-3 !S |
+1C--1H--1S--1N--,2C,MIN (13-15) |
+1C--1H--1S--1N--,2D,Please read chat#MID (16-18) | 4 !D | Often 4-1-4-5. Non-forcing.
+1C--1H--1S--1N--2D--,2N,6-8 |
+1C--1H--1S--1N--2D--,2S,6-8 | 3 !S |
+1C--1H--1S--1N--2D--,3C,6-8 | 3-4 !C |
+1C--1H--1S--1N--2D--,3D,8-10 | 4 !D|
+1C--1H--1S--1N--2D--,3N,8-10 |
+1C--1H--1S--1N--,2N,MID (16-18) |
+1C--1H--1S--1N--,2S,13-18 | 6+!C | 5+!S | Longer !C than !S
+1C--1H--1S--1N--,3C,MID (16-18) | 6+!C |
+1C--1H--1S--1N--,3N,Please read chat#~16-17 hcp | Often 4!S + 6 strong !C | Expects to run 9 tricks
+1C--1H--1S--,2C,WK (6-10) | 5-6 !C | 0-3 !S |
+1C--1H--1S--2C--,2N,MID (16-18) | 
+1C--1H--1S--2C--,2S,13-18 | 6+!C | 5+!S | Longer !C than !S
+1C--1H--1S--2C--,3C,Please read chat#MID (16-18) | 5+!C | Suggests no !D stopper
+1C--1H--1S--2C--,3N,Please read chat#~16-17 hcp | Often 4!S + 6 strong !C | Expects to run 9 tricks
+1C--1H--1S--,2D,Please read chat#4th Suit Forcing | 13+ | Artificial game force
+1C--1H--1S--2D--,2H,3!H | any strength
+1C--1H--1S--2D--,2N,!D stopper | 0-2!H |
+1C--1H--1S--2D--,2S,4 strong !S | No !D stopper | 0-2 !H 
+1C--1H--1S--2D--,3C,Please read chat#Natural | Extra !C length OR no !D stopper | 0-2!H
+1C--1H--1S--2D--,3H,3!H | 5-4-3-1 shape
+1C--1H--1S--2D--,3N,!D stopper | 0-2!H |
+1C--1H--1S--,2H,WK (6-10) | 6+!H |
+1C--1H--1S--2H--,2N,Please read chat#MID (16-18) | !D stopper | Often 4-1-3-5
+1C--1H--1S--2H--2N--,3C,6-8 | 3-4 !C | Rejecting invite
+1C--1H--1S--2H--2N--,3N,8-10 | Accepting invite
+1C--1H--1S--2H--,3C,MID (16-18) | 6+!C | 
+1C--1H--1S--2H--,3H,MID (16-18) | 2-3 !H |
+1C--1H--1S--2H--,3N,Please read chat#~16-17 hcp | Often 4!S + 6 strong !C | !D stopper | Expects to run 9 tricks
+1C--1H--1S--2H--,4H,~16-17 hcp | 2-3 !H | Often 4-3-1-5
+1C--1H--1S--,2N,INV (11-12) | 0-3 !S | May have 5 !H
+1C--1H--1S--2N--,3C,12-13 | 5+!C | Rejecting invite
+1C--1H--1S--2N--,3H,14-18 | 3 !H | Choice of 3NT or 4!H
+1C--1H--1S--2N--3H--,3N,4 card !H suit |
+1C--1H--1S--2N--3H--,4H,5 card !H suit |
+1C--1H--1S--2N--,3N,14-18 | 0-2 !H | Accepting invite
+1C--1H--1S--,2S,WK (6-10) | 4 !S |
+1C--1H--1S--2S--,3C,MID (16-18) | 4-5 !C | Game try bid
+1C--1H--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in clubs; but has a good diamond holding and game interest.
+1C--1H--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong heart holding and game interest.
+1C--1H--1S--2S--3C--,3S,6-8 | Rejecting invite
+1C--1H--1S--2S--3C--,4S,8-10 | Accepting invite
+1C--1H--1S--2S--,3D,MID (16-18) | Game try bid
+1C--1H--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in diamonds; but has a strong heart holding and game interest.
+1C--1H--1S--2S--3D--,3S,6-8 | Rejecting invite
+1C--1H--1S--2S--3D--,4S,8-10 | Accepting invite
+1C--1H--1S--2S--,3S,MID (16-18) | Invitational to 4!S
+1C--1H--1S--2S--3S--,4S,8-10 | Accepting invite
+1C--1H--1S--2S--,4N,Blackwood (!S)
+1C--1H--1S--2S--,4S,~16-17 hcp | Often 4!S + 6 strong !C |
+1C--1H--1S--,3C,INV (11-12) | 4+!C | 0-3 !S |
+1C--1H--1S--3C--,3H,Please read chat#14-18 | 3 !H | Accepting invite; choice of games.
+1C--1H--1S--3C--3H--,3N,4 card !H suit | !D stopper |
+1C--1H--1S--3C--3H--,4H,4-5 !H |
+1C--1H--1S--3C--,3N,14-18 | 0-2 !H | Suggests !D stopper |
+1C--1H--1S--,3H,INV (11-12) | 6+!H | 0-3! S |
+1C--1H--1S--3H--,3N,14-18 | 0-1 !H | !D stopper |
+1C--1H--1S--3H--,3S,Please read chat#14-18 | 0-1 !H | Usually looking for !D stopper
+1C--1H--1S--3H--,4H,14-18 | 2-3 !H | No slam interest
+1C--1H--1S--,3N,GF (13-16) | No 4 card major
+1C--1H--1S--,3S,INV (11-12) | 4 !S |
+1C--1H--1S--3S--,4C,Please read chat#Control showing cuebid. Slam interest. Subsequent non-spade bids 
+1C--1H--1S--3S--,4D,Please read chat#Control showing cuebid. Slam interest. Denies !C control. Subsequent non-spade bids 
+1C--1H--1S--3S--,4H,Please read chat#Control showing cuebid. Slam interest. Denies !C/!D control. Subsequent non-spade bids 
+1C--1H--1S--3S--,4N,Blackwood (!S)
+1C--1H--1S--3S--,4S,14-18 | 4 !S | No slam interest
+1C--1H--1S--,4N,Blackwood
+1C--1H--1S--,4S,GF (13-16) | 4 !S |
+1C--1H--,2C,MIN (13-15) | 5+!C (usually 6+) |
+1C--1H--2C--,2D,Please read chat#11+ | 3+!D | Natural but often looking for 3 card !H support
+1C--1H--2C--,2H,Please read chat#WK (6-10) | 6+!H | Opener is expected to pass
+1C--1H--2C--,2N,INV (11-12) |
+1C--1H--2C--2N--,3C,12-13 | Rejecting invite
+1C--1H--2C--2N--,3H,14-15 | 3 !H | Choice of 3NT or 4!H
+1C--1H--2C--2N--3H--,3N,4 card !H suit
+1C--1H--2C--2N--3H--,4H,5 card !H suit
+1C--1H--2C--2N--,3N,14-15 | 0-2 !H |
+1C--1H--2C--,2S,13+ | 5+!H | 4+!S | Longer !H than !S
+1C--1H--2C--,3C,INV (11-12) | 3+!C |
+1C--1H--2C--3C--,3D,14-15 | !D stopper (no !S stop)
+1C--1H--2C--3C--,3H,14-15 | 3 !H | Choice of 3NT or 4!H
+1C--1H--2C--3C--,3N,14-15 | Suggests !D + !S stoppers
+1C--1H--2C--3C--,3S,14-15 | !S stopper (no !D stop)
+1C--1H--2C--,3N,Please read chat#GF (13-16) | 4 card !H suit | !D + !S stoppers |
+1C--1H--,2D,Please read chat#REVERSE | 17+ | 5+!C and 4+!D| !C longer than !D|
+1C--1H--2D--,2H,Please read chat#5+!H | Any strength | Does not promise another call if opener makes a minimum rebid
+1C--1H--2D--,2N,Please read chat#ARTIFICIAL | Only 4!H | 6-8 pts | Wants to sign-off at the 3-level.
+1C--1H--2D--,2S,Please read chat#ARTIFICIAL | Only 4!H | Asks opener to make another descriptive bid (i.e. NT with a !S stopper)
+1C--1H--2D--,3C,8+ | 3+!C
+1C--1H--2D--,3D,8+ | 4+!D
+1C--1H--2D--,3H,8+ | 6+!H 
+1C--1H--2D--,3N,Please read chat#8+ | !S stopper | Only 4!H | Natural; no slam interest.
+1C--1H--2D--,4C,4+!C | Distributional; slam interest.
+1C--1H--2D--,4D,4+!D | Distributional; slam interest.
+1C--1H--,2H,MIN (13-15) | 4 !H |
+1C--1H--2H--,2N,Please read chat#INV (11-12) | 4 card !H suit | Balanced notrump-oriented hand. Invites game in 3NT or 4!H.
+1C--1H--2H--2N--,3H,12-13 | Rejecting invite
+1C--1H--2H--2N--,3N,Please read chat#14-15 | Accepting invite. Balanced; notrump-oriented hand.
+1C--1H--2H--2N--,4H,Please read chat#14-15 | Accepting invite. Suit-oriented hand.
+1C--1H--2H--,2S,INV (11-12) | Game try bid
+1C--1H--2H--2S--,3C,Please read chat#Counter-try. Cant accept game try in !S; but has a strong !C holding and game interest.
+1C--1H--2H--2S--,3D,Please read chat#Counter-try. Cant accept game try in !S; but has a strong !D holding and game interest.
+1C--1H--2H--2S--,3H,12-13 | Rejecting invite
+1C--1H--2H--2S--,4H,14-15 | Accepting invite
+1C--1H--2H--,3C,INV (11-12) | Game try bid
+1C--1H--2H--3C--,3D,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !D holding and game interest.
+1C--1H--2H--3C--,3H,12-13 | Rejecting invite
+1C--1H--2H--3C--,4H,14-15 | Accepting invite
+1C--1H--2H--,3D,INV (11-12) | Game try bid
+1C--1H--2H--3D--,3H,12-13 | Rejecting invite
+1C--1H--2H--3D--,4H,14-15 | Accepting invite
+1C--1H--2H--,3H,INV (11-12) | 
+1C--1H--2H--3H--,4H,14-15 | Accepting invite
+1C--1H--2H--,3N,Please read chat#GF (13-16) | 4 card !H suit | Balanced; notrump-oriented hand. Choice of 3NT or 4!H.
+1C--1H--2H--3N--,4H,Preference to !H
+1C--1H--2H--,3S,Please read chat#17+ | 5+ !H | 0-1 !S | Splinter Bid | Slam interest | Subsequent non-!H suit bids 
+1C--1H--2H--,4C,Please read chat#17+ | 5+ !H | 0-1 !C | Splinter Bid | Slam interest | Subsequent non-!H suit bids 
+1C--1H--2H--,4D,Please read chat#17+ | 5+ !H | 0-1 !D | Splinter Bid | Slam interest | Subsequent non-!H suit bids 
+1C--1H--2H--,4H,GF (13-16) | No slam interest
+1C--1H--2H--,4N,Blackwood (!H)
+1C--1H--,2N,Please read chat#18-19 HCP | Balanced | 2-3!H | May have 4!S
+1C--1H--2N--,3C,5-6 | 5+!C 
+1C--1H--2N--,3D,Often looking for 3 card !H support
+1C--1H--2N--,3H,7+!H
+1C--1H--2N--,3N,7+ | Balanced | No slam interest
+1C--1H--2N--,3S,7+ | 4!S | 5!H
+1C--1H--,2S,MAX (19-21) | Strong Jump Shift
+1C--1H--,3C,MID (16-18)
+1C--1H--3C--,3D,Please read chat#8+ | !D stopper | Suggests no !S stopper
+1C--1H--3C--,3H,8+ | 5+ !H |
+1C--1H--3C--,3N,Please read chat#8+ | Suggests !D + !S stoppers | Usually 4 card !H suit | 
+1C--1H--3C--,3S,Please read chat#8+ | !S stopper | Suggests no !D stopper
+1C--1H--,3D,Please read chat#14+ HCP | 4 !H | 0-1 !D | Splinter Bid | Only forcing to 3!H
+1C--1H--3D--,3H,WK (6-10) | Wasted !D values
+1C--1H--3D--,3N,Please read chat#INV (11-12) | 4 card !H suit | Strong !D holding
+1C--1H--3D--,3S,Please read chat#11+ | Control showing cuebid. Subsequent non-!H suit bids 
+1C--1H--3D--,4C,Please read chat#11+ | Control showing cuebid. Subsequent non-!H suit bids 
+1C--1H--3D--,4H,No slam interest.
+1C--1H--3D--,4N,Blackwood (!H)
+1C--1H--,3H,MID (16-18) | 4 !H | 
+1C--1H--3H--,4H,8+ | No slam interest
+1C--1H--,3N,1-3 !H | 6+ solid !C | 
+1C--1H--,3S,Please read chat#MAX (19-21) | 4 !H | 0-1 !S | Splinter Bid |
+1C--1H--3S--,3N,Please read chat#INV (11-12) | 4 card !H suit | Strong !D holding
+1C--1H--3S--,4C,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1C--1H--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Subsequent non-!H suit bids 
+1C--1H--3S--,4H,Please read chat#No slam interest. Suggests wasted !S values.
+1C--1H--3S--,4N,Blackwood (!H)
+1C--1H--,4C,MAX (19-21) | 4 !H | 6+ solid !Cs
+1C--1H--4C--,4D,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1C--1H--4C--,4H,Minimum hand. No slam interest.
+1C--1H--4C--,4N,Blackwood (!H)
+1C--1H--4C--,4S,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1C--1H--,4D,Please read chat#MAX (19-21) | 4 !H | 0-1 !S | Splinter Bid |Subsequent non-!H suit bids 
+1C--1H--4D--,4H,Please read chat#Minimum hand; suggests wasted values in !D. No slam interest.
+1C--1H--4D--,4N,Blackwood (!H)
+1C--1H--,4H,MAX (19-21) | 4 !H |
+1C--1H--,4N,Blackwood (!H)
+1C--,1N,WK (6-10) | No 4 card major
+1C--1N--,2C,MIN (13-15) | May have a 4 card major
+1C--1N--,2D,Please read chat#REVERSE | 17+ | 5+!C and 4+!D| !C longer than !D|
+1C--1N--2D--,2H,8-10 | !H values 
+1C--1N--2D--,2N,6-8 | Natural; non-forcing
+1C--1N--2D--,2S,8-10 | !S values 
+1C--1N--2D--,3C,6-8 | 3+!C
+1C--1N--2D--,3D,6-8 | 4+!D
+1C--1N--2D--,3N,8-10 | !H+!S stoppers
+1C--1N--,2H,Please read chat#REVERSE | 17+ | 5+!C and 4+!H| !C longer than !H|
+1C--1N--2H--,2N,6-8 | Natural; non-forcing
+1C--1N--2H--,2S,8-10 | !S values 
+1C--1N--2H--,3C,6-8 | 3+!C
+1C--1N--2H--,3D,8-10 | !D values
+1C--1N--2H--,3N,8-10 | !D+!S stoppers 
+1C--1N--,2N,MID (16-18) | Balanced
+1C--1N--2N--,3N,8-10 |
+1C--1N--,2S,Please read chat#REVERSE | 17+ | 5+!C and 4+!S| !C longer than !S|
+1C--1N--2S--,2N,6-8 | Natural; non-forcing
+1C--1N--2S--,3C,6-8 | 3+!C
+1C--1N--2S--,3D,8-10 | !D values
+1C--1N--2S--,3H,8-10 | !H values
+1C--1N--2S--,3N,8-10 | !D+!H stoppers
+1C--1N--,3C,MID (16-18) | 6+!C |
+1C--1N--3C--,3N,8-10 | 
+1C--1N--,3N,Please read chat#MAX (19-21) or expects to have 9 winners.
+1C--,1S,Please read chat#6+ | 4+!S | Can bypass a 4 card !D suit if weak.
+1C--1S--,1N,MIN (13-15) | 0-3 !S | May have 4 !H |
+1C--1S--1N--,2C,Please read chat#WK (6-10) | Usually unbalanced; would rather play 2!C than 1N. Partner must pass.
+1C--1S--1N--,2D,Please read chat#WK (6-10) | Unbalanced; would rather play 2!D than 1N. Partner is expected to pass. *^
+1C--1S--1N--,2H,Please read chat#WK (6-10) | 5+!S | 4+!H | Choice of majors
+1C--1S--1N--2H--,2S,Preference to !S.
+1C--1S--1N--,2N,INV (11-12) | May have 5 !S.
+1C--1S--1N--2N--,3N,14-15 | 0-2 !S|
+1C--1S--1N--2N--,3S,14-15 | Choice of 3NT or 4!S
+1C--1S--1N--2N--3S--,3N,4 card !S suit
+1C--1S--1N--2N--3S--,4S,5 card !S suit
+1C--1S--1N--,2S,Please read chat#WK (6-10) | Partner is expected to pass.
+1C--1S--1N--,3C,INV (11-12) | Usually unbalanced.
+1C--1S--1N--3C--,3N,14-15 | 0-2 !S | !D stopper
+1C--1S--1N--3C--,3S,14-15 | Choice of 3NT or 4!S.
+1C--1S--1N--3C--3S--,3N,4 card !S suit
+1C--1S--1N--3C--3S--,4S,5 card !S suit
+1C--1S--1N--,3D,GF (13-16) | May have 5 !S
+1C--1S--1N--3D--,3S,3 !S |
+1C--1S--1N--3D--3S--,3N,4 card !S suit
+1C--1S--1N--3D--3S--,4S,5 card !S suit
+1C--1S--1N--,3H,GF (13-16) | May have 5 !S
+1C--1S--1N--,3N,GF (13-16) | Tends to deny 5 !Ss.
+1C--1S--1N--,3S,INV (11-12) |
+1C--1S--1N--3S--,3N,14-15 | Usually singleton !S.
+1C--1S--1N--3S--,4S,14-15 |
+1C--1S--1N--,4N,Please read chat#Quantitative | Natural invite to 6NT (18-19 hcp)
+1C--1S--1N--,--,1WK (6-10) |
+1C--1S--,2C,MIN (13-15) |
+1C--1S--2C--,2D,Please read chat#11+ | Technically natural but often looking for 3 card !S support.
+1C--1S--2C--,2H,11+ |
+1C--1S--2C--,2N,Please read chat#INV (11-12) | Balanced or semi-balanced. Suggests stoppers in both !D +!H.
+1C--1S--2C--2N--,3C,12-13 | Rejecting invite.
+1C--1S--2C--2N--,3N,14-15 | 0-2 !S | Accepting invite.
+1C--1S--2C--2N--,3S,14-15 | Choice of 3NT or 4!S.
+1C--1S--2C--2N--3S--,3N,Usually only a 4 card !S suit.
+1C--1S--2C--2N--3S--,4S,5 card !S suit.
+1C--1S--2C--2N--,--,112-13 | Rejecting invite.
+1C--1S--2C--,2S,Please read chat#WK (6-10) | Partner is expected to pass.
+1C--1S--2C--,3C,INV (11-12)
+1C--1S--2C--3C--,3D,14-15 | !D stopper (no !H stop)
+1C--1S--2C--3C--,3H,14-15 | !H stopper (no !D stop)
+1C--1S--2C--3C--,3N,14-15 | !D+!H stoppers |
+1C--1S--2C--3C--,3S,14-15 | 3!S |
+1C--1S--2C--,3N,GF (13-16) | !D+!H stoppers.
+1C--1S--2C--,3S,INV (11-12)
+1C--1S--2C--3S--,3N,Please read chat#14-15 | !D+!H stoppers | Usually singleton !S.
+1C--1S--2C--3S--,4S,14-15 |
+1C--1S--,2D,Please read chat#REVERSE | 17+ | 5+!C and 4+!D| !C longer than !D|
+1C--1S--2D--,2H,Please read chat#ARTIFICIAL | Usually 4!S | Asks opener to make another descriptive bid (i.e. NT with a !H stopper)
+1C--1S--2D--,2N,Please read chat#ARTIFICIAL | Only 4!S | 6-8 pts | Wants to sign-off at the 3-level.
+1C--1S--2D--,2S,Please read chat#5+!S | Any strength | Does not promise another call if opener makes a minimum rebid
+1C--1S--2D--,3C,8+ | 3+!C
+1C--1S--2D--,3D,8+ | 4+!D
+1C--1S--2D--,3N,Please read chat#8+ | !H stopper | Only 4!S | Natural; no slam interest.
+1C--1S--2D--,3S,8+ | 6+!S
+1C--1S--2D--,4C,4+!C | Distributional; slam interest.
+1C--1S--2D--,4D,4+!D | Distributional; slam interest.
+1C--1S--,2H,Please read chat#REVERSE | 17+ | 5+!C and 4+!H| !C longer than !H|
+1C--1S--2H--,2N,Please read chat#ARTIFICIAL | Only 4!S | 6-8 pts | Wants to sign-off at the 3-level.
+1C--1S--2H--,2S,Please read chat#5+!S | Any strength | Does not promise another call if opener makes a minimum rebid
+1C--1S--2H--,3C,8+ | 3+!C
+1C--1S--2H--,3D,Please read chat#ARTIFICIAL | Only 4!S | Asks opener to make another descriptive bid (i.e. NT with a !D stopper)
+1C--1S--2H--,3H,8+ | 4!H
+1C--1S--2H--,3N,Please read chat#8+ | !D stopper | Only 4!S | Natural; no slam interest.
+1C--1S--2H--,3S,8+ | 6+!S
+1C--1S--2H--,4C,4+!C | Distributional; slam interest.
+1C--1S--2H--,4H,4!H | No slam interest.
+1C--1S--,2N,Please read chat#18-19 HCP | Balanced | 2-3!S | May have 4!H
+1C--1S--2N--,3C,5-6 | 5+!C 
+1C--1S--2N--,3D,Often looking for 3 card !S support
+1C--1S--2N--,3H,7+ | 4-5!H | 5!S
+1C--1S--2N--,3N,7+ | Balanced | No slam interest
+1C--1S--2N--,3S,6+!S
+1C--1S--,2S,MIN (13-15)
+1C--1S--2S--,2N,Please read chat#INV (11-12) | 4 !S | Balanced | Invites 3NT or 4!S |
+1C--1S--2S--2N--,3N,Please read chat#14-15 | Accepting invite | Balanced hand
+1C--1S--2S--2N--,3S,12-13 | Rejecting invite
+1C--1S--2S--2N--,4S,Please read chat#14-15 | Accepting invite | Suit-oriented hand
+1C--1S--2S--,3C,INV (11-12) | Game try bid.
+1C--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !D holding and game interest.
+1C--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !H holding and game interest.
+1C--1S--2S--3C--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced hand
+1C--1S--2S--3C--3N--,4S,Correction back to !S
+1C--1S--2S--3C--,3S,12-13 | Rejecting invite.
+1C--1S--2S--3C--,4S,14-15 | Accepting invite.
+1C--1S--2S--,3D,INV (11-12) | Game try bid.
+1C--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in !D; but has a strong !H holding and game interest.
+1C--1S--2S--3D--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced hand
+1C--1S--2S--3D--3N--,4S,Correction back to !S.
+1C--1S--2S--3D--,3S,12-13 | Rejecting invite.
+1C--1S--2S--3D--,4S,14-15 | Accepting invite.
+1C--1S--2S--,3H,INV (11-12) | Game try bid.
+1C--1S--2S--3H--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced hand.
+1C--1S--2S--3H--3N--,4S,Correction back to !S.
+1C--1S--2S--3H--,3S,12-13 | Rejecting invite.
+1C--1S--2S--3H--,4S,14-15 | Accepting invite.
+1C--1S--2S--,3N,Please read chat#GF (13-16) | Choice of 3NT or 4!S | Balanced hand.
+1C--1S--2S--3N--,4S,Correction back to !S.
+1C--1S--2S--,3S,INV (11-12) | Game try bid.
+1C--1S--2S--3S--,3N,Please read chat#14-15 | Choice of 3NT or 4!S. Balanced hand.
+1C--1S--2S--3S--3N--,4S,Correction back to !S.
+1C--1S--2S--3S--,4S,14-15 | Accepting invite.
+1C--1S--2S--,4C,Please read chat#16+ | 0-1!C | Splinter Bid | Slam interest. Subsequent non-!S suit bids 
+1C--1S--2S--,4D,Please read chat#16+ | 0-1!D | Splinter Bid | Slam interest. Subsequent non-!S suit bids 
+1C--1S--2S--,4H,Please read chat#16+ | 0-1!H | Splinter Bid | Slam interest. Subsequent non-!S suit bids 
+1C--1S--2S--,4N,Blackwood (!S)
+1C--1S--2S--,4S,GF (13-16)
+1C--1S--,3C,MID (16-18)
+1C--1S--3C--,3D,Please read chat#8+; usually with !D stopper but may just be looking for 3 card !S support.
+1C--1S--3C--,3H,8+.
+1C--1S--3C--,3N,8+ | !D+!H stoppers |
+1C--1S--3C--,3S,
+1C--1S--,3D,Please read chat#14+ | 4!S | 0-1 !D | Splinter Bid | Only forcing to 3!S.
+1C--1S--3D--,3H,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--3D--,3N,Please read chat#Usually 10-12. Strong !D holding; notrump-oriented values. Often only 4 !Ss.
+1C--1S--3D--,3S,Please read chat#6-8(9). Minimum; suggests wasted !D values.
+1C--1S--3D--,4C,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--3D--,4N,Blackwood (!S)
+1C--1S--3D--,4S,No slam interest.
+1C--1S--,3H,Please read chat#14+ | 4!S | 0-1 !H | Splinter Bid | Only forcing to 3!S.
+1C--1S--3H--,3N,Please read chat#Usually 10-12. Strong !H holding; notrump-oriented values. Often only 4 !Ss.
+1C--1S--3H--,3S,Please read chat#6-8(9). Minimum; suggests wasted values in !H.
+1C--1S--3H--,4C,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--3H--,4N,Blackwood (!S)
+1C--1S--3H--,4S,No slam interest.
+1C--1S--,3N,MAX (19-21) | No 4 card major.
+1C--1S--,3S,MID (16-18)
+1C--1S--3S--,3N,Please read chat#9-12 | 4!S | Balanced hand with stoppers | No slam interest.
+1C--1S--3S--,4C,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Subsequent non-!S suit bids 
+1C--1S--3S--,4H,Please read chat#Control showing cuebid. Denies !C or !D control. Subsequent non-!S suit bids 
+1C--1S--3S--,4N,Blackwood (!S)
+1C--1S--3S--,4S,No slam interest.
+1C--1S--,4C,4!S | 6+ strong !C |
+1C--1S--4C--,4D,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--4C--,4H,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1C--1S--4C--,4N,Blackwood (!S)
+1C--1S--4C--,4S,No slam interest.
+1C--1S--,4D,Please read chat#MAX (19-21) | 4 !S | 0-1 !D | Splinter Raise | Subsequent non-spade bids 
+1C--1S--4D--,4H,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1C--1S--4D--,4N,Blackwood (!S)
+1C--1S--4D--,4S,Please read chat#Minimum hand; suggests wasted values in !D. No slam interest.
+1C--1S--,4H,Please read chat#MAX (19-21) | 4 !S | 0-1 !H | Splinter Raise | Subsequent non-spade bids 
+1C--1S--4H--,4N,Blackwood (!S)
+1C--1S--4H--,4S,Please read chat#Minimum hand; suggests wasted values in !H. No slam interest.
+1C--1S--,4N,Blackwood (!S)
+1C--1S--,4S,MAX (19-21) | 4 !S |
+1C--,2C,WK (6-10) |
+1C--2C--,2D,16+ | 4 !D | Usually a try for NT
+1C--2C--,2H,16+ | 4 !H | Usually a try for NT
+1C--2C--,2N,MID (16-18)
+1C--2C--,2S,16+ | 4 !S | Usually a try for NT
+1C--2C--,3C,MID (16-18)
+1C--2C--,3D,Please read chat#MAX (19-21) | 5+!C | 0-1 !D | Splinter Bid | Slam interest
+1C--2C--,3H,Please read chat#MAX (19-21) | 5+!C | 0-1 !H | Splinter Bid | Slam interest
+1C--2C--,3N,Please read chat#MAX (19-21) or expects to have 9 winners
+1C--2C--,3S,Please read chat#MAX (19-21) | 5+!C | 0-1 !S | Splinter Bid | Slam interest
+1C--,2D,17+ | Strong Jump Shift
+1C--,2H,17+ | Strong Jump Shift
+1C--,2N,Please read chat#INV (11-12) | No 4 card major | Balanced
+1C--2N--,3C,12-13 | Rejecting invite
+1C--2N--,3N,14-18 | Accepting invite
+1C--,2S,17+ | Strong Jump Shift
+1C--,3C,INV (11-12)
+1C--3C--,3D,14+ | !D values | Usually a try for 3NT
+1C--3C--,3H,14+ | !H values | Usually a try for 3NT
+1C--3C--,3N,14+ | No slam interest
+1C--3C--,3S,14+ | !S values | Usually a try for 3NT
+1C--,3D,Please read chat#11+ HCP | 6+!C | 0-1 !D | No 4 card major | Splinter Bid
+1C--3D--,3N,Please read chat#Balanced minimum with strong !D holding. No slam interest.
+1C--,3H,Please read chat#11+ HCP | 6+!C | 0-1 !H | No 4 spades | Splinter Bid
+1C--3H--,3N,Please read chat#Balanced minimum with strong !H holding. No slam interest.
+1C--,3N,GF (13-15) | No 4 card major | Balanced
+1C--,3S,Please read chat#11+ HCP | 6+!C | 0-1 !S | No 4 hearts | Splinter Bid
+1C--3S--,3N,Please read chat#Balanced minimum with strong !S holding. No slam interest.
+1D1H,1N,WK (6-10) | No 4!S | !H stopper
+1D1H,1S,6+ | 5+!S
+1D1H,2C,11+ | 5+!C
+1D1H,2D,WK (6-10) | 4+!D (usually 5+) | No 4!S
+1D1H,2H,Please read chat#11+ | 5+!D | Inv or better !D raise | No 4!S
+1D1H,2N,Please read chat#INV (11-12) | !H stoppers | Balanced without 4!S
+1D1H,2S,Weak jump shift
+1D1H,3D,<8 hcp | 5+!D | Usually without 4!S
+1D1H,3N,GF (13-15) | !H stoppers | No 4!S
+1D1H,3S,
+1D1H,4D,
+1D1H,4S,To play
+1D1H,Db,Please read chat#Neg X | 6+ pts; exactly 4!S | Does not promise !C
+1D1S,1N,Please read chat#WK (6-10) | !S stopper | Balanced; usually without 4!H
+1D1S,2C,11+ | 5+!C
+1D1S,2D,WK (6-10) | 4+!D (usually 5+) | No 4!H
+1D1S,2H,11+ | 5+!H
+1D1S,2N,Please read chat#INV (11-12) | !S stoppers | Balanced without 4!H
+1D1S,2S,Please read chat#11+ | 5+!D | Inv or better !D raise | No 4!H
+1D1S,3D,<8 hcp | 5+!D | Usually without 4!H
+1D1S,3N,Please read chat#GF (13-15) | !S stoppers | Balanced without 4!H
+1D1S,4D,
+1D1S,4H,To play
+1D1S,Db,Please read chat#Neg X | 6+ pts with 4!H | or | 5-10 pts with 5+!H
+1D2C,2H,11+ | 5+!H
+1D2C,2N,Please read chat#INV (11-12) | !C stoppers | No 4 card major
+1D2C,2S,11+ | 5+!S
+1D2C,3C,
+1D2C,3D,
+1D2C,3N,Please read chat#GF (13-15) | !C stoppers | No 4 card major
+1D2C,Db,Please read chat#Neg X | 8+ hcp | At least one 4+ card major
+1D2D,2H,Please read chat#11+ | !H stopper | Usually looking for 3NT
+1D2D,2N,Please read chat#11-12 hcp | !H+!S stoppers | Invites 3NT
+1D2D,2S,Please read chat#11+ | !S stopper | Usually looking for 3NT
+1D2D,3C,
+1D2D,3D,WK (6-10) | 5+!D | Competitive raise
+1D2D,3H,SPLINTER | 11+ hcp | 6+!D | 0-1 !H
+1D2D,3N,GF (13-15) | !H+!S stoppers
+1D2D,3S,SPLINTER | 11+ hcp | 6+!D | 0-1 !S
+1D2D,4D,5+!D | Preemptive
+1D2D,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one major)
+1D2H,2N,INV (11-12) | !H stoppers | No 4!S
+1D2H,2S,11+ | 5+!S
+1D2H,3C,11+ | 5+!C | Usually without 4!S
+1D2H,3D,
+1D2H,3N,GF (13-15) | !H stoppers | No 4!S
+1D2H,Db,Neg X | 9+ hcp | 4+!S
+1D2N,3C,11+ | 5+!D
+1D2N,3D,WK (6-10) | 5+!D
+1D2N,3H,11+ | 5+!S
+1D2N,3N,Please read chat#To play | !C+!H stoppers | Natural; balanced
+1D2N,3S,WK (6-10) | 5+!S | Non-forcing
+1D2N,4D,
+1D2N,4S,To play
+1D2N,5D,To play. May be preemptive.
+1D2N,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one suit)
+1D2S,2N,INV (11-12) | !S stoppers | 
+1D2S,3C,11+ | 5+!C | Usually without 4!H
+1D2S,3D,
+1D2S,3H,13+ | 5+!H
+1D2S,3N,Please read chat#GF (13-15) | !S stoppers | Usually without 4!H
+1D2S,Db,Neg X | 9+ hcp | 4+!H
+1D3C,Db,Please read chat#Neg X | 10+ hcp | At least one 4+ card major
+1D3H,Db,Neg X | 11+ | 4!S
+1D3S,Db,Neg X | 13+ | 4!H
+,1D,Please read chat#13+ | 4+!D unless 4432 | Usually open 1!D with 4-4 in minors
+1DDb,1H,6+ | 4+!H
+1DDb,1N,Please read chat#7-10 | Balanced | May have a weak 4 card major
+1DDb,1S,6+ | 4+!S
+1DDb,2C,6-9 | good 6+!C | To play.
+1DDb,2D,WK (6-10) | 4+!D (usually 5+!)
+1DDb,2H,6+!H | Usually <8 hcp
+1DDb,2N,Please read chat#INV (11-12) | Balanced with stoppers. Non-forcing
+1DDb,2S,6+!S | Usually <8 hcp
+1DDb,3C,
+1DDb,3D,5+!D | Usually <8 hcp
+1DDb,3H,
+1DDb,3N,To play.
+1DDb,3S,
+1DDb,4D,
+1DDb,5D,To play. Often preemptive.
+1DDb,Rd,Please read chat#10+ HCP | Usually balanced | Any later Dbl by responder or opener 
+1D--,1H,6+ | 4+!H |
+1D--1H--,1N,MIN (13-15) | No 4 card major
+1D--1H--1N--,2C,WK (6-10) | 5+!C | 
+1D--1H--1N--,2D,WK (6-10) | 4+!D | Opener must pass.
+1D--1H--1N--,2H,WK (6-10) | 6+!H | Opener must pass.
+1D--1H--1N--,2N,INV (11-12) | May have 5 !H
+1D--1H--1N--2N--,3H,14-15 | 3 !H | Choice of 3NT or 4!H.
+1D--1H--1N--2N--3H--,3N,4 card !H suit.
+1D--1H--1N--2N--3H--,4H,5 card !H suit.
+1D--1H--1N--2N--,3N,14-15 | 0-2 !H | 
+1D--1H--1N--,2S,5+!H and 4+!S (!H > !S) | Game forcing
+1D--1H--1N--,3C,GF (13-15)+ | 
+1D--1H--1N--3C--,3D,Denies 3 card !H support.
+1D--1H--1N--3C--,3H,3 card !H support.
+1D--1H--1N--3C--3H--,4H,
+1D--1H--1N--3C--,3N,0-2 !H |
+1D--1H--1N--,3D,INV (11-12) | 4+!D | 
+1D--1H--1N--3D--,3H,14-15 | 3 !H | Choice of 3NT or 4!H.
+1D--1H--1N--3D--3H--,3N,4 card !H suit.
+1D--1H--1N--3D--3H--,4H,5 card !H suit.
+1D--1H--1N--3D--,3N,14-15 | 0-2 !H |
+1D--1H--1N--,3H,INV (11-12 | 6+!H
+1D--1H--1N--3H--,3N,14-15 | Usually singleton !H.
+1D--1H--1N--3H--,4H,14-15 | 2-3 !H |
+1D--1H--1N--,3N,GF (13-15) | Tends to deny 5 !Hs.
+1D--1H--1N--,4N,Please read chat#17-19 HCP | Quantitative | Natural invite to 6N. Non-forcing.
+1D--1H--1N--,--,1WK (6-10)
+1D--1H--,1S,Please read chat#MIN (13-15) or MID (16-18) | 4!S | 0-3 !H | 
+1D--1H--1S--,1N,WK (6-10) | 0-3 !S |
+1D--1H--1S--1N--,2C,Please read chat#MIN (13-15) or MID (16-18) | 4!C | 4-5!D | 4!H | 
+1D--1H--1S--1N--2C--,2D,WK (6-10) | 3-4 !D |
+1D--1H--1S--1N--2C--,2S,WK (6-10) | 3 !S |
+1D--1H--1S--1N--2C--,3C,8-10 | 4+!C |
+1D--1H--1S--1N--,2N,MID (16-18) | 
+1D--1H--1S--1N--,2S,Please read chat#6+!D | 5+!S | !D > !S | May have minimum hcp.
+1D--1H--1S--1N--,3D,MID (16-18) | 6+!D |
+1D--1H--1S--1N--,3N,16-17 HCP | 6+ solid !D |
+1D--1H--1S--,2C,Please read chat#4th Suit Forcing | 13+ | Artificial game force
+1D--1H--1S--2C--,2H,3!H | any strength
+1D--1H--1S--2C--,2N,!C stopper | 0-2!H |
+1D--1H--1S--2C--,2S,4 strong !S | No !C stopper | 0-2 !H 
+1D--1H--1S--2C--,3D,Please read chat#Natural | Extra !D length OR no !C stopper | 0-2!H
+1D--1H--1S--2C--,3H,3!H | 5-4-3-1 shape
+1D--1H--1S--2C--,3N,!C stopper | 0-2!H |
+1D--1H--1S--,2D,WK (6-10) | 4+!D | 0-3 !S | 
+1D--1H--1S--2D--,2N,MID (16-18) | !C stopper | 
+1D--1H--1S--2D--,3N,16-17 HCP | 6+ strong !D | !C stopper |
+1D--1H--1S--,2H,WK (6-10) | 6+!H | 0-3 !S |
+1D--1H--1S--2H--,2N,MID (16-18) | !C stopper | 0-2 !H |
+1D--1H--1S--2H--2N--,3D,6-8 | 3-4 !D | Rejecting invite
+1D--1H--1S--2H--2N--,3H,6-8 | 6+!H | Rejecting invite
+1D--1H--1S--2H--2N--,3N,8-10 | Accepting invite
+1D--1H--1S--2H--,3D,MID (16-18) | 6+!D |
+1D--1H--1S--2H--,3H,MID (16-18) | 2-3 !H | 
+1D--1H--1S--2H--,3N,16-17 HCP | 6+ solid !D | !C stopper |
+1D--1H--1S--2H--,4H,16-17 HCP | 2-3 !H | Usually solid !D |
+1D--1H--1S--,2N,INV (11-12) | 0-3 !S | May have 5 !H |
+1D--1H--1S--2N--,3C,
+1D--1H--1S--2N--,3D,12-13 | Rejecting invite.
+1D--1H--1S--2N--,3H,14+ | Choice of 3NT or 4!H.
+1D--1H--1S--2N--3H--,3N,4 card !H suit
+1D--1H--1S--2N--3H--,4H,5 card !H suit
+1D--1H--1S--2N--,3N,14+ | 0-2 !H | 
+1D--1H--1S--,2S,WK (6-10) | 4 !S |
+1D--1H--1S--2S--,2N,Please read chat#MID (16-18) | Invitational to 3NT or 4!S.
+1D--1H--1S--2S--2N--,3N,8-10 | Accepting invite
+1D--1H--1S--2S--2N--,3S,6-8 | Rejecting invite
+1D--1H--1S--2S--2N--,4S,8-10 | Accepting invite
+1D--1H--1S--2S--,3C,MID (16-18) | Game try bid.
+1D--1H--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in clubs; but has a good diamond holding and game interest.
+1D--1H--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in clubs; but has a strong heart holding and game interest.
+1D--1H--1S--2S--3C--,3N,8-10 | Choice of 3N or 4!S |
+1D--1H--1S--2S--3C--,3S,6-8 | Rejecting invite.
+1D--1H--1S--2S--3C--,4S,8-10 | Accepting invite.
+1D--1H--1S--2S--,3D,MID (16-18) | Game try bid
+1D--1H--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in diamonds; but has a strong heart holding and game interest.
+1D--1H--1S--2S--3D--,3N,8-10 | Choice of 3N or 4!S |
+1D--1H--1S--2S--3D--,3S,6-8 | Rejecting invite.
+1D--1H--1S--2S--3D--,4S,8-10 | Accepting invite.
+1D--1H--1S--2S--,3S,MID (16-18) 
+1D--1H--1S--2S--3S--,4S,8-10 | Accepting invite.
+1D--1H--1S--,3C,INV (11-12) | 5 !H | 5 !C |
+1D--1H--1S--3C--,3D,
+1D--1H--1S--3C--,3H,12-13 | 3 !H |
+1D--1H--1S--3C--,3N,14+ | 0-2 !H |
+1D--1H--1S--3C--,4H,14+ | 3 !H | 
+1D--1H--1S--,3D,INV (11-12) | 4+!D | 0-3 !S | 
+1D--1H--1S--3D--,3H,14+ | 3 !H | Choice of 3NT or 4!H.
+1D--1H--1S--3D--3H--,3N,!C stopper | 4 card !H suit | 
+1D--1H--1S--3D--3H--,4H,5 card !H suit
+1D--1H--1S--3D--,3N,14+ | !C stopper | 0-2 !H |
+1D--1H--1S--,3H,INV (11-12) | 6+!H | 0-3 !S | 
+1D--1H--1S--3H--,3N,14+ | !C stopper | Usually singleton !H
+1D--1H--1S--3H--,4H,14-18 | 2-3 !H | 
+1D--1H--1S--,3N,Please read chat#GF (13-15) | 0-3 !S |  Tends to deny 5 !H.
+1D--1H--1S--,3S,INV (11-12) | 4 !S | 
+1D--1H--1S--3S--,4C,Please read chat#Control showing cuebid. Slam interest. Subsequent non-spade bids 
+1D--1H--1S--3S--,4D,Please read chat#Control showing cuebid. Slam interest. Denies !C control. Subsequent non-spade bids 
+1D--1H--1S--3S--,4N,Blackwood (!S)
+1D--1H--1S--3S--,4S,14+ | No slam interest
+1D--1H--1S--,4N,Blackwood (!S) | 4 !S |
+1D--1H--1S--,4S,GF (13-15) | 4 !S | 
+1D--1H--,2C,Please read chat#MIN (13-15) or MID (16-18) | 4+!C | 0-3 !H |
+1D--1H--2C--,2D,WK (6-10) | 3+!D | 
+1D--1H--2C--2D--,2H,MID (16-18) | 3 !H |
+1D--1H--2C--2D--,2N,MID (16-18) | !S stopper |
+1D--1H--2C--2D--2N--,3N,8-10 |
+1D--1H--2C--2D--,2S,MID (16-18)
+1D--1H--2C--,2H,WK (6-10) | 6+!H |
+1D--1H--2C--2H--,2N,MID (16-18) with !S stoppers.
+1D--1H--2C--2H--,3H,MID (16-18) | 2-3 !H |
+1D--1H--2C--,2N,Please read chat#INV (11-12) | !S stopper | May have 5 !Hs.
+1D--1H--2C--2N--,3C,12-13 | Rejecting invite.
+1D--1H--2C--2N--,3D,14-18 | 6!D | 4!C |
+1D--1H--2C--2N--,3H,14-18 | 3 !H | Choice of 3NT or 4!H.
+1D--1H--2C--2N--3H--,3N,4 card !H suit.
+1D--1H--2C--2N--3H--,4H,5 card !H suit.
+1D--1H--2C--2N--,3N,14-18 | 0-2 !H 
+1D--1H--2C--,3C,INV (11-12) | 4+!C
+1D--1H--2C--3C--,3H,14-15 | 3 !H | Choice of games
+1D--1H--2C--3C--,3N,14-15 | !S stoppers | 0-2 !H |
+1D--1H--2C--,3H,INV (11-12) | 6+!H |
+1D--1H--2C--3H--,3N,Please read chat#14-15 | !S stopper | Usually singleton !H.
+1D--1H--2C--3H--,4H,14-15 | 2-3 !H | 
+1D--1H--2C--,3N,Please read chat#GF (13-15) | !S stopper | Usually only 4 !H |
+1D--1H--,2D,MIN (13-15) | 6+!D | 0-3 !H |
+1D--1H--2D--,2H,Please read chat#WK (6-10) | 6+!H | Opener is expected to pass.
+1D--1H--2D--,2N,INV (11-12) |
+1D--1H--2D--2N--,3C,12-13 | 6!D | 4!C |
+1D--1H--2D--2N--,3D,12-13 | Rejecting invite.
+1D--1H--2D--2N--,3H,14-15 | 3 !H | Choice of 3NT or 4!H.
+1D--1H--2D--2N--3H--,3N,4 card !H suit.
+1D--1H--2D--2N--3H--,4H,5 card !H suit.
+1D--1H--2D--2N--,3N,14-15 | 0-2 !H |
+1D--1H--2D--2N--,--,112-13. Rejecting invite.
+1D--1H--2D--,2S,5+!H and 4+!S (!H > !S) | Game forcing
+1D--1H--2D--,3D,INV (11-12) | 3+!D |
+1D--1H--2D--3D--,3H,14-15 | 3 !H | Choice of games
+1D--1H--2D--3D--,3N,14-15 | !S + !C stoppers |
+1D--1H--2D--3D--,3S,Please read chat#14-15 | !S stopper | Implies no !C stopper
+1D--1H--2D--,3N,GF (13-15) | !C + !S stoppers |
+1D--1H--,2H,MIN (13-15) | 4 !H |
+1D--1H--2H--,2N,Please read chat#INV (11-12) | Invites game in 3NT or 4!H | Non-forcing
+1D--1H--2H--2N--,3H,12-13 | Rejecting invite
+1D--1H--2H--2N--,3N,14-15 | Accepting invite
+1D--1H--2H--2N--,4H,14-15 | Accepting invite
+1D--1H--2H--,2S,INV (11-12) | Game try bid.
+1D--1H--2H--2S--,2N,12-13 |  Balanced.
+1D--1H--2H--2S--,3C,Please read chat#Counter-try. Cant accept game try in !S; but has a strong !C holding and game interest.
+1D--1H--2H--2S--,3D,Please read chat#Counter-try. Cant accept game try in !S; but has a strong !D holding and game interest.
+1D--1H--2H--2S--,3H,12-13 | Rejecting invite.
+1D--1H--2H--2S--,3N,14-15 | Choice of 3NT or 4!H
+1D--1H--2H--2S--,3S,14-15 | 4 !S | Choice of games
+1D--1H--2H--2S--,4H,14-15 | Accepting invite.
+1D--1H--2H--,3C,INV (11-12) | Game try bid.
+1D--1H--2H--3C--,3D,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !D holding and game interest.
+1D--1H--2H--3C--,3H,12-13 | Rejecting invite.
+1D--1H--2H--3C--,3N,14-15 | Choice of 3NT or 4!H.
+1D--1H--2H--3C--,4H,14-15 | Accepting invite.
+1D--1H--2H--,3D,INV (11-12) | Game try bid.
+1D--1H--2H--3D--,3H,12-13 | Rejecting invite.
+1D--1H--2H--3D--,3N,14-15 | Choice of 3NT or 4!H.
+1D--1H--2H--3D--,4H,14-15 | Accepting invite.
+1D--1H--2H--,3H,INV (11-12) | Game try bid.
+1D--1H--2H--3H--,3N,14-15 | Choice of 3NT or 4!H.
+1D--1H--2H--3H--,4H,14-15 | Accepting invite.
+1D--1H--2H--,3N,Please read chat#GF (13-15) | Balanced; 4 card !H suit | Choice of 3NT or 4!H.
+1D--1H--2H--,3S,Please read chat#SPLINTER | 16+ | 0-1 !S | Subsequent non-!H suit bids 
+1D--1H--2H--,4C,Please read chat#SPLINTER | 16+ | 0-1 !C | Subsequent non-!H suit bids 
+1D--1H--2H--,4D,Please read chat#SPLINTER | 16+ | 0-1 !D | Subsequent non-!H suit bids 
+1D--1H--2H--,4H,GF (13-15) |
+1D--1H--2H--,4N,Blackwood (!H)
+1D--1H--,2N,Please read chat#18-19 HCP | Balanced | 2-3!H | May have 4!S
+1D--1H--2N--,3C,Often looking for 3 card !H support
+1D--1H--2N--,3D,5-6 | 5+!D
+1D--1H--2N--,3H,6+!H
+1D--1H--2N--,3N,7+ | Balanced | No slam interest
+1D--1H--2N--,3S,7+ | 4!S | 5!H
+1D--1H--,2S,MAX (19-21) | Strong Jump Shift.
+1D--1H--,3C,MAX (19-21) | Strong Jump Shift
+1D--1H--,3D,MID (16-18) | 6+!D |
+1D--1H--,3H,MID (16-18) | 4 !H |
+1D--1H--3H--,3N,9-12 | Choice of 3NT or 4!H 
+1D--1H--,3N,16-17 HCP | 0-3 !H | 6+ solid !D |
+1D--1H--,3S,Please read chat#SPLINTER | 19+ | 4 !H | 0-1 !S | Subsequent non-!H suit bids 
+1D--1H--3S--,3N,Please read chat#Usually 10-12 | Balanced; strong !S holding | No slam interest
+1D--1H--3S--,4C,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1D--1H--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Subsequent non-!H suit bids 
+1D--1H--3S--,4H,Please read chat#Minimum hand; suggests wasted values in !S. No slam interest.
+1D--1H--3S--,4N,Blackwood (!H)
+1D--1H--,4C,Please read chat#SPLINTER | 19+ | 4 !H | 0-1 !C | Subsequent non-!H suit bids 
+1D--1H--4C--,4D,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1D--1H--4C--,4H,Please read chat#Minimum hand; suggests wasted values in !C. No slam interest.
+1D--1H--4C--,4N,Blackwood (!H)
+1D--1H--4C--,4S,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1D--1H--,4D,4!H | 6+ solid !D |
+1D--1H--4D--,4H,Minimum hand. No slam interest.
+1D--1H--4D--,4N,Blackwood (!H)
+1D--1H--4D--,4S,Please read chat#Control showing cuebid. Subsequent non-!H suit bids 
+1D--1H--,4H,MAX (19-21) | 4 !H |
+1D--1H--,4N,Blackwood (!H)
+1D--,1N,WK (6-10) | No 4 card major |
+1D--1N--,2C,MIN (13-15) or MED (16-18) | 4+!C |
+1D--1N--2C--,2D,WK (6-10) | 3+!D |
+1D--1N--2C--,3C,Please read chat#8-10(+) | 4+!C (usually 5) | 2!C bid improved hand
+1D--1N--,2D,Please read chat#MIN (13-15) | 6+!D (rarely 5) | Responder must pass.
+1D--1N--,2H,Please read chat#REVERSE | 17+ | 5+!D and 4+!H| !D longer than !H|
+1D--1N--2H--,2N,6-8 | Natural; non-forcing
+1D--1N--2H--,2S,8-10 | !S values 
+1D--1N--2H--,3C,8-10 | !C values
+1D--1N--2H--,3D,6-8 | 3+!D
+1D--1N--2H--,3N,8-10 | !C+!S stoppers 
+1D--1N--,2N,MID (16-18) | May have a 4 card major
+1D--1N--2N--,3N,8-10 |
+1D--1N--,2S,Please read chat#REVERSE | 17+ | 5+!D and 4+!S| !D longer than !S|
+1D--1N--2S--,2N,6-8 | Natural; non-forcing
+1D--1N--2S--,3C,8-10 | !C values
+1D--1N--2S--,3D,6-8 | 3+!D
+1D--1N--2S--,3H,8-10 | !H values
+1D--1N--2S--,3N,8-10 | !C+!H stoppers 
+1D--1N--,3C,MAX (19-21) | 4+!C | Strong Jump Shift.
+1D--1N--,3D,MID (16-18) | 6+!D 
+1D--,1S,6+ | 4+!S |
+1D--1S--,1N,MIN (13-15) | 0-3 !S |
+1D--1S--1N--,2C,Please read chat#WK (6-10) | 5+!C | Opener is expected to pass.
+1D--1S--1N--,2D,WK (6-10) | 4+!D | Opener must pass.
+1D--1S--1N--,2H,Please read chat#WK (6-10) | 5+!S | 4+!H | Choice of 2!H or 2!S
+1D--1S--1N--2H--,2S,3!S |
+1D--1S--1N--,2N,INV (11-12) | May have 5 !Ss.
+1D--1S--1N--2N--,3N,14-15 | 0-2 !S |
+1D--1S--1N--2N--,3S,14-15 | Choice of 3NT or 4!S.
+1D--1S--1N--2N--3S--,3N,4 card !S suit.
+1D--1S--1N--2N--3S--,4S,5 card !S suit.
+1D--1S--1N--,2S,WK (6-10) | 6+!S | Opener must pass
+1D--1S--1N--,3C,GF (13-15) | 4+!C |
+1D--1S--1N--3C--,3S,3 !S |
+1D--1S--1N--,3D,INV (11-12) | 5+!D
+1D--1S--1N--3D--,3N,14-15 | 0-2 !S | 
+1D--1S--1N--3D--,3S,14-15 | 3 !S | Choice of 3NT or 4!S.
+1D--1S--1N--3D--3S--,3N,4 card !S suit.
+1D--1S--1N--3D--3S--,4S,5 card !S suit.
+1D--1S--1N--,3H,GF (13-15) | 4+!H | 5+!S
+1D--1S--1N--3H--,3N,Denies 3 !S or 4 !H.
+1D--1S--1N--3H--,3S,3 card !S support.
+1D--1S--1N--3H--,4H,4 card !H support
+1D--1S--1N--,3N,GF (13-15) | Tends to deny 5 !S.
+1D--1S--1N--,3S,INV (11-12) | 6+!S
+1D--1S--1N--3S--,3N,14-15 | Usually singleton !S.
+1D--1S--1N--3S--,4S,14-15 | 2-3 !S |
+1D--1S--1N--,4N,Please read chat#17-19 HCP | Balanced | Quantitative. Natural invite to 6NT. Non-forcing.
+1D--1S--,2C,MIN (13-15) or MID (16-18) | 4+!C |
+1D--1S--2C--,2D,WK (6-10) | 3+!D |
+1D--1S--2C--2D--,2H,Please read chat#MID (16-18) | 3-4 !H | Usually trying for 3NT
+1D--1S--2C--2D--,2N,MID (16-18) | !H stopper | Invites 3NT
+1D--1S--2C--2D--2N--,3N,8-10 | Accepting invite
+1D--1S--2C--2D--,2S,MID (16-18) | 3 !S | 
+1D--1S--2C--,2H,Please read chat#4th Suit Forcing | 13+ | Artificial game force
+1D--1S--2C--2H--,2N,!H stopper | 0-2!S | 2-3!H
+1D--1S--2C--2H--,2S,3!S | any strength
+1D--1S--2C--2H--,3C,Please read chat#Natural | Extra !C length OR no !H stopper | 0-2!S
+1D--1S--2C--2H--,3D,Please read chat#Natural | Extra !D length OR no !H stopper | 0-2!S
+1D--1S--2C--2H--,3H,4!H | any strength
+1D--1S--2C--2H--,3N,!H stopper | 0-2!S | 2-3!H |
+1D--1S--2C--2H--,3S,
+1D--1S--2C--,2N,Please read chat#INV (11-12) | !H stopper | May have 5 !S
+1D--1S--2C--2N--,3C,12-13 | 5!D + 5!C | Rejecting invite.
+1D--1S--2C--2N--,3D,14+ | 6!D | 4!C 
+1D--1S--2C--2N--,3N,14+ | 0-2 !S 
+1D--1S--2C--2N--,3S,14+ | 3 !S | Choice of 3NT or 4!S.
+1D--1S--2C--2N--3S--,3N,4 card !S suit.
+1D--1S--2C--2N--3S--,4S,5 card !S suit.
+1D--1S--2C--,2S,WK (6-10) | 6+!S |
+1D--1S--2C--2S--,2N,MID (16-18) | !H stopper | 0-2 !S | 
+1D--1S--2C--2S--,3S,MID (16-18) | 2-3 !S |
+1D--1S--2C--,3C,INV (11-12) | 4+!C 
+1D--1S--2C--3C--,3N,Please read chat#14-15 | !H stopper | Tends to deny 3 card !S support.
+1D--1S--2C--3C--,3S,14-15 | 3 !S | 
+1D--1S--2C--,3N,Please read chat#GF (13-15) | !H stopper | Tends to deny 5 !S |
+1D--1S--2C--,3S,INV (11-12) | 6+!S |
+1D--1S--2C--3S--,3N,Please read chat#14-15 | !H stopper | Usually singleton !S.
+1D--1S--2C--3S--,4S,14-15 | 2-3 !S |
+1D--1S--,2D,MIN (13-15) | 6+!D (rarely 5) |
+1D--1S--2D--,2H,11+ | 4+!H 
+1D--1S--2D--,2N,INV (11-12) | 
+1D--1S--2D--2N--,3C,12-13 | 6!D | 4!C | Rejecting invite
+1D--1S--2D--2N--,3D,12-13 | 6+!D | Rejecting invite
+1D--1S--2D--2N--,3N,14-15 | 0-2 !S | Accepting invite. 
+1D--1S--2D--2N--,3S,14-15 | 3 !S | Choice of 3NT or 4!S.
+1D--1S--2D--2N--3S--,3N,4 card !S suit.
+1D--1S--2D--2N--3S--,4S,5 card !S suit.
+1D--1S--2D--,2S,Please read chat#WK (6-10) | 6+!S | Opener is expected to pass.
+1D--1S--2D--,3C,Please read chat#13+ | 4+!C | Technically natural but often checking for 3 card !S support.
+1D--1S--2D--3C--,3D,6+!D | 0-2 !S |
+1D--1S--2D--3C--,3N,!H stopper | 0-2 !S |
+1D--1S--2D--3C--,3S,3 card !S support |
+1D--1S--2D--,3D,INV (11-12) | 3+!D | 
+1D--1S--2D--3D--,3H,Please read chat#14-15 | !H stopper | Implies no !C stopper 
+1D--1S--2D--3D--,3N,Please read chat#14-15 | Tends to deny 3 card !S support.
+1D--1S--2D--3D--,3S,14-15 | 3 !S | 
+1D--1S--2D--,3N,Please read chat#GF (13-15) | !C + !H stoppers | Usually only 4 !S |
+1D--1S--2D--,3S,INV (11-12) | 6+!S |
+1D--1S--2D--3S--,3N,14-15 | Usually singleton !S.
+1D--1S--2D--3S--,4S,14-15 | 2-3 !S |
+1D--1S--,2H,Please read chat#REVERSE | 17+ | 5+!D and 4+!H| !D longer than !H|
+1D--1S--2H--,2N,Please read chat#ARTIFICIAL | Only 4!S | 6-8 pts | Wants to sign-off at the 3-level.
+1D--1S--2H--,2S,Please read chat#5+!S | Any strength | Does not promise another call if opener makes a minimum rebid
+1D--1S--2H--,3C,Please read chat#ARTIFICIAL | Only 4!S | Asks opener to make another descriptive bid (i.e. NT with a !C stopper)
+1D--1S--2H--,3D,8+ | 3+!D
+1D--1S--2H--,3H,8+ | 4!H
+1D--1S--2H--,3N,Please read chat#8+ | !C stopper | Only 4!S | Natural; no slam interest.
+1D--1S--2H--,3S,8+ | 6+!S
+1D--1S--2H--,4D,4+!D | Distributional; slam interest.
+1D--1S--2H--,4H,4!H | No slam interest.
+1D--1S--,2N,Please read chat#18-19 HCP | Balanced | 2-3!S | May have 4!H
+1D--1S--2N--,3C,Often looking for 3 card !S support
+1D--1S--2N--,3D,5-6 | 5+!D
+1D--1S--2N--,3H,7+ | 4-5!H | 5!S
+1D--1S--2N--,3N,7+ | Balanced | No slam interest
+1D--1S--2N--,3S,6+!S
+1D--1S--,2S,MIN (13-15) | 4 !S |
+1D--1S--2S--,2N,INV (11-12) | Invites 3NT or 4!S.
+1D--1S--2S--2N--,3N,Please read chat#14-15 | Accepting invite; also balanced. Non-forcing.
+1D--1S--2S--2N--,3S,12-13 | Rejecting invite
+1D--1S--2S--2N--,4S,14-15 | Accepting invite 
+1D--1S--2S--,3C,INV (11-12) | Game try bid.
+1D--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !D holding and game interest.
+1D--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !H holding and game interest.
+1D--1S--2S--3C--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced; strong !H/!D holdings.
+1D--1S--2S--3C--,3S,12-13 | Rejecting invite.
+1D--1S--2S--3C--,4S,14-15 | Accepting invite.
+1D--1S--2S--,3D,INV (11-12) | Game try bid.
+1D--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in !D; but has a strong !H holding and game interest.
+1D--1S--2S--3D--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced; strong !C/!H holdings.
+1D--1S--2S--3D--,3S,12-13 | Rejecting invite.
+1D--1S--2S--3D--,4S,14-15 | Accepting invite.
+1D--1S--2S--,3H,INV (11-12) | Game try bid.
+1D--1S--2S--3H--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced; strong !C/!D holdings.
+1D--1S--2S--3H--,3S,12-13 | Rejecting invite.
+1D--1S--2S--3H--,4S,14-15 | Accepting invite.
+1D--1S--2S--,3N,Please read chat#GF (13-15) | Choice of 3NT or 4!S | Balanced
+1D--1S--2S--,3S,INV (11-12) | Game try bid.
+1D--1S--2S--3S--,3N,Please read chat#14-15 | Choice of 3NT or 4!S | Balanced; strong !C/!H holdings.
+1D--1S--2S--3S--,4S,14-15 | Accepting invite.
+1D--1S--2S--,4C,Please read chat#SPLINTER | 16+ | 0-1 !C | Subsequent non-!S suit bids 
+1D--1S--2S--,4D,Please read chat#SPLINTER | 16+ | 0-1 !D | Subsequent non-!S suit bids 
+1D--1S--2S--,4H,Please read chat#SPLINTER | 16+ | 0-1 !H | Subsequent non-!S suit bids 
+1D--1S--2S--,4N,Blackwood (!S)
+1D--1S--2S--,4S,GF (13-15) |
+1D--1S--,3C,MAX (19-21) | Strong Jump Shift.
+1D--1S--,3D,MID (16-18) | 6+!D | 0-3 !S |
+1D--1S--3D--,3H,Please read chat#8+ | !H values | Usually looking for best game (3NT/4!S/5!D)
+1D--1S--3D--,3N,8+ | !C/!H stoppers |
+1D--1S--3D--,3S,8+ | 5+!S
+1D--1S--,3H,Please read chat#SPLINTER | 14+ hcp | 4!S | 0-1!H | Forcing to 3!S.
+1D--1S--3H--,3N,Please read chat#Usually 10-12. Strong !H holding; notrump-oriented values.
+1D--1S--3H--,3S,Minimum | Suggests wasted values in !H.
+1D--1S--3H--,4C,Please read chat#11+ | Control showing cuebid | Subsequent non-!S suit bids 
+1D--1S--3H--,4D,Please read chat#11+ | Control showing cuebid | Subsequent non-!S suit bids 
+1D--1S--3H--,4N,Blackwood (!S)
+1D--1S--3H--,4S,No slam interest
+1D--1S--,3N,~16-17 hcp | 6+ solid !D | 
+1D--1S--,3S,MID (16-18)
+1D--1S--3S--,4C,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1D--1S--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Subsequent non-!S suit bids 
+1D--1S--3S--,4H,Please read chat#Control showing cuebid. Denies !C or !D control. Subsequent non-!S suit bids 
+1D--1S--3S--,4N,Blackwood (!S)
+1D--1S--3S--,4S,8-12 | No slam interest
+1D--1S--,4C,Please read chat#SPLINTER | 19+ | 4 !S | 0-1 !C | Subsequent non-!S suit bids 
+1D--1S--4C--,4D,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1D--1S--4C--,4H,Please read chat#Control showing cuebid. Denies !D control. Subsequent non-!S suit bids 
+1D--1S--4C--,4N,Blackwood (!S)
+1D--1S--4C--,4S,Please read chat#Minimum hand; suggests wasted values in !C. No slam interest.
+1D--1S--,4D,4!S | 6+ strong !D |
+1D--1S--4D--,4H,Please read chat#Control showing cuebid. Subsequent non-!S suit bids 
+1D--1S--4D--,4N,Blackwood (!S)
+1D--1S--4D--,4S,Minimum hand. No slam interest.
+1D--1S--,4H,Please read chat#SPLINTER | 19+ | 4 !S | 0-1 !H | Subsequent non-!S suit bids 
+1D--1S--4H--,4N,Blackwood (!S)
+1D--1S--4H--,4S,Please read chat#Minimum hand; suggests wasted values in !H. No slam interest.
+1D--1S--,4N,Blackwood (!S)
+1D--1S--,4S,MAX (19-21) | 4!S |
+1D--,2C,11+. [Avoid this bid if possible]
+1D--2C--,2D,Catch-all rebid.
+1D--2C--,2H,14+
+1D--2C--,2N,14+
+1D--2C--,2S,14+
+1D--2C--,3C,14+
+1D--2C--,3H,Please read chat#Splinter Raise. 16+; 5+ card !C support.
+1D--2C--,3S,Please read chat#Splinter Raise. 16+; 5+ card !C support.
+1D--,2D,WK (6-10) | 4+!D |
+1D--2D--,2H,16+ | !H values | Usually a try for NT.
+1D--2D--,2N,16+ | !H+!S stoppers | 
+1D--2D--,2S,16+ | !S values | Usually a try for NT.
+1D--2D--,3D,MED (16-18) | 5+!D |
+1D--2D--,3H,Please read chat#SPLINTER | MAX (19-21) | 5+!D | 0-1 !H | Slam interest.
+1D--2D--,3S,Please read chat#SPLINTER | MAX (19-21) | 5+!D | 0-1 !S | Slam interest.
+1D--,2H,17+ | Strong Jump Shift.
+1D--,2N,INV (11-12) | No 4 card major |
+1D--2N--,3D,12-13 | Rejecting invite.
+1D--2N--,3N,Please read chat#14+ | Accepting invite. No slam interest.
+1D--,2S,17+ | Strong Jump Shift.
+1D--,3C,Please read chat#17+ | Strong Jump Shift | No 4 card major
+1D--,3D,INV (11-12) | 5+!D | No 4 card major
+1D--3D--,3H,Please read chat#14+ | !H values | Usually a try for 3NT.
+1D--3D--,3N,14+ | Stoppers; no slam interest.
+1D--3D--,3S,Please read chat#14+ | !S values | Usually a try for 3NT.
+1D--,3H,Please read chat#SPLINTER | 11+ hcp | 6+!D | 0-1!H | No 4 card major
+1D--3H--,3N,Please read chat#Balanced minimum with strong !H holding. No slam interest.
+1D--,3N,GF (13-15) | Balanced | No 4 card major
+1D--,3S,Please read chat#SPLINTER | 11+ hcp | 6+!D | 0-1!S | No 4 card major
+1D--3S--,3N,Please read chat#Balanced minimum with strong !S holding. No slam interest.
+1H1S,1N,WK (6-10) | !S stopper | 0-2!H
+1H1S,2C,11+ | 5+!C
+1H1S,2D,11+ | 5+!D
+1H1S,2H,WK (6-10) | 3+!H |
+1H1S,2N,INV (11-12) | !S stoppers | 0-2!H
+1H1S,2S,11+ | 3+!H | Inv or better !H raise
+1H1S,3H,<8 hcp | 4+!H  
+1H1S,3N,GF (13-15) | !S stoppers | 0-2!H
+1H1S,4H,To play
+1H1S,Db,Please read chat#Neg X | 6+ hcp | 0-2!H | At least one 4+ card minor
+1H2C,2D,11+ | 5+!D
+1H2C,2H,WK (6-10) | 3+!H |
+1H2C,2N,Please read chat#INV (11-12) | !C stoppers | 0-2!H without 4!S
+1H2C,2S,11+ | 5+!S
+1H2C,3C,11+ | 3+!H | Inv or better !H raise
+1H2C,3H,<8 hcp | 4+!H 
+1H2C,3N,Please read chat#GF (13-15) | !C stoppers | 0-2!H without 4!S
+1H2C,Db,Neg X | 8+ hcp | 4+!S | 0-2!H | 
+1H2D,2H,WK (6-10) | 3+!H |
+1H2D,2N,Please read chat#INV (11-12) | !D stoppers | 0-2!H | No 4!S
+1H2D,2S,11+ | 5+!S
+1H2D,3C,11+ | 5+!C | Usually without 4!S
+1H2D,3D,11+ | 3+!H | Inv or better !H raise
+1H2D,3H,<8 hcp | 4+!H
+1H2D,3N,Please read chat#GF (13-15) | !D stoppers | 0-2!H | No 4!S
+1H2D,Db,Neg X | 8+ hcp | 4+!S | 0-2!H |
+1H2H,2N,INV (11-12) | 0-2!H | Invites 3NT
+1H2H,2S,Please read chat#11+ | 3+!H | Invitational or better !H raise |
+1H2H,3C,11+ | 5+!C | 1 round force
+1H2H,3D,11+ | 5+!D | 1 round force
+1H2H,3H,WK (6-10) | 3+!H | Competitive raise
+1H2H,3N,GF (13-15) | 0-2!H | To play
+1H2H,3S,SPLINTER | 9-12 hcp | 4+!H | 0-1 !S
+1H2H,4C,SPLINTER | 9-12 hcp | 4+!H | 0-1 !C
+1H2H,4D,SPLINTER | 9-12 hcp | 4+!H | 0-1 !D
+1H2H,4H,Please read chat#To play. Limited defensive values; good trump support.
+1H2H,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one major)
+1H2N,3C,11+ | 3+!H 
+1H2N,3D,11+ | 5+!S
+1H2N,3H,WK (6-10) | 3+!H
+1H2N,3N,Please read chat#To play | !C+!D stoppers | Natural; balanced
+1H2N,3S,WK (6-10) | 5+!S | Non-forcing
+1H2N,4C,SPLINTER | 9-12 HCP | 4+!H | 0-1!C
+1H2N,4D,SPLINTER | 9-12 HCP | 4+!H | 0-1!D
+1H2N,4H,To play. Limited defensive strength.
+1H2N,4S,To play
+1H2N,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one minor)
+1H2S,2N,INV (11-12) | !S stoppers | 0-2!H
+1H2S,3C,11+ | 5+!C | Usually 0-2!H
+1H2S,3D,11+ | 5+!C | Usually 0-2!H
+1H2S,3H,3+!H
+1H2S,3N,GF (13-15) | !S stoppers | 0-2!H
+1H2S,Db,Neg X | 9+ hcp | 0-2!H |
+1H3C,Db,Neg X | 10+ hcp | 4+!S | 0-2!H | 
+1H3D,Db,Neg X | 10+ hcp | 4+!S | 0-2!H |
+1H3S,Db,Neg X | 11+ | 0-2!H | No !S stopper 
+,1H,13-21 | 5+!H
+1HDb,1N,Please read chat#7-10 | 1-2!H with stoppers | May have 4 weak spades
+1HDb,1S,6+ | 4+!S
+1HDb,2C,6-9 | 6+!C (rarely 5) | To play.
+1HDb,2D,6-9 | 6+!D (rarely 5) | To play.
+1HDb,2H,6-10 | 3+!H
+1HDb,2N,Please read chat#INV (11-12) | 1-2!H with stoppers | May have 4 weak spades. Non-forcing
+1HDb,2S,6+!S | Usually <8 hcp
+1HDb,3C,
+1HDb,3D,
+1HDb,3H,Please read chat#Usually <7 hcp | 4+!H | singleton or doubleton in a side suit
+1HDb,3N,To play.
+1HDb,3S,SPLINTER | 9-12 hcp | 4!H | 0-1 !S |
+1HDb,4C,SPLINTER | 9-12 hcp | 4!H | 0-1 !C |
+1HDb,4D,SPLINTER | 9-12 hcp | 4!H | 0-1 !D |
+1HDb,4H,To play. Often preemptive.
+1HDb,Rd,Please read chat#10+ HCP | Implies no !H fit | Any later Dbl by responder or opener 
+1H--,1N,Please read chat#WK (6-10) | 0-2 !H | 0-3 !S | May be unbalanced
+1H--1N--,2C,MIN (13-15) or MID (16-18) | 4+!C |
+1H--1N--2C--,2D,WK (6-10) | 5+!D | 0-2 !H |
+1H--1N--2C--,2H,WK (6-10) | 2 !H |
+1H--1N--2C--2H--,2N,MID (16-18) | 
+1H--1N--2C--2H--2N--,3N,8-10
+1H--1N--2C--2H--,2S,Please read chat#MID (16-18) | !S values | Usually looking for 3NT
+1H--1N--2C--2H--,3D,Please read chat#MID (16-18) | !D values | Usually looking for 3NT
+1H--1N--2C--,3C,8-10 | 4+!C |
+1H--1N--2C--3C--,3D,Please read chat#14+ | !D values | Usually looking for 3NT
+1H--1N--2C--3C--,3H,14+ | 6!H + 4!C |
+1H--1N--2C--3C--,3N,14+ | 
+1H--1N--2C--3C--,3S,Please read chat#14+ | !S values | Usually looking for 3NT
+1H--1N--,2D,MIN (13-15) or MID (16-18) | 4+!D |
+1H--1N--2D--,2H,WK (6-10) | 2 !H |
+1H--1N--2D--2H--,2N,MID (16-18) | 
+1H--1N--2D--2H--2N--,3N,8-10
+1H--1N--2D--2H--,3C,Please read chat#MID (16-18) | !C values | Usually looking for 3NT
+1H--1N--2D--,3D,8-10 | 4+!D |
+1H--1N--2D--3D--,3H,14+ | 6!H + 4!D |
+1H--1N--2D--3D--,3N,14+ | 
+1H--1N--2D--3D--,3S,Please read chat#14+ | !S values | Usually looking for 3NT
+1H--1N--,2H,MIN (13-15) | 6+!H |
+1H--1N--,2S,Please read chat#REVERSE | 17+ | 5+!H and 4+!S | !H longer than !S|
+1H--1N--2S--,2N,6-8 | Natural; non-forcing
+1H--1N--2S--,3C,8-10 | !C values
+1H--1N--2S--,3D,8-10 | !D values
+1H--1N--2S--,3H,6-8 | 2!H
+1H--1N--2S--,3S,6-8 | 3!S
+1H--1N--,3H,MID (16-18) | 6+!H
+1H--1N--3H--,3N,8-10 | 0-1!H|
+1H--1N--3H--,4H,8-10 | 2!H |
+1H--1N--,4H,
+1H--,1S,6+ | 4+!S | If 6-10; 0-2 !H
+1H--1S--,1N,MIN (13-15) | 5 !H | 0-3 !S
+1H--1S--1N--,2C,Please read chat#WK (6-10) | 4 !S | 5+!C | Opener must pass.
+1H--1S--1N--,2D,Please read chat#WK (6-10) | 4 !S | 5+!D | Opener must pass.
+1H--1S--1N--,2H,INV (11-12) | 3 !H
+1H--1S--1N--,2N,INV (11-12) | May have 5 !S
+1H--1S--1N--2N--,3N,14-15 | 0-2 !S
+1H--1S--1N--2N--,3S,14-15 | 3 !S | Choice of 3NT or 4!S
+1H--1S--1N--,2S,WK (6-10) | 6+!S | Opener must pass.
+1H--1S--1N--,3C,Please read chat#GF (13-15) or better | 5+!S | 4+!C (rarely 3)
+1H--1S--1N--3C--,3H,0-2 !S | no !D stopper
+1H--1S--1N--3C--3H--,3N,!D stopper
+1H--1S--1N--3C--3H--,3S,Please read chat#Either a) 6 !S  or  b) 5 strong !S without !D stop
+1H--1S--1N--3C--,3N,0-2 !S | !D stopper
+1H--1S--1N--3C--,3S,3 !S |
+1H--1S--1N--,3D,Please read chat#GF (13-15) or better | 5+!S | 4+!D (rarely 3)
+1H--1S--1N--3D--,3H,0-2 !S | no !C stopper
+1H--1S--1N--3D--3H--,3N,!C stopper
+1H--1S--1N--3D--3H--,3S,Please read chat#Either a) 6 !S  or  b) 5 strong !S without !C stop
+1H--1S--1N--3D--,3N,0-2 !S | !C stopper
+1H--1S--1N--3D--,3S,3 !S | 
+1H--1S--1N--,3H,Please read chat#GF (13-15) or better | 3-4 !H | [Bid 2!H to invite]
+1H--1S--1N--,3N,GF (13-15) | Tends to deny 5 !S
+1H--1S--1N--,3S,INV (11-12) | 6+!S | 0-2 !H |
+1H--1S--1N--3S--,3N,14-15 | Usually singleton !S.
+1H--1S--1N--3S--,4S,14-15 | 2-3 !S | 
+1H--1S--1N--,4H,GF (13-15) | 3-4 !H |
+1H--1S--1N--,4N,Please read chat#17-19 HCP | Quantitative; natural invite to 6NT. Non-forcing.
+1H--1S--,2C,MIN (13-15) or MID (16-18) | 4+!C |
+1H--1S--2C--,2D,Please read chat#4th Suit Forcing | 13+ | Artificial game force
+1H--1S--2C--2D--,2H,Please read chat#Natural | Extra !H length OR no !D stopper | 0-2!S
+1H--1S--2C--2D--,2N,!D stopper | 0-2!S
+1H--1S--2C--2D--,2S,3!S | any strength
+1H--1S--2C--2D--,3C,Please read chat#Natural | Extra !C length OR no !D stopper | 0-2!S
+1H--1S--2C--2D--,3H,6+ solid !H | 0-2!S | 14+
+1H--1S--2C--2D--,3N,!D stopper | 0-2!S
+1H--1S--2C--2D--,3S,
+1H--1S--2C--,2H,WK (6-10) | 2 !H |
+1H--1S--2C--2H--,2N,MID (16-18) | !D stopper | 0-2 !S |
+1H--1S--2C--2H--2N--,3N,8-10
+1H--1S--2C--2H--,2S,MID (16-18) | 3 !S |
+1H--1S--2C--2H--2S--,3N,8-10 | !D stopper
+1H--1S--2C--2H--2S--,4S,8-10
+1H--1S--2C--,2N,INV (11-12) | May have 5 !S
+1H--1S--2C--2N--,3C,12-13 | 5+!C | Rejecting invite
+1H--1S--2C--2N--,3N,14+ | 0-2 !S | Accepting invite.
+1H--1S--2C--2N--,3S,14+ | 3 !S | Choice of 3NT or 4!S.
+1H--1S--2C--2N--3S--,3N,4 card !S suit.
+1H--1S--2C--2N--3S--,4S,5 card !S suit.
+1H--1S--2C--,2S,WK (6-10) | 6+!S
+1H--1S--2C--2S--,2N,MID (16-18)| !D stopper
+1H--1S--2C--2S--,3S,MID (16-18) | 2-3 !S |
+1H--1S--2C--,3C,INV (11-12) | 4+!C 
+1H--1S--2C--3C--,3H,14+ | 6!H + 4!C |
+1H--1S--2C--3C--,3N,14+ | !D stopper | Usually no 3!S | 
+1H--1S--2C--3C--,3S,14+ | 3!S | Choice of games
+1H--1S--2C--,3N,GF (13-15) | !D stopper | 
+1H--1S--2C--,3S,INV (11-12) | 6+!S 
+1H--1S--2C--3S--,3N,14+ | !D stopper | Usually singleton !S
+1H--1S--2C--3S--,4S,14-15 | 2-3 !S |
+1H--1S--,2D,MIN (13-15) or MID (16-18) | 4+!D
+1H--1S--2D--,2H,WK (6-10) | 2!H | 
+1H--1S--2D--2H--,2N,MID (16-18) | !C stopper | 0-2 !S |
+1H--1S--2D--2H--2N--,3N,8-10
+1H--1S--2D--2H--,2S,MID (16-18) | 3!S |
+1H--1S--2D--,2N,INV (11-12) | May have 5 !S
+1H--1S--2D--2N--,3D,12-13 | 5+!D | Rejecting invite.
+1H--1S--2D--2N--,3N,14+ | 0-2 !S | 
+1H--1S--2D--2N--,3S,14+ | 3!S | Choice of 3NT or 4!S.
+1H--1S--2D--2N--3S--,3N,4 card !S suit.
+1H--1S--2D--2N--3S--,4S,5 card !S suit.
+1H--1S--2D--,2S,WK (6-10) | 6+!S |
+1H--1S--2D--2S--,2N,Please read chat#MID (16-18) | !D stopper | Usually singleton !S |
+1H--1S--2D--2S--,3H,MID (16-18) |  6!H + 4!D |
+1H--1S--2D--2S--,3S,MID (16-18) |  2-3 !S |
+1H--1S--2D--,3C,Please read chat#4th Suit Forcing | 13+ | Artificial game force
+1H--1S--2D--3C--,3D,Please read chat#Natural | Extra !D length OR no !C stopper | 0-2!S
+1H--1S--2D--3C--,3H,Please read chat#Natural | Extra !H length OR no !H stopper | 0-2!S
+1H--1S--2D--3C--,3N,!C stopper | 0-2!S
+1H--1S--2D--3C--,3S,3!S | any strength
+1H--1S--2D--,3D,INV (11-12) | 4+!D |
+1H--1S--2D--3D--,3H,Please read chat#14+ | 6!H + 4!D (might be only 5 if no !C stop)
+1H--1S--2D--3D--,3N,14+ | !C stopper | No slam interest.
+1H--1S--2D--3D--,3S,14+ | 3!S | Choice of games.
+1H--1S--2D--,3H,INV (11-12) | 3-4 !H |
+1H--1S--2D--3H--,3S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--1S--2D--3H--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--1S--2D--3H--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--1S--2D--3H--,4H,14+ | No slam interest.
+1H--1S--2D--3H--,4N,Blackwood (!H)
+1H--1S--2D--,3N,GF (13-15) | !C stopper | 
+1H--1S--2D--,3S,INV (11-12) | 6+!S |
+1H--1S--2D--3S--,3N,Please read chat#14+ | !C stopper | Usually singleton !S.
+1H--1S--2D--3S--,4S,14-15 | 2-3 !S |
+1H--1S--,2H,MIN (13-15) | 6+!H |
+1H--1S--2H--,2N,INV (11-12) | 0-1 !H | !C+!D stoppers
+1H--1S--2H--2N--,3C,12-13 | 6!H + 4!C | Rejecting invite.
+1H--1S--2H--2N--,3D,12-13 | 6!H + 4!D | Rejecting invite.
+1H--1S--2H--2N--,3N,14-15 | 0-2 !S | Accepting invite.
+1H--1S--2H--2N--,3S,14-15 | 3!S | Choice of 3NT or 4!S.
+1H--1S--2H--2N--3S--,3N,4 card !S suit.
+1H--1S--2H--2N--3S--,4S,5 card !S suit.
+1H--1S--2H--,2S,Please read chat#WK (6-10) | 6+!S | Opener is expected to pass.
+1H--1S--2H--,3C,Please read chat#13+ | Often checking for 3 card !S support.
+1H--1S--2H--3C--,3D,4!D | 0-2 !S|
+1H--1S--2H--3C--,3H,6+!H | 0-2 !S|
+1H--1S--2H--3C--,3N,!D stopper | 0-2 !S|
+1H--1S--2H--3C--,3S,3!S |
+1H--1S--2H--,3D,Please read chat#13+ | Often checking for 3 card !S support.
+1H--1S--2H--3D--,3H,0-2!S |
+1H--1S--2H--3D--,3N,!D stopper | Tends to deny 3!S|
+1H--1S--2H--3D--,3S,3!S |
+1H--1S--2H--,3H,Please read chat#INV (11-12) | 2!H | (can be 3!H with a bad 11)
+1H--1S--2H--,3N,GF (13-15) | !C+!D stoppers |
+1H--1S--2H--,3S,INV (11-12) | 6+!S | Usually 0-1!H|
+1H--1S--2H--3S--,3N,14-15 | 0-1 !S|
+1H--1S--2H--3S--,4S,14-15 | 2-3 !S|
+1H--1S--2H--,4C,Please read chat#SPLINTER | 11+ hcp | 3!H | 0-1 !C | Slam interest
+1H--1S--2H--,4D,Please read chat#SPLINTER | 11+ hcp | 3!H | 0-1 !D | Slam interest
+1H--1S--2H--,4H,Please read chat#GF (13-15) with 2!H -or- INV (11-12)+ with 3!H
+1H--1S--,2N,18-19 HCP | Balanced | 2-3!S
+1H--1S--2N--,3C,Please read chat#7+ | 3+C | Often looking for 3 card !S support
+1H--1S--2N--,3D,Please read chat#7+ | 3+!D | Often looking for 3 card !S support
+1H--1S--2N--,3H,11+ | 3-4!H | Slam interest
+1H--1S--2N--,3N,7+ | Balanced | No slam interest
+1H--1S--2N--,3S,6+!S
+1H--1S--,2S,MIN (13-15) | 4!S|
+1H--1S--2S--,2N,Please read chat#INV (11-12) | Invites game in 3NT or 4!S. Non-forcing.
+1H--1S--2S--2N--,3N,14-15 | Accepting invite; balanced hand
+1H--1S--2S--2N--,3S,12-13 | Rejecting invite
+1H--1S--2S--2N--,4S,14-15 | Accepting invite
+1H--1S--2S--,3C,INV (11-12) | Game try bid.
+1H--1S--2S--3C--,3D,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !D holding and game interest.
+1H--1S--2S--3C--,3H,Please read chat#Counter-try. Cant accept game try in !C; but has a strong !H holding and game interest.
+1H--1S--2S--3C--,3N,Please read chat#14-15 | Choice of 3NT or 4!S. Strong !H/!D holdings.
+1H--1S--2S--3C--,3S,12-13 | Rejecting invite.
+1H--1S--2S--3C--,4S,14-15 | Accepting invite.
+1H--1S--2S--,3D,INV (11-12) | Game try bid.
+1H--1S--2S--3D--,3H,Please read chat#Counter-try. Cant accept game try in !D; but has a strong !H holding and game interest.
+1H--1S--2S--3D--,3N,Please read chat#14-15 | Choice of 3NT or 4!S. Strong !H/!C holdings.
+1H--1S--2S--3D--,3S,12-13 | Rejecting invite.
+1H--1S--2S--3D--,4S,14-15 | Accepting invite.
+1H--1S--2S--,3H,INV (11-12) | Invites 4!H or 4!S |
+1H--1S--2S--3H--,3S,12-13 | Rejecting invite.
+1H--1S--2S--3H--,4H,14-15 | Accepting invite.
+1H--1S--2S--3H--,4S,14-15 | Accepting invite.
+1H--1S--2S--,3N,Please read chat#GF (13-15) | Choice of 3NT or 4!S. Balanced hand; strong !C/!D holdings.
+1H--1S--2S--,3S,INV (11-12)
+1H--1S--2S--3S--,4S,14-15 | Accepting invite.
+1H--1S--2S--,4C,Please read chat#SPLINTER | 16+ | 0-1 !C | Later non-!S suit bids 
+1H--1S--2S--,4D,Please read chat#SPLINTER | 16+ | 0-1 !D | Later non-!S suit bids 
+1H--1S--2S--,4H,GF (13-15) | Choice of 4!H or 4!S
+1H--1S--2S--,4N,Blackwood (!S)
+1H--1S--2S--,4S,GF (13-15)
+1H--1S--,3C,MAX (19-21) | Strong Jump Shift.
+1H--1S--,3D,MAX (19-21) | Strong Jump Shift.
+1H--1S--,3H,MID (16-18) | 6+!H | 0-3 !S | 
+1H--1S--3H--,3N,8+ | !C+!D stoppers | Usually 0-1 !H |
+1H--1S--3H--,3S,8+ | 5+!S
+1H--1S--3H--,4C,8+ | 4+!C
+1H--1S--3H--,4D,8+ | 4+!D
+1H--1S--3H--,4H,8+ | 2!H | No slam interest.
+1H--1S--3H--,4N,Blackwood (!H)
+1H--1S--,3S,MID (16-18) | 4!S |
+1H--1S--3S--,3N,8+ | Choice of 3N or 4!S 
+1H--1S--3S--,4C,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1H--1S--3S--,4D,Please read chat#Control showing cuebid. Denies !C control. Later non-!S suit bids 
+1H--1S--3S--,4H,Please read chat#Control showing cuebid. Denies !C or !D control. Later non-!S suit bids 
+1H--1S--3S--,4N,Blackwood (!S)
+1H--1S--3S--,4S,8+ | No slam interest
+1H--1S--,4C,Please read chat#SPLINTER | 19+ | 4 !S | 0-1 !C | Subsequent non-!S suit bids 
+1H--1S--4C--,4D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1H--1S--4C--,4H,Please read chat#Control showing cuebid. Denies !D control. Later non-!S suit bids 
+1H--1S--4C--,4N,Blackwood (!S)
+1H--1S--4C--,4S,Please read chat#Minimum hand; suggests wasted values in !C. No slam interest.
+1H--1S--,4D,Please read chat#SPLINTER | 19+ | 4 !S | 0-1 !D | Subsequent non-!S suit bids 
+1H--1S--4D--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1H--1S--4D--,4N,Blackwood (!S)
+1H--1S--4D--,4S,Please read chat#Minimum hand; suggests wasted values in !D. No slam interest.
+1H--1S--,4H,
+1H--1S--4H--,4N,Blackwood (!H)
+1H--1S--,4N,Blackwood (!S)
+1H--1S--,4S,MAX (19-21) | 4!S |
+1H--,2C,11+ | 4+!C
+1H--2C--,2D,Any strength | 4+!D | 
+1H--2C--2D--,2H,INV (11-12) | 3-4 !H | Non-forcing
+1H--2C--2D--2H--,2N,Non-forcing.
+1H--2C--2D--2H--,2S,Please read chat#14-15* | Game try bid.  *or slam interest
+1H--2C--2D--2H--,3C,Please read chat#14-15* | Game try bid.  *or slam interest
+1H--2C--2D--2H--,3D,Please read chat#14-15* | Game try bid.  *or slam interest
+1H--2C--2D--2H--,3H,Invites 4!H
+1H--2C--2D--2H--,3N,Choice of 3NT or 4!H 
+1H--2C--2D--2H--,3S,SPLINTER | 0-1!S | Slam interest
+1H--2C--2D--2H--,4C,SPLINTER | 0-1!C | Slam interest
+1H--2C--2D--2H--,4D,SPLINTER | 0-1!S | Slam interest
+1H--2C--2D--2H--,4H,Please read chat#14+ | Accepting invite. No slam interest.
+1H--2C--2D--,2N,INV (11-12) | Non-forcing
+1H--2C--2D--2N--,3C,4!C | 
+1H--2C--2D--2N--,3D,5!D | 
+1H--2C--2D--2N--,3H,6!H | 4!D | 
+1H--2C--2D--2N--,3N,14+ | No slam interest
+1H--2C--2D--2N--,4H,6!H | 4!D |
+1H--2C--2D--2N--,4N,Quantitative 4N | Natural; invites 6NT
+1H--2C--2D--,2S,13+ | !S values | Natural; game forcing
+1H--2C--2D--2S--,3C,3+!C | any strength
+1H--2C--2D--2S--,3D,5+!D | any strength
+1H--2C--2D--2S--,3H,6!H | 4!D | 
+1H--2C--2D--2S--,3S,4 !S |
+1H--2C--2D--,3C,INV (11-12) | 6+!C | Non forcing
+1H--2C--2D--3C--,3D,
+1H--2C--2D--3C--,3H,14+ | 6!H | 5!D |
+1H--2C--2D--3C--,3N,14+ | !S stopper
+1H--2C--2D--3C--,3S,Please read chat#Looking for a !S stopper -or- slam interest in !C
+1H--2C--2D--3C--,4C,3+!C | Slam interest
+1H--2C--2D--3C--,4H,6+ solid !H |
+1H--2C--2D--,3D,INV (11-12) | 4+!D | Non forcing
+1H--2C--2D--3D--,3H,6!H | 4!D |
+1H--2C--2D--3D--,3S,Please read chat#Looking for a !S stopper -or- slam interest in !D
+1H--2C--2D--3D--,4D,Invites 5!D
+1H--2C--2D--3D--,4H,6 solid !H | Choice of 4!H or 5!D
+1H--2C--2D--3D--,4N,Blackwood (!D)
+1H--2C--2D--3D--,5D,
+1H--2C--2D--,3H,13+ | 3-4 !H |
+1H--2C--2D--3H--,3N,No !S control. Asks partner to cuebid.
+1H--2C--2D--3H--,3S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2C--2D--3H--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2C--2D--3H--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2C--2D--3H--,4H,Minimum; unwilling to cuebid for slam.
+1H--2C--2D--3H--,4N,Blackwood (!H)
+1H--2C--2D--,3N,GF (13-15) | !S stopper | Balanced
+1H--2C--2D--,3S,SPLINTER | 13+ | 4+!D | 0-1 !S | 
+1H--2C--2D--3S--,3N,Minimum; wasted values in !S
+1H--2C--2D--3S--,4C,Please read chat#Control showing cuebid. Later non-!D suit bids 
+1H--2C--2D--3S--,4D,No !C control; slam interest.
+1H--2C--2D--3S--,4H,Please read chat#6+!H | Choice of 4!H or 5!D. No slam interest.
+1H--2C--2D--3S--,4N,Blackwood (!D)
+1H--2C--2D--3S--,5D,No slam interest
+1H--2C--2D--,4H,13+ | 3-4 !H | No slam interest
+1H--2C--,2H,Please read chat#Any strength | 5+!H | *Does not promise six hearts*
+1H--2C--2H--,2N,INV (11-12) | 0-2 !H | Non-forcing
+1H--2C--2H--,2S,13+ | 3-4 !S | Natural; game forcing
+1H--2C--2H--,3C,Please read chat#INV (11-12) | 6+!C (rarely 5) | Non-forcing
+1H--2C--2H--,3D,13+ | 4+!D | game forcing
+1H--2C--2H--,3H,INV (11-12) | 3!H | Non-forcing
+1H--2C--2H--,3N,GF (13-15) | Balanced with stoppers
+1H--2C--2H--,3S,SPLINTER | 3!H | 0-1 !S | 
+1H--2C--2H--,4D,SPLINTER | 3!H | 0-1 !D |
+1H--2C--2H--,4H,GF (13-15) | 3!H | 
+1H--2C--2H--,4N,Blackwood (!H)
+1H--2C--,2N,14+ | Balanced | Game forcing
+1H--2C--2N--,3C,5+!C | any strength
+1H--2C--2N--,3D,4+!D | any strength
+1H--2C--2N--,3H,3-4 !H | any strength
+1H--2C--2N--,3N,No slam interest
+1H--2C--2N--,4H,3!H | No slam interest
+1H--2C--2N--,4N,Please read chat#Quantitative 4NT | Natural; balanced. Invites 6NT.
+1H--2C--,2S,14+ | 4!S | Game forcing
+1H--2C--2S--,2N,Please read chat#0-3 !S | 0-2 !H | !D stopper | Natural; balanced
+1H--2C--2S--,3C,5+!C | 0-3 !S | 0-2 !H |
+1H--2C--2S--,3D,4!D | any strength
+1H--2C--2S--,3H,3!H | any strength
+1H--2C--2S--,3N,Please read chat#0-3 !S | 0-2 !H | !D stopper | No slam interest
+1H--2C--2S--,3S,GF (13-15) | 4!S |
+1H--2C--2S--,4H,3!H |
+1H--2C--,3C,4+!C | Preferably a good 13+ 
+1H--2C--3C--,3D,Please read chat#!D values | Usually looking for 3NT. (May be a cuebid for slam)
+1H--2C--3C--,3H,INV (11-12) | 3!H | Non-forcing
+1H--2C--3C--,3S,Please read chat#!S values | Usually looking for 3NT. (May be a cuebid for slam)
+1H--2C--3C--,4C,Please read chat#INV (11-12) | Distributional; no interest in 3NT.
+1H--2C--3C--,4H,GF (13-15) | 3-4!H | No slam interest.
+1H--2C--3C--,4N,Blackwood (!C)
+1H--2C--3C--,5C,
+1H--2C--,3D,SPLINTER | 4+!C | 0-1 !D |
+1H--2C--,3H,Please read chat#14+ | 6+ solid !H | Sets !H as trump | Slam interest
+1H--2C--3H--,3S,Control showing cuebid
+1H--2C--3H--,4C,Control showing cuebid
+1H--2C--3H--,4D,Control showing cuebid
+1H--2C--,3S,SPLINTER | 4+!C | 0-1 !S |
+1H--2C--,4C,Please read chat#Invites 5!C | Distributional; no interest in 3NT
+1H--2C--,4N,Blackwood (!C)
+1H--,2D,11+ | 4+!C
+1H--2D--,2H,Please read chat#Any strength | 5+!H | *Does not promise six hearts*
+1H--2D--2H--,2N,INV (11-12) | 0-2 !H | Non-forcing
+1H--2D--2H--,2S,13+ | 3-4 !S | Natural; game forcing
+1H--2D--2H--,3C,13+ | 4+!D | game forcing 
+1H--2D--2H--,3D,Please read chat#INV (11-12) | 6+!D (rarely 5) | Non-forcing
+1H--2D--2H--,3H,INV (11-12) | 3!H | Non-forcing
+1H--2D--2H--,3N,GF (13-15) | Balanced with stoppers
+1H--2D--2H--,3S,SPLINTER | 3!H | 0-1 !S | 
+1H--2D--2H--,4C,SPLINTER | 3!H | 0-1 !C |
+1H--2D--2H--,4H,GF (13-15) | 3!H | 
+1H--2D--2H--,4N,Blackwood (!H)
+1H--2D--,2N,14+ | Balanced | Game forcing
+1H--2D--2N--,3C,5+!C | any strength
+1H--2D--2N--,3D,5+!D | any strength
+1H--2D--2N--,3H,3-4 !H | any strength
+1H--2D--2N--,3N,No slam interest
+1H--2D--2N--,4H,3!H | No slam interest
+1H--2D--2N--,4N,Please read chat#Quantitative 4NT | Natural; balanced. Invites 6NT.
+1H--2D--,2S,14+ | 4!S | Game forcing
+1H--2D--2S--,2N,Please read chat#0-3 !S | 0-2 !H | !C stopper | Natural; balanced
+1H--2D--2S--,3C,4+!C | any strength 
+1H--2D--2S--,3D,5+!D | 0-3 !S | 0-2 !H |
+1H--2D--2S--,3H,3!H | any strength
+1H--2D--2S--,3N,Please read chat#0-3 !S | 0-2 !H | !C stopper | No slam interest
+1H--2D--2S--,3S,GF (13-15) | 4!S |
+1H--2D--2S--,4H,3 strong !H | no side suit controls
+1H--2D--,3C,4+!C | 14+ | Game forcing
+1H--2D--3C--,3D,5+!D | 0-2!H | any strength
+1H--2D--3C--,3H,3+!H | any strength
+1H--2D--3C--,3N,!S stopper | minimum hand
+1H--2D--3C--,3S,Natural; !S values or a cuebid for !C
+1H--2D--3C--,4C,Please read chat#4+!C | No interest in 3NT (distributional or slam oriented)
+1H--2D--3C--,4H,3 strong !H | no side suit controls
+1H--2D--3C--,4N,Blackwood (!C)
+1H--2D--3C--,5C,No slam interest
+1H--2D--,3D,4+!D | Preferably a good 13+ 
+1H--2D--3D--,3H,INV (11-12) | 3!H | Non-forcing
+1H--2D--3D--,3S,Please read chat#!S values | Usually looking for 3NT. (May be a cuebid for slam)
+1H--2D--3D--,4C,Control showing cuebid
+1H--2D--3D--,4D,Please read chat#INV (11-12) | Distributional; no interest in 3NT.
+1H--2D--3D--,4H,GF (13-15) | 3-4!H | No slam interest.
+1H--2D--3D--,4N,Blackwood (!D)
+1H--2D--3D--,5D,
+1H--2D--,3H,Please read chat#14+ | 6+ solid !H | Sets !H as trump | Slam interest
+1H--2D--3H--,3S,Control showing cuebid
+1H--2D--3H--,4C,Control showing cuebid
+1H--2D--3H--,4D,Control showing cuebid
+1H--2D--,3S,SPLINTER | 4+!D | 0-1 !S |
+1H--2D--,4D,Please read chat#Invites 5!D | Distributional; no interest in 3NT
+1H--2D--,4N,Blackwood (!C)
+1H--,2H,WK (6-10) | 3-4!H |
+1H--2H--,2N,Please read chat#Balanced. Invites game in 3NT or 4!H. Non forcing.
+1H--2H--,2S,16+ | Game try bid.
+1H--2H--2S--,2N,Please read chat#6-8 | Balanced | !C+!D values | Choice of 2NT or 3!H.
+1H--2H--2S--,3C,Please read chat#Counter-try. Strong !C holding and game interest.
+1H--2H--2S--,3D,Please read chat#Counter-try. Strong !D holding and game interest.
+1H--2H--2S--,3H,6-8 | Rejecting invite.
+1H--2H--2S--,3N,Please read chat#8-10 | Balanced | Strong !C+!D holdings | Choice of 3NT or 4!H
+1H--2H--2S--,3S,8-10 | 4+!S | Choice of 4!H or 4!S
+1H--2H--2S--,4H,8-10 | Accepting invite.
+1H--2H--,3C,16+ | Game try bid.
+1H--2H--3C--,3D,Please read chat#Counter-try. Strong !D holding and game interest.
+1H--2H--3C--,3H,6-8 | Rejecting invite.
+1H--2H--3C--,3N,Please read chat#8-10 | Balanced | Strong !D+!S holdings | Choice of 3NT or 4!H
+1H--2H--3C--,4C,8-10 | 4+ good !C | Accepting invite 
+1H--2H--3C--,4H,8-10 | Accepting invite.
+1H--2H--,3D,16+ | Game try bid.
+1H--2H--3D--,3H,6-8 | Rejecting invite.
+1H--2H--3D--,3N,Please read chat#8-10 | Balanced | Strong !C+!S holdings | Choice of 3NT or 4!H
+1H--2H--3D--,4D,8-10 | 4+ good !D | Accepting invite
+1H--2H--3D--,4H,8-10 | Accepting invite.
+1H--2H--,3H,MID (16-18) | Invites 4!H | Non forcing
+1H--2H--3H--,4H,8-10 | Accepting invite.
+1H--2H--,3S,SPLINTER | 17+ hcp | 6+!H | 0-1 !S | 
+1H--2H--,4C,SPLINTER | 17+ hcp | 6+!H | 0-1 !C |
+1H--2H--,4D,SPLINTER | 17+ hcp | 6+!H | 0-1 !D |
+1H--2H--,4H,Please read chat#To play. Based on strength or distribution.
+1H--2H--,4N,Blackwood (!H)
+1H--,2N,Please read chat#JACOBY 2NT | 13+ | 4+!H | Artificial game force.
+1H--2N--,3C,0-1!C | any strength
+1H--2N--3C--,3D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3C--,3H,No !D control | Asks partner to cuebid.
+1H--2N--3C--,3S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3C--,4H,Minimum game force | No slam interest
+1H--2N--3C--,4N,Blackwood (!H)
+1H--2N--,3D,0-1!D | any strength
+1H--2N--3D--,3H,Asks partner to cuebid.
+1H--2N--3D--,3S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3D--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3D--,4H,Minimum game force | No slam interest
+1H--2N--3D--,4N,Blackwood (!H)
+1H--2N--,3H,18+ hcp | No singleton or void
+1H--2N--,3N,15-17 hcp | No singleton or void
+1H--2N--,3S,0-1!S | any strength
+1H--2N--3S--,3N,08Asks partner to cuebid.
+1H--2N--3S--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3S--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--2N--3S--,4H,Minimum game force | No slam interest
+1H--2N--3S--,4N,Blackwood (!H)
+1H--2N--,4C,5+!C | 2 of top 3 honors | any strength
+1H--2N--,4D,5+!D | 2 of top 3 honors | any strength
+1H--2N--,4H,12-14 hcp | No singleton or void
+1H--2N--,4N,Blackwood (!H)
+1H--,2S,17+ | Strong Jump Shift.
+1H--,3C,17+ | Strong Jump Shift.
+1H--,3D,17+ | Strong Jump Shift.
+1H--,3H,INV (11-12) | 3+!H (usually 4) | 
+1H--3H--,3S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--3H--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--3H--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--3H--,4H,14+ | No slam interest.
+1H--3H--,4N,Blackwood (!H)
+1H--,3S,SPLINTER | 9-12 hcp | 4+!H | 0-1 !S | 
+1H--3S--,4C,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--3S--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--3S--,4H,No slam interest.
+1H--3S--,4N,Blackwood (!H)
+1H--,4C,SPLINTER | 9-12 hcp | 4+!H | 0-1 !C | 
+1H--4C--,4D,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--4C--,4H,No slam interest.
+1H--4C--,4N,Blackwood (!H)
+1H--4C--,4S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--,4D,SPLINTER | 9-12 hcp | 4+!H | 0-1 !D | 
+1H--4D--,4H,No slam interest.
+1H--4D--,4N,Blackwood (!H)
+1H--4D--,4S,Please read chat#Control showing cuebid. Later non-!H suit bids 
+1H--,4H,Please read chat#5+!H | Usually less than 8 hcp | Singleton or void |
+1H--,4N,Blackwood
+1N2C,2D,5+!H | Any strength
+1N2C2D--,2H,2+!H | 
+1N2C2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1N2C2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1N2C2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1N2C2D--2H--2N--,4H,good 16-17 | 3+!H
+1N2C2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1N2C2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1N2C2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1N2C2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1N2C2D--2H--3H--,4H,good 16-17
+1N2C2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1N2C2D--2H--3N--,4H,3+!H
+1N2C2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1N2C2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1N2C2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1N2C2D--2H--,4H,6+!H | Mild slam interest
+1N2C2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1N2C2D--2H--4N--,6H,Accepting invite with !H fit
+1N2C2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1N2C2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1N2C2D--3H--,4C,Control showing cuebid.
+1N2C2D--3H--,4D,Control showing cuebid.
+1N2C2D--3H--,4H,Control showing cuebid.
+1N2C2D--3H--,4N,Blackwood (!H)
+1N2C,2H,5+!S | Any strength
+1N2C2H--,2S,2+!S | 
+1N2C2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1N2C2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1N2C2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1N2C2H--2S--2N--,4S,good 16-17 | 3+!S
+1N2C2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1N2C2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1N2C2H--2S--,3H,10+ | 5!H | 5!S | 
+1N2C2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1N2C2H--2S--3N--,4S,3+!S
+1N2C2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1N2C2H--2S--3S--,4S,good 16-17
+1N2C2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1N2C2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1N2C2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1N2C2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1N2C2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1N2C2H--2S--4N--,6S,Accepting invite with !S fit
+1N2C2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1N2C2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1N2C2H--3S--,4C,Control showing cuebid.
+1N2C2H--3S--,4D,Control showing cuebid.
+1N2C2H--3S--,4H,Control showing cuebid.
+1N2C2H--3S--,4N,Blackwood (!S)
+1N2C,2N,8-9 | No 4+ card major unless 4333
+1N2C2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1N2C2N--,3N,good 16-17
+1N2C2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1N2C,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1N2C2S--,3C,Responder will pass or correct to 3!D
+1N2C2S--3C--,3D,0-7 | 6+!D | To play
+1N2C,3C,Please read chat#6+!C | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1N2C3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1N2C,3D,Please read chat#6+!D | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1N2C3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1N2C,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1N2C3H--,3S,Control showing cuebid.
+1N2C3H--,4C,Control showing cuebid.
+1N2C3H--,4D,Control showing cuebid.
+1N2C,3N,10-14 | No 4+ card major unless 4333
+1N2C,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1N2C3S--,4C,Control showing cuebid.
+1N2C3S--,4D,Control showing cuebid.
+1N2C3S--,4H,Control showing cuebid.
+1N2C,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N2C4D--,4H,2+!H
+1N2C4D--4H--,4N,Blackwood (!H)
+1N2C,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N2C4H--,4S,2+!S
+1N2C4H--4S--,4N,Blackwood (!S)
+1N2C,Db,Please read chat#STAYMAN | 8+ | Asks for 4+ card major | 
+1N2CDb--,2D,No 4+ card major | Any strength
+1N2CDb--2D--,2H,Please read chat#8-9 | 5!H | 4!S | Invites game in 3NT or 4!H | Non-forcing
+1N2CDb--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1N2CDb--2D--,2S,Please read chat#8-9 | 5!S | 4!H | Invites game in 3NT or 4!S | Non-forcing
+1N2CDb--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1N2CDb--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1N2CDb--2D--,3H,Please read chat#10-14 | 5!H | 4!S | Choice of 3NT or 4!H
+1N2CDb--2D--,3N,10-14 |
+1N2CDb--2D--,3S,Please read chat#10-14 | 5!S | 4!H | Choice of 3NT or 4!S
+1N2CDb--,2H,4-5 !H | May have 4!S
+1N2CDb--2H--,2N,8-9 | 0-3!H | 4!S | Non-forcing
+1N2CDb--2H--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1N2CDb--2H--2N--3H--,3N,0-2!H |
+1N2CDb--2H--2N--3H--,4H,3!H |
+1N2CDb--2H--2N--,3N,good 16-17 | 2-3!S |
+1N2CDb--2H--2N--,3S,15 or bad 16 | 4!S |
+1N2CDb--2H--2N--,4S,good 16-17 | 4!S |
+1N2CDb--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!S
+1N2CDb--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!S
+1N2CDb--2H--,3H,8-9 | 4-5!H |
+1N2CDb--2H--3H--,4H,good 16-17 | Accepting invite
+1N2CDb--2H--,3N,10-14 | 0-3!H | 4!S | Non-forcing
+1N2CDb--2H--3N--,4S,4!S |
+1N2CDb--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1N2CDb--2H--,4H,10-14 | 4-5!H |
+1N2CDb--,2S,4-5 !S | 2-3 !H |
+1N2CDb--2S--,2N,8-9 | 0-3!S | 4!H | Non-forcing
+1N2CDb--2S--2N--,3N,good 16-17 |
+1N2CDb--2S--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1N2CDb--2S--2N--3S--,3N,0-2!S |
+1N2CDb--2S--2N--3S--,4S,3!S |
+1N2CDb--2S--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1N2CDb--2S--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1N2CDb--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1N2CDb--2S--,3N,10-14 | 0-3!S | 4!H | Non-forcing
+1N2CDb--2S--,3S,8-9 | 4-5!S |
+1N2CDb--2S--3S--,4S,good 16-17 | Accepting invite
+1N2D,2H,0-7 | 5+!H | To play.
+1N2D,2N,Please read chat#8-9 | Balanced | Invites 3NT | May have a 4-5 card major
+1N2D2N--,3N,good 16-17 | Accepting invite
+1N2D,2S,0-7 | 5+!S | To play.
+1N2D,3C,10+ | 5+!C | game forcing
+1N2D,3D,Please read chat#STAYMAN | Asks for 4+ card major | game forcing
+1N2D3D--,3H,4+!H
+1N2D3D--,3N,No 4 card major
+1N2D3D--,3S,4+!S
+1N2D,3H,10+ | 5+!H | game forcing
+1N2D3H--,3N,2!H 
+1N2D3H--,4H,3+!H
+1N2D,3N,10-14 | 
+1N2D,3S,10+ | 5+!S | game forcing
+1N2D3S--,3N,2!S
+1N2D3S--,4S,3+!S
+1N2D,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N2D4D--,4H,2+!H
+1N2D4D--4H--,4N,Blackwood (!H)
+1N2D,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N2D4H--,4S,2+!S
+1N2D4H--4S--,4N,Blackwood (!S)
+1N2D,Db,8+ HCP | Penalty
+1N2H,2N,Please read chat#8-9 | Balanced | Invites 3NT | May have a 4-5 card major
+1N2H2N--,3N,good 16-17 | Accepting invite
+1N2H,2S,0-7 | 5+!S | To play.
+1N2H,3C,10+ | 5+!C | game forcing
+1N2H,3D,10+ | 5+!D | game forcing
+1N2H,3H,Please read chat#STAYMAN | Asks for 4+ card !S suit | game forcing
+1N2H3H--,3N,2-3!S
+1N2H3H--,3S,4+!S
+1N2H,3N,10-14 | 
+1N2H,3S,10+ | 5+!S | game forcing
+1N2H3S--,3N,2!S
+1N2H3S--,4S,3+!S
+1N2H,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N2H4D--,4H,2+!H
+1N2H4D--4H--,4N,Blackwood (!H)
+1N2H,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N2H4H--,4S,2+!H
+1N2H4H--4S--,4N,Blackwood (!S)
+1N2H,Db,8+ HCP | Penalty
+1N2N,3C,5+!C | game forcing
+1N2N,3D,5+!D | game forcing
+1N2N,3H,5+!H | game forcing
+1N2N,3N,To play
+1N2N,3S,5+!S | game forcing
+1N2N,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N2N4D--,4H,2+!H
+1N2N4D--4H--,4N,Blackwood (!H)
+1N2N,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N2N4H--,4S,2+!S
+1N2N4H--4S--,4N,Blackwood (!S)
+1N2N,Db,8+ HCP | Penalty
+1N2S,2N,Please read chat#8-9 | Balanced | Invites 3NT | May have a 4-5 card major
+1N2S2N--,3N,good 16-17 | Accepting invite
+1N2S,3C,10+ | 5+!C | game forcing
+1N2S,3D,10+ | 5+!D | game forcing
+1N2S,3H,10+ | 5+!H | game forcing
+1N2S3H--,3N,2-3!H
+1N2S3H--,4H,3+!H
+1N2S,3N,10-14 | 
+1N2S,3S,Please read chat#STAYMAN | Asks for 4+ card !H suit | game forcing
+1N2S3S--,4H,4+!H
+1N2S,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N2S4D--,4H,2+!H
+1N2S4D--4H--,4N,Blackwood (!H)
+1N2S,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N2S4H--,4S,2+!S
+1N2S4H--4S--,4N,Blackwood (!S)
+1N2S,Db,8+ HCP | Penalty
+1N3C,3D,5+!D | game forcing
+1N3C,3H,5+!H | game forcing
+1N3C,3N,To play
+1N3C,3S,5+!S | game forcing
+1N3C,Db,Takeout Double (emphasis on !H/!S)
+1N3D,3H,5+!H | game forcing
+1N3D,3N,To play
+1N3D,3S,5+!S | game forcing
+1N3D,Db,Takeout Double (emphasis on !H/!S)
+1N3H,3N,To play
+1N3H,3S,5+!S | game forcing
+1N3H,4C,5+!C | 
+1N3H,4D,5+!D | 
+1N3H,4S,To play
+1N3H,Db,Takeout Double (emphasis on !S)
+1N3S,3N,To play
+1N3S,4C,5+!C | 
+1N3S,4D,5+!D | 
+1N3S,4H,5+!H | To play
+1N3S,Db,Takeout Double (emphasis on !H)
+,1N,Please read chat#15-17 HCP | Balanced | Can have a 5 card major
+1NDb,2C,Please read chat#STAYMAN | 8+ | Asks for 4+ card major | 
+1NDb2C--,2D,No 4+ card major | Any strength
+1NDb2C--2D--,2H,Please read chat#8-9 | 5!H | 4!S | Invites game in 3NT or 4!H | Non-forcing
+1NDb2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1NDb2C--2D--,2S,Please read chat#8-9 | 5!S | 4!H | Invites game in 3NT or 4!S | Non-forcing
+1NDb2C--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1NDb2C--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1NDb2C--2D--,3H,Please read chat#10-14 | 5!H | 4!S | Choice of 3NT or 4!H
+1NDb2C--2D--,3N,10-14 |
+1NDb2C--2D--,3S,Please read chat#10-14 | 5!S | 4!H | Choice of 3NT or 4!S
+1NDb2C--,2H,4-5 !H | May have 4!S
+1NDb2C--2H--,2N,8-9 | 0-3!H | 4!S | Non-forcing
+1NDb2C--2H--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1NDb2C--2H--2N--3H--,3N,0-2!H |
+1NDb2C--2H--2N--3H--,4H,3!H |
+1NDb2C--2H--2N--,3N,good 16-17 | 2-3!S |
+1NDb2C--2H--2N--,3S,15 or bad 16 | 4!S |
+1NDb2C--2H--2N--,4S,good 16-17 | 4!S |
+1NDb2C--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!S
+1NDb2C--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!S
+1NDb2C--2H--,3H,8-9 | 4-5!H |
+1NDb2C--2H--3H--,4H,good 16-17 | Accepting invite
+1NDb2C--2H--,3N,10-14 | 0-3!H | 4!S | Non-forcing
+1NDb2C--2H--3N--,4S,4!S |
+1NDb2C--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1NDb2C--2H--,4H,10-14 | 4-5!H |
+1NDb2C--,2S,4-5 !S | 2-3 !H |
+1NDb2C--2S--,2N,8-9 | 0-3!S | 4!H | Non-forcing
+1NDb2C--2S--2N--,3N,good 16-17 |
+1NDb2C--2S--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1NDb2C--2S--2N--3S--,3N,0-2!S |
+1NDb2C--2S--2N--3S--,4S,3!S |
+1NDb2C--2S--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1NDb2C--2S--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1NDb2C--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1NDb2C--2S--,3N,10-14 | 0-3!S | 4!H | Non-forcing
+1NDb2C--2S--,3S,8-9 | 4-5!S |
+1NDb2C--2S--3S--,4S,good 16-17 | Accepting invite
+1NDb,2D,5+!H | Any strength
+1NDb2D--,2H,2+!H | 
+1NDb2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1NDb2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1NDb2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1NDb2D--2H--2N--,4H,good 16-17 | 3+!H
+1NDb2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1NDb2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1NDb2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1NDb2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1NDb2D--2H--3H--,4H,good 16-17
+1NDb2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1NDb2D--2H--3N--,4H,3+!H
+1NDb2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1NDb2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1NDb2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1NDb2D--2H--,4H,6+!H | Mild slam interest
+1NDb2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1NDb2D--2H--4N--,6H,Accepting invite with !H fit
+1NDb2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1NDb2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1NDb2D--3H--,4C,Control showing cuebid.
+1NDb2D--3H--,4D,Control showing cuebid.
+1NDb2D--3H--,4H,Control showing cuebid.
+1NDb2D--3H--,4N,Blackwood (!H)
+1NDb,2H,5+!S | Any strength
+1NDb2H--,2S,2+!S | 
+1NDb2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1NDb2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1NDb2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1NDb2H--2S--2N--,4S,good 16-17 | 3+!S
+1NDb2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1NDb2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1NDb2H--2S--,3H,10+ | 5!H | 5!S | 
+1NDb2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1NDb2H--2S--3N--,4S,3+!S
+1NDb2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1NDb2H--2S--3S--,4S,good 16-17
+1NDb2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1NDb2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1NDb2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1NDb2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1NDb2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1NDb2H--2S--4N--,6S,Accepting invite with !S fit
+1NDb2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1NDb2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1NDb2H--3S--,4C,Control showing cuebid.
+1NDb2H--3S--,4D,Control showing cuebid.
+1NDb2H--3S--,4H,Control showing cuebid.
+1NDb2H--3S--,4N,Blackwood (!S)
+1NDb,2N,8-9 | No 4+ card major unless 4333
+1NDb2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1NDb2N--,3N,good 16-17
+1NDb2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1NDb,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1NDb2S--,3C,Responder will pass or correct to 3!D
+1NDb2S--3C--,3D,0-7 | 6+!D | To play
+1NDb,3C,Please read chat#6+!C | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1NDb3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1NDb,3D,Please read chat#6+!D | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1NDb3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1NDb,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1NDb3H--,3S,Control showing cuebid.
+1NDb3H--,4C,Control showing cuebid.
+1NDb3H--,4D,Control showing cuebid.
+1NDb,3N,10-14 | No 4+ card major unless 4333
+1NDb,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1NDb3S--,4C,Control showing cuebid.
+1NDb3S--,4D,Control showing cuebid.
+1NDb3S--,4H,Control showing cuebid.
+1NDb,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1NDb4D--,4H,2+!H
+1NDb4D--4H--,4N,Blackwood (!H)
+1NDb,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1NDb4H--,4S,2+!S
+1NDb4H--4S--,4N,Blackwood (!S)
+1NDb,Rd,Please read chat#8+ HCP | Usually balanced | Penalty oriented
+1N--,2C,Please read chat#STAYMAN | 8+ | Asks for 4+ card major | 
+1N--2C--,2D,No 4+ card major | Any strength
+1N--2C--2D--,2H,Please read chat#8-9 | 5!H | 4!S | Invites game in 3NT or 4!H | Non-forcing
+1N--2C--2D--,2N,8-9 | Invites 3NT | Non-forcing
+1N--2C--2D--,2S,Please read chat#8-9 | 5!S | 4!H | Invites game in 3NT or 4!S | Non-forcing
+1N--2C--2D--,3C,Please read chat#10+ | 5+!C | May not have a 4 card major
+1N--2C--2D--,3D,Please read chat#10+ | 5+!D | May not have a 4 card major
+1N--2C--2D--,3H,Please read chat#10-14 | 5!H | 4!S | Choice of 3NT or 4!H
+1N--2C--2D--,3N,10-14 |
+1N--2C--2D--,3S,Please read chat#10-14 | 5!S | 4!H | Choice of 3NT or 4!S
+1N--2C--,2H,4-5 !H | May have 4!S
+1N--2C--2H--,2N,8-9 | 0-3!H | 4!S | Non-forcing
+1N--2C--2H--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1N--2C--2H--2N--3H--,3N,0-2!H |
+1N--2C--2H--2N--3H--,4H,3!H |
+1N--2C--2H--2N--,3N,good 16-17 | 2-3!S |
+1N--2C--2H--2N--,3S,15 or bad 16 | 4!S |
+1N--2C--2H--2N--,4S,good 16-17 | 4!S |
+1N--2C--2H--,3C,10+ | 5+!C | 0-3!H | May not have 4!S
+1N--2C--2H--,3D,10+ | 5+!D | 0-3!H | May not have 4!S
+1N--2C--2H--,3H,8-9 | 4-5!H |
+1N--2C--2H--3H--,4H,good 16-17 | Accepting invite
+1N--2C--2H--,3N,10-14 | 0-3!H | 4!S | Non-forcing
+1N--2C--2H--3N--,4S,4!S |
+1N--2C--2H--,3S,Please read chat#10+ | 4+!H | Agrees !Hs | Slam interest. Asks opener to cuebid
+1N--2C--2H--,4H,10-14 | 4-5!H |
+1N--2C--,2S,4-5 !S | 2-3 !H |
+1N--2C--2S--,2N,8-9 | 0-3!S | 4!H | Non-forcing
+1N--2C--2S--2N--,3N,good 16-17 |
+1N--2C--2S--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1N--2C--2S--2N--3S--,3N,0-2!S |
+1N--2C--2S--2N--3S--,4S,3!S |
+1N--2C--2S--,3C,10+ | 5+!C | 0-3!H | May not have 4!H
+1N--2C--2S--,3D,10+ | 5+!D | 0-3!H | May not have 4!H
+1N--2C--2S--,3H,Please read chat#10+ | 4+!S | Agrees !Ss | Slam interest. Asks opener to cuebid
+1N--2C--2S--,3N,10-14 | 0-3!S | 4!H | Non-forcing
+1N--2C--2S--,3S,8-9 | 4-5!S |
+1N--2C--2S--3S--,4S,good 16-17 | Accepting invite
+1N--,2D,5+!H | Any strength
+1N--2D--,2H,2+!H | 
+1N--2D--2H--,2N,8-9 | 5!H | Invites 3NT or 4!H
+1N--2D--2H--2N--,3H,15 or bad 16 | 3+!H 
+1N--2D--2H--2N--,3N,good 16-17 | Usually 2!H |
+1N--2D--2H--2N--,4H,good 16-17 | 3+!H
+1N--2D--2H--,2S,8-9 | 5!S | 5!H | Non-forcing
+1N--2D--2H--,3C,Please read chat#10+ | 5!H | 4+!C | Looking for best game; may have slam interest
+1N--2D--2H--,3D,Please read chat#10+ | 5!H | 4+!D | Looking for best game; may have slam interest
+1N--2D--2H--,3H,8-9 | 6+!H | Invites 4!H
+1N--2D--2H--3H--,4H,good 16-17
+1N--2D--2H--,3N,10-14 | 5!H | Choice of 3NT or 4!H
+1N--2D--2H--3N--,4H,3+!H
+1N--2D--2H--,3S,SPLINTER | 12+ hcp | 6+!H | 0-1 !S |
+1N--2D--2H--,4C,SPLINTER | 12+ hcp | 6+!H | 0-1 !C |
+1N--2D--2H--,4D,SPLINTER | 12+ hcp | 6+!H | 0-1 !D |
+1N--2D--2H--,4H,6+!H | Mild slam interest
+1N--2D--2H--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!H or 6NT | Non-forcing
+1N--2D--2H--4N--,6H,Accepting invite with !H fit
+1N--2D--2H--4N--,6N,Accepting invite; usually with 2!H
+1N--2D--,3H,Please read chat#good 16-17 | 4+!H | Highly invitational (super accept)
+1N--2D--3H--,4C,Control showing cuebid.
+1N--2D--3H--,4D,Control showing cuebid.
+1N--2D--3H--,4H,Control showing cuebid.
+1N--2D--3H--,4N,Blackwood (!H)
+1N--,2H,5+!S | Any strength
+1N--2H--,2S,2+!S | 
+1N--2H--2S--,2N,8-9 | 5!S | Invites 3NT or 4!S
+1N--2H--2S--2N--,3N,good 16-17 | Usually 2!S |
+1N--2H--2S--2N--,3S,15 or bad 16 | 3+!S 
+1N--2H--2S--2N--,4S,good 16-17 | 3+!S
+1N--2H--2S--,3C,Please read chat#10+ | 5!S | 4+!C | Looking for best game; may have slam interest
+1N--2H--2S--,3D,Please read chat#10+ | 5!S | 4+!D | Looking for best game; may have slam interest
+1N--2H--2S--,3H,10+ | 5!H | 5!S | 
+1N--2H--2S--,3N,10-14 | 5!S | Choice of 3NT or 4!S
+1N--2H--2S--3N--,4S,3+!S
+1N--2H--2S--,3S,8-9 | 6+!S | Invites 4!S
+1N--2H--2S--3S--,4S,good 16-17
+1N--2H--2S--,4C,SPLINTER | 12+ hcp | 6+!S | 0-1 !C |
+1N--2H--2S--,4D,SPLINTER | 12+ hcp | 6+!S | 0-1 !D |
+1N--2H--2S--,4H,SPLINTER | 12+ hcp | 6+!S | 0-1 !H |
+1N--2H--2S--,4N,Please read chat#Quantitative 4NT | Natural; balanced invite to 6!S or 6NT | Non-forcing
+1N--2H--2S--4N--,6N,Accepting invite; usually with 2!S
+1N--2H--2S--4N--,6S,Accepting invite with !S fit
+1N--2H--2S--,4S,6+!S | Mild slam try | Non-forcing
+1N--2H--,3S,Please read chat#good 16-17 | 4+!S | Highly invitational (super accept)
+1N--2H--3S--,4C,Control showing cuebid.
+1N--2H--3S--,4D,Control showing cuebid.
+1N--2H--3S--,4H,Control showing cuebid.
+1N--2H--3S--,4N,Blackwood (!S)
+1N--,2N,8-9 | No 4+ card major unless 4333
+1N--2N--,3H,good 16-17 | 5!H | Choice of 3NT or 4!H
+1N--2N--,3N,good 16-17
+1N--2N--,3S,good 16-17 | 5!S | Choice of 3NT or 4!S
+1N--,2S,Please read chat#Transfer to 3!C | 0-7 | 6+ card minor (!C OR !D)
+1N--2S--,3C,Responder will pass or correct to 3!D
+1N--2S--3C--,3D,0-7 | 6+!D | To play
+1N--,3C,Please read chat#6+!C | 6-8 hcp | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1N--3C--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !C holding.
+1N--,3D,Please read chat#6+!D | 6-8 hcp | Invites 3NT | Good 6+ card suit without side suit strength | Non-forcing
+1N--3D--,3N,Please read chat#Accepting invite. Usually based on a 3+ card !D holding.
+1N--,3H,Please read chat#6+ strong !H | Slam interest | Sets !H as trump; asks opener to cuebid
+1N--3H--,3S,Control showing cuebid.
+1N--3H--,4C,Control showing cuebid.
+1N--3H--,4D,Control showing cuebid.
+1N--,3N,10-14 | No 4+ card major unless 4333
+1N--,3S,Please read chat#6+ strong !S | Slam interest | Sets !S as trump; asks opener to cuebid
+1N--3S--,4C,Control showing cuebid.
+1N--3S--,4D,Control showing cuebid.
+1N--3S--,4H,Control showing cuebid.
+1N--,4C,GERBER | Asks for aces
+1N--4C--,4D,0 aces
+1N--4C--4D--,4N,To play.
+1N--4C--4D--,5C,GERBER | Asks for kings
+1N--4C--4D--5C--,5D,0 kings
+1N--4C--4D--5C--,5H,1 king
+1N--4C--4D--5C--,5N,083 kings
+1N--4C--4D--5C--,5S,2 kings
+1N--4C--4D--5C--,6C,4 kings
+1N--4C--,4H,1 ace
+1N--4C--4H--,4N,To play
+1N--4C--4H--,5C,GERBER | Asks for kings
+1N--4C--4H--5C--,5D,0 kings
+1N--4C--4H--5C--,5H,1 king
+1N--4C--4H--5C--,5N,083 kings
+1N--4C--4H--5C--,5S,2 kings
+1N--4C--4H--5C--,6C,4 kings
+1N--4C--,4N,083 aces
+1N--4C--,4S,2 aces
+1N--4C--4S--,4N,To play
+1N--4C--4S--,5C,GERBER | Asks for kings
+1N--4C--4S--5C--,5D,0 kings
+1N--4C--4S--5C--,5H,1 king
+1N--4C--4S--5C--,5N,083 kings
+1N--4C--4S--5C--,5S,2 kings
+1N--4C--4S--5C--,6C,4 kings
+1N--,4D,Please read chat#TEXAS | 6+!H | game sign-off or slam going
+1N--4D--,4H,2+!H
+1N--4D--4H--,4N,Blackwood (!H)
+1N--,4H,Please read chat#TEXAS | 6+!S | game sign-off or slam going
+1N--4H--,4S,2+!S
+1N--4H--4S--,4N,Blackwood (!S)
+1S2C,2D,11+ | 5+!D
+1S2C,2H,11+ | 5+!H
+1S2C,2N,Please read chat#INV (11-12) | !C stoppers | 0-2!S without 4!H
+1S2C,2S,WK (6-10) | 3+!S |
+1S2C,3C,11+ | 3+!S | Inv or better !S raise
+1S2C,3N,Please read chat#GF (13-15) | !C stoppers | 0-2!S without 4!H
+1S2C,3S,<8 hcp | 4+!S 
+1S2C,Db,Neg X | 8+ hcp | 4+!H | 0-2!S |
+1S2D,2H,11+ | 5+!H
+1S2D,2N,Please read chat#INV (11-12) | !D stoppers | 0-2!S | No 4!H
+1S2D,2S,WK (6-10) | 3+!S |
+1S2D,3C,11+ | 5+!C | Usually without 4!H
+1S2D,3D,11+ | 3+!S | Inv or better !S raise
+1S2D,3N,Please read chat#GF (13-15) | !D stoppers | 0-2!S | No 4!H
+1S2D,3S,<8 hcp | 4+!S
+1S2D,Db,Neg X | 8+ hcp | 4+!H | 0-2!S |
+1S2H,2N,INV (11-12) | !H stoppers | 0-2!S
+1S2H,3C,11+ | 5+!C | Usually 0-2!S
+1S2H,3D,11+ | 5+!C | Usually 0-2!S
+1S2H,3N,GF (13-15) | !H stoppers | 0-2!S
+1S2H,3S,<8 hcp | 4+!S
+1S2H,Db,Please read chat#Neg X | 9+ hcp | 0-2!S | At least one 4+ card minor
+1S2N,3C,11+ | 3+!S
+1S2N,3D,11+ | 5+!H
+1S2N,3H,WK (6-10) | 5+!H | Non-forcing
+1S2N,3N,Please read chat#To play | !C+!D stoppers | Natural; balanced
+1S2N,3S,WK (6-10) | 3+!S
+1S2N,4C,SPLINTER | 9-12 HCP | 4+!S | 0-1!C
+1S2N,4D,SPLINTER | 9-12 HCP | 4+!S | 0-1!D
+1S2N,4H,To play
+1S2N,4S,To play. Limited defensive strength.
+1S2N,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one minor)
+1S2S,2N,INV (11-12) | 0-2!S | Invites 3NT
+1S2S,3C,11+ | 5+!C | 1 round force
+1S2S,3D,11+ | 5+!D | 1 round force
+1S2S,3H,Please read chat#11+ | 3+!S | Invitational or better !S raise |
+1S2S,3N,GF (13-15) | 0-2!S | To play
+1S2S,3S,WK (6-10) | 3+!S | Competitive raise
+1S2S,4C,SPLINTER | 9-12 hcp | 4+!S | 0-1 !C
+1S2S,4D,SPLINTER | 9-12 hcp | 4+!S | 0-1 !D
+1S2S,4H,SPLINTER | 9-12 hcp | 4+!S | 0-1 !H
+1S2S,4S,Please read chat#To play. Limited defensive values; good trump support.
+1S2S,Db,Please read chat#10+ HCP | Penalty (willing to penalize at least one major)
+1S3C,Db,Neg X | 10+ hcp | 4+!H | 0-2!S
+1S3D,Db,Neg X | 10+ hcp | 4+!H | 0-2!S
+1S3H,Db,Neg X | 10+ | 0-2!S | No !H stopper
+,1S,13-21 | 5+!S
+1SDb,1N,7-10 | 1-2!S with stoppers
+1SDb,2C,6-9 | 6+!C (rarely 5) | To play.
+1SDb,2D,6-9 | 6+!D (rarely 5) | To play.
+1SDb,2H,6-9 | 6+!H (rarely 5) | To play.
+1SDb,2N,Please read chat#INV (11-12) | 1-2!S with stoppers | Non-forcing
+1SDb,2S,6-10 | 3+!S
+1SDb,3C,
+1SDb,3D,
+1SDb,3H,
+1SDb,3N,To play.
+1SDb,3S,Please read chat#Usually <7 hcp | 4+!S | singleton or doubleton in a side suit
+1SDb,4C,SPLINTER | 9-12 hcp | 4!S | 0-1 !C |
+1SDb,4D,SPLINTER | 9-12 hcp | 4!S | 0-1 !D |
+1SDb,4H,SPLINTER | 9-12 hcp | 4!S | 0-1 !H |
+1SDb,4S,To play. Often preemptive.
+1SDb,Rd,Please read chat#10+ HCP | Implies no !S fit | Any later Dbl by responder or opener 
+1S--,1N,WK (6-10) | 0-2 !S | May be unbalanced
+1S--1N--,2C,MIN (13-15) or MID (16-18) | 4+!C |
+1S--1N--2C--,2D,WK (6-10) | 5+!D | 0-2 !S |
+1S--1N--2C--,2H,WK (6-10) | 5+!H | 0-2 !S |
+1S--1N--2C--,2S,WK (6-10) | 2 !S |
+1S--1N--2C--2S--,2N,MID (16-18) | Non forcing
+1S--1N--2C--2S--2N--,3N,8-10
+1S--1N--2C--2S--,3C,MID (16-18) | 5+!C | Non forcing
+1S--1N--2C--2S--,3D,Please read chat#MID (16-18) | !D values | Usually looking for 3NT
+1S--1N--2C--2S--,3H,Please read chat#MID (16-18) | !H values | Usually looking for 3NT
+1S--1N--2C--,3C,8-10 | 4+!C |
+1S--1N--2C--3C--,3D,Please read chat#14+ | !D values | Usually looking for 3NT
+1S--1N--2C--3C--,3H,Please read chat#14+ | !H values | Usually looking for 3NT
+1S--1N--2C--3C--,3N,14+ | 
+1S--1N--2C--3C--,3S,14+ | 6!S + 4!C |
+1S--1N--,2D,MIN (13-15) or MID (16-18) | 4+!D |
+1S--1N--2D--,2H,WK (6-10) | 5+!H | 0-2 !S |
+1S--1N--2D--,2S,WK (6-10) | 2 !S |
+1S--1N--2D--2S--,2N,MID (16-18) | 
+1S--1N--2D--2S--2N--,3N,8-10
+1S--1N--2D--2S--,3C,Please read chat#MID (16-18) | !C values | Usually looking for 3NT
+1S--1N--2D--,3D,8-10 | 4+!D |
+1S--1N--2D--3D--,3H,Please read chat#14+ | !H values | Usually looking for 3NT
+1S--1N--2D--3D--,3N,14+ | 
+1S--1N--2D--3D--,3S,14+ | 6!S + 4!D |
+1S--1N--,2S,MIN (13-15) | 6+!S |
+1S--1N--,3S,MID (16-18) | 6+!S
+1S--1N--3S--,3N,8-10 | 0-1!S|
+1S--1N--3S--,4S,8-10 | 2!S |
+1S--1N--,4S,
+1S--,2C,11+ | 4+!C
+1S--2C--,2D,Any strength | 4+!D | 
+1S--2C--2D--,2H,13+ | !H values | Natural; game forcing
+1S--2C--2D--2H--,3C,3+!C | any strength
+1S--2C--2D--2H--,3D,5+!D | any strength
+1S--2C--2D--2H--,3H,3!H | 5-3-4-1 shape
+1S--2C--2D--2H--,3S,6!S | 4!D | 
+1S--2C--2D--,2N,INV (11-12) | Non-forcing
+1S--2C--2D--2N--,3C,4!C | 
+1S--2C--2D--2N--,3D,5!D | 
+1S--2C--2D--2N--,3N,14+ | No slam interest
+1S--2C--2D--2N--,3S,6!S | 4!D | 
+1S--2C--2D--2N--,4N,Quantitative 4N | Natural; invites 6NT
+1S--2C--2D--2N--,4S,6!S | 4!D |
+1S--2C--2D--,2S,INV (11-12) | 3-4 !S | Non-forcing
+1S--2C--2D--2S--,2N,Non-forcing.
+1S--2C--2D--2S--,3C,14+ | Game or slam try
+1S--2C--2D--2S--,3D,14+ | Game or slam try
+1S--2C--2D--2S--,3H,14+ | Game or slam try
+1S--2C--2D--2S--,3N,Choice of 3NT or 4!S 
+1S--2C--2D--2S--,3S,Invites 4!S
+1S--2C--2D--2S--,4C,SPLINTER | 0-1!C | Slam interest
+1S--2C--2D--2S--,4D,SPLINTER | 0-1!D | Slam interest
+1S--2C--2D--2S--,4H,SPLINTER | 0-1!H | Slam interest
+1S--2C--2D--2S--,4S,Please read chat#14+ | Accepting invite. No slam interest.
+1S--2C--2D--,3C,INV (11-12) | 6+!C | Non forcing
+1S--2C--2D--3C--,3H,Please read chat#Looking for a !H stopper -or- slam interest in !C
+1S--2C--2D--3C--,3N,14+ | !H stopper
+1S--2C--2D--3C--,3S,14+ | 6!S | 4+!D |
+1S--2C--2D--3C--,4C,3+!C | Slam interest
+1S--2C--2D--3C--,4S,6+ solid !S |
+1S--2C--2D--,3D,INV (11-12) | 4+!D | Non forcing
+1S--2C--2D--3D--,3H,Please read chat#Looking for a !H stopper -or- slam interest in !D
+1S--2C--2D--3D--,3S,6!S | 4!D |
+1S--2C--2D--3D--,4D,Invites 5!D
+1S--2C--2D--3D--,4N,Blackwood (!D)
+1S--2C--2D--3D--,4S,6 solid !S | Choice of 4!S or 5!D
+1S--2C--2D--3D--,5D,
+1S--2C--2D--,3H,SPLINTER | 13+ | 4+!D | 0-1 !H | 
+1S--2C--2D--3H--,3N,Minimum; wasted values in !H
+1S--2C--2D--3H--,3S,Please read chat#Control showing cuebid. Later non-!D suit bids 
+1S--2C--2D--3H--,4C,Please read chat#Control showing cuebid. Later non-!D suit bids 
+1S--2C--2D--3H--,4D,No !C or !S control; slam interest.
+1S--2C--2D--3H--,4N,Blackwood (!D)
+1S--2C--2D--3H--,4S,Please read chat#6+!S | Choice of 4!S or 5!D. No slam interest.
+1S--2C--2D--3H--,5D,No slam interest
+1S--2C--2D--,3N,GF (13-15) | !H stopper | Balanced
+1S--2C--2D--,3S,13+ | 3-4 !S |
+1S--2C--2D--3S--,3N,Asks partner to cuebid.
+1S--2C--2D--3S--,4C,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2C--2D--3S--,4D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2C--2D--3S--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2C--2D--3S--,4N,Blackwood (!S)
+1S--2C--2D--3S--,4S,Minimum; unwilling to cuebid for slam.
+1S--2C--2D--,4S,13+ | 3-4 !S | No slam interest
+1S--2C--,2H,4+!H | any strength
+1S--2C--2H--,2N,Please read chat#0-3 !H | 0-2 !S | !D stopper | Natural; balanced | Non-forcing
+1S--2C--2H--,2S,INV (11-12) | 3+!S | Non-forcing
+1S--2C--2H--,3C,6+!C | Non-forcing
+1S--2C--2H--,3D,
+1S--2C--2H--,3H,4!H | Non-forcing
+1S--2C--2H--,3N,Please read chat#0-3 !H | 0-2 !S | !D stopper | No slam interest
+1S--2C--2H--,3S,13+ | 3+!S |
+1S--2C--2H--,4H,GF (13-15) | 4!H |
+1S--2C--2H--,4S,3!S |
+1S--2C--,2N,14+ | Balanced | Game forcing
+1S--2C--2N--,3C,5+!C | any strength
+1S--2C--2N--,3D,4+!D | any strength
+1S--2C--2N--,3N,No slam interest
+1S--2C--2N--,3S,3-4 !S | any strength
+1S--2C--2N--,4N,Please read chat#Quantitative 4NT | Natural; balanced. Invites 6NT.
+1S--2C--2N--,4S,3!S | No slam interest
+1S--2C--,2S,Please read chat#Any strength | 5+!S | *Does not promise six spades*
+1S--2C--2S--,2N,INV (11-12) | 0-2 !S | Non-forcing
+1S--2C--2S--,3C,Please read chat#INV (11-12) | 6+!C (rarely 5) | Non-forcing
+1S--2C--2S--,3D,13+ | 4+!D | game forcing
+1S--2C--2S--,3N,GF (13-15) | Balanced with stoppers
+1S--2C--2S--,3S,INV (11-12) | 3!S | Non-forcing
+1S--2C--2S--,4D,SPLINTER | 3!S | 0-1 !D |
+1S--2C--2S--,4H,SPLINTER | 3!S | 0-1 !H |
+1S--2C--2S--,4N,Blackwood (!S)
+1S--2C--2S--,4S,GF (13-15) | 3!S | 
+1S--2C--,3C,4+!C | Preferably a good 13+ 
+1S--2C--3C--,3D,Please read chat#!D values | Usually looking for 3NT. (May be a cuebid for slam)
+1S--2C--3C--,3S,Please read chat#!S values | Usually looking for 3NT. (May be a cuebid for slam)
+1S--2C--3C--,4C,Please read chat#INV (11-12) | Distributional; no interest in 3NT.
+1S--2C--3C--,4N,Blackwood (!C)
+1S--2C--3C--,4S,GF (13-15) | 3-4!S | No slam interest.
+1S--2C--3C--,5C,
+1S--2C--,3D,SPLINTER | 4+!C | 0-1 !D |
+1S--2C--,3H,SPLINTER | 4+!C | 0-1 !H |
+1S--2C--,3S,Please read chat#14+ | 6+ solid !S | Sets !S as trump | Slam interest
+1S--2C--3S--,4C,Control showing cuebid
+1S--2C--3S--,4D,Control showing cuebid
+1S--2C--3S--,4H,Control showing cuebid
+1S--2C--,4C,Please read chat#Invites 5!C | Distributional; no interest in 3NT
+1S--2C--,4N,Blackwood (!C)
+1S--,2D,11+ | 4+!D
+1S--2D--,2H,4+!H | any strength
+1S--2D--2H--,2N,Please read chat#0-3 !H | 0-2 !S | !C stopper | Natural; balanced | Non-forcing
+1S--2D--2H--,2S,INV (11-12) | 3+!S | Non-forcing
+1S--2D--2H--,3C,
+1S--2D--2H--,3D,6+!D | Non-forcing
+1S--2D--2H--,3H,4!H | Non-forcing
+1S--2D--2H--,3N,Please read chat#0-3 !H | 0-2 !S | !C stopper | No slam interest
+1S--2D--2H--,3S,13+ | 3+!S |
+1S--2D--2H--,4H,GF (13-15) | 4!H |
+1S--2D--2H--,4S,GF (13-15) | 3+!S | No slam interest
+1S--2D--,2N,14+ | Balanced | Game forcing
+1S--2D--2N--,3C,4+!C | any strength
+1S--2D--2N--,3D,5+!D | any strength
+1S--2D--2N--,3N,No slam interest
+1S--2D--2N--,3S,3-4 !S | any strength
+1S--2D--2N--,4N,Please read chat#Quantitative 4NT | Natural; balanced. Invites 6NT.
+1S--2D--2N--,4S,3!S | No slam interest
+1S--2D--,2S,Please read chat#Any strength | 5+!S | *Does not promise six spades*
+1S--2D--2S--,2N,INV (11-12) | 0-2 !S | Non-forcing
+1S--2D--2S--,2S,13+ | 3-4 !S | Natural; game forcing
+1S--2D--2S--,3C,13+ | 4+!C | game forcing 
+1S--2D--2S--,3D,Please read chat#INV (11-12) | 6+!D (rarely 5) | Non-forcing
+1S--2D--2S--,3N,GF (13-15) | Balanced with stoppers
+1S--2D--2S--,3S,INV (11-12) | 3!S | Non-forcing
+1S--2D--2S--,4C,SPLINTER | 3!S | 0-1 !C |
+1S--2D--2S--,4H,SPLINTER | 3!S | 0-1 !H |
+1S--2D--2S--,4N,Blackwood (!S)
+1S--2D--2S--,4S,GF (13-15) | 3!S | 
+1S--2D--,3C,4+!C | 14+ | Game forcing
+1S--2D--3C--,3D,5+!D | 0-2!S | any strength
+1S--2D--3C--,3H,Natural; !H values or a cuebid for !C
+1S--2D--3C--,3N,!H stopper | minimum hand
+1S--2D--3C--,3S,3+!S | any strength
+1S--2D--3C--,4C,Please read chat#4+!C | No interest in 3NT (distributional or slam oriented)
+1S--2D--3C--,4N,Blackwood (!C)
+1S--2D--3C--,4S,3 strong !S| no side suit controls
+1S--2D--3C--,5C,No slam interest
+1S--2D--,3D,4+!D | Preferably a good 13+ 
+1S--2D--3D--,3H,Please read chat#!H values | Usually looking for 3NT. (May be a cuebid for slam)
+1S--2D--3D--,3S,INV (11-12) | 3!S | Non-forcing
+1S--2D--3D--,4C,Control showing cuebid
+1S--2D--3D--,4D,Please read chat#INV (11-12) | Distributional; no interest in 3NT.
+1S--2D--3D--,4N,Blackwood (!D)
+1S--2D--3D--,4S,GF (13-15) | 3-4!S | No slam interest.
+1S--2D--3D--,5D,
+1S--2D--,3S,Please read chat#14+ | 6+ solid !S | Sets !S as trump | Slam interest
+1S--2D--3S--,3S,Control showing cuebid
+1S--2D--3S--,4C,Control showing cuebid
+1S--2D--3S--,4D,Control showing cuebid
+1S--2D--,4D,Please read chat#Invites 5!D | Distributional; no interest in 3NT
+1S--2D--,4N,Blackwood (!D)
+1S--,2H,11+ | 5+!H
+1S--2H--,2N,14+ | 0-2!H | Natural; game forcing
+1S--2H--2N--,3C,4+!C | any strength
+1S--2H--2N--,3D,4+!D | any strength
+1S--2H--2N--,3H,6+!H | any strength
+1S--2H--2N--,3N,No slam interest
+1S--2H--2N--,3S,3-4 !S | any strength
+1S--2H--2N--,4N,Please read chat#Quantitative 4NT | Natural; balanced. Invites 6NT.
+1S--2H--2N--,4S,3!S | No slam interest
+1S--2H--,2S,Please read chat#Any strength | 5+!S | *Does not promise six spades*
+1S--2H--2S--,2N,INV (11-12) | 0-2 !S | Non-forcing
+1S--2H--2S--,3C,13+ | 4+!C | game forcing 
+1S--2H--2S--,3H,INV (11-12) | 6+!H | Non-forcing
+1S--2H--2S--,3N,GF (13-15) | Balanced with stoppers
+1S--2H--2S--,3S,INV (11-12) | 3!S | Non-forcing
+1S--2H--2S--,4C,SPLINTER | 3!S | 0-1 !C |
+1S--2H--2S--,4H,To play
+1S--2H--2S--,4N,Blackwood (!S)
+1S--2H--2S--,4S,GF (13-15) | 3!S | 
+1S--2H--,3C,14+ | 4+!C | Game forcing
+1S--2H--3C--,3D,Usually natural
+1S--2H--3C--,3H,6+!H | any strength
+1S--2H--3C--,3N,!D stopper | Usually 11-12
+1S--2H--3C--,3S,3+!S | any strength
+1S--2H--3C--,4C,Please read chat#4+!C | No interest in 3NT (distributional or slam oriented)
+1S--2H--3C--,4N,Blackwood (!C)
+1S--2H--3C--,4S,3 strong !S| no side suit controls
+1S--2H--3C--,5C,No slam interest
+1S--2H--,3D,14+ | 4+!D | game forcing
+1S--2H--3D--,3H,6+!H | any strength
+1S--2H--3D--,3S,3+!S | 
+1S--2H--3D--,4D,Distributional; no interest in 3NT.
+1S--2H--3D--,4N,Blackwood (!D)
+1S--2H--3D--,4S,3+!S | No slam interest.
+1S--2H--3D--,5D,
+1S--2H--,3H,3+!H |
+1S--2H--3H--,3S,3+!S | Invites game in 4!H or 4!S
+1S--2H--3H--,4C,Control showing cuebid.
+1S--2H--3H--,4D,Control showing cuebid.
+1S--2H--3H--,4N,Blackwood (!H)
+1S--2H--3H--,4S,GF (13-15) | 3+!S | No slam interest
+1S--2H--,3S,Please read chat#14+ | 6+ solid !S | Sets !S as trump | Slam interest
+1S--2H--3S--,4C,Control showing cuebid
+1S--2H--3S--,4D,Control showing cuebid
+1S--2H--3S--,4H,Control showing cuebid
+1S--2H--,4D,Please read chat#Invites 5!D | Distributional; no interest in 3NT
+1S--2H--,4N,Blackwood (!D)
+1S--,2N,Please read chat#JACOBY 2NT | 13+ | 4+!S | Artificial game force.
+1S--2N--,3C,0-1!C | any strength
+1S--2N--3C--,3D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3C--,3H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3C--,4N,Blackwood (!S)
+1S--2N--3C--,4S,Minimum game force | No slam interest
+1S--2N--,3D,0-1!D | any strength
+1S--2N--3D--,3H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3D--,3S,Asks partner to cuebid.
+1S--2N--3D--,4C,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3D--,4N,Blackwood (!S)
+1S--2N--3D--,4S,Minimum game force | No slam interest
+1S--2N--,3H,0-1!H | any strength
+1S--2N--3H--,3S,Asks partner to cuebid.
+1S--2N--3H--,4C,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3H--,4D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3H--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--2N--3H--,4N,Blackwood (!S)
+1S--2N--3H--,4S,Minimum game force | No slam interest
+1S--2N--,3N,15-17 hcp | No singleton or void
+1S--2N--,3S,18+ hcp | No singleton or void
+1S--2N--,4C,5+!C | 2 of top 3 honors | any strength
+1S--2N--,4D,5+!D | 2 of top 3 honors | any strength
+1S--2N--,4H,5+!H | 2 of top 3 honors | any strength
+1S--2N--,4N,Blackwood (!S)
+1S--2N--,4S,12-14 hcp | No singleton or void
+1S--,2S,WK (6-10) | 3-4!S |
+1S--2S--,2N,Please read chat#Balanced. Invites game in 3NT or 4!S. Non forcing.
+1S--2S--,3C,16+ | Game try bid.
+1S--2S--3C--,3D,Please read chat#Counter-try. Strong !D holding and game interest.
+1S--2S--3C--,3H,Please read chat#Counter-try. Strong !H holding and game interest.
+1S--2S--3C--,3N,Please read chat#8-10 | Balanced | Strong !D+!H holdings | Choice of 3NT or 4!S
+1S--2S--3C--,3S,6-8 | Rejecting invite.
+1S--2S--3C--,4C,8-10 | 4+ good !C | Accepting invite 
+1S--2S--3C--,4S,8-10 | Accepting invite.
+1S--2S--,3D,16+ | Game try bid.
+1S--2S--3D--,3N,Please read chat#8-10 | Balanced | Strong !C+!H holdings | Choice of 3NT or 4!S
+1S--2S--3D--,3S,6-8 | Rejecting invite.
+1S--2S--3D--,4D,8-10 | 4+ good !D | Accepting invite
+1S--2S--3D--,4S,8-10 | Accepting invite.
+1S--2S--,3H,16+ | Game try bid.
+1S--2S--3H--,3N,Please read chat#8-10 | Balanced | Strong !C+!D holdings | Choice of 3NT or 4!S
+1S--2S--3H--,3S,6-8 | Rejecting invite.
+1S--2S--3H--,4H,Please read chat#8-10 | 4+ good !H | | Choice of 4!H or 4!S |
+1S--2S--3H--,4S,8-10 | Accepting invite.
+1S--2S--,3S,MID (16-18) | Invites 4!S | Non forcing
+1S--2S--3S--,4S,8-10 | Accepting invite.
+1S--2S--,4C,SPLINTER | 17+ hcp | 6+!S | 0-1 !C |
+1S--2S--,4D,SPLINTER | 17+ hcp | 6+!S | 0-1 !D |
+1S--2S--,4H,SPLINTER | 17+ hcp | 6+!S | 0-1 !H |
+1S--2S--,4N,Blackwood (!S)
+1S--2S--,4S,Please read chat#To play. Based on strength or distribution.
+1S--,3C,17+ | Strong Jump Shift.
+1S--,3D,17+ | Strong Jump Shift.
+1S--,3H,17+ | Strong Jump Shift.
+1S--,3S,INV (11-12) | 3+!S (usually 4) | 
+1S--3S--,4C,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--3S--,4D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--3S--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--3S--,4N,Blackwood (!S)
+1S--3S--,4S,14+ | No slam interest.
+1S--,4C,SPLINTER | 9-12 hcp | 4+!S | 0-1 !C | 
+1S--4C--,4D,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--4C--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--4C--,4N,Blackwood (!S)
+1S--4C--,4S,No slam interest.
+1S--,4D,SPLINTER | 9-12 hcp | 4+!S | 0-1 !D | 
+1S--4D--,4H,Please read chat#Control showing cuebid. Later non-!S suit bids 
+1S--4D--,4N,Blackwood (!S)
+1S--4D--,4S,No slam interest.
+1S--,4H,SPLINTER | 9-12 hcp | 4+!S | 0-1 !H | 
+1S--4H--,4N,Blackwood (!S)
+1S--4H--,4S,No slam interest.
+1S--,4N,Blackwood
+1S--,4S,Please read chat#5+!S | Usually less than 8 hcp | Singleton or void |
+,2C,STRONG | 22+ bal | 20+ unbalanced
+2C--,2D,WAITING | any strength
+2C--2D--,2N,22-24 hcp | Balanced | Systems on
+2C--2D--2N--,3C,STAYMAN | Asks for a 4+ card major
+2C--2D--2N--,3D,TRANSFER to 3!H | 5+!H | any strength
+2C--2D--2N--,3H,TRANSFER to 3!S | 6+!S | any strength
+2C--2D--2N--,3N,Please read chat#4+ hcp | Balanced | Usually no 4+ card major
+2C--2D--2N--,3S,Please read chat#MINOR SUIT STAYMAN | At least 4-4 !C+!D | Slam interest
+2C--2D--2N--3S--,3N,No 4+ card minor
+2C--2D--2N--3S--,4C,4!C | game forcing
+2C--2D--2N--3S--,4D,4!D | game forcing
+2C--2D--2N--,4D,Please read chat#TEXAS transfer to 4!H | 6+!H | Game sign-off or slam going.
+2C--2D--2N--,4H,Please read chat#TEXAS transfer to 4!S | 6+!S | Game sign-off or slam going.
+2C--2D--,3N,25-27 hcp | Balanced | Systems on
+2C--2D--3N--,4C,STAYMAN | Asks for a 4+ card major
+2C--2D--3N--,4D,TRANSFER to 4!H | 5+!H | any strength
+2C--2D--3N--,4H,TRANSFER to 4!S | 5+!S | any strength
+2C--2D--3N--,4S,Please read chat#MINOR SUIT STAYMAN | At least one 4+ card minor | Slam interest
+2C--,2H,Please read chat#8+ hcp | 5+!H | at least 2 of top 3 honors
+2C--,2N,Please read chat#8+ hcp | Balanced | **Better to bid 2!D waiting**
+2C--,2S,Please read chat#8+ hcp | 5+!S | at least 2 of top 3 honors
+2C--,3C,Please read chat#8+ hcp | 5+!C | at least 2 of top 3 honors
+2C--,3D,Please read chat#8+ hcp | 5+!D | at least 2 of top 3 honors
+,2D,Weak 2 | 6-10 hcp | 6 card suit 
+2D--,2H,
+2D--,2N,Please read chat#Feature Ask | Asks for side suit Ace or King
+2D--,2S,
+2D--,3C,
+2D--,3D,
+2D--,4D,
+2D--,5D,To play. Often preemptive.
+,2H,Weak 2 | 6-10 hcp | 6 card suit
+2H--,2N,Please read chat#Feature Ask | Asks for side suit Ace or King
+2H--,2S,
+2H--,3C,
+2H--,3D,
+2H--,3H,
+2H--,4H,To play. May be preemptive.
+,2N,20-21 HCP | Balanced
+2N--,3C,Please read chat#STAYMAN | 5+ hcp | At least one 4+ card major
+2N--3C--,3D,No 4+ card major
+2N--3C--,3H,4+!H | May have 4!S
+2N--3C--,3S,4+!S | No 4!H
+2N--,3D,5+!H | any strength
+2N--3D--,3H,2+!H
+2N--3D--3H--,3N,Please read chat#5+ hcp | Exactly 5!H | Choice of 3NT or 4!H
+2N--3D--3H--,4H,6+!H | Mild slam interest | Non-forcing
+2N--,3H,5+!S | any strength
+2N--3H--,3S,2+!S
+2N--3H--3S--,3N,Please read chat#5+ hcp | Exactly 5!S | Choice of 3NT or 4!S
+2N--3H--3S--,4S,6+!S | Mild slam interest | Non-forcing
+2N--,3N,5-10 hcp
+2N--,3S,Please read chat#MINOR SUIT STAYMAN | At least 4-4 !C+!D | Slam interest
+2N--3S--,3N,No 4+ card minor | Non-forcing
+2N--3S--,4C,4!C | game forcing
+2N--3S--,4D,4!D | game forcing
+2N--,4C,GERBER | Asks for aces
+2N--4C--,4D,0 aces
+2N--4C--4D--,4N,To play.
+2N--4C--4D--,5C,GERBER | Asks for kings
+2N--4C--4D--5C--,5D,0 kings
+2N--4C--4D--5C--,5H,1 king
+2N--4C--4D--5C--,5N,083 kings
+2N--4C--4D--5C--,5S,2 kings
+2N--4C--4D--5C--,6C,4 kings
+2N--4C--,4H,1 ace
+2N--4C--4H--,4N,To play
+2N--4C--4H--,5C,GERBER | Asks for kings
+2N--4C--4H--5C--,5D,0 kings
+2N--4C--4H--5C--,5H,1 king
+2N--4C--4H--5C--,5N,083 kings
+2N--4C--4H--5C--,5S,2 kings
+2N--4C--4H--5C--,6C,4 kings
+2N--4C--,4N,083 aces
+2N--4C--,4S,2 aces
+2N--4C--4S--,4N,To play
+2N--4C--4S--,5C,GERBER | Asks for kings
+2N--4C--4S--5C--,5D,0 kings
+2N--4C--4S--5C--,5H,1 king
+2N--4C--4S--5C--,5N,083 kings
+2N--4C--4S--5C--,5S,2 kings
+2N--4C--4S--5C--,6C,4 kings
+2N--,4D,Please read chat#TEXAS | 6+!H | Game sign-off or slam going
+2N--4D--,4H,2+!H
+2N--4D--4H--,4N,Blackwood (!H)
+2N--,4H,Please read chat#TEXAS | 6+!S | Game sign-off or slam going
+2N--4H--,4S,2+!S
+2N--4H--4S--,4N,Blackwood (!S)
+,2S,Weak 2 | 6-10 hcp | 6 card suit
+2S--,2N,Please read chat#Feature Ask | Asks for side suit Ace or King
+2S--,3C,
+2S--,3D,
+2S--,3H,
+2S--,3S,
+2S--,4S,To play. May be preemptive.
+Option,Opening @3
+,3C,<11 hcp | 6+ card suit
+,3D,<11 hcp | Can be a 6 card suit
+,3H,<11 hcp | Can be a 6 card suit
+,3S,<11 hcp | Can be a 6 card suit
+Option,Opening @4
+,2D,11-15 hcp | good 6 card suit
+,2H,11-15 hcp | good 6 card suit
+,2S,11-15 hcp | good 6 card suit
+Option,Opening @1@2
+,3C,<11 hcp | 6+ card suit
+,3D,<11 hcp | 7 card suit (rarely 6)
+,3H,<11 hcp | 7 card suit (rarely 6)
+,3S,<11 hcp | 7 card suit (rarely 6)
+Option
+

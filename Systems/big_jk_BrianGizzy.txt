@@ -1,0 +1,759 @@
+BBOalert
+1C,2N,!H and !S
+1C,3C,!D and !S
+Error *001C=NYYYYYY000|,1C,
+1C,1N,!C and !D
+Error *001C{If artificial}=NYYYYYY000|,1C,
+1C,Db,!H and !S
+1D,2D,!C and !S
+1D,2N,!H and !S
+1D,3C,!C and !H
+Error *001D=NYYYYYY000|,1D,
+1D,1N,!C and !D
+1D,Db,!H and !S
+1H,2H,!C and !S
+1H,2N,!C and !D
+1H,3C,!D and !S
+1N,2C,5+4+ majors
+1N2C--,2D,majors are equal length
+1N,2D,Weak with 6+ card major
+1N2D--,2H,pass or correct
+1N,2H,4+ minor
+1N2H--,2N,asks for minor
+1N,2N,Both minors
+1N,2S,4+ minor
+1N2S--,2N,asks for minor
+1N,Db,Any 15+
+1NDb--,2C,Precision Stayman
+1NDb--2C--,2D,No 4 card major
+1NDb--2C--,2H,
+1NDb--2C--,2N,4-4 in majors and 15 HCP
+1NDb--2C--,2S,
+1NDb--2C--,3C,4-4 in majors and 16 HCP
+1NDb--2C--,3D,4-4 in majors and 17 HCP
+1NDb--,2D,Hearts
+1NDb--,2H,Spades
+1NDb--,2N,Diamonds
+1NDb--,2S,Clubs
+1S,2N,!C and !D
+1S,2S,!D and !H
+1S,3C,!C and !H
+2D2}Db2}--2}2H,2},
+2D2}Db2}--2}2N,2},bensohl; puppet to 3!C
+2D2}Db2}--2}2N2}--2}3C,2},Forced
+2D2}Db2}--2}2N2}--2}3C2}--2}3D,2},Stayman; shows !D stopper
+2D2}Db2}--2}2N2}--2}3C2}--2}3H,2},
+2D2}Db2}--2}2N2}--2}3C2}--2}3N,2},ows !D stop
+2D2}Db2}--2}2N2}--2}3C2}--2}3S,2},
+2D2}Db2}--2}2N2}--2}3C2}--2}--,2},k with !Cs
+2D2}Db2}--2}2S,2},
+2D2}Db2}--2}3C,2},
+2D2}Db2}--2}3D,2},Stayman; denies !D stop
+2D2}Db2}--2}3H,2},
+2D2}Db2}--2}3S,2},
+2H2}Db2}--2}2N,2},bensohl; puppet to 3!C
+2H2}Db2}--2}2N2}--2}3C,2},Forced
+2H2}Db2}--2}2N2}--2}3C2}--2}3D,2},Weak
+2H2}Db2}--2}2N2}--2}3C2}--2}3H,2},Stayman; shows !H stop and 4!S
+2H2}Db2}--2}2N2}--2}3C2}--2}3S,2},
+2H2}Db2}--2}2S,2},
+2H2}Db2}--2}3C,2},
+2H2}Db2}--2}3D,2},
+2H2}Db2}--2}3H,2},Stayman; denies !H stop; shows 4!S
+2H2}Db2}--2}3S,2},
+Error *002S=NYYYYYY008If weak 2|,2S,If weak 2
+2SDb--,2N,Lebensohl; puppet to 3!C
+2SDb--2N--,3C,Forced
+2SDb--2N--3C--,3D,
+2SDb--2N--3C--,3H,
+2SDb--2N--3C--,3S,Stayman; shows !S stop and 4!H
+2SDb--2N--3C--,4C,
+2SDb--2N--3C--,4D,
+2SDb--2N--3C--,4H,
+2SDb--,3C,
+2SDb--,3D,
+2SDb--,3H,
+2SDb--,3S,Stayman; denies !S stop; shows 4!H
+2/,1 ,Please read chat#ified Gizzy (2/1 based)\\Multi 1!C; 15-17 NT; 5 card majors; 3 weak 2s
+1C1D,1H,5!S
+1C1D1H--,1N,11-14; <3!S
+1C1D1H--,1S,11-14
+1C1D1H--,2C,15-17; <3!S
+1C1D1H--,2N,18-19; <3!S
+1C1D1H--,2S,18-19
+1C1D,1N,6-10 with !D stop
+1C1D,1S,5!H
+1C1D1S--,1N,11-14; <3!H
+1C1D1S--,2C,15-17; <3!H
+1C1D1S--,2H,11-14
+1C1D1S--,2N,18-19; <3!H
+1C1D1S--,3H,18-19
+1C1D,2C,
+1C1D,2D,11-12 without !D stop
+1C1D,2N,11-12 with !D stop
+1C1DDb1H,1N,11-14; no 4!S
+1C1DDb1H,1S,13-14
+1C1DDb1H,2C,15-17; no 4!S
+1C1DDb1H,2N,18-19; no 4!S
+1C1DDb1H,2S,18-19
+1C1DDb1H,--,11-12; 4!S
+1C1DDb1S,1N,11-14; no 4!H
+1C1DDb1S,2C,15-17; no 4!H
+1C1DDb1S,2H,13-14
+1C1DDb1S,2N,18-19; no 4!H
+1C1DDb1S,3H,18-19
+1C1DDb1S,--,11-12; 4!H
+1C1D,Db,Please read chat#Stayman; has 4!H or 4!S or both or strong with !Ds
+1C1DDb--,1H,11-14
+1C1DDb--1H--,2D,Weak
+1C1DDb--,1N,11-14; no 4cM
+1C1DDb--1N--,2D,Weak
+1C1DDb--,1S,11-14
+1C1DDb--1S--,2D,Weak
+1C1DDb--,2C,11-15; no 4cM
+1C1DDb--2C--,2D,Weak
+1C1DDb--,2D,Natural Reverse
+1C1DDb--,2H,18-19
+1C1DDb--,2N,18-19; no 4cM
+1C1DDb--,2S,18-19
+1C1H,1N,6-10 with !H stop
+1C1H,1S,Opening hand
+1C1H,2C,
+1C1H,2D,
+1C1H,2H,11-12 without !H stop
+1C1H,2N,11-12 with !H stop
+1C1H,2S,Weak jump (0-5 HCP)
+1C1H,Db,4!S; 6-10 HCP
+1C1HDb--,1N,11-14; <4!S
+1C1HDb--,1S,11-14
+1C1HDb--1S--,2S,9 HCP; invite; shapely hand
+1C1HDb--1S--,3S,10 HCP; invite; shapely hand
+1C1HDb--,2N,18-19; <4!S
+1C1HDb--,2S,18-19
+1C1S,1N,6-10 with !S stop
+1C1S,2C,
+1C1S,2D,
+1C1S,2H,11+ HCP
+1C1S,2N,11-12 with !S stop
+1C1S,2S,11-12 without !S stop
+1C1S,Db,4!H; 6-10 HCP
+1C1SDb--,1N,11-14; <4!H
+1C1SDb--,2H,11-14
+1C1SDb--2H--,2N,9 HCP; shapely hand; invite
+1C1SDb--2H--,3H,10 HCP; shapely hand; invite
+1C1SDb--,2N,18-19; <4!H
+1C1SDb--,3H,18-19
+,1C,Please read chat#natural or balanced or 4441\\Can be passed by a weak hand with clubs
+1CDb1D1H,1N,11-14; no 4!S
+1CDb1D1H,1S,13-14
+1CDb1D1H,2C,15-17; no 4!S
+1CDb1D1H,2N,18-19; no 4!S
+1CDb1D1H,2S,18-19
+1CDb1D1H,--,11-12; 4!S
+1CDb1D1S,1N,11-14; no 4!H
+1CDb1D1S,2C,15-17; no 4!H
+1CDb1D1S,2H,13-14
+1CDb1D1S,2N,18-19; no 4!H
+1CDb1D1S,3H,18-19
+1CDb1D1S,--,11-12; 4!H
+1CDb,1D,Please read chat#Stayman; has 4!H or 4!S or both or strong with !Ds
+1CDb1D--,1H,11-14
+1CDb1D--1H--,3H,Transfer to 3NT
+1CDb1D--,1N,11-14; no 4cM
+1CDb1D--,1S,11-14
+1CDb1D--1S--,3S,Transfer to 3NT
+1CDb1D--,2C,15-17; no 4cM
+1CDb1D--,2D,Natural Reverse
+1CDb1D--,2H,18-19
+1CDb1D--2H--,3H,Transfer to 3nt
+1CDb1D--,2N,18-19; no 4cM
+1CDb1D--,2S,18-19
+1CDb1D--2S--,3S,Transfer to 3NT
+1CDb,1H,5!S
+1CDb1H--,1N,11-14 bal; <3!S
+1CDb1H--,1S,11-14 bal
+1CDb1H--,2C,<3!S; 11-15
+1CDb1H--,2N,18-19 bal; <3!S
+1CDb1H--,2S,18-19 bal
+1CDb,1N,6-10 bal
+1CDb,1S,5!H
+1CDb1S--,1N,11-14 bal; <3!H
+1CDb1S--,2C,11-15; <3!H
+1CDb1S--,2H,11-14 bal
+1CDb1S--,2N,18-19 bal; <3!H
+1CDb1S--,3H,18-19 bal
+1CDb,2C,Inverted minor - strong
+1CDb,2D,3-7 HCP
+1CDb2D--,2N,18-19 HCP
+1CDb2D--2N--,3N,6-7 HCP
+1CDb,2N,11-12 bal
+1CDb,3C,Inverted minor - weak
+1CDb,3N,13-15 bal
+1CDb,Rd,8-10 HCP; 5+!Ds
+1CDbRd--,3N,18-19 HCP
+1C--1D1H,1N,11-14; no 4cM
+1C--1D1H,1S,13-14
+1C--1D1H,2C,15-17; no 4cM
+1C--1D1H,2N,18-19; no 4cM
+1C--1D1H,2S,18-19
+1C--1D1H,--,11-12; 4!S
+1C--1D1S,1N,11-14; no 4cM
+1C--1D1S,2C,15-17; no 4cM
+1C--1D1S,2H,13-14
+1C--1D1S,2N,18-19; no 4cM
+1C--1D1S,3H,18-19
+1C--1D1S,--,11-12; 4!H
+1C--,1D,Please read chat#Stayman; has 4!H or 4!S or strong with !Ds
+1C--1DDb,1H,11-14
+1C--1DDb,1N,11-14; no 4CM
+1C--1DDb,1S,11-14
+1C--1DDb,2C,15-17; no 4cM
+1C--1DDb,2D,11-14; 4-4 in the majors
+1C--1DDb,2H,18-19
+1C--1DDb,2N,18-19; no 4cM
+1C--1DDb,2S,18-19
+1C--1DDb,3D,18-19; 4-4 in the majors
+1C--1D--,1H,11-14
+1C--1D--1H--,1N,4!S
+1C--1D--1H--1N--,2S,11-14 and 4-4 in the majors
+1C--1D--1H--,1S,shows 4+!H and weak
+1C--1D--1H--,2D,Puppet to 2!H; 11+ HCP
+1C--1D--1H--2D--,2H,Please read chat#Forced; any suit response other than 3!D is 13+ GF
+1C--1D--1H--2D--2H--,2N,5332 11-12 HCP
+1C--1D--1H--2D--2H--,2S,!S shortage; 4+!H
+1C--1D--1H--2D--2H--,3C,!C shortage; 4+!H
+1C--1D--1H--2D--2H--,3D,11-12 HCP
+1C--1D--1H--2D--2H--,3H,!H shortage; looking for !D slam
+1C--1D--1H--2D--2H--,3N,5332 13-14 HCP
+1C--1D--1H--2D--2H--,3S,15+; big 6-5 or better
+1C--1D--1H--2D--2H--,4C,15+; big 6-5 or better
+1C--1D--1H--2D--2H--,4D,Please read chat#13+ HCP; initiating cues agreeing diamonds
+1C--1D--1H--2D--2H--,4H,No shortages
+1C--1D--1H--2D--2H--,4S,15+; big 6-5 or better
+1C--1D--1H--,2H,10-11 HCP
+1C--1D--1H--,3H,Transfer to 3NT
+1C--1D--,1N,11-14 but no 4cM
+1C--1D--1N--,2D,Puppet to 2!H; 11+ HCP
+1C--1D--1N--2D--,2H,Please read chat#Forced; any response other than 3!D is 13+ GF
+1C--1D--1N--2D--2H--,2N,5332 11-12 HCP
+1C--1D--1N--2D--2H--,3C,15+ !C shortage; no 5 card side suit
+1C--1D--1N--2D--2H--,3D,11-12 HCP
+1C--1D--1N--2D--2H--,3H,15+ !H shortage; no 5 card side suit
+1C--1D--1N--2D--2H--,3N,5332 13-14 HCP
+1C--1D--1N--2D--2H--,3S,15+ !S shortage; no 5 card side suit
+1C--1D--1N--2D--2H--,4C,15+; big 6-5 or better
+1C--1D--1N--2D--2H--4C--,4D,Please read chat#Asks for voidwood; responder picks the level to play in !Cs; can convert to !Ds if preferred
+1C--1D--1N--2D--2H--4C--4D--,4H,Voidwood
+1C--1D--1N--2D--2H--4C--4D--,4S,Voidwood
+1C--1D--1N--2D--2H--,4D,Please read chat#13+ HCP; initiating cues agreeing diamonds
+1C--1D--1N--2D--2H--4D--,4H,Asks for void
+1C--1D--1N--2D--2H--4D--4H--,4N,No void
+1C--1D--1N--2D--2H--4D--4H--4N--,5C,Relay to 2nd suit
+1C--1D--1N--2D--2H--4D--4H--4N--,5D,
+1C--1D--1N--2D--2H--4D--4H--,4S,
+1C--1D--1N--2D--2H--4D--4H--,5C,
+1C--1D--1N--2D--2H--4D--4H--,5D,!H void
+1C--1D--1N--2D--2H--,4H,15+; big 6-5 or better
+1C--1D--1N--2D--2H--4H--,4S,Asks for voidwood
+1C--1D--1N--2D--2H--4H--4S--,4N,Voidwood (void in !S)
+1C--1D--1N--2D--2H--4H--4S--,5C,Voidwood
+1C--1D--1N--2D--2H--,4S,15+; big 6-5 or better
+1C--1D--1N--2D--2H--4S--,4N,Asks for voidwood
+1C--1D--1N--2D--2H--4S--4N--,5C,Voidwood
+1C--1D--1N--2D--2H--4S--4N--,5D,Voidwood
+1C--1D--,1S,11-14
+1C--1D--1S--,2D,Puppet to 2!H; 11+ HCP
+1C--1D--1S--2D--,2H,Please read chat#Forced; any response other than 3!D is 13+ GF
+1C--1D--1S--2D--2H--,2N,5332 11-12 HCP
+1C--1D--1S--2D--2H--,2S,11-12 HCP
+1C--1D--1S--2D--2H--,3C,!C shortage; 4+!S
+1C--1D--1S--2D--2H--,3D,11-12 HCP
+1C--1D--1S--2D--2H--,3H,!H shortage; 4+!S
+1C--1D--1S--2D--2H--,3N,5332 13-14 HCP
+1C--1D--1S--2D--2H--,3S,!S shortage; looking for !D slam
+1C--1D--1S--2D--2H--,4C,15+; big 6-5 or better
+1C--1D--1S--2D--2H--,4D,Please read chat#13+ HCP; initiating cues agreeing diamonds
+1C--1D--1S--2D--2H--,4H,15+; big 6-5 or better
+1C--1D--1S--2D--2H--,4S,No shortages
+1C--1D--1S--,2H,shows 4+!S and weak
+1C--1D--1S--,2S,10-11 HCP
+1C--1D--1S--,3S,Transfer to 3NT
+1C--1D--,2C,11-15; no 4cM
+1C--1D--2C--,2D,Puppet to 2!H; 11+ HCP
+1C--1D--2C--2D--,2H,Please read chat#Forced; any response other than 3!D is 13+ GF
+1C--1D--2C--2D--2H--,2N,5332 11-12 HCP
+1C--1D--2C--2D--2H--,2S,Please read chat#!C shortage; asks for !D support or to switch to 3nt
+1C--1D--2C--2D--2H--,3C,Please read chat#18+ HCP; no shortage; mild slam interest
+1C--1D--2C--2D--2H--,3D,11-12 HCP
+1C--1D--2C--2D--2H--,3H,!H shortage; agrees clubs
+1C--1D--2C--2D--2H--,3N,5332 13-14 HCP
+1C--1D--2C--2D--2H--,3S,!S shortage; agrees clubs
+1C--1D--2C--2D--2H--,4C,Please read chat#Asks for 6!Cs or 2!Ds (has 6!Ds and 2!Cs)
+1C--1D--2C--2D--2H--,4D,Please read chat#13+ HCP; initiating cues agreeing diamonds
+1C--1D--2C--2D--2H--4D--,4H,A!H
+1C--1D--2C--2D--2H--4D--,4N,2 Aces
+1C--1D--2C--2D--2H--4D--,4S,A!S
+1C--1D--2C--2D--2H--4D--,5C,A!C
+1C--1D--2C--2D--2H--,4H,Voidwood agreeing clubs
+1C--1D--2C--2D--2H--,4S,Voidwood agreeing clubs
+1C--1D--,2D,18-19 HCP; 4-4 in the majors
+1C--1D--2D--,2H,shows 4!S
+1C--1D--2D--,2N,shows 4-4 in majors also
+1C--1D--2D--,2S,shows 4!H
+1C--1D--,2H,18-19
+1C--1D--2H--,3H,Transfer to 3NT
+1C--1D--,2N,18-19; no 4cM
+1C--1D--,2S,18-19
+1C--1D--2S--,3S,Transfer to 3NT
+1C--1D--,3C,16-19; no 4cM
+1C--,1H,5!S's
+1C--1H--,1N,11-14; <3!S
+1C--1H--,1S,11-14
+1C--1H--,2C,11-15; <3!S
+1C--1H--,2D,Reverse; 16+HCP; <3!S
+1C--1H--2D--,2N,Lebensohl; puppet to 3!C
+1C--1H--2D--2N--,3C,16-18 HCP
+1C--1H--2D--2N--3C--,3D,Weak
+1C--1H--2D--2N--3C--,--,Weak with !Cs
+1C--1H--2D--2N--,3D,19+HCP
+1C--1H--2D--2N--,3N,19+HCP
+1C--1H--,2N,18-19; <3!S
+1C--1H--,2S,18-19
+1C--1H--,3C,16-19; <3!S
+1C--,1N,6-10HCP 
+1C--1N--,2D,Reverse; 16+HCP
+1C--1N--2D--,2N,Lebensohl; puppet to 3!C
+1C--1N--2D--2N--,3C,16-18 HCP
+1C--1N--2D--2N--3C--,3D,Weak
+1C--1N--2D--2N--3C--,--,Weak with !Cs
+1C--1N--2D--2N--,3D,19+HCP
+1C--1N--2D--2N--,3N,19+HCP
+1C--,1S,5!H's
+1C--1S--,1N,11-14; <3!H
+1C--1S--,2C,11-15; <3!H
+1C--1S--,2D,Reverse; 16+HCP; <3!H
+1C--1S--2D--,2N,Lebensohl; puppet to 3!C
+1C--1S--2D--2N--,3C,16-18 HCP
+1C--1S--2D--2N--3C--,3D,Weak
+1C--1S--2D--2N--3C--,--,Weak with !C
+1C--1S--2D--2N--,3D,19+HCP
+1C--1S--2D--2N--,3N,19+HCP
+1C--1S--,2H,11-14
+1C--1S--,2N,18-19; <3!H
+1C--1S--,3C,16-19; <3!H
+1C--1S--,3H,18-19
+1C--,2C,Inverted
+1C--2C--,2D,11-14 bal
+1C--2C--,2H,!H stop; GF
+1C--2C--,2N,1430 (3+!Cs) (18-19 bal)
+1C--2C--,2S,!S stop; GF
+1C--2C--,3C,15-17
+1C--,2D,3-10 HCP
+1C--2D--,2N,18-19 HCP
+1C--2D--2N--,3N,7-10 HCP
+1C--2D--,--,11-14 HCP
+1C--,2H,13+HCP
+1C--2H--,2N,18-19 HCP; no !H support
+1C--2H--,2S,Cue
+1C--2H--2S--,3N,1430
+1C--2H--,3C,11-14 HCP
+1C--2H--,3D,Cue
+1C--2H--3D--,3N,1430
+1C--2H--,3H,18-19 HCP
+1C--2H--3H--,3N,1430
+1C--2H--,3N,11-14 HCP; no !H support
+1C--2H--,3S,Splinter; 11-14 HCP
+1C--2H--,4C,Splinter; 11-14 HCP
+1C--2H--,4D,Splinter; 11-14 HCP
+1C--2H--,4H,11-14 HCP
+1C--2H--,4N,1430; no shortage
+1C--2H--,4S,Voidwood 1430; 18-19 HCP
+1C--2H--,5C,Voidwood 1430; 18-19 HCP
+1C--2H--,5D,Voidwood 1430; 18-19 HCP
+1C--,2N,11-12HCP 
+1C--,2S,13+HCP
+1C--2S--,2N,18-19 HCP; no !S support
+1C--2S--,3C,11-14 HCP
+1C--2S--,3D,Cue
+1C--2S--,3H,Cue
+1C--2S--,3N,11-14 HCP; no !S support
+1C--2S--,3S,18-19 HCP
+1C--2S--3S--,3N,1430
+1C--2S--,4C,Splinter; 11-14 HCP
+1C--2S--,4D,Splinter; 11-14 HCP
+1C--2S--,4H,Splinter; 11-14 HCP
+1C--2S--,4S,11-14 HCP
+1C--2S--,5C,Voidwood 1430; 18-19 HCP
+1C--2S--,5D,Voidwood 1430; 18-19 HCP
+1C--2S--,5H,Voidwood 1430; 18-19 HCP
+1C--,3C,Inverted
+1C--,3D,Weak jump shift
+1C--,3H,Weak jump shift
+1C--,3N,13-15 HCP
+1C--,3S,Weak jump shift
+,1D,Rule of 19 applies
+1D--,1H,
+1D--1H--,3D,
+1D--1H--3D--,3S,
+1D--1H--3D--3S--3N--,5H,
+1D--1H--3D--3S--3N--5H--,6D,
+1D--1H--3D--3S--3N--5H--6D--,7D,
+1D--1N--,2H,Reverse; 16+HCP
+1D--1N--2H--,2N,Lebensohl; puppet to 3!C
+1D--1N--2H--2N--,3C,16-18 HCP
+1D--1N--2H--2N--3C--,3D,Weak
+1D--1N--2H--2N--3C--,3H,Weak
+1D--1N--2H--2N--,3D,19+HCP
+1D--1N--2H--2N--,3H,19+HCP
+1D--1N--,2S,Reverse; 16+HCP
+1D--1N--2S--,2N,Lebensohl; puppet to 3!C
+1D--1N--2S--2N--,3C,16-18 HCP
+1D--1N--2S--2N--3C--,3D,Weak
+1D--1N--2S--2N--3C--,3S,Weak
+1D--1N--2S--2N--,3D,19+HCP
+1D--1N--2S--2N--,3N,19+HCP
+1D--1N--2S--2N--,3S,19+HCP
+1D--,1S,
+1D--1S--,2H,Reverse; 16+HCP
+1D--1S--2H--,2N,Lebensohl; puppet to 3!C
+1D--1S--2H--2N--,3C,16-18 HCP
+1D--1S--2H--2N--3C--,3D,Weak
+1D--1S--2H--2N--3C--,3H,Weak
+1D--1S--2H--2N--,3D,19+HCP
+1D--1S--2H--2N--,3H,19+HCP
+1D--1S--2H--2N--,3N,19+HCP
+1D--1S--2H--2N--,3S,Please read chat#19+HCP; asking to choose between 3NT and 4!S
+1D--,2D,Strong - Inverted minor raise
+1D--2D--,2H,11-14 HCP
+1D--2D--2H--,3D,
+1D--2D--,2N,1430 (3+!D) (18-19HCP)
+1D--2D--,2S,!S stop; GF
+1D--2D--,3D,15-17 HCP
+1D--,2N,10-12 balanced
+1D--,3D,Weak - Inverted minor raise
+,1H,Rule of 19 applies
+1H--1N--,2S,Reverse; 16+HCP
+1H--1N--2S--,2N,Lebensohl; puppet to 3!C
+1H--1N--2S--2N--,3C,16-18 HCP
+1H--1N--2S--2N--3C--,3D,Weak
+1H--1N--2S--2N--3C--,3H,Weak
+1H--1N--2S--2N--3C--,3S,Weak
+1H--1N--2S--2N--,3H,19+HCP
+1H--1N--2S--2N--,3N,19+HCP
+1H--1N--2S--2N--,3S,19+HCP
+1H--,1S,6+HCP
+1H--,2H,Limit raise - 5-9 HCP
+1H--2H--,3N,1430
+1H--,2N,Jacoby 2NT (4+!H)
+1H--2N--,3C,Shortage
+1H--2N--,3D,Shortage
+1H--2N--,3H,Good opening values - no shortage
+1H--2N--,3N,RKCB 1403
+1H--2N--3N--,4C,1/4 keycards
+1H--2N--3N--4C--,4H,
+1H--2N--3N--4C--,4N,King ask
+1H--2N--3N--4C--4N--,5C,King !C
+1H--2N--3N--4C--4N--,5D,King !D
+1H--2N--3N--4C--4N--,5H,No Kings
+1H--2N--3N--4C--4N--,5N,Two Kings
+1H--2N--3N--4C--4N--,5S,King !S
+1H--2N--3N--,4D,0/3 keycards
+1H--2N--3N--4D--,4H,
+1H--2N--3N--4D--,4N,King ask
+1H--2N--3N--4D--4N--,5C,King !C
+1H--2N--3N--4D--4N--,5D,King !D
+1H--2N--3N--4D--4N--,5H,No Kings
+1H--2N--3N--4D--4N--,5N,Two kings
+1H--2N--3N--4D--4N--,5S,King !S
+1H--2N--3N--,4H,2/5 keycards without Q!H
+1H--2N--3N--4H--,4N,King ask
+1H--2N--3N--4H--4N--,5C,King !C
+1H--2N--3N--4H--4N--,5D,King !D
+1H--2N--3N--4H--4N--,5H,No Kings
+1H--2N--3N--4H--4N--,5N,Two Kings
+1H--2N--3N--4H--4N--,5S,King !S
+1H--2N--3N--,4S,2/5 keycards with Q!H
+1H--2N--3N--4S--,4N,King Ask
+1H--2N--3N--4S--4N--,5C,King !C
+1H--2N--3N--4S--4N--,5D,King !D
+1H--2N--3N--4S--4N--,5H,No Kings
+1H--2N--3N--4S--4N--,5N,Two Kings
+1H--2N--3N--4S--4N--,5S,King !S
+1H--2N--,3S,Shortage
+1H--2N--,4C,Second suit
+1H--2N--,4D,Second suit
+1H--2N--,4H,Minimum opening values - no shortage
+1H--2N--,4S,Second suit
+1H--2N--,5C,Voidwood 1403 
+1H--2N--,5D,Voidwood 1403
+1H--2N--,5H,Pick a slam
+1H--2N--,5N,Pick a slam
+1H--2N--,5S,Voidwood 1403
+1H--,2S,Intermediate
+1H--,3C,Intermediate
+1H--,3D,Intermediate
+1H--,3H,Invite to game - 10-11 HCP
+1H--3H--,3N,1430
+1H--,3S,Splinter (!h's agreed)
+1H--,4C,Splinter (!H's agreed)
+1H--,4D,Splinter (!H's agreed)
+1H--,4H,<11HCP
+1H--,4N,RKCB 1403
+1H--,4S,Voidwood 1403 (!H's agreed)
+1H--,5C,Voidwood 1403 (!H's agreed)
+1H--,5D,Voidwood 1403 (!H's agreed)
+1N2C,2D,Natural; Weak
+1N2C,2H,Natural; Weak
+1N2C,2N,Lebensohl; puppet to 3!C
+1N2C2N--,3C,Forced
+1N2C2N--3C--,3D,Natural; invite
+1N2C2N--3C--,3H,Natural; invite
+1N2C2N--3C--,3N,To play; !C stopper; no 4 card Major
+1N2C2N--3C--,3S,Natural; invite
+1N2C2N--3C--,--,Weak with !Cs
+1N2C,2S,Natural; Weak
+1N2C,3C,Stayman
+1N2C,3D,Natural; Game Force
+1N2C,3H,Natural; Game Force
+1N2C,3N,Please read chat#To play; denies !c stopper; no 4 card Major
+1N2C,3S,Natural; Game Force
+1N,2C,
+1N2C,Db,Penalty
+1N2D,2H,Natural; Weak
+1N2D,2N,Lebensohl; pupper to 3!C
+1N2D2N--,3C,Forced
+1N2D2N--3C--,3D,Stayman; shows !D stopper
+1N2D2N--3C--,3H,Natural; invite
+1N2D2N--3C--,3N,To play; !d stopper; no 4 card Major
+1N2D2N--3C--,3S,Natural; invite
+1N2D2N--3C--,--,Weak with !Cs
+1N2D,2S,Natural; Weak
+1N2D,3C,Natural; Game Force
+1N2D,3D,Stayman; denies !d stopper
+1N2D,3H,Natural; Game Force
+1N2D,3N,Please read chat#To play; denies !D stopper; no 4 card Major
+1N2D,3S,Natural; Game Force
+1N2D,Db,Penalties
+1N2H,2N,Lebensohl; puppet to 3!c
+1N2H2N--,3C,Forced
+1N2H2N--3C--,3D,Natural; Weak
+1N2H2N--3C--,3H,Stayman; shows !h stopper
+1N2H2N--3C--,3N,To play; !h stopper; no 4 card Major
+1N2H2N--3C--,3S,Natural; Invite
+1N2H2N--3C--,--,Weak with !Cs
+1N2H,2S,Natural; Weak
+1N2H,3C,Natural; Game Force
+1N2H,3D,Natural; Game Force
+1N2H,3H,Stayman; denies !h stopper
+1N2H,3N,Please read chat#To play; denies !H stopper; no 4 card Major
+1N2H,3S,Natural; Game Force
+1N2H,Db,Penalties
+1N2S,2N,Lebensohl; puppet to 3!C
+1N2S2N--,3C,Forced
+1N2S2N--3C--,3D,Natural; Weak
+1N2S2N--3C--,3H,Natural; Weak
+1N2S2N--3C--,3N,To play; !s stopper; no 4 card Major
+1N2S2N--3C--,3S,Stayman; shows !S stopper
+1N2S2N--3C--,--,Weak with !Cs
+1N2S,3C,Natural; Game Force
+1N2S,3D,Natural; Game Force
+1N2S,3H,Natural; Game Force
+1N2S,3N,Please read chat#To play; denies !S stopper; no 4 card Major
+1N2S,3S,Stayman; denies !s stopper
+1N2S,Db,Penalties
+,1N,Please read chat#15-17 (may be 4441); may contain poor 5M or 6m
+1NDb,2C,!C and !D
+1NDb,2D,!D and !H
+1NDb,2H,!H and !S
+1NDb,--,Forces redouble from partner
+1NDb----,Rd,Relay
+1NDb----Rd--,2C,!C and a major
+1NDb----Rd--,2D,!D and !S
+1NDb----Rd--,--,Penalties
+1NDb,Rd,shows a 5 card suit
+1NDbRd--,2C,
+1NDbRd--2C--,2D,
+1NDbRd--2C--,2H,
+1NDbRd--2C--,2S,
+1NDbRd--2C--,--,5!Cs
+1N--,2C,Precision Stayman (non promissory)
+1N--2C--,2D,No 4cm
+1N--2C--,2H,Denies 4!S's
+1N--2C--,2N,EXACTLY 15HCP with 4!H+!S
+1N--2C--2N--,3C,4!H+!S - pick a major
+1N--2C--2N--,3D,4!H
+1N--2C--2N--,3H,4!S
+1N--2C--,2S,Denies 4!h's
+1N--2C--,3C,EXACTLY 16HCP with 4!H+!S
+1N--2C--3C--,3D,4!H
+1N--2C--3C--,3H,4!S
+1N--2C--3C--,4C,4!H+!S - pick a major
+1N--2C--,3D,EXACTLY 17HCP with 4!H+!S
+1N--2C--3D--,3H,4!S
+1N--2C--3D--,3S,4!H
+1N--,2D,!H's
+1N--,2H,!S's
+1N--,2N,!D's
+1N--,2S,!C's
+1N--,3C,Natural - slam try
+1N--,3D,Natural - slam try
+1N--,3H,Natural - slam try
+1N--,3S,Natural - slam try
+,1S,Rule of 19 applies
+1S--,2N,Jacoby 2NT (4+!S)
+1S--2N--,3C,Shortage
+1S--2N--,3D,Shortage
+1S--2N--,3H,Shortage
+1S--2N--,3N,RKCB 1403
+1S--2N--3N--,4C,1/4 Keycards
+1S--2N--3N--4C--,4N,King Ask
+1S--2N--3N--4C--4N--,5C,King !C
+1S--2N--3N--4C--4N--,5D,King !D
+1S--2N--3N--4C--4N--,5H,King !H
+1S--2N--3N--4C--4N--,5N,Two Kings
+1S--2N--3N--4C--4N--,5S,No Kings
+1S--2N--3N--,4D,0/3 Keycards
+1S--2N--3N--4D--,4N,King Ask
+1S--2N--3N--4D--4N--,5C,King !C
+1S--2N--3N--4D--4N--,5D,King !D
+1S--2N--3N--4D--4N--,5H,King !H
+1S--2N--3N--4D--4N--,5N,Two Kings
+1S--2N--3N--4D--4N--,5S,No Kings
+1S--2N--3N--,4H,2/5 keycards without Q!S
+1S--2N--3N--4H--,4N,King Ask
+1S--2N--3N--4H--4N--,5C,King !C
+1S--2N--3N--4H--4N--,5D,King !D
+1S--2N--3N--4H--4N--,5H,King !H
+1S--2N--3N--4H--4N--,5N,Two Kings
+1S--2N--3N--4H--4N--,5S,No Kings
+1S--2N--3N--,4S,2/5 keycards with Q!S
+1S--2N--3N--4S--,4N,King Ask
+1S--2N--3N--4S--4N--,5C,King !C
+1S--2N--3N--4S--4N--,5D,King !D
+1S--2N--3N--4S--4N--,5H,King !H
+1S--2N--3N--4S--4N--,5N,Two Kings
+1S--2N--3N--4S--4N--,5S,No Kings
+1S--2N--,3S,Good opening values - no shortage
+1S--2N--,4C,Second suit
+1S--2N--,4D,Second suit
+1S--2N--,4H,Second suit
+1S--2N--,4S,Minimum opening values - no shortage
+1S--2N--,5C,Voidwood 1403 
+1S--2N--,5D,Voidwood 1403
+1S--2N--,5H,Voidwood 1403
+1S--2N--,5N,Pick a slam
+1S--2N--,5S,Pick a slam
+1S--,2S,Limit raise - 5-9 HCP
+1S--2S--,3N,1430
+1S--,3C,Intermediate
+1S--,3D,Intermediate
+1S--,3H,Intermediate
+1S--,3N,Shows a void
+1S--3N--,4C,
+1S--,3S,Invite to game - 10-11 HCP
+1S--3S--,3N,1430
+1S--,4C,Splinter (!S's agreed)
+1S--,4D,Splinter (!S's agreed)
+1S--,4H,Splinter (!S's agreed)
+1S--,4N,RKCB 1403
+1S--,4S,<11HCP
+1S--,5C,Voidwood 1403 (!H's agreed)
+1S--,5D,Voidwood 1403 (!H's agreed)
+,2C,23+
+,2D,Usually 6 cards but can be 5
+2D--,2N,Stop ask (trial for 3NT)
+,2H,Usually 6 cards but can be 5
+2H--,2N,Ogust; doesn't agree hearts
+2H--2N--,3C,Weak points; Weak suit
+2H--2N--,3D,Weak points; Strong suit
+2H--2N--,3H,Strong points; Weak suit
+2H--2N--,3N,AKQ!H
+2H--2N--,3S,Strong points; Strong suit
+,2N,20-22HCP (May contain a singleton)
+2N--,3C,Puppet Stayman
+2N--3C--,3D,No 5CM but at least one unknown 4CM
+2N--3C--3D--,3H,4!S's
+2N--3C--3D--,3N,No 4CM
+2N--3C--3D--,3S,4!H's
+2N--3C--,3H,
+2N--3C--,3N,No 5 card or 4 card major
+2N--3C--,3S,
+2N--,3D,!H's
+2N--,3H,!S's
+,2S,Usually 6 cards but can be 5
+2S--,2N,Ogust; doesn't agree spades
+2S--2N--,3C,Weak points; Weak suit
+2S--2N--,3D,Weak points; Strong suit
+2S--2N--,3H,Strong points; Weak suit
+2S--2N--,3N,AKQ!S
+2S--2N--,3S,Strong points; Strong suit
+,3C,<11HCP
+,3D,<11HCP
+,3H,<11HCP
+,3N,Gambling (Long; solid minor)
+,3S,<11HCP
+,4C,<11HCP
+,4D,<11HCP
+,4H,<11HCP
+,4N,Please read chat#Strong and unusual hand; asking for specific aces
+,4S,<11HCP
+Option,Opening @1@2
+,1H,
+1H--1N--,2C,
+1H--1N--2C--,2H,5-7
+1H--1N--2C--2H--,3N,1430
+1H--1N--2C--,3H,11-12
+1H--1N--2C--3H--,3N,1430
+1H--1N--,2D,
+1H--1N--2D--,2H,5-7
+1H--1N--2D--2H--,3N,1430
+1H--1N--2D--,3H,11-12
+1H--1N--2D--3H--,3N,1430
+1H--1N--,2H,
+1H--,2C,
+1H--,2D,
+1H--,2H,8-10 HCP
+1H--2H--,3N,1430
+1H--,2N,Jacoby 2NT
+1H--2N--,3C,
+1H--2N--,3D,
+1H--2N--,3H,No 2nd suit/shortage but extra values
+1H--2N--,3N,1430
+1H--2N--,3S,
+1H--2N--,4C,
+1H--2N--,4D,
+1H--2N--,4H,Minimum opening hand
+1H--2N--,4S,
+1H--,3H,11-12 HCP
+1H--3H--,3N,1430
+1H--,3N,13-15 HCP; 3 card support
+,1S,
+1S--1N--,2C,
+1S--1N--2C--,2S,5-7 HCP
+1S--1N--2C--2S--,3N,1430
+1S--1N--2C--,3S,11-12 HCP
+1S--1N--2C--3S--,3N,1430
+1S--1N--,2D,
+1S--1N--2D--,2S,5-7 HCP
+1S--1N--2D--,3S,11-12 HCP
+1S--1N--,2H,
+1S--1N--,2S,
+1S--,2C,
+1S--,2D,
+1S--,2H,
+1S--,2N,Jacoby 2NT
+1S--2N--,3C,
+1S--2N--,3D,
+1S--2N--,3H,
+1S--2N--,3N,1430
+1S--2N--,3S,Please read chat#Extra values but no shortage or 2nd suit
+1S--2N--,4C,
+1S--2N--,4D,
+1S--2N--,4H,
+1S--2N--,4S,Minimum opening hand
+1S--,2S,8-10 HCP
+1S--2S--,3N,1430
+1S--,3S,11-12 HCP
+1S--3S--,3N,1430
+Option
+

@@ -1,0 +1,4548 @@
+BBOalert
+1C,1D,5+!D
+1C,1H,5+!H
+1C,1N,17-24HcP; Semi-balanced + Stop
+1C1N--,2C,0-6HcP; Relay
+1C1N--2C--,2D,17-20HcP; bal
+1C1N--2C--2D--,2H,4+!H
+1C1N--2C--2D--,2N,MAXIMUM
+1C1N--2C--2D--,2S,4+!S; 0-3!H
+1C1N--2C--2D--,--,minimum
+1C1N--2C--,2H,17-20HcP; 5+!H
+1C1N--2C--,2N,21-24HcP; bal
+1C1N--2C--2N--,3C,Stayman
+1C1N--2C--2N--,3D,Trans -> !H
+1C1N--2C--2N--,3H,Trans -> !S
+1C1N--2C--2N--,3N,Signoff
+1C1N--2C--2N--,--,minimum
+1C1N--2C--,2S,17-20HcP; 5+!S
+1C1N--2C--,3C,21-24HcP; 5+!C
+1C1N--2C--,3D,21-24HcP; 5+!D
+1C1N--2C--,3H,21-24HcP; 5+!H
+1C1N--2C--,3S,21-24HcP; 5+!S
+1C1N--2C--,--,17-20HcP; 5+!C
+1C1N--,2D,8+HcP; 5+!D
+1C1N--,2H,8+HcP; 5+!H
+1C1N--,2N,6-7HcP; Semi-balanced
+1C1N--2N--,3C,19+HcP; Puppet-Stayman
+1C1N--2N--3C--,3D,4!H
+1C1N--2N--3C--,3H,4!S
+1C1N--2N--3C--,3N,No 4card MAJOR
+1C1N--2N--,3N,19+HcP; No MAJOR
+1C1N--2N--,--,17-18HcP; Balanced
+1C1N--,2S,8+HcP; 5+!S
+1C1N--,3C,8+HcP; Stayman
+1C1N--3C--,3D,No MAJOR
+1C1N--3C--,3H,4+!H
+1C1N--3C--,3N,4!H + 4!S
+1C1N--3C--,3S,4+!S
+1C1N--,--,0-3HcP; Balanced
+1C,1S,5+!S
+1C,2C,3-suiter; LTC: <5
+1C,2D,5!D + 5!H; LTC: 5-6
+1C,2H,5!H + 5!S; LTC: 5-6
+1C,2N,5-5 unbid; LTC: 5-6
+1C2N--,3D,Relay
+1C2N--3D--,3H,5!H + 5!D 
+1C2N--3D--,3N,5!H + 5!S
+1C2N--3D--,3S,5!S + 5!D
+1C,2S,5!S + 5!D; LTC: 5-6
+1C,3C,3-suiter; 17-18HcP; LTC: 5-6
+1C,3D,Preempt
+1C,3H,Preempt
+1C,3S,Preempt
+1C,4C,Preempt
+1C,4D,Preempt
+1C,4H,Preempt
+1C,4S,Preempt
+Error *001C=NYYYYYY000|,1C,
+1C,Db,Takeout
+1D,1H,5+!H
+1D,1N,17-24HcP; Semi-balanced + Stop
+1D1N--,2C,0-6HcP; Relay
+1D1N--2C--,2D,17-20HcP; bal
+1D1N--2C--2D--,2H,4+!H
+1D1N--2C--2D--,2N,MAXIMUM
+1D1N--2C--2D--,2S,4+!S; 0-3!H
+1D1N--2C--2D--,--,minimum
+1D1N--2C--,2H,17-20HcP; 5+!H
+1D1N--2C--,2N,21-24HcP; bal
+1D1N--2C--2N--,3C,Stayman
+1D1N--2C--2N--,3D,Trans -> !H
+1D1N--2C--2N--,3H,Trans -> !S
+1D1N--2C--2N--,3N,Signoff
+1D1N--2C--2N--,--,minimum
+1D1N--2C--,2S,17-20HcP; 5+!S
+1D1N--2C--,3C,21-24HcP; 5+!C
+1D1N--2C--,3D,21-24HcP; 5+!D
+1D1N--2C--,3H,21-24HcP; 5+!H
+1D1N--2C--,3S,21-24HcP; 5+!S
+1D1N--2C--,--,17-20HcP; 5+!C
+1D1N--,2D,8+HcP; 5+!D
+1D1N--,2H,8+HcP; 5+!H
+1D1N--,2N,6-7HcP; Semi-balanced
+1D1N--2N--,3C,19+HcP; Puppet-Stayman
+1D1N--2N--3C--,3D,4!H
+1D1N--2N--3C--,3H,4!S
+1D1N--2N--3C--,3N,No 4card MAJOR
+1D1N--2N--,3N,19+HcP; No MAJOR
+1D1N--2N--,--,17-18HcP; Balanced
+1D1N--,2S,8+HcP; 5+!S
+1D1N--,3C,8+HcP; Stayman
+1D1N--3C--,3D,No MAJOR
+1D1N--3C--,3H,4+!H
+1D1N--3C--,3N,4!H + 4!S
+1D1N--3C--,3S,4+!S
+1D1N--,--,0-3HcP; Balanced
+1D,1S,5+!S
+1D,2C,5+!C
+1D,2D,3-suiter; LTC: <5
+1D,2H,5!H + 5!S; LTC: 5-6
+1D,2N,5-5 unbid; LTC: 5-6
+1D2N--,3C,Relay
+1D2N--3C--,3D,5!H + 5!S
+1D2N--3C--,3H,5!H + 5!C
+1D2N--3C--,3S,5!S + 5!C
+1D,2S,5!S + 5!C; LTC: 5-6
+1D,3C,5!C + 5!H; LTC: 5-6
+1D,3D,3-suiter; 17-18HcP; LTC: 5-6
+1D,3H,Preempt
+1D,3S,Preempt
+1D,4C,Preempt
+1D,4D,Preempt
+1D,4H,Preempt
+1D,4S,Preempt
+Error *001D=NYYYYYY000|,1D,
+1D,Db,Takeout
+1H,1N,17-24HcP; Semi-balanced + Stop
+1H1N--,2C,0-6HcP; Relay
+1H1N--2C--,2D,17-20HcP; bal
+1H1N--2C--2D--,2H,4+!H
+1H1N--2C--2D--,2N,MAXIMUM
+1H1N--2C--2D--,2S,4+!S; 0-3!H
+1H1N--2C--2D--,--,minimum
+1H1N--2C--,2H,17-20HcP; 5+!H
+1H1N--2C--,2N,21-24HcP; bal
+1H1N--2C--2N--,3C,Stayman
+1H1N--2C--2N--,3D,Trans -> !H
+1H1N--2C--2N--,3H,Trans -> !S
+1H1N--2C--2N--,3N,Signoff
+1H1N--2C--2N--,--,minimum
+1H1N--2C--,2S,17-20HcP; 5+!S
+1H1N--2C--,3C,21-24HcP; 5+!C
+1H1N--2C--,3D,21-24HcP; 5+!D
+1H1N--2C--,3H,21-24HcP; 5+!H
+1H1N--2C--,3S,21-24HcP; 5+!S
+1H1N--2C--,--,17-20HcP; 5+!C
+1H1N--,2D,8+HcP; 5+!D
+1H1N--,2H,8+HcP; 5+!H
+1H1N--,2N,6-7HcP; Semi-balanced
+1H1N--2N--,3C,19+HcP; Puppet-Stayman
+1H1N--2N--3C--,3D,4!H
+1H1N--2N--3C--,3H,4!S
+1H1N--2N--3C--,3N,No 4card MAJOR
+1H1N--2N--,3N,19+HcP; No MAJOR
+1H1N--2N--,--,17-18HcP; Balanced
+1H1N--,2S,8+HcP; 5+!S
+1H1N--,3C,8+HcP; Stayman
+1H1N--3C--,3D,No MAJOR
+1H1N--3C--,3H,4+!H
+1H1N--3C--,3N,4!H + 4!S
+1H1N--3C--,3S,4+!S
+1H1N--,--,0-3HcP; Balanced
+1H,1S,5+!S
+1H,2C,5+!C
+1H,2D,5+!D
+1H,2H,3-suiter; LTC: <5
+1H,2N,5-5 unbid; LTC: 5-6
+1H2N--,3C,Relay
+1H2N--3C--,3D,5!D + 5!C
+1H2N--3C--,3H,5!S + 5!D
+1H2N--3C--,3S,5!S + 5!C
+1H,2S,5!S + 5!C; LTC: 5-6
+1H,3C,5!C + 5!D; LTC: 5-6
+1H,3D,5!D + 5!S; LTC: 5-6
+1H,3H,3-suiter; 17-18HcP; LTC: 5-6
+1H,3S,Preempt
+1H,4C,Preempt
+1H,4D,Preempt
+1H,4S,Preempt
+Error *001H=NYYYYYY000|,1H,
+1H,Db,Takeout
+1N,2C,5+!C
+1N,2D,5+!D
+1N,2H,5+!H
+1N,2N,5-5 non-touching suits
+1N2N--,3C,Relay
+1N2N--3C--,3D,5!D + 5!S
+1N2N--3C--,3H,5!H + 5!C
+1N,2S,5+!S
+1N,3C,5!C + 5!D; LTC:4-5
+1N,3D,5!D + 5!H; LTC:4-5
+1N,3H,5!H + 5!S; LTC:4-5
+1N,3S,5!S + 5!C; LTC:4-5
+1N,Db,17-24HcP;ANY
+1NDb--,2C,0-6HcP; Relay
+1NDb--2C--,2D,17-20HcP; bal
+1NDb--2C--2D--,2H,4+!H
+1NDb--2C--2D--,2N,MAXIMUM
+1NDb--2C--2D--,2S,4+!S; 0-3!H
+1NDb--2C--2D--,--,minimum
+1NDb--2C--,2H,17-20HcP; 5+!H
+1NDb--2C--,2N,21-24HcP; bal
+1NDb--2C--2N--,3C,Stayman
+1NDb--2C--2N--,3D,Trans -> !H
+1NDb--2C--2N--,3H,Trans -> !S
+1NDb--2C--2N--,3N,Signoff
+1NDb--2C--2N--,--,minimum
+1NDb--2C--,2S,17-20HcP; 5+!S
+1NDb--2C--,3C,21-24HcP; 5+!C
+1NDb--2C--,3D,21-24HcP; 5+!D
+1NDb--2C--,3H,21-24HcP; 5+!H
+1NDb--2C--,3S,21-24HcP; 5+!S
+1NDb--2C--,--,17-20HcP; 5+!C
+1NDb--,2D,8+HcP; 5+!D
+1NDb--,2H,8+HcP; 5+!H
+1NDb--,2N,6-7HcP; Semi-balanced
+1NDb--2N--,3C,19+HcP; Puppet-Stayman
+1NDb--2N--3C--,3D,4!H
+1NDb--2N--3C--,3H,4!S
+1NDb--2N--3C--,3N,No 4card MAJOR
+1NDb--2N--,3N,19+HcP; No MAJOR
+1NDb--2N--,--,17-18HcP; Balanced
+1NDb--,2S,8+HcP; 5+!S
+1NDb--,3C,8+HcP; Stayman
+1NDb--3C--,3D,No MAJOR
+1NDb--3C--,3H,4+!H
+1NDb--3C--,3N,4!H + 4!S
+1NDb--3C--,3S,4+!S
+1NDb--,--,0-3HcP; Balanced
+1S,1N,17-24HcP; Semi-balanced + Stop
+1S1N--,2C,0-6HcP; Relay
+1S1N--2C--,2D,17-20HcP; bal
+1S1N--2C--2D--,2H,4+!H
+1S1N--2C--2D--,2N,MAXIMUM
+1S1N--2C--2D--,2S,4+!S; 0-3!H
+1S1N--2C--2D--,--,minimum
+1S1N--2C--,2H,17-20HcP; 5+!H
+1S1N--2C--,2N,21-24HcP; bal
+1S1N--2C--2N--,3C,Stayman
+1S1N--2C--2N--,3D,Trans -> !H
+1S1N--2C--2N--,3H,Trans -> !S
+1S1N--2C--2N--,3N,Signoff
+1S1N--2C--2N--,--,minimum
+1S1N--2C--,2S,17-20HcP; 5+!S
+1S1N--2C--,3C,21-24HcP; 5+!C
+1S1N--2C--,3D,21-24HcP; 5+!D
+1S1N--2C--,3H,21-24HcP; 5+!H
+1S1N--2C--,3S,21-24HcP; 5+!S
+1S1N--2C--,--,17-20HcP; 5+!C
+1S1N--,2D,8+HcP; 5+!D
+1S1N--,2H,8+HcP; 5+!H
+1S1N--,2N,6-7HcP; Semi-balanced
+1S1N--2N--,3C,19+HcP; Puppet-Stayman
+1S1N--2N--3C--,3D,4!H
+1S1N--2N--3C--,3H,4!S
+1S1N--2N--3C--,3N,No 4card MAJOR
+1S1N--2N--,3N,19+HcP; No MAJOR
+1S1N--2N--,--,17-18HcP; Balanced
+1S1N--,2S,8+HcP; 5+!S
+1S1N--,3C,8+HcP; Stayman
+1S1N--3C--,3D,No MAJOR
+1S1N--3C--,3H,4+!H
+1S1N--3C--,3N,4!H + 4!S
+1S1N--3C--,3S,4+!S
+1S1N--,--,0-3HcP; Balanced
+1S,2C,5+!C
+1S,2D,5+!D
+1S,2H,5+!H
+1S,2N,5-5 unbid; LTC: 5-6
+1S2N--,3C,Relay
+1S2N--3C--,3D,5!D + 5!H
+1S2N--3C--,3H,5!H + 5!C
+1S2N--3C--,3S,5!C + 5!D
+1S,2S,3-suiter; LTC: <5
+1S,3C,5!C + 5!D; LTC: 5-6
+1S,3D,5!D + 5!H; LTC: 5-6
+1S,3H,5!H + 5!C; LTC: 5-6
+1S,3S,Preempt
+1S,4C,Preempt
+1S,4D,Preempt
+1S,4S,Preempt
+Error *001S=NYYYYYY000|,1S,
+1S,Db,Takeout
+2C,2D,6+!D
+2C,2H,6+!H
+2C,2N,17+HcP + Stop
+2C2N--,3C,Relay
+2C2N--3C--,3D,17-20HcP; bal  or  !C or !D
+2C2N--3C--,3H,17-20HcP; unbal; 5+!H
+2C2N--3C--,3N,21+HcP; Balanced
+2C2N--3C--,3S,17-20HcP; unbal; 5+!S
+2C2N--3C--,4C,21+HcP; 5+!C
+2C2N--3C--,4D,21+HcP; 5+!D
+2C2N--3C--,4H,21+HcP; 5+!H
+2C2N--3C--,4S,21+HcP; 5+!S
+2C2N--,3D,8+HcP; 5+!D
+2C2N--,3H,8+HcP; 5+!H
+2C2N--,3N,8-10HcP; Balanced
+2C2N--,3S,8+HcP; 5+!S
+2C2N--,--,0-2HcP
+2C,2S,6+!S
+2C,3C,3-suiter; LTC: 6-7
+2C,3D,5!D + 5!H; LTC: 5-6
+2C,3H,5!H + 5!S; LTC: 5-6
+2C,3N,Signoff
+2C,3S,5!S + 5!D; LTC: 5-6
+2C,4H,Signoff
+2C,4S,Signoff
+Error *002C=NYYYYYY000|,2C,
+2C,Db,13-16HcP; Takeout. 0-2!C
+2CDb--,2D,4+!D
+2CDb--,2H,4+!H
+2CDb--,2N,Balanced + Stop
+2CDb--,2S,4+!S
+2CDb--,3C,2-suiter
+2CDb--3C--,3D,ASK MAJOR
+2CDb--3C--3D--,3H,5+!H
+2CDb--3C--3D--,3S,5+!S
+2CDb--,3H,(5)6+!H
+2CDb--,3N,Signoff
+2CDb--,3S,(5)6+!S
+2CDb--,4D,6+!D
+2CDb--,4H,Signoff
+2CDb--,4S,Signoff
+2CDb--,5D,6+!D
+2D,2H,6+!H
+2D,2N,17+HcP + Stop
+2D2N--,3C,Relay
+2D2N--3C--,3D,17-20HcP; bal  or  !C or !D
+2D2N--3C--,3H,17-20HcP; unbal; 5+!H
+2D2N--3C--,3N,21+HcP; Balanced
+2D2N--3C--,3S,17-20HcP; unbal; 5+!S
+2D2N--3C--,4C,21+HcP; 5+!C
+2D2N--3C--,4D,21+HcP; 5+!D
+2D2N--3C--,4H,21+HcP; 5+!H
+2D2N--3C--,4S,21+HcP; 5+!S
+2D2N--,3D,8+HcP; 5+!D
+2D2N--,3H,8+HcP; 5+!H
+2D2N--,3N,8-10HcP; Balanced
+2D2N--,3S,8+HcP; 5+!S
+2D2N--,--,0-2HcP
+2D,2S,6+!S
+2D,3C,6+!C
+2D,3D,3-suiter
+2D,3H,5!H + 5!S; LTC: 5-6
+2D,3N,Signoff
+2D,3S,5!S + 5!C; LTC: 5-6
+2D,4C,5!C + 5!H; LTC: 5-6
+2D,4H,Signoff
+2D,4S,Signoff
+2D,Db,13-16HcP; Takeout; 0-2!D
+2DDb--,2H,4+!H
+2DDb--,2S,4+!S
+2DDb--,3C,4+!C
+2DDb--,3D,2-suiter
+2DDb--3D--,3H,Pass/correct
+2DDb--3D--,3N,4!H + 4!S
+2DDb--3D--,3S,3!H + 3!S
+2DDb--,3N,Signoff
+2DDb--,4H,Signoff
+2DDb--,4S,Signoff
+2DDb--,5C,Signoff
+2H,2N,17+HcP + Stop
+2H2N--,3C,Relay
+2H2N--3C--,3D,17-20HcP; bal  or  !C or !D
+2H2N--3C--,3H,17-20HcP; unbal; 5+!H
+2H2N--3C--,3N,21+HcP; Balanced
+2H2N--3C--,3S,17-20HcP; unbal; 5+!S
+2H2N--3C--,4C,21+HcP; 5+!C
+2H2N--3C--,4D,21+HcP; 5+!D
+2H2N--3C--,4H,21+HcP; 5+!H
+2H2N--3C--,4S,21+HcP; 5+!S
+2H2N--,3D,8+HcP; 5+!D
+2H2N--,3H,8+HcP; 5+!H
+2H2N--,3N,8-10HcP; Balanced
+2H2N--,3S,8+HcP; 5+!S
+2H2N--,--,0-2HcP
+2H,2S,6+!S
+2H,3C,6+!C
+2H,3D,6+!D
+2H,3H,3-suiter; LTC: <5
+2H,3N,Signoff
+2H,3S,5!S + 5!C; LTC: 5-6
+2H,4C,5!C + 5!D; LTC: 5-6
+2H,4D,5!D + 5!S; LTC: 5-6
+2H,4S,Signoff
+2H,5C,Signoff
+2H,5D,Signoff
+Error *002H=NYYYYYY000|,2H,
+2H,Db,13-16HcP; Takeout; 0-2!H
+2HDb--,2N,Balanced + Stop
+2HDb--,2S,4+!S
+2HDb--,3C,4+!C
+2HDb--,3D,4+!D
+2HDb--,3H,2-suiter
+2HDb--3H--,3N,5!C + 5!D
+2HDb--3H--,3S,Pass/correct
+2HDb--,3N,Signoff
+2HDb--,4S,Signoff
+2HDb--,5C,Signoff
+2HDb--,5D,Signoff
+2S,2N,17+HcP + Stop
+2S2N--,3C,Relay
+2S2N--3C--,3D,17-20HcP; bal  or  !C or !D
+2S2N--3C--,3H,17-20HcP; unbal; 5+!H
+2S2N--3C--,3N,21+HcP; Balanced
+2S2N--3C--,3S,17-20HcP; unbal; 5+!S
+2S2N--3C--,4C,21+HcP; 5+!C
+2S2N--3C--,4D,21+HcP; 5+!D
+2S2N--3C--,4H,21+HcP; 5+!H
+2S2N--3C--,4S,21+HcP; 5+!S
+2S2N--,3D,8+HcP; 5+!D
+2S2N--,3H,8+HcP; 5+!H
+2S2N--,3N,8-10HcP; Balanced
+2S2N--,3S,8+HcP; 5+!S
+2S2N--,--,0-2HcP
+2S,3C,6+!C
+2S,3D,6+!D
+2S,3H,6+!H
+2S,3N,Signoff
+2S,3S,3-suiter
+2S,4C,5!C + 5!D; LTC: 5-6
+2S,4D,5!D + 5!H; LTC: 5-6
+2S,4H,5!H + 5!C; LTC: 5-6
+2S,5C,Signoff
+2S,5D,Signoff
+Error *002S=NYYYYYY000|,2S,
+2S,Db,13-16HcP; Takeout; 0-2!S
+2SDb--,2N,Balanced + Stop
+2SDb--,3C,4+!C
+2SDb--,3D,4+!D
+2SDb--,3H,4+!H
+2SDb--,3N,Signoff
+2SDb--,3S,2-suiter
+2SDb--3S--,3N,3+!H
+2SDb--3S--,4C,Pass/correct
+2SDb--,4H,Signoff
+2SDb--,5C,Signoff
+2SDb--,5D,Signoff
+3C,3D,Solid 6+!D; 6-7 tricks
+3C,3H,Solid 6+!H; 6-7 tricks
+3C,3N,19-23HcP or 7 tricks + Stop
+3C,3S,Solid 6+!S; 6-7 tricks
+3C,4C,3-suiter
+3C,4H,Signoff
+3C,4S,Signoff
+3C,5D,Signoff
+Error *003C=NYYYYYY000|,3C,
+3C,Db,14-18HcP; Takeout; 0-2!C
+3CDb--,3D,4+!D
+3CDb--,3H,4+!H
+3CDb--,3N,Signoff
+3CDb--,3S,4+!S
+3CDb--,4H,Signoff
+3CDb--,4S,Signoff
+3CDb--,5D,Signoff
+3D,3H,Solid 6+!H; 6-7 tricks; NF
+3D,3N,19-23HcP or 7 tricks + Stop
+3D,3S,Solid 6+!S; 6-7 tricks; NF
+3D,4C,Solid 6+!D; 6-7 tricks; NF
+3D,4D,3-suiter; LTC: <5
+3D,4H,Signoff
+3D,4S,Signoff
+3D,5C,Signoff
+Error *003D=NYYYYYY000|,3D,
+3D,Db,14-18HcP; Takeout; 0-2!D
+3DDb--,3H,4+!H
+3DDb--,3N,Signoff
+3DDb--,3S,4+!S
+3DDb--,4C,4+!C
+3DDb--,4H,Signoff
+3DDb--,4S,Signoff
+3DDb--,5C,Signoff
+3H,3N,19-23HcP or 7 tricks + Stop
+3H,3S,Solid 6+!S; 6-7 tricks; NF
+3H,4C,Solid 6+!C; 6-7 tricks; NF
+3H,4D,Solid 6+!D; 6-7 tricks; NF
+3H,4H,3-suiter; LTC: <5
+3H,4S,Signoff
+3H,5C,Signoff
+3H,5D,Signoff
+Error *003H=NYYYYYY000|,3H,
+3H,Db,14-18HcP; Takeout; 0-2!H
+3HDb--,3N,Signoff
+3HDb--,3S,4+!S
+3HDb--,4C,4+!C
+3HDb--,4D,4+!D
+3HDb--,4S,Signoff
+3HDb--,5C,Signoff
+3HDb--,5D,Signoff
+3S,3N,19-23HcP or 7 tricks + Stop
+3S,4C,Solid 6+!C; 6-7 tricks; NF
+3S,4D,Solid 6+!D; 6-7 tricks; NF
+3S,4H,Signoff
+3S,4S,3-suiter; LTC: <5
+3S,5C,Signoff
+3S,5D,Signoff
+Error *003S=NYYYYYY000|,3S,
+3S,Db,14-18HcP; Takeout; 0-2!S
+3SDb--,3N,Signoff
+3SDb--,4C,4+!C
+3SDb--,4D,4+!D
+3SDb--,4H,4-6!H; Signoff
+3SDb--,5C,Signoff
+3SDb--,5D,Signoff
+Error *00{Roman Club}=NYYYYYY----------------   CanapeŽ bidding style  -------------- 1!C=Multi Medium/strong, 1NT=17-20HcP,bal 1!D!H!S=12-25HcP,4+cards                                 --------------------  CONVENTIONS  ------------------- Stayman, Gladiator, Baron                               -------------------   ASKING/SLAM   --------------------  CAB, BETA, GAMMA, Roman Blackwood 03/14  --------------   www.bridgeFILES.net   ----------------|,Rd,Please read chat#----------------   CanapeŽ bidding style  -------------- 1!C
+1C1D,1H,9-11cP; 4+!H
+1C1D,1N,Stopper OK
+1C1D,1S,9-11HcP; 4+!S
+1C1D,2C,9-11cP; 4+!C
+1C1D,2D,12+HcP; bal. No stop
+1C1D,2H,10+HcP; 5+!H
+1C1D,2S,10+HcP; 5+!S
+1C1D,3C,10+HcP; 5+!C
+1C1D,Db,Penalty
+1C1D,--,0-7HcP
+1C1H,1N,Stopper OK
+1C1H,1S,9-11HcP; 4+!S
+1C1H,2C,9-11cP; 4+!C
+1C1H,2D,9-11cP;4+!D
+1C1H,2H,12+HcP; bal. No stop
+1C1H,2S,10+HcP; 5+!S
+1C1H,3C,10+HcP; 5+!C
+1C1H,3D,10+HcP; 5+!D
+1C1H,Db,Penalty
+1C1H,--,0-7HcP
+1C1N,2C,9-11cP; 4+!C
+1C1N,2D,9-11cP; 4+!D
+1C1N,2H,9-11cP; 4+!H
+1C1N,2S,9-11cP; 4+!S
+1C1N,3C,10+HcP; 5+!C
+1C1N,3D,10+HcP; 5+!D
+1C1N,3H,10+HcP; 5+!H
+1C1N,3S,10+HcP; 5+!S
+1C1N,Db,Penalty
+1C1N,--,0-7HcP
+1C1S,1N,Stopper OK
+1C1S,2C,9-11cP; 4+!C
+1C1S,2D,9-11cP; 4+!D
+1C1S,2H,9-11cP; 4+!H
+1C1S,2S,12+HcP; bal. No stop
+1C1S,3C,10+HcP; 5+!C
+1C1S,3D,10+HcP; 5+!D
+1C1S,3H,10+HcP; 5+!H
+1C1S,Db,Penalty
+1C1S,--,0-7HcP
+1C2C,2D,9-11cP; 4+!D
+1C2C,2H,9-11cP; 4+!H
+1C2C,2S,9-11cP; 4+!S
+1C2C,3C,12+HcP; bal. No stop
+1C2C,3D,10+HcP; 5+!D
+1C2C,3H,10+HcP; 5+!H
+1C2C,3S,10+HcP; 5+!S
+1C2C,Db,Penalty
+1C2C,--,0-7HcP
+,1C,Please read chat#Multi: *12-16HcP;bal  *21-26HcP;bal  *Powerful 2-suiter 
+1CDb,1D,5-9HcP; 4+!D
+1CDb,1H,4+!H
+1CDb,1S,4+!S
+1CDb,--,3+!C
+1CDb,Rd,0-5HcP; 1-2!C
+1C--,1D,0-7HcP; ANY
+1C--1D--,1H,3+!H
+1C--1D--1H--,1S,4+!S
+1C--1D--1H--,2H,4+!H
+1C--1D--,1N,15-16HcP; 4!C + 4!D
+1C--1D--,1S,4!S; 0-2!H
+1C--1D--,2H,22+HcP; 5+!H; 2-suiter. BETA
+1C--1D--2H--,2N,0-1!H 
+1C--1D--2H--2N--,3C,CAB
+1C--1D--2H--2N--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--2N--3C--,3H,Singleton
+1C--1D--2H--2N--3C--,3N,King
+1C--1D--2H--2N--3C--,3S,Void
+1C--1D--2H--2N--3C--,4C,Ace
+1C--1D--2H--2N--,3D,CAB
+1C--1D--2H--2N--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--2N--3D--,3N,Void
+1C--1D--2H--2N--3D--,3S,Singleton
+1C--1D--2H--2N--3D--,4C,King
+1C--1D--2H--2N--3D--,4D,Ace
+1C--1D--2H--2N--,3N,Signoff
+1C--1D--2H--2N--,3S,BETA for !S
+1C--1D--2H--2N--,4H,Signoff
+1C--1D--2H--,2S,2-3!H; No Honor
+1C--1D--2H--2S--,3C,CAB
+1C--1D--2H--2S--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--2S--3C--,3H,Singleton
+1C--1D--2H--2S--3C--,3N,King
+1C--1D--2H--2S--3C--,3S,Void
+1C--1D--2H--2S--3C--,4C,Ace
+1C--1D--2H--2S--,3D,CAB
+1C--1D--2H--2S--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--2S--3D--,3N,Void
+1C--1D--2H--2S--3D--,3S,Singleton
+1C--1D--2H--2S--3D--,4C,King
+1C--1D--2H--2S--3D--,4D,Ace
+1C--1D--2H--2S--,3N,Signoff
+1C--1D--2H--2S--,3S,BETA for !S
+1C--1D--2H--2S--,4H,Signoff
+1C--1D--2H--,3C,1-2!H headed by Ace; King or Queen
+1C--1D--2H--3C--,3D,CAB
+1C--1D--2H--3C--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--3C--3D--,3N,Void
+1C--1D--2H--3C--3D--,3S,Singleton
+1C--1D--2H--3C--3D--,4C,King
+1C--1D--2H--3C--3D--,4D,Ace
+1C--1D--2H--3C--,3N,Signoff
+1C--1D--2H--3C--,3S,BETA for !S
+1C--1D--2H--3C--,4C,CAB
+1C--1D--2H--3C--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--3C--4C--,4H,Singleton
+1C--1D--2H--3C--4C--,4N,King
+1C--1D--2H--3C--4C--,4S,Void
+1C--1D--2H--3C--4C--,5C,Ace
+1C--1D--2H--3C--,4H,Signoff
+1C--1D--2H--,3D,3!H headed by Ace; King or Queen
+1C--1D--2H--3D--,3N,Signoff
+1C--1D--2H--3D--,3S,BETA for !S
+1C--1D--2H--3D--,4C,CAB
+1C--1D--2H--3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--3D--4C--,4H,Singleton
+1C--1D--2H--3D--4C--,4N,King
+1C--1D--2H--3D--4C--,4S,Void
+1C--1D--2H--3D--4C--,5C,Ace
+1C--1D--2H--3D--,4D,CAB
+1C--1D--2H--3D--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2H--3D--4D--,4N,Void
+1C--1D--2H--3D--4D--,4S,Singleton
+1C--1D--2H--3D--4D--,5C,King
+1C--1D--2H--3D--4D--,5D,Ace
+1C--1D--2H--3D--,4H,Signoff
+1C--1D--2H--,3H,4!H; No Honor
+1C--1D--2H--,3N,2+!H headed by 2 Honors
+1C--1D--2H--,3S,4!H headed by Ace; King or Queen
+1C--1D--2H--,4C,4!H headed by 2 of 3 top-honors
+1C--1D--2H--,4D,3+!H; 3 top-honors
+1C--1D--,2N,21-23HcP; bal
+1C--1D--2N--,3C,4-8HcP; Stayman
+1C--1D--2N--3C--,3D,No 4 card MAJOR
+1C--1D--2N--3C--,3H,4!H; 2-3!S
+1C--1D--2N--3C--,3N,4!H + 4!S
+1C--1D--2N--3C--3N--,4D,Trans -> !H
+1C--1D--2N--3C--3N--,4H,Trans -> !S
+1C--1D--2N--3C--,3S,4!S; 2-3!H
+1C--1D--2N--,3D,0-3HcP; Trans -> !H
+1C--1D--2N--,3H,0-3HcP; Trans -> !S
+1C--1D--2N--,3N,4-8HcP; bal. Signoff
+1C--1D--2N--,3S,0-3HcP; Minor Signoff
+1C--1D--2N--3S--,4C,Pass/correct
+1C--1D--2N--3S--,4D,Pass/correct
+1C--1D--2N--,4C,Trans -> !H
+1C--1D--2N--,4D,Trans -> !S
+1C--1D--2N--,4H,Trans -> !C
+1C--1D--2N--,4S,Trans -> !D
+1C--1D--2N--,--,0-3HcP; bal
+1C--1D--,2S,22+HcP; 5+!S; 2-suiter. BETA
+1C--1D--2S--,2N,2-3!S; No honor
+1C--1D--2S--2N--,3C,CAB
+1C--1D--2S--2N--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--2N--3C--,3H,Singleton
+1C--1D--2S--2N--3C--,3N,King
+1C--1D--2S--2N--3C--,3S,Void
+1C--1D--2S--2N--3C--,4C,Ace
+1C--1D--2S--2N--,3D,CAB
+1C--1D--2S--2N--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--2N--3D--,3N,Void
+1C--1D--2S--2N--3D--,3S,Singleton
+1C--1D--2S--2N--3D--,4C,King
+1C--1D--2S--2N--3D--,4D,Ace
+1C--1D--2S--2N--,3H,CAB
+1C--1D--2S--2N--3H--,3N,Singleton
+1C--1D--2S--2N--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--2N--3H--,4C,Void
+1C--1D--2S--2N--3H--,4D,King
+1C--1D--2S--2N--3H--,4H,Ace
+1C--1D--2S--2N--,3N,Signoff
+1C--1D--2S--2N--,4S,Signoff
+1C--1D--2S--,3C,0-1!S
+1C--1D--2S--3C--,3D,CAB
+1C--1D--2S--3C--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3C--3D--,3N,Void
+1C--1D--2S--3C--3D--,3S,Singleton
+1C--1D--2S--3C--3D--,4C,King
+1C--1D--2S--3C--3D--,4D,Ace
+1C--1D--2S--3C--,3H,CAB
+1C--1D--2S--3C--3H--,3N,Singleton
+1C--1D--2S--3C--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3C--3H--,4C,Void
+1C--1D--2S--3C--3H--,4D,King
+1C--1D--2S--3C--3H--,4H,Ace
+1C--1D--2S--3C--,3N,Signoff
+1C--1D--2S--3C--,4C,CAB
+1C--1D--2S--3C--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3C--4C--,4H,Singleton
+1C--1D--2S--3C--4C--,4N,King
+1C--1D--2S--3C--4C--,4S,Void
+1C--1D--2S--3C--4C--,5C,Ace
+1C--1D--2S--3C--,4S,Signoff
+1C--1D--2S--,3D,1-2!S headed by Ace; King or Queen
+1C--1D--2S--3D--,3H,CAB
+1C--1D--2S--3D--3H--,3N,Singleton
+1C--1D--2S--3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3D--3H--,4C,Void
+1C--1D--2S--3D--3H--,4D,King
+1C--1D--2S--3D--3H--,4H,Ace
+1C--1D--2S--3D--,3N,Signoff
+1C--1D--2S--3D--,4C,CAB
+1C--1D--2S--3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3D--4C--,4H,Singleton
+1C--1D--2S--3D--4C--,4N,King
+1C--1D--2S--3D--4C--,4S,Void
+1C--1D--2S--3D--4C--,5C,Ace
+1C--1D--2S--3D--,4D,CAB
+1C--1D--2S--3D--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3D--4D--,4N,Void
+1C--1D--2S--3D--4D--,4S,Singleton
+1C--1D--2S--3D--4D--,5C,King
+1C--1D--2S--3D--4D--,5D,Ace
+1C--1D--2S--3D--,4S,Signoff
+1C--1D--2S--,3H,3!S headed by Ace; King or Queen
+1C--1D--2S--3H--,3N,Signoff
+1C--1D--2S--3H--,4C,CAB
+1C--1D--2S--3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3H--4C--,4H,Singleton
+1C--1D--2S--3H--4C--,4N,King
+1C--1D--2S--3H--4C--,4S,Void
+1C--1D--2S--3H--4C--,5C,Ace
+1C--1D--2S--3H--,4D,CAB
+1C--1D--2S--3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3H--4D--,4N,Void
+1C--1D--2S--3H--4D--,4S,Singleton
+1C--1D--2S--3H--4D--,5C,King
+1C--1D--2S--3H--4D--,5D,Ace
+1C--1D--2S--3H--,4H,CAB
+1C--1D--2S--3H--4H--,4N,Singleton
+1C--1D--2S--3H--4H--,4S,Please read chat#No control (No Ace; King; void or singleton)
+1C--1D--2S--3H--4H--,5C,Void
+1C--1D--2S--3H--4H--,5D,King
+1C--1D--2S--3H--4H--,5H,Ace
+1C--1D--2S--3H--,4S,Signoff
+1C--1D--2S--,3N,4!S headed by Ace; King or Queen
+1C--1D--2S--,3S,4!S; No honor
+1C--1D--2S--,4C,2+!S; 2 top-honors
+1C--1D--2S--,4D,4!S; 2 or 3 top-honors
+1C--1D--2S--,4H,3+!S; 3 top-honors
+1C--1D--,3C,22+HcP; 5+!H; 2-suiter. BETA
+1C--1D--,3D,22+HcP; 5+!D; 2-suiter. BETA
+1C--1D--,3N,24-26HcP; bal
+1C--1D--3N--,4C,Stayman
+1C--1D--3N--4C--,4D,No 4 card MAJOR
+1C--1D--3N--4C--,4H,4!H; 2-3!S
+1C--1D--3N--4C--,4N,4!H + 4!S
+1C--1D--3N--4C--4N--,5D,Trans -> !H
+1C--1D--3N--4C--4N--,5H,Trans -> !S
+1C--1D--3N--4C--,4S,4!S; 2-3!H
+1C--1D--3N--,4D,Trans -> !H
+1C--1D--3N--,4H,Trans -> !S
+1C--1D--3N--,4N,Trans -> !D
+1C--1D--3N--,4S,Trans -> !C
+1C--1D--3N--,--,To play
+1C--,1H,8-11HcP; 4+!H; Round
+1C--1H--,1N,12-14HcP; bal. 2!H
+1C--1H--1N--,2H,6+!H; Signoff
+1C--1H--,1S,15-16HcP; 4!S
+1C--1H--,2C,15-16HcP; 4!C
+1C--1H--,2D,15-16HcP; 4!D
+1C--1H--,2H,12-14HcP; (3)4!H
+1C--1H--,2N,21-26HcP; bal
+1C--1H--2N--,3C,Stayman
+1C--1H--2N--3C--,3D,No 4 card MAJOR
+1C--1H--2N--3C--,3H,4!H; 2-3!S
+1C--1H--2N--3C--,3N,4!H + 4!S
+1C--1H--2N--3C--,3S,4!S; 2-3!H
+1C--1H--2N--,3D,ASK support
+1C--1H--2N--3D--,3H,minimum;poor support
+1C--1H--2N--3D--,3N,MAXIMUM;poor support
+1C--1H--2N--3D--,3S,minimum;good support
+1C--1H--2N--3D--,4C,MAXIMUM;good support
+1C--1H--2N--,3H,ASK support
+1C--1H--2N--3H--,3N,minimum;good support
+1C--1H--2N--3H--,3S,minimum;poor support
+1C--1H--2N--3H--,4C,MAXIMUM;poor support
+1C--1H--2N--3H--,4D,MAXIMUM;good support
+1C--1H--2N--,3N,Signoff
+1C--1H--2N--,3S,ASK support
+1C--1H--2N--3S--,3N,minimum;poor support
+1C--1H--2N--3S--,4C,minimum;good support
+1C--1H--2N--3S--,4D,MAXIMUM;poor support
+1C--1H--2N--3S--,4H,MAXIMUM;good support
+1C--1H--2N--,4C,ASK support
+1C--1H--2N--4C--,4D,minimum;poor support
+1C--1H--2N--4C--,4H,minimum;good support
+1C--1H--2N--4C--,4N,MAXIMUM;good support
+1C--1H--2N--4C--,4S,MAXIMUM;poor support
+1C--1H--2N--,4H,Signoff
+1C--1H--,3H,GAMMA
+1C--1H--3H--,3N,King
+1C--1H--3H--,3S,Queen or less
+1C--1H--3H--,4C,Ace
+1C--1H--3H--,4D,2 Top Honors
+1C--1H--3H--,4H,3 Top Honors
+1C--,1N,12-15HcP; semi-bal
+1C--1N--,2C,12-14HcP; 4!C
+1C--1N--2C--,2N,12HcP
+1C--1N--2C--,3N,Signoff
+1C--1N--,2D,12-14HcP; 4!D
+1C--1N--2D--,2N,12HcP
+1C--1N--2D--,3N,Signoff
+1C--1N--,2H,12-14HcP; 4!H
+1C--1N--2H--,2N,12HcP
+1C--1N--2H--,3N,Signoff
+1C--1N--,2N,15-16HcP; bal
+1C--1N--2N--,3C,Stayman
+1C--1N--2N--3C--,3D,No 4 card MAJOR
+1C--1N--2N--3C--,3H,4!H; 2-3!S
+1C--1N--2N--3C--,3N,4!H + 4!S
+1C--1N--2N--3C--3N--,4H,Signoff
+1C--1N--2N--3C--3N--,4S,Signoff
+1C--1N--2N--3C--,3S,4!S; 2-3!H
+1C--1N--2N--,3D,4+!D
+1C--1N--2N--,3H,4+!H
+1C--1N--2N--,3N,Signoff
+1C--1N--2N--,3S,4+!S
+1C--1N--2N--,4C,4+!C
+1C--1N--,2S,12-14HcP; 4!S
+1C--1N--2S--,2N,12HcP
+1C--1N--2S--,3N,Signoff
+1C--1N--,3N,21-26HcP; bal
+1C--1N--3N--,4C,Stayman
+1C--1N--3N--4C--,4D,No 4 card MAJOR
+1C--1N--3N--4C--,4H,4!H; 2-3!S
+1C--1N--3N--4C--,4N,4!H + 4!S
+1C--1N--3N--4C--4N--,5D,Trans -> !H
+1C--1N--3N--4C--4N--,5H,Trans -> !S
+1C--1N--3N--4C--,4S,4!S; 2-3!H
+1C--1N--3N--,4D,ASK support
+1C--1N--3N--4D--,4H,minimum;poor support
+1C--1N--3N--4D--,4N,MAXIMUM;poor support
+1C--1N--3N--4D--,4S,minimum;good support
+1C--1N--3N--4D--,5C,MAXIMUM;good support
+1C--1N--3N--,4H,ASK support
+1C--1N--3N--4H--,4N,minimum;good support
+1C--1N--3N--4H--,4S,minimum;poor support
+1C--1N--3N--4H--,5C,MAXIMUM;poor support
+1C--1N--3N--4H--,5D,MAXIMUM;good support
+1C--1N--3N--,4S,ASK support
+1C--1N--3N--4S--,4N,minimum;poor support
+1C--1N--3N--4S--,5C,minimum;good support
+1C--1N--3N--4S--,5D,MAXIMUM;poor support
+1C--1N--3N--4S--,5H,MAXIMUM;good support
+1C--1N--3N--,5C,ASK support
+1C--1N--3N--5C--,5D,minimum;poor support
+1C--1N--3N--5C--,5H,minimum;good support
+1C--1N--3N--5C--,5N,MAXIMUM;good support
+1C--1N--3N--5C--,5S,MAXIMUM;poor support
+1C--,1S,8-11HcP; 4+!S; Round
+1C--1S--,1N,12-14HcP; bal. 2!H
+1C--1S--1N--,2H,6+!H; Signoff
+1C--1S--,2C,15-16HcP; 4!C
+1C--1S--,2D,15-16HcP; 4!D
+1C--1S--,2H,15-16HcP; 4!H
+1C--1S--,2N,21-26HcP; bal
+1C--1S--2N--,3C,Stayman
+1C--1S--2N--3C--,3D,No 4 card MAJOR
+1C--1S--2N--3C--,3H,4!H; 2-3!S
+1C--1S--2N--3C--,3N,4!H + 4!S
+1C--1S--2N--3C--,3S,4!S; 2-3!H
+1C--1S--2N--,3D,ASK support
+1C--1S--2N--3D--,3H,minimum;poor support
+1C--1S--2N--3D--,3N,MAXIMUM;poor support
+1C--1S--2N--3D--,3S,minimum;good support
+1C--1S--2N--3D--,4C,MAXIMUM;good support
+1C--1S--2N--,3H,ASK support
+1C--1S--2N--3H--,3N,minimum;good support
+1C--1S--2N--3H--,3S,minimum;poor support
+1C--1S--2N--3H--,4C,MAXIMUM;poor support
+1C--1S--2N--3H--,4D,MAXIMUM;good support
+1C--1S--2N--,3N,Signoff
+1C--1S--2N--,3S,ASK support
+1C--1S--2N--3S--,3N,minimum;poor support
+1C--1S--2N--3S--,4C,minimum;good support
+1C--1S--2N--3S--,4D,MAXIMUM;poor support
+1C--1S--2N--3S--,4H,MAXIMUM;good support
+1C--1S--2N--,4C,ASK support
+1C--1S--2N--4C--,4D,minimum;poor support
+1C--1S--2N--4C--,4H,minimum;good support
+1C--1S--2N--4C--,4N,MAXIMUM;good support
+1C--1S--2N--4C--,4S,MAXIMUM;poor support
+1C--1S--2N--,4S,Signoff
+1C--1S--,2S,12-14HcP; (3)4!S
+1C--1S--,3S,GAMMA
+1C--1S--3S--,3N,Queen or less
+1C--1S--3S--,4C,King
+1C--1S--3S--,4D,Ace
+1C--1S--3S--,4H,2 top-honors
+1C--1S--3S--,4S,3 top-honors
+1C--,2C,9-11HcP; 5+!C
+1C--2C--,2D,15-16HcP; 4!D
+1C--2C--2D--,2N,12HcP
+1C--2C--2D--,3N,Signoff
+1C--2C--,2H,15-16HcP; 4!H
+1C--2C--2H--,2N,12HcP
+1C--2C--2H--,3N,Signoff
+1C--2C--,2N,15-16HcP; bal
+1C--2C--2N--,3C,Stayman
+1C--2C--2N--3C--,3D,No 4 card MAJOR
+1C--2C--2N--3C--,3H,4!H; 2-3!S
+1C--2C--2N--3C--,3N,4!H + 4!S
+1C--2C--2N--3C--3N--,4H,Signoff
+1C--2C--2N--3C--3N--,4S,Signoff
+1C--2C--2N--3C--,3S,4!S; 2-3!H
+1C--2C--2N--,3D,4+!D
+1C--2C--2N--,3H,4+!H
+1C--2C--2N--,3N,Signoff
+1C--2C--2N--,3S,4+!S
+1C--2C--2N--,4C,4+!C
+1C--2C--,2S,15-16HcP; 4!S
+1C--2C--2S--,2N,12HcP
+1C--2C--2S--,3N,Signoff
+1C--2C--,3C,12-14HcP; 3+!C
+1C--2C--,3N,21-26HcP; bal
+1C--2C--3N--,4C,Stayman
+1C--2C--3N--4C--,4D,No 4 card MAJOR
+1C--2C--3N--4C--,4H,4!H; 2-3!S
+1C--2C--3N--4C--,4N,4!H + 4!S
+1C--2C--3N--4C--4N--,5D,Trans -> !H
+1C--2C--3N--4C--4N--,5H,Trans -> !S
+1C--2C--3N--4C--,4S,4!S; 2-3!H
+1C--2C--3N--,4D,ASK support
+1C--2C--3N--4D--,4H,minimum;poor support
+1C--2C--3N--4D--,4N,MAXIMUM;poor support
+1C--2C--3N--4D--,4S,minimum;good support
+1C--2C--3N--4D--,5C,MAXIMUM;good support
+1C--2C--3N--,4H,ASK support
+1C--2C--3N--4H--,4N,minimum;good support
+1C--2C--3N--4H--,4S,minimum;poor support
+1C--2C--3N--4H--,5C,MAXIMUM;poor support
+1C--2C--3N--4H--,5D,MAXIMUM;good support
+1C--2C--3N--,4S,ASK support
+1C--2C--3N--4S--,4N,minimum;poor support
+1C--2C--3N--4S--,5C,minimum;good support
+1C--2C--3N--4S--,5D,MAXIMUM;poor support
+1C--2C--3N--4S--,5H,MAXIMUM;good support
+1C--2C--3N--,5C,ASK support
+1C--2C--3N--5C--,5D,minimum;poor support
+1C--2C--3N--5C--,5H,minimum;good support
+1C--2C--3N--5C--,5N,MAXIMUM;good support
+1C--2C--3N--5C--,5S,MAXIMUM;poor support
+1C--2C--,4C,GAMMA
+1C--2C--4C--,4D,Queen or less
+1C--2C--4C--,4H,King
+1C--2C--4C--,4N,2 top-honors
+1C--2C--4C--,4S,Ace
+1C--2C--4C--,5C,3 top-honors
+1C--,2D,9-11HcP; 5+!D
+1C--2D--,2H,15-16HcP; 4!H
+1C--2D--2H--,2N,12HcP
+1C--2D--2H--,3N,Signoff
+1C--2D--,2N,15-16HcP; bal
+1C--2D--2N--,3C,Stayman
+1C--2D--2N--3C--,3D,No 4 card MAJOR
+1C--2D--2N--3C--,3H,4!H; 2-3!S
+1C--2D--2N--3C--,3N,4!H + 4!S
+1C--2D--2N--3C--3N--,4H,Signoff
+1C--2D--2N--3C--3N--,4S,Signoff
+1C--2D--2N--3C--,3S,4!S; 2-3!H
+1C--2D--2N--,3D,4+!D
+1C--2D--2N--,3H,4+!H
+1C--2D--2N--,3N,Signoff
+1C--2D--2N--,3S,4+!S
+1C--2D--2N--,4C,4+!C
+1C--2D--,2S,15-16HcP; 4!S
+1C--2D--2S--,2N,12HcP
+1C--2D--2S--,3N,Signoff
+1C--2D--,3D,12-14HcP; 3+!D
+1C--2D--,3N,21-26HcP; bal
+1C--2D--3N--,4C,Stayman
+1C--2D--3N--4C--,4D,No 4 card MAJOR
+1C--2D--3N--4C--,4H,4!H; 2-3!S
+1C--2D--3N--4C--,4N,4!H + 4!S
+1C--2D--3N--4C--4N--,5D,Trans -> !H
+1C--2D--3N--4C--4N--,5H,Trans -> !S
+1C--2D--3N--4C--,4S,4!S; 2-3!H
+1C--2D--3N--,4D,ASK support
+1C--2D--3N--4D--,4H,minimum;poor support
+1C--2D--3N--4D--,4N,MAXIMUM;poor support
+1C--2D--3N--4D--,4S,minimum;good support
+1C--2D--3N--4D--,5C,MAXIMUM;good support
+1C--2D--3N--,4H,ASK support
+1C--2D--3N--4H--,4N,minimum;good support
+1C--2D--3N--4H--,4S,minimum;poor support
+1C--2D--3N--4H--,5C,MAXIMUM;poor support
+1C--2D--3N--4H--,5D,MAXIMUM;good support
+1C--2D--3N--,4S,ASK support
+1C--2D--3N--4S--,4N,minimum;poor support
+1C--2D--3N--4S--,5C,minimum;good support
+1C--2D--3N--4S--,5D,MAXIMUM;poor support
+1C--2D--3N--4S--,5H,MAXIMUM;good support
+1C--2D--3N--,5C,ASK support
+1C--2D--3N--5C--,5D,minimum;poor support
+1C--2D--3N--5C--,5H,minimum;good support
+1C--2D--3N--5C--,5N,MAXIMUM;good support
+1C--2D--3N--5C--,5S,MAXIMUM;poor support
+1C--2D--,4D,GAMMA
+1C--2D--4D--,4H,Queen or less
+1C--2D--4D--,4N,Ace
+1C--2D--4D--,4S,King
+1C--2D--4D--,5C,2 top-honors
+1C--2D--4D--,5D,3 top-honors
+1C--,2H,12+HcP; 5+!H incl. 2 of 3 top-honors
+1C--2H--,2N,minimum;good support
+1C--2H--,2S,minimum;poor support
+1C--2H--,3C,MAXIMUM;poor support
+1C--2H--,3D,MAXIMUM;good support
+1C--2H--,3N,21-26HcP; bal
+1C--2H--3N--,4C,Stayman
+1C--2H--3N--4C--,4D,No 4 card MAJOR
+1C--2H--3N--4C--,4H,4!H; 2-3!S
+1C--2H--3N--4C--,4N,4!H + 4!S
+1C--2H--3N--4C--4N--,5D,Trans -> !H
+1C--2H--3N--4C--4N--,5H,Trans -> !S
+1C--2H--3N--4C--,4S,4!S; 2-3!H
+1C--2H--3N--,4D,ASK support
+1C--2H--3N--4D--,4H,minimum;poor support
+1C--2H--3N--4D--,4N,MAXIMUM;poor support
+1C--2H--3N--4D--,4S,minimum;good support
+1C--2H--3N--4D--,5C,MAXIMUM;good support
+1C--2H--3N--,4H,ASK support
+1C--2H--3N--4H--,4N,minimum;good support
+1C--2H--3N--4H--,4S,minimum;poor support
+1C--2H--3N--4H--,5C,MAXIMUM;poor support
+1C--2H--3N--4H--,5D,MAXIMUM;good support
+1C--2H--3N--,4S,ASK support
+1C--2H--3N--4S--,4N,minimum;poor support
+1C--2H--3N--4S--,5C,minimum;good support
+1C--2H--3N--4S--,5D,MAXIMUM;poor support
+1C--2H--3N--4S--,5H,MAXIMUM;good support
+1C--2H--3N--,5C,ASK support
+1C--2H--3N--5C--,5D,minimum;poor support
+1C--2H--3N--5C--,5H,minimum;good support
+1C--2H--3N--5C--,5N,MAXIMUM;good support
+1C--2H--3N--5C--,5S,MAXIMUM;poor support
+1C--,2N,16+HcP; semi-bal
+1C--2N--,3C,12-13HcP
+1C--2N--3C--,3N,Signoff
+1C--2N--3C--,4C,Baron. Bid 4 card suits up the line 
+1C--2N--3C--4C--,4N,4!C
+1C--2N--,3D,14HcP
+1C--2N--3D--,3N,Signoff
+1C--2N--3D--,4C,Baron. Bid 4 card suits up the line 
+1C--2N--3D--4C--,4N,4!C
+1C--2N--,3H,15HcP
+1C--2N--3H--,4C,Baron. Bid 4 card suits up the line 
+1C--2N--3H--4C--,4N,4!C
+1C--2N--,3S,16HcP
+1C--2N--3S--,4C,Baron. Bid 4 card suits up the line 
+1C--2N--3S--4C--,4N,4!C
+1C--,2S,12+HcP; 5+!S incl. 2 of 3 top-honors
+1C--2S--,2N,minimum;poor support
+1C--2S--,3C,minimum;good support
+1C--2S--,3D,MAXIMUM;poor support
+1C--2S--,3H,MAXIMUM;good support
+1C--2S--,3N,21-26HcP; bal
+1C--2S--3N--,4C,Stayman
+1C--2S--3N--4C--,4D,No 4 card MAJOR
+1C--2S--3N--4C--,4H,4!H; 2-3!S
+1C--2S--3N--4C--,4N,4!H + 4!S
+1C--2S--3N--4C--4N--,5D,Trans -> !H
+1C--2S--3N--4C--4N--,5H,Trans -> !S
+1C--2S--3N--4C--,4S,4!S; 2-3!H
+1C--2S--3N--,4D,ASK support
+1C--2S--3N--4D--,4H,minimum;poor support
+1C--2S--3N--4D--,4N,MAXIMUM;poor support
+1C--2S--3N--4D--,4S,minimum;good support
+1C--2S--3N--4D--,5C,MAXIMUM;good support
+1C--2S--3N--,4H,ASK support
+1C--2S--3N--4H--,4N,minimum;good support
+1C--2S--3N--4H--,4S,minimum;poor support
+1C--2S--3N--4H--,5C,MAXIMUM;poor support
+1C--2S--3N--4H--,5D,MAXIMUM;good support
+1C--2S--3N--,4S,ASK support
+1C--2S--3N--4S--,4N,minimum;poor support
+1C--2S--3N--4S--,5C,minimum;good support
+1C--2S--3N--4S--,5D,MAXIMUM;poor support
+1C--2S--3N--4S--,5H,MAXIMUM;good support
+1C--2S--3N--,5C,ASK support
+1C--2S--3N--5C--,5D,minimum;poor support
+1C--2S--3N--5C--,5H,minimum;good support
+1C--2S--3N--5C--,5N,MAXIMUM;good support
+1C--2S--3N--5C--,5S,MAXIMUM;poor support
+1C--,3C,6+!C; solid
+1C--,3D,6+!D; solid
+1C--,3H,6-7!H; Preempt
+1C--,3S,6-7!S; Preempt
+1C--,4C,6-7!C; Preempt\\
+1C--,4D,6-7!D; Preempt
+1C--,4H,7+!H; semi-solid
+1C--,4S,7+!S; semi-solid
+1D1H,1N,Stopper OK
+1D1H,1S,9-11HcP; 4+!S
+1D1H,2C,9-11cP; 4+!C
+1D1H,2D,4+!D
+1D1H,2H,12+HcP; bal. No stop
+1D1H,2S,10+HcP; 5+!S
+1D1H,3C,10+HcP; 5+!C
+1D1H,3D,10-11cP; 4+!D
+1D1H3D--,3H,5+!H
+1D1H3D--3H--,3N,Singleton
+1D1H3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D1H3D--3H--,4C,Void
+1D1H3D--3H--,4D,King
+1D1H3D--3H--,4H,Ace
+1D1H3D--,3N,17-20HcP; bal
+1D1H3D--,3S,5+!S
+1D1H3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1D1H3D--3S--,4C,Singleton
+1D1H3D--3S--,4D,Void
+1D1H3D--3S--,4H,King
+1D1H3D--3S--,4S,Ace
+1D1H3D--,4C,5+!C
+1D1H3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1D1H3D--4C--,4H,Singleton
+1D1H3D--4C--,4N,King
+1D1H3D--4C--,4S,Void
+1D1H3D--4C--,5C,Ace
+1D1H,Db,Penalty
+1D1H,--,Weak
+1D1N,2C,9-11cP; 4+!C
+1D1N,2D,4+!D
+1D1N,2H,9-11cP; 4+!H
+1D1N,2S,9-11cP; 4+!S
+1D1N,3C,10+HcP; 5+!C
+1D1N,3D,10-11cP; 4+!D
+1D1N3D--,3H,5+!H
+1D1N3D--3H--,3N,Singleton
+1D1N3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D1N3D--3H--,4C,Void
+1D1N3D--3H--,4D,King
+1D1N3D--3H--,4H,Ace
+1D1N3D--,3N,17-20HcP; bal
+1D1N3D--,3S,5+!S
+1D1N3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1D1N3D--3S--,4C,Singleton
+1D1N3D--3S--,4D,Void
+1D1N3D--3S--,4H,King
+1D1N3D--3S--,4S,Ace
+1D1N3D--,4C,5+!C
+1D1N3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1D1N3D--4C--,4H,Singleton
+1D1N3D--4C--,4N,King
+1D1N3D--4C--,4S,Void
+1D1N3D--4C--,5C,Ace
+1D1N,3H,10+HcP; 5+!H
+1D1N,3S,10+HcP; 5+!S
+1D1N,Db,Penalty
+1D1N,--,Weak
+1D1S,1N,Stopper OK
+1D1S,2C,9-11cP; 4+!C
+1D1S,2D,4+!D
+1D1S,2H,9-11cP; 4+!H
+1D1S,2S,12+HcP; bal. No stop
+1D1S,3C,10+HcP; 5+!C
+1D1S,3D,10-11cP; 4+!D
+1D1S3D--,3H,5+!H
+1D1S3D--3H--,3N,Singleton
+1D1S3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D1S3D--3H--,4C,Void
+1D1S3D--3H--,4D,King
+1D1S3D--3H--,4H,Ace
+1D1S3D--,3N,17-20HcP; bal
+1D1S3D--,3S,5+!S
+1D1S3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1D1S3D--3S--,4C,Singleton
+1D1S3D--3S--,4D,Void
+1D1S3D--3S--,4H,King
+1D1S3D--3S--,4S,Ace
+1D1S3D--,4C,5+!C
+1D1S3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1D1S3D--4C--,4H,Singleton
+1D1S3D--4C--,4N,King
+1D1S3D--4C--,4S,Void
+1D1S3D--4C--,5C,Ace
+1D1S,3H,10+HcP; 5+!H
+1D1S,Db,Penalty
+1D1S,--,Weak
+1D2C,2D,4+!D
+1D2C,2H,9-11cP; 4+!H
+1D2C,2N,Stopper OK
+1D2C,2S,9-11cP; 4+!S
+1D2C,3C,12+HcP; bal. No stop
+1D2C,3D,10-11cP; 4+!D
+1D2C3D--,3H,5+!H
+1D2C3D--3H--,3N,Singleton
+1D2C3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D2C3D--3H--,4C,Void
+1D2C3D--3H--,4D,King
+1D2C3D--3H--,4H,Ace
+1D2C3D--,3N,17-20HcP; bal
+1D2C3D--,3S,5+!S
+1D2C3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1D2C3D--3S--,4C,Singleton
+1D2C3D--3S--,4D,Void
+1D2C3D--3S--,4H,King
+1D2C3D--3S--,4S,Ace
+1D2C3D--,4C,5+!C
+1D2C3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1D2C3D--4C--,4H,Singleton
+1D2C3D--4C--,4N,King
+1D2C3D--4C--,4S,Void
+1D2C3D--4C--,5C,Ace
+1D2C,3H,10+HcP; 5+!H
+1D2C,3S,10+HcP; 5+!S
+1D2C,Db,Penalty
+1D2C,--,Weak
+,1D,Please read chat#12-25cP; 4+!D. *1-suiter  *2-suiter. Canape'bidding
+1DDb,1H,9-11cP; 4+!H
+1DDb,1N,12+HcP; bal. No fit
+1DDb,1S,9-11cP; 4+!S
+1DDb,2C,9-11cP; 4+!C
+1DDb,2D,4+!D
+1DDb,2H,9-11cP; 4+!H
+1DDb,2N,16+HcP; bal
+1DDb,2S,12+HcP; 6+!S; Semi-solid
+1DDb2S--,2N,Please read chat#No control (No Ace; King; void or singleton)
+1DDb2S--,3C,Singleton
+1DDb2S--,3D,Void
+1DDb2S--,3H,King
+1DDb2S--,3S,Ace
+1DDb,3C,12+HcP; 6+!C; Semi-solid
+1DDb3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1DDb3C--,3H,Singleton
+1DDb3C--,3N,King
+1DDb3C--,3S,Void
+1DDb3C--,4C,Ace
+1DDb,3D,10-11cP; 4+!D
+1DDb3D--,3H,5+!H
+1DDb3D--3H--,3N,Singleton
+1DDb3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1DDb3D--3H--,4C,Void
+1DDb3D--3H--,4D,King
+1DDb3D--3H--,4H,Ace
+1DDb3D--,3N,17-20HcP; bal
+1DDb3D--,3S,5+!S
+1DDb3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1DDb3D--3S--,4C,Singleton
+1DDb3D--3S--,4D,Void
+1DDb3D--3S--,4H,King
+1DDb3D--3S--,4S,Ace
+1DDb3D--,4C,5+!C
+1DDb3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1DDb3D--4C--,4H,Singleton
+1DDb3D--4C--,4N,King
+1DDb3D--4C--,4S,Void
+1DDb3D--4C--,5C,Ace
+1DDb,3H,12+HcP; 6+!H; Semi-solid
+1DDb3H--,3N,Singleton
+1DDb3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1DDb3H--,4C,Void
+1DDb3H--,4D,King
+1DDb3H--,4H,Ace
+1DDb,--,3+!D or trap
+1DDb,Rd,10+HcP; 3+!D
+1D--,1H,0-9HcP; ANY (Herbert negative)
+1D--1H--,1N,12-14HcP; 5+!H
+1D--1H--,1S,12-16cP; 5+!S
+1D--1H--,2C,12-16cP; 6+!C
+1D--1H--,2D,12-16cP; 5+!D
+1D--1H--,2H,15-16cP; 5+!H
+1D--1H--,2S,17-20cP; 5+!S 
+1D--1H--,3C,17-20cP; 5+!C 
+1D--1H--,3D,17-20cP; 5+!D 
+1D--1H--,3H,17-20cP; 5+!H 
+1D--,1N,12+HcP; bal
+1D--,1S,9-11cP; 4+!S
+1D--1S--,1N,Strong canape'
+1D--,2C,9-11cP; 4+!C
+1D--2C--,2N,Strong canape'
+1D--,2D,8-9cP; 4+!D
+1D--2D--,2N,Strong canape'
+1D--,2H,9-11cP; 4+!H
+1D--2H--,2N,Strong canape'
+1D--,2N,12+HcP; bal
+1D--,2S,12+HcP; 6+!S; Semi-solid
+1D--2S--,2N,Please read chat#No control (No Ace; King; void or singleton)
+1D--2S--,3C,Singleton
+1D--2S--,3D,Void
+1D--2S--,3H,King
+1D--2S--,3S,Ace
+1D--,3C,12+HcP; 6+!C; Semi-solid
+1D--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1D--3C--,3H,Singleton
+1D--3C--,3N,King
+1D--3C--,3S,Void
+1D--3C--,4C,Ace
+1D--,3D,10-11cP; 4+!D
+1D--3D--,3H,5+!H
+1D--3D--3H--,3N,Singleton
+1D--3D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D--3D--3H--,4C,Void
+1D--3D--3H--,4D,King
+1D--3D--3H--,4H,Ace
+1D--3D--,3S,5+!S
+1D--3D--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1D--3D--3S--,4C,Singleton
+1D--3D--3S--,4D,Void
+1D--3D--3S--,4H,King
+1D--3D--3S--,4S,Ace
+1D--3D--,4C,5+!C
+1D--3D--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1D--3D--4C--,4H,Singleton
+1D--3D--4C--,4N,King
+1D--3D--4C--,4S,Void
+1D--3D--4C--,5C,Ace
+1D--,3H,12+HcP; 6+!H; Semi-solid
+1D--3H--,3N,Singleton
+1D--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1D--3H--,4C,Void
+1D--3H--,4D,King
+1D--3H--,4H,Ace
+1D--,3N,16+HcP;bal
+1D--,--,Misclick - this is a forcing feature
+1H1N,2C,9-11cP; 5+!C
+1H1N,2D,9-11cP; 5+!D
+1H1N,2H,4+!H
+1H1N,2N,Stopper OK
+1H1N,2S,10-11cP; 4+!S
+1H1N,3C,10+HcP; 5+!C
+1H1N,3D,10+HcP; 5+!D
+1H1N,3H,10-11cP; 4+!H
+1H1N3H--,3N,17-20HcP; bal
+1H1N3H--,3S,5+!S
+1H1N3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H1N3H--3S--,4C,Singleton
+1H1N3H--3S--,4D,Void
+1H1N3H--3S--,4H,King
+1H1N3H--3S--,4S,Ace
+1H1N3H--,4C,5+!C
+1H1N3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1H1N3H--4C--,4H,Singleton
+1H1N3H--4C--,4N,King
+1H1N3H--4C--,4S,Void
+1H1N3H--4C--,5C,Ace
+1H1N3H--,4D,5+!D
+1H1N3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1H1N3H--4D--,4N,Void
+1H1N3H--4D--,4S,Singleton
+1H1N3H--4D--,5C,King
+1H1N3H--4D--,5D,Ace
+1H1N3H--,4H,Signoff
+1H1N,3S,10+HcP; 5+!S
+1H1N,Db,Penalty
+1H1N,--,Weak
+1H1S,1N,Stopper OK
+1H1S,2C,9-11cP; 5+!C
+1H1S,2D,9-11cP; 5+!D
+1H1S,2H,4+!H
+1H1S,2S,12+HcP; bal. No stop
+1H1S,3C,10+HcP; 5+!C
+1H1S,3D,10+HcP; 5+!D
+1H1S,3H,10-11cP; 4+!H
+1H1S3H--,3N,17-20HcP; bal
+1H1S3H--,3S,5+!S
+1H1S3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H1S3H--3S--,4C,Singleton
+1H1S3H--3S--,4D,Void
+1H1S3H--3S--,4H,King
+1H1S3H--3S--,4S,Ace
+1H1S3H--,4C,5+!C
+1H1S3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1H1S3H--4C--,4H,Singleton
+1H1S3H--4C--,4N,King
+1H1S3H--4C--,4S,Void
+1H1S3H--4C--,5C,Ace
+1H1S3H--,4D,5+!D
+1H1S3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1H1S3H--4D--,4N,Void
+1H1S3H--4D--,4S,Singleton
+1H1S3H--4D--,5C,King
+1H1S3H--4D--,5D,Ace
+1H1S3H--,4H,Signoff
+1H1S,Db,Penalty
+1H1S,--,Weak
+1H2C,2D,9-11cP; 5+!D
+1H2C,2H,4+!H
+1H2C,2N,Stopper OK
+1H2C,2S,9-11cP; 4+!S
+1H2C,3C,12+HcP; bal. No stop
+1H2C,3D,10+HcP; 5+!D
+1H2C,3H,10-11cP; 4+!H
+1H2C3H--,3N,17-20HcP; bal
+1H2C3H--,3S,5+!S
+1H2C3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H2C3H--3S--,4C,Singleton
+1H2C3H--3S--,4D,Void
+1H2C3H--3S--,4H,King
+1H2C3H--3S--,4S,Ace
+1H2C3H--,4C,5+!C
+1H2C3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1H2C3H--4C--,4H,Singleton
+1H2C3H--4C--,4N,King
+1H2C3H--4C--,4S,Void
+1H2C3H--4C--,5C,Ace
+1H2C3H--,4D,5+!D
+1H2C3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1H2C3H--4D--,4N,Void
+1H2C3H--4D--,4S,Singleton
+1H2C3H--4D--,5C,King
+1H2C3H--4D--,5D,Ace
+1H2C3H--,4H,Signoff
+1H2C,3S,10+HcP; 5+!S
+1H2C,Db,Penalty
+1H2C,--,Weak
+1H2D,2H,4+!H
+1H2D,2N,Stopper OK
+1H2D,2S,9-11cP; 4+!S
+1H2D,3C,10+HcP; 5+!C
+1H2D,3D,12+HcP; bal. No stop
+1H2D,3H,10-11cP; 4+!H
+1H2D3H--,3N,17-20HcP; bal
+1H2D3H--,3S,5+!S
+1H2D3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H2D3H--3S--,4C,Singleton
+1H2D3H--3S--,4D,Void
+1H2D3H--3S--,4H,King
+1H2D3H--3S--,4S,Ace
+1H2D3H--,4C,5+!C
+1H2D3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1H2D3H--4C--,4H,Singleton
+1H2D3H--4C--,4N,King
+1H2D3H--4C--,4S,Void
+1H2D3H--4C--,5C,Ace
+1H2D3H--,4D,5+!D
+1H2D3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1H2D3H--4D--,4N,Void
+1H2D3H--4D--,4S,Singleton
+1H2D3H--4D--,5C,King
+1H2D3H--4D--,5D,Ace
+1H2D3H--,4H,Signoff
+1H2D,3S,10+HcP; 5+!S
+1H2D,Db,Penalty
+1H2D,--,Weak
+,1H,Please read chat#12-25cP; 4+!H. *1-suiter  *2-suiter. Canape'bidding
+1HDb,1N,No fit
+1HDb,1S,9-11HcP; 4+!S
+1HDb,2C,8-11cP; 5+!C
+1HDb,2D,8-11cP; 5+!D
+1HDb,2H,4+!H
+1HDb,2N,16+HcP; bal
+1HDb,2S,9-11cP; 4+!S
+1HDb,3C,12+HcP; 6+!C; Semi-solid
+1HDb3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3C--,3H,Singleton
+1HDb3C--,3N,King
+1HDb3C--,3S,Void
+1HDb3C--,4C,Ace
+1HDb,3D,12+HcP; 6+!D; Semi-solid
+1HDb3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3D--,3N,Void
+1HDb3D--,3S,Singleton
+1HDb3D--,4C,King
+1HDb3D--,4D,Ace
+1HDb,3H,10-11cP; 4+!H
+1HDb3H--,3N,17-20HcP; bal
+1HDb3H--,3S,5+!S
+1HDb3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3H--3S--,4C,Singleton
+1HDb3H--3S--,4D,Void
+1HDb3H--3S--,4H,King
+1HDb3H--3S--,4S,Ace
+1HDb3H--,4C,5+!C
+1HDb3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3H--4C--,4H,Singleton
+1HDb3H--4C--,4N,King
+1HDb3H--4C--,4S,Void
+1HDb3H--4C--,5C,Ace
+1HDb3H--,4D,5+!D
+1HDb3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3H--4D--,4N,Void
+1HDb3H--4D--,4S,Singleton
+1HDb3H--4D--,5C,King
+1HDb3H--4D--,5D,Ace
+1HDb3H--,4H,Signoff
+1HDb,3S,12+HcP; 6+!S; Semi-solid
+1HDb3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1HDb3S--,4C,Singleton
+1HDb3S--,4D,Void
+1HDb3S--,4H,King
+1HDb3S--,4S,Ace
+1HDb,--,3+!H or trap
+1HDb,Rd,10+HcP; 3+!H
+1H--,1N,12+HcP; bal
+1H--,1S,0-9HcP; ANY (Herbert negative)
+1H--1S--,1N,12-14cP; 5+!S
+1H--1S--,2C,12-16cP; 5+!C
+1H--1S--,2D,12-16cP; 5+!D
+1H--1S--,2H,12-14cP; 5+!H
+1H--1S--,2S,15-16cP; 5+!S 
+1H--1S--,3C,17-20cP; 5+!C 
+1H--1S--,3D,17-20cP; 5+!D 
+1H--1S--,3H,17-20cP; 5+!H 
+1H--1S--,3S,17-20cP; 5+!S 
+1H--,2C,8-11cP; 5+!C
+1H--2C--,2N,Strong canape'
+1H--,2D,8-11cP; 5+!D
+1H--2D--,2N,Strong canape'
+1H--,2H,4-9cP; 4+!H
+1H--2H--,2N,Strong canape'
+1H--,2N,12+HcP; bal
+1H--,2S,9-11cP; 4+!S
+1H--2S--,2N,Strong canape'
+1H--,3C,12+HcP; 6+!C; Semi-solid
+1H--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1H--3C--,3H,Singleton
+1H--3C--,3N,King
+1H--3C--,3S,Void
+1H--3C--,4C,Ace
+1H--,3D,12+HcP; 6+!D; Semi-solid
+1H--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1H--3D--,3N,Void
+1H--3D--,3S,Singleton
+1H--3D--,4C,King
+1H--3D--,4D,Ace
+1H--,3H,10-11cP; 4+!H
+1H--3H--,3S,5+!S
+1H--3H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H--3H--3S--,4C,Singleton
+1H--3H--3S--,4D,Void
+1H--3H--3S--,4H,King
+1H--3H--3S--,4S,Ace
+1H--3H--,4C,5+!C
+1H--3H--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1H--3H--4C--,4H,Singleton
+1H--3H--4C--,4N,King
+1H--3H--4C--,4S,Void
+1H--3H--4C--,5C,Ace
+1H--3H--,4D,5+!D
+1H--3H--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1H--3H--4D--,4N,Void
+1H--3H--4D--,4S,Singleton
+1H--3H--4D--,5C,King
+1H--3H--4D--,5D,Ace
+1H--3H--,4H,Signoff
+1H--,3N,16+HcP; bal
+1H--,3S,12+HcP; 6+!S; Semi-solid
+1H--3S--,3N,Please read chat#No control (No Ace; King; void or singleton)
+1H--3S--,4C,Singleton
+1H--3S--,4D,Void
+1H--3S--,4H,King
+1H--3S--,4S,Ace
+1H--,--,Misclick - this is a forcing feature
+1N2C,2D,Weak; 5+!D
+1N2C,2H,Weak; 5+!H
+1N2C,2N,Baron. Bid 4card suits up the line
+1N2C,2S,Weak; 5+!S
+1N2C,3C,No stop
+1N2C,3D,ASK support
+1N2C3D--,3H,minimum;poor support
+1N2C3D--,3N,MAXIMUM;poor support
+1N2C3D--,3S,minimum;good support
+1N2C3D--,4C,MAXIMUM;good support
+1N2C,3H,ASK support
+1N2C3H--,3N,minimum;good support
+1N2C3H--,3S,minimum;poor support
+1N2C3H--,4C,MAXIMUM;poor support
+1N2C3H--,4D,MAXIMUM;good support
+1N2C,3N,Signoff
+1N2C,3S,ASK support
+1N2C3S--,3N,minimum;poor support
+1N2C3S--,4C,minimum;good support
+1N2C3S--,4D,MAXIMUM;poor support
+1N2C3S--,4H,MAXIMUM;good support
+1N2C,Db,Penalty
+1N2C,--,Weak
+1N2C,Rd,5+HcP; ANY
+1N2D,2H,Weak; 5+!H
+1N2D,2N,Baron. Bid 4card suits up the line
+1N2D,2S,Weak; 5+!S
+1N2D,3C,Weak; 5+!C
+1N2D,3D,No stop
+1N2D,3H,ASK support
+1N2D3H--,3N,minimum;good support
+1N2D3H--,3S,minimum;poor support
+1N2D3H--,4C,MAXIMUM;poor support
+1N2D3H--,4D,MAXIMUM;good support
+1N2D,3N,Signoff
+1N2D,3S,ASK support
+1N2D3S--,3N,minimum;poor support
+1N2D3S--,4C,minimum;good support
+1N2D3S--,4D,MAXIMUM;poor support
+1N2D3S--,4H,MAXIMUM;good support
+1N2D,4C,ASK support
+1N2D4C--,4D,minimum;poor support
+1N2D4C--,4H,minimum;good support
+1N2D4C--,4N,MAXIMUM;good support
+1N2D4C--,4S,MAXIMUM;poor support
+1N2D,Db,Penalty
+1N2D,--,Weak
+1N2D,Rd,5+HcP; ANY
+1N2H,2N,Baron. Bid 4card suits up the line
+1N2H,2S,Weak; 5+!S
+1N2H,3C,Weak; 5+!C
+1N2H,3D,Weak; 5+!D
+1N2H,3H,No stop
+1N2H,3N,Signoff
+1N2H,3S,ASK support
+1N2H3S--,3N,minimum;poor support
+1N2H3S--,4C,minimum;good support
+1N2H3S--,4D,MAXIMUM;poor support
+1N2H3S--,4H,MAXIMUM;good support
+1N2H,4C,ASK support
+1N2H4C--,4D,minimum;poor support
+1N2H4C--,4H,minimum;good support
+1N2H4C--,4N,MAXIMUM;good support
+1N2H4C--,4S,MAXIMUM;poor support
+1N2H,4D,ASK support
+1N2H4D--,4H,minimum;poor support
+1N2H4D--,4N,MAXIMUM;poor support
+1N2H4D--,4S,minimum;good support
+1N2H4D--,5C,MAXIMUM;good support
+1N2H,Db,Penalty
+1N2H,--,Weak
+1N2H,Rd,5+HcP; ANY
+1N2S,2N,Baron. Bid 4card suits up the line
+1N2S,3C,Weak; 5+!C
+1N2S,3D,Weak; 5+!D
+1N2S,3H,Weak; 5+!H
+1N2S,3N,Signoff
+1N2S,3S,No stop
+1N2S,4C,ASK support
+1N2S4C--,4D,minimum;poor support
+1N2S4C--,4H,minimum;good support
+1N2S4C--,4N,MAXIMUM;good support
+1N2S4C--,4S,MAXIMUM;poor support
+1N2S,4D,ASK support
+1N2S4D--,4H,minimum;poor support
+1N2S4D--,4N,MAXIMUM;poor support
+1N2S4D--,4S,minimum;good support
+1N2S4D--,5C,MAXIMUM;good support
+1N2S,4H,ASK support
+1N2S4H--,4N,minimum;good support
+1N2S4H--,4S,minimum;poor support
+1N2S4H--,5C,MAXIMUM;poor support
+1N2S4H--,5D,MAXIMUM;good support
+1N2S,Db,Penalty
+1N2S,--,Weak
+1N2S,Rd,5+HcP; ANY
+,1N,17-20HcP. *4333  *4432
+1NDb,2C,Weak; 5+!C
+1NDb,2D,Weak; 5+!D
+1NDb,2H,Weak; 5+!H
+1NDb,2S,Weak; 5+!S
+1NDb,3C,ASK support
+1NDb3C--,3D,minimum;poor support
+1NDb3C--,3H,minimum;good support
+1NDb3C--,3N,MAXIMUM;good support
+1NDb3C--,3S,MAXIMUM;poor support
+1NDb,3D,ASK support
+1NDb3D--,3H,minimum;poor support
+1NDb3D--,3N,MAXIMUM;poor support
+1NDb3D--,3S,minimum;good support
+1NDb3D--,4C,MAXIMUM;good support
+1NDb,3H,ASK support
+1NDb3H--,3N,minimum;good support
+1NDb3H--,3S,minimum;poor support
+1NDb3H--,4C,MAXIMUM;poor support
+1NDb3H--,4D,MAXIMUM;good support
+1NDb,3S,ASK support
+1NDb3S--,3N,minimum;poor support
+1NDb3S--,4C,minimum;good support
+1NDb3S--,4D,MAXIMUM;poor support
+1NDb3S--,4H,MAXIMUM;good support
+1NDb,--,Weak; No 5card suit
+1NDb,Rd,5+HcP; ANY
+1N--,2C,Weak; Gladiator(Puppet Stayman)
+1N--2C--,2D,Relay
+1N--2C--2D--,2H,Trans -> !S
+1N--2C--2D--,2N,Trans -> !C
+1N--2C--2D--,2S,Trans -> !H
+1N--2C--2D--,--,To play
+1N--,2D,Stayman; GF
+1N--2D--,2H,4!H
+1N--2D--,2N,No 4card MAJOR
+1N--2D--,2S,4!S
+1N--2D--,3C,4!H + 4!S
+1N--2D--3C--,3D,Trans -> !H
+1N--2D--3C--,3H,Trans -> !S
+1N--2D--3C--,3N,Signoff
+1N--,2H,5+!H; ASK takeout
+1N--2H--,2N,Please read chat#minimum;Good support. (Qxx;xxxx or better)\\
+1N--2H--,2S,minimum;No support
+1N--2H--,3C,MAXIMUM;No support
+1N--2H--,3D,Please read chat#MAXIMUM;Good support (Qxx;xxxx or better)\\
+1N--,2N,6-7HcP; bal
+1N--,2S,5+!S; ASK takeout
+1N--2S--,2N,minimum;No support
+1N--2S--,3C,Please read chat#minimum;Good support (Qxx;xxxx or better)\\
+1N--2S--,3D,MAXIMUM;No support
+1N--2S--,3H,Please read chat#MAXIMUM;Good support (Qxx;xxxx or better)\\
+1N--,3C,5+!C; ASK takeout
+1N--3C--,3D,minimum;No support
+1N--3C--,3H,Please read chat#minimum;Good support (Qxx;xxxx or better)\\
+1N--3C--,3N,Please read chat#MAXIMUM;Good support (Qxx;xxxx or better)\\
+1N--3C--,3S,MAXIMUM;No support
+1N--,3D,5+!D; ASK takeout
+1N--3D--,3H,minimum;No support
+1N--3D--,3N,MAXIMUM;No support
+1N--3D--,3S,Please read chat#minimum;Good support (Qxx;xxxx or better)\\
+1N--3D--,4C,Please read chat#MAXIMUM;Good support (Qxx;xxxx or better)\\
+1N--,3H,6!H; 2 of 3 top-honors
+1N--,3N,8-12HcP; bal
+1N--,3S,6!S; 2 of 3 top-honors
+1N--,4C,14HcP
+1N--,4D,15HcP
+1N--,4H,6-9HcP; 6!H
+1N--,4N,16HcP
+1N--,4S,6-9HcP; 6!S
+1N--,5C,17HcP
+1N--,5D,18HcP
+1N--,5H,19HcP
+1N--,5N,21HcP
+1N--,5S,20HcP
+1N--,--,0-5HcP
+1S1N,2C,9-11cP; 5+!C
+1S1N,2D,9-11cP; 5+!D
+1S1N,2H,8-11cP; 4+!H
+1S1N,2N,Stopper OK
+1S1N,2S,4+!S
+1S1N,3C,10+HcP; 5+!C
+1S1N,3D,10+HcP; 5+!D
+1S1N,3H,10+HcP; 5+!H
+1S1N,3S,10-11cP; 4+!S
+1S1N3S--,3N,17-20HcP; bal
+1S1N3S--,4C,5+!C
+1S1N3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1S1N3S--4C--,4H,Singleton
+1S1N3S--4C--,4N,King
+1S1N3S--4C--,4S,Void
+1S1N3S--4C--,5C,Ace
+1S1N3S--,4D,5+!D
+1S1N3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1S1N3S--4D--,4N,Void
+1S1N3S--4D--,4S,Singleton
+1S1N3S--4D--,5C,King
+1S1N3S--4D--,5D,Ace
+1S1N3S--,4S,Signoff
+1S1N,Db,Penalty
+1S1N,--,Weak
+1S2C,2D,9-11cP; 5+!D
+1S2C,2H,8-11cP; 4+!H
+1S2C,2N,Stopper OK
+1S2C,2S,4+!S
+1S2C,3C,12+HcP; bal. No stop
+1S2C,3D,10+HcP; 5+!D
+1S2C,3H,10+HcP; 5+!H
+1S2C,3S,10-11cP; 4+!S
+1S2C3S--,3N,17-20HcP; bal
+1S2C3S--,4C,5+!C
+1S2C3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1S2C3S--4C--,4H,Singleton
+1S2C3S--4C--,4N,King
+1S2C3S--4C--,4S,Void
+1S2C3S--4C--,5C,Ace
+1S2C3S--,4D,5+!D
+1S2C3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1S2C3S--4D--,4N,Void
+1S2C3S--4D--,4S,Singleton
+1S2C3S--4D--,5C,King
+1S2C3S--4D--,5D,Ace
+1S2C3S--,4S,Signoff
+1S2C,Db,Penalty
+1S2C,--,Weak
+1S2D,2H,8-11cP; 4+!H
+1S2D,2N,Stopper OK
+1S2D,2S,4+!S
+1S2D,3C,10+HcP; 5+!C
+1S2D,3D,12+HcP; bal. No stop
+1S2D,3H,10+HcP; 5+!H
+1S2D,3S,10-11cP; 4+!S
+1S2D3S--,3N,17-20HcP; bal
+1S2D3S--,4C,5+!C
+1S2D3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1S2D3S--4C--,4H,Singleton
+1S2D3S--4C--,4N,King
+1S2D3S--4C--,4S,Void
+1S2D3S--4C--,5C,Ace
+1S2D3S--,4D,5+!D
+1S2D3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1S2D3S--4D--,4N,Void
+1S2D3S--4D--,4S,Singleton
+1S2D3S--4D--,5C,King
+1S2D3S--4D--,5D,Ace
+1S2D3S--,4S,Signoff
+1S2D,Db,Penalty
+1S2D,--,Weak
+1S2H,2N,Stopper OK
+1S2H,2S,4+!S
+1S2H,3C,10+HcP; 5+!C
+1S2H,3D,10+HcP; 5+!D
+1S2H,3H,12+HcP; bal. No stop
+1S2H,3S,10-11cP; 4+!S
+1S2H3S--,3N,17-20HcP; bal
+1S2H3S--,4C,5+!C
+1S2H3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1S2H3S--4C--,4H,Singleton
+1S2H3S--4C--,4N,King
+1S2H3S--4C--,4S,Void
+1S2H3S--4C--,5C,Ace
+1S2H3S--,4D,5+!D
+1S2H3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1S2H3S--4D--,4N,Void
+1S2H3S--4D--,4S,Singleton
+1S2H3S--4D--,5C,King
+1S2H3S--4D--,5D,Ace
+1S2H3S--,4S,Signoff
+1S2H,Db,Penalty
+1S2H,--,Weak
+,1S,Please read chat#12-25cP; 4+!S. *1-suiter  *2-suiter. Canape'bidding
+1SDb,1N,No fit
+1SDb,2C,8-11cP; 5+!C
+1SDb,2D,8-11cP; 5+!D
+1SDb,2H,8-11cP; 4+!H
+1SDb,2N,12+HcP; bal
+1SDb,2S,4-9cP; 4+!S
+1SDb,3C,12+HcP; 6+!C; Semi-solid
+1SDb3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1SDb3C--,3H,Singleton
+1SDb3C--,3N,King
+1SDb3C--,3S,Void
+1SDb3C--,4C,Ace
+1SDb,3D,12+HcP; 6+!D; Semi-solid
+1SDb3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1SDb3D--,3N,Void
+1SDb3D--,3S,Singleton
+1SDb3D--,4C,King
+1SDb3D--,4D,Ace
+1SDb,3H,12+HcP; 6+!H; Semi-solid
+1SDb3H--,3N,Singleton
+1SDb3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1SDb3H--,4C,Void
+1SDb3H--,4D,King
+1SDb3H--,4H,Ace
+1SDb,3N,16+HcP; bal
+1SDb,3S,10-11cP; 4+!S
+1SDb3S--,3N,17-20HcP; bal
+1SDb3S--,4C,5+!C
+1SDb3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1SDb3S--4C--,4H,Singleton
+1SDb3S--4C--,4N,King
+1SDb3S--4C--,4S,Void
+1SDb3S--4C--,5C,Ace
+1SDb3S--,4D,5+!D
+1SDb3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1SDb3S--4D--,4N,Void
+1SDb3S--4D--,4S,Singleton
+1SDb3S--4D--,5C,King
+1SDb3S--4D--,5D,Ace
+1SDb3S--,4S,Signoff
+1SDb,--,3+!S or trap
+1SDb,Rd,10+HcP; 3+!S
+1S--,1N,0-9HcP; ANY (Herbert negative)
+1S--1N--,2C,12-16cP; 5+!C
+1S--1N--,2D,12-16cP; 5+!D
+1S--1N--,2H,12-16cP; 5+!H
+1S--1N--,2N,15-16cP; 5+!S
+1S--1N--,2S,12-14cP; 5+!S 
+1S--1N--,3C,17-20cP; 5+!C 
+1S--1N--,3D,17-20cP; 5+!D 
+1S--1N--,3H,17-20cP; 5+!H 
+1S--1N--,3S,17-20cP; 5+!S 
+1S--,2C,8-11cP; 5+!C
+1S--2C--,2N,Strong canape'
+1S--,2D,8-11cP; 5+!D
+1S--2D--,2N,Strong canape'
+1S--,2H,8-11cP; 4+!H
+1S--2H--,2N,Strong canape'
+1S--,2N,12+HcP; bal
+1S--,2S,4-9cP; 4+!S
+1S--2S--,2N,Strong canape'
+1S--,3C,12+HcP; 6+!C; Semi-solid
+1S--3C--,3D,Please read chat#No control (No Ace; King; void or singleton)
+1S--3C--,3H,Singleton
+1S--3C--,3N,King
+1S--3C--,3S,Void
+1S--3C--,4C,Ace
+1S--,3D,12+HcP; 6+!D; Semi-solid
+1S--3D--,3H,Please read chat#No control (No Ace; King; void or singleton)
+1S--3D--,3N,Void
+1S--3D--,3S,Singleton
+1S--3D--,4C,King
+1S--3D--,4D,Ace
+1S--,3H,12+HcP; 6+!H; Semi-solid
+1S--3H--,3N,Singleton
+1S--3H--,3S,Please read chat#No control (No Ace; King; void or singleton)
+1S--3H--,4C,Void
+1S--3H--,4D,King
+1S--3H--,4H,Ace
+1S--,3N,16+HcP; bal
+1S--,3S,10-11cP; 4+!S
+1S--3S--,4C,5+!C
+1S--3S--4C--,4D,Please read chat#No control (No Ace; King; void or singleton)
+1S--3S--4C--,4H,Singleton
+1S--3S--4C--,4N,King
+1S--3S--4C--,4S,Void
+1S--3S--4C--,5C,Ace
+1S--3S--,4D,5+!D
+1S--3S--4D--,4H,Please read chat#No control (No Ace; King; void or singleton)
+1S--3S--4D--,4N,Void
+1S--3S--4D--,4S,Singleton
+1S--3S--4D--,5C,King
+1S--3S--4D--,5D,Ace
+1S--3S--,4S,Signoff
+1S--,--,Misclick - this is a forcing feature
+2C2D,2H,Weak; 5+!H; Signoff unless short suit
+2C2D,2N,Positive; 1-2 cards in opps. ASK short
+2C2D2NDb,3C,0-1!C
+2C2D2NDb3C--,3D,ASK trump
+2C2D2NDb3C--3D--,3H,Minimum;weak supp
+2C2D2NDb3C--3D--,3N,MAXIMUM;weak supp
+2C2D2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3C--,3H,ASK trump
+2C2D2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3C--3H--,3S,Minimum;weak supp
+2C2D2NDb3C--3H--,4C,MAXIMUM;weak supp
+2C2D2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3C--,3N,Signoff
+2C2D2NDb3C--,3S,ASK trump
+2C2D2NDb3C--3S--,3N,Minimum;weak supp
+2C2D2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3C--3S--,4D,MAXIMUM;weak supp
+2C2D2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3C--,4H,Signoff
+2C2D2NDb3C--,4S,Signoff
+2C2D2NDb3C--,5C,Signoff
+2C2D2NDb3C--,5D,Signoff
+2C2D2NDb,3D,0-1!D
+2C2D2NDb3D--,3H,ASK trump
+2C2D2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3D--3H--,3S,Minimum;weak supp
+2C2D2NDb3D--3H--,4C,MAXIMUM;weak supp
+2C2D2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3D--,3N,Signoff
+2C2D2NDb3D--,3S,ASK trump
+2C2D2NDb3D--3S--,3N,Minimum;weak supp
+2C2D2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3D--3S--,4D,MAXIMUM;weak supp
+2C2D2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3D--,4C,ASK trump
+2C2D2NDb3D--4C--,4D,Minimum;weak supp
+2C2D2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3D--4C--,4S,MAXIMUM;weak supp
+2C2D2NDb3D--,4H,Signoff
+2C2D2NDb3D--,4S,Signoff
+2C2D2NDb3D--,5C,Signoff
+2C2D2NDb3D--,5D,Signoff
+2C2D2NDb,3H,0-1!H
+2C2D2NDb3H--,3N,Signoff
+2C2D2NDb3H--,3S,ASK trump
+2C2D2NDb3H--3S--,3N,Minimum;weak supp
+2C2D2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3H--3S--,4D,MAXIMUM;weak supp
+2C2D2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3H--,4C,ASK trump
+2C2D2NDb3H--4C--,4D,Minimum;weak supp
+2C2D2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3H--4C--,4S,MAXIMUM;weak supp
+2C2D2NDb3H--,4D,ASK trump
+2C2D2NDb3H--4D--,4H,Minimum;weak supp
+2C2D2NDb3H--4D--,4N,MAXIMUM;weak supp
+2C2D2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2D2NDb3H--,4H,Signoff
+2C2D2NDb3H--,4S,Signoff
+2C2D2NDb3H--,5C,Signoff
+2C2D2NDb3H--,5D,Signoff
+2C2D2NDb,3S,0-1!S
+2C2D2NDb3S--,3N,Signoff
+2C2D2NDb3S--,4C,ASK trump
+2C2D2NDb3S--4C--,4D,Minimum;weak supp
+2C2D2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3S--4C--,4S,MAXIMUM;weak supp
+2C2D2NDb3S--,4D,ASK trump
+2C2D2NDb3S--4D--,4H,Minimum;weak supp
+2C2D2NDb3S--4D--,4N,MAXIMUM;weak supp
+2C2D2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2D2NDb3S--,4H,Signoff
+2C2D2NDb3S--,4N,Set of trumf: !H. ASK trump
+2C2D2NDb3S--4N--,5C,Minimum;weak supp
+2C2D2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3S--4N--,5H,MAXIMUM;weak supp
+2C2D2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2NDb3S--,4S,Signoff
+2C2D2NDb3S--,5C,Signoff
+2C2D2NDb3S--,5D,Signoff
+2C2D2N--,3C,0-1!C
+2C2D2N--3C--,3D,ASK trump
+2C2D2N--3C--3D--,3H,Minimum;weak supp
+2C2D2N--3C--3D--,3N,MAXIMUM;weak supp
+2C2D2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3C--,3H,ASK trump
+2C2D2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3C--3H--,3S,Minimum;weak supp
+2C2D2N--3C--3H--,4C,MAXIMUM;weak supp
+2C2D2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3C--,3N,Signoff
+2C2D2N--3C--,3S,ASK trump
+2C2D2N--3C--3S--,3N,Minimum;weak supp
+2C2D2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3C--3S--,4D,MAXIMUM;weak supp
+2C2D2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3C--,4H,Signoff
+2C2D2N--3C--,4S,Signoff
+2C2D2N--3C--,5C,Signoff
+2C2D2N--3C--,5D,Signoff
+2C2D2N--,3D,0-1!D
+2C2D2N--3D--,3H,ASK trump
+2C2D2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3D--3H--,3S,Minimum;weak supp
+2C2D2N--3D--3H--,4C,MAXIMUM;weak supp
+2C2D2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3D--,3N,Signoff
+2C2D2N--3D--,3S,ASK trump
+2C2D2N--3D--3S--,3N,Minimum;weak supp
+2C2D2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3D--3S--,4D,MAXIMUM;weak supp
+2C2D2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3D--,4C,ASK trump
+2C2D2N--3D--4C--,4D,Minimum;weak supp
+2C2D2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3D--4C--,4S,MAXIMUM;weak supp
+2C2D2N--3D--,4H,Signoff
+2C2D2N--3D--,4S,Signoff
+2C2D2N--3D--,5C,Signoff
+2C2D2N--3D--,5D,Signoff
+2C2D2N--,3H,0-1!H
+2C2D2N--3H--,3N,Signoff
+2C2D2N--3H--,3S,ASK trump
+2C2D2N--3H--3S--,3N,Minimum;weak supp
+2C2D2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3H--3S--,4D,MAXIMUM;weak supp
+2C2D2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3H--,4C,ASK trump
+2C2D2N--3H--4C--,4D,Minimum;weak supp
+2C2D2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3H--4C--,4S,MAXIMUM;weak supp
+2C2D2N--3H--,4D,ASK trump
+2C2D2N--3H--4D--,4H,Minimum;weak supp
+2C2D2N--3H--4D--,4N,MAXIMUM;weak supp
+2C2D2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2D2N--3H--,4H,Signoff
+2C2D2N--3H--,4S,Signoff
+2C2D2N--3H--,5C,Signoff
+2C2D2N--3H--,5D,Signoff
+2C2D2N--,3S,0-1!S
+2C2D2N--3S--,3N,Signoff
+2C2D2N--3S--,4C,ASK trump
+2C2D2N--3S--4C--,4D,Minimum;weak supp
+2C2D2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3S--4C--,4S,MAXIMUM;weak supp
+2C2D2N--3S--,4D,ASK trump
+2C2D2N--3S--4D--,4H,Minimum;weak supp
+2C2D2N--3S--4D--,4N,MAXIMUM;weak supp
+2C2D2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2D2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2D2N--3S--,4H,Signoff
+2C2D2N--3S--,4N,Set of trumf: !H. ASK trump
+2C2D2N--3S--4N--,5C,Minimum;weak supp
+2C2D2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3S--4N--,5H,MAXIMUM;weak supp
+2C2D2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2D2N--3S--,4S,Signoff
+2C2D2N--3S--,5C,Signoff
+2C2D2N--3S--,5D,Signoff
+2C2D,2S,Weak; 5+!S; Signoff unless short suit
+2C2D,Db,Positive. Penalty???
+2C2DDbDb,2H,11-14HcP; LTC: 6
+2C2DDbDb2H--,2S,ASK short
+2C2DDbDb2H--2S--,2N,0-1!C
+2C2DDbDb2H--2S--2N--,3C,ASK single or void
+2C2DDbDb2H--2S--2N--3C--,3D,4-4-5-0
+2C2DDbDb2H--2S--2N--3C--,3N,4-4-4-1
+2C2DDbDb2H--2S--,3C,0-1!D
+2C2DDbDb2H--2S--3C--,3D,ASK single or void
+2C2DDbDb2H--2S--3C--3D--,3N,4-4-1-4
+2C2DDbDb2H--2S--3C--3D--,4C,4-4-0-5
+2C2DDbDb2H--2S--,3D,0-1!H
+2C2DDbDb2H--2S--3D--,3H,ASK single or void
+2C2DDbDb2H--2S--3D--3H--,3N,4-1-4-4
+2C2DDbDb2H--2S--3D--3H--,4C,4-0-4-5
+2C2DDbDb2H--2S--3D--3H--,4D,4-0-5-4
+2C2DDbDb2H--2S--,3H,0-1!S
+2C2DDbDb2H--2S--3H--,3S,ASK single or void
+2C2DDbDb2H--2S--3H--3S--,3N,1-4-4-4
+2C2DDbDb2H--2S--3H--3S--,4C,0-4-4-5
+2C2DDbDb2H--2S--3H--3S--,4D,0-4-5-4
+2C2DDbDb,2N,18-21HcP; LTC: 4
+2C2DDbDb2N--,3C,ASK short
+2C2DDbDb2N--3C--,3D,0-1!H
+2C2DDbDb2N--3C--3D--,3H,ASK single or void
+2C2DDbDb2N--3C--3D--3H--,3N,4-1-4-4
+2C2DDbDb2N--3C--3D--3H--,4C,4-0-4-5
+2C2DDbDb2N--3C--3D--3H--,4D,4-0-5-4
+2C2DDbDb2N--3C--,3H,0-1!S
+2C2DDbDb2N--3C--3H--,3S,ASK single or void
+2C2DDbDb2N--3C--3H--3S--,3N,1-4-4-4
+2C2DDbDb2N--3C--3H--3S--,4C,0-4-4-5
+2C2DDbDb2N--3C--3H--3S--,4D,0-4-5-4
+2C2DDbDb2N--3C--,3S,0-1!C
+2C2DDbDb2N--3C--3S--,3N,Signoff
+2C2DDbDb2N--3C--3S--,4C,ASK single or void
+2C2DDbDb2N--3C--3S--4C--,4D,4-4-5-0
+2C2DDbDb2N--3C--3S--4C--,4N,4-4-4-1
+2C2DDbDb2N--3C--,4C,0-1!D
+2C2DDbDb2N--3C--4C--,4D,ASK single or void
+2C2DDbDb2N--3C--4C--4D--,4N,4-4-1-4
+2C2DDbDb2N--3C--4C--4D--,5C,4-4-0-5
+2C2DDbDb2N--3C--4C--,4N,Signoff
+2C2DDbDb,2S,15-18HcP; LTC: 5
+2C2DDbDb2S--,2N,ASK short
+2C2DDbDb2S--2N--,3C,0-1!D
+2C2DDbDb2S--2N--3C--,3D,ASK single or void
+2C2DDbDb2S--2N--3C--3D--,3N,4-4-1-4
+2C2DDbDb2S--2N--3C--3D--,4C,4-4-0-5
+2C2DDbDb2S--2N--,3D,0-1!H
+2C2DDbDb2S--2N--3D--,3H,ASK single or void
+2C2DDbDb2S--2N--3D--3H--,3N,4-1-4-4
+2C2DDbDb2S--2N--3D--3H--,4C,4-0-4-5
+2C2DDbDb2S--2N--3D--3H--,4D,4-0-5-4
+2C2DDbDb2S--2N--,3H,0-1!S
+2C2DDbDb2S--2N--3H--,3S,ASK single or void
+2C2DDbDb2S--2N--3H--3S--,3N,1-4-4-4
+2C2DDbDb2S--2N--3H--3S--,4C,0-4-4-5
+2C2DDbDb2S--2N--3H--3S--,4D,0-4-5-4
+2C2DDbDb2S--2N--,3S,0-1!C
+2C2DDbDb2S--2N--3S--,3N,Signoff
+2C2DDbDb2S--2N--3S--,4C,ASK single or void
+2C2DDbDb2S--2N--3S--4C--,4D,4-4-5-0
+2C2DDbDb2S--2N--3S--4C--,4N,4-4-4-1
+2C2DDbDb,3C,21+HcP; LTC: 3
+2C2DDbDb3C--,3D,ASK short
+2C2DDbDb3C--3D--,3H,0-1!S
+2C2DDbDb3C--3D--3H--,3S,ASK single or void
+2C2DDbDb3C--3D--3H--3S--,3N,1-4-4-4
+2C2DDbDb3C--3D--3H--3S--,4C,0-4-4-5
+2C2DDbDb3C--3D--3H--3S--,4D,0-4-5-4
+2C2DDbDb3C--3D--,3S,0-1!C
+2C2DDbDb3C--3D--3S--,3N,Signoff
+2C2DDbDb3C--3D--3S--,4C,ASK single or void
+2C2DDbDb3C--3D--3S--4C--,4D,4-4-5-0
+2C2DDbDb3C--3D--3S--4C--,4N,4-4-4-1
+2C2DDbDb3C--3D--,4C,0-1!D
+2C2DDbDb3C--3D--4C--,4D,ASK single or void
+2C2DDbDb3C--3D--4C--4D--,4N,4-4-1-4
+2C2DDbDb3C--3D--4C--4D--,5C,4-4-0-5
+2C2DDbDb3C--3D--4C--,4N,Signoff
+2C2DDbDb3C--3D--,4D,0-1!H
+2C2DDbDb3C--3D--4D--,4H,ASK single or void
+2C2DDbDb3C--3D--4D--4H--,4N,4-1-4-4
+2C2DDbDb3C--3D--4D--4H--,5C,4-0-4-5
+2C2DDbDb3C--3D--4D--4H--,5D,4-0-5-4
+2C2DDbDb3C--3D--4D--,4N,Signoff
+2C2DDbDb,3D,LTC: <3
+2C2DDbDb3D--,3H,ASK short
+2C2DDbDb3D--3H--,3S,0-1!C
+2C2DDbDb3D--3H--3S--,3N,Signoff
+2C2DDbDb3D--3H--3S--,4C,ASK single or void
+2C2DDbDb3D--3H--3S--4C--,4D,4-4-5-0
+2C2DDbDb3D--3H--3S--4C--,4N,4-4-4-1
+2C2DDbDb3D--3H--,4C,0-1!D
+2C2DDbDb3D--3H--4C--,4D,ASK single or void
+2C2DDbDb3D--3H--4C--4D--,4N,4-4-1-4
+2C2DDbDb3D--3H--4C--4D--,5C,4-4-0-5
+2C2DDbDb3D--3H--4C--,4N,Signoff
+2C2DDbDb3D--3H--,4D,0-1!H
+2C2DDbDb3D--3H--4D--,4H,ASK single or void
+2C2DDbDb3D--3H--4D--4H--,4N,4-1-4-4
+2C2DDbDb3D--3H--4D--4H--,5C,4-0-4-5
+2C2DDbDb3D--3H--4D--4H--,5D,4-0-5-4
+2C2DDbDb3D--3H--4D--,4N,Signoff
+2C2DDbDb3D--3H--,4H,0-1!S
+2C2DDbDb3D--3H--4H--,4S,ASK single or void
+2C2DDbDb3D--3H--4H--4S--,4N,1-4-4-4
+2C2DDbDb3D--3H--4H--4S--,5C,0-4-4-5
+2C2DDbDb3D--3H--4H--4S--,5D,0-4-5-4
+2C2DDb--,--,To play; 2+!D
+2C2DDbRd,--,To play
+2C2D,--,Weak
+2C2D----,2H,4!H; short !D
+2C2D----,2S,4!S; short !D
+2C2D----,Db,4+!D
+2C2D,Rd,Positive; 3+!C
+2C2H,2N,Positive; 1-2 cards in opps. ASK short
+2C2H2NDb,3C,0-1!C
+2C2H2NDb3C--,3D,ASK trump
+2C2H2NDb3C--3D--,3H,Minimum;weak supp
+2C2H2NDb3C--3D--,3N,MAXIMUM;weak supp
+2C2H2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3C--,3H,ASK trump
+2C2H2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3C--3H--,3S,Minimum;weak supp
+2C2H2NDb3C--3H--,4C,MAXIMUM;weak supp
+2C2H2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3C--,3N,Signoff
+2C2H2NDb3C--,3S,ASK trump
+2C2H2NDb3C--3S--,3N,Minimum;weak supp
+2C2H2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3C--3S--,4D,MAXIMUM;weak supp
+2C2H2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3C--,4H,Signoff
+2C2H2NDb3C--,4S,Signoff
+2C2H2NDb3C--,5C,Signoff
+2C2H2NDb3C--,5D,Signoff
+2C2H2NDb,3D,0-1!D
+2C2H2NDb3D--,3H,ASK trump
+2C2H2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3D--3H--,3S,Minimum;weak supp
+2C2H2NDb3D--3H--,4C,MAXIMUM;weak supp
+2C2H2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3D--,3N,Signoff
+2C2H2NDb3D--,3S,ASK trump
+2C2H2NDb3D--3S--,3N,Minimum;weak supp
+2C2H2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3D--3S--,4D,MAXIMUM;weak supp
+2C2H2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3D--,4C,ASK trump
+2C2H2NDb3D--4C--,4D,Minimum;weak supp
+2C2H2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3D--4C--,4S,MAXIMUM;weak supp
+2C2H2NDb3D--,4H,Signoff
+2C2H2NDb3D--,4S,Signoff
+2C2H2NDb3D--,5C,Signoff
+2C2H2NDb3D--,5D,Signoff
+2C2H2NDb,3H,0-1!H
+2C2H2NDb3H--,3N,Signoff
+2C2H2NDb3H--,3S,ASK trump
+2C2H2NDb3H--3S--,3N,Minimum;weak supp
+2C2H2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3H--3S--,4D,MAXIMUM;weak supp
+2C2H2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3H--,4C,ASK trump
+2C2H2NDb3H--4C--,4D,Minimum;weak supp
+2C2H2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3H--4C--,4S,MAXIMUM;weak supp
+2C2H2NDb3H--,4D,ASK trump
+2C2H2NDb3H--4D--,4H,Minimum;weak supp
+2C2H2NDb3H--4D--,4N,MAXIMUM;weak supp
+2C2H2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2H2NDb3H--,4H,Signoff
+2C2H2NDb3H--,4S,Signoff
+2C2H2NDb3H--,5C,Signoff
+2C2H2NDb3H--,5D,Signoff
+2C2H2NDb,3S,0-1!S
+2C2H2NDb3S--,3N,Signoff
+2C2H2NDb3S--,4C,ASK trump
+2C2H2NDb3S--4C--,4D,Minimum;weak supp
+2C2H2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3S--4C--,4S,MAXIMUM;weak supp
+2C2H2NDb3S--,4D,ASK trump
+2C2H2NDb3S--4D--,4H,Minimum;weak supp
+2C2H2NDb3S--4D--,4N,MAXIMUM;weak supp
+2C2H2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2H2NDb3S--,4H,Signoff
+2C2H2NDb3S--,4N,Set of trumf: !H. ASK trump
+2C2H2NDb3S--4N--,5C,Minimum;weak supp
+2C2H2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3S--4N--,5H,MAXIMUM;weak supp
+2C2H2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2NDb3S--,4S,Signoff
+2C2H2NDb3S--,5C,Signoff
+2C2H2NDb3S--,5D,Signoff
+2C2H2N--,3C,0-1!C
+2C2H2N--3C--,3D,ASK trump
+2C2H2N--3C--3D--,3H,Minimum;weak supp
+2C2H2N--3C--3D--,3N,MAXIMUM;weak supp
+2C2H2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3C--,3H,ASK trump
+2C2H2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3C--3H--,3S,Minimum;weak supp
+2C2H2N--3C--3H--,4C,MAXIMUM;weak supp
+2C2H2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3C--,3N,Signoff
+2C2H2N--3C--,3S,ASK trump
+2C2H2N--3C--3S--,3N,Minimum;weak supp
+2C2H2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3C--3S--,4D,MAXIMUM;weak supp
+2C2H2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3C--,4H,Signoff
+2C2H2N--3C--,4S,Signoff
+2C2H2N--3C--,5C,Signoff
+2C2H2N--3C--,5D,Signoff
+2C2H2N--,3D,0-1!D
+2C2H2N--3D--,3H,ASK trump
+2C2H2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3D--3H--,3S,Minimum;weak supp
+2C2H2N--3D--3H--,4C,MAXIMUM;weak supp
+2C2H2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3D--,3N,Signoff
+2C2H2N--3D--,3S,ASK trump
+2C2H2N--3D--3S--,3N,Minimum;weak supp
+2C2H2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3D--3S--,4D,MAXIMUM;weak supp
+2C2H2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3D--,4C,ASK trump
+2C2H2N--3D--4C--,4D,Minimum;weak supp
+2C2H2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3D--4C--,4S,MAXIMUM;weak supp
+2C2H2N--3D--,4H,Signoff
+2C2H2N--3D--,4S,Signoff
+2C2H2N--3D--,5C,Signoff
+2C2H2N--3D--,5D,Signoff
+2C2H2N--,3H,0-1!H
+2C2H2N--3H--,3N,Signoff
+2C2H2N--3H--,3S,ASK trump
+2C2H2N--3H--3S--,3N,Minimum;weak supp
+2C2H2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3H--3S--,4D,MAXIMUM;weak supp
+2C2H2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3H--,4C,ASK trump
+2C2H2N--3H--4C--,4D,Minimum;weak supp
+2C2H2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3H--4C--,4S,MAXIMUM;weak supp
+2C2H2N--3H--,4D,ASK trump
+2C2H2N--3H--4D--,4H,Minimum;weak supp
+2C2H2N--3H--4D--,4N,MAXIMUM;weak supp
+2C2H2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2H2N--3H--,4H,Signoff
+2C2H2N--3H--,4S,Signoff
+2C2H2N--3H--,5C,Signoff
+2C2H2N--3H--,5D,Signoff
+2C2H2N--,3S,0-1!S
+2C2H2N--3S--,3N,Signoff
+2C2H2N--3S--,4C,ASK trump
+2C2H2N--3S--4C--,4D,Minimum;weak supp
+2C2H2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3S--4C--,4S,MAXIMUM;weak supp
+2C2H2N--3S--,4D,ASK trump
+2C2H2N--3S--4D--,4H,Minimum;weak supp
+2C2H2N--3S--4D--,4N,MAXIMUM;weak supp
+2C2H2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2H2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2H2N--3S--,4H,Signoff
+2C2H2N--3S--,4N,Set of trumf: !H. ASK trump
+2C2H2N--3S--4N--,5C,Minimum;weak supp
+2C2H2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3S--4N--,5H,MAXIMUM;weak supp
+2C2H2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2H2N--3S--,4S,Signoff
+2C2H2N--3S--,5C,Signoff
+2C2H2N--3S--,5D,Signoff
+2C2H,2S,Weak; 5+!S; Signoff unless short suit
+2C2H,Db,Positive. Penalty???
+2C2HDbDb,2H,11-14HcP; LTC: 6
+2C2HDbDb2H--,2S,ASK short
+2C2HDbDb2H--2S--,2N,0-1!C
+2C2HDbDb2H--2S--2N--,3C,ASK single or void
+2C2HDbDb2H--2S--2N--3C--,3D,4-4-5-0
+2C2HDbDb2H--2S--2N--3C--,3N,4-4-4-1
+2C2HDbDb2H--2S--,3C,0-1!D
+2C2HDbDb2H--2S--3C--,3D,ASK single or void
+2C2HDbDb2H--2S--3C--3D--,3N,4-4-1-4
+2C2HDbDb2H--2S--3C--3D--,4C,4-4-0-5
+2C2HDbDb2H--2S--,3D,0-1!H
+2C2HDbDb2H--2S--3D--,3H,ASK single or void
+2C2HDbDb2H--2S--3D--3H--,3N,4-1-4-4
+2C2HDbDb2H--2S--3D--3H--,4C,4-0-4-5
+2C2HDbDb2H--2S--3D--3H--,4D,4-0-5-4
+2C2HDbDb2H--2S--,3H,0-1!S
+2C2HDbDb2H--2S--3H--,3S,ASK single or void
+2C2HDbDb2H--2S--3H--3S--,3N,1-4-4-4
+2C2HDbDb2H--2S--3H--3S--,4C,0-4-4-5
+2C2HDbDb2H--2S--3H--3S--,4D,0-4-5-4
+2C2HDbDb,2N,18-21HcP; LTC: 4
+2C2HDbDb2N--,3C,ASK short
+2C2HDbDb2N--3C--,3D,0-1!H
+2C2HDbDb2N--3C--3D--,3H,ASK single or void
+2C2HDbDb2N--3C--3D--3H--,3N,4-1-4-4
+2C2HDbDb2N--3C--3D--3H--,4C,4-0-4-5
+2C2HDbDb2N--3C--3D--3H--,4D,4-0-5-4
+2C2HDbDb2N--3C--,3H,0-1!S
+2C2HDbDb2N--3C--3H--,3S,ASK single or void
+2C2HDbDb2N--3C--3H--3S--,3N,1-4-4-4
+2C2HDbDb2N--3C--3H--3S--,4C,0-4-4-5
+2C2HDbDb2N--3C--3H--3S--,4D,0-4-5-4
+2C2HDbDb2N--3C--,3S,0-1!C
+2C2HDbDb2N--3C--3S--,3N,Signoff
+2C2HDbDb2N--3C--3S--,4C,ASK single or void
+2C2HDbDb2N--3C--3S--4C--,4D,4-4-5-0
+2C2HDbDb2N--3C--3S--4C--,4N,4-4-4-1
+2C2HDbDb2N--3C--,4C,0-1!D
+2C2HDbDb2N--3C--4C--,4D,ASK single or void
+2C2HDbDb2N--3C--4C--4D--,4N,4-4-1-4
+2C2HDbDb2N--3C--4C--4D--,5C,4-4-0-5
+2C2HDbDb2N--3C--4C--,4N,Signoff
+2C2HDbDb,2S,15-18HcP; LTC: 5
+2C2HDbDb2S--,2N,ASK short
+2C2HDbDb2S--2N--,3C,0-1!D
+2C2HDbDb2S--2N--3C--,3D,ASK single or void
+2C2HDbDb2S--2N--3C--3D--,3N,4-4-1-4
+2C2HDbDb2S--2N--3C--3D--,4C,4-4-0-5
+2C2HDbDb2S--2N--,3D,0-1!H
+2C2HDbDb2S--2N--3D--,3H,ASK single or void
+2C2HDbDb2S--2N--3D--3H--,3N,4-1-4-4
+2C2HDbDb2S--2N--3D--3H--,4C,4-0-4-5
+2C2HDbDb2S--2N--3D--3H--,4D,4-0-5-4
+2C2HDbDb2S--2N--,3H,0-1!S
+2C2HDbDb2S--2N--3H--,3S,ASK single or void
+2C2HDbDb2S--2N--3H--3S--,3N,1-4-4-4
+2C2HDbDb2S--2N--3H--3S--,4C,0-4-4-5
+2C2HDbDb2S--2N--3H--3S--,4D,0-4-5-4
+2C2HDbDb2S--2N--,3S,0-1!C
+2C2HDbDb2S--2N--3S--,3N,Signoff
+2C2HDbDb2S--2N--3S--,4C,ASK single or void
+2C2HDbDb2S--2N--3S--4C--,4D,4-4-5-0
+2C2HDbDb2S--2N--3S--4C--,4N,4-4-4-1
+2C2HDbDb,3C,21+HcP; LTC: 3
+2C2HDbDb3C--,3D,ASK short
+2C2HDbDb3C--3D--,3H,0-1!S
+2C2HDbDb3C--3D--3H--,3S,ASK single or void
+2C2HDbDb3C--3D--3H--3S--,3N,1-4-4-4
+2C2HDbDb3C--3D--3H--3S--,4C,0-4-4-5
+2C2HDbDb3C--3D--3H--3S--,4D,0-4-5-4
+2C2HDbDb3C--3D--,3S,0-1!C
+2C2HDbDb3C--3D--3S--,3N,Signoff
+2C2HDbDb3C--3D--3S--,4C,ASK single or void
+2C2HDbDb3C--3D--3S--4C--,4D,4-4-5-0
+2C2HDbDb3C--3D--3S--4C--,4N,4-4-4-1
+2C2HDbDb3C--3D--,4C,0-1!D
+2C2HDbDb3C--3D--4C--,4D,ASK single or void
+2C2HDbDb3C--3D--4C--4D--,4N,4-4-1-4
+2C2HDbDb3C--3D--4C--4D--,5C,4-4-0-5
+2C2HDbDb3C--3D--4C--,4N,Signoff
+2C2HDbDb3C--3D--,4D,0-1!H
+2C2HDbDb3C--3D--4D--,4H,ASK single or void
+2C2HDbDb3C--3D--4D--4H--,4N,4-1-4-4
+2C2HDbDb3C--3D--4D--4H--,5C,4-0-4-5
+2C2HDbDb3C--3D--4D--4H--,5D,4-0-5-4
+2C2HDbDb3C--3D--4D--,4N,Signoff
+2C2HDbDb,3D,LTC: <3
+2C2HDbDb3D--,3H,ASK short
+2C2HDbDb3D--3H--,3S,0-1!C
+2C2HDbDb3D--3H--3S--,3N,Signoff
+2C2HDbDb3D--3H--3S--,4C,ASK single or void
+2C2HDbDb3D--3H--3S--4C--,4D,4-4-5-0
+2C2HDbDb3D--3H--3S--4C--,4N,4-4-4-1
+2C2HDbDb3D--3H--,4C,0-1!D
+2C2HDbDb3D--3H--4C--,4D,ASK single or void
+2C2HDbDb3D--3H--4C--4D--,4N,4-4-1-4
+2C2HDbDb3D--3H--4C--4D--,5C,4-4-0-5
+2C2HDbDb3D--3H--4C--,4N,Signoff
+2C2HDbDb3D--3H--,4D,0-1!H
+2C2HDbDb3D--3H--4D--,4H,ASK single or void
+2C2HDbDb3D--3H--4D--4H--,4N,4-1-4-4
+2C2HDbDb3D--3H--4D--4H--,5C,4-0-4-5
+2C2HDbDb3D--3H--4D--4H--,5D,4-0-5-4
+2C2HDbDb3D--3H--4D--,4N,Signoff
+2C2HDbDb3D--3H--,4H,0-1!S
+2C2HDbDb3D--3H--4H--,4S,ASK single or void
+2C2HDbDb3D--3H--4H--4S--,4N,1-4-4-4
+2C2HDbDb3D--3H--4H--4S--,5C,0-4-4-5
+2C2HDbDb3D--3H--4H--4S--,5D,0-4-5-4
+2C2HDb--,2H,11-14HcP; LTC: 6
+2C2HDb--2H--,2S,ASK short
+2C2HDb--2H--2S--,2N,0-1!C
+2C2HDb--2H--2S--2N--,3C,ASK single or void
+2C2HDb--2H--2S--2N--3C--,3D,4-4-5-0
+2C2HDb--2H--2S--2N--3C--,3N,4-4-4-1
+2C2HDb--2H--2S--,3C,0-1!D
+2C2HDb--2H--2S--3C--,3D,ASK single or void
+2C2HDb--2H--2S--3C--3D--,3N,4-4-1-4
+2C2HDb--2H--2S--3C--3D--,4C,4-4-0-5
+2C2HDb--2H--2S--,3D,0-1!H
+2C2HDb--2H--2S--3D--,3H,ASK single or void
+2C2HDb--2H--2S--3D--3H--,3N,4-1-4-4
+2C2HDb--2H--2S--3D--3H--,4C,4-0-4-5
+2C2HDb--2H--2S--3D--3H--,4D,4-0-5-4
+2C2HDb--2H--2S--,3H,0-1!S
+2C2HDb--2H--2S--3H--,3S,ASK single or void
+2C2HDb--2H--2S--3H--3S--,3N,1-4-4-4
+2C2HDb--2H--2S--3H--3S--,4C,0-4-4-5
+2C2HDb--2H--2S--3H--3S--,4D,0-4-5-4
+2C2HDb--,--,To play; 2+!H
+2C2HDbRd,2H,11-14HcP; LTC: 6
+2C2HDbRd2H--,2S,ASK short
+2C2HDbRd2H--2S--,2N,0-1!C
+2C2HDbRd2H--2S--2N--,3C,ASK single or void
+2C2HDbRd2H--2S--2N--3C--,3D,4-4-5-0
+2C2HDbRd2H--2S--2N--3C--,3N,4-4-4-1
+2C2HDbRd2H--2S--,3C,0-1!D
+2C2HDbRd2H--2S--3C--,3D,ASK single or void
+2C2HDbRd2H--2S--3C--3D--,3N,4-4-1-4
+2C2HDbRd2H--2S--3C--3D--,4C,4-4-0-5
+2C2HDbRd2H--2S--,3D,0-1!H
+2C2HDbRd2H--2S--3D--,3H,ASK single or void
+2C2HDbRd2H--2S--3D--3H--,3N,4-1-4-4
+2C2HDbRd2H--2S--3D--3H--,4C,4-0-4-5
+2C2HDbRd2H--2S--3D--3H--,4D,4-0-5-4
+2C2HDbRd2H--2S--,3H,0-1!S
+2C2HDbRd2H--2S--3H--,3S,ASK single or void
+2C2HDbRd2H--2S--3H--3S--,3N,1-4-4-4
+2C2HDbRd2H--2S--3H--3S--,4C,0-4-4-5
+2C2HDbRd2H--2S--3H--3S--,4D,0-4-5-4
+2C2HDbRd,--,To play
+2C2H,--,Weak
+2C2H----,2H,4!H; short !D
+2C2H----,2S,4!S; short !H
+2C2H----,Db,4+!H
+2C2H,Rd,Positive; 3+!C
+2C2S,2N,Positive; 1-2 cards in opps. ASK short
+2C2S2NDb,3C,0-1!C
+2C2S2NDb3C--,3D,ASK trump
+2C2S2NDb3C--3D--,3H,Minimum;weak supp
+2C2S2NDb3C--3D--,3N,MAXIMUM;weak supp
+2C2S2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3C--,3H,ASK trump
+2C2S2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3C--3H--,3S,Minimum;weak supp
+2C2S2NDb3C--3H--,4C,MAXIMUM;weak supp
+2C2S2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3C--,3N,Signoff
+2C2S2NDb3C--,3S,ASK trump
+2C2S2NDb3C--3S--,3N,Minimum;weak supp
+2C2S2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3C--3S--,4D,MAXIMUM;weak supp
+2C2S2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3C--,4H,Signoff
+2C2S2NDb3C--,4S,Signoff
+2C2S2NDb3C--,5C,Signoff
+2C2S2NDb3C--,5D,Signoff
+2C2S2NDb,3D,0-1!D
+2C2S2NDb3D--,3H,ASK trump
+2C2S2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3D--3H--,3S,Minimum;weak supp
+2C2S2NDb3D--3H--,4C,MAXIMUM;weak supp
+2C2S2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3D--,3N,Signoff
+2C2S2NDb3D--,3S,ASK trump
+2C2S2NDb3D--3S--,3N,Minimum;weak supp
+2C2S2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3D--3S--,4D,MAXIMUM;weak supp
+2C2S2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3D--,4C,ASK trump
+2C2S2NDb3D--4C--,4D,Minimum;weak supp
+2C2S2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3D--4C--,4S,MAXIMUM;weak supp
+2C2S2NDb3D--,4H,Signoff
+2C2S2NDb3D--,4S,Signoff
+2C2S2NDb3D--,5C,Signoff
+2C2S2NDb3D--,5D,Signoff
+2C2S2NDb,3H,0-1!H
+2C2S2NDb3H--,3N,Signoff
+2C2S2NDb3H--,3S,ASK trump
+2C2S2NDb3H--3S--,3N,Minimum;weak supp
+2C2S2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3H--3S--,4D,MAXIMUM;weak supp
+2C2S2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3H--,4C,ASK trump
+2C2S2NDb3H--4C--,4D,Minimum;weak supp
+2C2S2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3H--4C--,4S,MAXIMUM;weak supp
+2C2S2NDb3H--,4D,ASK trump
+2C2S2NDb3H--4D--,4H,Minimum;weak supp
+2C2S2NDb3H--4D--,4N,MAXIMUM;weak supp
+2C2S2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2S2NDb3H--,4H,Signoff
+2C2S2NDb3H--,4S,Signoff
+2C2S2NDb3H--,5C,Signoff
+2C2S2NDb3H--,5D,Signoff
+2C2S2NDb,3S,0-1!S
+2C2S2NDb3S--,3N,Signoff
+2C2S2NDb3S--,4C,ASK trump
+2C2S2NDb3S--4C--,4D,Minimum;weak supp
+2C2S2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3S--4C--,4S,MAXIMUM;weak supp
+2C2S2NDb3S--,4D,ASK trump
+2C2S2NDb3S--4D--,4H,Minimum;weak supp
+2C2S2NDb3S--4D--,4N,MAXIMUM;weak supp
+2C2S2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2S2NDb3S--,4H,Signoff
+2C2S2NDb3S--,4N,Set of trumf: !H. ASK trump
+2C2S2NDb3S--4N--,5C,Minimum;weak supp
+2C2S2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3S--4N--,5H,MAXIMUM;weak supp
+2C2S2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2NDb3S--,4S,Signoff
+2C2S2NDb3S--,5C,Signoff
+2C2S2NDb3S--,5D,Signoff
+2C2S2N--,3C,0-1!C
+2C2S2N--3C--,3D,ASK trump
+2C2S2N--3C--3D--,3H,Minimum;weak supp
+2C2S2N--3C--3D--,3N,MAXIMUM;weak supp
+2C2S2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3C--,3H,ASK trump
+2C2S2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3C--3H--,3S,Minimum;weak supp
+2C2S2N--3C--3H--,4C,MAXIMUM;weak supp
+2C2S2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3C--,3N,Signoff
+2C2S2N--3C--,3S,ASK trump
+2C2S2N--3C--3S--,3N,Minimum;weak supp
+2C2S2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3C--3S--,4D,MAXIMUM;weak supp
+2C2S2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3C--,4H,Signoff
+2C2S2N--3C--,4S,Signoff
+2C2S2N--3C--,5C,Signoff
+2C2S2N--3C--,5D,Signoff
+2C2S2N--,3D,0-1!D
+2C2S2N--3D--,3H,ASK trump
+2C2S2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3D--3H--,3S,Minimum;weak supp
+2C2S2N--3D--3H--,4C,MAXIMUM;weak supp
+2C2S2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3D--,3N,Signoff
+2C2S2N--3D--,3S,ASK trump
+2C2S2N--3D--3S--,3N,Minimum;weak supp
+2C2S2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3D--3S--,4D,MAXIMUM;weak supp
+2C2S2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3D--,4C,ASK trump
+2C2S2N--3D--4C--,4D,Minimum;weak supp
+2C2S2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3D--4C--,4S,MAXIMUM;weak supp
+2C2S2N--3D--,4H,Signoff
+2C2S2N--3D--,4S,Signoff
+2C2S2N--3D--,5C,Signoff
+2C2S2N--3D--,5D,Signoff
+2C2S2N--,3H,0-1!H
+2C2S2N--3H--,3N,Signoff
+2C2S2N--3H--,3S,ASK trump
+2C2S2N--3H--3S--,3N,Minimum;weak supp
+2C2S2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3H--3S--,4D,MAXIMUM;weak supp
+2C2S2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3H--,4C,ASK trump
+2C2S2N--3H--4C--,4D,Minimum;weak supp
+2C2S2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3H--4C--,4S,MAXIMUM;weak supp
+2C2S2N--3H--,4D,ASK trump
+2C2S2N--3H--4D--,4H,Minimum;weak supp
+2C2S2N--3H--4D--,4N,MAXIMUM;weak supp
+2C2S2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2S2N--3H--,4H,Signoff
+2C2S2N--3H--,4S,Signoff
+2C2S2N--3H--,5C,Signoff
+2C2S2N--3H--,5D,Signoff
+2C2S2N--,3S,0-1!S
+2C2S2N--3S--,3N,Signoff
+2C2S2N--3S--,4C,ASK trump
+2C2S2N--3S--4C--,4D,Minimum;weak supp
+2C2S2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3S--4C--,4S,MAXIMUM;weak supp
+2C2S2N--3S--,4D,ASK trump
+2C2S2N--3S--4D--,4H,Minimum;weak supp
+2C2S2N--3S--4D--,4N,MAXIMUM;weak supp
+2C2S2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C2S2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C2S2N--3S--,4H,Signoff
+2C2S2N--3S--,4N,Set of trumf: !H. ASK trump
+2C2S2N--3S--4N--,5C,Minimum;weak supp
+2C2S2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3S--4N--,5H,MAXIMUM;weak supp
+2C2S2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C2S2N--3S--,4S,Signoff
+2C2S2N--3S--,5C,Signoff
+2C2S2N--3S--,5D,Signoff
+2C2S,Db,Positive. Penalty???
+2C2SDbDb,2H,11-14HcP; LTC: 6
+2C2SDbDb2H--,2S,ASK short
+2C2SDbDb2H--2S--,2N,0-1!C
+2C2SDbDb2H--2S--2N--,3C,ASK single or void
+2C2SDbDb2H--2S--2N--3C--,3D,4-4-5-0
+2C2SDbDb2H--2S--2N--3C--,3N,4-4-4-1
+2C2SDbDb2H--2S--,3C,0-1!D
+2C2SDbDb2H--2S--3C--,3D,ASK single or void
+2C2SDbDb2H--2S--3C--3D--,3N,4-4-1-4
+2C2SDbDb2H--2S--3C--3D--,4C,4-4-0-5
+2C2SDbDb2H--2S--,3D,0-1!H
+2C2SDbDb2H--2S--3D--,3H,ASK single or void
+2C2SDbDb2H--2S--3D--3H--,3N,4-1-4-4
+2C2SDbDb2H--2S--3D--3H--,4C,4-0-4-5
+2C2SDbDb2H--2S--3D--3H--,4D,4-0-5-4
+2C2SDbDb2H--2S--,3H,0-1!S
+2C2SDbDb2H--2S--3H--,3S,ASK single or void
+2C2SDbDb2H--2S--3H--3S--,3N,1-4-4-4
+2C2SDbDb2H--2S--3H--3S--,4C,0-4-4-5
+2C2SDbDb2H--2S--3H--3S--,4D,0-4-5-4
+2C2SDbDb,2N,18-21HcP; LTC: 4
+2C2SDbDb2N--,3C,ASK short
+2C2SDbDb2N--3C--,3D,0-1!H
+2C2SDbDb2N--3C--3D--,3H,ASK single or void
+2C2SDbDb2N--3C--3D--3H--,3N,4-1-4-4
+2C2SDbDb2N--3C--3D--3H--,4C,4-0-4-5
+2C2SDbDb2N--3C--3D--3H--,4D,4-0-5-4
+2C2SDbDb2N--3C--,3H,0-1!S
+2C2SDbDb2N--3C--3H--,3S,ASK single or void
+2C2SDbDb2N--3C--3H--3S--,3N,1-4-4-4
+2C2SDbDb2N--3C--3H--3S--,4C,0-4-4-5
+2C2SDbDb2N--3C--3H--3S--,4D,0-4-5-4
+2C2SDbDb2N--3C--,3S,0-1!C
+2C2SDbDb2N--3C--3S--,3N,Signoff
+2C2SDbDb2N--3C--3S--,4C,ASK single or void
+2C2SDbDb2N--3C--3S--4C--,4D,4-4-5-0
+2C2SDbDb2N--3C--3S--4C--,4N,4-4-4-1
+2C2SDbDb2N--3C--,4C,0-1!D
+2C2SDbDb2N--3C--4C--,4D,ASK single or void
+2C2SDbDb2N--3C--4C--4D--,4N,4-4-1-4
+2C2SDbDb2N--3C--4C--4D--,5C,4-4-0-5
+2C2SDbDb2N--3C--4C--,4N,Signoff
+2C2SDbDb,2S,15-18HcP; LTC: 5
+2C2SDbDb2S--,2N,ASK short
+2C2SDbDb2S--2N--,3C,0-1!D
+2C2SDbDb2S--2N--3C--,3D,ASK single or void
+2C2SDbDb2S--2N--3C--3D--,3N,4-4-1-4
+2C2SDbDb2S--2N--3C--3D--,4C,4-4-0-5
+2C2SDbDb2S--2N--,3D,0-1!H
+2C2SDbDb2S--2N--3D--,3H,ASK single or void
+2C2SDbDb2S--2N--3D--3H--,3N,4-1-4-4
+2C2SDbDb2S--2N--3D--3H--,4C,4-0-4-5
+2C2SDbDb2S--2N--3D--3H--,4D,4-0-5-4
+2C2SDbDb2S--2N--,3H,0-1!S
+2C2SDbDb2S--2N--3H--,3S,ASK single or void
+2C2SDbDb2S--2N--3H--3S--,3N,1-4-4-4
+2C2SDbDb2S--2N--3H--3S--,4C,0-4-4-5
+2C2SDbDb2S--2N--3H--3S--,4D,0-4-5-4
+2C2SDbDb2S--2N--,3S,0-1!C
+2C2SDbDb2S--2N--3S--,3N,Signoff
+2C2SDbDb2S--2N--3S--,4C,ASK single or void
+2C2SDbDb2S--2N--3S--4C--,4D,4-4-5-0
+2C2SDbDb2S--2N--3S--4C--,4N,4-4-4-1
+2C2SDbDb,3C,21+HcP; LTC: 3
+2C2SDbDb3C--,3D,ASK short
+2C2SDbDb3C--3D--,3H,0-1!S
+2C2SDbDb3C--3D--3H--,3S,ASK single or void
+2C2SDbDb3C--3D--3H--3S--,3N,1-4-4-4
+2C2SDbDb3C--3D--3H--3S--,4C,0-4-4-5
+2C2SDbDb3C--3D--3H--3S--,4D,0-4-5-4
+2C2SDbDb3C--3D--,3S,0-1!C
+2C2SDbDb3C--3D--3S--,3N,Signoff
+2C2SDbDb3C--3D--3S--,4C,ASK single or void
+2C2SDbDb3C--3D--3S--4C--,4D,4-4-5-0
+2C2SDbDb3C--3D--3S--4C--,4N,4-4-4-1
+2C2SDbDb3C--3D--,4C,0-1!D
+2C2SDbDb3C--3D--4C--,4D,ASK single or void
+2C2SDbDb3C--3D--4C--4D--,4N,4-4-1-4
+2C2SDbDb3C--3D--4C--4D--,5C,4-4-0-5
+2C2SDbDb3C--3D--4C--,4N,Signoff
+2C2SDbDb3C--3D--,4D,0-1!H
+2C2SDbDb3C--3D--4D--,4H,ASK single or void
+2C2SDbDb3C--3D--4D--4H--,4N,4-1-4-4
+2C2SDbDb3C--3D--4D--4H--,5C,4-0-4-5
+2C2SDbDb3C--3D--4D--4H--,5D,4-0-5-4
+2C2SDbDb3C--3D--4D--,4N,Signoff
+2C2SDbDb,3D,LTC: <3
+2C2SDbDb3D--,3H,ASK short
+2C2SDbDb3D--3H--,3S,0-1!C
+2C2SDbDb3D--3H--3S--,3N,Signoff
+2C2SDbDb3D--3H--3S--,4C,ASK single or void
+2C2SDbDb3D--3H--3S--4C--,4D,4-4-5-0
+2C2SDbDb3D--3H--3S--4C--,4N,4-4-4-1
+2C2SDbDb3D--3H--,4C,0-1!D
+2C2SDbDb3D--3H--4C--,4D,ASK single or void
+2C2SDbDb3D--3H--4C--4D--,4N,4-4-1-4
+2C2SDbDb3D--3H--4C--4D--,5C,4-4-0-5
+2C2SDbDb3D--3H--4C--,4N,Signoff
+2C2SDbDb3D--3H--,4D,0-1!H
+2C2SDbDb3D--3H--4D--,4H,ASK single or void
+2C2SDbDb3D--3H--4D--4H--,4N,4-1-4-4
+2C2SDbDb3D--3H--4D--4H--,5C,4-0-4-5
+2C2SDbDb3D--3H--4D--4H--,5D,4-0-5-4
+2C2SDbDb3D--3H--4D--,4N,Signoff
+2C2SDbDb3D--3H--,4H,0-1!S
+2C2SDbDb3D--3H--4H--,4S,ASK single or void
+2C2SDbDb3D--3H--4H--4S--,4N,1-4-4-4
+2C2SDbDb3D--3H--4H--4S--,5C,0-4-4-5
+2C2SDbDb3D--3H--4H--4S--,5D,0-4-5-4
+2C2SDb--,2H,11-14HcP; LTC: 6
+2C2SDb--2H--,2S,ASK short
+2C2SDb--2H--2S--,2N,0-1!C
+2C2SDb--2H--2S--2N--,3C,ASK single or void
+2C2SDb--2H--2S--2N--3C--,3D,4-4-5-0
+2C2SDb--2H--2S--2N--3C--,3N,4-4-4-1
+2C2SDb--2H--2S--,3C,0-1!D
+2C2SDb--2H--2S--3C--,3D,ASK single or void
+2C2SDb--2H--2S--3C--3D--,3N,4-4-1-4
+2C2SDb--2H--2S--3C--3D--,4C,4-4-0-5
+2C2SDb--2H--2S--,3D,0-1!H
+2C2SDb--2H--2S--3D--,3H,ASK single or void
+2C2SDb--2H--2S--3D--3H--,3N,4-1-4-4
+2C2SDb--2H--2S--3D--3H--,4C,4-0-4-5
+2C2SDb--2H--2S--3D--3H--,4D,4-0-5-4
+2C2SDb--2H--2S--,3H,0-1!S
+2C2SDb--2H--2S--3H--,3S,ASK single or void
+2C2SDb--2H--2S--3H--3S--,3N,1-4-4-4
+2C2SDb--2H--2S--3H--3S--,4C,0-4-4-5
+2C2SDb--2H--2S--3H--3S--,4D,0-4-5-4
+2C2SDb--,2S,15-18HcP; LTC: 5
+2C2SDb--2S--,2N,ASK short
+2C2SDb--2S--2N--,3C,0-1!D
+2C2SDb--2S--2N--3C--,3D,ASK single or void
+2C2SDb--2S--2N--3C--3D--,3N,4-4-1-4
+2C2SDb--2S--2N--3C--3D--,4C,4-4-0-5
+2C2SDb--2S--2N--,3D,0-1!H
+2C2SDb--2S--2N--3D--,3H,ASK single or void
+2C2SDb--2S--2N--3D--3H--,3N,4-1-4-4
+2C2SDb--2S--2N--3D--3H--,4C,4-0-4-5
+2C2SDb--2S--2N--3D--3H--,4D,4-0-5-4
+2C2SDb--2S--2N--,3H,0-1!S
+2C2SDb--2S--2N--3H--,3S,ASK single or void
+2C2SDb--2S--2N--3H--3S--,3N,1-4-4-4
+2C2SDb--2S--2N--3H--3S--,4C,0-4-4-5
+2C2SDb--2S--2N--3H--3S--,4D,0-4-5-4
+2C2SDb--2S--2N--,3S,0-1!C
+2C2SDb--2S--2N--3S--,3N,Signoff
+2C2SDb--2S--2N--3S--,4C,ASK single or void
+2C2SDb--2S--2N--3S--4C--,4D,4-4-5-0
+2C2SDb--2S--2N--3S--4C--,4N,4-4-4-1
+2C2SDb--,--,To play; 2+!S
+2C2SDbRd,2H,11-14HcP; LTC: 6
+2C2SDbRd2H--,2S,ASK short
+2C2SDbRd2H--2S--,2N,0-1!C
+2C2SDbRd2H--2S--2N--,3C,ASK single or void
+2C2SDbRd2H--2S--2N--3C--,3D,4-4-5-0
+2C2SDbRd2H--2S--2N--3C--,3N,4-4-4-1
+2C2SDbRd2H--2S--,3C,0-1!D
+2C2SDbRd2H--2S--3C--,3D,ASK single or void
+2C2SDbRd2H--2S--3C--3D--,3N,4-4-1-4
+2C2SDbRd2H--2S--3C--3D--,4C,4-4-0-5
+2C2SDbRd2H--2S--,3D,0-1!H
+2C2SDbRd2H--2S--3D--,3H,ASK single or void
+2C2SDbRd2H--2S--3D--3H--,3N,4-1-4-4
+2C2SDbRd2H--2S--3D--3H--,4C,4-0-4-5
+2C2SDbRd2H--2S--3D--3H--,4D,4-0-5-4
+2C2SDbRd2H--2S--,3H,0-1!S
+2C2SDbRd2H--2S--3H--,3S,ASK single or void
+2C2SDbRd2H--2S--3H--3S--,3N,1-4-4-4
+2C2SDbRd2H--2S--3H--3S--,4C,0-4-4-5
+2C2SDbRd2H--2S--3H--3S--,4D,0-4-5-4
+2C2SDbRd,2S,15-18HcP; LTC: 5
+2C2SDbRd2S--,2N,ASK short
+2C2SDbRd2S--2N--,3C,0-1!D
+2C2SDbRd2S--2N--3C--,3D,ASK single or void
+2C2SDbRd2S--2N--3C--3D--,3N,4-4-1-4
+2C2SDbRd2S--2N--3C--3D--,4C,4-4-0-5
+2C2SDbRd2S--2N--,3D,0-1!H
+2C2SDbRd2S--2N--3D--,3H,ASK single or void
+2C2SDbRd2S--2N--3D--3H--,3N,4-1-4-4
+2C2SDbRd2S--2N--3D--3H--,4C,4-0-4-5
+2C2SDbRd2S--2N--3D--3H--,4D,4-0-5-4
+2C2SDbRd2S--2N--,3H,0-1!S
+2C2SDbRd2S--2N--3H--,3S,ASK single or void
+2C2SDbRd2S--2N--3H--3S--,3N,1-4-4-4
+2C2SDbRd2S--2N--3H--3S--,4C,0-4-4-5
+2C2SDbRd2S--2N--3H--3S--,4D,0-4-5-4
+2C2SDbRd2S--2N--,3S,0-1!C
+2C2SDbRd2S--2N--3S--,3N,Signoff
+2C2SDbRd2S--2N--3S--,4C,ASK single or void
+2C2SDbRd2S--2N--3S--4C--,4D,4-4-5-0
+2C2SDbRd2S--2N--3S--4C--,4N,4-4-4-1
+2C2SDbRd,--,To play
+2C2S,--,Weak
+2C2S----,2H,4!H; short !D
+2C2S----,2S,4!S; short !D
+2C2S----,Db,4+!S
+2C2S,Rd,Positive; 3+!C
+,2C,12-16HcP; 3-suiter; any short
+2CDb,2D,Weak; 5+!D; Signoff unless short suit
+2CDb2D--,2H,0-1!D
+2CDb,2H,Weak; 5+!H; Signoff unless short suit
+2CDb,2N,Positive; 0-2!C. ASK short
+2CDb2NDb,3C,0-1!C
+2CDb2NDb3C--,3D,ASK trump
+2CDb2NDb3C--3D--,3H,Minimum;weak supp
+2CDb2NDb3C--3D--,3N,MAXIMUM;weak supp
+2CDb2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3C--,3H,ASK trump
+2CDb2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3C--3H--,3S,Minimum;weak supp
+2CDb2NDb3C--3H--,4C,MAXIMUM;weak supp
+2CDb2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3C--,3N,Signoff
+2CDb2NDb3C--,3S,ASK trump
+2CDb2NDb3C--3S--,3N,Minimum;weak supp
+2CDb2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3C--3S--,4D,MAXIMUM;weak supp
+2CDb2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3C--,4H,Signoff
+2CDb2NDb3C--,4S,Signoff
+2CDb2NDb3C--,5C,Signoff
+2CDb2NDb3C--,5D,Signoff
+2CDb2NDb,3D,0-1!D
+2CDb2NDb3D--,3H,ASK trump
+2CDb2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3D--3H--,3S,Minimum;weak supp
+2CDb2NDb3D--3H--,4C,MAXIMUM;weak supp
+2CDb2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3D--,3N,Signoff
+2CDb2NDb3D--,3S,ASK trump
+2CDb2NDb3D--3S--,3N,Minimum;weak supp
+2CDb2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3D--3S--,4D,MAXIMUM;weak supp
+2CDb2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3D--,4C,ASK trump
+2CDb2NDb3D--4C--,4D,Minimum;weak supp
+2CDb2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3D--4C--,4S,MAXIMUM;weak supp
+2CDb2NDb3D--,4H,Signoff
+2CDb2NDb3D--,4S,Signoff
+2CDb2NDb3D--,5C,Signoff
+2CDb2NDb3D--,5D,Signoff
+2CDb2NDb,3H,0-1!H
+2CDb2NDb3H--,3N,Signoff
+2CDb2NDb3H--,3S,ASK trump
+2CDb2NDb3H--3S--,3N,Minimum;weak supp
+2CDb2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3H--3S--,4D,MAXIMUM;weak supp
+2CDb2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3H--,4C,ASK trump
+2CDb2NDb3H--4C--,4D,Minimum;weak supp
+2CDb2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3H--4C--,4S,MAXIMUM;weak supp
+2CDb2NDb3H--,4D,ASK trump
+2CDb2NDb3H--4D--,4H,Minimum;weak supp
+2CDb2NDb3H--4D--,4N,MAXIMUM;weak supp
+2CDb2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2CDb2NDb3H--,4H,Signoff
+2CDb2NDb3H--,4S,Signoff
+2CDb2NDb3H--,5C,Signoff
+2CDb2NDb3H--,5D,Signoff
+2CDb2NDb,3S,0-1!S
+2CDb2NDb3S--,3N,Signoff
+2CDb2NDb3S--,4C,ASK trump
+2CDb2NDb3S--4C--,4D,Minimum;weak supp
+2CDb2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3S--4C--,4S,MAXIMUM;weak supp
+2CDb2NDb3S--,4D,ASK trump
+2CDb2NDb3S--4D--,4H,Minimum;weak supp
+2CDb2NDb3S--4D--,4N,MAXIMUM;weak supp
+2CDb2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2CDb2NDb3S--,4H,Signoff
+2CDb2NDb3S--,4N,Set of trumf: !H. ASK trump
+2CDb2NDb3S--4N--,5C,Minimum;weak supp
+2CDb2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3S--4N--,5H,MAXIMUM;weak supp
+2CDb2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2NDb3S--,4S,Signoff
+2CDb2NDb3S--,5C,Signoff
+2CDb2NDb3S--,5D,Signoff
+2CDb2N--,3C,0-1!C
+2CDb2N--3C--,3D,ASK trump
+2CDb2N--3C--3D--,3H,Minimum;weak supp
+2CDb2N--3C--3D--,3N,MAXIMUM;weak supp
+2CDb2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3C--,3H,ASK trump
+2CDb2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3C--3H--,3S,Minimum;weak supp
+2CDb2N--3C--3H--,4C,MAXIMUM;weak supp
+2CDb2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3C--,3N,Signoff
+2CDb2N--3C--,3S,ASK trump
+2CDb2N--3C--3S--,3N,Minimum;weak supp
+2CDb2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3C--3S--,4D,MAXIMUM;weak supp
+2CDb2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3C--,4H,Signoff
+2CDb2N--3C--,4S,Signoff
+2CDb2N--3C--,5C,Signoff
+2CDb2N--3C--,5D,Signoff
+2CDb2N--,3D,0-1!D
+2CDb2N--3D--,3H,ASK trump
+2CDb2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3D--3H--,3S,Minimum;weak supp
+2CDb2N--3D--3H--,4C,MAXIMUM;weak supp
+2CDb2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3D--,3N,Signoff
+2CDb2N--3D--,3S,ASK trump
+2CDb2N--3D--3S--,3N,Minimum;weak supp
+2CDb2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3D--3S--,4D,MAXIMUM;weak supp
+2CDb2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3D--,4C,ASK trump
+2CDb2N--3D--4C--,4D,Minimum;weak supp
+2CDb2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3D--4C--,4S,MAXIMUM;weak supp
+2CDb2N--3D--,4H,Signoff
+2CDb2N--3D--,4S,Signoff
+2CDb2N--3D--,5C,Signoff
+2CDb2N--3D--,5D,Signoff
+2CDb2N--,3H,0-1!H
+2CDb2N--3H--,3N,Signoff
+2CDb2N--3H--,3S,ASK trump
+2CDb2N--3H--3S--,3N,Minimum;weak supp
+2CDb2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3H--3S--,4D,MAXIMUM;weak supp
+2CDb2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3H--,4C,ASK trump
+2CDb2N--3H--4C--,4D,Minimum;weak supp
+2CDb2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3H--4C--,4S,MAXIMUM;weak supp
+2CDb2N--3H--,4D,ASK trump
+2CDb2N--3H--4D--,4H,Minimum;weak supp
+2CDb2N--3H--4D--,4N,MAXIMUM;weak supp
+2CDb2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2CDb2N--3H--,4H,Signoff
+2CDb2N--3H--,4S,Signoff
+2CDb2N--3H--,5C,Signoff
+2CDb2N--3H--,5D,Signoff
+2CDb2N--,3S,0-1!S
+2CDb2N--3S--,3N,Signoff
+2CDb2N--3S--,4C,ASK trump
+2CDb2N--3S--4C--,4D,Minimum;weak supp
+2CDb2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3S--4C--,4S,MAXIMUM;weak supp
+2CDb2N--3S--,4D,ASK trump
+2CDb2N--3S--4D--,4H,Minimum;weak supp
+2CDb2N--3S--4D--,4N,MAXIMUM;weak supp
+2CDb2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2CDb2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2CDb2N--3S--,4H,Signoff
+2CDb2N--3S--,4N,Set of trumf: !H. ASK trump
+2CDb2N--3S--4N--,5C,Minimum;weak supp
+2CDb2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3S--4N--,5H,MAXIMUM;weak supp
+2CDb2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2CDb2N--3S--,4S,Signoff
+2CDb2N--3S--,5C,Signoff
+2CDb2N--3S--,5D,Signoff
+2CDb,2S,Weak; 5+!S; Signoff unless short suit
+2CDb,--,Weak; 4+!C
+2CDb,Rd,Positive; 3+!C
+2C--,2D,Signoff unless short suit
+2C--2D--,2H,0-1!D
+2C--,2H,Signoff unless short suit
+2C--2H--,2S,0-1!H
+2C--,2N,ASK short
+2C--2NDb,3C,0-1!C
+2C--2NDb3C--,3D,ASK trump
+2C--2NDb3C--3D--,3H,Minimum;weak supp
+2C--2NDb3C--3D--,3N,MAXIMUM;weak supp
+2C--2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3C--,3H,ASK trump
+2C--2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3C--3H--,3S,Minimum;weak supp
+2C--2NDb3C--3H--,4C,MAXIMUM;weak supp
+2C--2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3C--,3N,Signoff
+2C--2NDb3C--,3S,ASK trump
+2C--2NDb3C--3S--,3N,Minimum;weak supp
+2C--2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3C--3S--,4D,MAXIMUM;weak supp
+2C--2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3C--,4H,Signoff
+2C--2NDb3C--,4S,Signoff
+2C--2NDb3C--,5C,Signoff
+2C--2NDb3C--,5D,Signoff
+2C--2NDb,3D,0-1!D
+2C--2NDb3D--,3H,ASK trump
+2C--2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3D--3H--,3S,Minimum;weak supp
+2C--2NDb3D--3H--,4C,MAXIMUM;weak supp
+2C--2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3D--,3N,Signoff
+2C--2NDb3D--,3S,ASK trump
+2C--2NDb3D--3S--,3N,Minimum;weak supp
+2C--2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3D--3S--,4D,MAXIMUM;weak supp
+2C--2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3D--,4C,ASK trump
+2C--2NDb3D--4C--,4D,Minimum;weak supp
+2C--2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3D--4C--,4S,MAXIMUM;weak supp
+2C--2NDb3D--,4H,Signoff
+2C--2NDb3D--,4S,Signoff
+2C--2NDb3D--,5C,Signoff
+2C--2NDb3D--,5D,Signoff
+2C--2NDb,3H,0-1!H
+2C--2NDb3H--,3N,Signoff
+2C--2NDb3H--,3S,ASK trump
+2C--2NDb3H--3S--,3N,Minimum;weak supp
+2C--2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3H--3S--,4D,MAXIMUM;weak supp
+2C--2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3H--,4C,ASK trump
+2C--2NDb3H--4C--,4D,Minimum;weak supp
+2C--2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3H--4C--,4S,MAXIMUM;weak supp
+2C--2NDb3H--,4D,ASK trump
+2C--2NDb3H--4D--,4H,Minimum;weak supp
+2C--2NDb3H--4D--,4N,MAXIMUM;weak supp
+2C--2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C--2NDb3H--,4H,Signoff
+2C--2NDb3H--,4S,Signoff
+2C--2NDb3H--,5C,Signoff
+2C--2NDb3H--,5D,Signoff
+2C--2NDb,3S,0-1!S
+2C--2NDb3S--,3N,Signoff
+2C--2NDb3S--,4C,ASK trump
+2C--2NDb3S--4C--,4D,Minimum;weak supp
+2C--2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3S--4C--,4S,MAXIMUM;weak supp
+2C--2NDb3S--,4D,ASK trump
+2C--2NDb3S--4D--,4H,Minimum;weak supp
+2C--2NDb3S--4D--,4N,MAXIMUM;weak supp
+2C--2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C--2NDb3S--,4H,Signoff
+2C--2NDb3S--,4N,Set of trumf: !H. ASK trump
+2C--2NDb3S--4N--,5C,Minimum;weak supp
+2C--2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3S--4N--,5H,MAXIMUM;weak supp
+2C--2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2NDb3S--,4S,Signoff
+2C--2NDb3S--,5C,Signoff
+2C--2NDb3S--,5D,Signoff
+2C--2N--,3C,0-1!C
+2C--2N--3C--,3D,ASK trump
+2C--2N--3C--3D--,3H,Minimum;weak supp
+2C--2N--3C--3D--,3N,MAXIMUM;weak supp
+2C--2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2N--3C--,3H,ASK trump
+2C--2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2N--3C--3H--,3S,Minimum;weak supp
+2C--2N--3C--3H--,4C,MAXIMUM;weak supp
+2C--2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2N--3C--,3N,Signoff
+2C--2N--3C--,3S,ASK trump
+2C--2N--3C--3S--,3N,Minimum;weak supp
+2C--2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3C--3S--,4D,MAXIMUM;weak supp
+2C--2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3C--,4H,Signoff
+2C--2N--3C--,4S,Signoff
+2C--2N--3C--,5C,Signoff
+2C--2N--3C--,5D,Signoff
+2C--2N--,3D,0-1!D
+2C--2N--3D--,3H,ASK trump
+2C--2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2N--3D--3H--,3S,Minimum;weak supp
+2C--2N--3D--3H--,4C,MAXIMUM;weak supp
+2C--2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2N--3D--,3N,Signoff
+2C--2N--3D--,3S,ASK trump
+2C--2N--3D--3S--,3N,Minimum;weak supp
+2C--2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3D--3S--,4D,MAXIMUM;weak supp
+2C--2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3D--,4C,ASK trump
+2C--2N--3D--4C--,4D,Minimum;weak supp
+2C--2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3D--4C--,4S,MAXIMUM;weak supp
+2C--2N--3D--,4H,Signoff
+2C--2N--3D--,4S,Signoff
+2C--2N--3D--,5C,Signoff
+2C--2N--3D--,5D,Signoff
+2C--2N--,3H,0-1!H
+2C--2N--3H--,3N,Signoff
+2C--2N--3H--,3S,ASK trump
+2C--2N--3H--3S--,3N,Minimum;weak supp
+2C--2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3H--3S--,4D,MAXIMUM;weak supp
+2C--2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3H--,4C,ASK trump
+2C--2N--3H--4C--,4D,Minimum;weak supp
+2C--2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3H--4C--,4S,MAXIMUM;weak supp
+2C--2N--3H--,4D,ASK trump
+2C--2N--3H--4D--,4H,Minimum;weak supp
+2C--2N--3H--4D--,4N,MAXIMUM;weak supp
+2C--2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C--2N--3H--,4H,Signoff
+2C--2N--3H--,4S,Signoff
+2C--2N--3H--,5C,Signoff
+2C--2N--3H--,5D,Signoff
+2C--2N--,3S,0-1!S
+2C--2N--3S--,3N,Signoff
+2C--2N--3S--,4C,ASK trump
+2C--2N--3S--4C--,4D,Minimum;weak supp
+2C--2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2C--2N--3S--4C--,4S,MAXIMUM;weak supp
+2C--2N--3S--,4D,ASK trump
+2C--2N--3S--4D--,4H,Minimum;weak supp
+2C--2N--3S--4D--,4N,MAXIMUM;weak supp
+2C--2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2C--2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2C--2N--3S--,4H,Signoff
+2C--2N--3S--,4N,Set of trumf: !H. ASK trump
+2C--2N--3S--4N--,5C,Minimum;weak supp
+2C--2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2C--2N--3S--4N--,5H,MAXIMUM;weak supp
+2C--2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2C--2N--3S--,4S,Signoff
+2C--2N--3S--,5C,Signoff
+2C--2N--3S--,5D,Signoff
+2C--,2S,Signoff unless short suit
+2C--2S--,2N,0-1!S
+2C--,3C,Signoff unless short suit
+2C--3C--,3D,0-1!C
+2D2H,2N,Positive; 1-2 cards in opps. ASK short
+2D2H2NDb,3C,0-1!C
+2D2H2NDb3C--,3D,ASK trump
+2D2H2NDb3C--3D--,3H,Minimum;weak supp
+2D2H2NDb3C--3D--,3N,MAXIMUM;weak supp
+2D2H2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3C--,3H,ASK trump
+2D2H2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3C--3H--,3S,Minimum;weak supp
+2D2H2NDb3C--3H--,4C,MAXIMUM;weak supp
+2D2H2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3C--,3N,Signoff
+2D2H2NDb3C--,3S,ASK trump
+2D2H2NDb3C--3S--,3N,Minimum;weak supp
+2D2H2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3C--3S--,4D,MAXIMUM;weak supp
+2D2H2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3C--,4H,Signoff
+2D2H2NDb3C--,4S,Signoff
+2D2H2NDb3C--,5C,Signoff
+2D2H2NDb3C--,5D,Signoff
+2D2H2NDb,3D,0-1!D
+2D2H2NDb3D--,3H,ASK trump
+2D2H2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3D--3H--,3S,Minimum;weak supp
+2D2H2NDb3D--3H--,4C,MAXIMUM;weak supp
+2D2H2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3D--,3N,Signoff
+2D2H2NDb3D--,3S,ASK trump
+2D2H2NDb3D--3S--,3N,Minimum;weak supp
+2D2H2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3D--3S--,4D,MAXIMUM;weak supp
+2D2H2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3D--,4C,ASK trump
+2D2H2NDb3D--4C--,4D,Minimum;weak supp
+2D2H2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3D--4C--,4S,MAXIMUM;weak supp
+2D2H2NDb3D--,4H,Signoff
+2D2H2NDb3D--,4S,Signoff
+2D2H2NDb3D--,5C,Signoff
+2D2H2NDb3D--,5D,Signoff
+2D2H2NDb,3H,0-1!H
+2D2H2NDb3H--,3N,Signoff
+2D2H2NDb3H--,3S,ASK trump
+2D2H2NDb3H--3S--,3N,Minimum;weak supp
+2D2H2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3H--3S--,4D,MAXIMUM;weak supp
+2D2H2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3H--,4C,ASK trump
+2D2H2NDb3H--4C--,4D,Minimum;weak supp
+2D2H2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3H--4C--,4S,MAXIMUM;weak supp
+2D2H2NDb3H--,4D,ASK trump
+2D2H2NDb3H--4D--,4H,Minimum;weak supp
+2D2H2NDb3H--4D--,4N,MAXIMUM;weak supp
+2D2H2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2H2NDb3H--,4H,Signoff
+2D2H2NDb3H--,4S,Signoff
+2D2H2NDb3H--,5C,Signoff
+2D2H2NDb3H--,5D,Signoff
+2D2H2NDb,3S,0-1!S
+2D2H2NDb3S--,3N,Signoff
+2D2H2NDb3S--,4C,ASK trump
+2D2H2NDb3S--4C--,4D,Minimum;weak supp
+2D2H2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3S--4C--,4S,MAXIMUM;weak supp
+2D2H2NDb3S--,4D,ASK trump
+2D2H2NDb3S--4D--,4H,Minimum;weak supp
+2D2H2NDb3S--4D--,4N,MAXIMUM;weak supp
+2D2H2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2H2NDb3S--,4H,Signoff
+2D2H2NDb3S--,4N,Set of trumf: !H. ASK trump
+2D2H2NDb3S--4N--,5C,Minimum;weak supp
+2D2H2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3S--4N--,5H,MAXIMUM;weak supp
+2D2H2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2NDb3S--,4S,Signoff
+2D2H2NDb3S--,5C,Signoff
+2D2H2NDb3S--,5D,Signoff
+2D2H2N--,3C,0-1!C
+2D2H2N--3C--,3D,ASK trump
+2D2H2N--3C--3D--,3H,Minimum;weak supp
+2D2H2N--3C--3D--,3N,MAXIMUM;weak supp
+2D2H2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3C--,3H,ASK trump
+2D2H2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3C--3H--,3S,Minimum;weak supp
+2D2H2N--3C--3H--,4C,MAXIMUM;weak supp
+2D2H2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3C--,3N,Signoff
+2D2H2N--3C--,3S,ASK trump
+2D2H2N--3C--3S--,3N,Minimum;weak supp
+2D2H2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3C--3S--,4D,MAXIMUM;weak supp
+2D2H2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3C--,4H,Signoff
+2D2H2N--3C--,4S,Signoff
+2D2H2N--3C--,5C,Signoff
+2D2H2N--3C--,5D,Signoff
+2D2H2N--,3D,0-1!D
+2D2H2N--3D--,3H,ASK trump
+2D2H2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3D--3H--,3S,Minimum;weak supp
+2D2H2N--3D--3H--,4C,MAXIMUM;weak supp
+2D2H2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3D--,3N,Signoff
+2D2H2N--3D--,3S,ASK trump
+2D2H2N--3D--3S--,3N,Minimum;weak supp
+2D2H2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3D--3S--,4D,MAXIMUM;weak supp
+2D2H2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3D--,4C,ASK trump
+2D2H2N--3D--4C--,4D,Minimum;weak supp
+2D2H2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3D--4C--,4S,MAXIMUM;weak supp
+2D2H2N--3D--,4H,Signoff
+2D2H2N--3D--,4S,Signoff
+2D2H2N--3D--,5C,Signoff
+2D2H2N--3D--,5D,Signoff
+2D2H2N--,3H,0-1!H
+2D2H2N--3H--,3N,Signoff
+2D2H2N--3H--,3S,ASK trump
+2D2H2N--3H--3S--,3N,Minimum;weak supp
+2D2H2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3H--3S--,4D,MAXIMUM;weak supp
+2D2H2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3H--,4C,ASK trump
+2D2H2N--3H--4C--,4D,Minimum;weak supp
+2D2H2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3H--4C--,4S,MAXIMUM;weak supp
+2D2H2N--3H--,4D,ASK trump
+2D2H2N--3H--4D--,4H,Minimum;weak supp
+2D2H2N--3H--4D--,4N,MAXIMUM;weak supp
+2D2H2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2H2N--3H--,4H,Signoff
+2D2H2N--3H--,4S,Signoff
+2D2H2N--3H--,5C,Signoff
+2D2H2N--3H--,5D,Signoff
+2D2H2N--,3S,0-1!S
+2D2H2N--3S--,3N,Signoff
+2D2H2N--3S--,4C,ASK trump
+2D2H2N--3S--4C--,4D,Minimum;weak supp
+2D2H2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3S--4C--,4S,MAXIMUM;weak supp
+2D2H2N--3S--,4D,ASK trump
+2D2H2N--3S--4D--,4H,Minimum;weak supp
+2D2H2N--3S--4D--,4N,MAXIMUM;weak supp
+2D2H2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2H2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2H2N--3S--,4H,Signoff
+2D2H2N--3S--,4N,Set of trumf: !H. ASK trump
+2D2H2N--3S--4N--,5C,Minimum;weak supp
+2D2H2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3S--4N--,5H,MAXIMUM;weak supp
+2D2H2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2H2N--3S--,4S,Signoff
+2D2H2N--3S--,5C,Signoff
+2D2H2N--3S--,5D,Signoff
+2D2H,2S,Weak; 5+!S; Signoff unless short suit
+2D2H,Db,Positive. Penalty???
+2D2HDbDb,2H,11-14HcP; LTC: 6
+2D2HDbDb2H--,2S,ASK short
+2D2HDbDb2H--2S--,2N,0-1!C
+2D2HDbDb2H--2S--2N--,3C,ASK single or void
+2D2HDbDb2H--2S--2N--3C--,3D,4-4-5-0
+2D2HDbDb2H--2S--2N--3C--,3N,4-4-4-1
+2D2HDbDb2H--2S--,3C,0-1!D
+2D2HDbDb2H--2S--3C--,3D,ASK single or void
+2D2HDbDb2H--2S--3C--3D--,3N,4-4-1-4
+2D2HDbDb2H--2S--3C--3D--,4C,4-4-0-5
+2D2HDbDb2H--2S--,3D,0-1!H
+2D2HDbDb2H--2S--3D--,3H,ASK single or void
+2D2HDbDb2H--2S--3D--3H--,3N,4-1-4-4
+2D2HDbDb2H--2S--3D--3H--,4C,4-0-4-5
+2D2HDbDb2H--2S--3D--3H--,4D,4-0-5-4
+2D2HDbDb2H--2S--,3H,0-1!S
+2D2HDbDb2H--2S--3H--,3S,ASK single or void
+2D2HDbDb2H--2S--3H--3S--,3N,1-4-4-4
+2D2HDbDb2H--2S--3H--3S--,4C,0-4-4-5
+2D2HDbDb2H--2S--3H--3S--,4D,0-4-5-4
+2D2HDbDb,2N,18-21HcP; LTC: 4
+2D2HDbDb2N--,3C,ASK short
+2D2HDbDb2N--3C--,3D,0-1!H
+2D2HDbDb2N--3C--3D--,3H,ASK single or void
+2D2HDbDb2N--3C--3D--3H--,3N,4-1-4-4
+2D2HDbDb2N--3C--3D--3H--,4C,4-0-4-5
+2D2HDbDb2N--3C--3D--3H--,4D,4-0-5-4
+2D2HDbDb2N--3C--,3H,0-1!S
+2D2HDbDb2N--3C--3H--,3S,ASK single or void
+2D2HDbDb2N--3C--3H--3S--,3N,1-4-4-4
+2D2HDbDb2N--3C--3H--3S--,4C,0-4-4-5
+2D2HDbDb2N--3C--3H--3S--,4D,0-4-5-4
+2D2HDbDb2N--3C--,3S,0-1!C
+2D2HDbDb2N--3C--3S--,3N,Signoff
+2D2HDbDb2N--3C--3S--,4C,ASK single or void
+2D2HDbDb2N--3C--3S--4C--,4D,4-4-5-0
+2D2HDbDb2N--3C--3S--4C--,4N,4-4-4-1
+2D2HDbDb2N--3C--,4C,0-1!D
+2D2HDbDb2N--3C--4C--,4D,ASK single or void
+2D2HDbDb2N--3C--4C--4D--,4N,4-4-1-4
+2D2HDbDb2N--3C--4C--4D--,5C,4-4-0-5
+2D2HDbDb2N--3C--4C--,4N,Signoff
+2D2HDbDb,2S,15-18HcP; LTC: 5
+2D2HDbDb2S--,2N,ASK short
+2D2HDbDb2S--2N--,3C,0-1!D
+2D2HDbDb2S--2N--3C--,3D,ASK single or void
+2D2HDbDb2S--2N--3C--3D--,3N,4-4-1-4
+2D2HDbDb2S--2N--3C--3D--,4C,4-4-0-5
+2D2HDbDb2S--2N--,3D,0-1!H
+2D2HDbDb2S--2N--3D--,3H,ASK single or void
+2D2HDbDb2S--2N--3D--3H--,3N,4-1-4-4
+2D2HDbDb2S--2N--3D--3H--,4C,4-0-4-5
+2D2HDbDb2S--2N--3D--3H--,4D,4-0-5-4
+2D2HDbDb2S--2N--,3H,0-1!S
+2D2HDbDb2S--2N--3H--,3S,ASK single or void
+2D2HDbDb2S--2N--3H--3S--,3N,1-4-4-4
+2D2HDbDb2S--2N--3H--3S--,4C,0-4-4-5
+2D2HDbDb2S--2N--3H--3S--,4D,0-4-5-4
+2D2HDbDb2S--2N--,3S,0-1!C
+2D2HDbDb2S--2N--3S--,3N,Signoff
+2D2HDbDb2S--2N--3S--,4C,ASK single or void
+2D2HDbDb2S--2N--3S--4C--,4D,4-4-5-0
+2D2HDbDb2S--2N--3S--4C--,4N,4-4-4-1
+2D2HDbDb,3C,21+HcP; LTC: 3
+2D2HDbDb3C--,3D,ASK short
+2D2HDbDb3C--3D--,3H,0-1!S
+2D2HDbDb3C--3D--3H--,3S,ASK single or void
+2D2HDbDb3C--3D--3H--3S--,3N,1-4-4-4
+2D2HDbDb3C--3D--3H--3S--,4C,0-4-4-5
+2D2HDbDb3C--3D--3H--3S--,4D,0-4-5-4
+2D2HDbDb3C--3D--,3S,0-1!C
+2D2HDbDb3C--3D--3S--,3N,Signoff
+2D2HDbDb3C--3D--3S--,4C,ASK single or void
+2D2HDbDb3C--3D--3S--4C--,4D,4-4-5-0
+2D2HDbDb3C--3D--3S--4C--,4N,4-4-4-1
+2D2HDbDb3C--3D--,4C,0-1!D
+2D2HDbDb3C--3D--4C--,4D,ASK single or void
+2D2HDbDb3C--3D--4C--4D--,4N,4-4-1-4
+2D2HDbDb3C--3D--4C--4D--,5C,4-4-0-5
+2D2HDbDb3C--3D--4C--,4N,Signoff
+2D2HDbDb3C--3D--,4D,0-1!H
+2D2HDbDb3C--3D--4D--,4H,ASK single or void
+2D2HDbDb3C--3D--4D--4H--,4N,4-1-4-4
+2D2HDbDb3C--3D--4D--4H--,5C,4-0-4-5
+2D2HDbDb3C--3D--4D--4H--,5D,4-0-5-4
+2D2HDbDb3C--3D--4D--,4N,Signoff
+2D2HDbDb,3D,LTC: <3
+2D2HDbDb3D--,3H,ASK short
+2D2HDbDb3D--3H--,3S,0-1!C
+2D2HDbDb3D--3H--3S--,3N,Signoff
+2D2HDbDb3D--3H--3S--,4C,ASK single or void
+2D2HDbDb3D--3H--3S--4C--,4D,4-4-5-0
+2D2HDbDb3D--3H--3S--4C--,4N,4-4-4-1
+2D2HDbDb3D--3H--,4C,0-1!D
+2D2HDbDb3D--3H--4C--,4D,ASK single or void
+2D2HDbDb3D--3H--4C--4D--,4N,4-4-1-4
+2D2HDbDb3D--3H--4C--4D--,5C,4-4-0-5
+2D2HDbDb3D--3H--4C--,4N,Signoff
+2D2HDbDb3D--3H--,4D,0-1!H
+2D2HDbDb3D--3H--4D--,4H,ASK single or void
+2D2HDbDb3D--3H--4D--4H--,4N,4-1-4-4
+2D2HDbDb3D--3H--4D--4H--,5C,4-0-4-5
+2D2HDbDb3D--3H--4D--4H--,5D,4-0-5-4
+2D2HDbDb3D--3H--4D--,4N,Signoff
+2D2HDbDb3D--3H--,4H,0-1!S
+2D2HDbDb3D--3H--4H--,4S,ASK single or void
+2D2HDbDb3D--3H--4H--4S--,4N,1-4-4-4
+2D2HDbDb3D--3H--4H--4S--,5C,0-4-4-5
+2D2HDbDb3D--3H--4H--4S--,5D,0-4-5-4
+2D2HDb--,2H,11-14HcP; LTC: 6
+2D2HDb--2H--,2S,ASK short
+2D2HDb--2H--2S--,2N,0-1!C
+2D2HDb--2H--2S--2N--,3C,ASK single or void
+2D2HDb--2H--2S--2N--3C--,3D,4-4-5-0
+2D2HDb--2H--2S--2N--3C--,3N,4-4-4-1
+2D2HDb--2H--2S--,3C,0-1!D
+2D2HDb--2H--2S--3C--,3D,ASK single or void
+2D2HDb--2H--2S--3C--3D--,3N,4-4-1-4
+2D2HDb--2H--2S--3C--3D--,4C,4-4-0-5
+2D2HDb--2H--2S--,3D,0-1!H
+2D2HDb--2H--2S--3D--,3H,ASK single or void
+2D2HDb--2H--2S--3D--3H--,3N,4-1-4-4
+2D2HDb--2H--2S--3D--3H--,4C,4-0-4-5
+2D2HDb--2H--2S--3D--3H--,4D,4-0-5-4
+2D2HDb--2H--2S--,3H,0-1!S
+2D2HDb--2H--2S--3H--,3S,ASK single or void
+2D2HDb--2H--2S--3H--3S--,3N,1-4-4-4
+2D2HDb--2H--2S--3H--3S--,4C,0-4-4-5
+2D2HDb--2H--2S--3H--3S--,4D,0-4-5-4
+2D2HDb--,--,To play; 2+!H
+2D2HDbRd,2H,11-14HcP; LTC: 6
+2D2HDbRd2H--,2S,ASK short
+2D2HDbRd2H--2S--,2N,0-1!C
+2D2HDbRd2H--2S--2N--,3C,ASK single or void
+2D2HDbRd2H--2S--2N--3C--,3D,4-4-5-0
+2D2HDbRd2H--2S--2N--3C--,3N,4-4-4-1
+2D2HDbRd2H--2S--,3C,0-1!D
+2D2HDbRd2H--2S--3C--,3D,ASK single or void
+2D2HDbRd2H--2S--3C--3D--,3N,4-4-1-4
+2D2HDbRd2H--2S--3C--3D--,4C,4-4-0-5
+2D2HDbRd2H--2S--,3D,0-1!H
+2D2HDbRd2H--2S--3D--,3H,ASK single or void
+2D2HDbRd2H--2S--3D--3H--,3N,4-1-4-4
+2D2HDbRd2H--2S--3D--3H--,4C,4-0-4-5
+2D2HDbRd2H--2S--3D--3H--,4D,4-0-5-4
+2D2HDbRd2H--2S--,3H,0-1!S
+2D2HDbRd2H--2S--3H--,3S,ASK single or void
+2D2HDbRd2H--2S--3H--3S--,3N,1-4-4-4
+2D2HDbRd2H--2S--3H--3S--,4C,0-4-4-5
+2D2HDbRd2H--2S--3H--3S--,4D,0-4-5-4
+2D2HDbRd,--,To play
+2D2H,--,Weak
+2D2H----,2H,4!H; short !D
+2D2H----,2S,4!S; short !H
+2D2H----,Db,4+!H
+2D2H,Rd,Positive; 3+!C
+2D2S,2N,Positive; 1-2 cards in opps. ASK short
+2D2S2NDb,3C,0-1!C
+2D2S2NDb3C--,3D,ASK trump
+2D2S2NDb3C--3D--,3H,Minimum;weak supp
+2D2S2NDb3C--3D--,3N,MAXIMUM;weak supp
+2D2S2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3C--,3H,ASK trump
+2D2S2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3C--3H--,3S,Minimum;weak supp
+2D2S2NDb3C--3H--,4C,MAXIMUM;weak supp
+2D2S2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3C--,3N,Signoff
+2D2S2NDb3C--,3S,ASK trump
+2D2S2NDb3C--3S--,3N,Minimum;weak supp
+2D2S2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3C--3S--,4D,MAXIMUM;weak supp
+2D2S2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3C--,4H,Signoff
+2D2S2NDb3C--,4S,Signoff
+2D2S2NDb3C--,5C,Signoff
+2D2S2NDb3C--,5D,Signoff
+2D2S2NDb,3D,0-1!D
+2D2S2NDb3D--,3H,ASK trump
+2D2S2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3D--3H--,3S,Minimum;weak supp
+2D2S2NDb3D--3H--,4C,MAXIMUM;weak supp
+2D2S2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3D--,3N,Signoff
+2D2S2NDb3D--,3S,ASK trump
+2D2S2NDb3D--3S--,3N,Minimum;weak supp
+2D2S2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3D--3S--,4D,MAXIMUM;weak supp
+2D2S2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3D--,4C,ASK trump
+2D2S2NDb3D--4C--,4D,Minimum;weak supp
+2D2S2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3D--4C--,4S,MAXIMUM;weak supp
+2D2S2NDb3D--,4H,Signoff
+2D2S2NDb3D--,4S,Signoff
+2D2S2NDb3D--,5C,Signoff
+2D2S2NDb3D--,5D,Signoff
+2D2S2NDb,3H,0-1!H
+2D2S2NDb3H--,3N,Signoff
+2D2S2NDb3H--,3S,ASK trump
+2D2S2NDb3H--3S--,3N,Minimum;weak supp
+2D2S2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3H--3S--,4D,MAXIMUM;weak supp
+2D2S2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3H--,4C,ASK trump
+2D2S2NDb3H--4C--,4D,Minimum;weak supp
+2D2S2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3H--4C--,4S,MAXIMUM;weak supp
+2D2S2NDb3H--,4D,ASK trump
+2D2S2NDb3H--4D--,4H,Minimum;weak supp
+2D2S2NDb3H--4D--,4N,MAXIMUM;weak supp
+2D2S2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2S2NDb3H--,4H,Signoff
+2D2S2NDb3H--,4S,Signoff
+2D2S2NDb3H--,5C,Signoff
+2D2S2NDb3H--,5D,Signoff
+2D2S2NDb,3S,0-1!S
+2D2S2NDb3S--,3N,Signoff
+2D2S2NDb3S--,4C,ASK trump
+2D2S2NDb3S--4C--,4D,Minimum;weak supp
+2D2S2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3S--4C--,4S,MAXIMUM;weak supp
+2D2S2NDb3S--,4D,ASK trump
+2D2S2NDb3S--4D--,4H,Minimum;weak supp
+2D2S2NDb3S--4D--,4N,MAXIMUM;weak supp
+2D2S2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2S2NDb3S--,4H,Signoff
+2D2S2NDb3S--,4N,Set of trumf: !H. ASK trump
+2D2S2NDb3S--4N--,5C,Minimum;weak supp
+2D2S2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3S--4N--,5H,MAXIMUM;weak supp
+2D2S2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2NDb3S--,4S,Signoff
+2D2S2NDb3S--,5C,Signoff
+2D2S2NDb3S--,5D,Signoff
+2D2S2N--,3C,0-1!C
+2D2S2N--3C--,3D,ASK trump
+2D2S2N--3C--3D--,3H,Minimum;weak supp
+2D2S2N--3C--3D--,3N,MAXIMUM;weak supp
+2D2S2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3C--,3H,ASK trump
+2D2S2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3C--3H--,3S,Minimum;weak supp
+2D2S2N--3C--3H--,4C,MAXIMUM;weak supp
+2D2S2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3C--,3N,Signoff
+2D2S2N--3C--,3S,ASK trump
+2D2S2N--3C--3S--,3N,Minimum;weak supp
+2D2S2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3C--3S--,4D,MAXIMUM;weak supp
+2D2S2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3C--,4H,Signoff
+2D2S2N--3C--,4S,Signoff
+2D2S2N--3C--,5C,Signoff
+2D2S2N--3C--,5D,Signoff
+2D2S2N--,3D,0-1!D
+2D2S2N--3D--,3H,ASK trump
+2D2S2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3D--3H--,3S,Minimum;weak supp
+2D2S2N--3D--3H--,4C,MAXIMUM;weak supp
+2D2S2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3D--,3N,Signoff
+2D2S2N--3D--,3S,ASK trump
+2D2S2N--3D--3S--,3N,Minimum;weak supp
+2D2S2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3D--3S--,4D,MAXIMUM;weak supp
+2D2S2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3D--,4C,ASK trump
+2D2S2N--3D--4C--,4D,Minimum;weak supp
+2D2S2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3D--4C--,4S,MAXIMUM;weak supp
+2D2S2N--3D--,4H,Signoff
+2D2S2N--3D--,4S,Signoff
+2D2S2N--3D--,5C,Signoff
+2D2S2N--3D--,5D,Signoff
+2D2S2N--,3H,0-1!H
+2D2S2N--3H--,3N,Signoff
+2D2S2N--3H--,3S,ASK trump
+2D2S2N--3H--3S--,3N,Minimum;weak supp
+2D2S2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3H--3S--,4D,MAXIMUM;weak supp
+2D2S2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3H--,4C,ASK trump
+2D2S2N--3H--4C--,4D,Minimum;weak supp
+2D2S2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3H--4C--,4S,MAXIMUM;weak supp
+2D2S2N--3H--,4D,ASK trump
+2D2S2N--3H--4D--,4H,Minimum;weak supp
+2D2S2N--3H--4D--,4N,MAXIMUM;weak supp
+2D2S2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2S2N--3H--,4H,Signoff
+2D2S2N--3H--,4S,Signoff
+2D2S2N--3H--,5C,Signoff
+2D2S2N--3H--,5D,Signoff
+2D2S2N--,3S,0-1!S
+2D2S2N--3S--,3N,Signoff
+2D2S2N--3S--,4C,ASK trump
+2D2S2N--3S--4C--,4D,Minimum;weak supp
+2D2S2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3S--4C--,4S,MAXIMUM;weak supp
+2D2S2N--3S--,4D,ASK trump
+2D2S2N--3S--4D--,4H,Minimum;weak supp
+2D2S2N--3S--4D--,4N,MAXIMUM;weak supp
+2D2S2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D2S2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D2S2N--3S--,4H,Signoff
+2D2S2N--3S--,4N,Set of trumf: !H. ASK trump
+2D2S2N--3S--4N--,5C,Minimum;weak supp
+2D2S2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3S--4N--,5H,MAXIMUM;weak supp
+2D2S2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D2S2N--3S--,4S,Signoff
+2D2S2N--3S--,5C,Signoff
+2D2S2N--3S--,5D,Signoff
+2D2S,Db,Positive. Penalty???
+2D2SDbDb,2H,11-14HcP; LTC: 6
+2D2SDbDb2H--,2S,ASK short
+2D2SDbDb2H--2S--,2N,0-1!C
+2D2SDbDb2H--2S--2N--,3C,ASK single or void
+2D2SDbDb2H--2S--2N--3C--,3D,4-4-5-0
+2D2SDbDb2H--2S--2N--3C--,3N,4-4-4-1
+2D2SDbDb2H--2S--,3C,0-1!D
+2D2SDbDb2H--2S--3C--,3D,ASK single or void
+2D2SDbDb2H--2S--3C--3D--,3N,4-4-1-4
+2D2SDbDb2H--2S--3C--3D--,4C,4-4-0-5
+2D2SDbDb2H--2S--,3D,0-1!H
+2D2SDbDb2H--2S--3D--,3H,ASK single or void
+2D2SDbDb2H--2S--3D--3H--,3N,4-1-4-4
+2D2SDbDb2H--2S--3D--3H--,4C,4-0-4-5
+2D2SDbDb2H--2S--3D--3H--,4D,4-0-5-4
+2D2SDbDb2H--2S--,3H,0-1!S
+2D2SDbDb2H--2S--3H--,3S,ASK single or void
+2D2SDbDb2H--2S--3H--3S--,3N,1-4-4-4
+2D2SDbDb2H--2S--3H--3S--,4C,0-4-4-5
+2D2SDbDb2H--2S--3H--3S--,4D,0-4-5-4
+2D2SDbDb,2N,18-21HcP; LTC: 4
+2D2SDbDb2N--,3C,ASK short
+2D2SDbDb2N--3C--,3D,0-1!H
+2D2SDbDb2N--3C--3D--,3H,ASK single or void
+2D2SDbDb2N--3C--3D--3H--,3N,4-1-4-4
+2D2SDbDb2N--3C--3D--3H--,4C,4-0-4-5
+2D2SDbDb2N--3C--3D--3H--,4D,4-0-5-4
+2D2SDbDb2N--3C--,3H,0-1!S
+2D2SDbDb2N--3C--3H--,3S,ASK single or void
+2D2SDbDb2N--3C--3H--3S--,3N,1-4-4-4
+2D2SDbDb2N--3C--3H--3S--,4C,0-4-4-5
+2D2SDbDb2N--3C--3H--3S--,4D,0-4-5-4
+2D2SDbDb2N--3C--,3S,0-1!C
+2D2SDbDb2N--3C--3S--,3N,Signoff
+2D2SDbDb2N--3C--3S--,4C,ASK single or void
+2D2SDbDb2N--3C--3S--4C--,4D,4-4-5-0
+2D2SDbDb2N--3C--3S--4C--,4N,4-4-4-1
+2D2SDbDb2N--3C--,4C,0-1!D
+2D2SDbDb2N--3C--4C--,4D,ASK single or void
+2D2SDbDb2N--3C--4C--4D--,4N,4-4-1-4
+2D2SDbDb2N--3C--4C--4D--,5C,4-4-0-5
+2D2SDbDb2N--3C--4C--,4N,Signoff
+2D2SDbDb,2S,15-18HcP; LTC: 5
+2D2SDbDb2S--,2N,ASK short
+2D2SDbDb2S--2N--,3C,0-1!D
+2D2SDbDb2S--2N--3C--,3D,ASK single or void
+2D2SDbDb2S--2N--3C--3D--,3N,4-4-1-4
+2D2SDbDb2S--2N--3C--3D--,4C,4-4-0-5
+2D2SDbDb2S--2N--,3D,0-1!H
+2D2SDbDb2S--2N--3D--,3H,ASK single or void
+2D2SDbDb2S--2N--3D--3H--,3N,4-1-4-4
+2D2SDbDb2S--2N--3D--3H--,4C,4-0-4-5
+2D2SDbDb2S--2N--3D--3H--,4D,4-0-5-4
+2D2SDbDb2S--2N--,3H,0-1!S
+2D2SDbDb2S--2N--3H--,3S,ASK single or void
+2D2SDbDb2S--2N--3H--3S--,3N,1-4-4-4
+2D2SDbDb2S--2N--3H--3S--,4C,0-4-4-5
+2D2SDbDb2S--2N--3H--3S--,4D,0-4-5-4
+2D2SDbDb2S--2N--,3S,0-1!C
+2D2SDbDb2S--2N--3S--,3N,Signoff
+2D2SDbDb2S--2N--3S--,4C,ASK single or void
+2D2SDbDb2S--2N--3S--4C--,4D,4-4-5-0
+2D2SDbDb2S--2N--3S--4C--,4N,4-4-4-1
+2D2SDbDb,3C,21+HcP; LTC: 3
+2D2SDbDb3C--,3D,ASK short
+2D2SDbDb3C--3D--,3H,0-1!S
+2D2SDbDb3C--3D--3H--,3S,ASK single or void
+2D2SDbDb3C--3D--3H--3S--,3N,1-4-4-4
+2D2SDbDb3C--3D--3H--3S--,4C,0-4-4-5
+2D2SDbDb3C--3D--3H--3S--,4D,0-4-5-4
+2D2SDbDb3C--3D--,3S,0-1!C
+2D2SDbDb3C--3D--3S--,3N,Signoff
+2D2SDbDb3C--3D--3S--,4C,ASK single or void
+2D2SDbDb3C--3D--3S--4C--,4D,4-4-5-0
+2D2SDbDb3C--3D--3S--4C--,4N,4-4-4-1
+2D2SDbDb3C--3D--,4C,0-1!D
+2D2SDbDb3C--3D--4C--,4D,ASK single or void
+2D2SDbDb3C--3D--4C--4D--,4N,4-4-1-4
+2D2SDbDb3C--3D--4C--4D--,5C,4-4-0-5
+2D2SDbDb3C--3D--4C--,4N,Signoff
+2D2SDbDb3C--3D--,4D,0-1!H
+2D2SDbDb3C--3D--4D--,4H,ASK single or void
+2D2SDbDb3C--3D--4D--4H--,4N,4-1-4-4
+2D2SDbDb3C--3D--4D--4H--,5C,4-0-4-5
+2D2SDbDb3C--3D--4D--4H--,5D,4-0-5-4
+2D2SDbDb3C--3D--4D--,4N,Signoff
+2D2SDbDb,3D,LTC: <3
+2D2SDbDb3D--,3H,ASK short
+2D2SDbDb3D--3H--,3S,0-1!C
+2D2SDbDb3D--3H--3S--,3N,Signoff
+2D2SDbDb3D--3H--3S--,4C,ASK single or void
+2D2SDbDb3D--3H--3S--4C--,4D,4-4-5-0
+2D2SDbDb3D--3H--3S--4C--,4N,4-4-4-1
+2D2SDbDb3D--3H--,4C,0-1!D
+2D2SDbDb3D--3H--4C--,4D,ASK single or void
+2D2SDbDb3D--3H--4C--4D--,4N,4-4-1-4
+2D2SDbDb3D--3H--4C--4D--,5C,4-4-0-5
+2D2SDbDb3D--3H--4C--,4N,Signoff
+2D2SDbDb3D--3H--,4D,0-1!H
+2D2SDbDb3D--3H--4D--,4H,ASK single or void
+2D2SDbDb3D--3H--4D--4H--,4N,4-1-4-4
+2D2SDbDb3D--3H--4D--4H--,5C,4-0-4-5
+2D2SDbDb3D--3H--4D--4H--,5D,4-0-5-4
+2D2SDbDb3D--3H--4D--,4N,Signoff
+2D2SDbDb3D--3H--,4H,0-1!S
+2D2SDbDb3D--3H--4H--,4S,ASK single or void
+2D2SDbDb3D--3H--4H--4S--,4N,1-4-4-4
+2D2SDbDb3D--3H--4H--4S--,5C,0-4-4-5
+2D2SDbDb3D--3H--4H--4S--,5D,0-4-5-4
+2D2SDb--,2H,11-14HcP; LTC: 6
+2D2SDb--2H--,2S,ASK short
+2D2SDb--2H--2S--,2N,0-1!C
+2D2SDb--2H--2S--2N--,3C,ASK single or void
+2D2SDb--2H--2S--2N--3C--,3D,4-4-5-0
+2D2SDb--2H--2S--2N--3C--,3N,4-4-4-1
+2D2SDb--2H--2S--,3C,0-1!D
+2D2SDb--2H--2S--3C--,3D,ASK single or void
+2D2SDb--2H--2S--3C--3D--,3N,4-4-1-4
+2D2SDb--2H--2S--3C--3D--,4C,4-4-0-5
+2D2SDb--2H--2S--,3D,0-1!H
+2D2SDb--2H--2S--3D--,3H,ASK single or void
+2D2SDb--2H--2S--3D--3H--,3N,4-1-4-4
+2D2SDb--2H--2S--3D--3H--,4C,4-0-4-5
+2D2SDb--2H--2S--3D--3H--,4D,4-0-5-4
+2D2SDb--2H--2S--,3H,0-1!S
+2D2SDb--2H--2S--3H--,3S,ASK single or void
+2D2SDb--2H--2S--3H--3S--,3N,1-4-4-4
+2D2SDb--2H--2S--3H--3S--,4C,0-4-4-5
+2D2SDb--2H--2S--3H--3S--,4D,0-4-5-4
+2D2SDb--,2S,15-18HcP; LTC: 5
+2D2SDb--2S--,2N,ASK short
+2D2SDb--2S--2N--,3C,0-1!D
+2D2SDb--2S--2N--3C--,3D,ASK single or void
+2D2SDb--2S--2N--3C--3D--,3N,4-4-1-4
+2D2SDb--2S--2N--3C--3D--,4C,4-4-0-5
+2D2SDb--2S--2N--,3D,0-1!H
+2D2SDb--2S--2N--3D--,3H,ASK single or void
+2D2SDb--2S--2N--3D--3H--,3N,4-1-4-4
+2D2SDb--2S--2N--3D--3H--,4C,4-0-4-5
+2D2SDb--2S--2N--3D--3H--,4D,4-0-5-4
+2D2SDb--2S--2N--,3H,0-1!S
+2D2SDb--2S--2N--3H--,3S,ASK single or void
+2D2SDb--2S--2N--3H--3S--,3N,1-4-4-4
+2D2SDb--2S--2N--3H--3S--,4C,0-4-4-5
+2D2SDb--2S--2N--3H--3S--,4D,0-4-5-4
+2D2SDb--2S--2N--,3S,0-1!C
+2D2SDb--2S--2N--3S--,3N,Signoff
+2D2SDb--2S--2N--3S--,4C,ASK single or void
+2D2SDb--2S--2N--3S--4C--,4D,4-4-5-0
+2D2SDb--2S--2N--3S--4C--,4N,4-4-4-1
+2D2SDb--,--,To play; 2+!S
+2D2SDbRd,2H,11-14HcP; LTC: 6
+2D2SDbRd2H--,2S,ASK short
+2D2SDbRd2H--2S--,2N,0-1!C
+2D2SDbRd2H--2S--2N--,3C,ASK single or void
+2D2SDbRd2H--2S--2N--3C--,3D,4-4-5-0
+2D2SDbRd2H--2S--2N--3C--,3N,4-4-4-1
+2D2SDbRd2H--2S--,3C,0-1!D
+2D2SDbRd2H--2S--3C--,3D,ASK single or void
+2D2SDbRd2H--2S--3C--3D--,3N,4-4-1-4
+2D2SDbRd2H--2S--3C--3D--,4C,4-4-0-5
+2D2SDbRd2H--2S--,3D,0-1!H
+2D2SDbRd2H--2S--3D--,3H,ASK single or void
+2D2SDbRd2H--2S--3D--3H--,3N,4-1-4-4
+2D2SDbRd2H--2S--3D--3H--,4C,4-0-4-5
+2D2SDbRd2H--2S--3D--3H--,4D,4-0-5-4
+2D2SDbRd2H--2S--,3H,0-1!S
+2D2SDbRd2H--2S--3H--,3S,ASK single or void
+2D2SDbRd2H--2S--3H--3S--,3N,1-4-4-4
+2D2SDbRd2H--2S--3H--3S--,4C,0-4-4-5
+2D2SDbRd2H--2S--3H--3S--,4D,0-4-5-4
+2D2SDbRd,2S,15-18HcP; LTC: 5
+2D2SDbRd2S--,2N,ASK short
+2D2SDbRd2S--2N--,3C,0-1!D
+2D2SDbRd2S--2N--3C--,3D,ASK single or void
+2D2SDbRd2S--2N--3C--3D--,3N,4-4-1-4
+2D2SDbRd2S--2N--3C--3D--,4C,4-4-0-5
+2D2SDbRd2S--2N--,3D,0-1!H
+2D2SDbRd2S--2N--3D--,3H,ASK single or void
+2D2SDbRd2S--2N--3D--3H--,3N,4-1-4-4
+2D2SDbRd2S--2N--3D--3H--,4C,4-0-4-5
+2D2SDbRd2S--2N--3D--3H--,4D,4-0-5-4
+2D2SDbRd2S--2N--,3H,0-1!S
+2D2SDbRd2S--2N--3H--,3S,ASK single or void
+2D2SDbRd2S--2N--3H--3S--,3N,1-4-4-4
+2D2SDbRd2S--2N--3H--3S--,4C,0-4-4-5
+2D2SDbRd2S--2N--3H--3S--,4D,0-4-5-4
+2D2SDbRd2S--2N--,3S,0-1!C
+2D2SDbRd2S--2N--3S--,3N,Signoff
+2D2SDbRd2S--2N--3S--,4C,ASK single or void
+2D2SDbRd2S--2N--3S--4C--,4D,4-4-5-0
+2D2SDbRd2S--2N--3S--4C--,4N,4-4-4-1
+2D2SDbRd,--,To play
+2D2S,--,Weak
+2D2S----,2H,4!H; short !D
+2D2S----,2S,4!S; short !D
+2D2S----,Db,4+!S
+2D2S,Rd,Positive; 3+!C
+,2D,17-20HcP; 3-suiter; any short
+2DDb,2D,Weak; 5+!D; Signoff unless short suit
+2DDb2D--,2H,0-1!D
+2DDb,2H,Weak; 5+!H; Signoff unless short suit
+2DDb,2N,Positive; 0-2!C. ASK short
+2DDb2NDb,3C,0-1!C
+2DDb2NDb3C--,3D,ASK trump
+2DDb2NDb3C--3D--,3H,Minimum;weak supp
+2DDb2NDb3C--3D--,3N,MAXIMUM;weak supp
+2DDb2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3C--,3H,ASK trump
+2DDb2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3C--3H--,3S,Minimum;weak supp
+2DDb2NDb3C--3H--,4C,MAXIMUM;weak supp
+2DDb2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3C--,3N,Signoff
+2DDb2NDb3C--,3S,ASK trump
+2DDb2NDb3C--3S--,3N,Minimum;weak supp
+2DDb2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3C--3S--,4D,MAXIMUM;weak supp
+2DDb2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3C--,4H,Signoff
+2DDb2NDb3C--,4S,Signoff
+2DDb2NDb3C--,5C,Signoff
+2DDb2NDb3C--,5D,Signoff
+2DDb2NDb,3D,0-1!D
+2DDb2NDb3D--,3H,ASK trump
+2DDb2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3D--3H--,3S,Minimum;weak supp
+2DDb2NDb3D--3H--,4C,MAXIMUM;weak supp
+2DDb2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3D--,3N,Signoff
+2DDb2NDb3D--,3S,ASK trump
+2DDb2NDb3D--3S--,3N,Minimum;weak supp
+2DDb2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3D--3S--,4D,MAXIMUM;weak supp
+2DDb2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3D--,4C,ASK trump
+2DDb2NDb3D--4C--,4D,Minimum;weak supp
+2DDb2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3D--4C--,4S,MAXIMUM;weak supp
+2DDb2NDb3D--,4H,Signoff
+2DDb2NDb3D--,4S,Signoff
+2DDb2NDb3D--,5C,Signoff
+2DDb2NDb3D--,5D,Signoff
+2DDb2NDb,3H,0-1!H
+2DDb2NDb3H--,3N,Signoff
+2DDb2NDb3H--,3S,ASK trump
+2DDb2NDb3H--3S--,3N,Minimum;weak supp
+2DDb2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3H--3S--,4D,MAXIMUM;weak supp
+2DDb2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3H--,4C,ASK trump
+2DDb2NDb3H--4C--,4D,Minimum;weak supp
+2DDb2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3H--4C--,4S,MAXIMUM;weak supp
+2DDb2NDb3H--,4D,ASK trump
+2DDb2NDb3H--4D--,4H,Minimum;weak supp
+2DDb2NDb3H--4D--,4N,MAXIMUM;weak supp
+2DDb2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2DDb2NDb3H--,4H,Signoff
+2DDb2NDb3H--,4S,Signoff
+2DDb2NDb3H--,5C,Signoff
+2DDb2NDb3H--,5D,Signoff
+2DDb2NDb,3S,0-1!S
+2DDb2NDb3S--,3N,Signoff
+2DDb2NDb3S--,4C,ASK trump
+2DDb2NDb3S--4C--,4D,Minimum;weak supp
+2DDb2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3S--4C--,4S,MAXIMUM;weak supp
+2DDb2NDb3S--,4D,ASK trump
+2DDb2NDb3S--4D--,4H,Minimum;weak supp
+2DDb2NDb3S--4D--,4N,MAXIMUM;weak supp
+2DDb2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2DDb2NDb3S--,4H,Signoff
+2DDb2NDb3S--,4N,Set of trumf: !H. ASK trump
+2DDb2NDb3S--4N--,5C,Minimum;weak supp
+2DDb2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3S--4N--,5H,MAXIMUM;weak supp
+2DDb2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2NDb3S--,4S,Signoff
+2DDb2NDb3S--,5C,Signoff
+2DDb2NDb3S--,5D,Signoff
+2DDb2N--,3C,0-1!C
+2DDb2N--3C--,3D,ASK trump
+2DDb2N--3C--3D--,3H,Minimum;weak supp
+2DDb2N--3C--3D--,3N,MAXIMUM;weak supp
+2DDb2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3C--,3H,ASK trump
+2DDb2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3C--3H--,3S,Minimum;weak supp
+2DDb2N--3C--3H--,4C,MAXIMUM;weak supp
+2DDb2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3C--,3N,Signoff
+2DDb2N--3C--,3S,ASK trump
+2DDb2N--3C--3S--,3N,Minimum;weak supp
+2DDb2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3C--3S--,4D,MAXIMUM;weak supp
+2DDb2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3C--,4H,Signoff
+2DDb2N--3C--,4S,Signoff
+2DDb2N--3C--,5C,Signoff
+2DDb2N--3C--,5D,Signoff
+2DDb2N--,3D,0-1!D
+2DDb2N--3D--,3H,ASK trump
+2DDb2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3D--3H--,3S,Minimum;weak supp
+2DDb2N--3D--3H--,4C,MAXIMUM;weak supp
+2DDb2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3D--,3N,Signoff
+2DDb2N--3D--,3S,ASK trump
+2DDb2N--3D--3S--,3N,Minimum;weak supp
+2DDb2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3D--3S--,4D,MAXIMUM;weak supp
+2DDb2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3D--,4C,ASK trump
+2DDb2N--3D--4C--,4D,Minimum;weak supp
+2DDb2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3D--4C--,4S,MAXIMUM;weak supp
+2DDb2N--3D--,4H,Signoff
+2DDb2N--3D--,4S,Signoff
+2DDb2N--3D--,5C,Signoff
+2DDb2N--3D--,5D,Signoff
+2DDb2N--,3H,0-1!H
+2DDb2N--3H--,3N,Signoff
+2DDb2N--3H--,3S,ASK trump
+2DDb2N--3H--3S--,3N,Minimum;weak supp
+2DDb2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3H--3S--,4D,MAXIMUM;weak supp
+2DDb2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3H--,4C,ASK trump
+2DDb2N--3H--4C--,4D,Minimum;weak supp
+2DDb2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3H--4C--,4S,MAXIMUM;weak supp
+2DDb2N--3H--,4D,ASK trump
+2DDb2N--3H--4D--,4H,Minimum;weak supp
+2DDb2N--3H--4D--,4N,MAXIMUM;weak supp
+2DDb2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2DDb2N--3H--,4H,Signoff
+2DDb2N--3H--,4S,Signoff
+2DDb2N--3H--,5C,Signoff
+2DDb2N--3H--,5D,Signoff
+2DDb2N--,3S,0-1!S
+2DDb2N--3S--,3N,Signoff
+2DDb2N--3S--,4C,ASK trump
+2DDb2N--3S--4C--,4D,Minimum;weak supp
+2DDb2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3S--4C--,4S,MAXIMUM;weak supp
+2DDb2N--3S--,4D,ASK trump
+2DDb2N--3S--4D--,4H,Minimum;weak supp
+2DDb2N--3S--4D--,4N,MAXIMUM;weak supp
+2DDb2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2DDb2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2DDb2N--3S--,4H,Signoff
+2DDb2N--3S--,4N,Set of trumf: !H. ASK trump
+2DDb2N--3S--4N--,5C,Minimum;weak supp
+2DDb2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3S--4N--,5H,MAXIMUM;weak supp
+2DDb2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2DDb2N--3S--,4S,Signoff
+2DDb2N--3S--,5C,Signoff
+2DDb2N--3S--,5D,Signoff
+2DDb,2S,Weak; 5+!S; Signoff unless short suit
+2DDb,--,Weak; 4+!C
+2DDb,Rd,Positive; 3+!C
+2D--,2D,Signoff unless short suit
+2D--2D--,2H,0-1!D
+2D--,2H,Signoff unless short suit
+2D--2H--,2S,0-1!H
+2D--,2N,ASK short
+2D--2NDb,3C,0-1!C
+2D--2NDb3C--,3D,ASK trump
+2D--2NDb3C--3D--,3H,Minimum;weak supp
+2D--2NDb3C--3D--,3N,MAXIMUM;weak supp
+2D--2NDb3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3C--,3H,ASK trump
+2D--2NDb3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3C--3H--,3S,Minimum;weak supp
+2D--2NDb3C--3H--,4C,MAXIMUM;weak supp
+2D--2NDb3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3C--,3N,Signoff
+2D--2NDb3C--,3S,ASK trump
+2D--2NDb3C--3S--,3N,Minimum;weak supp
+2D--2NDb3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3C--3S--,4D,MAXIMUM;weak supp
+2D--2NDb3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3C--,4H,Signoff
+2D--2NDb3C--,4S,Signoff
+2D--2NDb3C--,5C,Signoff
+2D--2NDb3C--,5D,Signoff
+2D--2NDb,3D,0-1!D
+2D--2NDb3D--,3H,ASK trump
+2D--2NDb3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3D--3H--,3S,Minimum;weak supp
+2D--2NDb3D--3H--,4C,MAXIMUM;weak supp
+2D--2NDb3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3D--,3N,Signoff
+2D--2NDb3D--,3S,ASK trump
+2D--2NDb3D--3S--,3N,Minimum;weak supp
+2D--2NDb3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3D--3S--,4D,MAXIMUM;weak supp
+2D--2NDb3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3D--,4C,ASK trump
+2D--2NDb3D--4C--,4D,Minimum;weak supp
+2D--2NDb3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3D--4C--,4S,MAXIMUM;weak supp
+2D--2NDb3D--,4H,Signoff
+2D--2NDb3D--,4S,Signoff
+2D--2NDb3D--,5C,Signoff
+2D--2NDb3D--,5D,Signoff
+2D--2NDb,3H,0-1!H
+2D--2NDb3H--,3N,Signoff
+2D--2NDb3H--,3S,ASK trump
+2D--2NDb3H--3S--,3N,Minimum;weak supp
+2D--2NDb3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3H--3S--,4D,MAXIMUM;weak supp
+2D--2NDb3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3H--,4C,ASK trump
+2D--2NDb3H--4C--,4D,Minimum;weak supp
+2D--2NDb3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3H--4C--,4S,MAXIMUM;weak supp
+2D--2NDb3H--,4D,ASK trump
+2D--2NDb3H--4D--,4H,Minimum;weak supp
+2D--2NDb3H--4D--,4N,MAXIMUM;weak supp
+2D--2NDb3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D--2NDb3H--,4H,Signoff
+2D--2NDb3H--,4S,Signoff
+2D--2NDb3H--,5C,Signoff
+2D--2NDb3H--,5D,Signoff
+2D--2NDb,3S,0-1!S
+2D--2NDb3S--,3N,Signoff
+2D--2NDb3S--,4C,ASK trump
+2D--2NDb3S--4C--,4D,Minimum;weak supp
+2D--2NDb3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3S--4C--,4S,MAXIMUM;weak supp
+2D--2NDb3S--,4D,ASK trump
+2D--2NDb3S--4D--,4H,Minimum;weak supp
+2D--2NDb3S--4D--,4N,MAXIMUM;weak supp
+2D--2NDb3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2NDb3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D--2NDb3S--,4H,Signoff
+2D--2NDb3S--,4N,Set of trumf: !H. ASK trump
+2D--2NDb3S--4N--,5C,Minimum;weak supp
+2D--2NDb3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3S--4N--,5H,MAXIMUM;weak supp
+2D--2NDb3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2NDb3S--,4S,Signoff
+2D--2NDb3S--,5C,Signoff
+2D--2NDb3S--,5D,Signoff
+2D--2N--,3C,0-1!C
+2D--2N--3C--,3D,ASK trump
+2D--2N--3C--3D--,3H,Minimum;weak supp
+2D--2N--3C--3D--,3N,MAXIMUM;weak supp
+2D--2N--3C--3D--,3S,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2N--3C--3D--,4C,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2N--3C--,3H,ASK trump
+2D--2N--3C--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2N--3C--3H--,3S,Minimum;weak supp
+2D--2N--3C--3H--,4C,MAXIMUM;weak supp
+2D--2N--3C--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2N--3C--,3N,Signoff
+2D--2N--3C--,3S,ASK trump
+2D--2N--3C--3S--,3N,Minimum;weak supp
+2D--2N--3C--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3C--3S--,4D,MAXIMUM;weak supp
+2D--2N--3C--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3C--,4H,Signoff
+2D--2N--3C--,4S,Signoff
+2D--2N--3C--,5C,Signoff
+2D--2N--3C--,5D,Signoff
+2D--2N--,3D,0-1!D
+2D--2N--3D--,3H,ASK trump
+2D--2N--3D--3H--,3N,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2N--3D--3H--,3S,Minimum;weak supp
+2D--2N--3D--3H--,4C,MAXIMUM;weak supp
+2D--2N--3D--3H--,4D,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2N--3D--,3N,Signoff
+2D--2N--3D--,3S,ASK trump
+2D--2N--3D--3S--,3N,Minimum;weak supp
+2D--2N--3D--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3D--3S--,4D,MAXIMUM;weak supp
+2D--2N--3D--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3D--,4C,ASK trump
+2D--2N--3D--4C--,4D,Minimum;weak supp
+2D--2N--3D--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3D--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3D--4C--,4S,MAXIMUM;weak supp
+2D--2N--3D--,4H,Signoff
+2D--2N--3D--,4S,Signoff
+2D--2N--3D--,5C,Signoff
+2D--2N--3D--,5D,Signoff
+2D--2N--,3H,0-1!H
+2D--2N--3H--,3N,Signoff
+2D--2N--3H--,3S,ASK trump
+2D--2N--3H--3S--,3N,Minimum;weak supp
+2D--2N--3H--3S--,4C,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3H--3S--,4D,MAXIMUM;weak supp
+2D--2N--3H--3S--,4H,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3H--,4C,ASK trump
+2D--2N--3H--4C--,4D,Minimum;weak supp
+2D--2N--3H--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3H--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3H--4C--,4S,MAXIMUM;weak supp
+2D--2N--3H--,4D,ASK trump
+2D--2N--3H--4D--,4H,Minimum;weak supp
+2D--2N--3H--4D--,4N,MAXIMUM;weak supp
+2D--2N--3H--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3H--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D--2N--3H--,4H,Signoff
+2D--2N--3H--,4S,Signoff
+2D--2N--3H--,5C,Signoff
+2D--2N--3H--,5D,Signoff
+2D--2N--,3S,0-1!S
+2D--2N--3S--,3N,Signoff
+2D--2N--3S--,4C,ASK trump
+2D--2N--3S--4C--,4D,Minimum;weak supp
+2D--2N--3S--4C--,4H,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3S--4C--,4N,MAXIMUM;GOOD supp 2 TOP-HONORs\\
+2D--2N--3S--4C--,4S,MAXIMUM;weak supp
+2D--2N--3S--,4D,ASK trump
+2D--2N--3S--4D--,4H,Minimum;weak supp
+2D--2N--3S--4D--,4N,MAXIMUM;weak supp
+2D--2N--3S--4D--,4S,Minimum;GOOD supp 2 TOP-HONORs\\
+2D--2N--3S--4D--,5C,MAXIMUM;GOOD supp  2 TOP-HONORs
+2D--2N--3S--,4H,Signoff
+2D--2N--3S--,4N,Set of trumf: !H. ASK trump
+2D--2N--3S--4N--,5C,Minimum;weak supp
+2D--2N--3S--4N--,5D,Minimum;GOOD supp  2 TOP-HONORs\\
+2D--2N--3S--4N--,5H,MAXIMUM;weak supp
+2D--2N--3S--4N--,5S,MAXIMUM;GOOD supp  2 TOP-HONORs\\
+2D--2N--3S--,4S,Signoff
+2D--2N--3S--,5C,Signoff
+2D--2N--3S--,5D,Signoff
+2D--,2S,Signoff unless short suit
+2D--2S--,2N,0-1!S
+2D--,3C,Signoff unless short suit
+2D--3C--,3D,0-1!C
+2D--,3D,Signoff unless short suit
+2D--3D--,3H,0-1!D
+2H2N,3C,Signoff
+2H2N,3H,8-10HcP; 2+!H
+2H2N,3N,Signoff
+2H2N,4C,Invite !C
+2H2N,4H,11-12HcP; 3+!H
+2H2N,Db,Penalty
+2H2N,--,0-10HcP; ANY
+2H2S,2N,ASK distrib
+2H2S2N--,3C,2-5-1-5; 1-5-2-5
+2H2S2N--,3D,3-5-1-4
+2H2S2N--,3H,2-6-1-4; 1-6-2-4
+2H2S2N--,3N,2-5-2-4
+2H2S2N--,3S,1-5-3-4
+2H2S2N--,4C,3-5-0-5
+2H2S2N--,4D,0-5-3-5
+2H2S,3C,Signoff
+2H2S,3H,8-10HcP; 2+!H
+2H2S,3N,Signoff
+2H2S,4C,Invite !C
+2H2S,4H,11-12HcP; 3+!H
+2H2S,Db,Penalty
+2H2S,--,0-10HcP; ANY
+2H3C,3H,8-10HcP; 2+!H
+2H3C,3N,Signoff
+2H3C,4C,Invite !C
+2H3C,4H,11-12HcP; 3+!H
+2H3C,Db,Penalty
+2H3C,--,0-10HcP; ANY
+2H3D,3H,8-10HcP; 2+!H
+2H3D,3N,Signoff
+2H3D,4C,Invite !C
+2H3D,4H,11-12HcP; 3+!H
+2H3D,Db,Penalty
+2H3D,--,0-10HcP; ANY
+2H3H,3N,Signoff
+2H3H,4C,Invite !C
+2H3H,4H,11-12HcP; 3+!H
+2H3H,Db,Penalty
+2H3H,--,0-10HcP; ANY
+2H3N,4C,Invite !C
+2H3N,4H,11-12HcP; 3+!H
+2H3N,Db,Penalty
+2H3N,--,0-10HcP; ANY
+2H3S,3N,Signoff
+2H3S,4C,Invite !C
+2H3S,4H,11-12HcP; 3+!H
+2H3S,Db,Penalty
+2H3S,--,0-10HcP; ANY
+,2H,12-16HcP; 5+!H + 4+!C. LTC: 5-6
+2HDb,2N,ASK distrib
+2HDb2N--,3C,2-5-1-5; 1-5-2-5
+2HDb2N--,3D,3-5-1-4
+2HDb2N--,3H,2-6-1-4; 1-6-2-4
+2HDb2N--,3N,2-5-2-4
+2HDb2N--,3S,1-5-3-4
+2HDb2N--,4C,3-5-0-5
+2HDb2N--,4D,0-5-3-5
+2HDb,3C,Signoff
+2HDb,3H,8-10HcP; 2+!H
+2HDb,3N,Signoff
+2HDb,4C,Invite !C
+2HDb,4H,11-12HcP; 3+!H
+2HDb,--,0-10HcP; ANY
+2HDb,Rd,To play
+2H--,2N,ASK distrib
+2H--2N--,3C,2-5-1-5; 1-5-2-5
+2H--2N--,3D,3-5-1-4
+2H--2N--,3H,2-6-1-4; 1-6-2-4
+2H--2N--,3N,2-5-2-4
+2H--2N--,3S,1-5-3-4
+2H--2N--,4C,3-5-0-5
+2H--2N--,4D,0-5-3-5
+2H--,3C,Signoff
+2H--,3H,8-10HcP; 2+!H
+2H--,3N,Signoff
+2H--,4C,Invite !C
+2H--,4H,11-12HcP; 3+!H
+2H--,--,0-10HcP; ANY
+2N3C,3D,Signoff
+2N3C,3N,Signoff
+2N3C,4C,Preempt
+2N3C,4D,Preempt
+2N3C,5C,Signoff
+2N3C,5D,Signoff
+2N3C,Db,Penalty
+2N3C,--,To play
+2N3C,Rd,To play - intend to penalize opps
+2N3D,3N,Signoff
+2N3D,4C,Preempt
+2N3D,4D,Preempt
+2N3D,5C,Signoff
+2N3D,5D,Signoff
+2N3D,Db,Penalty
+2N3D,--,To play
+2N3D,Rd,To play - intend to penalize opps
+2N3H,3N,Signoff
+2N3H,4C,Preempt
+2N3H,4D,Preempt
+2N3H,5C,Signoff
+2N3H,5D,Signoff
+2N3H,Db,Penalty
+2N3H,--,To play
+2N3H,Rd,To play - intend to penalize opps
+2N3N,4C,Preempt
+2N3N,4D,Preempt
+2N3N,5C,Signoff
+2N3N,5D,Signoff
+2N3N,Db,Penalty
+2N3N,--,To play
+2N3N,Rd,To play - intend to penalize opps
+2N3S,3N,Signoff
+2N3S,4C,Preempt
+2N3S,4D,Preempt
+2N3S,5C,Signoff
+2N3S,5D,Signoff
+2N3S,Db,Penalty
+2N3S,--,To play
+2N3S,Rd,To play - intend to penalize opps
+,2N,14-18HcP; 5+!D + 4+!C. LTC: 4-5
+2NDb,3C,To play
+2NDb,3D,Signoff
+2NDb,3N,Signoff
+2NDb,4C,Preempt
+2NDb,4D,Preempt
+2NDb,5C,Signoff
+2NDb,5D,Signoff
+2NDb,--,To play
+2NDb,Rd,To play - intend to penalize opps
+2N--,3C,ASK distrib
+2N--3C--,3D,2-2-5-4
+2N--3C--,3H,3!H; 0-1!S
+2N--3C--,3N,5+!D  +  5!C
+2N--3C--,3S,3!S; 0-1!H
+2N--3C--,4C,6!D + 4!C
+2N--,3D,Signoff
+2N--,3N,Signoff
+2N--,4C,Preempt
+2N--,4D,Preempt
+2N--,5C,Signoff
+2N--,5D,Signoff
+2S2N,3C,Signoff
+2S2N,3N,Signoff
+2S2N,3S,8-10HcP; 2+!S
+2S2N,4C,Invite !C
+2S2N,4S,11-12HcP; 3+!S
+2S2N,Db,Penalty
+2S2N,--,0-10HcP; ANY
+2S2N,Rd,To play
+2S3C,3N,Signoff
+2S3C,3S,8-10HcP; 2+!S
+2S3C,4C,Invite !C
+2S3C,4S,11-12HcP; 3+!S
+2S3C,Db,Penalty
+2S3C,--,0-10HcP; ANY
+2S3C,Rd,To play
+2S3D,3N,Signoff
+2S3D,3S,8-10HcP; 2+!S
+2S3D,4C,Invite !C
+2S3D,4S,11-12HcP; 3+!S
+2S3D,Db,Penalty
+2S3D,--,0-10HcP; ANY
+2S3D,Rd,To play
+2S3H,3N,Signoff
+2S3H,3S,8-10HcP; 2+!S
+2S3H,4C,Invite !C
+2S3H,4S,11-12HcP; 3+!S
+2S3H,Db,Penalty
+2S3H,--,0-10HcP; ANY
+2S3H,Rd,To play
+2S3N,4C,Invite !C
+2S3N,4S,11-12HcP; 3+!S
+2S3N,Db,Penalty
+2S3N,--,0-10HcP; ANY
+2S3N,Rd,To play
+2S3S,3N,Signoff
+2S3S,4C,Invite !C
+2S3S,4S,11-12HcP; 3+!S
+2S3S,Db,Penalty
+2S3S,--,0-10HcP; ANY
+2S3S,Rd,To play
+,2S,12-16HcP; 5+!S + 4+!C. LTC: 5-6
+2SDb,2N,ASK distrib
+2SDb2N--,3C,5-2-1-5; 5-1-2-5
+2SDb2N--,3D,5-3-1-4
+2SDb2N--,3H,6-2-1-4; 6-1-2-4
+2SDb2N--,3N,5-2-2-4
+2SDb2N--,3S,5-1-3-4
+2SDb2N--,4C,5-3-0-5
+2SDb2N--,4D,5-0-3-5
+2SDb,3C,Signoff
+2SDb,3N,Signoff
+2SDb,3S,8-10HcP; 2+!S
+2SDb,4C,Invite !C
+2SDb,4S,11-12HcP; 3+!S
+2SDb,--,0-10HcP; ANY
+2SDb,Rd,To play
+2S--,2N,ASK distrib
+2S--2N--,3C,5-2-1-5; 5-1-2-5
+2S--2N--,3D,5-3-1-4
+2S--2N--,3H,6-2-1-4; 6-1-2-4
+2S--2N--,3N,5-2-2-4
+2S--2N--,3S,5-1-3-4
+2S--2N--,4C,5-3-0-5
+2S--2N--,4D,5-0-3-5
+2S--,3C,Signoff
+2S--,3N,Signoff
+2S--,3S,8-10HcP; 2+!S
+2S--,4C,Invite !C
+2S--,4S,11-12HcP; 3+!S
+2S--,--,0-10HcP; ANY
+,3C,6+!C; Semi-solid. Preempt
+,3D,6+!D; Semi-solid. Preempt
+,3H,6+!H; Semi-solid. Preempt
+,3N,Good but not solid 7+cd minor
+3N--,4C,Pass or correct
+3N--,4D,Asks for singleton
+3N--4D--,4H,Singleton !H
+3N--4D--,4N,Shortness in other minor
+3N--4D--4N--,5C,Pass/correct
+3N--4D--4N--,5D,Pass/correct
+3N--4D--4N--,6C,Pass/correct
+3N--4D--4N--,6D,Pass/correct
+3N--4D--,4S,Singleton !S
+3N--4D--,5C,7!C222
+3N--4D--,5D,7!D222
+3N--,4H,Signoff
+3N--,4N,Blackwood 03/14
+3N--,4S,Signoff
+3N--,5C,Pass/correct
+3N--,6C,Pass/correct
+,3S,6+!S; Semi-solid. Preempt
+,4C,Please read chat#10-14HcP;7-8!H;solid + Ace or King outside; Namyats conv
+4C--,4D,ASK aces
+4C--4D--,4H,Ace
+4C--4D--,4S,Ace
+4C--4D--,5C,Ace
+4C--4D--,5D,Ace
+4C--4D--,5H,No ace
+4C--,4H,Signoff
+4C--,4S,CUE
+4C--,5C,CUE
+4C--,5D,CUE
+,4D,Please read chat#10-14HcP;7-8!S;solid + Ace or King outside; Namyats conv
+4D--,4H,ASK aces
+4D--4H--,4S,Ace
+4D--4H--,5C,Ace
+4D--4H--,5D,Ace
+4D--4H--,5H,Ace
+4D--4H--,5S,No ace
+4D--,4S,Signoff
+4D--,5C,CUE
+4D--,5D,CUE
+4D--,5H,CUE
+,4H,8+!H; 7-8 tricks
+,4S,8+!S; 7-8 tricks
+,5C,8+!C; 8+ tricks
+,5D,8+!D; 8+ tricks
+Option
+

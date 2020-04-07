@@ -1,0 +1,4414 @@
+BBOalert
+1C,1N,15-18
+Error *001C1ND=NYYYYYYPenalties|1C1N,Db,Penalties
+1C1NDb,Rd,2 suiter scramble
+1C1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1C1N--2C--2C--,3D,7-10 HCP
+1C1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1C1N--2C--2D--2H--,2N,18 HCP. Doubleton !h
+1C1N--2C--2D--2H--,2S,16-17 HCP
+1C1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1C1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1C1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1C1N--2C--2D--,2S,8-11 HCP
+1C1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1C1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1C1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1C1N--2C--2D--,3C,3-6 HCP
+1C1N--2C--2D--3C--,3D,Stopper
+1C1N--2C--2D--3C--,3H,Stopper
+1C1N--2C--2D--3C--,3S,Stopper
+1C1N--2C--2D--,3D,3-6 HCP
+1C1N--2C--2D--3D--,3H,Stopper
+1C1N--2C--2D--3D--,3S,Stopper
+1C1N--2C--2D--,3H,5+ !hs and 4!ss
+1C1N--2C--2D--,3S,5+ !ss and 4!hs
+1C1N--2C--,2H,16-18 HCP
+1C1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1C1N--2C--2H--,2S,
+1C1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1C1N--2C--2H--2S--,3C,
+1C1N--2C--2H--,3C,3-6 HCP
+1C1N--2C--2H--3C--,3D,Stopper
+1C1N--2C--2H--3C--,3H,Stopper
+1C1N--2C--2H--3C--,3S,Stopper
+1C1N--2C--2H--,3D,3-6 HCP
+1C1N--2C--2H--3D--,3H,Stopper
+1C1N--2C--2H--3D--,3S,Stopper
+1C1N--2C--2H--,3H,
+1C1N--2C--2H--,3N,3433 shape
+1C1N--2C--2H--,3S,5422/4522 shape
+1C1N--2C--2H--3S--,4H,
+1C1N--2C--2H--4C--,4H,
+1C1N--2C--2H--4D--,4H,
+1C1N--2C--2H--,4H,
+1C1N--2C--2H--,4N,RKCB
+1C1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1C1N--2C--2H--,5C, Exclusion RKCB
+1C1N--2C--2H--,5D,Exclusion RKCB
+1C1N--2C--,2N,19-20 HCP; either both majors or none
+1C1N--2C--2N--,3C,3-6 HCP
+1C1N--2C--2N--3C--,3D,Stopper
+1C1N--2C--2N--3C--,3H,Stopper
+1C1N--2C--2N--3C--,3S,Stopper
+1C1N--2C--2N--,3D,3-6 HCP
+1C1N--2C--2N--3D--,3H,Stopper
+1C1N--2C--2N--3D--,3S,Stopper
+1C1N--2C--2N--,3H,
+1C1N--2C--2N--3H--,3N,Shows doubleton !hs
+1C1N--2C--2N--3H--,3S,Shows 3 !hs
+1C1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1C1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1C1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1C1N--2C--2N--,3S,
+1C1N--2C--2N--3S--,3N,Shows doubleton !s!
+1C1N--2C--2N--3S--,4C, 4-4 in majors
+1C1N--2C--2N--3S--,4D, 4-4 in majors
+1C1N--2C--2N--3S--,4H, 4-4 in majors
+1C1N--2C--2N--3S--,4S,
+1C1N--2C--,2S,18-20 HCP; denies 4!hs
+1C1N--2C--2S--,2N,5!hs
+1C1N--2C--2S--,3C,3-6 HCP
+1C1N--2C--2S--3C--,3D,Stopper
+1C1N--2C--2S--3C--,3H,Stopper
+1C1N--2C--2S--3C--,3S,Stopper
+1C1N--2C--2S--,3D,3-6 HCP
+1C1N--2C--2S--3D--,3H,Stopper
+1C1N--2C--2S--3D--,3S,Stopper
+1C1N--2C--2S--,3H,
+1C1N--2C--2S--,3S,
+1C1N--2C--2S--4C--,4S,
+1C1N--2C--2S--4D--,4S,
+1C1N--2C--2S--,4H,5422/4522 shape
+1C1N--2C--2S--4H--,4S,
+1C1N--2C--2S--,4N,RKCB
+1C1N--2C--2S--,4S,
+1C1N--2C--2S--,5C,Exclusion RKCB
+1C1N--2C--2S--,5D,Exclusion RKCB
+1C1N--2C--,3C,Please read chat#15-16 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1C1N--2C--3C--,3D,
+1C1N--2C--3C--3D--,3H, !cStopper #
+1C1N--2C--3C--3D--,3S, !sStopper
+1C1N--2C--3C--3D--,4C,xx in !cs #
+1C1N--2C--3C--3D--,4D,xxx in !ss #
+1C1N--2C--3C--3D--,4H,xxxx in !hs #
+1C1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1C1N--2C--3C--,3S, 5422/4522 shape#
+1C1N--2C--3C--3S--,4H,
+1C1N--2C--3C--4C--,4H,
+1C1N--2C--3C--4D--,4H,
+1C1N--2C--3C--,4H,
+1C1N--2C--3C--,4N,RKCB
+1C1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1C1N--2C--3C--,5C,Exclusion RKCB #
+1C1N--2C--3C--,5D,Exclusion RKCB #
+1C1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1C1N--2C--3D--,3S, 5422/4522 shape
+1C1N--2C--3D--3S--,4H,
+1C1N--2C--3D--4C--,4H,
+1C1N--2C--3D--4D--,4H,
+1C1N--2C--3D--,4H,
+1C1N--2C--3D--,4N,RKCB
+1C1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1C1N--2C--3D--,5C,Exclusion RKCB #
+1C1N--2C--3D--,5D,Exclusion RKCB #
+1C1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2C--3H--,3S,Please read chat#Either 5-6 !ss in an invitational hand or strong 5422/4522 shape
+1C1N--2C--3H--3S--,3N,Denies 3 spades
+1C1N--2C--3H--4C--,4H,
+1C1N--2C--3H--4D--,4H,
+1C1N--2C--3H--,4H,
+1C1N--2C--3H--,4N,RKCB
+1C1N--2C--3H--,5C,Exclusion RKCB
+1C1N--2C--3H--,5D,Exclusion RKCB
+1C1N--2C--,3N,19-20 HCP; 3433 shape.
+1C1N--2C--3N--,4C,5431/4531 shape
+1C1N--2C--3N--4C--,4H,
+1C1N--2C--3N--4D--,4H,
+1C1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2C--3S--4C--,4H,
+1C1N--2C--3S--4D--,4H,
+1C1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-8 HCP. 3) 4 !hs; 7 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 17-18 HCP. 7) GF; 5!hs w/o slam interest.
+1C1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1C1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1C1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1C1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1C1N--2D--2H--3C--,3D,Reinvit
+1C1N--2D--2H--3C--3D--,3H,Minimum
+1C1N--2D--2H--,3D,5-5 in H1s and !ds. Strong invitation
+1C1N--2D--2H--3D--,3S,shows xx(xx) in !ss #
+1C1N--2D--2H--3D--,4C,shows xx(xx) in !ss #
+1C1N--2D--2H--3D--,4D,
+1C1N--2D--2H--,3H,
+1C1N--2D--2H--,3N,5!hs. No Slam ambition
+1C1N--2D--2H--,3S,
+1C1N--2D--2H--,4C,
+1C1N--2D--2H--,4D,
+1C1N--2D--2H--,4H,Mild slamtry without a singleton
+1C1N--2D--2H--,4N,RKCB
+1C1N--2D--2H--,4S,Exclusion RKCB
+1C1N--2D--2H--,5C,Exclusion RKCB
+1C1N--2D--2H--,5D,Exclusion RKCB
+1C1N--2D--,2N,19-20 HCP; 3433 shape
+1C1N--2D--2N--,3C,
+1C1N--2D--2N--,3D,
+1C1N--2D--2N--3D--,3H,Forced
+1C1N--2D--2N--3D--3H--,3S,King or Ace
+1C1N--2D--2N--3D--3H--,4C,King or Ace
+1C1N--2D--2N--3D--3H--,4D,King or Ace
+1C1N--2D--2N--3D--3H--,4H,Mild slam try
+1C1N--2D--2N--3D--3H--,4N,RKCB
+1C1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1C1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1C1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1C1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1C1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1C1N--2D--2N--3N--,4C,Presumably without !hqueen
+1C1N--2D--2N--3N--,4D,Presumably without !hqueen
+1C1N--2D--2N--,3S,
+1C1N--2D--2N--,4C,
+1C1N--2D--2N--,4D,
+1C1N--2D--2N--,4H,
+1C1N--2D--2N--,4N,RKCB
+1C1N--2D--2N--,4S,Exclusion RKCB
+1C1N--2D--2N--,5C,Exclusion RKCB
+1C1N--2D--2N--,5D,Exclusion RKCB
+1C1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1C1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1C1N--2D--2S--2N--,3H,
+1C1N--2D--2S--,3C,
+1C1N--2D--2S--,3D,
+1C1N--2D--2S--3D--,3H,Forced
+1C1N--2D--2S--3D--3H--,3S,King or Ace
+1C1N--2D--2S--3D--3H--,4C,King or Ace
+1C1N--2D--2S--3D--3H--,4D,King or Ace
+1C1N--2D--2S--3D--3H--,4H,Mild slam try
+1C1N--2D--2S--3D--3H--,4N,RKCB
+1C1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1C1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1C1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1C1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1C1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1C1N--2D--2S--3N--,4C,Presumably without !hqueen
+1C1N--2D--2S--3N--,4D,Presumably without !hqueen
+1C1N--2D--2S--,3S,
+1C1N--2D--2S--,4C,
+1C1N--2D--2S--,4D,
+1C1N--2D--2S--,4H,
+1C1N--2D--2S--,4N,RKCB
+1C1N--2D--2S--,4S,Exclusion RKCB
+1C1N--2D--2S--,5C,Exclusion RKCB
+1C1N--2D--2S--,5D,Exclusion RKCB
+1C1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2D--3C--,3D,
+1C1N--2D--3C--3D--,3H,Forced
+1C1N--2D--3C--3D--3H--,3S,King or Ace
+1C1N--2D--3C--3D--3H--,4C,King or Ace
+1C1N--2D--3C--3D--3H--,4D,King or Ace
+1C1N--2D--3C--3D--3H--,4H,Mild slam try
+1C1N--2D--3C--3D--3H--,4N,RKCB
+1C1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1C1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1C1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1C1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1C1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1C1N--2D--3C--3N--,4C,Presumably without !hqueen
+1C1N--2D--3C--3N--,4D,Presumably without !hqueen
+1C1N--2D--3C--,3S,
+1C1N--2D--3C--,4C,
+1C1N--2D--3C--,4D,
+1C1N--2D--3C--,4H,
+1C1N--2D--3C--,4N,RKCB
+1C1N--2D--3C--,4S,Exclusion RKCB
+1C1N--2D--3C--,5C,Exclusion RKCB
+1C1N--2D--3C--,5D,Exclusion RKCB
+1C1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1C1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1C1N--2D--3D--3N--,4C,Presumably without !hqueen
+1C1N--2D--3D--3N--,4D,Presumably without !hqueen
+1C1N--2D--3D--,3S,
+1C1N--2D--3D--,4C,
+1C1N--2D--3D--,4D,
+1C1N--2D--3D--,4H,
+1C1N--2D--3D--,4N,RKCB
+1C1N--2D--3D--,4S,Exclusion RKCB
+1C1N--2D--3D--,5C,Exclusion RKCB
+1C1N--2D--3D--,5D,Exclusion RKCB
+1C1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1C1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1C1N--2D--3H--3N--,4C,Presumably without !hqueen
+1C1N--2D--3H--3N--,4D,Presumably without !hqueen
+1C1N--2D--3H--,3S,
+1C1N--2D--3H--,4C,
+1C1N--2D--3H--,4D,
+1C1N--2D--3H--,4H,
+1C1N--2D--3H--,4N,RKCB
+1C1N--2D--3H--,4S,Exclusion RKCB
+1C1N--2D--3H--,5C,Exclusion RKCB
+1C1N--2D--3H--,5D,Exclusion RKCB
+1C1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 15-16 HCP. 6) GF; 5!ss w/o slam interest.
+1C1N--2H--,2N,19-20 HCP; 4333 shape
+1C1N--2H--2N--,3C,
+1C1N--2H--2N--,3D,
+1C1N--2H--2N--,3H,
+1C1N--2H--2N--3H--,3S,
+1C1N--2H--2N--3H--3S--,4C,Denies splinter
+1C1N--2H--2N--3H--3S--,4D,Denies splinter
+1C1N--2H--2N--3H--3S--,4H,Denies splinter
+1C1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C1N--2H--2N--,4C,
+1C1N--2H--2N--,4D,
+1C1N--2H--2N--,4H,
+1C1N--2H--2N--,4N,RKCB
+1C1N--2H--2N--,4S,
+1C1N--2H--2N--,5C,Exclusion RKCB
+1C1N--2H--2N--,5D,Exclusion RKCB
+1C1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1C1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1C1N--2H--2S--,3C,5!ss and 5+!cs
+1C1N--2H--2S--,3D,5!ss and 5+!cs
+1C1N--2H--2S--,3H,5+!ss and 5+!hss
+1C1N--2H--2S--3H--,3S,
+1C1N--2H--2S--,3N,5!ss
+1C1N--2H--2S--,3S,
+1C1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2H--3C--,3D,
+1C1N--2H--3C--,3H,
+1C1N--2H--3C--3H--,3S,
+1C1N--2H--3C--3H--3S--,4C,Denies splinter
+1C1N--2H--3C--3H--3S--,4D,Denies splinter
+1C1N--2H--3C--3H--3S--,4H,Denies splinter
+1C1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C1N--2H--3C--,4C,
+1C1N--2H--3C--,4D,
+1C1N--2H--3C--,4H,
+1C1N--2H--3C--,4N,RKCB
+1C1N--2H--3C--,4S,
+1C1N--2H--3C--,5C,Exclusion RKCB
+1C1N--2H--3C--,5D,Exclusion RKCB
+1C1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2H--3D--,3H,
+1C1N--2H--3D--3H--,3S,
+1C1N--2H--3D--3H--3S--,4C,Denies splinter
+1C1N--2H--3D--3H--3S--,4D,Denies splinter
+1C1N--2H--3D--3H--3S--,4H,Denies splinter
+1C1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C1N--2H--3D--,4C,
+1C1N--2H--3D--,4D,
+1C1N--2H--3D--,4H,
+1C1N--2H--3D--,4N,RKCB
+1C1N--2H--3D--,4S,
+1C1N--2H--3D--,5C,Exclusion RKCB
+1C1N--2H--3D--,5D,Exclusion RKCB
+1C1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C1N--2H--3H--,3S,
+1C1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3H--,4N,RKCB
+1C1N--2H--3H--,4S,
+1C1N--2H--3H--,5C,Exclusion RKCB
+1C1N--2H--3H--,5D,Exclusion RKCB
+1C1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1C1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1C1N--2H--3S--,4N,RKCB
+1C1N--2H--3S--,4S,
+1C1N--2H--3S--,5C,Exclusion RKCB
+1C1N--2H--3S--,5D,Exclusion RKCB
+1C1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 17-18 HCP). 4) Strong slam try in !c;  (addressed to 15-16 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1C1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1C1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1C1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 7-8 HCP possibly 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1C1N--2S--,2N,16-18 HCP
+1C1N--2S--,3C,19-20 HCP
+1C1N--2S--,3D,19-20 HCP; denies 4!cs
+1C1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1C1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1C1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 17-18 HCP). 4) Strong slam try in !ds;  (addressed to 15-16 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1C1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1C1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1C1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3C--,4C,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1C1N--,3D,Please read chat#At least 5 !hs. If 6 !hs; then a slam try against 15-16 HCP
+1C1N--3D--,3H,16-18 HCP
+1C1N--3D--3H--,3S,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1C1N--3D--,3N,19-20 HCP; doubleton !h.
+1C1N--3D--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3D--,4C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3D--,4D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3D--,4H,Please read chat#19-20 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1C1N--,3H,Please read chat#At least 5 !ss. If 6 s!s; then a slam try against 17-18 HCP
+1C1N--3H--,3N,19-20 HCP; doubleton !s
+1C1N--3H--,3S,16-18 HCP
+1C1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1C1N--3H--,4C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3H--,4D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3H--,4H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C1N--3H--,4S,Please read chat#19-20 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax. 
+1C1N--,3S,At least 5-5 majors
+1C1N--3S--,3N,16-18 HCP with goodies in major
+1C1N--3S--,4C,#55 against 6 losers. Change
+1C1N--3S--,4D,#55 against 6 losers. Change
+1C1N--3S--,4H,Preference
+1C1N--3S--,4N,RKCB with 6 aces
+1C1N--3S--,4S,Preference
+1C1N--,4C,Transfer to 4!hs
+1C1N--4C--,4D,19-20 HCP and a good hand
+1C1N--4C--,4H,19-20 HCP and a good hand
+1C1N--,4D,Transfer to 4!ss
+1C1N--,4H,
+1C1N--,4N,All 4333 shapes
+1C1N--,4S,
+Error *001C=NYYYYYY008Natural|,1C,Natural
+1CDb--,1H,
+1CDb--1H--,1N,19-21 HCP
+1CDb--1H--1N--,2D,
+Error *001CP1D=NYYYYYY000|1C--,1D,
+Error *001CP1DP1H=NYYYYYY000|1C--1D--,1H,
+Error *001CP1DP1HP1S=NYYYYYY000|1C--1D--1H--,1S,
+1C--1D--1H--1S--1N,2H,0-3 HCP
+Error *001CP1DP1HP1SP1N=NYYYYYY0Forcing|1C--1D--1H--1S--,1N,Forcing
+Error *001CP1DP1HP1SP1NP2H=NYYYYYY000|1C--1D--1H--1S--1N--,2H,
+Error *001CP1DP1HP1SP1NP2HP2S=NYYYYYY000|1C--1D--1H--1S--1N--2H--,2S,
+Error *001CP1DP1HP1SP1NP2HP2SP3S=NYYYYYY000|1C--1D--1H--1S--1N--2H--2S--,3S,
+Error *001CP1DP1HP2S=NYYYYYY000|1C--1D--1H--,2S,
+Error *001CP1DP1HP2SP3S=NYYYYYY000|1C--1D--1H--2S--,3S,
+1D,1N,15-18
+1D1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1D1N--2C--2C--,3D,7-10 HCP
+1D1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1D1N--2C--2D--2H--,2N,18 HCP. Doubleton !h
+1D1N--2C--2D--2H--,2S,16-17 HCP
+1D1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1D1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1D1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1D1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1D1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1D1N--2C--2D--,2S,8-11 HCP
+1D1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1D1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1D1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1D1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1D1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1D1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1D1N--2C--2D--,3C,3-6 HCP
+1D1N--2C--2D--3C--,3D,Stopper
+1D1N--2C--2D--3C--,3H,Stopper
+1D1N--2C--2D--3C--,3S,Stopper
+1D1N--2C--2D--,3D,3-6 HCP
+1D1N--2C--2D--3D--,3H,Stopper
+1D1N--2C--2D--3D--,3S,Stopper
+1D1N--2C--2D--,3H,5+ !hs and 4!ss
+1D1N--2C--2D--,3S,5+ !ss and 4!hs
+1D1N--2C--,2H,16-18 HCP
+1D1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1D1N--2C--2H--,2S,
+1D1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1D1N--2C--2H--2S--,3C,
+1D1N--2C--2H--,3C,3-6 HCP
+1D1N--2C--2H--3C--,3D,Stopper
+1D1N--2C--2H--3C--,3H,Stopper
+1D1N--2C--2H--3C--,3S,Stopper
+1D1N--2C--2H--,3D,3-6 HCP
+1D1N--2C--2H--3D--,3H,Stopper
+1D1N--2C--2H--3D--,3S,Stopper
+1D1N--2C--2H--,3H,
+1D1N--2C--2H--,3N,3433 shape
+1D1N--2C--2H--3S--,4H,
+1D1N--2C--2H--4C--,4H,
+1D1N--2C--2H--4D--,4H,
+1D1N--2C--2H--,4H,
+1D1N--2C--2H--,4N,RKCB
+1D1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1D1N--2C--2H--,5C, Exclusion RKCB
+1D1N--2C--2H--,5D,Exclusion RKCB
+1D1N--2C--,2N,19-20 HCP; either both majors or none
+1D1N--2C--2N--,3C,3-6 HCP
+1D1N--2C--2N--3C--,3D,Stopper
+1D1N--2C--2N--3C--,3H,Stopper
+1D1N--2C--2N--3C--,3S,Stopper
+1D1N--2C--2N--,3D,3-6 HCP
+1D1N--2C--2N--3D--,3H,Stopper
+1D1N--2C--2N--3D--,3S,Stopper
+1D1N--2C--2N--,3H,
+1D1N--2C--2N--3H--,3N,Shows doubleton !hs
+1D1N--2C--2N--3H--,3S,Shows 3 !hs
+1D1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1D1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1D1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1D1N--2C--2N--,3S,
+1D1N--2C--2N--3S--,3N,Shows doubleton !s!
+1D1N--2C--2N--3S--,4C, 4-4 in majors
+1D1N--2C--2N--3S--,4D, 4-4 in majors
+1D1N--2C--2N--3S--,4H, 4-4 in majors
+1D1N--2C--2N--3S--,4S,
+1D1N--2C--,2S,18-20 HCP; denies 4!hs
+1D1N--2C--2S--,2N,5!hs
+1D1N--2C--2S--,3C,3-6 HCP
+1D1N--2C--2S--3C--,3D,Stopper
+1D1N--2C--2S--3C--,3H,Stopper
+1D1N--2C--2S--3C--,3S,Stopper
+1D1N--2C--2S--,3D,3-6 HCP
+1D1N--2C--2S--3D--,3H,Stopper
+1D1N--2C--2S--3D--,3S,Stopper
+1D1N--2C--2S--,3H,
+1D1N--2C--2S--,3S,
+1D1N--2C--2S--4C--,4S,
+1D1N--2C--2S--4D--,4S,
+1D1N--2C--2S--4H--,4S,
+1D1N--2C--2S--,4N,RKCB
+1D1N--2C--2S--,4S,
+1D1N--2C--2S--,5C,Exclusion RKCB
+1D1N--2C--2S--,5D,Exclusion RKCB
+1D1N--2C--,3C,Please read chat#15-16 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1D1N--2C--3C--,3D,
+1D1N--2C--3C--3D--,3H, !cStopper #
+1D1N--2C--3C--3D--,3S, !sStopper
+1D1N--2C--3C--3D--,4C,xx in !cs #
+1D1N--2C--3C--3D--,4D,xxx in !ss #
+1D1N--2C--3C--3D--,4H,xxxx in !hs #
+1D1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1D1N--2C--3C--3S--,4H,
+1D1N--2C--3C--4C--,4H,
+1D1N--2C--3C--4D--,4H,
+1D1N--2C--3C--,4H,
+1D1N--2C--3C--,4N,RKCB
+1D1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1D1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1D1N--2C--3D--3S--,4H,
+1D1N--2C--3D--4C--,4H,
+1D1N--2C--3D--4D--,4H,
+1D1N--2C--3D--,4H,
+1D1N--2C--3D--,4N,RKCB
+1D1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1D1N--2C--3D--,5C,Exclusion RKCB #
+1D1N--2C--3D--,5D,Exclusion RKCB #
+1D1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2C--3H--,3S,Please read chat#Either 5-6 !ss in an invitational hand or strong 5422/4522 shape
+1D1N--2C--3H--3S--,3N,Denies 3 spades
+1D1N--2C--3H--4C--,4H,
+1D1N--2C--3H--4D--,4H,
+1D1N--2C--3H--,4H,
+1D1N--2C--3H--,4N,RKCB
+1D1N--2C--3H--,5C,Exclusion RKCB
+1D1N--2C--3H--,5D,Exclusion RKCB
+1D1N--2C--,3N,19-20 HCP; 3433 shape.
+1D1N--2C--3N--4C--,4H,
+1D1N--2C--3N--4D--,4H,
+1D1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2C--3S--4C--,4H,
+1D1N--2C--3S--4D--,4H,
+1D1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-8 HCP. 3) 4 !hs; 7 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 17-18 HCP. 7) GF; 5!hs w/o slam interest.
+1D1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1D1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1D1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1D1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1D1N--2D--2H--3C--,3D,Reinvit
+1D1N--2D--2H--3C--3D--,3H,Minimum
+1D1N--2D--2H--,3D,5-5 in H1s and !ds. Strong invitation
+1D1N--2D--2H--3D--,3S,shows xx(xx) in !ss #
+1D1N--2D--2H--3D--,4C,shows xx(xx) in !ss #
+1D1N--2D--2H--3D--,4D,
+1D1N--2D--2H--,3H,
+1D1N--2D--2H--,3N,5!hs. No Slam ambition
+1D1N--2D--2H--,3S,
+1D1N--2D--2H--,4C,
+1D1N--2D--2H--,4D,
+1D1N--2D--2H--,4H,Mild slamtry without a singleton
+1D1N--2D--2H--,4N,RKCB
+1D1N--2D--2H--,4S,Exclusion RKCB
+1D1N--2D--2H--,5C,Exclusion RKCB
+1D1N--2D--2H--,5D,Exclusion RKCB
+1D1N--2D--,2N,19-20 HCP; 3433 shape
+1D1N--2D--2N--,3C,
+1D1N--2D--2N--,3D,
+1D1N--2D--2N--3D--,3H,Forced
+1D1N--2D--2N--3D--3H--,3S,King or Ace
+1D1N--2D--2N--3D--3H--,4C,King or Ace
+1D1N--2D--2N--3D--3H--,4D,King or Ace
+1D1N--2D--2N--3D--3H--,4H,Mild slam try
+1D1N--2D--2N--3D--3H--,4N,RKCB
+1D1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1D1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1D1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1D1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1D1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1D1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1D1N--2D--2N--3N--,4C,Presumably without !hqueen
+1D1N--2D--2N--3N--,4D,Presumably without !hqueen
+1D1N--2D--2N--,3S,
+1D1N--2D--2N--,4C,
+1D1N--2D--2N--,4D,
+1D1N--2D--2N--,4H,
+1D1N--2D--2N--,4N,RKCB
+1D1N--2D--2N--,4S,Exclusion RKCB
+1D1N--2D--2N--,5C,Exclusion RKCB
+1D1N--2D--2N--,5D,Exclusion RKCB
+1D1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1D1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1D1N--2D--2S--2N--,3H,
+1D1N--2D--2S--,3C,
+1D1N--2D--2S--,3D,
+1D1N--2D--2S--3D--,3H,Forced
+1D1N--2D--2S--3D--3H--,3S,King or Ace
+1D1N--2D--2S--3D--3H--,4C,King or Ace
+1D1N--2D--2S--3D--3H--,4D,King or Ace
+1D1N--2D--2S--3D--3H--,4H,Mild slam try
+1D1N--2D--2S--3D--3H--,4N,RKCB
+1D1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1D1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1D1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1D1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1D1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1D1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1D1N--2D--2S--3N--,4C,Presumably without !hqueen
+1D1N--2D--2S--3N--,4D,Presumably without !hqueen
+1D1N--2D--2S--,3S,
+1D1N--2D--2S--,4C,
+1D1N--2D--2S--,4D,
+1D1N--2D--2S--,4H,
+1D1N--2D--2S--,4N,RKCB
+1D1N--2D--2S--,4S,Exclusion RKCB
+1D1N--2D--2S--,5C,Exclusion RKCB
+1D1N--2D--2S--,5D,Exclusion RKCB
+1D1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2D--3C--,3D,
+1D1N--2D--3C--3D--,3H,Forced
+1D1N--2D--3C--3D--3H--,3S,King or Ace
+1D1N--2D--3C--3D--3H--,4C,King or Ace
+1D1N--2D--3C--3D--3H--,4D,King or Ace
+1D1N--2D--3C--3D--3H--,4H,Mild slam try
+1D1N--2D--3C--3D--3H--,4N,RKCB
+1D1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1D1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1D1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1D1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1D1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1D1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1D1N--2D--3C--3N--,4C,Presumably without !hqueen
+1D1N--2D--3C--3N--,4D,Presumably without !hqueen
+1D1N--2D--3C--,3S,
+1D1N--2D--3C--,4C,
+1D1N--2D--3C--,4D,
+1D1N--2D--3C--,4H,
+1D1N--2D--3C--,4N,RKCB
+1D1N--2D--3C--,4S,Exclusion RKCB
+1D1N--2D--3C--,5C,Exclusion RKCB
+1D1N--2D--3C--,5D,Exclusion RKCB
+1D1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1D1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1D1N--2D--3D--3N--,4C,Presumably without !hqueen
+1D1N--2D--3D--3N--,4D,Presumably without !hqueen
+1D1N--2D--3D--,3S,
+1D1N--2D--3D--,4C,
+1D1N--2D--3D--,4D,
+1D1N--2D--3D--,4H,
+1D1N--2D--3D--,4N,RKCB
+1D1N--2D--3D--,4S,Exclusion RKCB
+1D1N--2D--3D--,5C,Exclusion RKCB
+1D1N--2D--3D--,5D,Exclusion RKCB
+1D1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1D1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1D1N--2D--3H--3N--,4C,Presumably without !hqueen
+1D1N--2D--3H--3N--,4D,Presumably without !hqueen
+1D1N--2D--3H--,3S,
+1D1N--2D--3H--,4C,
+1D1N--2D--3H--,4D,
+1D1N--2D--3H--,4H,
+1D1N--2D--3H--,4N,RKCB
+1D1N--2D--3H--,4S,Exclusion RKCB
+1D1N--2D--3H--,5C,Exclusion RKCB
+1D1N--2D--3H--,5D,Exclusion RKCB
+1D1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 15-16 HCP. 6) GF; 5!ss w/o slam interest.
+1D1N--2H--,2N,19-20 HCP; 4333 shape
+1D1N--2H--2N--,3C,
+1D1N--2H--2N--,3D,
+1D1N--2H--2N--,3H,
+1D1N--2H--2N--3H--,3S,
+1D1N--2H--2N--3H--3S--,4C,Denies splinter
+1D1N--2H--2N--3H--3S--,4D,Denies splinter
+1D1N--2H--2N--3H--3S--,4H,Denies splinter
+1D1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1D1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1D1N--2H--2N--,4C,
+1D1N--2H--2N--,4D,
+1D1N--2H--2N--,4H,
+1D1N--2H--2N--,4N,RKCB
+1D1N--2H--2N--,4S,
+1D1N--2H--2N--,5C,Exclusion RKCB
+1D1N--2H--2N--,5D,Exclusion RKCB
+1D1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1D1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1D1N--2H--2S--,3C,5!ss and 5+!cs
+1D1N--2H--2S--,3D,5!ss and 5+!cs
+1D1N--2H--2S--,3H,5+!ss and 5+!hss
+1D1N--2H--2S--3H--,3S,
+1D1N--2H--2S--,3N,5!ss
+1D1N--2H--2S--,3S,
+1D1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2H--3C--,3D,
+1D1N--2H--3C--,3H,
+1D1N--2H--3C--3H--,3S,
+1D1N--2H--3C--3H--3S--,4C,Denies splinter
+1D1N--2H--3C--3H--3S--,4D,Denies splinter
+1D1N--2H--3C--3H--3S--,4H,Denies splinter
+1D1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1D1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1D1N--2H--3C--,4C,
+1D1N--2H--3C--,4D,
+1D1N--2H--3C--,4H,
+1D1N--2H--3C--,4N,RKCB
+1D1N--2H--3C--,4S,
+1D1N--2H--3C--,5C,Exclusion RKCB
+1D1N--2H--3C--,5D,Exclusion RKCB
+1D1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2H--3D--,3H,
+1D1N--2H--3D--3H--,3S,
+1D1N--2H--3D--3H--3S--,4C,Denies splinter
+1D1N--2H--3D--3H--3S--,4D,Denies splinter
+1D1N--2H--3D--3H--3S--,4H,Denies splinter
+1D1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1D1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1D1N--2H--3D--,4C,
+1D1N--2H--3D--,4D,
+1D1N--2H--3D--,4H,
+1D1N--2H--3D--,4N,RKCB
+1D1N--2H--3D--,4S,
+1D1N--2H--3D--,5C,Exclusion RKCB
+1D1N--2H--3D--,5D,Exclusion RKCB
+1D1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1D1N--2H--3H--,3S,
+1D1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3H--,4N,RKCB
+1D1N--2H--3H--,4S,
+1D1N--2H--3H--,5C,Exclusion RKCB
+1D1N--2H--3H--,5D,Exclusion RKCB
+1D1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1D1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1D1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1D1N--2H--3S--,4N,RKCB
+1D1N--2H--3S--,4S,
+1D1N--2H--3S--,5C,Exclusion RKCB
+1D1N--2H--3S--,5D,Exclusion RKCB
+1D1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 17-18 HCP). 4) Strong slam try in !c;  (addressed to 15-16 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1D1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1D1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1D1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 7-8 HCP possibly 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1D1N--2S--,2N,16-18 HCP
+1D1N--2S--,3C,19-20 HCP
+1D1N--2S--,3D,19-20 HCP; denies 4!cs
+1D1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1D1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1D1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 17-18 HCP). 4) Strong slam try in !ds;  (addressed to 15-16 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1D1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1D1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1D1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3C--,4C,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1D1N--,3D,Please read chat#At least 5 !hs. If 6 !hs; then a slam try against 15-16 HCP
+1D1N--3D--,3H,16-18 HCP
+1D1N--3D--3H--,3S,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1D1N--3D--,3N,19-20 HCP; doubleton !h.
+1D1N--3D--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3D--,4C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3D--,4D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3D--,4H,Please read chat#19-20 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1D1N--,3H,Please read chat#At least 5 !ss. If 6 s!s; then a slam try against 17-18 HCP
+1D1N--3H--,3N,19-20 HCP; doubleton !s
+1D1N--3H--,3S,16-18 HCP
+1D1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1D1N--3H--,4C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3H--,4D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3H--,4H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1D1N--3H--,4S,Please read chat#19-20 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax. 
+1D1N--,3S,At least 5-5 majors
+1D1N--3S--,3N,16-18 HCP with goodies in major
+1D1N--3S--,4C,#55 against 6 losers. Change
+1D1N--3S--,4D,#55 against 6 losers. Change
+1D1N--3S--,4H,Preference
+1D1N--3S--,4N,RKCB with 6 aces
+1D1N--3S--,4S,Preference
+1D1N--,4C,Transfer to 4!hs
+1D1N--4C--,4D,19-20 HCP and a good hand
+1D1N--4C--,4H,19-20 HCP and a good hand
+1D1N--,4D,Transfer to 4!ss
+1D1N--,4H,
+1D1N--,4N,All 4333 shapes
+1D1N--,4S,
+Error *001D=NYYYYYY008Natural|,1D,Natural
+Error *001DP1H=NYYYYYY000|1D--,1H,
+Error *001DP1HP1NP2C=NYYYYYY000|1D--1H--1N--,2C,
+1H,1N,15-18
+1H1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1H1N--2C--2C--,3D,7-10 HCP
+1H1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1H1N--2C--2D--2H--,2N,18 HCP. Doubleton !h
+1H1N--2C--2D--2H--,2S,16-17 HCP
+1H1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1H1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1H1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1H1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1H1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1H1N--2C--2D--,2S,8-11 HCP
+1H1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1H1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1H1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1H1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1H1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1H1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1H1N--2C--2D--,3C,3-6 HCP
+1H1N--2C--2D--3C--,3D,Stopper
+1H1N--2C--2D--3C--,3H,Stopper
+1H1N--2C--2D--3C--,3S,Stopper
+1H1N--2C--2D--,3D,3-6 HCP
+1H1N--2C--2D--3D--,3H,Stopper
+1H1N--2C--2D--3D--,3S,Stopper
+1H1N--2C--2D--,3H,5+ !hs and 4!ss
+1H1N--2C--2D--,3S,5+ !ss and 4!hs
+1H1N--2C--,2H,16-18 HCP
+1H1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1H1N--2C--2H--,2S,
+1H1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1H1N--2C--2H--2S--,3C,
+1H1N--2C--2H--,3C,3-6 HCP
+1H1N--2C--2H--3C--,3D,Stopper
+1H1N--2C--2H--3C--,3H,Stopper
+1H1N--2C--2H--3C--,3S,Stopper
+1H1N--2C--2H--,3D,3-6 HCP
+1H1N--2C--2H--3D--,3H,Stopper
+1H1N--2C--2H--3D--,3S,Stopper
+1H1N--2C--2H--,3H,
+1H1N--2C--2H--,3N,3433 shape
+1H1N--2C--2H--,3S,5422/4522 shape
+1H1N--2C--2H--3S--,4H,
+1H1N--2C--2H--4C--,4H,
+1H1N--2C--2H--4D--,4H,
+1H1N--2C--2H--,4H,
+1H1N--2C--2H--,4N,RKCB
+1H1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1H1N--2C--2H--,5C, Exclusion RKCB
+1H1N--2C--2H--,5D,Exclusion RKCB
+1H1N--2C--,2N,19-20 HCP; either both majors or none
+1H1N--2C--2N--,3C,3-6 HCP
+1H1N--2C--2N--3C--,3D,Stopper
+1H1N--2C--2N--3C--,3H,Stopper
+1H1N--2C--2N--3C--,3S,Stopper
+1H1N--2C--2N--,3D,3-6 HCP
+1H1N--2C--2N--3D--,3H,Stopper
+1H1N--2C--2N--3D--,3S,Stopper
+1H1N--2C--2N--,3H,
+1H1N--2C--2N--3H--,3N,Shows doubleton !hs
+1H1N--2C--2N--3H--,3S,Shows 3 !hs
+1H1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1H1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1H1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1H1N--2C--2N--,3S,
+1H1N--2C--2N--3S--,3N,Shows doubleton !s!
+1H1N--2C--2N--3S--,4C, 4-4 in majors
+1H1N--2C--2N--3S--,4D, 4-4 in majors
+1H1N--2C--2N--3S--,4H, 4-4 in majors
+1H1N--2C--2N--3S--,4S,
+1H1N--2C--,2S,18-20 HCP; denies 4!hs
+1H1N--2C--2S--,2N,5!hs
+1H1N--2C--2S--,3C,3-6 HCP
+1H1N--2C--2S--3C--,3D,Stopper
+1H1N--2C--2S--3C--,3H,Stopper
+1H1N--2C--2S--3C--,3S,Stopper
+1H1N--2C--2S--,3D,3-6 HCP
+1H1N--2C--2S--3D--,3H,Stopper
+1H1N--2C--2S--3D--,3S,Stopper
+1H1N--2C--2S--,3H,
+1H1N--2C--2S--,3S,
+1H1N--2C--2S--4D--,4S,
+1H1N--2C--2S--,4H,5422/4522 shape
+1H1N--2C--2S--4H--,4S,
+1H1N--2C--2S--,4N,RKCB
+1H1N--2C--2S--,4S,
+1H1N--2C--2S--,5C,Exclusion RKCB
+1H1N--2C--2S--,5D,Exclusion RKCB
+1H1N--2C--,3C,Please read chat#15-16 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1H1N--2C--3C--,3D,
+1H1N--2C--3C--3D--,3H, !cStopper #
+1H1N--2C--3C--3D--,3S, !sStopper
+1H1N--2C--3C--3D--,4C,xx in !cs #
+1H1N--2C--3C--3D--,4D,xxx in !ss #
+1H1N--2C--3C--3D--,4H,xxxx in !hs #
+1H1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1H1N--2C--3C--,3S, 5422/4522 shape#
+1H1N--2C--3C--3S--,4H,
+1H1N--2C--3C--4C--,4H,
+1H1N--2C--3C--4D--,4H,
+1H1N--2C--3C--,4H,
+1H1N--2C--3C--,4N,RKCB
+1H1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1H1N--2C--3C--,5C,Exclusion RKCB #
+1H1N--2C--3C--,5D,Exclusion RKCB #
+1H1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1H1N--2C--3D--,3S, 5422/4522 shape
+1H1N--2C--3D--3S--,4H,
+1H1N--2C--3D--4C--,4H,
+1H1N--2C--3D--4D--,4H,
+1H1N--2C--3D--,4H,
+1H1N--2C--3D--,4N,RKCB
+1H1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1H1N--2C--3D--,5C,Exclusion RKCB #
+1H1N--2C--3D--,5D,Exclusion RKCB #
+1H1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2C--3H--,3S,Please read chat#Either 5-6 !ss in an invitational hand or strong 5422/4522 shape
+1H1N--2C--3H--3S--,3N,Denies 3 spades
+1H1N--2C--3H--4C--,4H,
+1H1N--2C--3H--4D--,4H,
+1H1N--2C--3H--,4H,
+1H1N--2C--3H--,4N,RKCB
+1H1N--2C--3H--,5C,Exclusion RKCB
+1H1N--2C--3H--,5D,Exclusion RKCB
+1H1N--2C--,3N,19-20 HCP; 3433 shape.
+1H1N--2C--3N--4C--,4H,
+1H1N--2C--3N--4D--,4H,
+1H1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2C--3S--4C--,4H,
+1H1N--2C--3S--4D--,4H,
+1H1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-8 HCP. 3) 4 !hs; 7 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 17-18 HCP. 7) GF; 5!hs w/o slam interest.
+1H1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1H1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1H1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1H1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1H1N--2D--2H--3C--,3D,Reinvit
+1H1N--2D--2H--3C--3D--,3H,Minimum
+1H1N--2D--2H--,3D,5-5 in H1s and !ds. Strong invitation
+1H1N--2D--2H--3D--,3S,shows xx(xx) in !ss #
+1H1N--2D--2H--3D--,4C,shows xx(xx) in !ss #
+1H1N--2D--2H--3D--,4D,
+1H1N--2D--2H--,3H,
+1H1N--2D--2H--,3N,5!hs. No Slam ambition
+1H1N--2D--2H--,3S,
+1H1N--2D--2H--,4C,
+1H1N--2D--2H--,4D,
+1H1N--2D--2H--,4H,Mild slamtry without a singleton
+1H1N--2D--2H--,4N,RKCB
+1H1N--2D--2H--,4S,Exclusion RKCB
+1H1N--2D--2H--,5C,Exclusion RKCB
+1H1N--2D--2H--,5D,Exclusion RKCB
+1H1N--2D--,2N,19-20 HCP; 3433 shape
+1H1N--2D--2N--,3C,
+1H1N--2D--2N--,3D,
+1H1N--2D--2N--3D--,3H,Forced
+1H1N--2D--2N--3D--3H--,3S,King or Ace
+1H1N--2D--2N--3D--3H--,4C,King or Ace
+1H1N--2D--2N--3D--3H--,4D,King or Ace
+1H1N--2D--2N--3D--3H--,4H,Mild slam try
+1H1N--2D--2N--3D--3H--,4N,RKCB
+1H1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1H1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1H1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1H1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1H1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1H1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1H1N--2D--2N--3N--,4C,Presumably without !hqueen
+1H1N--2D--2N--3N--,4D,Presumably without !hqueen
+1H1N--2D--2N--,3S,
+1H1N--2D--2N--,4C,
+1H1N--2D--2N--,4D,
+1H1N--2D--2N--,4H,
+1H1N--2D--2N--,4N,RKCB
+1H1N--2D--2N--,4S,Exclusion RKCB
+1H1N--2D--2N--,5C,Exclusion RKCB
+1H1N--2D--2N--,5D,Exclusion RKCB
+1H1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1H1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1H1N--2D--2S--2N--,3H,
+1H1N--2D--2S--,3C,
+1H1N--2D--2S--,3D,
+1H1N--2D--2S--3D--,3H,Forced
+1H1N--2D--2S--3D--3H--,3S,King or Ace
+1H1N--2D--2S--3D--3H--,4C,King or Ace
+1H1N--2D--2S--3D--3H--,4D,King or Ace
+1H1N--2D--2S--3D--3H--,4H,Mild slam try
+1H1N--2D--2S--3D--3H--,4N,RKCB
+1H1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1H1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1H1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1H1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1H1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1H1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1H1N--2D--2S--3N--,4C,Presumably without !hqueen
+1H1N--2D--2S--3N--,4D,Presumably without !hqueen
+1H1N--2D--2S--,3S,
+1H1N--2D--2S--,4C,
+1H1N--2D--2S--,4D,
+1H1N--2D--2S--,4H,
+1H1N--2D--2S--,4N,RKCB
+1H1N--2D--2S--,4S,Exclusion RKCB
+1H1N--2D--2S--,5C,Exclusion RKCB
+1H1N--2D--2S--,5D,Exclusion RKCB
+1H1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2D--3C--,3D,
+1H1N--2D--3C--3D--,3H,Forced
+1H1N--2D--3C--3D--3H--,3S,King or Ace
+1H1N--2D--3C--3D--3H--,4C,King or Ace
+1H1N--2D--3C--3D--3H--,4D,King or Ace
+1H1N--2D--3C--3D--3H--,4H,Mild slam try
+1H1N--2D--3C--3D--3H--,4N,RKCB
+1H1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1H1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1H1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1H1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1H1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1H1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1H1N--2D--3C--3N--,4C,Presumably without !hqueen
+1H1N--2D--3C--3N--,4D,Presumably without !hqueen
+1H1N--2D--3C--,3S,
+1H1N--2D--3C--,4C,
+1H1N--2D--3C--,4D,
+1H1N--2D--3C--,4H,
+1H1N--2D--3C--,4N,RKCB
+1H1N--2D--3C--,4S,Exclusion RKCB
+1H1N--2D--3C--,5C,Exclusion RKCB
+1H1N--2D--3C--,5D,Exclusion RKCB
+1H1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1H1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1H1N--2D--3D--3N--,4C,Presumably without !hqueen
+1H1N--2D--3D--3N--,4D,Presumably without !hqueen
+1H1N--2D--3D--,3S,
+1H1N--2D--3D--,4C,
+1H1N--2D--3D--,4D,
+1H1N--2D--3D--,4H,
+1H1N--2D--3D--,4N,RKCB
+1H1N--2D--3D--,4S,Exclusion RKCB
+1H1N--2D--3D--,5C,Exclusion RKCB
+1H1N--2D--3D--,5D,Exclusion RKCB
+1H1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1H1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1H1N--2D--3H--3N--,4C,Presumably without !hqueen
+1H1N--2D--3H--3N--,4D,Presumably without !hqueen
+1H1N--2D--3H--,3S,
+1H1N--2D--3H--,4C,
+1H1N--2D--3H--,4D,
+1H1N--2D--3H--,4H,
+1H1N--2D--3H--,4N,RKCB
+1H1N--2D--3H--,4S,Exclusion RKCB
+1H1N--2D--3H--,5C,Exclusion RKCB
+1H1N--2D--3H--,5D,Exclusion RKCB
+1H1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 15-16 HCP. 6) GF; 5!ss w/o slam interest.
+1H1N--2H--,2N,19-20 HCP; 4333 shape
+1H1N--2H--2N--,3C,
+1H1N--2H--2N--,3D,
+1H1N--2H--2N--,3H,
+1H1N--2H--2N--3H--,3S,
+1H1N--2H--2N--3H--3S--,4C,Denies splinter
+1H1N--2H--2N--3H--3S--,4D,Denies splinter
+1H1N--2H--2N--3H--3S--,4H,Denies splinter
+1H1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1H1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1H1N--2H--2N--,4C,
+1H1N--2H--2N--,4D,
+1H1N--2H--2N--,4H,
+1H1N--2H--2N--,4N,RKCB
+1H1N--2H--2N--,4S,
+1H1N--2H--2N--,5C,Exclusion RKCB
+1H1N--2H--2N--,5D,Exclusion RKCB
+1H1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1H1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1H1N--2H--2S--,3C,5!ss and 5+!cs
+1H1N--2H--2S--,3D,5!ss and 5+!cs
+1H1N--2H--2S--,3H,5+!ss and 5+!hss
+1H1N--2H--2S--3H--,3S,
+1H1N--2H--2S--,3N,5!ss
+1H1N--2H--2S--,3S,
+1H1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2H--3C--,3D,
+1H1N--2H--3C--,3H,
+1H1N--2H--3C--3H--,3S,
+1H1N--2H--3C--3H--3S--,4C,Denies splinter
+1H1N--2H--3C--3H--3S--,4D,Denies splinter
+1H1N--2H--3C--3H--3S--,4H,Denies splinter
+1H1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1H1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1H1N--2H--3C--,4C,
+1H1N--2H--3C--,4D,
+1H1N--2H--3C--,4H,
+1H1N--2H--3C--,4N,RKCB
+1H1N--2H--3C--,4S,
+1H1N--2H--3C--,5C,Exclusion RKCB
+1H1N--2H--3C--,5D,Exclusion RKCB
+1H1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2H--3D--,3H,
+1H1N--2H--3D--3H--,3S,
+1H1N--2H--3D--3H--3S--,4C,Denies splinter
+1H1N--2H--3D--3H--3S--,4D,Denies splinter
+1H1N--2H--3D--3H--3S--,4H,Denies splinter
+1H1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1H1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1H1N--2H--3D--,4C,
+1H1N--2H--3D--,4D,
+1H1N--2H--3D--,4H,
+1H1N--2H--3D--,4N,RKCB
+1H1N--2H--3D--,4S,
+1H1N--2H--3D--,5C,Exclusion RKCB
+1H1N--2H--3D--,5D,Exclusion RKCB
+1H1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1H1N--2H--3H--,3S,
+1H1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3H--,4N,RKCB
+1H1N--2H--3H--,4S,
+1H1N--2H--3H--,5C,Exclusion RKCB
+1H1N--2H--3H--,5D,Exclusion RKCB
+1H1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1H1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1H1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1H1N--2H--3S--,4N,RKCB
+1H1N--2H--3S--,4S,
+1H1N--2H--3S--,5C,Exclusion RKCB
+1H1N--2H--3S--,5D,Exclusion RKCB
+1H1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 17-18 HCP). 4) Strong slam try in !c;  (addressed to 15-16 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1H1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1H1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1H1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 7-8 HCP possibly 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1H1N--2S--,2N,16-18 HCP
+1H1N--2S--,3C,19-20 HCP
+1H1N--2S--,3D,19-20 HCP; denies 4!cs
+1H1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1H1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1H1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 17-18 HCP). 4) Strong slam try in !ds;  (addressed to 15-16 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1H1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1H1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1H1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3C--,4C,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1H1N--,3D,Please read chat#At least 5 !hs. If 6 !hs; then a slam try against 15-16 HCP
+1H1N--3D--,3H,16-18 HCP
+1H1N--3D--3H--,3S,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1H1N--3D--,3N,19-20 HCP; doubleton !h.
+1H1N--3D--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3D--,4C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3D--,4D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3D--,4H,Please read chat#19-20 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1H1N--,3H,Please read chat#At least 5 !ss. If 6 s!s; then a slam try against 17-18 HCP
+1H1N--3H--,3N,19-20 HCP; doubleton !s
+1H1N--3H--,3S,16-18 HCP
+1H1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1H1N--3H--,4C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3H--,4D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3H--,4H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1H1N--3H--,4S,Please read chat#19-20 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax. 
+1H1N--,3S,At least 5-5 majors
+1H1N--3S--,3N,16-18 HCP with goodies in major
+1H1N--3S--,4C,#55 against 6 losers. Change
+1H1N--3S--,4D,#55 against 6 losers. Change
+1H1N--3S--,4H,Preference
+1H1N--3S--,4N,RKCB with 6 aces
+1H1N--3S--,4S,Preference
+1H1N--,4C,Transfer to 4!hs
+1H1N--4C--,4D,19-20 HCP and a good hand
+1H1N--4C--,4H,19-20 HCP and a good hand
+1H1N--,4D,Transfer to 4!ss
+1H1N--,4H,
+1H1N--,4N,All 4333 shapes
+1H1N--,4S,
+Error *001H=NYYYYYY008Natural|,1H,Natural
+1N,2C,!H+!S | At least 5-4
+1N,2D,Either major
+1N,2H,5+!hs and 4+ minor
+1N,2N,2-suiter; not majors
+1N,2S,5+!ss and 4+ minor
+1N,Db,Penalty
+Error *001NP2H=NYYYYYY000|1N--,2H,
+Error *001NP2HP2S=NYYYYYY000|1N--2H--,2S,
+Error *001NP2HP2SP3D=NYYYYYY000|1N--2H--2S--,3D,
+Error *001NP2HP2SP3DP4S=NYYYYYY000|1N--2H--2S--3D--,4S,
+1S,1N,15-18
+1S1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1S1N--2C--2C--,3D,7-10 HCP
+1S1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1S1N--2C--2D--2H--,2N,18 HCP. Doubleton !h
+1S1N--2C--2D--2H--,2S,16-17 HCP
+1S1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1S1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1S1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1S1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1S1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1S1N--2C--2D--,2S,8-11 HCP
+1S1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1S1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1S1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1S1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1S1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1S1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1S1N--2C--2D--,3C,3-6 HCP
+1S1N--2C--2D--3C--,3D,Stopper
+1S1N--2C--2D--3C--,3H,Stopper
+1S1N--2C--2D--3C--,3S,Stopper
+1S1N--2C--2D--,3D,3-6 HCP
+1S1N--2C--2D--3D--,3H,Stopper
+1S1N--2C--2D--3D--,3S,Stopper
+1S1N--2C--2D--,3H,5+ !hs and 4!ss
+1S1N--2C--2D--,3S,5+ !ss and 4!hs
+1S1N--2C--,2H,16-18 HCP
+1S1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1S1N--2C--2H--,2S,
+1S1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1S1N--2C--2H--2S--,3C,
+1S1N--2C--2H--,3C,3-6 HCP
+1S1N--2C--2H--3C--,3D,Stopper
+1S1N--2C--2H--3C--,3H,Stopper
+1S1N--2C--2H--3C--,3S,Stopper
+1S1N--2C--2H--,3D,3-6 HCP
+1S1N--2C--2H--3D--,3H,Stopper
+1S1N--2C--2H--3D--,3S,Stopper
+1S1N--2C--2H--,3H,
+1S1N--2C--2H--,3N,3433 shape
+1S1N--2C--2H--,3S,5422/4522 shape
+1S1N--2C--2H--3S--,4H,
+1S1N--2C--2H--4C--,4H,
+1S1N--2C--2H--4D--,4H,
+1S1N--2C--2H--,4H,
+1S1N--2C--2H--,4N,RKCB
+1S1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1S1N--2C--2H--,5C, Exclusion RKCB
+1S1N--2C--2H--,5D,Exclusion RKCB
+1S1N--2C--,2N,19-20 HCP; either both majors or none
+1S1N--2C--2N--,3C,3-6 HCP
+1S1N--2C--2N--3C--,3D,Stopper
+1S1N--2C--2N--3C--,3H,Stopper
+1S1N--2C--2N--3C--,3S,Stopper
+1S1N--2C--2N--,3D,3-6 HCP
+1S1N--2C--2N--3D--,3H,Stopper
+1S1N--2C--2N--3D--,3S,Stopper
+1S1N--2C--2N--,3H,
+1S1N--2C--2N--3H--,3N,Shows doubleton !hs
+1S1N--2C--2N--3H--,3S,Shows 3 !hs
+1S1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1S1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1S1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1S1N--2C--2N--,3S,
+1S1N--2C--2N--3S--,3N,Shows doubleton !s!
+1S1N--2C--2N--3S--,4C, 4-4 in majors
+1S1N--2C--2N--3S--,4D, 4-4 in majors
+1S1N--2C--2N--3S--,4H, 4-4 in majors
+1S1N--2C--2N--3S--,4S,
+1S1N--2C--,2S,18-20 HCP; denies 4!hs
+1S1N--2C--2S--,2N,5!hs
+1S1N--2C--2S--,3C,3-6 HCP
+1S1N--2C--2S--3C--,3D,Stopper
+1S1N--2C--2S--3C--,3H,Stopper
+1S1N--2C--2S--3C--,3S,Stopper
+1S1N--2C--2S--,3D,3-6 HCP
+1S1N--2C--2S--3D--,3H,Stopper
+1S1N--2C--2S--3D--,3S,Stopper
+1S1N--2C--2S--,3H,
+1S1N--2C--2S--,3S,
+1S1N--2C--2S--4C--,4S,
+1S1N--2C--2S--4D--,4S,
+1S1N--2C--2S--,4H,5422/4522 shape
+1S1N--2C--2S--4H--,4S,
+1S1N--2C--2S--,4N,RKCB
+1S1N--2C--2S--,4S,
+1S1N--2C--2S--,5C,Exclusion RKCB
+1S1N--2C--2S--,5D,Exclusion RKCB
+1S1N--2C--,3C,Please read chat#15-16 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1S1N--2C--3C--,3D,
+1S1N--2C--3C--3D--,3H, !cStopper #
+1S1N--2C--3C--3D--,3S, !sStopper
+1S1N--2C--3C--3D--,4C,xx in !cs #
+1S1N--2C--3C--3D--,4D,xxx in !ss #
+1S1N--2C--3C--3D--,4H,xxxx in !hs #
+1S1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1S1N--2C--3C--3S--,4H,
+1S1N--2C--3C--4C--,4H,
+1S1N--2C--3C--4D--,4H,
+1S1N--2C--3C--,4H,
+1S1N--2C--3C--,4N,RKCB
+1S1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1S1N--2C--3C--,5C,Exclusion RKCB #
+1S1N--2C--3C--,5D,Exclusion RKCB #
+1S1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1S1N--2C--3D--,3S, 5422/4522 shape
+1S1N--2C--3D--3S--,4H,
+1S1N--2C--3D--4C--,4H,
+1S1N--2C--3D--4D--,4H,
+1S1N--2C--3D--,4H,
+1S1N--2C--3D--,4N,RKCB
+1S1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1S1N--2C--3D--,5C,Exclusion RKCB #
+1S1N--2C--3D--,5D,Exclusion RKCB #
+1S1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2C--3H--3S--,3N,Denies 3 spades
+1S1N--2C--3H--4C--,4H,
+1S1N--2C--3H--4D--,4H,
+1S1N--2C--3H--,4H,
+1S1N--2C--3H--,4N,RKCB
+1S1N--2C--3H--,5C,Exclusion RKCB
+1S1N--2C--3H--,5D,Exclusion RKCB
+1S1N--2C--,3N,19-20 HCP; 3433 shape.
+1S1N--2C--3N--4C--,4H,
+1S1N--2C--3N--4D--,4H,
+1S1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2C--3S--4C--,4H,
+1S1N--2C--3S--4D--,4H,
+1S1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-8 HCP. 3) 4 !hs; 7 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 17-18 HCP. 7) GF; 5!hs w/o slam interest.
+1S1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1S1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1S1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1S1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1S1N--2D--2H--3C--,3D,Reinvit
+1S1N--2D--2H--3C--3D--,3H,Minimum
+1S1N--2D--2H--,3D,5-5 in H1s and !ds. Strong invitation
+1S1N--2D--2H--3D--,3S,shows xx(xx) in !ss #
+1S1N--2D--2H--3D--,4C,shows xx(xx) in !ss #
+1S1N--2D--2H--3D--,4D,
+1S1N--2D--2H--,3H,
+1S1N--2D--2H--,3N,5!hs. No Slam ambition
+1S1N--2D--2H--,3S,
+1S1N--2D--2H--,4C,
+1S1N--2D--2H--,4D,
+1S1N--2D--2H--,4H,Mild slamtry without a singleton
+1S1N--2D--2H--,4N,RKCB
+1S1N--2D--2H--,4S,Exclusion RKCB
+1S1N--2D--2H--,5C,Exclusion RKCB
+1S1N--2D--2H--,5D,Exclusion RKCB
+1S1N--2D--,2N,19-20 HCP; 3433 shape
+1S1N--2D--2N--,3C,
+1S1N--2D--2N--,3D,
+1S1N--2D--2N--3D--,3H,Forced
+1S1N--2D--2N--3D--3H--,3S,King or Ace
+1S1N--2D--2N--3D--3H--,4C,King or Ace
+1S1N--2D--2N--3D--3H--,4D,King or Ace
+1S1N--2D--2N--3D--3H--,4H,Mild slam try
+1S1N--2D--2N--3D--3H--,4N,RKCB
+1S1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1S1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1S1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1S1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1S1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1S1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1S1N--2D--2N--3N--,4C,Presumably without !hqueen
+1S1N--2D--2N--3N--,4D,Presumably without !hqueen
+1S1N--2D--2N--,3S,
+1S1N--2D--2N--,4C,
+1S1N--2D--2N--,4D,
+1S1N--2D--2N--,4H,
+1S1N--2D--2N--,4N,RKCB
+1S1N--2D--2N--,4S,Exclusion RKCB
+1S1N--2D--2N--,5C,Exclusion RKCB
+1S1N--2D--2N--,5D,Exclusion RKCB
+1S1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1S1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1S1N--2D--2S--2N--,3H,
+1S1N--2D--2S--,3C,
+1S1N--2D--2S--,3D,
+1S1N--2D--2S--3D--,3H,Forced
+1S1N--2D--2S--3D--3H--,3S,King or Ace
+1S1N--2D--2S--3D--3H--,4C,King or Ace
+1S1N--2D--2S--3D--3H--,4D,King or Ace
+1S1N--2D--2S--3D--3H--,4H,Mild slam try
+1S1N--2D--2S--3D--3H--,4N,RKCB
+1S1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1S1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1S1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1S1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1S1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1S1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1S1N--2D--2S--3N--,4C,Presumably without !hqueen
+1S1N--2D--2S--3N--,4D,Presumably without !hqueen
+1S1N--2D--2S--,3S,
+1S1N--2D--2S--,4C,
+1S1N--2D--2S--,4D,
+1S1N--2D--2S--,4H,
+1S1N--2D--2S--,4N,RKCB
+1S1N--2D--2S--,4S,Exclusion RKCB
+1S1N--2D--2S--,5C,Exclusion RKCB
+1S1N--2D--2S--,5D,Exclusion RKCB
+1S1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2D--3C--,3D,
+1S1N--2D--3C--3D--,3H,Forced
+1S1N--2D--3C--3D--3H--,3S,King or Ace
+1S1N--2D--3C--3D--3H--,4C,King or Ace
+1S1N--2D--3C--3D--3H--,4D,King or Ace
+1S1N--2D--3C--3D--3H--,4H,Mild slam try
+1S1N--2D--3C--3D--3H--,4N,RKCB
+1S1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1S1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1S1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1S1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1S1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1S1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1S1N--2D--3C--3N--,4C,Presumably without !hqueen
+1S1N--2D--3C--3N--,4D,Presumably without !hqueen
+1S1N--2D--3C--,3S,
+1S1N--2D--3C--,4C,
+1S1N--2D--3C--,4D,
+1S1N--2D--3C--,4H,
+1S1N--2D--3C--,4N,RKCB
+1S1N--2D--3C--,4S,Exclusion RKCB
+1S1N--2D--3C--,5C,Exclusion RKCB
+1S1N--2D--3C--,5D,Exclusion RKCB
+1S1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1S1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1S1N--2D--3D--3N--,4C,Presumably without !hqueen
+1S1N--2D--3D--3N--,4D,Presumably without !hqueen
+1S1N--2D--3D--,3S,
+1S1N--2D--3D--,4C,
+1S1N--2D--3D--,4D,
+1S1N--2D--3D--,4H,
+1S1N--2D--3D--,4N,RKCB
+1S1N--2D--3D--,4S,Exclusion RKCB
+1S1N--2D--3D--,5C,Exclusion RKCB
+1S1N--2D--3D--,5D,Exclusion RKCB
+1S1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1S1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1S1N--2D--3H--3N--,4C,Presumably without !hqueen
+1S1N--2D--3H--3N--,4D,Presumably without !hqueen
+1S1N--2D--3H--,3S,
+1S1N--2D--3H--,4C,
+1S1N--2D--3H--,4D,
+1S1N--2D--3H--,4H,
+1S1N--2D--3H--,4N,RKCB
+1S1N--2D--3H--,4S,Exclusion RKCB
+1S1N--2D--3H--,5C,Exclusion RKCB
+1S1N--2D--3H--,5D,Exclusion RKCB
+1S1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 15-16 HCP. 6) GF; 5!ss w/o slam interest.
+1S1N--2H--,2N,19-20 HCP; 4333 shape
+1S1N--2H--2N--,3C,
+1S1N--2H--2N--,3D,
+1S1N--2H--2N--,3H,
+1S1N--2H--2N--3H--,3S,
+1S1N--2H--2N--3H--3S--,4C,Denies splinter
+1S1N--2H--2N--3H--3S--,4D,Denies splinter
+1S1N--2H--2N--3H--3S--,4H,Denies splinter
+1S1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1S1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1S1N--2H--2N--,4C,
+1S1N--2H--2N--,4D,
+1S1N--2H--2N--,4H,
+1S1N--2H--2N--,4N,RKCB
+1S1N--2H--2N--,4S,
+1S1N--2H--2N--,5C,Exclusion RKCB
+1S1N--2H--2N--,5D,Exclusion RKCB
+1S1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1S1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1S1N--2H--2S--,3C,5!ss and 5+!cs
+1S1N--2H--2S--,3D,5!ss and 5+!cs
+1S1N--2H--2S--,3H,5+!ss and 5+!hss
+1S1N--2H--2S--3H--,3S,
+1S1N--2H--2S--,3N,5!ss
+1S1N--2H--2S--,3S,
+1S1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2H--3C--,3D,
+1S1N--2H--3C--,3H,
+1S1N--2H--3C--3H--,3S,
+1S1N--2H--3C--3H--3S--,4C,Denies splinter
+1S1N--2H--3C--3H--3S--,4D,Denies splinter
+1S1N--2H--3C--3H--3S--,4H,Denies splinter
+1S1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1S1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1S1N--2H--3C--,4C,
+1S1N--2H--3C--,4D,
+1S1N--2H--3C--,4H,
+1S1N--2H--3C--,4N,RKCB
+1S1N--2H--3C--,4S,
+1S1N--2H--3C--,5C,Exclusion RKCB
+1S1N--2H--3C--,5D,Exclusion RKCB
+1S1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2H--3D--,3H,
+1S1N--2H--3D--3H--,3S,
+1S1N--2H--3D--3H--3S--,4C,Denies splinter
+1S1N--2H--3D--3H--3S--,4D,Denies splinter
+1S1N--2H--3D--3H--3S--,4H,Denies splinter
+1S1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1S1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1S1N--2H--3D--,4C,
+1S1N--2H--3D--,4D,
+1S1N--2H--3D--,4H,
+1S1N--2H--3D--,4N,RKCB
+1S1N--2H--3D--,4S,
+1S1N--2H--3D--,5C,Exclusion RKCB
+1S1N--2H--3D--,5D,Exclusion RKCB
+1S1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1S1N--2H--3H--,3S,
+1S1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3H--,4N,RKCB
+1S1N--2H--3H--,4S,
+1S1N--2H--3H--,5C,Exclusion RKCB
+1S1N--2H--3H--,5D,Exclusion RKCB
+1S1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1S1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1S1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1S1N--2H--3S--,4N,RKCB
+1S1N--2H--3S--,4S,
+1S1N--2H--3S--,5C,Exclusion RKCB
+1S1N--2H--3S--,5D,Exclusion RKCB
+1S1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 17-18 HCP). 4) Strong slam try in !c;  (addressed to 15-16 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1S1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1S1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1S1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 7-8 HCP possibly 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1S1N--2S--,2N,16-18 HCP
+1S1N--2S--,3C,19-20 HCP
+1S1N--2S--,3D,19-20 HCP; denies 4!cs
+1S1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1S1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1S1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 17-18 HCP). 4) Strong slam try in !ds;  (addressed to 15-16 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1S1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1S1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1S1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3C--,4C,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1S1N--,3D,Please read chat#At least 5 !hs. If 6 !hs; then a slam try against 15-16 HCP
+1S1N--3D--,3H,16-18 HCP
+1S1N--3D--3H--,3S,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1S1N--3D--,3N,19-20 HCP; doubleton !h.
+1S1N--3D--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3D--,4C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3D--,4D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3D--,4H,Please read chat#19-20 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1S1N--,3H,Please read chat#At least 5 !ss. If 6 s!s; then a slam try against 17-18 HCP
+1S1N--3H--,3N,19-20 HCP; doubleton !s
+1S1N--3H--,3S,16-18 HCP
+1S1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1S1N--3H--,4C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3H--,4D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3H--,4H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1S1N--3H--,4S,Please read chat#19-20 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax. 
+1S1N--,3S,At least 5-5 majors
+1S1N--3S--,3N,16-18 HCP with goodies in major
+1S1N--3S--,4C,#55 against 6 losers. Change
+1S1N--3S--,4D,#55 against 6 losers. Change
+1S1N--3S--,4H,Preference
+1S1N--3S--,4N,RKCB with 6 aces
+1S1N--3S--,4S,Preference
+1S1N--,4C,Transfer to 4!hs
+1S1N--4C--,4D,19-20 HCP and a good hand
+1S1N--4C--,4H,19-20 HCP and a good hand
+1S1N--,4D,Transfer to 4!ss
+1S1N--,4H,
+1S1N--,4N,All 4333 shapes
+1S1N--,4S,
+Error *001S=NYYYYYY008Natural|,1S,Natural
+Error *007N=NYYYYYY0112.14 Adjust 2NT|,7N,112.14 Adjust 2NT
+Error *00{Eller 149}=NYYYYYY1!c  Either natural and unbalanced or \\various strong hands.\\1NT 12-16/16-20HCP\\5 card Majors 11-20 HCP(could be 4 hearts in third and fourth position)\\1 !d Natural, unbalanced in first and second position. \\|,14,Please read chat#  Either natural and unbalanced or \\various strong hands.\\1NT 12-16/16-20HCP\\5 card Majors 11-20 HCP(could be 4 hearts in third and fourth position)\\1 !d Natural; unbalanced in first and second position. \\
+1C1H,Db,promises 4 !ss
+1C1H----,1N,Please read chat#Either 17-20 balanced or a good hand with clubs and stopper
+1C1S,Db,promises 4 !hs
+1C1S----,1N,Please read chat#Either 17-20 balanced or a good hand with clubs and stopper
+,1C,Nat or strong
+1C--1D1H,1N,Please read chat#Either 17-20 balanced or a good hand with clubs and stopper
+1C--1D1S,1N,Please read chat#Either 17-20 balanced or a good hand with clubs and stopper
+1C--,1D,Please read chat#No 5+ card major 4HCP +. Natural if 8 HCP+
+1C--1D--,1H,Please read chat#1. Clubs and hearts; unbalanced 2. Gameforce or near gameforce with 5M and 4m.  Gameforce or near gameforce with 5+ minor and a side suit.
+1C--1D--1H--,1N,5-9 HCP. Denies 4!hs;can have 4!s
+1C--1D--1H--1N--,2C,
+1C--1D--1H--1N--,2D,21 HCP.4 card+ minor and a side suit.
+1C--1D--1H--1N--2D--,2H,Has denied 4 !hs
+1C--1D--1H--1N--2D--,2S,
+1C--1D--1H--1N--,2H,21 HCP+. Minor side suit
+1C--1D--1H--1N--,2S,21 HCP+. Minor side suit
+1C--1D--1H--1N--,3C,!h side suit
+1C--1D--1H--1N--,3D,!h side suit
+1C--1D--1H--1N--,3H,2425 shape
+1C--1D--1H--1N--,3S,!h side suit
+1C--1D--1H--,1S,0-4 hp
+1C--1D--1H--1S--,1N,!h and !c; usually less than 6!cs
+1C--1D--1H--1S--,2C,
+1C--1D--1H--1S--,2D,Please read chat#5+ minor (or Marmic and a 4 card major. 21 HCP+
+1C--1D--1H--1S--2D--,2H,
+1C--1D--1H--1S--2D--,2N,Please read chat#Not a complete waste. Denies 4 card major.
+1C--1D--1H--1S--2D--,2S,Can be a yarborough
+1C--1D--1H--1S--2D--,3C,3rd negative response
+1C--1D--1H--1S--2D--,3D,Shows K or Q in !C and nothing else
+1C--1D--1H--1S--2D--,3H,Splinter for either minor
+1C--1D--1H--1S--2D--,3N,Please read chat#Both major queens doubleton or tripleton. 2007-08-25
+1C--1D--1H--1S--2D--,3S,Splinter for either minor
+1C--1D--1H--1S--,2H,21-23 HCP and a 4 card side suit
+1C--1D--1H--1S--2H--,2N,Asks for side suit
+1C--1D--1H--1S--2H--,2S,
+1C--1D--1H--1S--,2N,About 22 HCP !hs and !cs
+1C--1D--1H--1S--,2S,21-23 HCP and a 4 card side suit
+1C--1D--1H--1S--2S--,2N,Asks for side suit
+1C--1D--1H--1S--,--,Please read chat#1# 1. Marmic. 2. About 20 HCP; 5xx4 shape
+1C--1D--1H--,2C,4-7 HCP; denies 4!h
+1C--1D--1H--2C--,2D,21 HCP.5 card+ minor and a side suit.
+1C--1D--1H--2C--2D--,2H,Has denied 4 !hs
+1C--1D--1H--2C--2D--,2S,
+1C--1D--1H--2C--,2H,21 HCP+. Minor side suit
+1C--1D--1H--2C--,2S,21 HCP+. Minor side suit
+1C--1D--1H--2C--,3C,!h side suit
+1C--1D--1H--2C--,3D,!h side suit
+1C--1D--1H--2C--,3H,2425 shape
+1C--1D--1H--2C--,3S,!h side suit
+1C--1D--1H--,2D,8-11 HCP
+1C--1D--1H--2D--,2H,Please read chat#Various 20 HCP+ hands; most one suited or 5-5 hands are dealt with in other sequences.
+1C--1D--1H--2D--,2S,Please read chat#1. Stopper; seeks 3 NT 2.21 HCP+. 5+ !ss and a minor side suit
+1C--1D--1H--2D--,3C,!cs and !h side suit
+1C--1D--1H--2D--,3D,!cs and !h side suit
+1C--1D--1H--2D--,3H,2425 shape
+1C--1D--1H--2D--,3S,
+1C--1D--1H--2D--,4C,6+ !cs and !h side suit 
+1C--1D--1H--,2H,4-7 HCP
+1C--1D--1H--2H--,2N,Please read chat#Game try in !hs. Asks responder to show a feature
+1C--1D--1H--2H--,2S,21 HCP+. 5+ !ss and a minor side suit
+1C--1D--1H--2H--,3C,21 HCP+ and a side suit
+1C--1D--1H--2H--,3D,21 HCP+ and a side suit
+1C--1D--1H--2H--,3H,# 
+1C--1D--1H--2H--,3S,
+1C--1D--1H--2H--,4D,
+1C--1D--1H--,2N,Can have a singleton !h
+1C--1D--1H--2N--,3C,
+1C--1D--1H--2N--,3D,Can have either minor
+1C--1D--1H--2N--3D--,3H,Shows 5+ !ds
+1C--1D--1H--2N--3D--,3S,
+1C--1D--1H--2N--3D--,4C, 3244 shape
+1C--1D--1H--2N--,3H,21 HCP+ and a minor side suit
+1C--1D--1H--2N--,3S,21 HCP+ and a minor side suit
+1C--1D--1H--2N--,4C,
+1C--1D--1H--2N--,4D,
+1C--1D--1H--,2S,At least invitational
+1C--1D--1H--2S--,2N,Spade stopper; minimum
+1C--1D--1H--2S--,3C,No spade stopper; minimum
+1C--1D--1H--2S--,3D,No spade stopper; maximum
+1C--1D--1H--2S--,3H,21 HCP+ and a minor side suit
+1C--1D--1H--2S--,3N,Spade stopper and maximum
+1C--1D--1H--2S--,3S,21 HCP+ and a minor side suit
+1C--1D--1H--2S--,4C,
+1C--1D--1H--2S--,4D,
+1C--1D--1H--,3C,Lacks spade stopper
+1C--1D--1H--3C--,3D,Please read chat#Seeks 3 NT or minor game/slam. Must rebid 4!d at next turn if strong with !d
+1C--1D--1H--3C--,3H,21 HCP+ and a minor side suit
+1C--1D--1H--3C--,3S,21 HCP+ and a minor side suit
+1C--1D--1H--3C--,4C,Probably 2425 shape
+1C--1D--1H--3C--,4D,
+1C--1D--1H--3C--,4H,
+1C--1D--1H--3C--,4N,RKCB
+1C--1D--1H--3C--,4S,
+1C--1D--1H--,3D,Usually at least 6 !ds
+1C--1D--1H--3D--,3H,Please read chat#1. Stopper 2. 21 HCP+ 5-6!h and a minor side suit
+1C--1D--1H--3D--,3S,Please read chat#1. Stopper 2. 21 HCP+ 5-6!s and a minor side suit
+1C--1D--1H--3D--,4C,
+1C--1D--1H--3D--,4D,
+1C--1D--1H--3D--,4H,
+1C--1D--1H--3D--,4N,RKCB
+1C--1D--1H--3D--,4S,
+1C--1D--1H--,3H,
+1C--1D--1H--3H--,3N,21 HCP+. Asks for cuebid
+1C--1D--1H--3H--,3S,21 HCP+ 5-6!s and a minor side suit
+1C--1D--1H--3H--,4C,
+1C--1D--1H--3H--,4D,21 HCP+
+1C--1D--1H--3H--,4H,
+1C--1D--1H--3H--,4N,RKCB
+1C--1D--1H--3H--,4S,
+1C--1D--1H--,3N,About 12-14 HCP
+1C--1D--1H--3N--,4C,
+1C--1D--1H--3N--,4D,21 HCP +
+1C--1D--1H--3N--,4H,21 HCP+ and a minor side suit
+1C--1D--1H--3N--4H--,4S,21 HCP+ and a minor side suit
+1C--1D--1H--3N--,4S,21 HCP+ and a minor side suit
+1C--1D--1H--,3S,Splinter with !hs
+1C--1D--1H--3S--,3N,21 HCP +
+1C--1D--1H--3S--,4C,
+1C--1D--1H--3S--,4D,2 HCP?
+1C--1D--1H--3S--,4H,
+1C--1D--1H--3S--,4N,RKCB
+1C--1D--1H--3S--,4S,
+1C--1D--1H--,4C,Slamtry with !cs
+1C--1D--1H--4C--,4D,
+1C--1D--1H--4C--,4H,
+1C--1D--1H--4C--,4S,
+1C--1D--1H--4C--,5C,
+1C--1D--1H--,4D,
+1C--1D--1H--4H--,4N,RKCB
+1C--1D--1H--4H--,4S,Either cuebid or 21 HCP+ with !s
+1C--1D--1H--4H--,5C,
+1C--1D--1H--4H--,5D,Cuebid or 21 HCP+ and 4+ !d
+1C--1D--1H--4H--,5H,Poor !hs
+1C--1D--,1S,10-20 Clubs and spades; unbalanced
+1C--1D--,2C,10-14 HCP
+1C--1D--,2D,Please read chat#6+ minor. 17+ HCP if !cs; 21+ HCP if !ds.
+1C--1D--2D--,2H,Please read chat#Second negative or at least heart feature
+1C--1D--2D--2H--,2N,Bid 3 NT if you have a !h stopper
+1C--1D--2D--2H--,2S,Please read chat#Relay. Denies !h feature. Wants responder to declare NT if he has !h feature +
+1C--1D--2D--,2N,Please read chat#Invites to 3 NT if opener has !c and 17-19 HCP; otherwise GF. 
+1C--1D--2D--2N--,3C,
+1C--1D--2D--2N--,3D,Asks for cuebid
+1C--1D--2D--2N--,3H,Please read chat##!c suit.Genuine !h cuebid. Seeks 3 NT or slam
+1C--1D--2D--2N--,3S,Please read chat##!c suit.Genuine !s cuebid. Seeks 3 NT or slam
+1C--1D--2D--,2S,Feature or suit
+1C--1D--2D--,3C,A feature in either minor
+1C--1D--2D--,3D,Support for both minors
+1C--1D--2D--,3H,Splinter with support for both minors
+1C--1D--2D--,3N,Please read chat#Enough to game against !cs and 17-19 HCP 
+1C--1D--2D--,3S,Splinter with support for both minors
+1C--1D--2D--,4C,Support for both minors. No splinter
+1C--1D--2D--4C--,4D,Sets !ds as trumps
+1C--1D--2D--4C--,4H,!cs
+1C--1D--2D--4C--,4S,!cs
+1C--1D--,2H,Please read chat#Forcing to 3!h. Tends not to have a side suit
+1C--1D--,2N,23-24 HCP
+1C--1D--2N--,3C,
+1C--1D--2N--3C--,3D,
+1C--1D--2N--3C--3D--,3H,4+!ss
+1C--1D--2N--3C--3D--3H--3N--,4C,
+1C--1D--2N--3C--3D--3H--3N--,4D,
+1C--1D--2N--3C--3D--3H--3N--,4H,6+ !ss
+1C--1D--2N--3C--3D--3H--3N--,4S,Normally wihout splinter
+1C--1D--2N--3C--3D--3H--3N--,5C,6+ !ss
+1C--1D--2N--3C--3D--3H--3N--,5D,6+ !ss
+1C--1D--2N--3C--3D--3H--,3S,
+1C--1D--2N--3C--3D--,3N,Please read chat#4-4 in majors (might have 5 !ss and 4hss). No slam interest
+1C--1D--2N--3C--3D--3N--,4C,DBC
+1C--1D--2N--3C--3D--3N--4C--,4D,DBC
+1C--1D--2N--3C--3D--,3S,4+ !hs
+1C--1D--2N--3C--3D--3S--3N--,4C,
+1C--1D--2N--3C--3D--3S--3N--,4D,
+1C--1D--2N--3C--3D--3S--,4C,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+1C--1D--2N--3C--3D--3S--4C--,4D,Retransfer
+1C--1D--2N--3C--3D--3S--,4D,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+1C--1D--2N--3C--3D--3S--,4H,
+1C--1D--2N--3C--3D--,4C,5+!ds and 4!cs 
+1C--1D--2N--3C--3D--,4D,
+1C--1D--2N--3C--3D--,4H,6+ !ds
+1C--1D--2N--3C--3D--,4N,4-4 in majors (could be 5!ss and 4 !hs)
+1C--1D--2N--3C--3D--,4S,6+ !ds
+1C--1D--2N--3C--3D--,5C,6+ !ds
+1C--1D--2N--3C--3D--,5N,Please read chat#Forcing to slam. 4-4 in majors (could be 5!ss and 4 !hs). 
+1C--1D--2N--3C--3D--5N--,6C,Suggests alternative strain
+1C--1D--2N--3C--3D--5N--,6D,Suggests alternative strain
+1C--1D--2N--3C--3D--5N--,6H,
+1C--1D--2N--3C--3D--5N--,6N,Does not fancy playing 6M
+1C--1D--2N--3C--3D--5N--,6S,
+1C--1D--2N--,3D,
+1C--1D--2N--3D--,3H,
+1C--1D--2N--3D--3H--,3S,Please read chat#GK med 4+farve i !ss. \C5bner kan nu pr\E6ferere eller melde 3ut. 4!c (laveste umeldte farve) er cuebid; der accepterer !h (svarers laveste farve) som trumf. 4d! er cuebid; der accepterer !s som trumf. Dette kaldes pr\E6ference-cuebids. Hvis \E5bner i stedet sl\E5r af i 3ut; kan svarer vise 5-5 i major med slem interesse ved at cuebidde 4c!  eller 4r!. Det fastl\E6gger !s som trumf; da \E5bner jo ved at ben\E6gte !hinteresse implicerer 3-farve i !s. Svarers 4!s er 5-5 M uden sleminteresse
+1C--1D--2N--3D--,3S,DBC
+1C--1D--2N--3D--,4C,DBC
+1C--1D--2N--3D--4C--,4D,
+1C--1D--2N--3D--,4D,DBC
+1C--1D--2N--3D--,4H,Denies DBC
+1C--1D--2N--,3H,
+1C--1D--2N--3H--,3S,
+1C--1D--2N--3H--,4C,DBC
+1C--1D--2N--3H--,4D,DBC
+1C--1D--2N--3H--,4H,DBC
+1C--1D--2N--3H--,4S,Denies DBC
+1C--1D--2N--,3S,Unconditional transfer to 4!c
+1C--1D--2N--,4C,Mild slam try in  4!hs
+1C--1D--2N--,4D,Mild slam try in  !ss
+1C--1D--2N--,4H,
+1C--1D--2N--,4S,
+1C--1D--2N--,5C,
+1C--1D--2N--,5D,
+1C--1D--,2S,Please read chat#Forcing to 3!s. Tends not to have a side suit
+1C--1D--,3C,Please read chat#About 14-16 HCP; can be less if longer !cs.
+1C--1D--,3D,Asks for cuebids
+1C--1D--,3H,Asks for cuebids
+1C--1D--,3N,28-30 HCP
+1C--1D--3N--,4C,Baron
+1C--1D--3N--4C--,4D,
+1C--1D--3N--4C--4D--,5N,Grand slam invitation
+1C--1D--3N--4C--,4H,
+1C--1D--3N--4C--,4N,4-5 !c
+1C--1D--3N--4C--,4S,
+1C--1D--3N--4C--,5C,Not minium
+1C--1D--3N--,4D,
+1C--1D--3N--,4H,
+1C--1D--3N--,4S,At least 4-5 in minors
+1C--1D--3N--4S--,4N,Negative against minors
+1C--1D--3N--4S--,5C,
+1C--1D--3N--4S--,5D,
+1C--1D--,3S,Asks for cuebids
+1C--1D--,4C,Asks for cuebids
+1C--1D--,4D,Undefined
+1C--1D--,4H,Please read chat#9 tricks; lacking aces. E.g KQJ; KQJxxxx;x;Ex
+1C--1D--,4N,#34-36?
+1C--1D--,4S,Please read chat#9 tricks; lacking aces. E.g KQJ; KQJxxxx;x;Ex
+1C--,1H,If 4-7 HCP; then 5!hs
+1C--1H--,2D,Please read chat#Singleton or void. 1. 4!H  2. 3!h and  good 6+!c
+1C--1H--,2N,14-16 HCP; 0-1!h. Not 4+!s
+1C--1H--,3C,14-16 HCP; 6322 or 7222 shape
+1C--,1S,If 4-7 HCP; then 5!ss
+1C--1S--,1N,Relay
+1C--1S--1N--,2C,4-7 HCP; not 5!d or5!hs
+1C--1S--1N--,3C,8 HCP +
+1C--1S--1N--,3D,4-7 HCP
+1C--1S--1N--,3H,4-7 HCP
+1C--1S--1N--,3S,At most 1 loser against singleton
+1C--1S--,2C,
+1C--1S--,2D,Splinter. 1. 3!ss and 6+!cs. 2. 4!ss
+1C--1S--,2N,14-16 HCP; 0-1!s. Not 4+!h
+1C--1S--,3C,14-16 HCP; 6322 or 7222 shape
+1C--1S--,3S,4225 distribution; about 17 HCP
+1C--1S--,4C,4!ss and a good !c suit. 4 losers
+1C--1S--,4H,4 losers
+1C--1S--,4S,4225 shape. About 19 HCP
+1C--,2D,4-7 HCP
+1C--2D--2N--,3C,
+1C--2D--2N--,3D,Denies short suit; minimum
+1C--2D--2N--,3H,
+1C--2D--2N--,3N,Denies short suit; maximum
+1C--2D--2N--,3S,
+1C--,2H,4-7 HCP
+1C--2H--2N--,3C,
+1C--2H--2N--,3D,
+1C--2H--2N--,3H,Denies short suit; minimum
+1C--2H--2N--,3N,Denies short suit. Maximum.
+1C--2H--2N--,3S,
+1C--,2S,4-7 HCP
+1C--2S--2N--,3C,
+1C--2S--2N--,3D,
+1C--2S--2N--,3H,
+1C--2S--2N--,3N,Maximum. Denies short suit
+1C--2S--2N--,3S,Minimum; denies short suit
+,1D,10-20
+1D--,1H,
+1D--1H--,1N,17-21 HCP
+1D--1H--1N--,2C,5-7 HCP
+1D--1H--,2N,Please read chat#14-16 HCP; 6-7!ds 0-1!hs. No outside shortage.
+1D--1H--2N--,3D,Please read chat#14-16 HCP; 6-7!ds 2-3!hs. No outside shortage.
+1D--,1S,
+1D--1S--,2H,Please read chat#Singleton or void !hs. 1. 4!ss. 2 3!ss and 6!ds
+1D--1S--,2N,Please read chat#14-16 HCP; 6-7!ds 0-1!ss. No outside shortage.
+1D--1S--,2S,
+1D--1S--,3D,Please read chat#14-16 HCP; 6-7!ds 0-1!ss. No outside shortage.
+1D--,2C,
+1D--2C--,2H,At least a stopper
+1D--2C--,2S,At least a stopper
+1D--,3C,Good raise to 3!d
+1D--,3D,
+1D--3D--,4D,Slaminvitational and ace asking
+1D--3D--4D--,4H,Slam interested
+1D--3D--4D--,4N,Please read chat#Not slam interested; 2 or 5 aces out of 5; denies Queen of trumps
+1D--3D--4D--,4S,Please read chat#Not slam interested; 0 or 3 aces out of 5
+1D--3D--4D--,5C,Please read chat#Not slam interested; 2 or 5 aces out of 5; promises Queen of trumps
+1H1N--2C--2S--4C--,4S,
+,1H,11-20; can have a longer minor
+1H--,1S,
+1H--1S--,1N,17 HCP +
+1H--1S--1N--,2C,5-7 HCP
+1H--1S--,2N,Please read chat#14-16 HCP; 6-7 !hs; 0-1 !ss. No outside shortage 
+1H--1S--,3H,Please read chat#14-16 HCP; 6-7 !hs; 2-3 !ss. No outside shortage
+1H--,2C,
+1H--2C--,2D,Please read chat#11-14; either !d suit or 5 !hs; not !c support and not GF
+1H--2C--2D--,2S,
+1H--2C--2N--,3D,
+1H--2C--,3C,
+1H--2C--,3H,At most loser in suit against singleton
+1H--,2D,
+1H--2D--,3H,Please read chat# At most 1 loser in suit against a small singleton.
+1H--,2H,
+1H--2N3H,Db,Please read chat#308Extra strength; perhaps singleton club
+1H--,2N,Modified Bekkasin
+1H--,3C,Bergen 7-11
+1H--3C--,3D,
+1H--,3D,10-12 HCP 3 card !h support
+1S2C,2D,
+1S2C,2H,
+1S2C,2S,
+1S2C,3C,!s support
+1S2D2N--,3H,Please read chat#Opener must bid 4 !hs if strong. 2007-08-23
+,1S,11-20
+1S--,1N,About 6-10 HCP
+1S--1N--,3C,5 losers
+1S--1N--3C--,4D,# Singleton !ss; 4+ !cs
+1S--1N--3C--,4H,#Void !ss; 4+ !cs
+1S--1N--,3D,5 losers
+1S--1N--3D--,4C,# Singleton !ss; 4+ !ds
+1S--1N--3D--,4H,# Void in  !ss; 4+ !ds
+1S--,2C,
+1S--2C--,2D,Please read chat#11-14; either !d suit or 5 !hs; not !c support; not !h suit and not GF
+1S--2C--,2H,
+1S--2C--,2N,Please read chat#15+ HCP; denies 4+!hs but can be unbalanced
+1S--2C--2N--,3C,
+1S--2C--2N--,3D,# 2007-12-01 Can be only a feature 
+1S--2C--2N--,3S,
+1S--2C--,2S,
+1S--2C--,3C,
+1S--2C--,3D,
+1S--2C--,3H,
+1S--2C--,3N,Please read chat#14-17 HCP; typically 5332 with good stoppers.
+1S--2C--,3S,Please read chat# At most 1 loser in suit against a small singleton.
+1S--,2D,
+1S--2D--,2N,15+ HCP; any distribution
+1S--2D--,3S,Please read chat# At most 1 loser in suit against a small singleton.
+1S--,2H,
+1S--2H--,2N,15+ HCP; any distribution
+1S--2H--2S--,3H,
+1S--,2S,
+1S--2S--,4C,!c void; 4 losers
+1S--2S--,4D,void; 4 losers
+1S--2S--,4H,void losers
+1S--,3C,4!ss 7-10 points
+1S--,3D,3 !ss 10-12 HCP
+1S--,3H,8-11 HCP; If 11; then 0-1 !ss
+,2C,Please read chat#Majors; at least 5-4 either way. Either less than an opening or strong; at most 4 losers
+2C--,2D,Please read chat#Asks for better major;promises at least 1 trick
+2C--2D--,2H,Better major
+2C--2D--2H--,2N,Mild invitation
+2C--2D--2H--,2S,Mild invitation
+2C--2D--2H--,3C,
+2C--2D--2H--3C--3D--,4D,
+2C--2D--2H--,3D,
+2C--2D--2H--,3H,
+2C--2D--2H--,3S,
+2C--2D--2H--,4C,Slam try in !hs
+2C--2D--2H--,4D,Slam try in !ss
+2C--2D--,2N,Please read chat#4 losers or less; at least a 3 card minor
+2C--2D--2N--,3S,
+2C--2D--,2S,Better major
+2C--2D--2S--,3C,
+2C--2D--2S--3C--,4D,
+2C--2D--2S--,3D,
+2C--2D--,3C,6+!hs. 6 losers or less.
+2C--2D--3C--,3D,
+2C--2D--3C--3D--,3H,6 losers
+2C--2D--3C--3D--,3S,4 losers or less
+2C--2D--3C--,4C,
+2C--2D--3C--4C--,4D,6 losers
+2C--2D--3C--,4D,
+2C--2D--3C--4D--,4H,6 losers
+2C--2D--,3D,6+!ss. 6 losers or less.
+2C--2D--3D--,4C,
+2C--2D--3D--4C--,4D,6 losers
+2C--2D--3D--,4D,
+2C--2D--3D--4D--,4H,6 losers
+2C--2D--,3H,
+2C--2D--,3N,at least 55 majors; no 3 card minor
+2C--2D--,3S,
+2C--2D--,4C,5611 shape; 3-4 losers
+2C--2D--,4D,6511 shape; 3-4 losers
+2C--2D--,4H,4711 shape; 3-4 losers
+2C--2D--,4S,7411 shape; 3-4 losers
+2C--,2H,Please read chat#Longer !hs or equal lenght if no covercard
+2C--2H--,2N,Strong with 5-5 in Majors; 4 losers
+2C--2H--,2S,5-6 losers
+2C--2H--,3C,6 losers or less
+2C--2H--,3D,6+ !ss. 4 losers or less
+2C--2H--3D--,3H,At least 1 trick. 
+2C--2H--3D--,3S,At most 1 cover card
+2C--2H--,3H,
+2C--2H--,3N, 5-5 in majors; 3 losers
+2C--2H--,3S,
+2C--2H--,4C,5-6-1-1; 3 losers.
+2C--2H--,4D,6-5-1-1; 3 losers.
+2C--2H--,4H,4-7-1-1; 3 losers.
+2C--2H--,4N,Roman Key Card Blackwood with 6 aces
+2C--2H--,4S,7-4-1-1; 3 losers.
+2C--,2N,12-17 HCP; usually no 3 card major
+2C--2N--,3C, 4 losers or less
+2C--2N--,3D,3-4 losers
+2C--2N--,3H,Minimum
+2C--2N--,3S,Minimum
+2C--2N--,4C,6+!hs. 4 losers or less
+2C--2N--,4D,6+!ss. 4 losers or less
+2C--2N--,4H,
+2C--2N--,4N,6 Aces RKCB
+2C--2N--,4S,
+2C--,2S,Longer !ss
+2C--2S--,2N,Please read chat#Strong with 5-5 in majors; 4 losers (non forcing)
+2C--2S--,3C,6-7!hs 6 losers or less
+2C--2S--3C--,3D,
+2C--2S--,3D,6-7!ss 6 losers or less
+2C--2S--3D--,3H,
+2C--2S--3D--3H--,3S,6 losers
+2C--2S--,3H,4-5 in majors; 1-3 losers
+2C--2S--,3N,5-5 in majors; 3 losers
+2C--2S--,3S,5-4 in majors; 1-3 losers
+2C--2S--,4C,5-6-1-1; 3 losers or less.
+2C--2S--,4D,6-5-1-1; 3 losers or less.
+2C--2S--,4H,4-7-1-1 3 losers
+2C--2S--,4N,6 Aces Roman Key Card Blackwood 
+2C--2S--,4S,7-4-1-1 3 losers
+2C--,3C,Invitational; natural
+2C--3C--,4N,RKCB with !cs
+2C--,3D,Invitational; natural
+2C--,3H,
+2C--3H--,3S,Asks for covercards in the majors
+2C--3H--3S--,3N,0 covercard
+2C--3H--3S--,4C,1 covercard
+2C--3H--3S--,4D,2 covercards
+2C--3H--3S--,4H,3 covercards
+2C--3H--,4C,Asks for !c control
+2C--3H--4C--,4D,Denies 3rd round control or better
+2C--3H--4C--,4H,3rd round control
+2C--3H--4C--4H--,4S,
+2C--3H--4C--4H--,5D,
+2C--3H--4C--,4N,1st round control
+2C--3H--4C--4N--,5C,Please read chat#Asks for second round control in !cs as well
+2C--3H--4C--,4S,2nd round control 
+2C--3H--4C--4S--,4N,6 ace RKCB
+2C--3H--4C--4S--,5C,Please read chat#Asks for 3rd round control in !cs as well
+2C--3H--4C--4S--5C--,5D,Not 3rd round control in !cs as well 
+2C--3H--4C--4S--,5D,
+2C--3H--4C--4S--,5H,
+2C--3H--,4D,Asks for !ds control
+2C--3H--4D--,4H,Denies 3rd round control or better
+2C--3H--4D--4H--,5C,
+2C--3H--4D--,4N,2nd roundcontrol in !ds
+2C--3H--4D--4N--,5D,Please read chat#Asks for 3rd round control in !ds as well
+2C--3H--4D--4N--5D--,5H,No 3rd round control
+2C--3H--4D--4N--5D--,5S,3rd control in !ds as well
+2C--3H--4D--,4S,3rd round control
+2C--3H--4D--4S--,4N,6 ace RKCB
+2C--3H--4D--4S--,5C,
+2C--3H--4D--4S--,5D,?#?
+2C--3H--4D--4S--,5H,
+2C--3H--4D--,5C,1st round control
+2C--3H--4D--5C--,5D,Please read chat#Asks for 2nd round control in !ds as well
+2C--3H--4D--5C--5D--,5H,No 2nd round control in !ds as well
+2C--3H--4D--5C--5D--,5S, 2nd round control in !d as well
+2C--,3S,
+2C--3S--,3N,Asks for covercards in majors
+2C--3S--3N--,4C,0 covercard
+2C--3S--3N--,4D,1 covercard
+2C--3S--3N--,4H,2 covercards
+2C--3S--3N--,4S,3 covercards
+2C--3S--,4C,Asks for !c control
+2C--3S--4C--,4D,Denies 3rd round control or better
+2C--3S--4C--,4H,3rd round control
+2C--3S--4C--4H--,4S,
+2C--3S--4C--4H--,5D,
+2C--3S--4C--,4N,1st round control
+2C--3S--4C--,4S,2nd round control 
+2C--3S--4C--4S--,4N,6 ace RKCB
+2C--3S--4C--4S--,5C,?#?
+2C--3S--4C--4S--,5D,
+2C--3S--4C--4S--,5H,
+2C--3S--,4D,Asks for !d control
+2C--3S--4D--,4H,Denies 3rd round control or better
+2C--3S--4D--4H--,5C,
+2C--3S--4D--,4N,2nd round control
+2C--3S--4D--,4S,3rd round control
+2C--3S--4D--4S--,4N,6 ace RKCB
+2C--3S--4D--4S--,5C,
+2C--3S--4D--4S--,5D,?#?
+2C--3S--4D--4S--,5H,
+2C--3S--4D--,5C,1st round control
+2C--,4C,Mild slam try in !hs
+2C--4C--,4D,Accept; cuebid
+2C--4C--,4H,Decline
+2C--4C--,4N,6 Ace RKCB
+2C--4C--,4S,Accept; denies !d cuebid
+2C--,4D,Mild slam try in !s
+2C--4D--,4H,Accept; !h cuebid
+2C--4D--,4N,6 Ace RKCB
+2C--4D--,4S,Decline
+2C--,4H,
+2C--,4N,6 aces RKCB
+2C--4N--,5C,1 or 4 aces of 6
+2C--4N--,5D,0 or 3 aces of 6
+2C--4N--,5H,2 aces of 6
+2C--4N--,5S,2 aces of 6 and extra values (queens)
+2C--,4S,
+,2D,Multi
+2D--,2H,Pass if weak !h
+2D--2H--,2N,21-22 bal
+2D--2H--2N--,3C,
+2D--2H--2N--3C--,3D,
+2D--2H--2N--3C--3D--,3H,4+!ss
+2D--2H--2N--3C--3D--3H--3N--,4C,
+2D--2H--2N--3C--3D--3H--3N--,4D,
+2D--2H--2N--3C--3D--3H--3N--,4H,6+ !ss
+2D--2H--2N--3C--3D--3H--3N--,4S,Normally wihout splinter
+2D--2H--2N--3C--3D--3H--3N--,5C,6+ !ss
+2D--2H--2N--3C--3D--3H--3N--,5D,6+ !ss
+2D--2H--2N--3C--3D--3H--,3S,
+2D--2H--2N--3C--3D--,3N,Please read chat#4-4 in majors (might have 5 !ss and 4hss). No slam interest
+2D--2H--2N--3C--3D--,3S,4+ !hs
+2D--2H--2N--3C--3D--3S--3N--,4C,
+2D--2H--2N--3C--3D--3S--3N--,4D,
+2D--2H--2N--3C--3D--3S--,4C,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+2D--2H--2N--3C--3D--3S--,4D,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+2D--2H--2N--3C--3D--3S--,4H,
+2D--2H--2N--3C--3D--,4C,5+!ds and 4!cs 
+2D--2H--2N--3C--3D--,4D,
+2D--2H--2N--3C--3D--,4H,6+ !ds
+2D--2H--2N--3C--3D--,4N,4-4 in majors (could be 5!ss and 4 !hs)
+2D--2H--2N--3C--3D--,4S,6+ !ds
+2D--2H--2N--3C--3D--,5C,6+ !ds
+2D--2H--2N--3C--3D--,5N,Please read chat#Forcing to slam. 4-4 in majors (could be 5!ss and 4 !hs). 
+2D--2H--2N--3C--3D--5N--,6C,Suggests alternative strain
+2D--2H--2N--3C--3D--5N--,6D,Suggests alternative strain
+2D--2H--2N--3C--3D--5N--,6H,
+2D--2H--2N--3C--3D--5N--,6N,Does not fancy playing 6M
+2D--2H--2N--3C--3D--5N--,6S,
+2D--2H--2N--,3D,
+2D--2H--2N--3D--,3H,
+2D--2H--2N--3D--3H--,3S,Please read chat#GK med 4+farve i !ss. \C5bner kan nu pr\E6ferere eller melde 3ut. 4!c (laveste umeldte farve) er cuebid; der accepterer !h (svarers laveste farve) som trumf. 4!d er cuebid; der accepterer !s som trumf. Dette kaldes pr\E6ference-cuebids. Hvis \E5bner i stedet sl\E5r af i 3ut; kan svarer vise 5-5 i major med slem interesse ved at cuebidde 4!c  eller 4!r. Det fastl\E6gger !s som trumf; da \E5bner jo ved at ben\E6gte !hinteresse implicerer 3-farve i !s. Svarers 4!s er 5-5 M uden sleminteresse
+2D--2H--2N--3D--,3S,DBC
+2D--2H--2N--3D--,4C,DBC
+2D--2H--2N--3D--4C--,4D,
+2D--2H--2N--3D--,4D,DBC
+2D--2H--2N--3D--,4H,Denies DBC
+2D--2H--2N--,3H,
+2D--2H--2N--3H--,3S,
+2D--2H--2N--3H--,4C,DBC
+2D--2H--2N--3H--4C,Db,Shows !cs
+2D--2H--2N--3H--4CDb,--,Please read chat#Bid pass in most cases to inquire about openers !cs
+2D--2H--2N--3H--4CDb----,4D,Shows xx in !cs
+2D--2H--2N--3H--4CDb----,4H,Shows xx in !cs
+2D--2H--2N--3H--4CDb----,4S,Shows Kx in !cs
+2D--2H--2N--3H--4CDb----,Rd,Shows Ax in !cs
+2D--2H--2N--3H--,4D,DBC
+2D--2H--2N--3H--,4H,DBC
+2D--2H--2N--3H--,4S,Denies DBC
+2D--2H--2N--,3S,Unconditional transfer to 4!c
+2D--2H--2N--3S--,4C,
+2D--2H--2N--3S--4C--,4D,
+2D--2H--2N--3S--4C--,4H,
+2D--2H--2N--3S--4C--,4S,
+2D--2H--2N--,4C,Mild slam try in  4!hs
+2D--2H--2N--,4D,Mild slam try in  !ss
+2D--2H--2N--,4H,
+2D--2H--2N--,4S,
+2D--2H--2N--,5C,
+2D--2H--2N--,5D,
+2D--2H--,2S,Weak 2 in !ss
+2D--2H--,3C,major and !cs 2-3 losers
+2D--2H--3C--,3D,
+2D--2H--3C--3D--,3H,!hs and !cs 2-3 losers
+2D--2H--3C--3D--,3S,!ss and !cs 2-3 losers
+2D--2H--,3D,major and !ds 2-3 losers
+2D--2H--,3H,!hs and !cs 4 losers
+2D--2H--,3N,25-27
+2D--2H--,3S,!ss and !cs 4 losers
+2D--,2N,Ask
+2D--2N--,3C,Please read chat#Maximum weak major or major and !cs; 2-3 losers
+2D--2N--3C--,3D,
+2D--2N--3C--3D--,3H,Please read chat#Weak !ss maximum or strong !hs and !cs 2-3 losers
+2D--2N--3C--3D--,3S,Please read chat#Weak !hs maximum or strong !ss and !cs 2-3 losers
+2D--2N--,3D,Please read chat#Minimum weak !hs or major and !ds; 2-3 losers
+2D--2N--3D--,3H,Signoff if weak !hs
+2D--2N--3D--,3S,
+2D--2N--,3H,Please read chat#Minimum weak !ss  or !hs and !cs; 4 losers
+2D--2N--3H--,3S,Signoff if weak !ss
+2D--2N--,3N,21-22 bal
+2D--2N--,3S,!ss and !cs; 4 losers
+2D--2N--3S--,4D,Asks if covercards in !ds can be used
+2D--2N--3S--,4H,Asks if covercards in !hs can be used
+2D--2N--3S--,4N,RKCB 6 aces
+2D--2N--,4N,25-27 balanced
+2D--,2S,Pass if weak !s
+2D--2S--,2N,21-22 bal
+2D--2S--2N--,3C,
+2D--2S--2N--3C--,3D,
+2D--2S--2N--3C--3D--,3H,4+!ss
+2D--2S--2N--3C--3D--3H--3N--,4C,
+2D--2S--2N--3C--3D--3H--3N--,4D,
+2D--2S--2N--3C--3D--3H--3N--,4H,6+ !ss
+2D--2S--2N--3C--3D--3H--3N--,4S,Normally wihout splinter
+2D--2S--2N--3C--3D--3H--3N--,5C,6+ !ss
+2D--2S--2N--3C--3D--3H--3N--,5D,6+ !ss
+2D--2S--2N--3C--3D--3H--,3S,
+2D--2S--2N--3C--3D--,3N,Please read chat#4-4 in majors (might have 5 !ss and 4hss). No slam interest
+2D--2S--2N--3C--3D--,3S,4+ !hs
+2D--2S--2N--3C--3D--3S--3N--,4C,
+2D--2S--2N--3C--3D--3S--3N--,4D,
+2D--2S--2N--3C--3D--3S--,4C,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+2D--2S--2N--3C--3D--3S--,4D,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 22 count)
+2D--2S--2N--3C--3D--3S--,4H,
+2D--2S--2N--3C--3D--,4C,5+!ds and 4!cs 
+2D--2S--2N--3C--3D--,4D,
+2D--2S--2N--3C--3D--,4H,6+ !ds
+2D--2S--2N--3C--3D--,4N,4-4 in majors (could be 5!ss and 4 !hs)
+2D--2S--2N--3C--3D--,4S,6+ !ds
+2D--2S--2N--3C--3D--,5C,6+ !ds
+2D--2S--2N--3C--3D--,5N,Please read chat#Forcing to slam. 4-4 in majors (could be 5!ss and 4 !hs). 
+2D--2S--2N--3C--3D--5N--,6C,Suggests alternative strain
+2D--2S--2N--3C--3D--5N--,6D,Suggests alternative strain
+2D--2S--2N--3C--3D--5N--,6H,
+2D--2S--2N--3C--3D--5N--,6N,Does not fancy playing 6M
+2D--2S--2N--3C--3D--5N--,6S,
+2D--2S--2N--,3D,
+2D--2S--2N--3D--,3H,
+2D--2S--2N--3D--3H--,3S,Please read chat#GK med 4+farve i !ss. \C5bner kan nu pr\E6ferere eller melde 3ut. 4!c (laveste umeldte farve) er cuebid; der accepterer !h (svarers laveste farve) som trumf. 4!d er cuebid; der accepterer !s som trumf. Dette kaldes pr\E6ference-cuebids. Hvis \E5bner i stedet sl\E5r af i 3ut; kan svarer vise 5-5 i major med slem interesse ved at cuebidde 4!c  eller 4!d. Det fastl\E6gger !s som trumf; da \E5bner jo ved at ben\E6gte !hinteresse implicerer 3-farve i !s. Svarers 4!s er 5-5 M uden sleminteresse
+2D--2S--2N--3D--,3S,DBC
+2D--2S--2N--3D--,4C,DBC
+2D--2S--2N--3D--4C--,4D,
+2D--2S--2N--3D--,4D,DBC
+2D--2S--2N--3D--,4H,Denies DBC
+2D--2S--2N--,3H,
+2D--2S--2N--3H--,3S,
+2D--2S--2N--3H--,4C,DBC
+2D--2S--2N--3H--,4D,DBC
+2D--2S--2N--3H--,4H,DBC
+2D--2S--2N--3H--,4S,Denies DBC
+2D--2S--2N--,3S,Unconditional transfer to 4!c
+2D--2S--2N--,4C,Mild slam try in  4!hs
+2D--2S--2N--,4D,Mild slam try in  !ss
+2D--2S--2N--,4H,
+2D--2S--2N--,4S,
+2D--2S--2N--,5C,
+2D--2S--2N--,5D,
+2D--2S--,3C,major and !cs 2-3 losers
+2D--2S--3C--,3D,
+2D--2S--3C--3D--,3H,!hs and !cs 2-3 losers
+2D--2S--3C--3D--,3S,!ss and !cs 2-3 losers
+2D--2S--,3D,major  and !ds 2-3 losers
+2D--2S--3D--,3H,
+2D--2S--3D--3H--,3N,!hs and !ds 2-3 losers
+2D--2S--3D--3H--,3S,!ss and !ds 2-3 losers
+2D--2S--,3H,!hs and !cs 4 losers
+2D--2S--,3S,!ss and !cs 4  losers
+2D--2S--,4C,1516 shape. 2-3 losers
+2D--,3C,Good or long suit
+2D--3C--,3D,strong 2 suiter with !ds
+2D--,3D,Good or long suit
+2D--,3H,Correct or pass
+2D--,3N,Pass if weak major
+2D--,3S,#discuss
+2D--,4C,
+2D--,4D,Bid your major
+2D--4D--,4N,21-22
+2D--4D--,5C,major and !cs; 3 losers
+2D--4D--5C--,5D,Which major
+2D--4D--,5D,major and !ds; 3 losers
+2D--4D--,5H,!hs and !cs; 4 losers
+2D--4D--,5S,!ss and !cs; 4 losers
+2D--,4H,Own suit
+2D--,4S,Own suit
+,2H,5-10 !h + minor
+2H--,2S,
+2H--,3C,
+2H--,3D,
+2H--,3H,
+2H--,3S,
+2H--,4C,
+2H--,4D,
+2H--,4H,
+2H--,4S,
+2N3H4C4H,4N,Good shape
+2N3H4C4H,4S,Strong !ds and !ss
+2N3H4C4H,Db,#Pls lead !ss
+2N3H,4C,
+2N3H4D4H,4N,Good shape
+2N3H4D4H,5C,Good shape
+2N3H4D4H,5D,Weak minors; extra shape
+2N3H4D4H,5H,Strong !hs and !ds
+2N3H4D4H,Db,Strong. !ds and !s
+2N3H,4D,
+2N3H,4H,Expects weak minor
+2N3H,4N,Choose minor
+2N3H,4S,
+2N3H,5C,
+2N3H,6C,
+2N3H,Db,Penalties
+2N3S4C4S,Db,!hs and !ds
+2N3S4D4S,4N,#?#
+2N3S4D4S,5C,Freak. 0-1 !ss
+2N3S4D4S,5D,Weak minors; extra shape
+2N3S4D4S,5H,Strong !hs and !ds
+2N3S4D4S,Db,!hs and !ds
+2N3S,4D,
+2N3S,Db,Penalties
+,2N,Weak minors or !d major 4 losers 
+2N--,3C,Preference if weak minors
+2N--3C--,3D,Freak
+2N--3C--,3H,55+ !ds and !hs. 4 losers
+2N--3C--3H--,3S,
+2N--3C--3H--,4C,
+2N--3C--3H--4C--,4D,Please read chat#Void i !cs (or !hAce stiff and not !cAx)
+2N--3C--3H--,4D,
+2N--3C--3H--,4H,
+2N--3C--3H--,4N,6 ace RKCB
+2N--3C--,3N,12 or 13 minor cards
+2N--3C--,3S,55+ !ds and !ss. 4 losers
+2N--3C--3S--,4C,
+2N--3C--3S--4C--,4D,
+2N--3C--3S--,4D,
+2N--3C--3S--,4H,
+2N--3C--3S--,4N,6 ace RKCB
+2N--3C--3S--,4S,
+2N--3C--,4C,Freak
+2N--3C--,4D,Freak
+2N--,3D,Preference if weak minors
+2N--3D--,3H,!hs and !ds. 4 losers 
+2N--3D--,3N,12 or 13 minor cards
+2N--3D--,3S,55+ !ds and !ss. 4 losers
+2N--3D--,4C,Freak
+2N--3D--,4D,Freak
+2N--,3H,Please read chat#Either a good major or prepared to play at least 5 in either minor.
+2N--3H--,3N,Weak minor; 2 or 3 !hs
+2N--3H--3N--,4C,ORKC
+2N--3H--3N--,4D,ORKC
+2N--3H--3N--,4H,Found !h fit
+2N--3H--3N--,4N,RKCB with !hs
+2N--3H--3N--,4S,Please read chat#Could have made direct signoff after 2NT; therefore slaminvitation even against singleton or void
+2N--3H--,3S,Weak minor; 2 or 3 !ss
+2N--3H--3S--,4C,ORKC
+2N--3H--3S--4C--4D--,4N,#Concerned about !ss. 2008-10-24
+2N--3H--3S--4C--4D--,4S,#Concerned about !ds. 2008-10-24
+2N--3H--3S--,4D,ORKC
+2N--3H--3S--4D--,4H,
+2N--3H--3S--,4H,Please read chat#Could have made direct signoff after 2NT; therefore slaminvitation even against singleton or void
+2N--3H--3S--,4N,RKCB with spades
+2N--3H--3S--4N--,5C,1430
+2N--3H--3S--4N--5C--,5N,General grand slam try
+2N--3H--3S--,4S,
+2N--3H--,4C,Please read chat#Weak minor; at most a singleton in either major. Better suitable for !ds
+2N--3H--,4D,Please read chat#Weak minor; at most a singleton in either major. Better suitable for !cs
+2N--3H--,4H,5+!hs and 5+!ds. 4 losers
+2N--3H--4H--,4N,6 ace RKCB !hs and !ds
+2N--3H--4H--,4S,
+2N--3H--4H--,5C,
+2N--3H--4H--,5D,
+2N--3H--4H--,5H,!h quality
+2N--3H--,4S,5+!ds and 5+!ss. 4 losers
+2N--3H--4S--,4N,6 ace RKCB !ss and !ds
+2N--3H--4S--,5C,
+2N--3H--4S--,5D,Concerned about suit quality
+2N--3H--4S--,5H,
+2N--3H--4S--,5S,Concerned about suit quality
+2N--,3N,TP if  weak minor
+2N--3N--,4C,ORKC
+2N--3N--4C--,4D,
+2N--3N--4C--,4H,
+2N--3N--4C--4H--,4S,
+2N--3N--4C--,4S,
+2N--3N--,4D,ORKC
+2N--3N--4D--,4H,
+2N--3N--4D--4H--,5C,
+2N--3N--4D--4H--,5D,
+2N--3N--4D--4H--,5H,
+2N--3N--4D--,4S,
+2N--3N--,4H,!ds and !hs. 4 losers
+2N--3N--4H--,4N,6 ace RKCB !hs and !ds
+2N--3N--4H--,4S,
+2N--3N--4H--,5C,
+2N--3N--4H--,5D,suit quality?
+2N--3N--4H--,5H,!h quality
+2N--3N--,4N,Minor freak
+2N--3N--,4S,!ds and !ss. 4 losers
+2N--3N--4S--,4N,6 ace RKCB !hs and !ds
+2N--3N--4S--,5C,
+2N--3N--4S--,5D,suit quality?
+2N--3N--4S--,5H,
+2N--3N--4S--,5S,suit quality?
+2N--3N--,5C,Freak
+2N--,3S,Please read chat#Asks about shape and strength. Promises fit with either or both minors.Not gameforce
+2N--3S--,3N,8-10 HCP; 5521;5530 or 6511 shape.
+2N--3S--3N--,4C,ORKC
+2N--3S--3N--,4D,ORKC
+2N--3S--,4C,Minimum HCP. May be suitable for !d
+2N--3S--4C--,4D,
+2N--3S--4C--,4H,Slam try !cs
+2N--3S--4C--4H--,4S,
+2N--3S--4C--,4N,Please choose minor
+2N--3S--4C--,4S,Slam try !ds
+2N--3S--4C--,5C,
+2N--3S--4C--,5D,
+2N--3S--,4D,Minimum HCP. Hand suitable for !c
+2N--3S--4D--,4H,slam try !cs
+2N--3S--4D--4H--,4N,No !s cuebid; but slam interested
+2N--3S--4D--4H--,4S,
+2N--3S--4D--4H--,5C,
+2N--3S--4D--4H--,5D,
+2N--3S--4D--4H--,5H,# !h void
+2N--3S--4D--,4S,slam try !ds
+2N--3S--,4H,!ds and !hs. 4 losers
+2N--3S--4H--,4N,6 ace RKCB !hs and !ds
+2N--3S--4H--,4S,
+2N--3S--4H--,5C,
+2N--3S--4H--,5D,concerned about suit quality
+2N--3S--4H--,5H,!h quality
+2N--3S--,4N,Freak; pls choose
+2N--3S--,4S,!ds and !ss. 4 losers
+2N--3S--4S--,4N,6 ace RKCB !hs and !ds
+2N--3S--4S--,5C,
+2N--3S--4S--,5D,
+2N--3S--4S--,5H,
+2N--3S--4S--,5S,suit quality?
+2N--3S--,5C,Freak; longer !cs
+2N--,4C,Please read chat#Has at least doubleton in both majors or tripleton diamonds. (Has to cater for a strong hand with 5 major + 5!d 
+2N--4C--,4D,Freak
+2N--4C--4D--,4H,
+2N--4C--4D--4H--,4N,# Strong 5-5
+2N--4C--4D--4H--,4S,Minimum
+2N--4C--4D--4H--,5C,# !c ace
+2N--4C--4D--4H--,5D,# !d ace
+2N--4C--4D--4H--,5H,# !h void
+2N--4C--4D--,4S,
+2N--4C--,4H,!ds and !hs. 4 losers
+2N--4C--4H--,4N,6 ace RKCB !hs and !ds
+2N--4C--4H--,4S,
+2N--4C--4H--,5C,
+2N--4C--4H--,5D,
+2N--4C--4H--,5H,!h quality
+2N--4C--,4S,!ds and !ss. 4 losers
+2N--4C--4S--,4N,6 ace RKCB !hs and !ds
+2N--4C--4S--,5C,
+2N--4C--4S--,5D,
+2N--4C--4S--,5H,
+2N--4C--,5C,
+2N--,4D,
+2N--4D--,4H,!ds and !hs. 4 losers
+2N--4D--4H--,4N,6 ace RKCB !hs and !ds
+2N--4D--4H--,4S,
+2N--4D--4H--,5C,
+2N--4D--4H--,5D,
+2N--4D--4H--,5H,!h quality
+2N--4D--,4S,!ds and !ss. 4 losers
+2N--4D--4S--,4N,6 ace RKCB !hs and !ds
+2N--4D--4S--,5C,
+2N--4D--4S--,5D,
+2N--4D--4S--,5H,
+2N--4D--,5C,
+2N--4D--,5D,
+2N--,4H,Please read chat#About 8 tricks with !h  e.g              KQx; KQJxxxxx;x;x       
+2N--,4N,Asks for better minor
+2N--4N--,5H,!ds and !hs. 4 losers
+2N--4N--,5N,Freak
+2N--4N--,5S,!ds and !ss. 4 losers
+2N--,4S,Please read chat#About 8 tricks with !s  e.g              KQJxxxxx;KQx;x;x
+,2S,!s + minor
+2S--,3C,
+2S--,3D,
+2S--,3H,
+2S--,3S,
+2S--,4C,
+2S--,4D,
+2S--,4H,
+2S--,4S,
+,3C,Rule of 2-3-4
+3C,Db,takeout
+3CDb,Rd,Please read chat#Either prepared to double or shows A;K or Q
+3C--,3D,Trelde asking bid
+3C--3D--,3H,No !d control
+3C--3D--,3N,!d control and 1 ace
+3C--3D--,3S, !d control and no ace
+3C--3D--,4C, !d control and 2 aces
+3C--,3H,
+3C--3H--,3S,
+3C--3H--,4C,
+3C--3H--,4D,
+3C--,4H,
+3C--4H--,4N, !h control and no ace
+3C--4H--,4S,No !h control
+3C--4H--,5C, !h control and one ace
+3C--4H--,5D, !h control and 2 aces
+3C--,4S,
+,3D,Rule of 2-3-4
+3D--,4C,Trelde asking bid
+3D--4C--,4D,No !c control
+3D--4C--,4H,!c control and no ace
+3D--4C--,4N,!c control and two aces
+3D--4C--,4S,!c control and one ace
+3D--,4D,
+3D--,4H,
+3D--,4S,
+,3H,Rule of 2-3-4
+3H--,3S,
+3H--,4C,Trelde
+3H--,4D,
+3H--,4S,
+,3N,Please read chat#Gambling; can have any 7 card suit AKQxxxx
+3N--,4C,pass or correct
+3N--,4D,Asks for singleton or void
+3N--4D--,4H,
+3N--4D--,4N,Denies singleton or void
+3N--4D--,4S,
+3N--4D--,5C,Singleton or void in !ds
+3N--4D--,5D,Singleton or void in !cs
+3N--,4H,Please read chat#Either own suit or can see your suit is !hs
+3N--,4S,Please read chat#Either own suit or can see your suit is !ss
+,3S,Rule of 2-3-4
+3S--,4C,Trelde
+3S--,4D,Trelde
+,4H,Rule of 2-3-4
+4H--,4N,RKCB
+4H--,4S,Play better in !ss than !hs
+4H--,5C,Trelde asking bid
+4H--5C--,5D,No !c control or no ace
+4H--5C--,5H, !c control and one ace
+4H--5C--,5S, !c control and two aces
+4H--,5D,Trelde asking bid
+,4N,Asks for specific aces
+4N--,5C,No ace
+4N--,5D,!D ace
+4N--,5H,!h ace
+4N--,5N,1 aces
+4N--,5S,!s ace
+4N--,6C,!c ace
+Option,Opening @1@2
+,1C,Please read chat#1. 10+HCP; 4+ !cs unbalanced. 2. Balanced 17-20;  23-24; 28-30. 3. 20+ unbalanced
+1C--,1D,Please read chat#0-7 HCP or!ds Denies 5+ card major 4+ HCP. Denies  4-7 HCP 6 card minor without a major sidesuit. 
+1C--1D--,1H,!cs and !hs or various strong hands
+1C--1D--,1N,17-20 HCP
+1C--1D--1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1C--1D--1N--2C--2C--,3D,7-10 HCP
+1C--1D--1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1C--1D--1N--2C--2D--,2H,2-4 HCP
+1C--1D--1N--2C--2D--2H--,2N,18 HCP. Doubleton !h
+1C--1D--1N--2C--2D--2H--,2S,16-17 HCP
+1C--1D--1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C--1D--1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C--1D--1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1C--1D--1N--2C--2D--2H--,4H,
+1C--1D--1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1C--1D--1N--2C--2D--,2S,2-4 HCP
+1C--1D--1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1C--1D--1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C--1D--1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C--1D--1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1C--1D--1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1C--1D--1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1C--1D--1N--2C--2D--,3C,3-6 HCP
+1C--1D--1N--2C--2D--3C--,3D,Stopper
+1C--1D--1N--2C--2D--3C--,3H,Stopper
+1C--1D--1N--2C--2D--3C--,3S,Stopper
+1C--1D--1N--2C--2D--,3D,3-6 HCP
+1C--1D--1N--2C--2D--3D--,3H,Stopper
+1C--1D--1N--2C--2D--3D--,3S,Stopper
+1C--1D--1N--2C--2D--,3H,5+ !hs and 4!ss
+1C--1D--1N--2C--2D--,3S,5+ !ss and 4!hs
+1C--1D--1N--2C--,2H,16-18 HCP
+1C--1D--1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1C--1D--1N--2C--2H--,2S,
+1C--1D--1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1C--1D--1N--2C--2H--2S--,3C,
+1C--1D--1N--2C--2H--,3C,3-6 HCP
+1C--1D--1N--2C--2H--3C--,3D,Stopper
+1C--1D--1N--2C--2H--3C--,3H,Stopper
+1C--1D--1N--2C--2H--3C--,3S,Stopper
+1C--1D--1N--2C--2H--,3D,3-6 HCP
+1C--1D--1N--2C--2H--3D--,3H,Stopper
+1C--1D--1N--2C--2H--3D--,3S,Stopper
+1C--1D--1N--2C--2H--,3H,
+1C--1D--1N--2C--2H--,3N,3433 shape
+1C--1D--1N--2C--2H--3S--,4C,
+1C--1D--1N--2C--2H--3S--,4H,
+1C--1D--1N--2C--2H--,4C,
+1C--1D--1N--2C--2H--,4H,
+1C--1D--1N--2C--2H--,4N,RKCB
+1C--1D--1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1C--1D--1N--2C--2H--,5C, Exclusion RKCB
+1C--1D--1N--2C--2H--,5D,Exclusion RKCB
+1C--1D--1N--2C--,2N,19-20 HCP; either both majors or none
+1C--1D--1N--2C--2N--,3C,3-6 HCP
+1C--1D--1N--2C--2N--3C--,3D,Stopper
+1C--1D--1N--2C--2N--3C--,3H,Stopper
+1C--1D--1N--2C--2N--3C--,3S,Stopper
+1C--1D--1N--2C--2N--,3D,3-6 HCP
+1C--1D--1N--2C--2N--3D--,3H,Stopper
+1C--1D--1N--2C--2N--3D--,3S,Stopper
+1C--1D--1N--2C--2N--,3H,
+1C--1D--1N--2C--2N--3H--,3N,Shows doubleton !hs
+1C--1D--1N--2C--2N--3H--,3S,Shows 3 !hs
+1C--1D--1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1C--1D--1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1C--1D--1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1C--1D--1N--2C--2N--,3S,
+1C--1D--1N--2C--2N--3S--,3N,Shows doubleton !s!
+1C--1D--1N--2C--2N--3S--,4C, 4-4 in majors
+1C--1D--1N--2C--2N--3S--,4D, 4-4 in majors
+1C--1D--1N--2C--2N--3S--,4H, 4-4 in majors
+1C--1D--1N--2C--2N--3S--,4S,
+1C--1D--1N--2C--,2S,18-20 HCP; denies 4!hs
+1C--1D--1N--2C--2S--,2N,5!hs
+1C--1D--1N--2C--2S--,3C,3-6 HCP
+1C--1D--1N--2C--2S--3C--,3D,Stopper
+1C--1D--1N--2C--2S--3C--,3H,Stopper
+1C--1D--1N--2C--2S--3C--,3S,Stopper
+1C--1D--1N--2C--2S--,3D,3-6 HCP
+1C--1D--1N--2C--2S--3D--,3H,Stopper
+1C--1D--1N--2C--2S--3D--,3S,Stopper
+1C--1D--1N--2C--2S--,3H,
+1C--1D--1N--2C--2S--,3S,
+1C--1D--1N--2C--2S--,4N,RKCB
+1C--1D--1N--2C--2S--,4S,
+1C--1D--1N--2C--2S--,5C,Exclusion RKCB
+1C--1D--1N--2C--2S--,5D,Exclusion RKCB
+1C--1D--1N--2C--,3C,Please read chat#19-20 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1C--1D--1N--2C--3C--,3D,
+1C--1D--1N--2C--3C--3D--,3H, !cStopper #
+1C--1D--1N--2C--3C--3D--,3S, !sStopper
+1C--1D--1N--2C--3C--3D--,4C,xx in !cs #
+1C--1D--1N--2C--3C--3D--,4D,xxx in !ss #
+1C--1D--1N--2C--3C--3D--,4H,xxxx in !hs #
+1C--1D--1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1C--1D--1N--2C--3C--,4H,
+1C--1D--1N--2C--3C--,4N,RKCB
+1C--1D--1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1C--1D--1N--2C--3C--,5C,Exclusion RKCB #
+1C--1D--1N--2C--3C--,5D,Exclusion RKCB #
+1C--1D--1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1C--1D--1N--2C--3D--,4H,
+1C--1D--1N--2C--3D--,4N,RKCB
+1C--1D--1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1C--1D--1N--2C--3D--,5C,Exclusion RKCB #
+1C--1D--1N--2C--3D--,5D,Exclusion RKCB #
+1C--1D--1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2C--3H--3S--,3N,Denies 3 spades
+1C--1D--1N--2C--3H--,4H,
+1C--1D--1N--2C--3H--,4N,RKCB
+1C--1D--1N--2C--3H--,5C,Exclusion RKCB
+1C--1D--1N--2C--3H--,5D,Exclusion RKCB
+1C--1D--1N--2C--,3N,19-20 HCP; 3433 shape.
+1C--1D--1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-7 HCP. 3) 4 !hs; 6 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 14-16 HCP. 7) GF; 5!hs w/o slam interest.
+1C--1D--1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1C--1D--1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1C--1D--1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1C--1D--1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1C--1D--1N--2D--2H--3C--,3D,Reinvit
+1C--1D--1N--2D--2H--3C--3D--,3H,Minimum
+1C--1D--1N--2D--2H--,3D,5-5 in H1s and !ds. Strong invitation
+1C--1D--1N--2D--2H--3D--,3S,shows xx(xx) in !ss #
+1C--1D--1N--2D--2H--3D--,4C,shows xx(xx) in !ss #
+1C--1D--1N--2D--2H--3D--,4D,
+1C--1D--1N--2D--2H--,3H,
+1C--1D--1N--2D--2H--,3N,5!hs. No Slam ambition
+1C--1D--1N--2D--2H--,3S,
+1C--1D--1N--2D--2H--,4C,
+1C--1D--1N--2D--2H--,4D,
+1C--1D--1N--2D--2H--,4H,Mild slamtry without a singleton
+1C--1D--1N--2D--2H--,4N,RKCB
+1C--1D--1N--2D--2H--,4S,Exclusion RKCB
+1C--1D--1N--2D--2H--,5C,Exclusion RKCB
+1C--1D--1N--2D--2H--,5D,Exclusion RKCB
+1C--1D--1N--2D--,2N,19-20 HCP; 3433 shape
+1C--1D--1N--2D--2N--,3C,
+1C--1D--1N--2D--2N--,3D,
+1C--1D--1N--2D--2N--3D--,3H,Forced
+1C--1D--1N--2D--2N--3D--3H--,3S,King or Ace
+1C--1D--1N--2D--2N--3D--3H--,4C,King or Ace
+1C--1D--1N--2D--2N--3D--3H--,4D,King or Ace
+1C--1D--1N--2D--2N--3D--3H--,4H,Mild slam try
+1C--1D--1N--2D--2N--3D--3H--,4N,RKCB
+1C--1D--1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1C--1D--1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1C--1D--1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1C--1D--1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1C--1D--1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C--1D--1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1C--1D--1N--2D--2N--3N--,4C,Presumably without !hqueen
+1C--1D--1N--2D--2N--3N--,4D,Presumably without !hqueen
+1C--1D--1N--2D--2N--,3S,
+1C--1D--1N--2D--2N--,4C,
+1C--1D--1N--2D--2N--,4D,
+1C--1D--1N--2D--2N--,4H,
+1C--1D--1N--2D--2N--,4N,RKCB
+1C--1D--1N--2D--2N--,4S,Exclusion RKCB
+1C--1D--1N--2D--2N--,5C,Exclusion RKCB
+1C--1D--1N--2D--2N--,5D,Exclusion RKCB
+1C--1D--1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1C--1D--1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1C--1D--1N--2D--2S--2N--,3H,
+1C--1D--1N--2D--2S--,3C,
+1C--1D--1N--2D--2S--,3D,
+1C--1D--1N--2D--2S--3D--,3H,Forced
+1C--1D--1N--2D--2S--3D--3H--,3S,King or Ace
+1C--1D--1N--2D--2S--3D--3H--,4C,King or Ace
+1C--1D--1N--2D--2S--3D--3H--,4D,King or Ace
+1C--1D--1N--2D--2S--3D--3H--,4H,Mild slam try
+1C--1D--1N--2D--2S--3D--3H--,4N,RKCB
+1C--1D--1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1C--1D--1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1C--1D--1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1C--1D--1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1C--1D--1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C--1D--1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1C--1D--1N--2D--2S--3N--,4C,Presumably without !hqueen
+1C--1D--1N--2D--2S--3N--,4D,Presumably without !hqueen
+1C--1D--1N--2D--2S--,3S,
+1C--1D--1N--2D--2S--,4C,
+1C--1D--1N--2D--2S--,4D,
+1C--1D--1N--2D--2S--,4H,
+1C--1D--1N--2D--2S--,4N,RKCB
+1C--1D--1N--2D--2S--,4S,Exclusion RKCB
+1C--1D--1N--2D--2S--,5C,Exclusion RKCB
+1C--1D--1N--2D--2S--,5D,Exclusion RKCB
+1C--1D--1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2D--3C--,3D,
+1C--1D--1N--2D--3C--3D--,3H,Forced
+1C--1D--1N--2D--3C--3D--3H--,3S,King or Ace
+1C--1D--1N--2D--3C--3D--3H--,4C,King or Ace
+1C--1D--1N--2D--3C--3D--3H--,4D,King or Ace
+1C--1D--1N--2D--3C--3D--3H--,4H,Mild slam try
+1C--1D--1N--2D--3C--3D--3H--,4N,RKCB
+1C--1D--1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1C--1D--1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1C--1D--1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1C--1D--1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1C--1D--1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1C--1D--1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1C--1D--1N--2D--3C--3N--,4C,Presumably without !hqueen
+1C--1D--1N--2D--3C--3N--,4D,Presumably without !hqueen
+1C--1D--1N--2D--3C--,3S,
+1C--1D--1N--2D--3C--,4C,
+1C--1D--1N--2D--3C--,4D,
+1C--1D--1N--2D--3C--,4H,
+1C--1D--1N--2D--3C--,4N,RKCB
+1C--1D--1N--2D--3C--,4S,Exclusion RKCB
+1C--1D--1N--2D--3C--,5C,Exclusion RKCB
+1C--1D--1N--2D--3C--,5D,Exclusion RKCB
+1C--1D--1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1C--1D--1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1C--1D--1N--2D--3D--3N--,4C,Presumably without !hqueen
+1C--1D--1N--2D--3D--3N--,4D,Presumably without !hqueen
+1C--1D--1N--2D--3D--,3S,
+1C--1D--1N--2D--3D--,4C,
+1C--1D--1N--2D--3D--,4D,
+1C--1D--1N--2D--3D--,4H,
+1C--1D--1N--2D--3D--,4N,RKCB
+1C--1D--1N--2D--3D--,4S,Exclusion RKCB
+1C--1D--1N--2D--3D--,5C,Exclusion RKCB
+1C--1D--1N--2D--3D--,5D,Exclusion RKCB
+1C--1D--1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1C--1D--1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1C--1D--1N--2D--3H--3N--,4C,Presumably without !hqueen
+1C--1D--1N--2D--3H--3N--,4D,Presumably without !hqueen
+1C--1D--1N--2D--3H--,3S,
+1C--1D--1N--2D--3H--,4C,
+1C--1D--1N--2D--3H--,4D,
+1C--1D--1N--2D--3H--,4H,
+1C--1D--1N--2D--3H--,4N,RKCB
+1C--1D--1N--2D--3H--,4S,Exclusion RKCB
+1C--1D--1N--2D--3H--,5C,Exclusion RKCB
+1C--1D--1N--2D--3H--,5D,Exclusion RKCB
+1C--1D--1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 14-16 HCP. 6) GF; 5!ss w/o slam interest.
+1C--1D--1N--2H--,2N,19-20 HCP; 4333 shape
+1C--1D--1N--2H--2N--,3C,
+1C--1D--1N--2H--2N--,3D,
+1C--1D--1N--2H--2N--,3H,
+1C--1D--1N--2H--2N--3H--,3S,
+1C--1D--1N--2H--2N--3H--3S--,4C,Denies splinter
+1C--1D--1N--2H--2N--3H--3S--,4D,Denies splinter
+1C--1D--1N--2H--2N--3H--3S--,4H,Denies splinter
+1C--1D--1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C--1D--1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C--1D--1N--2H--2N--,4C,
+1C--1D--1N--2H--2N--,4D,
+1C--1D--1N--2H--2N--,4H,
+1C--1D--1N--2H--2N--,4N,RKCB
+1C--1D--1N--2H--2N--,4S,
+1C--1D--1N--2H--2N--,5C,Exclusion RKCB
+1C--1D--1N--2H--2N--,5D,Exclusion RKCB
+1C--1D--1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1C--1D--1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1C--1D--1N--2H--2S--,3C,5!ss and 5+!cs
+1C--1D--1N--2H--2S--,3D,5!ss and 5+!cs
+1C--1D--1N--2H--2S--,3H,5+!ss and 5+!hss
+1C--1D--1N--2H--2S--3H--,3S,
+1C--1D--1N--2H--2S--,3N,5!ss
+1C--1D--1N--2H--2S--,3S,
+1C--1D--1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2H--3C--,3D,
+1C--1D--1N--2H--3C--,3H,
+1C--1D--1N--2H--3C--3H--,3S,
+1C--1D--1N--2H--3C--3H--3S--,4C,Denies splinter
+1C--1D--1N--2H--3C--3H--3S--,4D,Denies splinter
+1C--1D--1N--2H--3C--3H--3S--,4H,Denies splinter
+1C--1D--1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C--1D--1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C--1D--1N--2H--3C--,4C,
+1C--1D--1N--2H--3C--,4D,
+1C--1D--1N--2H--3C--,4H,
+1C--1D--1N--2H--3C--,4N,RKCB
+1C--1D--1N--2H--3C--,4S,
+1C--1D--1N--2H--3C--,5C,Exclusion RKCB
+1C--1D--1N--2H--3C--,5D,Exclusion RKCB
+1C--1D--1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2H--3D--,3H,
+1C--1D--1N--2H--3D--3H--,3S,
+1C--1D--1N--2H--3D--3H--3S--,4C,Denies splinter
+1C--1D--1N--2H--3D--3H--3S--,4D,Denies splinter
+1C--1D--1N--2H--3D--3H--3S--,4H,Denies splinter
+1C--1D--1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C--1D--1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1C--1D--1N--2H--3D--,4C,
+1C--1D--1N--2H--3D--,4D,
+1C--1D--1N--2H--3D--,4H,
+1C--1D--1N--2H--3D--,4N,RKCB
+1C--1D--1N--2H--3D--,4S,
+1C--1D--1N--2H--3D--,5C,Exclusion RKCB
+1C--1D--1N--2H--3D--,5D,Exclusion RKCB
+1C--1D--1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C--1D--1N--2H--3H--,3S,
+1C--1D--1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3H--,4N,RKCB
+1C--1D--1N--2H--3H--,4S,
+1C--1D--1N--2H--3H--,5C,Exclusion RKCB
+1C--1D--1N--2H--3H--,5D,Exclusion RKCB
+1C--1D--1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1C--1D--1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1C--1D--1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1C--1D--1N--2H--3S--,4N,RKCB
+1C--1D--1N--2H--3S--,4S,
+1C--1D--1N--2H--3S--,5C,Exclusion RKCB
+1C--1D--1N--2H--3S--,5D,Exclusion RKCB
+1C--1D--1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 17-18 HCP). 4) Strong slam try in !c;  (addressed to 19-20 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1C--1D--1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1C--1D--1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1C--1D--1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 6 HCP possibly 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1C--1D--1N--2S--,2N,16-18 HCP
+1C--1D--1N--2S--,3C,19-20 HCP
+1C--1D--1N--2S--,3D,19-20 HCP; denies 4!cs
+1C--1D--1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1C--1D--1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1C--1D--1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 17-18 HCP). 4) Strong slam try in !ds;  (addressed to 19-20 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1C--1D--1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1C--1D--1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1C--1D--1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3C--,4C,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1C--1D--1N--,3D,!c spilnter; denies 4M
+1C--1D--1N--3D--,3H,16-18 HCP
+1C--1D--1N--3D--3H--,3S,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1C--1D--1N--3D--,3N,19-20 HCP; doubleton !h.
+1C--1D--1N--3D--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3D--,4C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3D--,4D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3D--,4H,Please read chat#19-20 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1C--1D--1N--,3H,Denies 4 !ss
+1C--1D--1N--3H--,3N,19-20 HCP; doubleton !s
+1C--1D--1N--3H--,3S,16-18 HCP
+1C--1D--1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1C--1D--1N--3H--,4C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3H--,4D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3H--,4H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1C--1D--1N--3H--,4S,Please read chat#19-20 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax. 
+1C--1D--1N--,3S,Denies 4!hs
+1C--1D--1N--3S--,4D,ORKC
+1C--1D--1N--3S--,4N,RKCB with 6 aces
+1C--1D--1N--3S--,4S,Preference
+1C--1D--1N--,4C,Voidwood
+1C--1D--1N--4C--,4D,19-20 HCP and a good hand
+1C--1D--1N--4C--,4H,19-20 HCP and a good hand
+1C--1D--1N--,4D,ORKC
+1C--1D--1N--,4H,Voidwood
+1C--1D--1N--,4N,All 4333 shapes
+1C--1D--1N--,4S,Voidwood
+1C--1D--,1S,!ss and !cs
+1C--,1H,Please read chat#4 HCP+ if 5 card suit. 8 HCP+ if 4-card suit
+1C--1H--1N--,2C,4-7 HCP
+1C--1H--1N--2C--,2D,Asks about !hs and points
+1C--1H--1N--2C--2D--,2H,4-5 HCP
+1C--1H--1N--2C--2D--,2N,6-7 HCP
+1C--1H--1N--2C--2D--,2S,6-7 HCP
+1C--1H--1N--2C--2D--,3C,4-5 HCP
+1C--1H--1N--2C--2D--,3D,4-5 HCP
+1C--1H--1N--2C--,3C,
+1C--1H--1N--2C--,3H,Slamtry with !cs and !hs
+1C--1H--1N--,3C,4-7 HCP
+1C--1H--1N--,3D,4-7 HCP
+1C--,1N,GF; can have 5 card M but no sing/void.
+1C--1N--,2C,11-13 or 17+
+1C--1N--2C--,2D,Relay.
+1C--1N--2C--2D--,2H,Please read chat#Any 5422; 6322 or 7222 shape with !c longest; 11-13/17+hp
+1C--1N--2C--2D--2H--2N--,3C,11-13/17+. 7 !c or 6!cs; not minimum.
+1C--1N--2C--2D--2H--2N--,3D,11-13hp 2245; diamonds are weak.
+1C--1N--2C--2D--2H--2N--,3H,11-13hp/17+. 2425 shape
+1C--1N--2C--2D--2H--2N--,3N,Minimum 6322 
+1C--1N--2C--2D--2H--2N--,3S,11-13hp/17+.4225 shape
+1C--1N--2C--2D--,2N,Undefined
+1C--1N--2C--2D--,2S,Please read chat#Promises a short suit somewhere and a side suit 11-13/17+hp
+1C--1N--2C--2D--2S--2N--,3C,Void somewhere
+1C--1N--2C--2D--2S--2N--,3D,7+ !cs
+1C--1N--2C--2D--2S--2N--3D--,3N,!d void
+1C--1N--2C--2D--2S--2N--,3H,
+1C--1N--2C--2D--2S--2N--,3N,Singleton !d
+1C--1N--2C--2D--2S--2N--,3S,
+1C--1N--2C--2D--,3C,11-13/17+hp.
+1C--1N--2C--2D--,3D,11-13/17+hp.!c onesuiter
+1C--1N--2C--2D--,3H,11-13/17+hp.!c onesuiter
+1C--1N--2C--2D--,3N,11-13hp; 4414
+1C--1N--2C--2D--,3S,11-13/17+hp.!c onesuiter
+1C--1N--2C--,2H,
+1C--1N--2C--,2S,
+1C--1N--,2D,Please read chat#Poor 4-card diamond suit and longer clubs
+1C--1N--,2H,Please read chat#14-16hp; 4 hearts and 5 diamonds; can have 4 spades
+1C--1N--,2N,Please read chat#17-20/23-24. Natural continuation. With 19-20; opener can make a DBC 
+1C--1N--,2S,Please read chat#14-16hp; 4 spades and 5 diamonds; denies 4 hearts.
+1C--1N--,3C,14-16 hp; 6322 or 7222 shape
+1C--1N--,3D,6+ clubs; 14-16 hp 
+1C--1N--,3H,6+ clubs; 14-16 hp 
+1C--1N--,3N,14-16hp; 4414
+1C--1N--,3S,6+ clubs; 14-16 hp 
+1C--,1S,Please read chat#4 HCP+ if 5 card suit. 8 HCP+ if 4-card suit
+1C--,2C,Forcing to 3!cs. Denies 4 M
+1C--2C--,2D,showing values or 5+dimonds.
+1C--2C--2D--,2H,values in !h
+1C--2C--2D--2H--,2N,#Invites to 3 NT; forcing to 3!c
+1C--2C--2D--2H--,2S,4.suit;seeks more information.
+1C--2C--2D--2H--2S--,2N,Please read chat#half stopper(qx/jxx) in spades;minimum(8-10).
+1C--2C--2D--2H--2S--,3C,Please read chat#no half-stopper in spades; minimum(8-10hp)
+1C--2C--2D--2H--2S--,3D,Please read chat#no half-stoppers in spades;values in dimonds;maximum(10+hp)
+1C--2C--2D--2H--2S--,3H,Please read chat#only values in hearts;no single spades; maximum(10+hp)
+1C--2C--2D--2H--2S--,3N,Please read chat#half stopper in spades(qx/jxx); maximum(10+hp)
+1C--2C--2D--2H--2S--,3S,Please read chat#splinter bid;no values in dimonds;Maximum(9-11hp)
+1C--2C--2D--2H--,3C,no stopper in spade;non forcing.
+1C--2C--2D--2H--,3D,5+dimonds; very strong.
+1C--2C--2D--2H--,3H,5 dimonds and 4hearts; 20+hp
+1C--2C--2D--2H--,3N,to play.
+1C--2C--2D--2H--,3S,5 dimonds and 4 spades; 20+hp
+1C--2C--2D--2H--,4C,ORKC
+1C--2C--2D--2H--,4D,ORKC. Diamonds is trumps
+1C--2C--2D--2H--,4H,Please read chat#"woidwood";dimonds are trumfs; opener may not be void.
+1C--2C--2D--2H--,4N,rkcb with dimonds as trumfs.
+1C--2C--2D--2H--,4S,Please read chat#"woidwood";dimonds are trumf;opener may not be void.
+1C--2C--2D--2H--,5C,sign off.
+1C--2C--2D--2H--,5D,sign off; xx in sp.
+1C--2C--2D--,2N,#Invites to 3 NT; forcing to 3!c
+1C--2C--2D--2N--,4C,ORKC
+1C--2C--2D--,2S,values in !s
+1C--2C--2D--2S--,2N,#Invites to 3 NT; forcing to 3!c
+1C--2C--2D--2S--,3C,non forcing.
+1C--2C--2D--2S--,3D,6+dimonds;not solid.20+hp
+1C--2C--2D--2S--3D--,3H,splinter bid.
+1C--2C--2D--2S--3D--,3N,half stopper in hearts(Qx/Jxx)
+1C--2C--2D--2S--3D--,3S,Please read chat#no splinter in hearts;no halfstopper in hearts;could be advanced cue bid with good support.
+1C--2C--2D--2S--3D--,4C,Please read chat#cue bid with good dimond support; no sp cue bid.
+1C--2C--2D--2S--3D--,4D,Please read chat#good support and no cue bids!(QJx;Qx;Jxxx;QJxx)
+1C--2C--2D--2S--,3H,Please read chat#4.suit(Qx/Jxx in h) or 5 dimonds+4 hearts. 
+1C--2C--2D--2S--3H--,3N,half stopper in hearts.
+1C--2C--2D--2S--3H--3N--,4C,ORKC
+1C--2C--2D--2S--3H--3N--,4D, 5 dimonds+4 hearts+2+2(22+hp)
+1C--2C--2D--2S--3H--3N--,4H,5 dimonds+4 hearts+3 spades +1 clubs.
+1C--2C--2D--2S--3H--3N--,4N,Please read chat#quantum;showing 5 dimonds+ 4 hearts+2+2(20-21hp)
+1C--2C--2D--2S--3H--3N--,4S,5 dimonds+4 hearts+4 spades.20+hp
+1C--2C--2D--2S--3H--,3S,no half stopper in hearts.
+1C--2C--2D--2S--3H--3S--,3N,Please read chat#5 dimonds+4 hearts;20-22hp; responder can pass.
+1C--2C--2D--2S--3H--3S--,4C,
+1C--2C--2D--2S--,3N,to play.
+1C--2C--2D--2S--,3S,5 dimonds+4 spades. 20+hp
+1C--2C--2D--2S--,4C,ORKC
+1C--2C--2D--2S--4C--,4D,Slam interest
+1C--2C--2D--2S--4C--,4H,1 or 4 aces
+1C--2C--2D--2S--4C--,4N,2 aces; not trump queen
+1C--2C--2D--2S--4C--,4S,0 or 3 aces
+1C--2C--2D--2S--4C--,5C,2 aces + trump queen
+1C--2C--2D--2S--,4D,ORKC. Diamonds is trumps
+1C--2C--2D--2S--,4H,Please read chat#"voidwood";opener may not be void in hearts. Diamonds is trumps
+1C--2C--2D--2S--,4N,rkcb; dimonds is trumf.
+1C--2C--2D--2S--,4S,Please read chat#"voidwood"; opener may not be void in spades. Diamonds is trumps
+1C--2C--2D--2S--,5C,to play.
+1C--2C--2D--,3C,Please read chat#no good values in hearts or spades;minimum.
+1C--2C--2D--,3D,values in dimonds; maximum(10+hp)
+1C--2C--2D--,3H,splinter bid; maximum(9+-11hp)
+1C--2C--2D--,3N,Please read chat#values in hearts and spades; maximum(10-12hp)
+1C--2C--2D--,3S,splinter bid;maximum(9+-11hp)
+1C--2C--2D--,4C,Please read chat#slam intrest in clubs or dimonds if opener has 5+dimonds.
+1C--2C--,2H,showing values or 5+ hearts
+1C--2C--2H--,2N,Please read chat#values in sp and dimonds; minimum(8-10hp)
+1C--2C--2H--,2S,values in spades; not dimonds.
+1C--2C--2H--,3C,Please read chat#no good values in spades;minimum(8-10hp)
+1C--2C--2H--,3D,Please read chat#no good values in spades;values in dimonds;maximum(10+hp)
+1C--2C--2H--,3H,Please read chat#no good values in dimonds or spades;values in hearts; maximum(10+hp)
+1C--2C--2H--,3N,Please read chat#values in spade and dimonds;maximum(10+hp)
+1C--2C--2H--,3S,splinter bid; maximum(10+hp)
+1C--2C--,2N,Please read chat#17-20hp;23-25hp.Not 17-20hp and bad support for clubs(at best jxx).
+1C--2C--2N--,3C,slam try; 5+ clubs.no splinter.
+1C--2C--2N--3C--,3D,Please read chat#doubleton cue-bid(dbc); 17-18/23-25hp; good support for clubs(qxx at least).
+1C--2C--2N--3C--,3H,Dbc;17-18/23-25
+1C--2C--2N--3C--,3N,No dbc; not slammish.
+1C--2C--2N--3C--,3S,Dbc;17-18/23-25hp.
+1C--2C--2N--3C--,4C,4+ clubs; not Q of clubs;17-18/23-25hp
+1C--2C--2N--3C--4C--,4D,Cue-bid.
+1C--2C--2N--3C--4C--,4H,Cue-bid.
+1C--2C--2N--3C--4C--,4N,Sign off; minumum inkluding Q of clubs.
+1C--2C--2N--3C--4C--,4S,Cue-bid.
+1C--2C--2N--3C--,4D,Dbc; 19-20hp.
+1C--2C--2N--3C--,4H,Dbc; 19-20hp.
+1C--2C--2N--3C--,4N,4+ clubs; not Q of clubs; 19-20hp.
+1C--2C--2N--3C--,4S,Dbc; 19-20hp.
+1C--2C--2N--,3D,splinter
+1C--2C--2N--3D--,3H,Please read chat#Stopper/cue-bid; responder may bid 3nt with sp stopper and minimum.
+1C--2C--2N--3D--3H--,3N,Stopper in spade; minimum.
+1C--2C--2N--3D--3H--,3S,Cue bid.
+1C--2C--2N--3D--3H--,4C,Please read chat#No stopper/cue-bid in spade. Not void in dimonds.
+1C--2C--2N--3D--3H--,4D,Void in d. No cue bid in sp.
+1C--2C--2N--3D--3H--,4H,Please read chat#Cue-bid; no cue bid in sp or void in dimonds.Stronger than bidding 4 cl followed up with h cue bid.
+1C--2C--2N--3D--,3N,To play;waste in diamonds.
+1C--2C--2N--3D--3N--,4C,Please read chat#Slam try;responder showes his values in dimonds.No void in dimonds.
+1C--2C--2N--3D--3N--4C--,4D,Please read chat#To+ tricks in raising dimonds(AQJ;KQJ;AKQ;AK)but no cue bid in hearts or spades.
+1C--2C--2N--3D--3N--4C--,4H,Please read chat#To+ tricks in dimonds and cue bid in hearts not spades.
+1C--2C--2N--3D--3N--4C--,4N,Please read chat#Not to tricks in dimonds but dobble stopper(AQ;QJ10x)
+1C--2C--2N--3D--3N--4C--,4S,Please read chat#To+ tricks in dimonds and cue-bid in spades Not in hearts.
+1C--2C--2N--3D--3N--4C--,5C,KQx;QJx in dimonds(one stopper)
+1C--2C--2N--3D--3N--4C--,5D,Please read chat#To+ tricks in dimonds and cue-bid in hearts and spades.
+1C--2C--2N--3D--3N--,4D,Please read chat#Void in dimonds;responder showes values in dimonds.
+1C--2C--2N--3D--3N--4D--,4H,Please read chat#To tricks in dimonds(AK;AQJ;KQJ) and cue-bid in hearts not spade.
+1C--2C--2N--3D--3N--4D--,4N,Please read chat#To stoppers in dimonds not to tricks(AQ;KQ10;QJ10x)
+1C--2C--2N--3D--3N--4D--,4S,Please read chat#To tricks in dimonds and cue-bid in spades not hearts.
+1C--2C--2N--3D--3N--4D--,5C,Please read chat#No to tricks or to stoppers in dimonds (KQx;QJx)
+1C--2C--2N--3D--3N--4D--,5D,Please read chat#To tricks in dimonds and cue bids in hearts and spades.
+1C--2C--2N--3D--,3S,Cue-bid; no cue-bid/stopper in hearts.
+1C--2C--2N--3D--3S--,3N,Please read chat#stopper in hearts; minimum. Or xxx in hearts and maximum.
+1C--2C--2N--3D--3S--3N--,4C,Please read chat#Slam try. Hoping responder has cue- bid in hearts.
+1C--2C--2N--3D--3S--3N--4C--,4D,Void + cue-bid in hearts.
+1C--2C--2N--3D--3S--3N--4C--,4H,Cue-bid in hearts; no void in dimonds.
+1C--2C--2N--3D--3S--3N--4C--,4N,no cue-bid in hearts but stopper.
+1C--2C--2N--3D--3S--3N--4C--,4S,Cue-bid in spades and hearts.
+1C--2C--2N--3D--3S--3N--4C--,5C,To play; xxx i hj og maximum.
+1C--2C--2N--3D--3S--3N--,4D,Please read chat#Cue-bid(ace); hoping responder has cue-bid in hearts.
+1C--2C--2N--3D--3S--3N--4D--,4H,Cue-bid in hearts not in spades.
+1C--2C--2N--3D--3S--3N--4D--,4N,No cue-bid in hearts but stopper.
+1C--2C--2N--3D--3S--3N--4D--,4S,Cue bid in hearts and spades.
+1C--2C--2N--3D--3S--,4C,xxx in hearts.minimum.
+1C--2C--2N--3D--3S--,4D,Void and cue-bid in hearts.
+1C--2C--2N--3D--3S--,4H,Please read chat#Cue-bid in hearts; not void in dimonds.To good to bid 3nt.
+1C--2C--2N--3D--3S--,4N,Rkcb.
+1C--2C--2N--3D--3S--,4S,Cue-bid in hearts and spades.
+1C--2C--2N--3D--3S--,5C,To play.
+1C--2C--2N--,3H,Splinter
+1C--2C--2N--3H--,3N,To play.
+1C--2C--2N--3H--3N--,4C,Please read chat#Slam try; asks about values in dimonds. Not void in dimonds.
+1C--2C--2N--3H--3N--4C--,4D,Please read chat#To+ tricks in dimonds(AK;AQJ;KDJ;AKD). No cue-bid in hearts or spades.
+1C--2C--2N--3H--3N--4C--,4H,Please read chat#To+ tricks in dimonds; cue-bid in hearts not in spades.
+1C--2C--2N--3H--3N--4C--,4N,Please read chat#Not to tricks in dimonds but to stoppers(AQ;KQ10;QJ10x).
+1C--2C--2N--3H--3N--4C--,4S,Please read chat#To+ tricks in dimonds; cue-bid in spades not in hearts.
+1C--2C--2N--3H--3N--4C--,5C,Please read chat#Not to tricks or to stoppers in dimonds(KQx;QJx)
+1C--2C--2N--3H--3N--4C--,5D,Please read chat#To+ stoppers in dimonds and cue-bid in both hearts and spades.
+1C--2C--2N--3H--3N--4C--5D--,5H,Please read chat#Relay; opener showes 2 or 3(AKQ) dimond tricks.
+1C--2C--2N--3H--3N--4C--5D--5H--,5N,AQJ in hearts; 3 aces in all.
+1C--2C--2N--3H--3N--4C--5D--5H--,5S,AQJ in hearts; 2 aces in all.
+1C--2C--2N--3H--3N--4C--5D--5H--,6C,Not ace of dimond.
+1C--2C--2N--3H--3N--4C--5D--5H--,6D,AKQ inhearts ; 2 aces in all.
+1C--2C--2N--3H--3N--4C--5D--5H--,6H,AKQ in hearts; 3 aces in all.
+1C--2C--2N--3H--3N--,4D,Please read chat#Cue-bid ; only interested in ace of hearts.
+1C--2C--2N--3H--3N--,4H,Please read chat#Void in hearts.Asks about values in hearts.
+1C--2C--2N--3H--3N--4H--,4N,Please read chat#Not 2 tricks in hearts; 2 stoppers in hearts(AQ;KQ10;QJ10x)
+1C--2C--2N--3H--3N--4H--,4S,Please read chat#To tricks in hearts; cue-bid in spades not in dimonds.
+1C--2C--2N--3H--3N--4H--,5C,Not 2 tricks or 2 stoppers in hearts.
+1C--2C--2N--3H--3N--4H--,5D,Please read chat#2 tricks in hearts; cue-bid in dimond not spades.
+1C--2C--2N--3H--3N--4H--,5H,Please read chat#2 tricks in hearts; cue-bids in both dimonds and spades.
+1C--2C--2N--3H--3N--4H--5H--,5S,Please read chat#Asks if opener has 3 tricks in hearts and number of aces.
+1C--2C--2N--3H--3N--4H--5H--5S--,5N,3 tricks in hearts and 2 aces.
+1C--2C--2N--3H--3N--4H--5H--5S--,6C,Not 3 tricks in hearts.
+1C--2C--2N--3H--3N--4H--5H--5S--,6D,3 tricks in hearts(AKQ) and 3 aces.
+1C--2C--2N--3H--,3S,Stopper/cue-bid.
+1C--2C--2N--3H--3S--,3N,Stopper/cue-bid in dimonds;minimum.
+1C--2C--2N--3H--3S--3N--,4C,Slam try.Not !dAce or King;
+1C--2C--2N--3H--3S--3N--,4D,Please read chat#!dAce or King and cue-bid in spades(3sp).
+1C--2C--2N--3H--3S--3N--,4H,Please read chat#Cue-bid(ace) in hearts; no cue-bid in dimonds.
+1C--2C--2N--3H--3S--3N--,4N,Please read chat#3+ aces; cue-bid in dimonds(A or K not both).
+1C--2C--2N--3H--3S--3N--,4S,Please read chat#Cue-bid(AK) in spades; no cue-bids in dimonds or hearts.
+1C--2C--2N--3H--3S--,4C,xxx in dimonds; minimum.
+1C--2C--2N--3H--3S--,4D,Cue-bid; not minimum.
+1C--2C--2N--3H--3S--,4H,Please read chat#Void in hearts no dimond cue-bid.Not minimum.
+1C--2C--2N--3H--3S--,4N,Rkcb.
+1C--2C--2N--3H--3S--,4S,Please read chat#Cue-bid; no cue-bid in dimonds or void in hearts.Not minimum
+1C--2C--2N--3H--3S--,5C,To play.
+1C--2C--2N--3H--,4C,Please read chat#Slam try. No cue-bid in spades; not !dAce or King.
+1C--2C--2N--3H--4C--,4D,Cue-bid.
+1C--2C--2N--3H--4C--4D--,4H,Cue-bid.
+1C--2C--2N--3H--4C--4D--,4N,Kontrol in spades and 3 aces.
+1C--2C--2N--3H--4C--4D--,4S,Cue-bid no ace of hearts not 3 aces.
+1C--2C--2N--3H--4C--,4H,Void in hearts no cue-bid in dimonds.
+1C--2C--2N--3H--4C--,4N,3 acse kontrol in dimonds and spades.
+1C--2C--2N--3H--4C--,4S,Please read chat#Cue-bid in spades; no void in h or cue-bid in dimonds.
+1C--2C--2N--3H--,4D,!dAce or King; no cue-bid in spades.
+1C--2C--2N--3H--,4H,Please read chat#Cue-bid(ace) in hearts; no cue-bid in spades or dimonds.
+1C--2C--2N--3H--,4N,Rkcb.
+1C--2C--2N--3H--,4S,Please read chat#Cue-bid; AK in spades.No cue bid in dimonds or hearts.
+1C--2C--2N--3H--,5C,Please read chat#No stopper in hearts; less than 17 aktiv hp.
+1C--2C--2N--,3N,minimum(8-10hp)
+1C--2C--2N--,3S,Splinter
+1C--2C--2N--3S--,3N,To play.
+1C--2C--2N--3S--,4C,Slam try.Not !dAce or King.
+1C--2C--2N--3S--,4D,Cue-bid; !dAce or King.
+1C--2C--2N--3S--,4H,Please read chat#Cue bid; neither ace or king in dimonds.
+1C--2C--2N--3S--,4N,Rkcb.
+1C--2C--2N--3S--,4S,Please read chat#Cue-bid; no cue-bids in dimonds or hearts.
+1C--2C--2N--3S--,5C,Please read chat#No stopper in spades and less than 17 aktiv points.
+1C--2C--2N--,4C,ORKC
+1C--2C--2N--,4D,Please read chat#"Voidwood"; asks for aces outside dimonds.(need not be void)
+1C--2C--2N--,4H,"Voidwood";need not be void.
+1C--2C--2N--,4N,Quantum bid.
+1C--2C--2N--4N--,5C,1 or 4 aces.
+1C--2C--2N--4N--,5D,0 or 3 aces.
+1C--2C--2N--4N--,5H,2 aces not Q of clubs.
+1C--2C--2N--4N--,5S,2 aces + Q of clubs.
+1C--2C--2N--,4S,"Voidwood"; need not be void.
+1C--2C--2N--,5C,To play.
+1C--2C--,2S,showing values or 5+ spades
+1C--2C--2S--,2N,Please read chat#Stoppers in dimonds and hearts; minimum.
+1C--2C--2S--,3C,Please read chat#Not stoppers in both dimonds and hearts; minimum.
+1C--2C--2S--,3D,Stopper in dimonds not hearts; maximum.
+1C--2C--2S--,3H,stopper in hearts not dimonds; maximum.
+1C--2C--2S--,3N,Please read chat#Stoppers in dimonds and hearts; not minimum(10-13hp)
+1C--2C--2S--,3S,Please read chat#Stopper in spades not in dimonds or hearts; maximum.
+1C--2C--2S--,4C,Please read chat#Slam try;not solid clubs.Opener signs off in 4ut or 5clubs or cue-bids.
+1C--2C--2S--,4D,Solid clubs; cue-bid.
+1C--2C--2S--,4H,Solid clubs; cue-bid.
+1C--2C--2S--,4N,Quantum 14-16hp.
+1C--2C--2S--,4S,Solid clubs; cue-bid.
+1C--2C--,3C,minimum hand(11-13hp)
+1C--2C--3C--,3D,Stopper/advanced cue-bid in dimonds.
+1C--2C--3C--,3H,Please read chat#Stopper/advanced cue-bid; no stopper/cue-bid in dimonds.
+1C--2C--3C--,3N,To play.
+1C--2C--3C--,3S,Please read chat#Stopper/advanced cue-bid; no stopper /advanced cue-bidin dimonds or hearts.
+1C--2C--3C--,4C,ORKC
+1C--2C--3C--,4D,Dbc!(not splinter!)
+1C--2C--3C--4D--,4H,Cue-bid.
+1C--2C--3C--4D--,4N,Please read chat#3 aces; not promising cue bids in spades or hearts.
+1C--2C--3C--4D--,4S,Cue-bid.
+1C--2C--3C--4D--,5C,Sign off.
+1C--2C--3C--,4H,Dbc!(not splinter!)
+1C--2C--3C--,4N,Rkcb.
+1C--2C--3C--,4S,Dbc!(not splinter!)
+1C--2C--3C--,5C,Sign off.
+1C--2C--,3D,splinter bid.
+1C--2C--,3H,splinter bid.
+1C--2C--,3N,Please read chat#To play. With good stoppers in side suits. 17-20hp NT-hand with bad support for clubs(jxx at best)
+1C--2C--3N--,4C,ORKC
+1C--2C--3N--4C--,4D,
+1C--2C--3N--4C--,4H,
+1C--2C--3N--4C--,4S,
+1C--2C--3N--4C--,5C,
+1C--2C--3N--,4D,Please read chat#Solid clubs; cue-bid. Opener signs off in 5clubs or cue bids.
+1C--2C--3N--4D--,4H,Cue-bid.
+1C--2C--3N--4D--,4N,Please read chat#3 +aces; cue-bids in both hearts and spades.
+1C--2C--3N--4D--,4S,Cue-bid.
+1C--2C--3N--4D--,5C,Please read chat# Sign off; typical 1 ace and/or few controls.
+1C--2C--3N--,4H,Cue-bid; solid clubs.
+1C--2C--3N--,4N,Quantum bid.
+1C--2C--3N--,4S,Cue-bid; solid clubs.
+1C--2C--,3S,splinter bid.
+1C--2C--,4C,ORKC
+1C--2C--,4D,Please read chat#"Voidwood"; not necessarily void; asks for aces outside diamonds.
+1C--2C--,4H,Please read chat#"Voidwood"; not necessarily void; asks for aces outside hearts.
+1C--2C--,4N,quantum
+1C--2C--,4S,Please read chat#"Voidwood"; not necessarily void; asks for aces outside spades.
+1C--2C--4S--,4N,1 or 4 aces.
+1C--2C--4S--,5C,0 or 3 aces.
+1C--2C--4S--,5D,2 aces.
+1C--2C--4S--,5H,2 aces and q of clubs.
+1C--,2D,3-6 HCP
+1C--,2H,3-6 HCP
+1C--,2N,Natural; about 11 HCP
+1C--,2S,3-6 HCP
+1C--,3C,3-6 HCP
+1C--,3D,Please read chat#2007-11-15 !c support. Can have 4 card major
+1C--3D--,3H,
+1C--3D--3H--,3N,Denies 4 card major
+1C--3D--3H--,3S,
+1C--3D--3H--,4C,Please read chat#Denies 4 card major; shows extra strength
+1C--3D--3H--,4D,Denies 4 card major
+1C--3D--3H--4D--,4H,#2007-12-01 20 HCP+
+1C--3D--,3S,
+1C--3D--3S--,3N,Denies 4!ss
+1C--3D--3S--,4C,Denies 4!ss; shows extra strength
+1C--3D--3S--4C--,4D,
+1C--3D--3S--4C--,4H,
+1C--3D--3S--4C--,4S,20 HCP+
+1C--3D--,4C,ORKC
+1C--3D--,4D,#2007-12-01 20 HCP+
+1C--3D--,4H,#2007-12-01 20 ?
+1C--3D--,4S,#2007-12-01 ?
+1C--,3H,!c suit. Can have 4 !ss
+1C--,3S,!c suit. Denies 4 !hs
+,1D,Unbalanced 10-20. Can have longer !cs
+1D--,1H,
+1D--1H--,1N,17+HCP
+1D--1H--1N--,2C,4-7HCP
+1D--1H--,2C,!cs can be longer than !ds
+1D--,1N,Please read chat#12 HCP +. Either balanced or unbalanced with 5+ minor
+1D--1N--,2C,11-13/17+
+1D--1N--2C--,2D,Relay; interested in minor
+1D--1N--2C--2D--,2H,5422; 6322 or 7222 shape
+1D--1N--2C--2D--,2N,11-13/17+hp. 55+ in minors
+1D--1N--2C--2D--,2S,Denies club suit but has a singleton
+1D--1N--2C--2D--2S--2N--,3C,Void somewhere
+1D--1N--2C--2D--2S--2N--,3D,extra !d length
+1D--1N--2C--2D--2S--2N--,3H,
+1D--1N--2C--2D--2S--2N--,3N,Singleton !C
+1D--1N--2C--2D--2S--2N--,3S,
+1D--1N--2C--2D--,3C,11-13/17+hp. 5 clubs; 4 diamonds 
+1D--1N--2C--2D--,3D,11-13/17+hp. 5 diamonds ; 4 clubs
+1D--1N--2C--2D--,3H,11-13/17+hp. 4144
+1D--1N--2C--2D--,3N,11-13hp. 4441
+1D--1N--2C--2D--,3S,11-13/17+hp. 1444
+1D--1N--2C--,2H,
+1D--1N--2C--,2N, 
+1D--1N--2C--,2S,
+1D--1N--,2D,14-16 hp 
+1D--1N--,2H,14-16hp. 5 diamonds; 4 hearts.
+1D--1N--,2N,14-16 hp; 55+ in minors 
+1D--1N--2N--,3C,
+1D--1N--2N--3C--,3D,
+1D--1N--2N--3C--,3H,
+1D--1N--2N--3C--,3N,1156; 1165 shape
+1D--1N--2N--3C--,3S,
+1D--1N--2N--3C--,4C,ORKC
+1D--1N--2N--3C--,4D,ORKC
+1D--1N--2N--,3D,
+1D--1N--,2S, 14-16hp. 5 diamonds; 4 spades.
+1D--1N--,3C,14-16 hp;  5 clubs and 4 diamonds
+1D--1N--,3D,14-16 hp;  5 diamonds and 4 clubs
+1D--1N--,3H,14-16hp. 4144
+1D--1N--,3N,14-16hp. 4441
+1D--1N--,3S,14-16hp. 1444
+1D--,1S,
+1D--1S--,1N,17+HCP
+1D--1S--1N--,2C,4-7 HCP
+1D--,2C,
+1D--,2D,
+1D--,2H,3-7 HCP
+1D--,2N,10-12 HCP
+1D--,2S,3-7 HCP
+1D--,3C,4!d Strong raise
+1D--,3D,
+1D--,3H,
+1D--,3N,12-15HCP
+1D--,3S,
+,1H,11-20; can have a longer minor
+1H--2C--,2D,Minimum Either !d suit or 5332 shape 
+1N,2C,Artificial
+1N2C,Db,Please read chat#9+ HCP Does not promise a rebid. In subsequent auction; One Takeout  Double is available for both; even after a penalty double has been made 
+1N2C--,2H,Preference
+1N2C--2H----,Db,7-9 HCP takeout
+,1N,Please read chat#12-16  May have 54 either way in minors; 6 card minor or 5 card major
+1N,Db,Penalties
+1NDb,Rd,Please read chat#Either escape with 2 or 3 suits; or an invitational hand with M. Hearts invitation is shown by bidding 2NT next time
+1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 11HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1N--2C--2C--,3D,7-10 HCP
+1N--2C--,2D,Please read chat#12-14 No 4 card !hs. If 4 !ss; then 12-13
+1N--2C--2D--,2H,8-11 HCP; can have 4!s
+1N--2C--2D--2H--,2N,14 HCP. Doubleton !h
+1N--2C--2D--2H--,2S,12-13 HCP
+1N--2C--2D--2H--,3C,Please read chat#12-14 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2C--2D--2H--,3D,Please read chat#12-14 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2C--2D--2H--,3H,Please read chat#12-14 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1N--2C--2D--,2N,11 HCP; may have 4!ss in a 4333 shape
+1N--2C--2D--,2S,8-11 HCP
+1N--2C--2D--2S--,2N,14 HCP. Doubleton !h
+1N--2C--2D--2S--,3C,Please read chat#12-14 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2C--2D--2S--,3D,Please read chat#12-14 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2C--2D--2S--,3H,Please read chat#12-14 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2C--2D--2S--,3S,Please read chat#12-14 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1N--2C--2D--2S--,4S,Super maximum 14 HCP
+1N--2C--2D--,3C,7-10 HCP
+1N--2C--2D--3C--,3D,Stopper
+1N--2C--2D--3C--,3H,Stopper
+1N--2C--2D--3C--,3S,Stopper
+1N--2C--2D--,3D,7-10 HCP
+1N--2C--2D--3D--,3H,Stopper
+1N--2C--2D--3D--,3S,Stopper
+1N--2C--2D--,3H,5+ !hs and 4!ss
+1N--2C--2D--3H--,3N,2-3!ss; 2!hs
+1N--2C--2D--3H--,3S,Better than minimum
+1N--2C--2D--3H--,4C,accepts !hs
+1N--2C--2D--3H--,4D,Accepts !hs
+1N--2C--2D--3H--,4H,Minimum
+1N--2C--2D--,3S,5+ !ss and 4!hs
+1N--2C--,2H,12-14 HCP
+1N--2C--2H--,2N,Please read chat#About 11 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1N--2C--2H--,2S,
+1N--2C--2H--2S--,2N,Doubleton !ss 14HCP
+1N--2C--2H--2S--,3C,
+1N--2C--2H--,3C,7-10 HCP
+1N--2C--2H--3C--,3D,Stopper
+1N--2C--2H--3C--,3H,Stopper
+1N--2C--2H--3C--,3S,Stopper
+1N--2C--2H--,3D,7-10 HCP
+1N--2C--2H--3D--,3H,Stopper
+1N--2C--2H--3D--,3S,Stopper
+1N--2C--2H--,3H,
+1N--2C--2H--,3N,3433 shape
+1N--2C--2H--,3S,5422/4522 shape
+1N--2C--2H--3S--,4C,
+1N--2C--2H--3S--,4D,
+1N--2C--2H--3S--,4H,
+1N--2C--2H--3S--,4S,
+1N--2C--2H--,4C,
+1N--2C--2H--4C--,4D,
+1N--2C--2H--4C--,4H,
+1N--2C--2H--4C--,4N,3 aces
+1N--2C--2H--4C--,4S,
+1N--2C--2H--4C--,5C,
+1N--2C--2H--,4D,
+1N--2C--2H--4D--,4H,
+1N--2C--2H--4D--,4N,3 aces
+1N--2C--2H--4D--,4S,
+1N--2C--2H--4D--,5C,
+1N--2C--2H--4D--,5D,
+1N--2C--2H--,4H,
+1N--2C--2H--,4N,RKCB
+1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1N--2C--2H--,5C, Exclusion RKCB
+1N--2C--2H--,5D,Exclusion RKCB
+1N--2C--,2N,15-16 HCP; either both majors or none
+1N--2C--2N--,3C,7-10 HCP
+1N--2C--2N--3C--,3D,Stopper
+1N--2C--2N--3C--,3H,Stopper
+1N--2C--2N--3C--,3S,Stopper
+1N--2C--2N--,3D,7-10 HCP
+1N--2C--2N--3D--,3H,Stopper
+1N--2C--2N--3D--,3S,Stopper
+1N--2C--2N--,3H,
+1N--2C--2N--3H--,3N,Shows doubleton !hs
+1N--2C--2N--3H--,3S,Shows 3 !hs
+1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1N--2C--2N--,3S,
+1N--2C--2N--3S--,3N,Shows doubleton !s!
+1N--2C--2N--3S--,4C, 4-4 in majors
+1N--2C--2N--3S--,4D, 4-4 in majors
+1N--2C--2N--3S--,4H, 4-4 in majors
+1N--2C--2N--3S--,4S,
+1N--2C--,2S,14-16 HCP; denies 4!hs
+1N--2C--2S--,2N,5!hs
+1N--2C--2S--,3C,7-10 HCP
+1N--2C--2S--3C--,3D,Stopper
+1N--2C--2S--3C--,3H,Stopper
+1N--2C--2S--3C--,3S,Stopper
+1N--2C--2S--,3D,7-10 HCP
+1N--2C--2S--3D--,3H,Stopper
+1N--2C--2S--3D--,3S,Stopper
+1N--2C--2S--,3H,
+1N--2C--2S--,3S,
+1N--2C--2S--4D--,4H,
+1N--2C--2S--4D--,4N,3 aces
+1N--2C--2S--4D--,4S,
+1N--2C--2S--4D--,5C,
+1N--2C--2S--,4H,4522 or 5422
+1N--2C--2S--4H--,4S,
+1N--2C--2S--,4N,RKCB
+1N--2C--2S--,4S,
+1N--2C--2S--,5C,Exclusion RKCB
+1N--2C--2S--,5D,Exclusion RKCB
+1N--2C--,3C,Please read chat#15-16 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2C--3C--,3D,
+1N--2C--3C--3D--,3H,#  !cStopper 
+1N--2C--3C--3D--,3S, !sStopper
+1N--2C--3C--3D--,4C,xx in !cs #
+1N--2C--3C--3D--,4D,ORKC
+1N--2C--3C--3D--,4H,xxxx in !hs #
+1N--2C--3C--3D--,4S,# xxx in !ss
+1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1N--2C--3C--,4H,
+1N--2C--3C--,4N,RKCB
+1N--2C--3C--,4S,# Responder knows that opener has 3!ss
+1N--2C--3C--,5C,Exclusion RKCB #
+1N--2C--3C--,5D,Exclusion RKCB #
+1N--2C--,3D,Please read chat#15-16 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1N--2C--3D--,4H,
+1N--2C--3D--,4N,RKCB
+1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1N--2C--3D--,5C,Exclusion RKCB #
+1N--2C--3D--,5D,Exclusion RKCB #
+1N--2C--,3H,Please read chat#15-16 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2C--3H--,3S,Please read chat#Either 5-6 !ss in an invitational hand or strong 5422/4522 shape
+1N--2C--3H--,4H,
+1N--2C--3H--,4N,RKCB
+1N--2C--3H--,5C,Exclusion RKCB
+1N--2C--3H--,5D,Exclusion RKCB
+1N--2C--,3N,15-16 HCP; 3433 shape.
+1N--2C--3N--4C--,4H,
+1N--2C--3N--4D--,4H,
+1N--2C--3N--,4S,
+1N--2C--,3S,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2C--3S--,4C,
+1N--2C--3S--,4H,
+1N--2C--3S--,4S,
+1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 10-11 HCP. 3) 4 !hs; 10 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 14-16 HCP. 7) GF; 5!hs w/o slam interest.
+1N--2D--,2H,Denies 15-16 HCP AND 4!hs
+1N--2D--2H--,2N,4!hs; denies 4!ss. About 10HCP
+1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1N--2D--2H--3C--,3D,Reinvit
+1N--2D--2H--3C--3D--,3H,Minimum
+1N--2D--2H--,3D,5-5 in !hs and !ds. Strong invitation
+1N--2D--2H--3D--,3S,#shows xx(xx) in !ss 
+1N--2D--2H--3D--,4C,#shows xx(xx) in !cs
+1N--2D--2H--3D--,4D,
+1N--2D--2H--,3H,
+1N--2D--2H--,3N,5!hs. No Slam ambition
+1N--2D--2H--,3S,
+1N--2D--2H--,4C,
+1N--2D--2H--,4D,
+1N--2D--2H--,4H,Mild slamtry without a singleton
+1N--2D--2H--,4N,RKCB
+1N--2D--2H--,4S,Exclusion RKCB
+1N--2D--2H--,5C,Exclusion RKCB
+1N--2D--2H--,5D,Exclusion RKCB
+1N--2D--,2N,15-16 HCP; 3433 shape
+1N--2D--2N--,3C,
+1N--2D--2N--,3D,
+1N--2D--2N--3D--,3H,Forced
+1N--2D--2N--3D--3H--,3S,King or Ace
+1N--2D--2N--3D--3H--,4C,King or Ace
+1N--2D--2N--3D--3H--,4D,King or Ace
+1N--2D--2N--3D--3H--,4H,Mild slam try
+1N--2D--2N--3D--3H--,4N,RKCB
+1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1N--2D--2N--3N--,4C,Presumably without !hqueen
+1N--2D--2N--3N--,4D,Presumably without !hqueen
+1N--2D--2N--,3S,
+1N--2D--2N--,4C,
+1N--2D--2N--,4D,
+1N--2D--2N--,4H,
+1N--2D--2N--,4N,RKCB
+1N--2D--2N--,4S,Exclusion RKCB
+1N--2D--2N--,5C,Exclusion RKCB
+1N--2D--2N--,5D,Exclusion RKCB
+1N--2D--,2S,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1N--2D--2S--2N--,3H,
+1N--2D--2S--,3C,
+1N--2D--2S--,3D,
+1N--2D--2S--3D--,3H,Forced
+1N--2D--2S--3D--3H--,3S,King or Ace
+1N--2D--2S--3D--3H--,4C,King or Ace
+1N--2D--2S--3D--3H--,4D,King or Ace. Mild slam try
+1N--2D--2S--3D--3H--,4N,RKCB
+1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1N--2D--2S--,3H,
+1N--2D--2S--,3N,# Please cuebid without !hqueen 
+1N--2D--2S--3N--,4C,Presumably without !hqueen
+1N--2D--2S--3N--,4D,Presumably without !hqueen
+1N--2D--2S--,3S,
+1N--2D--2S--,4C,
+1N--2D--2S--,4D,
+1N--2D--2S--,4H,
+1N--2D--2S--,4N,RKCB
+1N--2D--2S--,4S,Exclusion RKCB
+1N--2D--2S--,5C,Exclusion RKCB
+1N--2D--2S--,5D,Exclusion RKCB
+1N--2D--,3C,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2D--3C--,3D,
+1N--2D--3C--3D--,3H,Forced
+1N--2D--3C--3D--3H--,3S,King or Ace
+1N--2D--3C--3D--3H--,4C,King or Ace
+1N--2D--3C--3D--3H--,4D,King or Ace
+1N--2D--3C--3D--3H--,4H,
+1N--2D--3C--3D--3H--,4N,RKCB
+1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1N--2D--3C--3N--,4C,Presumably without !hqueen
+1N--2D--3C--3N--,4D,Presumably without !hqueen
+1N--2D--3C--,3S,
+1N--2D--3C--,4C,
+1N--2D--3C--,4D,#
+1N--2D--3C--,4H,
+1N--2D--3C--,4N,RKCB
+1N--2D--3C--,4S,Exclusion RKCB
+1N--2D--3C--,5C,Exclusion RKCB
+1N--2D--3C--,5D,Exclusion RKCB
+1N--2D--,3D,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1N--2D--3D--3N--,4C,Presumably without !hqueen
+1N--2D--3D--3N--,4D,Presumably without !hqueen
+1N--2D--3D--,3S,
+1N--2D--3D--,4C,
+1N--2D--3D--,4D,
+1N--2D--3D--,4H,
+1N--2D--3D--,4N,RKCB
+1N--2D--3D--,4S,Exclusion RKCB
+1N--2D--3D--,5C,Exclusion RKCB
+1N--2D--3D--,5D,Exclusion RKCB
+1N--2D--,3H,Please read chat#15-16 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1N--2D--3H--3N--,4C,Presumably without !hqueen
+1N--2D--3H--3N--,4D,Presumably without !hqueen
+1N--2D--3H--,3S,
+1N--2D--3H--,4C,
+1N--2D--3H--,4D,
+1N--2D--3H--,4H,
+1N--2D--3H--,4N,RKCB
+1N--2D--3H--,4S,Exclusion RKCB
+1N--2D--3H--,5C,Exclusion RKCB
+1N--2D--3H--,5D,Exclusion RKCB
+1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 10-11 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 14-16 HCP. 6) GF; 5!ss w/o slam interest.
+1N--2H--,2N,15-16 HCP; 4333 shape
+1N--2H--2N--,3C,
+1N--2H--2N--,3D,
+1N--2H--2N--,3H,
+1N--2H--2N--3H--,3S,
+1N--2H--2N--3H--3S--,4C,Denies splinter
+1N--2H--2N--3H--3S--,4D,Denies splinter
+1N--2H--2N--3H--3S--,4H,Denies splinter
+1N--2H--2N--3H--3S--,4S,
+1N--2H--2N--,3N,Please read chat## Asks opener to cuebid WITHOUT !s queen 
+1N--2H--2N--,3S,Please read chat## Asks opener to bid 4!s WITHOUT !s Queen 
+1N--2H--2N--,4C,
+1N--2H--2N--,4D,
+1N--2H--2N--,4H,
+1N--2H--2N--,4N,RKCB
+1N--2H--2N--,4S,
+1N--2H--2N--,5C,Exclusion RKCB
+1N--2H--2N--,5D,Exclusion RKCB
+1N--2H--,2S,Denies 15-16 HCP AND 4!s
+1N--2H--2S--,2N,4 !ss; 10-11 HCP
+1N--2H--2S--,3C,5!ss and 5+!cs
+1N--2H--2S--,3D,5!ss and 5+!ds
+1N--2H--2S--,3H,5+!ss and 5+!hss
+1N--2H--2S--3H--,3S,
+1N--2H--2S--,3N,5!ss
+1N--2H--2S--,3S,
+1N--2H--,3C,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2H--3C--,3D,
+1N--2H--3C--,3H,
+1N--2H--3C--3H--,3S,
+1N--2H--3C--3H--3S--,4C,Denies splinter
+1N--2H--3C--3H--3S--,4D,Denies splinter
+1N--2H--3C--3H--3S--,4H,Denies splinter
+1N--2H--3C--,3N,Please read chat## Asks opener to cuebid WITHOUT !s queen 
+1N--2H--3C--,3S,Please read chat## Asks opener to bid 4!s WITHOUT !s Queen 
+1N--2H--3C--,4C,
+1N--2H--3C--,4D,
+1N--2H--3C--,4H,
+1N--2H--3C--,4N,RKCB
+1N--2H--3C--,4S,
+1N--2H--3C--,5C,Exclusion RKCB
+1N--2H--3C--,5D,Exclusion RKCB
+1N--2H--,3D,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2H--3D--,3H,
+1N--2H--3D--3H--,3S,
+1N--2H--3D--3H--3S--,4C,Denies splinter
+1N--2H--3D--3H--3S--,4D,Denies splinter
+1N--2H--3D--3H--3S--,4H,Denies splinter
+1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1N--2H--3D--,4C,
+1N--2H--3D--,4D,
+1N--2H--3D--,4H,
+1N--2H--3D--,4N,RKCB
+1N--2H--3D--,4S,
+1N--2H--3D--,5C,Exclusion RKCB
+1N--2H--3D--,5D,Exclusion RKCB
+1N--2H--,3H,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3H--,3S,
+1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4N,RKCB
+1N--2H--3H--,4S,
+1N--2H--3H--,5C,Exclusion RKCB
+1N--2H--3H--,5D,Exclusion RKCB
+1N--2H--,3S,Please read chat#15-16 HCP. Denies a doubleton of xx; Kx or Ax. 
+1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4N,RKCB
+1N--2H--3S--,4S,
+1N--2H--3S--,5C,Exclusion RKCB
+1N--2H--3S--,5D,Exclusion RKCB
+1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 14-16 HCP). 4) Strong slam try in !c;  (addressed to 12-14 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1N--2N--,3C,Please read chat#All hands except 15-16 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1N--2N--3C--,3D,At least 5 !cs and 5 !ds
+1N--2N--3C--,3N,Mild slamtry in !cs
+1N--2N--3C--,4C,Strong slam try in !cs
+1N--2N--3C--4C--,4D,
+1N--2N--3C--4C--,4H,
+1N--2N--3C--4C--,4S,
+1N--2N--3C--4C--,5C,
+1N--2N--3C--,4D,
+1N--2N--3C--,4H,
+1N--2N--3C--,4N,RKCB
+1N--2N--3C--,4S,
+1N--2N--3C--,5C,
+1N--2N--3C--,5D,Exclusion RKCB
+1N--2N--3C--,5H,Exclusion RKCB
+1N--2N--3C--,5S,Exclusion RKCB
+1N--2N--,3D,Please read chat#15-16 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2N--,3H,Please read chat#15-16 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1N--2N--,3S,Please read chat#15-16 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 10 HCP indtending to pass 2NT. Can have 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam  interested. #6) card minor + 4 card major; slam  interested. 2007-09-10
+1N--2S--,2N,12-14 HCP
+1N--2S--2N--,3C,
+1N--2S--2N--3C--,3D,
+1N--2S--2N--3C--3D--,3H,
+1N--2S--2N--3C--3D--,3S,
+1N--2S--2N--3C--3D--,4C,
+1N--2S--2N--3C--3D--,4D,
+1N--2S--2N--3C--3D--,4H,
+1N--2S--2N--3C--3D--,4N,RKCB
+1N--2S--2N--3C--3D--,4S,
+1N--2S--2N--3C--,3H,
+1N--2S--2N--3C--3H--,3S,
+1N--2S--2N--3C--3H--3S--,4C,Accepts spades
+1N--2S--2N--3C--3H--3S--,4D,Accepts spades
+1N--2S--2N--3C--3H--3S--,4H,Accepts spades; denies minor cuebid
+1N--2S--2N--3C--3H--3S--,4S,
+1N--2S--2N--3C--3H--,4C,
+1N--2S--2N--3C--3H--,4D,
+1N--2S--2N--3C--3H--,4H,
+1N--2S--2N--3C--3H--,4N,RKCB
+1N--2S--2N--3C--3H--,4S,
+1N--2S--2N--3C--,3N,3334 shape
+1N--2S--2N--3C--,3S,
+1N--2S--2N--3C--3S--,4C,
+1N--2S--2N--3C--3S--,4D,
+1N--2S--2N--3C--3S--,4H,
+1N--2S--2N--3C--3S--,4S,
+1N--2S--2N--3C--3S--,5C,
+1N--2S--2N--3C--,4C,Denies a doubleton of xx; Kx or Ax. 
+1N--2S--2N--3C--,4D,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--3C--,4H,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--3C--,4S,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--,3D,
+1N--2S--2N--3D--,3H,
+1N--2S--2N--3D--3H--,4D,
+1N--2S--2N--3D--3H--4D--,4H,
+1N--2S--2N--3D--3H--4D--,4S,
+1N--2S--2N--3D--3H--4D--,5C,
+1N--2S--2N--3D--,3N,Denies !ds; !hs or !ss
+1N--2S--2N--3D--,3S,
+1N--2S--2N--3D--,4C,Please read chat##Accepts diamonds. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count) 2007-09-10
+1N--2S--2N--3D--,4D,
+1N--2S--2N--3D--,4H,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--3D--,4S,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--,3H,Please read chat#Need not be slam interested (Could have hoped for a 15-16 count)
+1N--2S--2N--3H--,3N,Denies a major
+1N--2S--2N--3H--,3S,
+1N--2S--2N--3H--,4C,Please read chat#Accepts !hs. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--3H--,4D,Please read chat#Accepts !hs. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--2S--2N--3H--,4H,
+1N--2S--2N--,3N,Please read chat#Mild slam try with minors (was hoping for a 15-16 count)
+1N--2S--2N--,3S,Please read chat#Need not be slam interested (Could have hoped for a 15-16 count)
+1N--2S--2N--3S--,4C,Please read chat## Accepts !ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count). 2007-09-10
+1N--2S--2N--3S--,4D,Please read chat## Accepts !ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count). 2007-09-10
+1N--2S--2N--3S--,4H,Please read chat## Accepts !ss. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count). 2007-09-10
+1N--2S--2N--3S--,4S,
+1N--2S--2N--,4C,5332 shape
+1N--2S--2N--,4D,5332 shape
+1N--2S--2N--,4H,Please read chat#6!hs and a 4 card minor. Was hoping for a maximum
+1N--2S--2N--,4S,Please read chat#6!ss and a 4 card minor. Was hoping for a maximum
+1N--2S--,3C,Please read chat#15-16 HCP.# Usually another 4 card suit or 5 card !cs since 3NT rebid is available to show 3334.
+1N--2S--3C--,3D,
+1N--2S--3C--,3H,
+1N--2S--3C--,3N,About 10 HCP
+1N--2S--3C--,3S,
+1N--2S--3C--,4C,Can still have a 6 card major 
+1N--2S--3C--4C--,4N,#?
+1N--2S--3C--,4D,
+1N--2S--3C--,4H,
+1N--2S--3C--,4N,RKCB
+1N--2S--3C--,4S,
+1N--2S--,3D,15-16 HCP; denies 4!cs
+1N--2S--3D--,3H,If 6 !hs; then 4!cs
+1N--2S--3D--3H--,3S,
+1N--2S--3D--3H--,4C,Please read chat## 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2S--3D--3H--,4D,
+1N--2S--3D--3H--,4H,
+1N--2S--3D--,3S,If 6 !ss; then 4!cs
+1N--2S--3D--3S--,4C,Please read chat##4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2S--3D--3S--,4D,
+1N--2S--3D--3S--,4H,Please read chat#4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--2S--3D--3S--,4S,
+1N--2S--,3H,15-16 HCP; denies 4!c or 4!ds
+1N--2S--3H--,3N,About 10 HCP
+1N--2S--3H--,3S,
+1N--2S--3H--,4C,
+1N--2S--3H--,4D,
+1N--2S--3H--,4H,#Slamtry 
+1N--2S--3H--,4N,RKCB
+1N--2S--3H--,4S,
+1N--2S--3H--,5C,
+1N--2S--3H--,5D,
+1N--2S--3H--,5H,Denies a splinter
+1N--2S--,3N,3334 shape 15-16 HCP
+1N--2S--3N--,4C,
+1N--2S--3N--4C--,4D,
+1N--2S--3N--4C--,4N,# 2007-09-10
+1N--2S--3N--,4D,
+1N--2S--3N--,4H,6!hs and 4 !cs
+1N--2S--3N--,4N,RKCB with !cs
+1N--2S--3N--,4S,6!ss and 4 !cs
+1N--2S--,3S,15-16 HCP; denies 4!c; 4!d or 4!hs
+1N--2S--3S--,3N,Please read chat#Either about 10 HCP or was stretching for a slam of minorfit
+1N--2S--3S--,4C,
+1N--2S--3S--,4D,
+1N--2S--3S--,4H,6!hs and a 4 card minor
+1N--2S--3S--,4N,RKCB
+1N--2S--3S--,4S,# was TP 2007-09-10
+1N--2S--3S--,5C,
+1N--2S--3S--,5D,
+1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!ds and major. 3)Mild slam try in !ds (addressed to 14-16 HCP). 4) Strong slam try in !ds;  (addressed to 12-14 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1N--3C--,3D,Please read chat#All hands except 15-16 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1N--3C--3D--,3H,55+ in !cs and !hs
+1N--3C--3D--,3N,Mild slam try in !ds
+1N--3C--3D--,4C,
+1N--3C--3D--,4D,Strong slam try
+1N--3C--3D--,4H,
+1N--3C--3D--,4N,RKCB
+1N--3C--3D--,4S,
+1N--3C--3D--,5C,Exclusion RKCB
+1N--3C--3D--,5D,
+1N--3C--3D--,5H,Exclusion RKCB
+1N--3C--3D--,5S,Exclusion RKCB
+1N--3C--,3H,Please read chat#15-16 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1N--3C--,3S,Please read chat#15-16 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3C--,4C,Please read chat#All hands except 15-16 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1N--3D--,3H,12-14 HCP
+1N--3D--3H--3N--,4C,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3D--3H--3N--,4D,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3D--3H--3N--,4H,
+1N--3D--3H--3N--,4N,14HCP
+1N--3D--3H--3N--,4S,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3D--3H--,3S,Please read chat## General slamtry; denies splinter 2007-08-26 
+1N--3D--3H--3S--,3N,Doubleton !h or possibly 3433 shape
+1N--3D--3H--3S--,4C,Please read chat#4!hs The doubleton is xx; Kx or Ax. (might be a quack in a 14 count
+1N--3D--3H--3S--,4D,Please read chat#4 !hs The doubleton is xx; Kx or Ax. (might be a quack in a 14 count
+1N--3D--3H--3S--,4H,
+1N--3D--3H--3S--,4N,14 HCP. May have a 3433 shape
+1N--3D--3H--3S--,4S,Please read chat#4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 14 count
+1N--3D--3H--,4C,
+1N--3D--3H--4C--,4D,Please read chat#General slam try in !hs. Does not say anything about !ds. Economical#
+1N--3D--3H--4C--,4H,
+1N--3D--3H--4C--,4S,Please read chat#General slam try in !cs. Does not say anything about !ds. Economical#
+1N--3D--3H--4C--,5C,
+1N--3D--3H--,4D,
+1N--3D--3H--4D--,4H,
+1N--3D--3H--4D--,4S,Please read chat#General slam try in !ds. Does not say anything about !ss. Economical#
+1N--3D--3H--4D--,5C,Please read chat#General slam try in !hs. Does not say anything about !cs. Economical#
+1N--3D--3H--4D--,5D,
+1N--3D--3H--,4H,Strong slam try
+1N--3D--3H--,4N,RKCB
+1N--3D--3H--,4S,Exclusion RKCB
+1N--3D--3H--,5C,Exclusion RKCB
+1N--3D--3H--,5D,Exclusion RKCB
+1N--3D--3H--,5H,Pls bid 6 with 2 of 3 top !hs
+1N--3D--,3N,15-16 HCP; doubleton !h.
+1N--3D--3N--,4C,
+1N--3D--3N--4C--,4D,Please read chat## 4-5 !cs. Good fit against !d singleton 
+1N--3D--3N--4C--,4H,
+1N--3D--3N--4C--,4N,2!hs;3!cs
+1N--3D--3N--4C--,4S,Please read chat## 4-5 !cs. Good fit against !s singleton
+1N--3D--3N--4C--,5C,# Values in !ds and !ss
+1N--3D--3N--,4D,
+1N--3D--3N--4D--,4H,
+1N--3D--3N--4D--,4N,2 !hs and 3 !ds
+1N--3D--3N--4D--,4S,# Good fit against !s singleton
+1N--3D--3N--4D--,5C,# # Good fit against !c singleton
+1N--3D--3N--4D--,5D,# Values in !cs and !ss
+1N--3D--3N--,4N,RKCB
+1N--3D--3N--,4S,EXCLUSION RKCB
+1N--3D--3N--,5C,EXCLUSION RKCB
+1N--3D--3N--,5D,EXCLUSION RKCB
+1N--3D--3N--,5H,Please raise with !hAce; King or Queen
+1N--3D--,3S,Please read chat#15-16 HCP; 3-4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3D--3S--3N--,4C,4!hs
+1N--3D--3S--3N--,4D,4!hs
+1N--3D--3S--3N--,4H,
+1N--3D--3S--,4C,
+1N--3D--3S--4C--,4D,4!hs
+1N--3D--3S--4C--,4H,
+1N--3D--3S--4C--,4N,# 4!cs. At least 3 of 6 aces
+1N--3D--3S--4C--,4S,4!hs
+1N--3D--3S--4C--,5C,# Denies 3 of 6 aces
+1N--3D--3S--,4D,
+1N--3D--3S--4D--,4H,
+1N--3D--3S--4D--,4N,# 4 !ds. At least 3 of 6 aces
+1N--3D--3S--4D--,4S,# Shows 4!hs
+1N--3D--3S--4D--,5C,# Shows 4!hs
+1N--3D--3S--,4H,Please read chat#Minimum and spade waste. Opener can invite with maximum and 4!hs by bidding a 3 card suit without the queen.
+1N--3D--3S--,4N,RKCB
+1N--3D--3S--,4S,EXCLUSION RKCB
+1N--3D--3S--,5C,EXCLUSION RKCB
+1N--3D--3S--,5D,EXCLUSION RKCB
+1N--3D--3S--,5H,!h quality is a concern
+1N--3D--,4C,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3D--4C--,4D,
+1N--3D--4C--4D--,4H,Hand does not improve opposite 4!ds 
+1N--3D--4C--4D--,4N,# 4!ds. At least 3 of 6 aces
+1N--3D--4C--4D--,4S,Good fit against !s singleton 
+1N--3D--4C--4D--,5C,# xx in !cs
+1N--3D--4C--4D--,5D,# Values in !cs and !ss
+1N--3D--4C--4D--,5H,Maximum
+1N--3D--4C--,4H,Please read chat#!c waste. Opener can invite with maximum and 4!hs by bidding a 3 card suit without the queen.
+1N--3D--4C--,4N,RKCB
+1N--3D--4C--,4S,
+1N--3D--4C--,5C,
+1N--3D--4C--,5D,
+1N--3D--4C--,5H,Concerned about !h quality
+1N--3D--,4D,Please read chat#15-16 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3D--4D--,4N,RKCB
+1N--3D--4D--,4S,Please read chat#!d waste. Opener can invite with maximum and 4!hs by bidding a 3 card suit without the queen.
+1N--3D--4D--,5C,
+1N--3D--4D--,5D,
+1N--3D--4D--,5H,Concerned about !h quality
+1N--3D--,4H,Please read chat#15-16 HCP. If 4 !hs; then denies a doubleton of xx; Kx or Ax. 
+1N--3D--4H--,4N,RKCB
+1N--3D--4H--,4S,
+1N--3D--4H--,5C,
+1N--3D--4H--,5D,
+1N--3D--4H--,5H,Concerned about !h quality
+1N--3H--,3N,15-16 HCP; doubleton !s
+1N--3H--3N--,4C,
+1N--3H--3N--4C--,4D,Please read chat#Accepts clubs. No waste against !d singleton
+1N--3H--3N--4C--,4H,Please read chat#Accepts clubs. No waste against !h singleton
+1N--3H--3N--4C--,4S,The doubleton is xx; Kx or Ax
+1N--3H--3N--4C--,5C,
+1N--3H--3N--,4D,
+1N--3H--3N--4D--,4H,Please read chat#Accepts !ds. Good fit against !h singleton 
+1N--3H--3N--4D--,4S,xx; Kx or Ax
+1N--3H--3N--4D--,5C,Please read chat#Accepts !ds. Good fit against !c singleton
+1N--3H--3N--4D--,5D,
+1N--3H--3N--,4H,Please read chat#General slam try w/o splinter. Says nothing about !hs
+1N--3H--3N--,4N,RKCB
+1N--3H--3N--,4S,Opener can pass with xx. 
+1N--3H--3N--,5C,Exclusion RKCB
+1N--3H--3N--,5D,Exclusion RKCB
+1N--3H--3N--,5H,Exclusion RKCB
+1N--3H--3N--,5S,Bid 6 with 2 top honours
+1N--3H--,3S,12-14 HCP
+1N--3H--3S--3N--,4C,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3H--3S--3N--,4D,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3H--3S--3N--,4H,Please read chat#The doubleton is xx; Kx or Ax. (might be a quack in a 14 count)
+1N--3H--3S--3N--,4S,
+1N--3H--3S--,4C,
+1N--3H--3S--4C--,4D,Please read chat#General slam try in !ss. Does not say anything about !fs. Economical#
+1N--3H--3S--4C--,4H,Please read chat#General slam try in !cs. Does not say anything about !hs. Economical#
+1N--3H--3S--4C--,4S,
+1N--3H--3S--4C--,5C,
+1N--3H--3S--,4H,Please read chat#General slamtry; denies splinter 2007-08-26 #
+1N--3H--3S--,4N,RKCB
+1N--3H--3S--,4S,Strong slam try
+1N--3H--3S--,5C,#Exclusion RKCB 2007-09-21
+1N--3H--3S--,5D,#Exclusion RKCB 2007-09-21
+1N--3H--3S--,5H,#Exclusion RKCB 2007-09-21
+1N--3H--3S--,5S,Pls bid 6 with 2 of 3 top !s honours
+1N--3H--,4C,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3H--4C--,4D,
+1N--3H--4C--4D--,4H,Good fit against !h singleton 
+1N--3H--4C--4D--,4N,# 4!ds. At least 3 of 6 aces
+1N--3H--4C--4D--,4S,Hand does not improve opposite 4!ds 
+1N--3H--4C--4D--,5C,# xx in !cs
+1N--3H--4C--4D--,5D,# Values in !cs and !hs
+1N--3H--4C--4D--,5S,Maximum
+1N--3H--4C--,4H,
+1N--3H--4C--,4N,RKCB
+1N--3H--4C--,4S,
+1N--3H--4C--,5C,
+1N--3H--4C--,5D,
+1N--3H--4C--,5H,Concerned about !s quality
+1N--3H--,4D,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3H--4D--,4H,
+1N--3H--4D--,4N,RKCB
+1N--3H--4D--,4S,Please read chat#Hand does not improve opposite the 4!d bid 
+1N--3H--4D--,5C,
+1N--3H--4D--,5D,
+1N--3H--4D--,5H,#Exclusion RKCB
+1N--3H--,4H,Please read chat#15-16 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 16 count)
+1N--3H--4H--,4N,RKCB
+1N--3H--4H--,4S,
+1N--3H--4H--4S--,5C,Denies the queen in this suit
+1N--3H--4H--4S--,5D,Denies the queen in this suit
+1N--3H--4H--,5C,
+1N--3H--4H--,5D,
+1N--3H--4H--,5H,
+1N--3H--4H--,5S,Bid 6 with 2 top honours
+1N--3H--,4S,Please read chat#15-16 HCP. If 4 !ss; then denies a doubleton of xx; Kx or Ax.
+1N--3H--4S--,4N,RKCB
+1N--3H--4S--,5C,
+1N--3H--4S--,5D,
+1N--3H--4S--,5H,
+1N--3H--4S--,5S,Concerned about !s quality
+1N--,3S,55+ M GF
+1N--3S--,3N,negative against major
+1N--3S--3N--,4C,5 losers or less
+1N--3S--3N--4C--,4D,Please read chat# # 55 asking bid with 5 losers as offset.
+1N--3S--3N--4C--,4H,
+1N--3S--3N--4C--,4S,
+1N--3S--3N--,4D,#5 losers or less
+1N--3S--3N--,4H,
+1N--3S--3N--,4N,RKCB with 6 aces
+1N--3S--3N--,4S,
+1N--3S--3N--,5C,Exclusion RKCB with 6 aces
+1N--3S--3N--,5D,Exclusion RKCB with 6 aces
+1N--3S--,4C,#55 offset 5 losers
+1N--3S--,4D,#55 offset 5 losers
+1N--3S--,4H,Preference
+1N--3S--,4N,RKCB with 6 aces
+1N--3S--,4S,Preference
+1N--,4C,Transfer to 4!hs
+1N--4C--,4D,15-16 HCP and a good hand
+1N--4C--,4H,15-16 HCP and a good hand
+1N--,4D,Transfer to 4!ss
+1N--,4H,
+1N--,4N,Please read chat#All 4333 shapes. Accept with good 15 or any 16 and respond with aces
+1N--,4S,
+Option,Opening @3@4
+,1C,Please read chat#1. 10+HCP; 4+ !cs unbalanced. 2. Balanced  11-15 (not 44 in majors) or  23-24 or 28-30. 3. 20+ unbalanced
+1C--,1D,Please read chat#Most common reply. Denies 5+ card major 4-10 HCP. Denies 5 card+ !cs without a major 7-11 HCP.  Denies  6+ minor 4-7 without a major 4-7 HCP Denies 10-12 HCP balanced without 4 card major.
+1C--1D--,1H,!cs and !hs or various strong hands
+1C--1D--1H--,1N,5-9 HCP; denies 4 card !h
+1C--1D--1H--,1S,Please read chat#0-3 HCP or 4 HCP if no 5 card major or 6 card minor 
+1C--1D--1H--,2C,5-9 HCP
+1C--1D--1H--,2D,8-10 HCP
+1C--1D--1H--2D--,2H,5-6!hs and a minor. About 21 HCP
+1C--1D--,1N,Please read chat#13-15 HCP; no 4 card major. Can have 2245 shape
+1C--1D--1N--,2C,8-10 HCP
+1C--1D--1N--,2D,8-10 HCP
+1C--1D--1N--,2H,Please read chat#Shows stopper in an unbalanced minor 8-10 HCP
+1C--1D--1N--,2N,About 11 HCP
+1C--1D--1N--,2S,Please read chat#Shows stopper in an unbalanced minor 8-10 HCP
+1C--1D--1N--,3C,At least 4-5 in minors 8-10 HCP
+1C--1D--1N--,3D,10 HCP
+1C--1D--,1S,+!cs and !ss or balanced with !s
+1C--1D--,2C,Unbalanced
+1C--,1H,Please read chat#Often; responder will have opened with 2!c or 2!h with a 2 suiter
+1C--1H--,1N,17+HCP 
+1C--1H--1N--,2C,4-7 HCP
+1C--1H--1N--2C--,2D,Ask about distribution and points
+1C--1H--1N--2C--2D--,2H,4-5 HCP
+1C--1H--1N--2C--2D--2H--,3C,
+1C--1H--1N--2C--2D--2H--,3H,
+1C--1H--1N--2C--2D--,2N,6-7 HCP
+1C--1H--1N--2C--2D--,2S,6-7 HCP
+1C--1H--1N--2C--2D--,3C,4-5 HCP
+1C--1H--1N--2C--2D--,3D,4-5 HCP
+1C--1H--1N--2C--,3C,
+1C--1H--1N--2C--,3H,Slamtry with !cs and !hs
+1C--1H--1N--,2D,8-11 HCP
+1C--1H--1N--,2H,8-11 HCP; 5!h 
+1C--1H--1N--,2N,10 HCP; 5332 distribution
+1C--1H--1N--,2S,8-11 HCP; 5!hs 4!ss
+1C--1H--1N--,3C,7+ HCP
+1C--1H--1N--,3D,3-7 HCP
+1C--1H--,1S,
+1C--1H--1S--,2D,
+1C--,1N,10-11 Balanced; no major
+1C--1N--,2C,Non-forcing; unbalanced
+1C--1N--,2D,Please read chat#Asks for a 5 card minor or a good 3 card major. Gameforcing  
+1C--1N--2D--,2H,
+1C--1N--2D--,2S,
+1C--1N--2D--,3C,
+1C--1N--2D--,3D,
+1C--1N--,2H,Please read chat#Maybe an unbalanced hand with !c and !h suit or stopper looking for a game or gameforce with !h 
+1C--1N--,2S,Please read chat#Maybe an unbalanced hand with !c and !s or !s stopper  looking for a game or gameforce with !s
+1C--1N--2S--,2N,Denies 3 spades
+1C--1N--2S--,3C,5!cs 
+1C--,1S,Please read chat#Often; responder will have opened with 2!c or 2!h with a 2 suiter
+1C--1S--1N--,2C,4-7 HCP; denies 5 card side suit
+1C--1S--1N--2C--,2D,Ask about distribution and points
+1C--1S--1N--2C--2D--,2H,4-5 Hcp
+1C--1S--1N--2C--2D--,2N,6-7
+1C--1S--1N--2C--2D--,2S,4-5
+1C--1S--1N--2C--2D--,3C,6-7 HCP
+1C--1S--1N--2C--2D--,3D,6-7 HCP
+1C--1S--1N--2C--2D--,3H,6-7 HCP
+1C--1S--1N--,2D,8-11 HCP; denies 4!hs
+1C--1S--1N--,2H,8-10 HCP
+1C--1S--1N--,2N,#8-11 HCP 5332 shape
+1C--1S--1N--,2S,#8-10 HCP 5!ss
+1C--1S--1N--,3C,4-7 HCP
+1C--1S--1N--,3D,4-7 HCP
+1C--1S--1N--,3H,4-7 HCP
+1C--,2C,7-11 HCP; can have !ds also
+1C--,2D,3-6 HCP
+1C--,2H,3-6 HCP
+1C--,2N,12 HCP
+1C--,2S,3-6 HCP
+1C--,3C,4-6 HCP
+,1D,Please read chat#10-20 HCP; can have longer clubs. If balanced; must have either 4 spades or at least 33 in majors 11-15 HCP
+1D--,1H,
+1D--1H--,1N,17+ HCP
+1D--1H--,1S,
+1D--1H--1S--,2C,
+1D--1H--,2C,11-16 HCP; !d can be shorter
+1D--1H--,2H,Please read chat#Could have only 3 !hs in an unbalanced hand or in a 14-15 balanced.
+1D--,1S,
+1D--1S--,1N,17+ HCP
+1D--1S--1N--,2C,4-7 HCP
+1D--1S--,2S,Please read chat#Could have only 3 !ss in an unbalanced hand or in a 14-15 balanced.
+1D--,2C,
+1D--,2D,
+1D--,2H,
+1D--,2N,11-12 HCP
+1D--,2S,
+1D--,3C,Please read chat#Good raise to 3 !ds; At least 5 card !ds
+1D--,3D,
+,1H,Please read chat#11-20 HCP Could be 4-card suit if 44 majors and 11-15 balanced or 4414 shape. Can have a longer minor
+1H--,1N, 6-10 HCP; can have 3!hs
+1H--1N--,2C, Either 4+ !cs or a good hand
+1H--1N--2C--,2D, 
+1H--1N--2C--2D--,2H,
+1H--1N--,--,1 4 !hs and 11-15 HCP
+1H--,1S,
+1H--1S--,1N,17+ HCP
+1H--1S--1N--,2C,4-7 HCP
+1H--1S--,2C,11-16 HCP
+1H--1S--2C--,2D,
+1H--1S--,2D,11-16 HCP
+1H--1S--2D--,3C,
+1H--,2C,Toronto
+1H--2C--,2D,Please read chat#11-16 HCP. Balanced; semi-balanced or !ds
+1H--2C--2D--,2H,
+1H--2C--2D--2H--,2N,Shows exactly 4 !hs; 13-16HCP
+1H--2C--,2H,
+1H--2C--,2N,16+ HCP
+1H--2C--,2S,Hand not suitable to bid NT
+1H--,2D,
+1H--2D--,2N, 15-16HCP
+1H--2D--,2S,
+1H--,2H,4-9 HCP
+1H--,2N,11-12 HCP
+1H--,2S,
+1H--,3C,Splinter 
+1H--,3D,Splinter 
+1N2C,Db,Negative
+,1N,Please read chat#16-20 May have 54 either way in minors; 6 card minor or 5 card major
+1N--,2C,Please read chat#Invitational or GF. 1) invitation 5 card major. \\2) invitation  6 card minor \\3) 7HCP balanced; seldom 4 !ss. \\4) Invitational+  4-5/5-4 in major. \\5) GF  4 !hw7o slam interest.\\
+1N--2C--2C--,3D,7-10 HCP
+1N--2C--,2D,Please read chat#16-18 No 4 card !hs. If 4 !ss; then 16-17
+1N--2C--2D--,2H,
+1N--2C--2D--2H--,2N,About 18 HCP. Doubleton !h
+1N--2C--2D--2H--,2S,16-17 HCP
+1N--2C--2D--2H--,3C,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1N--2C--2D--2H--,3D,Please read chat#16-18 HCP; 3!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1N--2C--2D--2H--,3H,Please read chat#16-18 HCP; 3!hs. Denies a minor doubleton of xx; Kx or Ax.
+1N--2C--2D--2H--,4H,Super maximum 14 HCP
+1N--2C--2D--,2N,7-8 HCP; may have 4!ss in a 4333 shape
+1N--2C--2D--,2S,
+1N--2C--2D--2S--,2N,About 18 HCP. Doubleton !s
+1N--2C--2D--2S--,3C,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1N--2C--2D--2S--,3D,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1N--2C--2D--2S--,3H,Please read chat#16-18 HCP; 3!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 18 count)
+1N--2C--2D--2S--,3S,Please read chat#16-18 HCP; 3!ss. Denies a doubleton of xx; Kx or Ax.
+1N--2C--2D--2S--,4S,Super maximum 18 HCP
+1N--2C--2D--,3C,3-6 HCP
+1N--2C--2D--3C--,3D,Stopper
+1N--2C--2D--3C--,3H,Stopper
+1N--2C--2D--3C--,3S,Stopper
+1N--2C--2D--,3D,3-6 HCP
+1N--2C--2D--3D--,3H,Stopper
+1N--2C--2D--3D--,3S,Stopper
+1N--2C--2D--,3H,5+ !hs and 4!ss
+1N--2C--2D--,3S,5+ !ss and 4!hs
+1N--2C--,2H,16-18 HCP
+1N--2C--2H--,2N,Please read chat#About 7 HCP. Denies 4!hs. Can have 4!s in a 4333 shape
+1N--2C--2H--,2S,
+1N--2C--2H--2S--,2N,Doubleton !ss 18HCP
+1N--2C--2H--2S--,3C,
+1N--2C--2H--,3C,3-6 HCP
+1N--2C--2H--3C--,3D,Stopper
+1N--2C--2H--3C--,3H,Stopper
+1N--2C--2H--3C--,3S,Stopper
+1N--2C--2H--,3D,3-6 HCP
+1N--2C--2H--3D--,3H,Stopper
+1N--2C--2H--3D--,3S,Stopper
+1N--2C--2H--,3H,
+1N--2C--2H--,3N,3433 shape
+1N--2C--2H--,3S,5422/4522 shape
+1N--2C--2H--3S--,4C,
+1N--2C--2H--3S--,4D,
+1N--2C--2H--3S--,4H,
+1N--2C--2H--3S--,4S,
+1N--2C--2H--,4C,
+1N--2C--2H--4C--,4D,
+1N--2C--2H--4C--,4H,
+1N--2C--2H--4C--,4N,3 aces
+1N--2C--2H--4C--,4S,
+1N--2C--2H--4C--,5C,
+1N--2C--2H--,4D,
+1N--2C--2H--4D--,4H,
+1N--2C--2H--4D--,4N,3 aces
+1N--2C--2H--4D--,4S,
+1N--2C--2H--4D--,5C,
+1N--2C--2H--4D--,5D,
+1N--2C--2H--,4H,
+1N--2C--2H--,4N,RKCB
+1N--2C--2H--,4S,Exclusion RKCB 2007-08-25
+1N--2C--2H--,5C, Exclusion RKCB
+1N--2C--2H--,5D,Exclusion RKCB
+1N--2C--,2N,19-20 HCP; either both majors or none
+1N--2C--2N--,3C,3-6 HCP
+1N--2C--2N--3C--,3D,Stopper
+1N--2C--2N--3C--,3H,Stopper
+1N--2C--2N--3C--,3S,Stopper
+1N--2C--2N--,3D,3-6 HCP
+1N--2C--2N--3D--,3H,Stopper
+1N--2C--2N--3D--,3S,Stopper
+1N--2C--2N--,3H,
+1N--2C--2N--3H--,3N,Shows doubleton !hs
+1N--2C--2N--3H--,3S,Shows 3 !hs
+1N--2C--2N--3H--,4C,Cuebid with 4-4 in majors
+1N--2C--2N--3H--,4D,Cuebid with 4-4 in majors
+1N--2C--2N--3H--,4H, 4-4 in majors; minimum
+1N--2C--2N--,3S,
+1N--2C--2N--3S--,3N,Shows doubleton !s!
+1N--2C--2N--3S--,4C, 4-4 in majors
+1N--2C--2N--3S--,4D, 4-4 in majors
+1N--2C--2N--3S--,4H, 4-4 in majors
+1N--2C--2N--3S--,4S,
+1N--2C--,2S,18-20 HCP; denies 4!hs
+1N--2C--2S--,2N,5!hs
+1N--2C--2S--,3C,3-6 HCP
+1N--2C--2S--3C--,3D,Stopper
+1N--2C--2S--3C--,3H,Stopper
+1N--2C--2S--3C--,3S,Stopper
+1N--2C--2S--,3D,3-6 HCP
+1N--2C--2S--3D--,3H,Stopper
+1N--2C--2S--3D--,3S,Stopper
+1N--2C--2S--,3H,
+1N--2C--2S--,3S,
+1N--2C--2S--,4C,
+1N--2C--2S--4C--,4D,
+1N--2C--2S--4C--,4H,
+1N--2C--2S--4C--,4N,3 aces
+1N--2C--2S--4C--,4S,
+1N--2C--2S--4C--,5C,
+1N--2C--2S--,4D,
+1N--2C--2S--4D--,4H,
+1N--2C--2S--4D--,4N,3 aces
+1N--2C--2S--4D--,4S,
+1N--2C--2S--4D--,5C,
+1N--2C--2S--4D--,5D,
+1N--2C--2S--,4H,5422/4522 shape
+1N--2C--2S--4H--,4N,3 aces
+1N--2C--2S--4H--,4S,
+1N--2C--2S--4H--,5C,
+1N--2C--2S--4H--,5D,
+1N--2C--2S--,4N,RKCB
+1N--2C--2S--,4S,
+1N--2C--2S--,5C,Exclusion RKCB
+1N--2C--2S--,5D,Exclusion RKCB
+1N--2C--,3C,Please read chat#16-18 HCP; 3442 shape. The !c doubleton is xx; Kx or Ax. (might be a quack in a 16 Count)
+1N--2C--3C--,3D,
+1N--2C--3C--3D--,3H, !cStopper #
+1N--2C--3C--3D--,3S, !sStopper
+1N--2C--3C--3D--,4C,xx in !cs #
+1N--2C--3C--3D--,4D,xxx in !ss #
+1N--2C--3C--3D--,4H,xxxx in !hs #
+1N--2C--3C--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1N--2C--3C--,4H,
+1N--2C--3C--,4N,RKCB
+1N--2C--3C--,4S, Responder knows that opener has 3!ss#
+1N--2C--3C--,5C,Exclusion RKCB #
+1N--2C--3C--,5D,Exclusion RKCB #
+1N--2C--,3D,Please read chat#19-20 HCP; 3424 shape The !c doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2C--3D--,3H,Please read chat# Asks for cuebid if opener does not have !h queuen
+1N--2C--3D--,4H,
+1N--2C--3D--,4N,RKCB
+1N--2C--3D--,4S, Responder knows that opener has 3!ss#
+1N--2C--3D--,5C,Exclusion RKCB #
+1N--2C--3D--,5D,Exclusion RKCB #
+1N--2C--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton consisting of xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2C--3H--,4H,
+1N--2C--3H--,4N,RKCB
+1N--2C--3H--,5C,Exclusion RKCB
+1N--2C--3H--,5D,Exclusion RKCB
+1N--2C--,3S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--,2D,Please read chat#At least 4 !hs. 1) Signoff !hs. 2) 4-4 majors; 6-7 HCP. 3) 4 !hs; 6 HCP. 4) 5!hs + 5 minor; invitational. 5) 6-7!hs invitational. 6) 6-7!hs. Slam try against 14-16 HCP. 7) GF; 5!hs w/o slam interest.
+1N--2D--,2H,Denies 19-20 HCP AND 4!hs
+1N--2D--2H--,2N,4!hs; denies 4!ss. 6-7 HCP
+1N--2D--2H--,2S,4-4 in majors; about 10 HCP
+1N--2D--2H--,3C,5-5 in round suit. Strong invitation
+1N--2D--2H--3C--,3D,Reinvit
+1N--2D--2H--3C--3D--,3H,Minimum
+1N--2D--2H--,3D,5-5 in !hs and !ds. Strong invitation
+1N--2D--2H--3D--,3S,#shows xx(xx) in !ss 
+1N--2D--2H--3D--,4C,#shows xx(xx) in !cs 
+1N--2D--2H--3D--,4D,
+1N--2D--2H--,3H,
+1N--2D--2H--,3N,5!hs. No Slam ambition
+1N--2D--2H--,3S,
+1N--2D--2H--,4C,
+1N--2D--2H--,4D,
+1N--2D--2H--,4H,Mild slamtry without a singleton
+1N--2D--2H--,4N,RKCB
+1N--2D--2H--,4S,Exclusion RKCB
+1N--2D--2H--,5C,Exclusion RKCB
+1N--2D--2H--,5D,Exclusion RKCB
+1N--2D--,2N,19-20 HCP; 3433 shape
+1N--2D--2N--,3C,
+1N--2D--2N--,3D,
+1N--2D--2N--3D--,3H,Forced
+1N--2D--2N--3D--3H--,3S,King or Ace
+1N--2D--2N--3D--3H--,4C,King or Ace
+1N--2D--2N--3D--3H--,4D,King or Ace
+1N--2D--2N--3D--3H--,4H,Mild slam try
+1N--2D--2N--3D--3H--,4N,RKCB
+1N--2D--2N--3D--3H--,4S,Exclusion RKCB
+1N--2D--2N--3D--3H--,5C,Exclusion RKCB
+1N--2D--2N--3D--3H--,5D,Exclusion RKCB
+1N--2D--2N--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--2N--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1N--2D--2N--,3N,Please cuebid without !hqueen # 
+1N--2D--2N--3N--,4C,Presumably without !hqueen
+1N--2D--2N--3N--,4D,Presumably without !hqueen
+1N--2D--2N--,3S,
+1N--2D--2N--,4C,
+1N--2D--2N--,4D,
+1N--2D--2N--,4H,
+1N--2D--2N--,4N,RKCB
+1N--2D--2N--,4S,Exclusion RKCB
+1N--2D--2N--,5C,Exclusion RKCB
+1N--2D--2N--,5D,Exclusion RKCB
+1N--2D--,2S,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2D--2S--2N--,3C,Please read chat#Suit with not much waste against shortness
+1N--2D--2S--2N--,3D,Please read chat#Suit with not much waste against shortness
+1N--2D--2S--2N--,3H,
+1N--2D--2S--,3C,
+1N--2D--2S--,3D,
+1N--2D--2S--3D--,3H,Forced
+1N--2D--2S--3D--3H--,3S,King or Ace
+1N--2D--2S--3D--3H--,4C,King or Ace
+1N--2D--2S--3D--3H--,4D,King or Ace
+1N--2D--2S--3D--3H--,4H,Mild slam try
+1N--2D--2S--3D--3H--,4N,RKCB
+1N--2D--2S--3D--3H--,4S,Exclusion RKCB
+1N--2D--2S--3D--3H--,5C,Exclusion RKCB
+1N--2D--2S--3D--3H--,5D,Exclusion RKCB
+1N--2D--2S--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--2S--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1N--2D--2S--,3N,Please cuebid without !hqueen # 
+1N--2D--2S--3N--,4C,Presumably without !hqueen
+1N--2D--2S--3N--,4D,Presumably without !hqueen
+1N--2D--2S--,3S,
+1N--2D--2S--,4C,
+1N--2D--2S--,4D,
+1N--2D--2S--,4H,
+1N--2D--2S--,4N,RKCB
+1N--2D--2S--,4S,Exclusion RKCB
+1N--2D--2S--,5C,Exclusion RKCB
+1N--2D--2S--,5D,Exclusion RKCB
+1N--2D--,3C,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2D--3C--,3D,
+1N--2D--3C--3D--,3H,Forced
+1N--2D--3C--3D--3H--,3S,King or Ace
+1N--2D--3C--3D--3H--,4C,King or Ace
+1N--2D--3C--3D--3H--,4D,King or Ace
+1N--2D--3C--3D--3H--,4H,Mild slam try
+1N--2D--3C--3D--3H--,4N,RKCB
+1N--2D--3C--3D--3H--,4S,Exclusion RKCB
+1N--2D--3C--3D--3H--,5C,Exclusion RKCB
+1N--2D--3C--3D--3H--,5D,Exclusion RKCB
+1N--2D--3C--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--3C--3H--,4H,Please read chat#An incentive to bid if !h queen is not present
+1N--2D--3C--,3N,Please cuebid without !hqueen # 
+1N--2D--3C--3N--,4C,Presumably without !hqueen
+1N--2D--3C--3N--,4D,Presumably without !hqueen
+1N--2D--3C--,3S,
+1N--2D--3C--,4C,
+1N--2D--3C--,4D,
+1N--2D--3C--,4H,
+1N--2D--3C--,4N,RKCB
+1N--2D--3C--,4S,Exclusion RKCB
+1N--2D--3C--,5C,Exclusion RKCB
+1N--2D--3C--,5D,Exclusion RKCB
+1N--2D--,3D,Please read chat#19-20 HCP; 4!hs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2D--3D--,3H,Opener can e.g bid 4 w/o !hqueen
+1N--2D--3D--,3N,Please cuebid without !hqueen # 
+1N--2D--3D--3N--,4C,Presumably without !hqueen
+1N--2D--3D--3N--,4D,Presumably without !hqueen
+1N--2D--3D--,3S,
+1N--2D--3D--,4C,
+1N--2D--3D--,4D,
+1N--2D--3D--,4H,
+1N--2D--3D--,4N,RKCB
+1N--2D--3D--,4S,Exclusion RKCB
+1N--2D--3D--,5C,Exclusion RKCB
+1N--2D--3D--,5D,Exclusion RKCB
+1N--2D--,3H,Please read chat#19-20 HCP; 4!hs. Denies a doubleton of xx; Kx or Ax.
+1N--2D--3H--,3N,Please cuebid without !hqueen # 
+1N--2D--3H--3N--,4C,Presumably without !hqueen
+1N--2D--3H--3N--,4D,Presumably without !hqueen
+1N--2D--3H--,3S,
+1N--2D--3H--,4C,
+1N--2D--3H--,4D,
+1N--2D--3H--,4H,
+1N--2D--3H--,4N,RKCB
+1N--2D--3H--,4S,Exclusion RKCB
+1N--2D--3H--,5C,Exclusion RKCB
+1N--2D--3H--,5D,Exclusion RKCB
+1N--,2H,Please read chat#At least 4 !ss. 1) Signoff !s. 2) 4 !ss; 6-7 HCP. 3) 5!s + 5 minor; invitational. 4) 6-7!ss invitational. 5) 6-7!ss. Slam try against 14-16 HCP. 6) GF; 5!ss w/o slam interest.
+1N--2H--,2N,19-20 HCP; 4333 shape
+1N--2H--2N--,3C,
+1N--2H--2N--,3D,
+1N--2H--2N--,3H,
+1N--2H--2N--3H--,3S,
+1N--2H--2N--3H--3S--,4C,Denies splinter
+1N--2H--2N--3H--3S--,4D,Denies splinter
+1N--2H--2N--3H--3S--,4H,Denies splinter
+1N--2H--2N--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--2N--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1N--2H--2N--,4C,
+1N--2H--2N--,4D,
+1N--2H--2N--,4H,
+1N--2H--2N--,4N,RKCB
+1N--2H--2N--,4S,
+1N--2H--2N--,5C,Exclusion RKCB
+1N--2H--2N--,5D,Exclusion RKCB
+1N--2H--,2S,Denies 19-20 HCP AND 4!s
+1N--2H--2S--,2N,4 !ss; 6-7 HCP
+1N--2H--2S--,3C,5!ss and 5+!cs
+1N--2H--2S--,3D,5!ss and 5+!cs
+1N--2H--2S--,3H,5+!ss and 5+!hss
+1N--2H--2S--3H--,3S,
+1N--2H--2S--,3N,5!ss
+1N--2H--2S--,3S,
+1N--2H--,3C,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2H--3C--,3D,
+1N--2H--3C--,3H,
+1N--2H--3C--3H--,3S,
+1N--2H--3C--3H--3S--,4C,Denies splinter
+1N--2H--3C--3H--3S--,4D,Denies splinter
+1N--2H--3C--3H--3S--,4H,Denies splinter
+1N--2H--3C--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3C--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1N--2H--3C--,4C,
+1N--2H--3C--,4D,
+1N--2H--3C--,4H,
+1N--2H--3C--,4N,RKCB
+1N--2H--3C--,4S,
+1N--2H--3C--,5C,Exclusion RKCB
+1N--2H--3C--,5D,Exclusion RKCB
+1N--2H--,3D,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2H--3D--,3H,
+1N--2H--3D--3H--,3S,
+1N--2H--3D--3H--3S--,4C,Denies splinter
+1N--2H--3D--3H--3S--,4D,Denies splinter
+1N--2H--3D--3H--3S--,4H,Denies splinter
+1N--2H--3D--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3D--,3S,Please read chat#Asks opener to bid 4!s WITHOUT !s Queen #
+1N--2H--3D--,4C,
+1N--2H--3D--,4D,
+1N--2H--3D--,4H,
+1N--2H--3D--,4N,RKCB
+1N--2H--3D--,4S,
+1N--2H--3D--,5C,Exclusion RKCB
+1N--2H--3D--,5D,Exclusion RKCB
+1N--2H--,3H,Please read chat#19-20 HCP; 4!ss. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2H--3H--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3H--,3S,
+1N--2H--3H--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3H--,4N,RKCB
+1N--2H--3H--,4S,
+1N--2H--3H--,5C,Exclusion RKCB
+1N--2H--3H--,5D,Exclusion RKCB
+1N--2H--,3S,Please read chat#19-20 HCP. Denies a doubleton of xx; Kx or Ax. 
+1N--2H--3S--,3N,Please read chat#Asks opener to cuebid WITHOUT !s queen #
+1N--2H--3S--,4C,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4D,Please read chat# #2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4H,Please read chat##2007-09-02 Check; No genuine cuebid possible#
+1N--2H--3S--,4N,RKCB
+1N--2H--3S--,4S,
+1N--2H--3S--,5C,Exclusion RKCB
+1N--2H--3S--,5D,Exclusion RKCB
+1N--,2N,Please read chat#1) Signoff i !c. 2)5-5+!cs and another. 3)Mild slam try in !c (addressed to 16-18 HCP). 4) Strong slam try in !c;  (addressed to 18-20 HCP) 5) Strong slam try in !c with a splinter (maximum 6 losers.
+1N--2N--,3C,Please read chat#All hands except 19-20 HCP with 4!cs AND a doubleton of xx; Kx or Ax.  
+1N--2N--,3D,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2N--,3H,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--2N--,3N,Chance; e.g Axx;Axx;Axx;Axxx
+1N--2N--,3S,Please read chat#19-20 HCP; 4!cs. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--,2S,Please read chat#Looking for 3 NT; spade game or slam interested. 1) 6 HCP  intending to pass 2NT. Can have 4!s in a 4333 shape. 2) GF 4!s 3) GF balanced or semibalanced (4 major and 5 minor and 5-4 minor). 4) GF Marmic. 5) 6 card major + 4 card minor; slam interested. 
+1N--2S--,2N,16-18 HCP
+1N--2S--,3C,19-20 HCP
+1N--2S--,3D,19-20 HCP; denies 4!cs
+1N--2S--,3H,19-20 HCP; denies 4!cs!ds
+1N--2S--,3S,19-20 HCP; denies 4!cs!ds!hs
+1N--,3C,Please read chat#1) Signoff i !d. 2)5-5+!cs and major. 3)Mild slam try in !ds (addressed to 16-18 HCP). 4) Strong slam try in !ds;  (addressed to 18-20 HCP) 5) Strong slam try in !ds with a splinter (maximum 6 losers.
+1N--3C--,3D,Please read chat#All hands except 19-20 HCP with 4!ds AND a doubleton of xx; Kx or Ax.  
+1N--3C--,3H,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--3C--,3N,Chance; e.g Axx;Axx;Axxx;Axx  
+1N--3C--,3S,Please read chat#19-20 HCP; 4!ds. The doubleton is xx; Kx or Ax. (might be a quack in a 20 Count)
+1N--,3D,!d one-suiter; short !cs 
+1N--,3H,!d one-suiter; short !hs 
+1N--,3S,!d one-suiter; short !ss
+1N--3S--,3N,16-18 HCP with goodies in major
+1N--3S--,4C,#55 against 6 losers. Change
+1N--3S--,4D,#55 against 6 losers. Change
+1N--3S--,4H,Preference
+1N--3S--,4N,RKCB with 6 aces
+1N--3S--,4S,Preference
+1N--,4C,Transfer to 4!hs
+1N--4C--,4D,19-20 HCP and a good hand
+1N--4C--,4H,19-20 HCP and a good hand
+1N--,4D,Transfer to 4!ss
+1N--,4H,
+1N--,4N,All 4333 shapes
+1N--,4S,
+,1S,11-20
+1S--,2C,Toronto
+1S--2C--,2D,Please read chat#11-16 HCP Balanced; semi-balanced or !ds
+1S--2C--,2N,Denies 4+!hs
+1S--2C--,2S,
+1S--,2D,
+1S--,2H,
+1S--,2N,About 11 HCP
+1S--,2S,
+1S--,3C,
+1S--,3D,
+1S--,3H,
+1S--,3S,
+Option
+

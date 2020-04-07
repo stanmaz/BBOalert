@@ -1,0 +1,4465 @@
+BBOalert
+1C1D1H,2D,competitive.
+1C1D1H,Db,3 card support.
+1C1D1N,2C,Please read chat#shows support for overcaller's suit and invites game.
+1C1D1N,2D,competitive
+1C1D1N,Db,3 card support.
+1C1D1S,2C,Please read chat#shows support for overcaller's suit and invites game.
+1C1D1S,2D,competitive.
+1C1D1S,Db,3 card support.
+1C1D2C,2D,competitive.
+1C1D2C,Db,3 card support.
+1C1D2D,Db,3 card support.
+1C,1D,Please read chat#6-14 HCP; Simple overcall.\\Decent hand; or a decent suit; or a lead-director of some sort.
+1C1DDb,1H,Alternate spot to play.
+1C1DDb,1N,7-10HCP.
+1C1DDb,1S,Alternate spot to play.
+1C1DDb,2C,Please read chat#Limit raise; Fit;\\If overcaller max; bids game.
+1C1DDb,2D,Denies interest in game.
+1C1DDb,2H,Alternate spot to play.
+1C1DDb,2N,12+ HCP.
+1C1DDb,2S,Alternate spot to play.
+1C1DDb,3D,NV 
+1C1DDb,3H,Alternate spot to play.
+1C1DDb,3N,To Play.
+1C1DDb,3S,Alternate spot to play.
+1C1DDb,5D,To Play.
+1C1DDb,Rd,Exactly 3 card support.
+1C1D--,1H,Alternative spot to play.
+1C1D--,1N,Not Natural; Lebensohl.
+1C1D--1N--,2C,Forced.
+1C1D--1N--2C--,2D,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1C1D--1N--2C--,2H,!D fit Also.
+1C1D--1N--2C--,2S,!D fit Also.
+1C1D--1N--,2D,6+; min
+1C1D--1N--,2H,11+ HCP; good hand.
+1C1D--1N--,2S,11+ HCP; good hand.
+1C1D--,1S,Alternative spot to play.
+1C1D--,2C,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1C1D--2C--,2D,weakish hand with a 6-card suit.
+1C1D--2C--,2H,natural and show extras.
+1C1D--2C--,2N,natural and show extras.
+1C1D--2C--,2S,natural and show extras.
+1C1D--,2D,Please read chat#To play\\(4 trumps and may be 3-card good support).
+1C1D--,2H,Preemptive.
+1C1D--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1C1D--2N--,3D,minimum and is very discouraging.
+1C1D--2N--,3H,Please read chat#game-going hands; Shortness in the suit.
+1C1D--2N--,3N,choice of the games.
+1C1D--2N--,3S,Please read chat#game-going hands; Shortness in the suit.
+1C1D--2N--,4C,6-4 distribution  and max HCP.
+1C1D--2N--,4D,7+  and max HCP.
+1C1D--2N--,4H,6-4 distribution  and max HCP.
+1C1D--2N--,4S,6-4 distribution  and max HCP.
+1C1D--,2S,Preemptive.
+1C1D--,3D,Preemptive.
+1C1D--,4H,
+1C1D--,4S,
+1C1D--,--,fewer than 4 cards
+1C1H1N,2C,Please read chat#shows support for overcaller's suit and invites game.
+1C1H1N,2D,alternate spot to play.
+1C1H1N,2H,competitive.
+1C1H1N,2S,alternate spot to play.
+1C1H1N,Db,3 card support.
+1C1H1S,2C,Please read chat#shows support for overcaller's suit and invites game.
+1C1H1S,2D,alternate spot to play.
+1C1H1S,2H,competitive.
+1C1H1S,Db,3 card support.
+1C1H2C,2D,alternate spot to play.
+1C1H2C,2H,competitive.
+1C1H2C,2S,alternate spot to play.
+1C1H2C,Db,3 card support.
+1C1H2D,2H,competitive.
+1C1H2D,2S,alternate spot to play.
+1C1H2D,Db,3 card support.
+1C,1H,6-14 HCP; Simple overcall.
+1C1HDb,1H,Alternate spot to play.
+1C1HDb,1N,7-10HCP.
+1C1HDb,1S,Alternate spot to play.
+1C1HDb,2C,Please read chat#Limit raise; Fit.\\If overcaller max; bids game.
+1C1HDb,2D,Alternate spot to play.
+1C1HDb,2H,Denies interest in game.
+1C1HDb,2N,12+
+1C1HDb,2S,Alternate spot to play.
+1C1HDb,3D,Alternate spot to play.
+1C1HDb,3H,NV 
+1C1HDb,3N,To play.
+1C1HDb,3S,Alternate spot to play.
+1C1HDb,4H,To play.
+1C1HDb,Rd,Exactly 3 card support.
+1C1H--,1H,Alternative spot to play.
+1C1H--,1N,Not Natural; Lebensohl.
+1C1H--1N--,2C,Forced.
+1C1H--1N--2C--,2D,Weak and non forcing; less than 3!H.
+1C1H--1N--2C--,2H,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1C1H--1N--2C--,2S,!H fit. mild invite; NF.
+1C1H--1N--,2D,11+ HCP; good hand.
+1C1H--1N--,2H,min.
+1C1H--1N--,2S,11+ HCP; good hand.
+1C1H--,1S,Alternative spot to play.
+1C1H--,2C,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1C1H--2C--,2D,weakish hand with a 6-card suit.
+1C1H--2C--,2H,natural and show extras.
+1C1H--2C--,2N,natural and show extras.
+1C1H--2C--,2S,natural and show extras.
+1C1H--,2D,To play
+1C1H--,2H,NF
+1C1H--2H--,2D,weakish hand with a 6-card suit.
+1C1H--2H--,2H,natural and show extras.
+1C1H--2H--,2N,natural and show extras.
+1C1H--2H--,2S,natural and show extras.
+1C1H--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1C1H--2N--,3C,Please read chat#game-going hands; Shortness in the suit.
+1C1H--2N--,3D,Please read chat#game-going hands; Shortness in the suit.
+1C1H--2N--,3H,Minimum and is very discouraging.
+1C1H--2N--,3N,choice of the games.
+1C1H--2N--,3S,Please read chat#game-going hands; Shortness in the suit.
+1C1H--2N--,4C,6-4 distribution  and max HCP.
+1C1H--2N--,4D,6-4 distribution  and max HCP.
+1C1H--2N--,4H,max HCP.
+1C1H--2N--,4S,Please read chat#6-4/5 distribution and max HCP and extreme distribution.
+1C1H--,2S,Preemptive.
+1C1H--,3H,Preemptive.
+1C1H--,--,fewer than 4 cards.
+1C1N2C,2D,To Play or Lead directing.
+1C1N2C,2H,To Play or Lead directing.
+1C1N2C,2N,Please read chat#Distributional; unbid major suits with a weaker hand.
+1C1N2C,2S,To Play or Lead directing.
+1C1N2C,3D,Preemptive.
+1C1N2C,3H,Preemptive.
+1C1N2C,3S,Preemptive.
+1C1N2C,Db,Please read chat#Shows other unbid suits; usually majors.
+1C1N2D,2H,To Play or Lead directing.
+1C1N2D,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1C1N2D,2S,To Play or Lead directing.
+1C1N2D,3C,Shows a Good hand.
+1C1N2D,3H,Preemptive.
+1C1N2D,3S,Preemptive.
+1C1N2D,Db,Please read chat#Responsive dbl for one of the unbid suit.
+1C1N2H,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1C1N2H,2S,Natural.
+1C1N2H,3C,Shows a good hand.
+1C1N2H,3D,To Play or lead directing.
+1C1N2H,3S,Preemptive.
+1C1N2H,Db,Please read chat#Responsive dbl; for one of the unbid suit.
+1C1N2S,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1C1N2S,3C,Shows a good hand.
+1C1N2S,3D,To Play or lead directing.
+1C1N2S,3H,To Play or lead directing.
+1C1N2S,Db,Please read chat#Responsive dbl; for one of the unbid suit.
+1C,1N,Please read chat#Takeout; 6-14 HCP; 3 card support for all unbid suits.
+1C1NDb,2D,5+ cards.
+1C1NDb,2H,5+ cards.
+1C1NDb,2S,5+ cards.
+1C1NDb,--,Denies 4!S and 5 card suit.
+1C1NDb----,2D,Trying to find 44 fit runout.
+1C1NDb----,2H,Trying to find 44 fit runout.
+1C1NDb----,Rd,5 card suit somewhere.
+1C1NDb----Rd--,2D,Pass or correct.
+1C1NDb,Rd,4 cards in !S.
+1C1N--,2C,Please read chat#an invitational hand or ask for a 4 card major?
+1C1N--,2D,Natural.
+1C1N--2D--,3D,shapely max with four-card support.
+1C1N--,2H,Natural.
+1C1N--2H--,3H,shapely max with four-card support.
+1C1N--,2N,2 lowest unbid suits. !D and !H.
+1C1N--,2S,Natural.
+1C1N--2S--,3S,shapely max with four-card support.
+1C1N--,3D,Preemptive.
+1C1N--,3H,Preemptive.
+1C1N--,3S,Preemptive.
+1C1S1N,2C,Please read chat#shows support for overcaller's suit and invites game.
+1C1S1N,2D,alternate spot to play.
+1C1S1N,2H,alternate spot to play.
+1C1S1N,2S,competitive.
+1C1S1N,Db,3 card support.
+1C1S2C,2D,alternate spot to play.
+1C1S2C,2H,alternate spot to play.
+1C1S2C,2S,competitive.
+1C1S2C,3C,Please read chat#shows support for overcaller's suit and invites game.
+1C1S2C,Db,3 card support.
+1C1S2D,2H,alternate spot to play.
+1C1S2D,2S,competitive.
+1C1S2D,3C,Please read chat#shows support for overcaller's suit and invites game.
+1C1S2D,Db,3 card support.
+1C1S2H,2S,competitive.
+1C1S2H,3C,Please read chat#shows support for overcaller's suit and invites game.
+1C1S2H,3D,alternate spot to play.
+1C1S2H,Db,3 card support.
+1C,1S,6-14 HCP; Simple overcall.
+1C1SDb,1H,Alternate spot to play.
+1C1SDb,1N,7-10HCP.
+1C1SDb,1S,Alternate spot to play.
+1C1SDb,2C,Please read chat#Limit raise; Fit;\\If overcaller max; bids game.
+1C1SDb,2D,Alternate spot to play.
+1C1SDb,2H,Alternate spot to play.
+1C1SDb,2N,12+
+1C1SDb,2S,Denies interest in game.
+1C1SDb,3N,To play.
+1C1SDb,3S,NV 
+1C1SDb,4S,To Play.
+1C1SDb,Rd,Exactly 3 card support.
+1C1S--,1H,Alternative spot to play.
+1C1S--,1N,Not Natural; Lebensohl.
+1C1S--1N--,2C,Forced.
+1C1S--1N--2C--,2D,Weak and non forcing; less than 3!S.
+1C1S--1N--2C--,2H,Weak and non forcing; less than 3!S.
+1C1S--1N--2C--,2S,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1C1S--1N--2C--,--,Non Forcing.
+1C1S--1N--,2D,11+ HCP; good hand.
+1C1S--1N--,2H,11+ HCP; good hand.
+1C1S--1N--,2S,min.
+1C1S--,1S,Alternative spot to play.
+1C1S--,2C,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1C1S--2C--,2D,natural and show extras.
+1C1S--2C--,2H,natural and show extras.
+1C1S--2C--,2N,natural and show extras.
+1C1S--2C--,2S,weakish hand with a 6-card suit.
+1C1S--,2D,1 round force; 3+ card support.
+1C1S--,2H,1 round force; 3+ card support.
+1C1S--2H--,2D,weakish hand with a 6-card suit.
+1C1S--2H--,2H,natural and show extras.
+1C1S--2H--,2N,natural and show extras.
+1C1S--2H--,2S,natural and show extras.
+1C1S--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1C1S--2N--,3C,Please read chat#game-going hands; Shortness in the suit.
+1C1S--2N--,3D,Please read chat#game-going hands; Shortness in the suit.
+1C1S--2N--,3H,Please read chat#game-going hands; Shortness in the suit.
+1C1S--2N--,3N,choice of the games.
+1C1S--2N--,3S,Minimum and is very discouraging.
+1C1S--2N--,4C,6-4 distribution  and max HCP.
+1C1S--2N--,4D,6-4 distribution  and max HCP.
+1C1S--2N--,4H,6-4 distribution  and max HCP.
+1C1S--2N--,4S,max HCP.
+1C1S--,2S,Preemptive.
+1C1S--,3N,To Play.
+1C1S--,3S,Preemptive.
+1C1S--,4S,To Play.
+1C1S--,--,fewer than 4 cards.
+1C2C3C,3D,Preemptive
+1C2C3C,3H,!S fit; high cards; GF
+1C2C3C,3N,To Play.
+1C2C3C,3S,Invitational.
+1C2C3C,4D,Preemptive.
+1C2C3C,4H,To Play.
+1C2C3C,4S,To Play.
+1C2C3C,5D,To Play.
+1C,2C,Please read chat#6+ HCP; Two suited cue bid; Touching suits; 5+!D and 4+!S.; Unlimited HCP.
+1C2CDb,2D,To play.
+1C2CDb,2H,To play.
+1C2CDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1C2CDb2N--,3C,Extras; many shapes.
+1C2CDb2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1C2CDb2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1C2CDb2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+1C2CDb2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1C2CDb2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+1C2CDb2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+1C2CDb2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+1C2CDb2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+1C2CDb2N--3C--,3S,Invitational.
+1C2CDb2N--3C--,4D,Invitational.
+1C2CDb2N--,3D,4!S-5!D; Minimum shape and strength.
+1C2CDb2N--,3H,4!S-6!D; minimum.
+1C2CDb2N--,3N,!C stopper; 3-4 losers; 4!S.
+1C2CDb2N--,3S,5!S-5!D or better; minimum.
+1C2CDb2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+1C2CDb2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+1C2CDb2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+1C2CDb2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+1C2CDb,2S,To play.
+1C2CDb,3C,!D fit; High cards.
+1C2CDb,3D,Preemptive.
+1C2CDb,3H,!S fit; high cards; GF
+1C2CDb,3N,To Play.
+1C2CDb,3S,Invitational.
+1C2CDb,4D,Preemptive
+1C2CDb,4H,To Play.
+1C2CDb,4S,To Play.
+1C2CDb,5D,To Play.
+1C2C--,2D,To play.
+1C2C--,2H,To play.
+1C2C--,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1C2C--2N--,3C,Extras; many shapes.
+1C2C--2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1C2C--2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1C2C--2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+1C2C--2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1C2C--2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+1C2C--2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+1C2C--2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+1C2C--2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+1C2C--2N--3C--,3S,Invitational.
+1C2C--2N--3C--,4D,Invitational.
+1C2C--2N--,3D,4!S-5!D; Minimum shape and strength.
+1C2C--2N--,3H,4!S-6!D; minimum.
+1C2C--2N--,3N,!C stopper; 3-4 losers; 4!S.
+1C2C--2N--,3S,5!S-5!D or better; minimum.
+1C2C--2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+1C2C--2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+1C2C--2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+1C2C--2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+1C2C--,2S,To play.
+1C2C--,3C,!D fit; High cards.
+1C2C--,3D,Preemptive.
+1C2C--,3H,!S fit; high cards; GF.
+1C2C--,3N,To Play.
+1C2C--,3S,Invitational.
+1C2C--,4D,Preemptive.
+1C2C--,4H,To Play.
+1C2C--,4S,To Play.
+1C2C--,5D,To Play.
+1C,2D,Please read chat#6-14 HCP; Two suited jump overcall; 5+!D and 4+!H.
+1C2DDb,2H,To Play.
+1C2DDb,2N,3+ cards in !H; invite or better.
+1C2DDb2N--,3C,shows extras and no big shape.
+1C2DDb2N--,3D,shows minimum shape; minimum strength.
+1C2DDb2N--,3H,minimum; 5+!H.
+1C2DDb2N--3H--,3N,To Play.
+1C2DDb2N--3H--,3S,general force.
+1C2DDb2N--3H--,4C,general force. 
+1C2DDb2N--3H--,4D,non-forcing.
+1C2DDb2N--3H--,4H,To Play.
+1C2DDb2N--3H--,5D,To Play.
+1C2DDb2N--,3N,Please read chat#shows extras; a !C stopper and exact 4!H.
+1C2DDb2N--,3S,minimum; 6 !D.
+1C2DDb2N--,4C,splinter; extra shape.
+1C2DDb2N--,4D,Max; extra shape.
+1C2DDb2N--,4H,extra shape
+1C2DDb2N--,4S,splinter; extra shape.
+1C2DDb,2S,To Play.
+1C2DDb,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1C2DDb3C--,3D,Minimum hand; minimum shape.
+1C2DDb3C--,3H,5-5 better shape and minimum HCP.
+1C2DDb3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1C2DDb3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1C2DDb,3D,Raises preemptive/to play.
+1C2DDb,3H,To Play.
+1C2DDb,3N,To Play.
+1C2DDb,3S,Splinter
+1C2DDb,4C,Splinter; shortness; slam interest.
+1C2DDb,4D,Raises preemptive/to play.
+1C2DDb,4H,To Play. 
+1C2DDb,4S,To Play.
+1C2DDb,5D,To play.
+1C2DDb,--,To Play.
+1C2DDb,Rd,shows !D fit. Invitational; or values.
+1C2D--,2H,To Play.
+1C2D--2N3C,3D,minimum; 6+!D.
+1C2D--2N3C,3H,minimum; 5!H.
+1C2D--2N3C,Db,Shows extra; denies 5!H.
+1C2D--2N3C,--,Denies 5!H.
+1C2D--,2N,3+ cards in !H; invite or better.
+1C2D--2N--,3C,shows extras and no big shape.
+1C2D--2N--3C--,3D,To Play.
+1C2D--2N--3C--,3H,To Play.
+1C2D--2N--3C--,3S,general force.
+1C2D--2N--,3D,shows minimum shape; minimum strength.
+1C2D--2N--,3H,minimum; 5+!H.
+1C2D--2N--3H--,3N,To Play.
+1C2D--2N--3H--,3S,general force.
+1C2D--2N--3H--,4C,general force. 
+1C2D--2N--3H--,4D,non-forcing.
+1C2D--2N--3H--,4H,To Play.
+1C2D--2N--3H--,5D,To Play.
+1C2D--2N--,3N,Please read chat#shows extras; a !C stopper and exact 4!H.
+1C2D--2N--,3S,minimum; 6 !D.
+1C2D--2N--,4C,splinter; extra shape.
+1C2D--2N--,4D,Max; extra shape.
+1C2D--2N--,4H,extra shape.
+1C2D--2N--,4S,splinter; extra shape.
+1C2D--,2S,To Play.
+1C2D--,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1C2D--3C--,3D,Minimum hand; minimum shape.
+1C2D--3C--,3H,5-5 better shape and minimum HCP.
+1C2D--3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1C2D--3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1C2D--,3D,Raises preemptive/to play.
+1C2D--,3H,To Play.
+1C2D--,3N,To Play.
+1C2D--,3S,Splinter
+1C2D--,4C,Splinter; shortness; slam interest.
+1C2D--,4D,Raises preemptive/to play.
+1C2D--,4H,To Play. 
+1C2D--,4S,To Play.
+1C2D--,5D,To play.
+1C2D--,--,To Play.
+1C,2H,Please read chat#6-14 HCP; Two suited jump overcall; 5+ !H and 4+!S.
+1C2HDb,2H,To Play.
+1C2HDb,2N,3+ cards in !S; invite or better.
+1C2HDb,2S,To Play.
+1C2HDb,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1C2HDb3C--,3D,Minimum hand; minimum shape.
+1C2HDb3C--,3H,5-5 better shape and minimum HCP.
+1C2HDb3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1C2HDb3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1C2HDb,3D,To Play.
+1C2HDb,3H,Raises preemptive/to play.
+1C2HDb,3N,To Play.
+1C2HDb,3S,Raises preemptive/to play.
+1C2HDb,4C,Splinter; shortness; slam interest.
+1C2HDb,4D,To Play. 
+1C2HDb,4H,To Play.
+1C2HDb,4S,To Play.
+1C2HDb,5D,To play.
+1C2HDb,--,To Play.
+1C2HDb,Rd,shows !H fit. Invitational; or values.
+1C2H--,2H,To Play.
+1C2H--2N3C,3D,minimum; 6+!H.
+1C2H--2N3C,3H,minimum; 5!H; 5!S.
+1C2H--2N3C,Db,Shows extra; denies 5!S.
+1C2H--2N3C,--,Denies 5!S.
+1C2H--,2N,3+ cards in !S; invite or better.
+1C2H--2N--,3C,shows extras and no big shape.
+1C2H--2N--3C--,3D,general force.
+1C2H--2N--3C--,3H,To Play.
+1C2H--2N--3C--,3S,To Play.
+1C2H--2N--,3D,Please read chat#shows minimum shape; minimum strength. 4!S; 6!H
+1C2H--2N--,3H,minimum; 5+!H; 4!S.
+1C2H--2N--3H--,3N,To Play.
+1C2H--2N--3H--,3S,general force.
+1C2H--2N--3H--,4C,general force. 
+1C2H--2N--3H--,4D,non-forcing.
+1C2H--2N--3H--,4H,To Play.
+1C2H--2N--3H--,5D,To Play.
+1C2H--2N--,3N,Please read chat#shows extras; a !C stopper and exact 4!S.
+1C2H--2N--,3S,minimum; 5!S; 5!H.
+1C2H--2N--,4C,splinter.
+1C2H--2N--,4D,splinter.
+1C2H--2N--,4H,extras; big shape.
+1C2H--2N--,4S,extras; big shape.
+1C2H--,2S,To Play.
+1C2H--,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1C2H--3C--,3D,Minimum hand; minimum shape.
+1C2H--3C--,3H,5-5 better shape and minimum HCP.
+1C2H--3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1C2H--3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1C2H--,3D,natural; constructive; non-forcing.
+1C2H--,3H,Raises preemptive/to play.
+1C2H--,3N,To Play.
+1C2H--,3S,Raises preemptive/to play.
+1C2H--,4C,Splinter; shortness; slam interest.
+1C2H--,4D,To play.
+1C2H--,4H,To Play. 
+1C2H--,4S,To Play.
+1C2H--,--,To Play.
+1C2N3C,3D,To play
+1C2N3C,3H,To Play. Weak
+1C2N3C,Db,Please read chat#Asks pd to further describe the hand. Tends to be a good invitation or better.
+1C2N3D,3H,To Play. Weak
+1C2N3D,Db,Please read chat#Asks pd to further describe the hand. Tends to be a good invitation or better.
+1C2N3S,Db,Value showing ; deny fit for !H.
+1C,2N,Please read chat#Strong two suiter (8.5 playing tricks) Non-touching suit and another. \\!H  and  !D/!S\\5-5 and the hand is less than 5 losers.
+1C2NDb,3H,To Play.
+1C2NDb----,3D,second suit.
+1C2NDb----,Rd,Have !S and !H.
+1C2NDb,Rd,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1C2N--,3C,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1C2N--,3D,Please read chat#Weak hand; looking to play in back up suit.
+1C2N--,3H,To Play.
+1C2N--,3S,Please read chat#Tolerance for the anchor !H suit; but  it's still weak. Pass or correct.
+1C2N--,4C,splinter; !H support.
+1C2N--,4D,splinter; !H support.
+1C2N--,4H,To Play.
+1C2N--,4S,splinter; !H support.
+1C,2S,3-5 HCP; Weak jump overcall
+1C2S--,2N,Feature asking?
+1C2S--2N--,3C,!C feature; A or K.
+1C2S--2N--,3D,!D feature; A or K.
+1C2S--2N--,3H,!H feature; A or K.
+1C2S--2N--,3S,No feature.
+1C,3C,Asks for stopper in !C for 3NT.
+1C,3D,12-17 HCP; Intermediate Jump overcall.
+1C,3H,12-17 HCP; Intermediate Jump overcall.
+1C,3N,To play.
+1C,3S,12-17 HCP; Intermediate Jump overcall.
+1C,4C,Please read chat#NAMYATS; Good 4!H bid; \\at least 7-9 card !Hs; No void.
+1C4C--,4D,Please read chat#Key card blackwood - Asking controls (Based on 5KC).
+1C4C--4D--,4H,1 Key Card and Q!H.
+1C4C--4D--,4N,2 Key Cards and Q!H.
+1C4C--4D--,4S,2 Key Cards without Q!H.
+1C,4D,Please read chat#NAMYATS; Good 4!S bid; \\at least 7-9 card !Ss; No void.
+1C4D--,4H,Key Card Blackwood (Based On 5 KC).
+1C4D--4H--,4N,2 Key Cards without Q !S.
+1C4D--4H--,4S,1 Key Card and Q !S.
+1C4D--4H--,5C,2 Key Cards and Q !S.
+1C,4H,Preemptive 4!H bid.
+1C,4S,Preemptive 4!S bid.
+Error *001C=NYYYYYY008When RHO opens: 1!C.|,1C,When RHO opens: 1!C.
+1CDb1D,1H,compete.
+1CDb1D,1S,compete.
+1CDb1D,2C,Asks for best suit.
+1CDb1D,Db,Negative dbl For unbid suits.
+1CDb1H,1S,compete.
+1CDb1H,2C,Asks for best suit.
+1CDb1H,Db,Negative dbl For unbid suits.
+1CDb1N,2C,Asks for best suit.
+1CDb1N,Db,Negative dbl For unbid suits.
+1CDb1S,2C,Asks for best suit.
+1CDb1S,Db,Negative dbl For unbid suits.
+1C,Db,Please read chat#15+ HCP; Tends to be Balanced or with length in opponent's suit.
+1CDb--,1D,0-7 HCP.
+1CDb--,1H,0-7 HCP.
+1CDb--,1N,4-7HCP and at least a stopper.
+1CDb--,1S,0-7 HCP.
+1CDb--,2C,Asks pd to bid the best suit.
+1CDb--,2D,7+ HCP.
+1CDb--,2H,7+ HCP.
+1CDb--,2N,8-9 HCP and at least a stopper.
+1CDb--,2S,7+ HCP.
+1CDb--,3N,10-14 HCP and at least a stopper.
+1D1H1N,2C,alternate spot to play.
+1D1H1N,2D,Please read chat#shows support for overcaller's suit and invites game.
+1D1H1N,2H,competitive.
+1D1H1N,2S,alternate spot to play.
+1D1H1N,Db,3 card support.
+1D1H1S,2C,alternate spot to play.
+1D1H1S,2D,Please read chat#shows support for overcaller's suit and invites game.
+1D1H1S,2H,competitive.
+1D1H1S,Db,3 card support.
+1D1H2C,2D,Please read chat#shows support for overcaller's suit and invites game.
+1D1H2C,2H,competitive.
+1D1H2C,2S,alternate spot to play.
+1D1H2C,Db,3 card support.
+1D1H2D,2H,competitive.
+1D1H2D,2S,alternate spot to play.
+1D1H2D,3D,Please read chat#shows support for overcaller's suit and invites game.
+1D1H2D,Db,3 card support.
+1D,1H,6-14 HCP; Simple overcall.
+1D1HDb,1H,Alternate spot to play.
+1D1HDb,1N,7-10HCP.
+1D1HDb,1S,Alternate spot to play.
+1D1HDb,2C,Alternate spot to play.
+1D1HDb,2D,Please read chat#Limit raise; Fit.\\If overcaller max; bids game.
+1D1HDb,2H,Denies interest in game.
+1D1HDb,2N,12+
+1D1HDb,2S,Alternate spot to play.
+1D1HDb,3C,Alternate spot to play.
+1D1HDb,3H,NV 
+1D1HDb,3N,To play.
+1D1HDb,3S,Alternate spot to play.
+1D1HDb,4H,To play.
+1D1HDb,5D,To Play.
+1D1HDb,Rd,Exactly 3 card support.
+1D1H--,1H,Alternative spot to play.
+1D1H--,1N,Not Natural; Lebensohl.
+1D1H--1N--,2C,Forced.
+1D1H--1N--2C--,2D,Weak and non forcing; less than 3!H.
+1D1H--1N--2C--,2H,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1D1H--1N--2C--,2S,!H fit. mild invite; NF.
+1D1H--1N--,2D,11+ HCP; good hand.
+1D1H--1N--,2H,min.
+1D1H--1N--,2S,11+ HCP; good hand.
+1D1H--,1S,Alternative spot to play.
+1D1H--,2C,Forcing 1 round.
+1D1H--2C--,2D,weakish hand with a 6-card suit.
+1D1H--2C--,2H,natural and show extras.
+1D1H--2C--,2N,natural and show extras.
+1D1H--2C--,2S,natural and show extras.
+1D1H--,2D,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1D1H--,2H,NF.
+1D1H--2H--,2D,weakish hand with a 6-card suit.
+1D1H--2H--,2H,natural and show extras.
+1D1H--2H--,2N,natural and show extras.
+1D1H--2H--,2S,natural and show extras.
+1D1H--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1D1H--2N--,3C,Please read chat#game-going hands; Shortness in the suit.
+1D1H--2N--,3D,Please read chat#game-going hands; Shortness in the suit.
+1D1H--2N--,3H,Minimum and is very discouraging.
+1D1H--2N--,3N,choice of the games.
+1D1H--2N--,3S,Please read chat#game-going hands; Shortness in the suit.
+1D1H--2N--,4C,6-4 distribution  and max HCP.
+1D1H--2N--,4D,6-4 distribution  and max HCP.
+1D1H--2N--,4H,max HCP.
+1D1H--2N--,4S,Please read chat#6-4/5 distribution and max HCP and extreme distribution.
+1D1H--,2S,Preemptive.
+1D1H--,3C,Preemptive.
+1D1H--,3H,Preemptive.
+1D1H--,3N,To Play.
+1D1H--,3S,Preemptive.
+1D1H--,4H,To Play.
+1D1H--,--,fewer than 4 cards.
+1D1N2C,2D,Game invitation; good hand.
+1D1N2C,2H,To Play or Lead directing.
+1D1N2C,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1D1N2C,2S,To Play or Lead directing.
+1D1N2C,3H,Preemptive.
+1D1N2C,3S,Preemptive.
+1D1N2C,Db,Responsive dbl; one of the unbid suits.
+1D1N2D,2H,To Play or Lead directing.
+1D1N2D,2N,Please read chat#Distributional; unbid major suits with a weaker hand.
+1D1N2D,2S,To Play or Lead directing.
+1D1N2D,3C,To Play or lead directing.
+1D1N2D,3H,Preemptive.
+1D1N2D,3S,Preemptive.
+1D1N2D,Db,Please read chat#Shows other unbid suits; usually majors.
+1D1N2H,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1D1N2H,2S,Natural.
+1D1N2H,3C,To Play or lead directing.
+1D1N2H,3D,Game invitation; good hand.
+1D1N2H,3S,Preemptive.
+1D1N2H,Db,Please read chat#Shows other unbid suits; usually other major.
+1D1N2S,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1D1N2S,3C,To Play or lead directing.
+1D1N2S,3D,Game invitation; good hand.
+1D1N2S,3H,To Play or lead directing.
+1D1N2S,Db,Please read chat#Shows other unbid suits; usually other major.
+1D,1N,Please read chat#Takeout; 6-14 HCP; 3 card support for all unbid suits.
+1D1NDb,2C,5+ cards.
+1D1NDb,2H,5+ cards.
+1D1NDb,2S,5+ cards.
+1D1NDb,3C,Preemptive.
+1D1NDb,3H,Preemptive.
+1D1NDb,3S,Preemptive.
+1D1NDb,--,Denies 4!S and 5 card suit.
+1D1NDb----,2C,Trying to find 44 fit runout.
+1D1NDb----,2H,Trying to find 44 fit runout.
+1D1NDb----,Rd,5 card suit somewhere.
+1D1NDb----Rd--,2C,Pass or correct.
+1D1NDb,Rd,4 cards in !S.
+1D1N--,2C,Natural.
+1D1N--,2D,Please read chat#an invitational hand or ask for 4 card major?
+1D1N--,2H,Natural.
+1D1N--,2N,2 lowest unbid suits. !C and !H.
+1D1N--,2S,Natural.
+1D1N--,3C,Preemptive.
+1D1N--,3H,Preemptive.
+1D1N--,3S,Preemptive.
+1D1S1N,2C,alternate spot to play.
+1D1S1N,2D,Please read chat#shows support for overcaller's suit and invites game.
+1D1S1N,2H,alternate spot to play.
+1D1S1N,2S,competitive.
+1D1S1N,Db,3 card support.
+1D1S2C,2D,Please read chat#shows support for overcaller's suit and invites game.
+1D1S2C,2H,alternate spot to play.
+1D1S2C,2S,competitive.
+1D1S2C,Db,3 card support.
+1D1S2D,2H,alternate spot to play.
+1D1S2D,2S,competitive.
+1D1S2D,3D,Please read chat#shows support for overcaller's suit and invites game.
+1D1S2D,Db,3 card support.
+1D1S2H,2S,competitive.
+1D1S2H,3D,Please read chat#shows support for overcaller's suit and invites game.
+1D1S2H,Db,3 card support.
+1D,1S,6-14 HCP; Simple overcall.
+1D1SDb,1H,Alternate spot to play.
+1D1SDb,1N,7-10HCP.
+1D1SDb,1S,Alternate spot to play.
+1D1SDb,2C,Alternate spot to play.
+1D1SDb,2D,Please read chat#Limit raise; Fit.\\If overcaller max; bids game.
+1D1SDb,2H,Alternate spot to play.
+1D1SDb,2N,12+
+1D1SDb,2S,Denies interest in game
+1D1SDb,3C,Alternate spot to play.
+1D1SDb,3H,Alternate spot to play.
+1D1SDb,3N,To play.
+1D1SDb,3S,NV 
+1D1SDb,4H,To play.
+1D1SDb,4S,To Play.
+1D1SDb,Rd,Exactly 3 card support.
+1D1S--,1H,Alternative spot to play.
+1D1S--,1N,Not Natural; Lebensohl
+1D1S--1N--,2C,Forced.
+1D1S--1N--2C--,2D,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1D1S--1N--2C--,2H,Weak and non forcing; less than 3!S.
+1D1S--1N--2C--,2S,!S fit. mild invite; NF.
+1D1S--1N--2C--,3C,!S fit; Mild invite; NF.
+1D1S--1N--2C--,--,Non Forcing.
+1D1S--1N--,2D,11+ HCP; good hand.
+1D1S--1N--,2H,11+ HCP; good hand.
+1D1S--1N--,2S,Min.
+1D1S--1N--,3C,11+ HCP; good hand.
+1D1S--,1S,Alternative spot to play.
+1D1S--,2C,Forcing 1 round.
+1D1S--2C--,2D,weakish hand with a 6-card suit.
+1D1S--2C--,2H,natural and show extras.
+1D1S--2C--,2N,natural and show extras.
+1D1S--2C--,2S,natural and show extras.
+1D1S--,2D,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1D1S--,2H,Forcing 1 round.
+1D1S--2H--,2D,weakish hand with a 6-card suit.
+1D1S--2H--,2H,natural and show extras.
+1D1S--2H--,2N,natural and show extras.
+1D1S--2H--,2S,natural and show extras.
+1D1S--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1D1S--2N--,3C,Please read chat#game-going hands; Shortness in the suit.
+1D1S--2N--,3D,Please read chat#game-going hands; Shortness in the suit.
+1D1S--2N--,3H,Please read chat#game-going hands; Shortness in the suit.
+1D1S--2N--,3N,choice of the games.
+1D1S--2N--,3S,Minimum and is very discouraging.
+1D1S--2N--,4C,6-4 distribution  and max HCP.
+1D1S--2N--,4D,6-4 distribution  and max HCP.
+1D1S--2N--,4H,6-4 distribution  and max HCP.
+1D1S--2N--,4S,max HCP.
+1D1S--,2S,To play.
+1D1S--,3C,Preemptive.
+1D1S--,3H,Preemptive.
+1D1S--,3N,To Play.
+1D1S--,3S,Preemptive.
+1D1S--,4H,To Play.
+1D1S--,4S,To play.
+1D1S--,--,fewer than 4 cards.
+1D,2C,6-14 HCP; Two level overcall.
+1D2CDb,2D,Please read chat#Good hand for support of C or some other suit.
+1D2CDb,3C,No interest in game.
+1D2CDb,Rd,opening hand; Strong raise.
+1D2C--,2D,Please read chat#Good hand for support of C or some other suit.
+1D2C--,2H,NF.
+1D2C--,2N,Natural and invitational.
+1D2C--,2S,NF.
+1D2C--,3C,Always blocking.
+1D2D3D,3H,Preemptive.
+1D2D3D,3N,To Play.
+1D2D3D,3S,!H fit; high cards; GF.
+1D2D3D,4C,Preemptive.
+1D2D3D,4H,To Play.
+1D2D3D,4S,To Play.
+1D2D3D,5C,To Play.
+1D,2D,Please read chat#6+ HCP; Two suited cue bid; Touching suits; 5+!C and 4+!H. Unlimited HCP.
+1D2DDb,2H,To play.
+1D2DDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1D2DDb2N--,3C,4!H-5!C; Minimum shape and strength.
+1D2DDb2N--,3D,Extras; many shapes.
+1D2DDb2N--3D--,3H,Invitational.
+1D2DDb2N--3D--,3S,Asks pd to further describe the hand.
+1D2DDb2N--3D--3S--,3N,5-6 losers; Diamond stop; denies 5!H.
+1D2DDb2N--3D--3S--,4C,Please read chat#4-5 or 4-6 distribution; 5 or 6 losers; No !D stopper
+1D2DDb2N--3D--3S--,4D,Please read chat#5-6 losers; !D void; at least 5-5 !H/!C.
+1D2DDb2N--3D--3S--,4H,Please read chat#5 or 6 losers; 5-5 or better distribution; no !D void.
+1D2DDb2N--3D--3S--,4N,Please read chat#3-4 losers; 4-5 or better distribution; No !D void.
+1D2DDb2N--3D--,4C,Invitational.
+1D2DDb2N--,3H,5!H-5!C or better; minimum.
+1D2DDb2N--,3N,!D stopper; 3-4 losers; 4!H.
+1D2DDb2N--,3S,4!H-6!C; minimum.
+1D2DDb2N--,4C,Please read chat#4!H-6!C shape; No void; at most 4 losers.
+1D2DDb2N--,4D,Please read chat#!D void; 5!H-5!C or better; at most 4 losers.
+1D2DDb2N--,4H,5-5 or 5-6; no void; 3 or 4 losers.
+1D2DDb2N--,4S,Please read chat#!S void; 5!H-5!C or better; at most 4 losers.
+1D2DDb,2S,To play.
+1D2DDb,3C,To play.
+1D2DDb,3D,!C fit; high cards; GF.
+1D2DDb,3H,Preemptive.
+1D2DDb,3N,To Play.
+1D2DDb,3S,!H fit; high cards; GF.
+1D2DDb,4C,Preemptive.
+1D2DDb,4H,To Play.
+1D2DDb,4S,To Play.
+1D2DDb,5C,To Play.
+Error *001D2DDD2D=NYYYYYY124To play.|1D2DDbDb,2D,To play.
+Error *001D2DDD2H=NYYYYYY158To play.|1D2DDbDb,2H,To play.
+Error *001D2DDD2N=NYYYYYYCAsks pd to further describe the hand.\\Invite+|1D2DDbDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+Error *001D2DDD2NP3C=YYYYYYYE08Extras, many shapes.|1D2DDbDb2N--,3C,Extras; many shapes.
+Error *001D2DDD2NP3CP3D=YYYYYYYD08Asks pd to further re-describe the hand.|1D2DDbDb2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+Error *001D2DDD2NP3CP3DP3H=NYYYYYY3464-6 or better, 5 or 6 losers.|1D2DDbDb2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+Error *001D2DDD2NP3CP3DP3N=NYYYYYY35-6 losers, club stop, denies 5 spades.|1D2DDbDb2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+Error *001D2DDD2NP3CP3DP3S=NYYYYYY3565-5 or better, 5 or 6 losers.|1D2DDbDb2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+Error *001D2DDD2NP3CP3DP4C=YYYYYYY8005-6 losers, club void, at least 5-5.|1D2DDbDb2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+Error *001D2DDD2NP3CP3DP4D=YYYYYYY8454-5, 5 or 6 losers, no club stop.|1D2DDbDb2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+Error *001D2DDD2NP3CP3DP4H=YYYYYYY8005-6 losers, heart void, at least 5-5.|1D2DDbDb2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+Error *001D2DDD2NP3CP3DP4S=NYYYYYY3565-6 losers, 6-5 or better, no voids.|1D2DDbDb2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+Error *001D2DDD2NP3CP3S=NYYYYYY448Invitational.|1D2DDbDb2N--3C--,3S,Invitational.
+Error *001D2DDD2NP3CP4D=NYYYYYY448Invitational.|1D2DDbDb2N--3C--,4D,Invitational.
+Error *001D2DDD2NP3D=NYYYYYY2454!S-5!D, Minimum shape and strength.|1D2DDbDb2N--,3D,4!S-5!D; Minimum shape and strength.
+Error *001D2DDD2NP3H=NYYYYYY3184!S-6!D, minimum.|1D2DDbDb2N--,3H,4!S-6!D; minimum.
+Error *001D2DDD2NP3N=NYYYYYY3!C stopper, 3-4 losers, 4!S.|1D2DDbDb2N--,3N,!C stopper; 3-4 losers; 4!S.
+Error *001D2DDD2NP3S=NYYYYYY3585!S-5!D or better, minimum.|1D2DDbDb2N--,3S,5!S-5!D or better; minimum.
+Error *001D2DDD2NP4C=YYYYYYY800!C void, 5!S-5!D or better, at most 4 losers.|1D2DDbDb2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+Error *001D2DDD2NP4D=NYYYYYY3684!S-6!D shape, No void, at most 4 losers.|1D2DDbDb2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+Error *001D2DDD2NP4H=YYYYYYY800!H void, 5!S-5!D or better, at most 4 losers.|1D2DDbDb2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+Error *001D2DDD2NP4S=NYYYYYY3555-5 or 5-6, no void, 3 or 4 losers.|1D2DDbDb2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+Error *001D2DDD2S=NYYYYYY138To play.|1D2DDbDb,2S,To play.
+Error *001D2DDD3C=YYYYYYY608!D fit, High cards.|1D2DDbDb,3C,!D fit; High cards.
+Error *001D2DDD3D=NYYYYYY945Preemptive.|1D2DDbDb,3D,Preemptive.
+Error *001D2DDD3H=NYYYYYY608!S fit, high cards, GF.|1D2DDbDb,3H,!S fit; high cards; GF.
+Error *001D2DDD3N=NYYYYYY1To Play.|1D2DDbDb,3N,To Play.
+Error *001D2DDD3S=NYYYYYY448Invitational.|1D2DDbDb,3S,Invitational.
+Error *001D2DDD4D=NYYYYYY148Preemptive.|1D2DDbDb,4D,Preemptive.
+Error *001D2DDD4H=NYYYYYY168To Play.|1D2DDbDb,4H,To Play.
+Error *001D2DDD4S=NYYYYYY148To Play.|1D2DDbDb,4S,To Play.
+Error *001D2DDD5D=NYYYYYY148To Play.|1D2DDbDb,5D,To Play.
+1D2D--,2D,To play.
+1D2D--,2H,To play.
+1D2D--,2N,Please read chat#Asks pd to further describe the hand.\\Invite+.
+1D2D--2N--,3C,4!H-5!C; Minimum shape and strength.
+1D2D--2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1D2D--2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1D2D--2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+1D2D--2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1D2D--2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+1D2D--2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+1D2D--2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+1D2D--2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+1D2D--2N--3C--,3S,Invitational.
+1D2D--2N--3C--,4D,Invitational.
+1D2D--2N--,3D,Extras; many shapes.
+1D2D--2N--3D--,3H,Invitational.
+1D2D--2N--3D--,3S,Asks pd to further describe the hand.
+1D2D--2N--3D--3S--,3N,5-6 losers; Diamond stop; denies 5!H.
+1D2D--2N--3D--3S--,4C,Please read chat#4-5 or 4-6 distribution; 5 or 6 losers; No !D stopper.
+1D2D--2N--3D--3S--,4D,Please read chat#5-6 losers; !D void; at least 5-5 !H/!C.
+1D2D--2N--3D--3S--,4H,Please read chat#5 or 6 losers; 5-5 or better distribution; no !D void.
+1D2D--2N--3D--3S--,4N,Please read chat#3-4 losers; 4-5 or better distribution; No !D void.
+1D2D--2N--3D--,4C,Invitational.
+1D2D--2N--,3H,5!H-5!C or better; minimum.
+1D2D--2N--,3N,!D stopper; 3-4 losers; 4!H.
+1D2D--2N--,3S,4!H-6!C; minimum.
+1D2D--2N--,4C,Please read chat#4!H-6!C shape; No void; at most 4 losers.
+1D2D--2N--,4D,Please read chat#!D void; 5!H-5!C or better; at most 4 losers.
+1D2D--2N--,4H,5-5 or 5-6; no void; 3 or 4 losers.
+1D2D--2N--,4S,Please read chat#!S void; 5!H-5!C or better; at most 4 losers.
+1D2D--,2S,To play.
+1D2D--,3C,To play.
+1D2D--,3D,!C fit; high cards; GF.
+1D2D--,3H,Preemptive.
+1D2D--,3N,To Play.
+1D2D--,3S,!H fit; high cards; GF.
+1D2D--,4C,Preemptive.
+1D2D--,4H,To Play.
+1D2D--,4S,To Play.
+1D2D--,5C,To Play.
+Error *001D2DPD2D=NYYYYYY124To play.|1D2D--Db,2D,To play.
+Error *001D2DPD2H=NYYYYYY158To play.|1D2D--Db,2H,To play.
+Error *001D2DPD2N=NYYYYYYCAsks pd to further describe the hand.\\Invite+|1D2D--Db,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+Error *001D2DPD2NP3C=YYYYYYYE08Extras, many shapes.|1D2D--Db2N--,3C,Extras; many shapes.
+Error *001D2DPD2NP3CP3D=YYYYYYYD08Asks pd to further re-describe the hand.|1D2D--Db2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+Error *001D2DPD2NP3CP3DP3H=NYYYYYY3464-6 or better, 5 or 6 losers.|1D2D--Db2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+Error *001D2DPD2NP3CP3DP3N=NYYYYYY35-6 losers, club stop, denies 5 spades.|1D2D--Db2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+Error *001D2DPD2NP3CP3DP3S=NYYYYYY3565-5 or better, 5 or 6 losers.|1D2D--Db2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+Error *001D2DPD2NP3CP3DP4C=YYYYYYY8005-6 losers, club void, at least 5-5.|1D2D--Db2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+Error *001D2DPD2NP3CP3DP4D=YYYYYYY8454-5, 5 or 6 losers, no club stop.|1D2D--Db2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+Error *001D2DPD2NP3CP3DP4H=YYYYYYY8005-6 losers, heart void, at least 5-5.|1D2D--Db2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+Error *001D2DPD2NP3CP3DP4S=NYYYYYY3565-6 losers, 6-5 or better, no voids.|1D2D--Db2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+Error *001D2DPD2NP3CP3S=NYYYYYY448Invitational.|1D2D--Db2N--3C--,3S,Invitational.
+Error *001D2DPD2NP3CP4D=NYYYYYY448Invitational.|1D2D--Db2N--3C--,4D,Invitational.
+Error *001D2DPD2NP3D=NYYYYYY2454!S-5!D, Minimum shape and strength.|1D2D--Db2N--,3D,4!S-5!D; Minimum shape and strength.
+Error *001D2DPD2NP3H=NYYYYYY3184!S-6!D, minimum.|1D2D--Db2N--,3H,4!S-6!D; minimum.
+Error *001D2DPD2NP3N=NYYYYYY3!C stopper, 3-4 losers, 4!S.|1D2D--Db2N--,3N,!C stopper; 3-4 losers; 4!S.
+Error *001D2DPD2NP3S=NYYYYYY3585!S-5!D or better, minimum.|1D2D--Db2N--,3S,5!S-5!D or better; minimum.
+Error *001D2DPD2NP4C=YYYYYYY800!C void, 5!S-5!D or better, at most 4 losers.|1D2D--Db2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+Error *001D2DPD2NP4D=NYYYYYY3684!S-6!D shape, No void, at most 4 losers.|1D2D--Db2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+Error *001D2DPD2NP4H=YYYYYYY800!H void, 5!S-5!D or better, at most 4 losers.|1D2D--Db2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+Error *001D2DPD2NP4S=NYYYYYY3555-5 or 5-6, no void, 3 or 4 losers.|1D2D--Db2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+Error *001D2DPD2S=NYYYYYY138To play.|1D2D--Db,2S,To play.
+Error *001D2DPD3C=YYYYYYY608!D fit, High cards.|1D2D--Db,3C,!D fit; High cards.
+Error *001D2DPD3D=NYYYYYY945Preemptive.|1D2D--Db,3D,Preemptive.
+Error *001D2DPD3H=NYYYYYY608!S fit, high cards, GF.|1D2D--Db,3H,!S fit; high cards; GF.
+Error *001D2DPD3N=NYYYYYY1To Play.|1D2D--Db,3N,To Play.
+Error *001D2DPD3S=NYYYYYY448Invitational.|1D2D--Db,3S,Invitational.
+Error *001D2DPD4D=NYYYYYY148Preemptive.|1D2D--Db,4D,Preemptive.
+Error *001D2DPD4H=NYYYYYY168To Play.|1D2D--Db,4H,To Play.
+Error *001D2DPD4S=NYYYYYY148To Play.|1D2D--Db,4S,To Play.
+Error *001D2DPD5D=NYYYYYY148To Play.|1D2D--Db,5D,To Play.
+1D,2H,Please read chat#6-14 HCP; Two suited jump overcall; 5+ !H and 4+!S.
+1D2HDb,2H,To Play.
+1D2HDb2N3D,3H,minimum; 5!H; 5!S.
+1D2HDb2N3D,3S,6!H and max.
+1D2HDb2N3D,Db,Shows extra; denies 5!S.
+1D2HDb2N3D,--,Denies 5!S.
+1D2HDb,2N,3+ cards in !S; invite or better.
+1D2HDb2N--,3C,shows extras and no big shape.
+1D2HDb2N--3C--,3D,general force.
+1D2HDb2N--3C--,3H,To Play.
+1D2HDb2N--3C--,3S,To Play.
+1D2HDb2N--,3D,Please read chat#shows minimum shape; minimum strength. 4!S; 6!H.
+1D2HDb2N--,3H,minimum; 5+!H; 4!S.
+1D2HDb2N--3H--,3N,To Play.
+1D2HDb2N--3H--,3S,general force.
+1D2HDb2N--3H--,4C,general force. 
+1D2HDb2N--3H--,4D,non-forcing.
+1D2HDb2N--3H--,4H,To Play.
+1D2HDb2N--3H--,5D,To Play.
+1D2HDb2N--,3N,Please read chat#shows extras; a !D stopper and exact 4!S.
+1D2HDb2N--,3S,minimum; 5!S; 5!H.
+1D2HDb2N--,4C,splinter.
+1D2HDb2N--,4D,splinter.
+1D2HDb2N--,4H,extras; big shape.
+1D2HDb2N--,4S,extras; big shape.
+1D2HDb,2S,To Play.
+1D2HDb,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1D2HDb3C--,3D,Minimum hand; minimum shape.
+1D2HDb3C--,3H,5-5 better shape and minimum HCP.
+1D2HDb3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1D2HDb3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1D2HDb,3D,To Play.
+1D2HDb,3H,Raises preemptive/to play.
+1D2HDb,3N,To Play.
+1D2HDb,3S,Raises preemptive/to play.
+1D2HDb,4C,Splinter; shortness; slam interest.
+1D2HDb,4D,To Play. 
+1D2HDb,4H,To Play.
+1D2HDb,4S,To Play.
+1D2HDb,5D,To play.
+1D2HDb,--,To Play.
+1D2HDb,Rd,shows !H fit. Invitational; or values.
+1D2H--,2H,To Play.
+1D2H--2N3D,3H,minimum; 5!H; 5!S.
+1D2H--2N3D,3S,6!H and max.
+1D2H--2N3D,Db,Shows extra; denies 5!S.
+1D2H--2N3D,--,Denies 5!S.
+1D2H--,2N,3+ cards in !S; invite or better.
+1D2H--2N--,3C,shows extras and no big shape.
+1D2H--2N--3C--,3D,general force.
+1D2H--2N--3C--,3H,To Play.
+1D2H--2N--3C--,3S,To Play.
+1D2H--2N--,3D,Please read chat#shows minimum shape; minimum strength. 4!S; 6!H.
+1D2H--2N--,3H,minimum; 5+!H; 4!S.
+1D2H--2N--3H--,3N,To Play.
+1D2H--2N--3H--,3S,general force.
+1D2H--2N--3H--,4C,general force. 
+1D2H--2N--3H--,4D,non-forcing.
+1D2H--2N--3H--,4H,To Play.
+1D2H--2N--3H--,5D,To Play.
+1D2H--2N--,3N,Please read chat#shows extras; a !D stopper and exact 4!S.
+1D2H--2N--,3S,minimum; 5!S; 5!H.
+1D2H--2N--,4C,splinter.
+1D2H--2N--,4D,splinter.
+1D2H--2N--,4H,extras; big shape.
+1D2H--2N--,4S,extras; big shape.
+1D2H--,2S,To Play.
+1D2H--,3C,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1D2H--3C--,3D,Minimum hand; minimum shape.
+1D2H--3C--,3H,5-5 better shape and minimum HCP.
+1D2H--3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1D2H--3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1D2H--,3D,natural; constructive; non-forcing.
+1D2H--3D--,3H,Weak hand. 5!H and 4!S.
+1D2H--3D--,3N,!D Stopper and good hand.
+1D2H--3D--,3S,Weak hand. 5!H and 5!S.
+1D2H--3D--,4C,Please read chat#Shortness in !C; 5-5 in !H and !S; Max HCP.
+1D2H--3D--,4D,Please read chat#Shortness in !C; 5-5 in !H and !S; Max HCP.
+1D2H--3D--,4H,4- in majors ave HCP.
+1D2H--,3H,Raises preemptive/to play.
+1D2H--,3N,To Play.
+1D2H--,3S,Raises preemptive/to play.
+1D2H--,4C,Splinter; shortness; slam interest.
+1D2H--,4D,To play.
+1D2H--,4H,To Play. 
+1D2H--,4S,To Play.
+1D2H--,--,To Play.
+1D2N3C,3S,To Play. Weak.
+1D2N3C,Db,Please read chat#Asks pd to further describe the hand. Tends to be a good invitation or better.
+1D2N3D,3S,To Play. Weak.
+1D2N3D,Db,Please read chat#Asks pd to further describe the hand. Tends to be a good invitation or better.
+1D2N3H,3S,To Play. Weak.
+1D2N3H,Db,Please read chat#Asks pd to further describe the hand. Tends to be a good invitation or better.
+1D2N3S,Db,Value showing ; deny fit for !H.
+1D,2N,Please read chat#Strong two suiter (8.5 playing tricks) Non-touching suit and another. \\!S  and  !C/!H\\5-5 and the hand is less than 5 losers.
+1D2NDb,3S,To Play.
+1D2NDb----,3C,Second suit.
+1D2NDb----,3D,
+1D2NDb----,3H,Second suit.
+1D2NDb----,Rd,Have !S and !H.
+1D2NDb,Rd,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1D2N--,3C,Please read chat#Weak hand; looking to play in back up suit.
+1D2N--,3D,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1D2N--,3H,Please read chat#Tolerance for the anchor !S suit; but  it's still weak. Pass or correct.
+1D2N--,3S,To Play.
+1D2N--,4C,splinter; !S support.
+1D2N--,4D,splinter; !S support.
+1D2N--,4H,splinter; !S support.
+1D2N--,4S,To Play.
+1D,2S,Please read chat#6-14 HCP; Two suited jump overcall; 4+ !S and 5+!C.
+1D2SDb2N3D,3H,minimum; 5!S.
+1D2SDb2N3D,Db,Shows extra; denies 5!S.
+1D2SDb2N3D,--,Denies 5!S.
+1D2SDb,2N,3+ cards in !S; invite or better.
+1D2SDb2N--,3C,shows extras and no big shape.
+1D2SDb2N--3C--,3D,To Play.
+1D2SDb2N--3C--,3H,To Play.
+1D2SDb2N--3C--,3S,general force.
+1D2SDb2N--,3D,shows minimum shape; minimum strength.
+1D2SDb2N--,3H,minimum; 5+!S.
+1D2SDb2N--3H--,3N,To Play.
+1D2SDb2N--3H--,3S,general force.
+1D2SDb2N--3H--,4C,general force. 
+1D2SDb2N--3H--,4D,non-forcing.
+1D2SDb2N--3H--,4H,To Play.
+1D2SDb2N--3H--,5D,To Play.
+1D2SDb2N--,3N,Please read chat#shows extras; a !D stopper and exact 4!S.
+1D2SDb2N--,3S,minimum; 6 !C.
+1D2SDb2N--,4C,Max; extra shape.
+1D2SDb2N--,4D,splinter; extra shape.
+1D2SDb2N--,4H,Max; extra shape; Splinter.
+1D2SDb2N--,4S,splinter; extra shape.
+1D2SDb,3C,To Play.
+1D2SDb3C--,3D,Minimum hand; minimum shape.
+1D2SDb3C--,3H,5-5 better shape and minimum HCP.
+1D2SDb3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1D2SDb3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1D2SDb,3D,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1D2SDb,3H,natural; constructive; non-forcing.
+1D2SDb,3N,To Play.
+1D2SDb,3S,To Play.
+1D2SDb,4C,To Play.
+1D2SDb,4D,Splinter; shortness; slam interest.
+1D2SDb,4H,To Play. 
+1D2SDb,4S,To Play.
+1D2SDb,5C,To Play.
+1D2SDb,--,To Play.
+1D2SDb,Rd,shows !S fit. Invitational; or values.
+1D2S--,2H,To Play.
+1D2S--2N3D,3H,minimum; 5!S.
+1D2S--2N3D,Db,Shows extra; denies 5!S.
+1D2S--2N3D,--,Denies 5!S.
+1D2S--,2N,3+ cards in !S; invite or better.
+1D2S--2N--,3C,shows extras and no big shape.
+1D2S--2N--3C--,3D,To Play.
+1D2S--2N--3C--,3H,To Play.
+1D2S--2N--3C--,3S,general force.
+1D2S--2N--,3D,shows minimum shape; minimum strength.
+1D2S--2N--,3H,minimum; 5+!S.
+1D2S--2N--3H--,3N,To Play.
+1D2S--2N--3H--,3S,general force.
+1D2S--2N--3H--,4C,general force. 
+1D2S--2N--3H--,4D,non-forcing.
+1D2S--2N--3H--,4H,To Play.
+1D2S--2N--3H--,5D,To Play.
+1D2S--2N--,3N,Please read chat#shows extras; a !D stopper and exact 4!S.
+1D2S--2N--,3S,minimum; 6 !C.
+1D2S--2N--,4C,Max; extra shape.
+1D2S--2N--,4D,splinter; extra shape.
+1D2S--2N--,4H,Max; extra shape; Splinter.
+1D2S--2N--,4S,splinter; extra shape.
+1D2S--,2S,To Play.
+1D2S--,3C,To Play.
+1D2S--3C--,3D,Minimum hand; minimum shape.
+1D2S--3C--,3H,5-5 better shape and minimum HCP.
+1D2S--3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1D2S--3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1D2S--,3D,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1D2S--,3H,natural; constructive; non-forcing.
+1D2S--,3N,To Play.
+1D2S--,3S,To Play.
+1D2S--,4C,To Play.
+1D2S--,4D,Splinter; shortness; slam interest.
+1D2S--,4H,To Play. 
+1D2S--,4S,To Play.
+1D2S--,5C,To Play.
+1D2S--,--,To Play.
+1D,3C,12-17 HCP; Intermediate Jump overcall.
+1D,3D,Asks for stopper in !D for 3NT.
+1D,3H,12-17 HCP; Intermediate Jump overcall.
+1D,3N,To play.
+1D,3S,12-17 HCP; Intermediate Jump overcall.
+1D,4C,Please read chat#NAMYATS; Good 4!H bid; \\at least 7-9 card !Hs; No void.
+1D4C--,4D,Please read chat#Key card blackwood - Asking controls (Based on 5KC).
+1D4C--4D--,4H,1 Key Card and Q!H.
+1D4C--4D--,4N,2 Key Cards and Q!H.
+1D4C--4D--,4S,2 Key Cards without Q!H.
+1D,4D,Please read chat#NAMYATS; Good 4!S bid; \\at least 7-9 card !Ss; No void.
+1D4D--,4H,Key Card Blackwood (Based On 5 KC).
+1D4D--4H--,4N,2 Key Cards without Q !S.
+1D4D--4H--,4S,1 Key Card and Q !S.
+1D4D--4H--,5C,2 Key Cards and Q !S.
+1D,4H,Preemptive 4!H bid.
+1D,4S,Preemptive 4!S bid.
+Error *001D=NYYYYYY008When RHO opens: 1!D.|,1D,When RHO opens: 1!D.
+1DDb1H,1S,compete.
+1DDb1H,2C,compete.
+1DDb1H,2D,Asks for best suit.
+1DDb1H,2H,compete.
+1DDb1H,Db,Negative dbl For unbid suits.
+1DDb1N,2C,compete.
+1DDb1N,2D,Asks for best suit.
+1DDb1N,2H,compete.
+1DDb1N,2S,compete.
+1DDb1N,Db,Negative dbl For unbid suits.
+1DDb1S,2C,compete.
+1DDb1S,2D,Asks for best suit.
+1DDb1S,2H,compete.
+1DDb1S,2S,compete.
+1DDb1S,Db,Negative dbl For unbid suits.
+1DDb2C,2D,Asks for best suit.
+1DDb2C,2H,compete.
+1DDb2C,2S,compete.
+1DDb2C,Db,Negative dbl For unbid suits.
+1D,Db,15+ HCP; Tends to be Balanced.
+1DDb--,1D,0-7 HCP. 
+1DDb--,1H,0-7 HCP.
+1DDb--,1N,4-7HCP and at least a stopper.
+1DDb--,1S,0-7 HCP.
+1DDb--,2C,0-7 HCP
+1DDb--,2D,Asks pd to bid the best suit.
+1DDb--,2H,7+ HCP.
+1DDb--,2N,8-9 HCP and at least a stopper.
+1DDb--,2S,7+ HCP.
+1DDb--,3C,8+ HCP.
+1DDb--,3N,10-14 HCP and at least a stopper.
+1H1N2C,2D,To Play or Lead directing.
+1H1N2C,2H,Game invitation; good hand.
+1H1N2C,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1H1N2C,2S,To Play or lead directing.
+1H1N2C,3D,Preemptive.
+1H1N2C,3S,Preemptive.
+1H1N2C,Db,Please read chat#Responsive dbl; for one of the unbid suit; usually other major.
+1H1N2D,2H,Game invitation; good hand.
+1H1N2D,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1H1N2D,2S,To Play or lead directing.
+1H1N2D,3C,To Play or lead directing.
+1H1N2D,3S,Preemptive.
+1H1N2D,Db,Please read chat#Responsive dbl; for one of the unbid suit; usually other major.
+1H1N2H,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1H1N2H,2S,To Play or lead directing.
+1H1N2H,3C,To Play or lead directing.
+1H1N2H,3D,To Play or lead directing.
+1H1N2H,3H,Game invitation; good hand.
+1H1N2H,3S,Preemptive.
+1H1N2H,Db,Please read chat#Responsive dbl; for one of the unbid suits.
+1H1N2S,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1H1N2S,3C,To Play or lead directing.
+1H1N2S,3D,To Play or lead directing.
+1H1N2S,3H,Game invitation; good hand.
+1H1N2S,Db,Please read chat#Responsive dbl; for one of the unbid suits.
+1H,1N,Please read chat#Takeout; 6-14 HCP; 3 card support for all unbid suits.
+1H1NDb,2C,5+ cards.
+1H1NDb,2D,5+ cards.
+1H1NDb,2S,5+ cards.
+1H1NDb,--,Denies 4!S and 5 card suit.
+1H1NDb----,2C,Trying to find 44 fit runout.
+1H1NDb----,2D,Trying to find 44 fit runout.
+1H1NDb----,Rd,5 card suit somewhere.
+1H1NDb----Rd--,2C,Pass or correct.
+1H1NDb,Rd,4 cards in !S.
+1H1N--,2C,Natural.
+1H1N--,2D,Natural.
+1H1N--,2H,Please read chat#an invitational hand or ask for 4 card major?
+1H1N--,2N,2 lowest unbid suits. !C and !D
+1H1N--,2S,Natural.
+1H1N--,3C,Preemptive.
+1H1N--,3D,Preemptive.
+1H1N--,3S,Preemptive.
+1H1S1N,2C,alternate spot to play.
+1H1S1N,2D,alternate spot to play.
+1H1S1N,2H,Please read chat#shows support for overcaller's suit and invites game.
+1H1S1N,2S,competitive.
+1H1S1N,Db,3 card support.
+1H1S2C,2D,alternate spot to play.
+1H1S2C,2H,Please read chat#shows support for overcaller's suit and invites game.
+1H1S2C,2S,competitive.
+1H1S2C,Db,3 card support.
+1H1S2D,2H,Please read chat#shows support for overcaller's suit and invites game.
+1H1S2D,2S,competitive.
+1H1S2D,Db,3 card support.
+1H1S2H,2S,competitive.
+1H1S2H,3H,Please read chat#shows support for overcaller's suit and invites game.
+1H1S2H,Db,3 card support.
+1H,1S,6-14 HCP; Simple overcall.
+1H1SDb,1H,Alternate spot to play.
+1H1SDb,1N,7-10HCP.
+1H1SDb,1S,Alternate spot to play.
+1H1SDb,2C,Alternate spot to play.
+1H1SDb,2D,Please read chat#Limit raise; Fit.\\If overcaller max; bids game.
+1H1SDb,2H,Alternate spot to play.
+1H1SDb,2N,12+
+1H1SDb,2S,Denies interest in game.
+1H1SDb,3C,Alternate spot to play.
+1H1SDb,3H,Alternate spot to play.
+1H1SDb,3N,To play.
+1H1SDb,3S,NV 
+1H1SDb,4H,To play.
+1H1SDb,4S,To Play.
+1H1SDb,Rd,Exactly 3 card support.
+1H1S--,1H,Alternative spot to play.
+1H1S--,1N,Not Natural; Lebensohl.
+1H1S--1N--,2C,Forced.
+1H1S--1N--2C--,2D,Weak and non forcing; less than 3!S.
+1H1S--1N--2C--,2H,Please read chat#An invitation in NT with a stopper; Overcaller continues with max.
+1H1S--1N--2C--,2S,Please read chat#!S fit. game interest; Overcaller will continue with max.
+1H1S--1N--2C--,3C,!S fit; Mild invite; NF.
+1H1S--1N--2C--,--,Non Forcing.
+1H1S--1N--,2D,11+ HCP; good hand.
+1H1S--1N--,2H,11+ HCP; good hand.
+1H1S--1N--,2S,Min.
+1H1S--1N--,3C,11+ HCP; good hand.
+1H1S--,1S,Alternative spot to play.
+1H1S--,2C,Forcing 1 round.
+1H1S--2C--,2D,weakish hand with a 6-card suit.
+1H1S--2C--,2H,natural and show extras.
+1H1S--2C--,2N,natural and show extras.
+1H1S--2C--,2S,natural and show extras.
+1H1S--,2D,Forcing 1 round.
+1H1S--,2H,Please read chat#A cue-bid is strong and a no-fit game try. Looking game in my suit or NT. 15HCP; Asks pd to further describe the hand.
+1H1S--2H--,2D,weakish hand with a 6-card suit.
+1H1S--2H--,2H,natural and show extras.
+1H1S--2H--,2N,natural and show extras.
+1H1S--2H--,2S,natural and show extras.
+1H1S--,2N,Please read chat#Jacoby style; shows opening hand values with 4-card support or better.
+1H1S--2N--,3C,Please read chat#game-going hands; Shortness in the suit.
+1H1S--2N--,3D,Please read chat#game-going hands; Shortness in the suit.
+1H1S--2N--,3H,Please read chat#game-going hands; Shortness in the suit.
+1H1S--2N--,3N,choice of the games.
+1H1S--2N--,3S,Minimum and is very discouraging.
+1H1S--2N--,4C,6-4 distribution  and max HCP.
+1H1S--2N--,4D,6-4 distribution  and max HCP.
+1H1S--2N--,4H,6-4 distribution  and max HCP.
+1H1S--2N--,4S,max HCP.
+1H1S--,2S,To play.
+1H1S--,3C,Preemptive.
+1H1S--,3D,Preemptive.
+1H1S--,3N,To Play.
+1H1S--,3S,Preemptive.
+1H1S--,4S,To play.
+1H1S--,--,fewer than 4 cards.
+1H,2C,6-14 HCP; Two Level overcall.
+1H2CDb,2D,Please read chat#Good hand for support of C or some other suit.
+1H2CDb,3C,No interest in game.
+1H2CDb,Rd,opening hand; Strong raise.
+1H2C--,2D,NF.
+1H2C--,2H,Please read chat#Good hand for support of C or some other suit.
+1H2C--,2N,Natural and invitational.
+1H2C--,2S,NF.
+1H2C--,3C,Always blocking.
+1H,2D,6-14 HCP; Two Level overcall; 5+!D.
+1H2DDb,2D,Please read chat#Good hand for support of C or some other suit.
+1H2DDb,3C,No interest in game.
+1H2DDb,Rd,opening hand; Strong raise.
+1H2D--,2D,NF.
+1H2D--,2H,Please read chat#Good hand for support of D or some other suit.
+1H2D--,2N,Natural and invitational.
+1H2D--,2S,NF.
+1H2D--,3C,NF.
+1H2D--,3D,Always blocking.
+1H2H3H,3N,To Play.
+1H2H3H,3S,Preference.
+1H2H3H,4D,Preference.
+1H2H3H,4S,To Play.
+1H2H3H,5D,To Play.
+1H,2H,Please read chat#4+ HCP; Two suited cue bid; touching suits; 5+!D and 4+!S. Unlimited HCP.
+1H2HDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1H2HDb2N--,3C,Extras; many shapes.
+1H2HDb2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1H2HDb2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1H2HDb2N--3C--3D--,3N,5-6 losers; !H stopper; 4!S.
+1H2HDb2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1H2HDb2N--3C--3D--,4C,Please read chat#5-6 losers; club void; at least 5-5 !S/!D.
+1H2HDb2N--3C--3D--,4D,4-5; 5 or 6 losers; No club stopper.
+1H2HDb2N--3C--3D--,4H,Please read chat#5-6 losers; heart void; at least 5-5 !S/!D.
+1H2HDb2N--3C--3D--,4S,Please read chat#5-6 losers; 6-5 or better distribution; no voids.
+1H2HDb2N--3C--,3S,Invitational.
+1H2HDb2N--3C--,4D,Invitational.
+1H2HDb2N--,3D,4!S-5!D; Minimum shape and strength.
+1H2HDb2N--,3H,4!S-6!D; minimum.
+1H2HDb2N--,3N,!H stopper; 3-4 losers; 4!S.
+1H2HDb2N--,3S,5!S-5!D or better; minimum.
+1H2HDb2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+1H2HDb2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+1H2HDb2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+1H2HDb2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+1H2HDb,2S,To play.
+1H2HDb,3C,!D fit; High cards.
+1H2HDb,3D,Preference.
+1H2HDb,3H,!S fit; high cards; GF.
+1H2HDb,3N,To Play.
+1H2HDb,3S,Invitational.
+1H2HDb,4D,Preemptive.
+1H2HDb,4S,To Play.
+1H2HDb,5D,To Play.
+1H2H--,2D,To play.
+1H2H--,2H,To play.
+1H2H--,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1H2H--2N--,3C,Extras; many shapes.
+1H2H--2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1H2H--2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1H2H--2N--3C--3D--,3N,5-6 losers; !H stopper; 4!S.
+1H2H--2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1H2H--2N--3C--3D--,4C,Please read chat#5-6 losers; club void; at least 5-5 !S/!D.
+1H2H--2N--3C--3D--,4D,4-5; 5 or 6 losers; No club stopper.
+1H2H--2N--3C--3D--,4H,Please read chat#5-6 losers; heart void; at least 5-5 !S/!D.
+1H2H--2N--3C--3D--,4S,Please read chat#5-6 losers; 6-5 or better distribution; no voids.
+1H2H--2N--3C--,3S,Invitational.
+1H2H--2N--3C--,4D,Invitational.
+1H2H--2N--,3D,4!S-5!D; Minimum shape and strength.
+1H2H--2N--,3H,4!S-6!D; minimum.
+1H2H--2N--,3N,!H stopper; 3-4 losers; 4!S.
+1H2H--2N--,3S,5!S-5!D or better; minimum.
+1H2H--2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+1H2H--2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+1H2H--2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+1H2H--2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+1H2H--,2S,To play.
+1H2H--,3C,!D fit; High cards.
+1H2H--,3D,Preference.
+1H2H--,3H,!S fit; high cards; GF.
+1H2H--,3N,To Play.
+1H2H--,3S,Invitational.
+1H2H--,4D,Preemptive.
+1H2H--,4S,To Play.
+1H2H--,5D,To Play.
+1H2N3C,4C,weak ; To play.
+1H2N3C,Db,Value showing; and tends to deny fit.
+1H2N3D,4C,weak ; To play.
+1H2N3D,Db,Value showing; and tends to deny fit.
+1H2N3H,4C,weak ; To play.
+1H2N3H,Db,Value showing; and tends to deny fit.
+1H2N3S,4C,weak ; To play.
+1H2N3S,Db,Value showing; and tends to deny fit.
+1H,2N,Please read chat#Strong two suiter (8.5 playing tricks) Non-touching suit and another. \\!C  and  !D/!S\\5-5 and the hand is less than 5 losers.
+1H2NDb,3C,To Play.
+1H2NDb----,3C,!C and !D.
+1H2NDb----,Rd,Have !S and !C.
+1H2NDb,Rd,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1H2N--,3C,To Play.
+1H2N--,3D,Please read chat#Tolerance for the anchor !C suit; but  it's still weak. Pass or correct.
+1H2N--,3H,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1H2N--,3S,Please read chat#Tolerance for the anchor !C suit; but  it's still weak. Pass or correct.
+1H2N--,4C,slam try.
+1H2N--,4D,splinter; !C support.
+1H2N--,4H,splinter; !C support.
+1H2N--,4S,splinter; !C support.
+1H2N--,5C,To Play.
+1H2S3H,3N,To Play.
+1H2S3H,3S,To Play.
+1H2S3H,4C,To Play.
+1H2S3H,4D,To Play.
+1H2S3H,4H,Splinter; shortness; slam interest.
+1H2S3H,4S,To Play.
+1H2S3H,5C,To Play.
+1H2S3H,--,To Play.
+1H2S3H,Rd,shows !S fit. Invitational; or values.
+1H,2S,Please read chat#6-14 HCP; Two suited jump overcall; 4+ !S and 5+!C.
+1H2SDb2N3D,3H,minimum; 5!S.
+1H2SDb2N3D,Db,Shows extra; denies 5!S.
+1H2SDb2N3D,--,Denies 5!S.
+1H2SDb,2N,3+ cards in !S; invite or better.
+1H2SDb2N--,3C,shows extras and no big shape.
+1H2SDb2N--3C--,3D,To Play.
+1H2SDb2N--3C--,3H,To Play.
+1H2SDb2N--3C--,3S,general force.
+1H2SDb2N--,3D,shows minimum shape; minimum strength.
+1H2SDb2N--,3H,minimum; 5+!S.
+1H2SDb2N--3H--,3N,To Play.
+1H2SDb2N--3H--,3S,general force.
+1H2SDb2N--3H--,4C,general force. 
+1H2SDb2N--3H--,4D,non-forcing.
+1H2SDb2N--3H--,4H,To Play.
+1H2SDb2N--3H--,5D,To Play.
+1H2SDb2N--,3N,Please read chat#shows extras; one !D stopper and exact 4!S.
+1H2SDb2N--,3S,minimum; 6 !C.
+1H2SDb2N--,4C,Max; extra shape.
+1H2SDb2N--,4D,splinter; extra shape.
+1H2SDb2N--,4H,Max; extra shape; Splinter.
+1H2SDb2N--,4S,splinter; extra shape.
+1H2SDb,3C,To Play.
+1H2SDb3C--,3D,Minimum hand; minimum shape.
+1H2SDb3C--,3H,5-5 better shape and minimum HCP.
+1H2SDb3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1H2SDb3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1H2SDb,3D,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1H2SDb,3H,natural; constructive; non-forcing.
+1H2SDb,3N,To Play.
+1H2SDb,3S,To Play.
+1H2SDb,4C,To Play.
+1H2SDb,4D,Splinter; shortness; slam interest.
+1H2SDb,4H,To Play.
+1H2SDb,4S,To Play.
+1H2SDb,5C,To Play.
+1H2SDb,--,To Play.
+1H2SDb,Rd,shows !S fit. Invitational; or values.
+1H2S--,2H,To Play.
+1H2S--2N3H,Db,Shows extra; denies 5!S.
+1H2S--2N3H,--,Denies 5!S.
+1H2S--,2N,3+ cards in !S; invite or better.
+1H2S--2N--,3C,shows extras and no big shape.
+1H2S--2N--3C--,3D,To Play.
+1H2S--2N--3C--,3H,To Play.
+1H2S--2N--3C--,3S,general force.
+1H2S--2N--,3D,shows minimum shape; minimum strength.
+1H2S--2N--,3H,minimum; 5+!S.
+1H2S--2N--3H--,3N,To Play.
+1H2S--2N--3H--,3S,general force.
+1H2S--2N--3H--,4C,general force. 
+1H2S--2N--3H--,4D,non-forcing.
+1H2S--2N--3H--,4H,To Play.
+1H2S--2N--3H--,5D,To Play.
+1H2S--2N--,3N,Please read chat#shows extras; one !h stopper and exact 4!S.
+1H2S--2N--,3S,minimum; 6 !C.
+1H2S--2N--,4C,Max; extra shape.
+1H2S--2N--,4D,splinter; extra shape.
+1H2S--2N--,4H,Max; extra shape; Splinter.
+1H2S--2N--,4S,splinter; extra shape.
+1H2S--,2S,To Play.
+1H2S--,3C,To Play.
+1H2S--3C--,3D,Minimum hand; minimum shape.
+1H2S--3C--,3H,5-5 better shape and minimum HCP.
+1H2S--3C--,3N,Please read chat#Shows stopper in opponent suit and maximum HCP.
+1H2S--3C--,4C,Please read chat#shortness in opener's suit and maximum HCP and 5-5 distribution.
+1H2S--,3D,To Play.
+1H2S--,3H,Please read chat#Strong game interest; \\Denies support for overcaller's major.\\Natural continuations.
+1H2S--,3N,To Play.
+1H2S--,3S,To Play.
+1H2S--,4C,To Play.
+1H2S--,4D,To Play.
+1H2S--,4H,Splinter; shortness; slam interest.
+1H2S--,4S,To Play.
+1H2S--,5C,To Play.
+1H2S--,--,To Play.
+1H3C3H,3N,Please read chat#To play; or Invitational with high ranking suit !D; tends to show stopper !S and !H.
+1H3C3H3N--,4C,4-6 shape and a weak hand.
+1H3C3H3N--,4D,5-5 shape and a weak hand.
+1H3C3H3N--,4N,Max HCP.
+1H3C3H3N--,--,a minimum shape and size.
+1H3C3H,3S,To Play.
+1H3C3H3S--,3N,Please read chat#A stopper in opener's suit and maximum HCP.
+1H3C3H3S--,4C,minimum hand with minimum shape.
+1H3C3H3S--,4D,5-5 or better shape with minimum HCP.
+1H3C3H3S--,4H,Please read chat#shortness in !H; at least 5-5 distribution; and maximum HCP.
+1H3C3H3S--,4S,Please read chat#shortness in !S; at least 5-5 distribution; and maximum HCP.
+1H3C3H3S--,5C,6-4 distribution with some extra HCP.
+1H3C3H3S--,5D,Please read chat#Distribution with some extra HCP.  5-5; or better; average values.
+1H3C3H,4C,Preemptive.
+1H3C3H,4D,Preemptive.
+1H3C3H,4S,To Play.
+1H3C3H,5C,To Play.
+1H3C3H,5D,To Play.
+1H3C3H,Db,Penalty.
+1H3C3H,--,To Play.
+1H3C3S,3N,Please read chat#To play; or Invitational with high ranking suit !D; tends to show stopper !S and !H.
+1H3C3S3N--,4C,4-6 shape and a weak hand.
+1H3C3S3N--,4D,5-5 shape and a weak hand.
+1H3C3S3N--,4N,Max HCP.
+1H3C3S3N--,--,a minimum shape and size.
+1H3C3S,Db,Penalty.
+1H3C3S,--,To Play.
+1H,3C,Please read chat#6-14 HCP; Two suited Jump overcall; 5+!C and 5+!D
+1H3CDb,Rd,Game interest in !D also.
+1H3C--,3D,To Play.
+1H3C--,3H,Stopper ask?
+1H3C--,3N,To Play.
+1H3C--3N--,4C,
+1H3C--3N--,4D,4-6 shape and a weak hand.
+1H3C--3N--,4H,5-5 shape and a weak hand.
+1H3C--3N--,4N,Max HCP.
+1H3C--3N--,4S,To show 5-5 shape and good values.
+1H3C--3N--,--,A minimum shape and size.
+1H3C--,3S,To Play.
+1H3C--3S--,3N,Please read chat#A stopper in opener's suit and maximum HCP.
+1H3C--3S--,4C,
+1H3C--3S--,4D,minimum hand with minimum shape.
+1H3C--3S--,4H,5-5 or better shape with minimum HCP.
+1H3C--3S--,4S,Please read chat#shortness in !S; at least 5-5 distribution; and maximum HCP.
+1H3C--3S--,5C,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP
+1H3C--3S--,5D,6-4 distribution with some extra HCP
+1H3C--3S--,5H,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP
+1H3C--,4C,Preemptive.
+1H3C--,4D,Preemptive.
+1H3C--,4S,To Play.
+1H3C--,5C,To Play.
+1H3C--,5D,To Play.
+1H3C--,--,To Play.
+1H,3D,12-17 HCP; Intermediate Jump overcall.
+1H,3H,Asks for stopper in !H for 3NT.
+1H,3N,To play.
+1H,3S,12-17 HCP; Intermediate Jump overcall. 
+1H,4C,Natural.
+1H,4D,Please read chat#NAMYATS; Good 4!S bid; \\at least 7-9 card !Ss; No void.
+1H4D--,4H,Key Card Blackwood (Based On 5 KC).
+1H4D--4H--,4N,2 Key Cards without Q !S.
+1H4D--4H--,4S,1 Key Card and Q !S.
+1H4D--4H--,5C,2 Key Cards and Q !S.
+1H,4S,Preemptive 4!S bid.
+Error *001H=NYYYYYY008When RHO opens: 1!H.|,1H,When RHO opens: 1!H.
+1HDb1N,2C,compete.
+1HDb1N,2D,compete.
+1HDb1N,2H,Asks for best suit.
+1HDb1N,2S,compete.
+1HDb1N,Db,Negative dbl For unbid suits.
+1HDb1S,2C,compete.
+1HDb1S,2D,compete.
+1HDb1S,2H,Asks for best suit.
+1HDb1S,2S,compete.
+1HDb1S,Db,Negative dbl For unbid suits.
+1HDb2C,2D,Asks for best suit.
+1HDb2C,2H,compete.
+1HDb2C,2S,compete.
+1HDb2C,Db,Negative dbl For unbid suits.
+1HDb2D,2H,Asks for best suit.
+1HDb2D,2S,compete.
+1HDb2D,3C,compete.
+1HDb2D,Db,Negative dbl For unbid suits.
+1HDb2H,2S,compete.
+1HDb2H,3C,compete.
+1HDb2H,3D,compete.
+1HDb2H,Db,Negative dbl For unbid suits.
+1H,Db,15+ HCP; Tends to be Balanced.
+1HDb--,1D,0-7 HCP.
+1HDb--,1H,0-7 HCP.
+1HDb--,1N,4-7HCP and at least a stopper.
+1HDb--,1S,0-7 HCP.
+1HDb--,2C,0-7 HCP.
+1HDb--,2D,0-7 HCP.
+1HDb--,2H,Asks pd to bid the best suit.
+1HDb--,2N,8-9 HCP and at least a stopper.
+1HDb--,2S,7+ HCP.
+1HDb--,3C,8+ HCP.
+1HDb--,3D,8+ HCP.
+1HDb--,3N,10-14 HCP and at least a stopper.
+1N,2C,!C+!H. 4-4 or better.
+1N,2D,!D+!S. 4-4 or better.
+1N,2H,6+!H.
+1N,2N,!C+!D; 5-5
+1N,2S,6+!S.
+1N,3C,6+!C.
+1N,3D,5-5 Majors !S+!H
+Error *001N=NYYYYYY0When opps open 1NT.|,1N,When opps open 1NT.
+1N,Db,!S+ may be any suit. 4-4 or better.
+1N,--,No biddable suit.
+1S1N2C,2D,To Play or Lead directing.
+1S1N2C,2H,To Play or Lead directing.
+1S1N2C,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1S1N2C,2S,Game invitation; good hand.
+1S1N2C,Db,Please read chat#Responsive dbl; for one of the unbid  suits.
+1S1N2D,2H,To Play or Lead directing.
+1S1N2D,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1S1N2D,2S,Game invitation; good hand.
+1S1N2D,3C,To Play or lead directing.
+1S1N2D,Db,Please read chat#Responsive dbl; for one of the unbid  suits.
+1S1N2H,2N,Please read chat#Distributional; unbid suits with a weaker hand.
+1S1N2H,2S,Game invitation; good hand.
+1S1N2H,3C,To Play or lead directing.
+1S1N2H,3D,To Play or lead directing.
+1S1N2H,Db,Please read chat#Responsive dbl; for one of the unbid  suits.
+1S,1N,Please read chat#Takeout; 6-14 HCP; 3 card support for all unbid suits.
+1S1NDb,2C,5+ cards.
+1S1NDb,2D,5+ cards.
+1S1NDb,2H,5+ cards.
+1S1NDb,--,Denies 4!H and 5 card suit.
+1S1NDb----,2C,Trying to find 44 fit runout.
+1S1NDb----,2D,Trying to find 44 fit runout.
+1S1NDb----,Rd,5 card suit somewhere.
+1S1NDb----Rd--,2C,Pass or correct.
+1S1NDb,Rd,4 cards in !H.
+1S1N--,2C,Natural.
+1S1N--,2D,Natural.
+1S1N--,2H,Natural.
+1S1N--,2N,2 lowest unbid suits. !C and !D.
+1S1N--,2S,Please read chat#an invitational hand or ask for 4 card major?
+1S1N--,3C,Preemptive.
+1S1N--,3D,Preemptive.
+1S1N--,3H,Preemptive.
+1S,2C,6-14 HCP; Two Level overcall.
+1S2CDb,2S,Please read chat#Good hand for support of C or some other suit.
+1S2CDb,3C,No interest in game.
+1S2CDb,Rd,opening hand; Strong raise.
+1S2C--,2D,NF.
+1S2C--,2H,NF.
+1S2C--,2N,Natural and invitational.
+1S2C--,2S,Please read chat#Good hand for support of C or some other suit.
+1S2C--,3C,Always blocking.
+1S,2D,6-14 HCP; Two Level overcall ; 5+!D.
+1S2DDb,2S,Please read chat#Good hand for support of !D or some other suit.
+1S2DDb,3D,No interest in game.
+1S2DDb,Rd,opening hand; Strong raise.
+1S2D--,2D,NF.
+1S2D--,2H,NF.
+1S2D--,2N,Natural and invitational.
+1S2D--,2S,Please read chat#Good hand for support of !D or some other suit.
+1S2D--,3C,NF.
+1S2D--,3D,Blocking.
+1S,2H,6-14 HCP; Two Level overcall.
+1S2HDb,2S,Please read chat#Good hand for support of !H or some other suit.
+1S2HDb,3H,No interest in game.
+1S2HDb,Rd,opening hand; Strong raise.
+1S2H--,2D,NF.
+1S2H--,2H,NF.
+1S2H--,2N,Natural and invitational.
+1S2H--,2S,Please read chat#Good hand for support of H or some other suit.
+1S2H--,3C,To Play.
+1S2H--,3D,To Play.
+1S2H--,3H,Blocking.
+1S2N3C,3D,To play.
+1S2N3C,4D,weak ; To play.
+1S2N3C,Db,Value showing; and tends to deny fit.
+1S2N3D,4D,weak ; To play.
+1S2N3D,Db,Please read chat#Value showing; and tends to deny fit !D.
+1S2N3H,4D,weak ; To play.
+1S2N3H,Db,Please read chat#Value showing; and tends to deny fit !D.
+1S2N3S,4D,weak ; To play.
+1S2N3S,Db,Please read chat#Value showing; and tends to deny fit !D.
+1S,2N,Please read chat#Strong two suiter (8.5 playing tricks) Non-touching suit and another. \\!D  and  !C/!H\\5-5 and the hand is less than 5 losers.
+1S2NDb,3D,To Play.
+1S2NDb----,3C,!C and !D.
+1S2NDb----,Rd,Have !D and !H.
+1S2NDb,Rd,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1S2N--,3C,Please read chat#Weak hand; looking to play in the back-up suit !C or !H.
+1S2N--,3D,To Play.
+1S2N--,3H,Please read chat#Tolerance for the anchor !D suit; but  it's still weak. Pass or correct.
+1S2N--,3S,Please read chat#Asks pd to further describe the hand. 1 Quick Trick.
+1S2N--,4C,splinter; !D support.
+1S2N--,4D,Slam try.
+1S2N--,4H,splinter; !D support.
+1S2N--,4S,splinter; !D support.
+1S2N--,5D,To Play.
+1S2S3S,3N,To Play.
+1S2S3S,4C,Preemptive.
+1S2S3S,4H,To Play.
+1S2S3S,5C,To Play.
+1S2S3S,5D,To Play.
+1S,2S,Please read chat#6+ HCP; Two suited cue bid; Touching suits; 5+!H and 5+!C. Unlimited HCP.
+1S2SDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1S2SDb2N--,3C,5!H-5!C; Minimum shape and strength.
+1S2SDb2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1S2SDb2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1S2SDb2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+1S2SDb2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1S2SDb2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+1S2SDb2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+1S2SDb2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+1S2SDb2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+1S2SDb2N--3C--,3S,Invitational.
+1S2SDb2N--3C--,4D,Invitational.
+1S2SDb2N--,3D,Extras; many shapes.
+1S2SDb2N--3D--,3H,Invitational.
+1S2SDb2N--3D--,3S,Asks pd to further describe the hand.
+1S2SDb2N--3D--3S--,3N,5-6 losers; spade stop; denies 5!H
+1S2SDb2N--3D--3S--,4C,Please read chat#5-5+ distribution; 5 or 6 losers; !S void.
+1S2SDb2N--3D--3S--,4D,Please read chat#5-6 losers; !D void; at least 5-5 !H/!C.
+1S2SDb2N--3D--3S--,4H,Please read chat#5 or 6 losers; 5-5 or better distribution; no void.
+1S2SDb2N--3D--3S--,4N,Please read chat#3-4 losers; 4-5 or better distribution; No !S stopper.
+1S2SDb2N--3D--,4C,Invitational.
+1S2SDb2N--,3H,6!H-5!C or better; minimum.
+1S2SDb2N--,3N,!S stopper; 3-4 losers; 5!H.
+1S2SDb2N--,3S,5!H-6!C or better shape; minimum.
+1S2SDb2N--,4C,Please read chat#4!H-6!C shape; No void; at most 4 losers.
+1S2SDb2N--,4D,Please read chat#!D void; 5!H-5!C or better; at most 4 losers.
+1S2SDb2N--,4H,Please read chat#5-5 or 5-6 !H/!C; no void; 3 or 4 losers.
+1S2SDb2N--,4S,Please read chat#!S void; 5!H-5!C or better; at most 4 losers.
+1S2SDb,3C,To play.
+1S2SDb,3D,!C fit; high cards; GF.
+1S2SDb,3H,Preference.
+1S2SDb,3N,To Play.
+1S2SDb,3S,!H fit; high cards; GF.
+1S2SDb,4C,Preemptive.
+1S2SDb,4H,To Play.
+1S2SDb,5C,To Play.
+1S2SDb,5D,To Play.
+Error *001S2SDD2D=NYYYYYY124To play.|1S2SDbDb,2D,To play.
+Error *001S2SDD2H=NYYYYYY158To play.|1S2SDbDb,2H,To play.
+Error *001S2SDD2N=NYYYYYYCAsks pd to further describe the hand.\\Invite+|1S2SDbDb,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+Error *001S2SDD2NP3C=YYYYYYYE08Extras, many shapes.|1S2SDbDb2N--,3C,Extras; many shapes.
+Error *001S2SDD2NP3CP3D=YYYYYYYD08Asks pd to further re-describe the hand.|1S2SDbDb2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+Error *001S2SDD2NP3CP3DP3H=NYYYYYY3464-6 or better, 5 or 6 losers.|1S2SDbDb2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+Error *001S2SDD2NP3CP3DP3N=NYYYYYY35-6 losers, club stop, denies 5 spades.|1S2SDbDb2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+Error *001S2SDD2NP3CP3DP3S=NYYYYYY3565-5 or better, 5 or 6 losers.|1S2SDbDb2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+Error *001S2SDD2NP3CP3DP4C=YYYYYYY8005-6 losers, club void, at least 5-5.|1S2SDbDb2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+Error *001S2SDD2NP3CP3DP4D=YYYYYYY8454-5, 5 or 6 losers, no club stop.|1S2SDbDb2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+Error *001S2SDD2NP3CP3DP4H=YYYYYYY8005-6 losers, heart void, at least 5-5.|1S2SDbDb2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+Error *001S2SDD2NP3CP3DP4S=NYYYYYY3565-6 losers, 6-5 or better, no voids.|1S2SDbDb2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+Error *001S2SDD2NP3CP3S=NYYYYYY448Invitational.|1S2SDbDb2N--3C--,3S,Invitational.
+Error *001S2SDD2NP3CP4D=NYYYYYY448Invitational.|1S2SDbDb2N--3C--,4D,Invitational.
+Error *001S2SDD2NP3D=NYYYYYY2454!S-5!D, Minimum shape and strength.|1S2SDbDb2N--,3D,4!S-5!D; Minimum shape and strength.
+Error *001S2SDD2NP3H=NYYYYYY3184!S-6!D, minimum.|1S2SDbDb2N--,3H,4!S-6!D; minimum.
+Error *001S2SDD2NP3N=NYYYYYY3!C stopper, 3-4 losers, 4!S.|1S2SDbDb2N--,3N,!C stopper; 3-4 losers; 4!S.
+Error *001S2SDD2NP3S=NYYYYYY3585!S-5!D or better, minimum.|1S2SDbDb2N--,3S,5!S-5!D or better; minimum.
+Error *001S2SDD2NP4C=YYYYYYY800!C void, 5!S-5!D or better, at most 4 losers.|1S2SDbDb2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+Error *001S2SDD2NP4D=NYYYYYY3684!S-6!D shape, No void, at most 4 losers.|1S2SDbDb2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+Error *001S2SDD2NP4H=YYYYYYY800!H void, 5!S-5!D or better, at most 4 losers.|1S2SDbDb2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+Error *001S2SDD2NP4S=NYYYYYY3555-5 or 5-6, no void, 3 or 4 losers.|1S2SDbDb2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+Error *001S2SDD2S=NYYYYYY138To play.|1S2SDbDb,2S,To play.
+Error *001S2SDD3C=YYYYYYY608!D fit, High cards.|1S2SDbDb,3C,!D fit; High cards.
+Error *001S2SDD3D=NYYYYYY945Preemptive.|1S2SDbDb,3D,Preemptive.
+Error *001S2SDD3H=NYYYYYY608!S fit, high cards, GF.|1S2SDbDb,3H,!S fit; high cards; GF.
+Error *001S2SDD3N=NYYYYYY1To Play.|1S2SDbDb,3N,To Play.
+Error *001S2SDD3S=NYYYYYY448Invitational.|1S2SDbDb,3S,Invitational.
+Error *001S2SDD4D=NYYYYYY148Preemptive.|1S2SDbDb,4D,Preemptive.
+Error *001S2SDD4H=NYYYYYY168To Play.|1S2SDbDb,4H,To Play.
+Error *001S2SDD4S=NYYYYYY148To Play.|1S2SDbDb,4S,To Play.
+Error *001S2SDD5D=NYYYYYY148To Play.|1S2SDbDb,5D,To Play.
+1S2S--,2D,To play.
+1S2S--,2H,To play.
+1S2S--,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+1S2S--2N--,3C,5!H-5!C; Minimum shape and strength.
+1S2S--2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+1S2S--2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+1S2S--2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+1S2S--2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+1S2S--2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+1S2S--2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+1S2S--2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+1S2S--2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+1S2S--2N--3C--,3S,Invitational.
+1S2S--2N--3C--,4D,Invitational.
+1S2S--2N--,3D,Extras; many shapes.
+1S2S--2N--3D--,3H,Invitational.
+1S2S--2N--3D--,3S,Asks pd to further describe the hand.
+1S2S--2N--3D--3S--,3N,5-6 losers; spade stop; denies 5!H.
+1S2S--2N--3D--3S--,4C,Please read chat#5-5+ distribution; 5 or 6 losers; !S void.
+1S2S--2N--3D--3S--,4D,Please read chat#5-6 losers; !D void; at least 5-5 !H/!C.
+1S2S--2N--3D--3S--,4H,Please read chat#5 or 6 losers; 5-5 or better distribution; no void.
+1S2S--2N--3D--3S--,4N,Please read chat#3-4 losers; 4-5 or better distribution; No !S stopper.
+1S2S--2N--3D--,4C,Invitational.
+1S2S--2N--,3H,6!H-5!C or better; minimum.
+1S2S--2N--,3N,!S stopper; 3-4 losers; 5!H.
+1S2S--2N--,3S,5!H-6!C or better shape; minimum.
+1S2S--2N--,4C,Please read chat#4!H-6!C shape; No void; at most 4 losers.
+1S2S--2N--,4D,Please read chat#!D void; 5!H-5!C or better; at most 4 losers.
+1S2S--2N--,4H,Please read chat#5-5 or 5-6 !H/!C; no void; 3 or 4 losers.
+1S2S--2N--,4S,Please read chat#!S void; 5!H-5!C or better; at most 4 losers.
+1S2S--,2S,To play.
+1S2S--,3C,To play.
+1S2S--,3D,!C fit; high cards; GF.
+1S2S--,3H,Preference.
+1S2S--,3N,To Play.
+1S2S--,3S,!H fit; high cards; GF.
+1S2S--,4C,Preemptive.
+1S2S--,4H,To Play.
+1S2S--,5C,To Play.
+1S2S--,5D,To Play.
+Error *001S2SPD2D=NYYYYYY124To play.|1S2S--Db,2D,To play.
+Error *001S2SPD2H=NYYYYYY158To play.|1S2S--Db,2H,To play.
+Error *001S2SPD2N=NYYYYYYCAsks pd to further describe the hand.\\Invite+|1S2S--Db,2N,Please read chat#Asks pd to further describe the hand.\\Invite+
+Error *001S2SPD2NP3C=YYYYYYYE08Extras, many shapes.|1S2S--Db2N--,3C,Extras; many shapes.
+Error *001S2SPD2NP3CP3D=YYYYYYYD08Asks pd to further re-describe the hand.|1S2S--Db2N--3C--,3D,Please read chat#Asks pd to further re-describe the hand.
+Error *001S2SPD2NP3CP3DP3H=NYYYYYY3464-6 or better, 5 or 6 losers.|1S2S--Db2N--3C--3D--,3H,4-6 or better; 5 or 6 losers.
+Error *001S2SPD2NP3CP3DP3N=NYYYYYY35-6 losers, club stop, denies 5 spades.|1S2S--Db2N--3C--3D--,3N,5-6 losers; club stop; denies 5 spades.
+Error *001S2SPD2NP3CP3DP3S=NYYYYYY3565-5 or better, 5 or 6 losers.|1S2S--Db2N--3C--3D--,3S,5-5 or better; 5 or 6 losers.
+Error *001S2SPD2NP3CP3DP4C=YYYYYYY8005-6 losers, club void, at least 5-5.|1S2S--Db2N--3C--3D--,4C,5-6 losers; club void; at least 5-5.
+Error *001S2SPD2NP3CP3DP4D=YYYYYYY8454-5, 5 or 6 losers, no club stop.|1S2S--Db2N--3C--3D--,4D,4-5; 5 or 6 losers; no club stop.
+Error *001S2SPD2NP3CP3DP4H=YYYYYYY8005-6 losers, heart void, at least 5-5.|1S2S--Db2N--3C--3D--,4H,5-6 losers; heart void; at least 5-5.
+Error *001S2SPD2NP3CP3DP4S=NYYYYYY3565-6 losers, 6-5 or better, no voids.|1S2S--Db2N--3C--3D--,4S,5-6 losers; 6-5 or better; no voids.
+Error *001S2SPD2NP3CP3S=NYYYYYY448Invitational.|1S2S--Db2N--3C--,3S,Invitational.
+Error *001S2SPD2NP3CP4D=NYYYYYY448Invitational.|1S2S--Db2N--3C--,4D,Invitational.
+Error *001S2SPD2NP3D=NYYYYYY2454!S-5!D, Minimum shape and strength.|1S2S--Db2N--,3D,4!S-5!D; Minimum shape and strength.
+Error *001S2SPD2NP3H=NYYYYYY3184!S-6!D, minimum.|1S2S--Db2N--,3H,4!S-6!D; minimum.
+Error *001S2SPD2NP3N=NYYYYYY3!C stopper, 3-4 losers, 4!S.|1S2S--Db2N--,3N,!C stopper; 3-4 losers; 4!S.
+Error *001S2SPD2NP3S=NYYYYYY3585!S-5!D or better, minimum.|1S2S--Db2N--,3S,5!S-5!D or better; minimum.
+Error *001S2SPD2NP4C=YYYYYYY800!C void, 5!S-5!D or better, at most 4 losers.|1S2S--Db2N--,4C,Please read chat#!C void; 5!S-5!D or better; at most 4 losers.
+Error *001S2SPD2NP4D=NYYYYYY3684!S-6!D shape, No void, at most 4 losers.|1S2S--Db2N--,4D,Please read chat#4!S-6!D shape; No void; at most 4 losers.
+Error *001S2SPD2NP4H=YYYYYYY800!H void, 5!S-5!D or better, at most 4 losers.|1S2S--Db2N--,4H,Please read chat#!H void; 5!S-5!D or better; at most 4 losers.
+Error *001S2SPD2NP4S=NYYYYYY3555-5 or 5-6, no void, 3 or 4 losers.|1S2S--Db2N--,4S,5-5 or 5-6; no void; 3 or 4 losers.
+Error *001S2SPD2S=NYYYYYY138To play.|1S2S--Db,2S,To play.
+Error *001S2SPD3C=YYYYYYY608!D fit, High cards.|1S2S--Db,3C,!D fit; High cards.
+Error *001S2SPD3D=NYYYYYY945Preemptive.|1S2S--Db,3D,Preemptive.
+Error *001S2SPD3H=NYYYYYY608!S fit, high cards, GF|1S2S--Db,3H,!S fit; high cards; GF
+Error *001S2SPD3N=NYYYYYY1To Play.|1S2S--Db,3N,To Play.
+Error *001S2SPD3S=NYYYYYY448Invitational.|1S2S--Db,3S,Invitational.
+Error *001S2SPD4D=NYYYYYY148Preemptive.|1S2S--Db,4D,Preemptive.
+Error *001S2SPD4H=NYYYYYY168To Play.|1S2S--Db,4H,To Play.
+Error *001S2SPD4S=NYYYYYY148To Play.|1S2S--Db,4S,To Play.
+Error *001S2SPD5D=NYYYYYY148To Play.|1S2S--Db,5D,To Play.
+1S3C3H,3N,Please read chat#To play; or Invitational  with high ranking suit !D; tends to show stopper !S and !H.
+1S3C3H3N--,4C,4-6 shape and a weak hand.
+1S3C3H3N--,4D,5-5 shape and a weak hand.
+1S3C3H3N--,4N,Max HCP.
+1S3C3H3N--,--,a minimum shape and size.
+1S3C3H,3S,Game interest in !D also.
+1S3C3H3S--,3N,Please read chat#A stopper in opener's suit and maximum HCP.
+1S3C3H3S--,4C,minimum hand with minimum shape.
+1S3C3H3S--,4D,5-5 or better shape with minimum HCP
+1S3C3H3S--,4H,Please read chat#shortness in !H; at least 5-5 distribution; and maximum HCP.
+1S3C3H3S--,4S,Please read chat#shortness in !S; at least 5-5 distribution; and maximum HCP.
+1S3C3H3S--,5C,6-4 distribution with some extra HCP.
+1S3C3H3S--,5D,Please read chat#Distribution with some extra HCP.  5-5; or better; average values.
+1S3C3H,Db,Penalty.
+1S3C3H,--,To Play.
+1S3C3S,3N,Please read chat#To play; or Invitational  with high ranking suit !D; tends to show stopper !S and !H.
+1S3C3S3N--,4C,4-6 shape and a weak hand.
+1S3C3S3N--,4D,5-5 shape and a weak hand.
+1S3C3S3N--,4N,Max HCP.
+1S3C3S3N--,--,a minimum shape and size.
+1S3C3S,Db,Penalty.
+1S3C3S,--,To Play.
+1S,3C,Please read chat#6-14 HCP; Two suited Jump overcall; 5+!C and 5+!D.
+1S3CDb,Rd,Game interest in !H also.
+1S3C--,3D,To Play
+1S3C--,3H,To Play.
+1S3C--,3N,To Play.
+1S3C--3N--,4C,
+1S3C--3N--,4D,4-6 shape and a weak hand.
+1S3C--3N--,4H,5-5 shape and a weak hand.
+1S3C--3N--,4N,Max HCP.
+1S3C--3N--,4S,To show 5-5 shape and good values.
+1S3C--3N--,--,A minimum shape and size.
+1S3C--,3S,Stopper ask?
+1S3C--3S--,3N,Please read chat#A stopper in opener's suit and maximum HCP.
+1S3C--3S--,4C,
+1S3C--3S--,4D,minimum hand with minimum shape.
+1S3C--3S--,4H,5-5 or better shape with minimum HCP.
+1S3C--3S--,4S,Please read chat#shortness in !S; at least 5-5 distribution; and maximum HCP.
+1S3C--3S--,5C,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP.
+1S3C--3S--,5D,6-4 distribution with some extra HCP.
+1S3C--3S--,5H,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP.
+1S3C--,4C,Preemptive.
+1S3C--,4D,Preemptive.
+1S3C--,4H,To Play.
+1S3C--,5C,To Play.
+1S3C--,5D,To Play.
+1S3C--,--,To Play.
+1S,3D,Please read chat#6-14 HCP; Two suited Jump overcall; 5+!D and 5+!H.
+1S3DDb,Rd,Game interest in !H also.
+1S3D--,3D,To Play
+1S3D--,3H,To Play.
+1S3D--,3N,To Play.
+1S3D--3N--,4C,
+1S3D--3N--,4D,4-6 shape and a weak hand.
+1S3D--3N--,4H,5-5 shape and a weak hand.
+1S3D--3N--,4N,Max HCP.
+1S3D--3N--,4S,To show 5-5 shape and good values.
+1S3D--3N--,--,A minimum shape and size.
+1S3D--,3S,Stopper ask.
+1S3D--3S--,3N,Please read chat#A stopper in opener's suit and maximum HCP.
+1S3D--3S--,4C,
+1S3D--3S--,4D,minimum hand with minimum shape.
+1S3D--3S--,4H,5-5 or better shape with minimum HCP.
+1S3D--3S--,4S,Please read chat#shortness in !S; at least 5-5 distribution; and maximum HCP.
+1S3D--3S--,5C,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP.
+1S3D--3S--,5D,6-4 distribution with some extra HCP.
+1S3D--3S--,5H,Please read chat#Distribution with some extra HCP.  5-5; or better; Max HCP.
+1S3D--,4C,Natural; constructive; non forcing.
+1S3D--,4D,Preemptive.
+1S3D--,4H,To Play.
+1S3D--,5C,To Play.
+1S3D--,5D,To Play.
+1S3D--,--,To Play.
+1S,3H,Please read chat#12-17 HCP; (7-6) Cards; Intermediate Jump overcall. Suit quality 1 loser max.
+1S3H--,4C,
+1S3H--,4D,
+1S3H--,4H,
+1S3H--,4S,
+1S,3N,To play.
+1S,3S,Asks for stopper in !S for 3NT.
+1S,4C,Please read chat#NAMYATS; Good 4!H bid; \\at least 7-9 card !Hs; No void.
+1S4C--,4D,Please read chat#Key card blackwood - Asking controls (Based on 5KC).
+1S4C--4D--,4H,1 Key Card and Q!H.
+1S4C--4D--,4N,2 Key Cards and Q!H.
+1S4C--4D--,4S,2 Key Cards without Q!H.
+1S4C--,4H,To play.
+1S,4D,Preemptive; Natural.
+1S,4H,Preemptive 4!H bid.
+Error *001S=NYYYYYY008When RHO opens: 1!S.|,1S,When RHO opens: 1!S.
+1SDb1N,2C,compete.
+1SDb1N,2D,compete.
+1SDb1N,2H,compete.
+1SDb1N,2S,Asks for best suit.
+1SDb1N,Db,Negative dbl For unbid suits.
+1SDb2C,2D,compete.
+1SDb2C,2H,compete.
+1SDb2C,2S,Asks for best suit.
+1SDb2C,Db,Negative dbl For unbid suits.
+1SDb2D,2H,compete.
+1SDb2D,2S,Asks for best suit.
+1SDb2D,3C,compete.
+1SDb2D,Db,Negative dbl For unbid suits.
+1SDb2H,2S,Asks for best suit.
+1SDb2H,3C,compete.
+1SDb2H,3D,compete.
+1SDb2H,Db,Negative dbl For unbid suits.
+1S,Db,15+ HCP; Tends to be Balanced.
+1SDb--,1D,0-7 HCP.
+1SDb--,1H,0-7 HCP.
+1SDb--,1N,4-7HCP and at least a stopper.
+1SDb--,1S,0-7 HCP.
+1SDb--,2C,0-7 HCP
+1SDb--,2D,0-7 HCP.
+1SDb--,2H,0-7 HCP.
+1SDb--,2N,8-9 HCP and at least a stopper.
+1SDb--,2S,Asks pd to bid the best suit.
+1SDb--,3C,8+ HCP.
+1SDb--,3D,8+ HCP.
+1SDb--,3H,8+ HCP.
+1SDb--,3N,10-14 HCP and at least a stopper.
+2C,2N,Asking for minors.
+Error *002C=NYYYYYY008Strong clubs, Artificical.|,2C,Strong clubs; Artificical.
+2C,Db,Asking for Majors.
+2D2H3D,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !C+!S; \\2 or fewer !H's.
+2D,2H,10-17 HCP.\\(Assume pd has 7 HCP).
+2D2H--,2N,10-12 HCP. !D stopper.
+2D2H--,2S,Forcing; 5+-card suit.
+2D2H--,3C,Forcing; 5+-card suit.
+2D2H--,3D,Please read chat#Strong raise of partners suit; forcing to game.
+2D2H--,3H,8-10 pts. and 3+-card support
+2D2H--,3S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2H--,4C,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2H--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2H--,4H,To Play.
+2D2H--,--,0-7 pts.
+2D,2N,14-18 pts. balanced with stopper(s).
+2D2N--,3C,Stayman asking bid.
+2D2N--,3D,Transfer to 3!H.
+2D2N--,3H,Transfer to 3!S.
+2D2S3D,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !C+!H; \\2 or fewer !S's.
+2D,2S,10-17 HCP.\\(Assume pd has 7 HCP).
+2D2S--,2N,10-12 HCP. !D stopper.
+2D2S--,2S,Forcing; 5+-card suit.
+2D2S--,3C,Forcing; 5+-card suit.
+2D2S--,3D,Please read chat#Strong raise of partners suit; forcing to game.
+2D2S--,3H,Forcing; 5+-card suit.
+2D2S--,3S,8-10 pts. and 3+-card support
+2D2S--,4C,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2S--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2S--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D2S--,4S,To Play. 
+2D2S--,--,0-7 pts.
+2D3C3D,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !H+!S; \\2 or fewer !C's.
+2D,3C,10-17 HCP.\\(Assume pd has 7 HCP).
+2D3C--,2S,Forcing; 5+-card suit.
+2D3C--,3C,Forcing; 5+-card suit.
+2D3C--,3D,Please read chat#Strong raise of partners suit; forcing to game.
+2D3C--,3H,Forcing; 5+-card suit.
+2D3C--,3N,To Play.
+2D3C--,3S,Forcing; 5+-card suit.
+2D3C--,4C,8-10 pts. and 3+-card support.
+2D3C--,4D,Void; slam interest.
+2D3C--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D3C--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2D3C--,--,0-7 pts.
+2D,3D,Please read chat#Asks for stopper \\or bid cheapest suit.
+2D3D--,3H,No stopper in !D; cheapest 3 card suit.
+2D3D--,3N,Stopper in !D.
+2D3D--,3S,No stopper in !D; cheapest 3 card suit.
+2D3D--,4C,No stopper in !D; cheapest 4 card suit.
+2D,3H,16+ pts.; very strong 6+-card suit.
+2D,3N,Please read chat#16+ pts. with stopper and a long running minor. This jump may usually denies takeout-double shape.
+2D,3S,16+ pts.; very strong 6+-card suit
+2D,4D,!S+!H; Asks for majors?
+Error *002D=NYYYYYY008Opponent's Preempt opening:|,2D,Opponent's Preempt opening:
+2D,Db,Please read chat#12+ pts.; shortness in their suit.\\3-4+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+2DDb--,2H,0-7 pts; cheapest suit.
+2DDb--2H--,2N,18+ pts. balanced with stopper(s).
+2DDb--2H--,2S,17+ pts.\\Strong 5+-card suit.
+2DDb--2H--,3C,17+ pts.\\Strong 5+-card suit.
+2DDb--2H--,3D,Asking stopper.
+2DDb--2H--,3H,15-17+ pts.
+2DDb--2H--,3N,Please read chat#16-22+ pts. with stoppers and support for unbid suits.
+2DDb--2H--,4H,To Play.
+2DDb--,2N,Relay. Pard to bid 3!C.
+2DDb--2N--,3C,Please read chat#Forced to bid 3!C.\\Can refuse with Game Forcing hand.
+2DDb--2N--3C--,3D,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2DDb--2N--3C--,3H,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2DDb--2N--3C--,3S,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2DDb--2N--3C--,4D,Two suited Slam try. !S and !H.
+2DDb--2N--3C--,4H,Two suited Slam try. !C and !H.
+2DDb--2N--3C--,4S,Two suited Slam try. !C and !S.
+2DDb--2N--3C--,--,!C suit; minimum to play.
+2DDb--,2S,0-7 pts; cheapest suit.
+2DDb--2S--,3C,17+; Strong 5 card suit.
+2DDb--2S--,3D,Asking stopper?
+2DDb--2S--,3H,17+ pts.\\Strong 5+-card suit
+2DDb--2S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2DDb--2S--,3S,15-17+ pts.
+2DDb--2S--,4H,To Play.
+2DDb--,3C,0-7 pts; cheapest suit.
+2DDb--3C--,3H,17+ pts.\\Strong 5+-card suit
+2DDb--3C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2DDb--3C--,3S,17+ pts.\\Strong 5+-card suit
+2DDb--3C--,4D,Please read chat#20+ pts. Cue-bid; Game Forcing. Slam try. 
+2DDb--,3D,Asking for a stopper.
+2DDb--3D--,3N,Stopper in !D.
+2DDb--3D--3N--,4C,Please read chat#Shows slam-try values with one long suit.
+2DDb--3D--3N--,4H,Please read chat#Shows slam-try values with one long suit.
+2DDb--3D--3N--,4S,Please read chat#Shows slam-try values with one long suit.
+2DDb--,3H,8-10 pts. and a 5-card suit.
+2DDb--3H--,3H,18+ pts.\\Strong 5+-card suit
+2DDb--3H--,3N,Please read chat#18+ pts. with stoppers and support for unbid suits.
+2DDb--3H--,3S,17+ pts.\\Strong 5+-card suit.
+2DDb--3H--,4C,17+ pts.\\Strong 6+-card suit.
+2DDb--3H--,4D,Please read chat#Asks for further description of the bid.\\Asks for cuebid aces.
+2DDb--3H--,4H,To Play.
+2DDb--3H--,4S,17+; To Play.
+2DDb--,3S,8-10 pts. and a 5-card suit.
+2DDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+2DDb--3S--,3N,Please read chat#18+ pts. with stoppers and support for unbid suits.
+2DDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+2DDb--3S--,4D,17+ pts.\\Strong 5+-card suit
+2DDb--3S--,4H,17+ pts.\\Strong 5+-card suit
+2DDb--3S--,4S,15+HCP; To Play.
+2DDb--,4C,8-10 pts. and a 5-card suit.
+2DDb--4C--,3H,18+ pts.\\Strong 5+-card suit
+2DDb--4C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2DDb--4C--,3S,18+ pts.\\Strong 5+-card suit
+2DDb--4C--,4D,Please read chat#Asks for further description of the bid.\\Asks for cuebid aces.
+2DDb--4C--,4H,To Play.
+2DDb--4C--,4S,To Play.
+2DDb--,4H,11+ pts. and a 5-card suit.
+2DDb--,4S,11+ pts. and a 5-card suit.
+2D----,2H,8+ HCP.
+2D----,2S,8+ HCP.
+2D----,3C,8+ HCP.
+2D----,Db,Short in !D cards.
+2H,2N,14-18 pts. balanced with stopper(s).
+2H2N--,3C,Stayman asking bid.
+2H2N--,3H,Transfer to 3!S.
+2H2S3H,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !C+!D; \\2 or fewer !S's.
+2H,2S,10-17 HCP.\\(Assume pd has 7 HCP).
+2H2S--,2N,10-12 HCP. !H stopper.
+2H2S--,3C,Forcing; 5+-card suit.
+2H2S--,3D,Forcing; 5+-card suit.
+2H2S--,3H,Please read chat#Strong raise of partners suit; forcing to game.
+2H2S--,3S,8-10 pts. and 3+-card support
+2H2S--,4C,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H2S--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H2S--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H2S--,4S,To Play.
+2H2S--,--,0-7 pts.
+2H3C3H,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !S+!D; \\2 or fewer !C's.
+2H,3C,10-17 HCP.\\(Assume pd has 7 HCP).
+2H3C--,2N,10-12 HCP. !H stopper.
+2H3C--,3C,Forcing; 5+-card suit.
+2H3C--,3D,Forcing; 5+-card suit.
+2H3C--,3H,Please read chat#Strong raise of partners suit; forcing to game.
+2H3C--,3N,10-12 HCP. To Play.
+2H3C--,3S,Forcing; 5+-card suit.
+2H3C--,4C,8-10 pts. and 3+-card support
+2H3C--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H3C--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H3C--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit)
+2H3C--,5C,To Play.
+2H3C--,--,0-7 pts.
+2H3D3H,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !S+!D; \\2 or fewer !C's.
+2H,3D,10-17 HCP.\\(Assume pd has 7 HCP).
+2H3D--,2N,10-12 HCP. !H stopper.
+2H3D--,3C,Forcing; 5+-card suit.
+2H3D--,3D,Forcing; 5+-card suit.
+2H3D--,3H,Please read chat#Strong raise of partners suit; forcing to game.
+2H3D--,3N,10-12 HCP. To Play.
+2H3D--,3S,Forcing; 5+-card suit.
+2H3D--,4C,Forcing; 5+-card suit.
+2H3D--,4D,8-10 pts. and 3+-card support
+2H3D--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2H3D--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2H3D--,--,0-7 pts.
+2H,3H,Please read chat#Usually a strong 1-suiter.\\Asks for stopper for notrump.
+2H3H--,3H,No stopper in !D; cheapest 3 card suit.
+2H3H--,3N,Stopper in !H.
+2H3H--,3S,No stopper in !H; cheapest 3 card suit.
+2H3H--,4C,No stopper in !H; cheapest 4 card suit.
+2H3H--,4D,No stopper in !H; cheapest 4 card suit.
+2H,3N,Please read chat#16+ pts. with stopper and a long running minor. This jump may usually denies takeout-double shape.
+2H,3S,16+ pts.; very strong 6+-card suit
+2H,4C,!C + !S; strong 5-5 or better
+2H,4D,!D + !S; strong 5-5 or better
+2H,4H,Please read chat#Leaping Michaels.\\Both minors !C+!D. 5-5 or better.
+2H,4S,16+ pts.; strong 6+-card suit
+Error *002H=NYYYYYY008Opponent's Preempt opening:|,2H,Opponent's Preempt opening:
+2H,Db,Please read chat#12+ pts.; shortness in their suit.\\3-4+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+2HDb--,2H,0-7 pts; cheapest suit.
+2HDb--2H--,2S,17+ pts.\\Strong 5+-card suit.
+2HDb--2H--,3D,Asking stopper.
+2HDb--2H--,3H,17+ pts.\\Strong 5+-card suit
+2HDb--2H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2HDb--2H--,3S,17+ pts.\\Strong 5+-card suit
+2HDb--2H--,4H,To Play.
+2HDb--,2N,Relay. Pard to bid 3!C.
+2HDb--2N--,3C,Please read chat#Forced to bid 3!C.\\Can refuse with Game Forcing hand.
+2HDb--2N--3C--,3D,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2HDb--2N--3C--,3S,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2HDb--2N--3C--,4C,Two suited Slam try. !C and !S.
+2HDb--2N--3C--,4D,Two suited Slam try. !D and !S.
+2HDb--2N--3C--,4H,Two suited Slam try. !C and !D.
+2HDb--2N--3C--,--,!C suit; minimum to To Play.
+2HDb--,2S,0-7 pts; cheapest suit.
+2HDb--2S--,3H,18+ pts.\\Strong 5+-card suit
+2HDb--2S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2HDb--2S--,3S,18+ pts.\\Strong 5+-card suit
+2HDb--2S--,4D,18+ pts.\\Strong 5+-card suit
+2HDb--2S--,4H,To Play.
+2HDb--,3C,0-7 pts; cheapest suit.
+2HDb--3C--,3H,18+ pts.\\Strong 5+-card suit
+2HDb--3C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2HDb--3C--,3S,18+ pts.\\Strong 5+-card suit
+2HDb--3C--,4D,18+ pts.\\Strong 5+-card suit
+2HDb--,3D,0-7 pts; cheapest suit.
+2HDb--3D--,3H,18+ pts.\\Strong 5+-card suit
+2HDb--3D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2HDb--3D--,3S,18+ pts.\\Strong 5+-card suit
+2HDb--3D--,4D,18+ pts.\\Strong 5+-card suit
+2HDb--,3H,Asking pd for a stopper.
+2HDb--3H--,3H,18+ pts.\\Strong 5+-card suit
+2HDb--3H--,3N,!H Stopper.
+Error *002HDP3HP3NPP4C=NYYYYYY778Shows slam-try values with one long suit.|2HDb--3H--3N----,4C,Please read chat#Shows slam-try values with one long suit.
+Error *002HDP3HP3NPP4D=NYYYYYY778Shows slam-try values with one long suit.|2HDb--3H--3N----,4D,Please read chat#Shows slam-try values with one long suit.
+Error *002HDP3HP3NPP4S=NYYYYYY778Shows slam-try values with one long suit.|2HDb--3H--3N----,4S,Please read chat#Shows slam-try values with one long suit.
+2HDb--3H--,3S,18+ pts.\\Strong 5+-card suit
+2HDb--3H--,4D,18+ pts.\\Strong 5+-card suit
+2HDb--3H--,4H,To Play.
+2HDb--,3S,8-10 pts. and a 5-card suit.
+2HDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+2HDb--3S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2HDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+2HDb--3S--,4C,18+ pts.\\Strong 6+-card suit.
+2HDb--3S--,4D,18+ pts.\\Strong 6+-card suit.
+2HDb--3S--,4H,Please read chat#Asks for further description of the bid.\\Asks for cuebid aces.
+2HDb--3S--,4S,To Play.
+2HDb--,4C,8-10 pts. and a 5-card suit.
+2HDb--,4D,8-10 pts. and a 5-card suit.
+2HDb--,4H,void
+2HDb--,4S,11+ pts. and a 5-card suit.
+2H----,2S,8+ HCP.
+2H----,3C,8+ HCP.
+2H----,3D,8+ HCP.
+2H----,Db,Short in !H cards.
+2S,2N,14-18 pts. balanced with stopper(s).
+2S2N--,3C,Stayman asking bid.
+2S2N--,3D,Transfer to 3!H.
+2S3C3S,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !H+!D; \\2 or fewer !C's.
+2S,3C,10-17 HCP.\\(Assume pd has 7 HCP).
+2S3C--,3D,Forcing; 5+-card suit.
+2S3C--,3H,Forcing; 5+-card suit.
+2S3C--,3N,Stopper in !S.
+2S3C--,3S,Please read chat#Strong raise of partners suit; forcing to game.
+2S3C--,4C,8-10 pts. and 3+-card support.
+2S3C--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3C--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3C--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3C--,--,0-7 pts.
+2S3D3S,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !H+!C; \\2 or fewer !D's.
+2S,3D,10-17 HCP.\\(Assume pd has 7 HCP).
+2S3D--,3H,Forcing; 5+-card suit.
+2S3D--,3N,Stopper in !S.
+2S3D--,3S,Please read chat#Strong raise of partners suit; forcing to game.
+2S3D--,4C,Forcing; 5+-card suit.
+2S3D--,4D,8-10 pts. and 3+-card support.
+2S3D--,4H,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3D--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3D--,--,0-7 pts.
+2S3H3S,Db,Please read chat#Responsive double. (10+ pts.).\\Length in the unbid suits !C+!D; \\2 or fewer !H's.
+2S,3H,10-17 HCP.\\(Assume pd has 7 HCP).
+2S3H--,3N,Stopper in !S.
+2S3H--,3S,Please read chat#Strong raise of partners suit; forcing to game.
+2S3H--,4C,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3H--,4D,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3H--,4H,8-10 pts. and 3+-card support.
+2S3H--,4S,Please read chat#Splinter raise (slam-try values; trump support and a singleton in the bid suit) 
+2S3H--,--,0-7 pts.
+2S,3N,Please read chat#16+ pts. with stopper and a long running minor. This jump may usually denies takeout-double shape.
+2S,3S,Please read chat#Usually a strong 1-suiter\\Asks for stopper for notrump.
+2S3S--,3H,No stopper in !D; cheapest 3 card suit.
+2S3S--,3N,Stopper in !S.
+2S3S--,3S,No stopper in !H; cheapest 3 card suit.
+2S3S--,4C,No stopper in !S; cheapest 4 card suit.
+2S3S--,4D,No stopper in !S; cheapest 4 card suit.
+2S3S--,4H,No stopper in !S; cheapest 4 card suit.
+2S,4C,!C + !H; strong 5-5 or better.
+2S,4D,!D + !H; strong 5-5 or better.
+2S,4H,To Play.
+2S,4S,Please read chat#Leaping Michaels:\\Both minors; !C+!D.\\Strong 5-5 or better.
+Error *002S=NYYYYYY008Opponent's Preempt opening:|,2S,Opponent's Preempt opening:
+2S,Db,Please read chat#12+ pts.; shortness in their suit.\\3-4+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+2SDb--,2H,0-7 pts; cheapest suit.
+2SDb--2H--,2S,17+ pts.\\Strong 5+-card suit.
+2SDb--2H--,3D,Asking stopper.
+2SDb--2H--,3H,17+ pts.\\Strong 5+-card suit
+2SDb--2H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2SDb--2H--,3S,17+ pts.\\Strong 5+-card suit
+2SDb--2H--,4H,To Play.
+2SDb--,2N,Relay. Pard to bid 3!C.
+2SDb--2N--,3C,Please read chat#Forced to bid 3!C.\\Can refuse with Game Forcing hand.
+2SDb--2N--3C--,3D,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2SDb--2N--3C--,3H,Please read chat#7-10HCP; Invitational; \\may be 4 card suit.
+2SDb--2N--3C--,4C,Two suited Slam try. !C and !H.
+2SDb--2N--3C--,4D,Two suited Slam try. !D and !H.
+2SDb--2N--3C--,4S,Two suited Slam try. !C and !D.
+2SDb--2N--3C--,--,!C suit; minimum; To Play.
+2SDb--,2S,0-7 pts; cheapest suit.
+2SDb--2S--,3H,18+ pts.\\Strong 5+-card suit
+2SDb--2S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2SDb--2S--,3S,18+ pts.\\Strong 5+-card suit
+2SDb--2S--,4D,18+ pts.\\Strong 5+-card suit
+2SDb--2S--,4H,To Play.
+2SDb--,3C,0-7 pts; cheapest suit.
+2SDb--3C--,3D,18+ pts.\\Strong 5+-card suit
+2SDb--3C--,3H,18+ pts.\\Strong 5+-card suit
+2SDb--3C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2SDb--3C--,3S,Asking stopper in !S.
+2SDb--3C--,4C,18+ pts.\\Strong 5+-card suit
+2SDb--,3D,0-7 pts; cheapest suit.
+2SDb--3D--,3D,18+ pts.\\Strong 5+-card suit
+2SDb--3D--,3H,18+ pts.\\Strong 5+-card suit
+2SDb--3D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2SDb--3D--,3S,Asking stopper in !S.
+2SDb--3D--,4C,18+ pts.\\Strong 5+-card suit
+2SDb--3D--,4D,18+ pts.\\Strong 5+-card suit
+2SDb--,3H,0-7 pts; cheapest suit.
+2SDb--3H--,3H,18+ pts.\\Strong 5+-card suit
+2SDb--3H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+2SDb--3H--,3S,Please read chat#Asks for further description of the bid.
+2SDb--3H--,4C,18+ pts.\\Strong 5+-card suit
+2SDb--3H--,4D,18+ pts.\\Strong 5+-card suit
+2SDb--3H--,4H,To Play.
+2SDb--,3S,Asking for a stopper.
+2SDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+2SDb--3S--,3N,!S stopper.
+2SDb--3S--3N--,4C,Please read chat#Shows slam-try values with one long suit.
+2SDb--3S--3N--,4D,Please read chat#Shows slam-try values with one long suit.
+2SDb--3S--3N--,4H,Please read chat#Shows slam-try values with one long suit.
+2SDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+2SDb--3S--,4D,18+ pts.\\Strong 5+-card suit
+2SDb--3S--,4H,18+ pts.\\Strong 5+-card suit
+2SDb--3S--,4S,To Play.
+2SDb--,4C,8-10 pts. and a 5-card suit.
+2SDb--,4D,8-10 pts. and a 5-card suit.
+2SDb--,4H,8-10+ pts. and a 5-card suit.
+2SDb--,4S,void.
+2S----,3C,8+ HCP.
+2S----,3D,8+ HCP.
+2S----,3H,10+ HCP.
+2S----,Db,Short in !S cards.
+3C,3D,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3C3D--,3H,Non forcing; constructive.
+3C3D--,3N,Stopper in !C.
+3C3D--,3S,Non forcing; constructive.
+3C3D--,4C,A!C or void ; Slam try.
+3C3D--,4D,Slam try.
+3C3D--,4H,To Play.
+3C3D--,4S,To Play.
+3C3D--,5D,To Play.
+3C,3H,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3C3H--,3H,Non forcing; constructive.
+3C3H--,3N,Stopper in !C.
+3C3H--,3S,Non forcing; constructive.
+3C3H--,4C,A!C or void. !H fit.
+3C3H--,4D,Non forcing; constructive.
+3C3H--,4H,To Play.
+3C3H--,4S,To Play.
+3C,3N,Please read chat#16+- 22 pts. with stoppers\\and may be a long running minor.
+3C,3S,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3C3S--,3H,Non forcing; constructive.
+3C3S--,3N,Stopper in !C.
+3C3S--,3S,Non forcing; constructive.
+3C3S--,4C,A!C or void. Slam try. !S fit.
+3C3S--,4D,Non forcing; constructive.
+3C3S--,4H,To Play.
+3C3S--,4S,To Play.
+3C,4C,Please read chat#Strong; at least 5-5 in both majors. !S+!H.
+3C,4D,Strong one-suiter; Asks for cuebid?
+3C,4H,16+ pts. and a strong 6+-suit
+3C,4S,16+ pts. and a strong 6+-suit
+Error *003C=NYYYYYY008Opponent's Preempt opening:|,3C,Opponent's Preempt opening:
+3C,Db,Please read chat#14+ pts.; shortness in their suit.\\3+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+3CDb--,3D,0-7 HCP.
+3CDb--3D--,3H,18+ pts.\\Strong 5+-card suit
+3CDb--3D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3CDb--3D--,3S,18+ pts.\\Strong 5+-card suit
+3CDb--,3H,0-7 HCP.
+3CDb--3H--,3H,18+ pts.\\Strong 5+-card suit
+3CDb--3H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3CDb--3H--,3S,18+ pts.\\Strong 5+-card suit.
+3CDb--3H--,4C,Cue-bid; Slam try. !H fit.
+3CDb--3H--,4D,18+ pts.\\Strong 5+-card suit.
+3CDb--3H--,4H,To Play.
+3CDb--3H--,4S,To Play.
+3CDb--,3N,8+ HCP. Stopper in !C.
+3CDb--,3S,0-7 HCP.
+3CDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+3CDb--3S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3CDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+3CDb--3S--,4C,Cue-bid; Slam try. !S fit.
+3CDb--3S--,4D,18+ pts.\\Strong 5+-card suit
+3CDb--3S--,4H,18+ pts.\\Strong 5+-card suit
+3CDb--3S--,4S,To Play.
+3CDb--,4C,Pick a Major.
+3CDb--,4D,8+ pts. and a 5-card suit.
+3CDb--,4H,8+ pts. and a 5-card suit.
+3CDb--,4S,8+ pts. and a 5-card suit.
+3D,3H,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3D3H--,3H,Non forcing; constructive.
+3D3H--,3N,Stopper in !D.
+3D3H--,3S,Non forcing; constructive.
+3D3H--,4C,Non forcing; constructive.
+3D3H--,4D,Please read chat#Cue-bid. A!D or void or singleton!D. Slam try.
+3D3H--,4H,To Play.
+3D3H--,4S,To Play.
+3D,3N,Please read chat#16+- 22 pts. with stoppers\\and may be a long running minor.
+3D,3S,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3D3S--,3H,Non forcing; constructive.
+3D3S--,3N,Stopper in !D.
+3D3S--,3S,Non forcing; constructive.
+3D3S--,4C,Non forcing; constructive.
+3D3S--,4D,A!D or void. Slam try in !S.
+3D3S--,4H,To Play.
+3D3S--,4S,To Play.
+3D,4C,12-17 HCP.
+3D4C--,3H,Non forcing; constructive.
+3D4C--,3N,Stopper in !C.
+3D4C--,3S,Non forcing; constructive.
+3D4C--,4D,A!D; or void. Slam try.
+3D4C--,4H,To Play.
+3D4C--,4S,To Play.
+3D4C--,5C,To Play.
+3D,4D,Pick a Major.
+3D,4H,16+ pts. and a strong 6+-suit
+3D,4S,16+ pts. and a strong 6+-suit
+Error *003D=NYYYYYY008Opponent's Preempt opening:|,3D,Opponent's Preempt opening:
+3D,Db,Please read chat#14+ pts.; shortness in their suit.\\3+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+3DDb--,3D,0-7 HCP.
+3DDb--3D--,3H,18+ pts.\\Strong 5+-card suit
+3DDb--3D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3DDb--3D--,3S,18+ pts.\\Strong 5+-card suit
+3DDb--3D--,4D,18+ pts.\\Strong 5+-card suit
+3DDb--,3H,0-7 HCP.
+3DDb--3H--,3H,18+ pts.\\Strong 5+-card suit
+3DDb--3H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3DDb--3H--,3S,18+ pts.\\Strong 5+-card suit.
+3DDb--3H--,4C,18+ pts.\\Strong 6+-card suit.
+3DDb--3H--,4D,Please read chat#Asks for further description of the bid.\\Asks for cuebid aces.
+3DDb--3H--,4H,To Play.
+3DDb--3H--,4S,To Play.
+3DDb--,3N,8+ HCP. Stopper in !D.
+3DDb--,3S,0-7 HCP.
+3DDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+3DDb--3S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3DDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+3DDb--3S--,4C,18+ HCP.
+3DDb--3S--,4D,Cue-bid; Slam try in !S.
+3DDb--3S--,4H,Please read chat#18+ pts.\\6 +cards or Strong 5+-card suit.
+3DDb--3S--,4S,To Play.
+3DDb--,4C,0-7 HCP.
+3DDb--4C--,3H,18+ pts.\\Strong 5+-card suit
+3DDb--4C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3DDb--4C--,3S,18+ pts.\\Strong 5+-card suit
+3DDb--4C--,4C,18+ HCP.
+3DDb--4C--,4D,Cue-bid; Slam try.
+3DDb--4C--,4H,Please read chat#18+ pts.\\6 +cards or Strong 5+-card suit.
+3DDb--4C--,4S,Please read chat#18+ pts.\\6 +cards or Strong 5+-card suit.
+3DDb--,4D,Pick a Major.
+3DDb--,4H,8+ pts. and a 5-card suit.
+3DDb--,4S,8+ pts. and a 5-card suit.
+3H,3N,Please read chat#16+- 22 pts. with stoppers\\and may be a long running minor.
+3H,3S,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3H3S--,3H,Non forcing; constructive.
+3H3S--,3N,Stopper in !H.
+3H3S--,3S,Non forcing; constructive.
+3H3S--,4C,Non forcing; constructive.
+3H3S--,4D,Non forcing; constructive.
+3H3S--,4H,A!H; or void; Slam try in !S.
+3H3S--,4S,To Play.
+3H,4C,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3H4C--,3H,Non forcing; constructive.
+3H4C--,3N,Stopper in !C.
+3H4C--,3S,Non forcing; constructive.
+3H4C--,4D,Non forcing; constructive.
+3H4C--,4H,A!H; or void. Slam try.
+3H4C--,4S,To Play.
+3H4C--,5C,To Play.
+3H4C--,5D,To Play.
+3H,4D,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards
+3H4D--,3H,Non forcing; constructive.
+3H4D--,3N,Stopper in !C.
+3H4D--,3S,Non forcing; constructive.
+3H4D--,4D,Non forcing; constructive.
+3H4D--,4H,A!H; or void. Slam try.
+3H4D--,4S,To Play.
+3H4D--,5C,To Play.
+3H4D--,5D,To Play.
+3H,4H,Please read chat#Strong; at least 5-5 in spades and a minor
+3H4H--,4N,which minor?
+3H4H--,4S,To Play.
+3H,4S,16+ pts. and a strong 6+-suit
+Error *003H=NYYYYYY008Opponent's Preempt opening:|,3H,Opponent's Preempt opening:
+3H,Db,Please read chat#14+ pts.; shortness in their suit.\\3+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+3HDb--,3N,8+ HCP. Stopper in !H.
+3HDb--,3S,0-7 HCP.
+3HDb--3S--,3H,18+ pts.\\Strong 5+-card suit
+3HDb--3S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3HDb--3S--,3S,18+ pts.\\Strong 5+-card suit
+3HDb--3S--,4C,18+ pts.\\Strong 5+-card suit.
+3HDb--3S--,4D,18+ pts.\\Strong 5+-card suit
+3HDb--3S--,4H,Cue-bid; Slam try in !S.
+3HDb--3S--,4S,To Play.
+3HDb--,4C,0-7 HCP.
+3HDb--4C--,3H,18+ pts.\\Strong 5+-card suit
+3HDb--4C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3HDb--4C--,3S,18+ pts.\\Strong 5+-card suit
+3HDb--4C--,4D,18+ pts.\\Strong 5+-card suit
+3HDb--4C--,4H,Cue-bid; Slam try.
+3HDb--4C--,4S,18+pts; strong suit.
+3HDb--,4D,0-7 HCP.
+3HDb--4D--,4H,Cue-bid; Slam try in !D.
+3HDb--4D--,4S,18+pts;  strong suit.
+3HDb--4D--,5C,To Play.
+3HDb--4D--,5D,To Play.
+3HDb--,4H,A!H or void or singleton.
+3HDb--4H--,4S,Non forcing.
+3HDb--4H--,5C,Non forcing.
+3HDb--4H--,5D,Non forcing.
+3HDb--,4S,8+ pts. and a 5-card suit.
+3S,3N,Please read chat#16+- 22 pts. with stoppers\\and may be a long running minor.
+3S,4C,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards.
+3S4C--,3H,Non forcing; constructive.
+3S4C--,3N,Stopper in !C.
+3S4C--,3S,Non forcing; constructive.
+3S4C--,4D,Non forcing; constructive.
+3S4C--,4H,Non forcing; constructive; To Play.
+3S4C--,4S,A!S; or void. Slam try in !C.
+3S4C--,5C,To Play.
+3S4C--,5D,To Play.
+3S,4D,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards.
+3S4D--,4H,To Play.
+3S4D--,4S,A!S; or void. Slam try in !D.
+3S4D--,5C,To Play.
+3S4D--,5D,To Play.
+3S,4H,Please read chat#12-17 pts.\\6+-card suit or strong 5+ cards.
+3S4H--,4S,A!S; or void. Slam try in !H.
+3S4H--,5C,To Play.
+3S4H--,5D,To Play.
+3S4H--,--,To Play.
+3S,4S,5-5 or better in minors. !C+!D.
+Error *003S=NYYYYYY008Opponent's Preempt opening:|,3S,Opponent's Preempt opening:
+3S,Db,Please read chat#14+ pts.; shortness in their suit.\\3+ cards in all unbid suits.\\OR 18+ pts. and a long suit.
+3SDb--,3D,0-7 pts; cheapest suit.
+3SDb--3D--,3H,18+ pts.\\Strong 5+-card suit.
+3SDb--3D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--3D--,3S,18+ pts.\\Strong 5+-card suit.
+3SDb--3D--,4D,18+ pts.\\Strong 5+-card suit.
+3SDb--,3H,0-7 pts; cheapest suit.
+3SDb--3H--,3H,18+ pts.\\Strong 5+-card suit.
+3SDb--3H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--3H--,3S,18+ pts.\\Strong 5+-card suit.
+3SDb--3H--,4D,18+ pts.\\Strong 5+-card suit.
+3SDb--3H--,4H,To Play.
+3SDb--,3N,8+ HCP. Stopper in !S.
+3SDb--,3S,0-7 HCP.
+3SDb--3S--,3H,18+ pts.\\Strong 5+-card suit.
+3SDb--3S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--3S--,3S,18+ pts.\\Strong 5+-card suit.
+3SDb--3S--,4D,18+ pts.\\Strong 5+-card suit.
+3SDb--3S--,4H,18+ pts.\\Strong 5+-card suit.
+3SDb--3S--,4S,To Play.
+3SDb--,4C,0-7 HCP.
+3SDb--4C--,3H,18+ pts.\\Strong 5+-card suit
+3SDb--4C--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--4C--,3S,18+ pts.\\Strong 5+-card suit
+3SDb--4C--,4D,18+ HCP.\\Strong 5+-card suit
+3SDb--4C--,4H,18+ HCP.
+3SDb--4C--,4S,Cue-bid; A!S or void; Slam try.
+3SDb--,4D,0-7 HCP.
+3SDb--4D--,3H,18+ pts.\\Strong 5+-card suit
+3SDb--4D--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--4D--,3S,18+ pts.\\Strong 5+-card suit
+3SDb--4D--,4D,18+ pts.\\Strong 5+-card suit
+3SDb--4D--,4H,18+ HCP.
+3SDb--4D--,4S,Cue-bid; A!S or void; Slam try.
+3SDb--4D--,5C,To Play. 
+3SDb--4D--,5D,To Play.
+3SDb--,4H,0-7 HCP.
+3SDb--4H--,3H,18+ pts.\\Strong 5+-card suit
+3SDb--4H--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--4H--,3S,18+ pts.\\Strong 5+-card suit
+3SDb--4H--,4D,18+ pts.\\Strong 5+-card suit
+3SDb--4H--,4H,18+ HCP.
+3SDb--4H--,4S,Cue-bid; A!S or void; Slam try in !H.
+3SDb--,4S,A!S or void or singleton. Slam try.
+3SDb--4S--,3H,18+ pts.\\Strong 5+-card suit
+3SDb--4S--,3N,Please read chat#22+ pts. with stoppers and support for unbid suits.
+3SDb--4S--,3S,18+ pts.\\Strong 5+-card suit
+3SDb--4S--,4D,18+ pts.\\Strong 5+-card suit
+3SDb--4S--,4H,18+ HCP.
+3SDb--4S--,4S,Cue-bid; A!S or void; Slam try.
+3SDb--4S--,5C,Natural.
+3SDb--4S--,5D,Natural.
+3SDb--4S--,5H,Natural.
+4H,4N,Take out for minors.
+Error *004H=NYYYYYY008When RHO bids 4!H:|,4H,When RHO bids 4!H:
+4H,Db,Take out dbl. 17+ pts; 4+!S
+4S,4N,Take out dbl. 17+ pts; 4+!H.
+Error *004S=NYYYYYY008When RHO bids 4!S:|,4S,When RHO bids 4!S:
+4S,Db,Penalty oriented.
+Error *00{Ultra Precison (Dec21, 08)}=NYYYYYYUltra Precision.\\Last Update: Dec 21, 08.|--Db,21,ra Precision.\\Last Update: Dec 21; 08.
+1C1H,1N,Transfer to 1NT
+1C1H,1S,Transfer to 1NT
+1C1H,2C,Transfer to 2!D
+1C1H,2D,Please read chat#Transfer to 2!H; \\Stayman W Stop; Or 3NT 
+1C1H,2H,Transfer to 2!S
+1C1H,2N,Please read chat#11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C1H,2S,A & G.F.: Both minors
+1C1H,Db,8+ HCP Positive (b) Cue Later 
+1C1H,--,Please read chat#0-5 HCP Negative: Also Trap Pass With 5-7 HCP & HXXX+ in Opponents Suit
+1C1N,2C,8+ HCP Positive
+1C1N,2D,8+ HCP Positive
+1C1N,2H,8+ HCP Positive
+1C1N,2S,8+ HCP Positive
+1C1N,Db,Please read chat#6-8 HCP Semi-Positive Can Be Passed For Penalty
+1C1N,--,0-5 HCP Negative
+1C1N,2C,8+ HCP Positive G.F. & 5+!H.
+1C1N,2D,8+ HCP Positive G.F. & 5+!S
+1C1N,2H,5-7 HCP Semi positive Natural. 5+.!H
+1C1N,2N,9+ HCP Positive Natural; Balanced.
+1C1N,2S,5-7 HCP Semi positive Natural. 5+.!S
+1C1N,Db,Please read chat#6-8 HCP Semi-Positive Can be passed for penalty.
+1C1N,--,0-5 HCP Negative.
+1C1S,1N,Transfer to 1NT
+1C1S,2C,Transfer to 2!D
+1C1S,2D,Please read chat#Transfer to 2!H; \\Stayman W Stop; Or 3NT 
+1C1S,2H,Transfer to 2!S
+1C1S,2N,Please read chat#11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C1S,2S,A & G.F.: Both minors
+1C1S,Db,8+ HCP Positive (B) Cue Later 
+1C1S,--,Please read chat#0-5 HCP Negative: Also Trap Pass With 5-7 HCP & HXXX+ In Opponents Suit
+1C2C,2D,Please read chat#Transfer to 2!H; \\Stayman W Stop; Or 3NT 
+1C2C,2H,Transfer to 2!S
+1C2C,2N,Please read chat#11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2C,2S,A & G.F.: Both minors
+1C2C,Db,8+ HCP Positive (B) Cue Later 
+1C2C,--,Please read chat#0-5 HCP Negative: Also Trap Pass With 5-7 HCP & Hxxx+ In Opponents Suit
+1C2D,2H,Transfer to 2!S
+1C2D,2N,Please read chat#11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2D,2S,A & G.F.: Both minors
+1C2D,Db,8+ HCP Positive (B) Cue Later 
+1C2D,--,Please read chat#0-5 HCP Negative: Also Trap Pass With 5-7 HCP & Hxxx+ In Opponents Suit
+1C2H,2N,Please read chat#11+ HCP Positive Natural With Stopper(S) & Poor Support For The Majors [Fass?]
+1C2H,2S,A & G.F.: Both minors
+1C2H,3C,8+ HCP Transfer To 3!D.
+1C2H,3D,8+ HCP Transfer TO 3!H.
+1C2H,3H,8+ HCP Transfer To 3!S.
+1C2H,3N,8+; To Play.
+1C2H,3S,8+ HCP Both minors; G.F.
+1C2H,Db,8+ Hcp Positive (B) Cue Later 
+1C2H,--,Please read chat#0-5 HCP Negative: Also Trap Pass With 5-7 HCP & Hxxx+ In Opponents Suit
+,1C,Please read chat#16+ HCP Artificial & forcing with Transfer Responses: 17+ Balanced.
+1CDb,1D,5-7 HCP  NO 4-card Major.
+1CDb,1H,8+ HCP POSITIVE: System ON:
+1CDb,--,0-4 HCP Negative:
+1CDb,Rd,Please read chat#5-7 HCP 1 or more 4-card M\\Penalty oriented.
+1C--,1D,Please read chat#0-7 HCP Negative: 8 HCP Must Include A OR K; 7 HCP Positive 
+1C--1D--,1H,Forcing 1 round. 4+!H
+1C--1D--1H--,1N,5-7 HCP. 5+!S.
+1C--1D--1H--,1S,0-4 HCP Dble Neg. [No Ace]
+1C--1D--1H--1S--,1N,20-21 HCP
+1C--1D--1H--,2C,0-4 HCP.
+1C--1D--1H--,2D,0-4 HCP.
+1C--1D--1H--,2H,3-5 HCP. !H Raise: xxxx / Hxx
+1C--1D--1H--,2N,5-7 HCP Fit Jump: !Hxxxx + !SQJxxx
+1C--1D--1H--,2S,mini splinter
+1C--1D--1H--2S--,2N,which suit?
+1C--1D--1H--2S--2N--,3C,!C
+1C--1D--1H--2S--2N--,3D,!D
+1C--1D--1H--2S--2N--,3S,!S
+1C--1D--1H--,3C,5-7 HCP Fit Jump: !Hxxxx + !CQJxxx
+1C--1D--1H--,3D,5-7 HCP Fit Jump: !Hxxxx + !DQJxxx
+1C--1D--1H--,3H,Please read chat#5-7 HCP Fit Jump: \\!HHonorxxx + balanced.
+1C--1D--1H--,3N,6-7 HCP. !SVoid & 5!H.
+1C--1D--1H--,3S,6-7 HCP. Maxi- splinter
+1C--1D--1H--3S--,3N,which suit?
+1C--1D--1H--3S--3N--,4C,!C
+1C--1D--1H--3S--3N--,4D,!D
+1C--1D--1H--3S--3N--,4S,!S
+1C--1D--1H--,4C,6-7 HCP. !CVoid & 5!H.
+1C--1D--1H--,4D,6-7 HCP. !DVoid & 5!H.
+1C--1D--1H--,4H,Please read chat#0-5 HCP. 5!H.\\Any singleton(No A or K).
+1C--1D--1H--,--,Do Not Pass; Must bid.
+1C--1D--,1N,Please read chat#17-20 HCP; 17+ HCP; & balanced to keep bidding low.
+1C--1D--,1S,Forcing 1 round. 4+!S
+1C--1D--1S--,1N,5-7 HCP
+1C--1D--1S--,2C,0-4 HCP. 5+!C
+1C--1D--1S--,2D,0-4 HCP. 5+!D
+1C--1D--1S--,2H,0-4 HCP; 5+!H.
+1C--1D--1S--,2N,3-5 HCP. mini splinter
+1C--1D--1S--2N--,3C,which suit?
+1C--1D--1S--2N--3C--,3D,!D
+1C--1D--1S--2N--3C--,3H,!H
+1C--1D--1S--2N--3C--,3N,0-1!C
+1C--1D--1S--,2S,!S Raise; xxxx  or  Honorxx
+1C--1D--1S--2S--,2N,which suit?
+1C--1D--1S--2S--2N--,3C,!C
+1C--1D--1S--2S--2N--,3D,!D
+1C--1D--1S--2S--2N--,3S,!S
+1C--1D--1S--,3C,5-7 HCP Fit Jump: !Sxxxx + !CQJxxx
+1C--1D--1S--,3D,5-7 HCP Fit Jump: !Sxxxx + !DQJxxx
+1C--1D--1S--,3H,5-7 HCP Fit Jump: !Sxxxx + !HQJxxx
+1C--1D--1S--,3N,3-5 HCP. maxi splinter
+1C--1D--1S--3N--,4C,which suit?
+1C--1D--1S--3N--4C--,4D,!D
+1C--1D--1S--3N--4C--,4H,!H
+1C--1D--1S--3N--4C--,5C,!C
+1C--1D--1S--,3S,Please read chat#5-7 HCP Fit Jump: \\!SHonorxxx + balanced.
+1C--1D--1S--3S--,3N,which suit?
+1C--1D--1S--3S--3N--,4C,!C
+1C--1D--1S--3S--3N--,4D,!D
+1C--1D--1S--3S--3N--,4S,!S
+1C--1D--1S--,4C,6-7 HCP. !CVoid & 5!S.
+1C--1D--1S--,4D,6-7 HCP. !DVoid & 5!S.
+1C--1D--1S--,4H,6-7 HCP. !HVoid & 5!S.
+1C--1D--1S--,4S,Please read chat#0-5 HCP. 5+!S and \\singleton( no A or K)
+1C--1D--1S--,--,May be passed if 0-4 HCP.
+1C--1D--,2C,5+ CARDS & DENIES A 4 M 
+1C--1D--2C--,2D,5-7 HCP !D: QJxxx+
+1C--1D--2C--,2H,5-7 HCP !H: QJxxx+
+1C--1D--2C--,2N,5-7 HCP Good raise; HonorXX(X)
+1C--1D--2C--,2S,5-7 HCP !S: QJxxx+
+1C--1D--2C--,3C,0-4 HCP !C: xxx+ Raise
+1C--1D--2C--,3D,5-7 HCP !D: AQxxxx / KQxxxx
+1C--1D--2C--,3H,5-7 HCP !H: AQxxxx or KQxxxx
+1C--1D--2C--,3N,To Play.
+1C--1D--2C--,3S,5-7 HCP !S: AQxxxx or KQxxxx
+1C--1D--2C--,4C,6-7 HCP !C: Qxxx Raise
+1C--1D--2C--,--,Please read chat#0-4 HCP ---- No suit worth showing; no support; no Ace ----
+1C--1D--,2D,5+ CARDS & DENIES A 4M 
+1C--1D--2D--,2H,5-7 HCP !H: QJxxx+
+1C--1D--2D--,2N,5-7 HCP Good raise; HonorXX(X)
+1C--1D--2D--,2S,5-7 HCP !S: QJxxx+
+1C--1D--2D--,3C,5-7 HCP !C: QJxxxx+
+1C--1D--2D--,3D,0-4 HCP !D: xxx+ Raise
+1C--1D--2D--,3H,5-7 HCP !H: AQxxxx or KQxxxx
+1C--1D--2D--,3N,To Play.
+1C--1D--2D--,3S,5-7 HCP !S: AQxxxx or KQxxxx
+1C--1D--2D--,4C,
+1C--1D--2D--,4D,6-7 HCP !D: Qxxx Raise
+1C--1D--2D--,--,Please read chat#0-4 HCP ---- No suit worth showing; no support; no Ace ----
+1C--1D--,2H,Super Flannery: 4!S&5!H or 4!S& 6!H.
+1C--1D--2H--,2N,More than 3!C.
+1C--1D--2H--2N--,3H,Game invitation.
+1C--1D--2H--2N--,3S,Game invitation.
+1C--1D--2H--,2S,To Play.
+1C--1D--2H--,3C,More than 3!D.
+1C--1D--2H--3C--,3H,Game invitation.
+1C--1D--2H--3C--,3S,Game invitation.
+1C--1D--2H--,3D,more than 3!H + Honor!D.
+1C--1D--2H--,3H,weak raise. No tricks.
+1C--1D--2H--,3S,4!S and !Hhonor.
+1C--1D--,2N,22-23 HCP;
+1C--1D--,2S,minor Suit Flannery-!C!D:\\xx(55) 
+1C--1D--2S--,3C,To Play.
+1C--1D--2S--,3D,To Play.
+1C--1D--2S--,3H,suit or stopper
+1C--1D--2S--,3N,To Play.
+1C--1D--2S--,3S,suit or stopper
+1C--1D--,3C,Forcing 1 round. Showing 6m + 4M
+1C--1D--3C--,3H,4!S and nothing about !H.
+1C--1D--3C--,3S,4!H and nothing about !S.
+1C--1D--,3D,Forcing 1 round. Showing 6m + 4M
+1C--1D--,3H,9 tricks exactly.
+1C--1D--3H--,--,No  tricks
+1C--1D--,3S,9 tricks exactly.
+1C--1D--3S--,--,No  tricks
+1C--,1H,Please read chat#4+!S; 8+ HCP  Transfer. GF\\[Unbalanced hand OR 5-4 OR 6+!S.; May have 4+!H. If both Majors] \\Not 5!S332 distribution.
+1C--1H--,1N,2-Suited Without 4+!S.
+1C--1H--1N--,2C,Asks pd to further describe the hand.
+1C--1H--1N--2C--,2D,5!D+5!H
+1C--1H--1N--2C--,2H,5!H+5!C
+1C--1H--1N--2C--,2S,5!C+5!D
+1C--1H--,1S,RELAY: The usual follow on.
+1C--1H--1S--,1N,5-4 or 5-5 Major Hands
+1C--1H--1S--1N--,2C,Ask for majors
+1C--1H--1S--1N--2C--,2D,Freak; 6-5 or 6-6 or 7-5
+1C--1H--1S--1N--2C--2D--,2H,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2D--2H--,2N,6!S+5!H
+1C--1H--1S--1N--2C--2D--2H--2N--,3C,Support asking bid (2 Cards !C)
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3D,0-1 !C's
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3H,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3N,xx & 3+ controls
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3S,xx & 2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--,3D,Support asking bid (2 Cards !D)
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3H,0-1!D
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3N,xx & 3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,3S,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,4C,xx & 4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3D--,4D,xx & 5 controls
+1C--1H--1S--1N--2C--2D--2H--2N--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2D--2H--2N--,3N,To Play.
+1C--1H--1S--1N--2C--2D--2H--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2D--2H--2N--3S--,4H,5 controls
+1C--1H--1S--1N--2C--2D--2H--,2S,!H longer 6!H+5!S
+1C--1H--1S--1N--2C--2D--2H--2S--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3C,!C void
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3D,!D void
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3H,1-1 minors
+1C--1H--1S--1N--2C--2D--2H--2S--,3C,Support asking bid (2 Cards !C)
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3D,0-1 !C's
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3H,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3N,xx & 3+ controls
+1C--1H--1S--1N--2C--2D--2H--2S--3C--,3S,xx & 2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--,3D,Support asking bid (2 Cards !D)
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3H,0-1!D
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3N,xx & 3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,3S,xx & 1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,4C,xx & 4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3D--,4D,xx & 5 controls
+1C--1H--1S--1N--2C--2D--2H--2S--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2D--2H--2S--,3N,To Play.
+1C--1H--1S--1N--2C--2D--2H--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2D--2H--2S--3S--,4H,5 controls
+1C--1H--1S--1N--2C--2D--2H--,3C,6!S+6!H
+1C--1H--1S--1N--2C--2D--2H--,3D,7!H+5!S
+1C--1H--1S--1N--2C--2D--2H--,3H,7!S+5!H
+1C--1H--1S--1N--2C--2D--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2D--2N--,3C,0!C.
+1C--1H--1S--1N--2C--2D--2N--,3D,0!D
+1C--1H--1S--1N--2C--2D--2N--,3H,1-1 minors
+1C--1H--1S--1N--2C--2D--,2S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--2S--,2N,1-2 controls
+1C--1H--1S--1N--2C--2D--2S--,3C,3 controls
+1C--1H--1S--1N--2C--2D--2S--,3D,4 controls
+1C--1H--1S--1N--2C--2D--2S--,3H,5 controls
+1C--1H--1S--1N--2C--2D--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2D--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2D--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2D--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2D--3H--,4D,5 controls
+1C--1H--1S--1N--2C--,2H,5-4 or 5-5 majors
+1C--1H--1S--1N--2C--2H--,2N,Shortage ask?
+1C--1H--1S--1N--2C--2H--2N--,3C,!C shortage
+1C--1H--1S--1N--2C--2H--2N--,3D,!D shortage
+1C--1H--1S--1N--2C--2H--2N--,3H,2!C-2!D
+1C--1H--1S--1N--2C--2H--,2S,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2H--2S--,2N,5!H+4!S
+1C--1H--1S--1N--2C--2H--2S--,3C,5!S+4!H
+1C--1H--1S--1N--2C--2H--2S--,3D,5!S+5!H
+1C--1H--1S--1N--2C--2H--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2H--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2H--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2H--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2H--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2H--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2H--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2H--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2H--3S--,4H,5 controls
+1C--1H--1S--1N--2C--,2S,6-4 Majors
+1C--1H--1S--1N--2C--2S--,2N,Asks pd to further describe the hand.
+1C--1H--1S--1N--2C--2S--2N--,3C,6!H+4!S
+1C--1H--1S--1N--2C--2S--2N--,3D,6!S+4!H
+1C--1H--1S--1N--2C--2S--,3C,Support asking bid (2 Cards)
+1C--1H--1S--1N--2C--2S--3C--,3D,1 or Less support
+1C--1H--1S--1N--2C--2S--3C--,3H,2+!C  with 1-2 controls
+1C--1H--1S--1N--2C--2S--3C--,3N,2+!C  with 4 controls
+1C--1H--1S--1N--2C--2S--3C--,3S,2+!C  with 3 controls
+1C--1H--1S--1N--2C--2S--,3D,Support asking bid (2 Cards)
+1C--1H--1S--1N--2C--2S--3D--,3H,1 or Less support
+1C--1H--1S--1N--2C--2S--3D--,3N,2+!D  with 3 controls
+1C--1H--1S--1N--2C--2S--3D--,3S,2+!D  with 1-2 controls
+1C--1H--1S--1N--2C--2S--3D--,4C,2+!D  with 4 controls
+1C--1H--1S--1N--2C--2S--3D--,4D,2+!D  with 5 controls
+1C--1H--1S--1N--2C--2S--,3H,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2S--3H--,3N,3 controls
+1C--1H--1S--1N--2C--2S--3H--,3S,1-2 controls
+1C--1H--1S--1N--2C--2S--3H--,4C,4 controls
+1C--1H--1S--1N--2C--2S--3H--,4D,5 controls
+1C--1H--1S--1N--2C--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--1N--2C--2S--3S--,3N,1-2 controls
+1C--1H--1S--1N--2C--2S--3S--,4C,3 controls
+1C--1H--1S--1N--2C--2S--3S--,4D,4 controls
+1C--1H--1S--1N--2C--2S--3S--,4H,5 controls
+1C--1H--1S--1N--,2D,Please read chat#Support asking bid (3 Cards) with Beta control asking bid
+1C--1H--1S--1N--2D--,2N,4
+1C--1H--1S--1N--2D--2N--,3C,Beta
+1C--1H--1S--1N--2D--,3C,4
+1C--1H--1S--1N--2D--3C--,3D,Beta
+1C--1H--1S--1N--,2H,Beta; Controls asking bid
+1C--1H--1S--1N--2H--,2N,4
+1C--1H--1S--1N--2H--2N--,3H,Beta
+1C--1H--1S--1N--2H--,3C,4
+1C--1H--1S--1N--2H--3C--,3H,Beta
+1C--1H--1S--1N--,2N,4
+1C--1H--1S--1N--,2S,Beta; Controls asking bid
+1C--1H--1S--1N--2S--,2N,4
+1C--1H--1S--1N--2S--2N--,3S,Beta
+1C--1H--1S--1N--2S--,3C,4
+1C--1H--1S--1N--2S--3C--,3S,Beta
+1C--1H--1S--1N--,3C,4
+1C--1H--1S--,2C,4!S+ (5+minor); canape and catch all
+1C--1H--1S--2C--,2D,Please read chat#Asks pd to further describe the hand.\\ for minors
+1C--1H--1S--2C--2D--,2H,4!S+5!C
+1C--1H--1S--2C--2D--2H--,2S,Asks pd to further describe the hand.
+1C--1H--1S--2C--2D--2H--2S--,2N,4
+1C--1H--1S--2C--2D--2H--2S--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2H--2S--2N--,3S,CAB; suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,3N,K!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4C,A!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4D,xxxx!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4H,Q or Jxxx!S
+1C--1H--1S--2C--2D--2H--2S--2N--3S--,4S,AK or AQxx!S
+1C--1H--1S--2C--2D--2H--2S--,3C,4
+1C--1H--1S--2C--2D--2H--2S--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--2S--3C--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2H--2S--3C--,4C,CAB; !C suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4D,K!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4H,A!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4N,Q or Jxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,4S,xxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3C--4C--,5C,AK or AQxxx!C
+1C--1H--1S--2C--2D--2H--2S--,3D,4
+1C--1H--1S--2C--2D--2H--2S--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--2S--3D--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2H--2S--3D--,4C,CAB; !C suit Control asking bid
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4D,K!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4H,A!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4N,Q or Jxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,4S,xxxxx!C
+1C--1H--1S--2C--2D--2H--2S--3D--4C--,5C,AK or AQxxx!C
+1C--1H--1S--2C--2D--2H--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2H--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2H--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2H--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2H--,3D,Support asking bid (3 Cards)
+1C--1H--1S--2C--2D--2H--3D--,3H,2 or Less !D support
+1C--1H--1S--2C--2D--2H--3D--,3N,3!D  with 3 controls
+1C--1H--1S--2C--2D--2H--3D--,3S,3!D  with 1-2 controls
+1C--1H--1S--2C--2D--2H--3D--,4C,3!D  with 4 controls
+1C--1H--1S--2C--2D--2H--3D--,4D,3!D  with 5 controls
+1C--1H--1S--2C--2D--2H--,3H,Support asking bid (3 Cards)
+1C--1H--1S--2C--2D--2H--3H--,3N,3!H  with 1-2 controls
+1C--1H--1S--2C--2D--2H--3H--,3S,2 or Less !H support
+1C--1H--1S--2C--2D--2H--3H--,4C,3!H  with 3 controls
+1C--1H--1S--2C--2D--2H--3H--,4D,3!H  with 4 controls
+1C--1H--1S--2C--2D--2H--3H--,4H,3!H  with 5 controls
+1C--1H--1S--2C--2D--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2H--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2H--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2H--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2H--3S--,4H,5 controls
+1C--1H--1S--2C--2D--,2N,4!S+ 6+!C
+1C--1H--1S--2C--2D--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2N--3C--,3D,1-2 controls
+1C--1H--1S--2C--2D--2N--3C--,3H,3 controls
+1C--1H--1S--2C--2D--2N--3C--,3N,5 controls
+1C--1H--1S--2C--2D--2N--3C--,3S,4 controls
+1C--1H--1S--2C--2D--2N--,3D,Stopper showing
+1C--1H--1S--2C--2D--2N--,3H,Stopper showing
+1C--1H--1S--2C--2D--2N--,3N,To Play.
+1C--1H--1S--2C--2D--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2N--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2N--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2N--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2N--3S--,4H,5 controls
+1C--1H--1S--2C--2D--,2S,4!S+5!D
+1C--1H--1S--2C--2D--2S--,2N,Asks pd to further describe the hand.
+1C--1H--1S--2C--2D--2S--2N--,3C,4
+1C--1H--1S--2C--2D--2S--2N--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,4C,5 controls
+1C--1H--1S--2C--2D--2S--2N--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--,3D,4
+1C--1H--1S--2C--2D--2S--2N--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--3D--,4D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,4S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3D--4D--,5C,5 controls
+1C--1H--1S--2C--2D--2S--2N--,3H,4
+1C--1H--1S--2C--2D--2S--2N--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4C,3 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4D,4 controls
+1C--1H--1S--2C--2D--2S--2N--3H--3S--,4H,5 controls
+1C--1H--1S--2C--2D--2S--2N--3H--,4D,Beta; Controls asking bid
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4H,1-2 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4N,4 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,4S,3 controls
+1C--1H--1S--2C--2D--2S--2N--3H--4D--,5C,5 controls
+1C--1H--1S--2C--2D--,3C,4!S+ 6+!D
+1C--1H--1S--2C--2D--3C--,3D,Stopper showing
+1C--1H--1S--2C--2D--3C--,3H,Stopper showing
+1C--1H--1S--2C--2D--3C--,3N,To Play.
+1C--1H--1S--2C--2D--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2C--2D--3C--3S--,3N,1-2 controls
+1C--1H--1S--2C--2D--3C--3S--,4C,3 controls
+1C--1H--1S--2C--2D--3C--3S--,4D,4 controls
+1C--1H--1S--2C--2D--3C--3S--,4H,5 controls
+1C--1H--1S--2C--,2N,!H cards asking bid
+1C--1H--1S--2C--2N--,3C,3!H
+1C--1H--1S--2C--2N--3C--,3D,what is your 4 card minor?
+1C--1H--1S--2C--2N--3C--3D--,4C,!C
+1C--1H--1S--2C--2N--3C--3D--,4D,!D
+1C--1H--1S--2C--2N--,3D,2!H
+1C--1H--1S--2C--2N--3D--,3H,what is your 4 card minor?
+1C--1H--1S--2C--2N--3D--3H--,4C,!C
+1C--1H--1S--2C--2N--3D--3H--,4D,!D
+1C--1H--1S--2C--2N--,3H,1!H
+1C--1H--1S--2C--2N--,3S,0!H
+1C--1H--1S--2C--,2S,Beta; Controls asking bid
+1C--1H--1S--2C--2S--,2N,1-2 controls
+1C--1H--1S--2C--2S--,3C,3 controls
+1C--1H--1S--2C--2S--,3D,4 controls
+1C--1H--1S--2C--2S--,3H,5 controls
+1C--1H--1S--2C--,3C,!C Support asking bid (3 Cards)
+1C--1H--1S--2C--3C--,3D,0-2 !C
+1C--1H--1S--2C--3C--,3H,3+!C  with 1-2 controls
+1C--1H--1S--2C--3C--,3N,3+!C  with 4 controls
+1C--1H--1S--2C--3C--,3S,3+!C  with 3 controls
+1C--1H--1S--2C--,3D,!D Support asking bid (3 Cards)
+1C--1H--1S--2C--3D--,3H,2 or Less support
+1C--1H--1S--2C--3D--,3N,3+!D  with 3 controls
+1C--1H--1S--2C--3D--,3S,3+!D  with 1-2 controls
+1C--1H--1S--,2D,Please read chat#Reverse canape and catch all.\\5!S-4!C/!D\\or 5!S
+1C--1H--1S--2D--,2H,Please read chat#Asks pd to further describe the hand.\\ for minors
+1C--1H--1S--2D--2H--,2N,5!S+4!D
+1C--1H--1S--2D--2H--2N--,3C,Shortage ask?
+1C--1H--1S--2D--2H--2N--3C--,3D,5
+1C--1H--1S--2D--2H--2N--3C--3D--,3H,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,3N,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,3S,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,4C,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3H--,4D,5 controls
+1C--1H--1S--2D--2H--2N--3C--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2N--3C--3D--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3D--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--3C--,3H,5
+1C--1H--1S--2D--2H--2N--3C--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2N--3C--3H--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3H--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--3C--,3S,5
+1C--1H--1S--2D--2H--2N--3C--3S--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2N--3C--3S--,4D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4H,1-2 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4N,4 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,4S,3 controls
+1C--1H--1S--2D--2H--2N--3C--3S--4D--,5C,5 controls
+1C--1H--1S--2D--2H--2N--,3D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--2N--3D--,3N,4 controls
+1C--1H--1S--2D--2H--2N--3D--,3S,3 controls
+1C--1H--1S--2D--2H--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2N--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2N--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2N--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2N--3S--,4H,5 controls
+1C--1H--1S--2D--2H--,2S,5!S+4!C
+1C--1H--1S--2D--2H--2S--,2N,Shortage ask?
+1C--1H--1S--2D--2H--2S--2N--,3C,5
+1C--1H--1S--2D--2H--2S--2N--3C--,3D,Please read chat#Beta; Controls asking bid with !H as trumps.
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3N,4 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3S,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3C--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--2N--3C--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--2N--,3D,5
+1C--1H--1S--2D--2H--2S--2N--3D--,3H,Beta; Controls asking bid with !D.
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,3N,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,3S,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,4C,4 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3H--,4D,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--2N--3D--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--2N--,3H,5
+1C--1H--1S--2D--2H--2S--2N--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--2N--3H--3S--,4H,5 controls
+1C--1H--1S--2D--2H--2S--2N--3H--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4H,3 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4N,5 controls
+1C--1H--1S--2D--2H--2S--2N--3H--4C--,4S,4 controls
+1C--1H--1S--2D--2H--2S--,3C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--3C--,3D,1-2 controls
+1C--1H--1S--2D--2H--2S--3C--,3H,3 controls
+1C--1H--1S--2D--2H--2S--3C--,3N,5 controls
+1C--1H--1S--2D--2H--2S--3C--,3S,4 controls
+1C--1H--1S--2D--2H--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--2S--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--2S--3S--,4C,3 controls
+1C--1H--1S--2D--2H--2S--3S--,4D,4 controls
+1C--1H--1S--2D--2H--2S--3S--,4H,5 controls
+1C--1H--1S--2D--2H--,3C,5
+1C--1H--1S--2D--2H--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--3D--,3H,1-2 controls
+1C--1H--1S--2D--2H--3C--3D--,3N,4 controls
+1C--1H--1S--2D--2H--3C--3D--,3S,3 controls
+1C--1H--1S--2D--2H--3C--3D--,4C,5 controls
+1C--1H--1S--2D--2H--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--3S--,3N,1-2 controls
+1C--1H--1S--2D--2H--3C--3S--,4C,3 controls
+1C--1H--1S--2D--2H--3C--3S--,4D,4 controls
+1C--1H--1S--2D--2H--3C--3S--,4H,5 controls
+1C--1H--1S--2D--2H--3C--,4C,Beta; Controls asking bid
+1C--1H--1S--2D--2H--3C--4C--,4D,1-2 controls
+1C--1H--1S--2D--2H--3C--4C--,4H,3 controls
+1C--1H--1S--2D--2H--3C--4C--,4N,5 controls
+1C--1H--1S--2D--2H--3C--4C--,4S,4 controls
+1C--1H--1S--2D--,2N,!H support Asking bid
+1C--1H--1S--2D--2N--,3C,3!H
+1C--1H--1S--2D--2N--3C--,3D,what is your 4 card minor?
+1C--1H--1S--2D--2N--3C--3D--,4C,4!C
+1C--1H--1S--2D--2N--3C--3D--,4D,4!D
+1C--1H--1S--2D--2N--,3D,2!H
+1C--1H--1S--2D--2N--3D--,3H,what is your 4 card minor?
+1C--1H--1S--2D--2N--3D--3H--,4C,4!C
+1C--1H--1S--2D--2N--3D--3H--,4D,4!D
+1C--1H--1S--2D--2N--,3H,1!H
+1C--1H--1S--2D--2N--,3S,0!H
+1C--1H--1S--2D--,2S,!S; Beta; Controls asking bid
+1C--1H--1S--2D--2S--,2N,1-2 controls
+1C--1H--1S--2D--2S--,3C,3 controls
+1C--1H--1S--2D--2S--,3D,4 controls
+1C--1H--1S--2D--2S--,3H,5 controls
+1C--1H--1S--2D--,3C,!C Support asking bid (3 Cards)
+1C--1H--1S--2D--3C--,3D,0-2 !C
+1C--1H--1S--2D--3C--,3H,3+!C  with 1-2 controls
+1C--1H--1S--2D--3C--,3N,3+!C  with 4 controls
+1C--1H--1S--2D--3C--,3S,3+!C  with 3 controls
+1C--1H--1S--2D--,3D,!D Support asking bid (3 Cards)
+1C--1H--1S--2D--3D--,3H,2 or Less support
+1C--1H--1S--2D--3D--,3N,3+!D  with 3 controls
+1C--1H--1S--2D--3D--,3S,3+!D  with 1-2 controls
+1C--1H--1S--,2H,6+!S; May be (4 minor)
+1C--1H--1S--2H--,2S,Please read chat#Asks pd to further describe the hand for Distribution.
+1C--1H--1S--2H--2S--,2N,6!S+4!C
+1C--1H--1S--2H--2S--2N--,3C,Beta; Controls asking bid
+1C--1H--1S--2H--2S--2N--3C--,3D,1-2 controls
+1C--1H--1S--2H--2S--2N--3C--,3H,3 controls
+1C--1H--1S--2H--2S--2N--3C--,3N,5 controls
+1C--1H--1S--2H--2S--2N--3C--,3S,4 controls
+1C--1H--1S--2H--2S--2N--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--2N--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--2N--3S--,4C,3 controls
+1C--1H--1S--2H--2S--2N--3S--,4D,4 controls
+1C--1H--1S--2H--2S--2N--3S--,4H,5 controls
+1C--1H--1S--2H--2S--,3C,6!S+4!D
+1C--1H--1S--2H--2S--3C--,3D,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3C--3D--,3H,1-2 controls
+1C--1H--1S--2H--2S--3C--3D--,3N,4 controls
+1C--1H--1S--2H--2S--3C--3D--,3S,3 controls
+1C--1H--1S--2H--2S--3C--3D--,4C,5 controls
+1C--1H--1S--2H--2S--3C--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3C--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3C--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3C--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3C--3S--,4H,5 controls
+1C--1H--1S--2H--2S--,3D,6!S+3!H
+1C--1H--1S--2H--2S--3D--,3H,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3D--3H--,3N,3 controls
+1C--1H--1S--2H--2S--3D--3H--,3S,1-2 controls
+1C--1H--1S--2H--2S--3D--3H--,4C,4 controls
+1C--1H--1S--2H--2S--3D--3H--,4D,5 controls
+1C--1H--1S--2H--2S--3D--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3D--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3D--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3D--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3D--3S--,4H,5 controls
+1C--1H--1S--2H--2S--,3H,6!S+(x+x+x)
+1C--1H--1S--2H--2S--3H--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--2S--3H--3S--,3N,1-2 controls
+1C--1H--1S--2H--2S--3H--3S--,4C,3 controls
+1C--1H--1S--2H--2S--3H--3S--,4D,4 controls
+1C--1H--1S--2H--2S--3H--3S--,4H,5 controls
+1C--1H--1S--2H--,3C,!C suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--3C--,3D,0-2 !C
+1C--1H--1S--2H--3C--,3H,3+!C  with 1-2 controls
+1C--1H--1S--2H--3C--,3N,3+!C  with 4 controls
+1C--1H--1S--2H--3C--,3S,3+!C  with 3 controls
+1C--1H--1S--2H--,3D,!D suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--3D--,3H,2 or Less support
+1C--1H--1S--2H--3D--,3N,3+!D  with 3 controls
+1C--1H--1S--2H--3D--,3S,3+!D  with 1-2 controls
+1C--1H--1S--2H--,3H,!H suit; Support asking bid (3 Cards)
+1C--1H--1S--2H--3H--,3N,3+!H  with 1-2 controls
+1C--1H--1S--2H--3H--,3S,2 or Less support
+1C--1H--1S--2H--3H--,4C,3+!H  with 3 controls
+1C--1H--1S--2H--3H--,4D,3+!H  with 4 controls
+1C--1H--1S--2H--3H--,4H,3+!H  with 5 controls
+1C--1H--1S--2H--,3S,Beta; Controls asking bid
+1C--1H--1S--2H--3S--,3N,1-2 controls
+1C--1H--1S--2H--3S--,4C,3 controls
+1C--1H--1S--2H--3S--,4D,4 controls
+1C--1H--1S--2H--3S--,4H,5 controls
+1C--1H--1S--,2N,6!S+(5 minor)
+1C--1H--1S--2N--,3C,Is it 5!C?
+1C--1H--1S--2N--3C--,3D,No 
+1C--1H--1S--2N--3C--,3H,Yes 5!C and 1-2 controls.
+1C--1H--1S--2N--3C--,3N,!C's and 4 controls
+1C--1H--1S--2N--3C--,3S,!C's and 3 controls
+1C--1H--1S--2N--,3D,Is it 5!D?
+1C--1H--1S--2N--3D--,3H,NO
+1C--1H--1S--2N--3D--,3N,Yes !D and 3+ Controls
+1C--1H--1S--2N--3D--,3S,Yes !D and 1-2 Controls
+1C--1H--1S--,2S,5+!S + (5+ minor)
+1C--1H--1S--2S--,2N,Please read chat#Asks pd to further describe the hand.\\ for minors
+1C--1H--1S--2S--2N--,3C,5!C+5!S
+1C--1H--1S--2S--2N--3C--,3S,Beta
+1C--1H--1S--2S--2N--3C--3S--,3N,1-2 controls
+1C--1H--1S--2S--2N--3C--3S--,4C,3 controls
+1C--1H--1S--2S--2N--3C--3S--,4D,4 controls
+1C--1H--1S--2S--2N--3C--3S--,4H,5 controls
+1C--1H--1S--2S--2N--3C--,4C,Beta
+1C--1H--1S--2S--2N--,3D,5!S+5!D
+1C--1H--1S--2S--2N--3D--,3S,Beta
+1C--1H--1S--2S--2N--3D--3S--,3N,1-2 controls
+1C--1H--1S--2S--2N--3D--3S--,4C,3 controls
+1C--1H--1S--2S--2N--3D--3S--,4D,4 controls
+1C--1H--1S--2S--2N--3D--3S--,4H,5 controls
+1C--1H--1S--2S--2N--3D--,4D,Beta
+1C--1H--1S--2S--,3S,Beta; Controls asking bid
+1C--1H--1S--2S--3S--,3N,1-2 controls
+1C--1H--1S--2S--3S--,4C,3 controls
+1C--1H--1S--2S--3S--,4D,4 controls
+1C--1H--1S--2S--3S--,4H,5 controls
+1C--1H--1S--,3C,5!S+6!C
+1C--1H--1S--3C--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3C--3S--,3N,1-2 controls
+1C--1H--1S--3C--3S--,4C,3 controls
+1C--1H--1S--3C--3S--,4D,4 controls
+1C--1H--1S--3C--3S--,4H,5 controls
+1C--1H--1S--3C--,4C,!C; Beta; Controls asking bid
+1C--1H--1S--3C--4C--,4D,1-2 controls
+1C--1H--1S--3C--4C--,4H,3 controls
+1C--1H--1S--3C--4C--,4N,5 controls
+1C--1H--1S--3C--4C--,4S,4 controls
+1C--1H--1S--,3D,5!S+6!D
+1C--1H--1S--3D--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3D--3S--,3N,1-2 controls
+1C--1H--1S--3D--3S--,4C,3 controls
+1C--1H--1S--3D--3S--,4D,4 controls
+1C--1H--1S--3D--3S--,4H,5 controls
+1C--1H--1S--3D--,4D,!D; Beta; Controls asking bid
+1C--1H--1S--3D--4D--,4H,1-2 controls
+1C--1H--1S--3D--4D--,4N,4 controls
+1C--1H--1S--3D--4D--,4S,3 controls
+1C--1H--1S--3D--4D--,5C,5 controls
+1C--1H--1S--,3H,6!S+6!C
+1C--1H--1S--3H--,3S,!S; Beta; Controls asking bid
+1C--1H--1S--3H--3S--,3N,1-2 controls
+1C--1H--1S--3H--3S--,4C,3 controls
+1C--1H--1S--3H--3S--,4D,4 controls
+1C--1H--1S--3H--3S--,4H,5 controls
+1C--1H--1S--3H--,4C,!C; Beta; Controls asking bid
+1C--1H--1S--3H--4C--,4D,1-2 controls
+1C--1H--1S--3H--4C--,4H,3 controls
+1C--1H--1S--3H--4C--,4N,5 controls
+1C--1H--1S--3H--4C--,4S,4 controls
+1C--1H--1S--,3S,6!S+6!D
+1C--1H--1S--3S--,4D,!D; Beta; Controls asking bid
+1C--1H--1S--3S--4D--,4H,1-2 controls
+1C--1H--1S--3S--4D--,4N,4 controls
+1C--1H--1S--3S--4D--,4S,3 controls
+1C--1H--1S--3S--4D--,5C,5 controls
+1C--1H--,2C,Please read chat#5+!C. slam invite;  19+ HCP\\0-1!S; NO 3+!H  & 1 loser !C suit.\\Asking for 3 card !C support.
+1C--1H--2C--,2D,2 or Less support
+1C--1H--2C--,2H,3+!C  with 1-2 controls
+1C--1H--2C--,2N,3+!C  with 4 controls
+1C--1H--2C--,2S,3+!C  with 3 controls
+1C--1H--2C--,3C,3+!C  with 5 controls
+1C--1H--,2D,Please read chat#5+!D. slam invite;  19+ HCP\\0-1!S; 0-2!C; NO 3+!H  & 1 loser !D suit.\\Asking for 3 card !D support.
+1C--1H--2D--,2H,2 or Less support
+1C--1H--2D--,2N,3+!D  with 3 controls
+1C--1H--2D--,2S,3+!D  with 1-2 controls
+1C--1H--2D--,3C,3+!D  with 4 controls
+1C--1H--2D--,3D,3+!D  with 5 controls
+1C--1H--,2H,Please read chat#5+!H. slam invite;  19+ HCP\\0-1!S; 0-2!C; & 1 loser !H suit.\\Asking for 3 card !H support.
+1C--1H--2H--,2N,3+!H  with 1-2 controls
+1C--1H--2H--,2S,2 or Less support
+1C--1H--2H--,3C,3+!H  with 3 controls
+1C--1H--2H--,3D,3+!H  with 4 controls
+1C--1H--2H--,3H,3+!H  with 5 controls
+1C--1H--,2S,4+!S; Usually slam interest (19+HCP)
+1C--,1N,Please read chat#11-14 HCP Positive: Balanced.\\11-14 HCP or 15+ HCP.
+1C--1N--,2C,Transfer stayman
+1C--1N--2C--,2D,4!H; may be 4!S.
+1C--1N--2C--2D--,2H,Beta
+1C--1N--2C--2D--2H--,2N,3 controls
+1C--1N--2C--2D--2H--,2S,1-2 controls
+1C--1N--2C--2D--2H--,3C,4 controls
+1C--1N--2C--2D--2H--,3D,5 controls
+1C--1N--2C--2D--,2S,4 cards Support asking bid.
+1C--1N--2C--2D--2S--,2N,2 card !S
+1C--1N--2C--2D--2S--,3C,3 card !S
+1C--1N--2C--2D--2S--,3D,4 card !S + 0-2 controls
+1C--1N--2C--2D--2S--,3H,4 card !S + 3 controls
+1C--1N--2C--2D--2S--,3N,4 card !S + 5 controls
+1C--1N--2C--2D--2S--,3S,4 card !S + 4 controls
+1C--1N--2C--,2H,4!S
+1C--1N--2C--2H--,2N,Asking for minors
+1C--1N--2C--2H--2N--,3C,4!D
+1C--1N--2C--2H--2N--,3D,4!C
+1C--1N--2C--2H--,2S,Beta
+1C--1N--2C--2H--2S--,2N,1-2 controls
+1C--1N--2C--2H--2S--,3C,3 controls
+1C--1N--2C--2H--2S--,3D,4 controls
+1C--1N--2C--2H--2S--,3H,5 controls
+1C--1N--2C--,2N,11-14HCP; 5!C. (5!C332)
+1C--1N--2C--2N--,3C,Beta
+1C--1N--2C--2N--3C--,3D,1-2 controls
+1C--1N--2C--2N--3C--,3H,3 controls
+1C--1N--2C--2N--3C--,3N,5 controls
+1C--1N--2C--2N--3C--,3S,4 controls
+1C--1N--2C--2N--,3D,5!D
+1C--1N--2C--2N--3D--,3H,5!C and 3 controls
+1C--1N--2C--2N--3D--,3N,5!C and 5 controls
+1C--1N--2C--2N--3D--,3S,5!C and 4 controls
+1C--1N--2C--,2S,Please read chat#11-14HCP; No 4 card major or \\5 minor with 5332 distribution.
+1C--1N--2C--2S--,2N,Asking for minors
+1C--1N--2C--2S--2N--,3C,5!C or 5!D
+1C--1N--2C--2S--2N--,3D,2
+1C--1N--2C--2S--2N--,3H,3
+1C--1N--2C--2S--2N--,3S,333
+1C--1N--2C--,3C,11-14HCP; 5!D. (5!D332)
+1C--1N--2C--3C--,3D,Beta
+1C--1N--2C--3C--3D--,3H,1-2 controls
+1C--1N--2C--3C--3D--,3N,4+ controls
+1C--1N--2C--3C--3D--,3S,3 controls
+1C--1N--2C--,3D,11-14HCP; 2!S
+1C--1N--2C--,3H,11-14HCP; 3!S
+1C--1N--2C--,3N,11-14HCP; 3
+1C--1N--2C--,3S,11-14HCP; 3
+1C--1N--,2D,3 cards Support asking bid.
+1C--1N--2D--,2H,2!D
+1C--1N--2D--,2N,3+!D+ 3 Controls
+1C--1N--2D--,2S,3+!D+ 1-2 Controls
+1C--1N--2D--,3C,3+!D+ 4 Controls
+1C--1N--2D--,3D,3+!D+ 5 Controls
+1C--1N--2D--,3H,3+!D+ 6 Controls
+1C--1N--,2H,3 cards Support asking bid.
+1C--1N--2H--,2N,3+!H+ 1-2 Controls
+1C--1N--2H--,2S,2!H; balanced.
+1C--1N--2H--,3C,3+!H+ 3 Controls
+1C--1N--2H--,3D,3+!H+ 4 Controls
+1C--1N--2H--,3H,3+!H+ 5 Controls
+1C--1N--2H--,3S,3+!H+ 6 Controls
+1C--1N--,2N,Asks for 15+
+1C--1N--2N--,3N,No. 11-14HCP.
+1C--1N--,2S,3 cards Support asking bid.
+1C--1N--2S--,2N,2!S.
+1C--1N--2S--,3C,3+!S+ 1-2 Controls
+1C--1N--2S--,3D,3+!S+ 3 Controls
+1C--1N--2S--,3H,3+!S+ 4 Controls
+1C--1N--2S--,3N,3+!S+ 6 Controls
+1C--1N--2S--,3S,3+!S+ 5 Controls
+1C--1N--,3C,3 cards Support asking bid.
+1C--1N--3C--,3D,2!C
+1C--1N--3C--,3H,3+!C+ 1-2 Controls
+1C--1N--3C--,3N,3+!C+ 4+ Controls
+1C--1N--3C--,3S,3+!C+ 3 Controls
+1C--,1S,Please read chat#4+!H; 8+ HCP Positive Transfer:\\Game Forcing.
+1C--1S--,1N,Please read chat#17+ HCP; & balanced to keep bidding low.
+1C--,2C,Please read chat#8+ HCP Positive: One or Both minors (NO 4M); Not 5332.
+1C--2C--,2D,Asks pd to further describe the hand.
+1C--2C--2D--,2H,5+!C; 
+1C--2C--2D--2H--,2S,Asks pd to further describe the hand.
+1C--2C--2D--2H--2S--,2N,6+!C
+1C--2C--2D--2H--2S--,3C,3
+1C--2C--2D--2H--2S--,3D,1
+1C--2C--2D--2H--2S--,3H,2
+1C--2C--2D--2H--2S--,3N,2
+1C--2C--2D--2H--2S--,3S,2
+1C--2C--2D--,2N,6!C+4!D
+1C--2C--2D--2N--,3C,Beta; Controls asking bid
+1C--2C--2D--2N--3C--,3D,1-2 controls
+1C--2C--2D--2N--3C--,3H,3 controls
+1C--2C--2D--2N--3C--,3N,5 controls
+1C--2C--2D--2N--3C--,3S,4 controls
+1C--2C--2D--2N--,3D,Beta; Controls asking bid
+1C--2C--2D--2N--3D--,3H,1-2 controls
+1C--2C--2D--2N--3D--,3N,4 controls
+1C--2C--2D--2N--3D--,3S,3 controls
+1C--2C--2D--2N--,3H,support asking bid (3 cards)
+1C--2C--2D--2N--3H--,3N,3!H  with 1-2 controls
+1C--2C--2D--2N--3H--,3S,0-2
+1C--2C--2D--2N--3H--,4C,3!H  with 3 controls
+1C--2C--2D--2N--3H--,4D,3!H  with 4 controls
+1C--2C--2D--2N--3H--,4H,3!H  with 5 controls
+1C--2C--2D--2N--,3S,support asking bid (3 cards)
+1C--2C--2D--2N--3S--,3N,0-2
+1C--2C--2D--2N--3S--,4C,3!S  with 1-2 controls
+1C--2C--2D--2N--3S--,4D,3!S  with 3 controls
+1C--2C--2D--2N--3S--,4H,3!S  with 4 controls
+1C--2C--2D--2N--3S--,4S,3!S  with 5 controls
+1C--2C--2D--,2S,5+!D
+1C--2C--2D--2S--,2N,Asks pd to further describe the hand.
+1C--2C--2D--2S--2N--,3C,6+!D
+1C--2C--2D--2S--2N--,3D,1
+1C--2C--2D--2S--2N--,3H,3
+1C--2C--2D--2S--2N--,3N,2
+1C--2C--2D--2S--2N--,3S,2
+1C--2C--2D--,3C,4!C+6!D
+1C--2C--2D--3C--,3D,Beta; Controls asking bid
+1C--2C--2D--3C--3D--,3H,1-2 controls
+1C--2C--2D--3C--3D--,3N,4 controls
+1C--2C--2D--3C--3D--,3S,3 controls
+1C--2C--2D--3C--,3H,Support asking bid (3 Cards)
+1C--2C--2D--3C--3H--,3N,3!H  with 1-2 controls
+1C--2C--2D--3C--3H--,3S,0-2
+1C--2C--2D--3C--3H--,4C,3!H  with 3 controls
+1C--2C--2D--3C--3H--,4D,3!H  with 4 controls
+1C--2C--2D--3C--3H--,4H,3!H  with 5 controls
+1C--2C--2D--3C--,3S,Support asking bid (3 Cards)
+1C--2C--2D--3C--3S--,3N,0-2
+1C--2C--2D--3C--3S--,4C,3!S  with 1-2 controls
+1C--2C--2D--3C--3S--,4D,3!S  with 3 controls
+1C--2C--2D--3C--3S--,4H,3!S  with 4 controls
+1C--2C--2D--3C--3S--,4S,3!S  with 5 controls
+1C--2C--2D--3C--,4C,Beta; Controls asking bid
+1C--2C--2D--3C--4C--,4D,1-2 controls
+1C--2C--2D--3C--4C--,4H,3 controls
+1C--2C--2D--3C--4C--,4N,5 controls
+1C--2C--2D--3C--4C--,4S,4 controls
+1C--2C--2D--,3D,0
+1C--2C--2D--,3H,3
+1C--2C--2D--,3N,1
+1C--2C--2D--,3S,2
+1C--2C--,2H,support asking bid (3 cards)
+1C--2C--2H--,2N,2!H
+1C--2C--2H--,2S,0-1!H
+1C--2C--2H--,3C,3+!H  with 1-2 controls
+1C--2C--2H--,3D,3+!H  with 3 controls
+1C--2C--2H--,3H,3+!H  with 4 controls
+1C--2C--2H--,3S,3+!H  with 5 controls
+1C--2C--,2N,Fragment Ask about 3 card major?
+1C--2C--2N--,3C,No 3 card major.
+1C--2C--2N--3C--,3H,support asking bid (2 cards)
+1C--2C--2N--3C--3H--,3N,yes 2!H.
+1C--2C--2N--3C--3H--,3S,No 2!H.
+1C--2C--2N--,3D,3!H; May be 3!S also.
+1C--2C--2N--3D--,3H,Beta; Controls asking bid
+1C--2C--2N--3D--3H--,3N,3 Controls
+1C--2C--2N--3D--3H--,3S,1-2 Control
+1C--2C--2N--3D--3H--,4C,4 Controls
+1C--2C--2N--3D--3H--,4D,5 Controls
+1C--2C--2N--,3H,3!S
+1C--2C--2N--3H--,3S,Beta; Controls asking bid
+1C--2C--2N--3H--3S--,3N,1-2 Controls
+1C--2C--2N--3H--3S--,4C,3 Controls
+1C--2C--2N--3H--3S--,4D,4 Controls
+1C--2C--2N--3H--3S--,4H,5 Controls
+1C--2C--,2S,support asking bid (3 cards)
+1C--2C--2S--,2N,0-1!S
+1C--2C--2S--,3C,2!S
+1C--2C--2S--,3D,3+!S  with 1-2 controls
+1C--2C--2S--,3H,3+!S  with 3 controls
+1C--2C--2S--,3N,3+!S  with 5 controls
+1C--2C--2S--,3S,3+!S  with 4 controls
+1C--2C--,3C,support asking bid (3 cards)
+1C--2C--3C--,3D,0-2!C
+1C--2C--3C--,3H,2!C+;  1-2 controls
+1C--2C--3C--,3N,3!C+;  4 controls
+1C--2C--3C--,3S,3!C+;  3 controls
+1C--2C--3C--,4C,3!C+;  5 controls; 11+HCP
+1C--2C--,3D,support asking bid (3 cards)
+1C--2C--3D--,3H,0-2!D
+1C--2C--3D--,3N,3+!D + 3 Controls
+1C--2C--3D--,3S,3+!D + 1-2 Controls
+1C--2C--,3H,support asking bid (J!H)?
+1C--2C--,3N,To Play.
+1C--2C--,3S,support asking bid (J!S)?
+1C--,2D,8-10 HCP Positive: Balanced
+1C--2D--,2H,Support asking bid (3 Cards)
+1C--2D--2H--,2N,3+!H  with 1-2 controls
+1C--2D--2H--,2S,2!H
+1C--2D--2H--2S--,2N,Asks pd to further describe the hand.
+1C--2D--2H--2S--2N--,3C,5!D.
+1C--2D--2H--2S--2N--,3H,4!S
+1C--2D--2H--2S--2N--,3N,5!C
+1C--2D--2H--2S--2N--,3S,3!S
+1C--2D--2H--,3C,3+!H  with 3 controls
+1C--2D--2H--,3D,3+!H  with 4 controls
+1C--2D--,2N,Please read chat#Waiting bid: Usually a balanced hand with interest in major or slam in 4+ major suits.
+1C--2D--2N--,3C,5!D+No 4 cd majors.
+1C--2D--2N--,3D,4!H and may be 4!S.
+1C--2D--2N--3D--,3H,Beta; Controls asking bid
+1C--2D--2N--3D--3H--,3N,3 controls
+1C--2D--2N--3D--3H--,3S,1-2 controls
+1C--2D--2N--3D--3H--,4C,4 controls
+1C--2D--2N--3D--,3S,Support asking bid (4 Cards)
+1C--2D--2N--3D--3S--,3N,2-3!S
+1C--2D--2N--3D--3S--,4C,4!S  with 1-2 controls
+1C--2D--2N--3D--3S--,4D,4!S  with 3 controls
+1C--2D--2N--3D--3S--,4H,4!S  with 4 controls
+1C--2D--2N--,3H,4!S
+1C--2D--2N--3H--,3S,Beta; Controls asking bid
+1C--2D--2N--3H--3S--,3N,1-2 controls
+1C--2D--2N--3H--3S--,4C,3 controls
+1C--2D--2N--3H--3S--,4D,4 controls
+1C--2D--2N--,3N,5!C and No 4 cd major
+1C--2D--2N--,3S,No 4 cd majors and 5 cd minors
+1C--2D--2N--3S--,4C,Beta; Controls asking bid
+1C--2D--2N--3S--4C--,4D,4!D; 1-2 controls
+1C--2D--2N--3S--4C--,4H,4!C; 1-2 controls
+1C--2D--2N--3S--4C--,4N,4 controls
+1C--2D--2N--3S--4C--,4S,3 controls
+1C--2D--,2S,Support asking bid (3 Cards)
+1C--2D--2S--,2N,2!S
+1C--2D--2S--2N--,3C,Support asking bid (4 Cards)
+1C--2D--2S--2N--3C--,3D,2-3!C
+1C--2D--2S--2N--3C--,3H,4+!C  with 1-2 controls
+1C--2D--2S--2N--3C--,3N,4+!C  with 4 controls
+1C--2D--2S--2N--3C--,3S,4+!C  with 3 controls
+1C--2D--2S--2N--,3D,Support asking bid (4 Cards)
+1C--2D--2S--2N--3D--,3H,2-3!D
+1C--2D--2S--2N--3D--,3N,4+!D  with 3 controls
+1C--2D--2S--2N--3D--,3S,4+!D  with 1-2 controls
+1C--2D--2S--2N--,3H,Support asking bid (4 Cards)
+1C--2D--2S--2N--3H--,3N,4+!H  with 1-2 controls
+1C--2D--2S--2N--3H--,3S,2-3!H
+1C--2D--2S--2N--3H--,4C,4+!H  with 3 controls
+1C--2D--2S--2N--3H--,4D,4+!H  with 4 controls
+1C--2D--2S--,3C,3+!S  with 1-2 controls
+1C--2D--2S--,3D,3+!S  with 3 controls
+1C--2D--2S--,3H,3+!S  with 4 controls
+1C--2D--,3C,Please read chat#Support asking bid (3 Cards); \\opener denies 4 card major
+1C--2D--3C--,3D,2!C
+1C--2D--3C--,3H,3+!C;  1-2 controls
+1C--2D--3C--,3N,3+!C;  4 controls
+1C--2D--3C--,3S,3+!C;  3 controls
+1C--2D--,3D,Please read chat#Support asking bid (3 Cards); opener denies 4 card major
+1C--2D--3D--,3H,2!D
+1C--2D--3D--,3N,3+!D + 3 Controls
+1C--2D--3D--,3S,3+!D + 1-2 Controls
+1C--2D--,3H,Support asking bid (J!H)
+1C--2D--3H--,3N,J!H with 1-2 controls
+1C--2D--3H--,3S,No J!H
+1C--2D--3H--,4C,J!H with 3 controls
+1C--2D--3H--,4D,J!H with 4 controls
+1C--2D--,3N,Natural.
+1C--2D--,3S,Support asking bid (2 Cards)
+1C--2D--3S--,3N,No J!S
+1C--2D--3S--,4C,J!S with 1-2 controls
+1C--2D--3S--,4D,J!S with 3 controls
+1C--2D--3S--,4H,J!S with 4 controls
+1C--,2H,8+ HCP Positive: Exactly 5!H332:
+1C--2H--,2N,Asking: For Weak Doubleton
+1C--2H--2N--,3C,xx !C
+1C--2H--2N--,3D,xx !D
+1C--2H--2N--,3H,xx !S
+1C--2H--2N--,3N,Any suit Ax
+1C--2H--2N--,3S,Any suit Kx
+1C--2H--,2S,Support asking bid (3 Cards)
+1C--2H--2S--,2N,2!S
+1C--2H--2S--,3C,3!S
+1C--2H--,3C,Support asking bid (3 Cards)
+1C--2H--3C--,3D,2!C
+1C--2H--3C--,3H,3!C
+1C--2H--,3D,Support asking bid (3 Cards)
+1C--2H--3D--,3H,2!D
+1C--2H--3D--,3S,3!D
+1C--2H--,3H,Beta; Controls asking bid
+1C--2H--3H--,3N,3 controls
+1C--2H--3H--,3S,1-2 controls
+1C--2H--3H--,4C,4 controls
+1C--2H--3H--,4D,5 controls
+1C--2H--,3N,To Play.
+1C--,2N,Please read chat#15+ HCP Positive: Balanced; Maybe 5-Card minor
+1C--2N--,3C,Transfer stayman
+1C--2N--3C--,3D,4!H
+1C--2N--3C--,3H,4!S
+1C--2N--3C--,3N,5!C
+1C--2N--3C--,3S,No 4-card Major or 5-card Minor
+1C--2N--3C--,4C,5!D
+1C--2N--3C--,4D,2
+1C--2N--3C--,4H,3
+1C--2N--3C--,4N,3
+1C--2N--3C--,4S,333 4!C
+1C--2N--,3D,3 cards Support asking bid.
+1C--2N--3D--,3H,2!D
+1C--2N--3D--,3S,3!D
+1C--2N--,3H,3 cards Support asking bid.
+1C--2N--3H--,3N,3!H
+1C--2N--3H--,3S,2!H
+1C--2N--,3N,3 cards Support asking bid for !C.
+1C--2N--3N--,4C,2!C
+1C--2N--3N--,4D,3!C
+1C--2N--,3S,3 cards Support asking bid.
+1C--2N--3S--,3N,2!S
+1C--2N--3S--,4C,3!S
+1C--,2S,8+ HCP Positive: Exactly 5!S332:
+1C--2S--,2N,Asking: For Weak Doubleton
+1C--2S--2N--,3C,xx !C
+1C--2S--2N--,3D,xx !D
+1C--2S--2N--,3H,xx !H
+1C--2S--2N--,3N,Any other suit Ax
+1C--2S--2N--,3S,Any other suit Kx
+1C--2S--,3C,Support asking bid (3 Cards)
+1C--2S--3C--,3D,2!C
+1C--2S--3C--,3H,3!C
+1C--2S--,3D,Support asking bid (3 Cards)
+1C--2S--3D--,3H,2!D
+1C--2S--3D--,3S,3!D
+1C--2S--,3H,Support asking bid (3 Cards)
+1C--2S--3H--,3N,3!H
+1C--2S--3H--,3S,2!H
+1C--2S--,3N,To Play.
+1C--2S--,3S,Beta; Controls asking bid
+1C--2S--3S--,3N,3 controls
+1C--2S--3S--,4C,4 controls
+1C--2S--3S--,4D,5 controls
+1C--,3C,8+ HCP Unusual Positive: \\4414/4441
+1C--3C--,3D,Asks for singleton?
+1C--3C--3D--,3H,singleton !C
+1C--3C--3D--3H--,3N,To Play.
+1C--3C--3D--,3S,singleton !D
+1C--3C--3D--3S--,3N,To Play.
+1C--3C--,3H,Sets !H as trumps\\Beta Asks controls
+1C--3C--,3N,To Play.
+1C--3C--,3S,Sets !S as trumps\\Beta Asks controls
+1C--3C--,4C,4 cards Support asking bid.
+1C--3C--4C--,4D,Singleton !C
+1C--3C--4C--,4H,4!C and 1-2 controls
+1C--3C--4C--,4N,4!C and 4 controls
+1C--3C--4C--,4S,4!C and 3 controls
+1C--3C--,4D,4 cards Support asking bid.
+1C--3C--4D--,4H,Singleton !D
+1C--3C--4D--,4N,4!D and 4 controls
+1C--3C--4D--,4S,4!D and 1-3 controls
+1C--,3D,8+ HCP Unusual Positive: 4
+1C--3D--,3H,Please read chat#Beta; Controls asking bid; To save space; trumps sets for minors.
+1C--3D--3H--,3N,4 controls
+1C--3D--3H--,3S,1-3 controls
+1C--3D--,3N,To Play.
+1C--3D--,3S,Please read chat#Beta; Controls asking bid.\\!S as trumps and interested in Q!S.
+1C--3D--3S--,3N,No Q!S
+1C--3D--3S--,4C,Q!S; 1-3 controls
+1C--3D--3S--,4D,Q!S; 4 controls
+1C--3D--3S--,4H,Q!S; 5 controls
+1C--3D--,4C,Please read chat#Beta; Controls asking bid.\\!C as trumps and interested in Q!C.
+1C--3D--4C--,4D,No Q!C
+1C--3D--4C--,4H,Q!C; 1-3 controls
+1C--3D--4C--,4N,Q!C; 5 controls
+1C--3D--4C--,4S,Q!C; 4 controls
+1C--3D--,4D,Please read chat#Beta; Controls asking bid.\\!D as trumps and interested in Q!D.
+1C--3D--4D--,4H,No Q!D
+1C--3D--4D--,4N,Q!D; 4 controls
+1C--3D--4D--,4S,Q!D; 1-3 controls
+1C--3D--4D--,5C,Q!D; 5 controls
+1C--,3H,8+ HCP Unusual Positive: 1!S
+1C--3H--,3N,To Play.
+1C--3H--,3S,Please read chat#Beta; Controls asking bid.\\!H as trumps and interested in Q!H.
+1C--3H--3S--,3N,No Q!H
+1C--3H--3S--,4C,Q!H; 1-3 controls
+1C--3H--3S--,4D,Q!H; 4 controls
+1C--3H--3S--,4H,To Play.
+1C--3H--,4C,Please read chat#Beta; Controls asking bid.\\!C as trumps and interested in Q!C.
+1C--3H--4C--,4D,No Q!C
+1C--3H--4C--,4H,Q!C; 1-3 controls
+1C--3H--4C--,4N,Q!C; 5 controls
+1C--3H--4C--,4S,Q!C; 4 controls
+1C--3H--,4D,Please read chat#Beta; Controls asking bid.\\!D as trumps and interested in Q!D.
+1C--3H--4D--,4H,No Q!D
+1C--3H--4D--,4N,Q!D; 4 controls
+1C--3H--4D--,4S,Q!D; 1-3 controls
+1C--3H--4D--,5C,Q!D; 5 controls
+1C--3H--,4H,To Play.
+1C--,3N,Please read chat#9+ HCP Positive: AKQXXXX in any solid suit; May have outside controls.
+1C--3N--,4C,Asks which Suit?
+1C--3N--4C--,4D,!D
+1C--3N--4C--,4H,!H
+1C--3N--4C--,4N,AKQxxxx !C
+1C--3N--4C--,4S,!S
+1C--3N--,4D,Asks for extra controls?
+1C--3N--4D--,4H,1 Control extra
+1C--3N--4D--,4N,3 Controls extra
+1C--3N--4D--,4S,2 Controls extra
+1C--,3S,9 HCP Positive: \\AKQXXXX  in !C or !D
+1C--3S--,3N,To Play.
+1C--3S--3N--,4C,One Extra A or K
+1C--3S--3N--,4D,Two Extra A or K
+1C--3S--3N--,4H,Three Extra A or K
+1C--,4C,Please read chat#Transfer to 4!H.\\5-7 HCP Semi- Positive: \\8-CARD SUIT: NO OUTSIDE A/K
+1C--4C--,4D,Asks for shortness
+1C--4C--4D--,4N,!D shortage
+1C--4C--4D--,4S,!S Shortage
+1C--4C--4D--,5C,!C shortage
+1C--4C--,4H,Accepts transfer
+1C--4C--,4S,Kickback for !H
+1C--4C--4S--,4N,1 key card
+1C--4C--4S--,5C,0 key cards
+1C--4C--4S--,5D,1 key card with Q!H
+1C--,4D,Please read chat#Transfer to 4!S.\\5-7 HCP Semi- Positive: \\8-CARD SUIT: NO OUTSIDE A/K
+1C--4D--,4H,Asks for shortness
+1C--4D--4H--,4N,!H shortage
+1C--4D--4H--,5C,!C shortage
+1C--4D--4H--,5D,!D shortage
+1C--4D--,4N,Kickback for !S
+1C--4D--4N--,5C,1 key card
+1C--4D--4N--,5D,0 key cards
+1C--4D--4N--,5H,1 key card with Q!S
+1C--4D--,4S,Accepts transfer
+,1D,Please read chat#10-15 HCP 4+!D. Canape If 5+- 4 Distribution; May be 3!D (NT); Rarely 2!D cards (3325).
+1D--,1H,6+HCP
+1D--1H--1N--,2C,Please read chat#Invitational values or drop dead with !D support
+1D--1H--1N--2C--,2D,forced
+1D--1H--1N--2C--2D--,2H,5!H; may be 4!S
+1D--1H--1N--2C--2D--,--,To Play.
+1D--1H--1N--,2D,Please read chat#GF or better asking for 3M or 4Om or 2NT
+1D--1H--1N--2D--,2H,3!H
+1D--1H--1N--2D--,2N,1-2!H; balanced.
+1D--1H--1N--2D--,3C,4!C
+1D--1H--1N--,2H,5-6!H; To Play.
+1D--1H--1N--,2N,AKQxxx!H+ Black stoppers
+1D--1H--1N--,2S,4!S; Max; Non forcing
+1D--1H--1N--,3C,5!H-5!C; G.I
+1D--1H--1N--,3D,5!H-5!D; G.I
+1D--1H--1N--,3H,6!H; G.I
+1D--1H--1N--,3S,6!H-5!S; G.I
+1D--1H--2D--,2N,Asks pd to further describe the hand.
+1D--1H--2D--2N--,3C,0-1!H
+1D--1H--2D--2N--,3D,xx!H
+1D--1H--2D--2N--,3H,Honor x !H
+1D--1H--2D--2N--,3N,AKQxxx!D
+1D--1H--2D--2N--,3S,xxx!H
+1D--,1N,8-11HCP; Perhaps 6-7 if  shortage.
+1D--,1S,6+HCP
+1D--1S--1N--,2C,Please read chat#Invitational values or drop dead with !D support
+1D--1S--1N--2C--,2D,forced
+1D--1S--1N--2C--2D--,2H,4!H
+1D--1S--1N--2C--2D--,--,To Play.
+1D--1S--1N--,2D,Please read chat#GF or better asking for 3M or 4Om or 2NT
+1D--1S--1N--2D--,2N,1-2!S; balanced.
+1D--1S--1N--2D--,2S,3!S
+1D--1S--1N--2D--,3C,4!C
+1D--1S--1N--,2H,5!H; To Play.
+1D--1S--1N--,2N,AKQxxx!S+ stoppers unbid suits
+1D--1S--1N--,2S,5-6!S; Max; Non forcing
+1D--1S--1N--,3C,5!S-5!C; G.I
+1D--1S--1N--,3D,5!S-5!D; G.I
+1D--1S--1N--,3H,6!S-5!H; G.I
+1D--1S--1N--,3S,6!S; G.I
+1D--1S--2D--,2N,Asks pd to further describe the hand.
+1D--1S--2D--2N--,3C,0-1!S
+1D--1S--2D--2N--,3D,xx!S
+1D--1S--2D--2N--,3H,Honor x !S
+1D--1S--2D--2N--,3N,AKQxxx!D
+1D--1S--2D--2N--,3S,xxx!S
+1D--,2C,Please read chat#12+HCP; Asking for distribution & allowing for canapé:
+1D--2C--,2D,No canape & unbalanced.
+1D--2C--,2H,5!H and 4!D canape
+1D--2C--,2N,Balanced; 11-13 or 14-16
+1D--2C--,2S,5!S and 4!D canape
+1D--2C--,3C,4!D and 5!C
+1D--,2D,Please read chat#4+!D; 6-9 HCP; unsuitable for 1NT; Usually singleton or 5+!D; Unbalanced.
+1D--,2H,12+HCP; 5 Major (!Sor!H)
+1D--2H--,2N,Which Major?
+1D--2H--2N--,3C,5!H
+1D--2H--2N--,3D,5!S
+1D--2H--2N--,3H,6!H
+1D--2H--2N--,3N,AKQxxx
+1D--2H--2N--,3S,6!S
+1D--2H--2N--,4C,7card !H
+1D--2H--2N--,4D,7card !S
+1D--2H--2N--,4H,8!H
+1D--2H--2N--,4S,8!S
+1D--2H--,2S,Canape
+1D--2H--,3C,5-4 either way in the minors & no 3M
+1D--2H--,3D,5+!D. and no 3M;
+1D--2H--,3H,5+!H; canape
+1D--2H--,3N,AKQxxx(x)  No 3M
+1D--2H--,3S,5+!S; canape
+1D--,2N,16+HCP; 
+1D--2N--,3C,Stayman
+1D--2N--3C--,3D,Please read chat#Bidding up the line; May have 4 card major.
+1D--2N--3C--3D--,3H,4 cards
+1D--2N--3C--3D--3H--,3N,Denies 4 card !S and !H.
+1D--2N--3C--3D--3H--,3S,4 cards and denies 4 cards !H.
+1D--2N--3C--3D--,3N,Denies both majors.
+1D--2N--3C--3D--,3S,4 cards ; denies 4 card !H.
+1D--2N--3C--3D--3S--,3N,Denies 4!S.
+1D--2N--3C--,3H,Please read chat#Bidding up the line; \\May have 4 card !S.
+1D--2N--3C--3H--,3N,Denies 4!H/4!S.
+1D--2N--3C--3H--,3S,4!S
+1D--2N--3C--3H--,4H,4!H.
+1D--2N--3C--,3N,Denies 4!S/4!H/4!D.
+1D--2N--3C--,3S,4!S; denies 4!H/4!D
+1D--2N--3C--3S--,3N,Denies 4!S and To Play.
+1D--2N--3C--3S--,4S,4!S
+1D--,2S,4!D+5!C
+1D--,3C,6+!C; 10-11HCP; G.I.
+1D--3C--,3H,Canape and G.I.
+1D--3C--,3S,Canape and G.I.
+1D--,3D,Please read chat#6+!D; 10-11 HCP; G.I.\\No 3 card majors.
+1D--3D--,3H,Canape 6!H-4!D
+1D--3D--,3S,Canape 6!S-4!D
+1D--,3H,12 HCP; Fit Jump; 4+!D.
+1D--,3N,Please read chat#14-15HCP; 3 cards in each major\\(Allows for canape)
+1D--,3S,10-11 HCP; Fit Jump; 4+!D.
+1D--,4N,Regular Blackwood for aces only; 1430
+,1H,Please read chat#10-15 HCP 4+!H; Canape.\\If new suit bid at two or three Level.
+1H--,1N,Asks pd to further describe the hand.
+1H--1N--,2C,4!H-5!C canape
+1H--1N--,2D,4!H-5!D canape
+1H--1N--,2H,6!H or 5!H and 4!C and minimum
+1H--1N--,2N,canape; 5!H-4!C; max; 15-16hcp
+1H--1N--,2S,5!H and 4!S and minimum
+1H--,1S,8-11HCP
+1H--1S--,1N,Natural
+1H--1S--,2C,canape; 4!H-5!C
+1H--1S--,2D,canape; 4!H-5!D
+1H--1S--,2H,6!H / maybe 5!H & 4!C & Minimum
+1H--1S--,2N,5!H; 4!C & Maximum: 15-16 hcp
+1H--1S--,2S,Reverse: 5!H & 4!S & Minimum
+1H--1S--,3C,canape; 4!H-6!C; max
+1H--,2C,G.F. & Suit Inquiry
+1H--2C--,2D,Please read chat#All other hands that would not fit for other calls.
+1H--2C--,2H,4!H+5!C
+1H--2C--,2N,4!H+6!C
+1H--2C--,2S,4!H+5!D
+1H--2C--,3C,4!H+6!D
+1H--2C--,3D,5!H+4!S
+1H--2C--,3H,6!H
+1H--2C--,3S,6!H+5!S
+1H--,2D,Please read chat#About 10 pts. and 5+!D; Opener can pass.
+1H--2D--,2N,To Play.
+1H--2D--,2S,max
+1H--2D--,3C,Max
+1H--2D--,--,minimum hand & xx!D
+1H--,2H,6-9 hcp
+1H--2H--,2N,Short suit game try. for !S.
+1H--2H--,2S,GAME TRY.
+1H--2H--,3C,Short suit game try. for !C.
+1H--2H--,3D,Short suit game try. for !D.
+1H--2H--,3H,Power game try. Ususally 6-losers
+1H--,2N,Game invite with 4!H.
+1H--2N--,3C,5 losers; G.F.
+1H--2N--3C--,3D,cue-bid and slam interest
+1H--2N--3C--,3S,cue-bid and slam interest
+1H--2N--3C--,4C,cue-bid and slam interest
+1H--2N--,3D,6 losers; G.I.
+1H--2N--,3H,7-8 losers
+1H--2N--,3N,Please read chat#15-16HCP; 4333 or 4432 with Hx in 2; alternate contract
+1H--2N--,3S,55 or 64 in majors; 5 losers; GF
+1H--2N--,4C,Please read chat#Canape; slam interest; 2nd suit; \\5 losers
+1H--2N--,4D,Please read chat#Canape; slam interest; 2nd suit; \\5 losers
+1H--2N--,4H,Full opener; 5 losers. No slam interest
+1H--,2S,6!S;  or  5!S3!Hxx;\\or Good !H Support
+1H--2S--,2N,minimum hands
+1H--2S--2N--,3C,Natural & 4+
+1H--2S--2N--,3D,Natural & 4+
+1H--2S--2N--,3H,5
+1H--2S--2N--,3S,single suited !S
+1H--2S--2N--,4C,5332
+1H--2S--2N--4C--,4N,To Play.
+1H--2S--2N--,4D,5323
+1H--2S--2N--4D--,4N,To Play.
+1H--2S--,3C,Some canape
+1H--2S--3C--,3D,Asking for Canape?
+1H--2S--3C--3D--,3H,5-6!C
+1H--2S--3C--3D--,3N,5-6!D + A !C stopper
+1H--2S--3C--3D--,3S,5-6!D + NO !C stopper
+1H--2S--,3D,Good !H hand
+1H--2S--,3H,moderate !H hand
+1H--2S--,3N,Probably 1
+1H--2S--,3S,Good hand for !S
+1H--,3C,Game invite; 4!H and 5 card !C
+1H--,3D,Game invite; 4!H and 5 card !D
+1H--,3H,4!H and 3 cover cards.\\eg: Qxxx+A+K
+1H--,3N,13-15hcp; 2-3!H and 44
+1H--,3S,Fit Jump; 4!H and 5!S and GF
+1H--,4C,Fit Jump; !C KQxxx and 4!H & G.F.
+1H--,4D,Fit Jump; !D KQxxx and 4!H & G.F.
+1H--,4H,Please read chat#2 way; G.F.: Balanced / Semi-Balanced hand or pre-emptive
+,1S,Please read chat#10-15 HCP 4+!S; Canape.\\If new suit bid at two or three Level.
+1S--,1N,Asks pd to further describe the hand.
+1S--1N--,2C,4!S-5!C canape
+1S--1N--,2D,4!S-5!D canape
+1S--1N--,2H,4!S-5!H canape
+1S--1N--,2N,canape; 5!S-4!C; max; 15-16hcp
+1S--1N--,2S,6!S or 5!S and 4!C and minimum
+1S--,2C,G.F. & !S Suit Inquiry
+1S--2C--,2D,Please read chat#All other hands that would not fit for other calls.
+1S--2C--,2H,4!S+5!C
+1S--2C--,2N,4!S+6!C
+1S--2C--,2S,4!S+5!D
+1S--2C--,3C,4!S+6!D
+1S--2C--,3D,5!S+4!H
+1S--2C--,3H,5!S+5!H
+1S--2C--,3S,6!S
+1S--,2D,Please read chat#About 10 pts. and 5+!D; Opener can pass.
+1S--2D--,2H,minimum
+1S--2D--,2N,To Play.
+1S--2D--,2S,minimum
+1S--2D--,3C,Max
+1S--2D--,--,minimum hand & xx!D
+1S--,2H,Please read chat#About 10 pts. and 5+!H; Opener can pass.
+1S--2H--,2N,To Play.
+1S--2H--,2S,minimum
+1S--2H--,3C,Max
+1S--2H--,--,minimum hand & xx!D
+1S--,2N,Game invite with 4!S.
+1S--2N--,3C,5 losers; G.F.
+1S--2N--3C--,3D,cue-bid and slam interest
+1S--2N--3C--,3S,cue-bid and slam interest
+1S--2N--3C--,4C,cue-bid and slam interest
+1S--2N--,3D,6 losers; G.I.
+1S--2N--,3H,7-8 losers
+1S--2N--,3N,Please read chat#15-16HCP; 4333 or 4432 with Hx in 2; alternate contract
+1S--2N--,3S,55 or 64 in majors; 5 losers; GF
+1S--2N--,4C,Please read chat#Canape; slam interest; 2nd suit; \\5 losers
+1S--2N--,4D,Please read chat#Canape; slam interest; 2nd suit; \\5 losers
+1S--2N--,4H,Full opener; 5 losers. No slam interest
+1S--,2S,6-9 HCP
+1S--2S--,2N,artficial game try.
+1S--2S--,3C,Short suit game try. for !C.
+1S--2S--,3D,Short suit game try. for !D.
+1S--2S--,3H,Short suit game try. for !H.
+1S--2S--,3S,Power game try. Ususally 6-losers
+1S--2S--,--,minimum; 7-8 losers
+1S--,3C,Game invite; 4!S and 5 card !C
+1S--,3D,Game invite; 4!S and 5 card !D
+1S--,3H,Fit Jump; 4!S and 5!H and GF
+1S--,3N,13-15hcp; 2-3!S and 44
+1S--,3S,4!S and 3 cover cards.\\eg: Qxxx+A+K
+1S--,4C,Fit Jump; !C KQxxx and 4!S & G.F.
+1S--,4D,Fit Jump; !D KQxxx and 4!S & G.F.
+1S--,4S,Please read chat#2 way; G.F.: Balanced / Semi-Balanced hand or pre-emptive
+,2C,10-15 HCP;\\6!C and (No 4 card Major) 
+2C--,2D,8+HCP; 5+!H; Playable at 3 level.
+2C--2D--,2H,2+!H
+2C--2D--2H--,2N,5!H. Balanced
+2C--2D--2H--,2S,55 in majors
+2C--2D--2H--,3C,5!H+3!C
+2C--2D--2H--,3D,5!H+5!D
+2C--2D--2H--,3H,6!H
+2C--2D--2H--,3N,5!H.
+2C--2D--2H--,3S,6!H+5!S
+2C--2D--2H--,4C,5!H+4!C
+2C--2D--2H--,4D,5!H+5!D
+2C--2D--2H--,4H,6!H
+2C--2D--2H--,--,To Play.
+2C--2D--,2N,0-1!H; !D stopper and maximum
+2C--2D--,2S,0-1!H; !S stopper and maximum.
+2C--2D--,3C,0-1!H; 6+!C; minimum
+2C--2D--,3H,3+!H; maximum
+2C--2D--,3N,AKQxxx!C
+2C--,2H,8+HCP; 5+!S; Playable at 3 level.
+2C--2H--,2N,0-1!S and maximum
+2C--2H--,3C,0-1!S and minimum
+2C--,2N,10-11 HCP.\\GI;  or  12+ & G.F.
+2C--2N--,3C,Minimum
+2C--2N--3C--,4C,minorwood 1430
+2C--2N--3C--4C--,4D,1 or 4 keycards
+2C--2N--3C--4C--,4H,3 or 0 keycards
+2C--2N--3C--4C--,4N,2 key cards with Q!C.
+2C--2N--3C--4C--,4S,2 key cards with no Q!C.
+2C--2N--3C--4C--,5C,2 key cards with Q!C and K.
+2C--2N--,4C,minorwood 1430
+2C--2N--4C--,4D,1 or 4 keycards
+2C--2N--4C--4D--,4H,Asking Q!C?
+2C--2N--4C--4D--4H--,4N,Yes Q!C.
+2C--2N--4C--4D--4H--,4S,No Q!C
+2C--2N--4C--4D--4H--,5D,Yes Q!C with K!D.
+2C--2N--4C--4D--4H--,5H,Yes Q!C with K!H
+2C--2N--4C--4D--4H--,5S,Yes Q!C with K!S
+2C--2N--4C--,4H,3 or 0 keycards
+2C--2N--4C--,4N,2 key cards with Q!C.
+2C--2N--4C--,4S,2 key cards with no Q!C.
+2C--2N--4C--,5C,2 key cards with Q!C and outside K.
+2C--,2S,8+HCP; 6+!D; Playable at 3 level.
+2C--2S--,2N,0-3!D and maximum
+2C--2S--,3C,0-1!D and minimum
+2C--2S--,3D,2+!D and minimum
+2C--,3C,8-10HCP.
+2C--,3D,6+!D; Support asking bid (2 cards)
+2C--3D--,3H,0-1!D
+2C--3D--,3N,2+!D and 3 controls
+2C--3D--,3S,2!D and 1-2 controls
+2C--,3H,6+!H; Support asking bid (2 cards)
+2C--3H--,3N,2+!H and 1-2 controls
+2C--3H--,3S,0-1 !H
+2C--3H--,4C,2+!H and 3 controls
+2C--,3N,To Play.
+2C--,3S,6+!S; Support asking bid (2 cards)
+2C--3S--,3N,0-1!S
+2C--3S--,4C,2+!S and 0-2 controls
+2C--3S--,4D,2+!S and 3 controls
+2C--,4C,4+!C
+,2D,Please read chat#10-15 HCP; 6!D+(0-2)!S+(0-2)!H \\(No 3 card Major)
+2D--,2H,Please read chat#6+!H; Natural; 10-11HCP; & Non forcing. or 8+with !D (Hxx) support.
+2D--2H--,2N,14-15 HCP; !C & !S Stoppers
+2D--2H--,2S,Please read chat#(HX)!S & xx in !H & MAXIMUM:\\2263 / 2164 / 2173
+2D--2H--,3C,Please read chat#14-15 HCP; !C Stoppers and No !S stopper.
+2D--2H--,3D,0-1!H. & 6!D.: KQJxxxx+
+2D--2H--,3H,2!H. & 6!D max; 2263
+2D--2H--,3N,Please read chat#AKQxxx(x)!D & 6(7)222+ with K or Q in 2 suits outside of !C suit.
+2D--2H--,--,pass Hx/xx & minimum
+2D--,2N,Please read chat#Natural; 10-11HCP with G.I.+with !D (Hxx) support.\\Or 12+HCP & GF
+2D--2N--,3C,Please read chat#Max with !C stopper and only 1 Major stopper
+2D--2N--,3D,Minimum
+2D--2N--3D--,4D,minorwood 1430
+2D--2N--3D--4D--,4H,1 or 4  keycards
+2D--2N--3D--4D--,4N,2 key cards with no Q!D.
+2D--2N--3D--4D--,4S,0 or 3 key cards
+2D--2N--3D--4D--,5C,2 key cards with Q!D.
+2D--2N--3D--4D--,5D,2 key cards with Q!D and outside K.
+2D--2N--,3H,Max with !H stopper
+2D--2N--,3N,accepts with 14+HCP
+2D--2N--,3S,Max with !S stopper
+2D--,2S,Please read chat#6+!S; \\10-11HCP; & Non forcing.\\or 8+with (Hxx)!D support.
+2D--2S--,2N,14-15 HCP; !C & !H Stoppers
+2D--2S--,3C,Please read chat#14-15 HCP; !C Stoppers and No !H stopper.
+2D--2S--,3D,0-1!S & 6!D: KQJxxxx+
+2D--2S--,3N,Please read chat#AKQxxx(x)!D & 6(7)222+ with K or Q in 2 suits outside of !D suit.
+2D--2S--,3S,2!S & 6!D max; 2263
+2D--2S--,--,pass Hx/xx & minimum
+2D--,3C,0-1!D. and Long !C; non forcing.
+2D--,3D,Preemptive
+2D--,3H,GF; support asking bid (2 cards)
+2D--3H--,3N,2!H and 0-2 controls
+2D--3H--,3S,0-1 !H
+2D--3H--,4C,2!H and 3 controls
+2D--3H--,4D,2!H and 4 controls
+2D--3H--,4H,2!H and 5 controls
+2D--,3N,To Play.
+2D--,3S,GF; support asking bid (2 cards)
+2D--3S--,3N,(0-1)!S
+2D--3S--,4C,2!S and 1-2 controls
+2D--3S--,4D,2!S and 3 controls
+2D--3S--,4H,2!S and 4 controls
+2D--3S--,4S,2!S and 5 controls
+2D--,4C,Splinter; Agreeing !D suit
+2D--,4D,Preemptive
+2D--,4H,Splinter; Agreeing !D suit
+2D--,4N,Regular Blackwood for Aces only
+2D--4N--,5C,0-4 Aces.
+2D--4N--,5D,1 ACE.
+2D--4N--,5H,2 ACES.
+2D--4N--,5S,3 ACES.
+2D--,4S,Splinter; Agreeing !D suit
+2D--,5C,To Play.
+2D--,5D,To Play.
+,2H,Please read chat#11-15 HCP 5-cards: \\5!H332 / 5!H+22+4!C\\Ak/KQ/AQ/AJT in !H.
+2H--,2N,Forced to bid 3!C. (strong or weak)
+2H--2N--,3C,Forced to bid.
+2H--2N--3C--,3D,<10 HCP 6+!D. To Play & 0-1!H.
+2H--2N--3C--,3H,12+HCP; 3+!H. GF; BETA
+2H--2N--3C--3H--,3N,3 Controls.
+2H--2N--3C--3H--,3S,1-2 Controls.
+2H--2N--3C--3H--,4C,4 Controls.
+2H--2N--3C--3H--,4D,5 Controls.
+2H--2N--3C--,3N,12+HCP 6+!S. G.F.\\Beta.
+2H--2N--3C--3N--,3N,xx in !S
+2H--2N--3C--3N--,4C,1-2 controls
+2H--2N--3C--3N--,4D,3 controls
+2H--2N--3C--3N--,4H,4 controls
+2H--2N--3C--3N--,4S,5 controls
+2H--2N--3C--,3S,Please read chat#12+HCP 5+!S. G.F.\\3 cards Support asking bid.
+2H--2N--3C--3S--,3N,xx in !S
+2H--2N--3C--3S--,4C,3!S and 1-2 controls
+2H--2N--3C--3S--,4D,3!S and 3 controls
+2H--2N--3C--3S--,4H,3!S and 4 controls
+2H--2N--3C--3S--,4S,3!S and 5 controls
+2H--2N--3C--,4C,Please read chat#12+HCP 6+!C. G.F.\\3 cards Support asking bid.
+2H--2N--3C--4C--,4D,2!C
+2H--2N--3C--4C--,4H,3!C+1-2 Controls
+2H--2N--3C--4C--,4N,3!C+ 4 Controls
+2H--2N--3C--4C--,4S,3!C+ 3 Controls
+2H--2N--3C--4C--,5C,3!C+ 5 Controls
+2H--2N--3C--,4D,Please read chat#12+HCP 6+!D. G.F.\\3 cards Support asking bid.
+2H--2N--3C--4D--,4H,2!D
+2H--2N--3C--4D--,4N,3!D+ 3 Controls
+2H--2N--3C--4D--,4S,3!D+ 1-2 Controls
+2H--2N--3C--4D--,5C,3!D+ 4 Controls
+2H--2N--3C--4D--,5D,3!d+ 5 Controls
+2H--2N--3C--,--,<10 HCP; 6+!C. TO PLAY & 0-1!H.
+2H--,2S,5+!S; Natural; 9+HCP;\\ Non forcing.
+2H--2S--,3H,
+2H--,3C,Natural.10-11 HCP; Game Invitational.
+2H--3C--,3D,Please read chat#Cheapest Stopper Looking For 3NT: Maximum Hand
+2H--3C--,3H,AKQXX & Weak Doubleton &\\14-15 HCP
+2H--3C--,3N,To Play. Good !C's and max.
+2H--3C--,3S,Please read chat#cheapest Stopper Looking For 3nt: Maximum Hand
+2H--3C--,--,Minimum hand.
+2H--,3D,Natural.10-11 HCP; Game Invitational.
+2H--3D--,3H,AKQXX & Weak Doubleton &\\14-15 HCP
+2H--3D--,3N,To Play. Good !D's and max.
+2H--3D--,3S,Please read chat#cheapest Stopper Looking For 3nt: Maximum Hand
+2H--3D--,--,Minimum hand.
+2H--,3H,Natural.10-11 HCP; Game Invitational.
+2H--,3N,To Play.
+2H--,3S,Natural.10-11 HCP; Game Invitational.
+2H--,4C,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2H--,4D,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2H--,4H,To Play.
+2H--,4N,Blackwood for aces only 1430
+2H--4N--,5C,1 or 4 Aces only
+2H--4N--,5D,0 or 3  Aces only.
+2H--4N--,5H,2 Aces with out Q!H
+2H--4N--,5S,2 Aces with Q!H
+2H--,4S,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2H--,--,Also; Ususally pass with 1!H with 5+!S
+,2N,Please read chat#6-12 HCP; Unusual: 5/5 !C+!D\\& Unbalanced.
+2NDb,3C,To Play.
+2NDb,3D,To Play.
+2NDb,--,willing to play !C.
+2NDb,Rd,For penalty
+2N--,3C,To Play.
+2N--,3D,To Play.
+2N--,3H,Please read chat#11+HCP; GF or Slam interest.\\Asks pd to further describe the hand.
+2N--3H--,3N,2
+2N--3H--,3S,1
+2N--3H--,4C,1156
+2N--3H--,4D,1165
+2N--3H--,4H,0
+2N--3H--,4N,1066 or 0166
+2N--3H--,4S,3
+2N--,3N,11-14HCP; To Play. stoppers in majors.
+2N--,3S,Slam interest; which is better minor?
+2N--3S--,3N,!C accept
+2N--3S--3N--,4C,Beta\\control asking bid
+2N--3S--3N--4C--,4D,1-2 Control
+2N--3S--3N--4C--,4H,3 Controls
+2N--3S--3N--4C--,4S,4 Controls
+2N--3S--,4C,!D accept
+2N--3S--4C--,4D,Beta\\control asking bid
+2N--3S--4C--4D--,4H,1-2 Controls
+2N--3S--4C--4D--,4N,4 Controls
+2N--3S--4C--4D--,4S,3 Controls
+2N--,4C,Asks to bid game if max?
+2N--,4D,Asks to bid game if max?
+2N--,4H,Control asking bid?
+2N--4H--,4N,K!H
+2N--4H--,4S,No !H control.
+2N--4H--,5C,A!H and none
+2N--4H--,5D,AK or AQ!H.
+2N--,4S,Control asking bid?
+2N--4S--,4N,No !S Control.
+2N--4S--,5C,K!S
+2N--4S--,5D,A!S and none
+2N--4S--,5H,AK or AQ!S
+,2S,Please read chat#11-15 HCP 5-cards: 5!S332 / 5!S224!C\\AK/KQ/AQ/AJT in !S.
+2S--,2N,Forced to bid 3!C. (strong or weak)
+2S--2N--,3C,Forced.
+2S--2N--3C--,3D,<10 HCP 6+!D. TO PLAY & 0-1!S.
+2S--2N--3C--,3H,<10 HCP 6+!H. TO PLAY & 0-1!S.
+2S--2N--3C--,3N,Please read chat#12+HCP; 5+!H. G.F.\\support asking bid (3 cards)
+2S--2N--3C--3N--,4C,2 card !Hs
+2S--2N--3C--3N--,4D,3!H and 1-2 Controls
+2S--2N--3C--3N--,4H,3!H and 3 Controls
+2S--2N--3C--3N--,4N,3!H and 5 Controls
+2S--2N--3C--3N--,4S,3!H and 4 Controls
+2S--2N--3C--,3S,12+HCP 3+!S. G.F.\\Beta
+2S--2N--3C--3S--,3N,1-2 controls
+2S--2N--3C--3S--,4C,3 controls
+2S--2N--3C--3S--,4D,4 controls
+2S--2N--3C--3S--,4H,5 controls
+2S--2N--3C--,4C,Please read chat#12+HCP; 5+!C. G.F.\\support asking bid (3 cards)
+2S--2N--3C--4C--,4D,xx in !C.
+2S--2N--3C--4C--,4H,3!C and 1-2 Controls
+2S--2N--3C--4C--,4N,3!C and 4 Controls
+2S--2N--3C--4C--,4S,3!C and 3 Controls
+2S--2N--3C--4C--,5C,3!C and 5 Controls
+2S--2N--3C--,4D,Please read chat#12+HCP; 5+!D. G.F.\\Suit asking bid (3 cards)
+2S--2N--3C--4D--,4H,2 cards !D
+2S--2N--3C--4D--,4N,3!D and 3 Controls
+2S--2N--3C--4D--,4S,3!D and 1-2 Controls
+2S--2N--3C--4D--,5C,3!D and 4 Controls
+2S--2N--3C--4D--,5D,3!D and 5 Controls
+2S--2N--3C--,4H,
+2S--2N--3C--,4S,
+2S--2N--3C--,--,<10 HCP; 6+!C. TO PLAY & 0-1!S.
+2S--,3C,Natural.10-11 HCP; Game Invitational.
+2S--3C--,3D,Please read chat#CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3C--,3H,Please read chat#CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3C--,3N,To Play. Good !C's and max.
+2S--3C--,3S,AKQXX & WEAK DOUBLETON &\\14-15 HCP
+2S--3C--,--,Minimum hand.
+2S--,3D,Natural.10-11 HCP; Game Invitational.
+2S--3D--,3H,Please read chat#CHEAPEST STOPPER LOOKING FOR 3NT: MAXIMUM HAND
+2S--3D--,3N,To Play. Good !D's and max.
+2S--3D--,3S,AKQXX & WEAK DOUBLETON &\\14-15 HCP
+2S--3D--,--,Minimum hand.
+2S--,3H,Natural.10-11 HCP; Game Invitational.
+2S--3H--,3S,minimum
+2S--,3N,To Play. 12+HCP
+2S--,3S,Natural.10-11 HCP; Game Invitational.
+2S--,4C,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2S--,4D,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2S--,4H,Please read chat#Splinter 12+ HCP Slam interest.\\Ask for Cuebid to accept.
+2S--,4N,Blackwood for aces only 1430
+2S--4N--,5C,1 or 4 Aces only
+2S--4N--,5D,0 or 3  Aces only.
+2S--4N--,5H,2 Aces with out Q!S
+2S--4N--,5S,2 Aces with Q!S
+2S--,4S,To Play.
+2S--,--,Also; Ususally pass with 1!H with 5+!S
+,3C,Please read chat#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3D,Please read chat#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3H,Please read chat#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,3N,Please read chat#Less than 10 HCP Natural: Pre-empt usually 8-Cards to 2 Honors.
+,3S,Please read chat#Less than 10 HCP Natural: Pre-empt usually 7-Cards to 2 Honors.
+,4C,Transfer to 4!H.
+4C--,4D,Slam try. Asking outside controls?
+4C--4D--,4H,No controls.
+4C--4D--,4N,Outside King.
+4C--4D--4N--,5C,Which King?
+4C--4D--4N--5C--,5D,K!D.
+4C--4D--4N--5C--,5H,K!C.
+4C--4D--4N--5C--,5S,K!S.
+4C--4D--,4S,Ace or void.
+4C--4D--,5C,Ace or void.
+4C--4D--,5D,Ace or void.
+,4D,Transfer to 4!S.
+4D--,4H,Slam try. Asking outside controls?
+4D--4H--,4N,Outside King.
+4D--4H--4N--,5C,Which King?
+4D--4H--4N--5C--,5D,K!D.
+4D--4H--4N--5C--,5H,K!H.
+4D--4H--4N--5C--,5S,K!C.
+4D--4H--,4S,No controls.
+4D--4H--,5C,Ace or void.
+4D--4H--,5D,Ace or void.
+4D--4H--,5H,Ace or void.
+,4H,Natural.
+4H--,4N,Please read chat#1st round control of !S and asking for Cue-bids.
+4H--,4S,RKCB for !H as trumps.
+4H--,5C,Cue-bid. 1st round control.
+4H--,5D,Cue-bid. 1st round control.
+4H--,5H,Asking to bid 6!H with good trumps.
+4H--5H--,5S,2nd round control and No trump losers.
+4H--5H--,6C,2nd round control and No trump losers.
+4H--5H--,6D,2nd round control and No trump losers.
+4H--5H--,6H,1 trump loser.
+4H--5H--,--,2 and more trump losers.
+4H--,5N,Grand slam force.
+4H--5N--,6C,Only 1 of the top 2 trump honors.
+4H--5N--,6D,Please read chat#Missing A or K \\(has 2 / 3 trump honors).
+4H--5N--,6H,A&K!H and missing Q!H.
+4H--5N--,6S,AKQ......!H trumps.
+,4S,Natural.
+4S--,4N,RKCB for !S as trumps.
+4S--,4S,RKCB for !H as trumps.
+4S--,5C,Cue-bid. 1st round control.
+4S--,5D,Cue-bid. 1st round control.
+4S--,5H,Asking to bid 6!H with good trumps.
+4S--5H--,5S,2nd round control and No trump losers.
+4S--5H--,6C,2nd round control and No trump losers.
+4S--5H--,6D,2nd round control and No trump losers.
+4S--5H--,6H,1 trump loser.
+4S--5H--,--,2 and more trump losers.
+4S--,5N,Grand slam force.
+4S--5N--,6C,Only 1 of the top 2 trump honors.
+4S--5N--,6D,Please read chat#Missing A or K \\(has 2 / 3 trump honors).
+4S--5N--,6H,A&K!S and missing Q!S.
+4S--5N--,6S,AKQ......!S trumps.
+4S--,5S,Asking to bid 6!S with good trumps.
+4S--5S--,6C,2nd round control and No trump losers.
+4S--5S--,6D,2nd round control and No trump losers.
+4S--5S--,6H,2nd round control and No trump losers.
+4S--5S--,6S,1 trump loser
+4S--5S--,--,2 and more trump losers.
+Option,Opening @n
+,1N,Please read chat#NV; 11-13 HCP; Balanced: \\No good 5 card major or 6 card minor
+1N--,2C,Asks partner to bid 2!D
+1N--2CDb,2D,Forced to bid 2!D and !C stopper
+1N--2CDb,--,No !C Stopper
+1N--2CDb----,Rd,system on
+1N--2C--,2D,Forced to bid 2!D
+1N--2C--2D--,2H,Please read chat#Invite game with 4+ card suit\\4-5 in majors
+1N--2C--2D--,2N,Please read chat#Force to game & locate Openers 4; 5-card major
+1N--2C--2D--2N--,3C,No 4 card major
+1N--2C--2D--2N--,3H,!H
+1N--2C--2D--2N--,3S,!S
+1N--2C--2D--,2S,Invite game with 4+ card suit
+1N--2C--2D--,3C,Please read chat#Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3D,Please read chat#Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3H,Please read chat#Force to game with a \\5-card !D Minor & a 4-card Major
+1N--2C--2D--,3N,5332 and slam interest
+1N--2C--2D--,3S,Please read chat#Force to game with a \\5-card !D Minor & a 4-card Major
+1N--2C--2D--,--,To Play.
+1N--,2D,Please read chat#Transfer to 2!H\\ Or game invite with 44-45-55 majors
+1N--2DDb,2H,Accept transfer; !D Stopper.
+1N--2DDb,--,2 card support; No !D Stopper.
+1N--2DDb,Rd,Any hand with !H support and system on.
+1N--2D--,2H,Forced to bid 2!H
+1N--2D--2H--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2D--2H--,2S,Invite game with majors (4-4)
+1N--2D--2H--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2D--2H--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2D--2H--,3H,Invite game with 6 card suit
+1N--2D--2H--,3N,5332
+1N--2D--2H--,3S,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2D--2H--,4H,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2D--2H--,--,To Play.
+1N--,2H,Please read chat#Transfer to 2!S\\ Or game invite with 44-45-55 majors
+1N--2HDb,2S,Please read chat#Accept transfer; 2 card support; !H stopper.
+1N--2HDb,--,2 card support; No !H Stopper.
+1N--2HDb,Rd,Any hand with !S support and system on.
+1N--2H--,2S,Forced to bid 2!S
+1N--2H--2S--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2H--2S--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2H--2S--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2H--2S--,3H,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2H--2S--,3N,5332
+1N--2H--2S--,3S,Invite game with 6 card suit
+1N--2H--2S--,4H,Please read chat#Force to game with Both Majors 5-5 or better
+1N--2H--2S--,4S,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2H--2S--,--,To Play.
+1N--2H--,--,2 card support; No !H Stopper.
+1N--2H--,Rd,any hand with !H support and system on.
+1N--,2N,Transfer to 3!C
+1N--2NDb,2S,Please read chat#Accept transfer; 2 card support; !H stopper.
+1N--2NDb,3C,Accept transfer 3!C.
+1N--2NDb,--,2 card support; No !C Stopper.
+1N--2NDb,Rd,Any hand with !C support and system on.
+1N--2N--,2S,Forced to bid 2!S
+1N--2N--2S--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2N--2S--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2N--2S--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2N--2S--,3H,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2N--2S--,3N,5332
+1N--2N--2S--,3S,Invite game with 6 card suit
+1N--2N--2S--,4H,Please read chat#Force to game with Both Majors 5-5 or better
+1N--2N--2S--,4S,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2N--2S--,--,To Play.
+1N--2N--,3C,Forced to bid 3!C.
+1N--2N--3C--,3D,Please read chat#Force to game with Both minors 5-4 or better
+1N--2N--3C--,3H,Please read chat#Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3N,5332 and slam interest
+1N--2N--3C--,3S,Please read chat#Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,--,To Play.
+1N--2N--,--,2 card support; No !C Stopper.
+1N--2N--,Rd,any hand with !H support and system on.
+1N--,2S,Please read chat#Range asking bid?\\Invitation to game/slam with one 5 card suit and no 4 card suit.
+1N--2S--,2N,Minimum
+1N--2S--2N--,3C,5+!C and No 4 card suit.
+1N--2S--2N--,3D,5+!D and No 4 card suit.
+1N--2S--2N--,3H,RKCB for !H
+1N--2S--2N--3H--,3N,0 or 3  Key cards.
+1N--2S--2N--3H--,3S,1 or 4 Key cards.
+1N--2S--2N--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--2N--3H--,4D,2 Key cards; and Q!H.
+1N--2S--2N--,3N,To Play.
+1N--2S--2N--,3S,RKCB for !S
+1N--2S--2N--3S--,3N,1 or 4 Key cards.
+1N--2S--2N--3S--,4C,0 or 3 Key cards.
+1N--2S--2N--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--2N--3S--,4H,2 Key cards + Q!S.
+1N--2S--2N--,4C,RKCB for !C
+1N--2S--2N--4C--,4D,1 or 4 Key cards.
+1N--2S--2N--4C--,4H,0 or 3 Key cards.
+1N--2S--2N--4C--,4N,2 Key cards; and Q!C.
+1N--2S--2N--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--2N--,4D,RKCB for !D.
+1N--2S--2N--4D--,4H,1 or 4  Key cards.
+1N--2S--2N--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--2N--4D--,4S,0 or 3 Key cards.
+1N--2S--2N--4D--,5C,2 Key cards; and Q!D.
+1N--2S--2N--,--,To Play.
+1N--2S--,3C,maximum
+1N--2S--3C--,3D,5+!D and No 4 card suit.
+1N--2S--3C--,3H,RKCB for !H
+1N--2S--3C--3H--,3N,0 or 3  Key cards.
+1N--2S--3C--3H--,3S,1 or 4 Key cards.
+1N--2S--3C--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--3C--3H--,4D,2 Key cards; and Q!H.
+1N--2S--3C--,3N,To Play.
+1N--2S--3C--,3S,RKCB for !S
+1N--2S--3C--3S--,3N,1 or 4 Key cards.
+1N--2S--3C--3S--,4C,0 or 3 Key cards.
+1N--2S--3C--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--3C--3S--,4H,2 Key cards + Q!S.
+1N--2S--3C--,4C,RKCB for !C
+1N--2S--3C--4C--,4D,1 or 4 Key cards.
+1N--2S--3C--4C--,4H,0 or 3 Key cards.
+1N--2S--3C--4C--,4N,2 Key cards; and Q!C.
+1N--2S--3C--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--3C--,4D,RKCB for !D.
+1N--2S--3C--4D--,4H,1 or 4  Key cards.
+1N--2S--3C--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--3C--4D--,4S,0 or 3 Key cards.
+1N--2S--3C--4D--,5C,2 Key cards; and Q!D.
+1N--2S--3C--,--,To Play.
+1N--,4C,Transfer to 4!H
+1N--4C--,4H,Forced to bid 4!H
+1N--4C--4H--,4S,RKCB for !H
+1N--4C--4H--4S--,4N,1 or 4 Key cards.
+1N--4C--4H--4S--,5C,0 or 3  Key cards.
+1N--4C--4H--4S--,5D,2 Key cards ; NO Q!H.
+1N--4C--4H--4S--,5H,2 Key cards; and Q!H
+1N--4C--4H--4S--5H--,--,2 and more trump losers.
+1N--,4D,Transfer to 4!S
+1N--4D--,4S,Forced to bid 4!S
+1N--4D--4S--,4N,RKCB for !S
+1N--4D--4S--4N--,5C,1 or 4  Key cards.
+1N--4D--4S--4N--,5D,0 or 3  Key cards.
+1N--4D--4S--4N--,5H,2 Key cards; NO Q!S.
+1N--4D--4S--4N--,5S,2 Key cards + Q!S.
+1N--,--,To Play.
+Option,Opening @v
+,1N,Please read chat#V; 14-16; HCP; Balanced: \\No good 5 card major or 6 card minor
+1N--,2C,Asks partner to bid 2!D
+1N--2CDb,2D,Forced to bid 2!D and !C stopper
+1N--2CDb,--,No !C Stopper
+1N--2CDb----,Rd,system on
+1N--2C--,2D,Forced to bid 2!D
+1N--2C--2D--,2H,Please read chat#Invite game with 4+ card suit\\4-5 in majors
+1N--2C--2D--,2N,Please read chat#Force to game & locate Openers 4; 5-card major
+1N--2C--2D--2N--,3C,No 4 card major
+1N--2C--2D--2N--,3H,!H
+1N--2C--2D--2N--,3S,!S
+1N--2C--2D--,2S,Invite game with 4+ card suit
+1N--2C--2D--,3C,Please read chat#Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3D,Please read chat#Invite game with 6 card suit and no 4 card suit.
+1N--2C--2D--,3H,Please read chat#Force to game with a \\5-card !D Minor & a 4-card Major
+1N--2C--2D--,3N,5332 and slam interest
+1N--2C--2D--,3S,Please read chat#Force to game with a \\5-card !D Minor & a 4-card Major
+1N--2C--2D--,--,To Play.
+1N--,2D,Please read chat#Transfer to 2!H\\ Or game invite with 44-45-55 majors
+1N--2DDb,2H,Accept transfer; !D Stopper.
+1N--2DDb,--,2 card support; No !D Stopper.
+1N--2DDb,Rd,Any hand with !H support and system on.
+1N--2D--,2H,Forced to bid 2!H
+1N--2D--2H--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2D--2H--,2S,Invite game with majors (4-4)
+1N--2D--2H--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2D--2H--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2D--2H--,3H,Invite game with 6 card suit
+1N--2D--2H--,3N,5332
+1N--2D--2H--,3S,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2D--2H--,4H,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2D--2H--,--,To Play.
+1N--,2H,Please read chat#Transfer to 2!S\\ Or game invite with 44-45-55 majors
+1N--2HDb,2S,Please read chat#Accept transfer; 2 card support; !H stopper.
+1N--2HDb,--,2 card support; No !H Stopper.
+1N--2HDb,Rd,Any hand with !S support and system on.
+1N--2H--,2S,Forced to bid 2!S
+1N--2H--2S--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2H--2S--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2H--2S--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2H--2S--,3H,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2H--2S--,3N,5332
+1N--2H--2S--,3S,Invite game with 6 card suit
+1N--2H--2S--,4H,Please read chat#Force to game with Both Majors 5-5 or better
+1N--2H--2S--,4S,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2H--2S--,--,To Play.
+1N--2H--,--,2 card support; No !H Stopper.
+1N--2H--,Rd,any hand with !H support and system on.
+1N--,2N,Transfer to 3!C
+1N--2NDb,2S,Please read chat#Accept transfer; 2 card support; !H stopper.
+1N--2NDb,3C,Accept transfer 3!C.
+1N--2NDb,--,2 card support; No !C Stopper.
+1N--2NDb,Rd,Any hand with !C support and system on.
+1N--2N--,2S,Forced to bid 2!S
+1N--2N--2S--,2N,Please read chat#Force to game with Major minor 5-4 or better
+1N--2N--2S--,3C,Please read chat#Force to game with Major minor 5-5 or better
+1N--2N--2S--,3D,Please read chat#Force to game with Major minor 5-5 or better
+1N--2N--2S--,3H,Please read chat#Force to game with Both Majors 5-4 or better
+1N--2N--2S--,3N,5332
+1N--2N--2S--,3S,Invite game with 6 card suit
+1N--2N--2S--,4H,Please read chat#Force to game with Both Majors 5-5 or better
+1N--2N--2S--,4S,Please read chat#Force to game with one 6-card suit & no 4-card suit
+1N--2N--2S--,--,To Play.
+1N--2N--,3C,Forced to bid 3!C.
+1N--2N--3C--,3D,Please read chat#Force to game with Both minors 5-4 or better
+1N--2N--3C--,3H,Please read chat#Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,3N,5332 and slam interest
+1N--2N--3C--,3S,Please read chat#Force to game with a 5-card Minor & a 4-card Major
+1N--2N--3C--,--,To Play.
+1N--2N--,--,2 card support; No !C Stopper.
+1N--2N--,Rd,any hand with !H support and system on.
+1N--,2S,Please read chat#Range asking bid?\\Invitation to game/slam with one 5 card suit and no 4 card suit.
+1N--2S--,2N,Minimum
+1N--2S--2N--,3C,5+!C and No 4 card suit.
+1N--2S--2N--,3D,5+!D and No 4 card suit.
+1N--2S--2N--,3H,RKCB for !H
+1N--2S--2N--3H--,3N,0 or 3  Key cards.
+1N--2S--2N--3H--,3S,1 or 4 Key cards.
+1N--2S--2N--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--2N--3H--,4D,2 Key cards; and Q!H.
+1N--2S--2N--,3N,To Play.
+1N--2S--2N--,3S,RKCB for !S
+1N--2S--2N--3S--,3N,1 or 4 Key cards.
+1N--2S--2N--3S--,4C,0 or 3 Key cards.
+1N--2S--2N--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--2N--3S--,4H,2 Key cards + Q!S.
+1N--2S--2N--,4C,RKCB for !C
+1N--2S--2N--4C--,4D,1 or 4 Key cards.
+1N--2S--2N--4C--,4H,0 or 3 Key cards.
+1N--2S--2N--4C--,4N,2 Key cards; and Q!C.
+1N--2S--2N--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--2N--,4D,RKCB for !D.
+1N--2S--2N--4D--,4H,1 or 4  Key cards.
+1N--2S--2N--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--2N--4D--,4S,0 or 3 Key cards.
+1N--2S--2N--4D--,5C,2 Key cards; and Q!D.
+1N--2S--2N--,--,To Play.
+1N--2S--,3C,maximum
+1N--2S--3C--,3D,5+!D and No 4 card suit.
+1N--2S--3C--,3H,RKCB for !H
+1N--2S--3C--3H--,3N,0 or 3  Key cards.
+1N--2S--3C--3H--,3S,1 or 4 Key cards.
+1N--2S--3C--3H--,4C,2 Key cards; NO Q!H.
+1N--2S--3C--3H--,4D,2 Key cards; and Q!H.
+1N--2S--3C--,3N,To Play.
+1N--2S--3C--,3S,RKCB for !S
+1N--2S--3C--3S--,3N,1 or 4 Key cards.
+1N--2S--3C--3S--,4C,0 or 3 Key cards.
+1N--2S--3C--3S--,4D,2 Key cards; NO Q!S.
+1N--2S--3C--3S--,4H,2 Key cards + Q!S.
+1N--2S--3C--,4C,RKCB for !C
+1N--2S--3C--4C--,4D,1 or 4 Key cards.
+1N--2S--3C--4C--,4H,0 or 3 Key cards.
+1N--2S--3C--4C--,4N,2 Key cards; and Q!C.
+1N--2S--3C--4C--,4S,2 Key cards; NO Q!C.
+1N--2S--3C--,4D,RKCB for !D.
+1N--2S--3C--4D--,4H,1 or 4  Key cards.
+1N--2S--3C--4D--,4N,2 Key cards; NO Q!D.
+1N--2S--3C--4D--,4S,0 or 3 Key cards.
+1N--2S--3C--4D--,5C,2 Key cards; and Q!D.
+1N--2S--3C--,--,To Play.
+1N--,4C,Transfer to 4!H
+1N--4C--,4H,forced to bid 4!H
+1N--4C--4H--,4S,RKCB for !H
+1N--4C--4H--4S--,4N,1 or 4 Key cards.
+1N--4C--4H--4S--,5C,0 or 3  Key cards.
+1N--4C--4H--4S--,5D,2 Key cards ; NO Q!H.
+1N--4C--4H--4S--,5H,2 Key cards; and Q!H
+1N--4C--4H--4S--5H--,--,2 and more trump losers.
+1N--,4D,Transfer to 4!S
+1N--4D--,4S,forced to bid 4!S
+1N--4D--4S--,4N,RKCB for !S
+1N--4D--4S--4N--,5C,1 or 4  Key cards.
+1N--4D--4S--4N--,5D,0 or 3  Key cards.
+1N--4D--4S--4N--,5H,2 Key cards; NO Q!S.
+1N--4D--4S--4N--,5S,2 Key cards + Q!S.
+1N--,--,To Play.
+Option
+
