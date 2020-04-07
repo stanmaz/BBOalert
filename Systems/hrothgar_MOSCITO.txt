@@ -1,0 +1,1988 @@
+BBOalert
+,1N,Please read chat#11+ - 14 HCP\\Balanced or semi-balanced hand\\Could contain a 5 card major\\\\Denies 11-12 HCP and 4-5!S unless 4
+1N--,2N,Please read chat#Asks partner for a small doubleton\\\\Typically used for\\\\1. Anti-Lemming\\2. Game invite with a long minor\\\\
+1N--2N--,3C,xx in Clubs
+1N--2N--3C--,3D,3NT ain't the place to be
+1N--2N--3C--,3H,Please read chat#3NT ain't the place to be\\\\Suggests a balanced hand with game forcing values that would prefer 3N to 4M even if a 4-4 fit were available
+1N--2N--3C--,3N,To play
+1N--2N--3C--,3S,Please read chat#3N ain't the place to be\\\\Suggests a balanced hand with game forcing values that would prefer 3N to 4M even if a 4-4 fit were available
+1N--2N--,3D,xx in Diamonds
+1N--2N--3D--,3H,Please read chat#3NT ain't the place to be\\\\Suggests a balanced hand with game forcing values that prefers 3NT to 4M even with a 4-4 major fit available
+1N--2N--3D--,3N,To play
+1N--2N--3D--,3S,Please read chat#3NT ain't the place to be\\\\Suggests a strong balanced hand that prefers 3NT to 4M even if a 4-4 fit were available.
+1N--2N--3D--,4C,3NT ain't the place to be
+1N--2N--,3H,xx in Hearts
+1N--2N--3H--,3N,To play
+1N--2N--3H--,3S,Please read chat#3NT ain't the place to be\\\\Suggests a game-forcing balanced hand that would prefer 3NT to 4M even with a 4-4 fit 
+1N--2N--3H--,4C,3NT ain't the place to be
+1N--2N--3H--,4D,3NT ain't the place to be
+1N--2N--,3N,Denies xx in any suit
+1N--2N--,3S,xx in Spades
+1N--2N--3S--,3N,To play
+1N--2N--3S--,4C,3NT ain't the place to be
+1N--2N--3S--,4D,3NT ain't the place to be
+1N--,2S,Please read chat#Asks partner to clarify strength (min or max).  Holding a maximum; opener will show his better minor
+1N--2S--,2N,Minimum NT opening\\Can be passed
+1N--2S--2N--,3C,Weak hand with both minors
+1N--2S--2N--,3D,Weak hand with long Diamonds
+1N--2S--2N--,3H,Promises Heart Shortage
+1N--2S--2N--3H--,3N,To play
+1N--2S--2N--3H--,3S,Natural; non-forcing
+1N--2S--2N--3H--,4C,Natural; non-forcing
+1N--2S--2N--3H--,4D,Natural; non-forcing
+1N--2S--2N--,3N,To play
+1N--2S--2N--,3S,Promises Spade shortage
+1N--2S--2N--3S--,3N,To play
+1N--2S--2N--3S--,4C,Natural; non-forcing
+1N--2S--2N--3S--,4D,Natural; non-forcing
+1N--2S--2N--,4C,Slam try\\2
+1N--2S--2N--,4D,Slam try\\2
+1N--2S--,3C,Please read chat#Maximum NT opening\\Prefers Clubs to Diamonds
+1N--2S--3C--,3D,Weak single suited hand with Diamonds.
+1N--2S--3C--,3H,Please read chat#Game forcing values.\\Promises both minors and !H shortage
+1N--2S--3C--3H--,3N,To play
+1N--2S--3C--3H--,3S,Please read chat#Concentrated values in Spades\\HHxx or better
+1N--2S--3C--3H--,4C,ERKCB in Clubs (1430)
+1N--2S--3C--3H--,4D,RKCB in Clubs (1430)
+1N--2S--3C--3H--,4H,Please read chat#Suitable hand for slam\\Nothing wasted in Hearts
+1N--2S--3C--,3N,To play
+1N--2S--3C--,3S,Please read chat#Game forcing values\\Promises both minors and Spade shortage
+1N--2S--3C--3S--,3N,To play
+1N--2S--3C--3S--,4C,ERKCB in Clubs (1430)
+1N--2S--3C--3S--,4D,RKCB in Clubs (1430)
+1N--2S--3C--3S--,4H,Please read chat#Concentrated values in Hearts\\HHxx or better
+1N--2S--3C--3S--,4S,Please read chat#Suitable hand for slam\\Nothing wasted in Clubs
+1N--2S--3C--,4C,Slam try with 2
+1N--2S--3C--,4D,Slam try with 2
+1N--2S--,3D,Please read chat#Maximum NT opening\\Prefers Diamonds to Clubs
+1N--2S--3D--,3H,Please read chat#Game forcing values\\Promises both minors and !H shortage
+1N--2S--3D--3H--,3N,To play
+1N--2S--3D--3H--,3S,Please read chat#Concentrated values in Spades\\HHxx or better
+1N--2S--3D--3H--,4C,ERKCB for Diamonds (1430)
+1N--2S--3D--3H--,4D,RKCB for Diamonds (1430)
+1N--2S--3D--3H--,4H,Please read chat#Suitable hand for slam\\Nothing wasted in Hearts
+1N--2S--3D--,3N,To play
+1N--2S--3D--,3S,Please read chat#Game forcing values\\Promises both minors and !S shortage
+1N--2S--3D--3S--,3N,To play
+1N--2S--3D--3S--,4C,ERKCB for !D (1430)
+1N--2S--3D--3S--,4D,RKCB for Diamonds (1430)
+1N--2S--3D--3S--,4H,Please read chat#Concentrated values in Hearts\\(HHxx or better)
+1N--2S--3D--3S--,4S,Please read chat#Good hand for a Diamond slam\\No wasted values in Spades
+1N--2S--3D--,4C,Slam try with 2
+1N--2S--3D--,4D,Slam try with 2
+1N--,3C,Please read chat#To play\\Responder has no interest in game
+1N--,3D,Please read chat#3 suited slam try with a short minor\\4441 or 5440 shape (no 5 card major)
+1N--3D--,3H,Please read chat#Relay:  Asking responder to show shape (High Shortage First)
+1N--3D--3H--,3N,Club shortage
+1N--3D--3H--3N--,4C,Exclusion RKCB (1430) for Clubs\\
+1N--3D--3H--3N--,4D,RKCB (1430) for Clubs
+1N--3D--3H--,3S,Diamond Shortage
+1N--3D--3H--3S--,3N,To play
+1N--3D--3H--3S--,4C,Exclusion RKCB (1430) for Clubs
+1N--3D--3H--3S--,4D,RKCB for Clubs
+1N--3D--,3N,Please read chat#Natural\\Good holdings in both minors\\Tends to deny a 4 card major
+1N--3D--,3S,4+ Spades\\Suitable hand for slam
+1N--3D--,4C,Please read chat#4+ Hearts\\Suitable hand for slam\\1st or 2nd round Club control
+1N--3D--,4D,Please read chat#4+ Hearts\\Suitable hand for slam\\1st or 2nd round Diamond control\\Denies Club control
+1N--3D--,4H,Please read chat#4+ card Heart support\\Hand is considered unsuitable for Slam
+1N--3D--,4S,Please read chat#4+ card Spade support\\Hand is considered unsuitable for slam
+1N--,3H,3 suited slam try with short Hearts\\(4
+1N--3H--,3N,To play
+1N--3H--,3S,Please read chat#Sets Spades as trump\\NT opener is suitable for Slam\\
+1N--3H--3S--,3N,Exclusion RKCB for Spades (1430)
+1N--3H--3S--,4C,RKCB for Diamonds (1430)
+1N--3H--3S--,4D,4
+1N--3H--3S--,4H,4
+1N--3H--,4C,Please read chat#Sets Clubs as trump\\NT opener is suitable for slam\\
+1N--3H--4C--,4D,Exclusion RKCB for Clubs (1430)
+1N--3H--4C--,4H,RKCB for Clubs (1430)
+1N--3H--4C--,4N,4
+1N--3H--4C--,4S,4
+1N--3H--,4D,Please read chat#Sets Diamonds as trump\\NT opener is suitable for slam\\
+1N--3H--4D--,4H,Exclusion RKCB for Diamonds (1430)
+1N--3H--4D--,4N,4
+1N--3H--4D--,4S,RKCB for Diamonds (1430)
+1N--3H--4D--,5C,4
+1N--3H--,4H,Please read chat#NT opener is suitable for slam\\Nothing wasted in Hearts
+1N--3H--,4S,To play
+1N--3H--,5C,To play
+1N--3H--,5D,To play
+1N--,3N,"To play"
+1N--,3S,3 suited slam try with short Spades\\(1
+1N--3S--,3N,To play
+1N--3S--,4C,Please read chat#Maximum NT opening showing either:\\\\4 Hearts and a maximum hand OR\\4 Clubs and a maximum hand\\\\
+1N--3S--,4D,4 card support\\Maximum values
+1N--3S--,4H,4+ card Heart support\\Minimum hand
+1N--3S--,4S,Please read chat#Maximum hand\\No wasted values in Spades
+1N--3S--,5C,Please read chat#Primary Club support\\\\Hand is flawed for 6!C
+1N--3S--,5D,Please read chat#Primary Diamond support\\\\Hand is flawed for 6!D
+1N--,4C,Please read chat#Transfer to Hearts\\6+ Hearts\\\\Responder could have bid 4!H and ensured that he declared the hand
+1N--4C--,4D,Please read chat#Transfer to Hearts\\\\The NT opener prefers that responder declare the hand
+1N--,4D,Please read chat#Transfer to Spades\\6+ Spades\\\\Responder could have bid 4!S and ensured that he declared the hand
+1N--4D--,4H,Please read chat#Transfer to Spades\\\\The NT opener prefers that responder declares the hand
+1N--,4H,Please read chat#To play\\6+ Hearts\\\\Responder wants to declare the hand
+1N--,4N,3
+1N--4N--,5C,Maximum NT opening\\No Aces
+1N--4N--5C--,5D,Please read chat#2 Aces are missing\\Suggests 5!D as a final contract\\
+1N--4N--5C--5D--,5H,Suggests 5!H as a final contract
+1N--4N--5C--5D--,5S,Suggests 5!S as a final contract
+1N--4N--5C--,5H,2 Aces are missing\\3
+1N--4N--5C--,5N,2 Aces are missing
+1N--4N--5C--,6C,To play opposite a 4 card Club suit
+1N--4N--5C--6C--,6D,Suggests 6!D as a final contract
+1N--4N--5C--6C--,6H,Suggests 6!H as a final contract
+1N--4N--5C--6C--,6S,Suggests 6!S as a final contract
+1N--4N--5C--,6D,To play opposite a 4 card Diamond suit
+1N--4N--5C--6D--,6H,Suggests 6!H as a final contract
+1N--4N--5C--6D--,6N,To play
+1N--4N--5C--6D--,6S,Suggests 6!S as a final contract
+1N--4N--,5D,Maximum NT opening\\1 Ace
+1N--4N--5D--,5H,Please read chat#2 Aces are missing\\Suggests 5M as a final contract
+1N--4N--5D--,5N,2 Aces are missing
+1N--4N--5D--,6C,3
+1N--4N--5D--6C--,6D,Suggests 6!D as a final contract
+1N--4N--5D--6C--,6H,Suggests 6!H as a final contract
+1N--4N--5D--6C--,6N,To play
+1N--4N--5D--6C--,6S,Suggests 6!S as a final contract
+1N--4N--5D--,6D,3
+1N--4N--5D--6D--,6H,Suggests 6!H as a final contract
+1N--4N--5D--6D--,6N,To play
+1N--4N--5D--6D--,6S,Suggests 6!S as a final contract
+1N--4N--,5H,Maximum NT opening\\2 Aces
+1N--4N--5H--,5N,2 Aces are missing\\To play
+1N--4N--5H--,6C,3
+1N--4N--5H--6C--,6D,Sugegsts 6!D as a final contract
+1N--4N--5H--6C--,6H,Suggests 6!H as a final contract
+1N--4N--5H--6C--,6N,To play
+1N--4N--5H--6C--,6S,Suggests 6!S as a final contract
+1N--4N--5H--,6D,3
+1N--4N--5H--6D--,6H,Suggests 6!H as a final contract
+1N--4N--5H--6D--,6S,Suggests 6!S as a final contract
+1N--4N--,5S,Maximum NT Opening\\3 Aces
+1N--4N--5S--,6C,3
+1N--4N--5S--,6D,3
+1N--4N--5S--6D--,6H,Suggests 6!H as a final contract
+1N--4N--5S--6D--,6N,To play
+1N--4N--5S--6D--,6S,Suggests 6!S as a final contract
+1N--,4S,Please read chat#To play\\6+ Spades\\\\Responder wants to declare the hand
+Option,Opening @1@2
+,1C,Please read chat#Strong; artificial and forcing\\Typically promises 15+ HCP
+1C--,1D,Please read chat#Artificial game force\\Denies 5440 shape\\Denies AKQxxxx in nay suit
+1C--1D--,1H,Please read chat#Relay\\\\Minimum hands will typically show rather than ask
+1C--1D--1H--,1N,Balanced or any 4441
+1C--1D--1H--1N--,2C,relay
+1C--1D--1H--1N--2C--,2D,4+ Hearts
+1C--1D--1H--1N--2C--2D--,2H,relay
+1C--1D--1H--1N--2C--2D--2H--,2N,5332 or 4333 shape\\Primary Hearts
+1C--1D--1H--1N--2C--2D--2H--2N--,3C,relay
+1C--1D--1H--1N--2C--2D--2H--2N--3C--,3D,2
+1C--1D--1H--1N--2C--2D--2H--2N--3C--,3H,3
+1C--1D--1H--1N--2C--2D--2H--2N--3C--,3N,3
+1C--1D--1H--1N--2C--2D--2H--2N--3C--,3S,3
+1C--1D--1H--1N--2C--2D--2H--,2S,4 Hearts and 4 Spades
+1C--1D--1H--1N--2C--2D--2H--,3C,4 Hearts and 4 Diamonds
+1C--1D--1H--1N--2C--2D--2H--3C--,3D,relay
+1C--1D--1H--1N--2C--2D--2H--3C--3D--,3H,2
+1C--1D--1H--1N--2C--2D--2H--3C--3D--,3S,3
+1C--1D--1H--1N--2C--2D--2H--,3D,2
+1C--1D--1H--1N--2C--2D--2H--,3H,3
+1C--1D--1H--1N--2C--,2H,4+ Spades\\2-3 Hearts
+1C--1D--1H--1N--2C--2H--,2S,relay
+1C--1D--1H--1N--2C--2H--2S--,2N,5332 or 4333 shape\\Primary Spades
+1C--1D--1H--1N--2C--2H--2S--2N--,3C,relay
+1C--1D--1H--1N--2C--2H--2S--2N--3C--,3D,5
+1C--1D--1H--1N--2C--2H--2S--2N--3C--,3H,5
+1C--1D--1H--1N--2C--2H--2S--2N--3C--,3N,4
+1C--1D--1H--1N--2C--2H--2S--2N--3C--,3S,5
+1C--1D--1H--1N--2C--2H--2S--,3C,4 Spades and 4 Diamonds
+1C--1D--1H--1N--2C--2H--2S--3C--,3D,relay
+1C--1D--1H--1N--2C--2H--2S--3C--3D--,3H,4
+1C--1D--1H--1N--2C--2H--2S--3C--3D--,3S,4
+1C--1D--1H--1N--2C--2H--2S--,3D,4
+1C--1D--1H--1N--2C--2H--2S--,3H,4
+1C--1D--1H--1N--2C--,2N,5332 or 4333 shape \\Primary Diamonds
+1C--1D--1H--1N--2C--2N--,3C,relay
+1C--1D--1H--1N--2C--2N--3C--,3D,2
+1C--1D--1H--1N--2C--2N--3C--,3H,3
+1C--1D--1H--1N--2C--2N--3C--,3N,3
+1C--1D--1H--1N--2C--2N--3C--,3S,3
+1C--1D--1H--1N--2C--,2S,Any 4441 hand
+1C--1D--1H--1N--2C--2S--,2N,relay
+1C--1D--1H--1N--2C--2S--2N--,3C,1
+1C--1D--1H--1N--2C--2S--2N--,3D,4
+1C--1D--1H--1N--2C--2S--2N--,3H,4
+1C--1D--1H--1N--2C--2S--2N--,3S,4
+1C--1D--1H--1N--2C--,3C,4!D and 4!C
+1C--1D--1H--1N--2C--3C--,3D,relay
+1C--1D--1H--1N--2C--3C--3D--,3H,2
+1C--1D--1H--1N--2C--3C--3D--,3S,3
+1C--1D--1H--1N--2C--,3D,2
+1C--1D--1H--1N--2C--,3H,3
+1C--1D--1H--1N--2C--,3N,3
+1C--1D--1H--1N--2C--,3S,3
+1C--1D--1H--,1S,Please read chat#Single suited with Diamonds or\\Single suited with Hearts or\\2 suited without Spades
+1C--1D--1H--1S--,1N,relay
+1C--1D--1H--1S--1N--,2C,Please read chat#Single suited with Diamonds or\\Two suited with !H and !C
+1C--1D--1H--1S--1N--2C--,2D,relay
+1C--1D--1H--1S--1N--2C--2D--,2H,Single suited with Diamonds
+1C--1D--1H--1S--1N--2C--2D--2H--,2N, 
+1C--1D--1H--1S--1N--2C--2D--2H--,2S,relay
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,2N,high shortage (0-1 Spades) or\\2
+1C--1D--1H--1S--1N--2C--2D--2H--2S--2N--,3C,relay
+1C--1D--1H--1S--1N--2C--2D--2H--2S--2N--3C--,3D,2
+1C--1D--1H--1S--1N--2C--2D--2H--2S--2N--3C--,3H,1
+1C--1D--1H--1S--1N--2C--2D--2H--2S--2N--3C--,3N,0
+1C--1D--1H--1S--1N--2C--2D--2H--2S--2N--3C--,3S,1
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,3C,middle shortage (0-1 Hearts)
+1C--1D--1H--1S--1N--2C--2D--2H--2S--3C--,3D,relay
+1C--1D--1H--1S--1N--2C--2D--2H--2S--3C--3D--,3H,3
+1C--1D--1H--1S--1N--2C--2D--2H--2S--3C--3D--,3N,3
+1C--1D--1H--1S--1N--2C--2D--2H--2S--3C--3D--,3S,2
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,3D,3
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,3H,3
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,3N,3
+1C--1D--1H--1S--1N--2C--2D--2H--2S--,3S,2
+1C--1D--1H--1S--1N--2C--2D--2H--,3C, 
+1C--1D--1H--1S--1N--2C--2D--,2N,5+ Hearts and 5+ Clubs
+1C--1D--1H--1S--1N--2C--2D--2N--,3C,relay
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,3D,Please read chat#5+ Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2C--2D--2N--3C--3D--,3H,relay
+1C--1D--1H--1S--1N--2C--2D--2N--3C--3D--,3N,0
+1C--1D--1H--1S--1N--2C--2D--2N--3C--3D--,3S,1
+1C--1D--1H--1S--1N--2C--2D--2N--3C--3D--,4C,0
+1C--1D--1H--1S--1N--2C--2D--2N--3C--3D--,4D,0
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,3H,1
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,3N,0
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,3S,1
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,4C,2
+1C--1D--1H--1S--1N--2C--2D--2N--3C--,4D,2
+1C--1D--1H--1S--1N--2C--2D--,2S,4 Hearts and 5+ Clubs
+1C--1D--1H--1S--1N--2C--2D--2S--,2N,relay
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,3C,Please read chat#4 Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2C--2D--2S--2N--3C--,3D,relay
+1C--1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3H,1
+1C--1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3N,0
+1C--1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3S,1
+1C--1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,4C,1
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,3D,2
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,3H,3
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,3N,3
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,3S,2
+1C--1D--1H--1S--1N--2C--2D--2S--2N--,4C,1
+1C--1D--1H--1S--1N--2C--2D--,3C,Please read chat#5 Clubs and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2C--2D--,3D,2
+1C--1D--1H--1S--1N--2C--2D--,3H,3
+1C--1D--1H--1S--1N--2C--2D--,3N,3
+1C--1D--1H--1S--1N--2C--2D--,3S,2
+1C--1D--1H--1S--1N--2C--2D--,4C,1
+1C--1D--1H--1S--1N--,2D,Two suited with !H and !D
+1C--1D--1H--1S--1N--2D--,2H,relay
+1C--1D--1H--1S--1N--2D--2H--,2N,5+ Hearts and 5+ Diamonds
+1C--1D--1H--1S--1N--2D--2H--2N--,3C,relay
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,3D,Please read chat#5+ Hearts and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2D--2H--2N--3C--3D--,3H,relay
+1C--1D--1H--1S--1N--2D--2H--2N--3C--3D--3H--,3N,0
+1C--1D--1H--1S--1N--2D--2H--2N--3C--3D--3H--,3S,1
+1C--1D--1H--1S--1N--2D--2H--2N--3C--3D--3H--,4C,0
+1C--1D--1H--1S--1N--2D--2H--2N--3C--3D--3H--,4D,0
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,3H,1
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,3N,3
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,3S,2
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,4C,2
+1C--1D--1H--1S--1N--2D--2H--2N--3C--,4D,2
+1C--1D--1H--1S--1N--2D--2H--,2S,4 Hearts and 5+ Diamonds
+1C--1D--1H--1S--1N--2D--2H--2S--,2N,relay
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,3C,Please read chat#4 Hearts and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2D--2H--2S--2N--3C--,3D,relay
+1C--1D--1H--1S--1N--2D--2H--2S--2N--3C--3D--,3H,1
+1C--1D--1H--1S--1N--2D--2H--2S--2N--3C--3D--,3N,0
+1C--1D--1H--1S--1N--2D--2H--2S--2N--3C--3D--,3S,1
+1C--1D--1H--1S--1N--2D--2H--2S--2N--3C--3D--,4C,1
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,3D,2
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,3H,3
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,3N,3
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,3S,2
+1C--1D--1H--1S--1N--2D--2H--2S--2N--,4C,1
+1C--1D--1H--1S--1N--2D--2H--,3C,Please read chat#5+ Hearts and 4 Diamonds\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2D--2H--3C--,3D,relay
+1C--1D--1H--1S--1N--2D--2H--3C--3D--,3H,3
+1C--1D--1H--1S--1N--2D--2H--3C--3D--,3N,3
+1C--1D--1H--1S--1N--2D--2H--3C--3D--,3S,2
+1C--1D--1H--1S--1N--2D--2H--3C--3D--,4C,1
+1C--1D--1H--1S--1N--2D--2H--3C--,3H, 
+1C--1D--1H--1S--1N--2D--2H--3C--,3S, 
+1C--1D--1H--1S--1N--2D--2H--,3D,2
+1C--1D--1H--1S--1N--2D--2H--,3H,3
+1C--1D--1H--1S--1N--2D--2H--,3N,3
+1C--1D--1H--1S--1N--2D--2H--,3S,2
+1C--1D--1H--1S--1N--2D--2H--,4C,1
+1C--1D--1H--1S--1N--,2H,Single suited with Hearts
+1C--1D--1H--1S--1N--2H--,2S,relay
+1C--1D--1H--1S--1N--2H--2S--,2N,High shortage (0-1 Spades) or\\2
+1C--1D--1H--1S--1N--2H--2S--2N--,3C,relay
+1C--1D--1H--1S--1N--2H--2S--2N--3C--,3D,2
+1C--1D--1H--1S--1N--2H--2S--2N--3C--,3H,1
+1C--1D--1H--1S--1N--2H--2S--2N--3C--,3N,0
+1C--1D--1H--1S--1N--2H--2S--2N--3C--,3S,1
+1C--1D--1H--1S--1N--2H--2S--,3C,Middle shortage (0-1 Diamonds)
+1C--1D--1H--1S--1N--2H--2S--3C--,3D,relay
+1C--1D--1H--1S--1N--2H--2S--3C--3D--,3H,3
+1C--1D--1H--1S--1N--2H--2S--3C--3D--,3N,3
+1C--1D--1H--1S--1N--2H--2S--3C--3D--,3S,2
+1C--1D--1H--1S--1N--2H--2S--,3D,3
+1C--1D--1H--1S--1N--2H--2S--,3H,3
+1C--1D--1H--1S--1N--2H--2S--,3N,3
+1C--1D--1H--1S--1N--2H--2S--,3S,2
+1C--1D--1H--1S--1N--,2N,5+ Diamonds and 5+ Clubs
+1C--1D--1H--1S--1N--2N--,3C,relay
+1C--1D--1H--1S--1N--2N--3C--,3D,Please read chat#5+ Diamonds and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--2N--3C--3D--,3H,relay
+1C--1D--1H--1S--1N--2N--3C--3D--3H--,3N,0
+1C--1D--1H--1S--1N--2N--3C--3D--3H--,3S,1
+1C--1D--1H--1S--1N--2N--3C--3D--3H--,4C,0
+1C--1D--1H--1S--1N--2N--3C--3D--3H--,4D,0
+1C--1D--1H--1S--1N--2N--3C--,3H,1
+1C--1D--1H--1S--1N--2N--3C--,3N,3
+1C--1D--1H--1S--1N--2N--3C--,3S,2
+1C--1D--1H--1S--1N--2N--3C--,4C,2
+1C--1D--1H--1S--1N--2N--3C--,4D,2
+1C--1D--1H--1S--1N--,2S,4 Diamonds and 5+ Clubs
+1C--1D--1H--1S--1N--2S--,2N,relay
+1C--1D--1H--1S--1N--2S--2N--,3C,4 Diamonds and 5+ Clubs\\High shortage
+1C--1D--1H--1S--1N--2S--2N--3C--,3D,relay
+1C--1D--1H--1S--1N--2S--2N--3C--3D--,3H,1
+1C--1D--1H--1S--1N--2S--2N--3C--3D--,3N,0
+1C--1D--1H--1S--1N--2S--2N--3C--3D--,3S,1
+1C--1D--1H--1S--1N--2S--2N--3C--3D--,4C,1
+1C--1D--1H--1S--1N--2S--2N--,3D,2
+1C--1D--1H--1S--1N--2S--2N--,3H,3
+1C--1D--1H--1S--1N--2S--2N--,3N,3
+1C--1D--1H--1S--1N--2S--2N--,3S,2
+1C--1D--1H--1S--1N--2S--2N--,4C,1
+1C--1D--1H--1S--1N--,3C,Please read chat#4 Clubs and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1D--1H--1S--1N--3C--,3D,relay
+1C--1D--1H--1S--1N--3C--3D--,3H,1
+1C--1D--1H--1S--1N--3C--3D--,3N,0
+1C--1D--1H--1S--1N--3C--3D--,3S,1
+1C--1D--1H--1S--1N--3C--3D--,4C,1
+1C--1D--1H--1S--1N--,3D,2
+1C--1D--1H--1S--1N--,3H,3
+1C--1D--1H--1S--1N--,3N,3
+1C--1D--1H--1S--1N--,3S,2
+1C--1D--1H--1S--1N--,4C,1
+1C--1D--1H--,2C,Please read chat#Single suited with Clubs or\\Two suited with Spades and Clubs
+1C--1D--1H--2C--,2D,relay
+1C--1D--1H--2C--2D--,2H,Single suited with Clubs
+1C--1D--1H--2C--2D--2H--,2S,relay
+1C--1D--1H--2C--2D--2H--2S--,2N,High shortage (0-1 Spades ) or\\2
+1C--1D--1H--2C--2D--2H--2S--2N--,3C,relay
+1C--1D--1H--2C--2D--2H--2S--2N--3C--,3D,2
+1C--1D--1H--2C--2D--2H--2S--2N--3C--,3H,1
+1C--1D--1H--2C--2D--2H--2S--2N--3C--,3N,0
+1C--1D--1H--2C--2D--2H--2S--2N--3C--,3S,1
+1C--1D--1H--2C--2D--2H--2S--,3C,Middle shortage (0-1 Hearts)
+1C--1D--1H--2C--2D--2H--2S--3C--,3D,relay
+1C--1D--1H--2C--2D--2H--2S--3C--3D--,3H,3
+1C--1D--1H--2C--2D--2H--2S--3C--3D--,3N,3
+1C--1D--1H--2C--2D--2H--2S--3C--3D--,3S,2
+1C--1D--1H--2C--2D--2H--2S--,3D,3
+1C--1D--1H--2C--2D--2H--2S--,3H,3
+1C--1D--1H--2C--2D--2H--2S--,3N,3
+1C--1D--1H--2C--2D--2H--2S--,3S,2
+1C--1D--1H--2C--2D--,2N,5+ Spades and 5+ Clubs
+1C--1D--1H--2C--2D--2N--,3C,relay
+1C--1D--1H--2C--2D--2N--3C--,3D,Please read chat#5+ Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1C--1D--1H--2C--2D--2N--3C--3D--,3H,relay
+1C--1D--1H--2C--2D--2N--3C--3D--3H--,3N,5
+1C--1D--1H--2C--2D--2N--3C--3D--3H--,3S,5
+1C--1D--1H--2C--2D--2N--3C--3D--3H--,4C,5
+1C--1D--1H--2C--2D--2N--3C--3D--3H--,4D,6
+1C--1D--1H--2C--2D--2N--3C--,3H,5
+1C--1D--1H--2C--2D--2N--3C--,3N,5
+1C--1D--1H--2C--2D--2N--3C--,3S,5
+1C--1D--1H--2C--2D--2N--3C--,4C,5
+1C--1D--1H--2C--2D--2N--3C--,4D,6
+1C--1D--1H--2C--2D--,2S,4 Spades and 5+ Clubs
+1C--1D--1H--2C--2D--2S--,2N,relay
+1C--1D--1H--2C--2D--2S--2N--,3C,Please read chat#4 Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1C--1D--1H--2C--2D--2S--2N--3C--,3D,relay
+1C--1D--1H--2C--2D--2S--2N--3C--3D--,3H,4
+1C--1D--1H--2C--2D--2S--2N--3C--3D--,3N,4
+1C--1D--1H--2C--2D--2S--2N--3C--3D--,3S,4
+1C--1D--1H--2C--2D--2S--2N--3C--3D--,4C,4
+1C--1D--1H--2C--2D--2S--2N--,3D,4
+1C--1D--1H--2C--2D--2S--2N--,3H,4
+1C--1D--1H--2C--2D--2S--2N--,3N,4
+1C--1D--1H--2C--2D--2S--2N--,3S,4
+1C--1D--1H--2C--2D--2S--2N--,4C,4
+1C--1D--1H--2C--2D--,3C,Please read chat#4 Clubs and 5+ Spades\\High shortage (0-1 Hearts)
+1C--1D--1H--2C--2D--3C--,3D,relay
+1C--1D--1H--2C--2D--3C--3D--,3H,5
+1C--1D--1H--2C--2D--3C--3D--,3N,6
+1C--1D--1H--2C--2D--3C--3D--,3S,6
+1C--1D--1H--2C--2D--3C--3D--,4C,7
+1C--1D--1H--2C--2D--,3D,5
+1C--1D--1H--2C--2D--,3H,5
+1C--1D--1H--2C--2D--,3N,6
+1C--1D--1H--2C--2D--,3S,6
+1C--1D--1H--2C--2D--,4C,7
+1C--1D--1H--,2D,2 suited with Spades and Diamonds
+1C--1D--1H--2D--,2H,relay
+1C--1D--1H--2D--2H--,2N,5+ Spades and 5+ Diamonds
+1C--1D--1H--2D--2H--2N--,3C,relay
+1C--1D--1H--2D--2H--2N--3C--,3D,High shortage (0-1 Hearts)
+1C--1D--1H--2D--2H--2N--3C--3D--,3H,relay
+1C--1D--1H--2D--2H--2N--3C--3D--3H--,3N,5
+1C--1D--1H--2D--2H--2N--3C--3D--3H--,3S,5
+1C--1D--1H--2D--2H--2N--3C--3D--3H--,4C,5
+1C--1D--1H--2D--2H--2N--3C--3D--3H--,4D,6
+1C--1D--1H--2D--2H--2N--3C--,3H,5
+1C--1D--1H--2D--2H--2N--3C--,3N,5
+1C--1D--1H--2D--2H--2N--3C--,3S,5
+1C--1D--1H--2D--2H--2N--3C--,4C,5
+1C--1D--1H--2D--2H--2N--3C--,4D,6
+1C--1D--1H--2D--2H--,2S,4 Spades and 5+ Diamonds
+1C--1D--1H--2D--2H--2S--,2N,relay
+1C--1D--1H--2D--2H--2S--2N--,3C,Please read chat#4 Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1C--1D--1H--2D--2H--2S--2N--3C--,3D,relay
+1C--1D--1H--2D--2H--2S--2N--3C--3D--,3H,4
+1C--1D--1H--2D--2H--2S--2N--3C--3D--,3N,4
+1C--1D--1H--2D--2H--2S--2N--3C--3D--,3S,4
+1C--1D--1H--2D--2H--2S--2N--3C--3D--,4C,4
+1C--1D--1H--2D--2H--2S--2N--,3D,4
+1C--1D--1H--2D--2H--2S--2N--,3H,4
+1C--1D--1H--2D--2H--2S--2N--,3N,4
+1C--1D--1H--2D--2H--2S--2N--,3S,4
+1C--1D--1H--2D--2H--2S--2N--,4C,4
+1C--1D--1H--2D--2H--,3C,Please read chat#4 Diamonds and 5+ Spades\\High shortage (0-1 Hearts)
+1C--1D--1H--2D--2H--,3D,5
+1C--1D--1H--2D--2H--,3H,5
+1C--1D--1H--2D--2H--,3N,6
+1C--1D--1H--2D--2H--,3S,6
+1C--1D--1H--2D--2H--,4C,7
+1C--1D--1H--,2H,Single suited with Spades
+1C--1D--1H--2H--,2S,relay
+1C--1D--1H--2H--2S--,2N,High shortage (0-1 Hearts) or\\6
+1C--1D--1H--2H--2S--2N--,3C,relay
+1C--1D--1H--2H--2S--2N--3C--,3D,6
+1C--1D--1H--2H--2S--2N--3C--,3H,6
+1C--1D--1H--2H--2S--2N--3C--,3N,7
+1C--1D--1H--2H--2S--2N--3C--,3S,7
+1C--1D--1H--2H--2S--,3C,Middle shortage (0-1 Diamonds)
+1C--1D--1H--2H--2S--3C--,3D,relay
+1C--1D--1H--2H--2S--3C--3D--,3H,6
+1C--1D--1H--2H--2S--3C--3D--,3N,7
+1C--1D--1H--2H--2S--3C--3D--,3S,7
+1C--1D--1H--2H--2S--,3D,6
+1C--1D--1H--2H--2S--,3H,6
+1C--1D--1H--2H--2S--,3N,7
+1C--1D--1H--2H--2S--,3S,7
+1C--1D--1H--,2N,5+ Spades and 5+ Hearts
+1C--1D--1H--2N--,3C,relay
+1C--1D--1H--2N--3C--,3D,Please read chat#5+ Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1C--1D--1H--2N--3C--3D--,3H,relay
+1C--1D--1H--2N--3C--3D--3H--,3N,5
+1C--1D--1H--2N--3C--3D--3H--,3S,5
+1C--1D--1H--2N--3C--3D--3H--,4C,5
+1C--1D--1H--2N--3C--3D--3H--,4D,6
+1C--1D--1H--2N--3C--,3H,5
+1C--1D--1H--2N--3C--,3N,5
+1C--1D--1H--2N--3C--,3S,5
+1C--1D--1H--2N--3C--,4C,5
+1C--1D--1H--2N--3C--,4D,6
+1C--1D--1H--,2S,4 Spades and 5+ Hearts
+1C--1D--1H--2S--,2N,relay
+1C--1D--1H--2S--2N--,3C,Please read chat#4 Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1C--1D--1H--2S--2N--3C--,3D,relay
+1C--1D--1H--2S--2N--3C--3D--,3H,4
+1C--1D--1H--2S--2N--3C--3D--,3N,4
+1C--1D--1H--2S--2N--3C--3D--,3S,4
+1C--1D--1H--2S--2N--3C--3D--,4C,4
+1C--1D--1H--2S--2N--,3D,4
+1C--1D--1H--2S--2N--,3H,4
+1C--1D--1H--2S--2N--,3N,4
+1C--1D--1H--2S--2N--,3S,4
+1C--1D--1H--2S--2N--,4C,4
+1C--1D--1H--,3C,Please read chat#5+ Spades and 4 Hearts\\High shortage (0-1 Diamonds)
+1C--1D--1H--3C--,3D,Relay
+1C--1D--1H--3C--3D--,3H,5
+1C--1D--1H--3C--3D--,3N,6
+1C--1D--1H--3C--3D--,3S,6
+1C--1D--1H--3C--3D--,4C,7
+1C--1D--1H--,3D,5
+1C--1D--1H--,3H,5
+1C--1D--1H--,3N,6
+1C--1D--1H--,3S,6
+1C--1D--1H--,4C,7
+1C--1D--,1N,Please read chat#Minimum strength strong club opening\\\\Balanced hand or\\any 4441 shape
+1C--1D--1N--,2C,relay
+1C--1D--1N--2C--,2D,4+ Hearts
+1C--1D--1N--2C--2D--,2H,relay
+1C--1D--1N--2C--2D--2H--,2N,5332 / 4333 shape\\Primary hearts
+1C--1D--1N--2C--2D--2H--2N--,3C,relay
+1C--1D--1N--2C--2D--2H--2N--3C--,3D,2
+1C--1D--1N--2C--2D--2H--2N--3C--,3H,3
+1C--1D--1N--2C--2D--2H--2N--3C--,3N,3
+1C--1D--1N--2C--2D--2H--2N--3C--,3S,3
+1C--1D--1N--2C--2D--2H--,2S,4 Hearts and 4 Spades
+1C--1D--1N--2C--2D--2H--2S--,2N,relay
+1C--1D--1N--2C--2D--2H--2S--,3C,4
+1C--1D--1N--2C--2D--2H--2S--,3D,4
+1C--1D--1N--2C--2D--2H--,3C,4 Hearts and 4 Diamonds
+1C--1D--1N--2C--2D--2H--3C--,3D,relay
+1C--1D--1N--2C--2D--2H--3C--3D--,3H,2
+1C--1D--1N--2C--2D--2H--3C--3D--,3S,3
+1C--1D--1N--2C--2D--2H--3C--,3H, 
+1C--1D--1N--2C--2D--2H--3C--,3S, 
+1C--1D--1N--2C--2D--2H--,3D,2
+1C--1D--1N--2C--2D--2H--,3H,3
+1C--1D--1N--2C--,2H,4+ Spades\\2-3 Hearts
+1C--1D--1N--2C--2H--,2S,relay
+1C--1D--1N--2C--2H--2S--,2N,5332 / 4333 shape\\Primary Spades
+1C--1D--1N--2C--2H--2S--2N--,3C,relay
+1C--1D--1N--2C--2H--2S--2N--3C--,3D,5
+1C--1D--1N--2C--2H--2S--2N--3C--,3H,5
+1C--1D--1N--2C--2H--2S--2N--3C--,3N,4
+1C--1D--1N--2C--2H--2S--2N--3C--,3S,5
+1C--1D--1N--2C--,2N,5332 / 4333 shape\\Primary Diamonds
+1C--1D--1N--2C--2N--,3C,relay
+1C--1D--1N--2C--2N--3C--,3D,2
+1C--1D--1N--2C--2N--3C--,3H,3
+1C--1D--1N--2C--2N--3C--,3N,3
+1C--1D--1N--2C--2N--3C--,3S,3
+1C--1D--1N--2C--,2S,any 4441 shape
+1C--1D--1N--2C--2S--,2N,relay
+1C--1D--1N--2C--2S--2N--,3C,1
+1C--1D--1N--2C--2S--2N--,3D,4
+1C--1D--1N--2C--2S--2N--,3H,4
+1C--1D--1N--2C--2S--2N--,3S,4
+1C--1D--1N--2C--,3C,4 Diamonds and 4 Clubs
+1C--1D--1N--2C--3C--,3D,relay
+1C--1D--1N--2C--3C--3D--,3H,2
+1C--1D--1N--2C--3C--3D--,3S,3
+1C--1D--1N--2C--,3D,2
+1C--1D--1N--2C--,3H,3
+1C--1D--1N--2C--,3N,3
+1C--1D--1N--2C--,3S,3
+1C--1D--,1S,Please read chat#Minimum strength strong club opening\\\\Single suited in Diamonds or\\Single suited in Hearts or\\2 suited without Spades
+1C--1D--1S--,1N,relay
+1C--1D--1S--1N--,2C,Please read chat#Single suited with Diamonds or\\Two suited with Hearts and Clubs
+1C--1D--1S--1N--2C--,2D,relay
+1C--1D--1S--1N--2C--2D--,2H,Single suited with Diamonds
+1C--1D--1S--1N--2C--2D--2H--,2S,relay
+1C--1D--1S--1N--2C--2D--2H--2S--,2N,High shortage (0-1 Spades) or\\2
+1C--1D--1S--1N--2C--2D--2H--2S--2N--,3C,relay
+1C--1D--1S--1N--2C--2D--2H--2S--2N--3C--,3D,2
+1C--1D--1S--1N--2C--2D--2H--2S--2N--3C--,3H,1
+1C--1D--1S--1N--2C--2D--2H--2S--2N--3C--,3N,0
+1C--1D--1S--1N--2C--2D--2H--2S--2N--3C--,3S,1
+1C--1D--1S--1N--2C--2D--2H--2S--,3C,Middle shortage (0-1 Hearts)
+1C--1D--1S--1N--2C--2D--2H--2S--3C--,3D,relay
+1C--1D--1S--1N--2C--2D--2H--2S--3C--3D--,3H,3
+1C--1D--1S--1N--2C--2D--2H--2S--3C--3D--,3N,3
+1C--1D--1S--1N--2C--2D--2H--2S--3C--3D--,3S,2
+1C--1D--1S--1N--2C--2D--2H--2S--,3D,3
+1C--1D--1S--1N--2C--2D--2H--2S--,3H,3
+1C--1D--1S--1N--2C--2D--2H--2S--,3N,3
+1C--1D--1S--1N--2C--2D--2H--2S--,3S,2
+1C--1D--1S--1N--2C--2D--,2N,5+ Hearts and 5+ Clubs
+1C--1D--1S--1N--2C--2D--2N--,3C,relay
+1C--1D--1S--1N--2C--2D--2N--3C--,3D,Please read chat#5+ Clubs and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2C--2D--2N--3C--3D--,3H,relay
+1C--1D--1S--1N--2C--2D--2N--3C--3D--3H--,3N,0
+1C--1D--1S--1N--2C--2D--2N--3C--3D--3H--,3S,1
+1C--1D--1S--1N--2C--2D--2N--3C--3D--3H--,4C,0
+1C--1D--1S--1N--2C--2D--2N--3C--3D--3H--,4D,0
+1C--1D--1S--1N--2C--2D--2N--3C--,3H,2
+1C--1D--1S--1N--2C--2D--2N--3C--,3N,2
+1C--1D--1S--1N--2C--2D--2N--3C--,3S,3
+1C--1D--1S--1N--2C--2D--2N--3C--,4C,2
+1C--1D--1S--1N--2C--2D--,2S,4 Hearts and 5+ Clubs
+1C--1D--1S--1N--2C--2D--2S--,2N,relay
+1C--1D--1S--1N--2C--2D--2S--2N--,3C,Please read chat#4 Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2C--2D--2S--2N--3C--,3D,1
+1C--1D--1S--1N--2C--2D--2S--2N--3C--,3H,1
+1C--1D--1S--1N--2C--2D--2S--2N--3C--,3N,1
+1C--1D--1S--1N--2C--2D--2S--2N--3C--,3S,0
+1C--1D--1S--1N--2C--2D--2S--2N--,3D,2
+1C--1D--1S--1N--2C--2D--2S--2N--,3H,3
+1C--1D--1S--1N--2C--2D--2S--2N--,3N,3
+1C--1D--1S--1N--2C--2D--2S--2N--,3S,2
+1C--1D--1S--1N--2C--2D--2S--2N--,4C,1
+1C--1D--1S--1N--2C--2D--,3C,Please read chat#4 Clubs and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2C--2D--3C--,3D,relay
+1C--1D--1S--1N--2C--2D--3C--3D--,3H,1
+1C--1D--1S--1N--2C--2D--3C--3D--,3N,0
+1C--1D--1S--1N--2C--2D--3C--3D--,3S,1
+1C--1D--1S--1N--2C--2D--3C--3D--,4C,1
+1C--1D--1S--1N--2C--2D--,3D,2
+1C--1D--1S--1N--2C--2D--,3H,3
+1C--1D--1S--1N--2C--2D--,3N,3
+1C--1D--1S--1N--2C--2D--,3S,2
+1C--1D--1S--1N--2C--2D--,4C,1
+1C--1D--1S--1N--,2D,Two suited with Hearts and Diamonds
+1C--1D--1S--1N--2D--,2H,relay
+1C--1D--1S--1N--2D--2H--,2N,5+ Diamonds and 5+ Hearts
+1C--1D--1S--1N--2D--2H--2N--,3C,relay
+1C--1D--1S--1N--2D--2H--2N--3C--,3D,Please read chat#5 Diamonds and 5 Hearts\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2D--2H--2N--3C--3D--,3H,relay
+1C--1D--1S--1N--2D--2H--2N--3C--3D--3H--,3N,0
+1C--1D--1S--1N--2D--2H--2N--3C--3D--3H--,3S,1
+1C--1D--1S--1N--2D--2H--2N--3C--3D--3H--,4C,0
+1C--1D--1S--1N--2D--2H--2N--3C--3D--3H--,4D,0
+1C--1D--1S--1N--2D--2H--2N--3C--,3H,1
+1C--1D--1S--1N--2D--2H--2N--3C--,3N,3
+1C--1D--1S--1N--2D--2H--2N--3C--,3S,2
+1C--1D--1S--1N--2D--2H--2N--3C--,4C,2
+1C--1D--1S--1N--2D--2H--2N--3C--,4D,2
+1C--1D--1S--1N--2D--2H--,2S,4 Hearts and 5+ Diamonds
+1C--1D--1S--1N--2D--2H--2S--,2N,relay
+1C--1D--1S--1N--2D--2H--2S--2N--,3C,Please read chat#4 Hearts and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2D--2H--2S--2N--3C--,3D,relay
+1C--1D--1S--1N--2D--2H--2S--2N--3C--3D--,3H,1
+1C--1D--1S--1N--2D--2H--2S--2N--3C--3D--,3N,0
+1C--1D--1S--1N--2D--2H--2S--2N--3C--3D--,3S,1
+1C--1D--1S--1N--2D--2H--2S--2N--3C--3D--,4C,1
+1C--1D--1S--1N--2D--2H--2S--2N--,3D,2
+1C--1D--1S--1N--2D--2H--2S--2N--,3H,3
+1C--1D--1S--1N--2D--2H--2S--2N--,3N,3
+1C--1D--1S--1N--2D--2H--2S--2N--,3S,2
+1C--1D--1S--1N--2D--2H--2S--2N--,4C,1
+1C--1D--1S--1N--2D--2H--,3C,Please read chat#4 Diamonds and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2D--2H--3C--,3D,relay
+1C--1D--1S--1N--2D--2H--3C--3D--,3H,1
+1C--1D--1S--1N--2D--2H--3C--3D--,3N,0
+1C--1D--1S--1N--2D--2H--3C--3D--,3S,1
+1C--1D--1S--1N--2D--2H--3C--3D--,4C,1
+1C--1D--1S--1N--2D--2H--,3D,2
+1C--1D--1S--1N--2D--2H--,3H,3
+1C--1D--1S--1N--2D--2H--,3N,3
+1C--1D--1S--1N--2D--2H--,3S,2
+1C--1D--1S--1N--2D--2H--,4C,1
+1C--1D--1S--1N--,2H,Single suited with Hearts
+1C--1D--1S--1N--2H--,2S,relay
+1C--1D--1S--1N--2H--2S--,2N,High shortage (0-1 Spades) or\\2
+1C--1D--1S--1N--2H--2S--2N--,3C,relay
+1C--1D--1S--1N--2H--2S--2N--3C--,3D,2
+1C--1D--1S--1N--2H--2S--2N--3C--,3H,1
+1C--1D--1S--1N--2H--2S--2N--3C--,3N,0
+1C--1D--1S--1N--2H--2S--2N--3C--,3S,1
+1C--1D--1S--1N--2H--2S--,3C,Middle shortage (0-1 Diamonds)
+1C--1D--1S--1N--2H--2S--3C--,3D,relay
+1C--1D--1S--1N--2H--2S--3C--3D--,3H,3
+1C--1D--1S--1N--2H--2S--3C--3D--,3N,3
+1C--1D--1S--1N--2H--2S--3C--3D--,3S,2
+1C--1D--1S--1N--2H--2S--,3D,3
+1C--1D--1S--1N--2H--2S--,3H,3
+1C--1D--1S--1N--2H--2S--,3N,3
+1C--1D--1S--1N--2H--2S--,3S,2
+1C--1D--1S--1N--,2N,5+ Clubs and 5+ Diamonds
+1C--1D--1S--1N--2N--,3C,relay
+1C--1D--1S--1N--2N--3C--,3D,5 Clubs and 5 Diamonds \\High shortage
+1C--1D--1S--1N--2N--3C--3D--,3H,relay
+1C--1D--1S--1N--2N--3C--3D--3H--,3N,0
+1C--1D--1S--1N--2N--3C--3D--3H--,3S,1
+1C--1D--1S--1N--2N--3C--3D--3H--,4C,0
+1C--1D--1S--1N--2N--3C--3D--3H--,4D,2
+1C--1D--1S--1N--2N--3C--,3H,1
+1C--1D--1S--1N--2N--3C--,3N,3
+1C--1D--1S--1N--2N--3C--,3S,2
+1C--1D--1S--1N--2N--3C--,4C,2
+1C--1D--1S--1N--2N--3C--,4D,2
+1C--1D--1S--1N--,2S,4 Diamonds and 5+ Clubs
+1C--1D--1S--1N--2S--,2N,relay
+1C--1D--1S--1N--2S--2N--,3C,Please read chat#4 Diamonds and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1D--1S--1N--2S--2N--,3D,2
+1C--1D--1S--1N--2S--2N--,3H,3
+1C--1D--1S--1N--2S--2N--,3N,3
+1C--1D--1S--1N--2S--2N--,3S,2
+1C--1D--1S--1N--2S--2N--,4C,1
+1C--1D--1S--1N--,3C,4 Clubs and 5+ Diamonds\\High shortage
+1C--1D--1S--1N--3C--,3D,relay
+1C--1D--1S--1N--3C--3D--,3H,1
+1C--1D--1S--1N--3C--3D--,3N,0
+1C--1D--1S--1N--3C--3D--,3S,1
+1C--1D--1S--1N--3C--3D--,4C,1
+1C--1D--1S--1N--,3D,2
+1C--1D--1S--1N--,3H,3
+1C--1D--1S--1N--,3N,3
+1C--1D--1S--1N--,3S,2
+1C--1D--1S--1N--,4C,1
+1C--1D--1S--2C--,2D, 
+1C--1D--1S--2C--,2H, 
+1C--1D--1S--2C--,2N, 
+1C--1D--1S--2C--,2S, 
+1C--1D--1S--2C--,3C, 
+1C--1D--1S--2C--,3D, 
+1C--1D--1S--2C--,3H, 
+1C--1D--1S--2C--,3N, 
+1C--1D--1S--2C--,3S, 
+1C--1D--1S--2C--,4C, 
+1C--1D--,2C,Please read chat#Minimum strength strong club opening\\\\Single suited with Clubs or\\2 suited with Clubs and Spades
+1C--1D--2C--,2D,relay
+1C--1D--2C--2D--,2H,Single suited with Clubs
+1C--1D--2C--2D--2H--,2S,relay
+1C--1D--2C--2D--2H--2S--,2N,High shortage (0-1 Spades) or\\2
+1C--1D--2C--2D--2H--2S--2N--,3C,relay
+1C--1D--2C--2D--2H--2S--2N--3C--,3D,2
+1C--1D--2C--2D--2H--2S--2N--3C--,3H,1
+1C--1D--2C--2D--2H--2S--2N--3C--,3N,0
+1C--1D--2C--2D--2H--2S--2N--3C--,3S,1
+1C--1D--2C--2D--2H--2S--,3C,Middle shortage (0-1 Hearts)
+1C--1D--2C--2D--2H--2S--3C--,3D,relay
+1C--1D--2C--2D--2H--2S--3C--3D--,3H,3
+1C--1D--2C--2D--2H--2S--3C--3D--,3N,3
+1C--1D--2C--2D--2H--2S--3C--3D--,3S,2
+1C--1D--2C--2D--2H--2S--,3D,3
+1C--1D--2C--2D--2H--2S--,3H,3
+1C--1D--2C--2D--2H--2S--,3N,3
+1C--1D--2C--2D--2H--2S--,3S,2
+1C--1D--2C--2D--,2N,5+ Spades and 5+ Clubs
+1C--1D--2C--2D--2N--,3C,relay
+1C--1D--2C--2D--2N--3C--,3D,Please read chat#5+ Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1C--1D--2C--2D--2N--3C--,3H,5
+1C--1D--2C--2D--2N--3C--,3N,5
+1C--1D--2C--2D--2N--3C--,3S,5
+1C--1D--2C--2D--2N--3C--,4C,5
+1C--1D--2C--2D--,2S,4 Spades and 5+ Clubs
+1C--1D--2C--2D--2S--,2N,relay
+1C--1D--2C--2D--2S--2N--,3C,Please read chat#4 Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1C--1D--2C--2D--2S--2N--3C--,3D,relay
+1C--1D--2C--2D--2S--2N--3C--3D--,3H,4
+1C--1D--2C--2D--2S--2N--3C--3D--,3N,4
+1C--1D--2C--2D--2S--2N--3C--3D--,3S,4
+1C--1D--2C--2D--2S--2N--3C--3D--,4C,4
+1C--1D--2C--2D--2S--2N--,3D,4
+1C--1D--2C--2D--2S--2N--,3H,4
+1C--1D--2C--2D--2S--2N--,3N,4
+1C--1D--2C--2D--2S--2N--,3S,4
+1C--1D--2C--2D--2S--2N--,4C,4
+1C--1D--2C--2D--,3C,Please read chat#4 Clubs and 5+ Spades\\High shortage (0-1 Hearts)
+1C--1D--2C--2D--3C--,3D,relay
+1C--1D--2C--2D--3C--3D--,3H,5
+1C--1D--2C--2D--3C--3D--,3N,6
+1C--1D--2C--2D--3C--3D--,3S,6
+1C--1D--2C--2D--3C--3D--,4C,7
+1C--1D--2C--2D--,3D,5
+1C--1D--2C--2D--,3H,5
+1C--1D--2C--2D--,3N,6
+1C--1D--2C--2D--,3S,6
+1C--1D--2C--2D--,4C,7
+1C--1D--,2D,Please read chat#Minimum strength strong club opening\\\\Two suited with Spades and Diamonds
+1C--1D--2D--,2H,relay
+1C--1D--2D--2H--,2N,5+ Spades and 5+ Diamonds
+1C--1D--2D--2H--2N--,3C,relay
+1C--1D--2D--2H--2N--3C--,3D,Please read chat#5+ Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1C--1D--2D--2H--2N--3C--3D--,3H,relay
+1C--1D--2D--2H--2N--3C--3D--3H--,3N,5
+1C--1D--2D--2H--2N--3C--3D--3H--,3S,5
+1C--1D--2D--2H--2N--3C--3D--3H--,4C,5
+1C--1D--2D--2H--2N--3C--3D--3H--,4D,6
+1C--1D--2D--2H--2N--3C--,3H,5
+1C--1D--2D--2H--2N--3C--,3N,5
+1C--1D--2D--2H--2N--3C--,3S,5
+1C--1D--2D--2H--2N--3C--,4C,5
+1C--1D--2D--2H--2N--3C--,4D,6
+1C--1D--2D--2H--,2S,4 Spades and 5+ Diamonds
+1C--1D--2D--2H--2S--,2N,relay
+1C--1D--2D--2H--2S--2N--,3C,Please read chat#4 Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1C--1D--2D--2H--2S--2N--3C--,3D,relay
+1C--1D--2D--2H--2S--2N--3C--3D--,3H,4
+1C--1D--2D--2H--2S--2N--3C--3D--,3N,4
+1C--1D--2D--2H--2S--2N--3C--3D--,3S,4
+1C--1D--2D--2H--2S--2N--3C--3D--,4C,4
+1C--1D--2D--2H--2S--2N--3C--,3H, 
+1C--1D--2D--2H--2S--2N--3C--,3N, 
+1C--1D--2D--2H--2S--2N--3C--,3S, 
+1C--1D--2D--2H--2S--2N--3C--,4C, 
+1C--1D--2D--2H--2S--2N--,3D,4
+1C--1D--2D--2H--2S--2N--,3H,4
+1C--1D--2D--2H--2S--2N--,3N,4
+1C--1D--2D--2H--2S--2N--,3S,4
+1C--1D--2D--2H--2S--2N--,4C,4
+1C--1D--2D--2H--,3C,Please read chat#4 Diamonds and 5+ Spades\\High shortage (0-1 Hearts)
+1C--1D--2D--2H--3C--,3D,relay
+1C--1D--2D--2H--3C--3D--,3H,5
+1C--1D--2D--2H--3C--3D--,3N,6
+1C--1D--2D--2H--3C--3D--,3S,6
+1C--1D--2D--2H--3C--3D--,4C,7
+1C--1D--2D--2H--,3D,5
+1C--1D--2D--2H--,3H,5
+1C--1D--2D--2H--,3N,6
+1C--1D--2D--2H--,3S,6
+1C--1D--2D--2H--,4C,7
+1C--1D--,2H,Please read chat#Minimum strength strong club opening\\\\Single suited with Spades
+1C--1D--2H--,2S,relay
+1C--1D--2H--2S--,2N,High shortage (0-1 Hearts) or\\6
+1C--1D--2H--2S--2N--,3C,relay
+1C--1D--2H--2S--2N--3C--,3D,6
+1C--1D--2H--2S--2N--3C--,3H,6
+1C--1D--2H--2S--2N--3C--,3N,7
+1C--1D--2H--2S--2N--3C--,3S,7
+1C--1D--2H--2S--,3C,Middle shortage (0-1 Diamonds)
+1C--1D--2H--2S--3C--,3D,relay
+1C--1D--2H--2S--3C--3D--,3H,6
+1C--1D--2H--2S--3C--3D--,3N,7
+1C--1D--2H--2S--3C--3D--,3S,7
+1C--1D--2H--2S--,3D,6
+1C--1D--2H--2S--,3H,6
+1C--1D--2H--2S--,3N,7
+1C--1D--2H--2S--,3S,7
+1C--1D--,2N,Please read chat#Minimum strength strong club opening\\\\5+ Spades and 5+ Hearts
+1C--1D--2N--,3C,relay
+1C--1D--2N--3C--,3D,Please read chat#5+ Hearts and 5+ Sapdes\\High shortage (0-1 Diamonds)
+1C--1D--2N--3C--3D--,3H,relay
+1C--1D--2N--3C--3D--,3N,5
+1C--1D--2N--3C--3D--,3S,5
+1C--1D--2N--3C--3D--,4C,5
+1C--1D--2N--3C--3D--,4D,6
+1C--1D--2N--3C--,3H,5
+1C--1D--2N--3C--,3N,5
+1C--1D--2N--3C--,3S,5
+1C--1D--2N--3C--,4C,5
+1C--1D--2N--3C--,4D,6
+1C--1D--,2S,Please read chat#Minimum strength strong club opening\\\\5+ Spades and 4 Hearts
+1C--1D--2S--,2N,relay
+1C--1D--2S--2N--,3C,Please read chat#4 Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1C--1D--2S--2N--3C--,3D,relay
+1C--1D--2S--2N--3C--3D--,3H,4
+1C--1D--2S--2N--3C--3D--,3N,4
+1C--1D--2S--2N--3C--3D--,3S,4
+1C--1D--2S--2N--3C--3D--,4C,4
+1C--1D--2S--2N--,3D,4
+1C--1D--2S--2N--,3H,4
+1C--1D--2S--2N--,3N,4
+1C--1D--2S--2N--,3S,4
+1C--1D--2S--2N--,4C,4
+1C--1D--,3C,Please read chat#Minimum strength strong club opening\\\\4 Hearts and 5+ Spades\\High shortage (0-1 Diamonds)
+1C--1D--3C--,3D,relay
+1C--1D--3C--3D--,3H,5
+1C--1D--3C--3D--,3N,6
+1C--1D--3C--3D--,3S,6
+1C--1D--3C--3D--,4C,7
+1C--1D--,3D,Please read chat#Minimum strength strong club opening\\\\5
+1C--1D--,3H,Please read chat#Minimum strength strong club opening\\\\5
+1C--1D--,3N,Please read chat#Minimum strength strong club opening\\\\6
+1C--1D--,3S,Please read chat#Minimum strength strong club opening\\\\6
+1C--1D--,4C,Please read chat#Minimum strength strong club opening\\\\7
+1C--,1H,Please read chat#Artificial semi-positive\\\\Balanced OR\\4441 OR\\Unbalanced with no 5 card major
+1C--1H--,1S,relay
+1C--1H--1S--,1N,Balanced or any 4441
+1C--1H--1S--1N--,2C,relay
+1C--1H--1S--1N--2C--,2D,4+ Hearts
+1C--1H--1S--1N--2C--2D--,2H,relay
+1C--1H--1S--1N--2C--2D--2H--,2N,5332 or 4333 shape \\Primary Hearts
+1C--1H--1S--1N--2C--2D--2H--2N--,3C,relay
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3D,2
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3H,3
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3N,3
+1C--1H--1S--1N--2C--2D--2H--2N--3C--,3S,3
+1C--1H--1S--1N--2C--2D--2H--,2S,4 Hearts and 4 Spades
+1C--1H--1S--1N--2C--2D--2H--2S--,2N,relay
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3C,4
+1C--1H--1S--1N--2C--2D--2H--2S--2N--,3D,4
+1C--1H--1S--1N--2C--2D--2H--,3C,4 Hearts and 4 Diamonds
+1C--1H--1S--1N--2C--2D--2H--3C--,3D,relay
+1C--1H--1S--1N--2C--2D--2H--3C--3D--,3H,2
+1C--1H--1S--1N--2C--2D--2H--3C--3D--,3S,3
+1C--1H--1S--1N--2C--2D--2H--,3D,2
+1C--1H--1S--1N--2C--2D--2H--,3H,3
+1C--1H--1S--1N--2C--,2H,4+ Spades\\2-3 Hearts
+1C--1H--1S--1N--2C--2H--,2S,relay
+1C--1H--1S--1N--2C--2H--2S--,2N,5332 or 4333 shape\\primary Spades
+1C--1H--1S--1N--2C--2H--2S--2N--,3C,relay
+1C--1H--1S--1N--2C--2H--2S--2N--3C--,3D,5
+1C--1H--1S--1N--2C--2H--2S--2N--3C--,3H,5
+1C--1H--1S--1N--2C--2H--2S--2N--3C--,3N,4
+1C--1H--1S--1N--2C--2H--2S--2N--3C--,3S,5
+1C--1H--1S--1N--2C--2H--2S--,3C,4 Spades and 4 Diamonds
+1C--1H--1S--1N--2C--2H--2S--3C--,3D,relay
+1C--1H--1S--1N--2C--2H--2S--3C--3D--,3H,4
+1C--1H--1S--1N--2C--2H--2S--3C--3D--,3S,4
+1C--1H--1S--1N--2C--2H--2S--,3D,4
+1C--1H--1S--1N--2C--2H--2S--,3H,4
+1C--1H--1S--1N--2C--,2N,5332 or 4333 shape\\primary Diamonds
+1C--1H--1S--1N--2C--2N--,3C,relay
+1C--1H--1S--1N--2C--2N--3C--,3D,2
+1C--1H--1S--1N--2C--2N--3C--,3H,3
+1C--1H--1S--1N--2C--2N--3C--,3N,3
+1C--1H--1S--1N--2C--2N--3C--,3S,3
+1C--1H--1S--1N--2C--,2S,any 4441 shape
+1C--1H--1S--1N--2C--2S--,2N,relay
+1C--1H--1S--1N--2C--2S--2N--,3C,1
+1C--1H--1S--1N--2C--2S--2N--,3D,4
+1C--1H--1S--1N--2C--2S--2N--,3H,4
+1C--1H--1S--1N--2C--2S--2N--,3S,4
+1C--1H--1S--1N--2C--,3C,4 Diamonds and 4 Clubs
+1C--1H--1S--1N--2C--3C--,3D,relay
+1C--1H--1S--1N--2C--3C--3D--,3H,2
+1C--1H--1S--1N--2C--3C--3D--,3S,3
+1C--1H--1S--1N--2C--,3D,2
+1C--1H--1S--1N--2C--,3H,3
+1C--1H--1S--1N--2C--,3N,3
+1C--1H--1S--1N--2C--,3S,3
+1C--1H--1S--,2C,5+ Clubs; 0-3 Diamonds
+1C--1H--1S--2C--,2D,relay
+1C--1H--1S--2C--2D--,2H,4 Hearts and 5+ Clubs
+1C--1H--1S--2C--2D--2H--,2S,relay
+1C--1H--1S--2C--2D--2H--2S--,2N,Please read chat#4 Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1H--1S--2C--2D--2H--2S--2N--,3C,relay
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3D,1
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3H,0
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3N,0
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,3S,1
+1C--1H--1S--2C--2D--2H--2S--2N--3C--,4C,1
+1C--1H--1S--2C--2D--2H--2S--,3C,2
+1C--1H--1S--2C--2D--2H--2S--,3D,3
+1C--1H--1S--2C--2D--2H--2S--,3H,4
+1C--1H--1S--2C--2D--2H--2S--,3N,3
+1C--1H--1S--2C--2D--2H--2S--,3S,2
+1C--1H--1S--2C--2D--2H--2S--,4C,1
+1C--1H--1S--2C--2D--,2N,Please read chat#6+ Clubs\\High shortage (0-1 Spades) or\\2
+1C--1H--1S--2C--2D--2N--,3C,relay
+1C--1H--1S--2C--2D--2N--3C--,3D,2
+1C--1H--1S--2C--2D--2N--3C--,3H,1
+1C--1H--1S--2C--2D--2N--3C--,3N,0
+1C--1H--1S--2C--2D--2N--3C--,3S,1
+1C--1H--1S--2C--2D--,2S,4 Spades and 5+ Clubs
+1C--1H--1S--2C--2D--2S--,2N,relay
+1C--1H--1S--2C--2D--2S--2N--,3C,Please read chat#4 Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1C--1H--1S--2C--2D--2S--2N--3C--,3D,relay
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3H,4
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3N,4
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,3S,4
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,4C,4
+1C--1H--1S--2C--2D--2S--2N--3C--3D--,4D,4
+1C--1H--1S--2C--2D--2S--2N--,3D,4
+1C--1H--1S--2C--2D--2S--2N--,3H,4
+1C--1H--1S--2C--2D--2S--2N--,3N,4
+1C--1H--1S--2C--2D--2S--2N--,3S,4
+1C--1H--1S--2C--2D--2S--2N--,4C,4
+1C--1H--1S--2C--2D--2S--2N--,4D,4
+1C--1H--1S--2C--2D--,3C,6+ Clubs\\Middle shortage (0-1 Hearts)
+1C--1H--1S--2C--2D--3C--,3D,relay
+1C--1H--1S--2C--2D--3C--3D--,3H,3
+1C--1H--1S--2C--2D--3C--3D--,3N,3
+1C--1H--1S--2C--2D--3C--3D--,3S,2
+1C--1H--1S--2C--2D--,3D,3
+1C--1H--1S--2C--2D--,3H,3
+1C--1H--1S--2C--2D--,3N,3
+1C--1H--1S--2C--2D--,3S,2
+1C--1H--1S--,2D,Two suited with Clubs and Diamonds
+1C--1H--1S--2D--,2H,relay
+1C--1H--1S--2D--2H--,2N,5+ Clubs and 5+ Diamonds
+1C--1H--1S--2D--2H--2N--,3C,relay
+1C--1H--1S--2D--2H--2N--,3D,Please read chat#5+ Clubs and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1H--1S--2D--2H--2N--3D--,3H,relay
+1C--1H--1S--2D--2H--2N--3D--3H--,3N,0
+1C--1H--1S--2D--2H--2N--3D--3H--,3S,1
+1C--1H--1S--2D--2H--2N--3D--3H--,4C,0
+1C--1H--1S--2D--2H--2N--3D--3H--,4D,0
+1C--1H--1S--2D--2H--2N--,3H,1
+1C--1H--1S--2D--2H--2N--,3N,3
+1C--1H--1S--2D--2H--2N--,3S,2
+1C--1H--1S--2D--2H--2N--,4C,2
+1C--1H--1S--2D--2H--2N--,4D,2
+1C--1H--1S--2D--2H--,2S,4 Diamonds and 5+ Clubs
+1C--1H--1S--2D--2H--2S--,2N,relay
+1C--1H--1S--2D--2H--2S--2N--,3C,Please read chat#4 Diamonds and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1H--1S--2D--2H--2S--2N--3C--,3D,relay
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3H,1
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3N,0
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,3S,1
+1C--1H--1S--2D--2H--2S--2N--3C--3D--,4C,1
+1C--1H--1S--2D--2H--2S--2N--,3D,2
+1C--1H--1S--2D--2H--2S--2N--,3H,3
+1C--1H--1S--2D--2H--2S--2N--,3N,3
+1C--1H--1S--2D--2H--2S--2N--,3S,2
+1C--1H--1S--2D--2H--2S--2N--,4C,1
+1C--1H--1S--2D--2H--,3C,Please read chat#4 Clubs and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1H--1S--2D--2H--3C--,3D,relay
+1C--1H--1S--2D--2H--3C--3D--,3H,1
+1C--1H--1S--2D--2H--3C--3D--,3N,0
+1C--1H--1S--2D--2H--3C--3D--,3S,1
+1C--1H--1S--2D--2H--3C--3D--,4C,1
+1C--1H--1S--2D--2H--3C--3D--,4D,1
+1C--1H--1S--2D--2H--,3D,2
+1C--1H--1S--2D--2H--,3H,3
+1C--1H--1S--2D--2H--,3N,3
+1C--1H--1S--2D--2H--,3S,2
+1C--1H--1S--2D--2H--,4C,1
+1C--1H--1S--2D--2H--,4D, 
+1C--1H--1S--,2H,5+ Diamonds and 4 Hearts
+1C--1H--1S--2H--,2S,relay
+1C--1H--1S--2H--2S--,2N,Please read chat#4 Hearts and 5+ Diamonds\\High shortage (0-1 Spades)
+1C--1H--1S--2H--2S--2N--,3C,relay
+1C--1H--1S--2H--2S--2N--3C--,3D,1
+1C--1H--1S--2H--2S--2N--3C--,3H,0
+1C--1H--1S--2H--2S--2N--3C--,3N,0
+1C--1H--1S--2H--2S--2N--3C--,3S,1
+1C--1H--1S--2H--2S--2N--3C--,4C,1
+1C--1H--1S--2H--2S--,3C,2
+1C--1H--1S--2H--2S--,3D,3
+1C--1H--1S--2H--2S--,3H,4
+1C--1H--1S--2H--2S--,3N,3
+1C--1H--1S--2H--2S--,3S,2
+1C--1H--1S--2H--2S--,4C,1
+1C--1H--1S--,2N,Please read chat#6+ Diamonds\\High shortage (0-1 Spades) or\\2
+1C--1H--1S--2N--,3C,relay
+1C--1H--1S--2N--3C--,3D,2
+1C--1H--1S--2N--3C--,3H,1
+1C--1H--1S--2N--3C--,3N,0
+1C--1H--1S--2N--3C--,3S,1
+1C--1H--1S--,2S,5+ Diamonds and 4 Spades
+1C--1H--1S--2S--,2N,relay
+1C--1H--1S--2S--2N--,3C,Please read chat#4 Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1C--1H--1S--2S--2N--3C--,3D,relay
+1C--1H--1S--2S--2N--3C--3D--,3H,4
+1C--1H--1S--2S--2N--3C--3D--,3N,4
+1C--1H--1S--2S--2N--3C--3D--,3S,4
+1C--1H--1S--2S--2N--3C--3D--,4C,4
+1C--1H--1S--2S--2N--3C--3D--,4D,4
+1C--1H--1S--2S--2N--,3D,4
+1C--1H--1S--2S--2N--,3H,4
+1C--1H--1S--2S--2N--,3N,4
+1C--1H--1S--2S--2N--,3S,4
+1C--1H--1S--2S--2N--,4C,4
+1C--1H--1S--,3C,Please read chat#6+ Diamonds\\Middle shortage (0-1 Hearts)
+1C--1H--1S--3C--,3D,relay
+1C--1H--1S--3C--3D--,3H,3
+1C--1H--1S--3C--3D--,3N,3
+1C--1H--1S--3C--3D--,3S,2
+1C--1H--1S--,3D,3
+1C--1H--1S--,3H,3
+1C--1H--1S--,3N,3
+1C--1H--1S--,3S,2
+1C--,1N,Please read chat#Artificial semi-positive\\Unbalanced with 5+ Hearts
+1C--1N--,2C,relay
+1C--1N--2C--,2D,5+ Hearts and 4+ Diamonds
+1C--1N--2C--2D--,2H,relay
+1C--1N--2C--2D--2H--,2N,Please read chat#4 Diamonds and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1N--2C--2D--2H--2N--,3C,relay
+1C--1N--2C--2D--2H--2N--3C--,3D,1
+1C--1N--2C--2D--2H--2N--3C--,3H,0
+1C--1N--2C--2D--2H--2N--3C--,3N,0
+1C--1N--2C--2D--2H--2N--3C--,3S,1
+1C--1N--2C--2D--2H--2N--3C--,4C,1
+1C--1N--2C--2D--2H--,2S,5+ Diamonds and 5+ Hearts
+1C--1N--2C--2D--2H--2S--,2N,relay
+1C--1N--2C--2D--2H--2S--2N--,3C,Please read chat#5+ Diamonds and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1N--2C--2D--2H--2S--2N--3C--,3D,relay
+1C--1N--2C--2D--2H--2S--2N--3C--3D--,3H,1
+1C--1N--2C--2D--2H--2S--2N--3C--3D--,3N,0
+1C--1N--2C--2D--2H--2S--2N--3C--3D--,3S,0
+1C--1N--2C--2D--2H--2S--2N--3C--3D--,4C,0
+1C--1N--2C--2D--2H--2S--2N--,3D,1
+1C--1N--2C--2D--2H--2S--2N--,3H,2
+1C--1N--2C--2D--2H--2S--2N--,3N,2
+1C--1N--2C--2D--2H--2S--2N--,3S,3
+1C--1N--2C--2D--2H--2S--2N--,4C,2
+1C--1N--2C--2D--2H--,3C,2
+1C--1N--2C--2D--2H--,3D,3
+1C--1N--2C--2D--2H--,3H,4
+1C--1N--2C--2D--2H--,3N,3
+1C--1N--2C--2D--2H--,3S,2
+1C--1N--2C--2D--2H--,4C,1
+1C--1N--2C--,2H,4 Spades and 5+ Hearts
+1C--1N--2C--2H--,2S,relay
+1C--1N--2C--2H--2S--,2N,Please read chat#4 Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1C--1N--2C--2H--2S--2N--,3C,relay
+1C--1N--2C--2H--2S--2N--3C--,3D,4
+1C--1N--2C--2H--2S--2N--3C--,3H,4
+1C--1N--2C--2H--2S--2N--3C--,3N,4
+1C--1N--2C--2H--2S--2N--3C--,3S,4
+1C--1N--2C--2H--2S--,3C,4
+1C--1N--2C--2H--2S--,3D,4
+1C--1N--2C--2H--2S--,3H,4
+1C--1N--2C--2H--2S--,3N,4
+1C--1N--2C--2H--2S--,3S,4
+1C--1N--2C--2H--2S--,4C,4
+1C--1N--2C--,2N,Please read chat#4 Clubs and 5+ Hearts\\High shortage (0-1 Spades)
+1C--1N--2C--2N--,3C,relay
+1C--1N--2C--2N--3C--,3D,1
+1C--1N--2C--2N--3C--,3H,0
+1C--1N--2C--2N--3C--,3N,0
+1C--1N--2C--2N--3C--,3S,1
+1C--1N--2C--2N--3C--,4C,1
+1C--1N--2C--,2S,5+ Hearts and 5+ Clubs
+1C--1N--2C--2S--,2N,relay
+1C--1N--2C--2S--2N--,3C,Please read chat#5+ Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1C--1N--2C--2S--2N--3C--,3D,relay
+1C--1N--2C--2S--2N--3C--3D--,3H,1
+1C--1N--2C--2S--2N--3C--3D--,3N,0
+1C--1N--2C--2S--2N--3C--3D--,3S,0
+1C--1N--2C--2S--2N--3C--3D--,4C,0
+1C--1N--2C--2S--2N--,3D,1
+1C--1N--2C--2S--2N--,3H,2
+1C--1N--2C--2S--2N--,3N,2
+1C--1N--2C--2S--2N--,3S,3
+1C--1N--2C--2S--2N--,4C,2
+1C--1N--2C--,3C,2
+1C--1N--2C--,3D,3
+1C--1N--2C--,3H,4
+1C--1N--2C--,3N,3
+1C--1N--2C--,3S,2
+1C--1N--2C--,4C,1
+1C--,1S,Artificial double negative
+1C--1S--,1N,Natural; non-forcing\\15-19
+1C--1S--,2C,Strong; artificial and forcing
+1C--1S--,2D,Transfer to Hearts
+1C--1S--,2H,Transfer to Spades
+1C--1S--,2N,20-21 balanced
+1C--1S--,2S,Transfer to Clubs
+1C--1S--,3C,Transfer to Diamonds
+1C--,2C,Please read chat#Artificial semi-positive\\\\Unbalanced with 5+ Spades and\\(4+ Hearts or 4+ Clubs)
+1C--2C--,2D,relay
+1C--2C--2D--,2H,5+ Spades and 4+ Hearts
+1C--2C--2D--2H--,2S,relay
+1C--2C--2D--2H--2S--,2N,5+ Spades and 5+ Hearts
+1C--2C--2D--2H--2S--2N--,3C,relay
+1C--2C--2D--2H--2S--2N--3C--,3D,Please read chat#5+ Hearts and 5+ Spades\\High shortage (0-1 Diamonds)
+1C--2C--2D--2H--2S--2N--3C--3D--,3H,relay
+1C--2C--2D--2H--2S--2N--3C--3D--3H--,3N,5
+1C--2C--2D--2H--2S--2N--3C--3D--3H--,3S,5
+1C--2C--2D--2H--2S--2N--3C--3D--3H--,4C,5
+1C--2C--2D--2H--2S--2N--3C--3D--3H--,4D,6
+1C--2C--2D--2H--2S--2N--3C--,3H,5
+1C--2C--2D--2H--2S--2N--3C--,3N,5
+1C--2C--2D--2H--2S--2N--3C--,3S,5
+1C--2C--2D--2H--2S--2N--3C--,4C,5
+1C--2C--2D--2H--2S--2N--3C--,4D,6
+1C--2C--2D--2H--2S--,3C,Please read chat#5+ Spades and 4 Hearts\\High shortage (0-1 Diamonds)
+1C--2C--2D--2H--2S--3C--,3D,relay
+1C--2C--2D--2H--2S--3C--3D--,3H,5
+1C--2C--2D--2H--2S--3C--3D--,3N,6
+1C--2C--2D--2H--2S--3C--3D--,3S,6
+1C--2C--2D--2H--2S--3C--3D--,4C,7
+1C--2C--2D--2H--2S--,3D,5
+1C--2C--2D--2H--2S--,3H,5
+1C--2C--2D--2H--2S--,3N,6
+1C--2C--2D--2H--2S--,3S,6
+1C--2C--2D--2H--2S--,4C,7
+1C--2C--2D--,2N,Please read chat#5+ Spades and 4 Clubs\\High shortage (0-1 Hearts)
+1C--2C--2D--2N--,3C,relay
+1C--2C--2D--2N--3C--,3D,5
+1C--2C--2D--2N--3C--,3H,5
+1C--2C--2D--2N--3C--,3N,6
+1C--2C--2D--2N--3C--,3S,6
+1C--2C--2D--,2S,5+ Spades and 5+ Clubs
+1C--2C--2D--2S--,2N,relay
+1C--2C--2D--2S--2N--,3C,Please read chat#5+ Clubs and 5+ Spades\\High shortage (0-1 Hearts)
+1C--2C--2D--2S--2N--3C--,3D,relay
+1C--2C--2D--2S--2N--3C--3D--,3H,5
+1C--2C--2D--2S--2N--3C--3D--,3N,5
+1C--2C--2D--2S--2N--3C--3D--,3S,5
+1C--2C--2D--2S--2N--3C--3D--,4C,6
+1C--2C--2D--2S--2N--,3D,5
+1C--2C--2D--2S--2N--,3H,5
+1C--2C--2D--2S--2N--,3N,5
+1C--2C--2D--2S--2N--,3S,5
+1C--2C--2D--2S--2N--,4C,6
+1C--2C--2D--,3C,5
+1C--2C--2D--,3D,5
+1C--2C--2D--,3H,5
+1C--2C--2D--,3N,6
+1C--2C--2D--,3S,6
+1C--,2D,Please read chat#Artificial semipositive\\\\Unbalanced\\5+ Spades and 4+ Diamonds
+1C--2D--,2H,relay
+1C--2D--2H--,2N,Please read chat#5+ Spades and 4 Diamonds\\High shortage (0-1 Hearts)
+1C--2D--2H--2N--,3C,relay
+1C--2D--2H--2N--3C--,3D,5
+1C--2D--2H--2N--3C--,3H,6
+1C--2D--2H--2N--3C--,3N,7
+1C--2D--2H--2N--3C--,3S,6
+1C--2D--2H--,2S,5+ Spades and 5+ Diamonds
+1C--2D--2H--2S--,2N,relay
+1C--2D--2H--2S--2N--,3C,Please read chat#5+ Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1C--2D--2H--2S--2N--3C--,3D,relay
+1C--2D--2H--2S--2N--3C--3D--,3H,5
+1C--2D--2H--2S--2N--3C--3D--,3N,5
+1C--2D--2H--2S--2N--3C--3D--,3S,5
+1C--2D--2H--2S--2N--3C--3D--,4C,6
+1C--2D--2H--2S--2N--,3D,5
+1C--2D--2H--2S--2N--,3H,5
+1C--2D--2H--2S--2N--,3N,5
+1C--2D--2H--2S--2N--,3S,5
+1C--2D--2H--2S--2N--,4C,6
+1C--2D--2H--,3C,5
+1C--2D--2H--,3D,5
+1C--2D--2H--,3H,6
+1C--2D--2H--,3N,7
+1C--2D--2H--,3S,6
+1C--,2H,Please read chat#Artificial semipositive\\\\Single suited with Hearts\\
+1C--2H--,2S,relay
+1C--2H--2S--,2N,High shortage (0-1 Spades) or\\2
+1C--2H--2S--,3C,Middle shortage\\(0-1 Diamonds)
+1C--2H--2S--,3D,3
+1C--2H--2S--,3H,3
+1C--2H--2S--,3N,3
+1C--2H--2S--,3S,2
+1C--,2N,Please read chat#Artificial game force\\\\5440 shape with a major suit void
+1C--2N--,3C,relay
+1C--2N--3C--,3D,5440 shape with a Spade void
+1C--2N--3C--3D--,3H,relay
+1C--2N--3C--3D--3H--,3N,0
+1C--2N--3C--3D--3H--,3S,0
+1C--2N--3C--3D--3H--,4C,0
+1C--2N--3C--,3H,4
+1C--2N--3C--,3N,5
+1C--2N--3C--,3S,4
+1C--,2S,Please read chat#Artificial semipositive\\\\single suited with Spades
+1C--2S--,2N,relay
+1C--2S--,3C,High shortage (0-1 Hearts) or\\6
+1C--2S--3C--,3D,relay
+1C--2S--3C--3D--,3H,6
+1C--2S--3C--3D--,3N,7
+1C--2S--3C--3D--,3S,6
+1C--2S--3C--3D--,4C,7
+1C--2S--,3D,Middle shortage (0-1 Diamonds)
+1C--2S--3D--,3H,relay
+1C--2S--3D--3H--,3N,7
+1C--2S--3D--3H--,3S,6
+1C--2S--3D--3H--,4C,7
+1C--2S--,3H,6
+1C--2S--,3N,7
+1C--2S--,3S,6
+1C--2S--,4C,7
+1C--,3C,Please read chat#Artificial game force\\\\AKQxxxx in any suit
+1C--,3D,Please read chat#Artificial game force\\\\Any 5440 shape with a !D void
+1C--3D--,3H,relay
+1C--3D--3H--,3N,4
+1C--3D--3H--,3S,4
+1C--3D--3H--,4C,5
+1C--3D--,3N, 
+1C--3D--,3S, 
+1C--3D--,4C, 
+1C--,3H,Artificial game force\\\\4
+1C--,3N,Artificial game force\\\\5
+1C--,3S,Artificial game force\\\\4
+,1D,Please read chat#4+!H; might have a longer minor\\~ 9 - 14 HCP if unbalanced\\~ 13 - 14 HCP if balanced
+1D--,1H,Relay\\Game invitational +
+1D--1H--,1N,Please read chat#Any unbalanced hand with 4 Hearts or\\any balanced hand
+1D--1H--1N--,2C,relay
+1D--1H--1N--2C--,2D,Balanced hand
+1D--1H--1N--2C--2D--,2H,relay
+1D--1H--1N--2C--2D--2H--,2N,5332 hands
+1D--1H--1N--2C--2D--2H--2N--,3C,relay
+1D--1H--1N--2C--2D--2H--2N--3C--,3D,2
+1D--1H--1N--2C--2D--2H--2N--3C--,3H,3
+1D--1H--1N--2C--2D--2H--2N--3C--,3S,3
+1D--1H--1N--2C--2D--2H--,2S,4 Hearts and 4 Spades
+1D--1H--1N--2C--2D--2H--2S--,2N,relay
+1D--1H--1N--2C--2D--2H--2S--2N--,3C,4
+1D--1H--1N--2C--2D--2H--2S--2N--,3D,4
+1D--1H--1N--2C--2D--2H--,3C,4 Hearts and 4 Diamonds
+1D--1H--1N--2C--2D--2H--3C--,3D,relay
+1D--1H--1N--2C--2D--2H--3C--3D--,3H,2
+1D--1H--1N--2C--2D--2H--3C--3D--,3S,3
+1D--1H--1N--2C--2D--2H--,3D,2
+1D--1H--1N--2C--2D--2H--,3H,3
+1D--1H--1N--2C--,2H,4 Hearts and 5+ Diamonds
+1D--1H--1N--2C--2H--,2S,relay
+1D--1H--1N--2C--2H--2S--,2N,Please read chat#4 Hearts and 5+ Diamonds\\High shortage (0-1 Spades)
+1D--1H--1N--2C--2H--2S--2N--,3C,relay
+1D--1H--1N--2C--2H--2S--2N--3C--,3D,1
+1D--1H--1N--2C--2H--2S--2N--3C--,3H,1
+1D--1H--1N--2C--2H--2S--2N--3C--,3N,1
+1D--1H--1N--2C--2H--2S--2N--3C--,3S,0
+1D--1H--1N--2C--2H--2S--,3C,2
+1D--1H--1N--2C--2H--2S--,3D,3
+1D--1H--1N--2C--2H--2S--,3H,2
+1D--1H--1N--2C--2H--2S--,3N,1
+1D--1H--1N--2C--2H--2S--,3S,3
+1D--1H--1N--2C--,2N,Please read chat#4 Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1D--1H--1N--2C--2N--,3C,relay
+1D--1H--1N--2C--2N--3C--,3D,1
+1D--1H--1N--2C--2N--3C--,3H,1
+1D--1H--1N--2C--2N--3C--,3N,1
+1D--1H--1N--2C--2N--3C--,3S,0
+1D--1H--1N--2C--,2S,3 suited
+1D--1H--1N--2C--2S--,2N,relay
+1D--1H--1N--2C--2S--2N--,3C,4441 shapes
+1D--1H--1N--2C--2S--2N--3C--,3D,relay
+1D--1H--1N--2C--2S--2N--3C--3D--,3H,1
+1D--1H--1N--2C--2S--2N--3C--3D--,3N,4
+1D--1H--1N--2C--2S--2N--3C--3D--,3S,4
+1D--1H--1N--2C--2S--2N--,3D,0445 shape
+1D--1H--1N--2C--2S--2N--,3H,0454 shape
+1D--1H--1N--2C--2S--2N--,3N,4450 shape
+1D--1H--1N--2C--2S--2N--,3S,4405 shape
+1D--1H--1N--2C--,3C,2
+1D--1H--1N--2C--,3D,3
+1D--1H--1N--2C--,3H,2
+1D--1H--1N--2C--,3N,1
+1D--1H--1N--2C--,3S,3
+1D--1H--,1S,Please read chat#Unbalanced with 5+ hearts\\Minimum opening bid
+1D--1H--1S--,1N,Relay
+1D--1H--1S--1N--,2C,Please read chat#5440 shape or\\5+ Hearts and 4+ Diamonds
+1D--1H--1S--1N--2C--,2D,relay
+1D--1H--1S--1N--2C--2D--,2H,5440 hand with 5 Hearts
+1D--1H--1S--1N--2C--2D--2H--,2S,relay
+1D--1H--1S--1N--2C--2D--2H--2S--,2N,0
+1D--1H--1S--1N--2C--2D--2H--2S--,3C,4
+1D--1H--1S--1N--2C--2D--2H--2S--,3D,4
+1D--1H--1S--1N--2C--2D--,2N,Please read chat#5+ Hearts and 4 Diamonds\\High shortage (0-1 Spades)
+1D--1H--1S--1N--2C--2D--2N--,3C,relay
+1D--1H--1S--1N--2C--2D--2N--3C--,3D,1
+1D--1H--1S--1N--2C--2D--2N--3C--,3H,1
+1D--1H--1S--1N--2C--2D--2N--3C--,3N,1
+1D--1H--1S--1N--2C--2D--2N--3C--,3S,0
+1D--1H--1S--1N--2C--2D--,2S,5+ Hearts and 5+ Diamonds
+1D--1H--1S--1N--2C--2D--2S--,2N,relay
+1D--1H--1S--1N--2C--2D--2S--2N--,3C,Please read chat#5+ Hearts and 5+ Diamonds\\High shortage
+1D--1H--1S--1N--2C--2D--2S--2N--3C--,3D,relay
+1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3H,1
+1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3N,0
+1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,3S,0
+1D--1H--1S--1N--2C--2D--2S--2N--3C--3D--,4C,0
+1D--1H--1S--1N--2C--2D--2S--2N--,3D,1
+1D--1H--1S--1N--2C--2D--2S--2N--,3H,2
+1D--1H--1S--1N--2C--2D--2S--2N--,3N,2
+1D--1H--1S--1N--2C--2D--2S--2N--,3S,3
+1D--1H--1S--1N--2C--2D--2S--2N--,4C,2
+1D--1H--1S--1N--2C--2D--,3C,2
+1D--1H--1S--1N--2C--2D--,3D,3
+1D--1H--1S--1N--2C--2D--,3H,2
+1D--1H--1S--1N--2C--2D--,3N,1
+1D--1H--1S--1N--2C--2D--,3S,3
+1D--1H--1S--1N--,2D,Single suited with Hearts
+1D--1H--1S--1N--2D--,2H,relay
+1D--1H--1S--1N--2D--2H--,2N,Middle shortage (0-1 Diamonds)
+1D--1H--1S--1N--2D--2H--2N--,3C,relay
+1D--1H--1S--1N--2D--2H--2N--3C--,3D,3
+1D--1H--1S--1N--2D--2H--2N--3C--,3H,2
+1D--1H--1S--1N--2D--2H--2N--3C--,3S,3
+1D--1H--1S--1N--2D--2H--,2S,High shortage (0-1 Spades) or\\2
+1D--1H--1S--1N--2D--2H--2S--,2N,relay
+1D--1H--1S--1N--2D--2H--2S--2N--,3C,2
+1D--1H--1S--1N--2D--2H--2S--2N--,3D,1
+1D--1H--1S--1N--2D--2H--2S--2N--,3H,1
+1D--1H--1S--1N--2D--2H--2S--2N--,3S,0
+1D--1H--1S--1N--2D--2H--,3C,3
+1D--1H--1S--1N--2D--2H--,3D,3
+1D--1H--1S--1N--2D--2H--,3H,2
+1D--1H--1S--1N--2D--2H--,3S,3
+1D--1H--1S--1N--,2H,5+ Hearts and 4 Spades
+1D--1H--1S--1N--2H--,2S,relay
+1D--1H--1S--1N--2H--2S--,2N,Please read chat#4 Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1D--1H--1S--1N--2H--2S--2N--,3C,relay
+1D--1H--1S--1N--2H--2S--2N--3C--,3D,4
+1D--1H--1S--1N--2H--2S--2N--3C--,3H,4
+1D--1H--1S--1N--2H--2S--2N--3C--,3N,4
+1D--1H--1S--1N--2H--2S--2N--3C--,3S,4
+1D--1H--1S--1N--2H--2S--,3C,4
+1D--1H--1S--1N--2H--2S--,3D,4
+1D--1H--1S--1N--2H--2S--,3H,4
+1D--1H--1S--1N--2H--2S--,3N,4
+1D--1H--1S--1N--2H--2S--,3S,4
+1D--1H--1S--1N--,2N,Please read chat#5+ Hearts and 4 Clubs\\High shortage (0-1 Spades)
+1D--1H--1S--1N--2N--,3C,relay
+1D--1H--1S--1N--2N--3C--,3D,1
+1D--1H--1S--1N--2N--3C--,3H,1
+1D--1H--1S--1N--2N--3C--,3N,1
+1D--1H--1S--1N--2N--3C--,3S,0
+1D--1H--1S--1N--,2S,5+ Hearts and 5+ Clubs
+1D--1H--1S--1N--2S--,2N,relay
+1D--1H--1S--1N--2S--2N--,3C,Please read chat#5+ Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1D--1H--1S--1N--2S--2N--3C--,3D,Relay
+1D--1H--1S--1N--2S--2N--3C--3D--,3H,1
+1D--1H--1S--1N--2S--2N--3C--3D--,3N,0
+1D--1H--1S--1N--2S--2N--3C--3D--,3S,0
+1D--1H--1S--1N--2S--2N--3C--3D--,4C,0
+1D--1H--1S--1N--2S--2N--,3D,1
+1D--1H--1S--1N--2S--2N--,3H,2
+1D--1H--1S--1N--2S--2N--,3N,2
+1D--1H--1S--1N--2S--2N--,3S,3
+1D--1H--1S--1N--2S--2N--,4C,2
+1D--1H--1S--1N--,3C,2
+1D--1H--1S--1N--,3D,3
+1D--1H--1S--1N--,3H,2
+1D--1H--1S--1N--,3N,1
+1D--1H--1S--1N--,3S,3
+1D--1H--,2C,Please read chat#Maximum strength opening\\5+ Hearts and 4+ Diamonds or\\any 5440 with 5 Hearts\\
+1D--1H--2C--,2D,relay
+1D--1H--2C--2D--,2H,5440 shape with 5 hearts
+1D--1H--2C--2D--2H--,2S,relay
+1D--1H--2C--2D--2H--2S--,2N,0
+1D--1H--2C--2D--2H--2S--,3C,4
+1D--1H--2C--2D--2H--2S--,3D,4
+1D--1H--2C--2D--,2N,Please read chat#5+ Hearts and 4 Diamonds\\High shortage (0-1 Spades)
+1D--1H--2C--2D--2N--,3C,relay
+1D--1H--2C--2D--2N--3C--,3D,1
+1D--1H--2C--2D--2N--3C--,3H,1
+1D--1H--2C--2D--2N--3C--,3N,1
+1D--1H--2C--2D--2N--3C--,3S,0
+1D--1H--2C--2D--,2S,5+ Hearts and 5+ Diamonds
+1D--1H--2C--2D--2S--,2N,relay
+1D--1H--2C--2D--2S--2N--,3C,Please read chat#5+ Hearts and 5+ Diamonds\\High shortage (0-1 spades)
+1D--1H--2C--2D--2S--2N--3C--,3D,relay
+1D--1H--2C--2D--2S--2N--3C--3D--,3H,1
+1D--1H--2C--2D--2S--2N--3C--3D--,3N,0
+1D--1H--2C--2D--2S--2N--3C--3D--,3S,0
+1D--1H--2C--2D--2S--2N--,3D,1
+1D--1H--2C--2D--2S--2N--,3H,2
+1D--1H--2C--2D--2S--2N--,3N,2
+1D--1H--2C--2D--2S--2N--,3S,3
+1D--1H--2C--2D--2S--2N--,4C,0
+1D--1H--2C--2D--,3C,2
+1D--1H--2C--2D--,3D,3
+1D--1H--2C--2D--,3H,2
+1D--1H--2C--2D--,3N,1
+1D--1H--2C--2D--,3S,3
+1D--1H--,2D,Please read chat#Maximum strength opening\\Single suited with Heart
+1D--1H--2D--,2H,Relay
+1D--1H--2D--2H--,2N,Middle shortage (0-1 Diamonds)
+1D--1H--2D--2H--2N--,3C,relay
+1D--1H--2D--2H--2N--3C--,3D,3
+1D--1H--2D--2H--2N--3C--,3H,2
+1D--1H--2D--2H--2N--3C--,3S,3
+1D--1H--2D--2H--,2S,High shortage (0-1 Spades) or\\2
+1D--1H--2D--2H--2S--,2N,relay
+1D--1H--2D--2H--2S--2N--,3C,2
+1D--1H--2D--2H--2S--2N--,3D,1
+1D--1H--2D--2H--2S--2N--,3H,1
+1D--1H--2D--2H--2S--2N--,3S,0
+1D--1H--2D--2H--,3C,3
+1D--1H--2D--2H--,3D,3
+1D--1H--2D--2H--,3H,2
+1D--1H--2D--2H--,3S,3
+1D--1H--2D--2N--,3C,
+1D--1H--2D--2N--3C--,3D,5
+1D--1H--2D--2N--3C--,3H,6
+1D--1H--2D--2N--3C--,3N,7
+1D--1H--2D--2N--3C--,3S,6
+1D--1H--2D--2S--,2N,Relay
+1D--1H--2D--2S--,3C,5+ Hearts and 5+ Clubs\\High shortage
+1D--1H--2D--2S--3C--,3D,Relay
+1D--1H--2D--2S--3C--3D--,3H,1
+1D--1H--2D--2S--3C--3D--,3N,0
+1D--1H--2D--2S--3C--3D--,3S,0
+1D--1H--2D--2S--3C--3D--,4C,0
+1D--1H--2D--2S--,3D,1
+1D--1H--2D--2S--,3H,2
+1D--1H--2D--2S--,3N,2
+1D--1H--2D--2S--,3S,3
+1D--1H--2D--2S--,4C,2
+1D--1H--,2H,Please read chat#Maximum strength opening\\4 Hearts and 5+ Spades
+1D--1H--2H--,2S,Relay
+1D--1H--2H--2S--,2N,Please read chat#5+ Hearts and 4 Spades\\High shortage (0-1 Diamonds)
+1D--1H--2H--2S--2N--,3C,Relay
+1D--1H--2H--2S--2N--3C--,3D,4
+1D--1H--2H--2S--2N--3C--,3H,4
+1D--1H--2H--2S--2N--3C--,3N,4
+1D--1H--2H--2S--2N--3C--,3S,4
+1D--1H--2H--2S--,3C,4
+1D--1H--2H--2S--,3D,4
+1D--1H--2H--2S--,3H,4
+1D--1H--2H--2S--,3N,4
+1D--1H--2H--2S--,3S,4
+1D--1H--,2N,Please read chat#Maximum strength opening\\5+ Hearts and 4 Clubs\\High shortage (0-1 Spades)
+1D--1H--2N--,3C,Relay
+1D--1H--2N--3C--,3D,1
+1D--1H--2N--3C--,3H,1
+1D--1H--2N--3C--,3N,1
+1D--1H--2N--3C--,3S,0
+1D--1H--,2S,Please read chat#Maximum strength opening\\5+ Hearts and 5+ Clubs
+1D--1H--2S--,2N,Relay
+1D--1H--2S--2N--,3C,Please read chat#5+ Hearts and 5+ Clubs\\High shortage (0-1 Spades)
+1D--1H--2S--2N--3C--,3D,Relay
+1D--1H--2S--2N--3C--3D--,3H,1
+1D--1H--2S--2N--3C--3D--,3N,0
+1D--1H--2S--2N--3C--3D--,3S,0
+1D--1H--2S--2N--3C--3D--,4C,0
+1D--1H--2S--2N--,3D,1
+1D--1H--2S--2N--,3H,2
+1D--1H--2S--2N--,3N,2
+1D--1H--2S--2N--,3S,3
+1D--1H--2S--2N--,4C,2
+1D--1H--,3C,Maximum strength opening\\2
+1D--1H--,3D,Maximum strength opening\\3
+1D--1H--,3H,Maximum strength opening\\2
+1D--1H--,3S,Maximum strength opening\\7
+1D--,1N,Natural and non-forcing\\~ 7 - 11 HCP
+1D--,1S,4+ Spades; forcing for 1 round\\
+1D--,2C,Please read chat#Natural and non-forcing\\5+ Clubs; 0-2 !H\\~ 7 - 11 HCP\\
+1D--,2D,Please read chat#Natural and non-forcing\\5+ Diamonds; 0-2 !H\\~ 7 - 11 HCP
+1D--,2H,Please read chat#Value raise\\Typically 3!H with 7 - 11 HCP\\Could be 4!H with 3-5 HCP
+1D--,2N,Please read chat#5+ !C and 5+ !D\\0-2 Hearts\\~ 7 - 11 HCP
+1D--,2S,4+ Hearts\\< 7 losers
+1D--,3C,Please read chat#Fit showing\\Non-forcing\\3 card Heart support
+1D--,3D,Please read chat#Fit showing\\Non forcing\\3 card Heart support\\
+1D--,3H,Please read chat#Value raise\\Typically 4-5 Hearts with 6 - 10 HCP
+1D--,3N,Please read chat#"To play"\\Typically shows values for 3NT\\Occasionally a preemptive Heart raise
+1D--,3S,Please read chat#Splinter in support of Hearts\\5-6 losers
+1D--,4C,Please read chat#Splinter in support of Hearts\\5-6 losers
+1D--,4D,Please read chat#Splinter in support of Hearts\\5-6 losers
+1D--,4H,Please read chat#"To Play"\\Could be preemptive.  Could be a balanced game force.  Why not balance and find out?\\
+,1H,Please read chat#4+!S; might have longer minor\\~ 9 - 14 HCP if unbalanced\\~ 11-12 HCP if balanced
+1H--,1N,Natural and non-forcing\\~ 7-11 HCP
+1H--1N--,2C,4+ Clubs\\(4
+1H--1N--2C--,2D,2
+1H--1N--2C--,2H,2
+1H--1N--2C--,2S,Two card Spade support
+1H--1N--2C--2S--,3C,5+ Clubs and 4 Spades
+1H--,1S,Relay\\Game Invitational or better
+1H--1S--,1N,Please read chat#Unbalanced with 4 Spades or \\any balanced hand
+1H--1S--1N--,2C,Relay
+1H--1S--1N--2C--,2D,Balanced hands
+1H--1S--1N--2C--2D--,2H,relay
+1H--1S--1N--2C--2D--2H--,2N,5332 shape
+1H--1S--1N--2C--2D--2H--2N--,3C,relay
+1H--1S--1N--2C--2D--2H--2N--3C--,3D,5
+1H--1S--1N--2C--2D--2H--2N--3C--,3H,5
+1H--1S--1N--2C--2D--2H--2N--3C--,3S,5
+1H--1S--1N--2C--2D--2H--,2S,4 Spades and 4 Diamonds
+1H--1S--1N--2C--2D--2H--2S--,2N,relay
+1H--1S--1N--2C--2D--2H--2S--2N--,3C,4
+1H--1S--1N--2C--2D--2H--2S--2N--,3D,4
+1H--1S--1N--2C--2D--2H--,3C,4
+1H--1S--1N--2C--2D--2H--,3D,4
+1H--1S--1N--2C--,2H,4 Spades and 5+ Diamonds
+1H--1S--1N--2C--2H--,2S,relay
+1H--1S--1N--2C--2H--2S--,2N,Please read chat#4 Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1H--1S--1N--2C--2H--2S--2N--,3C,relay
+1H--1S--1N--2C--2H--2S--2N--3C--,3D,4
+1H--1S--1N--2C--2H--2S--2N--3C--,3H,4
+1H--1S--1N--2C--2H--2S--2N--3C--,3N,4
+1H--1S--1N--2C--2H--2S--2N--3C--,3S,4
+1H--1S--1N--2C--2H--2S--2N--3C--,4C,4
+1H--1S--1N--2C--2H--2S--,3C,4
+1H--1S--1N--2C--2H--2S--,3D,4
+1H--1S--1N--2C--2H--2S--,3H,4
+1H--1S--1N--2C--2H--2S--,3N,4
+1H--1S--1N--2C--2H--2S--,3S,4
+1H--1S--1N--2C--2H--2S--,4C,4
+1H--1S--1N--2C--,2N,Please read chat#4 Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1H--1S--1N--2C--,2S,3 suited
+1H--1S--1N--2C--2S--,2N,relay
+1H--1S--1N--2C--2S--2N--,3C,4
+1H--1S--1N--2C--2S--2N--,3D,4
+1H--1S--1N--2C--2S--2N--,3H,4
+1H--1S--1N--2C--,3C,4
+1H--1S--1N--2C--,3D,4
+1H--1S--1N--2C--,3H,4
+1H--1S--1N--2C--,3N,4
+1H--1S--1N--2C--,3S,4
+1H--1S--1N--2C--,4C,4
+1H--1S--,2C,Please read chat#5+ Spades and 4+ Diamonds or\\any 5440 with 5 Spades
+1H--1S--2C--,2D,relay
+1H--1S--2C--2D--,2H,Any 5440 with 5 Spades
+1H--1S--2C--2D--2H--,2S,Relay
+1H--1S--2C--2D--2H--2S--,2N,5
+1H--1S--2C--2D--2H--2S--,3C,5
+1H--1S--2C--2D--2H--2S--,3D,5
+1H--1S--2C--2D--,2N,Please read chat#5+ Spades and 4 Diamonds\\High shortage (0-1 Hearts)
+1H--1S--2C--2D--2N--,3C,Relay
+1H--1S--2C--2D--2N--3C--,3D,5
+1H--1S--2C--2D--2N--3C--,3H,6
+1H--1S--2C--2D--2N--3C--,3N,7
+1H--1S--2C--2D--2N--3C--,3S,6
+1H--1S--2C--2D--2N--3C--,4C,7
+1H--1S--2C--2D--,2S,5+ Spades and 5+ Diamonds
+1H--1S--2C--2D--2S--,2N,relay
+1H--1S--2C--2D--2S--2N--,3C,Please read chat#5+ Spades and 5+ Diamonds\\High shortage (0-1 Hearts)
+1H--1S--2C--2D--2S--2N--3C--,3D,Relay
+1H--1S--2C--2D--2S--2N--3C--3D--,3H,5
+1H--1S--2C--2D--2S--2N--3C--3D--,3N,5
+1H--1S--2C--2D--2S--2N--3C--3D--,3S,5
+1H--1S--2C--2D--2S--2N--3C--3D--,4C,6
+1H--1S--2C--2D--2S--2N--,3D,5
+1H--1S--2C--2D--2S--2N--,3H,5
+1H--1S--2C--2D--2S--2N--,3N,5
+1H--1S--2C--2D--2S--2N--,3S,5
+1H--1S--2C--2D--2S--2N--,4C,6
+1H--1S--2C--2D--,3C,5
+1H--1S--2C--2D--,3D,5
+1H--1S--2C--2D--,3H,6
+1H--1S--2C--2D--,3N,7
+1H--1S--2C--2D--,3S,6
+1H--1S--2C--2D--,4C,7
+1H--1S--,2D,Single suited with Spades
+1H--1S--2D--,2H,Relay
+1H--1S--2D--2H--,2N,Middle shortage (0-1 Diamonds)
+1H--1S--2D--2H--2N--,3C,Relay
+1H--1S--2D--2H--2N--3C--,3D,6
+1H--1S--2D--2H--2N--3C--,3H,7
+1H--1S--2D--2H--2N--3C--,3N,7
+1H--1S--2D--2H--2N--3C--,3S,7
+1H--1S--2D--2H--,2S,High shortage (0-1 Hearts) or\\6
+1H--1S--2D--2H--2S--,2N,relay
+1H--1S--2D--2H--2S--2N--,3C,6
+1H--1S--2D--2H--2S--2N--,3D,6
+1H--1S--2D--2H--2S--2N--,3H,7
+1H--1S--2D--2H--2S--2N--,3N,7
+1H--1S--2D--2H--2S--2N--,3S,7
+1H--1S--2D--2H--,3C,6
+1H--1S--2D--2H--,3D,6
+1H--1S--2D--2H--,3H,7
+1H--1S--2D--2H--,3N,7
+1H--1S--2D--2H--,3S,7
+1H--1S--,2H,5+ Spades and 4+ Hearts
+1H--1S--2H--,2S,Relay
+1H--1S--2H--2S--,2N,5+ Spades and 5+ Hearts
+1H--1S--2H--2S--2N--,3C,Relay
+1H--1S--2H--2S--2N--3C--,3D,Please read chat#5+ Spades and 5+ Hearts\\High shortage (0-1 Diamonds)
+1H--1S--2H--2S--2N--3C--3D--,3H,Relay
+1H--1S--2H--2S--2N--3C--3D--3H--,3N,5
+1H--1S--2H--2S--2N--3C--3D--3H--,3S,5
+1H--1S--2H--2S--2N--3C--3D--3H--,4C,5
+1H--1S--2H--2S--2N--3C--3D--3H--,4D,6
+1H--1S--2H--2S--2N--3C--,3H,5
+1H--1S--2H--2S--2N--3C--,3N,5
+1H--1S--2H--2S--2N--3C--,3S,5
+1H--1S--2H--2S--2N--3C--,4C,5
+1H--1S--2H--2S--2N--3C--,4D,6
+1H--1S--2H--2S--,3C,Please read chat#5+ Spades and 4 Hearts\\High shortage (0-1 Diamonds)
+1H--1S--2H--2S--3C--,3D,Relay
+1H--1S--2H--2S--3C--3D--,3H,5
+1H--1S--2H--2S--3C--3D--,3N,6
+1H--1S--2H--2S--3C--3D--,3S,6
+1H--1S--2H--2S--3C--3D--,4C,7
+1H--1S--2H--2S--,3D,5
+1H--1S--2H--2S--,3H,5
+1H--1S--2H--2S--,3N,6
+1H--1S--2H--2S--,3S,6
+1H--1S--2H--2S--,4C,7
+1H--1S--,2N,Please read chat#5+ Spades and 4 Clubs\\High shortage (0-1 Hearts)
+1H--1S--2N--,3C,Relay
+1H--1S--2N--3C--,3D,5
+1H--1S--2N--3C--,3H,6
+1H--1S--2N--3C--,3N,7
+1H--1S--2N--3C--,3S,6
+1H--1S--2N--3C--,4C,7
+1H--1S--,2S,5+ Spades and 5+ Clubs
+1H--1S--2S--2N--,3C,Please read chat#5+ Spades and 5+ Clubs\\High shortage (0-1 Hearts)
+1H--1S--2S--2N--3C--,3D,Relay
+1H--1S--2S--2N--3C--3D--,3H,5
+1H--1S--2S--2N--3C--3D--,3N,5
+1H--1S--2S--2N--3C--3D--,3S,5
+1H--1S--2S--2N--3C--3D--,4C,6
+1H--1S--2S--2N--,3D,5
+1H--1S--2S--2N--3D--,3H,Relay
+1H--1S--2S--2N--3D--3H--,3N,6
+1H--1S--2S--2N--3D--3H--,3S,5
+1H--1S--2S--2N--,3H,5
+1H--1S--2S--2N--,3N,5
+1H--1S--2S--2N--,3S,5
+1H--1S--2S--2N--,4C,6
+1H--1S--,3C,5
+1H--1S--,3D,5
+1H--1S--,3H,6
+1H--1S--,3N,7
+1H--1S--,3S,6
+1H--1S--,4C,7
+1H--,2C,Please read chat#Natural and non forcing\\5+ !C; 0-2 Spades\\~ 7 - 11 HCP\\
+1H--2C--,2D,Please read chat#Two suited with !H and !S\\Minimum hand\\\\Suggests 5
+1H--2C--,2H,5+ Spades and 4+ Hearts
+1H--2C--,2N,Strong Club raise
+1H--2C--,2S,6+ Spades; minimum hand
+1H--2C--,3C,Blocking
+1H--2C--,3D,Please read chat#Natural and constructive\\5+ Dimaonds (4
+1H--2C--,3H,5+ Spades and 5+ Hearts
+1H--2C--,3S,Please read chat#Game try with 7+ Spades\\Controls (Aces and Kings) 
+1H--,2D,Please read chat#Natural and non-forcing\\5+ !D; 0-2 Spades\\~ 7 - 11 HCP
+1H--2D--,2H,5+ Spades and 4+ Hearts
+1H--2D--,2N,Strong Diamond Raise
+1H--2D--,2S,6+ Spades; minimum values
+1H--2D--,3C,Constructive with 5+ Clubs\\(4
+1H--2D--,3D,Blocking
+1H--2D--,3H,Please read chat#5+ Spades and 5+ Hearts\\Maximum opening
+1H--2D--,3S,Please read chat#Game try with 7+ Spades\\Controls (Aces and Kings) 
+1H--,2H,Please read chat#Natural and non-forcing\\5+ !H; 0-2 Spades\\~ 7 - 11 HCP
+1H--2H--,2N,Strong Heart raise
+1H--2H--,2S,6+ Spades; minimum values
+1H--2H--,3C,Natural and constructive\\5+ Clubs (4
+1H--2H--,3D,Please read chat#Natural and constructive\\5+ Diamonds (4x5x possible)\\Suggests 3NT with a Club stopper
+1H--2H--,3H,Blocking
+1H--2H--,3S,Please read chat#Game try - Good 7 card suit\\Controls (Aces and Kings) 
+1H--,2N,4+ Spades\\< 7 losers
+1H--2N--,3C,Please read chat#Minimum hand with 4-5 Spades OR\\Maximum hand with 5332 shape
+1H--2N--,3D,Maximum hand\\4 Spades and longer Clubs
+1H--2N--,3H,Please read chat#Maximum hand\\4 Spades and longer Diamonds
+1H--2N--,3N,Please read chat#Maximum hand\\5+ Spades and a 4 card side suit
+1H--2N--3N--,4C,Relay
+1H--2N--3N--4C--,4D,5+ Spades and 4 Clubs
+1H--2N--3N--4C--,4H,5+ Spades and 4 Diamonds
+1H--2N--3N--4C--,4S,5+ Spades and 4 Hearts
+1H--2N--,3S,Minimum hand with 6+ Spades
+1H--2N--,4C,Maximum hand\\5+ Spades and Clubs
+1H--2N--,4D,Maximum hand\\5+ Spades and 5+ Diamonds
+1H--2N--,4H,Maximum hand\\5+ Spades and 5+ Hearts
+1H--2N--,4S,Maximum hand\\6+ Spades
+1H--,2S,Please read chat#Value raise\\Typically 3 spades with 7-11 HCP\\Could be 4 Spades with 3-5 HCP
+1H--2S--,2N,Please read chat#Game invitational values\\6331/7321 shape
+1H--2S--2N--,3C,Asks for shortness
+1H--2S--2N--3C--,3D,6
+1H--2S--2N--3C--,3H,6
+1H--2S--2N--3C--,3S,6
+1H--2S--2N--,3D,Please read chat#Natural game try\\Suggests HHxxx in Diamonds
+1H--2S--2N--,3H,Please read chat#Natural game try\\Suggests HHxxx in Hearts
+1H--2S--2N--,3S,Natural game try
+1H--2S--,3C,Please read chat#Maximum opening bid\\\\Either 5+ Spades and 4+ Clubs or\\Any 6322 / 7222 hand
+1H--2S--,3D,Please read chat#Long suit game try\\5+ Spades and 4+ Diamonds
+1H--2S--,3H,Please read chat#Long suit game try\\5+ Spades and 4+ Hearts
+1H--2S--,3S,Blocking
+1H--,3C,Fit showing jump\\3 card spade support
+1H--,3D,Fit showing jump\\3 card Spade support
+1H--,3H,Fit showing jump\\3 card Spade support
+1H--,3N,Please read chat#"To play"\\Typically shows values for 3NT\\Occasionally a preemptive Spade raise
+1H--,3S,Please read chat#Value raise\\Typically 4-5 Spades with 6-10 HCP
+1H--,4C,Please read chat#Splinter in support of Spades\\5-6 losers
+1H--,4D,Please read chat#Splinter in support of Spades\\5-6 losers
+1H--,4H,Please read chat#Splinter in support of Spades\\5-6 losers
+1H--4H--,4S,Please read chat#"To play"\\Could be preemptive...Could be strong/balanced with no interest in slam
+1H--,4S,Please read chat#"To Play"\\Could be a preemptive raise... could be a balanced game force.  Why not balance and find out?
+,1S,Please read chat#Unbalanced with 4+!D\\Might have longer Clubs\\~ 9 - 14 HCP
+1S--,1N,Relay\\Not necessarily strong
+1S--1N--,2C,Two suited with 4+!C and 4+!D\\
+1S--1N--2C--,2D,Relay\\Establishes a game force
+1S--1N--2C--2D--,2H,4 Diamonds and 5+ Clubs
+1S--1N--2C--2D--2H--,2S,Relay
+1S--1N--2C--2D--2H--2S--,2N,Please read chat#4 Diamonds and 5+ Clubs\\High shortage (0-1 spades)
+1S--1N--2C--2D--2H--2S--2N--,3C,Relay
+1S--1N--2C--2D--2H--2S--2N--3C--,3D,1
+1S--1N--2C--2D--2H--2S--2N--3C--,3H,1
+1S--1N--2C--2D--2H--2S--2N--3C--,3N,1
+1S--1N--2C--2D--2H--2S--2N--3C--,3S,0
+1S--1N--2C--2D--2H--2S--,3C,2
+1S--1N--2C--2D--2H--2S--,3D,3
+1S--1N--2C--2D--2H--2S--,3H,2
+1S--1N--2C--2D--2H--2S--,3N,1
+1S--1N--2C--2D--2H--2S--,3S,3
+1S--1N--2C--2D--,2N,4 Clubs and 5+ Diamonds\\0-1 Spades
+1S--1N--2C--2D--2N--,3C,Relay
+1S--1N--2C--2D--2N--3C--,3D,1
+1S--1N--2C--2D--2N--3C--,3H,2
+1S--1N--2C--2D--2N--3C--,3S,3
+1S--1N--2C--2D--,2S,5+ Diamonds and 5+ Clubs
+1S--1N--2C--2D--2S--,2N,Relay
+1S--1N--2C--2D--2S--2N--,3C,Please read chat#5+ Clubs and 5+ Diamonds\\High shortage (0-1 Spades)
+1S--1N--2C--2D--2S--2N--3C--,3D,Relay
+1S--1N--2C--2D--2S--2N--3C--3D--,3H,1
+1S--1N--2C--2D--2S--2N--3C--3D--,3N,0
+1S--1N--2C--2D--2S--2N--3C--3D--,3S,0
+1S--1N--2C--2D--2S--2N--3C--3D--,4C,0
+1S--1N--2C--2D--2S--2N--3C--,3H,1
+1S--1N--2C--2D--2S--2N--3C--,3N,0
+1S--1N--2C--2D--2S--2N--3C--,3S,0
+1S--1N--2C--2D--2S--2N--,3D,1
+1S--1N--2C--2D--2S--2N--3D--,3H,Relay
+1S--1N--2C--2D--2S--2N--3D--3H--,3N,1
+1S--1N--2C--2D--2S--2N--3D--3H--,3S,1
+1S--1N--2C--2D--2S--2N--3D--3H--,4C,1
+1S--1N--2C--2D--2S--2N--,3H,2
+1S--1N--2C--2D--2S--2N--,3N,2
+1S--1N--2C--2D--2S--2N--,3S,3
+1S--1N--2C--2D--2S--2N--,4C,2
+1S--1N--2C--2D--,3C,2
+1S--1N--2C--2D--,3D,3
+1S--1N--2C--2D--,3H,2
+1S--1N--2C--2D--,3N,1
+1S--1N--2C--2D--,3S,3
+1S--1N--2C--,2H,5+ Hearts\\Game invitational strength
+1S--1N--2C--,2N,Invites 3N with max
+1S--1N--2C--,2S,5+ Spades\\Game invitational strength
+1S--1N--2C--,3C,
+1S--1N--2C--,3D,
+1S--1N--,2D,6+ Diamonds; single suited
+1S--1N--2D--,2H,Relay\\Establishes game force
+1S--1N--2D--2H--,2N,Middle shortage\\(0-1 Hearts)
+1S--1N--2D--2H--2N--,3C,Relay
+1S--1N--2D--2H--2N--3C--,3D,3
+1S--1N--2D--2H--2N--3C--,3H,2
+1S--1N--2D--2H--2N--3C--,3N,3
+1S--1N--2D--2H--2N--3C--,3S,3
+1S--1N--2D--2H--,2S,High shortage (0-1 Spades) or\\2
+1S--1N--2D--2H--2S--,2N,Relay
+1S--1N--2D--2H--2S--2N--,3C,2
+1S--1N--2D--2H--2S--2N--,3D,1
+1S--1N--2D--2H--2S--2N--,3H,1
+1S--1N--2D--2H--2S--2N--,3N,0
+1S--1N--2D--2H--2S--2N--,3S,0
+1S--1N--2D--2H--,3C,3
+1S--1N--2D--2H--3C--,3D,Relay
+1S--1N--2D--2H--3C--3D--,3H,3
+1S--1N--2D--2H--3C--3D--,3S,2
+1S--1N--2D--2H--,3D,3
+1S--1N--2D--2H--,3H,2
+1S--1N--2D--2H--,3N,3
+1S--1N--2D--2H--,3S,3
+1S--1N--,2H,Please read chat#4 Hearts and 6+ Diamonds\\Suggests weak Hearts (xxxx)
+1S--1N--2H--,2S,Relay
+1S--1N--2H--2S--,2N,4 Hearts and 6+ Diamonds\\High shortage
+1S--1N--2H--2S--2N--,3C,Relay
+1S--1N--2H--2S--2N--3C--,3D,2
+1S--1N--2H--2S--2N--3C--,3H,3
+1S--1N--2H--2S--2N--3C--,3S,3
+1S--1N--2H--2S--,3C,1
+1S--1N--2H--2S--,3D,2
+1S--1N--2H--2S--,3H,3
+1S--1N--2H--2S--,3S,3
+1S--1N--,2S,Please read chat#4 Spades and 6+ Diamonds\\Suggests weak Spades (xxxx)
+1S--1N--2S--,2N,Relay
+1S--1N--2S--2N--,3C,Please read chat#4 Spades and 6+ Diamonds\\High shortage (0-1 Hearts)
+1S--1N--2S--2N--3C--,3D,Relay
+1S--1N--2S--2N--3C--3D--,3H,4
+1S--1N--2S--2N--3C--3D--,3N,4
+1S--1N--2S--2N--3C--3D--,3S,4
+1S--1N--2S--2N--,3D,4
+1S--1N--2S--2N--,3H,4
+1S--1N--2S--2N--,3N,4
+1S--1N--2S--2N--,3S,4
+1S--,2C,5+ Hearts\\Constructive
+1S--,2D,5+ Spades\\Constructive
+1S--,2H,5+ Clubs\\Constructive
+1S--,2N,Limit raise\\4+ Diamonds
+1S--2N--,3C,Natural
+1S--2N--,3D,Non-forcing
+1S--2N--,3H,Non-minimum opener\\Heart shortage
+1S--2N--,3S,Non minimum opener\\Spade shortage
+1S--,2S,3+ Clubs and 3+ Diamonds\\Limit raise+
+1S--2S--,2N,5+ Clubs and a maximum hand
+1S--2S--2N--,3C,temporizing
+1S--2S--2N--,3D,Diamond stopper
+1S--2S--2N--,3H,Heart stopper\\Denies Diamond stop
+1S--2S--2N--,3S,Spade stopper\\denies red suit stopper
+1S--2S--,3C,Minimum hand\\Prefers Clubs to Diamonds
+1S--2S--,3D,Minimum hand\\prefers Diamonds to Clubs
+1S--2S--,3H,Please read chat#6+ Diamonds\\maximum hand\\Heart shortage
+1S--2S--,3N,Please read chat#6+ Diamonds\\Maximum hand\\No shortage OR Club shortage
+1S--2S--,3S,Please read chat#6+ Diamonds\\Maximum hand\\Spade shortage
+1S--,3C,Pass with !C > !D\\Bid 3!D with !D > !C
+1S--,3D,Natural; non-forcing\\~ 6-9 HCP
+1S--,3H,Natural; non-forcing
+1S--,3N,Please read chat#"To play"\\Normally shows values for 3NT\\Could be a preemptive Diamond raise
+1S--,3S,Natural; non-forcing\\
+,2C,Please read chat#Natural and non-forcing\\~ 9-14 HCP\\Denies 4 diamonds
+2C--,2D,Asks opener to describe shape
+2C--2D--,2H,Please read chat#4 Hearts and 6+ Clubs\\Denies Hxxx in Hearts\\
+2C--2D--2H--,2S,Relay
+2C--2D--2H--2S--,2N,Please read chat#4 Hearts and 6+ Clubs\\High shortage (0-1 Spades)
+2C--2D--2H--2S--2N--,3C,Relay
+2C--2D--2H--2S--2N--3C--,3D,2
+2C--2D--2H--2S--2N--3C--,3H,3
+2C--2D--2H--2S--2N--3C--,3S,3
+2C--2D--2H--2S--,3C,1
+2C--2D--2H--2S--,3D,2
+2C--2D--2H--2S--,3H,3
+2C--2D--2H--2S--,3S,3
+2C--2D--,2N,High shortage (0-1 Spades)  or\\6
+2C--2D--2N--,3C,Relay
+2C--2D--2N--3C--,3D,2
+2C--2D--2N--3C--,3H,1
+2C--2D--2N--3C--,3N,0
+2C--2D--2N--3C--,3S,1
+2C--2D--2N--3C--,4C,0
+2C--2D--,2S,Please read chat#4 Spades and 6+ Clubs\\Denies Hxxx in Spades
+2C--2D--2S--,2N,Relay
+2C--2D--2S--2N--,3C,Please read chat#4 Spades and 6+ Clubs\\High shortage (0-1 Hearts)
+2C--2D--2S--2N--3C--,3D,relay
+2C--2D--2S--2N--3C--3D--,3H,4
+2C--2D--2S--2N--3C--3D--,3N,4
+2C--2D--2S--2N--3C--3D--,3S,4
+2C--2D--2S--2N--,3D,4
+2C--2D--2S--2N--,3H,4
+2C--2D--2S--2N--,3N,4
+2C--2D--2S--2N--,3S,4
+2C--2D--,3C,Middle shortage (0-1 Hearts)
+2C--2D--3C--,3D,
+2C--2D--3C--3D--,3H,3
+2C--2D--3C--3D--,3N,3
+2C--2D--3C--3D--,3S,2
+2C--2D--3C--3D--,4C,3
+2C--2D--,3D,3
+2C--2D--,3H,3
+2C--2D--,3N,3
+2C--2D--,3S,2
+2C--,2H,Natural; non forcing
+2C--,2N,Range ask\\Typically investigating 3NT
+2C--2N--,3C,Please read chat#Minimum club opener\\\\Typically denies a suit that expects to run opposite Hx
+2C--2N--,3D,Please read chat#Maximum 2!C opening\\high shortage (0-1 Spades)\\\\Typically promises a Club suit that expects to run opposite Hx
+2C--2N--,3H,Please read chat#Maximum 2!C Opening\\Middle shortage (0-1 Hearts)\\\\Typically promises a Club suit that expects to run opposite Hx
+2C--2N--,3N,Please read chat#Maximum 2!C opening\\No shortage (6322 or 7222 shape)\\\\Typically promises a Club suit that expects to run opposite Hx
+2C--2N--,3S,Please read chat#Maximum 2!C Opening\\Low shortage (0-1 Clubs)\\\\Typically promises a suit that expects to run opposite Hx
+2C--,2S,Natural and non-forcing
+2C--,3C,Competitive
+,2D,Please read chat#Frelling 2!D\\4+!D and (4+!H or 4+!S)\\Could be 4432 but not 4441/5440\\Promises Qxxx or xxxxx in major
+2D--,2H,Pass or correct
+2D--,2N,Please read chat#Relay for shape / strength\\Establishes a game force opposite a max
+2D--2N--,3C,Hearts and a maximum
+2D--2N--,3D,Any minimum hand
+2D--2N--,3H,4 Spades and a maximum
+2D--2N--,3N,6 Spades and a maximum
+2D--2N--,3S,5 Spades and a maximum
+2D--,2S,Puppet to 2!S
+2D--2S--,2N,Forced
+2D--2S--,3C,to play
+2D--2S--,3D,Please read chat#Invitational hand with 4+ Spades\\denies heart tolerance
+2D--2S--,3H,Please read chat#Single suited with Hearts\\Game invitational values
+2D--2S--,3S,Natural and non-forcing
+2D--,3C,Please read chat#Asking bid\\Opener will clarify heart length and strength
+2D--3C--,3D,Diamonds and Spades\\Any strength
+2D--3C--3D--,3H,Asks for Spade length and range
+2D--3C--3D--,3S,Invites 4!S with a maximum
+2D--3C--,3H,Minimum hand\\4+ hearts
+2D--3C--,3N,5 Hearts\\Maximum hand
+2D--3C--,3S,4 Hearts\\Maximum hand
+2D--3C--,4C,Please read chat#6 Hearts\\Maximum hand\\1st or 2nd round club control
+2D--3C--,4D,Please read chat#6 Hearts\\Maximum hand\\1st or 2nd round Diamond control
+2D--3C--,4H,6 Hearts\\Maximum hand
+2D--,3D,Premptive raise of Diamonds
+,2H,Please read chat#Frelling 2!H\\4+!H and (4+!S or 5+!C)\\Promises Qxxx or xxxxx in !H/!S\\Could be 4432; denies 4441/5440 
+2H--,2N,Puppet to 3!C
+2H--2N--,3C,forced
+2H--2N--3C--,3D,Please read chat#Asking Bid\\Invites 4H opposite a maximum
+2H--2N--3C--,3S,Please read chat#Single suited hand with Spades\\Invites 4!S
+2H--,2S,Pass or correct
+2H--,3C,Relay for shape/range
+2H--3C--,3D,Hearts and Clubs and a maximum
+2H--3C--,3H,Any minimum hand
+2H--3C--,3N,5+ Spades and a maximum
+2H--3C--,3S,4 Spades and a maximum
+2H--,3D,Please read chat#Asking bid\\Opener will clarify his Spade holding and range
+2H--3D--,3H,Hearts and Clubs
+2H--3D--,3N,4-5 Spades; maximum values
+2H--3D--,3S,4 Spades and a minimum
+2H--3D--,4C,Maximum hand\\6 Spades\\Club control
+2H--3D--,4D,Maximum hand\\6 Spades\\Diamond control
+2H--3D--,4H,Maximum hand\\6 Spades\\Heart control
+2H--3D--,4S,Minimum hand\\6 Spades
+2H--,3H,Preemptive
+2H--,3S,Pass or correct
+,2N,Bad three level preempt in either minor
+2N--,3C,Pass or correct
+2N--,3D,Asks for a 3 card major
+2N--3D--,3H,3 Spades
+2N--3D--,3N,6-7 Clubs\\3-3 in the majors
+2N--3D--,3S,3 Hearts
+2N--3D--,4C,3
+2N--3D--,4D,3
+2N--,3H,6+ Hearts; invitational
+2N--,3S,6+ Spades; invitational
+,2S,Please read chat#Frelling 2!S\\(4+ Spades and 5+ Clubs) \\or 6+ Spades
+2S--,2N,Asking Bid
+2S--2N--,3C,Minimum hand\\Spades and Clubs
+2S--2N--3C--,3D,  
+2S--2N--3C--,3H, 
+2S--2N--3C--,3N, 
+2S--2N--3C--,3S, 
+2S--2N--3C--,4C, 
+2S--2N--3C--,4D, 
+2S--2N--3C--,4H, 
+2S--2N--3C--,4S, 
+2S--2N--,3D,Please read chat#Spades and Clubs\\Maximum opening\\Diamond fragment
+2S--2N--,3H,Please read chat#Spades and Clubs\\Maximum hand\\Heart fragment
+2S--2N--,3N,Please read chat#Spades and Clubs\\Maximum hand\\5+ Clubs and 5+ Spades
+2S--2N--,3S,Please read chat#Single suited with Spades\\minimum opening
+2S--2N--,4C,Please read chat#Single suited with Spades\\maximum hand\\1st/2nd round club control
+2S--2N--,4D,Please read chat#single suited with Spades\\maximum hand\\1st/2nd round Heart control
+2S--2N--,4H,Please read chat#single suited with Spades\\maximum hand\\first/second round Heart control
+2S--2N--,4S,maximum hand\\
+2S--,3C,Natural and non-forcing
+2S--,3D,natural and non-forcing
+2S--,3H,Please read chat#Natural; invites 4!H opposite a suitable hand
+2S--,3S,Please read chat#4+ Spades\\\\Invites 4!S opposite a 2 suited hand\\\\Forces 4!S opposite a single suited hand\\
+,3C,Please read chat#Good three level Club preempt\\Promises 2 of the top 3 honors\\Denies side suit Ace or King
+,3D,Please read chat#Good three level Diamond preempt\\Promises two of the top three honors\\Denies side suit Ace or King
+Option
+
