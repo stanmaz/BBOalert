@@ -1,0 +1,808 @@
+BBOalert
+1C,2D,5+!H 5+!S 
+1N,2C,4+!H 4+!S
+1N,2D,6+!H or 6+!S
+1N,2H,5+!H; 4+!C/!D
+1N,2N,Both minors
+1N,2S,5+!S; 4+!C/!D
+1N,Db,5+!C/!D; 4!h/!s
+20,5},Please read chat# newest version of Wspolny Jezyk (common language); the Polish standard bidding system. Written by Krzysztof Jassem; translated by Daniel Neill. This file by Gerben Dirksen
+1C1D,Db,4+!H 4+!S
+1C1H,2C,7 - 11; 5+!C
+1C1H,2D,7 - 11; 5+!D
+1C1S,2C,7 - 11; 5+!C
+1C1S,2D,7 - 11; 5+!D
+1C1S,2H,7 - 11; 5+!H
+,1C,11-14 bal./ 15+ w. !C / 18+ any
+1C--1D1H,1N,18 - 20 balanced
+1C--1D1H,1S,18+; 5+!S
+1C--1D1H,2C,15 - 21; 5+!C
+1C--1D1H,2D,18 - 21; 5+!D
+1C--1D1H,2H,5+!S 5+minor; 18+
+1C--,1D,0 - 6 / 7 - 11 no 4M unb. / 12-15 bal.
+1C--1D--,1H,Better major; can be 3 cards
+1C--1D--1H--,1N,5 - 8 no 4M
+1C--1D--1H--1N--,2C,15+ 5+!C 4!H
+1C--1D--1H--,1S,4 - 6; 4+!S
+1C--1D--1H--,2C,5 - 11; 5+!C
+1C--1D--1H--,2D,5 - 11; 5+!D
+1C--1D--1H--,2H,4 - 6. 4+!H
+1C--1D--1H--,2N,GF balanced
+1C--1D--1H--,2S,9 - 11; 5-4+ minors
+1C--1D--1H--,3C,9 - 11; 6+!C bad suit
+1C--1D--1H--,3D,9 - 11; 6+!D bad suit
+1C--1D--1H--,3H,!H stopper; to play 3NT
+1C--1D--1H--,3S,!S stopper; to play 3NT
+1C--1D--1H--3S--,3N,Prepared !C type
+1C--1D--,1N,18 - 20 bal.
+1C--1D--1N--,2C,Stayman
+1C--1D--1N--,2D,Transfer to !H
+1C--1D--1N--,2H,Transfer to !S
+1C--1D--1N--,2N,Natural inv.
+1C--1D--1N--,2S,Transfer to !C
+1C--1D--1N--,3C,Transfer to !D
+1C--1D--1N--,3D,Natural invitation
+1C--1D--1N--,3N,To play
+1C--1D--,1S,Better major; can be 3 cards
+1C--1D--1S--,1N,5 - 8; no 4!S
+1C--1D--1S--1N--,2C,15+; 5+!C 4!S
+1C--1D--1S--,2C,5 - 11; 5+!C
+1C--1D--1S--,2D,5 - 11; 5+!D
+1C--1D--1S--,2H,4 - 6; 5+!H
+1C--1D--1S--,2N,GF balanced
+1C--1D--1S--,2S,4 - 6; 4+!S
+1C--1D--1S--,3C,9 - 11; 6+!C
+1C--1D--1S--,3D,9 - 11; 6+!D
+1C--1D--1S--,3H,!H stopper; to play 3NT
+1C--1D--1S--3H--,3N,Prepared !C type
+1C--1D--1S--,3S,!S stopper; to play 3NT
+1C--1D--,2C,Natural 15+ (4M poss. if 18+)
+1C--1D--2C--,3H,12 - 15 bal. !H stopper better
+1C--1D--2C--,3S,12 - 15 bal. !S stopper better
+1C--1D--,2D,GF; not 5-5 distr. 
+1C--1D--2D--,2H,2nd negative
+1C--1D--2D--,2N,4 - 8 bal. 
+1C--1D--2D--,2S,5+!S; 3 - 6
+1C--1D--2D--,3C,5+!C
+1C--1D--2D--,3D,5+!D
+1C--1D--2D--,3H,5+!H
+1C--1D--,2H,SGF natural
+1C--1D--,2N,21 - 23 balanced
+1C--1D--2N--,3C,Stayman
+1C--1D--2N--3C--,3D,No 4-card major
+1C--1D--2N--3C--3D--,3H,5!H 4!S
+1C--1D--2N--3C--3D--,3S,5!S 4!H
+1C--1D--2N--,3D,Transfer to !H
+1C--1D--2N--,3H,Transfer to !S
+1C--1D--2N--,3N,To play
+1C--1D--2N--,3S,5+4+ Minors
+1C--1D--2N--,4C,6+!C GF
+1C--1D--2N--,4D,6+!D GF
+1C--1D--,2S,SGF natural
+1C--1D--,3C,SGF Natural
+1C--1D--,3D,SGF Natural
+1C--1D--,3H,GF 5+!H 5+ other
+1C--1D--3H--,3N,Asks 2nd suit
+1C--1D--3H--3N--,4C,5+!H 5+!C
+1C--1D--3H--3N--,4D,5+!H 5+!D
+1C--1D--3H--3N--,4H,5+!H 5+!S
+1C--1D--3H--,3S,Prefer !S over !H
+1C--1D--3H--,4C,Cuebid agreeing !H
+1C--1D--3H--,4D,Cuebid agreeing !H
+1C--1D--,3N,To play with long minor
+1C--1D--,3S,GF 2-suiter !S+m
+1C--1D--3S--,3N,Asks for minor
+1C--1D--3S--,4C,Cuebid agreeing !S
+1C--1D--3S--,4D,Cuebid agreeing !S
+1C--1D--3S--,4H,Cuebid agreeing !S
+1C--1D--,4C,GF 5+!C 5+!D
+1C--1D--4C--,4D,Sets !D Trump
+1C--1D--4C--,4H,Cuebid agreeing !C
+1C--1D--4C--,4S,Cuebid agreeing !C
+1C--1H2D,Db,3-card !H; or 18+ no bid
+1C--,1H,7+ 4+!H; longer m poss.
+1C--1H--,1N,Weak balanced
+1C--1H--1N--,2C,Magister: Weak !C or strong
+1C--1H--1N--2C--,2D,Minimum no 3!H
+1C--1H--1N--2C--,2H,Minimum 3!H
+1C--1H--1N--2C--,2N,Maximum no 3!H
+1C--1H--1N--2C--,2S,Maximum 3!H
+1C--1H--1N--,2D,To play
+1C--1H--1N--,2H,To play
+1C--1H--1N--,2N,Natural invitation
+1C--1H--1N--,2S,5+!H 4!S GF
+1C--1H--,1S,4+!S; unlimited
+1C--1H--1S--,1N,7 - 10; to play opp. 12 - 14
+1C--1H--1S--,2C,Magister: Weak !C or strong
+1C--1H--1S--2C--,2D,Minimum no 3!H
+1C--1H--1S--2C--,2H,Minimum 3!H
+1C--1H--1S--2C--,2N,Maximum no 3!H
+1C--1H--1S--2C--,2S,Maximum 3!H
+1C--1H--1S--2C--,3C,15+; 5+!C 4!S
+1C--1H--1S--2C--,3D,5+!D 4!S; 18+
+1C--1H--1S--2C--,3H,5!S 3!H; 18+
+1C--1H--1S--2C--,3N,4!S; no 3!H; 18+
+1C--1H--1S--2C--,3S,5!S; no 3!H; 18+
+1C--1H--1S--,2D,To play
+1C--1H--1S--,2H,7 - 10; 5+!H
+1C--1H--1S--,2N,Invitational bal.
+1C--1H--1S--,2S,7 - 10; 4!S
+1C--1H--,2C,15 - 17; 5+!C
+1C--1H--,2D,Bubrotka; GF 3+!H
+1C--1H--2D--,2H,4 cards; 7 - 10
+1C--1H--2D--,2N,5+cards; 11+
+1C--1H--2D--,2S,4 cards; 11+
+1C--1H--2D--,3C,4-card and 5!C; 9 - 11
+1C--1H--2D--,3D,4-card and 5!D; 9 - 11
+1C--1H--2D--,3H,5-card; 7 - 10; unbal.
+1C--1H--2D--,3N,6+cards; 7 - 10
+1C--1H--2D--,3S,5-card; 7- 10; balanced (5332)
+1C--1H--2D--,4C,Splinter; 6+card
+1C--1H--2D--,4D,Splinter; 6+card
+1C--1H--,2H,11 - 14; 4!H
+1C--1H--,2N,GF Balanced
+1C--1H--,2S,GF; 6+!S
+1C--1H--,3C,GF 5+!C
+1C--1H--,3D,GF 5+!D
+1C--1H--,3H,Invitational; 5+!C 4!H
+1C--,1N,9 - 11
+1C--1N--,2C,15+; 5+!C; GF
+1C--1N--,2D,18+; 4+!D
+1C--1N--,2H,18+. 5+!H
+1C--1N--2H--,3H,Fit & doubleton somewhere
+1C--1N--,2N,Natural invitation
+1C--1N--,2S,18+; 5+!S
+1C--1N--2S--,3S,Fit & doubleton somewhere
+1C--1N--,3C,Good 6+!C; 18+
+1C--1N--,3D,Good 6+!D; 18+
+1C--1N--,3H,18+; 5+!H 5+other
+1C--1N--3H--,3N,Asks 2nd suit
+1C--1N--3H--3N--,4C,5+!H 5+!C
+1C--1N--3H--3N--,4D,5+!H 5+!D
+1C--1N--3H--3N--,4H,5+!H 5+!S
+1C--1N--3H--,3S,Prefer !S over !H
+1C--1N--3H--,4C,Cuebid agreeing !H
+1C--1N--3H--,4D,Cuebid agreeing !H
+1C--1N--,3N,To play
+1C--1N--,3S,18+; 5+!S 5+minor
+1C--1N--3S--,3N,Asks for minor
+1C--1N--3S--,4C,Cuebid agreeing !S
+1C--1N--3S--,4D,Cuebid agreeing !S
+1C--1N--3S--,4H,Cuebid agreeing !S
+1C--1N--,4C,18+; 5+!C 5+!D
+1C--1N--4C--,4D,Sets !D Trump
+1C--1N--4C--,4H,Cuebid agreeing !C
+1C--1N--4C--,4S,Cuebid agreeing !C
+1C--,1S,7+ 4+!S; longer m poss.
+1C--1S--,1N,Weak balanced
+1C--1S--1N--,2C,Magister: Weak !C or strong
+1C--1S--1N--2C--,2D,Minimum; no 3!S
+1C--1S--1N--2C--,2H,Maximum; 3!S
+1C--1S--1N--2C--,2N,Maximum; no 3!S
+1C--1S--1N--2C--,2S,Minimum; 3!S
+1C--1S--1N--,2D,To play
+1C--1S--1N--,2H,NF; longer !S than !H
+1C--1S--1N--,2N,Invitational
+1C--1S--1N--,2S,To play
+1C--1S--,2C,15 - 17; 5+!C
+1C--1S--,2D,Bubrotka
+1C--1S--2D--,2H,4 cards; 7 - 10
+1C--1S--2D--,2N,5+cards; 11+
+1C--1S--2D--,2S,4 cards; 11+
+1C--1S--2D--,3C,4-card and 5!C; 9 - 11
+1C--1S--2D--,3D,4-card and 5!D; 9 - 11
+1C--1S--2D--,3H,5-card; 7 - 10; unbal.
+1C--1S--2D--3H--,3N,Asks for side 4-card
+1C--1S--2D--3H--,3S,Asks for shortness
+1C--1S--2D--,3N,6+cards; 7 - 10
+1C--1S--2D--,3S,5-card; 7- 10; balanced (5332)
+1C--1S--2D--,4C,Splinter; 6+card
+1C--1S--2D--,4D,Splinter; 6+card
+1C--1S--,2H,GF; 5+!H
+1C--1S--,2N,GF Balanced
+1C--1S--,2S,11 - 14; 4!S
+1C--1S--,3C,GF; 5+!C
+1C--1S--,3D,GF; 5+!D
+1C--1S--,3S,Invitational; 5+!C 4!S
+1C--,2C,5+!C GF
+1C--,2D,5+!D GF
+1C--,2H,Strong Jump Shift
+1C--2H--,3N,To play
+1C--,2N,GF bal. no 4M
+1C--2N--,3N,Weak balanced
+1C--,2S,Strong Jump Shift
+1C--2S--,3N,To play
+1C--,3C,9 - 11; 6+!C
+1C--,3D,9 - 11; 6+!D
+1C--,3H,7-card 2 top honors
+1C--,3S,7-card 2 top honors
+1D1H,1N,7 - 10 + stopper
+1D1H,1S,7+; 5+!S
+1D1H,2C,7 - 11; 5+!C
+1D1H,2D,7 - 10 FP; 4+!D
+1D1H,Db,4!S or 11+
+1D1S,2C,7 - 11; 5+!C
+1D1S,2H,7 - 11; 5+!H
+,1D,11 - 17; 4+!D (4!D5!C poss.)
+1D--,1H,7+; 4+!H
+1D--1H--,1N,12 - 15 (semi)bal.; no 4-card M
+1D--1H--1N--,2C,Magister: Weak !C or strong
+1D--1H--1N--2C--,2D,Minimum no 3!H
+1D--1H--1N--2C--,2H,Minimum 3!H
+1D--1H--1N--2C--,2N,Maximum no 3!H
+1D--1H--1N--2C--,2S,Maximum 3!H
+1D--1H--,1S,4!S; can be balanced
+1D--1H--1S--,1N,7 - 10
+1D--1H--1S--,2C,4th suit; invite or better
+1D--1H--1S--,2D,Preference
+1D--1H--1S--,2H,6+!H; 7 - 10
+1D--1H--1S--,2N,Invitational
+1D--1H--1S--,2S,Fit; 7 - 10
+1D--1H--1S--,3D,Invitatitonal
+1D--1H--,2C,11-17; 5+!D 4+!C or 11-14 4!D5!C
+1D--1H--2C--,2D,Preference
+1D--1H--2C--,2H,6+!H; 6 - 9
+1D--1H--2C--,2N,Invitational; no fit
+1D--1H--2C--,2S,4th suit forcing
+1D--1H--2C--,3C,!C fit; constructive
+1D--1H--2C--,3D,Invitational
+1D--1H--2C--,3H,Invitational
+1D--1H--,2D,11 - 14 ; 6+!D
+1D--1H--,2H,11 - 14; 4!H
+1D--1H--2H--,2N,2Forcing relay
+1D--1H--2H--2N--,3C,5!D 3!C
+1D--1H--2H--2N--,3D,2!S4!H5!D2!C
+1D--1H--2H--2N--,3H,Balanced min.; 4!D
+1D--1H--2H--2N--,3N,Balanced max.; 4!D
+1D--1H--2H--2N--,3S,5!D 3!S
+1D--1H--2H--2N--,4C,Splinter; 4441
+1D--1H--,2N,15 - 17; 6!D no 3!H
+1D--1H--2N--,3D,Nonforcing
+1D--1H--2N--,3H,Forcing; 6+!H
+1D--1H--,2S,15 - 17; 4!S 5+!D
+1D--1H--2S--,2N,2Forcing relay
+1D--1H--2S--,3C,Asks for stopper
+1D--1H--2S--,3D,Nonforcing
+1D--1H--2S--,3H,Nonforcing
+1D--1H--2S--,3S,Support; forcing
+1D--1H--,3D,15 - 17; 6!D + 3!H
+1D--1H--,3H,Invitational; 4!H
+1D--1H--3H--,3S,Asks for shortness
+1D--1H--3H--3S--,3N,!S shortness
+1D--1H--3H--3S--,4C,!C Shortness
+1D--1H--3H--3S--,4D,!D Shortness
+1D--1H--3H--3S--,4H,No Shortness
+1D--1H--,3N,Solid !D + Stopper
+1D--,1N,7 - 10 no 4M
+1D--1N--,2C,Can be 5 - 4 both ways
+1D--1N--2C--,2D,Preference
+1D--1N--,2D,11 - 15; 5+!D
+1D--1N--,2H,15 - 17; 5+!D 4!H
+1D--1N--,2N,16 - 17; (semi)balanced
+1D--1N--,2S,15 - 17; 5+!D 4!S
+1D--1N--,3C,F1R 2-suited
+1D--1N--3C--,3D,Not forcing
+1D--1N--,3D,6+!D Invitational
+1D--,1S,7+; 4+!S
+1D--1S--,1N,12 - 15 (semi)bal.; no 4-card M
+1D--1S--1N--,2C,Magister: Weak !C or strong
+1D--1S--1N--2C--,2D,Minimum; no 3!S
+1D--1S--1N--2C--,2H,Maximum; 3!S
+1D--1S--1N--2C--,2N,Maximum; no 3!S
+1D--1S--1N--2C--,2S,Minimum; 3!S
+1D--1S--1N--,2D,To play
+1D--1S--1N--,2H,Pick a major
+1D--1S--1N--,2N,Invitational balanced
+1D--1S--1N--,2S,To play; 5+!S
+1D--1S--,2C,11-17; 5+!D 4+!C or 11-14 4!D5!C
+1D--1S--2C--,2D,Preference
+1D--1S--2C--,2H,Gawrys; Transfer to 2!S
+1D--1S--2C--2H--,2S,Forced
+1D--1S--2C--2H--2S--,2N,Forcing; can have 4!H
+1D--1S--2C--2H--2S--,3C,Forcing; natural
+1D--1S--2C--2H--2S--,3D,Forcing
+1D--1S--2C--2H--2S--,3H,Forcing; 5 - 5
+1D--1S--2C--2H--2S--,3S,Forcing natural
+1D--1S--2C--,2N,Invitational
+1D--1S--2C--,2S,Natural constructive (10+)
+1D--1S--2C--,3D,Invitational
+1D--1S--2C--,3H,Invitational 5 - 5
+1D--1S--2C--,3S,Invitational; good suit
+1D--1S--,2D,11 - 14; 6+!D or 5!D4!H unbal.
+1D--1S--2D--,2N,Invitational
+1D--1S--,2H,15 - 17; 5+!D 4!H
+1D--1S--2H--,2N,2Forcing relay
+1D--1S--2H--2N--,3C,3+!C
+1D--1S--2H--2N--,3D,6-card
+1D--1S--2H--2N--,3N,To play
+1D--1S--2H--2N--,3S,3-card support
+1D--1S--2H--,2S,Nonforcing; 6-card
+1D--1S--2H--,3C,Asks for stopper
+1D--1S--2H--,3D,To play
+1D--1S--,2N,15-17; 6!D no 3!S
+1D--1S--2N--,3D,Nonforcing
+1D--1S--2N--,3S,Forcing; 6+!S
+1D--1S--,2S,11 - 14; 4!S
+1D--1S--2S--,2N,2Forcing relay
+1D--1S--2S--2N--,3C,5!D 3!C
+1D--1S--2S--2N--,3D,4!S2!H5!D2!C
+1D--1S--2S--2N--,3H,5!D 3!H
+1D--1S--2S--2N--,3N,Balanced max.; 4!D
+1D--1S--2S--2N--,3S,Balanced min.; 4!D
+1D--1S--2S--2N--,4C,Splinter; 4441
+1D--1S--2S--2N--,4H,Splinter; 4441
+1D--1S--,3C,15 - 17; 5+!D 5+!C
+1D--1S--,3D,15 - 17; 6!D 3!S
+1D--1S--,3H,Maximum; 4!S and short !H
+1D--1S--,3N,Solid !D + Side stopper
+1D--1S--,3S,Invitational; 4!S
+1D--1S--3S--,3N,2Asks for shortness
+1D--1S--3S--3N--,4C,!C Shortness
+1D--1S--3S--3N--,4D,!D Shortness
+1D--1S--3S--3N--,4H,!H Shortness
+1D--1S--3S--3N--,4S,No Shortness
+1D--,2C,5+!C GF or 6+!C Invite+
+1D--2C--,2D,5+!D any strength
+1D--2C--2D--,3D,Forcing raise
+1D--2C--,2H,4!D 4!H; 12 - 14
+1D--2C--,2N,12 - 14; 4!D no 4M
+1D--2C--,2S,4!D 4!S; 12 - 14
+1D--2C--,3C,Shows extra's; 3+!C
+1D--2C--,3D,Good 6-card suit; GF
+1D--2C--,3H,Splinter with 4+!C
+1D--2C--,3N,1!C444; 15 - 17
+1D--2C--,3S,Splinter with 4+!C
+1D--,2D,10+. 4+!D; no 4M
+1D--2D--,2H,Natural
+1D--2D--,2N,Minimum balanced
+1D--2D--2N--,3D,To play
+1D--2D--,2S,Natural
+1D--,2H,Strong Jump Shift
+1D--,2N,11 - 12 bal. no 4M; stoppers
+1D--,2S,Strong Jump Shift
+1D--,3C,Strong Jump Shift
+1D--,3D,Preemptive raise
+1D--,3H,Splinter
+1D--,3N,13 - 15 bal.; no 4M; stoppers
+1D--,3S,Splinter
+1D--,4C,Splinter
+1D--,4D,Preemptive raise
+1H1S,2C,7 - 11; 5+!C
+1H1S,2D,7 - 11; 5+!D
+1H2C,2D,7 - 11; 5+!D
+1H2C,2S,7 - 11; 5+!S
+1H2D,2S,7 - 11; 5+!S
+,1H,11 - 17; 5+!H
+1HDb,1N,7 - 10; 3!H
+1HDb,1S,4+!S; forcing
+1HDb,2H,0 - 6; 3+!H
+1H--,1N,7 - 11 no 3!H or 5 - 7 3!H
+1H--1N--,2C,4+!C (maybe 4513)
+1H--1N--,2D,4+!D (maybe 4531)
+1H--1N--,2H,11 - 14; 6+!H
+1H--1N--2H--,2N,Forcing inquiry
+1H--1N--2H--2N--,3C,Singleton
+1H--1N--2H--2N--,3D,Singleton
+1H--1N--2H--2N--,3H,Minimum no singleton
+1H--1N--2H--2N--,3N,Maximum no singleton
+1H--1N--2H--2N--,3S,Singleton
+1H--1N--,2N,Maximum balanced
+1H--1N--,2S,15 - 17; 4!S
+1H--1N--,3C,15 - 17; 5 - 5
+1H--1N--,3D,15 - 17; 5 - 5
+1H--1N--,3H,15 - 17; 6+!H
+1H--,1S,Natural; 3!H only if invite+
+1H--1S--,1N,12 - 15 (semi)bal.; no 4!S
+1H--1S--1N--,2C,Magister: Weak !C or strong
+1H--1S--1N--2C--,2D,Minimum; no 3!S
+1H--1S--1N--2C--,2H,Maximum; 3!S
+1H--1S--1N--2C--,2N,Maximum; no 3!S
+1H--1S--1N--2C--,2S,Minimum; 3!S
+1H--1S--,2C,Natural
+1H--1S--2C--,2D,4th suit; invite or better
+1H--1S--2C--,2H,7 - 9; preference
+1H--1S--2C--,3H,Invitational; 3!H
+1H--1S--,2D,Natural
+1H--1S--2D--,2H,7 - 9; preference
+1H--1S--2D--,3H,Invitational; 3!H
+1H--1S--,2H,11 - 14; 6+!H
+1H--1S--2H--,2N,Forcing inquiry
+1H--1S--2H--2N--,3C,Singleton
+1H--1S--2H--2N--,3D,Singleton
+1H--1S--2H--2N--,3H,Min.; no 3!S; no minor single
+1H--1S--2H--2N--,3N,No 3!S; no minor single; max.
+1H--1S--2H--2N--,3S,3!S6!H2!D2!C
+1H--1S--,2N,15-17; 6!H no 3!S
+1H--1S--2N--,3S,Forcing; 6+!S
+1H--1S--,2S,11 - 14; 4!S
+1H--1S--,3C,15 - 17; at least 5 - 5
+1H--1S--3C--,3H,Forcing; does not promise 3!H
+1H--1S--,3D,15 - 17; at least 5 - 5
+1H--1S--,3H,15 - 17; 6!H + 3!S
+1H--1S--,3N,Solid !D + Side stopper
+1H--1S--,3S,Invitational; 4!S
+1H--1S--3S--,3N,2Asks for shortness
+1H--1S--3S--3N--,4C,!C Shortness
+1H--1S--3S--3N--,4D,!D Shortness
+1H--1S--3S--3N--,4S,No Shortness
+1H--,2C,Natural / bal. / fit
+1H--2C--,2H,Minimum hand
+1H--2C--,3C,Extras; 4+!C
+1H--2C--,3D,15 - 17; 5 - 5
+1H--2C--,3S,Splinter
+1H--,2D,5+!D; Forcing to 3!D
+1H--2D--,3D,Extras; at least !DHxx
+1H--,2H,8 - 10; 3!H
+1H--2H--,2N,Waiting bid
+1H--2H--,2S,Help suit trial
+1H--2H--,3C,Help suit trial
+1H--2H--,3D,Help suit trial
+1H--2H--,3H,Preemptive
+1H--,2N,Inv. 3+!H
+1H--2N--,3C,Asking what kind of invite
+1H--2N--3C--,3D,Minimum balanced
+1H--2N--3C--,3H,Preemptive invite
+1H--2N--3C--,3N,Maximum balanced
+1H--2N--3C--,3S,Maximum; 4-card support
+1H--2N--3C--,4H,To play; good unbal.
+1H--2N--,3H,Not interested
+1H--2N--,4H,To play
+1H--,2S,Strong Jump Shift
+1H--,3C,Strong Jump Shift
+1H--,3D,Strong Jump Shift
+1H--,3H,Preemptive
+1H--,3N,Strong splinter in !S
+1H--,3S,Weak splinter; any shortness
+1H--,4C,Strong splinter in !C
+1H--,4D,Strong splinter in !D
+,1N,15 - 17 (5M possible)
+1NDb,2C,Stayman
+1NDb2C--,2D,No 4-card major
+1NDb2C--2D--,2H,NF; both majors
+1NDb2C--2D--,2S,Invitational 5!S 4!H
+1NDb2C--2D--,3C,Forcing & natural
+1NDb2C--2D--,3H,GF 5!S 4!H (Smolen)
+1NDb2C--2D--,3S,GF 5!H 4!S (Smolen)
+1NDb2C--,2H,4!H; 4!S possible
+1NDb2C--2H--,2S,Invite; 4!S
+1NDb2C--2H--,3C,Natural & Forcing
+1NDb2C--2H--,3D,Agrees !H; Trybula Transfer
+1NDb2C--,2S,4!S no 4!H
+1NDb2C--2S--,3C,Natural & Forcing
+1NDb2C--2S--,3D,Natural & Forcing
+1NDb2C--2S--,3H,Agrees !S; Trybula Transfer
+1NDb,2D,Transfer to !H
+1NDb2D--,2H,Accept transfer
+1NDb2D--2H--,2N,Invitational 5!H
+1NDb2D--2H--,2S,Invitational 5!H 4!S
+1NDb2D--2H--,3C,Natural GF
+1NDb2D--2H--,3D,Natural GF
+1NDb2D--2H--,3H,Invitational 6+!H
+1NDb2D--2H--,4C,Splinter
+1NDb2D--2H--,4D,Splinter
+1NDb2D--2H--,4H,Slam invitational
+1NDb2D--2H--,4N,Quantitative
+1NDb2D--,2N,Maximum; 4!H; can play NT
+1NDb2D--,3H,Maximum; 4!H
+1NDb,2H,Transfer to !S
+1NDb2H--,2N,Maximum; 4!S; can play NT
+1NDb2H--,2S,Accept transfer
+1NDb2H--2S--,2N,Invitational 5!S
+1NDb2H--2S--,3C,Natural GF
+1NDb2H--2S--,3D,Natural GF
+1NDb2H--2S--,3H,5 - 5 majors; GF
+1NDb2H--2S--,3S,Invitational 6+!S
+1NDb2H--2S--,4C,Splinter
+1NDb2H--2S--,4D,Splinter
+1NDb2H--2S--,4N,Quantitative
+1NDb2H--2S--,4S,Slam invitational
+1NDb2H--,3S,Maximum 4!S
+1NDb,2N,Natural inv.
+1NDb2N--,3N,Maximum
+1NDb,2S,Transfer to !C
+1NDb2S--,2N,Good !C support
+1NDb2S--2N--,3C,Weak with !C
+1NDb2S--2N--,3D,Singleton
+1NDb2S--2N--,3H,Singleton
+1NDb2S--2N--,3N,To play
+1NDb2S--2N--,3S,Singleton
+1NDb2S--,3C,Accept transfer
+1NDb2S--3C--,3D,Singleton
+1NDb2S--3C--,3H,Singleton
+1NDb2S--3C--,3N,Slam invitation
+1NDb2S--3C--,3S,Singleton
+1NDb,3C,Transfer to !D
+1NDb3C--,3D,Forced
+1NDb3C--,3H,Singleton
+1NDb3C--,3N,Slam invitation
+1NDb3C--,3S,Singleton
+1NDb,3D,Invitational
+1NDb,3H,Splinter 3!S1!H(54)
+1NDb3H--,3N,Good !H stopper
+1NDb3H--,3S,4 good !S; wants 4-3 fit
+1NDb3H--,4C,Sets trumps
+1NDb3H--,4D,Sets trumps
+1NDb3H--,4H,4+4+ minors; nothing in !H
+1NDb3H--,4N,4+4+minors; bad for 3NT
+1NDb,3N,To play
+1NDb,3S,Splinter 1!S3!H(54)
+1NDb3S--,3N,Good !S stopper
+1NDb3S--,4C,Sets trumps
+1NDb3S--,4D,Sets trumps
+1NDb3S--,4H,Good 4-card; suggest 4-3 fit
+1NDb3S--,4N,4+4+ minors; 3NT not good
+1NDb3S--,4S,4+4+minors; nothing in !S
+1NDb,4C,Asks aces
+1NDb,4D,Transfer to !H
+1NDb4D--,4H,Forced
+1NDb4D--4H--,4N,RKC
+1NDb,4H,Transfer to !S
+1NDb4H--,4S,Accept transfer
+1NDb4H--4S--,4N,RKC
+1NDb,4N,Quantitative
+1NDb,Rd,To play 1NTxx
+1N--,2C,Stayman
+1N--2C--,2D,No 4-card major
+1N--2C--2D--,2H,NF; both majors
+1N--2C--2D--,2S,Invitational 5!S 4!H
+1N--2C--2D--,3C,Forcing & natural
+1N--2C--2D--,3H,GF 5!S 4!H (Smolen)
+1N--2C--2D--,3S,GF 5!H 4!S (Smolen)
+1N--2C--,2H,4!H; 4!S possible
+1N--2C--2H--,2S,Invite; 4!S
+1N--2C--2H--,3C,Natural & Forcing
+1N--2C--2H--,3D,Agrees !H; Trybula Transfer
+1N--2C--,2S,4!S no 4!H
+1N--2C--2S--,3C,Natural & Forcing
+1N--2C--2S--,3D,Natural & Forcing
+1N--2C--2S--,3H,Agrees !S; Trybula Transfer
+1N--,2D,Transfer to !H
+1N--2D--,2H,Accept transfer
+1N--2D--2H--,2N,Invitational 5!H
+1N--2D--2H--,2S,Invitational 5!H 4!S
+1N--2D--2H--,3C,Natural GF
+1N--2D--2H--,3D,Natural GF
+1N--2D--2H--,3H,Invitational 6+!H
+1N--2D--2H--,4C,Splinter
+1N--2D--2H--,4D,Splinter
+1N--2D--2H--,4H,Slam invitational
+1N--2D--2H--,4N,Quantitative
+1N--2D--,2N,Maximum; 4!H; can play NT
+1N--2D--,3H,Maximum; 4!H
+1N--,2H,Transfer to !S
+1N--2H--,2N,Maximum; 4!S; can play NT
+1N--2H--,2S,Accept transfer
+1N--2H--2S--,2N,Invitational 5!S
+1N--2H--2S--,3C,Natural GF
+1N--2H--2S--,3D,Natural GF
+1N--2H--2S--,3H,5 - 5 majors; GF
+1N--2H--2S--,3S,Invitational 6+!S
+1N--2H--2S--,4C,Splinter
+1N--2H--2S--,4D,Splinter
+1N--2H--2S--,4N,Quantitative
+1N--2H--2S--,4S,Slam invitational
+1N--2H--,3S,Maximum 4!S
+1N--,2N,Natural inv.
+1N--2N--,3N,Maximum
+1N--,2S,Transfer to !C
+1N--2S--,2N,Good !C support
+1N--2S--2N--,3C,Weak with !C
+1N--2S--2N--,3D,Singleton
+1N--2S--2N--,3H,Singleton
+1N--2S--2N--,3N,To play
+1N--2S--2N--,3S,Singleton
+1N--2S--,3C,Accept transfer
+1N--2S--3C--,3D,Singleton
+1N--2S--3C--,3H,Singleton
+1N--2S--3C--,3N,Slam invitation
+1N--2S--3C--,3S,Singleton
+1N--,3C,Transfer to !D
+1N--3C--,3D,Forced
+1N--3C--,3H,Singleton
+1N--3C--,3N,Slam invitation
+1N--3C--,3S,Singleton
+1N--,3D,Invitational
+1N--,3H,Splinter 3!S1!H(54)
+1N--3H--,3N,Good !H stopper
+1N--3H--,3S,4 good !S; wants 4-3 fit
+1N--3H--,4C,Sets trumps
+1N--3H--,4D,Sets trumps
+1N--3H--,4H,4+4+ minors; nothing in !H
+1N--3H--,4N,4+4+minors; bad for 3NT
+1N--,3N,To play
+1N--,3S,Splinter 1!S3!H(54)
+1N--3S--,3N,Good !S stopper
+1N--3S--,4C,Sets trumps
+1N--3S--,4D,Sets trumps
+1N--3S--,4H,Good 4-card; suggest 4-3 fit
+1N--3S--,4N,4+4+ minors; 3NT not good
+1N--3S--,4S,4+4+minors; nothing in !S
+1N--,4C,Asks aces
+1N--,4D,Transfer to !H
+1N--4D--,4H,Forced
+1N--4D--4H--,4N,RKC
+1N--,4H,Transfer to !S
+1N--4H--,4S,Accept transfer
+1N--4H--4S--,4N,RKC
+1N--,4N,Quantitative
+1S2C,2D,7 - 11; 5+!D
+1S2C,2H,7 - 11; 5+!H
+1S2D,2H,7 - 11; 5+!H
+,1S,11 - 17; 5+!S
+1S--,1N,7 - 11 no 3!S or 5 - 7 3!S
+1S--1N--,2C,4+!C
+1S--1N--,2D,4+!D
+1S--1N--,2H,4+!H
+1S--1N--,2N,Maximum balanced
+1S--1N--,2S,11 - 14; 6+!S
+1S--1N--2S--,2N,Forcing inquiry
+1S--1N--2S--2N--,3C,Singleton
+1S--1N--2S--2N--,3D,Singleton
+1S--1N--2S--2N--,3H,Singleton
+1S--1N--2S--2N--,3N,Maximum no singleton
+1S--1N--2S--2N--,3S,Minimum no singleton
+1S--1N--,3C,15 - 17; 5 - 5
+1S--1N--,3D,15 - 17; 5 - 5
+1S--1N--,3H,15 - 17; 5 - 5
+1S--1N--,3S,15 - 17; 6+!S
+1S--,2C,Natural / balanced / fit
+1S--2C--,2D,Natural; forcing
+1S--2C--2D--,3C,Not forcing
+1S--2C--,2H,Natural; forcing
+1S--2C--,2N,GF; no other bid
+1S--2C--,2S,Minimum
+1S--2C--2S--,2N,Forcing asking bid
+1S--2C--2S--,3C,NF; 6+!C
+1S--2C--2S--,3D,GF 5+!C 4!D
+1S--2C--2S--,3H,GF 5+!C 4!H
+1S--2C--,3C,Extras; 4+!C
+1S--2C--,3D,15 - 17; 5 - 5
+1S--2C--,3H,15 - 17; 5 - 5
+1S--,2D,5+!D; forcing to 3!D
+1S--2D--,2H,Natural; forcing
+1S--2D--,2N,GF; no other bid
+1S--2D--,2S,Minimum
+1S--2D--,3C,15 - 17; 5 - 5
+1S--2D--,3D,3+!D; shows extras
+1S--,2H,11+ 5+!H or 9+ 6+!H
+1S--2H--,2N,Balanced
+1S--2H--,3H,3!H minimum
+1S--2H--,4C,Splinter
+1S--2H--,4D,Splinter
+1S--2H--,4H,Not minimum; 3/4!H
+1S--,2N,Invitational 3+!S
+1S--2N--,3C,Asking what kind of invite
+1S--2N--3C--,3D,Minimum balanced
+1S--2N--3C--,3H,Maximum; 4-card support
+1S--2N--3C--,3N,Maximum balanced
+1S--2N--3C--,3S,Preemptive
+1S--2N--3C--,4S,To play; good unbal.
+1S--2N--,3H,Not interested
+1S--2N--,4H,To play
+1S--,2S,8 - 10; 3!S
+1S--2S--,2N,Waiting bid
+1S--2S--,3C,Help suit trial
+1S--2S--,3D,Help suit trial
+1S--2S--,3H,Help suit trial
+1S--2S--,3S,Preemptive
+1S--,3C,Strong Jump Shift
+1S--,3D,Strong Jump Shift
+1S--,3H,Strong Jump Shift
+1S--,3N,Weak splinter; any shortness
+1S--,3S,Preemptive raise
+1S--,4C,Strong splinter in !C
+1S--,4D,Strong splinter in !D
+1S--,4H,Strong splinter in !H
+,2C,11 - 14; 5!C 4M or 6+!C
+2C--,2D,Relay; Forcing to 3!C
+2C--2D--,2H,4-card suit
+2C--2D--2H--,2S,2nd Relay
+2C--2D--2H--2S--,3D,3-card side suit
+2C--2D--2H--2S--,3S,3-card side suit
+2C--2D--2H--,3C,To play
+2C--2D--,2N,6!C; good for NT
+2C--2D--,2S,4-card suit
+2C--2D--2S--,2N,2nd Relay
+2C--2D--2S--2N--,3D,3-card side suit
+2C--2D--2S--2N--,3H,3-card side suit
+2C--2D--2S--,3C,To play
+2C--2D--,3C,6!C; cannot play 3NT
+2C--2D--,3D,Maximum 6!C 4!D
+2C--2D--,3H,6!C 5!H
+2C--2D--,3N,Solid !C; maximum
+2C--2D--,3S,6!C 5!S
+2C--,2H,7 - 11; NF
+2C--,2N,Weak !C raise / GF 2-suiter
+2C--2N--,3C,Forced
+2C--2N--3C--,3D,!D!H 2-suiter
+2C--2N--3C--,3H,!H!S 2-suiter
+2C--2N--3C--,3S,!S!D 2-suiter
+2C--,2S,7 - 11; NF
+2C--,3C,Inv. raise
+2C--,3D,Inv. good 6-card
+2C--,3H,Inv. good 6-card
+2C--,3N,To play
+2C--,3S,Inv. good 6-card
+,2D,Weak Two in !H or !S
+2D--,2H,Pass or correct
+2D--2H--,2S,Weak Two in !S
+2D--,2N,Strong relay
+2D--2N--,3C,Maximum
+2D--2N--3C--,3D,Relay
+2D--2N--3C--3D--,3H,Maximum !S
+2D--2N--3C--3D--,3S,Maximum !H
+2D--2N--3C--,3H,Pass or Correct
+2D--2N--3C--,3S,Pass or Correct
+2D--2N--,3D,Minimum !H
+2D--2N--,3H,Minimum !S
+2D--,2S,Pass or correct
+2D--2S--,2N,Maximum W2 in !H
+2D--2S--,3C,Maximum W2 in !H; Feature
+2D--2S--,3D,Maximum W2 in !H; Feature
+2D--2S--,3H,Minimum W2 in !H
+2D--,3C,GF; any 1-suiter
+2D--3C--,3D,Forced
+2D--3C--3D--,3H,6+!H GF
+2D--3C--3D--,3S,6+!S GF
+2D--3C--3D--,4C,6+!C GF
+2D--3C--3D--,4D,6+!D GF
+2D--,3D,Invite for either major
+2D--3D--,3H,Minimum !H
+2D--3D--,3S,Minimum !S
+2D--3D--,4C,Maximum !H
+2D--3D--,4D,Maximum !S
+2D--,3H,Pass or correct
+2D--3H--,3S,Weak 2 in !S
+2D--,3N,To play
+2D--,3S,Pass or correct
+2D--3S--,4H,Weak Two in !S
+2D--,4C,Asks for transfer to major
+2D--4C--,4D,Weak Two in !H
+2D--4C--,4H,Weak Two in !S
+2D--,4D,Asks partner to bid major
+2D--4D--,4H,Weak Two in !H
+2D--4D--,4S,Weak Two in !S
+2D--,4H,To play
+2D--,4S,To play
+,2H,6 - 10; 5+!H 5+other
+2H--,2N,Strong ask for 2nd suit
+2H--2N--,3C,5+!C
+2H--2N--,3D,5+!D
+2H--2N--,3H,5+!S
+2H--,2S,Pass or correct
+2H--,3C,Natural F1R
+2H--,3D,Natural F1R
+2H--,3H,Preemptive
+,2N,6 - 10; 5+!C 5+!D
+2N--,3C,To play
+2N--,3D,To play
+2N--,3H,Asks distribution
+2N--3H--,3N,Doubleton !H
+2N--3H--,3S,Doubleton !S
+2N--3H--,4C,longer minor
+2N--3H--,4D,longer minor
+2N--3H--,4H,3-card !H
+2N--3H--,4S,3-card !S
+2N--,3S,Natural forcing
+,2S,6 - 10; 5+!S 5+minor
+2S--,2N,Strong relay
+2S--,3C,Pass or correct
+2S--,3D,Natural F1R
+2S--,3H,Natural F1R
+2S--,3S,Preemptive raise
+,3C,Preemptive
+,3D,Preemptive
+,3H,Preemptive
+,3N,Solid minor; no outside stopper
+3N--,4C,Pass or correct
+3N--,4D,Asks for singleton
+3N--4D--,4H,Singleton !H
+3N--4D--,4N,Shortness in other minor
+3N--4D--,4S,Singleton !S
+3N--4D--,5C,7!C222
+3N--4D--,5D,7!D222
+,3S,Preemptive
+,4C,Pass or correct
+,4D,Asks for singleton
+Option
+
