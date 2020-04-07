@@ -1,0 +1,1450 @@
+BBOalert
+1C1D--,1H,mano debole anche 2carte NF 
+1C,1H,transfer 5+!s 8-16hp Lungo/corto
+1C1H--,1S,mano debole anche 2carte NF 
+1C,1N,4M e 5+!d 10-16hp (4°Nobile indefinita)
+1C1N--,2C,surlicita chiede il  Nobile 
+1C1N--2C--,2D,in transfer a gradino 4!h e 5+!d  
+1C1N--2C--,2H,in transfer a gradino 4!s e 5+!d  
+1C1N--,2D,a giocare 
+1C1N--,2H,5+carte 
+1C1N--,2N,Invitante senza interesse per Nobili 
+1C1N--,2S,5+carte inv 
+1C,1S,Please read chat#transfer (5)6+!c 10-16hp Lungo/corto ( anche mano forte con 5!c e 4M di rever 
+1C1S--,1N,Please read chat#relat F1G bil. o anche GF vuol sentire la descrizione del patner 
+1C1S--,2C,Please read chat#a giocare la licita più debole che si possa fare 
+1C1S--,2D,F1g 5+!d 
+1C1S--,2H,F1g 5+!h
+1C1S--,2N,12-14hp bil no 4° nobili
+1C1S--,2S,F1g 5+!s
+1C,2C,Please read chat#transfer 6+!d ( se 5° deve essere molto solido tipo AKQxx )( anche mano forte con 5!d e 4M di rever 
+1C,2D,5!h e 5!s 8-15hp 
+1C,2H,a salto 5!h e 5+!d 10-15hp 
+1C,2N,a salto 5!d e 5+!c 10-15hp 
+1C,2S,a salto 5!s e 5+!d 10-15hp 
+1C,3C,Barrage naturale 
+1C,3D,a salto 5!h e 5+!s 16+hp 
+1C,3H,barrage naturale 
+1C,3S,barrage naturale 
+Error *001C=NYYYYYY0082+!c o anche !c forte/preparatorio|,1C,2+!c o anche !c forte/preparatorio
+1C,Db,Please read chat#a) classico b) mano forte 17+hp c) bilanciate di 15+hp 
+1D,1H,Please read chat#naturale 8-16hp  5+carte ( o 4 molto solide) 
+Error *001D1N2C=YNNNNYN508|1D1N,2C,
+Error *001D1N2D=NNNYNYNA08|1D1N,2D,
+Error *001D1N2S=YNNNNYNA08|1D1N,2S,
+1D,1N,Please read chat#4M e 5+!c 10-16hp (4°Nobile indefinita) 
+1D1N--,2C,a giocare scelta del minore 
+1D1N--,2D,relay surlicita chiede il nobile 
+1D1N--,2H,5+carte inv 
+1D1N--,2N,Invitante senza interesse per Nobili 
+1D1N--,2S,5+carte inv 
+1D,1S,Please read chat#naturale 8-16hp  5+carte ( o 4 molto solide) 
+1D,2C,Naturale 5/6+!c 
+1D,2D,5!h e 5!s 8-15hp 
+1D,2H,a salto 5!h e 5+!c 10-15hp 
+1D,2N,Please read chat#Bilanciata 18-20hp (system on come se si fosse aperto 2sa)
+1D,2S,a salto 5!s e 5+!c 10-15hp 
+1D,3C,barrage naturale 
+1D,3D,a salto 5!h e 5+!s 16+hp 
+1D,3H,barrage naturale 
+1D,3S,barrage naturale 
+Error *001D=NYYYYYY0084+!d|,1D,4+!d
+1D,Db,Please read chat#a) classico b) mano forte 17+hp mono o bicolore c) bil.15-17hp o 21+hp 
+1H,1N,art. 4!s e 5+minore indefinito 10-15hp
+1H,1S,nat.5+!s 7-16hp 
+1H,2C,di solito 6°!c o 5° solido 11-16hp
+1H,2D,di solito 6°!d o 5° solido 11-16hp
+1H,2H,5!s e 5+minore indefinito 
+1H,2N,minori 5+!c e 5+!d 
+1H,2S,6°!s apertura piena 13-15hp
+Error *001H=NYYYYYY0085+!h|,1H,5+!h
+1H,Db,Please read chat#a) bil 15+hp b) 4!s corto a !h + !c/!d  (tricolore) c) mano forte qualsiasi 17+hp 
+1N,2C,5M/4+M  nobili Landy 11+hp 
+1N,2D,Multicolor 6+!h/6+!s 11+hp 
+1N,2H,5!h e 4+minore a lato su cui 2sa
+1N2H--,2N,chiede minore  con pari lunghezza 
+1N2H--,3C,Please read chat#passa o correggi (preferirei le !d ) + fit a !d che a !c 
+1N,2N,5!d e 5!c 11+hp 
+1N,2S,5!s e 4+minore a lato su cui 2sa
+1N2S--,2N,chiede minore  con pari lunghezza 
+1N2S--,3C,Please read chat#passa o correggi (preferirei le !d ) + fit a !d che a !c 
+1N,3C,monocolore minore 6+carte 
+1N,3D,monocolore minore 6+carte 
+Error *001N=NYYYYYY0bil. 15-17hp |,1N,bil. 15-17hp 
+1N,Db,4°Nobile e 5+minore 11+hp
+1S,1N,art. 4!h e 5+minore indefinito 10-15hp
+1S,2C,di solito 6°!c o 5° solido 11-16hp
+1S,2D,di solito 6°!d o 5° solido 11-16hp
+1S,2H,5/6!h 11-16hp
+1S,2N,minori 5+!c e 5+!d 
+1S,2S,5!h e 5+minore indefinito 
+Error *001S=NYYYYYY0085+!s |,1S,5+!s 
+1S,Db,Please read chat#a) bil 15+hp b) 4!h corto a !s + !c/!d  (tricolore) c) mano forte qualsiasi 17+hp 
+2C,2D,Please read chat#naturale palo per attacco o proposta di difesa NON punti di apertura
+2C,2H,Please read chat#naturale palo per attacco o proposta di difesa NON punti di apertura
+2C,2N,Please read chat#ATTENZIONE 5+!d e 5+!c competitiva interdittiva pochi punti
+2C,2S,Please read chat#naturale palo per attacco o proposta di difesa NON punti di apertura
+2C,3C,Please read chat#ATTENZIONE Surlicita 5!s e 5!h competitiva per difesa non molti punti!
+Error *002C=NYYYYYY008mano forte 3 perdenti|,2C,mano forte 3 perdenti
+2C,Db,Please read chat#ho le !c propone anche difesa a livelli alti
+2D,2H,naturale 5/6!h 11-16hp
+2D,2N,Please read chat#bil 15-18hp (comprende anche 5°Nobile) proseg. come su 2nt diretto
+2D,2S,naturale 5/6!s 11-16hp
+2D,3C,6°!c 12-16hp 
+2D,3D,6°!d 12-16hp
+2D,3H,a salto 6+!h 14-16hp
+2D,3S,a salto 6+!s 14-16hp
+2D,4C,5!h e 5+!c forte 
+2D,4D,5!h e 5+!d forte 
+Error *002D=NYYYYYY008se Multicolor classica (altrimenti se 6°!d sottoapertura si procede tradizionalmente)|,2D,Please read chat#se Multicolor classica (altrimenti se 6°!d sottoapertura si procede tradizionalmente)
+2D,Db,Please read chat#4°!s o mano forte 17+hp (se  bil. è 19+hp)
+2D,--,Please read chat#a) nulla da dire b) mano con 4°!h che non entro  subito
+2H,2N,Please read chat#Bil. 15-18hp senza 5°nobili ! il patner  si regola come su 2SA
+2H2N--,3C,a giocare debole con le !c 
+2H2N--,3D,transfer impossibile 4°!s tipo stayman
+2H2N--3D--,3H,Please read chat#accetta trsf impossibile con 4/5!s e max il rispondente decide il livello
+2H2N--,3H,5+!s transfer 
+2H2N--,3S,almeno 9 carte nei minori 
+2H,2S,Please read chat#5/6!s apertura piena 13-16hp ( se + forte passiamo dal DBL)
+2H,3C,6+!c 13-16hp solida 
+2H,3D,6+!d 13-16hp solida 
+2H,3H,Please read chat#Surlicita :Bicolore Minore forte 5+!d e 5+!c 16+hp 
+2H,3N,Please read chat#19-20 hp stop a!h senza interesse per l'altro Nobile.A giocare 
+2H,4C,12-16hp 5!s e 5+!c 
+2H,4D,12-16hp 5!s e 5+!d
+2H,4N,Please read chat#Bicolore Minore per difesa non forte 5+!d e 5+!c 
+Error *002H=NYYYYYY008Sottoapertura mono/bicolore a !h |,2H,Sottoapertura mono/bicolore a !h 
+2H,Db,Please read chat#a) Tricolore con apertura e sgl!h b) mano forte 17+hp monocolore o  bicolore 5/4 o bilanciata 19+hp .
+2HDb--,2N,Please read chat#LEBENSHOL: obbliga al 3!c per mani normali del Patner per : passo oppure un proprio colore debole  0-8hp
+2HDb--,2S,debole a giocare 4/5!s meno di 9 hp
+2HDb--,3C,4+!c costruttivo 9-10hp
+2HDb--,3D,4+!d costruttivo 9-10hp
+2HDb--,3S,Inv. 4/5!s 9-10hp
+2S,2N,Please read chat#Bil. 15-18hp senza 5°nobili ! il patner  si regola come su 2SA
+2S2N--,3C,a giocare debole con le !c 
+2S2N--,3D,transfer 5+!h 
+2S2N--3D--,3H,Please read chat#accetta trsf impossibile con 4/5!s e max il rispondente decide il livello
+2S2N--,3H,transfer impossibile 4°!h tipo stayman
+2S2N--,3S,almeno 9 carte nei minori 
+2S,3C,6+!c 13-16hp solida 
+2S,3D,6+!d 13-16hp solida 
+2S,3H,6+!h 13-16hp solida
+2S,3N,Please read chat#19-20 hp stop a !s senza interesse per l'altro Nobile.A giocare 
+2S,3S,Please read chat# Surlicita :Bicolore Minore forte 5+!d e 5+!c 16+hp 
+2S,4C,12-16hp 5!h e 5+!c 
+2S,4D,12-16hp 5!h e 5+!d
+2S,4N,Please read chat#Bicolore Minore per difesa non forte 5+!d e 5+!c 
+Error *002S=NYYYYYY008sottoapertura mono/bicolore a !s |,2S,sottoapertura mono/bicolore a !s 
+2S,Db,Please read chat#a) Tricolore con apertura e sgl!s b) mano forte 17+hp monocolore o  bicolore 5/4 o bilanciata 19+hp .
+2SDb--,2N,Please read chat#LEBENSHOL: obbliga al 3!c per mani normali del Patner per : passo oppure un proprio colore debole  0-8hp
+2SDb--,2S,debole a giocare 4/5!s meno di 9 hp
+2SDb--,3C,4+!c costruttivo 9-10hp
+2SDb--,3D,4+!d costruttivo 9-10hp
+2SDb--,3H,4+!h costruttivo 9-10hp
+2SDb--,3S,
+3C,4C,Please read chat#5!d e 5M indefinita ( patner licita i nobili 3° in economia)
+3C,4D,5/5 Nobile almeno 
+Error *003C=NYYYYYY008barrage 6+!c|,3C,barrage 6+!c
+3C,Db,Please read chat#se ap. allora 4441!c altrimenti 13+hp per altre distribuzioni 
+3D,4C,Please read chat#5!c e 5M indefinita ( patner licita i nobili 3° in economia)
+3D,4D,5/5 nobile almeno 
+Error *003D=NYYYYYY008barrage 6+!d|,3D,barrage 6+!d
+3D,Db,se ap almeno 4441!d altrimenti 15+hp 
+3H,4C,5!s e 5!c 
+3H,4D,5!s e 5!d 
+3H,4H,bicolore minore molto forte! V SLAM 
+3H,4N,Please read chat#bicolore minore solo da manche distribuzionale 
+Error *003H=NYYYYYY008barrage 6+!h|,3H,barrage 6+!h
+3H,Db,se ap almeno 4441!h altrimenti 17+hp 
+3S,4C,5!h e 5!c 
+3S,4D,5!h e 5!c 
+3S,4N,Please read chat#bicolore minore solo da manche distribuzionale 
+3S,4S,bicolore minore molto forte! V SLAM 
+Error *003S=NYYYYYY008barrage 6+!s|,3S,barrage 6+!s
+3S,Db,se ap almeno 4441!s altrimenti 17+hp 
+Error *00{Precision_Millennium_2017}=NYYYYYY1!c =16+hp ; 1NT = 12-15 any 5x332 ; 1!d = 4+!d  sbil. 10-15 ; 1!h/1!s= 5+M 10-15 Sbil; 2!c=10-15 5+!c bic/mono ; 2!d=6-10hp 4+!h e 4+!s ; 2!h= sgl!d 10-15hp; 2!s = 6-10hp 5+m e 4+m ;2SA =20-22hp bil ;3!c/!d/!h/!s=barrage; 3SA= Gambling ; 4x=barrage 8°|--20,17, 
+1C1D,1H,come da sistema nat. GF 5+!h
+1C1D,1N,8-13hp nat. con fermo a !d GF
+1C1D1N--,2C,Stayman
+1C1D1N--,2D,
+1C1D1N--,2H,
+1C1D1N--,2S,
+1C1D,1S,come da sistema nat. GF 5+!s
+1C1D,2C,Nat.Sbil. 5+!c GF 8+hp 
+1C1D2C--,2D,
+1C1D,2D,GF chiede stop a !d nop 4°nobili
+1C1D,2H,a salto da  sist. nat 6+!h debole 
+1C1D,2N,14+hp GF nat. con fermo a !d 
+1C1D,2S,a salto da  sist. nat 6+!s debole 
+1C1D,3C,Please read chat#a salto da sist. tricolore sgl a !d GF 8+hp
+1C1D,3D,Please read chat#a salto da sist. tricolore sgl a !h GF 8+hp
+1C1D,3H,Please read chat#a salto da sist. tricolore sgl a !s GF 8+hp
+1C1D,3S,Please read chat#a salto da sist. tricolore sgl a !c GF 8+hp
+1C,1D,Please read chat#Se !d è  naturale ci comportiamo come system ON  altrimenti ci regoliamo se con significato diverso
+1C1D,Db,7+hp senza colori 5°
+1C1D,--,Please read chat#0-6 HCP o in passo forte con le !d che vuol punire con riapertura di dbl
+1C1H,1N,8-13hp nat. con fermo a !h GF
+1C1H1N--,2C,Stayman
+1C1H1N--,2D,
+1C1H1N--,2H,
+1C1H1N--,2S,
+1C1H,1S,come da sistema nat. GF 5+!s
+1C1H,2C,Nat.Sbil. 5+!c GF 8+hp 
+1C1H2C--,2D,
+1C1H,2D,Nat.Sbil. 5+!d GF 8+hp GF
+1C1H,2H,chiede stop a !h no 4°!s 
+1C1H,2N,14+hp GF nat. con fermo a !h
+1C1H,2S,a salto da  sist. nat 6+!s debole 
+1C1H,3C,Please read chat#a salto da sist. tricolore sgl a !d GF 8+hp
+1C1H,3D,Please read chat#a salto da sist. tricolore sgl a !h GF 8+hp
+1C1H,3H,Please read chat#a salto da sist. tricolore sgl a !s GF 8+hp
+1C1H,3S,Please read chat#a salto da sist. tricolore sgl a !c GF 8+hp
+1C,1H,Please read chat#Se !h è  naturale ci comportiamo come system ON  altrimenti ci regoliamo se con significato diverso
+1C1H,Db,7+hp senza colori 5°
+1C1H,--,Please read chat#0-6 HCP o in passo forte con le !h che vuol punire con riapertura di dbl
+1C1N,2C,
+1C1N2C--,2D,
+1C1N,2D,
+1C1N,2H,
+1C1N,2S,
+1C1N,3C,
+1C1N,3D,
+1C1N,3H,
+1C1N,3S,
+1C1S,1N,8-13hp nat. con fermo a !s GF
+1C1S1N--,2C,Stayman
+1C1S1N--,2D,
+1C1S1N--,2H,
+1C1S1N--,2S,
+1C1S,2C,Nat.Sbil. 5+!c GF 8+hp 
+1C1S2C--,2D,
+1C1S,2D,Nat.Sbil. 5+!d GF 8+hp GF
+1C1S,2H,Nat.Sbil. 5+!h GF 8+hp GF
+1C1S,2N,14+hp GF nat. con fermo a !s
+1C1S,2S,chiede stop a !s no 4°!h
+1C1S,3C,Please read chat#a salto da sist. tricolore sgl a !d GF 8+hp
+1C1S,3D,Please read chat#a salto da sist. tricolore sgl a !h GF 8+hp
+1C1S,3H,Please read chat#a salto da sist. tricolore sgl a !s GF 8+hp
+1C1S,3S,Please read chat#a salto da sist. tricolore sgl a !c GF 8+hp
+1C,1S,Please read chat#Se !s è  naturale ci comportiamo come system ON  altrimenti ci regoliamo se con significato diverso
+1C1S,Db,7+hp senza colori 5°
+1C1S,--,Please read chat#0-6 HCP o in passo forte con le !h che vuol punire con riapertura di dbl
+1C2C,2D,
+1C2C,2H,
+1C2C,2S,
+1C2C,3C,5!s e 5!h  Nobile GF
+1C2C,3D,
+1C2C,3H,
+1C2C,3S,
+1C2D,2H,
+1C2D,2S,
+1C2D,3C,
+1C2D,3D,5!s e 5!h  Nobile GF
+1C2D,3H,
+1C2D,3S,
+1C2H,2S,
+1C2H,3C,
+1C2H,3D,
+1C2H,3H,5!d e -5!c  minore GF
+1C2H,3S,
+1C2S,3C,
+1C2S,3D,
+1C2S,3H,
+1C2S,3S,5!d e -5!c  minore GF
+1C3C,3D,
+1C3C,3H,
+1C3C,3S,
+1C3C,Db,Please read chat#Semipositive; any hand that can't penalize !c; or t/o on !c
+1C3C,--,Please read chat#0-5 HCP or semipositive with !c (trap pass)
+1C3D,3H,
+1C3D,3S,
+1C3D,Db,Please read chat#Semipositive; any hand that can't penalize !d; or t/o on !d
+1C3D,--,Please read chat#0-5 HCP or semipositive with !d (trap pass)
+,1C,16+hp (esclude 20-22hp Bil.)
+1CDb,1D,naturale 8+hp GF 5+!d
+1CDb1D--,1H,16-21 Usually 5+ !hs
+1CDb1D--1H--,1S,
+1CDb1D--1H--,2C,
+1CDb1D--1H--,2D,
+1CDb1D--1H--,2H,
+1CDb1D--1H--,2N,3-suited short in hearts
+1CDb1D--1H--,2S,Three-suited
+1CDb1D--1H--,3C,Three-suited
+1CDb1D--1H--,3D,3-suited
+1CDb1D--,1N,16-18
+1CDb1D--1N--,2C,Stayman
+1CDb1D--1N--,2D,
+1CDb1D--1N--,2H,
+1CDb1D--1N--,2S,Weak with either minor
+1CDb1D--1N--,3C,
+1CDb1D--1N--,3D,
+1CDb1D--,1S,16-21 HCP. Usually 5+ !ss
+1CDb1D--1S--,2C,
+1CDb1D--1S--,2D,
+1CDb1D--1S--,2H,
+1CDb1D--1S--,2N,3-suited short in hearts
+1CDb1D--1S--,2S,
+1CDb1D--1S--,3C,Three-suited
+1CDb1D--1S--,3D,3-suited
+1CDb1D--1S--,3H,Three-suited
+1CDb1D--,2C,16-21
+1CDb1D--2C--,2D,
+1CDb1D--2C--,2H,
+1CDb1D--2C--,2S,
+1CDb1D--2C--,3C,
+1CDb1D--2C--,3D,Three-suited
+1CDb1D--2C--,3H,Thre-suited
+1CDb1D--2C--,3S,Three-suited
+1CDb1D--,2D,16-21 HCP
+1CDb1D--,2H,
+1CDb1D--,2N,19-21
+1CDb1D--2N--,3C,Stayman
+1CDb1D--2N--,3D,
+1CDb1D--2N--,3H,
+1CDb1D--,2S,
+1CDb1D--,3C,
+1CDb1D--,3D,
+1CDb1D--,3N,24-27
+1CDb,1H,come da sistema GF 5+!h 8+hp 
+1CDb,1N,8-13 bil GF
+1CDb1N--,2C,Stayman
+1CDb1N--,2D,
+1CDb1N--,2H,
+1CDb1N--,2S,
+1CDb,1S,come da sistema GF 5+!s 8+hp 
+1CDb,2C,5+!c mano sbilanciata GF 8+hp
+1CDb2C--,2D,
+1CDb,2D,5+!d mano sbilanciata GF 8+hp
+1CDb,2H,Please read chat#6°!h debole meno di 7 hp come da sistema 
+1CDb,2N,14+hp come da sistema 
+1CDb,2S,Please read chat#6°!s debole meno di 7 hp come da sistema 
+1CDb,3C,tricolore da sistema sgl!d 8+hp GF 
+1CDb,3D,tricolore da sistema sgl!h 8+hp GF 
+1CDb,3H,tricolore da sistema sgl!s 8+hp GF 
+1CDb,3S,tricolore da sistema sgl!c 8+hp GF 
+1C,Db,Please read chat#Se il DBL significasse punti il Sistema è ON ( se significa una distribuzione particolare ci regoliamo )
+1CDb,--,Please read chat#Negativo 0-6hp (anche 7hp brutti piatti)
+1CDb,Rd,Please read chat#7(8)+hp  a punire o GF successivo senza colori 5°
+1C--1D1H,1N,bil max 19-20hp e stop a !h 
+1C--1D,1H, se naturale 
+1C--1D1H,Db,bil max senza stop a !h probabili 4°!s 
+1C--1D1H,--,bilanciata minima 16-17hp 
+1C--1D1S,1N,bilanciata max  18-20hp 
+1C--1D,1S, se naturale 
+1C--1D1S,Db,sbilanciata probabile 4°!h max F1giro
+1C--1D1S,--,bilanciata minima 16-17hp 
+1C--,1D,0-7hp any  ( esclude 6°M 4-7hp )
+1C--1DDb,1H,naturali 16-19hp 5°+!h
+1C--1DDb,1N,18-19hp bilanciato stop a !d 
+1C--1DDb,1S,naturali 16-19hp 5°+!s 
+1C--1DDb,2C,naturali 16-19hp 5(6)°+!c
+1C--1DDb,2D,Please read chat#Bicolore molto forte 5/5 si chiarisce dopo 
+1C--1D,Db,Please read chat#se il DBL mostra 5+!d il colore su risposta negativa nostra :
+1C--1DDb,--,tolleranza per le !d bil minima 
+1C--1DDb,Rd,20+hp qualsiasi distribuzione 
+1C--1D--,1H,16-20 4+ !h
+1C--1D--1H--,1N,6/7hp max bil 2 carte a !h 
+1C--1D--1H--,1S,4/5!s 
+1C--1D--1H--1S--,1N,Please read chat#Bilanciata ( o simil bil.) o con palo a !h molto scartinato anche 5° 
+1C--1D--1H--1S--,2C,4!h e 5+!c corto lungo 16-19hp 
+1C--1D--1H--1S--,2D,4!h e 5+!d corto lungo 16-19hp 
+1C--1D--1H--1S--,2H,5!h min 16-17hp Sbilanciata NON 5M332
+1C--1D--1H--1S--,2N,4!h INV 
+1C--1D--1H--1S--,2S,fit 5!h e 4°!s 16-18hp min 
+1C--1D--1H--1S--,3C,a salto 5!h e 5+!c 19-20hp 
+1C--1D--1H--1S--,3D,a salto 5!h e 5+!d 19-20hp 
+1C--1D--1H--1S--,3S,fit 5!h e 4°!s 19-20hp Max 
+1C--1D--1H--,2C,Naturale 5°!c 6/7hp inv
+1C--1D--1H--,2D,Please read chat#art. FIT 3° a !h 5-7hp  passabile solo il riporto a 2!h dell'apertore.
+1C--1D--1H--,2H,fit 4°!h 6/7hp max del minimo INV
+1C--1D--1H--,2N,Please read chat#5!d e 5!c molto debole ascegliere il parziale sgl a !s 
+1C--1D--1H--,2S,Please read chat#6+!s ....debole posso giocare solo a !s  sgl/vuoto a !h 
+1C--1D--,1N,Please read chat#16-19hp  proseg. come 1SA debole  ( possibili 5°M332)
+1C--1D--1N--,2C,Stayman 6/7hp 
+1C--1D--1N--,2D,
+1C--1D--1N--,2H,
+1C--1D--1N--,2S,
+1C--1D--1N--,3C,
+1C--1D--1N--,3D,
+1C--1D--,1S,16-20 4+ !s
+1C--1D--1S--,1N,6/7hp max bil 2 carte a !s
+1C--1D--1S--1N--,2C,4!s e 5+!c corto lungo 16-19hp 
+1C--1D--1S--1N--,2D,4!s e 5+!d corto lungo 16-19hp 
+1C--1D--1S--1N--,2H,5!s e 4+!h 16-18hp 
+1C--1D--1S--1N--,2N,INV 4°!s 
+1C--1D--1S--1N--,2S,5!s min 16-17hp Sbilanciata NON 5M332
+1C--1D--1S--1N--,3C,a salto 5!s e 5+!c 19-20hp 
+1C--1D--1S--1N--,3D,a salto 5!s e 5+!d 19-20hp 
+1C--1D--1S--1N--,3H,5!s e 5!h 19-20hp 
+1C--1D--1S--,2C,5+!c INV 6/7hp 
+1C--1D--1S--,2D,Please read chat#art. FIT 3° a !s 5-7hp  passabile solo il riporto a 2!s dell'apertore.
+1C--1D--1S--,2H,5!h inv e almeno 2!s di riserva in fit 
+1C--1D--1S--,2N,Please read chat#5!d e 5!c molto debole ascegliere il parziale sgl a !s 
+1C--1D--1S--,2S, fit 4°!s costruttivo 6-7hp 
+1C--1D--1S--,3C,
+1C--1D--1S--,3D,
+1C--1D--,2C,Please read chat#16+hp 5+!c  F1giro possibile mano molto forte 20+hp se dopo nomina un nobile
+1C--1D--2C--,2D,
+1C--1D--2C--,2H,
+1C--1D--2C--,2S,
+1C--1D--2C--,3C,
+1C--1D--2C--,3D,Three-suited
+1C--1D--2C--,3H,Thre-suited
+1C--1D--2C--,3S,Three-suited
+1C--1D--,2D,Please read chat#16+hp 5+!d  F1giro possibile mano molto forte 20+hp se dopo nomina un nobile
+1C--1D--,2H,21+ hp palo 5/6!h molto forte a salto 
+1C--1D--,2N,Please read chat#23+hp Forcing ( anche se patner ha 0) GF ( possibili 5°M332)
+1C--1D--2N--,3C,Stayman
+1C--1D--2N--,3D,
+1C--1D--2N--,3H,
+1C--1D--,2S,21+ hp palo 5/6!s molto forte a salto 
+1C--1D--,3C,22+ hp palo 6!c molto forte a salto 
+1C--1D--,3D,22+ hp palo 6!d molto forte a salto 
+1C--1D--,3H,Please read chat#6+!h palo autonomo  a doppio salto chiede pochissimo per manche (passabile solo con 0!)
+1C--1D--,3S,Please read chat#6+!s palo autonomo  a doppio salto chiede pochissimo per manche (passabile solo con 0!)
+1C--1D--,4C,Please read chat#7+!c palo autonomo  a triplo  salto chiede pochissimo per manche (passabile solo con 0!)
+1C--1D--,4D,Please read chat#7+!d palo autonomo  a triplo salto chiede pochissimo per manche (passabile solo con 0!)
+1C--,1H,5+!h 8+hp GF
+1C--1H--,1N,Please read chat#16-19hp  Bil possibile fit 3°!h/4°!h solo  bil 
+1C--1H--1N--,2C,Please read chat#o le !c o comunque una sorta di relay ® per chiedere la distribuzione GF
+1C--1H--1N--2C--,2D,Please read chat#5°!d 332 min 16-17hp o 4/4 minore minima 
+1C--1H--1N--2C--,2H,fit 3°/4°!h bil. min 16-17hp 
+1C--1H--1N--2C--,2N,4/4 minore bil max 18-19hp 
+1C--1H--1N--2C--,2S,4°!s descrittivo 
+1C--1H--1N--2C--,3C,5°!c332 
+1C--1H--1N--2C--,3D,5!d332 max 18-19hp 
+1C--1H--1N--2C--,3H,a salto fit 3°/4°!h bil. max 18-19hp 
+1C--1H--1N--,2D,naturale 4+!d 
+1C--1H--1N--,2H,naturale 6+!h
+1C--1H--1N--,2N, 11+hp V slam 5!h332 
+1C--1H--1N--,2S,nat. 4+!s 
+1C--1H--1N--,3N,8-10hp a giocar e5!h332
+1C--1H--,1S,Please read chat#è già 5+!s GF ( se 4°!s o fit a !h bil si risponde 1nt)
+1C--1H--1S--,1N,5!h332 8-10hp 
+1C--1H--1S--,2C,naturale 
+1C--1H--1S--,2D,naturale 
+1C--1H--1S--,2H,naturale 6°!h min 
+1C--1H--1S--,2N,a salto 11+hp 5!h332
+1C--1H--1S--,2S,fit 3carte a !s min 
+1C--1H--1S--,3C,a salto 5!h e 5!c V slam 11+hp
+1C--1H--1S--,3D,a salto 5!h e 5!d V slam 11+hp
+1C--1H--1S--,3H,a salto 6+!h 11+hp V slam
+1C--1H--1S--,3S,a salto fissa atout 3/4!s V slam 
+1C--1H--1S--,4S,fit 4°!s minimo a giocare 
+1C--1H--,2H,fit 3°/4°!h sbilanciato GF
+1C--1H--,2N,23+hp bil anche con fit 3°/4° a !h
+1C--1H--,2S,a salto 6+!s 21+hp  GF slam 
+1C--1H--,3C,a salto Palo autonomo 6+!c 21+hp 
+1C--1H--,3D,a salto Palo autonomo 6+!d 21+hp 
+1C--1H--,3H,Fissa per Slam 3/4!h sbilanciato 
+1C--,1N,8-13 hp bil.  possibili 4°Nobili 
+1C--1N--,2C,Please read chat#Stayman chiede distribuzione e range di punti  con qualsiasi bilanciata anche molto forte 
+1C--1N--2C--,2D,11-13hp no 4°nobili max 
+1C--1N--2C--,2H,11-13hp 4°!h no 4°!s  max 
+1C--1N--2C--,2N,8-10 min possibili 4°nobili 
+1C--1N--2C--2N--,3C,relay chiede 4°Nobili
+1C--1N--2C--2N--3C--,3D,4!h e 4!s entrambe 
+1C--1N--2C--2N--3C--,3H,4°!h soltanto 
+1C--1N--2C--2N--3C--,3N,no 4° nobili 
+1C--1N--2C--2N--3C--,3S,4°!s soltanto 
+1C--1N--2C--,2S,11-13hp 4°!s no 4°!h  max 
+1C--1N--2C--,3C,11-13hp 4°!h e  4°!s  max 
+1C--1N--,2D,Naturale GF 5+!d sbilanciata 
+1C--1N--,2H,Naturale GF 5+!h
+1C--1N--,2N,Please read chat#ATTENZIONE ART.  GF 5+!c sbilanciata ( il 2nt sostituisce il 3!c)
+1C--1N--,2S,Naturale GF 5+!s
+1C--1N--,3C,Please read chat#a salto palo autonomo 22+hp visuale di Slam a colore 6+carte!c 
+1C--1N--,3D,Please read chat#a salto palo autonomo 22+hp visuale di Slam a colore 6+carte!d
+1C--1N--,3H,Please read chat#a salto palo autonomo 22+hp visuale di Slam a colore 6+carte!h
+1C--1N--,3S,Please read chat#a salto palo autonomo 22+hp visuale di Slam a colore 6+carte!s
+1C--,1S,5+!s 8+hp GF
+1C--1S--,1N,Please read chat#16-19hp  bil possibile fit 3°!s/4°!s  bil.( possibile la  5°!h332)
+1C--1S--1N--,2C,Please read chat#o le !c o comunque una sorta di relay ® per chiedere la distribuzione GF
+1C--1S--1N--2C--,2D,Please read chat#5°!d 332 min 16-17hp o 4/4 minore minima 
+1C--1S--1N--2C--,2H,Please read chat#5!h332  16-17hp min ATTENZIONE palo 5°!h 
+1C--1S--1N--2C--,2N,4/4 minore bil max 18-19hp 
+1C--1S--1N--2C--,2S,fit 3°/4°!s bil. min 16-17hp 
+1C--1S--1N--2C--,3C,5°!c332 
+1C--1S--1N--2C--,3D,5!d332 max 18-19hp 
+1C--1S--1N--2C--,3H,Please read chat# a satlo 5!h332 18-19hp Max Attenzione palo 5°a !h 
+1C--1S--1N--2C--,3S,a salto fit 3°/4°!s bil. max 18-19hp 
+1C--1S--1N--,2D,naturale 4+!d 
+1C--1S--1N--2D--,2H,5°!h332 attenzione 
+1C--1S--1N--,2H,naturale 4+!h
+1C--1S--1N--,2N, 11+hp V slam 5!s332 
+1C--1S--1N--,2S,nat. 6!s  minnimo 8-10hp
+1C--1S--1N--,3C,a salto 5!s e 5!c forte V slam 
+1C--1S--1N--,3D,a salto 5!s e 5!d forte V slam 
+1C--1S--1N--,3H,a salto 5!s e 5!h forte V slam 
+1C--1S--1N--,3N,8-10hp a giocar e5!s332
+1C--1S--1N--,3S, a salto 6+!s V slam 11+hp 
+1C--1S--,2H,5+!h SEMPRE sbilanciato 16-20hp
+1C--1S--,2N,23+hp bil anche con fit 3°/4° a !s 
+1C--1S--,2S,fit 3°/4°!s sbilanciato GF
+1C--1S--,3C,a salto Palo autonomo 6+!c 21+hp 
+1C--1S--,3D,a salto Palo autonomo 6+!d 21+hp 
+1C--1S--,3H,6+!h 21+hp GF/V.Slam 
+1C--1S--,3S,Fissa per Slam 3/4!s sbilanciato 
+1C--,2C,Sbilanciata 8+hp GF 5+!c 
+1C--2C--,2D,
+1C--,2D,Sbilanciata 8+hp GF 5+!d 
+1C--,2H,6°!h 4-7hp (no AK  altrimenti 1!h)
+1C--,2N,14+ GF/SLAM bil. possibili 4° nobili
+1C--2N--,3C,® relay chiede 4°Nobili
+1C--2N--3C--,3D,4!h e 4!s entrambe 
+1C--2N--3C--,3H,4°!h soltanto 
+1C--2N--3C--,3N,no 4° maggiori min 14-15hp 
+1C--2N--3C--,3S,4°!s soltanto 
+1C--2N--3C--,4N, no 4° maggiori 16 hp inv a 6nt
+1C--2N--3C--,5N,Please read chat# no 4° maggiori  almeno 18hp inv a 7nt (con minimo si chiama 6nt)
+1C--,2S,6°!s 4-7hp (no AK  altrimenti 1!s)
+1C--,3C,tricolore 4441!d sgl di !d 8+hp GF 
+1C--3C--,3D,Please read chat#illogico chiede i controlli a gradino 1A
+1C--,3D,tricolore 4441!h sgl di !h 8+hp GF 
+1C--3D--,3H,Please read chat#illogico chiede i controlli a gradino 1A
+1C--,3H,tricolore 4441!s sgl di !s 8+hp GF 
+1C--3H--,3S,Please read chat#illogico chiede i controlli a gradino 1A
+1C--,3N,Please read chat#monocolore minore 7°/8° chiusa GF / V slam
+1C--3N--,4C,Please read chat#se hai le !c ok fai cue bid altrimenti dimmi 4!d GF 
+1C--3N--4C--,4D,Please read chat#7/8!d avevo le !d GF procediamo per cue-bid e rich assi 4nt
+1C--3N--4C--,4H,cue -bid ho la 7°/8° !c chiusa GF+
+1C--3N--4C--,4N,Please read chat#cue -bid  a !d ho la 7°/8° !c chiusa GF+(no cue a  !h e !s)
+1C--3N--4C--,4S,Please read chat#cue -bid ho la 7°/8° !c chiusa GF+(no cue a !h)
+1C--3N--4C--,5C,Please read chat#ho solo la chiusa  a !c 7° con la 7!c222 senza cue bid da fare ! 
+1C--3N--,5C,passa o correggi vedo solo manche 
+1C--,3S,tricolore 4441!c sgl di !c 8+hp GF 
+1C--3S--,4C,Please read chat#illogico chiede i controlli a gradino 1A
+1D1H,1N,8-10hp stop a !h 
+1D1H,1S,4+!s F1giro
+1D1H,2C,5+!c 12+hp GF
+1D1H,2D,fit debole a !d competitivo
+1D1H,2H,Please read chat#Chiede fermo oppure una mano forte con fit GF a !d 
+1D1H,2N,nat. INV 11-12hp con stop a !h
+1D1H,2S,Please read chat#6+!s GF si ignora intervento se colore a salto
+1D1H,3C,inv. 6°!c per 3SA
+1D1H,3D,fit barrage a !d 
+1D,1H,Naturale 
+1D1H,Db,Please read chat#informativo nega 4°!s se dopo nomina un colore è limite 5°
+1D1N,2C,a giocare 5/6°+!c
+1D1N,2D,fit competitivo a!d 
+1D1N,2H,a giocare 5/6°+!h
+1D1N,2S,a giocare 5/6°+!s 
+1D,1N,bil 15-17 nat.
+1D1N,Db,punitivo!
+1D1S,1N,Please read chat#8-10hp NON garantisce stop a !s ATTENZIONE
+1D1S,2C,5+!c 12+hp GF
+1D1S,2D,Please read chat#ART.ATTENZIONE 5/6!h in mano 7-11hp ( NON e' riporto in fit debole!)
+1D1S,2H,Please read chat#5+!h GF 12+hp  ( visto la convenzione del 2!d che è mano 7-11 con 5+!h)
+1D1S,2N,Limite INV 11-12hp con stop a !s 
+1D1S,2S,Surlicita Gf bicolore o fit GF a !d 
+1D1S,3C,limite 6+!c inv a 3SA
+1D1S,3D,barrage a !d 
+1D,1S,Naturale 
+1D1S,Db,Please read chat#4!h garantite ; se le nega ha almeno una bilanciata invitante di 11hp
+1D1S,--,Please read chat#se dopo riapre di dbl allora  è 8-10 senza 4°!h 
+1D2C,2D,
+1D2C,2H,
+1D2C,2S,
+1D2C,3C,
+1D,2C,5/6+!c naturale 
+1D2C,Db,a togliere informativo punti!
+1D,2H,se salto debole 6°!h ...
+1D2H,Db,Please read chat#zona contro 1° punitivo ; altrimenti a togliere con punti
+1D,2S,se salto debole 6°!s ...
+1D2S,Db,Please read chat#zona contro 1° punitivo ; altrimenti a togliere con punti
+,1D,10-15 HP; 4+!d SEMPRE  Sbil. 
+1DDb,1H,5+!h corto a!d a giocare 0-9hp 
+1DDb,1S,5+!s corto a!d a giocare 0-9hp 
+1DDb,2C,5+!c corto a!d a giocare 0-9hp 
+1DDb,2D,
+1DDb,2H,
+1DDb,2S,
+1DDb,3C,
+1DDb,3D,
+1D,Db,informativo classico 
+1DDb,--,Please read chat#tolleranza per le!d in mano debole; se dopo contra al 2° giro allora era 8-10hp bil
+1DDb,Rd,10+hp ( i DBL successivi sono punitivi)
+1D--1H,1S,naturale 
+1D--1H1S,Db,Support DBL 3 carte di fit a !h 
+1D--,1H,Please read chat#(3)4+!h limitato 0-11hp Può essere 3° se con bil.11-12hp o debole con fit a !d per riporto.
+1D--1H,Db,naturale 
+1D--1HDb,Rd,Support DBL 3 carte di fit a !h 
+1D--1H--,1N,art.5+!d e 4+!c  Lungo/Corto
+1D--1H--,1S,Please read chat#naturale 4!s in mano sbilanciata con 4+!d 
+1D--1H--1S--,1N,proposta di giocare 1nt
+1D--1H--1S--,2C,forcing 1 giro segnala 5!h 
+1D--1H--1S--,2D,riporto a giocare 
+1D--1H--1S--,2H,6°!h a giocare corto a  !d/!s
+1D--1H--1S--,2N,INV 11-12hp anche con 3°!h
+1D--1H--1S--,2S,fit 4° Inv
+1D--1H--1S--,3C,5!h /5+!c INVITANTE 
+1D--1H--1S--,3D,5!h /5+!d INVITANTE 
+1D--1H--1S--,3H,6°!h invitante limite
+1D--1H--1S--,3S,MOlto INV fit 4/5° sbilanciato 
+1D--1H--,2C,4!d e 5+!c Corto/Lungo 
+1D--1H--2C--,2D,
+1D--1H--2C--,2H,
+1D--1H--2C--,2S,
+1D--1H--2C--,3C,
+1D--1H--2C--,3D,
+1D--1H--2C--,3H,
+1D--1H--,2D,Please read chat#6+!d o 5!d e 4!c ( non posso dire 2!c perchè c/l)
+1D--1H--2D--,2H,
+1D--1H--2D--,2S,Please read chat#Ostensibly natural; maybe NT probe; adv cue for !d or waiting
+1D--1H--2D--,3C,Please read chat#Onstensibly natural; maybe NT probe or adv cue for !d
+1D--1H--2D--,3D,
+1D--1H--2D--,3H,
+1D--1H--2D--,4D,
+1D--1H--,2H,fit 4°!h
+1D--1H--,2N,6!d e 4!c 14-15hp max 
+1D--1H--,2S,Please read chat#5+!d e 4!s 14-15hp max .Tendenzialmente 6°!d NO 3°!h 
+1D--1H--,3C,5!d e 5!c 14-15hp max 
+1D--1H--,3D,14-15hp a salto 6°chiusa a !d tipo AKQ
+1D--1H--3D--,3H,
+1D--1H--3D--,3S,
+1D--1H--,3H,5!d e 4!h fit a !h  max 14/15hp 
+1D--,1N,Please read chat#naturale 8-10 costruttivo.Con meno bil. si passa.
+1D--1N--,2C,4!d e 5+!c c/l a giocare evita 1nt
+1D--1N--,2D,sbil 5+!d ( anche con 5!d e 4!c)
+1D--1N--,2H,tentativo 6!d e 4!h 15hp max 
+1D--1N--,2N,tentativo 6!d e 4!c 15hp max 
+1D--1N--,2S,tentativo 6!d e 4!s 15hp max 
+1D--1S,2C,nat.
+1D--1S2C,Db,Support DBL 3 carte di fit a !s
+1D--,1S,Please read chat#(3)4+!s limitato 0-11hp Può essere 3° se con bil.11-12hp o debole con fit a !d per riporto.
+1D--1S--,1N,Please read chat#4+!d e 4!h garantite (possibile tricolore 4!d.4!h.4!c.1!s)
+1D--1S--1N--,2C,forcing 1 giro segnala 5°!s
+1D--1S--1N--,2D,riporto a giocare 
+1D--1S--1N--,2H,a giocare scelgo le !h 
+1D--1S--1N--,2N,invitante anche 3°!s 11-12hp 
+1D--1S--1N--,2S,Please read chat#almeno 6°!s (con 5°!s  si riporta a !h/!d o si gioca 1nt)
+1D--1S--1N--,3C,5!s /5+!c INVITANTE 
+1D--1S--1N--,3D, INVITANTE fit 4°!d e 3/4!s 
+1D--1S--1N--,3H,4/5!h INVITANTE 10-11hp 
+1D--1S--1N--,3S,6!s  INVITANTE 
+1D--1S--,2C,sempre C/Lungo 4!d e 5+!c 
+1D--1S--,2D,5+!d ( possibile anche 5!d e 4!c ) 
+1D--1S--2D--,2H,
+1D--1S--2D--,2S,
+1D--1S--2D--,3C,Please read chat#Can be a notrump probe or adv cue for !d
+1D--1S--2D--,3D,
+1D--1S--2D--,3H,
+1D--1S--2D--,3S,
+1D--1S--,2H,5+!d e 4!h 14-15hp max 
+1D--1S--,2N,6!d e 4!c 14-15hp
+1D--1S--,2S,fit 4°!s 
+1D--1S--,3C,5+!d e 5+!c 14-15hp
+1D--1S--,3D,14-15hp a salto 6°chiusa a !d tipo AKQ
+1D--1S--,3S,fit 4°!s 14-15hp 
+1D--,2C,Please read chat#GF sia bilanciata che con 5°M chiede descrizione all'apertore.
+1D--2C--,2D,5+!d Possibile anche 5!d e 4+!c 
+1D--2C--2D--,2H,5°!h GF proseguimento naturale
+1D--2C--2D--,2N,Please read chat#bil. GF senza 4°nobili ( probabilmente 5°!c 
+1D--2C--2D--,2S,5°!s GF proseguimento naturale
+1D--2C--2D--,3C,6+!c GF
+1D--2C--,2H,nat.5+!d e 4!h 
+1D--2C--,2N,Tricolore! con sgl !c/!h/!s su cui : 
+1D--2C--2N--,3C,chiede sgl in sottocolore 
+1D--2C--2N--3C--,3D,sgl!h  (4!d- 4!s -4!c -1!h)
+1D--2C--2N--3C--,3H,sgl!s  (4!d- 4!h -4!c -1!s)
+1D--2C--2N--3C--,3S,sgl!c  (4!d- 4!s -4!h -1!c)
+1D--2C--,2S,nat.5+!d e 4!s 
+1D--2C--,3C,4+!d e 5+!c corto lungo 
+1D--2C--,3D,colore solidissimo tipo AKQxxx 6+!d 
+1D--,2D,Please read chat#5!s e 4+!h debole 0-8hp o GF 12+hp 5!s/5!h ( con 9-11hp si risponde normalmente 1!s.
+1D--,2H,GF 6°!h 2 ON maggiori 
+1D--,2N,OBBLIGA al 3!c per 
+1D--,2S,GF 6°!s 2 ON maggiori 
+1D--,3C,Invitante 6+!c  2ON maggiori  per 3SA
+1D--,3D,fit INV. 4/5!d 9-11hp senza 4°nobili
+1D--,3H,Splinter sgl a !h GF fit 5°!d 
+1D--,3S,Splinter sgl a !s GF fit 5°!d 
+1H,1N,naturale 
+1H1N,Db,punitivo ! 
+1H1S,1N,naturale 8-10hp stop a !s 
+1H1S,2C,GF 5+carte a !c 
+1H1S,2D,GF 5+carte a !d
+1H1S,2H,fit 3° a !h cortesia interdittivo
+1H1S,2N,Please read chat#surlicita fit 4°!h costruttivo 9+hp illimitato
+1H1S,2S,Please read chat#surlicita fit 3°!h costruttivo 9-11hp o + 
+1H1S,3C,Please read chat#come da sistema se a salto fit 4°!h splimit sgl a !c 9-11hp
+1H1S,3D,Please read chat#come da sistema se a salto fit 4°!h splimit sgl a !d 9-11hp
+1H1S,3H,fit barrage 4°!h 
+1H,1S,naturale 
+1H1S,Db,a togliere : punti e altri colori
+1H2C,2D,5+!d 11+hp Forcing
+1H2C,2H,fit competitivo 3°!h
+1H2C,2N,fit 4°!h limite 9-11hp o + 
+1H2C,2S,5+!s 11+hp forcing 
+1H2C,3C,fit 3°!h limite 9-11hp o + 
+1H2C,3D,a salto Splimit  Sgl!d fit 4°!h 9-11hp
+1H2C,3H,fit barrage 4°!h no punti
+1H2C,3N,a giocare buon stop a !c
+1H2C,3S,
+1H,2C,naturale 
+1H2C,Db,punti  no fit a !h 
+1H2D,2H,fit competitivo 3°!h
+1H2D,2N,fit 4°!h limite 9-11hp o + 
+1H2D,2S,5+!s 11+hp forcing 
+1H2D,3C, 5+!c 11+hp forcing 
+1H2D,3D,fit 3°!h limite 9-11hp o +
+1H2D,3H,fit barrage 4°!h no punti
+1H2D,3N,a giocare buon stop a !d
+1H2D,3S,
+1H,2D,naturale 
+1H2D,Db,punti  no fit a !h però!
+,1H,Please read chat#10-15hp 5+!h SEMPRE sbil. mono/bicolore 
+1HDb,1N,Please read chat#ART. fit 3°a !h  costruttivo 9-11hp (1sa illogico!)
+1HDb,1S,a giocare 5+!s corto a !h 
+1HDb,2C,debole cortoa !h a giocare 5+!c 
+1HDb,2D,debole cortoa !h a giocare 5+!d
+1HDb,2H,Please read chat#fit debole interdittivo di cortesia a !h 3 carte 
+1HDb,2N,licite a salto come da sistema!
+1HDb,2S,licite a salto come da sistema!
+1HDb,3C,licite a salto come da sistema!
+1HDb,3D,licite a salto come da sistema!
+1HDb,3H,fit barrage 4°!h 
+1HDb,--,se dopo DBL 8-10 max 2 carte a !h 
+1HDb,Rd,Please read chat#10+hp punitivo sugli altri colori no fit a !h max 2 carte 
+1H--,1N,5+!s F1giro 9+hp 
+1H--1N--,2C,Please read chat#14-15hp qualsiasi distrib. b) 6+!h 12-13hp min
+1H--1N--2C--,2D,Please read chat#® relay 9+hp 1° grad. chiede distribuzione 
+1H--1N--2C--2D--,2H,ATTENZIONE 11-13hp  6+!h 
+1H--1N--2C--2D--2H--,2S,
+1H--1N--2C--2D--2H--,3C,
+1H--1N--2C--2D--2H--,3D,
+1H--1N--2C--2D--2H--,3H,
+1H--1N--2C--2D--2H--,3S,
+1H--1N--2C--2D--,2N,Please read chat#max 14-15hp 6+!h SOLIDA 2 ON maggiori almeno 
+1H--1N--2C--2D--,2S,5!h e 3!s 14-15hp max 
+1H--1N--2C--2D--,3C,max 14-15hp 5!h e 4+!c 
+1H--1N--2C--2D--3C--,3D,4th suit
+1H--1N--2C--2D--,3D,max 14-15hp 5!h e 4+!d 
+1H--1N--2C--2D--,3H,a salto 6+!h colore chiuso 
+1H--1N--2C--2D--,3S,15hp max 5!h e 4!s 
+1H--1N--2C--,2H, 2 cartine a !h e 5!s 9hp min
+1H--1N--2C--,2S,proprio 9hp min 6!s 
+1H--1N--2C--,3C,
+1H--1N--2C--,3D,
+1H--1N--2C--,3H,
+1H--1N--2C--,3S,
+1H--1N--2C--,4C,
+1H--1N--,2D,min 12-13hp 5!h e 4+!d 
+1H--1N--2D--,2H,
+1H--1N--2D--,2S,
+1H--1N--2D--,3C,
+1H--1N--2D--,3D,
+1H--1N--2D--,3H,
+1H--1N--2D--,3S,
+1H--1N--2D--,4D,
+1H--1N--,2H,ART. 5!h e 4/5!c 12-13hp 
+1H--1N--2H--,2S,
+1H--1N--2H--,3C,
+1H--1N--2H--,3D,
+1H--1N--2H--,3H,
+1H--1N--2H--,3S,
+1H--1N--,2N,Please read chat#min 12-13hp 6+!h SOLIDA 2 ON maggiori almeno 
+1H--1N--,2S,11-13hp 5!h e 3/4!s 
+1H--1N--,3C,min 12-13hp 5!h e 6!c ( corto Lungo!)
+1H--1N--3C--,3D,4th suit
+1H--1N--,3D,min 12-13hp 5!h e 6!d ( corto Lungo!)
+1H--1N--,3H,a salto 6+!h colore chiuso min 12-13hp 
+1H--1N--,3S,
+1H--,1S,0+!s ( se 5+!s è 0-8hp)
+1H--1S--,1N,art. max 14-15 qualsiasi distrib.
+1H--1S--1N--,2C,Please read chat#® relay 9+hp 1° grad. utile chiede distribuzione 
+1H--1S--1N--2C--,2D,14-15hp 5!h e 4+!d 
+1H--1S--1N--2C--2D--,2H,
+1H--1S--1N--2C--2D--,2S,
+1H--1S--1N--2C--2D--,3C,
+1H--1S--1N--2C--2D--,3D,
+1H--1S--1N--2C--2D--,3H,
+1H--1S--1N--2C--2D--,3S,
+1H--1S--1N--2C--2D--,4D,
+1H--1S--1N--2C--,2H,max 14-15hp  6+!h 
+1H--1S--1N--2C--2H--,2S,
+1H--1S--1N--2C--2H--,3C,
+1H--1S--1N--2C--2H--,3D,
+1H--1S--1N--2C--2H--,3H,
+1H--1S--1N--2C--2H--,3S,
+1H--1S--1N--2C--,2N,Please read chat#max 14-15hp 6+!h SOLIDA 2 ON maggiori almeno 
+1H--1S--1N--2C--,2S,5!h e 4!s 
+1H--1S--1N--2C--,3C,max 14-15hp 5!h e 4+!c 
+1H--1S--1N--2C--3C--,3D,4th suit
+1H--1S--1N--2C--,3D,max 14-15hp 5!h e 5!d 
+1H--1S--1N--2C--,3H,a salto 6+!h colore chiuso 
+1H--1S--1N--2C--,3S,6!h e 4!s  max 14-15hp 
+1H--1S--1N--2C--,4C,max 14-15hp 5!h e 6!c ( corto Lungo!)
+1H--1S--1N--2C--,4D,max 14-15hp 5!h e 6!d ( corto Lungo!)
+1H--1S--1N--,2D, 5+!d debole meno di 9 hp a giocare
+1H--1S--1N--,2H,Please read chat#riporto a giocare debole con 2 cartine a !h 
+1H--1S--1N--,2N,5!c e 5!d sgl/vuoto a !h meno di 9hp 
+1H--1S--1N--,2S,Please read chat#6°!s debole meno di 9 hp sgl/vuoto a !h 
+1H--1S--1N--,3C,6/7!c debole a giocare meno di 9hp 
+1H--1S--1N--,3D,
+1H--1S--1N--,3H,
+1H--1S--1N--,3S,
+1H--1S--,2C,12-13hp 5!h e 4+!c
+1H--1S--2C--,2D,
+1H--1S--2C--,2H,
+1H--1S--2C--,2S,
+1H--1S--2C--,3C,
+1H--1S--2C--,3D,
+1H--1S--2C--,3H,
+1H--1S--2C--,3S,
+1H--1S--2C--,4C,
+1H--1S--,2D,min 12-13hp 5!h e 4+!d 
+1H--1S--2D--,2H,
+1H--1S--2D--,2S,
+1H--1S--2D--,3C,
+1H--1S--2D--,3D,
+1H--1S--2D--,3H,
+1H--1S--2D--,3S,
+1H--1S--2D--,4D,
+1H--1S--,2H, min 12-13hp 6+!h 
+1H--1S--2H--,2S,
+1H--1S--2H--,3C,
+1H--1S--2H--,3D,
+1H--1S--2H--,3H,
+1H--1S--2H--,3S,
+1H--1S--,2N,Please read chat# min 12-13hp 6+!h SOLIDA 2 ON maggiori almeno 
+1H--1S--,2S,5+!h e 4!s 11-13hp 
+1H--1S--,3C,min 12-13hp 5!h e 6!c ( corto Lungo!)
+1H--1S--3C--,3D,4th suit
+1H--1S--,3D,min 12-13hp 5!h e 6!d ( corto Lungo!)
+1H--1S--,3H,a salto 6+!h colore chiuso min 12-13hp 
+1H--1S--,3S,
+1H--,2C,Please read chat#GF a) naturale 5+!c ; b) fit 3°!h se 4° con sgl  c) bilanciata senza fit.
+1H--2C--,2D,nat.5!h e 4+!d  ( se 5/5 e' min)
+1H--2C--,2H,a) 6!h oppure 5!h e 4+!c min 
+1H--2C--2H--,2S,Please read chat#naturale o chiede distribuzione ( 1° gradino)
+1H--2C--2H--2S--,2N,6°!h confermata 
+1H--2C--2H--2S--,3C,5!h e 4+!c naturale 
+1H--2C--,2N,max 14-15hp 6°!h+ 2 On maggiori 
+1H--2C--,2S,5+!h e 4+!s
+1H--2C--,3C,5!h e 5!c max 14-15hp 
+1H--2C--,3D,a salto 5!h e 5+!d max 14-15hp 
+1H--2C--,3H,a salto 6+!h palo chiuso 14-15hp max 
+1H--,2D,GF 4+!d 
+1H--2D--,2H,Please read chat#Ripetizione del colore è min anche 5!h e 4x a lato 
+1H--2D--,2S,
+1H--2D--,3C,
+1H--2D--,3D,
+1H--2D--,3H,
+1H--,2H,fit 3°!h  9-11hp 
+1H--2H--,2N,chiede se 9 o 10-11hp su cui 3!h 
+1H--2H--,2S,trial bid nel colore 
+1H--2H--,3C,trial bid nel colore 
+1H--2H--,3D,trial bid nel colore 
+1H--2H--,3H,Please read chat#Invitante ma palo a !h scartinato chiede onori per manche 
+1H--,2N,art. fit 4°!h  8+hp illimitato
+1H--2N--,3C,apertura piena 12-13hp 
+1H--2N--3C--,3H,8/9 hp min fit 4°!h 
+1H--2N--3C--,3N,GF 4!h 333
+1H--2N--3C--,3S,GF/slam 4!h e cue a !s 
+1H--2N--3C--,4C,GF/slam 4!h e cue a !c
+1H--2N--3C--,4D,GF/slam 4!h e cue a !d
+1H--2N--3C--,4H,fit 4°!h GF 10-12hp 
+1H--2N--,3D,14-15hp max 
+1H--2N--,3H,no apertura a giocare ! 
+1H--,2S,art. fit 4°!h e sgl a !s 8-11hp Splimit
+1H--,3C,art. fit 4°!h e sgl a !c 8-11hp Splimit
+1H--,3D,art. fit 4°!h e sgl a !d 8-11hp Splimit
+1H--,3H,barrage fit 4°!h 
+1H--,3N,fit 4!h 333 bil. piatta 
+1H--,3S,Splinter GF 12-14hp sgl a !s 
+1H--,4C,Splinter GF 12-14hp sgl a !c
+1H--,4D,Splinter GF 12-14hp sgl a !d
+1H--,4H,barrage 
+1H--,4N,Please read chat#ATTENZIONE NON usato si usa il 4!s !! per richiesta d'assi ( a 5)
+1H--,4S,ATTENZIONE:RKCBW a 5 A. a grad. :4nt
+1N,2C,se..5+!c 
+1N2C,Db,Please read chat#relay tipo stayman interesse per i nobili ( no punitivo!)trasformabile dall'ap.
+1N,2D,se 5+!d....
+1N2D,Db,Please read chat#relay tipo stayman interesse per i nobili ( no punitivo!)trasformabile dall'ap.
+1N2H,2N,INV con stop a !h 
+1N2H,2S,Competitivo 5+!s passabile NF
+1N2H,3C,GF 5+!c 
+1N2H,3D,GF 5+!d
+1N2H,3H,Please read chat#in prima istanza chiede stop a !h se poi riparla è naturale V slam 
+1N2H,3S,5+!s a salto GF 
+1N,2H,5+!h 
+1N2H,Db,Please read chat#relay tipo stayman interesse per la !s  ( no punitivo!)trasformabile dall'ap.
+1N2HDb--,2N,min no 4/5 !s e stop a !h 
+1N2HDb--,2S,4/5!s ( sia min che max se solo 4°!s ) 
+1N2HDb--,3C,su int. a !h  sono nat.5+!c  
+1N2HDb--,3D,su int. a !h  sono nat.5+!d 
+1N2HDb--,3N,max 14-15hp  no 4/5 !s e stop a !h 
+1N2HDb--,3S,Please read chat#a salto 5°!s max e stop a !h ( altrimenti non abbiamo spazio per chiederlo!)
+1N,2N,se sono i due minori....
+1N2N,Db,punisco almeno 1 minore ho punti 
+1N2S,2N,INV con stop a !s
+1N2S,3C,GF 5+!c 
+1N2S,3D,GF 5+!d
+1N2S,3H,5+!h a salto GF
+1N2S,3S,Please read chat# in prima istanza chiede stop a !h se poi riparla è naturale V slam 
+1N,2S,5+!s
+1N2S,Db,Please read chat#relay tipo stayman interesse per la !h  ( no punitivo!)trasformabile dall'ap.
+1N2SDb--,2N,min no 4/5 !h e stop a !s
+1N2SDb--,2S,4/5!s ( sia min che max se solo 4°!s ) 
+1N2SDb--,3C,art. 4°!h e min INV  
+1N2SDb--,3D,art. 4°!h e max GF 
+1N2SDb--,3H,5°!h (GARANTISCE 5°!h)
+1N2SDb--,3N,max 14-15hp  no 4/5 !s e stop a !h 
+1N2SDb--,3S,
+,1N,12-15hp (Any  5.3.3.2)
+1NDb,2C,relay stayman(ignora il DBL)
+1NDb,2D,transfer 5+!h  ( ignora il DBL)
+1NDb,2H,transfer 5+!s  ( ignora il DBL)
+1NDb,2N,transfer 6+!d  ( ignora il DBL)
+1NDb,2S,transfer 6+!c  ( ignora il DBL)
+1NDb,3C,5!d e 5!c debole ( ignora il DBL)
+1NDb,3D,5!s e 5!h invitante ( ignora il DBL)
+1NDb,--,ok gioco 1SA contrato!
+1NDb,Rd,Please read chat#S.O.S. si nominano i pali più lunghi per scappare dal DBL
+1NDbRd--,2C,
+1NDbRd--2C--,2D,!d and a major
+1NDbRd--2C--2D--,2H,Pass or correct
+1NDbRd--2C--,2H,Majors
+1NDbRd--,2D,Doubleton clubs or 3343
+1N--,2C,® 10+hp (anche senza 4°nobili)
+1N--2C--,2D,12-15 al max 1 4°M o nessuna
+1N--2C--2D--,2H,transfer ho SOLO  la 4!s 
+1N--2C--2D--2H--,2N,Please read chat#min 12-13hp ( probabile 4°!h ma NON garantita)
+1N--2C--2D--2H--,2S,min e 4°!s 12-13hp 
+1N--2C--2D--2H--,3H,max 14-15hp e 4°!h GF 
+1N--2C--2D--2H--,3N,Please read chat#Max 14-15hp  GF ( probabile 4°!h ma NON garantita)
+1N--2C--2D--2H--,3S,max 14-15hp e 4°!s 
+1N--2C--2D--,2N,Please read chat#Nessun interesse per i nobili GF chiede distribuzione
+1N--2C--2D--,2S,transfer ho  SOLO la  4!h
+1N--2C--2D--2S--,2N,min 12-13hp senza fita !h  (forse  4!s)
+1N--2C--2D--2S--,3H,min 12-13hp e 4°!h
+1N--2C--2D--2S--,3N,Max 14-15hp  GF (no nobili)
+1N--2C--2D--2S--,3S,4°!s e max 14-15hp GF 
+1N--2C--2D--2S--,4H,max 14-15hp e 4°!h
+1N--2C--2D--,3C,4!h e 4!s 10-11hp LIM INV
+1N--2C--2D--3C--,3H,a giocare fit 3/4°!h min 
+1N--2C--2D--3C--,3N,ok max a giocare 
+1N--2C--2D--3C--,3S,a giocare fit 3/4°!s min 
+1N--2C--2D--,3D,4!h e 4!s GF 12+hp 
+1N--2C--2D--3D--,3H,min e fit 4°!h 
+1N--2C--2D--3D--,3S,min e fit 4°!s
+1N--2C--2D--,3H,SMOLEN 5!s e 4!h GF
+1N--2C--2D--,3S,SMOLEN 5!h e 4!s GF
+1N--2C--2D--,4C,6!h e 4!s GF
+1N--2C--2D--,4D,6!s e 4!h GF
+1N--2C--,2H,5°!h e min 12-13hp
+1N--2C--2H--,2N,INV chiede 13hp 
+1N--2C--2H--,3C,Please read chat#Chiede doubleton sguarniti per valutar e 3nt
+1N--2C--2H--,3H,INV fit 3°/4 !h 
+1N--2C--2H--,3N,a giocare 
+1N--2C--2H--,3S,Cue-bid fit a !h GF+
+1N--2C--2H--,4C,Cue-bid fit a !h GF+
+1N--2C--2H--,4D,Cue-bid fit a !h GF+
+1N--2C--,2N,No 4° nobili 12-13hp
+1N--2C--,2S,5°!s e min 12-13hp
+1N--2C--2S--,2N,INV chiede 13hp 
+1N--2C--2S--,3C,Please read chat#Chiede doubleton sguarniti per valutar e 3nt
+1N--2C--2S--,3H,cue-bid fit a !s ( NON E' PALO!!)
+1N--2C--2S--,3N,a giocare 
+1N--2C--2S--,3S,INV fit 3°/4 !s 
+1N--2C--2S--,4C,Cue-bid fit a !s GF+
+1N--2C--2S--,4D,Cue-bid fit a !s GF+
+1N--2C--2S--,4H,
+1N--2C--,3C,4°!h e 4!s  e min 12-13hp
+1N--2C--3C--,3D,Please read chat#transfer dimmi 3!h potrei passare dopo....
+1N--2C--3C--,3H,Please read chat#transfer dimmi 3!s potrei passare dopo....
+1N--2C--3C--,4D,Please read chat#scegli la manche nel nobile ho entrambi i nobili
+1N--2C--,3D,4°!h e 4!s  e Max 14-15hp
+1N--2C--,3H,5°!h e Max  14-15hp
+1N--2C--,3S,5°!s e Max 14-15hp
+1N--,2D,transfer 5+!h 
+1N--2D--,2H,accettazione normale 
+1N--2D--,2S,Please read chat#Super accettazione fit 4°!h max 14-15hp 
+1N--2D--,3H,Please read chat#Super accettazione fit 4°!h min 12-13hp 
+1N--,2H,transfer 5+!s
+1N--2H--,2N,Super accettazione fit 4°!s max 14-15hp
+1N--2H--,2S,normale  accettazione fit 2°/3°
+1N--2H--,3S,Please read chat#Super accettazione fit 4°!s  min 12-13hp
+1N--,2N,transfer 6+!d
+1N--2N--,3C,garantisce On.maggiore 3° a !d 
+1N--2N--3C--,3D,a giocare debole 
+1N--2N--3C--,3H,cue GF/ SLam 
+1N--2N--3C--,3N,a giocare 
+1N--2N--3C--,3S,cue GF/ SLam 
+1N--2N--3C--,4C,cue GF/ SLam 
+1N--2N--3C--,4D,Slam fissa atout e chiede assi 
+1N--2N--,3D,no onore 3°!d 
+1N--2N--3D--,3H,da Slam 6+!d e 4!h GF+
+1N--2N--3D--,3N,palo chiuso porto 6 prese...a !d 
+1N--2N--3D--,3S,da Slam 6+!d e 4!s GF+
+1N--2N--3D--,4C,6!d e 5!c GF 
+1N--2N--3D--,4D,Please read chat#mano a !d da Slam chiede due bid palo autonomo
+1N--2N--,3H,
+1N--2N--,3S,
+1N--2N--,4C,
+1N--,2S,transfer 6+!c
+1N--2S--,2N,garantisce On.maggiore almeno 3° a !c 
+1N--2S--2N--,3C,a giocare 
+1N--2S--2N--,3D,cue GF/ SLam 
+1N--2S--2N--,3H,cue GF/ SLam 
+1N--2S--2N--,3N,a giocare 
+1N--2S--2N--,3S,cue GF/ SLam 
+1N--2S--2N--,4C,Slam fissa atout e chiede assi 
+1N--2S--,3C,Please read chat#no fit a !c di Onore a giocare se debole
+1N--2S--3C--,3D,da Slam 6+!c e 4+!d 
+1N--2S--3C--,3H,da Slam 6+!c e 4!h GF+
+1N--2S--3C--,3N,palo chiuso porto 6 prese...a !c 
+1N--2S--3C--,3S,da Slam 6+!c e 4!s GF+
+1N--2S--3C--,4C,Please read chat#mano a !c da Slam chiede due bid palo autonomo
+1N--2S--3C--,4D,6!c e 5!d GF 
+1N--,3C,5!d / 5!c debole a scegliere il minore 
+1N--3C--,3D,a giocare scelta 
+1N--,3D,5!s e 5!h INV  attenzione 
+1N--,3H,Please read chat#6+!h GF/Slam colore autonomo risposte a 4 gradini dell'Ap. 1°min senza On;2°max senza on;3°min conON ;4°max con On
+1N--,3N, a giocare nessun interesse per Nobili
+1N--,3S,Please read chat#6+!s GF/Slam colore autonomo risposte a 4 gradini dell'Ap. 1°min senza On;2°max senza on;3°min conON ;4°max con On
+1N--,4C,5!s e 5!h GF a scegliere il nobile 
+1N--,4D,NON USATO! 
+1N--,4H,a giocare onori da proteggere
+1N--,4N,Quantitativo per 6SA
+1N--,4S,a giocare onori da proteggere
+1N--,5N,Quantitativo per 7SA
+1S,1N,naturale 
+1S1N,Db,punitivo ! 
+1S2C,2D,5+!d 11+hp Forcing
+1S2C,2H,5+!h 11+hp forcing
+1S2C,2N,fit 4°!s limite 9-11hp o + 
+1S2C,2S,fit competitivo 3°!s 
+1S2C,3C,fit 3°!s limite 9-11hp o + 
+1S2C,3D,a salto Splimit  Sgl!d fit 4°!s 9-11hp
+1S2C,3H,a salto Splimit  Sgl!h fit 4°!s 9-11hp
+1S2C,3N,a giocare buon stop a !c
+1S2C,3S,fit barrage 4°!s no punti
+1S,2C,naturale 
+1S2C,Db,punti  no fit a !s
+1S2D,2H,5+!h 11+hp forcing
+1S2D,2N,fit 4°!s limite 9-11hp o + 
+1S2D,2S,fit competitivo 3°!s 
+1S2D,3C,5+!c 11+hp forcing
+1S2D,3D,fit 3°!s limite 9-11hp o + 
+1S2D,3H,a salto Splimit  Sgl!h fit 4°!s 9-11hp
+1S2D,3N,a giocare buon stop a !d
+1S2D,3S,fit barrage 4°!s no punti
+1S,2D,naturale 
+1S2D,Db,punti  no fit a !s però!
+1S2H,2N,fit 4°!s limite 9-11hp o + 
+1S2H,2S,fit competitivo 3°!s 
+1S2H,3C,5+!c 11+hp forcing
+1S2H,3D,5+!d 11+hp forcing 
+1S2H,3H,fit 3°!s limite 9-11hp o + 
+1S2H,3N,a giocare buon stop a !h
+1S2H,3S,fit barrage 4°!s no punti
+1S,2H,Naturale 
+1S2H,Db,punti  no fit a !s però!
+,1S,Please read chat#10-15hp 5+!s SEMPRE sbil. mono/bicolore 
+1SDb,1N,Please read chat#ART. fit 3°a !s  costruttivo 9-11hp (1sa illogico!)
+1SDb,1S,a giocare 5+!s corto a !h 
+1SDb,2C,debole cortoa !s a giocare 5+!c 
+1SDb,2D,debole cortoa !d a giocare 5+!d
+1SDb,2H,5/6+!h a giocare corto a !s  
+1SDb,2N,licite a salto come da sistema!
+1SDb,2S,fit debole interdittivo  a !s 3 carte
+1SDb,3C,licite a salto come da sistema!
+1SDb,3D,licite a salto come da sistema!
+1SDb,3H,
+1SDb,3S,fit barrage 4°!s
+1SDb,--,se dopo DBL 8-10 max 2 carte a !h 
+1SDb,Rd,Please read chat#10+hp punitivo sugli altri colori no fit a !s max 2 carte 
+1S--,1N,Please read chat#F1Giro anche mani Gf per giocare 3nt dalla parte ok.
+1S--1N--,2C,Please read chat#14-15hp qualsiasi distrib. b) 6+!s 12-13hp min
+1S--1N--2C--,2D,Please read chat#® relay 9+hp 1° grad. utile chiede distribuzione 
+1S--1N--2C--2D--,2H,14-15 max 5!s e4!h 
+1S--1N--2C--2D--2H--,2S,
+1S--1N--2C--2D--2H--,3C,
+1S--1N--2C--2D--2H--,3D,
+1S--1N--2C--2D--2H--,3H,
+1S--1N--2C--2D--2H--,3S,
+1S--1N--2C--2D--,2N,Please read chat#max 14-15hp 6+!s SOLIDA 2 ON maggiori almeno 
+1S--1N--2C--2D--,2S,ATTENZIONE 12-13hp  6+!s
+1S--1N--2C--2D--,3C,max 14-15hp 5!s e 4+!c 
+1S--1N--2C--2D--3C--,3D,4th suit
+1S--1N--2C--2D--,3D,max 14-15hp 5!s e 4+!d 
+1S--1N--2C--2D--,3H,14-15hp max 5!s e 5!h 
+1S--1N--2C--2D--,3S,a salto 6+!s colore chiuso 
+1S--1N--2C--,2H,debole 5+!h meno di 9hp a giocare 
+1S--1N--2C--,2N,Please read chat#5!d e 5!c sgl a !s a scegliere il minore meno di 9 hp 
+1S--1N--2C--,2S,Please read chat#riporto a giocare debole con 2 cartine a !s 
+1S--1N--2C--,3C,
+1S--1N--2C--,3D,Please read chat#a salto 6+!d debole meno di 9 hp a giocare 
+1S--1N--2C--,3H,
+1S--1N--2C--,3S,
+1S--1N--2C--,4C,
+1S--1N--,2D,min 12-13hp 5!s e 4+!d 
+1S--1N--2D--,2H,
+1S--1N--2D--,2S,
+1S--1N--2D--,3C,
+1S--1N--2D--,3D,
+1S--1N--2D--,3H,
+1S--1N--2D--,3S,
+1S--1N--2D--,4D,
+1S--1N--,2H,ART. 5!s e 4/5!h 12-13hp 
+1S--1N--2H--,2S,
+1S--1N--2H--,3C,
+1S--1N--2H--,3D,
+1S--1N--2H--,3H,
+1S--1N--2H--,3S,
+1S--1N--,2N,Please read chat#min 12-13hp 6+!s SOLIDA 2 ON maggiori almeno 
+1S--1N--,2S,ART. 12-13hp 5!s e 4/5!c 
+1S--1N--,3C,min 12-13hp 5!s e 5+!c 
+1S--1N--3C--,3D,4th suit
+1S--1N--,3D,min 12-13hp 5!s e 6!d ( corto Lungo!)
+1S--1N--,3H,a salto min 12-13 hp 6!s e 5!h 
+1S--1N--,3S,a salto 6+!s colore chiuso min 12-13hp 
+1S--,1S,Please read chat#5+!s F1giro almeno se debole ha sgl/vuoto a !h .
+1S--1S--1N--,2H,
+1S--1S--1N--,2S,Usually six spades
+1S--1S--1N--,3C,
+1S--1S--1N--,3D,Usually four diamonds
+1S--1S--1N--,3H,
+1S--1S--1N--,3S,
+1S--1S--,2C,
+1S--1S--2C--,2D,4th suit
+1S--1S--2C--,2H,Possibly false preference
+1S--1S--2C--,2S,
+1S--1S--2C--,3C,
+1S--1S--2C--,3D,
+1S--1S--2C--,3H,
+1S--1S--2C--,3S,
+1S--1S--2C--,4C,
+1S--1S--,2D,
+1S--1S--2D--,2H,Possibly false preference
+1S--1S--2D--,2S,
+1S--1S--2D--,3C,4th suit
+1S--1S--2D--,3D,
+1S--1S--2D--,3H,
+1S--1S--2D--,3S,
+1S--1S--2D--,4D,
+1S--1S--,2H,
+1S--1S--2H--,2S,
+1S--1S--2H--,3C,
+1S--1S--2H--,3D,Usually four diamonds
+1S--1S--2H--,3H,
+1S--1S--2H--,3S,
+1S--1S--,2S,
+1S--1S--,3C,
+1S--1S--3C--,3D,4th suit
+1S--1S--,3D,
+1S--1S--,3H,
+1S--1S--,3S,
+1S--,2C,Please read chat#GF a) naturale 5+!c ; b) fit 3°!s se 4° con sgl  c) bilanciata senza fit.
+1S--2C--,2D,nat.5!s e 4+!d  ( se 5/5 e' min)
+1S--2C--2D--,2H,4th suit
+1S--2C--,2H,nat.5!s e 4+!h  ( se 5!s/5!h e' min)
+1S--2C--2H--,2S,Please read chat#naturale o chiede distribuzione ( 1° gradino)
+1S--2C--2H--2S--,2N,6°!h confermata 
+1S--2C--2H--2S--,3C,5!h e 4+!c naturale 
+1S--2C--,2N,max 14-15hp 6°!s+ 2 On maggiori 
+1S--2C--,2S,a) 6!s oppure 5!s e 4+!c min 
+1S--2C--2S--,2N,nat. chiede distribuzione 
+1S--2C--2S--2N--,3C,confermato 5!s e 4+!c 
+1S--2C--2S--2N--,3N,6°!s colore chiuso ma minima 
+1S--2C--2S--2N--,3S,6°!s confermata 
+1S--2C--,3C,5!s e 5!c max 14-15hp 
+1S--2C--,3D,a salto 5!s e 5+!d max 14-15hp 
+1S--2C--,3H,a salto 5!s e 5+!h max 14-15hp 
+1S--2C--,3S,a salto 6+!s palo chiuso 14-15hp max 
+1S--,2D,Please read chat#GF 4+!d 12+hp ( possibile anche fit a !s 
+1S--2D--,2H,
+1S--2D--,2S,Please read chat#ripetizione mano minima anche 5!s e 4x a lato 
+1S--2D--,3C,
+1S--2D--,3D,
+1S--2D--,3H,
+1S--,2H,5+!h GF 12+hp 
+1S--2H--,2S,Please read chat#Ripetizione è minimo anche 5!s e altra 4° a lato 
+1S--2H--,3C,
+1S--2H--,3D,
+1S--2H--,3H,
+1S--,2N,art. fit 4°!s  8+hp illimitato
+1S--2N--,3C,apertura piena 12-13hp 
+1S--2N--3C--,3H,GF/slam 4!s e cue a !h
+1S--2N--3C--,3N,GF 4!s 333
+1S--2N--3C--,3S,8/9hp fit 4°!s min a giocare 
+1S--2N--3C--,4C,GF/slam 4!s e cue a !c
+1S--2N--3C--,4D,GF/slam 4!s e cue a !d
+1S--2N--3C--,4H,
+1S--2N--3C--,4S,fit 4°!s GF 10-12hp 
+1S--2N--,3D,14-15hp max 
+1S--2N--,3H,no apertura a giocare ! 
+1S--2N--,3S,no apertura! S.off
+1S--,2S,fit 3°!s  9-11hp 
+1S--2S--,2N,chiede se 9 o 10-11hp su cui 3!s 
+1S--2S--,3C,trial bid nel colore 
+1S--2S--,3D,trial bid nel colore 
+1S--2S--,3H,trial bid nel colore 
+1S--2S--,3S,Please read chat#Invitante ma palo a !s  scartinato chiede onori per manche 
+1S--,3C,art. fit 4°!s e sgl a !c 8-11hp Splimit
+1S--,3D,art. fit 4°!s e sgl a !d 8-11hp Splimit
+1S--,3H,art. fit 4°!s e sgl a !h 8-11hp Splimit
+1S--,3N,fit 4!s 333 bil. piatta 
+1S--,3S,barrage fit 4°!s 
+1S--,4C,Splinter GF fit 4°!s 12-14hp sgl a !c
+1S--,4D,Splinter fit 4°!s GF 12-14hp sgl a !d
+1S--,4H,Splinter fit 4°!s GF 12-14hp sgl a !h
+1S--,4N,Rich.Assi a 5 assi diretta 
+1S--,4S,gran barrage fit 4/5!s 
+2C2D,2H,5+!h non forzante 
+2C2D,2N,bil 11-12hp stop a !d inv.
+2C2D,2S,5+!s non forzante 
+2C2D,3C,Please read chat#fita !c  barrage interdittivo mano competitiva 
+2C2D,Db,chiede distribuzione  punti 
+2C2H,2N,bil 11-12hp stop a !h inv.
+2C2H,2S,5+!s non forzante 
+2C2H,3C,Please read chat#fita !c  barrage interdittivo mano competitiva 
+2C2H,3D,5+!d forzante a liv 3
+2C2H,3S,6+!s forcing a salto
+2C2H,Db,Please read chat#chiede distribuzione  punti (probabili 4!s)
+2C2S,2N,bil 11-12hp stop a !s inv.
+2C2S,3C,Please read chat#fita !c  barrage interdittivo mano competitiva 
+2C2S,3D,5+!d forzante a liv 3
+2C2S,3H,5+!h forzante a liv 3
+2C2S,Db,Please read chat#chiede distribuzione  punti (probabili 4!h)
+,2C,Please read chat#10-15hp; 5+ !c a) bic 5+!c e 4M b) 6+!c c) 6+!c e 4!d 14-15hp 
+2CDb,2D,5+!d passabile 
+2CDb,2H,5+!h passabile 
+2CDb,2N,Please read chat#Naturale bil limite con fit a !c 11-12hp
+2CDb,2S,5+!d passabile 
+2CDb,3C,sbarrante fit a !c debole 
+2CDb,--,tolleranza per le !c in mano debole 
+2CDb,Rd,Please read chat#punti; possibile dbl punitivo successivo;altrimenti giochiamo noi GF
+2C--,2D,relay per mani invitanti o GF chiede:
+2C--2D--,2H,5+!c e 4!h 
+2C--2D--2H--,2N,INV
+2C--2D--2H--,2S, 5!s GF chiede fit 3° 
+2C--2D--2H--,3C,riporto a giocare NON vede manche 
+2C--2D--2H--,3D,Please read chat#forcing 5!d GF o relay per poi fittare le !c per Slam a !c 
+2C--2D--2H--,3H,INV fit 4°!h 
+2C--2D--2H--,3S,cue-bid fit a !h GF/Vslam 
+2C--2D--2H--,4C,cue-bid fit a !h GF/Vslam 
+2C--2D--,2N,Please read chat#6°!c max 14-15hp ( oppure AKQ 6°!c e A a lato)
+2C--2D--2N--,3C,relay chiede resti GF 
+2C--2D--2N--3C--,3D,6!c 3!h e 3!s 
+2C--2D--2N--3C--,3H,6!c e 3!h 
+2C--2D--2N--3C--,3N,6!c e 2!h 2!s e 3!d  
+2C--2D--2N--3C--,3S,6!c e 3!s
+2C--2D--2N--3C--,4C,Please read chat#7+!c chiuse posso giocare solo a !c sgl nei Nobili!
+2C--2D--2N--,3D,
+2C--2D--2N--,3H,
+2C--2D--2N--,3S,
+2C--2D--,2S,5+!c e 4!s
+2C--2D--2S--,2N,INV
+2C--2D--2S--,3C,riporto a giocare NON vede manche 
+2C--2D--2S--,3D,Please read chat#5!d GF forcing  o relay per poi fittare le !c per Slam a !c 
+2C--2D--2S--,3H, 5!h GF chiede fit 3°a !h 
+2C--2D--2S--,3S,INV fit 4°!s 
+2C--2D--,3C,6°!c min non costruttivo 10-13hp 
+2C--2D--3C--,3D,relay GF chiede resti 
+2C--2D--3C--3D--,3H,6!c e 3!h ( possibile anche la 3°!s)
+2C--2D--3C--3D--3H--,3S,GF 5!s chiede possibile fit 3°!s 
+2C--2D--3C--3D--,3N,6!c e 2!h 2!s e 3!d  
+2C--2D--3C--3D--,3S,6!c e 3!s ( esclude 3°!h )
+2C--2D--3C--3D--,4C,Please read chat#7+!c chiuse posso giocare solo a !c sgl nei Nobili!
+2C--2D--3C--,3H,
+2C--2D--3C--,3S,
+2C--2D--3C--,4C,
+2C--2D--,3D,6!c e 4!d max 14-15hp
+2C--2D--,3H,6!c e 4!h max 14-15hp GF
+2C--2D--,3S,6!c e 4!s max 14-15hp GF
+2C--,2H,5+!h 7-11hp passabile 
+2C--2H--,2N,max buona mano probabile 6°!c 14-15hp 
+2C--2H--,2S,Please read chat#5+!c e 4°!s e corto a !h ( sgl/vuoto) min 12-13hp 
+2C--2H--,3C,Please read chat#6+!c scoraggiante a giocare sgl/vuoto a !h
+2C--2H--,3D,6!c e 4!d 14-15hp max 
+2C--2H--,3H,fit 3°!h min 12-13hp INV 
+2C--2H--,3S,Please read chat#a salto 6!c e 4!s 14-15hp INV (sgl/vuoto a !h )
+2C--,2N,OBBLIGA al 3!c per : passo
+2C--2N--,3C,obbligato !!
+2C--2N--3C--,3D,5!h e 5!s inv
+2C--2N--3C--,3H,5!h e 5!s GF + 
+2C--,2S,5+!s 7-11hp passabile 
+2C--2S--,2N,max buona mano probabile 6°!c 14-15hp 
+2C--2S--,3C,Please read chat#6+!c scoraggiante a giocare sgl/vuoto a !s
+2C--2S--,3D,6!c e 4!d 14-15hp max 
+2C--2S--,3H,5+!c 4!h (sgl/vuoto a !s) 
+2C--2S--,3S,fit 3°!s min 12-13hp INV 
+2C--2S--,4S,fit 4°!s max GF 14-15hp 
+2C--,3C,fit 3°/4!c  costruttivo a  9-11hp 
+2C--,3D,Colore autonomo GF 6°!d 
+2C--,3H,Colore autonomo GF 6°!h
+2C--,3S,Colore autonomo GF 6°!s
+2C--,4C,barrage gran fit a !c 
+2C--,5C,barrage gran fit a !c 
+2D2H,Db,punti ( se 2!h avversario è illogico!)
+2D2S,3H,sbarrante fit competitivo a !h 
+2D2S,Db,PUNITIVO!
+2D3C,3D,
+2D3C,Db,Penalty
+2D3D,Db,PUNITIVO!
+,2D,4-9hp 4+!h e 4+!s
+2DDb,2H,
+2DDb,--,ho le !d lunghe... corto a !h e a !s 
+2DDb,Rd,Please read chat#punti ; punitivo nei colori futuri avversari!
+2D--,2H,a giocare 
+2D--,2N,Please read chat#a) GF art. chiede b) INV 14/15hp e entrambi fit nei Nobili 4/4 
+2D--2N--,3C,Please read chat#minimo  solo le 5/4 o 5/5 (ESCLUSA la 4/4)
+2D--2N--3C--,3D,® relay GF chiede sdistribuzione 
+2D--2N--3C--3D--,3H,Invertiti 5!s e 4!h min 4-7hp 
+2D--2N--3C--3D--,3N,5!h e 5!s min 4-7hp
+2D--2N--3C--3D--,3S,Invertiti 5!h e 4!s min 4-7hp 
+2D--2N--3C--,3H,a passare ero INV con i Nobili 
+2D--2N--3C--,3S,a passare ero INV con i Nobili 
+2D--2N--3C--,4C,Please read chat#fissa le !h e V slam non garantisce cue bid a !c 
+2D--2N--3C--,4D,Please read chat#fissa le !s e V slam non garantisce cue bid a !c 
+2D--2N--,3D,4!h e 4!s minimo 4-7hp 
+2D--2N--3D--,3H,a giocare ero solo INV nei nobili
+2D--2N--3D--,3N,a giocare 
+2D--2N--3D--,3S,a giocare ero solo INV nei nobili
+2D--2N--3D--,4C,Please read chat#fissa le !h e V slam non garantisce cue bid a !c 
+2D--2N--3D--,4D,Please read chat#fissa le !s e V slam non garantisce cue bid a !c 
+2D--2N--,3H,Invertiti 5!s e 4!h max 8-9hp 
+2D--2N--,3N,4!h e 4!s MAX 8-9hp
+2D--2N--,3S,Invertiti 5!h e 4!s max 8-9hp 
+2D--2N--,4C,5!h e 5!s splinter a !c max 8-9hp
+2D--2N--,4D,5!h e 5!s splinter a !d max 8-9hp
+2D--,2S,a giocare 
+2D--,3C,Please read chat#INV. a !h fit 4+!h  14-15hp almeno ( secondo le zone)
+2D--,3D,Please read chat#INV. a !s fit 4+!s  14-15hp almeno ( secondo le zone)
+2D--,3H,barrage a !h 
+2D--,3S,barrage a !s 
+2D--,4C,
+2D--,4D,
+2H2N,Db,PUNITIVO!
+2H2S,Db,PUNITIVO!
+2H3C,Db,PUNITIVO!
+2H3D,Db,PUNITIVO!
+,2H,Please read chat#10-15 HCP.   4!s4!h1!d4!c - 4!s4!h0!d5!c    4!s3!h1!d5!c -  3!s4!h1!d5!c con le !c deboli 
+2HDb,2S,a giocare  almeno 4!s 
+2HDb,3C,a giocare scelta delle !c 
+2HDb,--,Please read chat#almeno 3 carte a !h tolleranza per il dbl
+2HDb,Rd,Please read chat#punti relay forcing (punitivi i colori avversari successivi!)
+2H--,2N,GF chiede distribuzione 
+2H--2N--,3C,Please read chat#minimo 11-13hp non dice nulla sulla distribuzione 
+2H--2N--3C--,3D,relay chiede distribuzione 
+2H--2N--3C--3D--,3H, 3!h4!s5!c 1!d 
+2H--2N--3C--3D--,3N,tricolore 4!h4!s4!c 1!d 
+2H--2N--3C--3D--,3S,4!h3!s5!c 1!d 
+2H--2N--3C--3D--,4C,Chicane a !d 4!h4!s5!c 0!d 
+2H--2N--,3D,max 14-15hp tricolore 4!h-4!s-4!c-1!d 
+2H--2N--,3H,max 14-15hp 3!h4!s5!c 1!d 
+2H--2N--,3N,Please read chat#max 14-15hp chicane a !d con 5!c4!h 4!s 
+2H--2N--,3S,max 14-15hp 4!h3!s5!c 1!d 
+2H--,2S,a giocare 
+2H--,3C,a giocare 
+2H--,3D,Please read chat#6°!d invitante  11-13hp chiede il max per 3SA
+2H--,3H,fit invitante a !h 
+2H--,3S,fit invitante a !s 
+2H--,4C,invitante a 5!c 
+2H--,4D,Please read chat#illogico chiede i controlli ! probabile palo autonomo del rispondente 
+,2N,Bil.20-22 (possibile 5!s/5!h332)
+2N--,3C,Stayman giochiamo Puppet
+2N--3C--,3D,1 o 2 4° nobili 
+2N--3C--3D--,3H,4°!s in sottocolore (esclude 4!h)
+2N--3C--3D--,3N,a giocare 
+2N--3C--3D--,3S,4°!h in sottocolore (esclude 4!s)
+2N--3C--3D--,4D,scegli il nobile GF li ho entrambi!
+2N--3C--,3H,5!h332
+2N--3C--,3N,No nobili 4/5 
+2N--3C--3N--,4C,6+!c V slam nel minore!
+2N--3C--3N--,4D,6+!d V slam nel minore!
+2N--3C--,3S,5!s332
+2N--,3D,transfer 5+!h 
+2N--3D--,3H,accetta non ha fit 4°!h 
+2N--3D--3H--,3N,Please read chat#5!h e 4!s GF per far giocare l'apertore! ATTENZIONE ART.
+2N--3D--3H--,3S,ATTENZIONE : art. dimmi 3SA GF
+2N--3D--3H--,4C,5!h e 5!c  sbilanciata V slam 
+2N--3D--3H--,4D,5!h e 5!d  sbilanciata V slam 
+2N--3D--,3N,accetta con fit 4°!h e 4!h333
+2N--3D--,3S,accetta con fit 4°!h e cue bid a !s 
+2N--3D--,4C,accetta con fit 4°!h e cue bid a !c
+2N--3D--,4D,accetta con fit 4°!h e cue bid a !d
+2N--,3H,transfer 5+!s ( nega 4°!h però)
+2N--3H--,3N,Please read chat#accetta con fit 4°!h e 4!h 333 proposta di contratto
+2N--3H--,3S,accettazione non ha fit 4°!s 
+2N--3H--,4C,accetta con fit 4°!h e cue bid a !c
+2N--3H--,4D,accetta con fit 4°!h e cue bid a !d
+2N--3H--,4H,accetta con fit 4°!h e cue bid a !h
+2N--,3N,Please read chat#ATTENZIONE 5!s e 4!h GF per giocare diretti 3SA occorre passare prima dal 3!c  Stayman
+2N--,3S,Bicolore !c !d almeno 9 carte 
+2N--3S--,3N,proposta di giocare
+2N--3S--,4C,fit in mano max per tentativo GF/Slam
+2N--3S--,4D,fit in mano max per tentativo GF/Slam
+2N--3S--,4H,5!h 332 proposta di contratto 
+2N--3S--,4N,Please read chat#scegli il colore + lungo ho uguale lunghezza nei minori!
+2N--3S--,4S,5!s 332 proposta di contratto 
+2N--,4C,5!s e 5!h GF ( come su 1SA)
+2N--,4H,a giocare per motivi tattici
+2N--,4N,quantitativo per 6SA
+2N--,4S,a giocare per motivi tattici
+2N--,5N,quantitativo per 7SA ! 
+2S2N,Db,PUNITIVO!
+2S3C,Db,ho fit a !c di onore maggiore ! 
+2S3D,Db,ho fit a !d di onore maggiore ! 
+2S3H,Db,PUNITIVO!
+,2S,Please read chat#4-10hp 5m/4+m (V contro R e tutti V 5m/4+m ; Tutti R o Sf.zona sempre 5+m/5+m)  
+2SDb,3S,
+2SDb,--,ho le !s lunghe corto nei minori!
+2SDb,Rd,Please read chat#punti ; punitivo nei colori futuri avversari!
+2S--,2N,Please read chat#relay GF chiede distribuzione e punteggio
+2S--2N--,3C,Please read chat#minimo 4-7hp ancora indefinita la distribuzione 
+2S--2N--3C--,3D,relay chiede 
+2S--2N--3C--3D--,3H,5!c e 4!d
+2S--2N--3C--3D--,3N,5!c e 5!d con sgl SENZA vuoti 
+2S--2N--3C--3D--,3S,5!d e 4!c
+2S--2N--3C--3D--,4C,5!c e 5!d e  3°M su cui 4!d 
+2S--2N--3C--3D--4C--,4D,relay chiede la 3° nobile 
+2S--2N--3C--3D--,4H,6!c e 5!d 
+2S--2N--3C--3D--,4N,6!d e 6!c min 4-7hp 
+2S--2N--3C--3D--,4S,6!d e 5!c 
+2S--2N--,3D,5!d e 5!c max 8-10hp (diretto)
+2S--2N--,3H,5!c e 4!d max 8-10hp (diretto)
+2S--2N--,3N,non usato ...
+2S--2N--,3S,5!d e 4!c max 8-10hp (diretto)
+2S--2N--,4C,5!c e 5!d e  3°M max 8-10hp su cui 4!d 
+2S--2N--4C--,4D,relay chiede la 3° Nobile all'apertore.
+2S--2N--,4D,non usato 
+2S--2N--,4H,6!c e 5!d max 8-10hp 
+2S--2N--,4N,6!d e 6!c max 8-10hp   raro......! 
+2S--2N--,4S,6!d e 5!c e  max 8-10hp
+2S--,3C,a giocare scelta minore 
+2S--,3D,a giocare scelta minore 
+2S--,3H,Please read chat#GF Palo autonomo 6+!h gioca manche anche di fronte al sgl a !h 
+2S--,3S,Please read chat#GF Palo autonomo 6+!s gioca manche anche di fronte al sgl a !s 
+2S--,4C,barrage debole 
+2S--,4D,barrage debole 
+2S--,4H,
+,3C,Please read chat#Costruttivo solo  in Zona x 3SA  ; distruttivo nelle altre situazioni  anche pali 6°
+3C--,3D,Please read chat#5+!d GF chiede valori laterali per il 3SA; se meno !d allora GFè fit a !c 
+3C--,3H,forzante 5+!h GF
+3C--,3S,forzante 5+!s GF
+3C--,4C,barrage prolungamento fit a !c 
+,3D,Please read chat#Costruttivo solo in Zona x 3SA  ; distruttivo nelle altre situazioni anche pali 6°
+3D--,3H,forzante 5+!h GF
+3D--,3S,forzante 5+!s GF
+3D--,4C,
+3D--,4D,barrage prolungamento fit a !d
+,3H,6/7!h distruttivo a seconda della zona 
+3H--,3S,forzante 5+!s GF
+3H--,4C,
+3H--,4D,
+,3N,Gambling 7°/8° minore chiusa 
+3N--,4C,passa o correggi
+3N--,4D,chiede per i singoli
+3N--4D--,4H,sgl!h 
+3N--4D--,4N,7m222 no singoli ! 
+3N--4D--,4S,sgl!s 
+3N--4D--,5C,extra lunghezza 8°!c 
+3N--4D--,5D,extra lunghezza 8°!d
+,3S,6/7!s distruttivo a seconda della zona 
+,4N,super bicolore minore senza apertura!
+Option
+

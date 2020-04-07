@@ -1,0 +1,2043 @@
+BBOalert
+1C,1D,4-6 !d; 4-6 !h; 7-15 Hcp
+1C,1H,4-6 !h; 4-6 !s; 7-15 Hcp
+1C,1N,16-18 Bal; stopper !c.
+1C,1S,4-6 !s; 4-6 !c; 7-15 Hcp
+1C,Db,Please read chat#Take out: 16+ Any; 4-4-4-1 distr; 8+ Hcp; 12-15 Hcp Bal.
+1CDb--,1D,Transfer; 4+!h; 0-9 Hcp.
+1CDb--,1H,Transfer; 4+!s; 0-9 Hcp.
+1CDb--,1N,Please read chat#8-9 Hcp Balanced; no 5 card; stopper in !c.
+1CDb--,1S,Transfer; 4+!d; 0-9 Hcp.
+1CDb--,2C,12+ Hcp any distribution.
+1CDb--,2D,10-11 Hcp 5+!d; NF
+1CDb--,2H,10-11 Hcp 5+!h; NF
+1CDb--,2N,10-11 Hcp; Bal. stopper.
+1CDb--,2S,10-11 Hcp 5+!s; NF
+1CDb--,3C,Control Asking Bid.
+1CDb--,--,penalty
+Error *001CP1D=NYYYYYY000|1C--,1D,
+Error *001CP1DP1S=NYYYYYY000|1C--1D--,1S,
+Error *001CP1DP1SP2C=NYYYYYY000|1C--1D--1S--,2C,
+Error *001CP1H=NYYYYYY000|1C--,1H,
+Error *001CP1HP2C=NYYYYYY000|1C--1H--,2C,
+Error *001CP1HP2CP2D=NYYYYYY000|1C--1H--2C--,2D,
+Error *001CP1HP2CP2DP3H=NYYYYYY000|1C--1H--2C--2D--,3H,
+Error *001CP1HP2CP2DP3HP4C=NYYYYYY000|1C--1H--2C--2D--3H--,4C,
+Error *001CP1HP2CP2DP3HP4CP4D=NYYYYYY000|1C--1H--2C--2D--3H--4C--,4D,
+Error *001CP1HP2CP2DP3HP4CP4DP4NP5C=NYYYYYY000|1C--1H--2C--2D--3H--4C--4D--4N--,5C,
+Error *001CP1HP2H=NYYYYYY000|1C--1H--,2H,
+Error *001CP1HP2HP3C=NYYYYYY000|1C--1H--2H--,3C,
+Error *001CP1HP2HP3CP3D=NYYYYYY000|1C--1H--2H--3C--,3D,
+Error *001CP1HP2HP3CP3DP3H=NYYYYYY000|1C--1H--2H--3C--3D--,3H,
+Error *001CP1HP2HP3CP3DP3HP3S=NYYYYYY000|1C--1H--2H--3C--3D--3H--,3S,
+Error *001CP1HP2HP3CP3DP3HP3SP4C=NYYYYYY000|1C--1H--2H--3C--3D--3H--3S--,4C,
+Error *001CP1HP2HP3CP3DP3HP3SP4CDPP4H=NYYYYYY000|1C--1H--2H--3C--3D--3H--3S--4CDb----,4H,
+1D,1H,both majors 4-4
+Error *001D1S2S=NYYYYYY000|1D1S,2S,
+1D,1S,4-4black at least
+1D,2D,one suit colour
+1H,2H,4!s and 6+minor 12-16hcp
+1S,1N,16-18 bal
+1S,2S,4!h and 6+minor
+Error *001SP1NP2D=NYYYYYY000|1S--1N--,2D,
+Error *00{Zip system}=NNNNNNN1!c strong Bal !d 1N shows !d unbalanced\\Devised By Dimitraki Zipovski\\Written up by Giannis Oikonomopoulos|,,Please read chat# strong Bal !d 1N shows !d unbalanced\\Devised By Dimitraki Zipovski\\Written up by Giannis Oikonomopoulos
+Option
+Option
+1C1D,1H,8+ 5CARD
+1C1D1H--,1S,
+1C1D1H--1S--,2C,
+1C1D1H--1S--,2H,
+1C1D1H--1S--2H--,2S,
+1C1D1H--1S--2H--2S--,2N,6-3-3-2
+1C1D1H--1S--2H--2S--,3C,
+1C1D1H--1S--2H--2S--,3D,
+1C1D1H--1S--2H--2S--,3H,
+1C1D1H--1S--2H--2S--,3S,
+1C1D1H--1S--,2S,
+1C1D,1N,8-10 bal.
+1C1D1N--,2C,ask doubl.
+1C1D1N--,2D,
+1C1D1N--,2H,
+1C1D1N--,2S,!c
+1C1D,2D,12+ NO 5CARD
+1C1D,2N,11-12 BAL
+1C1D2N--,3C,STAYMAN
+1C1D2N--,3D,
+1C1D2N--,3H,
+1C1D2N--3H--,3N,2!h
+1C1D2N--3H--,3S,4!h
+1C1D2N--3H--,4C,4!h
+1C1D2N--3H--,4D,4!h
+1C1D2N--,3S,
+1C1D,3D,8-11 4414
+1C1D,Db,5+
+1C1DDb--,1H,NAT
+1C1DDb--,1N,NAT
+1C1DDb--,1S,NAT
+1C1DDb--,2C,19+
+1C1DDb--,2D,19+
+1C1DDb--,2H,19+
+1C1DDb--,2N,19-20 bal
+1C1DDb--,2S,19+
+1C1D,--,a) 0-4hcp b)penalty at !h
+1C1D----,1N,18-20hco BAL
+1C1D----1N--,2C,stayman
+1C1D----1N--,2D,
+1C1D----1N--,2H,
+1C1D----1N--,2S,
+1C1D----,Db,negative
+1C1H,1N,8-10 Bal; stopper !h
+1C1H,1S,
+1C1H1S--,2C,
+1C1H1S--,2D,
+1C1H,2C,
+1C1H2C--,2D,
+1C1H2C--2D--,3D,
+1C1H2C--2D--3D--,3H,ask control
+1C1H2C--2D--3D--3H--,3N,stop!h
+1C1H2C--2D--3D--,4C,rkc
+1C1H2C--2D--3D--,4D,rkc
+1C1H,2D,
+1C1H,2H,12+ Hcp without 5+ card.
+1C1H,2N,11-12hcp
+1C1H2N--,3C,stayman
+1C1H2N--3C--,3H,4!s
+1C1H2N--3C--,3S,4!h
+1C1H2N--,3D,
+1C1H2N--,3H,
+1C1H2N--,3S,
+1C1H,3H,4-4-4-1 singl !h 8-11 Hcp
+1C1H,Db,Please read chat#a) 8+ Hcp Bal; without stopper    b) 5-7 Hcp any hand.
+1C1HDb--,1N,16-18bal
+1C1HDb--,1S,nat
+1C1HDb--,2C,16+
+1C1HDb--,2D,16+
+1C1HDb--,2H,19+
+1C1HDb--,2N,19-20bal
+1C1HDb--,2S,19+
+1C1H,--,0-4 or penalty at!h
+1C1H----,1N,18-20hcp
+1C1H----,1S,18+
+1C1H----,2C,18+
+1C1H----,2D,18+
+1C1H----,Db,negative
+1C1H----Db----1SDb2C,--,no penalty at !c
+1C1H----Db----1SDb2C----,2D,
+1C1H----Db----1SDb2C----2D--,2N,5-7
+1C1H----Db----1SDb2C----2D--,2S,5-7
+1C1H----Db----1SDb2C----2D--,3C,8+
+1C1H----Db----1SDb2C----2D--,3D,5-7
+1C1H----Db----1SDb2C----2D--,--,0-4
+1C1H----Db----1S,Db,penalty
+1C1H----Db--,--,penalty pass
+1C1S,1N,8+ 5+card any
+1C1S1N--,2C,
+1C1S1N--,2D,
+1C1S1N--,2H,
+1C1S1N--,3C,
+1C1S,2D,
+1C1S2D--,2H,
+1C1S2D--2H--,2N,4!s
+1C1S2D--2H--,2S,5-3-3-2
+1C1S2H2S3C3S,4C,rkc!c
+1C1S2H2S,3C,
+1C1S2H2S,3H,rkc!h
+1C1S,2H,
+1C1S,2N,11-12hcp
+1C1S2N--,3C,stayman
+1C1S2N--3C--,3D,both majors 4-4
+1C1S2N--3C--,3H,4!s
+1C1S2N--3C--,3N,no 4card major
+1C1S2N--3C--,3S,4!h
+1C1S2N--,3D,
+1C1S2N--,3H,
+1C1S,2S,8-11hcp 4-4-4-1
+1C1S,3S,12+hcp no 5card any
+1C1S,Db,5+
+1C1SDb--,1N,18-20 bal
+1C1SDb--1N--,2C,ask doubleton
+1C1SDb--1N--,2D,
+1C1SDb--1N--,2H,!c
+1C1SDb--1N--,2N,!d
+1C1SDb--,2C,16-18
+1C1SDb--,2D,16-18
+1C1SDb--,2H,16-18
+1C1SDb--,2N,19-20bal
+1C1SDb--,2S,19+
+1C1S--2H,Db,19+
+1C1S--2H----,Db,penalty at !s negative at !h
+1C1S--2S,Db,19+
+1C1S--2SDb--,2N,5-7 4!c+4!d+
+1C1S--2SDb--,3C,5-7 5!d+
+1C1S,--,0-4 or penalty at !s
+1C1S----,1N,18-20
+1C1S----1N--,2C,stayman
+1C1S----1N--,2D,
+1C1S----1N--,2H,!c
+1C1S----1N--,2N,!d
+1C1S----,2C,18+
+1C1S----,2D,18+
+1C1S----,2H,18+
+1C1S----,Db,negative
+1C2C,2D,8+hcp 
+1C2C2D--,2H,
+1C2C2D--2H--,2N,6+!d
+1C2C2D--2H--,2S,
+1C2C2D--2H--,3D,4+!h
+1C2C,2H,8+hcp
+1C2C2H--,2S,
+1C2C,2N,8-10 bal
+1C2C2N--,3C,stayman
+1C2C2N--3C--,3D,4-4 majors
+1C2C2N--3C--3D--,3H,rkc!h
+1C2C2N--3C--3D--,3S,rkc!s
+1C2C2N--3C--3D--,4H,
+1C2C2N--3C--3D--,4S,
+1C2C2N--3C--,3H,4!s
+1C2C2N--3C--,3N,no 4card major
+1C2C2N--3C--,3S,4!h
+1C2C,2S,8+hcp
+1C2C,3N,11-12 bal
+1C2C,Db,Please read chat#a)8+p no stopper !c                              b)5-7p 5+!d                                           c)5-7 with 4-4any
+1C2C,--,Please read chat#a)0-4hcp                                                 b)penalty                                               c)5-7 with 4card any not 5
+1C2C----,2D,16-18
+1C2C----,2H,16-18
+1C2C----,2S,16-18
+1C2C----,Db,negative
+1C2D,--,0-7
+1C2H,Db,5+p if 5-7 5+cad any
+1C2HDb--,3C,
+1C2HDb--3C--,3D,5-7
+1C2HDb--3C--,3H,8+no stopper
+1C2H,--,0-7
+1C2H----,Db,negative
+1C2H----Db--,2N,0-4 lebenshol
+1C2H----Db--2N--,3C,
+1C2H----Db--2N--3C--,3D,
+1C2H----Db--,2S,0-7
+1C2H----Db--,3C,5-7
+1C2H----Db--,3D,5-7
+1C2S,--,0-7
+1C2S----,3C,22+p
+1C2S----,3D,22+p
+1C2S----,3H,22+p
+1C2S----,Db,negative
+1C2S----Db--,2N,lebensol 0-4
+1C2S----Db--2N--,3H,19-21
+1C3C,3D,8+
+1C3C,3H,8+
+1C3C,3S,8+
+1C3C,Db,6-7 unbal or 7+bal
+1C3C,--,0-4 or penalty
+1C3D,Db,6-7unbal or 7+bal
+1C3D,--,0-5 or penalty!d
+1C3H,3S,8+
+1C3H,Db,6-7unbal o 7+bal
+1C3H,--,0-5 or penalty at!h
+1C3S,Db,6-7UNBAL OR 7+BAL
+1C3S,--,0-5 or penalty at!S
+1C4C,Db,pen
+1C4D,Db,pen
+1C4H,Db,pen
+1C4S,Db,pen
+,1C,Please read chat#16 Hcp any distribution; except of 4-4-4-1 that is 18+ Hcp; can have and 8+ tricks
+1CDb,1D,13+hcp
+1CDb1D--,1H,19hcp +
+1CDb1D--1H--,1S,
+1CDb1D--1H--1S--,1N,19-20bal
+1CDb1D--1H--1S--1N--,2C,stayman
+1CDb1D--1H--1S--1N--,2D,
+1CDb1D--1H--1S--1N--,2H,
+1CDb1D--1H--1S--1N--,2S,
+1CDb1D--1H--1S--1N--,4C,
+1CDb1D--1H--1S--1N--,4D,
+1CDb1D--1H--1S--1N--,4H,
+1CDb1D--1H--1S--1N--,4S,
+1CDb1D--1H--1S--,2C,19-21
+1CDb1D--1H--1S--2C--,2D,
+1CDb1D--1H--1S--2C--,2H,
+1CDb1D--1H--1S--2C--,2S,
+1CDb1D--1H--1S--,2D,19-21
+1CDb1D--1H--1S--2D--,2H,
+1CDb1D--1H--1S--2D--,2S,
+1CDb1D--1H--1S--2D--,3C,
+1CDb1D--1H--1S--,2H,19-21
+1CDb1D--1H--1S--2H--,2S,
+1CDb1D--1H--1S--2H--,3C,
+1CDb1D--1H--1S--2H--,3D,
+1CDb1D--1H--1S--,2N,23+ bal
+1CDb1D--1H--1S--2N--,3C,stayman
+1CDb1D--1H--1S--2N--,3D,
+1CDb1D--1H--1S--2N--,3H,
+1CDb1D--1H--1S--2N--,3S,minor ask
+1CDb1D--1H--1S--2N--,4C,
+1CDb1D--1H--1S--2N--,4D,
+1CDb1D--1H--1S--,2S,19-21
+1CDb1D--1H--1S--2S--,3C,
+1CDb1D--1H--1S--2S--,3D,
+1CDb1D--1H--1S--2S--,3H,
+1CDb1D--1H--1S--,3C,23+
+1CDb1D--1H--1S--,3D,23+
+1CDb1D--1H--1S--,3H,23+
+1CDb1D--1H--1S--,3S,23+
+1CDb1D--,1N,16-18bal
+1CDb1D--,1S,16-18
+1CDb1D--,2C,16-18
+1CDb1D--,2D,16-18
+1CDb1D--,2H,16-18
+1CDb1D--,2S,16-18hcp
+1CDb,1H,Please read chat#8 to 12 Hcp Balanced hand can have 5 card
+1CDb,1N,8 to 12 Hcp with 5+!d not 5332
+1CDb,1S,8 to 12 Hcp with 5+!c not 5332
+1CDb,2C,8 to 12 Hcp with 5+!h not 5332
+1CDb,2D,8 to 12 Hcp with 5+!s not 5332
+1CDb,--,0-4hcp
+1CDb----,1D,
+1CDb----,1H,
+1CDb----,1N,18-20hcp
+1CDb----,1S,
+1CDb----,Rd,16-17hcp bal
+1CDbRd1D2C2D,Db,penalty
+1CDbRd1D2C2H,Db,penalty
+1CDbRd1D2C2S,Db,penalty
+1CDbRd1D,2C,
+1CDbRd1D2H2S,Db,penalty
+1CDbRd1D,2H,
+1CDbRd1H2C2D,Db,penalty
+1CDbRd1H2C2H,Db,penalty
+1CDbRd1H2C2S,Db,penalty
+1CDbRd1H,2C,
+1CDbRd1S2C2D,Db,penalty
+1CDbRd1S2C2H,Db,penalty
+1CDbRd1S2C2S,Db,penalty
+1CDb,Rd,5-7hcp
+1CDbRd--,1D,16-18hcp
+1CDbRd--,1H,16-18hcp
+1CDbRd--,1N,16-18 bal stayman trf
+1CDbRd--,1S,16-18hcp
+1CDbRd--,2H,19+hcp
+1CDbRd--,2S,19+hcp
+1CDbRd--,3C,19+hcp
+1CDbRd--,3D,19+hcp
+1C--1D1H,Db,19+
+1C--1D1SDb2S,2N,5-7 stopper
+1C--1D1SDb2S,Db,5-7 or 12+
+1C--1D1SDb2S----,2N,bal
+1C--1D1SDb2S----,Db,forcing
+1C--1D1S,Db,19+
+1C--1D1SDb--,1N,5-7stopper!s or 12+
+1C--1D1SDb--,2C,0-4
+1C--1D1SDb--,2D,0-4
+1C--1D1SDb--,2H,0-4
+1C--1D1SDb--,2S,5-7 no  stopper or 12+
+1C--1D1SDb--,3C,5-7
+1C--1D1SDb--,3D,5-7
+1C--1D1SDb--,3H,5-7
+1C--1D1SDb--,3S,5-7 4-4-1-4
+1C--1D1S--2S,2N,minors
+1C--1D1S--2S,Db,negative
+1C--1D2S----,2N,minor
+1C--1D2S----,3S,12+p
+1C--1D2S----,Db,negative
+1C--,1D,Please read chat#a)0-7 hcp                                b)12+hcp unbal                 c)13+hcp bal maybe 5332        
+1C--1DDb,1H,
+1C--1DDb1H--,1N,12+
+1C--1DDb,1N,18-20
+1C--1DDb,1S,
+1C--1DDb1S--,1N,12+
+1C--1DDb,--,16-17bal
+1C--1DDb----,1H,0-7
+1C--1DDb----,1N,5-7bal
+1C--1DDb----,1S,0-7
+1C--1DDb----,2C,0-7
+1C--1DDb----,2D,12+
+1C--1DDb----,Rd,0-7 no 5card
+1C--1DDb,Rd,19+
+1C--1DDbRd--,1H,0-4
+1C--1DDbRd--,1N,12+
+1C--1DDbRd--,2C,5-7
+1C--1DDbRd--,2D,5-7
+1C--1DDbRd--,2H,5-7
+1C--1DDbRd--,2N,5-7bal
+1C--1DDbRd--,2S,5-7
+1C--1D--,1H,Please read chat#a)19 HCP+                            b)18+HCP 4-4-4-1                 c)8+ TRICKS
+1C--1D--1H--,1N,Please read chat#a) 12+ Hcp Unbal                    b) 13+ Hcp Balanced .
+1C--1D--1H--1N--,2C,FG; artificial; 23+ Hcp
+1C--1D--1H--1N--2C--,2D,Please read chat#Relay bid without 5 card major and without 6+ minor.
+1C--1D--1H--1N--2C--2D--,2H,Forcing 5+!h
+1C--1D--1H--1N--2C--,2H,Transfer; 5+!s
+1C--1D--1H--1N--2C--,2N,6+!c. Transfer.
+1C--1D--1H--1N--2C--,2S,Forcing; 5+!h
+1C--1D--1H--1N--2C--,3C,6+!d. Transfer.
+1C--1D--1H--1N--,2D,Please read chat#Any hand without 5 card major and not balanced Asking relay bid
+1C--1D--1H--1N--,2H,19-22 Hcp 5+!h
+1C--1D--1H--1N--,2N,Balanced 19-22 Hcp
+1C--1D--1H--1N--2N--,3D,rkc
+1C--1D--1H--1N--2N--,3H,rkc
+1C--1D--1H--1N--2N--,3S,rkc
+1C--1D--1H--1N--2N--,4C,rkc
+1C--1D--1H--1N--,2S,19-22 Hcp 5+!s
+1C--1D--1H--1N--,3C,18+ 4-4-4-1!C
+1C--1D--1H--1N--,3D,4-4-4-1!d 18+
+1C--1D--1H--1N--,3H,4-4-4-1 !s 18+ Hcp
+1C--1D--1H--1N--,3S,4-4-4-1!s 18+ Hcp
+1C--1D--1H--,1S,0-4 HCP
+1C--1D--1H--1S--,1N,19-20bal
+1C--1D--1H--1S--1N--,2C,stayman
+1C--1D--1H--1S--1N--,2D,
+1C--1D--1H--1S--1N--,2H,
+1C--1D--1H--1S--1N--,2S,
+1C--1D--1H--1S--1N--,4C,!h
+1C--1D--1H--1S--1N--,4D,!s
+1C--1D--1H--1S--1N--,4H,
+1C--1D--1H--1S--1N--,4S,
+1C--1D--1H--1S--,2C,19-22
+1C--1D--1H--1S--,2D,19-22
+1C--1D--1H--1S--,2H,19-22
+1C--1D--1H--1S--,2N,23+ bal
+1C--1D--1H--1S--,2S,19-22
+1C--1D--1H--1S--,3C,23+
+1C--1D--1H--1S--,3D,23+
+1C--1D--1H--1S--,3H,23+
+1C--1D--1H--1S--,3S,23+
+1C--1D--1H--,2C,5+!D 5-7 HCP
+1C--1D--1H--2C--,2D,DAB( distribution asking bid)
+1C--1D--1H--2C--2D--,2H,4!s
+1C--1D--1H--2C--2D--2H--,2S,
+1C--1D--1H--2C--2D--2H--2S--,2N,4252 5-7hcp
+1C--1D--1H--2C--2D--2H--2S--,3C,5!d-4!s-3!c-1!h
+1C--1D--1H--2C--2D--2H--2S--,3D,6!d-4!s.
+1C--1D--1H--2C--2D--2H--2S--3D--,3H,
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,3N,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,3S,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,4C,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,4D,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,4H,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,4N,4!s
+1C--1D--1H--2C--2D--2H--2S--3D--3H--,4S,4!s
+1C--1D--1H--2C--2D--2H--2S--,3H,5!d-4!s-3!h-1!c.
+1C--1D--1H--2C--2D--2H--2S--,4C,4054
+1C--1D--1H--2C--2D--2H--2S--,4H,4450
+1C--1D--1H--2C--2D--,2N,BAL
+1C--1D--1H--2C--2D--2N--,3C,
+1C--1D--1H--2C--2D--2N--3C--,3D,
+1C--1D--1H--2C--2D--2N--3C--,3H,
+1C--1D--1H--2C--2D--2N--3C--,3S,
+1C--1D--1H--2C--2D--,2S,5+!d; 4!h
+1C--1D--1H--2C--2D--2S--2N--,3C,
+1C--1D--1H--2C--2D--2S--2N--,3D,6!d; 4!h
+1C--1D--1H--2C--2D--2S--2N--3D--,3S,
+1C--1D--1H--2C--2D--2S--2N--,3N,2452 5-7 hcp
+1C--1D--1H--2C--2D--2S--2N--,3S,
+1C--1D--1H--2C--2D--2S--2N--3S--,4C,rkc!h
+1C--1D--1H--2C--2D--2S--2N--3S--,4N,rkc!s
+1C--1D--1H--2C--2D--2S--2N--,4C,0454
+1C--1D--1H--2C--2D--,3C,
+1C--1D--1H--2C--2D--3C--,3D,
+1C--1D--1H--2C--2D--3C--3D--,3H,
+1C--1D--1H--2C--2D--3C--3D--3H--,3S,rkc!h
+1C--1D--1H--2C--2D--3C--3D--,3N,2254
+1C--1D--1H--2C--2D--3C--3D--,3S,
+1C--1D--1H--2C--2D--3C--3D--3S--,4C,rkc
+1C--1D--1H--2C--2D--3C--3D--3S--,4D,rkc
+1C--1D--1H--2C--2D--3C--3D--,4C,
+1C--1D--1H--2C--2D--3C--3D--4C--,4D,rkc
+1C--1D--1H--2C--2D--3C--3D--4C--,4H,rkc!c
+1C--1D--1H--2C--2D--3C--3D--,4D,
+1C--1D--1H--2C--2D--3C--3D--4D--,4H,rkc!c
+1C--1D--1H--2C--2D--3C--3D--4D--,4S,rkc!d
+1C--1D--1H--2C--2D--,3D,
+1C--1D--1H--2C--2D--3D--,3H,
+1C--1D--1H--2C--2D--3D--3H--,4C,
+1C--1D--1H--2C--2D--3D--3H--4C--,4D,rkc
+1C--1D--1H--2C--2D--3D--3H--4C--,4H,rkc!c
+1C--1D--1H--2C--2D--,3H,6!d
+1C--1D--1H--2C--2D--,3N,7!d 1TH
+1C--1D--1H--2C--2D--,3S,6!D
+1C--1D--1H--2C--2D--,4C,61d
+1C--1D--1H--2C--,2H,
+1C--1D--1H--2C--,2S,
+1C--1D--1H--2C--,3C,
+1C--1D--1H--,2D,5-7 hcp   5+!h
+1C--1D--1H--2D--,2H,DAB
+1C--1D--1H--,2H,5-7  hcp 5+!s
+1C--1D--1H--2H--,2S,DAB
+1C--1D--1H--2H--2S--,2N,BAL
+1C--1D--1H--2H--2S--2N--,3C,ask dubl
+1C--1D--1H--2H--2S--,3C,5!s-4!d.
+1C--1D--1H--2H--2S--3C--,3D,
+1C--1D--1H--2H--2S--3C--3D--,3H,
+1C--1D--1H--2H--2S--3C--3D--,3N,5242
+1C--1D--1H--2H--2S--3C--3D--,3S,
+1C--1D--1H--2H--2S--3C--3D--3S--,4C,rkc!c
+1C--1D--1H--2H--2S--3C--3D--,4C,
+1C--1D--1H--2H--2S--3C--3D--4C--,4H,rkc!c
+1C--1D--1H--2H--2S--3C--3D--4C--,4N,rkc!s
+1C--1D--1H--2H--2S--3C--3D--,4D,
+1C--1D--1H--2H--2S--3C--3D--4D--,4H,rkc!d
+1C--1D--1H--2H--2S--3C--3D--4D--,4N,rkc!s
+1C--1D--1H--,2N,5-7 HCP 5+!C
+1C--1D--1H--2N--,3C,DAB
+1C--1D--1H--2N--,3D,NAT
+1C--1D--1H--,2S,5-7 bal
+1C--1D--1H--2S--2N--,3C,
+1C--1D--1H--2S--2N--3C--,3D,
+1C--1D--1H--2S--2N--3C--3D--,3H,4342
+1C--1D--1H--2S--2N--3C--3D--,3N,3!d 4432
+1C--1D--1H--2S--2N--3C--3D--,3S,3442
+1C--1D--1H--2S--2N--,3D,
+1C--1D--1H--2S--2N--3D--,3H,
+1C--1D--1H--2S--2N--3D--3H--,3N,3!h 4324
+1C--1D--1H--2S--2N--3D--3H--,3S,3424
+1C--1D--1H--2S--2N--3D--3H--,4C,4423
+1C--1D--1H--2S--2N--,3H,
+1C--1D--1H--2S--2N--3H--,3S,
+1C--1D--1H--2S--2N--3H--3S--,3N,3!s 3244
+1C--1D--1H--2S--2N--3H--3S--,4C,4243
+1C--1D--1H--2S--2N--3H--3S--,4D,4234
+1C--1D--1H--2S--2N--,3N,bal no dubl
+1C--1D--1H--2S--2N--3N--,4H,
+1C--1D--1H--2S--2N--3N--,4S,
+1C--1D--1H--2S--2N--,3S,
+1C--1D--1H--2S--2N--3S--,4H,
+1C--1D--1H--2S--2N--3S--,4S,
+1C--1D--1H--2S--,3C,stayman
+1C--1D--1H--2S--,3D,RKC !D
+1C--1D--1H--2S--,3H,RKC !H
+1C--1D--1H--2S--,3S,RKC!S
+1C--1D--1H--,3C,4441
+1C--1D--1H--,3D,4414
+1C--1D--1H--,3H,4144
+1C--1D--1H--,3S,1444
+1C--1D--1H--,4C,Please read chat#6-7 HCP 2 ctrls (at least one of which is in m bid);
+1C--1D--1H--4C--,4D,2!c+
+1C--1D--1H--4C--,4S,2!c+
+1C--1D--1H--,4D,Please read chat#6-7 HCP 2 ctrls (at least one of which is in m bid);
+1C--1D--1N2H,3H,12+
+1C--1D--1N2H,3S,12+
+1C--1D--1N2H,Db,penalty
+1C--1D--,1N,16-18 HCP BAL MAYBE 5!S
+1C--1D--1N--,2C,Please read chat#a)4+!h-4+!s 0+ Hcp                 b)5+m-4M FG                     c)FG 4M
+1C--1D--1N--2C--,2D,16-17 HCP; no 4-card major
+1C--1D--1N--2C--2D--,2H,1444
+1C--1D--1N--2C--2D--,2S,4144
+1C--1D--1N--2C--,2H,16-18 hcp
+1C--1D--1N--2C--2H--,2S,4S not 4H;
+1C--1D--1N--2C--2H--,3H,
+1C--1D--1N--2C--,2N,18 HCP; no major
+1C--1D--1N--2C--,2S,16-18 hcp
+1C--1D--1N--2C--2S--,3S,
+1C--1D--1N--2C--,3C,18-19 HCP; at least one major; GF
+1C--1D--1N--2C--3C--,3D,Stayman (promises a major);
+1C--1D--1N--2C--3C--,3N,no major interest
+1C--1D--1N--2C--,3D,19 HCP; no major; GF
+1C--1D--1N--2C--3D--,3H,1444
+1C--1D--1N--2C--3D--,3S,4144
+1C--1D--1N--,2D,Please read chat#Transfer: a) 5+!h 0+ HCP \\               b) TRI GF+\\                c) 5!c/!d with 4-3 in the majors GF+\\
+1C--1D--1N--2D--,2H,2-3 !H 16-18HCP
+1C--1D--1N--2D--,2S,4!H 18 HCP
+1C--1D--1N--2D--,3C,4!H 18 HCP
+1C--1D--1N--2D--,3D,4!H 18 HCP
+1C--1D--1N--,2H,Please read chat#Transfer: a)5+!s 0+ Hcp                            b) 5+!c-5+!d 0+ HCP\\
+1C--1D--1N--,2N,TRF!D
+1C--1D--1N--,2S,TRF!C
+1C--1D--1N--,3C,
+1C--1D--1N--,3D,
+1C--1D--1N--,3H,
+1C--1D--1N--,3S,
+1C--1D--1N--,4C,TRF !H
+1C--1D--1N--,4D,TRF!S
+1C--1D--,1S,16-18hcp 5!s+
+1C--1D--1S--,1N,12+ unbal or 13+hcp
+1C--1D--1S--1N--,2N,bal 5332
+1C--1D--1S--,2C,0-7 hcp
+1C--1D--1S--,2D,0-7 hcp 
+1C--1D--1S--,2H,0-7 hcp 
+1C--1D--1S--,2S,4-7 hcp 3!s
+1C--1D--1S--,3C,6-7 hcp
+1C--1D--1S--,3D,6-7 hcp
+1C--1D--1S--,3H,6-7 hcp
+1C--1D--1S--,3N,SPL !H
+1C--1D--1S--,3S,
+1C--1D--1S--,4C,SPL!C
+1C--1D--1S--,4D,SPL!D
+1C--1D--,2C,16-18 HCP UNBAL 5+!c
+1C--1D--2C--,2D,5-7 HCP; 4+ cards
+1C--1D--2C--,2H,5-7 HCP; 4+ cards
+1C--1D--2C--,2N,5-7 HCP
+1C--1D--2C--,2S,5-7 HCP; 4+ cards
+1C--1D--2C--,3C,5-7 HCP; Hxx supp. ; no 5M
+1C--1D--2C--,3H,
+1C--1D--2C--,3S,
+1C--1D--2C--,4C,4+ support; 2 cntrls;
+1C--1D--,2D,16-18 UNBAL 5+!d
+1C--1D--2D--,2H,5-7 HCP; 4+ cards
+1C--1D--2D--,2N,12+
+1C--1D--2D--2N--,3C,
+1C--1D--2D--2N--3C--,3D,
+1C--1D--2D--2N--3C--3D--,3H,
+1C--1D--2D--2N--3C--3D--,3N,2-2-5-4
+1C--1D--2D--2N--3C--3D--,3S,
+1C--1D--2D--2N--3C--,3H,
+1C--1D--2D--2N--3C--3H--,3N,0-1!h
+1C--1D--2D--2N--3C--3H--,3S,2!h
+1C--1D--2D--2N--3C--,3S,
+1C--1D--2D--2N--,3D,
+1C--1D--2D--2N--,3H,
+1C--1D--2D--2N--3H--3S--,3N,0-1!s
+1C--1D--2D--2N--,3S,
+1C--1D--2D--,2S,0-7 hcp
+1C--1D--2D--,3D,5-7 HCP; Hxx supp. ; no 5M
+1C--1D--2D--,3H,
+1C--1D--2D--,3S,
+1C--1D--2D--,4D,4+ support; 2 cntrls;
+1C--1D--,2H,16-18 hcp unb 5+!h
+1C--1D--2H--,2N,12+ unbal or 13+bal
+1C--1D--2H--2N--,3D,5+!h
+1C--1D--2H--2N--3D--,3H,
+1C--1D--2H--2N--3D--3H--,3N,0-1!h
+1C--1D--2H--2N--3D--3H--,3S,2!h
+1C--1D--2H--,2S,0-7hcp
+1C--1D--2H--,3C,6-7hcp
+1C--1D--2H--,3D,6-7hcp
+1C--1D--2H--,3H,
+1C--1D--2H--,3N,HH(x)!h
+1C--1D--2H--,3S,Hxxx!h
+1C--1D--2H--,4C,HHxx
+1C--1D--,2N,21-22hcp bal
+1C--1D--2N--,3C,stayman
+1C--1D--2N--3C--,3D,no 4card major
+1C--1D--2N--3C--,3H,
+1C--1D--2N--3C--3H--,4C,RKC!h
+1C--1D--2N--,3D,TRF
+1C--1D--2N--,3H,TRF
+1C--1D--2N--,3S,5-5 minors minimum
+1C--1D--2N--,4C,non-5-5 touching suits; GF
+1C--1D--,2S,16-18hcp 4!s 5+!h
+1C--1D--2S--,2N,ask 3card
+1C--1D--2S--,3C,x/--!s
+1C--1D--2S--,3D,H(x)!s
+1C--1D--2S--,3H,Hxx!s
+1C--1D--2S--,3N,Hxxx!s
+1C--1D--2S--,3S,xxxx!s
+1C--1D--2S--,4C,HH(x)!s
+1C--1D--2S--,4D,HHxx!s
+1C--1D--,3C,16-18 hcp 5+!h; 5+!c
+1C--1D--3C--,3D,DAB
+1C--1D--3C--,3H,
+1C--1D--3C--,3N,Hxx!s
+1C--1D--3C--,3S,
+1C--1D--3C--,4C,RKC!c
+1C--1D--3C--,4D,Hxxx!s
+1C--1D--3C--,4H,HH(x)!s
+1C--1D--3C--,4S,HHxx!s
+1C--1D--,3D,16-18 hcp 5+!h; 5+!d
+1C--1D--3D--,3H,
+1C--1D--3D--,3S,
+1C--1D--3D--,4C,
+1C--1D--3D--,4D,RKC!D
+1C--1D--,3H,
+1C--1D--3H--,3S,RKC!H
+1C--1D--,3N,MINORS
+1C--1D--3N--,4C,RKC!C
+1C--1D--3N--4C--,4D,
+1C--1D--3N--4C--4D--,4H,5-cards; no slam
+1C--1D--3N--4C--4D--,4N,slam invite; 5-4(+) unbal dist.
+1C--1D--3N--4C--4D--4N--,5C,4333
+1C--1D--3N--4C--4D--4N--,5D,4333
+1C--1D--3N--4C--4D--4N--,5H,2344
+1C--1D--3N--4C--4D--4N--,5S,3244
+1C--1D--3N--4C--4D--,4S,5-cards; no slam
+1C--1D--3N--4C--4D--,5C,6-cards; min; side major
+1C--1D--3N--4C--4D--,5D,6-cards; min; side major
+1C--1D--3N--4C--4D--,5H,nat; slamtry in suit
+1C--1D--3N--4C--4D--,5S,nat; slamtry in suit
+1C--1D--3N--4C--4D--,6C,to play; with side major
+1C--1D--3N--4C--4D--,6D,to play; with side major
+1C--1D--3N--4C--,4H,
+1C--1D--3N--4C--4H--,4N,slam try
+1C--1D--3N--4C--4H--4N--,5C,
+1C--1D--3N--4C--4H--4N--,5D,
+1C--1D--3N--4C--4H--4N--,5H,
+1C--1D--3N--4C--4H--,4S,5S; slam interest
+1C--1D--3N--4C--4H--4S--,4N,3433
+1C--1D--3N--4C--4H--4S--,5C,
+1C--1D--3N--4C--4H--4S--,5D,
+1C--1D--3N--4C--4H--,5C,6!c-4!s; min
+1C--1D--3N--4C--4H--,5D,6!d-4!s; min
+1C--1D--3N--4C--4H--,5H,TAB
+1C--1D--3N--4C--4H--,6C,
+1C--1D--3N--4C--4H--,6D,
+1C--1D--3N--4C--,4S,
+1C--1D--3N--4C--4S--4N--,5C,
+1C--1D--3N--4C--4S--4N--,5D,
+1C--1D--3N--4C--4S--4N--,5H,
+1C--1D--3N--4C--4S--4N--,5S,
+1C--1D--3N--4C--4S--,5C,
+1C--1D--3N--4C--4S--,5D,
+1C--1D--3N--4C--4S--,5H,
+1C--1D--3N--4C--4S--,5S,TAB
+1C--1D--3N--4C--4S--,6C,
+1C--1D--3N--4C--4S--,6D,
+1C--1D--3N--,4D,RKC!D
+1C--1D--3N--4D--,4N,min no fit
+1C--1D--3N--4D--4N--,5C,
+1C--1D--3N--4D--4N--,5D,
+1C--1D--3N--4D--4N--,6C,max
+1C--1D--3N--,4H,
+1C--1D--3N--,4S,
+1C--1D--3N--,5C,
+1C--1D--3N--,5D,
+1C--1D--,3S,
+1C--1D--3S--,4C,RKC!S
+1C--1D--,4C,6!h+
+1C--1D--4C--,4D,RKC!C
+1C--1D--4C--,4S,RKC!H
+1C--1D--,4D,6+!h
+1C--1D--4D--,4N,RKC!H
+1C--1D--4D--,4S,RKC!D
+1C--,1H,Please read chat#a)8-11hcp unbal 5!s                   b)11-12 bal; 5!s; 5332
+1C--1H--,1N,CAB(controlo Asking bid)
+1C--1H--,1S,DAB with 3+!s or with 5+ card
+1C--1H--1S--,1N,Balanced 5!s-3-3-2; 11-12
+1C--1H--1S--1N--,2C,ask doubleton
+1C--1H--1S--1N--,2D,Gamma asking bid
+1C--1H--1S--1N--,2H,Gamma Asking Bid
+1C--1H--1S--1N--,2S,Gamma Asking Bid
+1C--1H--1S--,2C,Shows !d and !s at least 4!d and 5!s.
+1C--1H--1S--2C--,2D,
+1C--1H--1S--2C--2D--,2H,Shows exactly 5!s-4!d-3!h-1!c
+1C--1H--1S--2C--2D--2H--,2N,Control Asking bid.
+1C--1H--1S--2C--2D--2H--,2S,RKC!s
+1C--1H--1S--2C--2D--2H--,3C,Exclusion RKCB !s
+1C--1H--1S--2C--2D--2H--,3D,RKCB!d
+1C--1H--1S--2C--2D--,2N,Shows 5!s-4!d-2!h-2!c
+1C--1H--1S--2C--2D--,2S,Shows exactly 6!s and 4!d.
+1C--1H--1S--2C--2D--2S--,2N,DAB 10
+1C--1H--1S--2C--2D--2S--2N--,3C,Shows exactly 6!s-4!d-2!h-1!c
+1C--1H--1S--2C--2D--2S--2N--,3D,Shows exactly 6!s-4!d-2!c-1!h
+1C--1H--1S--2C--2D--2S--2N--,3H,Shows exactly 6!s-4!d-3!h-0!c
+1C--1H--1S--2C--2D--2S--2N--,3S,Shows exactly 6!s-4!d-3!c-0!h
+1C--1H--1S--2C--2D--,3C,Shows exactly 5!s-4!d-3!c-1!h.
+1C--1H--1S--2C--2D--,3D,Shows exactly 6!s-5!d.
+1C--1H--1S--2C--2D--,3H,Shows 7!s-4!d.
+1C--1H--1S--2C--2D--,3S,Shows 7!s-5!d.
+1C--1H--1S--,2D,Shows !h and !s at least 4!h and 5!s.
+1C--1H--1S--2D--,2H,
+1C--1H--1S--2D--2H--,2N,5!s-4!h-3!d-1!c
+1C--1H--1S--2D--2H--,2S,5!s-4!h-2!d-2!c
+1C--1H--1S--2D--2H--,3C,5!s-4!h-3!c-1!d
+1C--1H--1S--,2H,Shows !c and !s at least 4!c and 5!s.
+1C--1H--1S--2H--,2S,doubl asking
+1C--1H--1S--,2S,One suited hand; 6+!s no 4 card suit
+1C--1H--1S--2S--,2N,doubl
+1C--1H--1S--,3C,5!S and 5!d 10-11 hcp
+1C--1H--1S--3C--,3D,DAB
+1C--1H--1S--,3D,5!S and 5!c 10-11 hcp
+1C--1H--1S--3D--,3H,DAB
+1C--1H--1S--,3H,10-11 hcp 5-5 majors
+1C--1H--1S--3H--,3S,RKC!s
+1C--1H--1S--3H--,4C,RKC!H
+1C--1H--1S--,3N,7+!s 1 of 5 Top honors in !s
+1C--1H--1S--,3S,Please read chat#Minimum exactly 6!s; 3 of 5 Top Honors in !s.
+1C--1H--1S--,4S,
+1C--1H--,2C,
+1C--1H--,2D,
+1C--1H--,2H,
+1C--1H--2H--,3H,MAXIMUM
+1C--1H--2H--,4C,3!H+
+1C--1H--2H--,4D,3!h+
+1C--1H--2H--,4H,MINIMUM
+1C--1H--,2N,RKCB!s
+1C--1H--,2S,Gamma asking bid.
+1C--1H--2S--,2N,No top Honor in !s.
+1C--1H--2S--,3C,1 Top Honor in !s and exactly 5 cards.
+1C--1H--2S--,3D,1 Top Honor in !s and exactly 6 cards.
+1C--1H--2S--,3H,2 Top Honors in !s and exactly 5 cards.
+1C--1H--2S--,3N,3 Top Honors in !s and exactly 5 cards.
+1C--1H--2S--,3S,2 Top Honors in !s and exactly 6 cards.
+1C--1H--2S--,4C,3 Top Honors in !s and exactly 6 cards.
+1C--1H--2S--,4D,1 Top Honor in !s and  7+ cards.
+1C--1H--2S--,4H,2 Top Honors in !s and  7+ cards.
+1C--,1N,8-10 hcp  maybe 5332
+1C--1N--,2C,Ups
+1C--1N--2C--,2D,Doubleton !d or 5 card major.
+1C--1N--2C--2D--,2H,
+1C--1N--2C--2D--2H--,2N,5!s; 10-15 Hcp.
+1C--1N--2C--2D--2H--2N--,3C,
+1C--1N--2C--2D--2H--2N--3C--,3D,5-3-2-3
+1C--1N--2C--2D--2H--2N--3C--,3H,5-2-3-3
+1C--1N--2C--2D--2H--2N--3C--,3S,5-3-3-2
+1C--1N--2C--2D--2H--,2S,5!h; 10-15 Hcp.
+1C--1N--2C--2D--2H--2S--2N--,3C,3-5-3-2
+1C--1N--2C--2D--2H--2S--2N--,3D,3-5-2-3
+1C--1N--2C--2D--2H--2S--2N--,3H,2-5-3-3
+1C--1N--2C--2D--2H--,3C,4-4-2-3
+1C--1N--2C--2D--2H--,3D,3-3-2-5
+1C--1N--2C--2D--2H--,3H,4-3-2-4
+1C--1N--2C--2D--2H--,3S,3-4-2-4
+1C--1N--2C--,2H,Doubleton !h.
+1C--1N--2C--2H--,2S,
+1C--1N--2C--2H--2S--,2N,3-2-5-3
+1C--1N--2C--2H--2S--,3C,4-2-4-3
+1C--1N--2C--2H--2S--,3D,4-2-3-4
+1C--1N--2C--2H--2S--,3H,3-2-3-5
+1C--1N--2C--2H--2S--,3S,3-2-4-4
+1C--1N--2C--,2N,Doubleton !c
+1C--1N--2C--2N--,3C,
+1C--1N--2C--2N--3C--,3D,4-4-3-2
+1C--1N--2C--2N--3C--,3H,4-3-4-2
+1C--1N--2C--2N--3C--,3N,3-3-5-2
+1C--1N--2C--2N--3C--,3S,3-4-4-2
+1C--1N--2C--,2S,Doubleton !s.
+1C--1N--2C--2S--2N--,3C,2-4-4-3
+1C--1N--2C--2S--2N--,3D,2-4-3-4
+1C--1N--2C--2S--2N--,3H,2-3-4-4
+1C--1N--2C--2S--2N--,3N,2-3-5-3
+1C--1N--2C--2S--2N--,3S,2-3-3-5
+1C--1N--2C--,3C,3-3-4-3 4!d
+1C--1N--2C--,3D,3-4-3-3 4!h
+1C--1N--2C--,3H,4-3-3-3 4!s
+1C--1N--2C--,3N,Flat (4-3-3-3) with 4!c; Maximum
+1C--1N--2C--,3S,3-3-3-4 4!c; Minimum
+1C--1N--,2D,
+1C--1N--2D--,2H,2!d
+1C--1N--2D--,2N,4!d
+1C--1N--2D--2N--,3H,ask controls
+1C--1N--2D--2N--3H--,3N,Q or dubl. 
+1C--1N--2D--2N--3H--,3S,no control
+1C--1N--2D--2N--3H--,4C,K or singleton
+1C--1N--2D--2N--3H--,4D,A or singl.
+1C--1N--2D--2N--3H--,4H,A-Q
+1C--1N--2D--2N--3H--,4N,A-K-Q
+1C--1N--2D--2N--3H--,4S,A-K
+1C--1N--2D--,2S,3!d
+1C--1N--2D--,3C,5!d
+1C--1N--,2H,
+1C--1N--2H--,2N,3!h
+1C--1N--2H--,2S,2!h
+1C--1N--2H--,3C,4!h
+1C--1N--2H--,3D,5!h
+1C--1N--,2N,16 hcp best major
+1C--1N--2N--,3C,4-4 minors 8hcp
+1C--1N--,2S,
+1C--1N--2S--,2N,2!S
+1C--1N--2S--,3C,3!s
+1C--1N--2S--,3D,4!s
+1C--1N--2S--,3H,5!s
+1C--1N--,3C,puppet stayman
+1C--1N--3C--,3D,4 card major
+1C--1N--3C--3D--,3H,ask for 4!h
+1C--1N--3C--3D--,3S,ask for 4!s
+1C--1N--3C--,3H,5!s
+1C--1N--3C--,3N,no 4 or 5 card major
+1C--1N--3C--,3S,5!h
+1C--1N--,3D,rkc!d
+1C--1N--,3H,rkc!h
+1C--1N--,3S,rkc!s
+1C--,1S,Please read chat#a)8-11hcp unbal 5!h                   b)11-12 bal; 5!h; 5332
+1C--1S--,1N,Distribution Asking Bid
+1C--1S--1N--,2C,5!h; 4!d
+1C--1S--1N--2C--,2D,
+1C--1S--1N--2C--2D--,2H,5!h; 4!d; 2!c; 2!s
+1C--1S--1N--2C--2D--,2N,5!h; 4!d; 3!s; 1!c
+1C--1S--1N--2C--2D--,2S,5!h; 4!d; 3!c; 1!s
+1C--1S--1N--2C--2D--,3C,5!h; 5+!d
+1C--1S--1N--2C--2D--3C--,3D,Ask for void
+1C--1S--1N--2C--2D--3C--3D--,3H,no void
+1C--1S--1N--2C--2D--3C--3D--,3N,void !c
+1C--1S--1N--2C--2D--3C--3D--,3S,void!s
+1C--1S--1N--,2D,5!h; 4!c
+1C--1S--1N--2D--,2H,
+1C--1S--1N--2D--2H--,2N,5!h; 4!c; 1!c; 3!s
+1C--1S--1N--2D--2H--,2S,5!h; 4!c; 1!s; 3!c
+1C--1S--1N--2D--2H--,3C,5!h; 4!c; 2!s; 2!c
+1C--1S--1N--2D--2H--,3D,5!h; 5+!c
+1C--1S--1N--,2H,Please read chat#5;3;3;2 with 5!h and any doubleton 11 to 12 Hcp
+1C--1S--1N--2H--,2S,
+1C--1S--1N--2H--2S--,2N,5!H; 3!C; 3!d; 2!s
+1C--1S--1N--2H--2S--,3C,5!H; 3!s; 3!d; 2!c
+1C--1S--1N--2H--2S--,3D,5!H; 3!C; 3!s; 2!d
+1C--1S--1N--,2N,5!h; 4!s
+1C--1S--1N--,2S,6+!h one suited hand
+1C--1S--1N--2S--2N--,3C,6!h; 3!s; 3!d; 1!c
+1C--1S--1N--2S--2N--,3D,6!h; 3!s; 3!c; 1!d
+1C--1S--1N--2S--2N--,3H,7+!h
+1C--1S--1N--2S--2N--,3N,6!h;3-2-2
+1C--1S--1N--2S--2N--,3S,6!h; 3!c; 3!d; 1!s
+1C--1S--1N--,3C,6!h; 4!d
+1C--1S--1N--,3D,6!h; 4!d
+1C--1S--1N--,3H,6!h; 4!s
+1C--1S--,2H,Gamma Asking Bid
+1C--1S--2H--,2N,2 top honor in !h
+1C--1S--2H--,2S,One top honor in !h 
+1C--1S--2H--,3C,3 top honor in !h
+1C--1S--2H--,3D,no top honor in !H
+1C--1S--,2N,Rkc!s(Ask Aces)
+1C--1S--2N--,3C,1 to 4 Hcp (of 5)
+1C--1S--2N--3C--,3D,Spiral scan ansking bid
+1C--1S--2N--3C--3D--,3H,I havent got the Q of trumps
+1C--1S--2N--3C--3D--3H--,3S,Spiral scan
+1C--1S--2N--3C--3D--3H--3S--,3N, I haven't got the K!s
+1C--1S--2N--3C--3D--3H--3S--,4C,Please read chat# I have got the K!s; I haven't got the K!d
+1C--1S--2N--3C--3D--3H--3S--,4D,Please read chat# I have got the K!s; I have got the K!d; I haven't got K!c
+1C--1S--2N--3C--3D--3H--3S--,4H,Please read chat# I have got the K!s; I have got the K!d; I have got K!c; I haven't got the J of !h
+1C--1S--2N--3C--3D--3H--3S--,4S,Please read chat# I have got the K!s; I have got the K!d; I have got K!c; I have got the J of !h
+1C--1S--2N--3C--3D--,3N,Please read chat#I have got the Q of trumps; I have got the K!s; I haven't got the K!d
+1C--1S--2N--3C--3D--,3S,Please read chat#I have got the Q of trumps; I havent ot the K!s
+1C--1S--2N--3C--3D--,4C,Please read chat#I have got the Q of trumps; I have got the K!s; I have got the K!d; I haven't got K!c
+1C--1S--2N--3C--3D--,4D,Please read chat#I have got the Q of trumps; I have got the K!s; I have got the K!d; I have got K!c; I haven't got the J of !h
+1C--1S--2N--3C--3D--,4H,Please read chat#I have got the Q of trumps; I have got the K!s; I have got the K!d; I have got K!c; I have got the J of !h
+1C--1S--2N--,3D,0 to 3 Hcp (of 5)
+1C--1S--2N--,3H,2 aces of 5 without the Q of !h
+1C--1S--2N--,3N,2 aces with one side void
+1C--1S--2N--,3S,2 aces of 5 with the Q of !h
+1C--,2C,Please read chat#a)8-11 hcp unbal 5+!d  and 4other                                b)11-12 bal 5332
+1C--2C--,2D,
+1C--2C--2D--,2H,4!s
+1C--2C--2D--2H--,2S,
+1C--2C--2D--2H--2S--,2N,4-2-5-2 10-11hcp
+1C--2C--2D--2H--2S--,3C,
+1C--2C--2D--2H--2S--3C--,3D,rkc!d
+1C--2C--2D--2H--2S--3C--,3H,rkc!h
+1C--2C--2D--2H--2S--3C--,3N,rkc!c
+1C--2C--2D--2H--2S--3C--,3S,rkc!s
+1C--2C--2D--2H--2S--,3D,
+1C--2C--2D--2H--2S--3D--,3H,
+1C--2C--2D--2H--2S--3D--3H--,4C,
+1C--2C--2D--2H--2S--3D--3H--,4D,
+1C--2C--2D--2H--2S--,3H,
+1C--2C--2D--2H--2S--3H--,3S,rkc
+1C--2C--2D--2H--2S--3H--,4C,rkc
+1C--2C--2D--2H--2S--3H--,4D,rkc
+1C--2C--2D--2H--2S--,3S,4-2-5-2 8-9hcp
+1C--2C--2D--,2N,bal 11-12hcp
+1C--2C--2D--2N--,3C,dubl ask
+1C--2C--2D--2N--,3D,rkc
+1C--2C--2D--2N--,3H,rkc
+1C--2C--2D--2N--,3S,rkc
+1C--2C--2D--,2S,4!h
+1C--2C--2D--2S--2N--,3C,
+1C--2C--2D--2S--2N--3C--,3D,rkc
+1C--2C--2D--2S--2N--3C--,3H,rkc
+1C--2C--2D--2S--2N--3C--,3N,rkc!c
+1C--2C--2D--2S--2N--3C--,3S,rkc
+1C--2C--2D--2S--2N--,3D,
+1C--2C--2D--2S--2N--3D--,3H,
+1C--2C--2D--2S--2N--,3H,2-4-5-2 8-9hcp
+1C--2C--2D--2S--2N--,3N,2-4-5-2 10-11hcp
+1C--2C--2D--2S--2N--,3S,
+1C--2C--2D--2S--2N--3S--,4C,rkc!h
+1C--2C--2D--,3C,5!d-5!c
+1C--2C--2D--3C--,3D,
+1C--2C--2D--3C--3D--,3H,2-1-5-5
+1C--2C--2D--3C--3D--,3N,3-0-5-5
+1C--2C--2D--3C--3D--,3S,1-2-5-5
+1C--2C--2D--3C--3D--,4C,0-3-5-5
+1C--2C--2D--3C--3D--,4D,1-1-6-5
+1C--2C--2D--3C--3D--,4H,2-0-6-5
+1C--2C--2D--3C--3D--,4S,0-2-6-5
+1C--2C--2D--,3D,4!c-6+!d
+1C--2C--2D--3D--,3H,
+1C--2C--2D--3D--3H--,3N,1-2-6-4
+1C--2C--2D--3D--3H--,3S,2-1-6-4
+1C--2C--2D--3D--3H--,4C,3-0-6-4
+1C--2C--2D--3D--3H--,4D,0-3-6-4
+1C--2C--2D--3D--3H--,4H,1-1-7-4
+1C--2C--2D--3D--3H--,4N,0-2-7-4
+1C--2C--2D--3D--3H--,4S,2-0-7-4
+1C--2C--2D--,3H,1-3-5-4
+1C--2C--2D--3H--,3S,rkc!s
+1C--2C--,2H,
+1C--2C--,2N,bal 16+
+1C--2C--,2S,
+1C--2C--,3C,
+1C--2C--,4D,rkc
+1C--,2D,Please read chat#a)8-11 hcp unbal 5+!c  and 4other                              b)11-12 bal 5332
+1C--2D--,2H,
+1C--2D--2H--,2N,5!c-3-3-2 11-12 Hcp.
+1C--2D--2H--2N--,3C,dubl ask
+1C--2D--2H--2N--3C--,3D,3-3-2-5
+1C--2D--2H--2N--3C--,3H,3-2-3-5
+1C--2D--2H--2N--3C--,3S,2-3-3-5
+1C--2D--2H--2N--,3D,rkc
+1C--2D--2H--2N--,3H,rkc
+1C--2D--2H--2N--,3S,rkc
+1C--2D--2H--,2S,5+!c; 4!h
+1C--2D--2H--2S--2N--,3C,6!c; 4!s
+1C--2D--2H--2S--2N--3C--,3D,DAB 10
+1C--2D--2H--2S--2N--3C--3D--,3H,6!c-4!s-2!h-1!d
+1C--2D--2H--2S--2N--3C--3D--,3N,6!c-4!s-3!h-0!d
+1C--2D--2H--2S--2N--3C--3D--,3S,6!c-4!s-2!d-1!h
+1C--2D--2H--2S--2N--3C--3D--,4C,6!c-4!s-3!d-0!h
+1C--2D--2H--2S--2N--3C--3D--,4D,7!c-4!s-1!h-1!d
+1C--2D--2H--2S--2N--3C--3D--,4H,7!c-4!s-2!h-0!d
+1C--2D--2H--2S--2N--3C--3D--,4S,7!c-4!s-2!d-0!h
+1C--2D--2H--2S--2N--,3D,
+1C--2D--2H--2S--2N--3D--,4C,rkc
+1C--2D--2H--2S--2N--3D--,4D,rkc
+1C--2D--2H--2S--2N--,3H,2-4-5-2 8-9hcp
+1C--2D--2H--2S--2N--,3N,2-4-2-5 10-11 Hcp.
+1C--2D--2H--2S--2N--,3S,3!s
+1C--2D--2H--,3C,Exactly 5!c; 4!d.
+1C--2D--2H--3C--,3D,
+1C--2D--2H--3C--3D--,3N,2-2-4-5 8-11
+1C--2D--2H--3C--3D--,4H,
+1C--2D--2H--3C--3D--,4S,
+1C--2D--2H--,3D,6+!c; 4!d.
+1C--2D--2H--3D--,3H,
+1C--2D--2H--3D--3H--,3N,1-4-2-6
+1C--2D--2H--3D--3H--,3S,2-4-1-6
+1C--2D--2H--3D--3H--,4C,3-4-0-6
+1C--2D--2H--3D--3H--,4D,0-4-3-6
+1C--2D--2H--3D--3H--,4H,1-4-1-7
+1C--2D--2H--3D--3H--,4N,0-4-2-7
+1C--2D--2H--3D--3H--,4S,2-4-0-7
+1C--2D--2H--,3H,4-3-1-5. Max.
+1C--2D--2H--3H--,4D,rkc!h
+1C--2D--2H--,3N,4-2-2-5 Max.
+1C--2D--2H--3N--,4D,rkc!s
+1C--2D--2H--3N--,4N,blackwood
+1C--2D--2H--,3S,4-1-3-5; Max
+1C--2D--2H--3S--,4H,rkc!s
+1C--2D--2H--,4C,6!c; 4!s
+1C--2D--2H--4C--,4D,rkc!c
+1C--2D--2H--4C--,4H,rkc!s
+1C--2D--2H--,4D,6!c; 5!d.
+1C--2D--2H--4D--,4H,rkc!c
+1C--2D--2H--4D--,4S,rkc!d
+1C--2D--2H--,4H,6!c; 5!h
+1C--,2H,8-11 hcp unbal 6+!d
+1C--2H--,2N,BAL
+1C--2H--,2S,
+1C--2H--2S--,2N,3!s
+1C--2H--2S--2N--,3C,
+1C--2H--2S--2N--3C--,3D,3!h
+1C--2H--2S--2N--3C--,3H,3-3-6-1
+1C--2H--2S--2N--3C--,3N,bal 3-2-6-2
+1C--2H--2S--2N--3C--3N--,4C,rkc
+1C--2H--2S--2N--3C--3N--,4D,rkc
+1C--2H--2S--2N--3C--3N--,4H,rkc
+1C--2H--2S--2N--3C--3N--,4S,rkc
+1C--2H--2S--2N--3C--,3S,3!c 3-1-6-3
+1C--2H--2S--,3C,no 3!s
+1C--2H--2S--3C--,3D,
+1C--2H--2S--3C--3D--,3H,
+1C--2H--2S--3C--3D--3H--,3S,rkc!h
+1C--2H--2S--3C--3D--,3N,2-2-6-3
+1C--2H--2S--3C--3D--,3S,2-1-7-3
+1C--2H--2S--,3D,no 3!c and 3!s
+1C--2H--2S--3D--,3H,
+1C--2H--2S--3D--3H--,3N,2-2-7-2
+1C--2H--2S--3D--3H--,3S,3!h
+1C--2H--2S--3D--3H--,4C,8!d+
+1C--2H--2S--3D--3H--,4D,0-1!c
+1C--2H--2S--3D--3H--4D--,4H,rkc!d
+1C--2H--2S--,3H,2-3-6-2
+1C--2H--2S--,3N,7!d+ 1TH
+1C--2H--2S--,4D,2TH
+1C--2H--,3C,
+1C--2H--,3H,
+1C--2H--,3S,
+1C--2H--,4C,RKC
+1C--2H--,4D,RKC
+1C--,2N,8-11 hcp 6+!c
+1C--2N--,3C,
+1C--2N--3C--,3D,
+1C--2N--3C--3D--,3H,
+1C--2N--3C--3D--3H--,4H,
+1C--2N--3C--,3H,no 3!d
+1C--2N--3C--3H--,3S,
+1C--2N--3C--3H--3S--,4S,
+1C--2N--3C--,3N,2-2-2-7
+1C--2N--3C--,3S,no 3!d/!h
+1C--2N--,3D,
+1C--2N--,3H,
+1C--2N--,3S,
+1C--2N--3S--,3N,0-1!s
+1C--2N--3S--,4D,spl 3!s
+1C--2N--3S--,4H,spl 3!s
+1C--2N--,4C,rkc
+1C--2N--,4D,rkc
+1C--,2S,11-12 hcp bal
+1C--2S--,3C,STAYMAN
+1C--2S--,3D,rkc
+1C--2S--,3H,rkc
+1C--2S--,3S,rkc
+1C--2S--,4C,rkc
+1C--2S--,4H,
+1C--2S--,4S,
+1C--,3C,4441 8-11 Hcp
+1C--3C--,4H,
+1C--3C--,4S,
+1C--,3D,4414 8-11 Hcp
+1C--3D--,4H,
+1C--3D--,4S,
+1C--,3H,4144 8-11 Hcp
+1C--3H--,4S,
+1C--,3N,AKQXXXX and A or K other
+1C--,3S,1444 8-11 Hcp
+1C--3S--,4H,
+1C--,4C,AKQXXXXX !D
+1C--,4D,AKQXXXXX!H
+1C--,4H,AKQXXXXX!S
+1C--,4S,AKQXXXXX!C
+1D1H1S2H,3S,max
+1D1H1S2H,Db,penalty
+1D1H,1S,
+1D1H,2C,
+1D1H2D3H,Db,penalty
+1D1H2D3H----4C--,4D,min
+1D1H2D3H----4C--4D--,4H,
+1D1H2D3H----4C--4D--,4S,rkc!d
+1D1H2D3H----4C--,5D,max
+1D1H,2D,
+1D1H,2H,ask for control
+1D1HDb2H,2N,13-15minors
+1D1HDb2H,2S,11-15
+1D1HDb2H,3C,13-15
+1D1HDb2H,3D,13-15
+1D1HDb2H,Db,13-15 4!s and 4!c/!d
+1D1HDb2H----,Db,4!s and 4min
+1D1HDb2H----Db--,2N,minors
+1D1HDb2H----Db--,2S,
+1D1HDb2H----Db--,3C,
+1D1HDb2H----Db--,3D,
+1D1HDb3H,Db,max 4!s
+1D1HDb3H----,Db,10+hcp negative
+1D1H,Db,negative
+1D1H--1S----,Db,penalty at !h
+1D1H--2H,2N,4+-4+m
+1D1H--2H,Db,4!s and 4!c/!d max
+1D1H--2H----,2S,and 5m+
+1D1H--2H----,Db,penalty
+1D1H,--,0-7hcp
+1D1H----Db2C,Db, penalty at !h
+1D1S,2C,
+1D1S,2D,
+1D1S,2H,
+1D1S,2S,ask for control
+1D1SDb2S,2N,minors
+1D1SDb2S,3C,
+1D1SDb2S,3D,
+1D1SDb2S,Db,4!h and 4!c/!d
+1D1S,Db,negative
+1D1S,--,0-7
+1D2C,2D,
+1D2C,2H,
+1D2C,2S,
+1D2C,3C,ask for control
+1D2C,Db,negative
+1D2C,--,0-7
+1D2D2H3D,3H,
+1D2D2H3D,Db,penalty
+1D2D,2H,
+1D2D,2S,
+1D2D,3C,
+1D2D,3D,ask for control
+1D2D,Db,negative
+1D2D,--,0-7
+1D2H,2N,minors
+1D2H,2S,
+1D2H,3C,
+1D2H,3D,
+1D2H,Db,negative
+1D2H,--,0-7 hcp
+1D2S,2N,minors
+1D2S,3C,
+1D2S,3D,
+1D2S,3H,
+1D2S,Db,negative
+1D2S,--,0-7hcp
+1D3C,3D,
+1D3C,3H,
+1D3C,3S,
+1D3C,4C,
+1D3C,Db,negative
+1D3C,--,0-7hcp
+1D3D,3H,
+1D3D,3S,
+1D3D,4C,
+1D3D,4D,
+1D3D,Db,negative
+1D3D,--,0-7hcp
+1D3H,3S,
+1D3H,4C,
+1D3H,4D,
+1D3H,4H,
+1D3H,Db,negative
+1D3H,--,0-7hcp
+1D3S,4C,
+1D3S,4D,
+1D3S,4H,
+1D3S,4S,
+1D3S,Db,negative
+1D3S,--,0-7hcp
+1D4C,5C,
+1D4C,Db,penalty
+1D4D,5D,
+1D4D,Db,penalty
+1D4H,5H,
+1D4H,Db,penalty
+1D4S,5S,
+1D4S,Db,penalty
+,1D,Please read chat#a)12-15hcp 4333                      b)11-15hcp 4432             c)10-15hcp 5332 
+1DDb,1H,0-9hcp
+1DDb,1N,no 4maj 0-9
+1DDb,1S,0-9hcp
+1DDb,2C,0-9hcp
+1DDb--1H----,2C,3+!d
+1DDb--1S----,2C,3+!d
+1DDb--2C2H3C,Db,penalty
+1DDb--2C--2H,Db,negative
+1DDb--2C--3C,Db,negative
+1DDb--2H--3H,Db,negative
+1DDb,--,0-9hcp 3!d+
+1DDbRd1H----,1S,
+1DDbRd1H----1S--,2C,11-13hcp
+1DDbRd1H----1S--,2D,11-13hcp
+1DDbRd1H----1S--,2H,11-13hcp
+1DDb,Rd,10+hcp
+1D--1H1S,2C,2-3!h
+1D--1H1S,2D,2-3!h
+1D--1H1S,2H,
+1D--1H1S,3C,3!h
+1D--1H1S,3D,3!h
+1D--1H1S,3H,
+1D--1H1S,Db,3!h
+1D--1H1S,--,0-2!h
+1D--1H2C,2D,2-3!h
+1D--1H2C,2H,
+1D--1H2C,2S,2-3!h
+1D--1H2C,3D,3!s
+1D--1H2C,3H,
+1D--1H2C,4H,
+1D--1H2C,Db,3!h
+1D--1H2C,--,0-3!h
+1D--1H2D,2H,
+1D--1H2D,2S,
+1D--1H2D,3C,3!h
+1D--1H2D,3H,
+1D--1H2D,4H,
+1D--1H2D,Db,3!h
+1D--1H2D,--,0-3!h
+1D--1H2S,3C,3!h
+1D--1H2S,3D,3!h
+1D--1H2S,3H,
+1D--1H2S,4H,
+1D--1H2S,Db,3!h
+1D--1H2S,--,0-3!h
+1D--,1H,Please read chat#0-11hcp; ussually 4 cards but can have long minor
+1D--1HDb,2C,2-3!h
+1D--1HDb,2D,2-3!h
+1D--1HDb,2H,
+1D--1HDb,2S,2-3!h
+1D--1HDb,3H,
+1D--1HDb,--,0-2!h
+1D--1HDbRd1S,3H,
+1D--1HDbRd1S,Db,penalty
+1D--1HDb,Rd,3!h
+1D--1H--,1N,Please read chat#No 4 card major and no 4 card minor or 14-15 Hcp with 5 card minor
+1D--1H--1N--,2C,
+1D--1H--1N--,2D,
+1D--1H--1N--,2H,
+1D--1H--1N--,2S,5+!h
+1D--1H--1N--,3C,4!h
+1D--1H--1N--,3D,4!h
+1D--1H--1N--,3H,
+1D--1H--1N--,4H,
+1D--1H--,1S,4 to 5 !s; 11 to 15 Hcp
+1D--1H--1S--,2C,
+1D--1H--1S--2C--,2H,
+1D--1H--1S--,2D,
+1D--1H--1S--2D--,2H,
+1D--1H--1S--,2H,
+1D--1H--1S--,2S,NF
+1D--1H--1S--,3C,4!H
+1D--1H--1S--,3D,4!H
+1D--1H--1S--,3S,
+1D--1H--1S--,4H,
+1D--1H--,2C,5!c; 3-3-2 10 to 13 Hcp
+1D--1H--2C--,2D,
+1D--1H--2C--,2H,
+1D--1H--2C--,2S,5!h+
+1D--1H--2C--,3C,
+1D--1H--2C--,3D,4!h
+1D--1H--2C--,3H,
+1D--1H--,2D,5332 12-13hcp
+1D--1H--2D--,2H,
+1D--1H--2D--,2S,5+!h
+1D--1H--2D--,3C,
+1D--1H--2D--,3D,
+1D--1H--,2H,12-15hcp
+1D--1H--,2N,4!h 15hcp
+1D--1H--2N--,3H,
+1D--1H--,2S,5!h ask dubl. 14-15hcp
+1D--1H--2S--,2N,2!s
+1D--1H--2S--,3C,
+1D--1H--2S--,3D,
+1D--1H--2S--,3H,
+1D--1H--,3C,5!h 14-15hcp
+1D--1H--3C--,3D,rkc!h
+1D--1H--3C--,3H,
+1D--1H--,3D,5!h 14-15hcp
+1D--1H--3D--,3H,
+1D--1H--3D--3H--,3S,rkc!h
+1D--1H--,3H,12-13hcp
+1D--1H--3H--,3S,rkc!h
+1D--,1N,6-10hcp no 4 card major
+1D--1N--,2C,
+1D--1N--,2D,
+1D--1N--,2H,
+1D--1N--,2N,15hcp 5min
+1D--1N--,2S,
+1D--1S2C,2D,2-3!s
+1D--1S2C,2H,
+1D--1S2C,2S,
+1D--1S2C,3C,4!s ask for control
+1D--1S2C,3D,3!s
+1D--1S2C,3H,3!s
+1D--1S2C,3S,
+1D--1S2C,Db,3!s
+1D--1S2C,--,0-2!s or 3!s with penalty at !c
+1D--1S2D,2H,
+1D--1S2D,2S,
+1D--1S2D,3C,
+1D--1S2D,3H,3!s
+1D--1S2D,3S,
+1D--1S2D,Db,3!s
+1D--1S2D,--,0-3!s
+1D--1S2H,2S,
+1D--1S2H,3C,
+1D--1S2H,3D,
+1D--1S2H,3H,3!s
+1D--1S2H,3S,
+1D--1S2H,Db,3!s
+1D--1S2H,--,0-3!s
+1D--1S3C,3D,3!s
+1D--1S3C,3H,3!s
+1D--1S3C,3S,12-15hcp
+1D--1S3C,Db,3!s max
+1D--1S3C,--,0-3!s min
+1D--1S3D,3H,3!s
+1D--1S3D,3S,12-15hcp
+1D--1S3D,Db,3!s
+1D--1S3D,--,0-3!s
+1D--1S3H,3S,12-15hcp
+1D--1S3H,Db,3!s
+1D--1S3H,--,0-3!s
+1D--,1S,Please read chat#0-11hcp; ussually 4 cards but can have long minor
+1D--1SDb,2C,2-3!s
+1D--1SDb,2D,2-3!s
+1D--1SDb,2H,2-3!s
+1D--1SDb,2S,
+1D--1SDb,3S,
+1D--1SDb,--,0-2!s
+1D--1SDb,Rd,3!s 
+1D--1S--,1N,no 4!s no 5min or 5min 14-15hcp
+1D--1S--1N--,2C,canape
+1D--1S--1N--,2D,canape
+1D--1S--1N--,2H,5!s+
+1D--1S--1N--,2S,
+1D--1S--1N--,3C,4!s
+1D--1S--1N--,3D,5!s+
+1D--,2C,ups; Force to Game any distribution
+1D--2CDb,2D,4-4-3-2
+1D--2CDb,2H,4-3-4-2
+1D--2CDb,2N,Please read chat#5 card in a suit(except !c) and stopper in !c.
+1D--2CDb2N--,3C,
+1D--2CDb2N--3C--,3D,5!h-3-3-2
+1D--2CDb2N--3C--,3H,5!s-3-3-2
+1D--2CDb2N--3C--,3S,5!d-3-3-2
+1D--2CDb,2S,3-4-4-2
+1D--2CDb,3C,Transfer; 3-3-5-2; no !c stopper
+1D--2CDb,3D,Transfer; 3-5-3-2; no !c stopper.
+1D--2CDb,3H,Transfer; 5-3-3-2; no !c stopper;
+1D--2CDb,--,3!c
+1D--2CDb,Rd,4-5 !c
+1D--2C--,2D,doubleton !d or 5 card major
+1D--2C--2D--,2H,Relay
+1D--2C--2D--2H--,2N,5!s; 10-15 Hcp.
+1D--2C--2D--2H--2N--,3C,
+1D--2C--2D--2H--2N--3C--,3D,5!s-3!h-2!d-3!c
+1D--2C--2D--2H--2N--3C--,3H,5!s-2!h-3!d-3!c
+1D--2C--2D--2H--2N--3C--,3S,5!s-3!h-3!d-2!c
+1D--2C--2D--2H--,2S,5!h; 10-15 Hcp.
+1D--2C--2D--2H--2S--,2N,Relay.
+1D--2C--2D--2H--2S--2N--,3C,3!s-5!h-3!d-2!c
+1D--2C--2D--2H--2S--2N--,3D,3!s-5!h-2!d-3!c
+1D--2C--2D--2H--2S--2N--,3H,2!s-5!h-3!d-3!c
+1D--2C--2D--2H--,3C,4!s-4!h-2!d-3!c
+1D--2C--2D--2H--3C--,3D,Asking for stopper
+1D--2C--2D--2H--3C--,3H,Asking for Minimum or Max. 1st step
+1D--2C--2D--2H--3C--,3S,RKC!s
+1D--2C--2D--2H--3C--,4C,RKC!c
+1D--2C--2D--2H--3C--,4D,RKC!h
+1D--2C--2D--2H--,3D,3!s-3!h-2!d-5!c
+1D--2C--2D--2H--,3H,4!s-3!h-2!d-4!c
+1D--2C--2D--2H--,3N,3!s-4!h-2!d-4!C Max.
+1D--2C--2D--2H--,3S,3!s-4!h-2!d-4!c min.
+1D--2C--,2H,Doubleton !h
+1D--2C--2H--,2S,
+1D--2C--2H--2S--,2N,3!s-2!h-5!d-3!c
+1D--2C--2H--2S--,3C,4!s-2!s-4!d-3!c
+1D--2C--2H--2S--,3D,4!s-2!h-3!d-4!c
+1D--2C--2H--2S--,3H,3!s-2!h-3!d-5!c
+1D--2C--2H--2S--3H--,3S,RKC!s
+1D--2C--2H--2S--3H--,4C,RKC!c
+1D--2C--2H--2S--3H--,4D,RKC!d
+1D--2C--2H--2S--,3S,3!s-2!h-4!d-4!c
+1D--2C--,2N,2!c
+1D--2C--2N--,3C,
+1D--2C--2N--3C--,3D,4!s-4!h-3!d-2!c
+1D--2C--2N--3C--,3H,4!s-3!h-4!d-2!c
+1D--2C--2N--3C--,3N,3!s-3!h-5!d-2!c
+1D--2C--2N--3C--,3S,3!s-4!h-4!d-2!c
+1D--2C--,2S,Doubleton !s
+1D--2C--2S--2N--,3C,2!s-4!h-4!d-3!c
+1D--2C--2S--2N--,3D,2!s-4!h-3!d-4!c
+1D--2C--2S--2N--,3H,2!s-3!h-4!d-4!c
+1D--2C--2S--2N--,3N,2!s-3!h-5!d-3!c
+1D--2C--2S--2N--,3S,2!s-3!h-3!d-5!c
+1D--2C--,3C,3343
+1D--2C--,3D,3433
+1D--2C--,3H,4333
+1D--2C--,3N,3334 max
+1D--2C--,3S,3334 min
+1D--,2D,Invitational; 5+!d
+1D--2D--,2H,Relay asking for distribution
+1D--2D--2H--,2N,6 or longer in !d
+1D--2D--2H--,2S,6!d; 4!s
+1D--2D--2H--,3C,5 or onger in !d and 4!c
+1D--2D--2H--,3D,6!d and 4!h
+1D--2D--2H--,3H,6!d; 1!h-3!S-3!C
+1D--2D--2H--,3N,6!d; 1!c-3!S-3!h max.
+1D--2D--2H--,3S,6!d; 1!s-3!h-3!C
+1D--2D--,2S,Asking for weekness
+1D--2D--2S--,2N,Weeknes in !s
+1D--2D--2S--,3C,Weekness in !c
+1D--2D--2S--,3D,Weekness in !h
+1D--,2H,Invitational; 5!h
+1D--,2N,5+!c
+1D--,2S,Invitational; 5!s
+1D--,3C,
+1D--,3D,
+1D--,3H,
+1D--,3S,
+1D--,4C,
+1D--,4D,
+1D--,4H,
+1D--,4N,zozefin
+1D--,4S,
+,1H,Please read chat#10 to 15 Hcp; 5+!h; no 5!h-3-3-2 distribution
+1HDb,1N,nat
+1HDb--2C2H3C,Db,penalty
+1HDb--2C,2H,14-15
+1HDb--2C--3C,Db,negative
+1HDb--2C----,Db,negative
+1HDb,--,0-10
+1H--,1N,Please read chat#a) Invite Bal                             b) One suited hand with !c or !d. Not GF
+1H--1N--,2C,5!h; 4+!c.
+1H--1N--2C--,2D,
+1H--1N--2C--2D--,3C,
+1H--1N--2C--,2H,
+1H--1N--2C--,2S,5!c+
+1H--1N--2C--,3C,
+1H--1N--2C--,3D,
+1H--1N--2C--,3H,
+1H--1N--2C--,3S,4!c+
+1H--1N--,2D,5!h; 4+!d.
+1H--1N--2D--,2H,
+1H--1N--2D--,2S,5!d+
+1H--1N--2D--,3C,
+1H--1N--2D--,3D,
+1H--1N--2D--,3H,
+1H--1N--2D--,3S,4!d+
+1H--1N--,2H,6+!h; 11-13hcp.
+1H--1N--2H--,2S,5-5minors
+1H--1N--2H--2S--,2N,no 3card m
+1H--1N--2H--2S--,3C,
+1H--1N--2H--2S--,3D,
+1H--1N--2H--2S--,3H,
+1H--1N--2H--2S--,3S,3-3minors
+1H--1N--,2N,6!h+ and 4m 14-15hcp
+1H--1N--2N--,3C,pass or correct
+1H--1N--2N--,3D,
+1H--1N--2N--3D--,3H,4!c
+1H--1N--2N--3D--,3S,4!d
+1H--1N--,2S,5+!h; 4!s; 14-15hcp.
+1H--1N--2S--,2N,ask 3card
+1H--1N--2S--,3C,
+1H--1N--2S--,3D,
+1H--1N--,3C,13-15 hcp 5!h; 5!c
+1H--1N--3C--,3D,
+1H--1N--3C--,3H,
+1H--1N--,3D,13-15hcp 5!h; 5!c
+1H--1N--3D--,3H,
+1H--1N--,3H,14 to 15 Hcp; 6+!h.
+1H--1N--,3N,15hcp 6!h
+1H--1N--,3S,6+!h; 5!s.
+1H--,1S,Please read chat#a) 4+!S natural                          b) invite unbalanced hand          c) FG; one suited colour with !s.
+1H--1S--,1N,6+!h; 4!c/!d 11-13 hcp
+1H--1S--1N--,2C,Pass or correct
+1H--1S--1N--2C--,2D,6!h and 4+!d
+1H--1S--1N--2C--,2H,7!h and 4+!d
+1H--1S--1N--2C--,2S,7!h; 4+!c
+1H--1S--1N--,2D,DAB
+1H--1S--1N--2D--,2H,4!c no 3!s
+1H--1S--1N--2D--2H--,2S,Relay
+1H--1S--1N--2D--2H--2S--,2N,6!h; 4!c; 2!d; 1!s
+1H--1S--1N--2D--2H--2S--,3C,6!h; 4!c; 2!s; 1!d
+1H--1S--1N--2D--2H--2S--,3D,6!h; 4!c; 3!d
+1H--1S--1N--2D--,2N,3!s
+1H--1S--1N--2D--,2S,4!d no 3!S 
+1H--1S--1N--2D--,3C,7!h
+1H--1S--1N--2D--,3D,7!h
+1H--1S--1N--,2H,
+1H--1S--1N--,2S,
+1H--1S--1N--,3C,
+1H--1S--1N--,3D,
+1H--1S--1N--,3H,
+1H--1S--1N--,3S,
+1H--1S--,2C,5!h
+1H--1S--2C--,2D,
+1H--1S--2C--2D--,2H,2524 11-13hcp
+1H--1S--2C--2D--,2S,3514
+1H--1S--2C--2D--,3C,
+1H--1S--2C--2D--,3D,1534
+1H--1S--2C--2D--,4C,0544
+1H--1S--2C--,2H,
+1H--1S--2C--,2S,
+1H--1S--2C--,3C,
+1H--1S--2C--,3H,
+1H--1S--2C--,3S,
+1H--1S--,2D,5!h
+1H--1S--2D--,2H,
+1H--1S--2D--,2S,
+1H--1S--2D--,3C,
+1H--1S--2D--3C--,3D,
+1H--1S--2D--3C--3D--,3H,rkc
+1H--1S--2D--3C--3D--,3S,
+1H--1S--2D--3C--,3H,3!c 1543
+1H--1S--2D--3C--,3N,2542
+1H--1S--2D--3C--,3S,3541
+1H--1S--2D--,3D,
+1H--1S--2D--,3H,
+1H--1S--2D--,3S,
+1H--1S--,2H,11-13hcp
+1H--1S--2H--,2S,
+1H--1S--2H--,3C,
+1H--1S--2H--3C--,3D,
+1H--1S--2H--3C--,3N,3!c
+1H--1S--2H--3C--,3S,
+1H--1S--2H--,3D,
+1H--1S--,2N,6!h+ 4m max
+1H--1S--2N--,3C,prefferance
+1H--1S--2N--,3D,
+1H--1S--2N--3D--,3H,4!c
+1H--1S--2N--3D--,3S,4!d
+1H--1S--2N--3D--3S--,4C,rkc!h
+1H--1S--2N--,3H,
+1H--1S--,2S,5!h+ 11-15hcp
+1H--1S--2S--2N--,3C,
+1H--1S--2S--2N--,3D,
+1H--1S--2S--2N--,3H,6!h no 3!c/!d
+1H--1S--2S--2N--,3N,4522max
+1H--1S--2S--2N--,3S,4522min
+1H--1S--2S--,3H,
+1H--1S--2S--,3S,
+1H--1S--,3C,5!h 13-15hcp
+1H--1S--3C--,3D,
+1H--1S--3C--,3H,
+1H--1S--,3D,5!h 13-15hcp
+1H--1S--3D--,3H,
+1H--1S--3D--,3S,
+1H--1S--3D--,4C,rkc!h
+1H--1S--3D--,4D,rkc
+1H--1S--,3H,14-15hcp
+1H--1S--3H--,3S,
+1H--1S--3H--,4C,rkc!h
+1H--1S--,3N,7!h+ 1TH
+1H--1S--3N--,4C,rkc!h
+1H--1S--,3S,6!h+
+1H--1S--3S--,4C,rkc!h
+1H--1S--3S--,4D,rkc!s
+1H--1S--,4H,2-3TH
+1H--1S--4H--,4S,rkc!h
+1H--,2C,Please read chat#a) FG Bal                                  b) GF; One suited hand with !c   c) Slam try with !h fit.
+1H--2C--,2D,
+1H--2C--2D--,2H,
+1H--2C--2D--2H--,2N,2542 min
+1H--2C--2D--2H--,2S,35(6)41(0)
+1H--2C--2D--2H--,3C,
+1H--2C--2D--2H--,3D,
+1H--2C--2D--2H--,3H,no 3!c/!d
+1H--2C--2D--2H--,3N,2542 max
+1H--2C--2D--2H--,3S,4540
+1H--2C--2D--,2S,6!c
+1H--2C--2D--,3C,
+1H--2C--2D--,3D,rkc
+1H--2C--2D--,3H,rkc
+1H--2C--,2H,min
+1H--2C--2H--,2S,
+1H--2C--2H--2S--,2N,3!s
+1H--2C--2H--2S--2N--,3C,
+1H--2C--2H--2S--2N--3C--,3D,
+1H--2C--2H--2S--2N--3C--,3H,
+1H--2C--2H--2S--2N--3C--,3S,3!c
+1H--2C--2H--2S--,3C,no 3!s
+1H--2C--2H--2S--3C--,3D,
+1H--2C--2H--2S--3C--3D--,3H,
+1H--2C--2H--2S--3C--3D--,3N,2623
+1H--2C--2H--2S--3C--3D--,3S,3!d
+1H--2C--2H--2S--,3D,no 3!s/!c
+1H--2C--2H--2S--,3H,2722
+1H--2C--2H--2S--,4H,
+1H--2C--2H--,3C,
+1H--2C--2H--,3H,rkc
+1H--2C--,2N,4!c
+1H--2C--2N--,3C,ask 3card
+1H--2C--2N--3C--,3D,
+1H--2C--2N--3C--,3H,
+1H--2C--2N--3C--,3N,2524
+1H--2C--2N--3C--,3S,
+1H--2C--2N--3C--,4C,0544
+1H--2C--2N--,3H,rkc
+1H--2C--,2S,
+1H--2C--2S--,2N,ask 3card
+1H--2C--2S--,3C,
+1H--2C--2S--,3D,
+1H--2C--2S--,3H,rkc
+1H--2C--2S--,3S,rkc
+1H--2C--,3C,
+1H--2C--3C--,3D,
+1H--2C--3C--,3H,rkc
+1H--2C--,3D,
+1H--2C--3D--,3H,rkc
+1H--2C--3D--,3S,
+1H--2C--3D--,4C,rkc
+1H--2C--,3H,14-15hcp
+1H--2C--3H--,3S,rkc!h
+1H--2C--3H--,4C,rkc
+1H--2C--3H--,4D,rkc!d
+1H--2C--,3N,7!h+ 1TH
+1H--2C--3N--,4D,rkc!h
+1H--2C--,3S,6!h+
+1H--2C--3S--,4C,rkc!h
+1H--2C--3S--,4D,rkc!s
+1H--2C--,4H,2TH
+1H--2C--4H--,4S,rkc!h
+1H--,2D,FG; 5+!d.
+1H--2D--,2H,min
+1H--2D--,2S,0-2!d
+1H--2D--2S--,2N,17+hcp
+1H--2D--2S--,3H,rkc
+1H--2D--2S--,3S,rkc
+1H--2D--,3C,0-2!d
+1H--2D--,3D,
+1H--2D--,3H,max
+1H--2D--,3S,spl
+1H--2D--,4C,spl
+1H--,2H,7-10hcp; 3!h exactly
+1H--,2N,Please read chat#Puppet to 3!c: Have hand that want to make Exclusive Blackwood.
+1H--2N--,3C,Forced
+1H--2N--3C--,3D,Please read chat#Asking Aces without the Ace of !d; with fit in !h.
+1H--2N--3C--,3H,Please read chat#Asking Aces without the Ace of !h; with fit in !s.
+1H--2N--3C--,3N,Please read chat#Asking Aces without the Ace of !c; with fit in !s.
+1H--2N--3C--,3S,Please read chat#Asking Aces without the Ace of !s; with fit in !h.
+1H--,2S,0-9hcp
+1H--,3C,Please read chat#4+!H about 7-9 support points (less than a limit raise but more than a preemptive raise).
+1H--,3D,Please read chat#4+!H with limit raise values (about 10-12 support points)
+1H--,3H,Please read chat#Less than constructive values. Lower limit varies according to vulnerability and partnership agreement.
+1H--,3N,12-15hcp 1!s 4!h+
+1H--,3S,12-15hcp 4!h+ Have a void
+1H--3S--,3N,Ask the void
+1H--,4C,4!h+ 12-15hcp
+1H--,4D,4!h+ 12-15hcp
+1H--,4H,
+1H--,4S,
+1N2C,Db,Please read chat#Shows 4-card major or Distribution asking bid or any GF.Continuations as if p had pid 2!c
+,1N,11-15 5!d+ Unbalaned hand.
+1NDb,2C,
+1NDb,2D,
+1NDb,2H,
+1NDb,2N,3!D 10+HCP
+1NDb,2S,
+1NDb,3C,
+1NDb,3D,
+1NDb,3H,
+1NDb,3S,
+1NDb--2H,Db,PENALTY
+1NDb,--,10+HCP
+1NDb----Rd2S,3H,
+1NDb----Rd2S,Db,PEN
+1NDb----,Rd,RELAY
+1NDb,Rd,ASK DISTRIBUTION
+1N--,2C,Please read chat#At least invitational hand or a hand that wants to find better contract from 1NT or 2!d
+1N--2C--,2D,Please read chat#Either 6+!d 11 to 13 Hcp or 5+!d 4!c 11 to 13 Hcp
+1N--2C--2D--,2H,
+1N--2C--2D--2H--,2N,6!D 3!C NO 3!S
+1N--2C--2D--2H--2N--,3C,
+1N--2C--2D--2H--2N--3C--,3D,
+1N--2C--2D--2H--2N--3C--,3H,1363
+1N--2C--2D--2H--2N--3C--,3N,2263
+1N--2C--2D--2H--,2S,Please read chat#6!d-3!s-3!d-1!c or 6!d-3!s-2!h-2!c or 7+!d any distribution.
+1N--2C--2D--2H--2S--2N--,3C,6!s-3!s-2!h-2!c
+1N--2C--2D--2H--2S--2N--,3D,7!d and no singl !c or 7-2-2-2
+1N--2C--2D--2H--2S--2N--3D--,3H,Ask shortness
+1N--2C--2D--2H--2S--2N--3D--3H--,3N,Short !s.
+1N--2C--2D--2H--2S--2N--3D--3H--,3S,Short !H.
+1N--2C--2D--2H--2S--2N--,3H,3!s-3!h-6!d-1!c
+1N--2C--2D--2H--2S--2N--,3N,7-2-2-2
+1N--2C--2D--2H--2S--2N--,3S,7!d and singl !c
+1N--2C--2D--2H--,3C,11-13HCP 5!D-4!C
+1N--2C--2D--2H--3C--,3D,
+1N--2C--2D--2H--3C--3D--,3H,
+1N--2C--2D--2H--3C--3D--,3N,2254
+1N--2C--2D--2H--3C--3D--,3S,
+1N--2C--2D--2H--,3D,NO 3!C/!S
+1N--2C--2D--2H--3D--,3H,
+1N--2C--2D--2H--3D--3H--,3N,2272
+1N--2C--2D--2H--3D--3H--,3S,
+1N--2C--2D--2H--3D--3H--,4C,8!D
+1N--2C--2D--2H--,3H,2362
+1N--2C--2D--2H--,3N,6!D+ 4!C 2!H 11-13HCP
+1N--2C--2D--2H--,3S,6!D+ 4!C 11-13HCP
+1N--2C--2D--,2S,Please read chat#Shows invitational hand with 5+!s and 4!h.
+1N--2C--2D--,3C,
+1N--2C--2D--,3D,Invite with 3+!d and a 4-card major.
+1N--2C--2D--,3H,FG; 6+!h
+1N--2C--2D--,3S,FG; 6+!s.
+1N--2C--,2H,
+1N--2C--2H--,2S,
+1N--2C--2H--2S--,2N,2452MAX
+1N--2C--2H--2S--,3C,1453
+1N--2C--2H--2S--,3D,4!H
+1N--2C--2H--2S--3D--,3H,ASK 3CARD
+1N--2C--2H--2S--,3H,2542MIN
+1N--2C--2H--2S--,3S,3451
+1N--2C--2H--2S--,4C,
+1N--2C--2H--,3C,
+1N--2C--2H--,3D,9+
+1N--2C--2H--,3H,
+1N--2C--2H--,3S,
+1N--2C--2H--,4C,rkc
+1N--2C--2H--,4D,rkc
+1N--2C--,2N,6+!d no 4-card other 14-15 Hcp
+1N--2C--2N--,3C,ask 3card
+1N--2C--2N--3C--,3D,
+1N--2C--2N--3C--,3H,
+1N--2C--2N--3C--3H--,3S,
+1N--2C--2N--3C--,3N,2263
+1N--2C--2N--3C--,3S,
+1N--2C--2N--,3D,
+1N--2C--2N--,3H,
+1N--2C--2N--,3S,
+1N--2C--2N--3S--,4C,3!s
+1N--2C--2N--3S--,4S,
+1N--2C--,2S,
+1N--2C--2S--2N--,3C,4153
+1N--2C--2S--2N--,3D,4!S 
+1N--2C--2S--2N--3D--,3H,ASK 3CARD
+1N--2C--2S--2N--,3H,4351
+1N--2C--2S--2N--,3S,4252MAX
+1N--2C--2S--,3C,
+1N--2C--2S--,3D,
+1N--2C--2S--,3H,
+1N--2C--,3C,
+1N--2C--3C--,3H,
+1N--2C--3C--,3S,
+1N--2C--,3D,4!c 14-15hcp
+1N--2C--,3H,1354 14-15hcp
+1N--2C--,3N,2254 14-15hcp
+1N--2C--,3S,3154 14-15hcp
+1N--2C--,4C,6!d+
+1N--2C--,4H,6+!d
+1N--2C--,4S,6!d+
+1N--,2D,Signoff Up to 10 Hcp 2+!d.
+1N--,2H,Please read chat#0-10 Hcp 5+!h does not want to play !d or have longer !h than the fit in !d.
+1N--2H--,2S,0-1!h
+1N--2H--,3C,
+1N--2H--,3D,
+1N--2H--,3H,14-15hcp
+1N--2H--,4H,
+1N--,2N,Please read chat#Invitational hand; without 4-card major.
+1N--,2S,Please read chat#0-10 Hcp 5+!s does not want to play !d or have longer !h than the fit in !d.
+1N--2S--,2N,5!d+ 4!C/!H 0-1!S
+1N--,3C,
+1N--,3D,
+1N--,3H,
+1N--,3S,
+1N--,4C,
+1N--,4D,
+1N--,4H,
+1N--,4N,RKC!d
+1N--,4S,
+,1S,Please read chat#10 to 15 Hcp; 5+!s; no 5!s-3-3-2 distribution
+1S--,1N,6-16
+1S--1N--,2C,pass or correct
+1S--1N--,2D,
+1S--1N--,2H,
+1S--1N--,2S,
+1S--1N--,3C,
+1S--1N--,3D,
+1S--1N--,3H,
+1S--1N--,3S,
+1S--,2C,
+1S--,2D,
+1S--,2H,
+1S--,2S,7-10hcp
+1S--,3C,Please read chat#4+!S about 7-9 support points (less than a limit raise but more than a preemptive raise).
+1S--,3D,Please read chat#4+!S with limit raise values (about 10-12 support points)
+1S--,3H,4!s+ one void
+1S--3H--,3N,ask the void
+1S--,3N,12-15hcp 4!s+ 1!h
+1S--3N--,4C,rkc!s
+1S--,3S,Please read chat#Less than constructive values. Lower limit varies according to vulnerability and partnership agreement.
+1S--,4C,4!s+
+1S--4C--,4D,rkc!s
+1S--,4D,4!s+
+1S--4D--,4H,rkc!s
+1S--,4H,
+1S--,4S,
+2C2D,Db,Negative
+2C2DDb--,2H,5+!c; 4!h. 11-15 Hcp
+2C2DDb--,2N,14-15 Hcp 6+!c. !d Stopper
+2C2DDb--,2S,5+!c; 4!s. 11-15 Hcp
+2C2DDb--,3C,6+!c 11-15 Hcp unsuitable for 2NT.
+2C2DDb--,3D,Please read chat#14-15 Hcp; at least 3-3 at majors; ask partner to bid his better major.
+2C2D,--,0-7 Hcp or Penalty pass
+,2C,Please read chat#a) 11-15 Hcp; 5+!c; 4Maj.          b) 14-15 Hcp; 5+!c and 4!d exactly.                                  c) 11-15 Hcp; 6+!c.
+2CDb,2D,
+2CDb,2H,
+2CDb,2N,3!c 10+hcp
+2CDb,2S,
+2CDb,3C,
+2CDb,3D,
+2CDb,3H,
+2CDb,3S,
+2CDb--2H3C3D,Db,penalty
+2CDb--2H3C3H,Db,penalty
+2CDb--2H--2S,Db,no 3!c  6-8hcp
+2CDb--2H--3H,Db,negative
+2CDb,--,0-9hcp
+2CDb,Rd,10+hcp
+2C--,2D,Please read chat#Asking for distribution; F1; Inv+ Relay.
+2C--2DDb,2H,5+!c-4!h singl !d.
+2C--2DDb,2N,Max 14-15 Hcp; 6+!c; 0-1 !d.
+2C--2DDb,2S,5+!c-4!s singl !d.
+2C--2DDb,3C,11-13 Hcp 6+!c; 0-1 !d.
+2C--2DDb,--,2-3 !d
+2C--2DDb----,Rd,Distribution asking bid.
+2C--2DDb----Rd--2H,3D,Ask for !d stopper.
+2C--2DDb----Rd--,2H,5!c-2-3!d-4!h-1-2!s
+2C--2DDb----Rd--2S,3D,Ask for stopper !d.
+2C--2DDb----Rd--,2S,5!c-2-3!d-4!s-1-2!h
+2C--2DDb,Rd,4-5 !d.
+2C--2D--,2H,11-15 Hcp; 5+!c; 4!h no 4!s.
+2C--2D--2H--,2S,DAB
+2C--2D--2H--2S--,2N,2-4-2-5 max
+2C--2D--2H--2S--,3C,4!h
+2C--2D--2H--2S--,3D,1-4-3-5
+2C--2D--2H--2S--,3H,2-4-2-5-min
+2C--2D--2H--2S--,3N,4!d
+2C--2D--2H--2S--3N--,4C,rkc
+2C--2D--2H--2S--3N--,4D,rkc
+2C--2D--2H--2S--,3S,3-4-1-5 
+2C--2D--2H--,3C,Inv; 3+!c; 9+hcp
+2C--2D--2H--,3D,
+2C--2D--2H--,3H,
+2C--2D--2H--,3S,
+2C--2D--2H--,4C,rkc
+2C--2D--2H--,4D,rkc
+2C--2D--,2N,6!c+ no 4card other 14-15hcp
+2C--2D--2N--,3C,
+2C--2D--2N--3C--,3D,
+2C--2D--2N--3C--3D--,3H,
+2C--2D--2N--3C--3D--3H--,3N,2-2-3-6
+2C--2D--2N--3C--3D--3H--,3S,
+2C--2D--2N--3C--3D--3H--,4C,no 3!h
+2C--2D--2N--3C--3D--3H--4C--,4D,rkc
+2C--2D--2N--3C--3D--3H--4C--,4H,rkc!c
+2C--2D--2N--3C--3D--3H--,4H,1-3-3-6
+2C--2D--2N--3C--3D--3H--4H--,4N,blackwood
+2C--2D--2N--3C--3D--3H--4H--,4S,rkc!c
+2C--2D--2N--3C--,3H,no 3!d
+2C--2D--2N--3C--3H--,3S,
+2C--2D--2N--3C--3H--3S--,3N,2-3-2-6
+2C--2D--2N--3C--3H--3S--3N--,4C,rkc
+2C--2D--2N--3C--3H--3S--3N--,4D,rkc
+2C--2D--2N--3C--3H--3S--,4C,
+2C--2D--2N--3C--3H--3S--4C--,4D,rkc!c
+2C--2D--2N--3C--3H--3S--4C--,4S,rkc!h
+2C--2D--2N--3C--3H--3S--,4D,1-3-2-7
+2C--2D--2N--3C--3H--3S--,4S,
+2C--2D--2N--3C--3H--3S--4S--,4N,blackwood
+2C--2D--2N--3C--,3N,2-2-2-7
+2C--2D--2N--3C--,3S,no 3!h
+2C--2D--2N--3C--3S--,4C,rkc
+2C--2D--2N--3C--3S--,4D,rkc!s
+2C--2D--2N--3C--,4C,
+2C--2D--2N--3C--4C--,4D,rkc!c
+2C--2D--2N--,3D,
+2C--2D--2N--,3H,
+2C--2D--2N--3H--,3N,0-1 !h
+2C--2D--2N--3H--3N--,4C,rkc!s
+2C--2D--2N--3H--,3S,3!h
+2C--2D--2N--3H--,4D,3!h
+2C--2D--2N--3H--,4H,
+2C--2D--2N--,3S,
+2C--2D--2N--3S--,4D,3!s
+2C--2D--2N--3S--,4H,!s
+2C--2D--2N--3S--,4S,
+2C--2D--,2S,11-15 Hcp; 5+!c; 4!s.
+2C--2D--2S--2N--,3C,4!s
+2C--2D--2S--2N--,3D,4-1-3-5
+2C--2D--2S--2N--,3H,4-3-1-5
+2C--2D--2S--2N--,3N,4-2-2-5 max
+2C--2D--2S--2N--,3S,4-2-2-5 min
+2C--2D--2S--2N--,4D,
+2C--2D--2S--2N--,4H,
+2C--2D--2S--,3C,9+hcp
+2C--2D--2S--,3D,
+2C--2D--2S--,3H,
+2C--2D--2S--,4D,rkc
+2C--2D--,3C,11-13hcp no 4card
+2C--2D--,3D,6!c+ 14-15hcp
+2C--2D--,3H,1345 14-15hcp
+2C--2D--,3N,2245 14-15hcp
+2C--2D--,3S,3145 14-15hcp
+2C--2D--,4D,6!c
+2C--2D--,4H,6!c
+2C--2D--,4S,
+2C--,2H,5+!h; up to 10 Hcp and up to 2!c; NF.
+2C--2H--,2N,7+!c
+2C--2H--,2S,6+!c or 4045
+2C--2H--,3C,
+2C--2H--,3D,6+!c
+2C--2H--,3H,14-15hcp
+2C--2H--,4H,
+2C--,2N,Please read chat#Inv; without 4Maj.Inv with !c or with !d.
+2C--,2S,5+!s; up to 10 Hcp and up to 2!c; NF.
+2C--2S--,2N,0-1!s 61c+ 4!d/!h or 0-4-4-5
+2C--2S--,3C,
+2C--2S--,3D,6!c+
+2C--2S--,3S,14-15hcp
+2C--2S--,4S,
+2C--,3C,Non-Forcing; preemptive; 3+!c.
+2C--,3D,Signoff with 6+!d.
+2C--,3H,6+!h; Invite
+2C--,3S,6+!s; Invite
+2C--,4C,
+2C--,4H,
+2C--,4S,
+,2D,11-17 Hcp 4441.
+2DDb,2H,pass or correct
+2DDb,2S,pass or correct
+2DDb,--,4!d
+2DDb----,2H,singl !d min
+2DDb----,Rd,singl. !d max
+2DDb,Rd,relay
+2DDbRd--,2H,11-12hcp
+2DDbRd--,2N,15-17hcp singl.!s
+2DDbRd--,2S,13-14hcp
+2DDbRd--,3C,15-17hcp
+2DDbRd--,3D,15-17hcp
+2DDbRd--,3H,15-17hcp
+2D--,2H,ask for singleton
+2D--2H--,2N,15-17 1!s
+2D--2H--,2S,11-14hcp
+2D--2H--2S--,3C,pass or correct
+2D--2H--2S--,3D,pass or correct 
+2D--2H--2S--,3H,pass or correct
+2D--2H--,3C,15-17hcp
+2D--2H--,3D,15-17hcp
+2D--2H--,3H,15-17 hcp 
+2D--2H--,3N,17 hcp1!c
+2D--2H--,3S,17hcp
+2D--,2N,10-11 hcp no 4maj
+2D--2N--,3C,11-13 hcp 4-4 min
+2D--2N--,3H,15-17hcp
+2D--2N--,3N,14-17hcp 4-4maj
+2D--2N--,3S,15-17hcp
+2D--2N--,--,11-13hcp 4-4maj
+2D--,2S,11-14hcp
+2D--2S--,2N,4!s 15-17hcp
+2D--2S--2N--,3C,pass or correct
+2D--2S--2N--,3D,pass or correct
+2D--2S--2N--,3H,pass or correct
+2D--2S--2N--,3S,
+2D--2S--,3C,1!s 11-17hcp
+2D--2S--3C--,3D,
+2D--2S--3C--,3H,
+2D--2S--3C--,3S,
+2D--2S--,--,4!s11-14hcp
+2D--,3C,pass or correct
+2D--,3D,pass or correct
+2D--,3H,pass or correct
+2D--,3S,pass or correct
+2D--,4C,
+2D--,4D,
+2D--,4H,
+2D--,4S,
+,2H,Please read chat#6-7 !h; 6-10 Hcp; 1 or 2 Top honors in !h; no 4 cards in !s; no void.
+2HDb,2N,Lrob; 3+!h; 10+ Hcp.
+2HDb,Rd,Please read chat#Puppet to 2!s; one suit colour in a suit.
+2H--,2N,F1; ask he weak for more and extras.
+2H--2N--,3C,Maxim. 1 Top Honor in !h.
+2H--2N--,3D,Maxim. 2 Top Honor in !h.
+2H--2N--,3H,Minimum.
+2H--2N--,3N,Maximum; 4!d.
+2H--2N--,3S,Maximum; 4!c.
+2H--2N--,4C,Max; 7!h; 1 Top H in !h.
+2H--2N--,4D,Max; 7!h; 2 Top H in !h.
+2H--,2S,F1; 5+!s.
+2H--2S--,2N,9-10 Hcp; 0-2 !s; stoppers in !c; !d
+2H--2S--,3C,0-2 !s; max; 4+!c.
+2H--2S--,3D,0-2 !s; max; 4!d.
+2H--2S--,3H,0-2 !s min.
+2H--2S--,3S,3!s; max.
+2H--2S--,4C,3!s; max; singl. !c.
+2H--2S--,4D,3!s; max; singl. !d.
+2H--2S--,4S,3!s; min.
+2H--,3C,F1; 5+!c.
+2H--,3D,F1; 5+!d.
+2H--,3H,NF; 2+!h.
+2H--,3S,Lead directing. Ussually fit in !h.
+2H--,4C,Lead directing. Ussually fit in !h.
+2H--,4D,Lead directing. Ussually fit in !h.
+,2N,5!c+ and 4!d 10-13hcp
+2N--,3C,
+2N--,3D,
+2N--,3H,
+2N--,3S,
+2N--,4C,rkc
+2N--,4D,rkc
+,2S,Please read chat#6-7 !s; 6-10 Hcp; 1 or 2 Top honors in !s; no 4 cards in !h; no void.
+,3C,5-5 minors at least; up to 10 Hcp.
+,3D,5-5 Majors at least; up to 10 Hcp.
+,3H,5+!h and 5+ minor up to 10 Hcp.
+,3S,5+!s and 5+ minor up to 10 Hcp.
+Option,Opening @3
+,1D,11-15hcp no 5 card major; Balanced Hand
+,1H,9-15hcp 5+!h could be balanced
+,1S,9-15hcp 5+!s; could be balanced
+1S--1N--,2C,
+1S--1N--2C--,2D,
+1S--1N--2C--,2H,
+1S--1N--2C--,2S,6-7
+1S--1N--2C--,3D,
+1S--1N--2C--,3H,
+1S--1N--2C--,3S,11p
+1S--,2C,relay
+1S--,2D,
+1S--,2H,
+1S--,2S,8-10
+1S--,3S,
+,2H,Please read chat#NF; 5+!h can have any other 4 card and a void; also can have even zero Hcp.
+,2S,Please read chat#NF; 5+!s can have any other 4 card and a void; also can have even zero Hcp.
+Option,Opening @4
+,2H,Exactly 6!h and 8-12 Hcp.
+,2S,Exactly 6!s and 8-12 Hcp.
+Option
+
