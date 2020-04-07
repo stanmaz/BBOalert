@@ -1,0 +1,1516 @@
+BBOalert
+1C----,1N,10-13HL
+1C----,2N,17-19HL
+1D----,1N,10-13HL
+1D----,2N,17-19HL
+1H----,1N,10-13HL
+1H----,2N,17-19HL
+1N,2C,bicolore majeur (Landy)
+1N2C--,2D,#!hs
+1N2C--,2H,#!hs>#!ss
+1N2C--,2S,#!hs<#!ss
+1N----,2C,bicolore majeur (Landy)
+1N----2C--,2D,#!hs
+1N----2C--,2H,#!hs>#!ss
+1N----2C--,2S,#!hs<#!ss
+1S----,1N,10-13HL
+1S----,2N,17-19HL
+Error *00{SEF}=NYYYYYYMajeure Cinquième, SA Fort (2SA fitté, Drury, Landy, Roudi constant, Rubensohl)|,,Please read chat#eure Cinquième; SA Fort (2SA fitté; Drury; Landy; Roudi constant; Rubensohl)
+1C1D,Db,8+HL 4+!h 4+!s
+1C1H,Db,8+HL
+1C1S,Db,8+HL 4!h OU 8-10HL 5!h
+1C2H,Db,10+HL 4!s OU 10-11HL 5!s
+1C2S,Db,10+HL 4!h OU 10-11HL 5!h
+1C3D,Db,10-11HL 4+maj
+1C3H,Db,12+HL 4+!s
+1C3S,Db,12+HL 4+!h
+1C4H,Db,12+HL 4+!s
+1C4S,Db,12+HL optionnel
+,1C,12-23HL
+1C--,1D,5+HL (3334 possible)
+1C--1D--,1H,12-19HL
+1C--1D--1H--,1N,6-10HL
+1C--1D--1H--,1S,4!s ou 4e forcing
+1C--1D--1H--,2C,6-11HLD
+1C--1D--1H--,2D,
+1C--1D--1H--,2H,6-11HLD
+1C--1D--1H--,2N,11-12HL
+1C--1D--1H--,3C,12+HLD
+1C--1D--1H--,3N,13-15HL
+1C--1D--,1N,12-15HL
+1C--1D--,1S,12-19HL
+1C--1D--1S--,1N,6-10HL
+1C--1D--1S--,2C,6-11HLD
+1C--1D--1S--,2D,
+1C--1D--1S--,2H,4e FM
+1C--1D--1S--,2N,11-12HL
+1C--1D--1S--,2S,6-11HLD
+1C--1D--1S--,3C,12+HLD
+1C--1D--1S--,3N,13-15HL
+1C--1D--,2C,sans majeure 4e
+1C--1D--,2D,5+!c4+!d
+1C--1D--,2N,18-19H
+1C--,1H,5+HL
+1C--1H--,1N,12-15HL sans 4!h ni 4!s
+1C--1H--1N--,2C,11+HL Roudi (constant)
+1C--1H--1N--2C--,2D,12-13HL 2!h
+1C--1H--1N--2C--,2H,12-13HL 3!h
+1C--1H--1N--2C--,2N,14-15HL 2!h
+1C--1H--1N--2C--,2S,14-15HL 3!h
+1C--1H--1N--,2D,4!h
+1C--1H--1N--,2H,
+1C--1H--1N--,2N,!c
+1C--1H--1N--,2S,5!h
+1C--1H--1N--,3C,13+HLD
+1C--1H--1N--,3D,5!h
+1C--1H--1N--,3H,
+1C--1H--1N--,3N,12-18HL
+1C--1H--1N--,4N,18-19HL (quantitatif)
+1C--1H--,1S,12-19HL
+1C--1H--1S--,1N,6-10HL
+1C--1H--1S--,2C,6-11HLD
+1C--1H--1S--,2D,4e forcing
+1C--1H--1S--,2H,6-10HL
+1C--1H--1S--,2N,11-12HL
+1C--1H--1S--,2S,6-10HLD
+1C--1H--1S--,3C,12+HLD
+1C--1H--1S--,3D,13+HL 5!d-5!h
+1C--1H--1S--,3H,11-12HL
+1C--1H--1S--,3N,13-15HL
+1C--1H--1S--,3S,11-12HLD
+1C--1H--1S--,4H,13-15HL
+1C--1H--1S--,4S,13-15HLD
+1C--1H--,2C,12-17HL
+1C--1H--2C--,2D,9-10+H 3e forcing
+1C--1H--2C--2D--,2H,12-13H
+1C--1H--2C--2D--,3C,
+1C--1H--2C--2D--,3H,14-16H
+1C--1H--2C--,2H,6-10HL
+1C--1H--2C--,2N,11-12HL
+1C--1H--2C--,2S,12+HL
+1C--1H--2C--,3C,10-12HLD
+1C--1H--2C--,3D,12+HL 5!h
+1C--1H--2C--,3H,11-12HL
+1C--1H--2C--,3N,13-15HL
+1C--1H--2C--,4C,
+1C--1H--2C--,4H,13-15HL
+1C--1H--,2D,17+HL
+1C--1H--,2H,12-16HLD
+1C--1H--,2N,18-19H 2-3!h
+1C--1H--2N--,3C,
+1C--1H--2N--,3D,Check-Back Stayman
+1C--1H--2N--3D--,3H,3!h
+1C--1H--2N--3D--,3N,ni 3!h ni 4!s
+1C--1H--2N--3D--,3S,4!s-2!h
+1C--1H--2N--,3H,
+1C--1H--2N--,4C,5!c-5!h
+1C--1H--2N--,4D,5!d-5!h
+1C--1H--2N--,4H,
+1C--1H--2N--,4N,14H (quantitatif)
+1C--1H--,2S,20+HL
+1C--1H--,3C,18-19HL
+1C--1H--,3D,20+HL
+1C--1H--,3H,17-19HLD
+1C--1H--,3N,18-19H 4!h
+1C--1H--,3S,4!h 0-1!s
+1C--1H--,4D,4!h 0-1!d
+1C--1H--,4H,20-21HLD
+1C--,1N,8-10HL sans majeure 4e
+1C--1N--,2C,12-16HL
+1C--1N--,2D,17+HL
+1C--1N--,2H,17+HL
+1C--1N--,2N,16-17HL
+1C--1N--,2S,17+HL (ou 14-15H 5!c-5!s)
+1C--1N--,3C,17-19HL
+1C--1N--,3D,19+HL
+1C--1N--,3H,19+HL 6!c-5!h
+1C--1N--,3N,18+HL
+1C--1N--,3S,16+H 5!c-5!s
+1C--,1S,5+HL
+1C--1S--,1N,12-15HL
+1C--1S--1N--,2C,11+HL Roudi (constant)
+1C--1S--1N--2C--,2D,12-13HL 2!s
+1C--1S--1N--2C--,2H,12-13HL 3!s
+1C--1S--1N--2C--,2N,14-15HL 2!s
+1C--1S--1N--2C--,2S,14-15HL 3!s
+1C--1S--1N--,2D,4!s
+1C--1S--1N--,2H,5!s
+1C--1S--1N--,2N,!c
+1C--1S--1N--,2S,
+1C--1S--1N--,3C,13+HLD
+1C--1S--1N--,3D,5!s
+1C--1S--1N--,3H,5!s
+1C--1S--1N--,3N,12-18HL
+1C--1S--1N--,3S,
+1C--1S--1N--,4N,18-19HL (quantitatif)
+1C--1S--,2C,12-17HL
+1C--1S--2C--,2D,9-10+H 3e forcing
+1C--1S--2C--2D--,2H,
+1C--1S--2C--2D--,2S,12-13H
+1C--1S--2C--2D--,3C,
+1C--1S--2C--2D--,3S,14-16H
+1C--1S--2C--,2H,5!s
+1C--1S--2C--,2N,11-12HL
+1C--1S--2C--,2S,6-10HL
+1C--1S--2C--,3C,10-12HLD
+1C--1S--2C--,3D,12+HL 5!s
+1C--1S--2C--,3H,12+HL
+1C--1S--2C--,3N,13-15HL
+1C--1S--2C--,3S,11-12HL
+1C--1S--2C--,4C,
+1C--1S--2C--,4S,13-15HL
+1C--1S--,2D,17+HL
+1C--1S--,2H,17+HL
+1C--1S--2H--,2N,modérateur
+1C--1S--2H--2N--,3C,minimum (passe ou corrige)
+1C--1S--2H--,2S,
+1C--1S--2H--,3C,
+1C--1S--2H--,3D,5!s
+1C--1S--2H--,3H,
+1C--1S--,2N,18-19H 2-3!s
+1C--1S--2N--,3C,
+1C--1S--2N--,3D,Check-Back Stayman
+1C--1S--2N--3D--,3H,4!h-2!s
+1C--1S--2N--3D--,3N,ni 3!s ni 4!h
+1C--1S--2N--3D--,3S,3!s
+1C--1S--2N--,3H,5!h-5!s
+1C--1S--2N--,3S,
+1C--1S--2N--,4C,5!c-5!s
+1C--1S--2N--,4D,5!d-5!s
+1C--1S--2N--,4H,5!h-5!s (passe ou corrige)
+1C--1S--2N--,4N,14H (quantitatif)
+1C--1S--2N--,4S,
+1C--1S--,2S,12-16HLD
+1C--1S--,3C,18-19HL
+1C--1S--,3D,20+HL
+1C--1S--,3H,20+HL
+1C--1S--,3N,18-19H 4!s
+1C--1S--,3S,17-19HLD
+1C--1S--,4D,4!s 0-1!d
+1C--1S--,4H,4!s 0-1!h
+1C--1S--,4S,20-21HLD
+1C--,2C,6-10HLD
+1C--2C--,3C,
+1C--,2D,16+HL fit !c
+1C--,2H,16+HL fit !c
+1C--,2N,11-12HL sans majeure 4e
+1C--,2S,16+HL fit !c
+1C--,3C,11-12HLD
+1C--,3N,13-15HL sans majeure 4e
+1D1H,Db,8+HL
+1D1S,Db,8+HL 4!h OU 8-10HL 5!h
+1D2C,Db,8+HL 4+!h ou 4+!s
+1D2H,Db,10+HL 4!s OU 10-11HL 5!s
+1D2S,Db,10+HL 4!h OU 10-11HL 5!h
+1D3H,Db,12+HL 4+!s
+1D3S,Db,12+HL 4+!h
+1D4H,Db,12+HL 4+!s
+1D4S,Db,12+HL optionnel
+,1D,12-23HL
+1D--,1H,5+HL
+1D--1H--,1N,12-15HL sans 4!h ni 4!s
+1D--1H--1N--,2C,11+HL Roudi (constant)
+1D--1H--1N--2C--,2D,12-13HL 2!h
+1D--1H--1N--2C--,2H,12-13HL 3!h
+1D--1H--1N--2C--,2N,14-15HL 2!h
+1D--1H--1N--2C--,2S,14-15HL 3!h
+1D--1H--1N--,2D,
+1D--1H--1N--,2H,
+1D--1H--1N--,2N,!c
+1D--1H--1N--,2S,5!h
+1D--1H--1N--,3C,5!h
+1D--1H--1N--,3D,13+HLD
+1D--1H--1N--,3H,
+1D--1H--1N--,3N,12-18HL
+1D--1H--1N--,4N,18-19HL (quantitatif)
+1D--1H--,1S,12-19HL
+1D--1H--1S--,1N,6-10HL
+1D--1H--1S--,2C,4e forcing
+1D--1H--1S--,2D,6-11HLD
+1D--1H--1S--,2H,6-10HL
+1D--1H--1S--,2N,11-12HL
+1D--1H--1S--,2S,6-10HLD
+1D--1H--1S--,3C,13+HL 5!c-5!h
+1D--1H--1S--,3D,12+HLD
+1D--1H--1S--,3H,11-12HL
+1D--1H--1S--,3N,13-15HL
+1D--1H--1S--,3S,11-12HLD
+1D--1H--1S--,4H,13-15HL
+1D--1H--1S--,4S,13-15HLD
+1D--1H--,2C,12-19HL
+1D--1H--,2D,12-17HL
+1D--1H--,2H,12-16HLD
+1D--1H--,2N,18-19H 2-3!h
+1D--1H--2N--,3C,Check-Back Stayman
+1D--1H--2N--3C--,3D,3!s-2!h-5!d-3!c
+1D--1H--2N--3C--,3H,3!h
+1D--1H--2N--3C--,3N,3!s-2!h-4!d-4!c
+1D--1H--2N--3C--,3S,4!s-2!h
+1D--1H--2N--,3D,
+1D--1H--2N--,3H,
+1D--1H--2N--,3S,5!s-6!h
+1D--1H--2N--,4C,5!c-5!h
+1D--1H--2N--,4D,5!d-5!h
+1D--1H--2N--,4H,
+1D--1H--2N--,4N,14H (quantitatif)
+1D--1H--,2S,20+HL
+1D--1H--,3C,20+HL
+1D--1H--,3D,18-19HL
+1D--1H--,3H,17-19HLD
+1D--1H--,3N,18-19H 4!h
+1D--1H--,3S,4!h 0-1!s
+1D--1H--,4C,4!h 0-1!c
+1D--1H--,4H,20-21HLD
+1D--,1N,5-10HL sans majeure 4e
+1D--1N--,2C,12-18HL
+1D--1N--,2D,12-16HL
+1D--1N--,2H,17+HL
+1D--1N--,2N,18-19H
+1D--1N--,2S,17+HL
+1D--1N--,3C,19+HL
+1D--1N--,3D,17-19HL
+1D--1N--,3H,19+HL 6!d-5!h
+1D--1N--,3N,20+HL
+1D--1N--,3S,19+HL 6!D-5!s
+1D--,1S,5+HL
+1D--1S--,1N,12-15HL
+1D--1S--1N--,2C,11+HL Roudi (constant)
+1D--1S--1N--2C--,2D,12-13HL 2!s
+1D--1S--1N--2C--,2H,12-13HL 3!s
+1D--1S--1N--2C--,2N,14-15HL 2!s
+1D--1S--1N--2C--,2S,14-15HL 3!s
+1D--1S--1N--,2D,
+1D--1S--1N--,2H,5!s
+1D--1S--1N--,2N,!c
+1D--1S--1N--,2S,
+1D--1S--1N--,3C,5!s
+1D--1S--1N--,3D,13+HLD
+1D--1S--1N--,3H,5!s
+1D--1S--1N--,3N,12-18HL
+1D--1S--1N--,3S,
+1D--1S--1N--,4N,18-19HL (quantitatif)
+1D--1S--,2C,12-19HL
+1D--1S--,2D,12-17HL
+1D--1S--2D--,2H,9-10+H 3e forcing
+1D--1S--2D--,2S,
+1D--1S--,2H,17+HL
+1D--1S--2H--,2N,modérateur
+1D--1S--2H--2N--,3D,minimum (passe ou corrige)
+1D--1S--2H--,2S,
+1D--1S--2H--,3C,5!s
+1D--1S--2H--,3D,
+1D--1S--2H--,3H,
+1D--1S--,2N,18-19H 2-3!s
+1D--1S--2N--,3C,Check-Back Stayman
+1D--1S--2N--3C--,3D,2!s-3!h-5!d-3!c
+1D--1S--2N--3C--,3H,4!h-2!s
+1D--1S--2N--3C--,3N,2!s-3!h-4!d-4!c
+1D--1S--2N--3C--,3S,3!s
+1D--1S--2N--,3D,
+1D--1S--2N--,3H,5!h-5!s
+1D--1S--2N--,3S,
+1D--1S--2N--,4C,5!c-5!s
+1D--1S--2N--,4D,5!d-5!s
+1D--1S--2N--,4H,5!h-5!s (passe ou corrige)
+1D--1S--2N--,4N,14H (quantitatif)
+1D--1S--2N--,4S,
+1D--1S--,2S,12-16HLD
+1D--1S--,3C,20+HL
+1D--1S--,3D,18-19HL
+1D--1S--,3H,20+HL
+1D--1S--,3N,18-19H 4!s
+1D--1S--,3S,17-19HLD
+1D--1S--,4C,4!s 0-1!c
+1D--1S--,4H,4!s 0-1!h
+1D--1S--,4S,20-21HLD
+1D--,2C,11+HL
+1D--2C--,2D,12-17HL
+1D--2C--,2H,17+HL
+1D--2C--,2N,12-15HL
+1D--2C--,2S,17+HL
+1D--2C--,3C,13-19HLD
+1D--2C--,3D,18-19HL
+1D--,2D,6-10HLD
+1D--,2H,16+HL fit !d
+1D--,2N,11-12HL sans majeure 4e
+1D--,2S,16+HL fit !d
+1D--,3C,16+HL fit !d
+1D--,3D,11-12HLD
+1D--,3N,13-15HL sans majeure 4e
+1H2C,Db,8+HL 4!s OU 8-10HL 5!s
+1H2D,Db,8+HL 4!s OU 8-10HL 5!s
+1H3S,Db,12+HL bicolore mineur
+1H4S,Db,12+HL optionnel
+1N2D,2H,
+1N2D,2N,!c
+1N2D,2S,
+1N2D,3C,Stayman
+1N2D,3D,!h
+1N2D,3H,!s
+1N2D,Db,8H
+1N2H,2N,!c
+1N2H,2S,
+1N2H,3C,!d
+1N2H,3D,4!s
+1N2H,3H,!s
+1N2H,Db,8H
+1N2S,2N,!c
+1N2S,3C,!d
+1N2S,3D,!h
+1N2S,3H,4!h
+1N2S,Db,8H
+,1N,15-17H
+1NDb,2C,Stayman
+1NDb2CDb,2D,
+1NDb2CDb,2H,pas 4!s
+1NDb2CDb2N,4C,Transfert !h
+1NDb2CDb2N,4D,Transfert !s
+1NDb2CDb,2N,17H arrêts !c
+1NDb2CDb,2S,pas 4!h
+1NDb2CDb,3C,4!h-4!s
+1NDb2CDb,--,sans majeure 4e
+1NDb2C--,2D,sans majeure 4e
+1NDb2C--2D--,2H,8-9HL
+1NDb2C--2D--,2S,8-9HL
+1NDb2C--2D--,3H,5!s-4!h (chassé-croisé)
+1NDb2C--2D--,3S,5!h-4!s (chassé-croisé)
+1NDb2C--,2H,pas 4!s
+1NDb2C--2H--,2S,8-9HL
+1NDb2C--,2N,4!h-4!s
+1NDb2C--2N--,3H,
+1NDb2C--2N--,3S,
+1NDb2C--2N--,4C,Transfert !h
+1NDb2C--2N--,4D,Transfert !s
+1NDb2C--,2S,pas 4!h
+1NDb,2D,5+!h
+1NDb,2H,5+!s
+1NDb,2N,8-9HL
+1NDb,2S,6+!c
+1NDb,3C,6+!d
+1NDb,3D,FM
+1NDb,3H,FM
+1NDb,3N,9-15HL
+1NDb,3S,FM
+1NDb,4C,Gerber 03/14/2
+1NDb4C--,4D,0/3 As
+1NDb4C--4D--,5C,Demande Rois 03/14/2
+1NDb4C--,4H,1/4 As
+1NDb4C--4H--,5C,Demande Rois 03/14/2
+1NDb4C--,4S,2 As
+1NDb4C--4S--,5C,Demande Rois 03/14/2
+1NDb,4H,
+1NDb,4N,16HL (quantitatif)
+1NDb,4S,
+1N--,2C,Stayman 8+HL
+1N--2CDb,2D,
+1N--2CDb,2H,pas 4!s
+1N--2CDb2N,4C,Transfert !h
+1N--2CDb2N,4D,Transfert !s
+1N--2CDb,2N,17H arrêts !c
+1N--2CDb,2S,pas 4!h
+1N--2CDb,3C,4!h-4!s
+1N--2CDb,--,sans majeure 4e
+1N--2C--,2D,sans majeure 4e
+1N--2C--2D--,2H,8-9HL
+1N--2C--2D--,2S,8-9HL
+1N--2C--2D--,3H,5!s-4!h (chassé-croisé)
+1N--2C--2D--,3S,5!h-4!s (chassé-croisé)
+1N--2C--,2H,pas 4!s
+1N--2C--2H--,2S,8-9HL
+1N--2C--,2N,4!h-4!s
+1N--2C--2N--,3H,
+1N--2C--2N--,3S,
+1N--2C--2N--,4C,Transfert !h
+1N--2C--2N--,4D,Transfert !s
+1N--2C--,2S,pas 4!h
+1N--,2D,5+!h
+1N--2DDb,2H,
+1N--2DDb2H--,2N,8-9HL
+1N--2DDb2H--,2S,
+1N--2DDb2H--,3C,9-15HL
+1N--2DDb2H--,3D,9-15HL
+1N--2DDb2H--,3H,8-9HL
+1N--2DDb2H--,3N,9-15HL
+1N--2DDb2H--,4N,16HL (quantitatif)
+1N--2DDb,3H,17H
+1N--2DDb,--,2!h
+1N--2D--,2H,
+1N--2D--2H--,2N,8-9HL
+1N--2D--2H--,2S,
+1N--2D--2H--,3C,9-15HL
+1N--2D--2H--,3D,9-15HL
+1N--2D--2H--,3H,8-9HL
+1N--2D--2H--,3N,9-15HL
+1N--2D--2H--,4N,16HL (quantitatif)
+1N--2D--,3H,17H
+1N--,2H,5+!s
+1N--2HDb,2S,
+1N--2HDb2S--,2N,8-9HL
+1N--2HDb2S--,3C,9-15HL
+1N--2HDb2S--,3D,9-15HL
+1N--2HDb2S--,3H,
+1N--2HDb2S--,3N,9-15HL
+1N--2HDb2S--,3S,8-9HL
+1N--2HDb2S--,4H,
+1N--2HDb2S--,4N,16HL
+1N--2HDb,--,2!s
+1N--2H--,2S,
+1N--2H--2S--,2N,8-9HL
+1N--2H--2S--,3C,9-15HL
+1N--2H--2S--,3D,9-15HL
+1N--2H--2S--,3H,
+1N--2H--2S--,3N,9-15HL
+1N--2H--2S--,3S,8-9HL
+1N--2H--2S--,4H,
+1N--2H--2S--,4N,16HL
+1N--,2N,8-9HL
+1N--,2S,6+!c
+1N--2S--3C--,3D,
+1N--2S--3C--,3H,singleton !s
+1N--2S--3C--,3N,singleton !d
+1N--2S--3C--,3S,singleton !h
+1N--2S--3C--,4N,16HL (quantitatif)
+1N--,3C,6+!d
+1N--3C--3D--,3H,singleton !s
+1N--3C--3D--,3N,singleton !c
+1N--3C--3D--,3S,singleton !h
+1N--3C--3D--,4N,16HL (quantitatif)
+1N--,3D,FM
+1N--,3H,FM
+1N--,3N,9-15HL
+1N--,3S,FM
+1N--,4C,Gerber 03/14/2
+1N--4C--,4D,0/3 As
+1N--4C--4D--,5C,Demande Rois 03/14/2
+1N--4C--,4H,1/4 As
+1N--4C--4H--,5C,Demande Rois 03/14/2
+1N--4C--,4S,2 As
+1N--4C--4S--,5C,Demande Rois 03/14/2
+1N--,4D,5+!h-5+!s
+1N--,4H,
+1N--,4N,16HL (quantitatif)
+1N--,4S,
+1S2C,Db,8+HL 4!h OU 8-10HL 5!h
+1S2D,Db,8+HL 4!h OU 8-10HL 5!h
+1S2H,Db,10+HL 4+min OU 10-11HL 5+min
+1S3D,Db,10-11HL 4+!h
+1S3H,Db,12+HL bicolore mineur
+1S4H,Db,12+HL optionnel
+,2C,Fort Indéterminé (semi-FM)
+2C--,2D,
+2C--2D--,2H,20-23HL
+2C--2D--2H--,2N,11+H
+2C--2D--2H--,2S,8+H
+2C--2D--2H--,3C,8+H
+2C--2D--2H--,3D,8+H
+2C--2D--2H--,3H,
+2C--2D--2H--,3N,8-10H
+2C--2D--2H--,4H,
+2C--2D--,2N,22-23HL
+2C--2D--2N--,3C,Stayman 3+HL
+2C--2D--2N--3C--,3D,sans majeure 4e
+2C--2D--2N--3C--3D--,3H,5!s-4!h (chassé-croisé)
+2C--2D--2N--3C--3D--,3N,3-9HL
+2C--2D--2N--3C--3D--,3S,5!h-4!h (chassé-croisé)
+2C--2D--2N--3C--3D--,4N,10HL (quantitatif)
+2C--2D--2N--3C--,3H,pas 4!s
+2C--2D--2N--3C--3H--,3N,3-9HL
+2C--2D--2N--3C--3H--,4N,10HL (quantitatif)
+2C--2D--2N--3C--,3N,4!h-4!s
+2C--2D--2N--3C--3N--,4C,Transfert !h
+2C--2D--2N--3C--3N--,4D,Transfert !s
+2C--2D--2N--3C--,3S,pas 4!h
+2C--2D--2N--3C--3S--,3N,3-9HL
+2C--2D--2N--3C--3S--,4N,10HL (quantitatif)
+2C--2D--2N--,3D,5+!h
+2C--2D--2N--3D--,4H,21H
+2C--2D--2N--,3H,5+!s
+2C--2D--2N--3H--,4S,21H
+2C--2D--2N--,3N,3-9HL sans majeure 4e
+2C--2D--2N--,3S,6+!c
+2C--2D--2N--,4C,6+!d
+2C--2D--2N--,4D,5!h-5!s
+2C--2D--2N--,4H,
+2C--2D--2N--,4N,10HL (quantitatif)
+2C--2D--2N--,4S,
+2C--2D--,2S,20-23HL
+2C--2D--2S--,2N,11+H
+2C--2D--2S--,3C,8+H
+2C--2D--2S--,3D,8+H
+2C--2D--2S--,3H,8+H
+2C--2D--2S--,3N,8-10H
+2C--2D--2S--,3S,
+2C--2D--2S--,4S,
+2C--2D--,3C,8-9 levées de jeu
+2C--2D--,3D,8-9 levées de jeu
+2C--2D--,3H,8 levées de jeu
+2C--2D--,3N,Bicolore Majeur de 3-4 perdantes
+2C--2D--,3S,8 levées de jeu
+2C--,2H,deux gros honneurs !h
+2C--,2N,10-12H
+2C--,2S,deux gros honneurs !s
+2C--,3C,deux gros honneurs !c
+2C--,3D,deux gros honneurs !d
+,2D,FM demande d'as
+2D--,2H,0-7H sans As ni 2 Rois
+2D--2H--,2S,
+2D--2H--,3C,
+2D--2H--,3D,
+2D--2H--,3H,pas 4!s
+2D--2H--,3S,5+!h-4!s
+2D--2H--,4H,
+2D--2H--,4S,
+2D--,2N,8+H ou 2 Rois; sans As
+2D--2N--,3C,
+2D--2N--,3D,
+2D--2N--,3H,
+2D--2N--,3S,
+2D--2N--,4H,
+2D--2N--,4S,
+2D--,2S,1 As majeur
+2D--2S--,3C,
+2D--2S--,3D,
+2D--2S--,3H,
+2D--2S--,3S,
+2D--2S--,4H,
+2D--2S--,4S,
+2D--,3C,As de !c
+2D--3C--,3D,
+2D--3C--,3H,
+2D--3C--,3S,
+2D--3C--,4H,
+2D--3C--,4S,
+2D--,3D,As de !d
+2D--3D--,3H,
+2D--3D--,3S,
+2D--3D--,4H,
+2D--3D--,4S,
+2D--,3H,2 As noirs ou rouges (CRM)
+2D--,3N,2 As !c/!h ou !d/!s (CRM)
+2D--,3S,2 As mineurs ou majeurs (CRM)
+2H2N,Db,punitif
+2H2S2N,3C,Contrôle (maximum)
+2H2S2N,3D,Contrôle (maximum)
+2H2S2N,3H,minimum
+2H2S2N,3N,beaux !h sans contrôle extérieur
+2H2S2N,3S,Contrôle (maximum)
+2H2S2N,4C,Please read chat#courte !c et beaux !h sans contrôle extérieur
+2H2S2N,4D,Please read chat#courte !d et beaux !h sans contrôle extérieur
+2H2S2N,4H,Please read chat#courte !s et beaux !h sans contrôle extérieur
+2H2S,2N,2+!h
+2H2S,Db,punitif
+2H3C,Db,punitif
+2H3D,Db,punitif
+,2H,6-10H
+2HDb,2N,2+!h
+2HDb,2S,
+2HDb,3C,
+2HDb,3D,
+2HDb,3H,
+2HDb,Rd,fort tendance punitive
+2H--,2N,2+!h
+2H--2N--,3C,Contrôle (maximum)
+2H--2N--,3D,Contrôle (maximum)
+2H--2N--,3H,minimum
+2H--2N--,3N,beaux !h sans contrôle extérieur
+2H--2N--,3S,Contrôle (maximum)
+2H--2N--,4C,Please read chat#courte !c et beaux !h sans contrôle extérieur
+2H--2N--,4D,Please read chat#courte !d et beaux !h sans contrôle extérieur
+2H--2N--,4H,Please read chat#courte !s et beaux !h sans contrôle extérieur
+2H--,2S,16+HL pas 2!h
+2H--2S--,3C,Contrôle (maximum)
+2H--2S--,3D,Contrôle (maximum)
+2H--2S--,3H,minimum
+2H--2S--,3S,fit
+2H--,3C,16+HL pas 2!h
+2H--3C--,3H,minimum
+2H--3C--,4C,fit
+2H--,3D,16+HL pas 2!h
+2H--3D--,3H,minimum
+2H--3D--,4D,fit
+2H--,3H,
+2H--,4H,
+2H--,4S,
+,2N,20-21H
+2N--,3C,Stayman 5+HL
+2N--3C--,3D,sans majeure 4e
+2N--3C--3D--,3H,5!s-4!h (chassé-croisé)
+2N--3C--3D--,3N,5-11HL
+2N--3C--3D--,3S,5!h-4!h (chassé-croisé)
+2N--3C--3D--,4N,12HL (quantitatif)
+2N--3C--,3H,pas 4!s
+2N--3C--3H--,3N,5-11HL
+2N--3C--3H--,4N,12HL (quantitatif)
+2N--3C--,3N,4!h-4!s
+2N--3C--3N--,4C,Transfert !h
+2N--3C--3N--,4D,Transfert !s
+2N--3C--,3S,pas 4!h
+2N--3C--3S--,3N,5-11HL
+2N--3C--3S--,4N,12HL (quantitatif)
+2N--,3D,5+!h
+2N--3D--,4H,21H
+2N--,3H,5+!s
+2N--3H--,4S,21H
+2N--,3N,5-11HL sans majeure 4e
+2N--,3S,6+!c
+2N--,4C,6+!d
+2N--,4D,5!h-5!s
+2N--,4H,
+2N--,4N,12HL (quantitatif)
+2N--,4S,
+,2S,6-10H
+2S--,2N,16+HL
+2S--2N--,3C,Contrôle (maximum)
+2S--2N--,3D,Contrôle (maximum)
+2S--2N--,3H,Contrôle (maximum)
+2S--2N--,3N,beaux !s sans contrôle extérieur
+2S--2N--,3S,minimum
+2S--2N--,4C,Please read chat#courte !c et beaux !s sans contrôle extérieur
+2S--2N--,4D,Please read chat#courte !d et beaux !s sans contrôle extérieur
+2S--2N--,4H,Please read chat#courte !h et beaux !s sans contrôle extérieur
+2S--,3C,16+HL pas 2!s
+2S--3C--,3S,minimum
+2S--3C--,4C,fit
+2S--,3D,16+HL pas 2!s
+2S--3D--,3S,minimum
+2S--3D--,4D,fit
+2S--,3H,16+HL pas 2!s
+2S--3H--,3S,minimum
+2S--3H--,4H,
+2S--,4H,
+,3C,5-10H
+,3D,5-10H
+,3H,5-10H
+,3N,Please read chat#Gambling (mineure 7e affranchie sans arrêt annexe)
+,3S,5-10H
+Option,Opening @1@2
+1H1S,1N,8-10HL; arrêt !s
+1H1S,2C,11+HL
+1H1S,2D,11+HL
+1H1S,2H,7-10HLD
+1H1S,2N,11-12HL arrêt !s et demi
+1H1S,2S,12+H 4+!h
+1H1S,3C,6-9H
+1H1S,3D,6-9H
+1H1S,3H,11-12HLD
+1H1S,3N,12-14HL arrêt !s et demi
+1H1S,4H,
+1H1S,Db,appel aux mineures
+,1H,12-19HL
+1HDb,2H,6-10HLD
+1HDb,2N,4!h 11-12HLD (Truscott)
+1HDb,3H,max 8H
+1HDb,3N,4!h 13-16HLD (super Truscott)
+1HDb,4H,
+1HDb,Rd,10+H
+1H--,1N,6-10HL sans 4!s
+1H--1N--,2C,12-18HL
+1H--1N--2C--,2D,
+1H--1N--2C--,2H,
+1H--1N--2C--2H--,2N,15-17H
+1H--1N--,2D,12-18HL
+1H--1N--2D--,2H,
+1H--1N--2D--2H--,2N,15-17H
+1H--1N--,2H,12-16HL
+1H--1N--,2N,18-19H
+1H--1N--,2S,17+HL
+1H--1N--,3C,19+HL
+1H--1N--,3D,19+HL
+1H--1N--,3H,17-19HL
+1H--1N--,3N,20+HL
+1H--1N--,3S,19+HL 6!h-5!s
+1H--1N--,4H,
+1H--,1S,5+HL
+1H--1S--,1N,12-15HL
+1H--1S--1N--,2C,11+HL Roudi (constant)
+1H--1S--1N--2C--,2D,12-13HL 2!s
+1H--1S--1N--2C--,2H,12-13HL 3!s
+1H--1S--1N--2C--,2N,14-15HL 2!s
+1H--1S--1N--2C--,2S,14-15HL 3!s
+1H--1S--,2C,12-19HL
+1H--1S--2C--,2D,4e forcing
+1H--1S--2C--,2H,6-10HL
+1H--1S--2C--,2N,11-12HL
+1H--1S--2C--,2S,6-10HL
+1H--1S--2C--,3C,10-12HL
+1H--1S--2C--,3D,13+HL 5!d-5!s
+1H--1S--2C--,3H,16+HLD
+1H--1S--2C--,3N,13-15HL
+1H--1S--2C--,3S,11-12HL
+1H--1S--2C--,4C,16+HL 5!c-5!s
+1H--1S--2C--,4H,13-15HLD
+1H--1S--2C--,4S,13-15HL
+1H--1S--,2D,12-19HL
+1H--1S--2D--,2H,6-10HL
+1H--1S--2D--,2N,11-12HL
+1H--1S--2D--,2S,6-10HL
+1H--1S--2D--,3C,4e FM
+1H--1S--2D--,3D,10-12HL
+1H--1S--2D--,3H,16+HLD
+1H--1S--2D--,3N,13-15HL
+1H--1S--2D--,3S,11-12HL
+1H--1S--2D--,4C,16+HL 5!c-5!s
+1H--1S--2D--,4D,16+HL 5!d-5!s
+1H--1S--2D--,4H,13-15HLD
+1H--1S--2D--,4S,13-15HL
+1H--1S--,2H,12-19HL
+1H--1S--,2N,18-19H 2-3!s
+1H--1S--,2S,12-16HLD
+1H--1S--,3C,20+HL
+1H--1S--,3D,20+HL
+1H--1S--,3H,18-19HL
+1H--1S--,3N,18-19H 4!s
+1H--1S--,3S,17-19HLD
+1H--1S--,4C,4!s 0-1!c
+1H--1S--,4D,4!s 0-1!d
+1H--1S--,4H,
+1H--1S--,4S,20-21HLD
+1H--,2C,11+HL
+1H--2C--,2D,12-19HL
+1H--2C--2D--,2H,11-12HL sans tenue !s
+1H--2C--2D--,2N,11-12HL avec tenue !s
+1H--2C--2D--,2S,4e forcing
+1H--2C--2D--,3C,11HL
+1H--2C--2D--,3D,12+HL
+1H--2C--2D--,3H,16+HLD
+1H--2C--2D--,3N,13-15HL
+1H--2C--2D--,4H,13-15HLD
+1H--2C--,2H,12-17HL
+1H--2C--2H--,2N,11-12HL 2!h
+1H--2C--2H--,2S,12+HL
+1H--2C--2H--,3C,11HL
+1H--2C--2H--,3D,12+HL
+1H--2C--2H--,3H,16+HLD
+1H--2C--2H--,3N,13-15HL 2!h
+1H--2C--2H--,4H,13-15HLD
+1H--2C--,2N,15-17H
+1H--2C--2N--,3H,
+1H--2C--2N--,4H,
+1H--2C--,2S,17+HL
+1H--2C--,3C,13-19HLD
+1H--2C--3C--,3H,
+1H--2C--3C--,4H,
+1H--2C--,3D,20+HL
+1H--2C--,3H,18-19HL
+1H--2C--,3N,18-20HL
+1H--2C--,3S,20+HL
+1H--2C--,4C,19-21HLD
+1H--2C--,4H,8 levées
+1H--,2D,11+HL
+1H--2D--,2H,12-17HL
+1H--2D--2H--,2N,11-12HL 2!h
+1H--2D--2H--,2S,12+HL
+1H--2D--2H--,3C,12+HL
+1H--2D--2H--,3D,11HL
+1H--2D--2H--,3H,16+HLD
+1H--2D--2H--,3N,13-15HL 2!h
+1H--2D--2H--,4H,13-15HLD
+1H--2D--,2N,15-17H
+1H--2D--2N--,3H,
+1H--2D--2N--,4H,
+1H--2D--,2S,17+HL
+1H--2D--,3C,17+HL
+1H--2D--,3D,13-19HLD
+1H--2D--3D--,3H,
+1H--2D--3D--,4H,
+1H--2D--,3H,18-19HL
+1H--2D--,3N,18-20HL
+1H--2D--,3S,20+HL
+1H--2D--,4C,20+HL
+1H--2D--,4D,19-21HLD
+1H--2D--,4H,
+1H--,2H,6-10HLD
+1H--2H--,2N,16+HLD essai généralisé
+1H--2H--,2S,17-19HLD essai
+1H--2H--,3C,17-19HLD essai
+1H--2H--,3D,17-19HLD essai
+1H--2H--,3H,12-15HLD barrage
+1H--2H--,3N,20+HL
+1H--2H--,3S,19+HLD 6!h-5!s
+1H--2H--,4C,19+HLD
+1H--2H--,4D,19+HLD
+1H--,2N,11-12HLD fitté
+1H--,3H,11-12HLD
+1H--,3N,13-14HL
+1H--,4H,13-14HLD
+,1S,12-19HL
+1SDb,2N,4!s 11-12HLD (Truscott)
+1SDb,2S,6-10HLD
+1SDb,3N,4!s 13-16HLD (super Truscott)
+1SDb,3S,max 8H
+1SDb,4S,
+1SDb,Rd,10+H
+1S--,1N,6-10HL sans 3!s
+1S--1N--,2C,12-18HL
+1S--1N--2C--,2D,
+1S--1N--2C--,2H,
+1S--1N--2C--,2S,
+1S--1N--2C--2S--,2N,15-17H
+1S--1N--,2D,12-18HL
+1S--1N--2D--,2H,
+1S--1N--2D--,2S,
+1S--1N--2D--2S--,2N,15-17H
+1S--1N--,2H,12-18HL
+1S--1N--,2N,18-19H
+1S--1N--2N--,3C,
+1S--1N--2N--,3D,
+1S--1N--2N--,3H,
+1S--1N--2N--,4H,
+1S--1N--,2S,12-16HL
+1S--1N--,3C,19+HL
+1S--1N--,3D,19+HL
+1S--1N--,3H,19+HL
+1S--1N--,3N,20+HL
+1S--1N--,3S,17-19HL
+1S--1N--,4S,
+1S--,2C,11+HL
+1S--2C--,2D,12-19HL
+1S--2C--2D--,2H,4e forcing
+1S--2C--2D--,2N,11-12HL avec tenue !h
+1S--2C--2D--,2S,11-12HL sans tenue !h
+1S--2C--2D--,3C,11HL
+1S--2C--2D--,3D,12+HL
+1S--2C--2D--,3N,13-15HL
+1S--2C--2D--,3S,16+HLD
+1S--2C--2D--,4S,13-15HLD
+1S--2C--,2H,12-19HL
+1S--2C--2H--,3H,
+1S--2C--2H--,4H,
+1S--2C--,2N,15-17H
+1S--2C--2N--,3S,
+1S--2C--2N--,4S,
+1S--2C--,2S,12-17HL
+1S--2C--2S--,2N,11-12HL 2!s
+1S--2C--2S--,3C,11HL
+1S--2C--2S--,3D,12+HL
+1S--2C--2S--,3H,12+HL
+1S--2C--2S--,3N,13-15HL
+1S--2C--2S--,3S,16+HLD
+1S--2C--2S--,4S,13-15HLD
+1S--2C--,3C,13-19HLD
+1S--2C--3C--,3S,
+1S--2C--3C--,4S,
+1S--2C--,3D,20+HL
+1S--2C--,3H,20+HL
+1S--2C--,3N,18-20HL
+1S--2C--,3S,18-19HL
+1S--2C--,4C,19-21HLD
+1S--2C--,4S,8 levées
+1S--,2D,11+HL
+1S--2D--,2H,17+HL
+1S--2D--,2N,15-17H
+1S--2D--2N--,3S,
+1S--2D--2N--,4S,
+1S--2D--,2S,12-17HL
+1S--2D--2S--,2N,11-12HL 2!s
+1S--2D--2S--,3C,12+HL
+1S--2D--2S--,3D,11HL
+1S--2D--2S--,3H,12+HL
+1S--2D--2S--,3N,13-15HL
+1S--2D--2S--,3S,16+HLD
+1S--2D--2S--,4S,13-15HLD
+1S--2D--,3C,17+HL
+1S--2D--,3D,13-19HLD
+1S--2D--3D--,3S,
+1S--2D--3D--,4S,
+1S--2D--,3H,20+HL
+1S--2D--,3N,18-20HL
+1S--2D--,3S,18-19HL
+1S--2D--,4C,20+HL
+1S--2D--,4D,19-21HLD
+1S--2D--,4H,passe ou corrige
+1S--2D--,4S,8 levées
+1S--,2H,11+HL
+1S--2H--,2N,15-17H
+1S--2H--2N--,3S,
+1S--2H--2N--,4S,
+1S--2H--,2S,12-17HL
+1S--2H--2S--,2N,11-12HL
+1S--2H--2S--,3N,13-15HL
+1S--2H--2S--,3S,16+HLD
+1S--2H--2S--,4S,13-15HLD
+1S--2H--,3C,17+HL
+1S--2H--,3D,17+HL
+1S--2H--,3H,13-19HLD
+1S--2H--3H--,3S,
+1S--2H--3H--,4S,
+1S--2H--,3N,18-20HL
+1S--2H--,3S,18-19HL
+1S--2H--,4C,20+HL
+1S--2H--,4D,20+HL
+1S--2H--,4H,13-16HLD
+1S--,2N,11-12HLD fitté
+1S--,2S,6-10HLD
+1S--2S--,2N,16+HLD essai généralisé
+1S--2S--,3C,17-19HLD essai
+1S--2S--,3D,17-19HLD essai
+1S--2S--,3H,17-19HLD essai
+1S--2S--,3N,20+HL
+1S--2S--,3S,12-15HLD barrage
+1S--2S--,4C,19+HLD
+1S--2S--,4D,19+HLD
+1S--,3N,13-14HL
+1S--,3S,11-12HLD
+1S--,4S,13-14HLD
+Option,Opening @3@4
+,1C,11-23HL
+1C--,1D,5+HL (3334 possible)
+1C--1D--,1H,12-19HL
+1C--1D--1H--,1N,6-10HL
+1C--1D--1H--,1S,4!s ou 4e forcing
+1C--1D--1H--,2C,6-11HLD
+1C--1D--1H--,2D,
+1C--1D--1H--,2H,6-11HLD
+1C--1D--1H--,2N,11-12HL
+1C--1D--1H--,3C,12+HLD
+1C--1D--1H--,3N,13-15HL
+1C--1D--,1N,12-15HL
+1C--1D--,1S,12-19HL
+1C--1D--1S--,1N,6-10HL
+1C--1D--1S--,2C,6-11HLD
+1C--1D--1S--,2D,
+1C--1D--1S--,2H,4e FM
+1C--1D--1S--,2N,11-12HL
+1C--1D--1S--,2S,6-11HLD
+1C--1D--1S--,3C,12+HLD
+1C--1D--1S--,3N,13-15HL
+1C--1D--,2C,sans majeure 4e
+1C--1D--,2D,5+!c4+!d
+1C--1D--,2N,18-19H
+1C--,1H,5+HL
+1C--1H--,1N,12-15HL sans 4!h ni 4!s
+1C--1H--1N--,2C,11+HL Roudi (constant)
+1C--1H--1N--2C--,2D,12-13HL 2!h
+1C--1H--1N--2C--,2H,12-13HL 3!h
+1C--1H--1N--2C--,2N,14-15HL 2!h
+1C--1H--1N--2C--,2S,14-15HL 3!h
+1C--1H--1N--,2D,4!h
+1C--1H--1N--,2H,
+1C--1H--1N--,2N,!c
+1C--1H--1N--,2S,5!h
+1C--1H--1N--,3C,13+HLD
+1C--1H--1N--,3D,5!h
+1C--1H--1N--,3H,
+1C--1H--1N--,3N,12-18HL
+1C--1H--1N--,4N,18-19HL (quantitatif)
+1C--1H--,1S,12-19HL
+1C--1H--1S--,1N,6-10HL
+1C--1H--1S--,2C,6-11HLD
+1C--1H--1S--,2D,4e forcing
+1C--1H--1S--,2H,6-10HL
+1C--1H--1S--,2N,11-12HL
+1C--1H--1S--,2S,6-10HLD
+1C--1H--1S--,3C,12+HLD
+1C--1H--1S--,3D,13+HL 5!d-5!h
+1C--1H--1S--,3H,11-12HL
+1C--1H--1S--,3N,13-15HL
+1C--1H--1S--,3S,11-12HLD
+1C--1H--1S--,4H,13-15HL
+1C--1H--1S--,4S,13-15HLD
+1C--1H--,2C,12-17HL
+1C--1H--2C--,2D,9-10+H 3e forcing
+1C--1H--2C--2D--,2H,12-13H
+1C--1H--2C--2D--,3C,
+1C--1H--2C--2D--,3H,14-16H
+1C--1H--2C--,2H,6-10HL
+1C--1H--2C--,2N,11-12HL
+1C--1H--2C--,2S,12+HL
+1C--1H--2C--,3C,10-12HLD
+1C--1H--2C--,3D,12+HL 5!h
+1C--1H--2C--,3H,11-12HL
+1C--1H--2C--,3N,13-15HL
+1C--1H--2C--,4C,
+1C--1H--2C--,4H,13-15HL
+1C--1H--,2D,17+HL
+1C--1H--,2H,12-16HLD
+1C--1H--,2N,18-19H 2-3!h
+1C--1H--2N--,3C,
+1C--1H--2N--,3D,Check-Back Stayman
+1C--1H--2N--3D--,3H,3!h
+1C--1H--2N--3D--,3N,ni 3!h ni 4!s
+1C--1H--2N--3D--,3S,4!s-2!h
+1C--1H--2N--,3H,
+1C--1H--2N--,4C,5!c-5!h
+1C--1H--2N--,4D,5!d-5!h
+1C--1H--2N--,4H,
+1C--1H--2N--,4N,14H (quantitatif)
+1C--1H--,2S,20+HL
+1C--1H--,3C,18-19HL
+1C--1H--,3D,20+HL
+1C--1H--,3H,17-19HLD
+1C--1H--,3N,18-19H 4!h
+1C--1H--,3S,4!h 0-1!s
+1C--1H--,4D,4!h 0-1!d
+1C--1H--,4H,20-21HLD
+1C--,1N,8-10HL sans majeure 4e
+1C--1N--,2C,12-16HL
+1C--1N--,2D,17+HL
+1C--1N--,2H,17+HL
+1C--1N--,2N,16-17HL
+1C--1N--,2S,17+HL (ou 14-15H 5!c-5!s)
+1C--1N--,3C,17-19HL
+1C--1N--,3D,19+HL
+1C--1N--,3H,19+HL 6!c-5!h
+1C--1N--,3N,18+HL
+1C--1N--,3S,16+H 5!c-5!s
+1C--,1S,5+HL
+1C--1S--,1N,12-15HL
+1C--1S--1N--,2C,11+HL Roudi (constant)
+1C--1S--1N--2C--,2D,12-13HL 2!s
+1C--1S--1N--2C--,2H,12-13HL 3!s
+1C--1S--1N--2C--,2N,14-15HL 2!s
+1C--1S--1N--2C--,2S,14-15HL 3!s
+1C--1S--1N--,2D,4!s
+1C--1S--1N--,2H,5!s
+1C--1S--1N--,2N,!c
+1C--1S--1N--,2S,
+1C--1S--1N--,3C,13+HLD
+1C--1S--1N--,3D,5!s
+1C--1S--1N--,3H,5!s
+1C--1S--1N--,3N,12-18HL
+1C--1S--1N--,3S,
+1C--1S--1N--,4N,18-19HL (quantitatif)
+1C--1S--,2C,12-17HL
+1C--1S--2C--,2D,9-10+H 3e forcing
+1C--1S--2C--2D--,2H,
+1C--1S--2C--2D--,2S,12-13H
+1C--1S--2C--2D--,3C,
+1C--1S--2C--2D--,3S,14-16H
+1C--1S--2C--,2H,5!s
+1C--1S--2C--,2N,11-12HL
+1C--1S--2C--,2S,6-10HL
+1C--1S--2C--,3C,10-12HLD
+1C--1S--2C--,3D,12+HL 5!s
+1C--1S--2C--,3H,12+HL
+1C--1S--2C--,3N,13-15HL
+1C--1S--2C--,3S,11-12HL
+1C--1S--2C--,4C,
+1C--1S--2C--,4S,13-15HL
+1C--1S--,2D,17+HL
+1C--1S--,2H,17+HL
+1C--1S--2H--,2N,modérateur
+1C--1S--2H--2N--,3C,minimum (passe ou corrige)
+1C--1S--2H--,2S,
+1C--1S--2H--,3C,
+1C--1S--2H--,3D,5!s
+1C--1S--2H--,3H,
+1C--1S--,2N,18-19H 2-3!s
+1C--1S--2N--,3C,
+1C--1S--2N--,3D,Check-Back Stayman
+1C--1S--2N--3D--,3H,4!h-2!s
+1C--1S--2N--3D--,3N,ni 3!s ni 4!h
+1C--1S--2N--3D--,3S,3!s
+1C--1S--2N--,3H,5!h-5!s
+1C--1S--2N--,3S,
+1C--1S--2N--,4C,5!c-5!s
+1C--1S--2N--,4D,5!d-5!s
+1C--1S--2N--,4H,5!h-5!s (passe ou corrige)
+1C--1S--2N--,4N,14H (quantitatif)
+1C--1S--2N--,4S,
+1C--1S--,2S,12-16HLD
+1C--1S--,3C,18-19HL
+1C--1S--,3D,20+HL
+1C--1S--,3H,20+HL
+1C--1S--,3N,18-19H 4!s
+1C--1S--,3S,17-19HLD
+1C--1S--,4D,4!s 0-1!d
+1C--1S--,4H,4!s 0-1!h
+1C--1S--,4S,20-21HLD
+1C--,2C,6-10HLD
+1C--2C--,3C,
+1C--,2D,9-11H 5!d-4!c (rencontre)
+1C--,2H,9-11H 5!h-4!c (rencontre)
+1C--,2N,11-12HL sans majeure 4e
+1C--,2S,9-11H 5!s-4!c (rencontre)
+1C--,3C,11-12HLD
+1C--,3N,13-15HL sans majeure 4e
+,1D,11-23HL
+1D--,1H,5+HL
+1D--1H--,1N,12-15HL sans 4!h ni 4!s
+1D--1H--1N--,2C,11+HL Roudi (constant)
+1D--1H--1N--2C--,2D,12-13HL 2!h
+1D--1H--1N--2C--,2H,12-13HL 3!h
+1D--1H--1N--2C--,2N,14-15HL 2!h
+1D--1H--1N--2C--,2S,14-15HL 3!h
+1D--1H--1N--,2D,
+1D--1H--1N--,2H,
+1D--1H--1N--,2N,!c
+1D--1H--1N--,2S,5!h
+1D--1H--1N--,3C,5!h
+1D--1H--1N--,3D,13+HLD
+1D--1H--1N--,3H,
+1D--1H--1N--,3N,12-18HL
+1D--1H--1N--,4N,18-19HL (quantitatif)
+1D--1H--,1S,12-19HL
+1D--1H--1S--,1N,6-10HL
+1D--1H--1S--,2C,4e forcing
+1D--1H--1S--,2D,6-11HLD
+1D--1H--1S--,2H,6-10HL
+1D--1H--1S--,2N,11-12HL
+1D--1H--1S--,2S,6-10HLD
+1D--1H--1S--,3C,13+HL 5!c-5!h
+1D--1H--1S--,3D,12+HLD
+1D--1H--1S--,3H,11-12HL
+1D--1H--1S--,3N,13-15HL
+1D--1H--1S--,3S,11-12HLD
+1D--1H--1S--,4H,13-15HL
+1D--1H--1S--,4S,13-15HLD
+1D--1H--,2C,12-19HL
+1D--1H--,2D,12-17HL
+1D--1H--,2H,12-16HLD
+1D--1H--,2N,18-19H 2-3!h
+1D--1H--2N--,3C,Check-Back Stayman
+1D--1H--2N--3C--,3D,3!s-2!h-5!d-3!c
+1D--1H--2N--3C--,3H,3!h
+1D--1H--2N--3C--,3N,3!s-2!h-4!d-4!c
+1D--1H--2N--3C--,3S,4!s-2!h
+1D--1H--2N--,3D,
+1D--1H--2N--,3H,
+1D--1H--2N--,3S,5!s-6!h
+1D--1H--2N--,4C,5!c-5!h
+1D--1H--2N--,4D,5!d-5!h
+1D--1H--2N--,4H,
+1D--1H--2N--,4N,14H (quantitatif)
+1D--1H--,2S,20+HL
+1D--1H--,3C,20+HL
+1D--1H--,3D,18-19HL
+1D--1H--,3H,17-19HLD
+1D--1H--,3N,18-19H 4!h
+1D--1H--,3S,4!h 0-1!s
+1D--1H--,4C,4!h 0-1!c
+1D--1H--,4H,20-21HLD
+1D--,1N,5-10HL sans majeure 4e
+1D--1N--,2C,12-18HL
+1D--1N--,2D,12-16HL
+1D--1N--,2H,17+HL
+1D--1N--,2N,18-19H
+1D--1N--,2S,17+HL
+1D--1N--,3C,19+HL
+1D--1N--,3D,17-19HL
+1D--1N--,3H,19+HL 6!d-5!h
+1D--1N--,3N,20+HL
+1D--1N--,3S,19+HL 6!D-5!s
+1D--,1S,5+HL
+1D--1S--,1N,12-15HL
+1D--1S--1N--,2C,11+HL Roudi (constant)
+1D--1S--1N--2C--,2D,12-13HL 2!s
+1D--1S--1N--2C--,2H,12-13HL 3!s
+1D--1S--1N--2C--,2N,14-15HL 2!s
+1D--1S--1N--2C--,2S,14-15HL 3!s
+1D--1S--1N--,2D,
+1D--1S--1N--,2H,5!s
+1D--1S--1N--,2N,!c
+1D--1S--1N--,2S,
+1D--1S--1N--,3C,5!s
+1D--1S--1N--,3D,13+HLD
+1D--1S--1N--,3H,5!s
+1D--1S--1N--,3N,12-18HL
+1D--1S--1N--,3S,
+1D--1S--1N--,4N,18-19HL (quantitatif)
+1D--1S--,2C,12-19HL
+1D--1S--,2D,12-17HL
+1D--1S--2D--,2H,9-10+H 3e forcing
+1D--1S--2D--,2S,
+1D--1S--,2H,17+HL
+1D--1S--2H--,2N,modérateur
+1D--1S--2H--2N--,3D,minimum (passe ou corrige)
+1D--1S--2H--,2S,
+1D--1S--2H--,3C,5!s
+1D--1S--2H--,3D,
+1D--1S--2H--,3H,
+1D--1S--,2N,18-19H 2-3!s
+1D--1S--2N--,3C,Check-Back Stayman
+1D--1S--2N--3C--,3D,2!s-3!h-5!d-3!c
+1D--1S--2N--3C--,3H,4!h-2!s
+1D--1S--2N--3C--,3N,2!s-3!h-4!d-4!c
+1D--1S--2N--3C--,3S,3!s
+1D--1S--2N--,3D,
+1D--1S--2N--,3H,5!h-5!s
+1D--1S--2N--,3S,
+1D--1S--2N--,4C,5!c-5!s
+1D--1S--2N--,4D,5!d-5!s
+1D--1S--2N--,4H,5!h-5!s (passe ou corrige)
+1D--1S--2N--,4N,14H (quantitatif)
+1D--1S--2N--,4S,
+1D--1S--,2S,12-16HLD
+1D--1S--,3C,20+HL
+1D--1S--,3D,18-19HL
+1D--1S--,3H,20+HL
+1D--1S--,3N,18-19H 4!s
+1D--1S--,3S,17-19HLD
+1D--1S--,4C,4!s 0-1!c
+1D--1S--,4H,4!s 0-1!h
+1D--1S--,4S,20-21HLD
+1D--,2C,11+HL
+1D--2C--,2D,12-17HL
+1D--2C--,2H,17+HL
+1D--2C--,2N,12-15HL
+1D--2C--,2S,17+HL
+1D--2C--,3C,13-19HLD
+1D--2C--,3D,18-19HL
+1D--,2D,6-10HLD
+1D--,2H,9-11H 5!h-4!d (rencontre)
+1D--,2N,11-12HL sans majeure 4e
+1D--,2S,9-11H 5!s-4!d (rencontre)
+1D--,3C,9-11H 5!c-4!d (rencontre)
+1D--,3D,11-12HLD
+1D--,3N,13-15HL sans majeure 4e
+,1H,9-19HL
+1H--,1N,6-12HL
+1H--1N--,2C,12-18HL
+1H--1N--2C--,2D,
+1H--1N--2C--,2H,
+1H--1N--2C--2H--,2N,15-17H
+1H--1N--,2D,12-18HL
+1H--1N--2D--,2H,
+1H--1N--2D--2H--,2N,15-17H
+1H--1N--,2H,12-16HL
+1H--1N--,2N,18-19H
+1H--1N--,2S,17+HL
+1H--1N--,3C,19+HL
+1H--1N--,3D,19+HL
+1H--1N--,3H,17-19HL
+1H--1N--,3N,20+HL
+1H--1N--,3S,19+HL 6!h-5!s
+1H--1N--,4H,
+1H--,1S,5+HL
+1H--1S--,1N,12-15HL
+1H--1S--1N--,2C,11+HL Roudi (constant)
+1H--1S--1N--2C--,2D,12-13HL 2!s
+1H--1S--1N--2C--,2H,12-13HL 3!s
+1H--1S--1N--2C--,2N,14-15HL 2!s
+1H--1S--1N--2C--,2S,14-15HL 3!s
+1H--1S--,2C,12-19HL
+1H--1S--2C--,2D,4e forcing
+1H--1S--2C--,2H,6-10HL
+1H--1S--2C--,2N,11-12HL
+1H--1S--2C--,2S,6-10HL
+1H--1S--2C--,3C,10-12HL
+1H--1S--2C--,3D,13+HL 5!d-5!s
+1H--1S--2C--,3H,16+HLD
+1H--1S--2C--,3N,13-15HL
+1H--1S--2C--,3S,11-12HL
+1H--1S--2C--,4C,16+HL 5!c-5!s
+1H--1S--2C--,4H,13-15HLD
+1H--1S--2C--,4S,13-15HL
+1H--1S--,2D,12-19HL
+1H--1S--2D--,2H,6-10HL
+1H--1S--2D--,2N,11-12HL
+1H--1S--2D--,2S,6-10HL
+1H--1S--2D--,3C,4e FM
+1H--1S--2D--,3D,10-12HL
+1H--1S--2D--,3H,16+HLD
+1H--1S--2D--,3N,13-15HL
+1H--1S--2D--,3S,11-12HL
+1H--1S--2D--,4C,16+HL 5!c-5!s
+1H--1S--2D--,4D,16+HL 5!d-5!s
+1H--1S--2D--,4H,13-15HLD
+1H--1S--2D--,4S,13-15HL
+1H--1S--,2H,12-19HL
+1H--1S--,2N,18-19H 2-3!s
+1H--1S--,2S,12-16HLD
+1H--1S--,3C,20+HL
+1H--1S--,3D,20+HL
+1H--1S--,3H,18-19HL
+1H--1S--,3N,18-19H 4!s
+1H--1S--,3S,17-19HLD
+1H--1S--,4C,4!s 0-1!c
+1H--1S--,4D,4!s 0-1!d
+1H--1S--,4H,
+1H--1S--,4S,20-21HLD
+1H--,2C,11+HLD 2-3!s (Drury)
+1H--2C--,2D,relais ambigu
+1H--2C--2D--,2H,11-12HLD
+1H--2C--2D--,2S,4!h (rencontre)
+1H--2C--2D--,3C,9-11H
+1H--2C--2D--,3D,4!h (rencontre)
+1H--2C--2D--,3H,
+1H--2C--,2H,12+HL
+1H--2C--2H--,2N,11-12HL 2!h
+1H--2C--2H--,2S,12+HL
+1H--2C--2H--,3C,11HL
+1H--2C--2H--,3D,12+HL
+1H--2C--2H--,3H,
+1H--2C--2H--,3N,13-15HL 2!h
+1H--2C--2H--,4H,
+1H--2C--,2N,15-17HL
+1H--2C--2N--,3H,
+1H--2C--2N--,3S,
+1H--2C--2N--,4H,
+1H--2C--2N--,4S,
+1H--2C--,2S,17+HL
+1H--2C--2S--,2N,11-12HL 2!s
+1H--2C--2S--,3C,11HL
+1H--2C--2S--,3D,12+HL
+1H--2C--2S--,3H,12+HL
+1H--2C--2S--,3N,13-15HL
+1H--2C--2S--,3S,16+HLD
+1H--2C--2S--,4S,13-15HLD
+1H--2C--,3C,17+HL
+1H--2C--3C--,3H,
+1H--2C--3C--,3S,
+1H--2C--3C--,4H,
+1H--2C--3C--,4S,
+1H--2C--,3D,17+HL
+1H--2C--,3H,17+HL
+1H--2C--,3N,18-20HL
+1H--,2D,10-12HL
+1H--2D--,2H,12-17HL
+1H--2D--2H--,2N,11-12HL 2!h
+1H--2D--2H--,2S,12+HL
+1H--2D--2H--,3C,12+HL
+1H--2D--2H--,3D,11HL
+1H--2D--2H--,3H,16+HLD
+1H--2D--2H--,3N,13-15HL 2!h
+1H--2D--2H--,4H,13-15HLD
+1H--2D--,2N,15-17H
+1H--2D--2N--,3H,
+1H--2D--2N--,4H,
+1H--2D--,2S,17+HL
+1H--2D--,3C,17+HL
+1H--2D--,3D,13-19HLD
+1H--2D--3D--,3H,
+1H--2D--3D--,4H,
+1H--2D--,3H,18-19HL
+1H--2D--,3N,18-20HL
+1H--2D--,3S,20+HL
+1H--2D--,4C,20+HL
+1H--2D--,4D,19-21HLD
+1H--2D--,4H,
+1H--,2H,6-10HLD
+1H--2H--,2N,16+HLD essai généralisé
+1H--2H--,2S,17-19HLD essai
+1H--2H--,3C,17-19HLD essai
+1H--2H--,3D,17-19HLD essai
+1H--2H--,3H,12-15HLD barrage
+1H--2H--,3N,20+HL
+1H--2H--,3S,19+HLD 6!h-5!s
+1H--2H--,4C,19+HLD
+1H--2H--,4D,19+HLD
+1H--,2N,11-12HLD 4!s courte indéterminée
+1H--2N--,3C,demande courte
+1H--2N--3C--,3D,courte !d
+1H--2N--3C--,3H,courte !c
+1H--2N--3C--,3S,courte !s
+1H--,2S,13-15HLD 5!s-4!h (rencontre)
+1H--,3C,13-15HLD 5!c-4!h (rencontre)
+1H--,3D,13-15HLD 5!d-4!h (rencontre)
+1H--,3H,6-10HLD
+1H--,4H,
+,1S,9-19HL
+1S--,1N,6-12HL
+1S--1N--,2C,12-18HL
+1S--1N--2C--,2D,
+1S--1N--2C--,2H,
+1S--1N--2C--,2S,
+1S--1N--2C--2S--,2N,15-17H
+1S--1N--,2D,12-18HL
+1S--1N--2D--,2H,
+1S--1N--2D--,2S,
+1S--1N--2D--2S--,2N,15-17H
+1S--1N--,2H,12-18HL
+1S--1N--,2N,18-19H
+1S--1N--2N--,3C,
+1S--1N--2N--,3D,
+1S--1N--2N--,3H,
+1S--1N--2N--,4H,
+1S--1N--,2S,12-16HL
+1S--1N--,3C,19+HL
+1S--1N--,3D,19+HL
+1S--1N--,3H,19+HL
+1S--1N--,3N,20+HL
+1S--1N--,3S,17-19HL
+1S--1N--,4S,
+1S--,2C,11+HLD 2-3!s (Drury)
+1S--2C--,2D,relais ambigu
+1S--2C--2D--,2H,11-12HL 2!s
+1S--2C--2D--,2S,
+1S--2C--2D--,3C,9-11H
+1S--2C--2D--,3D,4!s (rencontre)
+1S--2C--2D--,3H,4!s (rencontre)
+1S--2C--2D--,3S,
+1S--2C--,2H,12+HL
+1S--2C--2H--,3H,
+1S--2C--2H--,4H,
+1S--2C--,2N,15-17HL
+1S--2C--2N--,3S,
+1S--2C--2N--,4S,
+1S--2C--,2S,12+HL
+1S--2C--2S--,2N,11-12HL 2!s
+1S--2C--2S--,3C,11HL
+1S--2C--2S--,3D,12+HL
+1S--2C--2S--,3H,12+HL
+1S--2C--2S--,3N,13-15HL
+1S--2C--2S--,3S,16+HLD
+1S--2C--2S--,4S,13-15HLD
+1S--2C--,3C,17+HL
+1S--2C--3C--,3S,
+1S--2C--3C--,4S,
+1S--2C--,3D,17+HL
+1S--2C--,3H,17+HL
+1S--2C--,3N,18-20HL
+1S--2C--,3S,17+HL
+1S--,2D,10+HL
+1S--2D--,2H,17+HL
+1S--2D--,2N,15-17H
+1S--2D--2N--,3S,
+1S--2D--2N--,4S,
+1S--2D--,2S,12-17HL
+1S--2D--2S--,2N,11-12HL 2!s
+1S--2D--2S--,3C,12+HL
+1S--2D--2S--,3D,11HL
+1S--2D--2S--,3H,12+HL
+1S--2D--2S--,3N,13-15HL
+1S--2D--2S--,3S,16+HLD
+1S--2D--2S--,4S,13-15HLD
+1S--2D--,3C,17+HL
+1S--2D--,3D,13-19HLD
+1S--2D--3D--,3S,
+1S--2D--3D--,4S,
+1S--2D--,3H,20+HL
+1S--2D--,3N,18-20HL
+1S--2D--,3S,18-19HL
+1S--2D--,4C,20+HL
+1S--2D--,4D,19-21HLD
+1S--2D--,4H,passe ou corrige
+1S--2D--,4S,8 levées
+1S--,2H,11-12HL 0-1!s
+1S--2H--,2N,15-17H
+1S--2H--2N--,3S,
+1S--2H--2N--,4S,
+1S--2H--,2S,12-17HL
+1S--2H--2S--,2N,11-12HL
+1S--2H--2S--,3N,13-15HL
+1S--2H--2S--,3S,16+HLD
+1S--2H--2S--,4S,13-15HLD
+1S--2H--,3C,17+HL
+1S--2H--,3D,17+HL
+1S--2H--,3H,13-19HLD
+1S--2H--3H--,3S,
+1S--2H--3H--,4S,
+1S--2H--,3N,18-20HL
+1S--2H--,3S,18-19HL
+1S--2H--,4C,20+HL
+1S--2H--,4D,20+HL
+1S--2H--,4H,13-16HLD
+1S--,2N,11-12HLD 4!s courte indéterminée
+1S--2N--,3C,demande courte
+1S--2N--3C--,3D,courte !d
+1S--2N--3C--,3H,courte !h
+1S--2N--3C--,3S,courte !c
+1S--,2S,6-10HLD
+1S--2S--,2N,16+HLD essai généralisé
+1S--2S--,3C,17-19HLD essai
+1S--2S--,3D,17-19HLD essai
+1S--2S--,3H,17-19HLD essai
+1S--2S--,3N,20+HL
+1S--2S--,3S,12-15HLD barrage
+1S--2S--,4C,19+HLD
+1S--2S--,4D,19+HLD
+1S--,3C,13-15HLD 5!c-4!s (rencontre)
+1S--,3D,13-15HLD 5!d-4!s (rencontre)
+1S--,3H,13-15HLD 5!h-4!s (rencontre)
+1S--,3S,6-10HLD
+1S--,4S,
+Option
+
