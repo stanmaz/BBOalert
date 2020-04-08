@@ -222,7 +222,11 @@ It is recommended to provide all overcalls in optional code blocks for each poss
 
 Optional blocks of data can be used also for :
 - vulnerability-dependent openings by using @v or @v tags
-- seat-dependent openings by using @1 @2 @3 and @4 tags
+- seat-dependent openings by using @1 @2 @3 and @4 tags. Seat dependent overcalls must be coded explicitely as in the example :
+
+    --1D,1H,<explanation text>
+
+This is 3ed seat overcall not 3rd seat opening. 
 
 The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combining tags is allowed. In this example :
 
