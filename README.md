@@ -47,7 +47,7 @@ https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
 After you start BBO, the screen should be like this (note additional buttons at left/top) :
 
-![](./BBOalertOK.png)
+![](./images/BBOalertOK.png)
 
 
 ### Chrome
