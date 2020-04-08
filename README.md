@@ -224,7 +224,7 @@ Optional blocks of data can be used also for :
 - vulnerability-dependent openings by using @v or @v tags
 - seat-dependent openings by using @1 @2 @3 and @4 tags. Seat dependent overcalls must be coded explicitely as in the example :
 
-    --1D,1H,<explanation text>
+        --1D,1H,<explanation text>
 
 This is 3ed seat overcall not 3rd seat opening. 
 
