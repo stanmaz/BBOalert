@@ -51,7 +51,7 @@ After you start BBO, the screen should be like this (note additional buttons at 
 
 The purpose of the buttons is :
 
-- <b>Import</b> : to read a new data from the clipboard
+- <b>Import</b> : to read new data from the clipboard
 - <b>Append</b> : to append additional data from the clipboard
 - <b>Export</b> : to write manually alerted calls to the clipboard or to export data converted from BSS
 - <b>Options</b> : to toggle bidding options display
