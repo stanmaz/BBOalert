@@ -45,7 +45,7 @@ This extension can be installed with Firefox browser using the link :
 
 https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
-The screen should be like this (note additional buttons at left/top) :
+After you start BBO, the screen should be like this (note additional buttons at left/top) :
 
 ![](./BBOalertOK.png)
 
