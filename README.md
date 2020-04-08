@@ -49,6 +49,16 @@ After you start BBO, the screen should look like this (note additional buttons a
 
 ![](./images/BBOalertOK.png)
 
+If you do not get the buttons displayed, try one of these :
+- clear the Firefox cache
+- remove and reinstall BBOalert
+- remove and reinstall Firefox
+- disable, at least temporarily, any virus protection
+- disable, at least temporarily, any ad blockers
+- install and try another addon from Firefox repository
+- reboot the computer
+- install BBOalert manually wtth Chrome
+
 The purpose of the buttons is :
 
 - <b>Import</b> : to read new data from the clipboard
