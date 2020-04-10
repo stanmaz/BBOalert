@@ -1,7 +1,7 @@
 # BBOalert
 
 
-Version : 2.7.1
+Version : 2.8
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -87,12 +87,14 @@ BBOalert requires the following :
 - BBO in split screen mode (Account + Settings + Split Screen)
 - BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
 
-At each BBO session, you should :
+At the first BBO session, you should :
 
 - open the data file using your favorite text editor (see sections : 'Data file format'
 - select all text
 - copy it to the clipboard
 - press "Import" button on the BBO page
+
+All imported data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
 
 See GettingStarted.pdf for basic operations.
 
@@ -100,7 +102,7 @@ See GettingStarted.pdf for basic operations.
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert saves in its memory all the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file.
+BBOalert saves in its memory all the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. <b>Manually alerted calls are not saved in the cache</b>
 
 ## Recommended way of using BBOalert
 
