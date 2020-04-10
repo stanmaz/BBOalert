@@ -29,7 +29,10 @@ var callText = "";
 var updateText = "";
 var updateCount = 0;
 var cbData = "";
-var alertData = "";
+// var alertData = "";
+var alertData = localStorage.getItem('BBOalertCache');
+if (alertData == null) alertData = '';
+console.log('Cache length ' + alertData.length);
 var alertTable = alertData.split("\n");
 var alertTableSize = 0;
 var clipBoard = navigator.clipboard;
@@ -66,6 +69,8 @@ b3.onmousedown = appendClipboardData;
 b3.style.verticalAlign = 'middle';
 b3.style.marginRight = "5px";
 
+
+
 var alertShown = false;
 
 // Check every second if bidding box is present
@@ -79,6 +84,7 @@ function setBiddingBox() {
 		if (sc == null) adPanel.style.display = 'none';
 	}
 	if (isBBOready()) {
+		setControlButtons();
 		setStatTextDiv();
 		var txt = '';
 		if (!isSplitScreen()) {
@@ -89,7 +95,6 @@ function setBiddingBox() {
 		}
 	}
 	//	set BBOalert control buttons
-	setControlButtons();
 	//	set keyboard listener to chat input
 	elMessage = getVisibleMessageInput();
 	if (elMessage != null) {
@@ -151,6 +156,21 @@ function cleanAdPanel() {
 	adPanel.style.overflowX = "hidden";
 	adPanel.style.zIndex = "1";
 	document.body.insertBefore(adPanel, appPanel);
+	alertTable = alertData.split("\n");
+	clearOptionButtons();
+	if (alertTable.length > 1) {
+		for (var i = 0; i < alertTable.length; i++) {
+			rec = alertTable[i].split(",");
+			if (rec.length > 1) {
+				if (rec[0].trim() == 'Option') {
+					addOptionButton(rec[1].trim());
+				}
+			}
+			//			if (rec.length < 3) alertTable.splice(i, 1);
+		}
+		initOptionDefaults();
+		setTitleText(version + " : " + alertTable.length + " records from cache");
+	}
 }
 
 // Erase all BBOalert buttons
@@ -253,20 +273,6 @@ function addOptionButton(lbl) {
 	adPanel.appendChild(bt);
 }
 
-function toggleOptions() {
-	var adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	sc = document.querySelector('.statsClass');
-	if (adPanel.style.display == 'none') {
-		if (sc != null) {
-			if (isVisible(sc)) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
-		}
-		adPanel.style.display = 'block';
-	} else {
-		adPanel.style.display = 'none';
-	}
-}
-
 function importClipboardData() {
 	cleanAdPanel();
 	getClipboardData(true)
@@ -277,8 +283,8 @@ function appendClipboardData() {
 	getClipboardData(false)
 }
 
-function getDataType (data) {
-	header = data.slice(0,80);
+function getDataType(data) {
+	header = data.slice(0, 80);
 	if (header.search(/bboalert/i) != -1) return 'BBOalert';
 	if (header.indexOf('*00') != -1) return 'BSS';
 	if (header.indexOf('?00') != -1) return 'BSS';
@@ -403,9 +409,11 @@ function getClipboardData(newData) {
 				//			if (rec.length < 3) alertTable.splice(i, 1);
 			}
 			initOptionDefaults();
+			alertData = updateText;
 		}
 		alertTableSize = alertTable.length;
 		setTitleText(version + " : " + alertTable.length + " records")
+		localStorage.setItem('BBOalertCache', alertData);
 		return;
 	}
 	);

@@ -1,5 +1,34 @@
 // This file contaoins all stand-alone functione
 
+function toggleOptions() {
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	sc = document.querySelector('.statsClass');
+	if (adPanel.style.display == 'none') {
+		if (sc != null) {
+			if (isVisible(sc)) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
+		}
+		adPanel.style.display = 'block';
+	} else {
+		adPanel.style.display = 'none';
+	}
+}
+
+function addBBOalertTab () {
+	if (document.getElementById('bboalert-tab') != null) return;
+	var vt = document.querySelectorAll('.verticalTabBarClass');
+	if (vt == null) return;
+	vt = vt[1];
+	tabs = vt.children;
+	if (tabs == null) return;
+	if (tabs.length < 2) return;
+	t = tabs[1].cloneNode(true);
+	t.querySelector('.verticalClass').textContent = 'BBOalert';
+	t.id = 'bboalert-tab';
+	vt.appendChild(t);
+	t = document.getElementById('bboalert-tab');
+	t.onclick = toggleOptions;
+}
 
 // match vulnerability and seat conditions in text
 function matchVulSeat(v, s, t) {
