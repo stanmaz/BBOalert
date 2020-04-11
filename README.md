@@ -233,7 +233,7 @@ The subsequent options with the common prefix word will be grouped automatically
 It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary.
 
 Optional blocks of data can be used also for :
-- vulnerability-dependent openings by using @v or @v tags
+- vulnerability-dependent openings by using @n or @v tags
 - seat-dependent openings by using @1 @2 @3 and @4 tags. Seat dependent overcalls must be coded explicitely as in the example :
 
         --1D,1H,<explanation text>
