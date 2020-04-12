@@ -564,8 +564,7 @@ function saveAlert() {
 	if (explainText != alertText) {
 		newrec = stripContext(getContext()) + "," + callText + "," + explainText;
 		alertTable.push(newrec);
-		dealElement = document.querySelector('.vulPanelInnerPanelClass');
-		updateText = updateText + newrec + "," + getNow() + " Deal " + dealElement.outerText + "\n";
+		updateText = updateText + newrec + "," + getNow() + " Deal " + getDealNumber() + "\n";
 		updateCount++;
 		writeToClipboard(updateText);
 	}
