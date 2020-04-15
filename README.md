@@ -91,8 +91,8 @@ The extension is not published in Google's web-store.  therefore, you should ins
 
 It is also possible to install from CRX file :
 
-- download BBOalert-master.crx : https://drive.google.com/open?id=1u216In4Cr_BmGgRe7QGb0__656zfblOR
-- download BBOalert-master.pem : https://drive.google.com/open?id=1K-eh5Aewk6aaUICcPCvbrEt2VhbYBMnp
+- download BBOalert-master.crx : https://drive.google.com/open?id=1IG5SiuKvcij7zCx85NaE2-6NJfneAHa2
+- download BBOalert-master.pem : https://drive.google.com/open?id=1t414RG6uvuVayeZGjmZ6SddgEEbcMQu1
 - open Chrome page : chrome://extensions/
 - make sure : you are in developper mode (top/right of the page)
 - Drag&Drop the BBOalert-master.crx file from the Downloads directory to the chrome://extensions/ page
