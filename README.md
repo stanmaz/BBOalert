@@ -245,7 +245,7 @@ the code means : whatever the opponents do, 2H remains a mandatory transfer to 2
 
 The "context" field can be also formatted as regular "RegEx" expression in the process of matching with the actual bidding context. RegEx is a very complex mechanisme, but in BBOalert we use primarily one type of expression : groups of string matching patterns. The example below can be used as template :
 
-   (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
+      (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
 
 This means that 3C call is defined in one record, instead of 3, as Puppet Stayman in three similar situations :
 - after 1NT opening
@@ -254,10 +254,10 @@ This means that 3C call is defined in one record, instead of 3, as Puppet Stayma
 
 Further development can be coded as :
 
-   (1N--3C--|2N--3C--|2C--2D--2N--3C--),       3D,    at least one 4 card major
-   +,                                          3H,    5 card !H
-   +,                                          3S,    5 card !S
-   +,                                          3N,    no 4+ card major
+      (1N--3C--|2N--3C--|2C--2D--2N--3C--),       3D,    at least one 4 card major
+      +,                                          3H,    5 card !H
+      +,                                          3S,    5 card !S
+      +,                                          3N,    no 4+ card major
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
