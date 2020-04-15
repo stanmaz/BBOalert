@@ -1,7 +1,7 @@
 # BBOalert
 
 
-Version : 2.8.1
+Version : 2.9
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -104,7 +104,7 @@ The data should be stored in a CSV-formatted text file. BBOalert uses the clipbo
 BBOalert requires the following :
 
 - BBO in split screen mode (Account + Settings + Split Screen)
-- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids)
+- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents.
 
 At the first BBO session, you should :
 
@@ -140,8 +140,8 @@ I recommend to proceed this way :
 
 - Instead of a simple text editor, create a new file in Google Docs beginning with the keyword BBOalert
 - make this file "Shareable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
-- enter the code for opening bids and frequently used responses
-- start playing using this data (remember : select all text + copy to clipboard before starting BBO session)
+- enter the code for opening bids and frequently used responses without using the advanced features (wildcards, RegEX and options)
+- start playing using this data (remember : select all text + copy to clipboard before using the 'Import')
 - alert your calls by hand if necessary. You can define shortcuts for the frequently used phrases and use them while entering explanations.
 - at the end of the session, press the 'Export' button and paste the clipboard content at the end of the file. Your partner should do it too.
 - review with your partner all newly created alerts and make the necessary corrections
@@ -233,13 +233,33 @@ Example :
 
     1S,2C,Please read chat for explanation#Natural overcall with at least a decent 5-card suit
 
-#### Wild cards
+#### Wildcards
 
 In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one character and have the same effect. In this example :
 
     1N__,2H,Transfer->!S
     
 the code means : whatever the opponents do, 2H remains a mandatory transfer to 2S. Otherwise code should be provided for all possible overcalls made by the opponents.
+
+#### Regular Expressions - RegEx
+
+The "context" field can be also formatted as regular "RegEx" expression in the process of matching with the actual bidding context. RegEx is a very complex mechanisme, but in BBOalert we use primarily one type of expression : groups of string matching patterns. The example below can be used as template :
+
+   (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
+
+This means that 3C call is defined in one record, instead of 3, as Puppet Stayman in three similar situations :
+- after 1NT opening
+- after 2NT opening
+- after 2C-2D-2NT sequence
+
+Further development can be coded as :
+
+   (1N--3C--|2N--3C--|2C--2D--2N--3C--),       3D,    at least one 4 card major
+   +,                                          3H,    5 card !H
+   +,                                          3S,    5 card !S
+   +,                                          3N,    no 4+ card major
+
+Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
 ### Optional code
 
