@@ -83,7 +83,6 @@ function elimine2Spaces(str) {
 }
 
 
-
 // Elimine spaces and tabs
 function elimineSpaces(str) {
 	var s = str.replace(/\s+/g, '');
@@ -237,7 +236,7 @@ function setTitleText(txt) {
 }
 
 // Check if actual bidding context matches refeence context from the table
-function matchContext(refContext, actContext) {
+function matchContextOld(refContext, actContext) {
 	if (refContext == actContext) return true;
 	if (refContext.length != actContext.length) return false;
 	for (var j = 0; j < refContext.length; j++) {
@@ -246,6 +245,16 @@ function matchContext(refContext, actContext) {
 		if (refContext.substr(j, 1) != actContext.substr(j, 1)) return false;
 	}
 	return true;
+}
+
+// Check if actual bidding context matches refeence context from the table
+function matchContext(refContext, actContext) {
+	if (matchContextOld(refContext, actContext)) return true;
+	var ref = refContext.replace (/\*/g,'.');
+	ref = ref.replace(/_/g,'.');
+	var re = new RegExp(ref);
+	if (!re.test(actContext)) return false;
+	return (actContext.match(re)[0].length ==  actContext.length);
 }
 
 // Get visible message input element
