@@ -14,6 +14,10 @@ Main features :
 - Full Disclosure BSS file support
 - multilingual BBO user interface support
 
+If you like this tool, join the BBOalert users community on Facebook 
+
+https://www.facebook.com/groups/706384146770707/
+
 We assume that you are familiar with BBO.
 
 ## Purpose
