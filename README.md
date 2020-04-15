@@ -78,6 +78,14 @@ The extension is not published in Google's web-store.  therefore, you should ins
 - make sure the Developer Mode is turned ON (in right-upper corner)
 - click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of the installed extensions
 
+It is also possible to install from CRX file :
+
+- download BBOalert-master.crx : https://drive.google.com/open?id=1u216In4Cr_BmGgRe7QGb0__656zfblOR
+- download BBOalert-master.pem : https://drive.google.com/open?id=1K-eh5Aewk6aaUICcPCvbrEt2VhbYBMnp
+- open Chrome page : chrome://extensions/
+- make sure : you are in developper mode (top/right of the page)
+- Drag&Drop the BBOalert-master.crx file from the Downloads directory to the chrome://extensions/ page
+
 ## How to use
 
 The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to export eventual updates.
