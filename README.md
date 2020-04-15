@@ -16,7 +16,7 @@ Main features :
 
 If you like this tool, join the BBOalert users community on Facebook 
 
-    https://www.facebook.com/groups/706384146770707/
+   https://www.facebook.com/groups/706384146770707/
 
 We assume that you are familiar with BBO.
 
@@ -47,14 +47,14 @@ BBOalert is useful for all types of BBO users :
 
 This extension can be installed with Firefox browser using the link :
 
-    https://addons.mozilla.org/en-US/firefox/addon/bboalert
+   https://addons.mozilla.org/en-US/firefox/addon/bboalert
 
 If you discover a serious bug in the program :
 
 - report it to the BBOalert community on Facebook
 - follow this link to revert to previous version
 
-    https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
+   https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
 
 After you start BBO, the screen should look like this (note additional buttons at top/left) :
 
