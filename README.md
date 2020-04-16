@@ -259,6 +259,10 @@ Further development can be coded as :
       +,                                          3S,    5 card !S
       +,                                          3N,    no 4+ card major
 
+For matching a single character, brackets should be used as in the example, where after either 1H or 1S opening, Jacoby 2NT raise is used :
+
+      1[HS]--,2N,+12HCP and 4+ card fit
+
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
 ### Optional code
