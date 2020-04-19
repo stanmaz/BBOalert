@@ -18,6 +18,8 @@ If you like this tool, join the BBOalert users community on Facebook
 
    https://www.facebook.com/groups/706384146770707/
 
+Facebook should be used to report bugs and to propose enhancements.
+
 We assume that you are familiar with BBO.
 
 ## Purpose
