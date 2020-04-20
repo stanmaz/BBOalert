@@ -113,7 +113,9 @@ At the first BBO session, you should :
 - open the data file using your favorite text editor (see sections : 'Data file format'
 - select all text
 - copy it to the clipboard
-- press "Import" button on the BBO page
+- press "Import" button on the BBO page 
+
+<b>Hint : if you wish to erase the previously imported data, you have to import through clipboard the bare keyword BBOalert</b>
 
 All imported data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
 
