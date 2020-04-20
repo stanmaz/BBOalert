@@ -358,7 +358,9 @@ The 'Export' button will write the converted data to the clipboard. You can past
 
 ### Version 2.10
 
-Bug 2.9/1 - long explanation text split by # character is now correctly displayed on first and subsequent usages
+Bug fix : long explanation text split by # character is now correctly displayed on first and subsequent usages
+
+Bug fix : options are now correctly initialized after the data is retrieved from cache
 
 Enhancement : the chat message part of a long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
 
