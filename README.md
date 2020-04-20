@@ -1,7 +1,7 @@
 # BBOalert
 
 
-Version : 2.9
+Version : 2.10
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -106,7 +106,7 @@ The data should be stored in a CSV-formatted text file. BBOalert uses the clipbo
 BBOalert requires the following :
 
 - BBO in split screen mode (Account + Settings + Split Screen)
-- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents.
+- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. THe chat part of the long explanation text will be sent automatically.
 
 At the first BBO session, you should :
 
@@ -237,6 +237,8 @@ Example :
 
     1S,2C,Please read chat for explanation#Natural overcall with at least a decent 5-card suit
 
+If 'Confirm Bids' option is set, the chat message will be sent automatically. Make sure that the chat messages are adressed to the opponents. Your partner is not supposed to read your auto-alert.
+
 #### Wildcards
 
 In the cases where the meaning of the call is not influenced by an eventual overcall, wildcards can be used in the "context" field. This can make the code more readable and more compact. Two characters are allowed as wildcard '*' or '_'. They match one character and have the same effect. In this example :
@@ -266,6 +268,8 @@ Further development can be coded as :
 For matching a single character, brackets should be used as in the example, where after either 1H or 1S opening, Jacoby 2NT raise is used :
 
       1[HS]--,2N,+12HCP and 4+ card fit
+
+Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used it will be internally converted to a dot (sinle character match).
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
@@ -329,7 +333,13 @@ TH string will be immediately expanded to the "Texas->!H" during text entry in t
 You are also allowed to define Alt-key shortcuts as shown in this example :
 
     Shortcut,AltA,this text will be inserted if you press Alt-A key
-    
+
+The \n token within the shortcut text will split it and each part will be sent immediately. Example :
+
+   Shortcut,WC,Welcome\nwe are playing SAYC\nItalian discard\n
+   
+This should be used only in the chat box only to increase the readabilit of the message by subdividing it separate lines. 
+
 Note : check for potential conflicts with Alt key shortcuts of the browser.
 
 ### Full Disclosure BSS file support
@@ -343,3 +353,15 @@ BBOalert can read BSS files in the same way as native BBOalert :
 BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name).
 
 The 'Export' button will write the converted data to the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
+
+## Release notes 
+
+### Version 2.10
+
+Bug 2.9/1 - long explanation text split by # character is now correctly displayed on first and subsequent usages
+
+Enhancement : the chat message part of long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
+
+Enhancement : Multiline support for chat message shortcuts : \n in the shortcut text sill split the whole message and each part will be sent immediately
+
+
