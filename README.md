@@ -360,8 +360,8 @@ The 'Export' button will write the converted data to the clipboard. You can past
 
 Bug 2.9/1 - long explanation text split by # character is now correctly displayed on first and subsequent usages
 
-Enhancement : the chat message part of long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
+Enhancement : the chat message part of a long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
 
-Enhancement : Multiline support for chat message shortcuts : \n in the shortcut text sill split the whole message and each part will be sent immediately
+Enhancement : Multiline support for chat message shortcuts : \n in the shortcut text will split the whole message and each part will be sent immediately. Not to be used with shortcuts used for bid explanation.
 
 
