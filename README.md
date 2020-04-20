@@ -269,7 +269,7 @@ For matching a single character, brackets should be used as in the example, wher
 
       1[HS]--,2N,+12HCP and 4+ card fit
 
-Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used it will be internally converted to a dot (sinle character match).
+Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used, it will be internally converted to a dot (single character match).
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
