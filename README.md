@@ -362,8 +362,8 @@ Bug fix : long explanation text split by # character is now correctly displayed 
 
 Bug fix : options are now correctly initialized after the data is retrieved from cache
 
-Enhancement : the chat message part of a long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
+New feature : the chat message part of a long explanation text is automatically sent when the bid is confirmed (OK button of the bidding box)
 
-Enhancement : Multiline support for chat message shortcuts : \n in the shortcut text will split the whole message and each part will be sent immediately. Not to be used with shortcuts used for bid explanation.
+New feature : Multiline support for chat message shortcuts : \n in the shortcut text will split the whole message and each part will be sent immediately. Typical application : long text as prealert. Not to be used with shortcuts used for bid explanation.
 
 
