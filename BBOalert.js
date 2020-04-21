@@ -31,11 +31,12 @@ var updateCount = 0;
 var cbData = "";
 // var alertData = "";
 var alertData = localStorage.getItem('BBOalertCache');
+
 if (alertData == null) alertData = '';
-console.log('Cache length ' + alertData.length);
 var alertTable = alertData.split("\n");
-var alertTableSize = 0;
+var alertTableSize = alertTable.length;
 var clipBoard = navigator.clipboard;
+writeToClipboard(alertData);
 var adPanel = null;
 var b0 = document.createElement("button");
 var b1 = document.createElement("button");
@@ -381,7 +382,7 @@ function getClipboardData(newData) {
 					}
 				}
 				ctx = ctx.slice(0, ctx.length - 2) + "," + ctx.slice(ctx.length - 2);
-				if (!r.startsWith('00') && !r.startsWith('00')) badrec = true;
+				if (!r.startsWith('00') && !r.startsWith('*00')) badrec = true;
 				if (badRec) ctx = 'Error ' + alertTable[i] + "|" + ctx;
 				n = 10;
 				if (ctx.endsWith("N")) n = 8;
@@ -504,9 +505,10 @@ function messageOnKeyup(key) {
 	}
 	text2 = findShortcut(text1);
 	if (text1 != text2) {
-		elMessage.value = text2;
-		eventInput = new Event('input');
-		elMessage.dispatchEvent(eventInput);
+		setChatMessage(text2, true);
+//		elMessage.value = text2;
+//		eventInput = new Event('input');
+//		elMessage.dispatchEvent(eventInput);
 	}
 }
 
@@ -543,15 +545,11 @@ function getAlert() {
 	elAlertExplain.value = exp[0];
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
-	elMessage = getVisibleMessageInput();
-	if (elMessage == null) return;
 	if (exp.length > 1) {
-		elMessage.value = exp[1];
+		setChatMessage (exp[1]);
 	} else {
-		elMessage.value = "";
-	}
-	eventInput = new Event('input');
-	elMessage.dispatchEvent(eventInput);
+		setChatMessage ('');
+	}	
 };
 
 // Append current explanation text in update table, if not found in the alert table
@@ -559,6 +557,7 @@ function saveAlert() {
 	elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	explainText = elAlertExplain.value;
+	if (getChatMessage().trim() != '') explainText = explainText + '#' + getChatMessage().trim();
 	if (explainText == "") return;
 	alertText = findAlert(getContext(), callText).trim();
 	if (explainText != alertText) {
@@ -694,9 +693,11 @@ function setButtonEvents() {
 	});
 	elBiddingButtons[16].onmousedown = function() {
 		saveAlert();
+		sendChat();
 	};
 	elBiddingButtons[16].addEventListener("touchstart", function() {
 		saveAlert();
+		sendChat();
 	});
 }
 

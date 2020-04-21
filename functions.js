@@ -1,5 +1,10 @@
 // This file contaoins all stand-alone functione
 
+function confirmBidsSet() {
+	return (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked");
+}
+
+
 function toggleOptions() {
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
@@ -14,7 +19,7 @@ function toggleOptions() {
 	}
 }
 
-function addBBOalertTab () {
+function addBBOalertTab() {
 	if (document.getElementById('bboalert-tab') != null) return;
 	var vt = document.querySelectorAll('.verticalTabBarClass');
 	if (vt == null) return;
@@ -66,7 +71,7 @@ function getNow() {
 	yyyy = now.getFullYear().toString();
 	m = now.getMonth() + 1;
 	mm = m.toString();
-    if (mm.length == 1) mm = '0' + mm;
+	if (mm.length == 1) mm = '0' + mm;
 	dd = now.getDate().toString();
 	if (dd.length == 1) dd = '0' + dd;
 	hh = now.getHours().toString();
@@ -146,7 +151,6 @@ function translateCall(call) {
 	if (call == 'Paso') return '--';
 	if (call == 'пас') return '--';
 	el = call;
-//	console.log(el);
 	if (el.length > 1) {
 		el = el.substr(0, 2);
 		if (el.charCodeAt(1) == 9827) {
@@ -217,7 +221,7 @@ function setTitle(txt) {
 	if (t.length == 0) return;
 	for (var i = 0; i < t.length; i++) {
 		t[i].textContent = txt;
-	}	
+	}
 }
 
 // BBO titile bar is used to show BBOalert messages
@@ -250,11 +254,11 @@ function matchContextOld(refContext, actContext) {
 // Check if actual bidding context matches refeence context from the table
 function matchContext(refContext, actContext) {
 	if (matchContextOld(refContext, actContext)) return true;
-	var ref = refContext.replace (/\*/g,'.');
-	ref = ref.replace(/_/g,'.');
+	var ref = refContext.replace(/\*/g, '.');
+	ref = ref.replace(/_/g, '.');
 	var re = new RegExp(ref);
 	if (!re.test(actContext)) return false;
-	return (actContext.match(re)[0].length ==  actContext.length);
+	return (actContext.match(re)[0].length == actContext.length);
 }
 
 // Get visible message input element
@@ -269,6 +273,42 @@ function getVisibleMessageInput() {
 	if (m == null) return null;
 	if (isVisible(m)) return m;
 	return null;
+}
+
+function sendChat() {
+	cr = document.querySelectorAll('.chatRowClass');
+	if (cr.length == 0) return;
+	cb = cr[0].querySelector('.sendButtonClass');
+	if (cb == null) return;
+	if (!isVisible(cb)) return;
+	cb.click();
+}
+
+function setChatMessage(msg, send) {
+	var eventInput = new Event('input');
+	var elMessage = getVisibleMessageInput();
+	if (elMessage == null) return;
+	msgList = msg.split(/\\n/);
+	if (msgList.length == 1) {
+		elMessage.value = msg;
+		elMessage.dispatchEvent(eventInput);
+		return;
+	}
+	if (send) {
+		for (i = 0; i < msgList.length; i++) {
+			elMessage.value = msgList[i];
+			elMessage.dispatchEvent(eventInput);
+			if (i < msgList.length - 1) sendChat();
+		}
+	} else {
+		
+	}
+}
+
+function getChatMessage() {
+	var elMessage = getVisibleMessageInput();
+	if (elMessage == null) return '';
+	return elMessage.value;
 }
 
 function getBiddingBox() {
@@ -297,14 +337,14 @@ function isSplitScreen() {
 
 function isAdBlockerOn() {
 	app = document.getElementById('bbo_app');
-	return (app.style.left =="0px");
+	return (app.style.left == "0px");
 }
 
 function isBBOready() {
 	return (isVisible(document.querySelector('.infoStat')));
 }
 
-function setStatTextDiv () {
+function setStatTextDiv() {
 	if (document.getElementById('statText') != null) return;
 	var st = document.createElement('div');
 	st.style.height = '100%';
@@ -315,7 +355,7 @@ function setStatTextDiv () {
 	isp.insertBefore(st, isp.firstChild);
 }
 
-function setStatText (txt) {
+function setStatText(txt) {
 	var st = document.getElementById('statText');
 	if (st == null) return;
 	st.textContent = txt;
