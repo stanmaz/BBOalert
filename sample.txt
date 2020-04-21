@@ -70,6 +70,7 @@ Keyboard abbreviations can be defined :
     Shortcut,   TS,   Texas !S
     Shortcut,   GTG,  Sorry but I have to leave. I enjoyed the game
     Shortcut,   BW,   Blackwood 4-1,3-0 (5 key cards)
+    Shortcut,   ML,   Multiline text\nLine 2\nLine 3\n
 
 or Alt-key shortcuts :
     Shortcut,	AltA, Hello. You pressed ALt-A key
