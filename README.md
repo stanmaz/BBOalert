@@ -45,18 +45,17 @@ BBOalert is useful for all types of BBO users :
 
 ## Installation
 
-### Firefox
+This extension can be installed using the link :
 
-This extension can be installed with Firefox browser using the link :
-
-   https://addons.mozilla.org/en-US/firefox/addon/bboalert
-
+   Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert
+   Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
+ 
 If you discover a serious bug in the program :
 
 - report it to the BBOalert community on Facebook
 - follow this link to revert to previous version
 
-   https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
+   Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
 
 After you start BBO, the screen should look like this (note additional buttons at top/left) :
 
@@ -80,24 +79,6 @@ The purpose of the buttons is :
 - <b>Options</b> : to toggle bidding options display
 
 You will find detailed information later in this text.
-
-### Chrome
-
-The extension is not published in Google's web-store.  therefore, you should install it in the CHROME browser manually from the source code :
-
-- download BBOalert project source files in a ZIP file ("Clone or Download" button, then "Download ZIP")
-- Navigate to the "Downloads" directory, open the ZIP container and expand it. This will create a subdirectory "BBOalert-master" containing project's source files.
-- open Chrome browser tab with "chrome://extensions"
-- make sure the Developer Mode is turned ON (in right-upper corner)
-- click at "Load Unpacked" button and navigate to the "BBOalert-master" directory and confirm. BBOalert should appear on the list of the installed extensions
-
-It is also possible to install from CRX file :
-
-- download BBOalert-master.crx : https://drive.google.com/open?id=10d4kQh8a_X1L7IFJJPYyjLkzgGNLWtS8
-- download BBOalert-master.pem : https://drive.google.com/open?id=12gIuF0F-wUTAnNOXswOK_4eRvceer91d
-- open Chrome page : chrome://extensions/
-- make sure : you are in developper mode (top/right of the page)
-- Drag&Drop the BBOalert-master.crx file from the Downloads directory to the chrome://extensions/ page
 
 ## How to use
 
