@@ -47,8 +47,8 @@ BBOalert is useful for all types of BBO users :
 
 This extension can be installed using the link :
 
-   Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert
-   Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
+- Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert
+- Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
  
 If you discover a serious bug in the program :
 
