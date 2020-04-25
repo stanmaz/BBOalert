@@ -1,7 +1,7 @@
 # BBOalert
 
 
-Version : 2.10
+Version : 3.0
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -84,10 +84,9 @@ You will find detailed information later in this text.
 
 The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to export eventual updates.
 
-BBOalert requires the following :
+BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
 
-- BBO in split screen mode (Account + Settings + Split Screen)
-- BBO used with 'Confirm Bids' enabled (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. THe chat part of the long explanation text will be sent automatically.
+It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. THe chat part of the long explanation text will be sent automatically.
 
 At the first BBO session, you should :
 
@@ -218,7 +217,7 @@ Example :
 
     1S,2C,Please read chat for explanation#Natural overcall with at least a decent 5-card suit
 
-If 'Confirm Bids' option is set, the chat message will be sent automatically. Make sure that the chat messages are adressed to the opponents. Your partner is not supposed to read your auto-alert.
+The chat message will be sent automatically. Make sure that the chat messages are adressed to the opponents. Your partner is not supposed to read your auto-alert.
 
 #### Wildcards
 
@@ -299,6 +298,20 @@ Example :
 
 In this example three separated groups of options are created.
 
+### Options selector
+
+Let us assume that you play different conventions with different partners. The option selector enables to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The names of partners can be specified in th 3rd field of the Options record. More than one name is allowed separated by a space character. Sample data :
+
+      Option,  1NT 12-14,  John
+      ,  1N,   12-14p balanced
+      1[CD]--1*--,   1N,   balanced 15-17p
+      Option,  1NT 15-17,  Joe
+      ,  1N,   15-17p balanced
+      1[CD]--1*--,   1N,   balanced 12-14p
+      Option
+      
+The selection can be made using a dropdown box on top of the the options panel. 
+
 ### Shortcuts
 
 Shortcut format :
@@ -347,4 +360,7 @@ New feature : the chat message part of a long explanation text is automatically 
 
 New feature : Multiline support for chat message shortcuts : \n in the shortcut text will split the whole message and each part will be sent immediately. Typical application : long text as prealert. Not to be used with shortcuts used for bid explanation.
 
+### Version 3.0
+
+- options selector added (see 'Options selector' section)
 
