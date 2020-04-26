@@ -24,7 +24,7 @@ We assume that you are familiar with BBO.
 
 ## Purpose
 
-Tired of repeating the same story while alerting your bids in BBO. If yes, this browser extension is your friend.
+Tired of repeating the same story while alerting your bids in BBO? If yes, this browser extension is your friend.
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
@@ -69,7 +69,6 @@ If you do not get the buttons displayed, try one of these :
 - disable, at least temporarily, any ad blockers
 - install and try another addon from Firefox repository
 - reboot the computer
-- install BBOalert manually wtth Chrome
 
 The purpose of the buttons is :
 
@@ -116,11 +115,11 @@ BBOalert was designed initially for BBO in English and then adapted to other lan
 - switch to https://www.bridgebase.com/v3/?lang=en
 - report the problem to stanmaz.git@gmail.com
 
-We use the "You only alert once" principle.
+We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup.
 
-It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
+It is more efficient to prepare data in advance with a editor and import this data into BBOalert. It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
 
-The program records each alerted call for which no explanation has been found in the data file. Use this feature to complete your code with the bidding sequences as they come during the game. Your data file will expand as needed.
+As the program continues to record each manually alerted call for which no explanation has been found in the data file, your data will expand as needed.
 
 I recommend to proceed this way :
 
@@ -130,7 +129,7 @@ I recommend to proceed this way :
 - start playing using this data (remember : select all text + copy to clipboard before using the 'Import')
 - alert your calls by hand if necessary. You can define shortcuts for the frequently used phrases and use them while entering explanations.
 - at the end of the session, press the 'Export' button and paste the clipboard content at the end of the file. Your partner should do it too.
-- review with your partner all newly created alerts and make the necessary corrections
+- review with your partner all newly created alerts and make the necessary corrections in the data file
 
 For very large files, collaborative online code editors are preferred like https://cryptpad.fr/code/.
 
@@ -302,7 +301,7 @@ In this example three separated groups of options are created.
 
 ### Partnership options
 
-Let us assume that you play different conventions with different partners. The option selector enables you to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. Sample data :
+Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. Sample data :
 
       Option,  1NT 12-14,  John
       ,  1N,   12-14p balanced
@@ -312,7 +311,7 @@ Let us assume that you play different conventions with different partners. The o
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
 
-If the user id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (Select All) or select the options of another partner.
+When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
 
 ### Shortcuts
 
@@ -366,7 +365,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 
 - options selector added (see 'Options selector' section)
 - manual alerts are recorded in the cache
-- the whole data is kept in the clipboard until overwritten by 'Export'
+- the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
 
 
 
