@@ -75,7 +75,7 @@ The purpose of the buttons is :
 
 - <b>Import</b> : to read new data from the clipboard
 - <b>Append</b> : to append additional data from the clipboard
-- <b>Export</b> : to write manually alerted calls to the clipboard or to export data converted from BSS
+- <b>Export</b> : to write manually alerted calls to the clipboard
 - <b>Options</b> : to toggle bidding options display
 
 You will find detailed information later in this text.
@@ -97,7 +97,7 @@ At the first BBO session, you should :
 
 <b>Hint : if you wish to erase the previously imported data, you have to import through clipboard the bare keyword BBOalert</b>
 
-All imported data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
+Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
 
 See GettingStarted.pdf for basic operations.
 
@@ -105,7 +105,9 @@ See GettingStarted.pdf for basic operations.
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert saves in its memory all the calls that were manually alerted during the game, With the 'Export' button you can copy this data to the clipboard and paste it into the text editor. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. <b>Manually alerted calls are not saved in the cache</b>
+BBOalert saves a copy of the data in the clipboard. The data can be pasted at any time to your text editor until 'Export' button is pressed.
+
+With the 'Export' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. <b>Manually alerted calls are not saved in the cache</b>
 
 ## Recommended way of using BBOalert
 
@@ -363,4 +365,8 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 ### Version 3.0
 
 - options selector added (see 'Options selector' section)
+- manual alert are recorded in the cache
+- the data is kept in the clipboard until overwritten by 'Export'
+
+
 
