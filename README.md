@@ -300,9 +300,9 @@ Example :
 
 In this example three separated groups of options are created.
 
-### Options selector
+### Partnership options
 
-Let us assume that you play different conventions with different partners. The option selector enables to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The names of partners can be specified in th 3rd field of the Options record. More than one name is allowed separated by a space character. Sample data :
+Let us assume that you play different conventions with different partners. The option selector enables to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user id's of your partners can be specified in th 3rd field of the Options record. More than one name is allowed separated by a space character. Sample data :
 
       Option,  1NT 12-14,  John
       ,  1N,   12-14p balanced
@@ -311,8 +311,8 @@ Let us assume that you play different conventions with different partners. The o
       ,  1N,   15-17p balanced
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
-      
-The selection can be made using a dropdown box on top of the the options panel. 
+
+If the user id specified with an option fits the user id of your actual partner, the option is activated automatically. Otherwidse the selection can be made using a dropdown box on top of the the options panel. 
 
 ### Shortcuts
 
