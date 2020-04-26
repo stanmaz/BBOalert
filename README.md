@@ -302,7 +302,7 @@ In this example three separated groups of options are created.
 
 ### Partnership options
 
-Let us assume that you play different conventions with different partners. The option selector enables to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user id's of your partners can be specified in th 3rd field of the Options record. More than one name is allowed separated by a space character. Sample data :
+Let us assume that you play different conventions with different partners. The option selector enables you to use certains options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. Sample data :
 
       Option,  1NT 12-14,  John
       ,  1N,   12-14p balanced
@@ -312,7 +312,7 @@ Let us assume that you play different conventions with different partners. The o
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
 
-If the user id specified with an option fits the user id of your actual partner, the option is activated automatically. Otherwidse the selection can be made using a dropdown box on top of the the options panel. 
+If the user id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (Select All) or select the options of another partner.
 
 ### Shortcuts
 
@@ -365,8 +365,8 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 ### Version 3.0
 
 - options selector added (see 'Options selector' section)
-- manual alert are recorded in the cache
-- the data is kept in the clipboard until overwritten by 'Export'
+- manual alerts are recorded in the cache
+- the whole data is kept in the clipboard until overwritten by 'Export'
 
 
 
