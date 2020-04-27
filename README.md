@@ -315,11 +315,13 @@ Let us assume that you play different conventions with different partners. The o
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
 
+If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 disabled as :
 
+![](./images/PartnerSelection.png)
 
 When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
 
-It is possible to disable all options by chhosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option. It is usefull, if you play basic SAYC with a casual partner.
+It is possible to disable all options by chosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option. It is usefull, if you play the basic SAYC with a casual partner.
 
 ### Shortcuts
 
