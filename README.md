@@ -1,18 +1,21 @@
 # BBOalert
 
-
-Version : 3.0
+Version : 2.10
+Version : 3.0 (not yet deployed)
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
-Main features :
-- Automatic alert
-- Alert recording
+All you need in the beginning is to install BBOalert and play normally. BBOalert will :
+- record alerted calls
+- alert automatically the recorded calls
+
+Thereafter you can decide to use advanced features :
+- efficient coding alerts using wild cards and RegEx expressions
+- declare optional blocks of code that can be turned ON and OFF
 - Seat-dependent openings and development
 - Vulnerability-dependent openings and development
 - Keyboard shortcuts and abbreviations
 - Full Disclosure BSS file support
-- multilingual BBO user interface support
 
 If you like this tool, join the BBOalert users community on Facebook 
 
@@ -311,7 +314,11 @@ Let us assume that you play different conventions with different partners. The o
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
 
+
+
 When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
+
+It is possible to disable all options by chhosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option. It is usefull, if you play basic SAYC with a casual partner.
 
 ### Shortcuts
 
@@ -347,7 +354,7 @@ BBOalert can read BSS files in the same way as native BBOalert :
 
 BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name).
 
-The 'Export' button will write the converted data to the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
+The converted data is available in the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
 
 ## Release notes 
 
