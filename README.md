@@ -11,7 +11,8 @@ All you need in the beginning is to install BBOalert and play normally. BBOalert
 
 Thereafter you can decide to use advanced features :
 - efficient coding alerts using wild cards and RegEx expressions
-- declare optional blocks of code that can be turned ON and OFF
+- declare conventions in optional blocks of code that can be turned ON and OFF
+- declare which conventions you play with which poartner
 - Seat-dependent openings and development
 - Vulnerability-dependent openings and development
 - Keyboard shortcuts and abbreviations
@@ -370,7 +371,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 
 ### Version 3.0
 
-- options selector added (see 'Options selector' section)
+- options selector added (see 'Partnership options' section)
 - manual alerts are recorded in the cache
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
 
