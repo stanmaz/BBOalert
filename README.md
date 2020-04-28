@@ -144,7 +144,7 @@ The best method to learn BBOalert is to create a teaching table and to experimen
 
 ## Alert button
 
-When the call is automatically alerted, the 'Alert' button is turned ON. Clicking on this button will erase the explanation text, allowing you to cancel the alert. Thereafter you are free to enter eventually a new explanation text that will be recorded after you confirm the bid with the 'OK' button.
+When the call is automatically alerted, the 'Alert' button is turned ON. Turning 'Alert' OFF will erase the explanation text. Thereafter you are free to enter eventually a new explanation text that will be recorded.
 
 ## Data file format
 
@@ -381,7 +381,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 - options selector added (see 'Partnership options' section)
 - manual alerts are recorded in the cache
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
-- Alert button turned automatically ON. On click, the call explanation is erased.
+- Alert button turned automatically ON. When turned OFF, the call explanation is erased.
 
 
 
