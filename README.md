@@ -377,6 +377,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 - options selector added (see 'Partnership options' section)
 - manual alerts are recorded in the cache
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
+- Alert button turned automatically ON. On click, the call explanation is erased.
 
 
 
