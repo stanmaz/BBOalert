@@ -142,6 +142,10 @@ This way, the file is ready for the next session and will contain recently alert
 
 The best method to learn BBOalert is to create a teaching table and to experiment with data.
 
+## Alert button
+
+When the call is automatically alerted, the 'Alert' button is turned ON. Clicking on this button will erase the explanation text, allowing you to cancel the alert. Thereafter you are free to enter eventually a new explanation text that will be recorded after you confirm the bid with the 'OK' button.
+
 ## Data file format
 
 The file must begin with the <b>BBOalert</b> keyword (case insensitive) to be recognized by the program.
