@@ -218,7 +218,19 @@ you can use code
     1N--,    2C,    Stayman
     +,    2D,    Texas !H
     +,    2H,    Texas !S
-    
+
+#### Continuation line
+
+It is possible to split a record over more than one line. When a record ends with a backslash, it is cancatenated with the next record. Example : instead of 
+
+      (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
+
+you can write :
+
+      (1N--|\
+       2N--|\
+       2C--2D--2N..),               3C,     Puppet Stayman
+
 #### Long explanation text
 
 If you need more than 39 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat message should be sent to the opponents to complete the alert procedure.
@@ -382,6 +394,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 - manual alerts are recorded in the cache
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
 - Alert button turned automatically ON. When turned OFF, the call explanation is erased.
+- backslash = continuation line
 
 
 
