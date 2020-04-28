@@ -144,7 +144,7 @@ The best method to learn BBOalert is to create a teaching table and to experimen
 
 ## Alert button
 
-When the call is automatically alerted, the 'Alert' button is turned ON. Turning 'Alert' OFF will erase the explanation text. Thereafter you are free to enter eventually a new explanation text that will be recorded.
+When the call is automatically alerted, the 'Alert' button is set ON. Turning 'Alert' OFF will erase the explanation text. Thereafter you are free to enter eventually a new explanation text that will be recorded.
 
 ## Data file format
 
