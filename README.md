@@ -2,7 +2,7 @@
 
 Version : 2.10
 
-Version : 3.0 (not yet deployed)
+Version : 3.0 (not yet deployed, new features listed in the release notes are not available in the version 2.10)
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
