@@ -68,7 +68,8 @@ Keyboard abbreviations can be defined :
     Shortcut,   TD,   Texas !D
     Shortcut,   TH,   Texas !H
     Shortcut,   TS,   Texas !S
-    Shortcut,   GTG,  Sorry but I have to leave. I enjoyed the game
+    Shortcut,   XX,   to avoid long line wrapping in the text editor \
+                      you can use backslash to continue in the next line
     Shortcut,   BW,   Blackwood 4-1,3-0 (5 key cards)
     Shortcut,   ML,   Multiline text\nLine 2\nLine 3\n
 
@@ -77,16 +78,16 @@ or Alt-key shortcuts :
 
 Sample of selectable blocks of data
 
-    Option,1C standard
+    Option,vs1C standard
     1C,Db,Take-out double
 
-    Option,1C Precision
+    Option,vs1C Precision
     1C,Db,Lead indicating double
 
-    Option,1NT Standard
+    Option,vs1NT Standard
     1N,Db,Undefined 6 card suit
 
-    Option,1NT Weak
+    Option,vs1NT Weak
     1N,Db,For penalties
 
 Reserved tags @n and @v will enable automatic switching of code depending on actual
@@ -99,3 +100,12 @@ vulnerability.
 
 Bare 'Option' keyword will end the optional block 
     Option
+
+The options can be enabled only for a spacific partner if you provide his user-id with the optio
+
+Option,2D Multi,john
+,2D,weak 6M or any strong hand
+Option
+
+
+
