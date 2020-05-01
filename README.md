@@ -13,7 +13,7 @@ All you need in the beginning, is to install BBOalert and play normally. BBOaler
 Thereafter you can decide to use advanced features :
 - efficient coding alerts using wild cards and RegEx expressions
 - declare conventions in optional blocks of code that can be turned ON and OFF
-- declare which conventions you play with which poartner
+- declare which conventions you play with which partner
 - Seat-dependent openings and development
 - Vulnerability-dependent openings and development
 - Keyboard shortcuts and abbreviations
@@ -90,7 +90,7 @@ The data should be stored in a CSV-formatted text file. BBOalert uses the clipbo
 
 BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
 
-It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. THe chat part of the long explanation text will be sent automatically.
+It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. The chat part of the long explanation text will be sent automatically.
 
 At the first BBO session, you should :
 
@@ -120,7 +120,7 @@ BBOalert was designed initially for BBO in English and then adapted to other lan
 - switch to https://www.bridgebase.com/v3/?lang=en
 - report the problem to stanmaz.git@gmail.com
 
-We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup.
+We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup. With the 'Export' button the content of the clipboard will be overwritten by call manually alerted during the session.
 
 It is more efficient to prepare data in advance with a editor and import this data into BBOalert. It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
 
@@ -221,7 +221,7 @@ you can use code
 
 #### Continuation line
 
-It is possible to split a record over more than one line. When a record ends with a backslash, it is cancatenated with the next record. Example : instead of 
+To increase the readability, it is possible to split a long record over more than one line. When a record ends with a backslash, it is cancatenated with the next record. Example : instead of 
 
       (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
 
@@ -391,10 +391,13 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 ### Version 3.0
 
 - options selector added (see 'Partnership options' section)
-- manual alerts are recorded in the cache
+- manual alerts are recorded in the cache (see 'Recommended way of using BBOalert' section)
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
-- Alert button turned automatically ON. When turned OFF, the call explanation is erased.
-- backslash = continuation line
+- Alert button turned automatically ON. When turned OFF, the call explanation is erased. (see 'Alert button' section)
+- backslash to split long records  (see 'Continuation line' section)
 
+If you discover a serious bug in the program :
 
+- report it to the BBOalert community on Facebook
+- revert temporarily to previous version (see 'Installation' section)
 
