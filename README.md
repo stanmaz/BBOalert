@@ -60,7 +60,7 @@ If you discover a serious bug in the program :
 - report it to the BBOalert community on Facebook
 - follow this link to revert to previous version
 
-   Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
+   Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions
    Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
 
 After you start BBO, the screen should look like this (note additional buttons at top/left) :
