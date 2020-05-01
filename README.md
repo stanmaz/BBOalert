@@ -53,7 +53,7 @@ BBOalert is useful for all types of BBO users :
 This extension can be installed using the link :
 
 - Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert
-- Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
+- Chrome  : https://chrome.google.com/webstore/detail/bboalert/bjgihidachainhhhilkeemegdhehnlcf
  
 If you discover a serious bug in the program :
 
@@ -61,6 +61,7 @@ If you discover a serious bug in the program :
 - follow this link to revert to previous version
 
    Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions/
+   Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
 
 After you start BBO, the screen should look like this (note additional buttons at top/left) :
 
