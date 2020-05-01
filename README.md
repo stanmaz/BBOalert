@@ -94,7 +94,7 @@ It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). 
 
 At the first BBO session, you should :
 
-- open the data file using your favorite text editor (see sections : 'Data file format'
+- open the data file using your favorite text editor (see section : 'Data file format')
 - select all text
 - copy it to the clipboard
 - press "Import" button on the BBO page 
