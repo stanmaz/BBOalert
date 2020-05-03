@@ -1,8 +1,6 @@
 # BBOalert
 
-Version : 2.10
-
-Version : 3.0 (not yet deployed, new features listed in the release notes are not available in the version 2.10)
+Version : 3.0.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -389,7 +387,7 @@ New feature : the chat message part of a long explanation text is automatically 
 
 New feature : Multiline support for chat message shortcuts : \n in the shortcut text will split the whole message and each part will be sent immediately. Typical application : long text as prealert. Not to be used with shortcuts used for bid explanation.
 
-### Version 3.0
+### Version 3.0.1
 
 - options selector added (see 'Partnership options' section)
 - manual alerts are recorded in the cache (see 'Recommended way of using BBOalert' section)
