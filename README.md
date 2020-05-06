@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.0.1
+Version : 3.0.2
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -400,3 +400,6 @@ If you discover a serious bug in the program :
 - report it to the BBOalert community on Facebook
 - revert temporarily to previous version (see 'Installation' section)
 
+### Version 3.0.2
+
+- bug fix : apparently intermittend fault in @ tagged option selection
