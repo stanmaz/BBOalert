@@ -9,76 +9,51 @@ BBOalert dataBBOalert extension will :
 BBOalert allows to define in the table keybord shortcuts which are automatically expanded during manual text entry
 in 'Message' and 'Explanation' fields
 
-2.6.2 - BBOalert data : header identification no more case sensitive
-2.6.2 - BBOalert and BSS data : bss header identification detection within first 80 characters
-2.6.2 - BBOalert data : allow spaces in context field
-2.6.2 - BBOalert data reader : strip multiple spaces and tabs from explanation text
-2.7	  - automatic switching of vulnerability- and seat-dependent optional blocks
-2.7.1 - bug fix : misinterpretation of NT calls in multilingual user interface
-*/
-// Only english UI of BBO is supported
 
+*/
 var version = 'BBOalert ' + chrome.runtime.getManifest().version;
 
-// Global variables
-var elBiddingBox = null;
-var elBiddingButtons = null;
-var elAlertExplain = null;
 var eventClick = new Event('click');
 var callText = "";
 var updateText = "";
 var updateCount = 0;
 var cbData = "";
-// var alertData = "";
-var alertData = localStorage.getItem('BBOalertCache');
-
-if (alertData == null) alertData = '';
+var alertData = "";
 var alertTable = alertData.split("\n");
 var alertTableSize = alertTable.length;
+var alertTableCursor = 0;
 var clipBoard = navigator.clipboard;
-writeToClipboard(alertData);
 var adPanel = null;
-var b0 = document.createElement("button");
-var b1 = document.createElement("button");
-var b2 = document.createElement("button");
-var b3 = document.createElement("button");
 var lastDealNumber = '';
 // Set BBO specific control elements
-b0.textContent = "Options";
-b0.id = 'bboalert-b0';
-b0.style.fontSize = "22px"
-b0.onmousedown = toggleOptions;
-b0.style.verticalAlign = 'middle';
-b0.style.marginRight = "5px";
-b0.style.top = "47px";
-b1.textContent = "Import";
-b1.id = 'bboalert-b1';
-b1.style.fontSize = "22px"
-b1.onmousedown = importClipboardData;
-b1.style.verticalAlign = 'middle';
-b1.style.marginRight = "5px";
-b2.textContent = "Export";
-b2.id = 'bboalert-b2';
-b2.style.fontSize = "22px"
-b2.onmousedown = exportUpdateData;
-b2.style.verticalAlign = 'middle';
-b2.style.marginRight = "5px";
-b3.textContent = "Append";
-b3.id = 'bboalert-b3';
-b3.style.fontSize = "22px"
-b3.onmousedown = appendClipboardData;
-b3.style.verticalAlign = 'middle';
-b3.style.marginRight = "5px";
 
-
-
-var alertShown = false;
 
 // Check every second if bidding box is present
 var timerId = setInterval(() => setBiddingBox(), 500);
 
+function saveAlertTableToClipboard() {
+	var txt = '';
+	if (alertTable.length < 2) return;
+	for (i = 1; i < alertTable.length; i++) {
+		txt = txt + alertTable[i] + '\n';
+	}
+	writeToClipboard(txt);
+	localStorage.setItem('BBOalertCache', alertData);
+}
+
 // Find the bidding box element and check if new data present in the clipboard
 function setBiddingBox() {
+	if (setUI()) {
+		alertData = localStorage.getItem('BBOalertCache');
+		if (alertData == null) alertData = '';
+		alertTable = alertData.split("\n");
+		alertTableSize = alertTable.length;
+		setTitleText(version + " : " + alertTable.length + " records from cache");
+		saveAlertTableToClipboard();
+		processTable();
+	}
+	setControlButtonEvents();
+	partnershipOptions();
 	adPanel = document.getElementById("adpanel");
 	if (adPanel != null) {
 		sc = document.querySelector('.statsClass');
@@ -103,7 +78,7 @@ function setBiddingBox() {
 	}
 	//	set keyboard listener to explanation input
 	//	set listeners to bidding box buttons 
-	elBiddingBox = document.querySelector(".biddingBoxClass");
+	var elBiddingBox = document.querySelector(".biddingBoxClass");
 	if (elBiddingBox != null) {
 		checkOptionsVulnerability();
 		if (getDealNumber() != lastDealNumber) {
@@ -115,7 +90,7 @@ function setBiddingBox() {
 		}
 		elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 		if (elBiddingButtons != null) {
-			setButtonEvents();
+			setBiddingButtonEvents();
 		}
 	}
 	else {
@@ -123,165 +98,38 @@ function setBiddingBox() {
 	}
 }
 
-function setControlButtons() {
-	// Wait until user logged in
-	bar = document.querySelector('.moreMenuDivClass');
-	if (bar == null) return;
-	// Return if buttons already set
-	ds = document.getElementById('bboalert-b1');
-	if (ds != null) return;
-	bar.insertBefore(b2, bar.firstChild);
-	bar.insertBefore(b3, bar.firstChild);
-	bar.insertBefore(b1, bar.firstChild);
-	bar.insertBefore(b0, bar.firstChild);
-	cleanAdPanel();
-}
-
-
 // Erase advertizing from the panel
 function cleanAdPanel() {
-	if (document.getElementById("adpanel") != null) return;
-	appPanel = document.getElementById("bbo_app");
-	sc = document.querySelector('.statsClass');
-	//	bboad1Panel = document.getElementById("bbo_ad1");
-	adPanel = document.createElement("div");
-	adPanel.style.position = 'absolute';
-	adPanel.style.left = '0px';
-	adPanel.style.top = '47px';
-	adPanel.style.width = '161px';
-	adPanel.style.height = '100%';
-	adPanel.id = "adpanel";
-	adPanel.style.backgroundColor = 'red';
-	adPanel.style.display = "none";
-	adPanel.style.overflow = "scroll";
-	adPanel.style.overflowX = "hidden";
-	adPanel.style.zIndex = "1";
-	document.body.insertBefore(adPanel, appPanel);
 	alertTable = alertData.split("\n");
 	clearOptionButtons();
 	if (alertTable.length > 1) {
-		for (var i = 0; i < alertTable.length; i++) {
-			rec = alertTable[i].split(",");
+		alertTableCursor = 0;
+		var txt = '';
+		while ((txt = getNextLine()) != '%EOF%') {
+			rec = txt.split(",");
 			if (rec.length > 1) {
 				if (rec[0].trim() == 'Option') {
-					addOptionButton(rec[1].trim());
+					//					addOptionButton(rec[1].trim());
+					addOptionButton(txt);
 				}
 			}
 			//			if (rec.length < 3) alertTable.splice(i, 1);
 		}
 		initOptionDefaults();
-		setTitleText(version + " : " + alertTable.length + " records from cache");
-	}
-}
-
-// Erase all BBOalert buttons
-function clearOptionButtons() {
-	adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	while (adPanel.hasChildNodes()) {
-		adPanel.removeChild(adPanel.firstChild);
+		//		setTitleText(version + " : " + alertTable.length + " records from cache");
 	}
 }
 
 
-// For each group of options, select only the first one
-function initOptionDefaults() {
-	adPanel = document.getElementById("adpanel");
-	oldPrefix = "";
-	for (var i = 0; i < adPanel.children.length; i++) {
-		txt = adPanel.children[i].textContent;
-		txt1 = txt.split(" ");
-		if (txt1[0] == oldPrefix) {
-			adPanel.children[i].style.backgroundColor = 'white';
-		} else {
-			adPanel.children[i].style.backgroundColor = 'lightgreen';
-			adPanel.children[i].style.marginTop = "10px";
-		}
-		oldPrefix = txt1[0];
-	}
-	checkOptionsVulnerability();
-}
-
-// Make sure thet only the selected option is acvite
-function unselectOtherButtons(selectedOption) {
-	var adPanel = document.getElementById("adpanel");
-	var txt0 = selectedOption.split(" ");
-	for (var i = 0; i < adPanel.children.length; i++) {
-		var txt = adPanel.children[i].textContent;
-		var txt1 = txt.split(" ");
-		if (txt.trim() == selectedOption.trim()) continue;
-		if (txt0[0] != txt1[0]) continue;
-		adPanel.children[i].style.backgroundColor = 'white';
-	}
-}
-
-// Make sure thet only the selected option is acvite
-function checkOptionsSeat() {
-	var vText = '@' + areWeVulnerable()
-	if (vText == '@') return;
-	var adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	for (var i = 0; i < adPanel.children.length; i++) {
-		var txt = adPanel.children[i].textContent.trim();
-		if (vText == '@n') {
-			if (txt.indexOf('@n') != -1) {
-				adPanel.children[i].style.backgroundColor = 'lightgreen';
-			}
-			if (txt.indexOf('@v') != -1) adPanel.children[i].style.backgroundColor = 'white';
-		} else {
-			if (txt.indexOf('@v') != -1) {
-				adPanel.children[i].style.backgroundColor = 'lightgreen';
-			}
-			if (txt.indexOf('@n') != -1) adPanel.children[i].style.backgroundColor = 'white';
-		}
-	}
-}
-
-// Make sure thet only the selected option is acvite
-function checkOptionsVulnerability() {
-	var vText = areWeVulnerable()
-	if (vText == '') return;
-	sText = getSeatNr();
-	if (sText == '') return;
-	var adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	for (var i = 0; i < adPanel.children.length; i++) {
-		// Clear all auto selectable options 
-		var txt = adPanel.children[i].textContent.trim();
-		if (matchVulSeat(vText, sText, txt) == '') continue;
-		if (matchVulSeat(vText, sText, txt) == 'Y') adPanel.children[i].style.backgroundColor = 'lightgreen';
-		if (matchVulSeat(vText, sText, txt) == 'N') adPanel.children[i].style.backgroundColor = 'white';
-	}
-}
-
-// Add option selection button
-function addOptionButton(lbl) {
-	var adPanel = document.getElementById("adpanel");
-	var bt = document.createElement("button");
-	bt.textContent = lbl;
-	bt.id = lbl;
-	bt.style.width = "100%";
-	bt.style.backgroundColor = 'white';
-	bt.style.textAlign = 'left';
-	bt.addEventListener('click', function() {
-		if (this.style.backgroundColor == 'white') {
-			this.style.backgroundColor = 'lightgreen';
-			unselectOtherButtons(this.textContent);
-		} else {
-			this.style.backgroundColor = 'white';
-		}
-	})
-	adPanel.appendChild(bt);
-}
 
 function importClipboardData() {
-	cleanAdPanel();
-	getClipboardData(true)
+//	cleanAdPanel();
+	getClipboardData(true);
 }
 
 function appendClipboardData() {
-	cleanAdPanel();
-	getClipboardData(false)
+//	cleanAdPanel();
+	getClipboardData(false);
 }
 
 function getDataType(data) {
@@ -292,15 +140,51 @@ function getDataType(data) {
 	return '';
 }
 
+function setOptionsSelector() {
+	clearOptionsSelector();
+	alertTableCursor = 0;
+	var txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		rec = txt.split(",");
+		if (rec[0].trim() == 'Option') {
+			if (rec.length > 2) {
+				for (var j = 2; j < rec.length; j++) {
+					addOptionsSelectorOption(rec[j].trim());
+				}
+			}
+		}
+		//			if (rec.length < 3) alertTable.splice(i, 1);
+	}
+
+}
+
+
+
+function processTable() {
+	clearOptionButtons();
+	alertTableCursor = 0;
+	var txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		rec = txt.split(",");
+		if (rec.length > 1) {
+			if (rec[0].trim() == 'Option') {
+				//						addOptionButton(rec[1].trim());
+				addOptionButton(txt);
+			}
+		}
+		//			if (rec.length < 3) alertTable.splice(i, 1);
+	}
+	setOptionsSelector();
+	initOptionDefaults();
+	alertTableSize = alertTable.length;
+	saveAlertTableToClipboard();
+}
 
 // Retrieve text from clipboard
 function getClipboardData(newData) {
 	navigator.clipboard.readText().then(function(cbData) {
 		if (getDataType(cbData) == '') {
 			setTitleText(version + ' : no valid data found in clipboard');
-			if (alertData == "") {
-				alertData = "BBOalert\n\n"
-			}
 			return;
 		}
 		if ((getDataType(cbData) == 'BSS') && !newData) {
@@ -311,22 +195,18 @@ function getClipboardData(newData) {
 			updateText = "";
 			updateCount = 0;
 			alertData = cbData;
+			alertTable = alertData.split("\n");
+			alertTableSize = alertTable.length;
+			setTitleText(version + " : " + alertTable.length + " records imported");
 		} else {
 			alertData = alertData + cbData;
+			alertTable = alertData.split("\n");
+			setTitleText(version + " : " + cbData.split("\n").length + " records appended");
+			alertTableSize = alertTable.length;
 		}
-		alertTable = alertData.split("\n");
 		clearOptionButtons();
 		if (getDataType(cbData) == 'BBOalert') {
-			for (var i = 0; i < alertTable.length; i++) {
-				rec = alertTable[i].split(",");
-				if (rec.length > 1) {
-					if (rec[0].trim() == 'Option') {
-						addOptionButton(rec[1].trim());
-					}
-				}
-				//			if (rec.length < 3) alertTable.splice(i, 1);
-			}
-			initOptionDefaults();
+			processTable();
 		} else {
 			lvls = "1234567";
 			suits = "CDHSN";
@@ -404,17 +284,20 @@ function getClipboardData(newData) {
 				rec = alertTable[i].split(",");
 				if (rec.length > 1) {
 					if (rec[0].trim() == 'Option') {
-						addOptionButton(rec[1].trim());
+						//						addOptionButton(rec[1].trim());
+						addOptionButton(alertTable[i]);
 					}
 				}
 				//			if (rec.length < 3) alertTable.splice(i, 1);
 			}
-			initOptionDefaults();
+			//			initOptionDefaults();
+			//			setOptionsSelector();
 			alertData = updateText;
+			processTable();
+			setTitleText(version + " : " + alertTable.length + " records imported");
+			updateText = "";
+			updateCount = 0;
 		}
-		alertTableSize = alertTable.length;
-		setTitleText(version + " : " + alertTable.length + " records")
-		localStorage.setItem('BBOalertCache', alertData);
 		return;
 	}
 	);
@@ -422,34 +305,59 @@ function getClipboardData(newData) {
 
 function exportUpdateData() {
 	if (updateCount == 0) {
-		setTitleText(version + " : no data to export")
+		setTitleText(version + " : no data to export");
 		return;
 	}
-	writeToClipboard("BBOalert\n" + updateText);
-	setTitleText(version + " : " + updateCount + " records exported to clipboard")
+	writeToClipboard(updateText);
+	setTitleText(version + " : " + updateCount + " records exported to clipboard");
 }
 
-
-
-// Check if the selected defense option matches table option
-function checkOption(r) {
-	adPanel = document.getElementById("adpanel");
-	if (adPanel == null) {
-		return false;
+function getNextLine() {
+	if (alertTableCursor >= alertTable.length) return '%EOF%';
+	var txt = alertTable[alertTableCursor].trim();
+	while (txt.endsWith('\\')) {
+		alertTableCursor++;
+		txt = txt.slice(0, txt.length - 1) + alertTable[alertTableCursor].trim();
+		if (alertTableCursor >= alertTable.length) return txt;
 	}
-	for (var i = 0; i < adPanel.children.length; i++) {
-		txt = adPanel.children[i].textContent;
-		if (adPanel.children[i].style.backgroundColor == 'white') continue;
-		if (txt.trim() == r[1].trim()) {
-			return true;
-		}
-	}
-	return false;
+	alertTableCursor++;
+	return txt;
 }
 
 
 // Find explanation text for alerted call in the bidding context
 function findAlert(context, call) {
+	var matchOption = true;
+	var lastContext = "";
+	var alertText = "";
+	alertTableCursor = 0;
+	var txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		rec = txt.split(",");
+		// Keyword Option alone end optional block
+		if (txt == 'Option') matchOption = true;
+		if (rec.length < 2) continue;
+		currentContext = elimineSpaces(rec[0].trim());
+		if (currentContext == "+") {
+			currentContext = lastContext;
+		} else {
+			lastContext = currentContext;
+		}
+
+		if (currentContext == 'Option') {
+			matchOption = checkOption(rec);
+			continue;
+		}
+		if (!matchOption) continue;
+		if (rec.length < 3) continue;
+		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) alertText = rec[2];
+		if (matchContext(currentContext, context) && (rec[1].trim() == call)) alertText = rec[2];
+	}
+	return elimine2Spaces(alertText);
+}
+
+// Find explanation text for alerted call in the bidding context
+function findAlertOld(context, call) {
 	matchOption = true;
 	lastContext = "";
 	idx = -1;
@@ -483,8 +391,10 @@ function findAlert(context, call) {
 function findShortcut(text) {
 	idx = -1;
 	expandedText = text;
-	for (i = 0; i < alertTable.length; i++) {
-		rec = alertTable[i].split(",");
+	alertTableCursor = 0;
+	var txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		rec = txt.split(",");
 		if (rec.length < 3) continue;
 		if (rec[0].trim() != 'Shortcut') continue;
 		if (!text.endsWith(rec[1].trim())) continue;
@@ -506,9 +416,6 @@ function messageOnKeyup(key) {
 	text2 = findShortcut(text1);
 	if (text1 != text2) {
 		setChatMessage(text2, true);
-//		elMessage.value = text2;
-//		eventInput = new Event('input');
-//		elMessage.dispatchEvent(eventInput);
 	}
 }
 
@@ -528,28 +435,21 @@ function explainOnKeyup(key) {
 	}
 }
 
-// Clear explanation text field
-function clearAlert() {
-	elAlertExplain = getExplainInput();
-	if (elAlertExplain == null) return;
-	elAlertExplain.value = "";
-	eventInput = new Event('input');
-	elAlertExplain.dispatchEvent(eventInput);
-};
-
 // Search for explanation text and set in in the bidding box
 function getAlert() {
 	elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	exp = findAlert(getContext(), callText).trim().split('#');
+	if (exp[0] != '') setAlert(true);
 	elAlertExplain.value = exp[0];
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
 	if (exp.length > 1) {
-		setChatMessage (exp[1]);
+		setChatMessage(exp[1]);
+		setTimeout(function() { if (!buttonOKvisible()) sendChat(); }, 500);
 	} else {
-		setChatMessage ('');
-	}	
+		setChatMessage('');
+	}
 };
 
 // Append current explanation text in update table, if not found in the alert table
@@ -562,15 +462,22 @@ function saveAlert() {
 	alertText = findAlert(getContext(), callText).trim();
 	if (explainText != alertText) {
 		newrec = stripContext(getContext()) + "," + callText + "," + explainText;
+		newrec = newrec + "," + getNow() + " Deal " + getDealNumber();
 		alertTable.push(newrec);
-		updateText = updateText + newrec + "," + getNow() + " Deal " + getDealNumber() + "\n";
+		updateText = updateText + newrec + '\n';
+		alertData = alertData + newrec + '\n';
 		updateCount++;
-		writeToClipboard(updateText);
+		saveAlertTableToClipboard();
 	}
 };
 
 // Set action for each bidding box button
-function setButtonEvents() {
+function setBiddingButtonEvents() {
+	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	if (elBiddingBox == null) return;
+	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+	if (elBiddingButtons == null) return;
+	if (elBiddingButtons.lebgth < 17) return;
 	elBiddingButtons[0].onmousedown = function() {
 		callText = "1";
 		clearAlert();
@@ -691,6 +598,18 @@ function setButtonEvents() {
 		callText = "Rd";
 		getAlert();
 	});
+	elBiddingButtons[15].onmousedown = function() {
+		if (isAlertON()) {
+			setExplainText('');
+			setChatMessage('', false);
+		}
+	};
+	elBiddingButtons[15].addEventListener("touchstart", function() {
+		if (isAlertON()) {
+			setExplainText('');
+			setChatMessage('', false);
+		}
+	});
 	elBiddingButtons[16].onmousedown = function() {
 		saveAlert();
 		sendChat();
@@ -701,3 +620,18 @@ function setButtonEvents() {
 	});
 }
 
+function setControlButtonEvents() {
+	var optionsSelector = document.getElementById('bboalert-ds');
+	if (optionsSelector != null) optionsSelector.onchange = optionsSelectorChanged;
+	var bar = document.querySelector('.moreMenuDivClass');
+	if (bar == null) return;
+	var b = bar.querySelector('#bboalert-b1');
+	if (b != null) b.onmousedown = importClipboardData;
+	if (b != null) b.addEventListener("touchstart", importClipboardData);
+	b = bar.querySelector('#bboalert-b2');
+	if (b != null) b.onmousedown = appendClipboardData;
+	if (b != null) b.addEventListener("touchstart", appendClipboardData);
+	b = bar.querySelector('#bboalert-b3');
+	if (b != null) b.onmousedown = exportUpdateData;
+	if (b != null) b.addEventListener("touchstart", exportUpdateData);
+}
