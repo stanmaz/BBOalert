@@ -105,6 +105,8 @@ The options can be enabled only for a spacific partner if you provide his user-i
 
 Option,2D Multi,john
 ,2D,weak 6M or any strong hand
+Option,2D Multi,joe
+,2D,weak 6!D
 Option
 
 
