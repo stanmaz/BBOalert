@@ -27,7 +27,7 @@ We assume that you are familiar with BBO.
 
 ## Purpose
 
-Tired of repeating the same story while alerting your bids in BBO? If yes, this browser extension is your friend.
+Tired of repeating the same story while alerting your bids on BBO? If yes, this browser extension is your friend.
 
 During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
 
