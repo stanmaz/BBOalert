@@ -60,7 +60,7 @@ If you discover a serious bug in the program :
 
    - Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions
  
-After you start BBO, the screen should look like this (note additional buttons at top/left) :
+After you start BBO, the screen should look like this (note red/blue panel at the right) :
 
 ![](./images/BBOalertOK.png)
 
