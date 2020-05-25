@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.0.2
+Version : 3.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -59,8 +59,7 @@ If you discover a serious bug in the program :
 - follow this link to revert to previous version
 
    - Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions
-   - Chrome  : https://chrome.google.com/webstore/detail/bboalert/acfcbonjafpichnggihaaljhjdaombni
-
+ 
 After you start BBO, the screen should look like this (note additional buttons at top/left) :
 
 ![](./images/BBOalertOK.png)
@@ -403,3 +402,12 @@ If you discover a serious bug in the program :
 ### Version 3.0.2
 
 - bug fix : apparently intermittend fault in @ tagged option selection
+
+### Version 3.1
+
+- bug fix : automatic vulnerability detection not working after the opening of the Hitory tab
+- mamory leak
+
+- new feature : new user interface integrated with the BBO tabs
+- new feature : export of log data
+
