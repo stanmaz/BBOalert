@@ -62,7 +62,7 @@ If you discover a serious bug in the program :
  
 After you start BBO, the screen should look like this (note red/blue panel at the right) :
 
-![](./images/BBOalertOK.png)
+![](./images/BBOalertOk.png)
 
 If you do not get the buttons displayed, try one of these :
 - clear the Firefox cache
