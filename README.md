@@ -73,12 +73,19 @@ If you do not get the buttons displayed, try one of these :
 - install and try another addon from Firefox repository
 - reboot the computer
 
-The purpose of the buttons is :
+At the right side of the page, an additional 'BBOalert' tab is created. Clicking at this tab will toggle BBOalert panel display. This tab is only partially integrated with the regular BBO tabs :
+
+- it shares the same display area
+- selecting BBOalert tab will not deselect the open BBO tab
+- selecting a BBO tab will turn the BBOalert tab off
+
+The purpose of the buttons on the blue panel is :
 
 - <b>Import</b> : to read new data from the clipboard
 - <b>Append</b> : to append additional data from the clipboard
-- <b>Export</b> : to write manually alerted calls to the clipboard
-- <b>Options</b> : to toggle bidding options display
+- <b>Export All</b> : write all data the clipboard
+- <b>Export New</b> : write data related to tha manual alerts  to the clipboard
+- <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
 
 You will find detailed information later in this text.
 
@@ -142,7 +149,7 @@ The best method to learn BBOalert is to create a teaching table and to experimen
 
 ## Alert button
 
-When the call is automatically alerted, the 'Alert' button is set ON. Turning 'Alert' OFF will erase the explanation text. Thereafter you are free to enter eventually a new explanation text that will be recorded.
+Turning 'Alert' ON and OFF OFF will erase the explanation text. Thereafter you are free to enter eventually a new explanation text that will be recorded.
 
 ## Data file format
 
