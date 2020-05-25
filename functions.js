@@ -1,13 +1,191 @@
+function  normalize(s) {
+	return elimine2Spaces(s.replace(/,+/g, ';')).trim();
+}
+
+var version = 'BBOalert ' + chrome.runtime.getManifest().version;
+var logText = version + '\n';
+logText = logText + navigator.userAgent + '\n';
+
+function getNavDiv() {
+	return document.getElementById('navDiv')
+}
+
+function getChatDiv() {
+	return document.getElementById('chatDiv');
+}
+
+function whoAmI() {
+	var nb = document.querySelector('.navBarClass');
+	if (nb == null) {addLog('whoAmI .navBarClass not found'); return '';}
+	var nt = document.querySelector('.nameTagClass');
+	if (nt == null) {addLog('whoAmI .nameTagClass not found');return '';}
+	return (nt.textContent.trim());
+}
+
+function myDirection() {
+	if ((nd = getNavDiv()) == null) return '';
+	var cs = nd.querySelector('.coverClass');
+	if (cs == null) return '';
+	var nd = cs.querySelectorAll('.nameDisplayClass');
+	if (nd == null) return '';
+	if (nd.length != 4) return '';
+	var dc = cs.querySelectorAll('.directionClass');
+	if (dc == null) return '';
+	if (dc.length != 4) return '';
+	var me = whoAmI();
+	if (me == '') return '';
+	for (var i = 0; i < 4; i++) {
+		if (nd[i].textContent.trim() == me) {
+			return dc[i].textContent.trim();
+		}
+	}
+	{addLog(me + ' seat not found'); return '';}
+}
+
+
+function addLog(txt) {
+	logText = logText + getNow(true) + ',' + txt + '\n';
+}
+
+function exportLogData() {
+	bboalertLog(version + " : " + (logText.split('\n').length-1) + ' records exported');
+	writeToClipboard(logText);
+}
+
+
+var triggerDragAndDrop = function(selectorDrag, selectorDrop, dist) {
+
+	// function for triggering mouse events
+	var fireMouseEvent = function(type, elem, centerX, centerY) {
+		var evt = document.createEvent('MouseEvents');
+		evt.initMouseEvent(type, true, true, window, 1, 1, 1, centerX, centerY, false, false, false, false, 0, elem);
+		elem.dispatchEvent(evt);
+	};
+
+	// fetch target elements
+	var elemDrag = document.querySelector(selectorDrag);
+	var elemDrop = document.querySelector(selectorDrop);
+	if (!elemDrag || !elemDrop) return false;
+
+	// calculate positions
+	var pos = elemDrag.getBoundingClientRect();
+	var center1X = Math.floor((pos.left + pos.right) / 2);
+	var center1Y = Math.floor((pos.top + pos.bottom) / 2);
+	pos = elemDrop.getBoundingClientRect();
+	var center2X = Math.floor((pos.left + pos.right) / 2) + dist;
+	var center2Y = Math.floor((pos.top + pos.bottom) / 2);
+
+	// mouse over dragged element and mousedown
+	fireMouseEvent('mousemove', elemDrag, center1X, center1Y);
+	fireMouseEvent('mouseenter', elemDrag, center1X, center1Y);
+	fireMouseEvent('mouseover', elemDrag, center1X, center1Y);
+	fireMouseEvent('mousedown', elemDrag, center1X, center1Y);
+
+	// start dragging process over to drop target
+	fireMouseEvent('dragstart', elemDrag, center1X, center1Y);
+	fireMouseEvent('drag', elemDrag, center1X, center1Y);
+	fireMouseEvent('mousemove', elemDrag, center1X, center1Y);
+	fireMouseEvent('drag', elemDrag, center2X, center2Y);
+	fireMouseEvent('mousemove', elemDrop, center2X, center2Y);
+
+	// trigger dragging process on top of drop target
+	fireMouseEvent('mouseenter', elemDrop, center2X, center2Y);
+	fireMouseEvent('dragenter', elemDrop, center2X, center2Y);
+	fireMouseEvent('mouseover', elemDrop, center2X, center2Y);
+	fireMouseEvent('dragover', elemDrop, center2X, center2Y);
+
+	// release dragged element on top of drop target
+	fireMouseEvent('drop', elemDrop, center2X, center2Y);
+	fireMouseEvent('dragend', elemDrag, center2X, center2Y);
+	fireMouseEvent('mouseup', elemDrag, center2X, center2Y);
+
+	return true;
+}
+
+function menuUndo() {
+	if ((nd = getNavDiv()) == null) return;
+	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	if (cells == null) return;
+	if (cells.length == 4) {
+		if (cells[3].textContent != 'Undo') return;
+	}
+	var menu = document.querySelector('.moreClass');
+	menu.click();
+	setTimeout(function() {
+		var mc = document.querySelectorAll('.menuClass');
+		if (mc[7].children[1].textContent.search('Undo') != -1) {
+			mc[7].children[1].firstChild.click();
+			cells[3].textContent = mySeatDirection;
+			setAutoOK(false);
+		}
+	}, 200);
+	//	var mc = document.querySelectorAll('.menuClass');
+	//	var m7 = mc[7];
+	//	m7.children[1].firstChild.click()
+}
+
+
+// set BBOalert toggling button at top-right
+function addBBOalertButton() {
+	if (document.getElementById('myButton') != null) return;
+	var b = document.createElement("button");
+	b.style.width = '100%';
+	b.style.height = '100%';
+	b.style.backgroundColor = 'blue';
+	b.textContent = 'Ale\nrt';
+	b.style.color = 'white';
+	b.style.display = 'block';
+	b.id = 'myButton';
+	b.style.zIndex = "1";
+	b.onclick = toggleOptions;
+	var cc = document.querySelector('.connectionClass');
+	for (var i = 0; i < cc.children.length; i++) cc.children[i].style.display = 'none';
+	cc.appendChild(b);
+}
 
 
 // This file contaoins all stand-alone functione
 
+function mySeat() {
+	if ((nd = getNavDiv()) == null) return '';
+	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	if (cells == null) return '';
+	if (cells.length != 4) return '';
+	return cells[3].innerText.slice(0, 1);
+}
+
+function ourVulnerability() {
+	var vultab = ["", "NS", "EW", "NSEW", "NS", "EW", "NSEW", "", "EW", "NSEW", "", "NS", "NSEW", "", "NS", "EW"];
+	var sd = getDealNumber();
+	if (sd == '') return '';
+	var nd = parseInt(sd);
+	if (nd == NaN) return '';
+	if (nd < 1) return '';
+	nd = (nd - 1) % 16;
+	if (vultab[nd].includes(mySeat())) return '@v';
+	return '@n';
+}
+
+function openAccountTab() {
+	var vc = document.querySelectorAll('.verticalClass');
+	if (vc.length < 4) return false;
+	vc[3].click();
+	return true;
+}
+
+
 function confirmBidsSet() {
-	return (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked");
+	var sc = document.querySelectorAll('.settingClass');
+	if (sc.length < 6) {
+		if (sc.length == 0) return '';
+	}
+	if (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y'
+	else return 'N';
 }
 
 function buttonOKvisible() {
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	if ((nd = getNavDiv()) == null) return false;
+	var elBiddingBox = nd.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return false;
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
@@ -16,18 +194,41 @@ function buttonOKvisible() {
 }
 
 function toggleOptions() {
-	var adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	sc = document.querySelector('.statsClass');
-	if (adPanel.style.display == 'none') {
-		if (sc != null) {
-			if (isVisible(sc)) adPanel.style.top = Math.ceil(sc.getBoundingClientRect().top).toString() + 'px';
-		}
-		adPanel.style.display = 'block';
+	var adPanel0 = document.getElementById("adpanel0");
+	if (adPanel0 == null) return;
+	if (adPanel0.style.display == 'none') {
+		setOptions(true);
 	} else {
-		adPanel.style.display = 'none';
+		setOptions(false);
 	}
 }
+
+function setOptions(on) {
+	var adPanel0 = document.getElementById("adpanel0");
+	if (adPanel0 == null) return;
+	if (on) {
+		adPanel0.style.display = 'block';
+		if (adPanel0.getBoundingClientRect().width < 250) {
+			triggerDragAndDrop('.hDividerClass', '.hDividerClass', (adPanel0.getBoundingClientRect().width) - 300);
+		}
+	} else {
+		adPanel0.style.display = 'none';
+	}
+	var b = document.getElementById('bboalert-tab');
+	if (b == null) return;
+	var t = b.querySelector('.verticalClass');
+	if (t == null) return;
+	if (on) {
+		t.style.backgroundColor = "green";
+		t.style.color = 'white';
+	}
+	else {
+		t.style.backgroundColor = "rgb(209, 214, 221)";
+		t.style.color = 'black';
+	}
+}
+
+
 
 function addBBOalertTab() {
 	if (document.getElementById('bboalert-tab') != null) return;
@@ -40,6 +241,9 @@ function addBBOalertTab() {
 	t = tabs[1].cloneNode(true);
 	t.querySelector('.verticalClass').textContent = 'BBOalert';
 	t.id = 'bboalert-tab';
+	t.onclick = toggleOptions;
+	t.style.colot = 'white';
+	t.backgroundColor = 'red';
 	vt.appendChild(t);
 	t = document.getElementById('bboalert-tab');
 	t.onclick = toggleOptions;
@@ -76,18 +280,22 @@ function isVisible(e) {
 }
 
 // Get formatted actual date and time
-function getNow() {
-	now = new Date();
-	yyyy = now.getFullYear().toString();
-	m = now.getMonth() + 1;
+function getNow(secs) {
+	var now = new Date();
+	var yyyy = now.getFullYear().toString();
+	var m = now.getMonth() + 1;
 	mm = m.toString();
 	if (mm.length == 1) mm = '0' + mm;
-	dd = now.getDate().toString();
+	var dd = now.getDate().toString();
 	if (dd.length == 1) dd = '0' + dd;
-	hh = now.getHours().toString();
-	mn = now.getMinutes().toString();
+	var hh = now.getHours().toString();
+	if (hh.length == 1) hh = '0' + hh;
+	var mn = now.getMinutes().toString();
 	if (mn.length == 1) mn = '0' + mn;
-	return yyyy + mm + dd + "_" + hh + ":" + mn;
+	if (!secs) return yyyy + mm + dd + "_" + hh + ":" + mn;
+	var ss = now.getSeconds().toString();
+	if (ss.length == 1) ss = '0' + ss;
+	return yyyy + mm + dd + "_" + hh + ":" + mn + ":" + ss;
 }
 
 // Elimine spaces and tabs
@@ -190,10 +398,11 @@ function getSeatNr() {
 
 // Get actual bidding context
 function getContext() {
+	if ((nd = getNavDiv()) == null) return 'xx';
 	ctx = ''
-	bs = document.querySelectorAll('bridge-screen')
+	bs = nd.querySelectorAll('bridge-screen');
 	if (bs.length == 0) {
-		return "xx"
+		return "yy"
 	}
 	auction = bs[0].querySelectorAll('.auctionBoxCellClass')
 	if (auction.length == 0) {
@@ -211,7 +420,8 @@ function getContext() {
 }
 
 function areWeVulnerable() {
-	cells = document.querySelectorAll('.auctionBoxHeaderCellClass');
+	if ((nd = getNavDiv()) == null) return '';
+	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
 	if (cells == null) return '';
 	if (cells.length != 4) return '';
 	if (cells[3].style.backgroundColor == "rgb(255, 255, 255)") return '@n';
@@ -219,7 +429,8 @@ function areWeVulnerable() {
 }
 
 function getDealNumber() {
-	vpi = document.querySelector('.vulPanelInnerPanelClass');
+	if ((nd = getNavDiv()) == null) return '';
+	vpi = nd.querySelector('.vulPanelInnerPanelClass');
 	if (vpi == null) return '';
 	if (!isVisible(vpi)) return '';
 	return vpi.textContent.trim();
@@ -321,7 +532,8 @@ function getChatMessage() {
 }
 
 function getBiddingBox() {
-	return document.querySelector(".biddingBoxClass");
+	if ((nd = getNavDiv()) == null) return null;
+	return nd.querySelector(".biddingBoxClass");
 }
 
 function getExplainInput() {
@@ -387,78 +599,127 @@ function clearOptionsSelector() {
 
 function setControlButtons() {
 	var bar = document.querySelector('.moreMenuDivClass');
+	var adPanel = document.getElementById("adpanel1");
 	if (bar == null) return false;
 	if (!isVisible(bar)) return false;
-	if (bar.querySelector('#bboalert-b3') == null) {
+	//	addBBOalertButton();
+	addBBOalertTab();
+	if (adPanel.querySelector('#bboalert-b1') == null) {
 		var b3 = document.createElement("button");
-		b3.textContent = "Export";
+		b3.textContent = "Import";
+		b3.id = 'bboalert-b1';
+		b3.style.fontSize = "22px";
+		b3.style.width = '100%';
+		adPanel.appendChild(b3);
+	}
+	if (adPanel.querySelector('#bboalert-b2') == null) {
+		var b3 = document.createElement("button");
+		b3.textContent = "Append";
+		b3.id = 'bboalert-b2';
+		b3.style.fontSize = "22px";
+		b3.style.width = '100%';
+		adPanel.appendChild(b3);
+	}
+	if (adPanel.querySelector('#bboalert-b3') == null) {
+		var b3 = document.createElement("button");
+		b3.textContent = "Export All";
 		b3.id = 'bboalert-b3';
 		b3.style.fontSize = "22px";
-		b3.style.verticalAlign = 'middle';
-		b3.style.marginRight = "5px";
-		bar.insertBefore(b3, bar.firstChild);
+		b3.style.width = '100%';
+		adPanel.appendChild(b3);
 	}
-	if (bar.querySelector('#bboalert-b2') == null) {
-		var b2 = document.createElement("button");
-		b2.textContent = "Append";
-		b2.id = 'bboalert-b2';
-		b2.style.fontSize = "22px";
-		b2.style.verticalAlign = 'middle';
-		b2.style.marginRight = "5px";
-		bar.insertBefore(b2, bar.firstChild);
+	if (adPanel.querySelector('#bboalert-bnew') == null) {
+		var bnew = document.createElement("button");
+		bnew.textContent = "Export New";
+		bnew.id = 'bboalert-bnew';
+		bnew.style.fontSize = "22px";
+		bnew.style.width = '100%';
+		adPanel.appendChild(bnew);
 	}
-	if (bar.querySelector('#bboalert-b1') == null) {
-		var b1 = document.createElement("button");
-		b1.textContent = "Import";
-		b1.id = 'bboalert-b1';
-		b1.style.fontSize = "22px"
-		b1.style.verticalAlign = 'middle';
-		b1.style.marginRight = "5px";
-		bar.insertBefore(b1, bar.firstChild);
+	if (adPanel.querySelector('#bboalert-log') == null) {
+		var blog = document.createElement("button");
+		blog.textContent = "Export Log";
+		blog.id = 'bboalert-log';
+		blog.style.fontSize = "22px";
+		blog.style.width = '100%';
+		adPanel.appendChild(blog);
 	}
-	if (bar.querySelector('#bboalert-b0') == null) {
-		var b0 = document.createElement("button");
-		b0.textContent = "Options";
-		b0.id = 'bboalert-b0';
-		b0.style.fontSize = "22px"
-		b0.onmousedown = toggleOptions;
-		b0.style.verticalAlign = 'middle';
-		b0.style.marginRight = "5px";
-		b0.style.top = "47px";
-		bar.insertBefore(b0, bar.firstChild);
+	if (adPanel.querySelector('#bboalert-p1') == null) {
+		var p1 = document.createElement("p");
+		p1.textContent = version;
+		p1.id = 'bboalert-p1';
+		adPanel.appendChild(p1);
 		return true;
 	}
 	return false;
 }
 
+function bboalertLog(txt) {
+	var p1 = document.getElementById('bboalert-p1');
+	if (p1 == null) return;
+	p1.textContent = txt;
+}
 
 function setAdPanel() {
 	if (document.getElementById("adpanel") != null) return;
-	appPanel = document.getElementById("bbo_app");
-	//	sc = document.querySelector('.statsClass');
-	//	bboad1Panel = document.getElementById("bbo_ad1");
-	adPanel = document.createElement("div");
-	adPanel.style.position = 'absolute';
-	adPanel.style.left = '0px';
-	adPanel.style.top = '47px';
-	adPanel.style.width = '161px';
-	adPanel.style.height = '100%';
+	var appPanel = document.getElementById("rightDiv");
+	if (appPanel == null) return;
+	var adPanel0 = document.createElement("div");
+	adPanel0.id = 'adpanel0';
+	adPanel0.style.position = 'absolute';
+	adPanel0.style.top = '0px';
+	adPanel0.style.left = '0px';
+	//	adPanel0.style.backgroundColor = 'yellow';
+	adPanel0.style.display = 'none';
+	adPanel0.style.height = '100%';
+	adPanel0.style.right = '35px';
+	adPanel0.style.display = 'none';
+	appPanel.appendChild(adPanel0);
+
+
+
+
+	var adPanel = document.createElement("div");
+	adPanel.setAttribute('class', 'split left');
 	adPanel.id = "adpanel";
-	adPanel.style.backgroundColor = 'red';
-	adPanel.style.display = "none";
-	adPanel.style.overflow = "scroll";
-	adPanel.style.overflowX = "hidden";
-	adPanel.style.zIndex = "1";
+	adPanel.style.overflow = "hidden auto";
+	adPanel.style.zIndex = "5000";
 	var optionsSelector = document.createElement('select');
 	optionsSelector.id = 'bboalert-ds';
 	optionsSelector.style.width = "100%";
 	optionsSelector.style.fontSize = "16px";
 	optionsSelector.add(new Option('Select-All'));
 	optionsSelector.add(new Option('Select-None'));
-	//	optionsSelector.onchange = optionsSelectorChanged;
 	adPanel.appendChild(optionsSelector);
-	document.body.insertBefore(adPanel, appPanel);
+	adPanel0.appendChild(adPanel);
+
+	var adPanel1 = document.createElement("div");
+	adPanel1.setAttribute('class', 'split right');
+	adPanel1.style.position = 'absolute';
+	adPanel1.id = "adpanel1";
+	adPanel1.style.overflow = "hidden auto";
+
+	adPanel0.appendChild(adPanel1);
 }
+
+function setOptionsOff() {
+	setOptions(false);
+}
+
+function setTabEvents() {
+	var vt = document.querySelectorAll('.verticalTabBarClass');
+	if (vt == null) return;
+	vt = vt[1];
+	var tabs = vt.children;
+	if (tabs == null) return;
+	if (tabs.length = 0) return;
+	for (var i = 0; i < tabs.length; i++) {
+		if (tabs[i].textContent.search('BBOalert') == -1) {
+			if (tabs[i].onmousedown == null) tabs[i].onmousedown = setOptionsOff;
+		}
+	}
+}
+
 
 function setUI() {
 	setAdPanel();
@@ -503,14 +764,14 @@ function addOptionButton(lbl) {
 	bt.style.width = "100%";
 	bt.style.backgroundColor = 'white';
 	bt.style.textAlign = 'left';
-	bt.addEventListener('click', function() {
+	bt.onclick = function() {
 		if (this.style.backgroundColor == 'white') {
 			this.style.backgroundColor = 'lightgreen';
 			unselectOtherButtons(this.textContent);
 		} else {
 			this.style.backgroundColor = 'white';
 		}
-	})
+	}
 	adPanel.appendChild(bt);
 }
 
@@ -533,6 +794,7 @@ function unselectOtherButtons(selectedOption) {
 // For each group of options, select only the first one
 function initOptionDefaults() {
 	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
 	var oldPrefix = "";
 	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
@@ -551,7 +813,6 @@ function initOptionDefaults() {
 		}
 		oldPrefix = txt1[0];
 	}
-	//	setOptionsSelector();
 	checkOptionsVulnerability();
 }
 
@@ -603,7 +864,11 @@ function checkOptionsSeat() {
 
 // Make sure thet only the selected option is active
 function checkOptionsVulnerability() {
-	var vText = areWeVulnerable()
+	if ((nd = getNavDiv()) == null) return;
+	var abc = nd.querySelector('.auctionBoxClass');
+	if (!isVisible(abc)) return;
+	var vText = areWeVulnerable();
+	vText = ourVulnerability();
 	if (vText == '') return;
 	sText = getSeatNr();
 	if (sText == '') return;
@@ -641,7 +906,8 @@ function optionsSelectorChanged() {
 			if (r1.length < 3) {
 				btns[i].disabled = false;
 			} else {
-				var r = elimine2Spaces(r1[2].trim()).split(' ');
+//				var r = elimine2Spaces(r1[2].trim()).split(' ');
+				var r = normalize(r1[2]).split(' ');
 				btns[i].disabled = true;
 				for (var j = 2; j < r1.length; j++) {
 					if (seletedText == r1[j].trim()) btns[i].disabled = false;
@@ -653,13 +919,21 @@ function optionsSelectorChanged() {
 }
 
 function myPartner() {
-	var nd = document.querySelectorAll('.nameDisplayClass');
-	if (nd == null) return '';
-	if (nd.length != 4) return '';
-	return nd[2].textContent.trim();
+	if ((nd = getNavDiv()) == null) return '';
+	var nd1 = nd.querySelectorAll('.nameDisplayClass');
+	if (nd1 == null) return '';
+	if (nd1.length != 4) return '';
+	var me = whoAmI();
+	if (me == '') return '';
+	for (var i = 0; i < 4; i++) {
+		if (nd1[i].textContent.trim() == me) {
+			return (nd1[(i+2)%4].textContent.trim());
+		}
+	}
+	return '';
 }
 
-function searchOptionsSelector (optionText) {
+function searchOptionsSelector(optionText) {
 	var optionsSelector = document.getElementById('bboalert-ds');
 	if (optionsSelector == null) return;
 	var opt;
@@ -670,7 +944,7 @@ function searchOptionsSelector (optionText) {
 	return -1;
 }
 
-function partnershipOptions () {
+function partnershipOptions() {
 	if (myPartner() == '') return;
 	var i = searchOptionsSelector(myPartner());
 	if (i == -1) return;
@@ -679,7 +953,7 @@ function partnershipOptions () {
 	optionsSelectorChanged();
 }
 
-function documentOnKeyup (key) {
+function documentOnKeyup(key) {
 	if (key.altKey) {
 		setChatMessage('Alt' + key.key.toUpperCase(), true);
 		sendChat();
@@ -687,7 +961,8 @@ function documentOnKeyup (key) {
 }
 
 function isAlertON() {
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	if ((nd = getNavDiv()) == null) return false;
+	var elBiddingBox = nd.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return false;
 	var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
@@ -697,7 +972,8 @@ function isAlertON() {
 }
 
 function setAlert(on) {
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	if ((ds = getNavDiv()) == null) return false;
+	var elBiddingBox = nd.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return false;
 	var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
@@ -705,9 +981,7 @@ function setAlert(on) {
 	if (elBiddingButtons[15].style.backgroundColor == "rgb(255, 255, 255)") {
 		if (on) elBiddingButtons[15].click();
 	} else {
-		if (!on) elBiddingButtons[15].click();	
+		if (!on) elBiddingButtons[15].click();
 	};
 	return true;
 }
-
-

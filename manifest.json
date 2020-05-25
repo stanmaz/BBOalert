@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "3.0.2",
+	"version": "3.1",
 	"permissions": [
 		"clipboardRead",
 		"clipboardWrite"
@@ -17,6 +17,7 @@
 			"matches": [
 				"*://www.bridgebase.com/v3/*"
 			],
+			"css": ["BBOalert.css"],
 			"js": [
 				"functions.js",
 				"BBOalert.js"

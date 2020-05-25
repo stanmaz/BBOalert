@@ -1,0 +1,23 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 5000;
+  top: 0;
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Control the left side */
+
+.left {
+  left: 0;
+  background-color: red;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: blue;
+}
+
