@@ -398,6 +398,14 @@ BBOalert converts BSS data internally to the BBOalert native format. Vulnerabili
 
 The converted data is available in the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
 
+### Quick Undo
+
+Clicking at the header of the auction box will generate an Undo command
+
+![](./images/QuickUndo.png)
+
+This is much faster, than selecting Undo from the menu.
+
 ## Release notes 
 
 ### Version 2.10
