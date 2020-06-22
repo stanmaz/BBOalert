@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.1
+Version : 3.3
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -256,7 +256,14 @@ the code means : whatever the opponents do, 2H remains a mandatory transfer to 2
 
 #### Regular Expressions - RegEx
 
-The "context" field can be also formatted as regular "RegEx" expression in the process of matching with the actual bidding context. RegEx is a very complex mechanisme, but in BBOalert we use primarily one type of expression : groups of string matching patterns. The example below can be used as template :
+Both, "context" and "call", fields can be also formatted as regular "RegEx" expression in the process of matching with the actual bidding context.
+
+RegEx can be used in two forms :
+
+- explicit by encopassing the string between slashes : the matched strings may have different length.
+- implicit without slashes : the matched strings should be of the same length
+
+RegEx is a very complex mechanisme, but in BBOalert we use primarily one type of expression : groups of string matching patterns. The example below can be used as template :
 
       (1N--|2N--|2C--2D--2N..),               3C,     Puppet Stayman
 
@@ -276,7 +283,7 @@ For matching a single character, brackets should be used as in the example, wher
 
       1[HS]--,2N,+12HCP and 4+ card fit
 
-Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used, it will be internally converted to a dot (single character match).
+Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used, asterisk (and also underscore) will be internally converted to a dot (single character match).
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
@@ -344,6 +351,16 @@ If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 dis
 When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
 
 It is possible to disable all options by chosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option.
+
+### Trusted code
+
+The code between the keywords 'Trusted' and 'Untrusted' will not require to be confirmed, even if 'Confirm Bids' toggle switch is ON. The number of occurences of trusted code blocks is not limited. In the example below, the explanation of 1C and 1D opening will be sent immediately, whereas 1N will required confirmation by pressing the OK button.
+
+      Trusted
+      ,1C,16+HCP any distribution
+      ,1D,11-15HCP not 5 card major
+      Untrusted
+      ,1N,13-15HCP balanced
 
 ### Shortcuts
 
@@ -417,4 +434,14 @@ If you discover a serious bug in the program :
 
 - new feature : new user interface integrated with the BBO tabs
 - new feature : export of log data
+
+### Version 3.2 skipped
+### Version 3.3
+
+New features
+- RegEx in the ‘call’ field
+- full RegEx support
+- Trusted code attribute
+- Quick undo
+- Touch screen support
 
