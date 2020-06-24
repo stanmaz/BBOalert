@@ -1,4 +1,42 @@
-function  normalize(s) {
+function setPageReload() {
+	var nb = document.querySelector('.navBarClass');
+	if (nb == null) return;
+	var nadc = nb.querySelector('.nonAnonDivClass');
+	if (nadc == null) return;
+	var lob = nadc.querySelector('button');
+	if (lob == null) return;
+	if (lob.onclick == null) lob.onclick = pageReload;
+
+}
+
+function pageReload() {
+	location.reload(true);
+}
+
+function clickOK() {
+	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	if (elBiddingBox == null) return false;
+	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+	if (elBiddingButtons == null) return false;
+	if (elBiddingButtons.lebgth < 17) return false;
+	elBiddingButtons[16].click();
+}
+
+function confirmBid() {
+	var n = 0;
+	var t = setInterval(function () {
+		n++;
+		if (n > 100) clearInterval(t);
+		if (buttonOKvisible()) {
+			clearInterval(t);
+			if (trustedBid) {
+				clickOK();
+			}
+		}
+	}, 10);
+}
+
+function normalize(s) {
 	return elimine2Spaces(s.replace(/,+/g, ';')).trim();
 }
 
@@ -7,7 +45,7 @@ var logText = version + '\n';
 logText = logText + navigator.userAgent + '\n';
 
 function getNavDiv() {
-	return document.getElementById('navDiv')
+	return document.getElementById('navDiv');
 }
 
 function getChatDiv() {
@@ -16,10 +54,16 @@ function getChatDiv() {
 
 function whoAmI() {
 	var nb = document.querySelector('.navBarClass');
-	if (nb == null) {addLog('whoAmI .navBarClass not found'); return '';}
+	if (nb == null) {
+		addLog('whoAmI .navBarClass not found');
+		return '';
+	}
 	var nt = document.querySelector('.nameTagClass');
-	if (nt == null) {addLog('whoAmI .nameTagClass not found');return '';}
-	return (nt.textContent.trim());
+	if (nt == null) {
+		addLog('whoAmI .nameTagClass not found');
+		return '';
+	}
+	return (nt.textContent.trim().toLowerCase());
 }
 
 function myDirection() {
@@ -35,11 +79,13 @@ function myDirection() {
 	var me = whoAmI();
 	if (me == '') return '';
 	for (var i = 0; i < 4; i++) {
-		if (nd[i].textContent.trim() == me) {
+		if (nd[i].textContent.trim().toLowerCase() == me) {
 			return dc[i].textContent.trim();
 		}
+	} {
+		addLog(me + ' seat not found');
+		return '';
 	}
-	{addLog(me + ' seat not found'); return '';}
 }
 
 
@@ -48,15 +94,15 @@ function addLog(txt) {
 }
 
 function exportLogData() {
-	bboalertLog(version + " : " + (logText.split('\n').length-1) + ' records exported');
+	bboalertLog(version + " : " + (logText.split('\n').length - 1) + ' records exported');
 	writeToClipboard(logText);
 }
 
 
-var triggerDragAndDrop = function(selectorDrag, selectorDrop, dist) {
+var triggerDragAndDrop = function (selectorDrag, selectorDrop, dist) {
 
 	// function for triggering mouse events
-	var fireMouseEvent = function(type, elem, centerX, centerY) {
+	var fireMouseEvent = function (type, elem, centerX, centerY) {
 		var evt = document.createEvent('MouseEvents');
 		evt.initMouseEvent(type, true, true, window, 1, 1, 1, centerX, centerY, false, false, false, false, 0, elem);
 		elem.dispatchEvent(evt);
@@ -102,28 +148,42 @@ var triggerDragAndDrop = function(selectorDrag, selectorDrop, dist) {
 	return true;
 }
 
-function menuUndo() {
+function undoCommand() {
+	if ((nd = getNavDiv()) == null) return;
+	var menu = nd.querySelector('.moreClass');
+	if (menu == null) return;
+	if (getContext() == '') return;
+	menu.click();
+	n = 0;
+	var t = setInterval(function () {
+		var mc = document.querySelectorAll('.menuClass');
+		if (mc != null) {
+			for (var i = 0; i < mc.length; i++) {
+				for (var j = 0; j < mc[i].children.length; j++) {
+					if (mc[i].children[j].textContent.search('Undo') != -1) {
+						clearInterval(t);
+						mc[i].children[j].firstChild.click();
+						return;
+					}
+
+				}
+			}
+		}
+		n++;
+		if (n == 10) clearInterval(t);
+	}, 100);
+}
+
+function setUndo() {
 	if ((nd = getNavDiv()) == null) return;
 	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
 	if (cells == null) return;
-	if (cells.length == 4) {
-		if (cells[3].textContent != 'Undo') return;
-	}
-	var menu = document.querySelector('.moreClass');
-	menu.click();
-	setTimeout(function() {
-		var mc = document.querySelectorAll('.menuClass');
-		if (mc[7].children[1].textContent.search('Undo') != -1) {
-			mc[7].children[1].firstChild.click();
-			cells[3].textContent = mySeatDirection;
-			setAutoOK(false);
-		}
-	}, 200);
-	//	var mc = document.querySelectorAll('.menuClass');
-	//	var m7 = mc[7];
-	//	m7.children[1].firstChild.click()
+	if (cells.length != 4) return;
+	if (cells[0].onclick == null) cells[0].onclick = undoCommand;
+	if (cells[1].onclick == null) cells[1].onclick = undoCommand;
+	if (cells[2].onclick == null) cells[2].onclick = undoCommand;
+	if (cells[3].onclick == null) cells[3].onclick = undoCommand;
 }
-
 
 // set BBOalert toggling button at top-right
 function addBBOalertButton() {
@@ -221,8 +281,7 @@ function setOptions(on) {
 	if (on) {
 		t.style.backgroundColor = "green";
 		t.style.color = 'white';
-	}
-	else {
+	} else {
 		t.style.backgroundColor = "rgb(209, 214, 221)";
 		t.style.color = 'black';
 	}
@@ -242,7 +301,7 @@ function addBBOalertTab() {
 	t.querySelector('.verticalClass').textContent = 'BBOalert';
 	t.id = 'bboalert-tab';
 	t.onclick = toggleOptions;
-	t.style.colot = 'white';
+	t.style.color = 'white';
 	t.backgroundColor = 'red';
 	vt.appendChild(t);
 	t = document.getElementById('bboalert-tab');
@@ -315,11 +374,7 @@ function elimineSpaces(str) {
 
 // Write text to clipboard
 function writeToClipboard(txt) {
-	navigator.clipboard.writeText(txt).then(function() {
-	}
-		, function() {
-		}
-	);
+	navigator.clipboard.writeText(txt).then(function () {}, function () {});
 }
 
 // Strip context from leading passes
@@ -473,12 +528,20 @@ function matchContextOld(refContext, actContext) {
 
 // Check if actual bidding context matches refeence context from the table
 function matchContext(refContext, actContext) {
-	if (matchContextOld(refContext, actContext)) return true;
-	var ref = refContext.replace(/\*/g, '.');
-	ref = ref.replace(/_/g, '.');
-	var re = new RegExp(ref);
-	if (!re.test(actContext)) return false;
-	return (actContext.match(re)[0].length == actContext.length);
+	try {
+		if (refContext.startsWith('/') && refContext.endsWith('/')) {
+			var re = new RegExp(refContext.slice(1, refContext.length - 1));
+			return re.test(actContext);
+		}
+		if (matchContextOld(refContext, actContext)) return true;
+		var ref = refContext.replace(/\*/g, '.');
+		ref = ref.replace(/_/g, '.');
+		var re = new RegExp(ref);
+		if (!re.test(actContext)) return false;
+		return (actContext.match(re)[0].length == actContext.length);
+	} catch {
+		return false;
+	}
 }
 
 // Get visible message input element
@@ -764,7 +827,7 @@ function addOptionButton(lbl) {
 	bt.style.width = "100%";
 	bt.style.backgroundColor = 'white';
 	bt.style.textAlign = 'left';
-	bt.onclick = function() {
+	bt.onclick = function () {
 		if (this.style.backgroundColor == 'white') {
 			this.style.backgroundColor = 'lightgreen';
 			unselectOtherButtons(this.textContent);
@@ -823,9 +886,9 @@ function addOptionsSelectorOption(optionText) {
 	var opt;
 	for (var i = 2, len = optionsSelector.options.length; i < len; i++) {
 		opt = optionsSelector.options[i];
-		if (opt.text == optionText) return;
+		if (opt.text.toLowerCase() == optionText.toLowerCase()) return;
 	}
-	optionsSelector.add(new Option(optionText));
+	optionsSelector.add(new Option(optionText.toLowerCase()));
 }
 
 // Erase all BBOalert buttons
@@ -906,11 +969,11 @@ function optionsSelectorChanged() {
 			if (r1.length < 3) {
 				btns[i].disabled = false;
 			} else {
-//				var r = elimine2Spaces(r1[2].trim()).split(' ');
+				//				var r = elimine2Spaces(r1[2].trim()).split(' ');
 				var r = normalize(r1[2]).split(' ');
 				btns[i].disabled = true;
 				for (var j = 2; j < r1.length; j++) {
-					if (seletedText == r1[j].trim()) btns[i].disabled = false;
+					if (seletedText.trim().toLowerCase() == r1[j].trim().toLowerCase()) btns[i].disabled = false;
 				}
 			}
 		}
@@ -926,8 +989,8 @@ function myPartner() {
 	var me = whoAmI();
 	if (me == '') return '';
 	for (var i = 0; i < 4; i++) {
-		if (nd1[i].textContent.trim() == me) {
-			return (nd1[(i+2)%4].textContent.trim());
+		if (nd1[i].textContent.trim().toLowerCase() == me) {
+			return (nd1[(i + 2) % 4].textContent.trim().toLowerCase());
 		}
 	}
 	return '';
@@ -939,7 +1002,7 @@ function searchOptionsSelector(optionText) {
 	var opt;
 	for (var i = 2, len = optionsSelector.options.length; i < len; i++) {
 		opt = optionsSelector.options[i];
-		if (opt.text == optionText) return i;
+		if (opt.text.toLowerCase() == optionText.toLowerCase()) return i;
 	}
 	return -1;
 }

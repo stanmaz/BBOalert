@@ -6,12 +6,10 @@ BBOalert dataBBOalert extension will :
 - Explanation can be modified by hand or a new explanation can be entered. In such a case the update text
   is stored in the clipboard
 
-BBOalert allows to define in the table keybord shortcuts which are automatically expanded during manual text entry
+BBOalert allows to define in the table keyboard shortcuts which are automatically expanded during manual text entry
 in 'Message' and 'Explanation' fields
 
-
 */
-
 
 var eventClick = new Event('click');
 var callText = "";
@@ -26,7 +24,6 @@ var lastDealNumber = '';
 
 // Set BBO specific control elements
 
-
 // Check every second if bidding box is present
 var timerId = setInterval(() => setBiddingBox(), 1000);
 
@@ -36,7 +33,7 @@ function saveAlertTableToClipboard() {
 	for (i = 1; i < alertTable.length; i++) {
 		txt = txt + alertTable[i] + '\n';
 	}
-//	writeToClipboard(txt);
+	//	writeToClipboard(txt);
 	localStorage.setItem('BBOalertCache', alertData);
 }
 
@@ -63,6 +60,7 @@ function setBiddingBox() {
 		openAccountTab();
 		setOptions(true);
 	}
+	if (isBBOready()) setPageReload();
 	setControlButtonEvents();
 	setTabEvents();
 	partnershipOptions();
@@ -186,7 +184,7 @@ function processTable() {
 
 // Retrieve text from clipboard
 function getClipboardData(newData) {
-	navigator.clipboard.readText().then(function(cbData) {
+	navigator.clipboard.readText().then(function (cbData) {
 		if (getDataType(cbData) == '') {
 			bboalertLog(version + ' : no valid data found in clipboard');
 			return;
@@ -326,9 +324,12 @@ function getNextLine() {
 	return txt;
 }
 
+var trustedBid = false;
 
 // Find explanation text for alerted call in the bidding context
 function findAlert(context, call) {
+	trustedBid = false;
+	var trustedZone = false;
 	var matchOption = true;
 	var lastContext = "";
 	var alertText = "";
@@ -338,6 +339,8 @@ function findAlert(context, call) {
 	while ((txt = getNextLine()) != '%EOF%') {
 		rec = txt.split(",");
 		// Keyword Option alone end optional block
+		if (txt == 'Trusted') trustedZone = true;
+		if (txt == 'Untrusted') trustedZone = false;
 		if (txt == 'Option') matchOption = true;
 		if (rec.length < 2) continue;
 		currentContext = elimineSpaces(rec[0].trim());
@@ -353,18 +356,22 @@ function findAlert(context, call) {
 		}
 		if (!matchOption) continue;
 		if (rec.length < 3) continue;
-		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) {
+		//		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) {
+		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
 			idx = alertTableCursor;
 			alertText = rec[2];
+			trustedBid = trustedZone;
 		}
-		if (matchContext(currentContext, context) && (rec[1].trim() == call)) {
+		if (matchContext(currentContext, context) && (matchContext(rec[1].trim(), call))) {
 			idx = alertTableCursor;
 			alertText = rec[2];
+			trustedBid = trustedZone;
 		}
 	}
 	alertText = normalize(alertText);
+	if (idx == -1) trustedBid = false;
 	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
-		'|' + context + '|' + call + '|' + idx + '|' + alertText + ']');
+		'|' + context + '|' + call + '|' + idx + '|' + alertText + '|' + trustedBid + ']');
 	return alertText;
 }
 
@@ -434,7 +441,7 @@ function getAlert() {
 	elAlertExplain.dispatchEvent(eventInput);
 	if (exp.length > 1) {
 		setChatMessage(exp[1]);
-		setTimeout(function() { if (!buttonOKvisible()) sendChat(); }, 500);
+		setTimeout(function () { if (!buttonOKvisible()) sendChat(); }, 500);
 	} else {
 		setChatMessage('');
 	}
@@ -444,7 +451,7 @@ function getAlert() {
 function saveAlert() {
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
-//	var explainText = elimine2Spaces(elAlertExplain.value).trim();
+	//	var explainText = elimine2Spaces(elAlertExplain.value).trim();
 	var explainText = normalize(elAlertExplain.value);
 	if (normalize(getChatMessage()) != '') explainText = explainText + '#' + normalize(getChatMessage());
 	if (explainText == "") return;
@@ -461,6 +468,9 @@ function saveAlert() {
 	}
 };
 
+
+
+
 // Set action for each bidding box button
 function setBiddingButtonEvents() {
 	var elBiddingBox = document.querySelector(".biddingBoxClass");
@@ -468,126 +478,231 @@ function setBiddingButtonEvents() {
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return;
 	if (elBiddingButtons.lebgth < 17) return;
+	setUndo();
 	if (elBiddingButtons[0].onmousedown == null) {
-		elBiddingButtons[0].onmousedown = function() {
+		elBiddingButtons[0].onmousedown = function () {
 			addLog('click:[1]');
 			callText = "1";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[0].addEventListener("touchstart", function () {
+			addLog('click:[1]');
+			callText = "1";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[1].onmousedown == null) {
-		elBiddingButtons[1].onmousedown = function() {
+		elBiddingButtons[1].onmousedown = function () {
 			addLog('click:[2]');
 			callText = "2";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[1].addEventListener("touchstart", function () {
+			addLog('click:[2]');
+			callText = "2";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[2].onmousedown == null) {
-		elBiddingButtons[2].onmousedown = function() {
+		elBiddingButtons[2].onmousedown = function () {
 			addLog('click:[3]');
 			callText = "3";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[2].addEventListener("touchstart", function () {
+			addLog('click:[3]');
+			callText = "3";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[3].onmousedown == null) {
-		elBiddingButtons[3].onmousedown = function() {
+		elBiddingButtons[3].onmousedown = function () {
 			addLog('click:[4]');
 			callText = "4";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[3].addEventListener("touchstart", function () {
+			addLog('click:[4]');
+			callText = "4";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[4].onmousedown == null) {
-		elBiddingButtons[4].onmousedown = function() {
+		elBiddingButtons[4].onmousedown = function () {
 			addLog('click:[5]');
 			callText = "5";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[4].addEventListener("touchstart", function () {
+			addLog('click:[5]');
+			callText = "5";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[5].onmousedown == null) {
-		elBiddingButtons[5].onmousedown = function() {
+		elBiddingButtons[5].onmousedown = function () {
 			addLog('click:[6]');
 			callText = "6";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[5].addEventListener("touchstart", function () {
+			addLog('click:[6]');
+			callText = "6";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[6].onmousedown == null) {
-		elBiddingButtons[6].onmousedown = function() {
+		elBiddingButtons[6].onmousedown = function () {
 			addLog('click:[7]');
 			callText = "7";
 			if ((confirmBidsSet() != 'N')) clearAlert();
 		};
+		elBiddingButtons[6].addEventListener("touchstart", function () {
+			addLog('click:[7]');
+			callText = "7";
+			if ((confirmBidsSet() != 'N')) clearAlert();
+		});
 	}
 	if (elBiddingButtons[7].onmousedown == null) {
-		elBiddingButtons[7].onmousedown = function() {
+		elBiddingButtons[7].onmousedown = function () {
 			addLog('click:[C]');
 			callText = callText[0] + "C";
 			getAlert();
+			if ((confirmBidsSet() == 'N')) undoButton();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[7].addEventListener("touchstart", function () {
+			addLog('click:[C]');
+			callText = callText[0] + "C";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[8].onmousedown == null) {
-		elBiddingButtons[8].onmousedown = function() {
+		elBiddingButtons[8].onmousedown = function () {
 			addLog('click:[D]');
 			callText = callText[0] + "D";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[8].addEventListener("touchstart", function () {
+			addLog('click:[D]');
+			callText = callText[0] + "D";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[9].onmousedown == null) {
-		elBiddingButtons[9].onmousedown = function() {
+		elBiddingButtons[9].onmousedown = function () {
 			addLog('click:[H]');
 			callText = callText[0] + "H";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[9].addEventListener("touchstart", function () {
+			addLog('click:[H]');
+			callText = callText[0] + "H";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[10].onmousedown == null) {
-		elBiddingButtons[10].onmousedown = function() {
+		elBiddingButtons[10].onmousedown = function () {
 			addLog('click:[S]');
 			callText = callText[0] + "S";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[10].addEventListener("touchstart", function () {
+			addLog('click:[S]');
+			callText = callText[0] + "S";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[11].onmousedown == null) {
-		elBiddingButtons[11].onmousedown = function() {
+		elBiddingButtons[11].onmousedown = function () {
 			addLog('click:[N]');
 			callText = callText[0] + "N";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[11].addEventListener("touchstart", function () {
+			addLog('click:[N]');
+			callText = callText[0] + "N";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[12].onmousedown == null) {
-		elBiddingButtons[12].onmousedown = function() {
+		elBiddingButtons[12].onmousedown = function () {
 			addLog('click:[--]');
 			callText = "--";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[12].addEventListener("touchstart", function () {
+			addLog('click:[--]');
+			callText = "--";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[13].onmousedown == null) {
-		elBiddingButtons[13].onmousedown = function() {
+		elBiddingButtons[13].onmousedown = function () {
 			addLog('click:[Db]');
 			callText = "Db";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[13].addEventListener("touchstart", function () {
+			addLog('click:[Db]');
+			callText = "Db";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[14].onmousedown == null) {
-		elBiddingButtons[14].onmousedown = function() {
+		elBiddingButtons[14].onmousedown = function () {
 			addLog('click:[Rd]');
 			callText = "Rd";
 			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
+		elBiddingButtons[14].addEventListener("touchstart", function () {
+			addLog('click:[Rd]');
+			callText = "Rd";
+			getAlert();
+			if ((confirmBidsSet() == 'Y')) confirmBid();
+		});
 	}
 	if (elBiddingButtons[15].onmousedown == null) {
-		elBiddingButtons[15].onmousedown = function() {
+		elBiddingButtons[15].onmousedown = function () {
 			addLog('click:[Alert]');
 			if (isAlertON()) {
 				setExplainText('');
 				setChatMessage('', false);
 			}
 		};
+		elBiddingButtons[15].addEventListener("touchstart", function () {
+			addLog('click:[Alert]');
+			if (isAlertON()) {
+				setExplainText('');
+				setChatMessage('', false);
+			}
+		});
 	}
 	if (elBiddingButtons[16].onmousedown == null) {
-		elBiddingButtons[16].onmousedown = function() {
+		elBiddingButtons[16].onmousedown = function () {
 			addLog('click:[OK]');
 			saveAlert();
 			sendChat();
 		};
+		elBiddingButtons[16].addEventListener("touchstart", function () {
+			addLog('click:[OK]');
+			saveAlert();
+			sendChat();
+		});
 	}
 }
 
