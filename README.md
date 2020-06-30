@@ -1,7 +1,6 @@
 # BBOalert
 
-Version : 3.4
-Note : Due to the long and unpredictable delays in the approval process, this version may be unavailable in the Chrome Webstore immediately.
+Version : 3.4 (Note : Due to the long and unpredictable delays in the approval process, this version may be unavailable in the Chrome Webstore immediately)
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
