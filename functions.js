@@ -1,3 +1,24 @@
+function userScript(S,CR,C,BR,B) {
+	R = '';
+	try {
+		eval(S);
+		return R;
+	} catch {
+		return 'ERROR';
+	}
+}
+
+function makeRegExp(s) {
+	if (s.startsWith('/') && s.endsWith('/')) {
+		var re = new RegExp(s.slice(1, s.length - 1));
+	} else {
+		var ref = s.replace(/\*/g, '.');
+		ref = ref.replace(/_/g, '.');
+		var re = new RegExp(ref);
+	}
+	return re;
+}
+
 function setPageReload() {
 	var nb = document.querySelector('.navBarClass');
 	if (nb == null) return;
@@ -6,11 +27,10 @@ function setPageReload() {
 	var lob = nadc.querySelector('button');
 	if (lob == null) return;
 	if (lob.onclick == null) lob.onclick = pageReload;
-
 }
 
 function pageReload() {
-	location.reload(true);
+	setOptions(false);
 }
 
 function clickOK() {
@@ -945,6 +965,7 @@ function checkOptionsVulnerability() {
 		if (matchVulSeat(vText, sText, txt) == '') continue;
 		if (matchVulSeat(vText, sText, txt) == 'Y') btns[i].style.backgroundColor = 'lightgreen';
 		if (matchVulSeat(vText, sText, txt) == 'N') btns[i].style.backgroundColor = 'white';
+		if (btns[i].disabled) btns[i].style.backgroundColor = 'white';
 	}
 }
 
