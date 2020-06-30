@@ -287,6 +287,32 @@ Asterisk wild card must be avoided in the regular expression. It matches strings
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
+### User definable scripts
+
+To use this feature the knowledge of RegEx and JavaScript is required.
+Portions of the explanation text can be replaced by the result returned by a user definable script. The script name is enclosed between two % characters.
+
+An example of data file :
+
+      BBOalert
+      Script,X,R = C.match(makeRegExp(CR))[1];
+      Script,Y,R = C.match(makeRegExp(CR))[2];
+      1([HS])--,2N,+12HCP and 4+!%X%
+      1([HS])2([CD]),2N,11-12HCP misfit !%X% stopper !%Y%
+
+Note : X and Y are arbitrary script names,and there are no specific limitations.
+
+- The script should use variables :
+   - CR : <context> field
+   - C : actual bidding context
+   - BR : <call> field
+   - B : actual call (bid)
+   - R : string to be returned
+- The script may use the makeRegExp function, which transforms the string into a RegExp object. BBOalert wildcards _ and * will be replaced by dots.
+- The script may be of any complexity :
+- Each statement must end with ;
+- To span the script over multiple lines \ should be used at the end of the line
+
 ### Optional code
 
 Almost everyone on BBO is using the SAYC bidding system. But SAYC is not the world standard and some opponents will use another bidding system such as ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system - with particular agreements that depend on the conventions used by the opponents - you must be able to switch on-the-fly between different defense options during the game.
@@ -453,3 +479,11 @@ New features
 - Quick undo
 - Touch screen support
 
+### Version 3.4
+
+Bug fixes
+- Forced page reload at Logoff is removed
+- Partner selection of @-tagged options
+
+New feature
+- User definable scripts
