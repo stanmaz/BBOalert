@@ -9,7 +9,7 @@ All you need in the beginning, is to install BBOalert and play normally. BBOaler
 - alert automatically the recorded calls
 
 Thereafter you can decide to use advanced features :
-- efficient coding alerts using wild cards and RegEx expressions
+- efficient coding alerts using wild cards, RegEx expressions and user scripts
 - declare conventions in optional blocks of code that can be turned ON and OFF
 - declare which conventions you play with which partner
 - Seat-dependent openings and development
