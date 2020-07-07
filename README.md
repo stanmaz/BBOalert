@@ -260,8 +260,8 @@ Both, "context" and "call", fields can be also formatted as regular "RegEx" expr
 
 RegEx can be used in two forms :
 
-- explicit by encopassing the string between slashes : the matched strings may have different length.
-- implicit without slashes : the matched strings should be of the same length
+- explicit by encopassing the string between slashes : the matched strings may have different length (partial match)
+- implicit without slashes : the matched strings should be of the same length (full match)
 
 RegEx is a very complex mechanisme, but in BBOalert we use primarily one type of expression : groups of string matching patterns. The example below can be used as template :
 
@@ -284,6 +284,24 @@ For matching a single character, brackets should be used as in the example, wher
       1[HS]--,2N,+12HCP and 4+ card fit
 
 Asterisk wild card must be avoided in the regular expression. It matches strings of any length and will lead to unpredictibles results. If used, asterisk (and also underscore) will be internally converted to a dot (single character match).
+
+If the ‘context’ field starts and ends with a slash, it is interpreted as a pure RegEx. Any regular expression is allowed, but 4 patterns are relevant for context matching
+
+      //                            match any string
+      /^startString/                match starting string
+      /endString$/                  match ending string
+      /^startString.*endString$/    match both
+
+Examples :
+
+      //,4N,Blackwood 5 key cards            ,after any bidding sequence 4NT is Blackwood
+      /^1N/,4N,Quantitative slam try        ,except after 1NT opening
+      /4N--$/,5C,1 or 4 key cards            ,response to Blackwood
+      /4N--$/,5D,0 or 3 key cards
+      /4N--$/,5H,2 key cards without trump Queen
+      /4N--$/,5S,2 key cards with trump Queen
+      /Db$/,--,to play doubled            ,in any case pass after double is to play
+      /Db$/,Rd,forcing; may be SOS        ,but redouble is forcing
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
