@@ -520,7 +520,36 @@ function saveAlert() {
 	}
 };
 
+function savePostMortem() {
+	var nd = getNavDiv();
+	if (nd == null) return;
+	var ec = nd.querySelector('.explainCallClass');
+	if (ec == null) return;
+	var hd = ec.querySelector('.headingClass').textContent.split(' ');
+	var cl = hd[hd.length-1];
+	cl = translateCall(cl);
+	ct = getContext();
+	var n = ct.search(cl);
+	if (n == -1 ) return;
+	ct = ct.slice(0,n);
+	var newrec = stripContext(ct) + "," + cl + "," + ec.querySelector('input').value;
+	newrec = newrec + "," + getNow() + " Deal " + getDealNumber();
+	alertTable.push(newrec);
+	updateText = updateText + newrec + '\n';
+	alertData = alertData + newrec + '\n';
+	updateCount++;
+	saveAlertTableToClipboard();
+}
 
+function setPostMortem() {
+	var nd = getNavDiv();
+	if (nd == null) return;
+	var ec = nd.querySelector('.explainCallClass');
+	if (ec == null) return;
+	var ok = ec.querySelector('button');
+	if (ok == null) return;
+	if (ok.onclick == null) ok.onclick = savePostMortem;
+}
 
 
 // Set action for each bidding box button
@@ -531,6 +560,7 @@ function setBiddingButtonEvents() {
 	if (elBiddingButtons == null) return;
 	if (elBiddingButtons.lebgth < 17) return;
 	setUndo();
+	setPostMortem();
 	if (elBiddingButtons[0].onmousedown == null) {
 		elBiddingButtons[0].onmousedown = function () {
 			addLog('click:[1]');
@@ -620,7 +650,6 @@ function setBiddingButtonEvents() {
 			addLog('click:[C]');
 			callText = callText[0] + "C";
 			getAlert();
-			if ((confirmBidsSet() == 'N')) undoButton();
 			if ((confirmBidsSet() == 'Y')) confirmBid();
 		};
 		elBiddingButtons[7].addEventListener("touchstart", function () {

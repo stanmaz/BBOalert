@@ -2,7 +2,11 @@
 	"manifest_version": 2,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "3.4",
+	"version": "3.5",
+	"permissions": [
+		"clipboardRead",
+		"clipboardWrite"
+	],
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",

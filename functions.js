@@ -1,4 +1,4 @@
-function userScript(S,CR,C,BR,B) {
+function userScript(S, CR, C, BR, B) {
 	R = '';
 	try {
 		eval(S);
@@ -26,7 +26,15 @@ function setPageReload() {
 	if (nadc == null) return;
 	var lob = nadc.querySelector('button');
 	if (lob == null) return;
-	if (lob.onclick == null) lob.onclick = pageReload;
+	if (lob.onclick == null) lob.onclick = preparePageReload;
+}
+
+function preparePageReload() {
+	var db = document.querySelector('mat-dialog-container');
+	if (db == null) return;
+	var bt = db.querySelector('button');
+	if (bt == null) return;
+	bt.onclick = pageReload;
 }
 
 function pageReload() {
