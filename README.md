@@ -505,3 +505,11 @@ Bug fixes
 
 New feature
 - User definable scripts
+
+## Version 3.5
+
+New feature :
+
+- recording of post-mortem alerts. Explanations after the call is made, are recorded if the text entry is terminated by pressing OK. If the text entry is terminated by Enter key, the alert will be sent to the opponents but not recorded.
+
+
