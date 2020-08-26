@@ -459,7 +459,7 @@ This is much faster, than selecting Undo from the menu.
 
 ### Using BBO convention card to share data
 
-To use the BBO server to share the data with your partner. To achieve this :
+To share the data with your partner via the BBO server :
 
 - make a convention card (Account+Convention Card) using "SAYC - Standard American Yellow Card" or "Simple Modern ACOL" as template
 - open it for editing
@@ -467,7 +467,7 @@ To use the BBO server to share the data with your partner. To achieve this :
 - press "Get from BBOalert" to append your data to the text in the "Defensive Carding" text
 - press "Save Changes"
 
-Note : while editing the "Defensive Carding" text, do not alter anything beyond the larde square character which separates your text from the BBOalert data.
+Note : while editing the "Defensive Carding" text, do not alter anything beyond the large square character which separates your text from the BBOalert data.
 
 This convention card together with the BBOalert data will become available for your partner. To load data into BBOalert
 
