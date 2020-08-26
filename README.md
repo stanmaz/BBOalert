@@ -153,9 +153,16 @@ Turning 'Alert' ON and OFF OFF will erase the explanation text. Thereafter you a
 
 ## Data file format
 
-The file must begin with the <b>BBOalert</b> keyword (case insensitive) to be recognized by the program.
-
 Comma separated value (CSV) format is used for each record.
+
+The file must begin with the header record :
+
+   BBOalert,<user text>
+   
+Where :
+
+- BBOalert is mandatory keyword
+- <user text> is free text. Typically used to express the version of the data. It will be displayed after data import.
 
 Alerted calls should contain at least three text fields separated by commas :
 
@@ -308,7 +315,7 @@ Wildcards and regular expressions are powerfull features to get more compact cod
 ### User definable scripts
 
 To use this feature the knowledge of RegEx and JavaScript is required.
-Portions of the explanation text can be replaced by the result returned by a user definable script. The script name is enclosed between two % characters.
+Portions of the explanation text or of the shortcut text can be replaced by the result returned by a user definable script. The script name is enclosed between two % characters.
 
 An example of data file :
 
@@ -342,7 +349,7 @@ The subsequent options with the common prefix word will be grouped automatically
 It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary.
 
 Optional blocks of data can be used also for :
-- vulnerability-dependent openings by using @n or @v tags
+- vulnerability-dependent openings by using @n or @v tags (our vulnerability) or @N or @V (opponent's vulnerability)
 - seat-dependent openings by using @1 @2 @3 and @4 tags. Seat dependent overcalls must be coded explicitely as in the example :
 
         --1D,1H,<explanation text>
@@ -450,6 +457,23 @@ Clicking at the header of the auction box will generate an Undo command
 
 This is much faster, than selecting Undo from the menu.
 
+### Using BBO convention card to share data
+
+To use the BBO server to share the data with your partner. To achieve this :
+
+- make a convention card (Account+Convention Card) using "SAYC - Standard American Yellow Card" or "Simple Modern ACOL" as template
+- open it for editing
+- make is shareable by filling your partner's name
+- press "Get from BBOalert" to append your data to the text in the "Defensive Carding" text
+- press "Save Changes"
+
+Note : while editing the "Defensive Carding" text, do not alter anything beyond the larde square character which separates your text from the BBOalert data.
+
+This convention card together with the BBOalert data will become available for your partner. To load data into BBOalert
+
+- open the convention card for editing
+- press "Send to BBOalert"
+
 ## Release notes 
 
 ### Version 2.10
@@ -513,3 +537,17 @@ New feature :
 - recording of post-mortem alerts. Explanations after the call is made, are recorded if the text entry is terminated by pressing OK. If the text entry is terminated by Enter key, the alert will be sent to the opponents but not recorded.
 
 
+## Version 3.6
+
+Bug fixes :
+
+- Certain combinations of automatic option selection were impossible. To fix it, the mechanism of option selection has been reworked.
+- Automatic confirmation of trusted bids is delayed to avoid race problems when switching from untrusted to trusted bid
+- Blank partner selection is ignored in the dropdown box
+
+New features :
+
+- User message displayed at data import 
+- Opponent’s vulnerability option tags added : @N and @V
+- Saving BBOalert data with the BBO convention card
+- User scripts supported in the shortcut text
