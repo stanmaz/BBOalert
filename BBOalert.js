@@ -21,12 +21,114 @@ var alertTable = alertData.split("\n");
 var alertTableCursor = 0;
 var clipBoard = navigator.clipboard;
 var lastDealNumber = '';
+//const DATABEGIN = '↔';
+const DATABEGIN = '⬛';
+
+console.log('Location : ', location.href);
 
 
-// Set BBO specific control elements
+function receiveMessageCC(event) {
+	if (event.origin !=  'https://www.bridgebase.com') return;
+	if (event.data.length == 0) return;
+	// BBOalert data is appended to the Carding field
+	var tac = document.getElementById('carding');
+	if (tac == null) return;
+	var idb = tac.value.indexOf(DATABEGIN);
+	if (idb == -1) idb = tac.value.length;
+	tac.value = tac.value.slice(0,idb) + DATABEGIN + stringToCC(event.data);
+	var eventInput = new Event('input');
+	tac.dispatchEvent(eventInput);
+	var sb = document.getElementById('saveButton');
+	// Make document dirty to activate the 'Save' button
+	var event = new Event('change');
+	tac.dispatchEvent(event);
+}
 
-// Check every second if bidding box is present
-var timerId = setInterval(() => setBiddingBox(), 1000);
+function receiveMessageBBO(event) {
+	// Skip if message not coming from the CC page
+	if (event.origin != 'https://webutil.bridgebase.com') return;
+	// Send alert data to the CC page on import request 
+	if (event.data == 'Import') {
+		console.log('Sending from Location ' + window.location.href + ' To ' + event.origin + ' Data ' + alertData.length);
+		event.source.postMessage(alertData, event.origin);
+	// Otherwise the message from Convention Card page is considered BBOalert data
+	} else  {
+		try {
+			if (event.data.length == 0) return;
+			alertData = event.data;
+			alertTable = alertData.split("\n");
+			bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records from CC");
+			saveAlertTableToClipboard();
+			processTable();
+			setTimeout(function () {
+				setOptions(true);
+			}, 200);
+		} catch {
+			console.log('Error in event.data ' + event.data.length);
+		}
+	}
+
+}
+
+function BBOalert2CC() {
+	window.parent.postMessage('Import', '*');
+}
+
+function CC2BBOalert() {
+	tac = document.getElementById('carding');
+	if (tac == null) return;
+	var idb = tac.value.indexOf(DATABEGIN);
+	if (idb == -1) return;
+	window.parent.postMessage(CCtoString(tac.value.slice(idb+1)), '*');
+}
+
+
+function addCCbuttons() {
+	var md = document.getElementById('mainDiv');
+	if (md == null) return;
+	var ccd = document.getElementById('ccDiv');
+	if (ccd == null) return;
+	var bd = document.getElementById('buttonDiv');
+	if (bd == null) return;
+	var ccbboa = document.getElementById('bboalert-cc');
+	if (ccbboa != null) return;
+	var d = document.createElement('div');
+	d.style.width = bd.style.width;
+	d.style.height = '18px';
+//	d.style.backgroundColor = 'yellow';
+	d.id = 'bboalert-cc';
+	var bc1 = document.createElement("button");
+	bc1.textContent = "Get from BBOalert";
+	bc1.id = 'bboalert-c1';
+//	bc1.style.fontSize = "16px";
+	bc1.style.height = '100%';
+	bc1.onclick = BBOalert2CC;
+	d.appendChild(bc1);
+	var bc2 = document.createElement("button");
+	bc2.textContent = "Send to BBOalert";
+	bc2.id = 'bboalert-c2';
+//	bc2.style.fontSize = "16px";
+	bc2.style.height = '100%';
+	bc2.onclick = CC2BBOalert;
+	d.appendChild(bc2);
+	var sb = document.getElementById('saveButton');
+	if (sb == null) return;
+	md.insertBefore(d, ccd);
+}
+
+if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')) {
+	window.addEventListener("message", receiveMessageCC, false);
+	console.log('Convention card');
+	addCCbuttons();
+} else if (location.href.startsWith('https://webutil.bridgebase.com/v2')) {
+	console.log('Select convention card ');
+//	document.location.reload(true);
+} else {
+	window.addEventListener("message", receiveMessageBBO, false);
+	var timerId = setInterval(() => setBiddingBox(), 1000);
+}
+
+
 
 function saveAlertTableToClipboard() {
 	var txt = '';
@@ -41,21 +143,22 @@ function saveAlertTableToClipboard() {
 function exportAlertData() {
 	var txt = '';
 	if (alertTable.length < 2) return;
-	for (i = 1; i < alertTable.length; i++) {
+	for (i = 0; i < alertTable.length; i++) {
 		txt = txt + alertTable[i] + '\n';
 	}
 	writeToClipboard(txt);
 	localStorage.setItem('BBOalertCache', alertData);
-	bboalertLog(version + " : " + alertTable.length + " records exported to clipboard");
+	bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records exported to clipboard");
 }
 
 // Find the bidding box element and check if new data present in the clipboard
 function setBiddingBox() {
 	if (setUI()) {
+		// complete initial setup
 		alertData = localStorage.getItem('BBOalertCache');
 		if (alertData == null) alertData = '';
 		alertTable = alertData.split("\n");
-		bboalertLog(version + " : " + alertTable.length + " records from cache");
+		bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records from cache");
 		saveAlertTableToClipboard();
 		processTable();
 		openAccountTab();
@@ -67,6 +170,8 @@ function setBiddingBox() {
 	setControlButtonEvents();
 	setTabEvents();
 	partnershipOptions();
+	checkOptionsVulnerability();
+	setOptionColors();
 	var adPanel0 = document.getElementById("adpanel0");
 	if (adPanel0 != null) {
 		sc = document.querySelector('.statsClass');
@@ -96,7 +201,6 @@ function setBiddingBox() {
 	}
 	var elBiddingBox = document.querySelector(".biddingBoxClass");
 	if (elBiddingBox != null) {
-		checkOptionsVulnerability();
 		if (getDealNumber() != lastDealNumber) {
 			lastDealNumber = getDealNumber();
 		}
@@ -225,11 +329,11 @@ function getClipboardData(newData) {
 			updateCount = 0;
 			alertData = cbData;
 			alertTable = alertData.split("\n");
-			bboalertLog(version + " : " + alertTable.length + " records imported");
+			bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records imported");
 		} else {
 			alertData = alertData + cbData;
 			alertTable = alertData.split("\n");
-			bboalertLog(version + " : " + cbData.split("\n").length + " records appended");
+			bboalertLog(version + " : " + getBBOalertHeaderMsg() + cbData.split("\n").length + " records appended");
 		}
 		clearOptionButtons();
 		if (getDataType(cbData) == 'BBOalert') {
@@ -335,7 +439,7 @@ function exportUpdateData() {
 		return;
 	}
 	writeToClipboard(updateText);
-	bboalertLog(version + " : " + updateCount + " records exported to clipboard");
+	bboalertLog(version + " : " + getBBOalertHeaderMsg() + updateCount + " records exported to clipboard");
 }
 
 function getNextLine() {
@@ -422,9 +526,9 @@ function findShortcut(text) {
 		short = rec[1].trim();
 		long = rec[2].trim();
 		expandedText = text.slice(0, -short.length) + long;
-		return expandedText;
+		return updateAlert(expandedText);
 	}
-	return expandedText;
+	return updateAlert(expandedText);
 }
 
 // Check chat box for eventual shortcut and replace it by the text from table
@@ -526,12 +630,12 @@ function savePostMortem() {
 	var ec = nd.querySelector('.explainCallClass');
 	if (ec == null) return;
 	var hd = ec.querySelector('.headingClass').textContent.split(' ');
-	var cl = hd[hd.length-1];
+	var cl = hd[hd.length - 1];
 	cl = translateCall(cl);
 	ct = getContext();
 	var n = ct.search(cl);
-	if (n == -1 ) return;
-	ct = ct.slice(0,n);
+	if (n == -1) return;
+	ct = ct.slice(0, n);
 	var newrec = stripContext(ct) + "," + cl + "," + ec.querySelector('input').value;
 	newrec = newrec + "," + getNow() + " Deal " + getDealNumber();
 	alertTable.push(newrec);

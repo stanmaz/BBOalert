@@ -1,3 +1,35 @@
+function getBBOalertHeaderMsg() {
+	try {
+		var r = alertTable[0].split(',')[1];
+		if (r == undefined) return '';
+		return ' ' + r.trim() + ' ';
+	} catch {
+		return '';
+	}
+}
+
+function stringToCC(s) {
+	if (s == undefined) return '';
+	if (s == null) return '';
+	if (s == '') return '';
+	var ref = s.replace(/\n/g, '←');
+	ref = ref.replace(/\t/g, '→');
+	ref = ref.replace(/!/g, '↓');
+	ref = ref.replace(/ /g, '…');
+	return ref;
+}
+
+function CCtoString(s) {
+	if (s == undefined) return '';
+	if (s == null) return '';
+	if (s == '') return '';
+	var ref = s.replace(/←/g, '\n');
+	ref = ref.replace(/→/g, '\t');
+	ref = ref.replace(/↓/g, '!');
+	ref = ref.replace(/…/g, ' ');
+	return ref;
+}
+
 function userScript(S, CR, C, BR, B) {
 	R = '';
 	try {
@@ -47,7 +79,9 @@ function clickOK() {
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
 	if (elBiddingButtons.lebgth < 17) return false;
-	elBiddingButtons[16].click();
+	setTimeout(function () {
+		elBiddingButtons[16].click();
+	}, 300);
 }
 
 function confirmBid() {
@@ -182,7 +216,7 @@ function undoCommand() {
 	if (menu == null) return;
 	if (getContext() == '') return;
 	menu.click();
-	n = 0;
+	var n = 0;
 	var t = setInterval(function () {
 		var mc = document.querySelectorAll('.menuClass');
 		if (mc != null) {
@@ -337,7 +371,28 @@ function addBBOalertTab() {
 }
 
 // match vulnerability and seat conditions in text
-function matchVulSeat(v, s, t) {
+function matchVulSeat(v, V, s, t) {
+	// set option only during the first round of bidding
+	if (s == '') return '';
+	// Check if seat dependence specified
+	if ((t.indexOf('@1') > 0) || (t.indexOf('@2') > 0) || (t.indexOf('@3') > 0) || (t.indexOf('@4') > 0)) {
+		if (t.indexOf(s) == -1) return 'N';
+	} 
+	// Check if our vulnerability dependence specified
+	if ((t.indexOf('@n') > 0) || (t.indexOf('@v') > 0)) {
+		if (t.indexOf(v) == -1) return 'N';
+	} 
+	// Check if their vulnerability dependence specified
+	if ((t.indexOf('@N') > 0) || (t.indexOf('@V') > 0)) {
+		if (t.indexOf(V) == -1) return 'N';
+	} 
+	return 'Y';
+}
+
+
+
+// match vulnerability and seat conditions in text
+function matchVulSeatOld(v, s, t) {
 	// set option only during the first round of bidding
 	if (s == '') return '';
 	var n = t.split('@').length - 1;
@@ -511,6 +566,16 @@ function areWeVulnerable() {
 	return '@v';
 }
 
+function areTheyVulnerable() {
+	if ((nd = getNavDiv()) == null) return '';
+	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	if (cells == null) return '';
+	if (cells.length != 4) return '';
+	if (cells[2].style.backgroundColor == "rgb(255, 255, 255)") return '@N';
+	return '@V';
+}
+
+
 function getDealNumber() {
 	if ((nd = getNavDiv()) == null) return '';
 	vpi = nd.querySelector('.vulPanelInnerPanelClass');
@@ -638,7 +703,7 @@ function setExplainText(txt) {
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	elAlertExplain.value = txt;
-	eventInput = new Event('input');
+	var eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
 };
 
@@ -779,8 +844,8 @@ function setAdPanel() {
 	optionsSelector.id = 'bboalert-ds';
 	optionsSelector.style.width = "100%";
 	optionsSelector.style.fontSize = "16px";
-	optionsSelector.add(new Option('Select-All'));
-	optionsSelector.add(new Option('Select-None'));
+	optionsSelector.add(new Option('Show-All'));
+	optionsSelector.add(new Option('Show-None'));
 	adPanel.appendChild(optionsSelector);
 	adPanel0.appendChild(adPanel);
 
@@ -800,6 +865,7 @@ function setOptionsOff() {
 function setTabEvents() {
 	var vt = document.querySelectorAll('.verticalTabBarClass');
 	if (vt == null) return;
+	if (vt.length < 2) return;
 	vt = vt[1];
 	var tabs = vt.children;
 	if (tabs == null) return;
@@ -836,6 +902,7 @@ function checkOption(r) {
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
 		txt = btns[i].textContent;
+		if (btns[i].style.display == 'none') continue;
 		if (btns[i].disable == true) continue;
 		if (btns[i].style.backgroundColor == 'white') continue;
 		if (txt.trim() == r[1].trim()) {
@@ -847,6 +914,7 @@ function checkOption(r) {
 
 // Add option selection button
 function addOptionButton(lbl) {
+	if (lbl == '') return;
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
 	var bt = document.createElement("button");
@@ -855,6 +923,7 @@ function addOptionButton(lbl) {
 	bt.style.width = "100%";
 	bt.style.backgroundColor = 'white';
 	bt.style.textAlign = 'left';
+	bt.style.display = "inline";
 	bt.onclick = function () {
 		if (this.style.backgroundColor == 'white') {
 			this.style.backgroundColor = 'lightgreen';
@@ -890,7 +959,7 @@ function initOptionDefaults() {
 	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
-		if (btns[i].disabled == true) {
+		if ((btns[i].disabled == true)  || (btns[i].style.display == 'none'))  {
 			btns[i].style.backgroundColor = 'white';
 			continue;
 		}
@@ -909,6 +978,7 @@ function initOptionDefaults() {
 
 // Add option selector avoiding duplication
 function addOptionsSelectorOption(optionText) {
+	if (optionText == '') return;
 	var optionsSelector = document.getElementById('bboalert-ds');
 	if (optionsSelector == null) return;
 	var opt;
@@ -953,6 +1023,26 @@ function checkOptionsSeat() {
 	}
 }
 
+function setOptionColors() {
+	if ((nd = getNavDiv()) == null) return;
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	var btns = adPanel.querySelectorAll('button');
+	if (btns == null) return;
+	for (var i = 0; i < btns.length; i++) {
+		if (btns[i].disabled) {
+			if (btns[i].style.backgroundColor != 'white') {
+				btns[i].style.backgroundColor = 'lightgray';
+			}	
+		} else {
+			if (btns[i].style.backgroundColor != 'white') {
+				btns[i].style.backgroundColor = 'lightgreen';
+			}	
+		}
+
+	}
+}
+
 // Make sure thet only the selected option is active
 function checkOptionsVulnerability() {
 	if ((nd = getNavDiv()) == null) return;
@@ -961,6 +1051,8 @@ function checkOptionsVulnerability() {
 	var vText = areWeVulnerable();
 	vText = ourVulnerability();
 	if (vText == '') return;
+	VText = areTheyVulnerable();
+	if (VText == '') return;
 	sText = getSeatNr();
 	if (sText == '') return;
 	var adPanel = document.getElementById("adpanel");
@@ -970,10 +1062,10 @@ function checkOptionsVulnerability() {
 	for (var i = 0; i < btns.length; i++) {
 		// Clear all auto selectable options 
 		var txt = btns[i].textContent.trim();
-		if (matchVulSeat(vText, sText, txt) == '') continue;
-		if (matchVulSeat(vText, sText, txt) == 'Y') btns[i].style.backgroundColor = 'lightgreen';
-		if (matchVulSeat(vText, sText, txt) == 'N') btns[i].style.backgroundColor = 'white';
-		if (btns[i].disabled) btns[i].style.backgroundColor = 'white';
+		if (matchVulSeat(vText, VText, sText, txt) == '') continue;
+		if (matchVulSeat(vText, VText, sText, txt) == 'Y') btns[i].disabled = false;
+		if (matchVulSeat(vText, VText, sText, txt) == 'N') btns[i].disabled = true;
+//		if (btns[i].disabled) btns[i].style.backgroundColor = 'white';
 	}
 }
 
@@ -987,22 +1079,22 @@ function optionsSelectorChanged() {
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
 		if (optionsSelector.selectedIndex == 0) {
-			btns[i].disabled = false;
+			btns[i].style.display = 'inline';
 			continue;
 		} else if (optionsSelector.selectedIndex == 1) {
-			btns[i].disabled = true;
+			btns[i].style.display = 'none';
 			continue;
 		}
 		var r1 = btns[i].id.split(',');
 		if (optionsSelector.selectedIndex > 1) {
 			if (r1.length < 3) {
-				btns[i].disabled = false;
+				btns[i].style.display = 'inline';
 			} else {
 				//				var r = elimine2Spaces(r1[2].trim()).split(' ');
 				var r = normalize(r1[2]).split(' ');
-				btns[i].disabled = true;
+				btns[i].style.display = 'none';
 				for (var j = 2; j < r1.length; j++) {
-					if (seletedText.trim().toLowerCase() == r1[j].trim().toLowerCase()) btns[i].disabled = false;
+					if (seletedText.trim().toLowerCase() == r1[j].trim().toLowerCase()) btns[i].style.display = 'inline';
 				}
 			}
 		}
@@ -1041,6 +1133,7 @@ function partnershipOptions() {
 	var i = searchOptionsSelector(myPartner());
 	if (i == -1) return;
 	var optionsSelector = document.getElementById('bboalert-ds');
+	if (optionsSelector.selectedIndex == i) return;
 	optionsSelector.selectedIndex = i;
 	optionsSelectorChanged();
 }
