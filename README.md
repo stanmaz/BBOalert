@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.5 (Note : Due to the long and unpredictable delays in the approval process, this version may not be available in the Chrome Webstore immediately)
+Version : 3.6.1 (Note : Due to the long and unpredictable delays in the approval process, this version may not be available in the Chrome Webstore immediately)
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -356,13 +356,15 @@ Optional blocks of data can be used also for :
 
 This is 3rd seat overcall not 3rd seat opening. 
 
-The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combining tags is allowed. In this example :
+The selection is done automatically if the block name contains any @ tag. This selection can be then manually overridden by the user during the game. Combining tags is allowed.
 
-    Option,Opening @v@3@4
+Spaces should be avoided in the option names containing @ tags. I recommend to use underscores instead.
+
+In this example :
+
+    Option,Opening_@v@3@4
 
 the option will be enabled if vulnerable in 3rd or 4th seat.
-
-Options can be selected with a menu which is normally hidden. To toggle the display of this menu, use the 'Options' button.
 
 Example :
 
@@ -375,9 +377,9 @@ Example :
         ... code specific for the defense against weak-2 opening
     Option,2H weak 5!H and 4+m
         ... code specific for the defense against Muiderberg opening
-    Option,MyOpenings @n
+    Option,MyOpenings_@n
         ,1N,12-14 balanced
-    Option,MyOpenings @v
+    Option,MyOpenings_@v
         ,1N,15-17 balanced
     Option
 
@@ -551,3 +553,20 @@ New features :
 - Opponent’s vulnerability option tags added : @N and @V
 - Saving BBOalert data with the BBO convention card
 - User scripts supported in the shortcut text
+
+
+## Version 3.6.1
+
+Bug fix :
+
+The new algorithm for option management requires a small modification of the data file. Without entering in technical details, I recommend to replace spaces by underscores in the option names containing @ tags. Example :
+
+Option,Opening @n
+Option,Opening @v
+
+Should be :
+
+Option,Opening_@n
+Option,Opening_@v
+
+The BSS file converter has been modified and produces underscores in option names.
