@@ -298,6 +298,7 @@ If the ‘context’ field starts and ends with a slash, it is interpreted as a 
       /^startString/                match starting string
       /endString$/                  match ending string
       /^startString.*endString$/    match both
+      /^String$/                    exact match
 
 Examples :
 
