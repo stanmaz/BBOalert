@@ -302,14 +302,15 @@ If the ‘context’ field starts and ends with a slash, it is interpreted as a 
 
 Examples :
 
-      //,4N,Blackwood 5 key cards            ,after any bidding sequence 4NT is Blackwood
-      /^1N/,4N,Quantitative slam try        ,except after 1NT opening
-      /4N--$/,5C,1 or 4 key cards            ,response to Blackwood
+      //,4N,Blackwood 5 key cards               ,after any bidding sequence 4NT is Blackwood
+      /^1N/,4N,Quantitative slam try            ,except after 1NT opening
+      /4N--$/,5C,1 or 4 key cards               ,response to Blackwood
       /4N--$/,5D,0 or 3 key cards
       /4N--$/,5H,2 key cards without trump Queen
       /4N--$/,5S,2 key cards with trump Queen
-      /Db$/,--,to play doubled            ,in any case pass after double is to play
-      /Db$/,Rd,forcing; may be SOS        ,but redouble is forcing
+      /Db$/,--,to play doubled                  ,in any case pass after double is to play
+      /Db$/,Rd,forcing; may be SOS              ,but redouble is forcing
+      /^(1N|1N----)$/,Db,for penalties
 
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
