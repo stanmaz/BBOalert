@@ -328,10 +328,12 @@ function getClipboardData(newData) {
 			updateText = "";
 			updateCount = 0;
 			alertData = cbData;
+			if (!alertData.endsWith("\n")) alertData = alertData + "\n";
 			alertTable = alertData.split("\n");
 			bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records imported");
 		} else {
 			alertData = alertData + cbData;
+			if (!alertData.endsWith("\n")) alertData = alertData + "\n";
 			alertTable = alertData.split("\n");
 			bboalertLog(version + " : " + getBBOalertHeaderMsg() + cbData.split("\n").length + " records appended");
 		}
@@ -362,7 +364,7 @@ function getClipboardData(newData) {
 						optionPrefix = 'Opening';
 					}
 					if (decodeOption(option) != '') {
-						updateText = updateText + 'Option,' + optionPrefix + ' ' + decodeOption(option) + '\n';
+						updateText = updateText + 'Option,' + optionPrefix + '_' + decodeOption(option) + '\n';
 					} else {
 						updateText = updateText + 'Option\n';
 					}

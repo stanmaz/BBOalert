@@ -629,6 +629,7 @@ function matchContext(refContext, actContext) {
 		if (matchContextOld(refContext, actContext)) return true;
 		var ref = refContext.replace(/\*/g, '.');
 		ref = ref.replace(/_/g, '.');
+		ref = '^' + ref + '$';
 		var re = new RegExp(ref);
 		if (!re.test(actContext)) return false;
 		return (actContext.match(re)[0].length == actContext.length);
@@ -903,8 +904,8 @@ function checkOption(r) {
 	for (var i = 0; i < btns.length; i++) {
 		txt = btns[i].textContent;
 		if (btns[i].style.display == 'none') continue;
-		if (btns[i].disable == true) continue;
-		if (btns[i].style.backgroundColor == 'white') continue;
+		if (btns[i].disabled == true) continue;
+		if (btns[i].style.backgroundColor != 'lightgreen') continue;
 		if (txt.trim() == r[1].trim()) {
 			return true;
 		}
@@ -1099,7 +1100,7 @@ function optionsSelectorChanged() {
 			}
 		}
 	}
-	initOptionDefaults();
+	if (selectedIndex != 1) initOptionDefaults();
 }
 
 function myPartner() {
