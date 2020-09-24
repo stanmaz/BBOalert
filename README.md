@@ -563,15 +563,13 @@ Bug fix :
 
 The new algorithm for option management requires a small modification of the data file. Without entering in technical details, I recommend to replace spaces by underscores in the option names containing @ tags. Example :
 
-   Option,Opening @n
-   
-   Option,Opening @v
+    Option,Opening @n
+    Option,Opening @v
 
 Should be :
 
-   Option,Opening_@n
-   
-   Option,Opening_@v
+    Option,Opening_@n
+    Option,Opening_@v
 
 The BSS file converter has been modified and produces underscores in option names.
 
