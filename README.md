@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.6.2
+Version : 3.6.3
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -578,5 +578,8 @@ The BSS file converter has been modified and produces underscores in option name
 Bug fix :
 - linefeed character added (if missing) at the end of the data after import
 
+## Version 3.6.3
 
+Bug fix:
+- incorrect mutual exclusive option initialization when partner selected
 
