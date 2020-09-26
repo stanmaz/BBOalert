@@ -1100,7 +1100,7 @@ function optionsSelectorChanged() {
 			}
 		}
 	}
-	if (selectedIndex != 1) initOptionDefaults();
+	if (optionsSelector.selectedIndex != 1) initOptionDefaults();
 }
 
 function myPartner() {
