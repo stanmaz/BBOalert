@@ -470,6 +470,10 @@ You can override the defaults with the optional properties. Properties should be
     Button,♥, !H,width=18% fontSize=40px borderRadius=100% color=red
     Button,♠, !S,width=18% fontSize=40px borderRadius=100%
     Button,NT, NT,borderRadius=20% width=28% fontSize=40px
+    Button,Texas,Texas,width=50% backgroundColor=orange
+    Button,Transfer,Transfer,width=50% backgroundColor=lightgreen
+    
+    
 
 
 The list of color names can be found on page :
