@@ -62,7 +62,7 @@ If you discover a serious bug in the program :
  
 After you start BBO, the screen should look like this (note red/blue panel at the right) :
 
-
+![](./images/BBOalertOk.png)
 
 At the right side of the page, an additional 'BBOalert' tab is created. Clicking at this tab will toggle BBOalert panel display. This tab is only partially integrated with the regular BBO tabs :
 
