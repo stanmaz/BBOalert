@@ -464,14 +464,12 @@ The default button properties are :
 
 You can override the defaults with the optional properties. Properties should be separated by a space character. Properties can be also appplied to keyboard shortcuts. Example :
 
-   Button,Hello,Hello; We are playing ACOL,width=100% backgroundColor=green color=white
-   Button,♣, !C,width=18% fontSize=40px borderRadius=100%
-   Button,♦, !D,width=18% fontSize=40px borderRadius=100% color=red
-   Button,♥, !H,width=18% fontSize=40px borderRadius=100% color=red
-   Button,♠, !S,width=18% fontSize=40px borderRadius=100%
-   Button,NT, NT,borderRadius=20% width=28% fontSize=40px
-   
-This will display a button with white text on green background and occupying the whole row on the panel.
+    Button,Hello,Hello; We are playing ACOL,width=100% backgroundColor=green color=white
+    Button,♣, !C,width=18% fontSize=40px borderRadius=100%
+    Button,♦, !D,width=18% fontSize=40px borderRadius=100% color=red
+    Button,♥, !H,width=18% fontSize=40px borderRadius=100% color=red
+    Button,♠, !S,width=18% fontSize=40px borderRadius=100%
+    Button,NT, NT,borderRadius=20% width=28% fontSize=40px.
 
 
 The list of color names can be found on page :
