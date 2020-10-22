@@ -64,15 +64,6 @@ After you start BBO, the screen should look like this (note red/blue panel at th
 
 ![](./images/BBOalertOk.png)
 
-If you do not get the buttons displayed, try one of these :
-- clear the Firefox cache
-- remove and reinstall BBOalert
-- remove and reinstall Firefox
-- disable, at least temporarily, any virus protection
-- disable, at least temporarily, any ad blockers
-- install and try another addon from Firefox repository
-- reboot the computer
-
 At the right side of the page, an additional 'BBOalert' tab is created. Clicking at this tab will toggle BBOalert panel display. This tab is only partially integrated with the regular BBO tabs :
 
 - it shares the same display area
