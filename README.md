@@ -473,7 +473,7 @@ You can override the defaults with the optional properties. Properties should be
     Button,Texas,Texas,width=50% backgroundColor=orange
     Button,Transfer,Transfer,width=50% backgroundColor=lightgreen
     
-    
+![](./images/shortcuts.png)  
 
 
 The list of color names can be found on page :
