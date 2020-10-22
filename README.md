@@ -77,12 +77,15 @@ The purpose of the buttons on the blue panel is :
 - <b>Export All</b> : write all data the clipboard
 - <b>Export New</b> : write data related to tha manual alerts  to the clipboard
 - <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
+- <b>Shortcuts</b> : enable button shortcuts
 
 You will find detailed information later in this text. 
 
 ## How to use
 
-The data should be stored in a CSV-formatted text file. BBOalert uses the clipboard to read this file and to export eventual updates.
+The data should be stored in a CSV-formatted text file (CSV = Comma-Separated Value).
+
+BBOalert uses the clipboard to read this file and to export eventual updates.
 
 BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
 
@@ -99,15 +102,13 @@ At the first BBO session, you should :
 
 Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
 
-See GettingStarted.pdf for basic operations.
+<b>See GettingStarted.pdf for basic operations.</b>
 
 'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.  
 
 <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-BBOalert saves a copy of the data in the clipboard. The data can be pasted at any time to your text editor until 'Export' button is pressed.
-
-With the 'Export' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. <b>Manually alerted calls are not saved in the cache</b>
+With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
 
 ## Recommended way of using BBOalert
 
@@ -148,12 +149,12 @@ Comma separated value (CSV) format is used for each record.
 
 The file must begin with the header record :
 
-   BBOalert,<user text>
+   BBOalert[,<user text>]
    
 Where :
 
 - BBOalert is mandatory keyword
-- <user text> is free text. Typically used to express the version of the data. It will be displayed after data import.
+- <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import.
 
 Alerted calls should contain at least three text fields separated by commas :
 
@@ -219,8 +220,8 @@ Example : instead of code
 you can use code
 
     1N--,    2C,    Stayman
-    +,    2D,    Texas !H
-    +,    2H,    Texas !S
+    +,       2D,    Texas !H
+    +,       2H,    Texas !S
 
 #### Continuation line
 
@@ -308,7 +309,13 @@ Wildcards and regular expressions are powerfull features to get more compact cod
 ### User definable scripts
 
 To use this feature the knowledge of RegEx and JavaScript is required.
-Portions of the explanation text or of the shortcut text can be replaced by the result returned by a user definable script. The script name is enclosed between two % characters.
+Portions of the text can be replaced by the result returned by a user definable script. The script name is enclosed between two % characters.
+
+Scripts may be used in fields :
+- bidding context
+- explanation text
+- shortcut text
+- button text
 
 An example of data file :
 
@@ -408,7 +415,7 @@ The code between the keywords 'Trusted' and 'Untrusted' will not require to be c
       Untrusted
       ,1N,13-15HCP balanced
 
-### Shortcuts
+### Keyboard Shortcuts
 
 Shortcut format :
 
@@ -431,6 +438,48 @@ The \n token within the shortcut text will split it and each part will be sent i
 This should be used only in the chat box only to increase the readabilit of the message by subdividing it separate lines. 
 
 Note : check for potential conflicts with Alt key shortcuts of the browser.
+
+### Button Shortcuts
+
+Shortcuts can be defined as buttons displayed on a panel. Pressing a button will have the same effect as keyboard shortcut. The panel is disabled by default. To enable it press 'Shortcut' button on the blue panel. It will turn from red to green. The button panel will be displayed when clicking the explanation or chat entry text field. Clicking again will toggle button panel display.
+
+At the top of the panel three buttons are predefined to erase single character, word the whole line of text.
+
+The data format is similar to keyboard shortcuts :
+
+   Button,<token>,<full text>[,optional properties]
+   
+This will create a button with <token> label. Pressing the button will append <full text>
+   
+Example
+
+   Button,Hello,Hello; We are playing ACOL
+   
+You don't need to duplicate keybord shortcuts into buttons. Keyboard shortcuts will be displayed together with button shortcuts.
+
+The default button properties are :
+- width=50%
+- backgroundColor=white
+- color=black
+
+You can override the defaults with the optional properties. Properties should be separated by a space character. Properties can be also appplied to keyboard shortcuts. Example :
+
+   Button,Hello,Hello; We are playing ACOL,width=100% backgroundColor=green color=white
+   Button,♣, !C,width=18% fontSize=40px borderRadius=100%
+   Button,♦, !D,width=18% fontSize=40px borderRadius=100% color=red
+   Button,♥, !H,width=18% fontSize=40px borderRadius=100% color=red
+   Button,♠, !S,width=18% fontSize=40px borderRadius=100%
+   Button,NT, NT,borderRadius=20% width=28% fontSize=40px
+   
+This will display a button with white text on green background and occupying the whole row on the panel.
+
+
+The list of color names can be found on page :
+https://www.w3schools.com/colors/colors_names.asp
+
+The full list of property names (only a few apply to buttons) :
+https://www.w3schools.com/jsref/dom_obj_style.asp
+
 
 ### Full Disclosure BSS file support
 
@@ -573,4 +622,10 @@ Bug fix :
 
 Bug fix:
 - incorrect mutual exclusive option initialization when partner selected
+
+## Version 4.0
+
+New feature :
+- button shortcuts
+
 
