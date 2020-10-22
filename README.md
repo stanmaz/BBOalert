@@ -399,7 +399,6 @@ Let us assume that you play different conventions with different partners. The o
 
 If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 disabled as :
 
-![](./images/PartnerSelection.png)
 
 When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
 
