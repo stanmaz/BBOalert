@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 3.6.3
+Version : 4.0
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -14,7 +14,7 @@ Thereafter you can decide to use advanced features :
 - declare which conventions you play with which partner
 - Seat-dependent openings and development
 - Vulnerability-dependent openings and development
-- Keyboard shortcuts and abbreviations
+- Keyboard and button shortcuts and abbreviations
 - Full Disclosure BSS file support
 
 If you like this tool, join the BBOalert users community on Facebook 
