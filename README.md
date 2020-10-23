@@ -629,5 +629,6 @@ Bug fix:
 
 New feature :
 - button shortcuts
+- scripts allowed in the biding context field
 
 
