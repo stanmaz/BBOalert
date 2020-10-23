@@ -458,7 +458,7 @@ Example
 You don't need to duplicate keybord shortcuts into buttons. Keyboard shortcuts will be displayed together with button shortcuts.
 
 The default button properties are :
-- width=50%
+- width=50% (25% for keyboard shortcuts)
 - backgroundColor=white
 - color=black
 
