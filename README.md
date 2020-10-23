@@ -628,7 +628,7 @@ Bug fix:
 ## Version 4.0
 
 New feature :
-- button shortcuts
+- button shortcuts (see <b>Button shortcuts</b> section)
 - scripts allowed in the biding context field
 
 
