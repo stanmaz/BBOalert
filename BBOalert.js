@@ -18,6 +18,7 @@ var updateCount = 0;
 var cbData = "";
 var alertData = "";
 var alertTable = alertData.split("\n");
+var scriptList = [];
 var alertTableCursor = 0;
 var clipBoard = navigator.clipboard;
 var lastDealNumber = '';
@@ -28,20 +29,20 @@ console.log('Location : ', location.href);
 
 
 function receiveMessageCC(event) {
-	if (event.origin !=  'https://www.bridgebase.com') return;
+	if (event.origin != 'https://www.bridgebase.com') return;
 	if (event.data.length == 0) return;
 	// BBOalert data is appended to the Carding field
 	var tac = document.getElementById('carding');
 	if (tac == null) return;
 	var idb = tac.value.indexOf(DATABEGIN);
 	if (idb == -1) idb = tac.value.length;
-	tac.value = tac.value.slice(0,idb) + DATABEGIN + stringToCC(event.data);
+	tac.value = tac.value.slice(0, idb) + DATABEGIN + stringToCC(event.data);
 	var eventInput = new Event('input');
 	tac.dispatchEvent(eventInput);
 	var sb = document.getElementById('saveButton');
 	// Make document dirty to activate the 'Save' button
-	var event = new Event('change');
-	tac.dispatchEvent(event);
+	var changeEvent = new Event('change');
+	tac.dispatchEvent(changeEvent);
 }
 
 function receiveMessageBBO(event) {
@@ -51,8 +52,8 @@ function receiveMessageBBO(event) {
 	if (event.data == 'Import') {
 		console.log('Sending from Location ' + window.location.href + ' To ' + event.origin + ' Data ' + alertData.length);
 		event.source.postMessage(alertData, event.origin);
-	// Otherwise the message from Convention Card page is considered BBOalert data
-	} else  {
+		// Otherwise the message from Convention Card page is considered BBOalert data
+	} else {
 		try {
 			if (event.data.length == 0) return;
 			alertData = event.data;
@@ -79,7 +80,7 @@ function CC2BBOalert() {
 	if (tac == null) return;
 	var idb = tac.value.indexOf(DATABEGIN);
 	if (idb == -1) return;
-	window.parent.postMessage(CCtoString(tac.value.slice(idb+1)), '*');
+	window.parent.postMessage(CCtoString(tac.value.slice(idb + 1)), '*');
 }
 
 
@@ -95,19 +96,19 @@ function addCCbuttons() {
 	var d = document.createElement('div');
 	d.style.width = bd.style.width;
 	d.style.height = '18px';
-//	d.style.backgroundColor = 'yellow';
+	//	d.style.backgroundColor = 'yellow';
 	d.id = 'bboalert-cc';
 	var bc1 = document.createElement("button");
 	bc1.textContent = "Get from BBOalert";
 	bc1.id = 'bboalert-c1';
-//	bc1.style.fontSize = "16px";
+	//	bc1.style.fontSize = "16px";
 	bc1.style.height = '100%';
 	bc1.onclick = BBOalert2CC;
 	d.appendChild(bc1);
 	var bc2 = document.createElement("button");
 	bc2.textContent = "Send to BBOalert";
 	bc2.id = 'bboalert-c2';
-//	bc2.style.fontSize = "16px";
+	//	bc2.style.fontSize = "16px";
 	bc2.style.height = '100%';
 	bc2.onclick = CC2BBOalert;
 	d.appendChild(bc2);
@@ -122,7 +123,7 @@ if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')
 	addCCbuttons();
 } else if (location.href.startsWith('https://webutil.bridgebase.com/v2')) {
 	console.log('Select convention card ');
-//	document.location.reload(true);
+	//	document.location.reload(true);
 } else {
 	window.addEventListener("message", receiveMessageBBO, false);
 	var timerId = setInterval(() => setBiddingBox(), 1000);
@@ -167,6 +168,7 @@ function setBiddingBox() {
 		}, 200);
 	}
 	if (isBBOready()) setPageReload();
+	setInputClickEvents();
 	setControlButtonEvents();
 	setTabEvents();
 	partnershipOptions();
@@ -258,8 +260,33 @@ function getDataType(data) {
 	return '';
 }
 
+function setScriptList() {
+	scriptList = [];
+	alertTableCursor = 0;
+	var txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		var rec = txt.split(",");
+		if (rec[0].trim() == 'Script') {
+			if (rec.length > 2) {
+				scriptList.push(txt);
+			}
+		}
+	}
+}
 
 function getScript(scriptName) {
+	for (var i = 0; i < scriptList.length; i++) {
+		var txt = scriptList[i];
+		var rec = txt.split(",");
+		if (rec[1].trim() == scriptName) {
+			return txt.slice(txt.indexOf(',', txt.indexOf(',') + 1) + 1);
+		}
+
+	}
+	return '';
+}
+
+function getScriptOld(scriptName) {
 	alertTableCursor = 0;
 	var txt = '';
 	var script = '';
@@ -297,6 +324,8 @@ function setOptionsSelector() {
 
 function processTable() {
 	clearOptionButtons();
+	clearShortcutButtons();
+	setScriptList();
 	alertTableCursor = 0;
 	var txt = '';
 	while ((txt = getNextLine()) != '%EOF%') {
@@ -305,6 +334,19 @@ function processTable() {
 			if (rec[0].trim() == 'Option') {
 				//						addOptionButton(rec[1].trim());
 				addOptionButton(txt);
+			}
+			if (rec[0].trim() == 'Button') {
+				addShortcutButton(txt);
+			}
+		}
+	}
+	alertTableCursor = 0;
+	txt = '';
+	while ((txt = getNextLine()) != '%EOF%') {
+		rec = txt.split(",");
+		if (rec.length > 1) {
+			if (rec[0].trim() == 'Shortcut') {
+				addShortcutButton(txt + ',width=25%');
 			}
 		}
 	}
@@ -491,6 +533,8 @@ function findAlert(context, call) {
 		if (!matchOption) continue;
 		if (rec.length < 3) continue;
 		//		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) {
+		currentContext = updateAlert(currentContext);
+		//		if (currentContext.indexOf('%') != -1) currentContext = currentContext;
 		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
 			idx = alertTableCursor;
 			alertText = rec[2];
@@ -563,14 +607,21 @@ function explainOnKeyup(key) {
 }
 
 function updateAlert(txt) {
-	rec = txt.split('%');
+	var rec = txt.split('%');
 	if (rec.length < 2) return txt;
 	var txt1 = '';
+	var script;
 	for (var i = 0; i < rec.length; i++) {
 		if (i % 2 == 0) {
 			txt1 = txt1 + rec[i];
 		} else {
-			txt1 = txt1 + userScript(getScript(rec[i]), foundContext, getContext(), foundCall, callText);
+			script = getScript(rec[i]);
+			if (script != '') {
+				txt1 = txt1 + userScript(script, foundContext, getContext(), foundCall, callText);
+			} else {
+				txt1 = txt1 + "%" + rec[i];
+				if (i < rec.length - 1) txt1 = txt1 + "%";
+			}
 		}
 	}
 	return txt1;
@@ -586,7 +637,7 @@ function getAlert() {
 	var alertText = findAlert(getContext(), callText);
 	alertText = updateAlert(alertText);
 	var exp = alertText.split('#');
-	var eventInput = new Event('input');
+	eventInput = new Event('input');
 	if (elAlertExplain.value.trim() == '') {
 		elAlertExplain.value = exp[0];
 		elAlertExplain.dispatchEvent(eventInput);
@@ -664,7 +715,7 @@ function setBiddingButtonEvents() {
 	if (elBiddingBox == null) return;
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return;
-	if (elBiddingButtons.lebgth < 17) return;
+	if (elBiddingButtons.length < 17) return;
 	setUndo();
 	setPostMortem();
 	if (elBiddingButtons[0].onmousedown == null) {
@@ -914,4 +965,13 @@ function setControlButtonEvents() {
 	b = document.querySelector('#bboalert-log');
 	if (b != null)
 		if (b.onmousedown == null) b.onmousedown = exportLogData;
+	b = document.querySelector('#bboalert-sc');
+	if (b != null) 
+		if (b.onmousedown == null) b.onmousedown = function () {
+			if (this.style.backgroundColor == "red") {
+				this.style.backgroundColor = "green";
+			} else {
+				this.style.backgroundColor = "red";
+			}
+		};
 }

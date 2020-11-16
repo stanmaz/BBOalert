@@ -41,12 +41,13 @@ function userScript(S, CR, C, BR, B) {
 }
 
 function makeRegExp(s) {
+	var re;
 	if (s.startsWith('/') && s.endsWith('/')) {
-		var re = new RegExp(s.slice(1, s.length - 1));
+		re = new RegExp(s.slice(1, s.length - 1));
 	} else {
 		var ref = s.replace(/\*/g, '.');
 		ref = ref.replace(/_/g, '.');
-		var re = new RegExp(ref);
+		re = new RegExp(ref);
 	}
 	return re;
 }
@@ -208,7 +209,7 @@ var triggerDragAndDrop = function (selectorDrag, selectorDrop, dist) {
 	fireMouseEvent('mouseup', elemDrag, center2X, center2Y);
 
 	return true;
-}
+};
 
 function undoCommand() {
 	if ((nd = getNavDiv()) == null) return;
@@ -301,7 +302,7 @@ function confirmBidsSet() {
 	if (sc.length < 6) {
 		if (sc.length == 0) return '';
 	}
-	if (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y'
+	if (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
 	else return 'N';
 }
 
@@ -322,6 +323,73 @@ function toggleOptions() {
 		setOptions(true);
 	} else {
 		setOptions(false);
+	}
+}
+
+function toggleButtons(inp) {
+	var ap2 = document.getElementById('adpanel2');
+	if (ap2 == null) return;
+	if (inp == null) return;
+	var clr = "rgb(204,204,154";
+	if (inp.getAttribute("class").startsWith("messageInputClass")) clr = "rgb(211,211,211";
+	ap2.children[0].style.backgroundColor = clr;
+	ap2.children[1].style.backgroundColor = clr;
+	ap2.children[2].style.backgroundColor = clr;
+	ap2.style.backgroundColor = clr;
+	if (ap2.inputObject != inp) {
+		setButtonPanel(true);
+		ap2.inputObject = inp;
+		return;
+	}
+	if (ap2.style.display == 'none') {
+		setButtonPanel(true);
+		return;
+	} else {
+		setButtonPanel(false);
+	}
+}
+
+function setInputClickEvents () {
+	var mi = document.querySelectorAll('input');
+	if (mi.length > 0) {
+		for (var i = 0; i < mi.length; i++) {
+			if (mi[i].getAttribute('placeholder') == 'Explain') {
+				    if (mi[i].onclick == null) mi[i].onclick = function () {toggleButtons(this);};
+			}
+		}
+	}
+	mi = document.getElementById('chatDiv').querySelectorAll('input');
+	if (mi.length > 0) {
+		for (var i = 0; i < mi.length; i++) {
+			if (mi[i].getAttribute('placeholder') == 'Message') {
+				    if (mi[i].onclick == null) mi[i].onclick = function () {toggleButtons(this);};
+			}
+		}
+	}
+	var ap2 = document.getElementById('adpanel2');
+	if (ap2.inputObject == null) return;
+	if (!isVisible(ap2.inputObject)) setButtonPanel(false);
+}
+
+function toggleOptions1() {
+	var adPanel0 = document.getElementById("adpanel0");
+	if (adPanel0 == null) return;
+	var ap2 = document.getElementById('adpanel2');
+	if (adPanel0.style.display != 'none') {
+		if (ap2 != null) {
+			if (ap2.style.display == 'none') {
+				ap2.style.display = 'block';
+				return;
+			} else {
+				ap2.style.display = 'none';
+			}
+		}
+		setOptions(false);
+	} else {
+		if (ap2 != null) {
+			ap2.style.display = 'none';
+		}
+		setOptions(true);
 	}
 }
 
@@ -349,13 +417,32 @@ function setOptions(on) {
 	}
 }
 
+function setButtonPanel(on) {
+	var adPanel2 = document.getElementById("adpanel2");
+	if (adPanel2 == null) return;
+	if (on) {
+		var b = document.querySelector('#bboalert-sc');
+		if (b != null) {
+			if (b.style.backgroundColor =="red") return;
+		}
+		adPanel2.style.display = 'block';
+		if (adPanel2.getBoundingClientRect().width < 250) {
+			triggerDragAndDrop('.hDividerClass', '.hDividerClass', (adPanel2.getBoundingClientRect().width) - 300);
+		}
+	} else {
+		adPanel2.style.display = 'none';
+		adPanel2.inputObject = null;
+	}
+}
+
 
 
 function addBBOalertTab() {
 	if (document.getElementById('bboalert-tab') != null) return;
-	var vt = document.querySelectorAll('.verticalTabBarClass');
+	var rd = document.getElementById('rightDiv');
+	if (rd == null) return;
+	var vt = rd.querySelector('.verticalTabBarClass');
 	if (vt == null) return;
-	vt = vt[1];
 	tabs = vt.children;
 	if (tabs == null) return;
 	if (tabs.length < 2) return;
@@ -377,15 +464,15 @@ function matchVulSeat(v, V, s, t) {
 	// Check if seat dependence specified
 	if ((t.indexOf('@1') > 0) || (t.indexOf('@2') > 0) || (t.indexOf('@3') > 0) || (t.indexOf('@4') > 0)) {
 		if (t.indexOf(s) == -1) return 'N';
-	} 
+	}
 	// Check if our vulnerability dependence specified
 	if ((t.indexOf('@n') > 0) || (t.indexOf('@v') > 0)) {
 		if (t.indexOf(v) == -1) return 'N';
-	} 
+	}
 	// Check if their vulnerability dependence specified
 	if ((t.indexOf('@N') > 0) || (t.indexOf('@V') > 0)) {
 		if (t.indexOf(V) == -1) return 'N';
-	} 
+	}
 	return 'Y';
 }
 
@@ -510,18 +597,18 @@ function translateCall(call) {
 	if (el.length > 1) {
 		el = el.substr(0, 2);
 		if (el.charCodeAt(1) == 9827) {
-			return el[0] + 'C'
-		};
+			return el[0] + 'C';
+		}
 		if (el.charCodeAt(1) == 9830) {
-			return el[0] + 'D'
-		};
+			return el[0] + 'D';
+		}
 		if (el.charCodeAt(1) == 9829) {
-			return el[0] + 'H'
-		};
+			return el[0] + 'H';
+		}
 		if (el.charCodeAt(1) == 9824) {
-			return el[0] + 'S'
-		};
-		return el[0] + 'N'
+			return el[0] + 'S';
+		}
+		return el[0] + 'N';
 	}
 	return el;
 }
@@ -537,23 +624,23 @@ function getSeatNr() {
 // Get actual bidding context
 function getContext() {
 	if ((nd = getNavDiv()) == null) return 'xx';
-	ctx = ''
+	ctx = '';
 	bs = nd.querySelectorAll('bridge-screen');
 	if (bs.length == 0) {
-		return "yy"
+		return "yy";
 	}
-	auction = bs[0].querySelectorAll('.auctionBoxCellClass')
+	auction = bs[0].querySelectorAll('.auctionBoxCellClass');
 	if (auction.length == 0) {
-		return "xx"
-	};
+		return "xx";
+	}
 	if (auction.length == 1) {
-		return ""
-	};
+		return "";
+	}
 	for (var i = 1; i < auction.length; i++) {
 		el = translateCall(auction[i].innerText);
 		ctx = ctx + el;
 		//	Translate Double, Redouble and Pass from different language interfaces
-	};
+	}
 	return ctx;
 }
 
@@ -621,16 +708,17 @@ function matchContextOld(refContext, actContext) {
 
 // Check if actual bidding context matches refeence context from the table
 function matchContext(refContext, actContext) {
+	var re;
 	try {
 		if (refContext.startsWith('/') && refContext.endsWith('/')) {
-			var re = new RegExp(refContext.slice(1, refContext.length - 1));
+			re = new RegExp(refContext.slice(1, refContext.length - 1));
 			return re.test(actContext);
 		}
 		if (matchContextOld(refContext, actContext)) return true;
 		var ref = refContext.replace(/\*/g, '.');
 		ref = ref.replace(/_/g, '.');
 		ref = '^' + ref + '$';
-		var re = new RegExp(ref);
+		re = new RegExp(ref);
 		if (!re.test(actContext)) return false;
 		return (actContext.match(re)[0].length == actContext.length);
 	} catch {
@@ -801,6 +889,16 @@ function setControlButtons() {
 		blog.style.width = '100%';
 		adPanel.appendChild(blog);
 	}
+	if (adPanel.querySelector('#bboalert-sc') == null) {
+		var sc = document.createElement("button");
+		sc.textContent = "Shortcuts";
+		sc.id = 'bboalert-sc';
+		sc.style.fontSize = "22px";
+		sc.style.width = '100%';
+		sc.style.color = "white";
+		sc.style.backgroundColor = "red";
+		adPanel.appendChild(sc);
+	}
 	if (adPanel.querySelector('#bboalert-p1') == null) {
 		var p1 = document.createElement("p");
 		p1.textContent = version;
@@ -826,15 +924,12 @@ function setAdPanel() {
 	adPanel0.style.position = 'absolute';
 	adPanel0.style.top = '0px';
 	adPanel0.style.left = '0px';
-	//	adPanel0.style.backgroundColor = 'yellow';
+	adPanel0.style.backgroundColor = 'yellow';
+	adPanel0.style.zIndex = "5000";
 	adPanel0.style.display = 'none';
 	adPanel0.style.height = '100%';
 	adPanel0.style.right = '35px';
-	adPanel0.style.display = 'none';
 	appPanel.appendChild(adPanel0);
-
-
-
 
 	var adPanel = document.createElement("div");
 	adPanel.setAttribute('class', 'split left');
@@ -857,6 +952,21 @@ function setAdPanel() {
 	adPanel1.style.overflow = "hidden auto";
 
 	adPanel0.appendChild(adPanel1);
+
+	var adPanel2 = document.createElement("div");
+	adPanel2.style.position = 'absolute';
+	adPanel2.style.height = '100%';
+	adPanel2.style.width = '100%';
+	adPanel2.style.backgroundColor = 'yellow';
+	adPanel2.style.display = 'none';
+//	adPanel2.style.right = '35px';
+	adPanel2.style.zIndex = "5001";
+	adPanel2.inputObject = null;
+	adPanel2.id = "adpanel2";
+	adPanel2.style.overflow = "hidden auto";
+
+	appPanel.appendChild(adPanel2);
+
 }
 
 function setOptionsOff() {
@@ -864,13 +974,13 @@ function setOptionsOff() {
 }
 
 function setTabEvents() {
-	var vt = document.querySelectorAll('.verticalTabBarClass');
+	var rd = document.getElementById('rightDiv');
+	if (rd == null) return;
+	var vt = rd.querySelector('.verticalTabBarClass');
 	if (vt == null) return;
-	if (vt.length < 2) return;
-	vt = vt[1];
 	var tabs = vt.children;
 	if (tabs == null) return;
-	if (tabs.length = 0) return;
+	if (tabs.length == 0) return;
 	for (var i = 0; i < tabs.length; i++) {
 		if (tabs[i].textContent.search('BBOalert') == -1) {
 			if (tabs[i].onmousedown == null) tabs[i].onmousedown = setOptionsOff;
@@ -904,13 +1014,19 @@ function checkOption(r) {
 	for (var i = 0; i < btns.length; i++) {
 		txt = btns[i].textContent;
 		if (btns[i].style.display == 'none') continue;
-		if (btns[i].disabled == true) continue;
 		if (btns[i].style.backgroundColor != 'lightgreen') continue;
 		if (txt.trim() == r[1].trim()) {
 			return true;
 		}
 	}
 	return false;
+}
+
+function setOptionColor(bt) {
+	if (bt.optionSelected && bt.optionValid) bt.style.backgroundColor = "lightgreen";
+	if (bt.optionSelected && !bt.optionValid) bt.style.backgroundColor = "lightgray";
+	if (!bt.optionSelected && bt.optionValid) bt.style.backgroundColor = "white";
+	if (!bt.optionSelected && !bt.optionValid) bt.style.backgroundColor = "white";
 }
 
 // Add option selection button
@@ -925,16 +1041,56 @@ function addOptionButton(lbl) {
 	bt.style.backgroundColor = 'white';
 	bt.style.textAlign = 'left';
 	bt.style.display = "inline";
+	bt.optionSelected = true;
+	bt.optionValid = true;
 	bt.onclick = function () {
-		if (this.style.backgroundColor == 'white') {
-			this.style.backgroundColor = 'lightgreen';
-			unselectOtherButtons(this.textContent);
-		} else {
-			this.style.backgroundColor = 'white';
-		}
-	}
+		this.optionSelected = !this.optionSelected;
+		if (this.optionSelected) unselectOtherButtons(this.textContent);
+		setOptionColor(this);
+	};
 	adPanel.appendChild(bt);
 }
+
+function addShortcutButton(lbl) {
+	if (lbl == '') return;
+	var adPanel = document.getElementById("adpanel2");
+	if (adPanel == null) return;
+	var bt = document.createElement("button");
+	bt.textContent = lbl.split(',')[1].trim();
+	if (lbl.split(',').length > 2) bt.value = lbl.split(',')[2];
+	else bt.value = lbl.split(',')[2];
+	bt.style.backgroundColor = 'white';
+	bt.style.textAlign = 'center';
+	bt.style.display = "inline";
+	bt.style.fontSize = "20px";
+	bt.style.width = "50%";
+	if (lbl.split(',').length > 3) {
+		var st = lbl.split(',')[3].trim();
+		for (var i = 0; i < st.split(' ').length; i++) {
+			var prop = st.split(' ')[i].trim().split('=');
+			if (prop.length == 2) {
+				bt.style[prop[0]] = prop[1];
+			}
+		}
+	}
+	bt.onclick = function () {
+		if (this.value.split(/\\n/).length > 1) {
+			setChatMessage(this.value, true);
+			return;			
+		}
+		var ad2 = document.getElementById('adpanel2');
+		this.blur();
+		if (ad2.inputObject == null) return;
+		if (!isVisible(ad2.inputObject)) return;
+		var eventInput = new Event('input');
+		ad2.inputObject.value += updateAlert(this.value);
+		ad2.inputObject.dispatchEvent(eventInput);
+		ad2.inputObject.focus();
+	};
+	adPanel.appendChild(bt);
+}
+
+
 
 // Make sure thet only the selected option is acvite
 function unselectOtherButtons(selectedOption) {
@@ -948,7 +1104,8 @@ function unselectOtherButtons(selectedOption) {
 		var txt1 = txt.split(" ");
 		if (txt.trim() == selectedOption.trim()) continue;
 		if (txt0[0] != txt1[0]) continue;
-		btns[i].style.backgroundColor = 'white';
+		btns[i].optionSelected = false;
+		setOptionColor(btns[i]);
 	}
 }
 
@@ -960,18 +1117,12 @@ function initOptionDefaults() {
 	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
-		if ((btns[i].disabled == true)  || (btns[i].style.display == 'none'))  {
-			btns[i].style.backgroundColor = 'white';
-			continue;
-		}
+		if (btns[i].style.display == 'none') continue;
+		btns[i].optionSelected = true;
+		btns[i].optionValid = true;
 		txt = btns[i].textContent;
 		txt1 = txt.split(" ");
-		if (txt1[0] == oldPrefix) {
-			btns[i].style.backgroundColor = 'white';
-		} else {
-			btns[i].style.backgroundColor = 'lightgreen';
-			//			btns[i].style.marginTop = "10px";
-		}
+		if (txt1[0] == oldPrefix) btns[i].optionSelected = false;
 		oldPrefix = txt1[0];
 	}
 	checkOptionsVulnerability();
@@ -999,10 +1150,53 @@ function clearOptionButtons() {
 	for (var i = btns.length - 1; i > -1; i--) adPanel.removeChild(btns[i]);
 }
 
+function clearShortcutButtons() {
+	adPanel = document.getElementById("adpanel2");
+	if (adPanel == null) return;
+	var btns = adPanel.querySelectorAll('button');
+	for (var i = btns.length - 1; i > -1; i--) adPanel.removeChild(btns[i]);
+	addShortcutButton('Button,⌫ Char');
+	addShortcutButton('Button,⌫ Word');
+	addShortcutButton('Button,⌫ All');
+	btns = adPanel.querySelectorAll('button');
+	btns[0].style.width = "33%";
+	btns[1].style.width = "33%";
+	btns[2].style.width = "34%";
+	btns[0].onclick = function () {
+		var ad2 = document.getElementById('adpanel2');
+		if (ad2.inputObject == null) return;
+		if (!isVisible(ad2.inputObject)) return;
+		var eventInput = new Event('input');
+		ad2.inputObject.value = ad2.inputObject.value.slice(0, -1);
+		ad2.inputObject.dispatchEvent(eventInput);
+		ad2.inputObject.focus();
+	};
+	btns[1].onclick = function () {
+		var ad2 = document.getElementById('adpanel2');
+		if (ad2.inputObject == null) return;
+		if (!isVisible(ad2.inputObject)) return;
+		var eventInput = new Event('input');
+		var res = ad2.inputObject.value.split(" ");
+		res.pop();
+		ad2.inputObject.value = res.join(" ");
+		ad2.inputObject.dispatchEvent(eventInput);
+		ad2.inputObject.focus();
+	};
+	btns[2].onclick = function () {
+		var ad2 = document.getElementById('adpanel2');
+		if (ad2.inputObject == null) return;
+		if (!isVisible(ad2.inputObject)) return;
+		var eventInput = new Event('input');
+		ad2.inputObject.value = '';
+		ad2.inputObject.dispatchEvent(eventInput);
+		ad2.inputObject.focus();
+	};
+}
+
 
 // Make sure thet only the selected option is acvite
 function checkOptionsSeat() {
-	var vText = '@' + areWeVulnerable()
+	var vText = '@' + areWeVulnerable();
 	if (vText == '@') return;
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
@@ -1031,42 +1225,39 @@ function setOptionColors() {
 	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
-		if (btns[i].disabled) {
-			if (btns[i].style.backgroundColor != 'white') {
-				btns[i].style.backgroundColor = 'lightgray';
-			}	
-		} else {
-			if (btns[i].style.backgroundColor != 'white') {
-				btns[i].style.backgroundColor = 'lightgreen';
-			}	
-		}
-
+		setOptionColor(btns[i]);
 	}
 }
 
 // Make sure thet only the selected option is active
 function checkOptionsVulnerability() {
+	var adPanel = document.getElementById("adpanel");
+	if (adPanel == null) return;
+	var btns = adPanel.querySelectorAll('button');
+	if (getDealNumber() == '') {
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].optionValid = true;
+			setOptionColor(btns[i]);
+		}
+	}
 	if ((nd = getNavDiv()) == null) return;
 	var abc = nd.querySelector('.auctionBoxClass');
 	if (!isVisible(abc)) return;
 	var vText = areWeVulnerable();
 	vText = ourVulnerability();
 	if (vText == '') return;
-	VText = areTheyVulnerable();
+	var VText = areTheyVulnerable();
 	if (VText == '') return;
 	sText = getSeatNr();
 	if (sText == '') return;
-	var adPanel = document.getElementById("adpanel");
-	if (adPanel == null) return;
-	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
 		// Clear all auto selectable options 
 		var txt = btns[i].textContent.trim();
 		if (matchVulSeat(vText, VText, sText, txt) == '') continue;
-		if (matchVulSeat(vText, VText, sText, txt) == 'Y') btns[i].disabled = false;
-		if (matchVulSeat(vText, VText, sText, txt) == 'N') btns[i].disabled = true;
-//		if (btns[i].disabled) btns[i].style.backgroundColor = 'white';
+		if (matchVulSeat(vText, VText, sText, txt) == 'Y') btns[i].optionValid = true;
+		if (matchVulSeat(vText, VText, sText, txt) == 'N') btns[i].optionValid = false;
+		setOptionColor(btns[i]);
 	}
 }
 
@@ -1079,6 +1270,8 @@ function optionsSelectorChanged() {
 	var btns = adPanel.querySelectorAll('button');
 	if (btns == null) return;
 	for (var i = 0; i < btns.length; i++) {
+		btns[i].optionValid = true;
+		btns[i].optionSelected = true;
 		if (optionsSelector.selectedIndex == 0) {
 			btns[i].style.display = 'inline';
 			continue;
@@ -1168,6 +1361,6 @@ function setAlert(on) {
 		if (on) elBiddingButtons[15].click();
 	} else {
 		if (!on) elBiddingButtons[15].click();
-	};
+	}
 	return true;
 }
