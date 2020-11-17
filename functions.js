@@ -298,11 +298,13 @@ function openAccountTab() {
 
 
 function confirmBidsSet() {
+	var rd = document.getElementById('rightDiv');
+	if (rd == null) return '';
 	var sc = document.querySelectorAll('.settingClass');
 	if (sc.length < 6) {
 		if (sc.length == 0) return '';
 	}
-	if (document.querySelectorAll('.settingClass')[5].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
+	if (document.querySelectorAll('.settingClass')[4].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
 	else return 'N';
 }
 
