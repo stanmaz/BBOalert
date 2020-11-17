@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 4.0.0.1
+Version : 4.0.0.2
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -631,7 +631,7 @@ New feature :
 - button shortcuts (see <b>Button shortcuts</b> section)
 - scripts allowed in the biding context field
 
-## Version 4.0.0.1
+## Version 4.0.0.2
 
 Bug fix :
 - BBOalert crash due to the modification of HTML data by BBO
