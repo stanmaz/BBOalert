@@ -16,8 +16,7 @@ var callText = "";
 var updateText = "";
 var updateCount = 0;
 var cbData = "";
-var alertData = "";
-var alertTable = alertData.split("\n");
+
 var scriptList = [];
 var alertTableCursor = 0;
 var clipBoard = navigator.clipboard;
@@ -25,7 +24,7 @@ var lastDealNumber = '';
 //const DATABEGIN = '↔';
 const DATABEGIN = '⬛';
 
-console.log('Location : ', location.href);
+// console.log('Location : ', location.href);
 
 
 function receiveMessageCC(event) {
@@ -50,7 +49,7 @@ function receiveMessageBBO(event) {
 	if (event.origin != 'https://webutil.bridgebase.com') return;
 	// Send alert data to the CC page on import request 
 	if (event.data == 'Import') {
-		console.log('Sending from Location ' + window.location.href + ' To ' + event.origin + ' Data ' + alertData.length);
+//		console.log('Sending from Location ' + window.location.href + ' To ' + event.origin + ' Data ' + alertData.length);
 		event.source.postMessage(alertData, event.origin);
 		// Otherwise the message from Convention Card page is considered BBOalert data
 	} else {
@@ -65,7 +64,7 @@ function receiveMessageBBO(event) {
 				setOptions(true);
 			}, 200);
 		} catch {
-			console.log('Error in event.data ' + event.data.length);
+//			console.log('Error in event.data ' + event.data.length);
 		}
 	}
 
@@ -119,14 +118,13 @@ function addCCbuttons() {
 
 if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')) {
 	window.addEventListener("message", receiveMessageCC, false);
-	console.log('Convention card');
+//	console.log('Convention card');
 	addCCbuttons();
 } else if (location.href.startsWith('https://webutil.bridgebase.com/v2')) {
-	console.log('Select convention card ');
+//	console.log('Select convention card ');
 	//	document.location.reload(true);
 } else {
 	window.addEventListener("message", receiveMessageBBO, false);
-	var timerId = setInterval(() => setBiddingBox(), 1000);
 }
 
 
@@ -149,99 +147,8 @@ function exportAlertData() {
 	}
 	writeToClipboard(txt);
 	localStorage.setItem('BBOalertCache', alertData);
-	bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records exported to clipboard");
+	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records exported to clipboard");
 }
-
-// Find the bidding box element and check if new data present in the clipboard
-function setBiddingBox() {
-	if (setUI()) {
-		// complete initial setup
-		alertData = localStorage.getItem('BBOalertCache');
-		if (alertData == null) alertData = '';
-		alertTable = alertData.split("\n");
-		bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records from cache");
-		saveAlertTableToClipboard();
-		processTable();
-		openAccountTab();
-		setTimeout(function () {
-			setOptions(true);
-		}, 200);
-	}
-	if (isBBOready()) setPageReload();
-	setInputClickEvents();
-	setControlButtonEvents();
-	setTabEvents();
-	partnershipOptions();
-	checkOptionsVulnerability();
-	setOptionColors();
-	var adPanel0 = document.getElementById("adpanel0");
-	if (adPanel0 != null) {
-		sc = document.querySelector('.statsClass');
-		if (sc == null) setOptions(false);
-	}
-	if (isBBOready()) {
-		setControlButtons();
-		setStatTextDiv();
-		var txt = '';
-		if (!isSplitScreen()) {
-			txt = 'BBOalert : set BBO to split screen mode (Account/Settings/Split Screen)';
-			setStatText(txt);
-		} else {
-			setStatText('');
-			if (confirmBidsSet() == '') {
-				console.log('Confirm bids switch not found');
-				openAccountTab();
-				setTimeout(function () {
-					setOptions(true);
-				}, 200);
-			}
-		}
-	}
-	elMessage = getVisibleMessageInput();
-	if (elMessage != null) {
-		if (elMessage.onkeyup == null) elMessage.onkeyup = messageOnKeyup;
-	}
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
-	if (elBiddingBox != null) {
-		if (getDealNumber() != lastDealNumber) {
-			lastDealNumber = getDealNumber();
-		}
-		elAlertExplain = getExplainInput();
-		if (elAlertExplain != null) {
-			//			elAlertExplain.addEventListener('keyup', explainOnKeyup);
-			if (elAlertExplain.onkeyup == null) elAlertExplain.onkeyup = explainOnKeyup;
-		}
-		elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
-		if (elBiddingButtons != null) {
-			setBiddingButtonEvents();
-		}
-	} else {
-		elBiddingButtons = null;
-	}
-}
-
-// Erase advertizing from the panel
-function cleanAdPanel() {
-	alertTable = alertData.split("\n");
-	clearOptionButtons();
-	if (alertTable.length > 1) {
-		alertTableCursor = 0;
-		var txt = '';
-		while ((txt = getNextLine()) != '%EOF%') {
-			rec = txt.split(",");
-			if (rec.length > 1) {
-				if (rec[0].trim() == 'Option') {
-					//					addOptionButton(rec[1].trim());
-					addOptionButton(txt);
-				}
-			}
-			//			if (rec.length < 3) alertTable.splice(i, 1);
-		}
-		initOptionDefaults();
-		//		setTitleText(version + " : " + alertTable.length + " records from cache");
-	}
-}
-
 
 
 function importClipboardData() {
@@ -262,9 +169,9 @@ function getDataType(data) {
 
 function setScriptList() {
 	scriptList = [];
-	alertTableCursor = 0;
 	var txt = '';
-	while ((txt = getNextLine()) != '%EOF%') {
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
 		var rec = txt.split(",");
 		if (rec[0].trim() == 'Script') {
 			if (rec.length > 2) {
@@ -286,28 +193,12 @@ function getScript(scriptName) {
 	return '';
 }
 
-function getScriptOld(scriptName) {
-	alertTableCursor = 0;
-	var txt = '';
-	var script = '';
-	while ((txt = getNextLine()) != '%EOF%') {
-		var rec = txt.split(",");
-		if (rec[0].trim() == 'Script') {
-			if (rec.length > 2) {
-				if (rec[1].trim() == scriptName) {
-					script = txt.slice(txt.indexOf(',', txt.indexOf(',') + 1) + 1);
-				}
-			}
-		}
-	}
-	return script;
-}
-
 function setOptionsSelector() {
 	clearOptionsSelector();
 	alertTableCursor = 0;
 	var txt = '';
-	while ((txt = getNextLine()) != '%EOF%') {
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextLine()) != null) {
 		rec = txt.split(",");
 		if (rec[0].trim() == 'Option') {
 			if (rec.length > 2) {
@@ -320,29 +211,20 @@ function setOptionsSelector() {
 
 }
 
-
-
-function processTable() {
-	clearOptionButtons();
-	clearShortcutButtons();
-	setScriptList();
-	alertTableCursor = 0;
+function setShortcutButtons() {
 	var txt = '';
-	while ((txt = getNextLine()) != '%EOF%') {
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
 		rec = txt.split(",");
 		if (rec.length > 1) {
-			if (rec[0].trim() == 'Option') {
-				//						addOptionButton(rec[1].trim());
-				addOptionButton(txt);
-			}
 			if (rec[0].trim() == 'Button') {
 				addShortcutButton(txt);
 			}
 		}
 	}
-	alertTableCursor = 0;
 	txt = '';
-	while ((txt = getNextLine()) != '%EOF%') {
+	scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
 		rec = txt.split(",");
 		if (rec.length > 1) {
 			if (rec[0].trim() == 'Shortcut') {
@@ -350,174 +232,189 @@ function processTable() {
 			}
 		}
 	}
+}
+
+function setOptionButtons() {
+	var txt = '';
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextLine()) != null) {
+		rec = txt.split(",");
+		if (rec.length > 1) {
+			if (rec[0].trim() == 'Option') {
+				addOptionButton(txt);
+			}
+		}
+	}
+}
+
+function processTable() {
+	clearOptionButtons();
+	setOptionButtons();
 	setOptionsSelector();
 	initOptionDefaults();
+	clearShortcutButtons();
+	setShortcutButtons();
+	setScriptList();
 	saveAlertTableToClipboard();
+	updateAlert('%initBBOalert%');
 }
 
 // Retrieve text from clipboard
 function getClipboardData(newData) {
-	navigator.clipboard.readText().then(function (cbData) {
-		if (getDataType(cbData) == '') {
-			bboalertLog(version + ' : no valid data found in clipboard');
-			return;
-		}
-		if ((getDataType(cbData) == 'BSS') && !newData) {
-			bboalertLog(version + ' : can not append BSS formatted data');
-			return;
-		}
-		if (newData) {
-			updateText = "";
-			updateCount = 0;
-			alertData = cbData;
-			if (!alertData.endsWith("\n")) alertData = alertData + "\n";
-			alertTable = alertData.split("\n");
-			bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records imported");
-		} else {
-			alertData = alertData + cbData;
-			if (!alertData.endsWith("\n")) alertData = alertData + "\n";
-			alertTable = alertData.split("\n");
-			bboalertLog(version + " : " + getBBOalertHeaderMsg() + cbData.split("\n").length + " records appended");
-		}
-		clearOptionButtons();
-		if (getDataType(cbData) == 'BBOalert') {
-			processTable();
-		} else {
-			lvls = "1234567";
-			suits = "CDHSN";
-			alertTable.sort();
-			optionPrefix = 'Opening';
-			option = '00';
-			for (var i = 1; i < alertTable.length; i++) {
-				ctx = '';
-				r = alertTable[i];
-				if (r.startsWith('%')) continue;
-				theyOpen = false;
-				if (r.startsWith('*')) {
-					theyOpen = true;
-					r = r.slice(1);
-				}
-				if (!r.startsWith(option)) {
+	navigator.clipboard.readText().then((cbData) => {
+			if (getDataType(cbData) == '') {
+				bboalertLog(version + '<br>no valid data found in clipboard');
+				return;
+			}
+			if ((getDataType(cbData) == 'BSS') && !newData) {
+				bboalertLog(version + '<br>can not append BSS formatted data');
+				return;
+			}
+			if (newData) {
+				updateText = "";
+				updateCount = 0;
+				alertData = cbData;
+				if (!alertData.endsWith("\n"))
+					alertData = alertData + "\n";
+				alertTable = alertData.split("\n");
+				bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records imported");
+			} else {
+				alertData = alertData + cbData;
+				if (!alertData.endsWith("\n"))
+					alertData = alertData + "\n";
+				alertTable = alertData.split("\n");
+				bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + cbData.split("\n").length + " records appended");
+			}
+			clearOptionButtons();
+			if (getDataType(cbData) == 'BBOalert') {
+				processTable();
+			} else {
+				lvls = "1234567";
+				suits = "CDHSN";
+				alertTable.sort();
+				optionPrefix = 'Opening';
+				option = '00';
+				for (var i = 1; i < alertTable.length; i++) {
+					ctx = '';
+					r = alertTable[i];
+					if (r.startsWith('%'))
+						continue;
+					theyOpen = false;
 					if (r.startsWith('*')) {
-						option = r.slice(1, 3);
-						optionPrefix = 'Overcall';
-					} else {
-						option = r.slice(0, 2);
-						optionPrefix = 'Opening';
+						theyOpen = true;
+						r = r.slice(1);
 					}
-					if (decodeOption(option) != '') {
-						updateText = updateText + 'Option,' + optionPrefix + '_' + decodeOption(option) + '\n';
-					} else {
-						updateText = updateText + 'Option\n';
+					if (!r.startsWith(option)) {
+						if (r.startsWith('*')) {
+							option = r.slice(1, 3);
+							optionPrefix = 'Overcall';
+						} else {
+							option = r.slice(0, 2);
+							optionPrefix = 'Opening';
+						}
+						if (decodeOption(option) != '') {
+							updateText = updateText + 'Option,' + optionPrefix + '_' + decodeOption(option) + '\n';
+						} else {
+							updateText = updateText + 'Option\n';
+						}
+					}
+					rec = r.split("=");
+					if (rec.length < 2)
+						continue;
+					if (rec[0].length < 4)
+						continue;
+					if (rec[1].length < 9)
+						continue;
+					for (var j = 2; j < rec[0].length; j++) {
+						c1 = rec[0].charAt(j);
+						if (lvls.indexOf(c1) != -1) {
+							c2 = rec[0].charAt(j + 1);
+							ctx = ctx + c1 + c2;
+							j++;
+						} else {
+							if (c1 == "P")
+								ctx = ctx + "--";
+							if (c1 == "D")
+								ctx = ctx + "Db";
+							if (c1 == "R")
+								ctx = ctx + "Rd";
+						}
+					}
+					badRec = false;
+					if (theyOpen) {
+						if (ctx.length < 4) {
+							badRec = true;
+						}
+						if ((ctx.length / 2) % 2 == 1) {
+							badRec = true;
+						}
+					}
+					ctx = ctx.slice(0, ctx.length - 2) + "," + ctx.slice(ctx.length - 2);
+					if (!r.startsWith('00') && !r.startsWith('*00'))
+						badrec = true;
+					if (badRec)
+						ctx = 'Error ' + alertTable[i] + "|" + ctx;
+					n = 10;
+					if (ctx.endsWith("N"))
+						n = 8;
+					if (ctx.endsWith("--"))
+						n = 7;
+					if (ctx.endsWith("Db"))
+						n = 7;
+					if (ctx.endsWith("Rd"))
+						n = 7;
+					exp = rec[1].slice(n);
+					exp = exp.split(',').join(';');
+					if (exp.length > 39) {
+						exp = "Please read chat" + "#" + exp;
+					}
+					alertTable[i] = ctx + "," + exp;
+					updateText = updateText + alertTable[i] + "\n";
+					updateCount++;
+				}
+				updateText = updateText + 'Option\n';
+				alertTable = updateText.split("\n");
+				for (var i = 0; i < alertTable.length; i++) {
+					rec = alertTable[i].split(",");
+					if (rec.length > 1) {
+						if (rec[0].trim() == 'Option') {
+							addOptionButton(alertTable[i]);
+						}
 					}
 				}
-				rec = r.split("=");
-				if (rec.length < 2) continue;
-				if (rec[0].length < 4) continue;
-				if (rec[1].length < 9) continue;
-				for (var j = 2; j < rec[0].length; j++) {
-					c1 = rec[0].charAt(j);
-					if (lvls.indexOf(c1) != -1) {
-						c2 = rec[0].charAt(j + 1);
-						ctx = ctx + c1 + c2;
-						j++;
-					} else {
-						if (c1 == "P") ctx = ctx + "--";
-						if (c1 == "D") ctx = ctx + "Db";
-						if (c1 == "R") ctx = ctx + "Rd";
-					}
-				}
-				badRec = false;
-				if (theyOpen) {
-					if (ctx.length < 4) {
-						badRec = true;
-					}
-					if ((ctx.length / 2) % 2 == 1) {
-						badRec = true;
-					}
-				}
-				ctx = ctx.slice(0, ctx.length - 2) + "," + ctx.slice(ctx.length - 2);
-				if (!r.startsWith('00') && !r.startsWith('*00')) badrec = true;
-				if (badRec) ctx = 'Error ' + alertTable[i] + "|" + ctx;
-				n = 10;
-				if (ctx.endsWith("N")) n = 8;
-				if (ctx.endsWith("--")) n = 7;
-				if (ctx.endsWith("Db")) n = 7;
-				if (ctx.endsWith("Rd")) n = 7;
-				exp = rec[1].slice(n);
-				exp = exp.split(',').join(';');
-				if (exp.length > 39) {
-					exp = "Please read chat" + "#" + exp;
-				}
-				alertTable[i] = ctx + "," + exp;
-				updateText = updateText + alertTable[i] + "\n";
-				updateCount++;
+				alertData = updateText;
+				processTable();
+				bboalertLog(version + "<br>" + alertTable.length + " records imported");
+				updateText = "";
+				updateCount = 0;
 			}
-			updateText = updateText + 'Option\n';
-			alertTable = updateText.split("\n");
-			for (var i = 0; i < alertTable.length; i++) {
-				rec = alertTable[i].split(",");
-				if (rec.length > 1) {
-					if (rec[0].trim() == 'Option') {
-						//						addOptionButton(rec[1].trim());
-						addOptionButton(alertTable[i]);
-					}
-				}
-				//			if (rec.length < 3) alertTable.splice(i, 1);
-			}
-			//			initOptionDefaults();
-			//			setOptionsSelector();
-			alertData = updateText;
-			processTable();
-			bboalertLog(version + " : " + alertTable.length + " records imported");
-			updateText = "";
-			updateCount = 0;
-		}
-		return;
-	});
+			return;
+		});
 }
 
 function exportUpdateData() {
 	if (updateCount == 0) {
-		bboalertLog(version + " : no data to export");
+		bboalertLog(version + "<br>no data to export");
 		return;
 	}
 	writeToClipboard(updateText);
-	bboalertLog(version + " : " + getBBOalertHeaderMsg() + updateCount + " records exported to clipboard");
-}
-
-function getNextLine() {
-	if (alertTableCursor >= alertTable.length) return '%EOF%';
-	var txt = alertTable[alertTableCursor].trim();
-	while (txt.endsWith('\\')) {
-		alertTableCursor++;
-		txt = txt.slice(0, txt.length - 1) + alertTable[alertTableCursor].trim();
-		if (alertTableCursor >= alertTable.length) return txt;
-	}
-	alertTableCursor++;
-	return txt;
+	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + updateCount + " records exported to clipboard");
 }
 
 var trustedBid = false;
 var foundContext = '';
 var foundCall = '';
 
+
 // Find explanation text for alerted call in the bidding context
-function findAlert(context, call) {
-	trustedBid = false;
-	var trustedZone = false;
-	var matchOption = true;
+function findAlertText(context, call) {
 	var lastContext = "";
 	var alertText = "";
-	alertTableCursor = 0;
 	var txt = '';
-	var idx = -1;
-	while ((txt = getNextLine()) != '%EOF%') {
+	var matchFound = false;
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
 		rec = txt.split(",");
-		// Keyword Option alone end optional block
-		if (txt == 'Trusted') trustedZone = true;
-		if (txt == 'Untrusted') trustedZone = false;
-		if (txt == 'Option') matchOption = true;
 		if (rec.length < 2) continue;
 		currentContext = elimineSpaces(rec[0].trim());
 		if (currentContext == "+") {
@@ -525,35 +422,67 @@ function findAlert(context, call) {
 		} else {
 			lastContext = currentContext;
 		}
-
-		if (currentContext == 'Option') {
-			matchOption = checkOption(rec);
-			continue;
-		}
-		if (!matchOption) continue;
 		if (rec.length < 3) continue;
-		//		if (matchContext(currentContext, stripContext(context)) && (rec[1].trim() == call)) {
-		currentContext = updateAlert(currentContext);
-		//		if (currentContext.indexOf('%') != -1) currentContext = currentContext;
+		currentContext = updateAlert(scan.replaceAliases(currentContext));
 		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
+			matchFound = true;
 			idx = alertTableCursor;
-			alertText = rec[2];
+			alertText = scan.replaceAliases(rec[2]);
+		}
+		if (matchContext(currentContext, context) && (matchContext(rec[1].trim(), call))) {
+			matchFound = true;
+			alertText = scan.replaceAliases(rec[2]);
+		}
+	}
+	alertText = normalize(alertText);
+	return alertText;
+}
+
+// Find explanation text for alerted call in the bidding context
+function findAlert(context, call) {
+	trustedBid = false;
+	var trustedZone = false;
+	var lastContext = "";
+	var alertText = "";
+	var txt = '';
+	var matchFound = false;
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
+		rec = txt.split(",");
+		// Keyword Option alone end optional block
+		if (txt == 'Trusted') trustedZone = true;
+		if (txt == 'Untrusted') trustedZone = false;
+		if (txt == 'Option') matchOption = true;
+//		if (rec.length < 2) continue;
+		currentContext = elimineSpaces(rec[0].trim());
+		if (currentContext == "+") {
+			currentContext = lastContext;
+		} else {
+			lastContext = currentContext;
+		}
+		if (rec.length < 3) continue;
+		currentContext = updateAlert(scan.replaceAliases(currentContext));
+		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
+			matchFound = true;
+			idx = alertTableCursor;
+			alertText = scan.replaceAliases(rec[2]);
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
 		}
 		if (matchContext(currentContext, context) && (matchContext(rec[1].trim(), call))) {
-			idx = alertTableCursor;
-			alertText = rec[2];
+			matchFound = true;
+			alertText = scan.replaceAliases(rec[2]);
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
 		}
 	}
 	alertText = normalize(alertText);
-	if (idx == -1) trustedBid = false;
+	// Confirm bid id match not found
+	if (!matchFound) trusteBid = false;
 	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
-		'|' + context + '|' + call + '|' + idx + '|' + alertText + '|' + trustedBid + ']');
+		'|' + context + '|' + call + '|' + matchFound + '|' + alertText + '|' + trustedBid + ']');
 	return alertText;
 }
 
@@ -564,7 +493,8 @@ function findShortcut(text) {
 	expandedText = text;
 	alertTableCursor = 0;
 	var txt = '';
-	while ((txt = getNextLine()) != '%EOF%') {
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
 		rec = txt.split(",");
 		if (rec.length < 3) continue;
 		if (rec[0].trim() != 'Shortcut') continue;
@@ -607,6 +537,7 @@ function explainOnKeyup(key) {
 }
 
 function updateAlert(txt) {
+//	console.log('myLog updateAlert ' +  txt);
 	var rec = txt.split('%');
 	if (rec.length < 2) return txt;
 	var txt1 = '';
@@ -966,7 +897,7 @@ function setControlButtonEvents() {
 	if (b != null)
 		if (b.onmousedown == null) b.onmousedown = exportLogData;
 	b = document.querySelector('#bboalert-sc');
-	if (b != null) 
+	if (b != null)
 		if (b.onmousedown == null) b.onmousedown = function () {
 			if (this.style.backgroundColor == "red") {
 				this.style.backgroundColor = "green";

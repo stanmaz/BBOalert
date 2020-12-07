@@ -1,3 +1,7 @@
+// Global variables
+var alertData = "";
+var alertTable = alertData.split("\n");
+
 function getBBOalertHeaderMsg() {
 	try {
 		var r = alertTable[0].split(',')[1];
@@ -31,6 +35,7 @@ function CCtoString(s) {
 }
 
 function userScript(S, CR, C, BR, B) {
+//	console.log('myLog Script ' + S);
 	R = '';
 	try {
 		eval(S);
@@ -103,7 +108,7 @@ function normalize(s) {
 	return elimine2Spaces(s.replace(/,+/g, ';')).trim();
 }
 
-var version = 'BBOalert ' + chrome.runtime.getManifest().version;
+var version = chrome.runtime.getManifest().name + ' ' + chrome.runtime.getManifest().version;
 var logText = version + '\n';
 logText = logText + navigator.userAgent + '\n';
 
@@ -157,7 +162,7 @@ function addLog(txt) {
 }
 
 function exportLogData() {
-	bboalertLog(version + " : " + (logText.split('\n').length - 1) + ' records exported');
+	bboalertLog(version + "<br>" + (logText.split('\n').length - 1) + ' records exported');
 	writeToClipboard(logText);
 }
 
@@ -237,6 +242,26 @@ function undoCommand() {
 	}, 100);
 }
 
+
+
+function undoCommandNew() {
+	var mc = document.querySelectorAll('.menuClass');
+	if (mc == null) return;
+	for (var i = 0; i < mc.length; i++) {
+		for (var j = 0; j < mc[i].children.length; j++) {
+			if (mc[i].children[j].textContent.search('Undo') != -1) {
+				//						clearInterval(t);
+				setTimeout(() => {
+//					console.log('myLog Undo clicked ' + i + ' ' + j);
+					mc[i].children[j].click();
+				}, 100);
+				return;
+			}
+
+		}
+	}
+}
+
 function setUndo() {
 	if ((nd = getNavDiv()) == null) return;
 	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
@@ -282,7 +307,7 @@ function ourVulnerability() {
 	var sd = getDealNumber();
 	if (sd == '') return '';
 	var nd = parseInt(sd);
-	if (nd == NaN) return '';
+	if (isNaN(nd)) return '';
 	if (nd < 1) return '';
 	nd = (nd - 1) % 16;
 	if (vultab[nd].includes(mySeat())) return '@v';
@@ -300,7 +325,7 @@ function openAccountTab() {
 function confirmBidsSet() {
 	var rd = document.getElementById('rightDiv');
 	if (rd == null) return '';
-	var sc = document.querySelectorAll('.settingClass');
+	var sc = rd.querySelectorAll('.settingClass');
 	if (sc.length < 6) {
 		if (sc.length == 0) return '';
 	}
@@ -351,23 +376,41 @@ function toggleButtons(inp) {
 	}
 }
 
-function setInputClickEvents () {
+function setExplainInputClickEvents() {
 	var mi = document.querySelectorAll('input');
 	if (mi.length > 0) {
 		for (var i = 0; i < mi.length; i++) {
 			if (mi[i].getAttribute('placeholder') == 'Explain') {
-				    if (mi[i].onclick == null) mi[i].onclick = function () {toggleButtons(this);};
+				if (mi[i].onclick == null) mi[i].onclick = function () {
+					toggleButtons(this);
+				};
+				if (mi[i].onkeyup == null) mi[i].onkeyup = explainOnKeyup;
 			}
 		}
 	}
-	mi = document.getElementById('chatDiv').querySelectorAll('input');
+	var ap2 = document.getElementById('adpanel2');
+	if (ap2.inputObject == null) return;
+	if (!isVisible(ap2.inputObject)) setButtonPanel(false);
+}
+
+function setChatInputClickEvents() {
+	var mi = document.getElementById('chatDiv').querySelectorAll('input');
 	if (mi.length > 0) {
 		for (var i = 0; i < mi.length; i++) {
 			if (mi[i].getAttribute('placeholder') == 'Message') {
-				    if (mi[i].onclick == null) mi[i].onclick = function () {toggleButtons(this);};
+				if (mi[i].onclick == null) mi[i].onclick = function () {
+					toggleButtons(this);
+				};
+				if (mi[i].onkeyup == null) mi[i].onkeyup = messageOnKeyup;
 			}
 		}
 	}
+	var ap2 = document.getElementById('adpanel2');
+	if (ap2.inputObject == null) return;
+	if (!isVisible(ap2.inputObject)) setButtonPanel(false);
+}
+
+function setInputClickEvents() {
 	var ap2 = document.getElementById('adpanel2');
 	if (ap2.inputObject == null) return;
 	if (!isVisible(ap2.inputObject)) setButtonPanel(false);
@@ -425,7 +468,7 @@ function setButtonPanel(on) {
 	if (on) {
 		var b = document.querySelector('#bboalert-sc');
 		if (b != null) {
-			if (b.style.backgroundColor =="red") return;
+			if (b.style.backgroundColor == "red") return;
 		}
 		adPanel2.style.display = 'block';
 		if (adPanel2.getBoundingClientRect().width < 250) {
@@ -477,32 +520,6 @@ function matchVulSeat(v, V, s, t) {
 	}
 	return 'Y';
 }
-
-
-
-// match vulnerability and seat conditions in text
-function matchVulSeatOld(v, s, t) {
-	// set option only during the first round of bidding
-	if (s == '') return '';
-	var n = t.split('@').length - 1;
-	// if no @ tags in option name, let the option unchanged
-	if (n == 0) return '';
-	// if only one tag in option name, v or s must match 
-	if (n == 1) {
-		if (t.indexOf(v) > 0) return 'Y';
-		if (t.indexOf(s) > 0) return 'Y';
-		return 'N';
-	}
-	// if no vulnerability specified match seat
-	if ((t.indexOf('@n') == -1) && (t.indexOf('@v') == -1)) {
-		if (t.indexOf(s) > 0) return 'Y';
-		return 'N';
-	}
-	// if only more than one tag in option name, v and s must match
-	if ((t.indexOf(v) > 0) && (t.indexOf(s) > 0)) return 'Y';
-	return 'N';
-}
-
 
 // Check if element is visible
 function isVisible(e) {
@@ -686,13 +703,19 @@ function setTitleText(txt) {
 	t = document.querySelector('.titleClass');
 	if (t == null) return;
 	if (isVisible(t)) {
-		t.innerText = txt;
+		t.innerText = '';
+		setTimeout(function () {
+			t.innerText = txt;
+		}, 500);
 		return;
 	}
 	t = document.querySelectorAll('div.titleSpanClass');
 	if (t.length == 0) return;
 	for (var i = 0; i < t.length; i++) {
-		t[i].textContent = txt;
+		t[i].textContent = '';
+		setTimeout(function () {
+			t[i].textContent = txt;
+		}, 500);
 	}
 }
 
@@ -781,6 +804,11 @@ function getChatMessage() {
 function getBiddingBox() {
 	if ((nd = getNavDiv()) == null) return null;
 	return nd.querySelector(".biddingBoxClass");
+}
+
+function getExplainCallBox() {
+	if ((nd = getNavDiv()) == null) return null;
+	return nd.querySelector(".explainCallClass");
 }
 
 function getExplainInput() {
@@ -914,7 +942,10 @@ function setControlButtons() {
 function bboalertLog(txt) {
 	var p1 = document.getElementById('bboalert-p1');
 	if (p1 == null) return;
-	p1.textContent = txt;
+	p1.innerHTML = '';
+	setTimeout(function () {
+		p1.innerHTML = txt;
+	}, 300);
 }
 
 function setAdPanel() {
@@ -961,7 +992,7 @@ function setAdPanel() {
 	adPanel2.style.width = '100%';
 	adPanel2.style.backgroundColor = 'yellow';
 	adPanel2.style.display = 'none';
-//	adPanel2.style.right = '35px';
+	//	adPanel2.style.right = '35px';
 	adPanel2.style.zIndex = "5001";
 	adPanel2.inputObject = null;
 	adPanel2.id = "adpanel2";
@@ -1049,6 +1080,9 @@ function addOptionButton(lbl) {
 		this.optionSelected = !this.optionSelected;
 		if (this.optionSelected) unselectOtherButtons(this.textContent);
 		setOptionColor(this);
+		clearShortcutButtons();
+		setShortcutButtons();
+		setScriptList();
 	};
 	adPanel.appendChild(bt);
 }
@@ -1078,7 +1112,7 @@ function addShortcutButton(lbl) {
 	bt.onclick = function () {
 		if (this.value.split(/\\n/).length > 1) {
 			setChatMessage(this.value, true);
-			return;			
+			return;
 		}
 		var ad2 = document.getElementById('adpanel2');
 		this.blur();
@@ -1248,7 +1282,7 @@ function checkOptionsVulnerability() {
 	var vText = areWeVulnerable();
 	vText = ourVulnerability();
 	if (vText == '') return;
-	var VText = areTheyVulnerable();
+	VText = areTheyVulnerable();
 	if (VText == '') return;
 	sText = getSeatNr();
 	if (sText == '') return;
@@ -1295,6 +1329,9 @@ function optionsSelectorChanged() {
 			}
 		}
 	}
+	clearShortcutButtons();
+	setShortcutButtons();
+	setScriptList();
 	if (optionsSelector.selectedIndex != 1) initOptionDefaults();
 }
 
@@ -1308,6 +1345,23 @@ function myPartner() {
 	for (var i = 0; i < 4; i++) {
 		if (nd1[i].textContent.trim().toLowerCase() == me) {
 			return (nd1[(i + 2) % 4].textContent.trim().toLowerCase());
+		}
+	}
+	return '';
+}
+
+function myOpponent(lho) {
+	var idx = 3;
+	if (lho) idx = 1;
+	if ((nd = getNavDiv()) == null) return '';
+	var nd1 = nd.querySelectorAll('.nameDisplayClass');
+	if (nd1 == null) return '';
+	if (nd1.length != 4) return '';
+	var me = whoAmI();
+	if (me == '') return '';
+	for (var i = 0; i < 4; i++) {
+		if (nd1[i].textContent.trim().toLowerCase() == me) {
+			return (nd1[(i + idx) % 4].textContent.trim().toLowerCase());
 		}
 	}
 	return '';
@@ -1366,3 +1420,125 @@ function setAlert(on) {
 	}
 	return true;
 }
+
+function tableType() {
+	// get score panel
+	var sp = document.querySelector('.scorePanelClass');
+	// if no score panel element -> no table
+	if (sp == null) return 'no';
+	// if score panel not displayed -> practice table
+	if (sp.style.display == 'none') return 'practice';
+	// if score panel displayed -> game table
+	return 'game';
+}
+
+function getPartnerAlert() {
+	var partnerContext = getContext().slice(0, -4);
+	var partnerCall = getContext().slice(-4, -2);
+	return findAlertText(partnerContext, partnerCall);
+}
+
+function getChatDestinationMenuItem(t) {
+	var mi = $('#chatDiv menu-item div');
+	for (var i = 0; i < mi.length; i++) {
+//		console.log(i + ' #' + mi[i].textContent.trim() + '#' + t + '#');
+		if (mi[i].textContent.trim() == t) {
+			return mi[i];
+		}
+	}
+}
+
+function setChatDestination(t) {
+	$('#chatDiv .messageInputDivClass .channelButtonClass')[0].click();
+	var dmi = getChatDestinationMenuItem(t);
+	setTimeout(function () {
+//		console.log('time out');
+		if (dmi != null) {
+			dmi.click();
+		}
+		$('#chatDiv .menuClass').hide();
+	}, 100);
+}
+
+function sendPrivateChat(uid, text) {
+	var od = $('#chatDiv .messageInputDivClass .channelButtonClass')[0].textContent;
+	setChatDestination('Private');
+	//    var cd = $('#chatDiv .messageInputDivClass .channelButtonClass span');
+	var cd = $('#chatDiv .getStringDialogClass .messageInputClass');
+	var bt = $('#chatDiv .getStringDialogClass button');
+	setTimeout(function () {
+		cd[0].value = uid;
+		var eventInput = new Event('input');
+		cd[0].dispatchEvent(eventInput);
+		bt[0].click();
+		setChatMessage(text, true);
+		setChatDestination(od);
+	}, 200);
+}
+
+function sendMessageToOpponents(text) {
+	sendPrivateChat(myOpponent(true), text);
+	sendPrivateChat(myOpponent(false), text);
+}
+
+function getMyHand() {
+	var yref = 0;
+	var hand = [];
+	var cc = $('.cardClass .topLeft');
+	if (cc.length == 0) return;
+	for (var i = 0; i < cc.length; i++) {
+		if (cc[i].getClientRects().length > 0) {
+			var card = cc[i].parentNode.parentNode;
+			console.log(card.getClientRects()[0].y);
+			if (cc[i].getClientRects()[0].y > yref) yref = cc[i].getClientRects()[0].y;
+		}
+	}
+	for (var i = 0; i < cc.length; i++) {
+		if (cc[i].getClientRects().length > 0) {
+//			console.log(cc[i].getClientRects()[0].y);
+			if (cc[i].getClientRects()[0].y == yref) hand.push(cc[i]);
+		}
+	}
+	return hand;
+}
+
+function dragElement(elmnt) {
+	var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+	if (document.getElementById(elmnt.id + "header")) {
+	  // if present, the header is where you move the DIV from:
+	  document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+	} else {
+	  // otherwise, move the DIV from anywhere inside the DIV:
+	  elmnt.onmousedown = dragMouseDown;
+	}
+  
+	function dragMouseDown(e) {
+	  e = e || window.event;
+	  e.preventDefault();
+	  // get the mouse cursor position at startup:
+	  pos3 = e.clientX;
+	  pos4 = e.clientY;
+	  document.onmouseup = closeDragElement;
+	  // call a function whenever the cursor moves:
+	  document.onmousemove = elementDrag;
+	}
+  
+	function elementDrag(e) {
+	  e = e || window.event;
+	  e.preventDefault();
+	  // calculate the new cursor position:
+	  pos1 = pos3 - e.clientX;
+	  pos2 = pos4 - e.clientY;
+	  pos3 = e.clientX;
+	  pos4 = e.clientY;
+	  // set the element's new position:
+	  elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+	  elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+	}
+  
+	function closeDragElement() {
+	  // stop moving when mouse button is released:
+	  document.onmouseup = null;
+	  document.onmousemove = null;
+	}
+  }
