@@ -644,10 +644,8 @@ New features :
 - All records types (e.g. Button Shortcut or Script) are supported within options. It means that when a record is inside an option it will be active only when the option is enabled.
 - New record type is supported :
 
-    Option,Opening @n
-    Option,Opening @v
-    Alias,<string1>,<string2>
-    If any alert record contains <string1> it will be replaced by <string2>. Following rules apply :
+      Alias,<string1>,<string2>
+      If any alert record contains <string1> it will be replaced by <string2>. Following rules apply :
 
 
 
