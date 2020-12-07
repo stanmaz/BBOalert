@@ -154,7 +154,9 @@ The file must begin with the header record :
 Where :
 
 - BBOalert is mandatory keyword
-- <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import.
+- <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import. HTML codes <br> (line break) and <b> (bold text) are allowed. Example :
+   
+      BBOalert,My System<br>Version <b>52</b>
 
 Alerted calls should contain at least three text fields separated by commas :
 
@@ -385,6 +387,8 @@ Example :
 
 In this example three separated groups of options are created.
 
+Options can contain also other types of records (Shortcut, Button, Trusted, Untrusted, Script, Alias). Those records will be active only if the option is enabled.
+
 ### Partnership options
 
 Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. Sample data :
@@ -482,6 +486,52 @@ https://www.w3schools.com/colors/colors_names.asp
 The full list of property names (only a few apply to buttons) :
 https://www.w3schools.com/jsref/dom_obj_style.asp
 
+### Alias
+
+The format os an alias record is :
+
+      Alias,<string1>,<string2>
+      
+If any explanation text record contains <string1> it will be replaced by <string2>. Following rules apply :
+
+- An alias must be defined before it is used
+- <string1> must not be necessarily unique
+- Always the last match is used for string substitution
+- The aliases should be sorted from the shortest to the longest <string1>
+- In both strings case and spaces matter (leading and trailing). Note : to keep the visual control of trailing spaces in <string2> a comma may be added at the end of the record.
+
+The main purpose of aliases is to solve the problem of national bridge events where the usage of the local language is required. Maintaining two different data files for two different languages is not practical. The aliases can be used to translate expressions depending on the selected language. Example of code :
+
+      BBOalert
+      Option,Lang EN
+      Shortcut,HH,Hello
+      Option,Lang FR
+      Shortcut,HH,Bonjour
+      Alias,balanced,régulier
+      Alias,game forcing,forcing manche
+      Option,MySystem
+      ,1N,15-17p balanced
+      ,2C,game forcing
+      
+Sorting aliases by <string1> length is important (remember : last match counts). In the example
+
+      Alias,without,sans
+      Alias,with,avec
+
+The word ‘without’ will be translated to ‘avecout’ which is wrong. Reversing the order will give the correct result.
+
+Aliases may be used also in the bidding context field. Example :
+
+      Alias,#,2C--2D--
+      #2N--,3C,Puppet Stayman
+
+Is equivalent to
+
+      2C--2D--2N--,3C,Puppet Stayman
+
+The same alias may be reused later in the file with a different definition.
+
+This technique may be useful when the same long context prefix is used at different places. The alias may not be combined with + in the same context field.
 
 ### Full Disclosure BSS file support
 
