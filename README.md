@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 4.0.0.2
+Version : 5.0
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -635,6 +635,18 @@ New feature :
 
 Bug fix :
 - BBOalert crash due to the modification of HTML data by BBO
+
+## Version 5.0
+
+New features :
+- The optional text in the BBOalert header (first line of the code) may contain HTML codes :
+   <br> for line break
+   <b> and </b> for bold font
+- When the opponents ask supplementary explanation, the text entry box is displayed at the same place as the bidding box instead of right-upper corner. The box is draggable.
+- All records types (e.g. Button Shortcut or Script) are supported within options. It means that when a record is inside an option it will be active only when the option is enabled.
+- New record type is supported :
+   Alias,<string1>,<string2>
+   If any alert record contains <string1> it will be replaced by <string2>. Following rules apply :
 
 
 
