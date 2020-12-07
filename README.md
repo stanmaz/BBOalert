@@ -643,9 +643,8 @@ New features :
 - When the opponents ask supplementary explanation, the text entry box is displayed at the same place as the bidding box instead of right-upper corner. The box is draggable.
 - All records types (e.g. Button Shortcut or Script) are supported within options. It means that when a record is inside an option it will be active only when the option is enabled.
 - New record type is supported :
-
-      Alias,<string1>,<string2>
-      If any alert record contains <string1> it will be replaced by <string2>. Following rules apply :
+   Alias,\<string1>,\<string2>
+   If any alert record contains \<string1> it will be replaced by \<string2>
 
 
 
