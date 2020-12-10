@@ -4,7 +4,7 @@
 - choose <b>Save Link As ..</b> from the pop-up menu
 - confirm to download
 - open Chrome page <b>chrome://extensions/</b>
-- make sure the <b>Developer mode</b> is set
+- make sure the <b>Developer mode</b> is set (upper-right corner)
 - drag&drop the downloaded ZIP file onto the <b>chrome://extensions/</b> page
 
 Make sure that other BBOalert versions are removed or disabled
