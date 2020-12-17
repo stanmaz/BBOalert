@@ -14,40 +14,34 @@ const config = {
 
 // Callback function to execute when mutations are observed
 const callback = function (mutationsList, observer) {
-    // Use traditional 'for loops' for IE 11
-    for (const mutation of mutationsList) {
-        onAnyMutation();
-        if (mutation.type === 'childList') {
-            if ((getBiddingBox() != null) != biddingBoxExists) {
-                biddingBoxExists = !biddingBoxExists;
-                if (biddingBoxExists) onBiddingBoxCreated();
-                else onBiddingBoxRemoved();
-            }
-        } else if (mutation.type === 'attributes') {
-            if (isVisible(getNavDiv()) != navDivDisplayed) {
-                navDivDisplayed = !navDivDisplayed;
-                if (navDivDisplayed) onNavDivDisplayed();
-                else onNavDivHidden();
-            }
-            if (isVisible(getBiddingBox()) != biddingBoxDisplayed) {
-                biddingBoxDisplayed = !biddingBoxDisplayed;
-                if (biddingBoxDisplayed) onBiddingBoxDisplayed();
-//                console.log('myLog biddingBoxDiv visible  = ' + biddingBoxDisplayed);
-            }
-            if (isVisible(getExplainCallBox()) != explainCallDisplayed) {
-                explainCallDisplayed = !explainCallDisplayed;
-                if (explainCallDisplayed) onexplainCallDisplayed();
-//                console.log('myLog explainCall visible  = ' + explainCallDisplayed);
-            }
-            if (getDealNumber() != lastDealNumber) {
-                if (getDealNumber() != '') {
-//                    console.log('myLog Deal number ' + getDealNumber());
-                    newDeal();
-                }
-                lastDealNumber = getDealNumber();
-            }
-        }
+    if ((getBiddingBox() != null) != biddingBoxExists) {
+        biddingBoxExists = !biddingBoxExists;
+        if (biddingBoxExists) onBiddingBoxCreated();
+        else onBiddingBoxRemoved();
     }
+    if (isVisible(getNavDiv()) != navDivDisplayed) {
+        navDivDisplayed = !navDivDisplayed;
+        if (navDivDisplayed) onNavDivDisplayed();
+        else onNavDivHidden();
+    }
+    if (isVisible(getBiddingBox()) != biddingBoxDisplayed) {
+        biddingBoxDisplayed = !biddingBoxDisplayed;
+        if (biddingBoxDisplayed) onBiddingBoxDisplayed();
+        console.log('myLog biddingBoxDiv visible  = ' + biddingBoxDisplayed);
+    }
+    if (isVisible(getExplainCallBox()) != explainCallDisplayed) {
+        explainCallDisplayed = !explainCallDisplayed;
+        if (explainCallDisplayed) onexplainCallDisplayed();
+        console.log('myLog explainCall visible  = ' + explainCallDisplayed);
+    }
+    if (getDealNumber() != lastDealNumber) {
+        if (getDealNumber() != '') {
+            console.log('myLog Deal number ' + getDealNumber());
+            newDeal();
+        }
+        lastDealNumber = getDealNumber();
+    }
+    onAnyMutation();
 };
 
 // Create an observer instance linked to the callback function
@@ -64,7 +58,7 @@ function onAnyMutation() {
 }
 
 function onBiddingBoxCreated() {
-//    console.log('myLog bidding box created');
+    console.log('myLog bidding box created');
     var ecc = getExplainCallBox();
     if (ecc != null) {
         dragElement(ecc);
@@ -72,7 +66,7 @@ function onBiddingBoxCreated() {
 }
 
 function onBiddingBoxDisplayed() {
-//    console.log('myLog bidding box displayed');
+    console.log('myLog bidding box displayed');
     setBiddingButtonEvents();
     setExplainInputClickEvents();
 }
@@ -95,7 +89,7 @@ function onBiddingBoxRemoved() {
 
 function onNavDivDisplayed() {
     // complete initial setup
-//    console.log('myLog navDiv displayed');
+    console.log('myLog navDiv displayed');
     setUI();
     alertData = localStorage.getItem('BBOalertCache');
     if (alertData == null) alertData = '';
@@ -116,7 +110,7 @@ function onNavDivDisplayed() {
 }
 
 function onNavDivHidden() {
-//    console.log('myLog navDiv hidden');
+    console.log('myLog navDiv hidden');
     setButtonPanel(false)
     setOptionsOff();
 }
