@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 5.0
+Version : 5.0.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -694,5 +694,9 @@ New features :
 - All records types (e.g. Button Shortcut or Script) are supported within options. It means that when a record is inside an option it will be active only when the option is enabled.
 - New record type is supported : <br>Alias,\<string1>,\<string2><br>If any alert record contains \<string1> it will be replaced by \<string2>
 
+## Version 5.0.1
+
+Bug fix :
+- performance issue
 
 
