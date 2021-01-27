@@ -699,4 +699,13 @@ New features :
 Bug fix :
 - performance issue
 
+## Version 5.1
+
+Bug fix : 
+- Shortcuts and buttons not working with non-english BBO user interfaces
+
+New feature : 
+- Automatic options selection on pair basis : two user ids separated by + character.
+- Extended scripting
+
 
