@@ -16,6 +16,7 @@ Thereafter you can decide to use advanced features :
 - Vulnerability-dependent openings and development
 - Keyboard and button shortcuts and abbreviations
 - Full Disclosure BSS file support
+- add custom features using Javascript
 
 If you like this tool, join the BBOalert users community on Facebook 
 
