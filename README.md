@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 5.0.1
+Version : 5.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -339,6 +339,8 @@ Note : X and Y are arbitrary script names,and there are no specific limitations.
 - The script may be of any complexity :
 - Each statement must end with ;
 - To span the script over multiple lines \ should be used at the end of the line
+   
+More information about scripting can be found in the "Scripting in BBOalert.pdf" file.
 
 ### Optional code
 
@@ -391,12 +393,12 @@ Options can contain also other types of records (Shortcut, Button, Trusted, Untr
 
 ### Partnership options
 
-Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. Sample data :
+Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. When two user-id's separated by a + are specified with an option and both players are present, the option is activated automatically. Sample data :
 
       Option,  1NT 12-14,  John
       ,  1N,   12-14p balanced
       1[CD]--1*--,   1N,   balanced 15-17p
-      Option,  1NT 15-17,  Joe
+      Option,  1NT 15-17,smazur+stanmaz
       ,  1N,   15-17p balanced
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
@@ -405,7 +407,7 @@ If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 dis
 
 ![](./images/PartnerSelection.png)
 
-When the user-id specified with an option fits the user id of your actual partner, the option is activated automatically. If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
+If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
 
 It is possible to disable all options by chosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option.
 
