@@ -1,9 +1,53 @@
-const targetNode = document.body;
-navDivDisplayed = false;
-biddingBoxExists = false;
-biddingBoxDisplayed = false;
-lastDealNumber = "";
-explainCallDisplayed = false;
+function initGlobals() {
+    /**
+     * boolean = true : if main BBO panel displayed
+     */
+    navDivDisplayed = false;
+    /**
+     * boolean = true : if bidding box exists
+     * Bidding box element is created when the table
+     * is displayed
+     */
+    biddingBoxExists = false;
+    /**
+     * boolean = true : if bidding box is displayed
+     */
+    biddingBoxDisplayed = false;
+    /**
+     * boolean = true : when opponents ask more info
+     */
+    explainCallDisplayed = false;
+    /**
+     * boolean = true : during the auction
+     */
+    auctionBoxDisplayed = false;
+    /**
+     * string : contains current board number
+     */
+    lastDealNumber = '';
+    /**
+     * string : contains LHO user id
+     */
+    LHOpponent = '';
+    /**
+     * string : contains RHO user id
+     */
+    RHOpponent = '';
+    /**
+     * string = 'L' when LHO changed or 'R' when RHO changed
+     */
+    opponentChanged = '';
+    /**
+     * string : contains current auction
+     */
+    currentAuction = '??';
+    /**
+     * string : contains current active player direction and uid
+     */
+    activePlayer = '';
+}
+
+initGlobals();
 
 // Options for the observer (which mutations to observe)
 const config = {
@@ -14,6 +58,7 @@ const config = {
 
 // Callback function to execute when mutations are observed
 const callback = function (mutationsList, observer) {
+    observer.disconnect();
     if ((getBiddingBox() != null) != biddingBoxExists) {
         biddingBoxExists = !biddingBoxExists;
         if (biddingBoxExists) onBiddingBoxCreated();
@@ -27,27 +72,44 @@ const callback = function (mutationsList, observer) {
     if (isVisible(getBiddingBox()) != biddingBoxDisplayed) {
         biddingBoxDisplayed = !biddingBoxDisplayed;
         if (biddingBoxDisplayed) onBiddingBoxDisplayed();
-        console.log('myLog biddingBoxDiv visible  = ' + biddingBoxDisplayed);
+        else onBiddingBoxHidden();
+    }
+    if (isVisible(getAuctionBox()) != auctionBoxDisplayed) {
+        auctionBoxDisplayed = !auctionBoxDisplayed;
+        if (auctionBoxDisplayed) onAuctionBoxDisplayed();
+        else onAuctionBoxHidden();
+    }
+    if (currentAuction != getContext()) {
+        currentAuction = getContext();
+        onNewAuction();
+    }
+    if (activePlayer != getActivePlayer()) {
+        activePlayer = getActivePlayer();
+        onNewActivePlayer();
     }
     if (isVisible(getExplainCallBox()) != explainCallDisplayed) {
         explainCallDisplayed = !explainCallDisplayed;
-        if (explainCallDisplayed) onexplainCallDisplayed();
-        console.log('myLog explainCall visible  = ' + explainCallDisplayed);
+        if (explainCallDisplayed) onExplainCallDisplayed();
+        else onExplainCallHidden();
+    }
+    if ((myOpponent(true) != LHOpponent) || (myOpponent(false) != RHOpponent)) {
+        onAnyOpponentChange();
     }
     if (getDealNumber() != lastDealNumber) {
         if (getDealNumber() != '') {
-            console.log('myLog Deal number ' + getDealNumber());
-            newDeal();
+            onNewDeal();
         }
         lastDealNumber = getDealNumber();
     }
     onAnyMutation();
+    observer.observe(targetNode, config);
 };
 
 // Create an observer instance linked to the callback function
 const observer = new MutationObserver(callback);
 
 // Start observing the target node for configured mutations
+const targetNode = document.body;
 observer.observe(targetNode, config);
 
 
@@ -55,24 +117,69 @@ function onAnyMutation() {
     partnershipOptions();
     checkOptionsVulnerability();
     setOptionColors();
+    execUserScript('%onAnyMutation%');
 }
 
 function onBiddingBoxCreated() {
-    console.log('myLog bidding box created');
     var ecc = getExplainCallBox();
     if (ecc != null) {
         dragElement(ecc);
     }
+    lastDealNumber = '';
+    LHOpponent = '';
+    RHOpponent = '';
+    activePlayer = '';
+    execUserScript('%onBiddingBoxCreated%');
 }
 
 function onBiddingBoxDisplayed() {
-    console.log('myLog bidding box displayed');
     setBiddingButtonEvents();
     setExplainInputClickEvents();
+    var elAlertExplain = getExplainInput();
+    if (elAlertExplain.onclick == null) {
+        elAlertExplain.onclick = function () {
+            toggleButtons(this);
+        };
+    }
+    elAlertExplain.onkeyup = explainOnKeyup;
+    execUserScript('%onBiddingBoxDisplayed%');
 }
 
-function onexplainCallDisplayed() {
+function onBiddingBoxHidden() {
+    execUserScript('%onBiddingBoxHidden%');
+}
+
+function onAuctionBoxDisplayed() {
+    execUserScript('%onAuctionBoxDisplayed%');
+    if (getContext() == '') execUserScript('%onAuctionBegin%');
+}
+
+function onAuctionBoxHidden() {
+    activePlayer = '';
+    execUserScript('%onAuctionBoxHidden%');
+    var ctx = getContext();
+    if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
+        execUserScript('%onAuctionEnd%');
+    }
+}
+
+function onNewAuction() {
+    if (currentAuction != '??') execUserScript('%onNewAuction%');
+}
+
+function onNewActivePlayer() {
+    execUserScript('%onNewActivePlayer%');
+}
+
+function onExplainCallDisplayed() {
     var ecc = getExplainCallBox();
+    var eci = ecc.querySelector('input');
+    if (eci.onclick == null) {
+        eci.onkeyup = explainCallOnKeyup;
+        eci.onclick = function () {
+            toggleButtons(this);
+        };
+    }
     ecc.style.width = getBiddingBox().style.width;
     ecc.style.left = getBiddingBox().style.left;
     ecc.style.top = getBiddingBox().style.top;
@@ -80,16 +187,20 @@ function onexplainCallDisplayed() {
     var eh = ecc.querySelector('.headingClass');
     ei.style.width = '85%';
     ei.style.fontSize = eh.style.fontSize;
+    execUserScript('%onExplainCallDisplayed%');
+}
+
+function onExplainCallHidden() {
+    execUserScript('%onExplainCallHidden%');
 }
 
 function onBiddingBoxRemoved() {
-    console.log('myLog bidding box removed');
     setBiddingButtonEvents();
+    execUserScript('%onBiddingBoxRemoved%');
 }
 
 function onNavDivDisplayed() {
     // complete initial setup
-    console.log('myLog navDiv displayed');
     setUI();
     alertData = localStorage.getItem('BBOalertCache');
     if (alertData == null) alertData = '';
@@ -101,18 +212,43 @@ function onNavDivDisplayed() {
     setTimeout(function () {
         setOptions(true);
     }, 200);
+    var elMessage = getChatInput();
+    elMessage.onkeyup = messageOnKeyup;
+    if (elMessage.onclick == null) {
+        elMessage.onclick = function () {
+            toggleButtons(this);
+        };
+    }
     setChatInputClickEvents();
     setControlButtonEvents();
     setPageReload();
     setTabEvents();
     partnershipOptions();
-    updateAlert('%initBBOalert%');
+    execUserScript('%onLogin%');
 }
 
 function onNavDivHidden() {
-    console.log('myLog navDiv hidden');
-    setButtonPanel(false)
+    setButtonPanel(false);
     setOptionsOff();
+    initGlobals();
+    execUserScript('%onLogoff%');
 }
 
-function newDeal() {}
+function onAnyOpponentChange() {
+    if (!biddingBoxExists) return;
+    opponentChanged = '';
+    if (myOpponent(true) != LHOpponent) {
+        opponentChanged = 'L';
+        LHOpponent = myOpponent(true);
+    }
+    if (myOpponent(false) != RHOpponent) {
+        opponentChanged = opponentChanged + 'R';
+        RHOpponent = myOpponent(false);
+    }
+    execUserScript('%onAnyOpponentChange%');
+}
+
+function onNewDeal() {
+    activePlayer = '';
+    execUserScript('%onNewDeal%');
+}

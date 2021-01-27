@@ -1,10 +1,13 @@
-
+/**
+ * @ignore
+ */
 class BBOalertData {
     constructor() {
         // Set cursor at the beginning of the table
         this.alertTableCursor = 0;
         this.matchOption = true;
         this.aliasList = [];
+        this.trimOn = false;
     }
     setData(text) {
         alertData = text;
@@ -24,6 +27,7 @@ class BBOalertData {
         this.alertTableCursor = 0;
         this.matchOption = true;
         this.aliasList = [];
+        this.noTrim = false;
     }
     addAlias(r) {
         this.aliasList.push(r);
@@ -58,7 +62,8 @@ class BBOalertData {
 
     getNextLine() {
         if (this.alertTableCursor >= alertTable.length) return null;
-        var txt = alertTable[this.alertTableCursor].trim();
+        var txt = alertTable[this.alertTableCursor];
+        if (this.trimOn) txt = txt.trim();
         // Concatenate records ending with backslash
         while (txt.endsWith('\\')) {
             this.alertTableCursor++;
@@ -96,6 +101,5 @@ function testBBOalertData() {
     var txt;
     scan.resetScan();
     while ((txt = scan.getNextRecord()) != null) {
-//        console.log(txt);
     }
 }
