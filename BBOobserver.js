@@ -172,21 +172,6 @@ function onNewActivePlayer() {
 }
 
 function onExplainCallDisplayed() {
-    var ecc = getExplainCallBox();
-    var eci = ecc.querySelector('input');
-    if (eci.onclick == null) {
-        eci.onkeyup = explainCallOnKeyup;
-        eci.onclick = function () {
-            toggleButtons(this);
-        };
-    }
-    ecc.style.width = getBiddingBox().style.width;
-    ecc.style.left = getBiddingBox().style.left;
-    ecc.style.top = getBiddingBox().style.top;
-    var ei = ecc.querySelector('.explainContainerClass');
-    var eh = ecc.querySelector('.headingClass');
-    ei.style.width = '85%';
-    ei.style.fontSize = eh.style.fontSize;
     execUserScript('%onExplainCallDisplayed%');
 }
 
@@ -202,6 +187,7 @@ function onBiddingBoxRemoved() {
 function onNavDivDisplayed() {
     // complete initial setup
     setUI();
+    addBBOalertTab();
     alertData = localStorage.getItem('BBOalertCache');
     if (alertData == null) alertData = '';
     alertTable = alertData.split("\n");

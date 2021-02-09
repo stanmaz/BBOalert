@@ -1178,12 +1178,9 @@ function clearOptionsSelector() {
  * @ignore
  */
 function setControlButtons() {
-	var bar = document.querySelector('.moreMenuDivClass');
 	var adPanel = document.getElementById("adpanel1");
-	if (bar == null) return false;
-	if (!isVisible(bar)) return false;
+	if (adPanel == null) return false;
 	//	addBBOalertButton();
-	addBBOalertTab();
 	if (adPanel.querySelector('#bboalert-b1') == null) {
 		var b3 = document.createElement("button");
 		b3.textContent = "Import";
@@ -1272,7 +1269,7 @@ function setAdPanel() {
 	adPanel0.style.zIndex = "5000";
 	adPanel0.style.display = 'none';
 	adPanel0.style.height = '100%';
-	adPanel0.style.right = '35px';
+	adPanel0.style.right = '57px';
 	appPanel.appendChild(adPanel0);
 
 	var adPanel = document.createElement("div");
