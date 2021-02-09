@@ -711,4 +711,9 @@ New feature :
 - Automatic options selection on pair basis : two user ids separated by + character.
 - Extended scripting
 
+## Version 5.1.1.1
+
+Bug fix : 
+- updated to the new BBO user interface
+
 
