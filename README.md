@@ -92,24 +92,20 @@ You will find detailed information later in this text but before you continue to
 
 The BBOalert data should be stored in a CSV-formatted text file (CSV = Comma-Separated Value).
 
-BBOalert uses the clipboard to read this file and to export eventual updates. To read the data
+BBOalert uses the clipboard to read this file and to export eventual updates. To read the data from a file :
+
+- open the data file using your favorite text editor (see section : 'Data file format')
+- select all text (usually with Ctrl-A keystroke)
+- copy it to the clipboard (usually with Ctrl-C keystroke)
+- press "Import" button on the BBO page 
 
 BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
 
 It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. The chat part of the long explanation text will be sent automatically.
 
-At the first BBO session, you should :
-
-- open the data file using your favorite text editor (see section : 'Data file format')
-- select all text
-- copy it to the clipboard
-- press "Import" button on the BBO page 
-
 <b>Hint : if you wish to erase the previously imported data, you have to import through clipboard the bare keyword BBOalert</b>
 
 Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
-
-<b>See GettingStarted.pdf for basic operations.</b>
 
 'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.  
 
@@ -160,7 +156,7 @@ The file must begin with the header record :
    
 Where :
 
-- BBOalert is mandatory keyword
+- BBOalert is the mandatory keyword
 - <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import. HTML codes <br> (line break) and <b> (bold text) are allowed. Example :
    
       BBOalert,My System<br>Version <b>52</b>
