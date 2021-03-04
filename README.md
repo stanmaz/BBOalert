@@ -20,7 +20,7 @@ Thereafter you can decide to use advanced features if needed:
 - Full Disclosure BSS file support
 - add custom features using Javascript
 
-If you like this tool, join the BBOalert users community on Facebook 
+If you you decide to use BBOalert, join the users community on Facebook 
 
    https://www.facebook.com/groups/706384146770707/
 
