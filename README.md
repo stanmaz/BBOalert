@@ -85,7 +85,7 @@ The purpose of the buttons on the blue panel is :
 - <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
 - <b>Shortcuts</b> : enable button shortcuts
 
-You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](GettingStarted.pdf).
+You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
 ## How to use
 
