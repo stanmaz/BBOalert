@@ -157,7 +157,7 @@ The file must begin with the header record :
 Where :
 
 - BBOalert is the mandatory keyword
-- <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import. HTML codes <br> (line break) and <b> (bold text) are allowed. Example :
+- <user text> is optional free text. Typically used to express the version of the data. It will be displayed after data import. HTML codes \<br> (line break) and \<b> (bold text) are allowed. Example :
    
       BBOalert,My System<br>Version <b>52</b>
 
