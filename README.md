@@ -1,10 +1,10 @@
 # BBOalert
 
-Version : 5.1.1.1
+Version : 5.1.1.2
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
-All you need in the beginning, is to install BBOalert and play normally. BBOalert will :
+<b>All you need in the beginning, is to install BBOalert and play normally</b>. BBOalert will :
 - record alerted calls
 - alert automatically the recorded calls
 
@@ -22,7 +22,11 @@ If you like this tool, join the BBOalert users community on Facebook
 
    https://www.facebook.com/groups/706384146770707/
 
-Facebook should be used to report bugs and to propose enhancements.
+Facebook should be used to :
+
+- report bugs
+- propose enhancements
+- ask questions
 
 We assume that you are familiar with BBO.
 
@@ -60,6 +64,7 @@ If you discover a serious bug in the program :
 - follow this link to revert to previous version
 
    - Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert/versions
+   - Chrome : see [installing Chrome extension from ZIP file](./oldChromeVersions)
  
 After you start BBO, the screen should look like this (note red/blue panel at the right) :
 
@@ -80,13 +85,13 @@ The purpose of the buttons on the blue panel is :
 - <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
 - <b>Shortcuts</b> : enable button shortcuts
 
-You will find detailed information later in this text. 
+You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](GettingStarted.pdf).
 
 ## How to use
 
-The data should be stored in a CSV-formatted text file (CSV = Comma-Separated Value).
+The BBOalert data should be stored in a CSV-formatted text file (CSV = Comma-Separated Value).
 
-BBOalert uses the clipboard to read this file and to export eventual updates.
+BBOalert uses the clipboard to read this file and to export eventual updates. To read the data
 
 BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
 
