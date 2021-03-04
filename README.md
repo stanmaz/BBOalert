@@ -4,7 +4,8 @@ Version : 5.1.1.2
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
-<b>All you need in the beginning, is to install BBOalert and play normally</b>. BBOalert will :
+<b>All you need in the beginning, is to install BBOalert and play normally</b>.BBOalert will :
+
 - record alerted calls
 - alert automatically the recorded calls
 
