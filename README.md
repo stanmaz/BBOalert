@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 5.1.1.2
+Version : 6.0
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -576,6 +576,157 @@ This convention card together with the BBOalert data will become available for y
 - open the convention card for editing
 - press "Send to BBOalert"
 
+### Dropbox support
+
+BBOalert allows to store ASCII data on Dropbox and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data.
+
+Dropbox has been chosen because it is technically best suited for this task. It is also available to everyone at no cost.
+
+#### Scripts
+
+Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
+
+    //Script,onAnyMutation,LARGE_BIDDING_BOX();
+    //Javascript,https://www.dropbox.com/.../1ppx4.../LARGE_BIDDING_BOX.js...
+
+The link must be public :
+- click at three-dots associated with the file in Dropbox
+- Click “Create link”
+- click “Copy link”
+- paste the copied link into the Javascript record
+- 
+This procedure is to be applied for larger scripts and shared scripts. The published file should contain only Javascript code declaring global functions. It can not be used to store the in-line script code.
+
+Storing scripts in Dropbox has two advantages :
+
+- Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
+- Published scripts can be shared with others
+
+#### BBOalert data
+
+Your data can be split in separate ASCII text files published thru Dropbox in the same way as Javascript code.
+
+Each piece of data can be loaded into BBOalert with the Import statement as follows :
+
+    Import,<file URL>
+    
+Hierarchical nesting of linked files is allowed (Each file may contain a link to another file)
+
+In extreme case one can define locally the whole bidding system with only two lines of code as in the example of our system :
+
+    BBOalert
+    Import,https://www.dropbox.com/s/sq695s6zca9fuzj/wholeSystem.txt...
+
+The rest of the data will be loaded by following the link above.
+
+Handling a large data file is not easy and subdividing it into smaller linked pieces is a great help. This enables collaborative editing and easy sharing of effort. Each module can represent a convention that can be published within the users group on Facebook and reused by others.
+
+#### Options
+
+Modularity can lead to the fragmentation of options. If two or more options are defined with the same label, they are all concatenated inside of BBOalert. But if you want to define partnership, you have to do with the first occurrence of an option. This way empty options can be declared in the beginning of the data. The code for each option can be provided later in the file not necessary in the same order. Example of a construct :
+
+    Option,A,me+partner1
+    Option,B,me+partner2
+    Option,C
+    Option
+    ……..
+    Option,B
+    … code part 1 for option B
+    Option
+    ………
+    Option,A
+    … code for option A
+    Option
+    ……..
+    Option,B
+    … code part 2 for option B
+    Option
+
+#### Support for the generic BBO convention card
+
+The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software strips new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
+
+This problem can be solved by using underscore characters instead of spaces. BBOalert replaces then underscores by non-breaking spaces before saving data on the server. To be correctly displayed to the opponents each line of text should be approximately 25 to 40 characters long.
+
+The BBO convention card editor is not easy to use. With BBOalert the CC text can be prepared in advance and included in the data in the format :
+
+    CC,<fieldID>,<text>
+
+Then :
+
+- Import your data that includes the CC records from the clipboard (the CC should not be defined in the file dynamically imported from Dropbox)
+- Select Account tab
+- Select Convention Cards
+- Select any of the existing CC templates listed above
+- Press Edit
+- Press “Get from BBOalert”
+- Set the BBO userid of your partner and press Save
+
+You can use this template to prepare your data (hint : set the keyboard to overstrike mode to preserve text line length). The field ID’s are self explanatory.
+
+    bboalert
+    CC,summary,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,ntopen,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,majoropen,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,minoropen,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,level2open,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,other,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,doubles,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,ntocalls,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,socalls,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,over1nt,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,jocalls,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,overtox,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,directq,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,slam,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+    CC,carding,\
+    Line_1__________________________________\n\
+    Line_1__________________________________\n\
+    Line_3
+
+
 ## Release notes 
 
 ### Version 2.10
@@ -719,4 +870,8 @@ New feature :
 Bug fix : 
 - updated to the new BBO user interface
 
+## Version 6.0
 
+New features :
+- support for Dropbox data storage and sharing for alerts and scripts
+- convention card text import
