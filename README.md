@@ -395,6 +395,25 @@ In this example three separated groups of options are created.
 
 Options can contain also other types of records (Shortcut, Button, Trusted, Untrusted, Script, Alias). Those records will be active only if the option is enabled.
 
+Fragmentation of options is allowed. If two or more options are defined with the same label, they are all concatenated inside of BBOalert. But if you want to define partnership, you have to do with the first occurrence of an option. This way empty options can be declared in the beginning of the data. The code for each option can be provided later in the file not necessary in the same order. Example of a construct :
+
+    Option,A,me+partner1
+    Option,B,me+partner2
+    Option,C
+    Option
+    ……..
+    Option,B
+    … code part 1 for option B
+    Option
+    ………
+    Option,A
+    … code for option A
+    Option
+    ……..
+    Option,B
+    … code part 2 for option B
+    Option
+
 ### Partnership options
 
 Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. When two user-id's separated by a + are specified with an option and both players are present, the option is activated automatically. Sample data :
@@ -622,26 +641,6 @@ The rest of the data will be loaded by following the link above.
 
 Handling a large data file is not easy and subdividing it into smaller linked pieces is a great help. This enables collaborative editing and easy sharing of effort. Each module can represent a convention that can be published within the users group on Facebook and reused by others.
 
-#### Options
-
-Modularity can lead to the fragmentation of options. If two or more options are defined with the same label, they are all concatenated inside of BBOalert. But if you want to define partnership, you have to do with the first occurrence of an option. This way empty options can be declared in the beginning of the data. The code for each option can be provided later in the file not necessary in the same order. Example of a construct :
-
-    Option,A,me+partner1
-    Option,B,me+partner2
-    Option,C
-    Option
-    ……..
-    Option,B
-    … code part 1 for option B
-    Option
-    ………
-    Option,A
-    … code for option A
-    Option
-    ……..
-    Option,B
-    … code part 2 for option B
-    Option
 
 #### Support for the generic BBO convention card
 
