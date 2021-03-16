@@ -7,7 +7,7 @@ class BBOalertData {
         this.alertTableCursor = 0;
         this.matchOption = true;
         this.aliasList = [];
-        this.trimOn = false;
+        this.trimOn = true;
     }
     setData(text) {
         alertData = text;
@@ -27,7 +27,7 @@ class BBOalertData {
         this.alertTableCursor = 0;
         this.matchOption = true;
         this.aliasList = [];
-        this.noTrim = false;
+        this.trimOn = true;
     }
     addAlias(r) {
         this.aliasList.push(r);
@@ -67,7 +67,11 @@ class BBOalertData {
         // Concatenate records ending with backslash
         while (txt.endsWith('\\')) {
             this.alertTableCursor++;
-            txt = txt.slice(0, txt.length - 1) + alertTable[this.alertTableCursor].trim();
+            if (this.trimOn) {
+                txt = txt.slice(0, txt.length - 1) + alertTable[this.alertTableCursor].trim();
+            } else {
+                txt = txt.slice(0, txt.length - 1) + alertTable[this.alertTableCursor];
+            }
             if (this.alertTableCursor >= alertTable.length) return txt;
         }
         this.alertTableCursor++;

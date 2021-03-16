@@ -2,7 +2,13 @@
 	"manifest_version": 2,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "5.1.1.1",
+	"version": "6.0",
+	"permissions": [
+		"webRequest",
+		"<all_urls>",
+		"clipboardRead",
+		"clipboardWrite"
+	],
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",
@@ -14,9 +20,13 @@
 				"*://www.bridgebase.com/v3/*",
 				"*://webutil.bridgebase.com/v2/*"
 			],
-			"css": ["BBOalert.css"],
+			"css": [
+				"BBOalert.css",
+				"jquery-ui.css"
+			],
 			"js": [ 
 				"jquery-3.5.1.min.js",
+				"jquery-ui.js",
 				"functions.js",
 				"BBOalertData.js",
 				"BBOobserver.js",

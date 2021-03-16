@@ -121,10 +121,6 @@ function onAnyMutation() {
 }
 
 function onBiddingBoxCreated() {
-    var ecc = getExplainCallBox();
-    if (ecc != null) {
-        dragElement(ecc);
-    }
     lastDealNumber = '';
     LHOpponent = '';
     RHOpponent = '';
@@ -172,6 +168,13 @@ function onNewActivePlayer() {
 }
 
 function onExplainCallDisplayed() {
+    getExplainCallBox().onkeyup = explainCallOnKeyup;
+    var e = getExplainCallInput();
+    if (e.onclick == null) {
+        e.onclick = function () {
+            toggleButtons(this);
+        };
+    }
     execUserScript('%onExplainCallDisplayed%');
 }
 
@@ -189,34 +192,42 @@ function onNavDivDisplayed() {
     setUI();
     addBBOalertTab();
     alertData = localStorage.getItem('BBOalertCache');
-    if (alertData == null) alertData = '';
-    alertTable = alertData.split("\n");
-    bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records from cache");
-    saveAlertTableToClipboard();
-    processTable();
+    alertOriginal = alertData;
     openAccountTab();
-    setTimeout(function () {
-        setOptions(true);
-    }, 200);
-    var elMessage = getChatInput();
-    elMessage.onkeyup = messageOnKeyup;
-    if (elMessage.onclick == null) {
-        elMessage.onclick = function () {
-            toggleButtons(this);
-        };
-    }
-    setChatInputClickEvents();
-    setControlButtonEvents();
-    setPageReload();
-    setTabEvents();
-    partnershipOptions();
-    execUserScript('%onLogin%');
+    setOptions(true);
+    bboalertLog(version + "<br>Reading data<br>");
+    setTimeout(() => {
+        updateAlertDataAsync(alertOriginal, function () {
+            if (alertData == null) alertData = '';
+            alertTable = alertData.split("\n");
+            saveAlertTableToClipboard();
+            processTable();
+            addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records from cache");
+            var elMessage = getChatInput();
+            elMessage.onkeyup = messageOnKeyup;
+            if (elMessage.onclick == null) {
+                elMessage.onclick = function () {
+                    toggleButtons(this);
+                };
+            }
+            setChatInputClickEvents();
+            setControlButtonEvents();
+            setPageReload();
+            setTabEvents();
+            partnershipOptions();
+            setTimeout(function () {
+                setOptions(true);
+            }, 200);
+            execUserScript('%onLogin%');
+        });
+    }, 500);
 }
 
 function onNavDivHidden() {
     setButtonPanel(false);
     setOptionsOff();
     initGlobals();
+    localStorage.setItem('BBOalertCache', alertOriginal);
     execUserScript('%onLogoff%');
 }
 

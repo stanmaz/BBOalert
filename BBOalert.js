@@ -30,12 +30,27 @@ const DATABEGIN = '⬛';
 function receiveMessageCC(event) {
 	if (event.origin != 'https://www.bridgebase.com') return;
 	if (event.data.length == 0) return;
+	alertData = event.data;
+	alertTable = alertData.split('\n');
+	var scan = new BBOalertData();
+	scan.trimOn = false;
+	var txt = '';
+	while ((txt = scan.getNextRecord()) != null) {
+		var rec = txt.split(",");
+		if (rec.length < 3) continue;
+		if (rec[0].trim() == 'CC') {
+			var el = document.getElementById(rec[1].trim());
+			var s = rec[2].split(/\\n/).join('\n');
+			el.value = s;
+			$(el).trigger("change");
+		}
+	}
 	// BBOalert data is appended to the Carding field
 	var tac = document.getElementById('carding');
 	if (tac == null) return;
 	var idb = tac.value.indexOf(DATABEGIN);
 	if (idb == -1) idb = tac.value.length;
-	tac.value = tac.value.slice(0, idb) + DATABEGIN + stringToCC(event.data);
+	tac.value = tac.value.slice(0, idb) + "\n" + DATABEGIN + stringToCC(event.data);
 	var eventInput = new Event('input');
 	tac.dispatchEvent(eventInput);
 	var sb = document.getElementById('saveButton');
@@ -52,19 +67,26 @@ function receiveMessageBBO(event) {
 	if (event.origin != 'https://webutil.bridgebase.com') return;
 	// Send alert data to the CC page on import request 
 	if (event.data == 'Import') {
-		event.source.postMessage(alertData, event.origin);
+		event.source.postMessage(alertOriginal, event.origin);
 		// Otherwise the message from Convention Card page is considered BBOalert data
 	} else {
 		try {
 			if (event.data.length == 0) return;
 			alertData = event.data;
-			alertTable = alertData.split("\n");
-			bboalertLog(version + " : " + getBBOalertHeaderMsg() + alertTable.length + " records from CC");
-			saveAlertTableToClipboard();
-			processTable();
-			setTimeout(function () {
-				setOptions(true);
-			}, 200);
+			alertOriginal = alertData;
+			bboalertLog(version + "<br>Reading data<br>");
+			setTimeout(() => {
+				updateAlertDataAsync(alertOriginal, function () {
+					if (alertData == null) alertData = 'BBOalert\n';
+					alertTable = alertData.split("\n");
+					saveAlertTableToClipboard();
+					processTable();
+					addBBOalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records from cache");
+					setTimeout(function () {
+						setOptions(true);
+					}, 200);
+				});
+			}, 1000);
 		} catch {}
 	}
 
@@ -86,6 +108,16 @@ function CC2BBOalert() {
 	var idb = tac.value.indexOf(DATABEGIN);
 	if (idb == -1) return;
 	window.parent.postMessage(CCtoString(tac.value.slice(idb + 1)), '*');
+}
+
+function replaceUnderscoreOnCC() {
+	var ccd = document.getElementById('ccDiv');
+	var tas = ccd.querySelectorAll('textarea');
+	var fs = "\u2007";
+	for (var i = 0; i < tas.length; i++) {
+		tas[i].value = tas[i].value.replace(/_/g, fs);
+		$(tas[i]).trigger("change");
+	}
 }
 
 /**
@@ -121,6 +153,7 @@ function addCCbuttons() {
 	d.appendChild(bc2);
 	var sb = document.getElementById('saveButton');
 	if (sb == null) return;
+	sb.onmousedown = replaceUnderscoreOnCC;
 	md.insertBefore(d, ccd);
 }
 
@@ -142,7 +175,7 @@ function saveAlertTableToClipboard() {
 		txt = txt + alertTable[i] + '\n';
 	}
 	//	writeToClipboard(txt);
-	localStorage.setItem('BBOalertCache', alertData);
+	localStorage.setItem('BBOalertCache', alertOriginal);
 }
 
 /**
@@ -155,7 +188,7 @@ function exportAlertData() {
 		txt = txt + alertTable[i] + '\n';
 	}
 	writeToClipboard(txt);
-	localStorage.setItem('BBOalertCache', alertData);
+	localStorage.setItem('BBOalertCache', alertOriginal);
 	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records exported to clipboard");
 }
 
@@ -210,6 +243,19 @@ function setScriptList() {
 			}
 		} else {
 			if (scriptText != '') scriptText = scriptText + "\n" + txt;
+		}
+	}
+}
+
+/**
+ * @ignore
+ */
+function loadJavascript() {
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
+		var rec = txt.split(",");
+		if ((rec[0].trim() == 'Javascript') || (rec[0].trim() == '//Javascript')) {
+			loadJS(rec[1].trim());
 		}
 	}
 }
@@ -304,6 +350,7 @@ function processTable() {
 	initOptionDefaults();
 	clearShortcutButtons();
 	setShortcutButtons();
+	loadJavascript();
 	setScriptList();
 	saveAlertTableToClipboard();
 	execUserScript('%onDataLoad%');
@@ -326,21 +373,41 @@ function getClipboardData(newData) {
 			updateText = "";
 			updateCount = 0;
 			alertData = cbData;
-			if (!alertData.endsWith("\n"))
-				alertData = alertData + "\n";
-			alertTable = alertData.split("\n");
-			bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records imported");
+			alertOriginal = alertData;
+			bboalertLog("Reading data");
+			bboalertLog(version + "<br>Reading data<br>");
+			setTimeout(() => {
+				updateAlertDataAsync(alertOriginal, function () {
+					if (alertData == null) alertData = 'BBOaler\n';
+					alertTable = alertData.split("\n");
+					saveAlertTableToClipboard();
+					processTable();
+					addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records imported");
+					setTimeout(function () {
+						setOptions(true);
+					}, 200);
+				});
+			}, 1000);
 		} else {
 			alertData = alertData + cbData;
-			if (!alertData.endsWith("\n"))
-				alertData = alertData + "\n";
-			alertTable = alertData.split("\n");
-			bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + cbData.split("\n").length + " records appended");
+			alertOriginal = alertData;
+			bboalertLog("Reading data");
+			bboalertLog(version + "<br>Reading data<br>");
+			setTimeout(() => {
+				updateAlertDataAsync(alertOriginal, function () {
+					if (alertData == null) alertData = 'BBOalert\n';
+					alertTable = alertData.split("\n");
+					saveAlertTableToClipboard();
+					processTable();
+					addBBOalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records imported");
+					setTimeout(function () {
+						setOptions(true);
+					}, 200);
+				});
+			}, 1000);
 		}
 		clearOptionButtons();
-		if (getDataType(cbData) == 'BBOalert') {
-			processTable();
-		} else {
+		if (getDataType(cbData) == 'BBOalert') {} else {
 			lvls = "1234567";
 			suits = "CDHSN";
 			alertTable.sort();
@@ -650,21 +717,21 @@ function execUserScript(txt) {
  * @ignore
  */
 function getAlert() {
-	var eventInput = new Event('input');
 	if (buttonOKvisible()) clearAlert();
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	var alertText = findAlert(getContext(), callText);
 	alertText = execUserScript(alertText);
 	var exp = alertText.split('#');
-	eventInput = new Event('input');
+	var eventInput = new Event('input');
 	if (elAlertExplain.value.trim() == '') {
 		elAlertExplain.value = exp[0];
-		elAlertExplain.dispatchEvent(eventInput);
+		elAlertExplain.dispatchEvent(new Event('input'));
 	} else {
 		saveAlert();
 	}
-	elAlertExplain.dispatchEvent(eventInput);
+	eventInput = new Event('input');
+	elAlertExplain.dispatchEvent(new Event('input'));
 	if (exp.length > 1) {
 		setChatMessage(exp[1]);
 		setTimeout(function () {
@@ -694,6 +761,7 @@ function saveAlert() {
 		alertTable.push(newrec);
 		updateText = updateText + newrec + '\n';
 		alertData = alertData + newrec + '\n';
+		alertOriginal = alertOriginal + newrec + '\n';
 		updateCount++;
 		saveAlertTableToClipboard();
 	}
@@ -719,6 +787,7 @@ function savePostMortem() {
 	alertTable.push(newrec);
 	updateText = updateText + newrec + '\n';
 	alertData = alertData + newrec + '\n';
+	alertOriginal = alertOriginal + newrec + '\n';
 	updateCount++;
 	saveAlertTableToClipboard();
 }

@@ -1,5 +1,6 @@
 // Global variables
 var alertData = "";
+var alertOriginal = "";
 var alertTable = alertData.split("\n");
 
 function getBBOalertHeaderMsg() {
@@ -16,14 +17,12 @@ function getBBOalertHeaderMsg() {
  * @ignore
  */
 function stringToCC(s) {
-	if (s == undefined) return '';
-	if (s == null) return '';
-	if (s == '') return '';
-	var ref = s.replace(/\n/g, '←');
-	ref = ref.replace(/\t/g, '→');
-	ref = ref.replace(/!/g, '↓');
-	ref = ref.replace(/ /g, '…');
-	return ref;
+	ref = shiftChars(s, 256);
+	var t = '';
+	for (i = 0; i < ref.length; i = i + 30) {
+		t = t + '\n' + ref.substr(i, 30);
+	}
+	return t;
 }
 
 /**
@@ -33,10 +32,15 @@ function CCtoString(s) {
 	if (s == undefined) return '';
 	if (s == null) return '';
 	if (s == '') return '';
-	var ref = s.replace(/←/g, '\n');
-	ref = ref.replace(/→/g, '\t');
-	ref = ref.replace(/↓/g, '!');
-	ref = ref.replace(/…/g, ' ');
+	var ref = s.replace(/ /g, '');
+	if (getDataType(s) == 'BBOalert') {
+		ref = ref.replace(/←/g, '\n');
+		ref = ref.replace(/→/g, '\t');
+		ref = ref.replace(/↓/g, '!');
+		ref = ref.replace(/…/g, ' ');
+	} else {
+		return shiftChars(ref, -256);
+	}
 	return ref;
 }
 
@@ -58,7 +62,6 @@ function userScript(S, CR, C, BR, B) {
 		addLog('Error in script');
 		addLog(error);
 		addLog(S);
-		bboalertLog("Error in script" + '<br>' + error + '<br>' + S);
 		return 'ERROR';
 	}
 }
@@ -738,7 +741,7 @@ function getNow(secs) {
  */
 function elimine2Spaces(str) {
 	var s = str.replace(/\t+/g, ' ');
-	s = s.replace(/\s\s+/g, ' ');
+	s = s.replace(/\u0020\u0020+/g, ' ');
 	return s;
 }
 
@@ -754,8 +757,7 @@ function elimineSpaces(str) {
  * @ignore
  */
 function readFromClipboard() {
-	navigator.clipboard.readText().then((cbData) => {
-	});
+	navigator.clipboard.readText().then((cbData) => {});
 }
 
 /**
@@ -1180,7 +1182,6 @@ function clearOptionsSelector() {
 function setControlButtons() {
 	var adPanel = document.getElementById("adpanel1");
 	if (adPanel == null) return false;
-	//	addBBOalertButton();
 	if (adPanel.querySelector('#bboalert-b1') == null) {
 		var b3 = document.createElement("button");
 		b3.textContent = "Import";
@@ -1248,9 +1249,13 @@ function bboalertLog(txt) {
 	var p1 = document.getElementById('bboalert-p1');
 	if (p1 == null) return;
 	p1.innerHTML = '';
-	setTimeout(function () {
-		p1.innerHTML = txt;
-	}, 300);
+	p1.innerHTML = txt;
+}
+
+function addBBOalertLog(txt) {
+	var p1 = document.getElementById('bboalert-p1');
+	if (p1 == null) return;
+	p1.innerHTML = p1.innerHTML + txt;
 }
 
 /**
@@ -1281,8 +1286,8 @@ function setAdPanel() {
 	optionsSelector.id = 'bboalert-ds';
 	optionsSelector.style.width = "100%";
 	optionsSelector.style.fontSize = "16px";
-	optionsSelector.add(new Option('Show-All'));
-	optionsSelector.add(new Option('Show-None'));
+	optionsSelector.add(new Option('Options-All'));
+	optionsSelector.add(new Option('Options-None'));
 	adPanel.appendChild(optionsSelector);
 	adPanel0.appendChild(adPanel);
 
@@ -1359,7 +1364,7 @@ function clearAlert() {
 	elAlertExplain.value = "";
 	eventInput = new Event('input');
 	elAlertExplain.dispatchEvent(eventInput);
-};
+}
 
 /**
  * @ignore
@@ -1385,6 +1390,22 @@ function checkOption(r) {
 /**
  * @ignore
  */
+function findOption(lbl) {
+	adPanel = document.getElementById("adpanel");
+	if (adPanel == null) {
+		return -1;
+	}
+	var btns = adPanel.querySelectorAll('button');
+	if (btns == null) return;
+	for (var i = 0; i < btns.length; i++) {
+		if (btns[i].textContent == lbl) return i;
+	}
+	return -1;
+}
+
+/**
+ * @ignore
+ */
 function setOptionColor(bt) {
 	if (bt.optionSelected && bt.optionValid) bt.style.backgroundColor = "lightgreen";
 	if (bt.optionSelected && !bt.optionValid) bt.style.backgroundColor = "lightgray";
@@ -1399,6 +1420,7 @@ function addOptionButton(lbl) {
 	if (lbl == '') return;
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
+	if (findOption(lbl.split(',')[1].trim()) != -1) return;
 	var bt = document.createElement("button");
 	bt.textContent = lbl.split(',')[1].trim();
 	bt.id = lbl;
@@ -2046,25 +2068,179 @@ function getAuctionBox() {
 	return $('bridge-screen .auctionBoxClass')[0];
 }
 
-function loadScript(url, callback){
+function loadJS(url) {
+	console.log('Load JS ' + url);
+	fetch(url.replace("www.dropbox.com", "dl.dropbox.com"))
+		.then(x => x.text())
+		.then(y => {
+			eval(y);
+		})
+		.catch(error => console.log("Erreur : " + error));
+}
 
-    var script = document.createElement("script")
-    script.type = "text/javascript";
+function updateAlertDataAsync(at, callback) {
+	function findURL(url, parent) {
+		var idx = parent;
+		if (parent == -1) return false;
+		while (idx != -1) {
+			if (urls[idx] == url) return true;
+			idx = parents[idx];
+		}
+		return false;
+	}
 
-    if (script.readyState){  //IE
-        script.onreadystatechange = function(){
-            if (script.readyState == "loaded" ||
-                    script.readyState == "complete"){
-                script.onreadystatechange = null;
-                callback();
-            }
-        };
-    } else {  //Others
-        script.onload = function(){
-            callback();
-        };
+	function addrecs(txt, to, parent) {
+		if (txt != null) {
+			var ti = txt.split('\n');
+			ti.forEach((element) => {
+				var r = element.split(',');
+				var last = to.length;
+				to.push(element);
+				if (r[0].trim() == 'Import') {
+					var url = r[1].trim();
+					if (findURL(url, parent)) {
+						console.log('Error : circular reference :');
+						console.log('to  ' + url);
+						console.log('in  ' + urls[parent]);
+					} else {
+						console.log('Reading ' + url);
+						urls.push(url);
+						parents.push(parent);
+						var myIdx = urls.length - 1;
+						pending++;
+						fetch(url.replace("www.dropbox.com", "dl.dropbox.com"))
+							.then(x => x.text())
+							.then(data => {
+								console.log('Done    ' + url);
+								if (data != '') {
+									to[last] = [];
+									addrecs(data, to[last], myIdx);
+								}
+							})
+							.catch(error => {
+								console.log('Error  ' + error + ' ' + url);
+								addBBOalertLog('<br>Error<br>' + error + ' ' + url);
+								addBBOalertLog('<br>Export Log<br>');
+								to[last] = [];
+								addrecs(('Error\n' + error + ' ' + url), to[last]);
+
+							});
+					}
+				}
+			});
+		}
+		pending--;
+		if (pending == 0) {
+			console.timeEnd("Read time");
+			console.log('Total ' + tab.flat(999).length + ' records');
+			alertData = tab.flat(999).join('\n');
+			callback();
+		}
+	}
+	var tab = [];
+	var urls = [];
+	var parents = [];
+	var pending = 1;
+	console.time("Read time");
+	addrecs(at, tab, -1);
+	//    return tab.flat(999).join('\n');
+}
+
+
+String.prototype.compress = function (asArray) {
+	"use strict";
+	// Build the dictionary.
+	asArray = (asArray === true);
+	var i,
+		dictionary = {},
+		uncompressed = this,
+		c,
+		wc,
+		w = "",
+		result = [],
+		ASCII = '',
+		dictSize = 256;
+	for (i = 0; i < 256; i += 1) {
+		dictionary[String.fromCharCode(i)] = i;
+	}
+
+	for (i = 0; i < uncompressed.length; i += 1) {
+		c = uncompressed.charAt(i);
+		wc = w + c;
+		//Do not use dictionary[wc] because javascript arrays
+		//will return values for array['pop'], array['push'] etc
+	   // if (dictionary[wc]) {
+		if (dictionary.hasOwnProperty(wc)) {
+			w = wc;
+		} else {
+			result.push(dictionary[w]);
+			ASCII += String.fromCharCode(dictionary[w]);
+			// Add wc to the dictionary.
+			dictionary[wc] = dictSize++;
+			w = String(c);
+		}
+	}
+
+	// Output the code for w.
+	if (w !== "") {
+		result.push(dictionary[w]);
+		ASCII += String.fromCharCode(dictionary[w]);
+	}
+	return asArray ? result : ASCII;
+};
+
+String.prototype.decompress = function () {
+	"use strict";
+	// Build the dictionary.
+	var i, tmp = [],
+		dictionary = [],
+		compressed = this,
+		w,
+		result,
+		k,
+		entry = "",
+		dictSize = 256;
+	for (i = 0; i < 256; i += 1) {
+		dictionary[i] = String.fromCharCode(i);
+	}
+
+	if(compressed && typeof compressed === 'string') {
+		// convert string into Array.
+		for(i = 0; i < compressed.length; i += 1) {
+			tmp.push(compressed[i].charCodeAt(0));
+		}
+		compressed = tmp;
+		tmp = null;
+	}
+
+	w = String.fromCharCode(compressed[0]);
+	result = w;
+	for (i = 1; i < compressed.length; i += 1) {
+		k = compressed[i];
+		if (dictionary[k]) {
+			entry = dictionary[k];
+		} else {
+			if (k === dictSize) {
+				entry = w + w.charAt(0);
+			} else {
+				return null;
+			}
+		}
+
+		result += entry;
+
+		// Add w+entry[0] to the dictionary.
+		dictionary[dictSize++] = w + entry.charAt(0);
+
+		w = entry;
+	}
+	return result;
+};
+
+function shiftChars(s, d) {
+    var s1 = s.split('');
+    for (var i = 0; i < s1.length; i++) {
+        s1[i] = String.fromCharCode(s1[i].charCodeAt(0) + d);
     }
-
-    script.src = url;
-    document.getElementsByTagName("head")[0].appendChild(script);
+    return s1.join('');
 }
