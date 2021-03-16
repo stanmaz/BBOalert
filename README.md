@@ -615,7 +615,7 @@ Hierarchical nesting of linked files is allowed (Each file may contain a link to
 In extreme case one can define locally the whole bidding system with only two lines of code as in the example of our system :
 
     BBOalert
-    Import,https://www.dropbox.com/s/sq695s6zca9fuzj/wholeSystem.txt...
+    Import,https://www.dropbox.com/s/sq695s6zca9fuzj/wholeSystem.txt?dl=0
 
 The rest of the data will be loaded by following the link above.
 
