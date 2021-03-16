@@ -587,9 +587,10 @@ Dropbox has been chosen because it is technically best suited for this task. It 
 Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
 
     //Script,onAnyMutation,LARGE_BIDDING_BOX();
-    //Javascript,https://www.dropbox.com/.../1ppx4.../LARGE_BIDDING_BOX.js...
-
+    //Javascript,https://www.dropbox.com/s/1ppx4xeebvzagm9/LARGE_BIDDING_BOX.js?dl=0
+    
 The link must be public :
+
 - click at three-dots associated with the file in Dropbox
 - Click “Create link”
 - click “Copy link”
