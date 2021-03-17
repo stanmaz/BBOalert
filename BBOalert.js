@@ -374,20 +374,22 @@ function getClipboardData(newData) {
 			updateCount = 0;
 			alertData = cbData;
 			alertOriginal = alertData;
-			bboalertLog("Reading data");
-			bboalertLog(version + "<br>Reading data<br>");
-			setTimeout(() => {
-				updateAlertDataAsync(alertOriginal, function () {
-					if (alertData == null) alertData = 'BBOaler\n';
-					alertTable = alertData.split("\n");
-					saveAlertTableToClipboard();
-					processTable();
-					addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records imported");
-					setTimeout(function () {
-						setOptions(true);
-					}, 200);
-				});
-			}, 1000);
+			if (getDataType(cbData) == 'BBOalert') {
+				bboalertLog("Reading data");
+				bboalertLog(version + "<br>Reading data<br>");
+				setTimeout(() => {
+					updateAlertDataAsync(alertOriginal, function () {
+						if (alertData == null) alertData = 'BBOaler\n';
+						alertTable = alertData.split("\n");
+						saveAlertTableToClipboard();
+						processTable();
+						addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records imported");
+						setTimeout(function () {
+							setOptions(true);
+						}, 200);
+					});
+				}, 1000);
+			}
 		} else {
 			alertData = alertData + cbData;
 			alertOriginal = alertData;
@@ -410,6 +412,8 @@ function getClipboardData(newData) {
 		if (getDataType(cbData) == 'BBOalert') {} else {
 			lvls = "1234567";
 			suits = "CDHSN";
+			alertTable = alertData.split("\n");
+			alertOriginal = alertData;
 			alertTable.sort();
 			optionPrefix = 'Opening';
 			option = '00';
@@ -502,8 +506,9 @@ function getClipboardData(newData) {
 				}
 			}
 			alertData = updateText;
+			alertOriginal = alertData;
 			processTable();
-			bboalertLog(version + "<br>" + alertTable.length + " records imported");
+			bboalertLog(version + "<br>" + alertTable.length + " BSS records imported");
 			updateText = "";
 			updateCount = 0;
 		}

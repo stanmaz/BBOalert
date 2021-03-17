@@ -7,6 +7,7 @@ function getBBOalertHeaderMsg() {
 	try {
 		var r = alertTable[0].split(',')[1];
 		if (r == undefined) return '';
+		if (alertTable[0].toUpperCase().indexOf('BBOALERT') == -1) return '';
 		return ' ' + r.trim() + ' ';
 	} catch {
 		return '';
