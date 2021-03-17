@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 6.0
+Version : 6.0.1
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
