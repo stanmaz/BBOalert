@@ -5,6 +5,7 @@
 //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
+//Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -129,12 +130,12 @@ window.stanmazLib = {
     SPEAK_TEXT: function (txt) {
         if (txt == '') return;
         var msg = new SpeechSynthesisUtterance();
-        msg.text = txt;
+        msg.text = this.TEXT2SPEAK(txt);
         window.speechSynthesis.speak(msg);
     },
         
     TEXT2SPEAK: function (txt) {
-        if (txt.length > 2) return txt;
+        if (txt.length != 2) return txt;
         if (txt == '') return;
         if (txt == "Db") return "double";
         if (txt == "Rd") return "redouble";
