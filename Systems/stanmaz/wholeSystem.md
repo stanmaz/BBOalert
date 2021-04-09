@@ -7,19 +7,19 @@
     //Script,onAnyMutation,DEAL_TOOLBAR_RIGHT();
     //Script,onAnyMutation,HOVER_BBOALERT_TAB();
 
-    Import,https://www.dropbox.com/s/4dou063htjohz1z/my_scripts.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/my_scripts.md
 
     Option,Lang EN
-    Import,https://www.dropbox.com/s/qyufot6ais3gn1z/lang_en.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/lang_en.md
     Option,Lang FR
-    Import,https://www.dropbox.com/s/ujx70nb6b3y57v6/lang_fr.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/lang_fr.md
     Option,Lang PL
-    Import,https://www.dropbox.com/s/fuhi29db32ty4qi/lang_pl.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/lang_pl.md
 
 
     Option,MySystem
-    Import,https://www.dropbox.com/s/6kw4gs5owe05o8u/my_system.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/my_system.md
 
-    Import,https://www.dropbox.com/s/qg7za6yhjmn18a8/overcalls.md?dl=0
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/overcalls.md
 
     Option,Updates
