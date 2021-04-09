@@ -1,11 +1,11 @@
     //BBOalert
 
-    //Javascript,https://www.dropbox.com/s/35kscxd4lrc23gc/DEAL_TOOLBAR_RIGHT.js?dl=0
-    //Javascript,https://www.dropbox.com/s/f3rm9dh0gppsw6h/HOVER_BBOALERT_TAB.js?dl=0
-    //Javascript,https://www.dropbox.com/s/1ppx4xeebvzagm9/LARGE_BIDDING_BOX.js?dl=0
+    //Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/stanmazLib.js
 
-    //Script,onAnyMutation,DEAL_TOOLBAR_RIGHT();
-    //Script,onAnyMutation,HOVER_BBOALERT_TAB();
+    //Script,onDataLoad,stanmazLib.HOVER_BBOALERT_TAB(true);
+    //Script,onAnyMutation,stanmazLib.CARD_COLORS(true);
+    //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
+    //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 
     Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/my_scripts.md
 
