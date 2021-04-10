@@ -6,6 +6,7 @@
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
 //Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
+//Script,onNewDeal,stanmazLib.SPEAK_TEXT(stanmazLib.BOARD_TEXT());
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -151,13 +152,13 @@ window.stanmazLib = {
           return (txt + "o trump");
       } else if ((txt.slice(0, 1) >= "2") && (txt.slice(0, 1) <= "7")) txt1 = txt1 + "s";
       return txt1;
+  },
+
+  BOARD_TEXT: function () {
+    var txt = 'Board  ' + getDealNumber();
+    if (areWeVulnerable() == "@v") txt = txt + " vulnerable";
+    if (areTheyVulnerable() == "@V") txt = txt + " against vulnerable";
+    return txt;
   }
+
 };
-
-
-function BOARD_TEXT() {
-  var txt = 'Board  ' + getDealNumber();
-  if (areWeVulnerable() == "@v") txt = txt + " vulnerable";
-  if (areTheyVulnerable() == "@V") txt = txt + " against vulnerable";
-  return txt;
-}
