@@ -1,11 +1,11 @@
-bboalert## Opening 1H
+## Opening 1H
 
-	,	1H,		(16-19p balanced) or (12+p 5+!C) denies 4M
+	,	1H,		(16-19p balanced) or (12+p 5+!C) denies 4M 
 
 ### First response
 
-	1H__,		1S,		Relay 0-6p or 10+p
-	+,			1N,		Relay 7-9p
+	1H__,		1S,		Relay 7+p
+	+,			1N,		0-6p any shape
 	+,			2C,		Texas->!D undefined force
 	+,			2D,		Texas->!H undefined force
 	+,			2H,		Texas->!S undefined force
@@ -19,7 +19,7 @@ bboalert## Opening 1H
 
 ### Opener’s rebid after negative relay
 
-	1H--1S__,	1N,		16-19p balanced (5!C4!D2!H2!S possible)
+	1H--1N__,	--,		16-19p balanced (5!C4!D2!H2!S possible)
 	+,			2C,		11-19p 5+!C
 	+,			2D,		20-22 5!C5!D
 	+,			2H,		20-22p 5!C4!D3!H
@@ -34,7 +34,8 @@ bboalert## Opening 1H
 
 ### Opener’s rebid after positive relay
 
-	1H__1N__,	2C,		12-15p 6!C
+	1H__1S__,	1N,		16-19p balanced (5!C4!D2!H2!S possible)
+	+,			2C,		12-15p 6!C
 	+,			2D,		16+p balanced
 	+,			2H,		16+p 5+!C3!H
 	+,			2S,		16+p 5+!C3!S
@@ -47,8 +48,8 @@ bboalert## Opening 1H
 
 ### First response
 
-	1S__,		1N,		Relay 0-6p or 10+p
-	+,			2C,		Relay 7-9p
+	1S__,		1N,		Relay 7+p
+	+,			2C,		Relay 0-6p
 	+,			2D,		Texas->!H undefined force
 	+,			2H,		Texas->!S undefined force
 	+,			2S,		10-12p any 6 card suit with max 1.5 loser
@@ -61,8 +62,7 @@ bboalert## Opening 1H
 
 ### Opener's rebid after relay
 
-	1S__1N__,	2C,		12-19p 5!D4+!C
-	+,			2D,		12-19p 6!D
+	1S__2C__,	2D,		12-19p 5+!D
 	+,			2H,		20-22p 5!D4!C3!H
 	+,			2S,		20-22p 5!D4!C3!S
 	+,			2N,		20-22p 5!D4!C2!H2!S
@@ -73,7 +73,8 @@ bboalert## Opening 1H
 
 ### Opener’s rebid after positive relay
 
-	1S__2C__,	2D,		12-15p 5+!D
+	1S__1N__,	2C,		12-15p 5+!D4+!C
+	+,			2D,		12-15p 6+!D
 	+,			2H,		16+p 5+D3!H
 	+,			2S,		16+p 5+D3!S
 	+,			2N,		16-17p 5!D4!C2!H2!S
