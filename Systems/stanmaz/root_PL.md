@@ -85,4 +85,4 @@ CC,carding,\
 
 End of Convention card
 
-Import,https://www.dropbox.com/s/vfc504mnycujie8/wholeSystem.md?dl=0
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/wholeSystem.md
