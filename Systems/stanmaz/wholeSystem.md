@@ -1,5 +1,5 @@
 //BBOalert
-//Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Scripts/stanmazLib.js
+//Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/test.js
 //Script,onDataLoad,stanmazLib.HOVER_BBOALERT_TAB(true);
 //Script,onAnyMutation,stanmazLib.CARD_COLORS(true);
 //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
