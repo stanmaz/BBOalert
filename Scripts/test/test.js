@@ -11,6 +11,9 @@
 
 window.stanmazLib = {
 
+  MSG_RATE: 2,
+  MSG_PITCH: 2,
+
   HOVER_BBOALERT_TAB: function (on) {
       var t = document.getElementById('bboalert-tab');
       var rd = document.getElementById('rightDiv');
@@ -133,7 +136,7 @@ window.stanmazLib = {
       var msg = new SpeechSynthesisUtterance();
       msg.text = this.TEXT2SPEAK(txt);
       msg.lang = "en-US";
-      msg.rate = 2;
+      msg.rate = MSG_RATE;
       window.speechSynthesis.speak(msg);
   },
       
