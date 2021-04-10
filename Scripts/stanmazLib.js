@@ -5,7 +5,6 @@
 //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
-//Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -125,29 +124,5 @@ window.stanmazLib = {
                 elBiddingButtons[16].style.right = '4px';
             }
         }
-    },
-
-    SPEAK_TEXT: function (txt) {
-        if (txt == '') return;
-        var msg = new SpeechSynthesisUtterance();
-        msg.text = this.TEXT2SPEAK(txt);
-        window.speechSynthesis.speak(msg);
-    },
-        
-    TEXT2SPEAK: function (txt) {
-        if (txt.length != 2) return txt;
-        if (txt == '') return;
-        if (txt == "Db") return "double";
-        if (txt == "Rd") return "redouble";
-        if (txt == "--") return "pass";
-        var txt1 = txt;
-        if (txt.slice(1, 2) == "C") txt1 = txt + "lub";
-        if (txt.slice(1, 2) == "D") txt1 = txt + "iamond";
-        if (txt.slice(1, 2) == "H") txt1 = txt + "eart";
-        if (txt.slice(1, 2) == "S") txt1 = txt + "pade";
-        if (txt.slice(1, 2) == "N") {
-            return (txt + "o trump");
-        } else if ((txt.slice(0, 1) >= "2") && (txt.slice(0, 1) <= "7")) txt1 = txt1 + "s";
-        return txt1;
     }
 };
