@@ -137,6 +137,7 @@ window.stanmazLib = {
       msg.text = this.TEXT2SPEAK(txt);
       msg.lang = "en-US";
       msg.rate = MSG_RATE;
+      msg.pitch = MSG_PITCH;
       window.speechSynthesis.speak(msg);
   },
       
