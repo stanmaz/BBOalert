@@ -95,5 +95,4 @@ End of Convention card
 
 Script,onNewCallSelected,console.log('onNewCallSelected ' + lastSelectedCall + ' *');
 
-Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/wholeSystem.md
-
+Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/wholeSystem.md
