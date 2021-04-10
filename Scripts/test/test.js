@@ -131,6 +131,8 @@ window.stanmazLib = {
       if (txt == '') return;
       var msg = new SpeechSynthesisUtterance();
       msg.text = this.TEXT2SPEAK(txt);
+      msg.lang = "en-US";
+      msg.pace = 1.5;
       window.speechSynthesis.speak(msg);
   },
       
@@ -151,3 +153,11 @@ window.stanmazLib = {
       return txt1;
   }
 };
+
+
+function BOARD_TEXT() {
+  var txt = 'Board  ' + getDealNumber();
+  if (areWeVulnerable() == "@v") txt = txt + " vulnerable";
+  if (areTheyVulnerable() == "@V") txt = txt + " against vulnerable";
+  return txt;
+}
