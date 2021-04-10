@@ -133,7 +133,7 @@ window.stanmazLib = {
       var msg = new SpeechSynthesisUtterance();
       msg.text = this.TEXT2SPEAK(txt);
       msg.lang = "en-US";
-      msg.pace = 1.5;
+      msg.pace = 2;
       window.speechSynthesis.speak(msg);
   },
       
