@@ -11,8 +11,8 @@
 
 window.stanmazLib = {
 
-  MSG_RATE: 2,
-  MSG_PITCH: 2,
+  MSG_RATE: 0.7,
+  MSG_PITCH: 1,
 
   HOVER_BBOALERT_TAB: function (on) {
       var t = document.getElementById('bboalert-tab');
