@@ -11,7 +11,7 @@
 
 window.stanmazLib = {
 
-  MSG_RATE: 0.7,
+  MSG_RATE: 0.8,
   MSG_PITCH: 1,
 
   HOVER_BBOALERT_TAB: function (on) {
