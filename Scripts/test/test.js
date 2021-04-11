@@ -8,7 +8,7 @@
 //Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
 //Script,onNewDeal,stanmazLib.SPEAK_TEXT(stanmazLib.BOARD_TEXT());
 //Script,onBiddingBoxDisplayed,stanmazLib.SPEAK_TEXT("your bid");
-//Script,onNewPlayedCard,stanmazLib.SPEAK_TEXT(playedCards.slice(-2));
+//Script,onNewPlayedCard,stanmazLib.SPEAK_TEXT(stanmazLib.CARD_TEXT(playedCards.slice(-2)));
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -150,13 +150,6 @@ window.stanmazLib = {
       if (txt == "Rd") return "redouble";
       if (txt == "--") return "pass";
       var txt1 = txt;
-
-      if (txt.slice(1, 2) == "♣") txt1 = txt + " of clubs";
-      if (txt.slice(1, 2) == "♦") txt1 = txt + "iamond";
-      if (txt.slice(1, 2) == "♥") txt1 = txt + " of hearts";
-      if (txt.slice(1, 2) == "♠") txt1 = txt + " of spades";
-     
-
       if (txt.slice(1, 2) == "C") txt1 = txt + "lub";
       if (txt.slice(1, 2) == "D") txt1 = txt + "iamond";
       if (txt.slice(1, 2) == "H") txt1 = txt + "eart";
@@ -172,6 +165,22 @@ window.stanmazLib = {
     if (areWeVulnerable() == "@v") txt = txt + " vulnerable";
     if (areTheyVulnerable() == "@V") txt = txt + " against vulnerable";
     return txt;
+  },
+
+  CARD_TEXT: function (txt) {
+    if (txt.length != 2) return txt;
+    if (txt == '') return;
+    var suit = "";
+    if (txt.slice(1, 2) == "♣") suit = " of clubs";
+    if (txt.slice(1, 2) == "♦") suit = " of diamonds";
+    if (txt.slice(1, 2) == "♥") suit = " of hearts";
+    if (txt.slice(1, 2) == "♠") suit = " of spades";
+    if (txt.slice(0, 1) == "A") return "Ace" + suit;
+    if (txt.slice(0, 1) == "K") return "King" + suit;
+    if (txt.slice(0, 1) == "Q") return "Queen" + suit;
+    if (txt.slice(0, 1) == "J") return "Jack" + suit;
+    if (txt.slice(0, 1) == "T") return "10 " + suit;
+    return txt.slice(0, 1) + suit;
   }
 
 };
