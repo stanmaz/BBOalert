@@ -8,6 +8,7 @@
 //Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
 //Script,onNewDeal,stanmazLib.SPEAK_TEXT(stanmazLib.BOARD_TEXT());
 //Script,onBiddingBoxDisplayed,stanmazLib.SPEAK_TEXT("your bid");
+//Script,onNewPlayedCard,stanmazLib.SPEAK_TEXT(playedCards.slice(-2));
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -149,6 +150,13 @@ window.stanmazLib = {
       if (txt == "Rd") return "redouble";
       if (txt == "--") return "pass";
       var txt1 = txt;
+
+      if (txt.slice(1, 2) == "♣") txt1 = txt + " of clubs";
+      if (txt.slice(1, 2) == "♦") txt1 = txt + "iamond";
+      if (txt.slice(1, 2) == "♥") txt1 = txt + " of hearts";
+      if (txt.slice(1, 2) == "♠") txt1 = txt + " of spades";
+     
+
       if (txt.slice(1, 2) == "C") txt1 = txt + "lub";
       if (txt.slice(1, 2) == "D") txt1 = txt + "iamond";
       if (txt.slice(1, 2) == "H") txt1 = txt + "eart";
