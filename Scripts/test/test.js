@@ -10,6 +10,7 @@
 //Script,onNewPlayedCard,stanmazLib.SPEAK_TEXT(stanmazLib.CARD_TEXT(playedCards.slice(-2)));
 //Script,onCallLevelSelected,stanmazLib.SPEAK_TEXT(lastSelectedCall);
 //Script,onNewCallSelected,stanmazLib.SPEAK_TEXT("your bid");stanmazLib.SPEAK_TEXT(lastSelectedCall);
+//Script,onCallExplanationPanelDisplayed,stanmazLib.SPEAK_TEXT(getCallExplanationText());
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
