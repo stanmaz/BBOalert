@@ -7,8 +7,9 @@
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
 //Script,onNewAuction,stanmazLib.SPEAK_TEXT(currentAuction.slice(-2));
 //Script,onNewDeal,stanmazLib.SPEAK_TEXT(stanmazLib.BOARD_TEXT());
-//Script,onBiddingBoxDisplayed,stanmazLib.SPEAK_TEXT("your bid");
 //Script,onNewPlayedCard,stanmazLib.SPEAK_TEXT(stanmazLib.CARD_TEXT(playedCards.slice(-2)));
+//Script,onCallLevelSelected,stanmazLib.SPEAK_TEXT(lastSelectedCall);
+//Script,onNewCallSelected,stanmazLib.SPEAK_TEXT("your bid");stanmazLib.SPEAK_TEXT(lastSelectedCall);
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
