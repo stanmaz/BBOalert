@@ -1,6 +1,6 @@
 //BBOalert
 //Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Scripts//test/test.js
-//Script,onDataLoad,stanmazLib.HOVER_BBOALERT_TAB(true);
+//Script,onAnyMutation,stanmazLib.HOVER_BBOALERT_TAB(true);
 //Script,onAnyMutation,stanmazLib.CARD_COLORS(true);
 //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
