@@ -133,15 +133,15 @@ window.stanmazLib = {
             var btnt = $("bridge-screen bidding-box-button button")[11];
             var btok_span = $("bridge-screen bidding-box-button span")[16];
             if (callText == "Db") {
-                txt = BBOX_TEXT[13];
+                txt = 'Dbl';
                 btok.style.backgroundColor = "rgb(203, 0, 0)";
                 btok_span.style.color = "white";
             } else if (callText == "Rd") {
-                txt = BBOX_TEXT[14];
+                txt = 'Rdbl';
                 btok.style.backgroundColor = "rgb(67, 119, 169)";
                 btok_span.style.color = "white";
             } else if (callText == "--") {
-                txt = BBOX_TEXT[12];
+                txt = 'Pass';
                 btok.style.backgroundColor = "rgb(16, 102, 16)";
                 btok_span.style.color = "white";
             } else {
