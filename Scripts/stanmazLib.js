@@ -159,7 +159,7 @@ window.stanmazLib = {
                 }
                 if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
             }
-            $("bridge-screen bidding-box-button span")[16].textContent = txt;
+            $("bridge-screen bidding-box-button span")[16].textContent = elimineSpaces(txt);
         }
     }
 };
