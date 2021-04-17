@@ -124,5 +124,42 @@ window.stanmazLib = {
                 elBiddingButtons[16].style.right = '4px';
             }
         }
+    },
+
+    NEW_OK_BUTTON: function () {
+        if (callText.length == 2) {
+            var txt = callText;
+            var btok = $("bridge-screen bidding-box-button button")[16];
+            var btnt = $("bridge-screen bidding-box-button button")[11];
+            var btok_span = $("bridge-screen bidding-box-button span")[16];
+            if (callText == "Db") {
+                txt = 'Dbl';
+                btok.style.backgroundColor = "rgb(203, 0, 0)";
+                btok_span.style.color = "white";
+            } else if (callText == "Rd") {
+                txt = 'Rdbl';
+                btok.style.backgroundColor = "rgb(67, 119, 169)";
+                btok_span.style.color = "white";
+            } else if (callText == "--") {
+                txt = 'Pass';
+                btok.style.backgroundColor = "rgb(16, 102, 16)";
+                btok_span.style.color = "white";
+            } else {
+                btok_span.style.color = "black";
+                btok.style.backgroundColor = "rgb(172, 197, 197)";
+                if (callText.slice(-1) == "N") txt = callText.charAt(0) + btnt.textContent;
+                if (callText.slice(-1) == "C") txt = callText.charAt(0) + "♣";
+                if (callText.slice(-1) == "D") {
+                    txt = callText.charAt(0) + "♦";
+                    $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                }
+                if (callText.slice(-1) == "H") {
+                    txt = callText.charAt(0) + "♥";
+                    $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                }
+                if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
+            }
+            $("bridge-screen bidding-box-button span")[16].textContent = txt;
+        }
     }
 };
