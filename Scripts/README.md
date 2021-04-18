@@ -16,7 +16,7 @@ The effects of different functions :
 
 ### Hover tabs
 
-    //Script,onDataLoad,stanmazLib.HOVER_BBOALERT_TAB(true);
+    //Script,onAnyMutation,stanmazLib.HOVER_BBOALERT_TAB(true);
     
 HOVER_BBOALERT_TAB function enables toggeling the BBOalert tab by simply moving the mouse :
 
