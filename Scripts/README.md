@@ -25,7 +25,27 @@ HOVER_BBOALERT_TAB function enables toggeling the BBOalert tab by simply moving 
     
 CARD_COLORS function modifies card symbol colors to help color blind players.
 
+The effect :
+
 ![](./images/Screen_01.png)
+
+
+### Rearrange the table
+
+    //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
+    
+The table is moved to the left side of the screen leaving more space.
+
+The effect can be seen in the "Card colors" section.
+
+### Remove icons from tabs
+
+    //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
+
+The icons occupy space on the tabs. This can prevent in some cases BBOalert tab to be displayed correctly.
+
+The effect can be seen in the "Card colors" section.
+
 
 
 
