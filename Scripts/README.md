@@ -47,7 +47,7 @@ The icons occupy space on the tabs. This can prevent in some cases BBOalert tab 
     
 On smaller screens large bidding box may be useful to avoid bidding errors.
 
-### Mosified bid confirmation button
+### Modified bid confirmation button
 
     //Script,onAnyMutation,stanmazLib.NEW_OK_BUTTON();
     
