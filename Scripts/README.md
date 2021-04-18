@@ -53,6 +53,11 @@ On smaller screens large bidding box may be useful to avoid bidding errors.
     
 The selected bid replaces the OK text on the bid confirmation button
 
+### Backspace buttons
+
+    //Script,onAnyMutation,stanmazLib.BACKSPACE_BUTTONS(false);
+    
+The backspace buttons on the BBOalert button panel can be removed to free one row of buttons.
 
 
 
