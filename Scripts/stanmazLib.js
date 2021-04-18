@@ -98,7 +98,7 @@ window.stanmazLib = {
                 for (var i = 0; i < 17; i++) {
                     elBiddingButtons[i].style.height = '30%';
                     if (i < 12) elBiddingButtons[i].style.fontSize = '8vh';
-                    else elBiddingButtons[i].style.fontSize = '4vh';
+                    else elBiddingButtons[i].style.fontSize = '5vh';
                     elBiddingButtons[i].style.width = '8%';
                 }
                 elBiddingButtons[0].style.left = '15%';
