@@ -5,6 +5,7 @@
 //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
+//Script,onAnyMutation,stanmazLib.NEW_OK_BUTTON();
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
