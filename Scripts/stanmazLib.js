@@ -6,6 +6,7 @@
 //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
 //Script,onAnyMutation,stanmazLib.NEW_OK_BUTTON();
+//Script,onAnyMutation,stanmazLib.BACKSPACE_BUTTONS(true);
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -176,5 +177,5 @@ window.stanmazLib = {
             document.getElementById("adpanel2").children[2].style.display = 'none';
         }
     }
-    
+
 };
