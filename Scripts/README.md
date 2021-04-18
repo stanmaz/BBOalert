@@ -11,7 +11,7 @@ The library contains functions modifying the BBO user interface. With each featu
 The effects of different functions :
 
 ![](./images/Screen_01.png)
- 
+  
 ## Features
 
 ### Hover tabs
