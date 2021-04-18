@@ -163,5 +163,18 @@ window.stanmazLib = {
             }
             $("bridge-screen bidding-box-button span")[16].textContent = elimineSpaces(txt);
         }
+    },
+
+    BACKSPACE_BUTTONS: function (on) {
+        if (on) {
+            document.getElementById("adpanel2").children[0].style.display = '';
+            document.getElementById("adpanel2").children[1].style.display = '';
+            document.getElementById("adpanel2").children[2].style.display = '';
+        } else {
+            document.getElementById("adpanel2").children[0].style.display = 'none';
+            document.getElementById("adpanel2").children[1].style.display = 'none';
+            document.getElementById("adpanel2").children[2].style.display = 'none';
+        }
     }
+    
 };
