@@ -19,6 +19,14 @@ HOVER_BBOALERT_TAB function enables toggeling the BBOalert tab by simply moving 
 - BBOalert tab is displayed when the mouse pointer enters it
 - BBOalert tab is hidden when the mouse pointer enters a BBO tab
 
+### Card Colors
+
+    //Script,onAnyMutation,stanmazLib.CARD_COLORS(true);
+    
+CARD_COLORS function modifies card symbol colors to help color blind players.
+
+![](./images/Screen_01.png)
+
 
 
 
