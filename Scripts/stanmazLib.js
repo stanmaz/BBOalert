@@ -176,6 +176,19 @@ window.stanmazLib = {
             document.getElementById("adpanel2").children[1].style.display = 'none';
             document.getElementById("adpanel2").children[2].style.display = 'none';
         }
+    },
+
+    ALL_INPUT_BUTTONS: function () {
+        if (document.activeElement.tagName == "INPUT") {
+            if (!$("#rightDiv")[0].contains(document.activeElement)) {
+                $("#adpanel2")[0].inputObject = document.activeElement;
+                if (document.activeElement.onclick == null) {
+                    document.activeElement.onclick = function () {
+                        toggleButtons(this);
+                    };
+                }
+            }
+        }
     }
 
 };
