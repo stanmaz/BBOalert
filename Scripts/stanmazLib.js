@@ -7,6 +7,7 @@
 //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
 //Script,onAnyMutation,stanmazLib.NEW_OK_BUTTON();
 //Script,onAnyMutation,stanmazLib.BACKSPACE_BUTTONS(true);
+//Script,onAnyMutation,stanmazLib.ALL_INPUT_BUTTONS();
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -179,7 +180,7 @@ window.stanmazLib = {
     },
 
     ALL_INPUT_BUTTONS: function () {
-        if (document.activeElement.tagName == "INPUT") {
+        if (document.activeElement.tagName.toLowerCase() == "input") {
             if (!$("#rightDiv")[0].contains(document.activeElement)) {
                 $("#adpanel2")[0].inputObject = document.activeElement;
                 if (document.activeElement.onclick == null) {
