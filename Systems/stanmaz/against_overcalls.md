@@ -153,3 +153,18 @@
 
     1C2SDb--,   2N,     Preference !D
 
+>After opening 1NT
+
+    1NDb,   --,     no preference in minors or 44 in majors
+    +,      Rd,     preference !C 4-5!C 2+!D
+    +,      2C,     preference 4!D 2!C
+
+    1N----Db,   2C,     5!C
+    +,          2D,     5!D
+    +,          Rd,     4!C4!D
+    +,          --,     4-3 in minors
+    1N----Db----,   Rd,     no preference
+    +,          ,   2C,     4!C
+    +,          ,   2D,     4!D
+    +,          ,   2H,     4!H4!S
+
