@@ -8,6 +8,7 @@
 //Script,onAnyMutation,stanmazLib.NEW_OK_BUTTON();
 //Script,onAnyMutation,stanmazLib.BACKSPACE_BUTTONS(true);
 //Script,onAnyMutation,stanmazLib.ALL_INPUT_BUTTONS();
+//Script,onAnyMutation,stanmazLib.REMOVE_ADS();
 //   Copy the code above to your data file omitting the unwanted "Script" records
 
 window.stanmazLib = {
@@ -190,6 +191,13 @@ window.stanmazLib = {
                 }
             }
         }
+    },
+
+    REMOVE_ADS: function () {
+        $("#bbo_ad1").hide();
+        $("#bbo_ad2").hide();
+        $("#bbo_app")[0].style.left = "0px";
+        $("#bbo_app")[0].style.width = "100%";
     }
 
 };
