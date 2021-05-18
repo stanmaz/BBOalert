@@ -35,6 +35,7 @@ Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Rita.tx
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_F_1.txt,meto+342257
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Trial.txt,meto+camomille
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Gazilli.txt,meto+sansmelegi
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_xyz1h1s1n.txt
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Splinter.txt,meto+camomille
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_3x1GF.txt,meto+camomille,meto+gypsyqueen,meto+nilsun
 
