@@ -1,0 +1,20 @@
+bboalert,xyz1h1s1n
+
+
+Option,xyz1h1s1n
+1H__1S__1N__,2C,transfer to 2!D for sign-off / invitation
++,2D,transfer to 2!H for sign-off / GF
++,2H,transfer to 2!S for sign-off / GF
++,2N,transfer to 3!C for sign-off / GF
++,3C,5!S-5!C; invite
++,3D,5!S-5!D; invite
++,3S, 6+!S; GF
+1H__1S__1N__2C__,2D, röle
+1H__1S__1N__2C__2D__,2H,4+!S-3!H invite
++,2S,5!S; invite
++,2N,11-12 balanced had; invite
++,3C,4!S-5!C; invite
++,3D,4!S-5!D; invite
++,3S,6!S; invite
+Option
+

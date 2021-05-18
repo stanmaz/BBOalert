@@ -1,0 +1,123 @@
+bboalert,Rita
+
+
+
+Option, Rita, meto+ratrut 
+1C,2+!C; 11+HCP
+1C--,1D,could be short; 6+HCP 
+1C--1D--,1H,5+!C-4!H; 11-17 HCP 
+1C--1D--1H--,2C,transfer to 2!d for signoff / invite for game
+1C--1D--1H--2C--,2D,relay
+1C--1D--1H--,2D,GF; ask about shape
+1C--1D--1H--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1D--1H--2N--,3C,relay
+1C--1D--,1N,12-14 HCP; could have 4-card major 
+1C--1D--1N--,2C,transfer to 2!d for signoff / invite for game
+1C--1D--1N--2C--,2D,relay
+1C--1D--1N--,2D,GF; ask about shape
+1C--1D--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1D--1N--2N--,3C,relay
+1C--1D--,1S,5+!c-4!s; 11-17 HCP
+1C--1D--1S--,2C,transfer to 2!d for signoff / invite for game
+1C--1D--1S--2C--,2D,relay
+1C--1D--1S--,2D,GF; ask about shape
+1C--1D--1S--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1D--1S--2N--,3C,relay
+1C--,1H,5-12 HCP; 4+!H
+1C--1H--1N--,2C,transfer to 2!d for signoff / invite for game
+1C--1H--1N--2C--,2D,relay
+1C--1H--1N--,2D,GF ; ask about shape
+1C--1H--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1H--1N--2N--,3C,relay
+1C--1H--1S--,2C,transfer to 2!d for signoff / invite for game
+1C--1H--1S--2C--,2D,relay
+1C--1H--1S--2C--2D--,2H,5!H ; invite
+1C--1H--1S--2C--2D--,2N,invite with balanced
+1C--1H--1S--2C--2D--,2S,invite with 4!S
+1C--1H--1S--2C--2D--,3C,invite with 4!H-5!C
+1C--1H--1S--2C--2D--,3D,invite with 4!H-5!D
+1C--1H--1S--2C--2D--,3H,invite with 6!H
+1C--1H--1S--,2D,GF ; ask about shape
+1C--1H--1S--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1H--1S--2N--,3C,relay
+1C--1H--1S--2N--3C--,3D,GF with 5!H-5!D
+1C--1H--1S--2N--3C--,3H,slam interest with 5!H-5!c
+1C--1H--1S--2N--3C--,3N,GF with 5!H-5!c
+1C--1H--,2C,5+!C's; 11-14 HCP
+1C--1H--2C--,2D,10-12 HCP
+1C--,1N,8-10 HCP; no 4-card major suit
+1C--,1S,5-12 HCP; 4+!S
+1C--1S--,1N,12-14 HCP
+1C--1S--1N--,2C,transfer to 2!d for signoff / invite for game
+1C--1S--1N--2C--,2D,relay
+1C--1S--1N--,2D,GF; ask about shape
+1C--1S--1N--,2H,5!s-5!h; 5-8 HCP
+1C--1S--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1C--1S--1N--2N--,3C,relay
+1C--1S--1N--2N--3C--,3D,GF with 5!s-5!D
+1C--1S--1N--2N--3C--,3H,GF with 5!S-5!H
+1C--1S--1N--2N--3C--,3N,GF with 5!s-5!c
+1C--1S--1N--2N--3C--,3S,slam try with 5!s-5!c
+1C--1S--,2C,5+!c's; 11-14 HCP
+1C--1S--2C--,2D,10-12 HCP
+1C--,2C,5+!c; 13+HCP & could have 4-card major
+1C--,2D,5!s's-4!H's; 5-9 HCP 
+1C--,2H,12+HCP; GF
+1C--,2N,11-12 HCP; no 4-card major suit
+1C--,2S,12+HCP; GF
+1C--,3C,5!c's; 0-5 HCP
+1C--,3D,(6/7)!D's; 0-5 HCP
+1C--,3H,(6/7)!H's; 0-5 HCP
+1C--,3N,13-16 HCP; To Play
+1C--,3S,(6/7)!S; 0-5 HCP
+1D,4+!d; 11+HCP 
+1D--,1H,5-12 HCP; 4+!H
+1D--1H--1N--,2C,transfer to 2!d for signoff / invite for game
+1D--1H--1N--2C--,2D,relay
+1D--1H--1N--,2D,GF; ask about shape
+1D--1H--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1D--1H--1N--2N--,3C,relay
+1D--1H--1N--2N--3C--,3D,GF with 5!h-5!d
+1D--1H--1N--2N--3C--,3H,slam try with 5!H-5!C
+1D--1H--1N--2N--3C--,3N,GF with 5!H-5!c
+1D--1H--1S--,2C,transfer to 2!d for signoff / invite for game
+1D--1H--1S--2C--,2D,relay
+1D--1H--1S--,2D,GF; ask about shape
+1D--1H--1S--,2N,transfer to 2!c for signoff / GF with 55 hand
+1D--1H--1S--2N--,3C,relay
+1D--,1N,6-12 HCP; no 4-card major suit
+1D--,1S,5-12 HCP; 4+!s
+1D--1S--1N--,2C,transfer to 2!d for signoff / invite for game
+1D--1S--1N--2C--,2D,relay
+1D--1S--1N--,2D,GF ; ask about shape
+1D--1S--1N--,2H,5!s-5!h ; 5-8 HCP
+1D--1S--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1D--1S--1N--2N--,3C,relay
+1D--1S--1N--2N--3C--,3D,GF with 5!s-5!D
+1D--1S--1N--2N--3C--,3H,GF with 5!S-5!H
+1D--1S--1N--2N--3C--,3N,GF with 5!s-5!c
+1D--1S--1N--2N--3C--,3S,slam try with 5!s-5!c
+1D--,2C,13+HCP; !C's maybe short with 4-card major suit
+1D--,2D,5+!s's-4+!H's; 5-9 HCP 
+1D--,2H,12+HCP; GF
+1D--,2N,11-12 HCP; no 4-card major suit
+1D--,2S,12+HCP; GF
+1D--,3C,(6/7)!c; 0-5 HCP
+1D--,3D,4+!d's; 0-5 HCP
+1D--,3H,(6/7)!H; 0-5 HCP
+1D--,3N,13-16 HCP; To Play
+1D--,3S,(6/7)!S; 0-5 HCP
+1H,5+!h; 11+HCP
+1H--,1N,5-12 HCP
+1H--,1S,4+!s ; 5+ HCP
+1H--1S--,1N,5!h332 ; 11-13 HCP 
+1H--1S--1N--,2C,transfer to 2!d for signoff / invite for game
+1H--1S--1N--2C--,2D,relay
+1H--1S--1N--,2D,GF ; ask about shape
+1H--1S--1N--,2N,transfer to 2!c for signoff / GF with 55 hand
+1H--1S--1N--2N--,3C,relay
+1N, good 14-17 HCP ; could have 5-card major and offshape as 5431 or 1444
+1S,5+!s ; 11+ HCP
+1S--,1N,5-12 HCP
+Option
+

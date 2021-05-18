@@ -1,0 +1,24 @@
+bboalert,2Hon1m
+
+
+Minör Açışı Üzerine 5S-4H Majörlerle
+
+Option,2Hon1m,meto+camomille
+,1C,3+!C; 12+
+1C--,2H,5+!S-4!H ; 6-9
+1C--2H--,2N,ask about hand
+1C--2H--2N--,3C,6-7; (balanced)
+1C--2H--2N--,3D,6-7; 5!S4!H(31)
+1C--2H--2N--,3H,8-9; short !c
+1C--2H--2N--,3S,8-9; short !d
+1C--2H--2N--,3N,8-9; (balanced)
+,1D,3+!D; 12+
+1D--,2H,5+!H-5+!S ; 5-9
+1D--2H--,2N,ask about hand
+1D--2H--2N--,3C,6-7; (balanced)
+1D--2H--2N--,3D,6-7; 5!S4!H(31)
+1D--2H--2N--,3H,8-9; short !c
+1D--2H--2N--,3S,8-9; short !d
+1D--2H--2N--,3N,8-9;(balanced)
+Option
+

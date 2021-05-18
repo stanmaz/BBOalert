@@ -1,0 +1,601 @@
+bboalert,Common Aliases and Shortcuts
+  Option,LANG EN
+  Option,LANG TR
+  Alias,3!H's may have 4!S's also,3.lü !H’ü var; 4.lü !S’i de olabilir
+  Alias,may have 4!H333 hand,4!H333 ele sahip bulunabilir
+  Alias,may have any 5-card suit if balanced,dengeli iken 5.li herhangi bir rengi olabilir 
+  Alias,may have 4!S,4!S’i olabilir
+  Alias,no 4!H's but may have 4!S’s, 4.lü !H yok ancak 4.lü !S olabilir
+  Alias,may have 4-card major, 4.lü major sahip olabilir
+  Alias,maybe balanced,dengeli olabilir
+  Alias,maybe 1!s444 hand, 1!S444 Eli olabilir  
+  Alias,maybe passed with void !C's & 3!S’s, şigan !C ve 3.lü !S ile pas geçilmiş olabilir
+  Alias,maybe 3!s, 3.lü !s olabilir
+  Alias,maybe 3!H, 3.lü !H olabilir
+  Alias,maybe short with 4-card major suit, 4.lü major renkle birlikte kısalık olabilir
+  Alias,maybe<12, <12 olabilir
+  Alias,maybe 54, 54 olabilir
+  Alias,No 5-card major maybe 4-card major or at least 3-card !S, 5.li major yok, 4.lü major olabilir ya da en kötü 3.lü !S var
+  Alias,invitation and plus, davet ve üzeri
+  Alias,transfer to 2!D for sign-off,2!D’ya transfer; pas emri için 
+  Alias,transfer to 2!H for sign-off,2!H’e transfer; pas emri için 
+  Alias,transfer to 2!S for sign-off,2!S’e transfer; pas emri için 
+  Alias,transfer to 3!C for sign-off,3!c’e transfer; pas emri için 
+  Alias,solid-suit 8-tricks no !S control, kapalı renk 8-löve; !S kontrolü yok
+  Alias,solid-suit 8-tricks with !S control, kapalı renk 8-löve; !S kontrolü var
+  Alias,invitation or a stronger hand, davet ya da daha güçlü el
+  Alias,further asking about distribution, dağılım hakkında ileri sorgulama
+  Alias,asking stopper,keser sorusu
+  Alias,weakness in !S, !S’te zaaf
+  Alias,weakness in !H, !H’tDe zaaf
+  Alias,weakness in !D, !D’da zaaf
+  Alias,weakness in !C, !C’te zaaf
+  Alias,shortage in !S, !s’te kısalık
+  Alias,shortage in !H, !h’de kısalık
+  Alias,shortage in !D, !d’da kısalık
+  Alias,shortage in !C, !s’te kısalık
+  Alias,all controls complete, bütün kontroller tamam
+  Alias,good help in the asked suit, sorulan renkte yardım var
+  Alias,no good help in the asked suit,sorulan renkte yardım yok
+  Alias,balanced hand | no 5-card !H’s, dengeli el, 5.li !H yok
+  Alias,may have 5 !S,5.li !S olabilir
+  Alias,balanced hand | including 5(!C/!D)332 and 4!H4!S4!D1!C, 5(!C/!D)332 and 4!H4!S4!D1!C dağılımı dahil dengeli el
+  Alias,balanced hand | 5!c332 or 4333 / 4432 hand,5!c332 or 4333 / 4432 dağılımlarındaki dengeli el
+  Alias,balanced,dengeli
+  Alias,off-shape,şablon dışı
+  Alias,game forcing,zon-forsing
+  Alias,slam interest,şilem ilgisi
+  Alias,game interest,zon ilgisi
+  Alias,game values,zon puanı
+  Alias,invite,davet
+  Alias,GF,zon-forsing
+  Alias,P/C to,PASS/düzelt
+  Alias,slam forcing,şilem forsing
+  Alias,minors,minörler
+  Alias,majors,majörler
+  Alias,sign-off,PASS emri
+  Alias,relay,röle
+  Alias,solid,kapalı
+  Alias,decline,daveti ret
+  Alias,both minors, her iki-minör de
+  Alias,both majors, her iki-majör de
+  Alias,ask,soru
+  Alias,To Play,Oynamaya
+  Alias ,2-suited,2-renkli
+  Alias ,2 suited,2 renkli
+  Alias ,hand, el
+  Alias ,unbalanced,dengesiz
+  Alias ,any,herhangi
+  Alias ,weak,zayıf
+  Alias ,long,uzun
+  Alias ,suit,renk
+  Alias ,with no stopper in !D, !D’da keser yok
+  Alias ,with no stopper in !h, !h’de keser yok
+  Alias ,with no stopper in !h, !s’te keser yok
+  Alias ,denies stopper, keser inkarı
+  Alias ,automatic, otomatik
+  Alias ,as requested, mecburi deklere
+  Alias ,accept invitation with !C fit, !C fiti ile davetin kabulü
+  Alias ,accept invitation with !d fit, !d fiti ile davetin kabulü
+  Alias ,accept invitation with !h fit, !h fiti ile davetin kabulü
+  Alias ,accept invitation with !s fit, !s fiti ile davetin kabulü
+  Alias ,forces to bid 2!D, 2!D’ya forsing
+  Alias ,forces to bid 3!c, 3!c’e forsing
+  Alias, with !H stopper, !H keseriyle
+  Alias, with !s stopper, !s keseriyle
+  Alias,Second good suit, 2. iyi renk
+  Alias,even key cards and a void, çift sayıda key-card ve bir şigan
+  Alias,odd key cards and a void, tek sayıda key-card ve bir şigan
+  Alias,support, destek
+  Alias,strong, güçlü
+  Alias,take-out, kontrat arayışı
+  Alias,light, güçlü olmayan
+  Alias,may not have 4-card major, 4.lü major olmayabilir
+  Alias,accept invitation with !C fit, !C fiti & daveti kabul
+  Alias,accept invitation with !d fit, !D fiti & daveti kabul
+  Alias,card support,kart desteği
+  Alias,card,kart
+  Alias,maybe short,kısa olabilir
+  Alias,asking stopper for game try in 3NT, 3NT için keser sorusu
+  Alias,game try, son denemesi
+  Alias,try,denemesi
+  Alias,game,zon
+  Alias,slam,şilem
+  Alias,ask about longer major,uzun major sorusu
+  Alias,with A/K, A/R ile
+  Alias, with !C stopper, !C keseriyle
+  Alias, with !D stopper, !D keseriyle
+  Alias, with !H stopper, !H keseriyle
+  Alias, with !S stopper, !S keseriyle
+  Alias,asking singleton, singleton sorusu
+  Alias,no !s stopper,!s keseri yok
+  Alias,no !hstopper,!h keseri yok
+  Alias,no !d stopper,!d keseri yok
+  Alias,no !c stopper,!c keseri yok
+  Alias,slam try in !c, !c’ten şilem denemesi
+  Alias,slam try in !d, !d’dan şilem denemesi
+  Alias,slam try in !h, !h’den şilem denemesi
+  Alias,slam try in !s, !s’ten şilem denemesi
+  Alias, open for cue-bidding in !H’s, !H’den cue-bid’e açma
+  Alias, open for cue-bidding in !s’s, !s’ten cue-bid’e açma
+  Alias,ask about side-suit,yan-renk sorusu
+  Alias,asking key cards in !C,!c’ten key-card sorusu
+  Alias,asking key cards in !d,!D’dan key-card sorusu
+  Alias,forcing for 1-round,1-tur için forsing
+  Alias,semi-forcing,yarı-forsing
+  Alias,asking about shortness,kısalık sorusu
+  Alias,have A/K,A/R var
+  Alias,ask about shape,dağılım sorusu
+  Alias,ask for side-suit,yan-renk sorusu
+  Alias,asking for cues, kontrol sorusu
+  Alias,choice of games,zon kontratı seçimi
+  Alias,semi-solid,yarı-kapalı
+  Alias,no good suit quality, kötü renk kalitesi
+  Alias,bad quality, kötü kaliteli
+  Alias,further asking about the shape,dağılım hakkında ileri sorgulama
+  Alias,Transfer to 3!C for long (!c/!d) or for invitation with non-touching suits, Uzun !C/!D icin transfer ya da yapışık olmayan renklerden davet
+  Alias,or, ya da
+  Alias,touching suits invitational or GF in 5-5 minors,yapışık renklerden davet veya 5-5 minörlerle zon-forsing
+  Alias,asking key cards,key-card sorusu
+  Alias,No interest in proceeding further, daha fazla irdeleme ilgisi yok
+  Alias,second good suit, 2. iyi renk
+  Alias,asking feature & strength, puan güçü ve niteliği sorusu
+  Alias,open for cue-bidding,cue-bide açış
+  Alias,Strong take-out for !H’s, !H dışında renk arayışı (güçlü)
+  Alias,Strong take-out for !S’s, !s dışında renk arayışı (güçlü)
+  Alias,void,şigan
+
+//BBOalert
+//Script,onAuctionBegin
+var MH = getMyHand();
+var HCP = (MH.match(/A/g) || []).length*4 + (MH.match(/K/g) || []).length*3 + (MH.match(/Q/g) || []).length*2 + (MH.match(/J/g) || []).length;
+bboalertLog("HCP = " + HCP); 
+//Script
+
+
+//Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Scripts/stanmazLib.js
+//BBOalert
+//Script,onDataLoad
+HOVER_BBOALERT_TAB = function () {
+    var t = document.getElementById('bboalert-tab');
+    if (t.onmouseover == null) t.onmouseover = function () {
+        setOptions(true);
+    };
+    var rd = document.getElementById('rightDiv');
+    var vt = rd.querySelector('.verticalTabBarClass');
+    tabs = vt.querySelectorAll('.verticalClass');
+    for (var i = 0; i < tabs.length; i++) {
+        if (tabs[i].textContent.search('BBOalert') == -1) {
+            if (tabs[i].onmouseover == null) tabs[i].onmouseover = setOptionsOff;
+        }
+    }
+};
+//Script,onAnyMutation
+HOVER_BBOALERT_TAB();
+//Script
+
+//Script,onDataLoad
+//# sourceURL=kbdBidOnDataLoad.js
+// Version 1.1
+
+class KBDBIDHELPER {
+    constructor() {
+        // if there is any old instance around, attempt to
+        // remove its listener if any (ignore errors)
+        try {window.KBDBIDHELPERINSTANCE.removeKeyDownListenerIfAny();}    
+        catch (e) {}
+
+        this.boundListenFunc = null;
+        this.initButtonIndexMap();
+        this.elBiddingButtons = null;
+        this.keyBuffer = '';
+        this.verbose = false;   // set true for debugging info
+        
+        // in case we update class during bidding
+        if (window.biddingBoxDisplayed) {
+            this.onBiddingBoxDisplayed();
+        }
+    }
+
+    logIfVerbose(txt) {
+        if (this.verbose) console.log(txt);
+    }
+    
+    onBiddingBoxDisplayed() {
+        this.saveBiddingButtonElements();
+        this.addKeyDownListener();
+    }
+    
+    onBiddingBoxHidden() {
+        this.removeKeyDownListenerIfAny();
+    }
+    
+    saveBiddingButtonElements() {
+        // grab bidding button elements
+        let elBiddingBox = document.querySelector(".biddingBoxClass");
+        if (elBiddingBox == null) {
+            console.log('Error: elBiddingBox missing');
+            return;
+        }
+        this.elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+        if (this.elBiddingButtons == null) {
+            console.log('Error: elBiddingButtons missing');
+            return;
+        }
+        if (this.elBiddingButtons.length < 17) {
+            console.log(`Error: elBiddingButtons length is only ${this.elBiddingButtons.length}`);
+            return;
+        }
+    }
+
+    // set up button index map
+    initButtonIndexMap() {
+        let map = new Map();
+        // buttons 0-6 for bidding levels 1-7
+        for (let n=0; n<=6; n++) {
+            let key = `${n+1}`;
+            map.set(key, n);
+        }
+        // buttons 7-11 for suits CDHSN
+        for (let n=7; n<=11; n++) {
+            let key = 'CDHSN'[n-7];
+            map.set(key, n);
+        }
+        // pass, double, redouble and OK buttons
+        map.set('--', 12);
+        map.set('Db', 13);
+        map.set('Rd', 14);
+        map.set('OK', 16);
+        this.buttonIndexMap = map;          
+    }
+
+    // call the mousedown listener for a given button name
+    callButtonMouseDownListener(name) {
+        let idx = this.buttonIndexMap.get(name);
+        if (idx == undefined) {
+            console.log(`Error: no button idx for "${name}"`);
+            return;
+        }
+        let mouseDownFunc = this.elBiddingButtons[idx].onmousedown;
+        if (mouseDownFunc == null) {
+            console.log(`Error: null mousedown for "${name}"`);
+        }
+        mouseDownFunc();
+    }
+    
+    isSettingSet(settingIndex) {
+        let rd = document.getElementById('rightDiv');
+        if (rd == null) return '';
+        let sc = rd.querySelectorAll('.settingClass');
+        if (sc.length < settingIndex+1) {
+            if (sc.length == 0) return '';
+        }
+        if (document.querySelectorAll('.settingClass')[settingIndex].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
+        else return 'N';
+    }
+
+    isKeyboardEntrySet() {
+        return this.isSettingSet(7);
+    }
+
+
+    // functions for testing the legality of a bid, used by handleKeyboardBid
+    isBidLevelChar(ch) {
+        return ('1234567'.includes(ch));
+    }
+
+    isLevSuitBid(bid) {
+        if (bid == null) return false;
+        else return(this.isBidLevelChar(bid[0]));
+    }
+
+    bidAtPos(ctx, pos) {
+        return ctx.slice(pos, pos+2);
+    }
+
+    findLastLevSuitPos(s) {
+        let pos = s.length-2;
+        while ((pos >= 0) && (!this.isLevSuitBid(this.bidAtPos(s, pos)))) {
+            pos -= 2;
+        }
+        return pos;
+    }
+
+    isBidByOpp(s, pos) {
+        let bidsFromEnd = (s.length - pos)/2;
+        return ((bidsFromEnd % 2) == 1);
+    }
+
+    findLastLevSuitBid(s) {
+        let pos = this.findLastLevSuitPos(s);
+        let bid = null;
+        let byOpp = null;
+        if (pos >= 0) {
+            bid = this.bidAtPos(s, pos);
+            byOpp = this.isBidByOpp(s, pos);
+        }
+        return {bid, byOpp};
+    }
+
+    findLastNonPassPos(s) {
+        let pos = s.length-2;
+        while ((pos >= 0) && (this.bidAtPos(s, pos) == '--')) {
+            pos -= 2;
+        }
+        return pos;
+    }
+    
+    findLastNonPassBid(s) {
+        let pos = this.findLastNonPassPos(s);
+        let bid = null;
+        let byOpp = null;
+        if (pos >= 0) {
+            bid = this.bidAtPos(s, pos);
+            byOpp = this.isBidByOpp(s, pos);
+        }
+        return {bid, byOpp};
+    }
+
+    isHigherThan(bid, prevBid) {
+        if (bid[0] > prevBid[0]) return true;
+        else if (bid[0] < prevBid[0]) return false;
+        else {
+            // levels are the same, check suit
+            let idx = 'CDHSN'.indexOf(bid[1]);
+            let previdx = 'CDHSN'.indexOf(prevBid[1]);
+            return (idx > previdx);
+        }
+    }
+
+    isLegalBid(bid, ctx) {
+        // pass is always legal
+        if (bid == '--') return true;
+        if (this.isLevSuitBid(bid[0])) {
+            let lastBidObj = this.findLastLevSuitBid(ctx);
+            if (lastBidObj.bid == null) return true;
+            return(this.isHigherThan(bid, lastBidObj.bid));
+        }
+        if (bid == 'Db') {
+            let lastNonPassObj = this.findLastNonPassBid(ctx);
+            if (lastNonPassObj.bid == null) return false;
+            return (this.isLevSuitBid(lastNonPassObj.bid) && lastNonPassObj.byOpp);
+        }
+        if (bid == 'Rd') {
+            let lastNonPassObj = this.findLastNonPassBid(ctx);
+            if (lastNonPassObj.bid == null) return false;
+            return ((lastNonPassObj.bid == 'Db') && lastNonPassObj.byOpp);
+        }
+
+        // should not get this far, but if we do it is not legal
+        return false;
+    }
+
+    handleKeyboardBid(e) {
+        // Check for early exit
+        // this listener will ignore anything if the bidding box is not visible
+        // will also ignore anything caught from an INPUT element
+        // and the target must be under elDealViewerDivClass
+        if (!window.biddingBoxDisplayed || (e.target.nodeName == 'INPUT')) {
+            return;
+        }
+        if (!this.inKbdEntryFocus(e.target)) {
+            return;
+        }
+    
+        let ukey = e.key.toUpperCase();
+        this.logIfVerbose(`ukey=${ukey}`);
+
+        // here we check for Enter to record the callText 
+        if (ukey === 'ENTER') {
+            // Enter goes to OK button
+            // we would like to ignore it if OK button not visible
+            // but the button goes away before this listener is called
+            if (this.keyBuffer.length == 2) { 
+                this.logIfVerbose(`confirming bid of ${this.keyBuffer}`);
+                // call the appropriate mouseDown function code
+                this.callButtonMouseDownListener('OK');
+            }
+            // restart bid gathering
+            this.keyBuffer = '';
+            return;
+        }
+        // level bids just add to keybuffer and return
+        // the appropriate mouseDown function will be called later
+        else if (this.isBidLevelChar(ukey)) {
+            window.addLog(`key:[${ukey}]`);
+            this.keyBuffer = ukey;
+            return;
+        }
+        // the following keystrokes "finish" a bid
+        else if (ukey == 'P') {
+            window.addLog(`key:[${ukey}]`);
+            this.keyBuffer = '--';
+            // pass is always legal
+        }
+        else if ('CDHSN'.includes(ukey) && (this.keyBuffer.length != 0) && this.isBidLevelChar(this.keyBuffer[0])) {
+            window.addLog(`key:[${ukey}]`);
+            this.keyBuffer += ukey;  // add suit to bid
+            let ctx = window.getContext();
+            if (!this.isLegalBid(this.keyBuffer, ctx)) {
+                this.keyBuffer = '';
+                // special case if bid was insufficient but suit was diamonds
+                // BBO interprets that as a "double"
+                if ((ukey == 'D') && this.isLegalBid('Db', ctx)) {
+                    this.keyBuffer = 'Db';
+                }
+            }
+        }
+        else if (this.keyBuffer == '' && ukey == 'D') {
+            window.addLog(`key:[${ukey}]`);
+            this.keyBuffer = 'Db';
+            let ctx = window.getContext();
+            if (!this.isLegalBid(this.keyBuffer, ctx)) {
+                this.keyBuffer = '';
+            }
+        }
+        else if (ukey == 'R') {
+            window.addLog(`key:[${ukey}]`);
+            this.keyBuffer = 'Rd';
+            let ctx = window.getContext();
+            if (!this.isLegalBid(this.keyBuffer, ctx)) {
+                this.keyBuffer = '';
+            }
+        }
+        else {
+            // any other ukey value is just ignored
+            return;
+        }
+
+        if (this.keyBuffer == '') {
+            this.logIfVerbose('no bid pattern found in keyboard listener');
+        }
+
+        // if we got this far we have a non-empty (legal) this.keyBuffer, call appropriate mousedown functions
+        if (this.isBidLevelChar(this.keyBuffer[0])) {
+            window.addLog(`keyCall:[${this.keyBuffer}]`);
+            this.logIfVerbose(`keyCall:[${this.keyBuffer}]`);
+            // call mousedown for each of the two parts
+            let levelchar = this.keyBuffer[0];
+            let suitchar = this.keyBuffer[1];
+            this.callButtonMouseDownListener(levelchar);
+            this.callButtonMouseDownListener(suitchar);
+        }
+        else {
+            // pass, double, redouble
+            this.callButtonMouseDownListener(this.keyBuffer);
+        }
+        // clear keyBuffer if we're not confirming
+        if ((this.keyBuffer.length == 2) && (window.confirmBidsSet() == 'N')) {
+            this.logIfVerbose(`recorded bid of ${this.keyBuffer}, no confirm`);
+            this.keyBuffer = '';
+        }
+    }
+
+    // main activity when bidding box created
+    // if keyboard bidding is set, hook in necessary listeners
+    addKeyDownListener() {
+        // before we install new keydown listener, remove any existing listener that we had put in
+        // for now we will listen at document level 
+        // and then ignore the kbd input from INPUT elements, etc.
+        this.removeKeyDownListenerIfAny();
+        this.elDealViewerDiv = document.querySelector('.dealViewerDivClass');
+        if (this.isKeyboardEntrySet() == 'Y') {
+            this.boundListenFunc = this.handleKeyboardBid.bind(this);
+            document.addEventListener('keydown', this.boundListenFunc, true);
+            this.logIfVerbose('Keyboard bidding listener set up');
+        }
+    }
+
+    removeKeyDownListenerIfAny() {
+        if (this.boundListenFunc != null) {
+            document.removeEventListener('keydown', this.boundListenFunc, true);
+            this.logIfVerbose('Keyboard bidding listener removed');
+        }
+    }
+
+    inKbdEntryFocus(elem) {
+        return ((this.elDealViewerDiv != null) && this.elDealViewerDiv.contains(elem));
+    }
+
+
+    moveFocusTo(elDest) {
+        if (elDest != null) {
+            if ((elDest.tabIndex === undefined) || (elDest.tabIndex < 0)) {
+                elDest.tabIndex = 0;
+            }
+            setTimeout(function () {
+                elDest.focus();
+                // console.log(`focus is now on ${document.activeElement}`); 
+            }, 200);
+        }
+    }
+    
+} // end of class declaration
+
+window.KBDBIDHELPERINSTANCE = new KBDBIDHELPER();
+//Script
+
+//Script,onBiddingBoxDisplayed
+//# sourceURL=kbdBidOnBoxDisplayed.js
+window.KBDBIDHELPERINSTANCE.onBiddingBoxDisplayed();
+//Script
+
+//Script,onBiddingBoxHidden
+//# sourceURL=kbdBidOnBoxHidden.js
+window.KBDBIDHELPERINSTANCE.onBiddingBoxHidden();
+//Script
+
+//Script,onAnyMutation,stanmazLib.ALL_INPUT_BUTTONS();
+Script,CLOSE,setButtonPanel(false);
+Button,Transfer, Transfer to,backgroundColor=yellow width=20% fontSize=20px borderRadius=100%
+Button,♣, !C,width=16% fontSize=24px borderRadius=100%
+Button,♦, !D,width=16% fontSize=24px borderRadius=100% color=red
+Button,♥, !H,width=16% fontSize=24px borderRadius=100% color=red
+Button,♠, !S,width=16% fontSize=24px borderRadius=100%
+Button,NT, NT,borderRadius=100% width=16% fontSize=24px
+Button,Emotions,,width=100% backgroundColor=palegreen fontSize=16px
+Button,😀, 😀\n,width= borderRadius=100% fontSize=28px
+Button,😞, 😞\n,width= borderRadius=100% fontSize=28px
+Button,😢, 😢\n,width= borderRadius=100% fontSize=28px
+Button,👍, 👍\n,width= borderRadius=100% fontSize=28px
+Button,👎, 👎\n,width= borderRadius=100% fontSize=28px
+Button, 😊, 😊\n,width= borderRadius=100% fontSize=28px
+Button,👏 ,👏\n, width= borderRadius=100% fontSize=28px
+Button,🤪 ,🤪\n, width= borderRadius=100% fontSize=32p28
+Shortcut, For SLAM bidding to ALERT box, , width=100% backgroundColor=palegreen fontSize=18px
+Shortcut,KCA, Asking for Key cards, width=50% backgroundColor= lightsalmon
+Shortcut,Turbo even, Turbo (0/2/4) key cards, width=50% backgroundColor=lightblue
+Shortcut,Turbo odd, Turbo (1/3) key cards, width=50% backgroundColor=yellow
+Shortcut,K ask,Asking about Ks, width=50% backgroundColor=white
+Shortcut,0/3 KCs, 0/3 Key cards, width=50% backgroundColor= peachpuff
+Shortcut,1/4 KCs, 1/4 Key cards, width=50% backgroundColor=thistle
+Shortcut,2/5 KCs no Q, 2/5 Key cards without Q, width=50% backgroundColor=burlywood
+Shortcut,2/5 KCs with Q, 2/5 Key cards with Q, width=50% backgroundColor=peachpuff
+Shortcut,Q ask, Asking about Q of trumps, width=50% backgroundColor=lightblue
+Shortcut,no Q, denying Q of trumps, width=50% backgroundColor=lightgreen
+Shortcut,Q no K, Have Q but no Ks, width=50% backgroundColor=khaki
+Shortcut,Q with K of bid suit, Have Q and K of bid suit, width=50% backgroundColor=lightblue
+Shortcut,K of bid suit, K of bid suit, width=50% backgroundC
+Shortcut, Splinter, Splinter, width=50% backgroundColor=whitesmoke
+Shortcut, Shortcuts for the CHAT box, , width=100% backgroundColor=palegreen fontSize=18px
+Shortcut,wdp, wdp !!! \n, width=50%  backgroundColor=pink
+Shortcut,wdo, Well done opponents ! \n, width=50% backgroundColor=violet
+Shortcut,brb, Be right back\n, width=50% backgroundColor=papayawhip
+Shortcut,wlc Bosphorus, Welcome to Bosphorus Team Games…Good luck & Enjoy…., width=50% backgroundColor=blanchedalmond
+Shortcut,HG Bosphorus, Bosphorus Takım Maçına Hoşgeldiniz. Herkese bol şans ve iyi oyunlar!, width=50% peachpuff
+Shortcut,congrats, Congratulations for the winner team…Thanks for joining, width=50% backgroundColor=lightsalmon
+ Option,Lang EN
+  Shortcut,hh,Hello\n, width=50% backgroundColor= peachpuff
+  Option,Lang TR
+  Shortcut,hh,Selamlar\n, width=50% backgroundColor= peachpuff
+  Option,Lang EN
+  Shortcut,f1,We play 1-level suit openings 14+ (11+ with both majors) forcing for 1-round …1NT: 12-14; may have 5-card major or 44MM(41)mm off-shape also…2-level openings: 10-13 & 5+card…1!C: 2+!C (could have any 5-card suit if balanced) 1!D=4+!D   typically unbalanced..Upside down counting & attitude..Leads are 2nd/4th..We will alert when necessary…Good Luck!…\n, width=50% backgroundColor=skyblue
+  Option,Lang TR
+Shortcut,f1,1-renk açışlarımız 14+ (her-iki major varken 11+) ve 1-tur forcing…1NT açışımız 12-14 (5.li major ve 44MM(41)mm olabilir)..2’ler 10-13; 5+uzunluk ile…1!C: 2+!C (dengeli iken 5.li herhangi bir renk bulunabilir).. 1!D=4+!D genellikle dengesiz… \n, width=50% backgroundColor= peachpuff
+ Option,Lang TR
+Shortcut,apm, Sinyaller UDCA Ataklar 2. ve 4.den… Gerekli hallerde alert edeceğiz…İyi oyunlar!..\n, width=50% backgroundColor=skyblue
+ Option,Lang EN
+Shortcut,apm, Hello. We play 2/1. Upside down count & attitude. Leads 2nd/4th..We will alert when necessary…Good Luck. \n, width=50% backgroundColor=gold
+ Option,Lang TR
+Shortcut, 21u, 2/1 UDCA oynuyoruz...Ataklar koza karşı 1/3/5.. NT'ye karşı 2/4...İyi oyunlar! \n, width=50% backgroundColorlightblue
+Option,Lang EN
+Shortcut, 21u, We play 2/1. Upside down count & attitude Leads from 1st/3rd/5th against suit and 2nd/4th against NT contracts. Good Luck.\n, width=50% backgroundColorlightblue
+Option,Lang EN
+Shortcut,apr, We play 2/1. Upside down count & attitude. Odd/Even discards. Leads from 2nd/4th. Good Luck. \n, width=50% backgroundColor=green
+ Option,Lang TR
+Shortcut, apr, 2/1 UDCA oynuyoruz...Romen defos…Ataklar  2. ve 4.den.…İyi oyunlar! \n, width=50% backgroundColor=green
+ Option,Lang EN
+Shortcut,21s, We play 2/1 Standard carding. Leads from 1st/3rd/5th against suit and 2nd/4th against NT contracts…Good Luck. \n, width=50% backgroundColor= violet
+ Option,Lang TR
+Shortcut,21s, 2/1 Standart Carding oynuyoruz. Ataklar koza karşı 1/3/5...NT'ye karşı 2/4...İyi oyunlar. \n, width=50% backgroundColor=violet
+ Option,Lang EN
+Shortcut,ty, Thank you ! \n, width=50% backgroundColor=greenyellow
+ Option,Lang TR
+Shortcut,ty, Teşekkürler! \n, width=50% backgroundColor= greenyellow
+  Option,Lang EN
+Shortcut,glp, good luck! \n, width=50% backgroundColor=navajowhite
+Option,Lang TR
+Shortcut,glp, İyi oyunlar! \n, width=50% backgroundColor=navajowhite
+Option
+
+

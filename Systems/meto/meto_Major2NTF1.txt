@@ -1,0 +1,29 @@
+bboalert,Major2NTF1
+
+								
+Major 2NTF1
+
+Option, Major2NTF1, meto+nilsun, meto+342257
+
+1H--,2N, 3/4 card support 5-9
+1H--2N--,3C, 17+
++,3D, 14-16
++,3H, 11-13
+1S--,2N, 3/4 card support invite
+1S--2N--,3C, 17+
++,3D, 14-16
++,3H, 11-13; 5!S-4!H
+1H--2N--3C--,3D, 3 card support 7-9
++,3H, 4 card support 5-6
++,3S, 4 card support single !s 7-9
++,3N, 4 card support 7-9
++,4C, 4 card support single !c 7-9
++,4D, 4 card support single !d 7-9
+1S--2N--3C--,3D, 3 card support 7-9
++,3S, 4 card support 5-6
++,3H, 4 card support single !h 7-9
++,3N, 4 card support 7-9
++,4C, 4 card support single !c 7-9
++,4D, 4 card support single !d 7-9
+Option
+

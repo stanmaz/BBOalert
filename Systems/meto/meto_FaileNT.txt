@@ -1,0 +1,49 @@
+bboalert,FaileNT
+
+Option,FaileNT, meto+camomille
+,1N,14-17
+1N--,2C,Stayman; any 4-card major
+1N--2C--,2D,no 4-card major
+1N--2C--2D--,2H,5+!H ; invite
+1N--2C--2D--,2N,invite
+1N--2C--2D--,2S,5+!S; invite
+1N--2C--2D--,3C,6+!C; slam interest
+1N--2C--2D--,3D,6+!D; slam interest
+1N--2C--2D--,3H,5!S GF
+1N--2C--2D--,3N,To Play
+1N--2C--2D--,3S,5!H GF
+1N--2C--2D--,4C,Transfer to 4!H with 6!H
+1N--2C--2D--,4D,Transfer to 4!s with 6!s
+1N--2C--2D--,4H,To Play
+1N--2C--2D--,4S,To Play
+1N--2C--,3H,5!S GF
+1N--2C--,3S,5!H GF
+1N--2C--,4C,Transfer to 4!H with 6!H
+1N--2C--,4D,Transfer to 4!s with 6!s
+1N--2C--,4H,To Play
+1N--2C--,4S,To Play
+1N--,2D,5+!H
+1N--,2H,5+!S
+1N--,2N,any weak long minor suit
+1N--2N--,3C,relay
+1N--2N--3C--,3D,6+!D's
+1N--,2S,invite or both minors
+1N--2S--,2N,decline
+1N--2S--2N--,3C,5-5 minors; PASS/CORRECT
+1N--2S--2N--,3D,5-5 minors; GF
+1N--2S--,3C,accept invitation with !C fit
+1N--2S--,3D,accept invitation with !D fit
+1N--,3C,puppet
+1N--,3D,44 majors 41 minors; game values
+1N--3D--,3H,ask
+1N--3D--3H--,3N,4!D
+1N--3D--3H--,3S,4!C
+1N--,3H,3!H; (54) minors GF
+1N--,3N,To Play
+1N--,3S,3!s; (54) minors GF
+1N--,4C,Transfer to 4!H with 6!H
+1N--,4D,Transfer to 4!s with 6!s
+1N--,4H,To Play
+1N--,4S,To Play
+Option
+

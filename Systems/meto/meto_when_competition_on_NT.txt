@@ -1,0 +1,86 @@
+bboalert,when_competition_on_NT
+
+
+
+When Intervention on NT 
+
+Option, when_competition_on_NT, meto+ratrut, meto+342257, meto+nilsun, meto+gypsyqueen
+1N2C,2D,balanced invitation
+1N2C,2H,transfer to 3!C; weak or GF
+1N2C,2N,5+!C invite
+1N2C,2S,transfer to 3!d; weak or GF
+1N2C,3C,5+!D invite
+1N2C,3D,both minors GF
+1N2C,Db,GF; Penalty to at least one major
+1N2C--,2H,fit
+1N2C--2H----,2N,both minors weak
+1N2C--2H----,Db,both minors invite
+1N2C--,2S,fit
+1N2C--2S----,2N,both minors weak
+1N2C--2S----,Db,both minors invite
+1N2D,2H,take out for !h's invite+
+1N2D,2N,both minors
+1N2D,3C,GF in !C 
+1N2D3C--,3D,ask about minor
+1N2D3C--3D--,3H,6+!C
+1N2D3C--3D--,3S,6+!D
+1N2D,3D,GF in !d
+1N2D,3H,GF; 3!H & (54) minors
+1N2D,3S,GF; 3!s & (54) minors
+1N,2D,any long major
+1N2D,Db,take out for !S's invite+
+1N2D--,2H,pass/correct
+1N2D--2H----,2N,Lebenshol (forcing to 3!C)
+1N2D--2H----2N--,3C,forced
+1N2D--2H----2N--3C--,3H,4!S with !H stopper
+1N2D--2H----2N--3C--,3N,to Play with !H stopper
+1N2D--2H----,2S,sign-off
+1N2D--2H----,3C,5+!C invite
+1N2D--2H----,3D,5+!D invite
+1N2D--2H----,3H,4!S with no !H stopper
+1N2D--2H----,3S,5+!S; GF
+1N2D--2H----,Db,invite or more
+1N2D--,2S,!H fit
+1N2D--2S----,2N,Lebenshol (forcing to 3!C)
+1N2D--2S----2N--,3C,forced
+1N2D--2S----2N--3C--,3H,4!S with !H stopper
+1N2D--2S----2N--3C--,3N,to Play with !H stopper
+1N2D--2S----,3C,5+!C invite
+1N2D--2S----,3D,5+!D invite
+1N2D--2S----,3H,5+!H; GF
+1N2D--2S----,3S,4!h with no !s stopper
+1N2D--2S----,Db,invite or more
+1N2H,2N,forcing to 3!C
+1N2H2N--,3C,forced
+1N2H2N--3C--,3D,sign-off
+1N2H2N--3C--,3H,4!S with !H stopper
+1N2H2N--3C--,3N,To play with !H stopper
+1N2H,2S,sign-off
+1N2H,3C,Please read chat#game force in !C or !D (no !H stopper or slam interest)
+1N2H,3D,invite + with 5+!s
+1N2H,3H,4!s without !h stopper
+1N2H,3N,PASS / CORRECT to 4!C (no !H stopper)
+1N2H,4D,South African transfer to 4!S
+1N2H,4S,To Play
+1N2H,Db,invite or more
+1N2S,2N,forcing to 3!C
+1N2S2N--,3C,forced
+1N2S2N--3C--,3D,sign-off
+1N2S2N--3C--,3H,sign-off
+1N2S2N--3C--,3N,To play with !s stopper
+1N2S2N--3C--,3S,4!h with !s stopper
+1N2S,3C,Please read chat#game force in !C or !D (no !H stopper or slam interest)
+1N2S,3D,invite + with 5+!h
+1N2S,3N,PASS / CORRECT to 4!C (no !H stopper)
+1N2S,3S,4!h without !s stopper
+1N2S,4C,South African transfer to 4!H
+1N2S,4H,To Play
+1N2S,Db,invite or more
+1NDb--,2C,4!C-4!H
+1NDb--,2D,4!D-4!H
+1NDb--,2H,5+!H below invite
+1NDb--,2S,5+!S below invite
+1NDb--,--,Transfer to RDBL
+1NDb--,Rd,Transfer to 2!C (SOS)
+Option
+

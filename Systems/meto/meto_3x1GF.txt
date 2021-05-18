@@ -1,0 +1,12 @@
+bboalert,3/1GF
+
+
+Option,3/1GF,meto+camomille,meto+gypsyqueen, meto+nilsun
+1H__3C,5+!S-5+!C; GF
++,3D,5+!S-5+!D; GF
+1S__3C,5+!H-5+!C; GF
++,3D,5+!H-5+!D; GF
+1[HS]__3C__3D,ask about stopper in !D or !C fit
+1[HS]__3D__4C,!D fit & !C control; slam interest
+Option
+

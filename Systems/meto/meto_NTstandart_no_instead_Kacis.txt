@@ -1,0 +1,19 @@
+bboalert,NTstandart no instead Kacis
+
+
+1NT Gelişmeleri Faile
+
+NTstandart or Kacis
+
+Option,NTstandart no instead Kacis, meto+camomille
+1NDb,Rd,Transfer to 2!C
+1NDbRd--2C--,2D,To Play
+1NDbRd--2C--,2H,To Play
+1NDbRd--2C--,2S,To Play
+1NDbRd--2C--,--,To Play
+1NDbRd--2C--,2[DHS],To Play
+1NDb,2C,4!C-4(!D/!H/!S)
+1NDb,2D,4!D-4(!H/!S)
+1NDb,2H,4!H-4!S
+Option
+

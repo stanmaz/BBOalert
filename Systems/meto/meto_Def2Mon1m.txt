@@ -1,0 +1,88 @@
+bboalert,Def2Mon1m
+
+
+
+Defense against 2M intervention on 1m Opening
+
+Option, Def2Mon1m, meto+camomille, meto+gurus, meto+nilsun, meto+ozbay, meto+ratrut, meto+gypsyqueen, meto+342257
+1C2H,2N,Lebenshol (forcing to 3!C)
+1C2H2N--,3C,forced
+1C2H2N--3C--,3D,5+!D; invite
+1C2H2N--3C--,3H,take-out for !H; 12+
+1C2H2N--3C--,3S,5+!S; invite
+1C2H2N--3C--,--,To Play
+1C2H,2S,non-forcing
+1C2H,3C,5+!C; invite
+1C2H,3D,5+!D; GF
+1C2H,3H,5+!C; GF
+1C2H,3S,5+!S; GF
+1C2H,Db,invite with !c/!D/!S
+1C2HDb--,2N,ask about shape with game interest
+1C2HDb--2N--,3C,5!C-4!S; invite
+1C2HDb--2N--,3D,5!D-4!S; invite
+1C2HDb--,2S,3/4!S; sign-off
+1C2HDb--,3C,sign-off
+1C2HDb--,3S,non-force; accept invitation
+1C2S,2N,Lebenshol (forcing to 3!C)
+1C2S2N--,3C,forced
+1C2S2N--3C--,3D,5+!D; invite
+1C2S2N--3C--,3H,5+!h; invite
+1C2S2N--3C--,3S,take-out for !s; 12+
+1C2S2N--3C--,--,To Play
+1C2S,3C,5+!C; invite
+1C2S,3D,5+!d; GF
+1C2S,3H,5+!H; GF
+1C2S,3S,5+!C; GF
+1C2S,Db,invite with !c/!D/!h
+1C2SDb--,2N,ask about shape with game interest (no 4-card !h)
+1C2SDb--2N--,3C,5!C-4!h; invite
+1C2SDb--2N--,3D,5!D-4!h; invite
+1C2SDb--,3C,sign-off
+1C2SDb--,3H,sign-off
+1C2SDb--,4H,Accept invitation in !H
+1D2H,2N,Lebenshol (forcing to 3!C)
+1D2H2N--,3C,forced (decline to a likely invitation in !c)
+1D2H2N--3C--,3D,sign-off
+1D2H2N--3C--,3H,take-out for !H; 12+
+1D2H2N--3C--,3S,5+!S; invite
+1D2H2N--3C--,--,To Play (as declined to invitation in !C)
+1D2H2N--,3D,acceptence of any likely invitation in !C
+1D2H2N--3D--,3H,invitation to game in !C
+1D2H2N--3D--,3S,5+!S; invite
+1D2H2N--3D--,--,sign-off in !D
+1D2H,2S,non-forcing (negative free bid)
+1D2H,3C,5+!C; GF
+1D2H,3D,5+!D; invite
+1D2H,3H,5+!d; GF
+1D2H,3S,5+!S; GF
+1D2H,Db,invite with !c/!D/!S
+1D2HDb--,2N,ask about shape with game interest
+1D2HDb--2N--,3C,5!C-4!S; invite
+1D2HDb--2N--,3D,5!D-4!S; invite
+1D2HDb--,2S,3/4!S; sign-off
+1D2HDb--,3C,sign-off
+1D2HDb--,3D,sign-off
+1D2HDb--,3S,non-force; accept invitation
+1D2S,2N,Lebenshol (forcing to 3!C)
+1D2S2N--,3C,forced (decline to a likely invitation in !c)
+1D2S2N--3C--,3D,sign-off
+1D2S2N--3C--,3H,5+!h; invite
+1D2S2N--3C--,3S,take-out for !s; 12+
+1D2S2N--3C--,--,To Play (as declined to invitation in !C)
+1D2S2N--,3D,acceptence of any likely invitation in !C
+1D2S2N--3D--,3H,5+!h; invite
+1D2S2N--3D--,3S,invitation to game in !C 
+1D2S2N--3D--,--,sign-off in !D
+1D2S,3C,5+!C; GF
+1D2S,3D,5+!d; invite
+1D2S,3H,5+!H; GF
+1D2S,3S,5+!d; GF
+1D2S,Db,invite with !c/!D/!h
+1D2SDb--,2N,ask about shape with game interest (no 4-card !h)
+1D2SDb--2N--,3C,5!C-4!h; invite
+1D2SDb--2N--,3D,5!D-4!h; invite
+1D2SDb--,3C,sign-off
+1D2SDb--,3H,sign-off
+1D2SDb--,4H,Accept invitation in !H
+Option
+

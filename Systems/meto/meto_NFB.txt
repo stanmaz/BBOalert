@@ -1,0 +1,32 @@
+bboalert,NFB
+
+Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay
+1C1[HS],2D,5+!D; 7-10
+1C1[HS],3D,5+!D; 11-12
+1D1[HS],2C, 5+!C; 7-10
+1D1[HS],3C, 5+!C; 11-12
+1D2C,2H, 5+!H; 6-9
+1D2C,3H, 5+!H; 10-11
+1D2C,2S, 5+!S; 6-9
+1D2C,3S, 5+!S; 10-11
+1H1S,2C, 5+!C; 7-10
+1H1S,2D, 5+!D; 7-10
+1H1S,3C, 5+!C; 11-12
+1H1S,3D, 5+!D; 11-12
+1H2C,2D, 5+!D; 7-10
+1H2C,2S, 5+!S; 6-9
+1H2C,2S, 5+!S; 6-9
+1H2C,3D, 5+!D; 11-12
+1H2C,3S, 5+!S; 10-11
+1H2C,3S, 5+!S; 10-11
+1H2D,2S, 5+!S; 6-9
+1H2D,3S, 5+!S; 10-11
+1S2C,2D, 5+!D; 7-10
+1S2C,2H, 5+!H; 6-9
+1S2C,3D, 5+!D; 11-12
+1S2C,3H, 5+!H; 10-11
+1S2D,2H, 5+!H; 6-9
+1S2D,3H, 5+!H; 10-11
+Option
+
+

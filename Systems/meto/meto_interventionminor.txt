@@ -1,0 +1,15 @@
+bboalert,interventionminor
+
+Minör Açışa Müdahale Geldiğinde
+
+Option,interventionminor, meto+camomille, meto+nilsun, meto+gypsyqueen, meto+ratrut, meto+ozbay
+1CDb,2C,8-10; 5!C
+1CDb,2N,0-5; 5!C
+1CDb,3C,11-12; 5!C
+1CDb,Rd,10+
+1DDb,2D,8-10; 4+!D
+1DDb,2N,0-5; 4+!D
+1DDb,3D,11-12; 4+!D
+1DDb,Rd,10+
+Option
+

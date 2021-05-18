@@ -1,0 +1,20 @@
+bboalert,Jacoby 2NT
+
+
+Jacoby 2NT
+
+Option, Jacoby 2NT, meto+ratrut, meto+gurus
+
+1[HS]--,2N, 4 card support game going hand
+1H--2N--,4H, No interest in proceeding further
+1H--2N--,3([CDS]), Shortness in !%Z%
+1H--2N--,3([CDS])--,4N, Key card asking 
+1H--2N--,4[CD], Second good suit
+1H--2N--,3S, Second good suit
+1S--2N--,4S, No interest in proceeding further
+1S--2N--,3([CDH]), Shortness in !%Z%
+1S--2N--,3([CDH])--,4N, Key card asking 
+1S--2N--,4[CDH], Second good suit
+1[HS]--2N--3[CD]--4N--,5N, even key cards and a void
+Option
+

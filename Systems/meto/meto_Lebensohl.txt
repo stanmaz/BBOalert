@@ -1,0 +1,27 @@
+bboalert,Lebensohl
+
+
+
+Lebensohl
+
+Option, Lebensohl, meto+ratrut, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+_kafkaf35, meto+camomille
+
+1N2D,2N, Relay to 3!C
+1N2H,2N, Relay to 3!C
+1N2S,2N, Relay to 3!C
+1N2D,3D, Stayman with no stopper in !D
+1N2H,3H, Stayman with no stopper in !H
+1N2S,3S, Stayman with no stopper in !S
+1N2D2N--,3C, As requested,
+1N2H2N--,3C, As requested
+1N2S2N--,3C, As requested
+1N2D,3N, Denies stopper
+1N2H,3N, Denies !H stopper
+1N2S,3N, Denies !S stopper
+1N2H2N--3C--,3H, Stayman with !H stopper
+1N2S2N--3C--,3S, Stayman with !S stopper
+1*2S----Db--,2N,Relay to 3!C
+1[CD]2[HS]----Db--,2N,Relay to 3!C
+2*Db--,2N,Relay to 3C
+Option
+

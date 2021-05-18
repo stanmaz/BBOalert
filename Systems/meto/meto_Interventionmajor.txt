@@ -1,0 +1,36 @@
+bboalert,Interventionmajor
+
+
+Majör Açışa Müdahale Geldiği zaman
+
+Option,Interventionmajor, meto+camomille, meto+nilsun, meto+gurus, meto+_kafkaf35, meto+ozbay
+1H1S,2N,4!H; 10+
+1H1S,2S,3!H; 10+
+1H2C,2N,4!H; 10+
+1H2C,3C,3!H; 10+
+1H2D,2N,4!H; 10+
+1H2D,3D,3!H; 10+
+1HDb,1N,transfer to 2!C
+1HDb,2C,transfer to 2!d
+1HDb,2D,transfer to 2!h; 3/4!H 8+
+1HDb,2H,3/4!H; 5-7
+1HDb,2N,4!H; 10+
+1HDb,3C,5!C-4!H; 9-11
+1HDb,3D,5!d-4!H; 9-11
+1HDb,Rd,10+; !H<3
+1S2C,2N,4!s; 10+
+1S2C,3C,3!s; 10+
+1S2D,2N,4!s; 10+
+1S2D,3D,3!s; 10+
+1S2H,2N,4!s; 10+
+1S2H,3H,3!s; 10+
+1SDb,1N,transfer to 2!C
+1SDb,2C,transfer to 2!d
+1SDb,2D,transfer to 2!h; 3/4!H 8+
+1SDb,2H,3/4!H; 5-7
+1SDb,2N,4!H; 10+
+1SDb,3C,5!C-4!H; 9-11
+1SDb,3D,5!d-4!H; 9-11
+1SDb,Rd,10+; !H<3
+Option
+

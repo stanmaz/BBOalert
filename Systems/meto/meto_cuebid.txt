@@ -1,0 +1,17 @@
+bboalert,cuebid
+
+
+Araya Giriş Sonrası Cuebid
+
+Option,cuebid,meto+camomille, meto+nilsun, meto+gypsyqueen, meto+gurus, meto+ozbay, meto+ratrut
+Script,E,R=B.slice(-1);
+1C1%E%,2[DHS],cuebid; 5+!C & game forcing
+1D1%E%,2[HS],cuebid; 4+!D & game forcing
+1H1S,2S,cuebid; 3!H & invitation and plus
+1H2[CD],3[CD],cuebid; 3!H invitation and plus
+1H1S,2N,4+!H invitation and plus
+1H2[CD],2N,4+!H invitation and plus
+1S2%E%,3[CDH],cuebid; 3!S invitation and plus
+1S2%E%,2N,4+!H invitation and plus
+Option
+

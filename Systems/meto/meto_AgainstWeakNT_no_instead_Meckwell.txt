@@ -1,0 +1,28 @@
+bboalert,AgainstWeakNT no instead Meckwell
+
+
+Meckwell or AgainstWeakNT
+
+Option, AgainstWeakNT no instead Meckwell, meto+342257, meto+nilsun, meto+ozbay, meto+ratrut, meto+camomille
+1N,2C,5!c-4+M
+1N,2D,5!D-4+M
+1N,2H,6+!H<15
+1N,2S,6+!S<15
+1N,2N,5+!C-5+!D
+1N,3C,7+!C preemptive
+1N,3D,7+!d preemptive
+1N,3H,6+!H; 15+
+1N,Db,Forcing to 2!C bid (long !C/!D or 5!H-5!S or strong !H/!S)
+1NDb--,2C,relay
+1NDb--2C--,2D,6+!D
+1NDb--2C--,2H,5!H-5!S
+1NDb--2C--,2N,2-suited hand; 17+
+1NDb--2C--2N--,3C,ask
+1NDb--2C--2N--3C--,3D,5!D-5M or 5!D-5!C
+1NDb--2C--2N--3C--,3H,5!H-5!C or 5!H-5!S
+1NDb--2C--2N--3C--,3S,5!S-5!C
+1NDb--2C--,2S,6+!S game interest
+1NDb--2C--,3H,6+!H game interest
+1NDb--2C--,--,6+!C
+Option
+

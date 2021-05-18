@@ -1,0 +1,33 @@
+bboalert,RangeAskStayman
+
+
+
+Option,RangeAskStayman, meto+gurus, meto+camomille, meto+342257, meto+gypsyqueen, meto+nilsun, meto+ratrut
+1C----,1N,11-14; balanced
+1C----1N--,2C,stayman
+1C----1N--2C--,2D,11-12
+1C----1N--2C--,2H,11-12; 4!H
+1C----1N--2C--,2N,13-14; may have 4-card major
+1C----1N--2C--2N--,3C,re-stayman
+1C----1N--2C--,2S,11-12; 4!S
+1D----,1N,11-14; balanced
+1D----1N--,2C,stayman
+1D----1N--2C--,2D,11-12
+1D----1N--2C--,2H,11-12; 4!H
+1D----1N--2C--,2N,13-14; may have 4-card major
+1D----1N--2C--2N--,3C,re-stayman
+1D----1N--2C--,2S,11-12; 4!S
+1H----,1N,11-14; balanced
+1H----1N--,2C,stayman
+1H----1N--2C--,2D,11-12
+1H----1N--2C--,2N,13-14; may have 4!S
+1H----1N--2C--2N--,3C,re-stayman
+1H----1N--2C--,2S,11-12; 4!S
+1S----,1N,11-14; balanced
+1S----1N--,2C,stayman
+1S----1N--2C--,2D,11-12
+1S----1N--2C--,2H,11-12; 4!H
+1S----1N--2C--,2N,13-14; may have 4!H
+1S----1N--2C--2N--,3C,re-stayman
+Option
+

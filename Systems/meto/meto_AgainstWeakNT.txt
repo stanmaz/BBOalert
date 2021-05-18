@@ -1,0 +1,37 @@
+bboalert,AgainstWeakNT
+
+
+
+Option, AgainstWeakNT, meto+342257
+1N,2C,both majors (maybe 54)
+1N,2D,transfer to 2!H; 4+!H
+1N2D--,2H,forced
+1N2D--2H--,2N,5!H-5!d; 14+
+1N2D--2H--2N--,3C,GF
+1N2D--2H--2N--,3S,GF
+1N2D--2H--,2S,5!H-5!C; 14+
+1N2D--2H--2S--,3D,GF
+1N2D--2H--2S--,3S,GF
+1N2D--2H--,3C,6!C-4!H
+1N2D--2H--,3D,6!D-4!H
+1N,2H,transfer to 2!S; 4+!S
+1N2H--,2S,forced
+1N2H--2S--,3C,6!C+4!S
+1N2H--2S--,3D,6+!D-4!S
+1N,2N,5!H-5m; 11-13
+1N,2S,5!s-5m; 11+
+1N2S--,2N,ask
+1N2S--2N--,3C,5!S-5!C; 11-13
+1N2S--2N--,3D,5!S-5!d; 11-13
+1N2S--2N--,3H,5!S-5!C; 14+
+1N2S--2N--,3S,5!S-5!d; 14+
+1N2S--,3C,pass / correct to 3!d
+1N2S--,3D,6+!D; GF
+1N2S--,3H,6+!H; GF
+1N,3C,6+!C; 13+
+1N,3D,6+!D; 13+
+1N,3H,preemptive
+1N,3S,preemptive
+1N,Db,14+; balanced
+Option
+

@@ -1,0 +1,23 @@
+bboalert,FNTDefans
+
+Forcing NT’ye Defans
+
+Option,FNTDefans,meto+342257, meto+_kafkaf35, meto+camomille
+1H__1N,Db, Transfer to 2!C; P/C (1-suited hand)
++,2C,5+!C-4!S; 10-13
++,2D,5+!D-4!S; 10-13
++,2H, strong take-out; 11-14 (3-suited hand)
++,2S, light take-out; 15+ (3-suited hand)
++,2N, both minors
++,3C,6+!C-4!S; 15+
++,3D,6+!D-4!S; 15+
+1S__1N,Db, Transfer to 2!C; P/C (1-suited hand)
++,2C,5+!C-4!h; 10-13
++,2D,5+!D-4!h; 10-13
++,2H, light take-out; 11-14 (3-suited hand)
++,2S, strong take-out; 15+ (3-suited hand)
++,2N, both minors
++,3C,6+!C-4!h; 15+
++,3D,6+!D-4!h; 15+
+Option
+

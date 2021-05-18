@@ -1,0 +1,40 @@
+bboalert,Muppet
+
+
+Option,Muppet,meto+nilsun
+(1N--|2N--|2C--2D--2N..),                 3C,Puppet Stayman
+(1N--|2N--|2C--2D--2N..),                 3N,5!S-3!H; game values
+Alias,Muppet,(1N--3C--|2N--3C--|2C--2D--2N--3C--)
+Muppet,3D,no 4!H's but may have 4!S's
+Muppet,3H,4/5!H's
+Muppet,3S,5!S's
+Muppet,3N,4!H-4!S
+Muppet 3D__,3H,ask about no. of !S’s
++,3S,5+!H
++,3N,To Play
++,4C,6+!C; slam forcing in !C
++,4D,6+!D; slam forcing in !D
++,4N,5-4 minors; slam interest
+Muppet 3H__,3S, ask about no. of !H's
++,3NT,To Play
++,4C,6+!C; slam forcing in !C
++,4D,6+!D; slam forcing in !D
++,4H,6!S-3!H; P/C to 4!S
++,4N,5-4 minors; slam interest
+Muppet 3S__,3N,To Play
++,4C,6+!C; slam forcing in !C
++,4D,6+!D; slam forcing in !D
++,4H,slam forcing in !s
++,4N,5-4 minors; slam interest
+Muppet 3N__,4C,!H fit
++,3D,!S fit
++,4h,6+!c; slam forcing in !c
++,4s,6+!d; slam forcing in !d
++,4N,5-4 minors; slam interest
+Muppet 3D--3H__,3S,3!S's
++,3N,2!S's
++,4S,4!S's
+Muppet 3H--3S__,3N,4!H's
++,4H,5!H's
+Option
+

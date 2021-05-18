@@ -1,0 +1,41 @@
+bboalert,2NDev
+
+
+2NT Gelişmeleri
+
+Option, 2NDev, meto+camomille, meto+gypsyqueen
+,2N,20-21
+2N--,3C,puppet
+2N--,3D,5+!H
+2N--3D--,3H,2!H
+2N--3D--3H--,3N,5!h4!S
+2N--3D--3H--,3S,Transfer to 3NT
+2N--3D--3H--3S--,3N,Automatic
+2N--3D--3H--3S--3N--,4S,5!H4!S; slam interest
+2N--3D--,3N,3/4!H
+2N--3D--,3S,4!S-3!H
+2N--3D--,4H,4!H; all controls
+2N--,3H,5+!S
+2N--3H--,3N,3/4!S
+2N--3H--,3S,2!S
+2N--3H--3S--,4H,5!S4!H; slam interest
+2N--3H--,4S,4!S; all controls
+2N--,3N,5!S-4!H
+2N--,3S,transfer to 3NT
+2N--3S--,3N,Automatic
+2N--3S--3N--,4C,slam interest in !D
+2N--3S--3N--,4D,slam interest in !C
+2N--3S--3N--,4H,6!C5!D; slam interest
+2N--3S--3N--,4N,22(54); slam interest
+2N--3S--3N--,4S,6!d5!C; slam interest
+2N--3S--,4C,slam interest in !D
+2N--3S--,4D,slam interest in !C
+2N--3S--,4H,6!C5!D; slam interest
+2N--3S--,4S,6!d5!C; slam interest
+2N--,4C,Gerber
+2N--,4D,5!h-5!S
+2N--,4H,5!C-5!D; short !H
+2N--,4N,5!C-5!D; pick a minor
+2N--,4S,5!C-5!D; short !S
+Option
+

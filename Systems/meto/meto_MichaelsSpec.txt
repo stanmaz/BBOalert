@@ -1,0 +1,22 @@
+bboalert,MichaelsSpec
+
+
+Michaels-Specified
+
+Option, MichaelsSpec, meto+nilsun, meto+camomille, meto+342257
+1C,2C,natural
+1C,2D,both majors
+1C,2N,!d-!h
+1C,3C,!d-!s
+1D,2D,both majors
+1D,2N,!c-!h
+1D,3C,!c-!s; weak
+1D,3D,!c-!s; strong
+1H,2H,!C-!S
+1H,2N,both minors
+1H,3C,!D-!S
+1S,2N,both minors
+1S,2S,!C-!h
+1S,3C,!D-!H
+Option
+

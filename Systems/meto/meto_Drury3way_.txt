@@ -1,0 +1,13 @@
+bboalert,Drury3way_
+
+
+3-way Drury
+
+Option,Drury3way_@3@4,meto+camomille, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ratrut
+,1[HS],maybe<12
+1[HS]--,2C,3-card fit; 10-11
++,2D,4-card fit; 9-11
++,2N,4-card fit; 8-11 with a singleton
+1[HS]__2N__,3C,ask about singleton
+Option
+

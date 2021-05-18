@@ -1,0 +1,7 @@
+bboalert,Araya Girişte Majörde Fitleşme
+Option,InterventinMajorFit,meto+camomille, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+ratrut, meto+nilsun
+1([HS])2([CD]),2N,+10 HCP 4+card fit
+1([HS])2([CD]),3([CD]),+10 HCP 3+card fit
+Option
+
+
