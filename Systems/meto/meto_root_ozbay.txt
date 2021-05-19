@@ -1,0 +1,14 @@
+BBOalert,<b><br>meto 210509<br></b>,
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_InterventinMajorFit.txt,meto+camomille,meto+gurus,meto+gypsyqueen,meto+ozbay,meto+ratrut,meto+nilsun
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_NFB.txt,meto+camomille,meto+gypsyqueen,meto+nilsun,meto+gurus,meto+ratrut,meto+ozbay
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Interventionmajor.txt,meto+camomille,meto+nilsun,meto+gurus,meto+_kafkaf35,meto+ozbay
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_interventionminor.txt,meto+camomille,meto+nilsun,meto+gypsyqueen,meto+ratrut,meto+ozbay
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_cuebid.txt,meto+camomille,meto+nilsun,meto+gypsyqueen,meto+gurus,meto+ozbay,meto+ratrut
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Lebensohl.txt,meto+ratrut,meto+nilsun,meto+gurus,meto+gypsyqueen,meto+ozbay,meto+_kafkaf35,meto+camomille
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Major_2NT.txt,meto+gypsyqueen,meto+ozbay,meto+_kafkaf35,meto+camomille
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_AgainstWeakNT_no_instead_Meckwell.txt,meto+342257,meto+nilsun,meto+ozbay,meto+ratrut,meto+camomille
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_DefenseNTBalance.txt,meto+nilsun,meto+gurus,meto+ratrut,meto+gypsyqueen,meto+ozbay,meto+342257
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Def2Mon1m.txt,meto+camomille,meto+gurus,meto+nilsun,meto+ozbay,meto+ratrut,meto+gypsyqueen,meto+342257
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Walsh.txt,meto+camomille,meto+nilsun,meto+ozbay,meto+gurus,meto+_kafkaf35,meto+ratrut
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_xyz1h1s1n.txt

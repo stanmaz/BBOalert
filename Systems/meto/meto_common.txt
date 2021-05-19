@@ -1,6 +1,7 @@
 bboalert,Common Aliases and Shortcuts
-  Option,LANG EN
-  Option,LANG TR
+
+Option,Lang EN
+Option,Lang TR
   Alias,3!H's may have 4!S's also,3.lü !H’ü var; 4.lü !S’i de olabilir
   Alias,may have 4!H333 hand,4!H333 ele sahip bulunabilir
   Alias,may have any 5-card suit if balanced,dengeli iken 5.li herhangi bir rengi olabilir 

@@ -1,0 +1,44 @@
+Option,InterventinMajorFit,meto+camomille, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+ratrut, meto+nilsun
+Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay
+Option, XYZ no instead NMF, meto+gypsyqueen
+Option, XYZ, meto+nilsun, meto+ratrut, meto+gurus
+ 
+Option,NTstandart no instead Kacis, meto+camomille
+Option,NTstandart, meto+camomille
+Option,FaileNT, meto+camomille
+Option, MichaelsSpec, meto+nilsun, meto+camomille, meto+342257
+
+Option,Interventionmajor, meto+camomille, meto+nilsun, meto+gurus, meto+_kafkaf35, meto+ozbay
+Option,interventionminor, meto+camomille, meto+nilsun, meto+gypsyqueen, meto+ratrut, meto+ozbay
+Option,cuebid,meto+camomille, meto+nilsun, meto+gypsyqueen, meto+gurus, meto+ozbay, meto+ratrut
+Option,FNTDefans,meto+342257, meto+_kafkaf35, meto+camomille
+
+Option, Lebensohl, meto+ratrut, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+_kafkaf35, meto+camomille
+Option, Jacoby 2NT, meto+ratrut, meto+gurus
+Option, Major 2NT, meto+gypsyqueen, meto+ozbay, meto+_kafkaf35, meto+camomille
+Option,Muppet,meto+nilsun
+
+Option, Major2NTF1, meto+nilsun, meto+342257
+Option,MajorDev, meto+nilsun, meto+342257
+Option,2Don1m,meto+camomille
+Option,2Hon1m,meto+camomille
+
+Option, 2NDev, meto+camomille, meto+gypsyqueen
+Option, AgainstWeakNT no instead Meckwell, meto+342257, meto+nilsun, meto+ozbay, meto+ratrut, meto+camomille
+Option, AgainstWeakNT, meto+342257
+Option,DefenseNTBalance, meto+nilsun, meto+gurus, meto+ratrut, meto+gypsyqueen, meto+ozbay, meto+342257
+
+Option, when_competition_on_NT, meto+ratrut, meto+342257, meto+nilsun, meto+gypsyqueen
+Option, Def2Mon1m, meto+camomille, meto+gurus, meto+nilsun, meto+ozbay, meto+ratrut, meto+gypsyqueen, meto+342257
+Option, Walsh, meto+camomille, meto+nilsun, meto+ozbay, meto+gurus, meto+_kafkaf35, meto+ratrut
+Option,RangeAskStayman, meto+gurus, meto+camomille, meto+342257, meto+gypsyqueen, meto+nilsun, meto+ratrut
+
+Option,Drury3way_@3@4,meto+camomille, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ratrut
+Option, Rita, meto+ratrut 
+Option,F_1, meto+342257
+Option,Trial,meto+camomille
+
+Option,Gazilli,meto+sansmelegi
+Option,xyz1h1s1n
+Option,Splinter,meto+camomille
+Option,3/1GF,meto+camomille,meto+gypsyqueen, meto+nilsun
