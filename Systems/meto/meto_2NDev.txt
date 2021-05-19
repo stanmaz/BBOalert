@@ -3,7 +3,7 @@ bboalert,2NDev
 
 2NT Gelişmeleri
 
-Option, 2NDev, meto+camomille, meto+gypsyqueen
+Option, 2NDev
 ,2N,20-21
 2N--,3C,puppet
 2N--,3D,5+!H

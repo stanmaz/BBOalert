@@ -3,7 +3,7 @@ bboalert,Major2NTF1
 								
 Major 2NTF1
 
-Option, Major2NTF1, meto+nilsun, meto+342257
+Option, Major2NTF1
 
 1H--,2N, 3/4 card support 5-9
 1H--2N--,3C, 17+

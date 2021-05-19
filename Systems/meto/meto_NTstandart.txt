@@ -1,7 +1,7 @@
 bboalert,NTstandart
 
 
-Option,NTstandart, meto+camomille
+Option,NTstandart
 ,1N,14-17
 1NDb,2C,Stayman; any 4-card major
 1NDb2C--,2D,no 4-card major

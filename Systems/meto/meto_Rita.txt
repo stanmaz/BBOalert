@@ -2,7 +2,7 @@ bboalert,Rita
 
 
 
-Option, Rita, meto+ratrut 
+Option, Rita
 1C,2+!C; 11+HCP
 1C--,1D,could be short; 6+HCP 
 1C--1D--,1H,5+!C-4!H; 11-17 HCP 

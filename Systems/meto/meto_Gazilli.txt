@@ -2,7 +2,7 @@ bboalert,Gazilli
 
 
 
-Option,Gazilli,meto+sansmelegi
+Option,Gazilli
 ,1S, 5+!S; 11+
 1S--,1N, 6-12; Semi-Forcing
 1S--1N--,2C, forcing for 1-round

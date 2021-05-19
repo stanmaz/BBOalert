@@ -3,7 +3,7 @@ bboalert,2Hon1m
 
 Minör Açışı Üzerine 5S-4H Majörlerle
 
-Option,2Hon1m,meto+camomille
+Option,2Hon1m
 ,1C,3+!C; 12+
 1C--,2H,5+!S-4!H ; 6-9
 1C--2H--,2N,ask about hand

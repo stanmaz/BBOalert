@@ -1,6 +1,6 @@
 bboalert,F_1
 
-Option, F_1, meto+342257
+Option, F_1
 2D,2H,T/O for !H
 2D2H--,2N,Transfer to 3!C
 2D2H--2N--,3C,Automatic

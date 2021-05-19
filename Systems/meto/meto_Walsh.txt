@@ -4,7 +4,7 @@ bboalert,Walsh
 
 Walsh
 
-Option, Walsh, meto+camomille, meto+nilsun, meto+ozbay, meto+gurus, meto+_kafkaf35, meto+ratrut
+Option, Walsh
 1C--,1D,maybe short
 1C--1D--,1H,5+!C-4!H
 1C--1D--,1N,may have 4-card major

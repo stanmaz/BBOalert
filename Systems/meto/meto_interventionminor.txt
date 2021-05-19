@@ -2,7 +2,7 @@ bboalert,interventionminor
 
 Minör Açışa Müdahale Geldiğinde
 
-Option,interventionminor, meto+camomille, meto+nilsun, meto+gypsyqueen, meto+ratrut, meto+ozbay
+Option,interventionminor
 1CDb,2C,8-10; 5!C
 1CDb,2N,0-5; 5!C
 1CDb,3C,11-12; 5!C

@@ -3,7 +3,7 @@ bboalert,Drury3way_
 
 3-way Drury
 
-Option,Drury3way_@3@4,meto+camomille, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ratrut
+Option,Drury3way_@3@4
 ,1[HS],maybe<12
 1[HS]--,2C,3-card fit; 10-11
 +,2D,4-card fit; 9-11

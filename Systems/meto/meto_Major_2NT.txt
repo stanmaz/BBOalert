@@ -3,7 +3,7 @@ bboalert,Major 2NT
 
 Major 2NT
 
-Option, Major 2NT, meto+gypsyqueen, meto+ozbay, meto+_kafkaf35, meto+camomille
+Option, Major 2NT
 
 1H--,2N, 3/4 card support 5-12
 1H--2N--,3C, 17+

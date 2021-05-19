@@ -4,7 +4,7 @@ bboalert,Def2Mon1m
 
 Defense against 2M intervention on 1m Opening
 
-Option, Def2Mon1m, meto+camomille, meto+gurus, meto+nilsun, meto+ozbay, meto+ratrut, meto+gypsyqueen, meto+342257
+Option, Def2Mon1m
 1C2H,2N,Lebenshol (forcing to 3!C)
 1C2H2N--,3C,forced
 1C2H2N--3C--,3D,5+!D; invite

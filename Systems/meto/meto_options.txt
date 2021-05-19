@@ -1,20 +1,4 @@
-  Option,LANG EN
-  Option,LANG TR
- Option,Lang EN
-  Option,Lang TR
-  Option,Lang EN
-  Option,Lang TR
- Option,Lang TR
- Option,Lang EN
- Option,Lang TR
 Option,Lang EN
-Option,Lang EN
- Option,Lang TR
- Option,Lang EN
- Option,Lang TR
- Option,Lang EN
- Option,Lang TR
-  Option,Lang EN
 Option,Lang TR
 Option,InterventinMajorFit,meto+camomille, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+ratrut, meto+nilsun
 Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay

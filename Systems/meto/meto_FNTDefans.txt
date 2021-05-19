@@ -2,7 +2,7 @@ bboalert,FNTDefans
 
 Forcing NT’ye Defans
 
-Option,FNTDefans,meto+342257, meto+_kafkaf35, meto+camomille
+Option,FNTDefans
 1H__1N,Db, Transfer to 2!C; P/C (1-suited hand)
 +,2C,5+!C-4!S; 10-13
 +,2D,5+!D-4!S; 10-13

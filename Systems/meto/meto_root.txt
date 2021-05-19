@@ -1,5 +1,7 @@
 BBOalert,<b><br>meto 210509<br></b>,
 
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
+
 Option,InterventinMajorFit,meto+camomille, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+ratrut, meto+nilsun
 Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay
 Option, XYZ no instead NMF, meto+gypsyqueen
@@ -38,7 +40,6 @@ Option,Splinter,meto+camomille
 Option,3/1GF,meto+camomille,meto+gypsyqueen, meto+nilsun
 Option
 
-Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_InterventinMajorFit.txt,meto+camomille,meto+gurus,meto+gypsyqueen,meto+ozbay,meto+ratrut,meto+nilsun
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_NFB.txt,meto+camomille,meto+gypsyqueen,meto+nilsun,meto+gurus,meto+ratrut,meto+ozbay
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_XYZ_or_NMF.txt,meto+gypsyqueen

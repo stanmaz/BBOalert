@@ -2,7 +2,7 @@ bboalert,Splinter
 
 
 
-Option,Splinter,meto+camomille
+Option,Splinter
 1H__,3S,void !S; 4+!H & 3 controls
 +,3N,void !C; 4+!H & 3 controls
 +,4C,void !D; 4+!H & 3 controls

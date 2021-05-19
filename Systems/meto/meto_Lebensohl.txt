@@ -4,7 +4,7 @@ bboalert,Lebensohl
 
 Lebensohl
 
-Option, Lebensohl, meto+ratrut, meto+nilsun, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+_kafkaf35, meto+camomille
+Option, Lebensohl
 
 1N2D,2N, Relay to 3!C
 1N2H,2N, Relay to 3!C

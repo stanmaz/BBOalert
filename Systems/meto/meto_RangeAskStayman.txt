@@ -2,7 +2,7 @@ bboalert,RangeAskStayman
 
 
 
-Option,RangeAskStayman, meto+gurus, meto+camomille, meto+342257, meto+gypsyqueen, meto+nilsun, meto+ratrut
+Option,RangeAskStayman
 1C----,1N,11-14; balanced
 1C----1N--,2C,stayman
 1C----1N--2C--,2D,11-12

@@ -3,7 +3,7 @@ bboalert,AgainstWeakNT no instead Meckwell
 
 Meckwell or AgainstWeakNT
 
-Option, AgainstWeakNT no instead Meckwell, meto+342257, meto+nilsun, meto+ozbay, meto+ratrut, meto+camomille
+Option, AgainstWeakNT no instead Meckwell
 1N,2C,5!c-4+M
 1N,2D,5!D-4+M
 1N,2H,6+!H<15

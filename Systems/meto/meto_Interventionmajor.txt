@@ -3,7 +3,7 @@ bboalert,Interventionmajor
 
 Majör Açışa Müdahale Geldiği zaman
 
-Option,Interventionmajor, meto+camomille, meto+nilsun, meto+gurus, meto+_kafkaf35, meto+ozbay
+Option,Interventionmajor
 1H1S,2N,4!H; 10+
 1H1S,2S,3!H; 10+
 1H2C,2N,4!H; 10+

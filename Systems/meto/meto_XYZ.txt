@@ -1,6 +1,6 @@
 bboalert,XYZ
 
-Option, XYZ, meto+nilsun, meto+ratrut, meto+gurus 
+Option, XYZ
 ,1C,12+
 1C--,1D,6+; maybe short
 1C--1D--,1H,5+!C-4!H <17

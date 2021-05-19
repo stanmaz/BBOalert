@@ -1,7 +1,7 @@
 bboalert,Muppet
 
 
-Option,Muppet,meto+nilsun
+Option,Muppet
 (1N--|2N--|2C--2D--2N..),                 3C,Puppet Stayman
 (1N--|2N--|2C--2D--2N..),                 3N,5!S-3!H; game values
 Alias,Muppet,(1N--3C--|2N--3C--|2C--2D--2N--3C--)

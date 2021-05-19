@@ -2,7 +2,7 @@ bboalert,AgainstWeakNT
 
 
 
-Option, AgainstWeakNT, meto+342257
+Option, AgainstWeakNT
 1N,2C,both majors (maybe 54)
 1N,2D,transfer to 2!H; 4+!H
 1N2D--,2H,forced

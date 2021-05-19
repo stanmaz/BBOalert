@@ -4,7 +4,7 @@ bboalert,XYZ no instead NMF
 
 XYZ or NMF
 
-Option, XYZ no instead NMF, meto+gypsyqueen
+Option, XYZ no instead NMF
 
 1C--1[HS]--1N--,2D, New Minor Forcing
 1D--1[HS]--1N--,2C, New Minor Forcing

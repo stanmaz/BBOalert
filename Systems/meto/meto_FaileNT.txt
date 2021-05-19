@@ -1,6 +1,6 @@
 bboalert,FaileNT
 
-Option,FaileNT, meto+camomille
+Option,FaileNT
 ,1N,14-17
 1N--,2C,Stayman; any 4-card major
 1N--2C--,2D,no 4-card major

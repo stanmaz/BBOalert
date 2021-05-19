@@ -1,7 +1,7 @@
 bboalert,3/1GF
 
 
-Option,3/1GF,meto+camomille,meto+gypsyqueen, meto+nilsun
+Option,3/1GF
 1H__3C,5+!S-5+!C; GF
 +,3D,5+!S-5+!D; GF
 1S__3C,5+!H-5+!C; GF

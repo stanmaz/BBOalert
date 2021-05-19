@@ -4,7 +4,7 @@ bboalert,Trial
 
 TRIAL
 
-Option,Trial,meto+camomille
+Option,Trial
 1H--2H--,2S, ask about controls
 +,2N, short !S
 +,3C, short !C

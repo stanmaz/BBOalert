@@ -4,7 +4,7 @@ bboalert,when_competition_on_NT
 
 When Intervention on NT 
 
-Option, when_competition_on_NT, meto+ratrut, meto+342257, meto+nilsun, meto+gypsyqueen
+Option, when_competition_on_NT
 1N2C,2D,balanced invitation
 1N2C,2H,transfer to 3!C; weak or GF
 1N2C,2N,5+!C invite

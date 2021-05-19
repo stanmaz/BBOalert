@@ -1,6 +1,6 @@
 bboalert,NFB
 
-Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay
+Option,NFB
 1C1[HS],2D,5+!D; 7-10
 1C1[HS],3D,5+!D; 11-12
 1D1[HS],2C, 5+!C; 7-10

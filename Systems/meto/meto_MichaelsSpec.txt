@@ -3,7 +3,7 @@ bboalert,MichaelsSpec
 
 Michaels-Specified
 
-Option, MichaelsSpec, meto+nilsun, meto+camomille, meto+342257
+Option, MichaelsSpec
 1C,2C,natural
 1C,2D,both majors
 1C,2N,!d-!h

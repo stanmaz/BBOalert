@@ -4,7 +4,7 @@ bboalert,DefenseNTBalance
 
 Balancing against NT at 4th seat
 
-Option,DefenseNTBalance, meto+nilsun, meto+gurus, meto+ratrut, meto+gypsyqueen, meto+ozbay, meto+342257
+Option,DefenseNTBalance
 1N----,2C,both majors (maybe 54)
 1N----2C--,2D,ask about longer major
 1N----,2D,natural

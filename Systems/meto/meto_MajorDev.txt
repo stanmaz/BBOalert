@@ -3,7 +3,7 @@ bboalert,MajorDev
 
 Majör Gelişmeleri
 
-Option,MajorDev, meto+nilsun, meto+342257
+Option,MajorDev
 ,1H,5+!H; 11+
 1H--,1N,0-9
 1H--1N--,2C,Gazilli

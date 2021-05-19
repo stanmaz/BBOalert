@@ -3,7 +3,7 @@ bboalert,Jacoby 2NT
 
 Jacoby 2NT
 
-Option, Jacoby 2NT, meto+ratrut, meto+gurus
+Option, Jacoby 2NT
 
 1[HS]--,2N, 4 card support game going hand
 1H--2N--,4H, No interest in proceeding further
