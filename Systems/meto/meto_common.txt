@@ -145,7 +145,7 @@ Option,Lang TR
   Alias,Strong take-out for !H’s, !H dışında renk arayışı (güçlü)
   Alias,Strong take-out for !S’s, !s dışında renk arayışı (güçlü)
   Alias,void,şigan
-
+Option
 //BBOalert
 //Script,onAuctionBegin
 var MH = getMyHand();
