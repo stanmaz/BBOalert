@@ -2,7 +2,7 @@
 
 ### Against natural 1C opening
 
-	Option,vs1C best minor
+	Option,▶vs1C best minor
 
 
 >1C-Double Overcall = 4+ Hearts and 4+ Spades and 8-15p or any strong hand
@@ -110,7 +110,7 @@
 
 >Overcalls against 1C Precision
 
-	Option,vs1C Precision
+	Option,▶vs1C Precision
 	1C, 	Db, Majors 44 or 54
 	1C, 	1D, 5!H
 	1C, 	1H, 5!S
@@ -297,7 +297,7 @@
 
 ### Against natural 1NT opening
 
-	Option,vs1NT Standard,Joe
+	Option,▶vs1NT Standard,Joe
 
 	1N,		Db,		+5!H
 	1NDb__,				2C,to pass if !H!C two-suiter
@@ -316,7 +316,7 @@
 
 ### Against weak 1NT opening
 
-	Option,vs1NT Weak, John
+	Option,▶vs1NT Weak, John
 
 	1N,		Db,		For penalties
 
