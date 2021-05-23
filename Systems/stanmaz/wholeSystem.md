@@ -8,11 +8,11 @@
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
 
-    Option,Lang EN
+    Option,▶Lang EN
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_en.md
-    Option,Lang FR
+    Option,▶Lang FR
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_fr.md
-    Option,Lang PL
+    Option,▶Lang PL
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_pl.md
 
 
