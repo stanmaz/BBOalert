@@ -1,33 +1,40 @@
 ##   life cycle
  
 >login into BBO
+
     1622397833062 onDataLoad
     VM98:1 1622397833063 onLogin
 
-//   start playing
-VM148:1 1622397840560 onBiddingBoxCreated
+>start playing
 
-//   new deal
-VM283:1 1622397875761 onNewDeal 2
-VM284:1 1622397875772 onMyCardsDisplayed
+    VM148:1 1622397840560 onBiddingBoxCreated
 
-//   my bidding box displayed
-VM301:1 1622397879606 onBiddingBoxDisplayed
+>new deal
 
-//   the bidding may begin
-VM302:1 1622397879607 onAuctionBoxDisplayed
-VM303:1 1622397879607 onAuctionBegin
+    VM283:1 1622397875761 onNewDeal 2
+    VM284:1 1622397875772 onMyCardsDisplayed
 
-//   I select call level and suit
-VM321:1 1622397884653 onCallLevelSelected
-VM325:1 1622397885539 onNewCallSelected
+>my bidding box displayed
+    VM301:1 1622397879606 onBiddingBoxDisplayed
 
-//   my bid confirmed
-VM329:1 1622397886816 onNewActivePlayer Ssmazur
-VM331:1 1622397887415 onNewAuction 1C
-VM332:1 1622397887636 onNewCallSelected
+>the bidding may begin
 
-//   other playres players bid
+    VM302:1 1622397879607 onAuctionBoxDisplayed
+    VM303:1 1622397879607 onAuctionBegin
+
+>I select call level and suit
+
+    VM321:1 1622397884653 onCallLevelSelected
+    VM325:1 1622397885539 onNewCallSelected
+
+>my bid confirmed
+
+    VM329:1 1622397886816 onNewActivePlayer Ssmazur
+    VM331:1 1622397887415 onNewAuction 1C
+    VM332:1 1622397887636 onNewCallSelected
+
+>other players players bid
+
 VM335:1 1622397888678 onNewActivePlayer Wsmazur
 VM337:1 1622397888904 onNewAuction 1C--
 VM339:1 1622397889441 onNewCallSelected
