@@ -60,7 +60,7 @@
     VM380:1 1622397900301 onNewPlayedCard
     VM385:1 1622397901478 onNewPlayedCard
 
->all cards played and the resolut appears
+>all cards played and the result is displayed
 
     VM399:1 1622397906948 onDealEnd
 
