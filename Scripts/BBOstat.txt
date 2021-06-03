@@ -47,7 +47,7 @@ if (playedCards != '') {
 }
 
 Script,onAnnouncementDisplayed
-    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + getAnnouncementPanel().textContent);
+    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getAnnouncementPanel().textContent);
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
@@ -55,7 +55,7 @@ Script,onAnnouncementDisplayed
 }
 
 Script,onNotificationDisplayed
-    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + getNotificationPanel().textContent);
+    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getNotificationPanel().textContent);
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
