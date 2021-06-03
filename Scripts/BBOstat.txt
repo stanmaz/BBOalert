@@ -74,6 +74,12 @@ Script,onDealEnd
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
 
+Script,onNewChatMessage
+    var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getLastChatMessaage().textContent;
+    console.log(s);
+    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+    EVENT_LOG = EVENT_LOG + s + '\n';
+    localStorage.setItem('BBOalertEvents', EVENT_LOG);
 
 Script,CLRLOG
 if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
