@@ -37,7 +37,7 @@ if (getContext() != '') {
 }
 
 Script,CLRLOG
-if (confirm("Are you sure you want to clear log ?") EVENT_LOG = '';
+if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
 Script
 
 Script,EXPLOG
