@@ -29,9 +29,19 @@ TIME_REF = Date.now();
 
 Script,onNewAuction
 if (getContext() != '') {
-    var s = getNow(true) + ',' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + getContext();
+    var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + getContext();
     console.log(s);
     TIME_REF = Date.now();
+    EVENT_LOG = EVENT_LOG + s + '\n';
+    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+}
+
+Script,onNewPlayedCard
+if (playedCards != '') {
+    var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + playedCards;
+    console.log(s);
+    TIME_REF = Date.now();
+    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
 }
