@@ -37,12 +37,13 @@ if (getContext() != '') {
 }
 
 Script,CLRLOG
-EVENT_LOG = '';
+if (confirm("Are you sure you want to clear log ?") EVENT_LOG = '';
 Script
 
 Script,EXPLOG
 writeToClipboard(EVENT_LOG);
 localStorage.setItem('BBOalertEvents', EVENT_LOG);
+alert(EVENT_LOG.split("\n").length + " records exported to clipboard");
 Script
 
 Shortcut,CLRLOG,%CLRLOG%
