@@ -114,9 +114,11 @@ Script
 
 Script,BBOLOG
 BBOLOG = confirm("Start logging ?");
+if (BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightgreen";
+if (!BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightpink";
 Script
 
-Script.onAnyMutation
+Script,onAnyMutation
 if (BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightgreen";
 if (!BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightpink";
 Script
