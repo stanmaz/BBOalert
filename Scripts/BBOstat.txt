@@ -1,6 +1,7 @@
 bboalert
 
 Script,onNewData
+BBOLOG = false;
 TIME_REF = Date.now();
 LAST_PLAYER = '';
 if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
@@ -104,7 +105,7 @@ alert(EVENT_LOG.split("\n").length + " records exported to clipboard");
 Script
 
 Script,BBOLOG
-BBOLOG = confirm("You want to start logging ?")
+BBOLOG = confirm("Start logging ?")
 Script
 
 Shortcut,CLRLOG,%CLRLOG%
