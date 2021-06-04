@@ -116,6 +116,11 @@ Script,BBOLOG
 BBOLOG = confirm("Start logging ?");
 Script
 
+Script.onAnyMutation
+if (BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightgreen";
+if (!BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightpink";
+Script
+
 Script,NXTLOG
 NXTLOG = confirm("Start logging at next board ?");
 Script
