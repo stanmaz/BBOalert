@@ -105,7 +105,7 @@ alert(EVENT_LOG.split("\n").length + " records exported to clipboard");
 Script
 
 Script,BBOLOG
-BBOLOG = confirm("Start logging ?")
+BBOLOG = confirm("Start logging ?");
 Script
 
 Shortcut,CLRLOG,%CLRLOG%
