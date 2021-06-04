@@ -28,6 +28,7 @@ TIME_REF = Date.now();
 
 
 Script,onNewAuction
+if (auctionBoxDisplayed)
 if (getContext() != '') {
     var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + getContext();
     console.log(s);
