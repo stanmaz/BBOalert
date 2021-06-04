@@ -121,10 +121,14 @@ Script
 Script,onAnyMutation
 if (BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightgreen";
 if (!BBOLOG) $("#adpanel2 [value='%BBOLOG%']")[0].style.backgroundColor = "lightpink";
+if (NXTLOG) $("#adpanel2 [value='%NXTLOG%']")[0].style.backgroundColor = "lightgreen";
+if (!NXTLOG) $("#adpanel2 [value='%NXTLOG%']")[0].style.backgroundColor = "lightpink";
 Script
 
 Script,NXTLOG
 NXTLOG = confirm("Start logging at next board ?");
+if (NXTLOG) $("#adpanel2 [value='%NXTLOG%']")[0].style.backgroundColor = "lightgreen";
+if (!NXTLOG) $("#adpanel2 [value='%NXTLOG%']")[0].style.backgroundColor = "lightpink";
 Script
 
 Shortcut,CLRLOG,%CLRLOG%
