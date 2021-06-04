@@ -6,6 +6,7 @@ LAST_PLAYER = '';
 if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
 
 Script,onLogin
+BBOLOG = false;
 EVENT_LOG = localStorage.getItem('BBOalertEvents');
 if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
 TIME_REF = Date.now();
@@ -28,6 +29,7 @@ TIME_REF = Date.now();
 
 
 Script,onNewAuction
+if (BBOLOG)
 if (auctionBoxDisplayed)
 if (getContext() != '') {
     var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + getContext();
@@ -38,6 +40,7 @@ if (getContext() != '') {
 }
 
 Script,onNewPlayedCard
+if (BBOLOG)
 if (playedCards != '') {
     var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now()-TIME_REF) + ',' + playedCards;
     console.log(s);
@@ -48,18 +51,22 @@ if (playedCards != '') {
 }
 
 Script,onAnnouncementDisplayed
+if (BBOLOG) {
     var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getAnnouncementPanel().textContent;
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
+}
 
 Script,onNotificationDisplayed
+if (BBOLOG) {
     var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getNotificationPanel().textContent;
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
+}
 
 Script,onNewDeal
     var s = getNow(true) + ',onNewDeal,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getDealNumber();
@@ -69,18 +76,22 @@ Script,onNewDeal
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
 
 Script,onDealEnd
+if (BBOLOG) {
     var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getDealEndPanel().textContent;
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
+}
 
 Script,onNewChatMessage
+if (BBOLOG) {
     var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getLastChatMessaage();
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
     localStorage.setItem('BBOalertEvents', EVENT_LOG);
+}
 
 Script,CLRLOG
 if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
@@ -92,8 +103,13 @@ localStorage.setItem('BBOalertEvents', EVENT_LOG);
 alert(EVENT_LOG.split("\n").length + " records exported to clipboard");
 Script
 
+Script,BBOLOG
+BBOLOG = confirm("You want to start logging ?")
+Script
+
 Shortcut,CLRLOG,%CLRLOG%
 Shortcut,EXPLOG,%EXPLOG%
+Shortcut,BBOLOG,%BBOLOG%
 
 
 
