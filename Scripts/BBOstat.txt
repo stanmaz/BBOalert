@@ -59,7 +59,7 @@ if (playedCards != '') {
 
 Script,onAnnouncementDisplayed
 if (BBOLOG) {
-    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getAnnouncementPanel().textContent;
+    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getAnnouncementPanel().textContent + '"';
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
@@ -68,7 +68,7 @@ if (BBOLOG) {
 
 Script,onNotificationDisplayed
 if (BBOLOG) {
-    var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getNotificationPanel().textContent;
+    var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getNotificationPanel().textContent + '"';
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
@@ -95,7 +95,7 @@ if (BBOLOG) {
 
 Script,onNewChatMessage
 if (BBOLOG) {
-    var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getLastChatMessaage();
+    var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getLastChatMessaage() + '"';
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
@@ -104,7 +104,7 @@ if (BBOLOG) {
 
 Script,onCallExplanationPanelDisplayed
 if (BBOLOG) {
-    var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,' + getCallExplanationText();
+    var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0,1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getCallExplanationText() + '"';
     console.log(s);
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     EVENT_LOG = EVENT_LOG + s + '\n';
