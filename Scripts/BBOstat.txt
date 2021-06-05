@@ -1,4 +1,4 @@
-bboalert
+bboalert,BBOstat version 1.0
 
 Script,onNewData
 BBOLOG = false;
