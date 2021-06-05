@@ -1,10 +1,10 @@
 # BBOstat
 
-The script will log all relevant events during the game. By default logging is disabled.
-
-To enable the script include the following record in the data :
+To install the script include the following record in the data :
 
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/BBOstat.txt
+
+The script will log all relevant events during the game. By default logging is disabled.
 
 The script uses shortcuts :
 
