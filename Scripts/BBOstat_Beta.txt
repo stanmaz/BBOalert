@@ -1,4 +1,4 @@
-//BBOalert
+//BBOalert,BBOstat version 1.1 Beta
 //Script,onDataLoad
 
 class bboStat {
@@ -9,12 +9,6 @@ class bboStat {
         this.LAST_PLAYER =  '';
         this.EVENT_LOG = '';
         this.TIME_REF = 0;   
-    }
-
-
-    test () {
-        this.BBOLOG = true;
-        return this.BBOLOG;
     }
 
     onDataLoad () {
