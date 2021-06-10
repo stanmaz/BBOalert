@@ -41,6 +41,7 @@ class bboStat {
     }
     
     saveLog (s,t)  {
+        if (t == '') return;
         var s1 = s;
         if (typeof(t) == "string") s1 = t;
         console.log(s1);
