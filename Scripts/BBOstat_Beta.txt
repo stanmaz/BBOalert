@@ -1,4 +1,4 @@
-//BBOalert,BBOstat version 1.1 Beta
+//BBOalert
 //Script,onDataLoad
 
 class bboStat {
