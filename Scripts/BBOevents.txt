@@ -23,5 +23,7 @@ Script,onNewPlayedCard,console.log(Date.now() + " " + 'onNewPlayedCard');
 Script,onCallExplanationPanelDisplayed,console.log(Date.now() + " " + 'onCallExplanationPanelDisplayed');
 Script,onMyCardsDisplayed,console.log(Date.now() + " " + 'onMyCardsDisplayed');
 Script,onDealEnd,console.log(Date.now() + " " + 'onDealEnd');
-
-
+Script,onFinalContractDisplayed,console.log(Date.now() + " " + 'onFinalContractDisplayed');
+Script,onAnnouncementDisplayed,console.log(Date.now() + " " + 'onAnnouncementDisplayed');
+Script,onNotificationDisplayed,console.log(Date.now() + " " + 'onNotificationDisplayed');
+Script,onNewChatMessage,console.log(Date.now() + " " + 'onNewChatMessage');
