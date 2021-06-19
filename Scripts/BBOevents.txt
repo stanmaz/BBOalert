@@ -27,3 +27,4 @@ Script,onFinalContractDisplayed,console.log(Date.now() + " " + 'onFinalContractD
 Script,onAnnouncementDisplayed,console.log(Date.now() + " " + 'onAnnouncementDisplayed ' + getAnnouncementPanel().textContent);
 Script,onNotificationDisplayed,console.log(Date.now() + " " + 'onNotificationDisplayed ' + getNotificationPanel().textContent);
 Script,onNewChatMessage,console.log(Date.now() + " " + 'onNewChatMessage ' + getLastChatMessaage());
+
