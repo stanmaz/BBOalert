@@ -130,12 +130,12 @@ BBOalert uses the clipboard to import or export data. Using the clipboard instea
 
 - <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
+- With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
 
-BBOalert was designed initially for BBO in English and then adapted to other languages. If you discover incompatibilies of BBOalert with BBO in your language :
+- BBOalert was designed initially for BBO in English and then adapted to other languages. If you discover incompatibilies of BBOalert with BBO in your language :
 
-- switch to https://www.bridgebase.com/v3/?lang=en
-- report the problem to stanmaz.git@gmail.com
+   - switch to https://www.bridgebase.com/v3/?lang=en
+   - report the problem to stanmaz.git@gmail.com
 
 We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time, when the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup. With the 'Export' button the content of the clipboard will be overwritten by call manually alerted during the session.
 
@@ -153,7 +153,7 @@ I recommend to proceed this way :
 - at the end of the session, press the 'Export' button and paste the clipboard content at the end of the file. Your partner should do it too.
 - review with your partner all newly created alerts and make the necessary corrections in the data file
 
-For very large files, collaborative online code editors are preferred like https://cryptpad.fr/code/.
+For very large files Google Docs may become too slow. In such a case collaborative online code editors are preferred like https://cryptpad.fr/code/.
 
 This way, the file is ready for the next session and will contain recently alerted calls.
 
@@ -227,7 +227,7 @@ An empty "context" field means seat-independent opening. By using leading -- cod
     ----,1S,8-21 5+!S,    except after two passes. It can be weaker
     ----1S--,2C,Drury,    in such a case Drury is used
 
-The alternative method of coding seat-dependent openings is presented in the section "Optional code".
+The alternative prefered method of coding seat-dependent openings is presented in the section "Optional code".
  
 #### Continued context
 
@@ -259,7 +259,7 @@ you can write :
 
 #### Long explanation text
 
-If you need more than 39 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat message should be sent to the opponents to complete the alert procedure.
+If you need more than 69 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat message should be sent to the opponents to complete the alert procedure.
 
 Example :
 
@@ -366,7 +366,7 @@ More information about scripting can be found in the "Scripting in BBOalert.pdf"
 
 Almost everyone on BBO is using the SAYC bidding system. But SAYC is not the world standard and some opponents will use another bidding system such as ACOL or French Standard. If you play on BBO with your partner to practice a sophisticated defense system - with particular agreements that depend on the conventions used by the opponents - you must be able to switch on-the-fly between different defense options during the game.
 
-To solve this problem, the keyword 'Option' followed by the option name are used. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed at the left side of the screen.
+To solve this problem, the keyword 'Option' followed by the option name are used. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed on the red "Options" panel.
 
 The subsequent options with the common prefix word will be grouped automatically. Within the group only one option can be selected to avoid conflicting codes. You are free to disable any option. Initially the first member of each group is enabled.
 
@@ -430,6 +430,14 @@ Fragmentation of options is allowed. If two or more options are defined with the
     … code part 2 for option B
     Option
 
+Sometimes it is useful to insert a separator between different groups of options. To achieve is declare a dummy option ending with the @s tag. The separator should be immediately followed by a regular option record.Example :
+       
+    Option,Overcalls@s
+    Option,vs1NT Strong
+    .... some code
+       
+This will create a supplementary button with centered "Overcalls" text at cyan background.
+       
 ### Partnership options
 
 Let us assume that you play different conventions with different partners. The option selector enables you to use certain options only when playing with a given partner. Example : you play weak NT with John and standard NT with Joe. This affects the NT rebid after the opening in a minor. The BBO user-id's of your partners can be specified in supplementary fields of the Options record. More than one name is allowed separated by a comma. When two user-id's separated by a + are specified with an option and both players are present, the option is activated automatically. Sample data :
@@ -442,7 +450,7 @@ Let us assume that you play different conventions with different partners. The o
       1[CD]--1*--,   1N,   balanced 12-14p
       Option
 
-If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 disabled as :
+If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 disabled :
 
 ![](./images/PartnerSelection.png)
 
@@ -518,7 +526,7 @@ You can override the defaults with the optional properties. Properties should be
     Button,Texas,Texas,width=50% backgroundColor=orange
     Button,Transfer,Transfer,width=50% backgroundColor=lightgreen
     
-![](./images/shortcuts.png)  
+![](./images/Shortcuts.png)  
 
 
 The list of color names can be found on page :
