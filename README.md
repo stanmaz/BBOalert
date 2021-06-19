@@ -537,7 +537,7 @@ https://www.w3schools.com/jsref/dom_obj_style.asp
 
 ### Alias
 
-The format os an alias record is :
+The format of an alias record is :
 
       Alias,<string1>,<string2>
       
@@ -619,29 +619,27 @@ This convention card together with the BBOalert data will become available for y
 - open the convention card for editing
 - press "Send to BBOalert"
 
-### Dropbox support
+### Web storage support
 
-BBOalert allows to store ASCII data on Dropbox and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data.
+BBOalert allows to store ASCII data on a fle hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data.
+       
+The best suitable site for this task is github.com which hosts also the BBOalert project. Other popular storage sites like Google Drive do not allow to read files programatically.
 
-Dropbox has been chosen because it is technically best suited for this task. It is also available to everyone at no cost.
+GitHub is easy and is free of charge for personal use. All you have to do is :
+       
+- create a Github account (best using the same user ID as on BBO)
+- sign-in and create a public repository. You may use any name you wish but we prefer a standard name "BBOalert_data" to make your data searchable for other BBOalert users.
+- create a folder where you wish to store your data
+       
+You will find on Web many tutorials explaining how to use Github.
 
 #### Scripts
 
 Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
 
-    //Script,onAnyMutation,LARGE_BIDDING_BOX();
-    //Javascript,https://www.dropbox.com/s/1ppx4xeebvzagm9/LARGE_BIDDING_BOX.js?dl=0
+    //Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/stanmazLib.js
     
-The link must be public :
-
-- click at three-dots associated with the file in Dropbox
-- Click “Create link”
-- click “Copy link”
-- paste the copied link into the Javascript record
-- 
-This procedure is to be applied for larger scripts and shared scripts. The published file should contain only Javascript code declaring global functions. It can not be used to store the in-line script code.
-
-Storing scripts in Dropbox has two advantages :
+Storing scripts on Github has two advantages :
 
 - Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
 - Published scripts can be shared with others
@@ -659,16 +657,15 @@ Hierarchical nesting of linked files is allowed (Each file may contain a link to
 In extreme case one can define locally the whole bidding system with only two lines of code as in the example of our system :
 
     BBOalert
-    Import,https://www.dropbox.com/s/sq695s6zca9fuzj/wholeSystem.txt?dl=0
-
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/wholeSystem.md
+       
 The rest of the data will be loaded by following the link above.
 
 Handling a large data file is not easy and subdividing it into smaller linked pieces is a great help. This enables collaborative editing and easy sharing of effort. Each module can represent a convention that can be published within the users group on Facebook and reused by others.
 
-
 #### Support for the generic BBO convention card
 
-The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software strips new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
+The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software removes new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
 
 This problem can be solved by using underscore characters instead of spaces. BBOalert replaces then underscores by non-breaking spaces before saving data on the server. To be correctly displayed to the opponents each line of text should be approximately 25 to 40 characters long.
 
@@ -688,67 +685,36 @@ Then :
 
 You can use this template to prepare your data (hint : set the keyboard to overstrike mode to preserve text line length). The field ID’s are self explanatory.
 
-    bboalert
-    CC,summary,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,ntopen,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,majoropen,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,minoropen,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,level2open,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,other,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,doubles,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,ntocalls,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,socalls,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,over1nt,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,jocalls,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,overtox,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,directq,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,slam,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
-    CC,carding,\
-    Line_1__________________________________\n\
-    Line_1__________________________________\n\
-    Line_3
+CC,summary
+… text for “System Summary” section
+CC,ntopen
+… text for “Notrump Openings” section
+CC,majoropen
+… text for “Minor Suit Openings” section
+CC,minoropen
+… text for “Minor Suit Openings” section
+CC,level2open
+… text for “2-Level Openings” section
+CC,other
+… text for “Other important notes” section
+CC,doubles
+… text for “Doubles” section
+CC,ntocalls
+… text for “Notrump Overcalls” section
+CC,socalls
+… text for “Simple Overcalls” section
+CC,over1nt
+… text for “Over 1NT Openings” section
+CC,jocalls
+… text for “Jump Overcalls” section
+CC,overtox
+...text for “Over Takeout Doubles” section
+CC,directq
+...text for “Over Takeout Doubles” section
+CC,slam
+...text for “Slam Bidding” section
+CC
+
 
 
 ## Release notes 
@@ -899,3 +865,7 @@ Bug fix :
 New features :
 - support for Dropbox data storage and sharing for alerts and scripts
 - convention card text import
+       
+## from version 6.3
+
+https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub
