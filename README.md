@@ -19,7 +19,7 @@ Thereafter you can decide to use advanced features if needed:
 - Keyboard and button shortcuts and abbreviations
 - Full Disclosure BSS file support
 - add custom features using Javascript
-- share your data using Dropbox cloud storage
+- share your data using Github storage
 
 If you you decide to use BBOalert, join the users community on Facebook 
 
