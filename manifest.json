@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "6.0.1",
+	"version": "6.3",
 	"permissions": [
 		"webRequest",
 		"<all_urls>",
@@ -36,3 +36,4 @@
 		}
 	]
 }
+

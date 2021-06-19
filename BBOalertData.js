@@ -105,5 +105,6 @@ function testBBOalertData() {
     var txt;
     scan.resetScan();
     while ((txt = scan.getNextRecord()) != null) {
+        console.log(txt);
     }
 }

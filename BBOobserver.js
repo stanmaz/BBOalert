@@ -45,6 +45,19 @@ function initGlobals() {
      * string : contains current active player direction and uid
      */
     activePlayer = '';
+    lastSelectedCall = '';
+    cardLead = '';
+    playedCards = '';
+    callExplanationPanelDisplayed = false;
+    myCardsDisplayed = '';
+    dealEndPanelDisplayed = false;
+    announcemenDisplayed = false;
+    finalContractDisplayed = false;
+    announcementText = '';
+    notificationDisplayed = false;
+    notificationText = '';
+    lastChatMessage = '';
+    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub?embedded=true";
 }
 
 initGlobals();
@@ -52,6 +65,7 @@ initGlobals();
 // Options for the observer (which mutations to observe)
 const config = {
     attributes: true,
+    attributeFilter: ['id', 'class', 'style'],
     childList: true,
     subtree: true
 };
@@ -79,18 +93,36 @@ const callback = function (mutationsList, observer) {
         if (auctionBoxDisplayed) onAuctionBoxDisplayed();
         else onAuctionBoxHidden();
     }
+    if (isVisible(getAnnouncementPanel()) != announcemenDisplayed) {
+        announcemenDisplayed = !announcemenDisplayed;
+        if (announcemenDisplayed) onAnnouncementDisplayed();
+    }
+    if (isVisible(getNotificationPanel()) != notificationDisplayed) {
+        notificationDisplayed = !notificationDisplayed;
+        if (notificationDisplayed) onNotificationDisplayed();
+    }
+    if (isVisible(getFinalContractPanel()) != finalContractDisplayed) {
+        finalContractDisplayed = !finalContractDisplayed;
+        if (finalContractDisplayed) onFinalContractDisplayed();
+    }
     if (currentAuction != getContext()) {
         currentAuction = getContext();
         onNewAuction();
     }
     if (activePlayer != getActivePlayer()) {
         activePlayer = getActivePlayer();
-        onNewActivePlayer();
+        callText = '';
+        lastSelectedCall = callText;
+        if (activePlayer != '') onNewActivePlayer();
     }
     if (isVisible(getExplainCallBox()) != explainCallDisplayed) {
         explainCallDisplayed = !explainCallDisplayed;
         if (explainCallDisplayed) onExplainCallDisplayed();
         else onExplainCallHidden();
+    }
+    if (isVisible(getDealEndPanel()) != dealEndPanelDisplayed) {
+        dealEndPanelDisplayed = !dealEndPanelDisplayed;
+        if (dealEndPanelDisplayed) onDealEndPanelDisplayed();
     }
     if ((myOpponent(true) != LHOpponent) || (myOpponent(false) != RHOpponent)) {
         onAnyOpponentChange();
@@ -100,6 +132,30 @@ const callback = function (mutationsList, observer) {
             onNewDeal();
         }
         lastDealNumber = getDealNumber();
+    }
+    if (callText != lastSelectedCall) {
+        lastSelectedCall = callText;
+        if (isVisible(getAuctionBox())) onNewCallSelected();
+    }
+    if (getLastChatMessaage() != lastChatMessage) {
+        lastChatMessage = getLastChatMessaage();
+        onNewChatMessage();
+    }
+    if (cardLead != getCard(90)) {
+        cardLead = getCard(90);
+        onNewLead();
+    }
+    if (playedCards != getPlayedCards()) {
+        playedCards = getPlayedCards();
+        onNewPlayedCard();
+    }
+    if (isVisible(getCallExplanationPanel()) != callExplanationPanelDisplayed) {
+        callExplanationPanelDisplayed = !callExplanationPanelDisplayed;
+        if (callExplanationPanelDisplayed) onCallExplanationPanelDisplayed();
+    }
+    if ((myCardsDisplayed != getMyHand()) &&  (getMyHand().length == 26)) {
+        myCardsDisplayed = getMyHand();
+        onMyCardsDisplayed();
     }
     onAnyMutation();
     observer.observe(targetNode, config);
@@ -114,9 +170,27 @@ observer.observe(targetNode, config);
 
 
 function onAnyMutation() {
+    // move down CC table
+    var ccd = document.getElementById('ccDiv');
+	if (ccd != null) ccd.style.top = "";
+//	if (ccd != null) ccd.style.top = "85px";
     partnershipOptions();
     checkOptionsVulnerability();
     setOptionColors();
+    if ($("#adpanel2").length == 1) {
+        if (document.activeElement.tagName.toLowerCase() == "input") {
+//            document.activeElement.tagName.onfocus = inputOnFocus;
+            if (!$("#rightDiv")[0].contains(document.activeElement)) {
+                $("#adpanel2")[0].inputObject = document.activeElement;
+                if (document.activeElement.onclick == null) {
+                    document.activeElement.onclick = function () {
+                        toggleButtons(this);
+                    };
+                }
+            }
+        }
+    }
+    hover_bboalert();
     execUserScript('%onAnyMutation%');
 }
 
@@ -130,14 +204,16 @@ function onBiddingBoxCreated() {
 
 function onBiddingBoxDisplayed() {
     setBiddingButtonEvents();
-    setExplainInputClickEvents();
+//    setExplainInputClickEvents();
     var elAlertExplain = getExplainInput();
     if (elAlertExplain.onclick == null) {
         elAlertExplain.onclick = function () {
             toggleButtons(this);
         };
     }
-    elAlertExplain.onkeyup = explainOnKeyup;
+    elAlertExplain.onkeyup = inputOnKeyup;
+//    elAlertExplain.onfocus = inputOnFocus;
+    getExplainInput().setAttribute("maxlength", "69");
     execUserScript('%onBiddingBoxDisplayed%');
 }
 
@@ -147,7 +223,9 @@ function onBiddingBoxHidden() {
 
 function onAuctionBoxDisplayed() {
     execUserScript('%onAuctionBoxDisplayed%');
-    if (getContext() == '') execUserScript('%onAuctionBegin%');
+    setTimeout(function () {
+        if (getContext() == '') execUserScript('%onAuctionBegin%');
+    }, 200);
 }
 
 function onAuctionBoxHidden() {
@@ -159,7 +237,12 @@ function onAuctionBoxHidden() {
     }
 }
 
+function onFinalContractDisplayed() {
+    execUserScript('%onFinalContractDisplayed%');
+}
+
 function onNewAuction() {
+    if (currentAuction != '')
     if (currentAuction != '??') execUserScript('%onNewAuction%');
 }
 
@@ -168,13 +251,18 @@ function onNewActivePlayer() {
 }
 
 function onExplainCallDisplayed() {
-    getExplainCallBox().onkeyup = explainCallOnKeyup;
+    dragElement(getExplainCallBox());
+    getExplainCallBox().onkeyup = inputOnKeyup;
+//    getExplainCallBox().onfocus = inputOnFocus;
     var e = getExplainCallInput();
     if (e.onclick == null) {
         e.onclick = function () {
             toggleButtons(this);
         };
     }
+    getExplainCallBox().style.width = "auto";
+    getExplainCallBox().style.height = "auto";
+    dragElement(getExplainCallBox());
     execUserScript('%onExplainCallDisplayed%');
 }
 
@@ -189,35 +277,39 @@ function onBiddingBoxRemoved() {
 
 function onNavDivDisplayed() {
     // complete initial setup
+    $(window).on("beforeunload", exportUpdateData);
+    $(".logoutBlock button")[0].onclick = exportUpdateData;
     setUI();
     addBBOalertTab();
     alertData = localStorage.getItem('BBOalertCache');
+    if (alertData == null) alertData = 'BBOalert\n';
+    if (alertData == "") alertData = 'BBOalert\n';
     alertOriginal = alertData;
     openAccountTab();
     setOptions(true);
     bboalertLog(version + "<br>Reading data<br>");
     setTimeout(() => {
         updateAlertDataAsync(alertOriginal, function () {
-            if (alertData == null) alertData = '';
             alertTable = alertData.split("\n");
             saveAlertTableToClipboard();
             processTable();
-            addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records from cache");
+            displayHeaders();
+            addBBOalertLog("<br>" + alertTable.length + " records from cache");
             var elMessage = getChatInput();
-            elMessage.onkeyup = messageOnKeyup;
+            elMessage.onkeyup = inputOnKeyup;
             if (elMessage.onclick == null) {
                 elMessage.onclick = function () {
                     toggleButtons(this);
                 };
             }
-            setChatInputClickEvents();
-            setControlButtonEvents();
             setPageReload();
             setTabEvents();
             partnershipOptions();
             setTimeout(function () {
                 setOptions(true);
             }, 200);
+            restoreSettings();
+            hideUnusedOptions();
             execUserScript('%onLogin%');
         });
     }, 500);
@@ -248,4 +340,48 @@ function onAnyOpponentChange() {
 function onNewDeal() {
     activePlayer = '';
     execUserScript('%onNewDeal%');
+}
+
+function onNewCallSelected() {
+    if (lastSelectedCall.length == 2) execUserScript('%onNewCallSelected%');
+    if (lastSelectedCall.length == 1) execUserScript('%onCallLevelSelected%');
+}
+
+function onNewLead() {
+    if (myDirection() != "") {
+        if (getMyHand().length == 24) {
+            execUserScript('%onMyLead%');
+        }
+    }
+}
+
+function onNewPlayedCard() {
+    if (playedCards != '') execUserScript('%onNewPlayedCard%');
+}
+
+function onCallExplanationPanelDisplayed() {
+    dragElement(getCallExplanationPanel());
+    execUserScript('%onCallExplanationPanelDisplayed%');
+}
+
+function onMyCardsDisplayed() {
+    execUserScript('%onMyCardsDisplayed%');
+}
+
+
+function onDealEndPanelDisplayed() {
+    execUserScript('%onDealEnd%');
+}
+
+function onAnnouncementDisplayed () {
+    dragElement(getAnnouncementPanel());
+    execUserScript('%onAnnouncementDisplayed%');
+}
+
+function onNotificationDisplayed () {
+    execUserScript('%onNotificationDisplayed%');
+}
+
+function onNewChatMessage () {
+    if (getDealNumber() != '') execUserScript('%onNewChatMessage%');
 }

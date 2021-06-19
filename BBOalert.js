@@ -30,21 +30,12 @@ const DATABEGIN = '⬛';
 function receiveMessageCC(event) {
 	if (event.origin != 'https://www.bridgebase.com') return;
 	if (event.data.length == 0) return;
-	alertData = event.data;
-	alertTable = alertData.split('\n');
-	var scan = new BBOalertData();
-	scan.trimOn = false;
-	var txt = '';
-	while ((txt = scan.getNextRecord()) != null) {
-		var rec = txt.split(",");
-		if (rec.length < 3) continue;
-		if (rec[0].trim() == 'CC') {
-			var el = document.getElementById(rec[1].trim());
-			var s = rec[2].split(/\\n/).join('\n');
-			el.value = s;
-			$(el).trigger("change");
-		}
+	if (event.data.startsWith("onlyCC")) {
+		setCC(event.data);
+		return;
 	}
+	alertData = event.data;
+	setCC(alertData);
 	// BBOalert data is appended to the Carding field
 	var tac = document.getElementById('carding');
 	if (tac == null) return;
@@ -59,6 +50,52 @@ function receiveMessageCC(event) {
 	tac.dispatchEvent(changeEvent);
 }
 
+function setCC(CCtxt) {
+	var changeEvent = new Event('change');
+	alertData = CCtxt;
+	alertTable = alertData.split('\n');
+	var scan = new BBOalertData();
+	scan.trimOn = false;
+	var txt = '';
+	var ccText = '';
+	var el = null;
+	while ((txt = scan.getNextRecord()) != null) {
+		var rec = txt.split(",");
+		//		if (rec.length < 3) continue;
+		if (rec[0].trim() == 'CC') {
+			if (rec.length > 2) {
+				el = document.getElementById(rec[1].trim());
+				if (el != null) {
+//					el.style.fontFamily = "arial";
+					ccText = rec[2].split(/\\n/).join('\n');
+					el.value = ccText;
+					el.dispatchEvent(changeEvent);
+					ccText = '';
+				}
+				ccText = '';
+			} else if (rec.length == 2) {
+				if (el != null) {
+//					el.style.fontFamily = "arial";
+					el.value = ccText;
+					el.dispatchEvent(changeEvent);
+					ccText = '';
+				}
+				el = document.getElementById(rec[1].trim());
+			} else if (rec.length == 1) {
+				if (el != null) {
+//					el.style.fontFamily = "arial";
+					el.value = ccText;
+					el.dispatchEvent(changeEvent);
+					ccText = '';
+				}
+			}
+		} else {
+			if (el != null) ccText = ccText + replaceSpacesByUnderscore(txt) + "\n";
+		}
+	}
+
+}
+
 /**
  * @ignore
  */
@@ -68,6 +105,11 @@ function receiveMessageBBO(event) {
 	// Send alert data to the CC page on import request 
 	if (event.data == 'Import') {
 		event.source.postMessage(alertOriginal, event.origin);
+		// Otherwise the message from Convention Card page is considered BBOalert data
+	} else if (event.data == 'getCC') {
+		navigator.clipboard.readText().then((cbData) => {
+			event.source.postMessage("onlyCC\n" + cbData, event.origin);
+		});
 		// Otherwise the message from Convention Card page is considered BBOalert data
 	} else {
 		try {
@@ -81,7 +123,8 @@ function receiveMessageBBO(event) {
 					alertTable = alertData.split("\n");
 					saveAlertTableToClipboard();
 					processTable();
-					addBBOalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records from cache");
+					displayHeaders();
+					addBBOalertLog("<br>" + alertTable.length + " records from CC");
 					setTimeout(function () {
 						setOptions(true);
 					}, 200);
@@ -90,6 +133,14 @@ function receiveMessageBBO(event) {
 		} catch {}
 	}
 
+}
+
+function Clipboard2CC() {
+}
+
+
+function CCfromClipboard() {
+	window.parent.postMessage('getCC', '*');
 }
 
 /**
@@ -110,6 +161,9 @@ function CC2BBOalert() {
 	window.parent.postMessage(CCtoString(tac.value.slice(idb + 1)), '*');
 }
 
+
+
+
 function replaceUnderscoreOnCC() {
 	var ccd = document.getElementById('ccDiv');
 	var tas = ccd.querySelectorAll('textarea');
@@ -119,6 +173,13 @@ function replaceUnderscoreOnCC() {
 		$(tas[i]).trigger("change");
 	}
 }
+
+function replaceSpacesByUnderscore(txt) {
+	var txt1 = txt.replace(/ /g, '_').slice(0, 40);
+	while (txt1.length < 40) txt1 = txt1 + '_';
+	return txt1;
+}
+
 
 /**
  * @ignore
@@ -133,8 +194,8 @@ function addCCbuttons() {
 	var ccbboa = document.getElementById('bboalert-cc');
 	if (ccbboa != null) return;
 	var d = document.createElement('div');
-	d.style.width = bd.style.width;
-	d.style.height = '18px';
+//	d.style.width = bd.style.width;
+	d.style.height = '30px';
 	//	d.style.backgroundColor = 'yellow';
 	d.id = 'bboalert-cc';
 	var bc1 = document.createElement("button");
@@ -151,6 +212,13 @@ function addCCbuttons() {
 	bc2.style.height = '100%';
 	bc2.onclick = CC2BBOalert;
 	d.appendChild(bc2);
+	var bc3 = document.createElement("button");
+	bc3.textContent = "Import CC";
+	bc3.id = 'bboalert-c3';
+	//	bc2.style.fontSize = "16px";
+	bc3.style.height = '100%';
+	bc3.onclick = CCfromClipboard;
+	d.appendChild(bc3);
 	var sb = document.getElementById('saveButton');
 	if (sb == null) return;
 	sb.onmousedown = replaceUnderscoreOnCC;
@@ -206,6 +274,13 @@ function appendClipboardData() {
 	getClipboardData(false);
 }
 
+function clearData() {
+	if (confirm("Are you sure you want to clear data ?")) {
+		writeToClipboard('BBOalert\n');
+		getClipboardData(true);
+	}
+}
+
 /**
  * @ignore
  */
@@ -243,6 +318,20 @@ function setScriptList() {
 			}
 		} else {
 			if (scriptText != '') scriptText = scriptText + "\n" + txt;
+		}
+	}
+}
+
+function displayHeaders() {
+	var txt = '';
+	var scriptText = '';
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextLine()) != null) {
+		var rec = txt.split(",");
+		if (rec.length > 1) {
+			if (rec[0].trim().toLowerCase().endsWith('bboalert')) {
+				if (rec[0].trim() != '') addBBOalertLog('<br>' + rec[1].trim());
+			}
 		}
 	}
 }
@@ -348,11 +437,13 @@ function processTable() {
 	setOptionButtons();
 	setOptionsSelector();
 	initOptionDefaults();
+	hideUnusedOptions();
 	clearShortcutButtons();
 	setShortcutButtons();
-	loadJavascript();
+	//	loadJavascript();
 	setScriptList();
 	saveAlertTableToClipboard();
+	hover_bboalert();
 	execUserScript('%onDataLoad%');
 }
 
@@ -379,11 +470,12 @@ function getClipboardData(newData) {
 				bboalertLog(version + "<br>Reading data<br>");
 				setTimeout(() => {
 					updateAlertDataAsync(alertOriginal, function () {
-						if (alertData == null) alertData = 'BBOaler\n';
+						if (alertData == null) alertData = 'BBOalert\n';
 						alertTable = alertData.split("\n");
 						saveAlertTableToClipboard();
 						processTable();
-						addBBOalertLog(getBBOalertHeaderMsg() + alertTable.length + " records imported");
+						displayHeaders();
+						addBBOalertLog("<br>" + alertTable.length + " records imported");
 						setTimeout(function () {
 							setOptions(true);
 						}, 200);
@@ -401,7 +493,8 @@ function getClipboardData(newData) {
 					alertTable = alertData.split("\n");
 					saveAlertTableToClipboard();
 					processTable();
-					addBBOalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records imported");
+					displayHeaders();
+					addBBOalertLog("<br>" + alertTable.length + " records imported");
 					setTimeout(function () {
 						setOptions(true);
 					}, 200);
@@ -488,7 +581,7 @@ function getClipboardData(newData) {
 					n = 7;
 				exp = rec[1].slice(n);
 				exp = exp.split(',').join(';');
-				if (exp.length > 39) {
+				if (exp.length > 69) {
 					exp = "Please read chat" + "#" + exp;
 				}
 				alertTable[i] = ctx + "," + exp;
@@ -521,11 +614,11 @@ function getClipboardData(newData) {
  */
 function exportUpdateData() {
 	if (updateCount == 0) {
-		bboalertLog(version + "<br>no data to export");
+		bboalertLog(version + "<br>no new records to export");
 		return;
 	}
 	writeToClipboard(updateText);
-	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + updateCount + " records exported to clipboard");
+	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + updateCount + " new records exported to clipboard");
 }
 
 var trustedBid = false;
@@ -567,6 +660,12 @@ function findAlertText(context, call) {
 	return alertText;
 }
 
+function updateAlertText(alertText) {
+	var newAlertText = execUserScript("%onFindAlertText%");
+	if (newAlertText != "%onFindAlertText%") return newAlertText;
+	else return execUserScript(alertText);
+}
+
 /**
  * @ignore
  */
@@ -577,6 +676,7 @@ function findAlert(context, call) {
 	var alertText = "";
 	var txt = '';
 	var matchFound = false;
+	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
 	while ((txt = scan.getNextRecord()) != null) {
 		rec = txt.split(",");
@@ -592,8 +692,9 @@ function findAlert(context, call) {
 			lastContext = currentContext;
 		}
 		if (rec.length < 3) continue;
+		if (!matchContext(rec[1].trim(), call)) continue;
 		currentContext = execUserScript(scan.replaceAliases(currentContext));
-		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
+		if (matchContext(currentContext, stripContext(context))) {
 			matchFound = true;
 			idx = alertTableCursor;
 			alertText = scan.replaceAliases(rec[2]);
@@ -601,7 +702,7 @@ function findAlert(context, call) {
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
 		}
-		if (matchContext(currentContext, context) && (matchContext(rec[1].trim(), call))) {
+		if (matchContext(currentContext, context)) {
 			matchFound = true;
 			alertText = scan.replaceAliases(rec[2]);
 			trustedBid = trustedZone;
@@ -612,6 +713,7 @@ function findAlert(context, call) {
 	alertText = normalize(alertText);
 	// Confirm bid id match not found
 	if (!matchFound) trusteBid = false;
+	alertText = updateAlertText(alertText);
 	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
 		'|' + context + '|' + call + '|' + matchFound + '|' + alertText + '|' + trustedBid + ']');
 	return alertText;
@@ -638,6 +740,36 @@ function findShortcut(text) {
 	}
 	return execUserScript(expandedText);
 }
+
+function inputOnFocus() {
+	$("#bttab-buttons").click();
+}
+
+function inputOnBlur() {
+	if (this.openTab == "data") $("#bttab-bboalert")[0].click();
+	if (this.openTab == "data") $("#bttab-options")[0].click();
+	if (this.openTab == "info") $("#bttab-info")[0].click();
+}
+
+/**
+ * @ignore
+ */
+function inputOnKeyup(key) {
+	var text1 = this.value;
+	var text1a = text1.slice(0, this.selectionStart);
+	var text1b = text1.slice(this.selectionStart, text1.length);
+	if (key.altKey) {
+		text1a = text1a + 'Alt' + key.key.toUpperCase();
+	}
+	text2 = findShortcut(text1a) + text1b;
+	if (text1 != text2) {
+		setInputMessage(text2, false, this);
+		this.focus();
+		this.selectionStart = text2.length - text1b.length;
+		this.selectionEnd = text2.length - text1b.length;
+	}
+}
+
 
 /**
  * @ignore
@@ -761,7 +893,7 @@ function saveAlert() {
 	if (alertText.indexOf('%') != -1) return;
 	if (explainText != alertText) {
 		var newrec = stripContext(getContext()) + "," + callText + "," + explainText;
-		newrec = newrec + "," + getNow() + " Deal " + getDealNumber();
+		newrec = newrec + "," + getNow() + " Deal " + getDealNumber() + " " + myPartner();
 		addLog('save:[' + getDealNumber() + '|' + areWeVulnerable() + '|' + getSeatNr() + '|' + stripContext(getContext()) + '|' + callText + '|' + explainText + ']');
 		alertTable.push(newrec);
 		updateText = updateText + newrec + '\n';
@@ -1046,39 +1178,4 @@ function setBiddingButtonEvents() {
 			sendChat();
 		});
 	}
-}
-
-/**
- * @ignore
- */
-function setControlButtonEvents() {
-	var optionsSelector = document.getElementById('bboalert-ds');
-	if (optionsSelector != null)
-		if (optionsSelector.onchange == null) optionsSelector.onchange = optionsSelectorChanged;
-	var bar = document.querySelector('.moreMenuDivClass');
-	if (bar == null) return;
-	var b = document.querySelector('#bboalert-b1');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = importClipboardData;
-	b = document.querySelector('#bboalert-b2');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = appendClipboardData;
-	b = document.querySelector('#bboalert-b3');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = exportAlertData;
-	b = document.querySelector('#bboalert-bnew');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = exportUpdateData;
-	b = document.querySelector('#bboalert-log');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = exportLogData;
-	b = document.querySelector('#bboalert-sc');
-	if (b != null)
-		if (b.onmousedown == null) b.onmousedown = function () {
-			if (this.style.backgroundColor == "red") {
-				this.style.backgroundColor = "green";
-			} else {
-				this.style.backgroundColor = "red";
-			}
-		};
 }
