@@ -79,14 +79,33 @@ At the right side of the page, an additional 'BBOalert' tab is created. Clicking
 - selecting BBOalert tab will not deselect the open BBO tab
 - selecting a BBO tab will turn the BBOalert tab off
 
-The purpose of the buttons on the blue panel is :
+BBOalert creates four panels :
+
+- "Data" : the default panel containing : 
+   - "Data" menu for importing and exporting data
+   - "Settings" menu for enabling/disabling features
+   - text area to display program messages
+- "Options" : to enable/disable user definable optional blocks of data
+- "Shortcuts : to access user definable text shortcut buttons
+- "Info" : to display release notes
+
+The panels can be selected by clicking the corresponding buttons at the top of the panel.
+
+The "Data" menu contains commands related to the data input/output :
 
 - <b>Import</b> : to read new data from the clipboard
 - <b>Append</b> : to append additional data from the clipboard
+- <b>Clear</b> : to erase all data
 - <b>Export All</b> : write all data the clipboard
 - <b>Export New</b> : write data related to tha manual alerts  to the clipboard
 - <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
-- <b>Shortcuts</b> : enable button shortcuts
+
+The "Settings" menu contains commands to enable/disable features :
+
+- <b>Shortcuts</b> : if enabled the "Shortcuts" panel will appear automatically at the start of text entry (chat or alert text)
+- <b>Hover BBOalert Tabs</b> : if enabled the BBOalert panels are selected by moving the mouse over the corresponding button at the top of the BBOalert panel
+- <b>Hover BBO Tabs</b> : if enabled the BBO tabs at the right side are selected by moving the mouse over the tab
+- <b>Collapse Options</b> : if enabled the mutually exclusive blocks of data are grouped together and only the selected block is shown. This feature is particullary usefull to save space on the panel when many blocks are defined
 
 You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
