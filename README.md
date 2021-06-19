@@ -109,32 +109,28 @@ The "Settings" menu contains commands to enable/disable features :
 
 You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
-## How to use
+## Data import/export
 
-The BBOalert data should be stored in a CSV-formatted text file (CSV = Comma-Separated Value).
-
-BBOalert uses the clipboard to read this file and to export eventual updates. To read the data from a file :
+BBOalert uses the clipboard to import or export data. Using the clipboard instead of direct file access gives the user the freedom of choice of text editing tool. The code can be edited as a simmple ASCII file or with any text processing tool like Word. To read the data from a file :
 
 - open the data file using your favorite text editor (see section : 'Data file format')
 - select all text (usually with Ctrl-A keystroke)
 - copy it to the clipboard (usually with Ctrl-C keystroke)
-- press "Import" button on the BBO page 
-
-BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
-
-It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. The chat part of the long explanation text will be sent automatically.
-
-<b>Hint : if you wish to erase the previously imported data, you have to import through clipboard the bare keyword BBOalert</b>
-
-Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
-
-'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.  
-
-<b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
-
-With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
+- select "Import" from the "Data" menu on the blue BBOalert panel
 
 ## Recommended way of using BBOalert
+
+- BBOalert requires the BBO in split screen mode (Account + Settings + Split Screen).
+
+- It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. The chat part of the long explanation text will be sent automatically.
+
+- Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
+
+- 'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.
+
+- <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
+
+With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
 
 BBOalert was designed initially for BBO in English and then adapted to other languages. If you discover incompatibilies of BBOalert with BBO in your language :
 
