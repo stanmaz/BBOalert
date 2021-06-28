@@ -131,7 +131,7 @@ window.BBOSTAT.setColors = function () {
 
 console.log("Create onDataLoad event handler");
 userEvents().addEventListener("onDataLoad", function () {
-    console.log("abc")
+    console.log("abc");
 }, false);
 
 
