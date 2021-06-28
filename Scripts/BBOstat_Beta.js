@@ -131,7 +131,7 @@ window.bboStat = class  {
         if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
     }   
 
-}
+};
 
 userEvents().addEventListener("onDataLoad", function () {
     if ((typeof window.BBOSTAT) == "undefined") {
