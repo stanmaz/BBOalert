@@ -1,163 +1,190 @@
-window.bboStat = class  {
+window.bboStat = class {
 
-    constructor () {
+    constructor() {
         this.BBOLOG = false;
         this.NXTLOG = false;
-        this.LAST_PLAYER =  '';
+        this.LAST_PLAYER = '';
         this.EVENT_LOG = '';
         this.TIME_REF = 0;
         this.BBOLOG = false;
-        this.NXTLOG = false;    
+        this.NXTLOG = false;
         this.EVENT_LOG = localStorage.getItem('BBOalertEvents');
-        if (typeof(this.EVENT_LOG) == "undefined") this.EVENT_LOG = '';
+        if (typeof (this.EVENT_LOG) == "undefined") this.EVENT_LOG = '';
         this.TIME_REF = Date.now();
         this.LAST_PLAYER = '';
     }
 
-    onLogoff () {
+    onLogoff() {
         writeToClipboard(this.EVENT_LOG);
         localStorage.setItem('BBOalertEvents', this.EVENT_LOG);
     }
 
-    onNewActivePlayer () {
+    onNewActivePlayer() {
         setTimeout(() => {
             this.LAST_PLAYER = activePlayer;
-        }, 200);   
+        }, 200);
     }
-    
-    onAuctionBegin () {
+
+    onAuctionBegin() {
         if (this.NXTLOG) {
             this.BBOLOG = true;
             this.NXTLOG = false;
         }
         this.LAST_PLAYER = getActivePlayer();
-        this.TIME_REF = Date.now();   
+        this.TIME_REF = Date.now();
     }
-    
-    saveLog (s)  {
+
+    saveLog(s) {
         if (s == '') return;
         console.log(s);
         this.EVENT_LOG = this.EVENT_LOG + s + '\n';
         localStorage.setItem('BBOalertEvents', this.EVENT_LOG);
     }
 
-    onNewAuction () {
+    onNewAuction() {
         if (this.BBOLOG)
-        if (auctionBoxDisplayed)
-        if (getContext() != '') {
-            var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',' + (Date.now()-this.TIME_REF) + ',' + getContext();
-            this.TIME_REF = Date.now();
-            this.saveLog(s);
-        }    
+            if (auctionBoxDisplayed)
+                if (getContext() != '') {
+                    var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',' + (Date.now() - this.TIME_REF) + ',' + getContext();
+                    this.TIME_REF = Date.now();
+                    this.saveLog(s);
+                }
     }
-    
-    onNewPlayedCard () {
+
+    onNewPlayedCard() {
         if (this.BBOLOG)
-        if (playedCards != '') {
-            var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',' + (Date.now()-this.TIME_REF) + ',' + playedCards;
-            this.TIME_REF = Date.now();
-            this.saveLog(s);
-        }    
-    }
-    
-    onAnnouncementDisplayed () {
-        if (this.BBOLOG) {
-            var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getAnnouncementPanel().textContent + '"';
-            this.saveLog(s);
-        }       
+            if (playedCards != '') {
+                var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',' + (Date.now() - this.TIME_REF) + ',' + playedCards;
+                this.TIME_REF = Date.now();
+                this.saveLog(s);
+            }
     }
 
-    onNotificationDisplayed () {
+    onAnnouncementDisplayed() {
         if (this.BBOLOG) {
-            var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getNotificationPanel().textContent + '"';
+            var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getAnnouncementPanel().textContent + '"';
             this.saveLog(s);
-        }        
+        }
     }
 
-    onNewDeal ()  {
+    onNotificationDisplayed() {
         if (this.BBOLOG) {
-            var s = getNow(true) + ',onNewDeal,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,' + getDealNumber();
-            this.saveLog(s,t);
-        }    
-    }
-    
-    onDealEnd () {
-        if (this.BBOLOG) {
-            var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getDealEndPanel().textContent + '"';
+            var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getNotificationPanel().textContent + '"';
             this.saveLog(s);
-        }    
-    }
-    
-    onCallExplanationPanelDisplayed () {
-        if (this.BBOLOG) {
-            var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getCallExplanationText() + '"';
-            this.saveLog(s);
-        }    
+        }
     }
 
-    onNewChatMessage () {
+    onNewDeal() {
         if (this.BBOLOG) {
-            var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0,1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getLastChatMessaage() + '"';
-            this.saveLog(s);
-        }   
+            var s = getNow(true) + ',onNewDeal,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,' + getDealNumber();
+            this.saveLog(s, t);
+        }
     }
-    
-    clearLog () {
+
+    onDealEnd() {
+        if (this.BBOLOG) {
+            var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getDealEndPanel().textContent + '"';
+            this.saveLog(s);
+        }
+    }
+
+    onCallExplanationPanelDisplayed() {
+        if (this.BBOLOG) {
+            var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getCallExplanationText() + '"';
+            this.saveLog(s);
+        }
+    }
+
+    onNewChatMessage() {
+        if (this.BBOLOG) {
+            var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + this.LAST_PLAYER.slice(0, 1) + ',' + this.LAST_PLAYER.slice(1) + ',,"' + getLastChatMessaage() + '"';
+            this.saveLog(s);
+        }
+    }
+
+    clearLog() {
         if (confirm("Are you sure you want to clear log ?")) this.EVENT_LOG = '';
     }
 
-    exportLog ()  {
+    exportLog() {
         writeToClipboard(this.EVENT_LOG);
         localStorage.setItem('BBOalertEvents', this.EVENT_LOG);
         alert(this.EVENT_LOG.split("\n").length + " records exported to clipboard");
     }
 
-    startLog () {
+    startLog() {
         this.BBOLOG = confirm("Start logging ?");
         if (this.BBOLOG) $("#adpanel2 button:contains(BBOLOG)")[0].style.backgroundColor = "lightgreen";
         if (!this.BBOLOG) $("#adpanel2 button:contains(BBOLOG)")[0].style.backgroundColor = "lightpink";
     }
 
-    startLogOnNextDeal () {
+    startLogOnNextDeal() {
         this.NXTLOG = confirm("Start logging at next board ?");
         if (this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightgreen";
         if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
     }
-    
-    setColors () {
+
+    setColors() {
         if (this.BBOLOG) $("#adpanel2 button:contains(BBOLOG)")[0].style.backgroundColor = "lightgreen";
         if (!this.BBOLOG) $("#adpanel2 button:contains(BBOLOG)")[0].style.backgroundColor = "lightpink";
         if (this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightgreen";
         if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
-    }   
+    }
 
 };
 
+window.BBOSTAT = new window.bboStat();
+
 userEvents().addEventListener("onDataLoad", function () {
     console.log("onDataLoad " + typeof window.BBOSTAT);
-    if ((typeof window.BBOSTAT) == "undefined") {
-        console.log("onDataLoad");
-        window.BBOSTAT = new window.bboStat();
-        addShortcutButton("Shortcut,CLRLOG,");
-        addShortcutButton("Shortcut,EXPLOG,");
-        addShortcutButton("Shortcut,BBOLOG,");
-        addShortcutButton("Shortcut,NXTLOG,");
-        window.BBOSTAT.setColors();
-        $("#adpanel2 button:contains(CLRLOG)").click(function() {window.BBOSTAT.clearLog();});
-        $("#adpanel2 button:contains(EXPLOG)").click(function() {window.BBOSTAT.exportLog();});
-        $("#adpanel2 button:contains(BBOLOG)").click(function() {window.BBOSTAT.startLog();});
-        $("#adpanel2 button:contains(NXTLOG)").click(function() {window.BBOSTAT.startLogOnNextDeal();});
-        userEvents().addEventListener("onLogoff", function () {window.BBOSTAT.onLogoff();}, false);
-        userEvents().addEventListener("onNewActivePlayer", function () {window.BBOSTAT.onNewActivePlayer();}, false);
-        userEvents().addEventListener("onAuctionBegin", function () {window.BBOSTAT.onAuctionBegin();}, false);
-        userEvents().addEventListener("onNewAuction", function () {window.BBOSTAT.onNewAuction();}, false);
-        userEvents().addEventListener("onNewPlayedCard", function () {window.BBOSTAT.onNewPlayedCard();}, false);
-        userEvents().addEventListener("onAnnouncementDisplayed", function () {window.BBOSTAT.onAnnouncementDisplayed();}, false);
-        userEvents().addEventListener("onNotificationDisplayed", function () {window.BBOSTAT.onNotificationDisplayed();}, false);
-        userEvents().addEventListener("onNewDeal", function () {window.BBOSTAT.onNewDeal();}, false);
-        userEvents().addEventListener("onDealEnd", function () {window.BBOSTAT.onDealEnd();}, false);
-        userEvents().addEventListener("onCallExplanationPanelDisplayed", function () {window.BBOSTAT.onCallExplanationPanelDisplayed();}, false);
-        userEvents().addEventListener("onNewChatMessage", function () {window.BBOSTAT.onNewChatMessage();}, false);
-    }
+    addShortcutButton("Shortcut,CLRLOG,");
+    addShortcutButton("Shortcut,EXPLOG,");
+    addShortcutButton("Shortcut,BBOLOG,");
+    addShortcutButton("Shortcut,NXTLOG,");
+    window.BBOSTAT.setColors();
+    $("#adpanel2 button:contains(CLRLOG)").click(function () {
+        window.BBOSTAT.clearLog();
+    });
+    $("#adpanel2 button:contains(EXPLOG)").click(function () {
+        window.BBOSTAT.exportLog();
+    });
+    $("#adpanel2 button:contains(BBOLOG)").click(function () {
+        window.BBOSTAT.startLog();
+    });
+    $("#adpanel2 button:contains(NXTLOG)").click(function () {
+        window.BBOSTAT.startLogOnNextDeal();
+    });
+    userEvents().addEventListener("onLogoff", function () {
+        window.BBOSTAT.onLogoff();
+    }, false);
+    userEvents().addEventListener("onNewActivePlayer", function () {
+        window.BBOSTAT.onNewActivePlayer();
+    }, false);
+    userEvents().addEventListener("onAuctionBegin", function () {
+        window.BBOSTAT.onAuctionBegin();
+    }, false);
+    userEvents().addEventListener("onNewAuction", function () {
+        window.BBOSTAT.onNewAuction();
+    }, false);
+    userEvents().addEventListener("onNewPlayedCard", function () {
+        window.BBOSTAT.onNewPlayedCard();
+    }, false);
+    userEvents().addEventListener("onAnnouncementDisplayed", function () {
+        window.BBOSTAT.onAnnouncementDisplayed();
+    }, false);
+    userEvents().addEventListener("onNotificationDisplayed", function () {
+        window.BBOSTAT.onNotificationDisplayed();
+    }, false);
+    userEvents().addEventListener("onNewDeal", function () {
+        window.BBOSTAT.onNewDeal();
+    }, false);
+    userEvents().addEventListener("onDealEnd", function () {
+        window.BBOSTAT.onDealEnd();
+    }, false);
+    userEvents().addEventListener("onCallExplanationPanelDisplayed", function () {
+        window.BBOSTAT.onCallExplanationPanelDisplayed();
+    }, false);
+    userEvents().addEventListener("onNewChatMessage", function () {
+        window.BBOSTAT.onNewChatMessage();
+    }, false);
 }, false);
-
