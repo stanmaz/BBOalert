@@ -134,28 +134,27 @@ window.bboStat = class  {
 }
 
 userEvents().addEventListener("onDataLoad", function () {
-    if ((typeof BBOSTAT) == "undefined") {
-        BBOSTAT = new bboStat();
+    if ((typeof window.BBOSTAT) == "undefined") {
+        window.BBOSTAT = new bboStat();
         addShortcutButton("Shortcut,CLRLOG,");
         addShortcutButton("Shortcut,EXPLOG,");
         addShortcutButton("Shortcut,BBOLOG,");
         addShortcutButton("Shortcut,NXTLOG,");
         BBOSTAT.setColors();
-        $("#adpanel2 button:contains(CLRLOG)").click(function() {BBOSTAT.clearLog();});
-        $("#adpanel2 button:contains(EXPLOG)").click(function() {BBOSTAT.exportLog();});
-        $("#adpanel2 button:contains(BBOLOG)").click(function() {BBOSTAT.startLog();});
-        $("#adpanel2 button:contains(NXTLOG)").click(function() {BBOSTAT.startLogOnNextDeal();});
-        userEvents().addEventListener("onLogoff", function () {BBOSTAT.onLogoff();}, false);
-        userEvents().addEventListener("onNewActivePlayer", function () {BBOSTAT.onNewActivePlayer();}, false);
-        userEvents().addEventListener("onAuctionBegin", function () {BBOSTAT.onAuctionBegin();}, false);
-        userEvents().addEventListener("onNewAuction", function () {BBOSTAT.onNewAuction();}, false);
-        userEvents().addEventListener("onNewPlayedCard", function () {BBOSTAT.onNewPlayedCard();}, false);
-        userEvents().addEventListener("onAnnouncementDisplayed", function () {BBOSTAT.onAnnouncementDisplayed();}, false);
-        userEvents().addEventListener("onNotificationDisplayed", function () {BBOSTAT.onNotificationDisplayed();}, false);
-        userEvents().addEventListener("onNewDeal", function () {BBOSTAT.onNewDeal();}, false);
-        userEvents().addEventListener("onDealEnd", function () {BBOSTAT.onDealEnd();}, false);
-        userEvents().addEventListener("onCallExplanationPanelDisplayed", function () {BBOSTAT.onCallExplanationPanelDisplayed();}, false);
-        userEvents().addEventListener("onNewChatMessage", function () {BBOSTAT.onNewChatMessage();}, false);
+        $("#adpanel2 button:contains(CLRLOG)").click(function() {window.BBOSTAT.clearLog();});
+        $("#adpanel2 button:contains(EXPLOG)").click(function() {window.BBOSTAT.exportLog();});
+        $("#adpanel2 button:contains(BBOLOG)").click(function() {window.BBOSTAT.startLog();});
+        $("#adpanel2 button:contains(NXTLOG)").click(function() {window.BBOSTAT.startLogOnNextDeal();});
+        userEvents().addEventListener("onLogoff", function () {window.BBOSTAT.onLogoff();}, false);
+        userEvents().addEventListener("onNewActivePlayer", function () {window.BBOSTAT.onNewActivePlayer();}, false);
+        userEvents().addEventListener("onAuctionBegin", function () {window.BBOSTAT.onAuctionBegin();}, false);
+        userEvents().addEventListener("onNewAuction", function () {window.BBOSTAT.onNewAuction();}, false);
+        userEvents().addEventListener("onNewPlayedCard", function () {window.BBOSTAT.onNewPlayedCard();}, false);
+        userEvents().addEventListener("onAnnouncementDisplayed", function () {window.BBOSTAT.onAnnouncementDisplayed();}, false);
+        userEvents().addEventListener("onNotificationDisplayed", function () {window.BBOSTAT.onNotificationDisplayed();}, false);
+        userEvents().addEventListener("onNewDeal", function () {window.BBOSTAT.onNewDeal();}, false);
+        userEvents().addEventListener("onDealEnd", function () {window.BBOSTAT.onDealEnd();}, false);
+        userEvents().addEventListener("onCallExplanationPanelDisplayed", function () {window.BBOSTAT.onCallExplanationPanelDisplayed();}, false);
+        userEvents().addEventListener("onNewChatMessage", function () {window.BBOSTAT.onNewChatMessage();}, false);
     }
 }, false);
-
