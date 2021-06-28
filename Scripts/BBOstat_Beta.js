@@ -1,4 +1,4 @@
-class bboStat {
+window.bboStat = class  {
 
     constructor () {
         this.BBOLOG = false;
