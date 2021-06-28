@@ -129,6 +129,7 @@ window.BBOSTAT.setColors = function () {
     if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
 };
 
+console.log("Create onDataLoad event handler");
 userEvents().addEventListener("onDataLoad", function () {
     console.log("onDataLoad " + typeof window.BBOSTAT);
     addShortcutButton("Shortcut,CLRLOG,");
