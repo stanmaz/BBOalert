@@ -131,6 +131,11 @@ window.BBOSTAT.setColors = function () {
 
 console.log("Create onDataLoad event handler");
 userEvents().addEventListener("onDataLoad", function () {
+    console.log("abc")
+}, false);
+
+
+userEvents().addEventListener("onDataLoad", function () {
     console.log("onDataLoad " + typeof window.BBOSTAT);
     addShortcutButton("Shortcut,CLRLOG,");
     addShortcutButton("Shortcut,EXPLOG,");
