@@ -134,7 +134,9 @@ window.bboStat = class  {
 };
 
 userEvents().addEventListener("onDataLoad", function () {
+    console.log("onDataLoad " + typeof window.BBOSTAT);
     if ((typeof window.BBOSTAT) == "undefined") {
+        console.log("onDataLoad");
         window.BBOSTAT = new window.bboStat();
         addShortcutButton("Shortcut,CLRLOG,");
         addShortcutButton("Shortcut,EXPLOG,");
@@ -158,3 +160,4 @@ userEvents().addEventListener("onDataLoad", function () {
         userEvents().addEventListener("onNewChatMessage", function () {window.BBOSTAT.onNewChatMessage();}, false);
     }
 }, false);
+
