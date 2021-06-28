@@ -1,0 +1,12 @@
+//bboalert
+//Script,onNewActivePlayer
+if (getActivePlayer() == (myDirection() + whoAmI())) setChatDestination("Opponents");
+//Script,onDataLoad
+var elMessage = getChatInput();
+elMessage.onmousedown = function(e) {
+    var rect = this.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    if(x < rect.width/3) setChatDestination("Opponents");
+    if(x > rect.width*2/3) setChatDestination("Table");
+};
+//Script
