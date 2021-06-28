@@ -135,12 +135,12 @@ window.bboStat = class  {
 
 userEvents().addEventListener("onDataLoad", function () {
     if ((typeof window.BBOSTAT) == "undefined") {
-        window.BBOSTAT = new bboStat();
+        window.BBOSTAT = new window.bboStat();
         addShortcutButton("Shortcut,CLRLOG,");
         addShortcutButton("Shortcut,EXPLOG,");
         addShortcutButton("Shortcut,BBOLOG,");
         addShortcutButton("Shortcut,NXTLOG,");
-        BBOSTAT.setColors();
+        window.BBOSTAT.setColors();
         $("#adpanel2 button:contains(CLRLOG)").click(function() {window.BBOSTAT.clearLog();});
         $("#adpanel2 button:contains(EXPLOG)").click(function() {window.BBOSTAT.exportLog();});
         $("#adpanel2 button:contains(BBOLOG)").click(function() {window.BBOSTAT.startLog();});
