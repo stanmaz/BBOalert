@@ -127,13 +127,8 @@ window.BBOSTAT.setColors = function () {
 };
 
 userEvents().addEventListener("onDataLoad", function () {
-    console.log("abc");
-}, false);
-
-userEvents().addEventListener("onDataLoad", function () {
     window.BBOSTAT.EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (window.BBOSTAT.EVENT_LOG == null) window.BBOSTAT.EVENT_LOG = '';
-    console.log("onDataLoad " + typeof window.BBOSTAT);
     addShortcutButton("Shortcut,CLRLOG,");
     addShortcutButton("Shortcut,EXPLOG,");
     addShortcutButton("Shortcut,BBOLOG,");
