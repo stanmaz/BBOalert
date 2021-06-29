@@ -1,6 +1,4 @@
 window.BBOSTAT = [];
-
-
 window.BBOSTAT.BBOLOG = false;
 window.BBOSTAT.NXTLOG = false;
 window.BBOSTAT.LAST_PLAYER = '';
@@ -8,7 +6,6 @@ window.BBOSTAT.EVENT_LOG = '';
 window.BBOSTAT.TIME_REF = 0;
 window.BBOSTAT.BBOLOG = false;
 window.BBOSTAT.NXTLOG = false;
-window.BBOSTAT.EVENT_LOG = localStorage.getItem('BBOalertEvents');
 window.BBOSTAT.TIME_REF = Date.now();
 window.BBOSTAT.LAST_PLAYER = '';
 
@@ -129,13 +126,13 @@ window.BBOSTAT.setColors = function () {
     if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
 };
 
-console.log("Create onDataLoad event handler");
 userEvents().addEventListener("onDataLoad", function () {
     console.log("abc");
 }, false);
 
-
 userEvents().addEventListener("onDataLoad", function () {
+    window.BBOSTAT.EVENT_LOG = localStorage.getItem('BBOalertEvents');
+    if (window.BBOSTAT.EVENT_LOG == null) window.BBOSTAT.EVENT_LOG = '';
     console.log("onDataLoad " + typeof window.BBOSTAT);
     addShortcutButton("Shortcut,CLRLOG,");
     addShortcutButton("Shortcut,EXPLOG,");
