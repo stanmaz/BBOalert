@@ -126,9 +126,14 @@ window.BBOSTAT.setColors = function () {
     if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
 };
 
-userEvents().addEventListener("onDataLoad", function () {
+BBOalertEvents().addEventListener("onDataLoad", function () {
+    console.log("abc");
+}, false);
+
+BBOalertEvents().addEventListener("onDataLoad", function () {
     window.BBOSTAT.EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (window.BBOSTAT.EVENT_LOG == null) window.BBOSTAT.EVENT_LOG = '';
+    console.log("onDataLoad " + typeof window.BBOSTAT);
     addShortcutButton("Shortcut,CLRLOG,");
     addShortcutButton("Shortcut,EXPLOG,");
     addShortcutButton("Shortcut,BBOLOG,");
@@ -146,37 +151,37 @@ userEvents().addEventListener("onDataLoad", function () {
     $("#adpanel2 button:contains(NXTLOG)").click(function () {
         window.BBOSTAT.startLogOnNextDeal();
     });
-    userEvents().addEventListener("onLogoff", function () {
+    BBOalertEvents().addEventListener("onLogoff", function () {
         window.BBOSTAT.onLogoff();
     }, false);
-    userEvents().addEventListener("onNewActivePlayer", function () {
+    BBOalertEvents().addEventListener("onNewActivePlayer", function () {
         window.BBOSTAT.onNewActivePlayer();
     }, false);
-    userEvents().addEventListener("onAuctionBegin", function () {
+    BBOalertEvents().addEventListener("onAuctionBegin", function () {
         window.BBOSTAT.onAuctionBegin();
     }, false);
-    userEvents().addEventListener("onNewAuction", function () {
+    BBOalertEvents().addEventListener("onNewAuction", function () {
         window.BBOSTAT.onNewAuction();
     }, false);
-    userEvents().addEventListener("onNewPlayedCard", function () {
+    BBOalertEvents().addEventListener("onNewPlayedCard", function () {
         window.BBOSTAT.onNewPlayedCard();
     }, false);
-    userEvents().addEventListener("onAnnouncementDisplayed", function () {
+    BBOalertEvents().addEventListener("onAnnouncementDisplayed", function () {
         window.BBOSTAT.onAnnouncementDisplayed();
     }, false);
-    userEvents().addEventListener("onNotificationDisplayed", function () {
+    BBOalertEvents().addEventListener("onNotificationDisplayed", function () {
         window.BBOSTAT.onNotificationDisplayed();
     }, false);
-    userEvents().addEventListener("onNewDeal", function () {
+    BBOalertEvents().addEventListener("onNewDeal", function () {
         window.BBOSTAT.onNewDeal();
     }, false);
-    userEvents().addEventListener("onDealEnd", function () {
+    BBOalertEvents().addEventListener("onDealEnd", function () {
         window.BBOSTAT.onDealEnd();
     }, false);
-    userEvents().addEventListener("onCallExplanationPanelDisplayed", function () {
+    BBOalertEvents().addEventListener("onCallExplanationPanelDisplayed", function () {
         window.BBOSTAT.onCallExplanationPanelDisplayed();
     }, false);
-    userEvents().addEventListener("onNewChatMessage", function () {
+    BBOalertEvents().addEventListener("onNewChatMessage", function () {
         window.BBOSTAT.onNewChatMessage();
     }, false);
 }, false);
