@@ -1,3 +1,4 @@
+//Script,onDataLoad
 window.BBOSTAT = [];
 window.BBOSTAT.BBOLOG = false;
 window.BBOSTAT.NXTLOG = false;
@@ -126,11 +127,7 @@ window.BBOSTAT.setColors = function () {
     if (!this.NXTLOG) $("#adpanel2 button:contains(NXTLOG)")[0].style.backgroundColor = "lightpink";
 };
 
-BBOalertEvents().addEventListener("onDataLoad", function () {
-    console.log("abc");
-}, false);
-
-BBOalertEvents().addEventListener("onDataLoad", function () {
+window.BBOSTAT.init = function () {
     window.BBOSTAT.EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (window.BBOSTAT.EVENT_LOG == null) window.BBOSTAT.EVENT_LOG = '';
     console.log("onDataLoad " + typeof window.BBOSTAT);
@@ -184,4 +181,9 @@ BBOalertEvents().addEventListener("onDataLoad", function () {
     BBOalertEvents().addEventListener("onNewChatMessage", function () {
         window.BBOSTAT.onNewChatMessage();
     }, false);
+};
+
+BBOalertEvents().addEventListener("onDataLoad", function () {
+    window.BBOSTAT.init();
 }, false);
+//Script,onDataLoad,window.BBOSTAT.init();
