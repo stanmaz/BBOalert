@@ -1,6 +1,6 @@
 bboalert,BBOstat version 1.0
 
-Script,onNewData
+Script,onDataLoad
 BBOLOG = false;
 NXTLOG = false;
 TIME_REF = Date.now();
