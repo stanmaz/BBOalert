@@ -1,5 +1,4 @@
 //Script,onNewChatMessage
-console.log("Last chat " + getLastChatMessaage());
 var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
 var cs = ci[ci.length-1].querySelector("span");
 var now = new Date();
