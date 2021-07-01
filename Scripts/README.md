@@ -3,7 +3,7 @@
 Available scripts :
 
 - ![BBOstat](./BBOstat.md)
-- ![stanmazLib](./stanmawLib.md)
+- ![stanmazLib](./stanmazLib.md)
 - ![chatTimeStamp](./chatTimeStamp.md)
 
 
