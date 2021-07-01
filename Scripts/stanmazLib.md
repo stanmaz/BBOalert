@@ -7,10 +7,6 @@ To load the library the data should contain the record :
     //Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Scripts/stanmazLib.js
     
 The library contains functions modifying the BBO user interface. With each feature an inline script is presented enabling this feature.
- 
-The effects of different functions :
-
-![](./images/Screen01.png)
   
 ## Features
 
@@ -29,6 +25,8 @@ HOVER_BBOALERT_TAB function enables toggeling the BBOalert tab by simply moving 
     
 CARD_COLORS function modifies card symbol colors to help color blind players.
 
+![](./images/CardColors.png)
+
 ### Rearrange the table
 
     //Script,onAnyMutation,stanmazLib.DEAL_TOOLBAR_RIGHT();
@@ -46,6 +44,8 @@ The icons occupy space on the tabs. This can prevent in some cases BBOalert tab 
     //Script,onAnyMutation,stanmazLib.LARGE_BIDDING_BOX(true);
     
 On smaller screens large bidding box may be useful to avoid bidding errors.
+
+![](./images/Screen01.png)
 
 ### Modified bid confirmation button
 
