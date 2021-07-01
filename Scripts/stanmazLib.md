@@ -33,6 +33,8 @@ CARD_COLORS function modifies card symbol colors to help color blind players.
     
 The table is moved to the left side of the screen leaving more space.
 
+![](./images/TableToLeft.png)
+
 ### Remove icons from tabs
 
     //Script,onAnyMutation,stanmazLib.REMOVE_ICONS_FROM_TABS();
