@@ -53,7 +53,7 @@ On smaller screens large bidding box may be useful to avoid bidding errors.
     
 The selected bid replaces the OK text on the bid confirmation button
 
-![](./images/Modified OK Button.png)
+![](./images/ModifiedOKButton.png)
 
 ### Backspace buttons
 
