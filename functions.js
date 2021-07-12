@@ -2054,10 +2054,11 @@ function optionsSelectorChanged() {
 			}
 		}
 	}
-	clearShortcutButtons();
-	setShortcutButtons();
 	setScriptList();
 	initOptionDefaults();
+	hideUnusedOptions();
+	clearShortcutButtons();
+	setShortcutButtons();
 	//	if (optionsSelector.selectedIndex != 1) initOptionDefaults();
 }
 
@@ -2564,7 +2565,7 @@ function getCard(index) {
 
 function getLastChatMessaage() {
 	try {
-		var ci = $("#navDiv .chatOutputClass chat-list-item").toArray();
+		var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
 		return ci[ci.length-1].textContent;	
 	} catch {
 		return '';

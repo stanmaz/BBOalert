@@ -383,5 +383,5 @@ function onNotificationDisplayed () {
 }
 
 function onNewChatMessage () {
-    if (getDealNumber() != '') execUserScript('%onNewChatMessage%');
+    execUserScript('%onNewChatMessage%');
 }
