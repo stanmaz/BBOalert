@@ -137,7 +137,7 @@ BBOalert uses the clipboard to import or export data. Using the clipboard instea
    - switch to https://www.bridgebase.com/v3/?lang=en
    - report the problem to stanmaz.git@gmail.com
 
-We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time, when the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup. With the 'Export' button the content of the clipboard will be overwritten by call manually alerted during the session.
+We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time, when the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup.
 
 It is more efficient to prepare data in advance with a editor and import this data into BBOalert. It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
 
