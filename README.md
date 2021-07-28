@@ -96,7 +96,7 @@ The "Data" menu contains commands related to the data input/output :
 - <b>Import</b> : to read new data from the clipboard
 - <b>Append</b> : to append additional data from the clipboard
 - <b>Clear</b> : to erase all data
-- <b>Export All</b> : write all data the clipboard
+- <b>Export All</b> : write all data to the clipboard
 - <b>Export New</b> : write data related to tha manual alerts  to the clipboard
 - <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
 
