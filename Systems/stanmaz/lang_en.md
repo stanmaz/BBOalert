@@ -1,3 +1,6 @@
+    
+    
+    
     BBOalert,lang_en - Version 1
     Shortcut,Keyboard shortcuts,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,ww,|\n|\n\
