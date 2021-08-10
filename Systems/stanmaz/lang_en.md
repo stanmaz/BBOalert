@@ -1,7 +1,7 @@
     
     
     
-    BBOalert,lang_en - Version 1
+    BBOalert,lang_en - Version 2
     Shortcut,Keyboard shortcuts,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,ww,|\n|\n\
     Welcome; we use very simple but unusual scheme:\n\
