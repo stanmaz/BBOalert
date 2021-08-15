@@ -18,7 +18,7 @@ if (nd1[0].style.backgroundColor == "rgb(255, 206, 0)") {
         tdw = tdw - 10;
         td.style.width = tdw + "px";
         if (tdw == 100) td.style.backgroundColor = "red";
-        if (tdw < 100) beep(600, (100-tdw)/100);
+//        if (tdw < 100) beep(600, (100-tdw)/100);
         if (tdw == 0) {
             clearInterval(td.ti);
             td.remove();
