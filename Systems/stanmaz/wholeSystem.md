@@ -17,6 +17,8 @@
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_fr.md
     Option,▶Lang PL
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_pl.md
+    Option,▶Lang IT
+    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_it.md
 
 
     Option,MySystem
