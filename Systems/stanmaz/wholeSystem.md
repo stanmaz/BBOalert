@@ -10,6 +10,7 @@
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/BBOstat.txt
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
 
     Option,▶Lang EN
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_en.md
