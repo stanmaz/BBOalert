@@ -1,0 +1,28 @@
+//BBOalert
+//Script,onNewActivePlayer
+console.log("new active player " +  getActivePlayer());
+try {clearInterval($("#timerDiv")[0].ti);} catch {}
+$("#timerDiv").remove();
+var nd = getNavDiv();
+var nd1 = nd.querySelectorAll('.nameBarClass');
+if (nd1[0].style.backgroundColor == "rgb(255, 206, 0)") {
+    var td = document.createElement("div");
+    var tdw = 200;
+    td.id = "timerDiv";
+    td.style.width = tdw + "px";
+    td.style.color = "white";
+    td.style.backgroundColor = "green";
+    td.style.textAlign = "right";
+    nd1[0].appendChild(td);
+    td.ti = setInterval(function () {
+        tdw = tdw - 10;
+        td.style.width = tdw + "px";
+        if (tdw == 100) td.style.backgroundColor = "red";
+        if (tdw < 100) beep(600, (100-tdw)/100);
+        if (tdw == 0) {
+            clearInterval(td.ti);
+            td.remove();
+        }
+    }, 1000);
+}
+//Script
