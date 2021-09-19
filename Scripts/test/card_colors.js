@@ -6,7 +6,7 @@
     cfg.enabled = false;
     cfg.text_color_clubs = "green";
     cfg.text_color_diamonds = "darkorange";
-    cfg.text_color_hearts = "red";
+    cfg.text_color_hearts = "crimson";
     cfg.text_color_spades = "black";
     cfg.text_color_pass = "white";
     cfg.text_color_double = "white";
