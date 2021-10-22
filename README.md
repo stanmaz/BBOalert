@@ -2,6 +2,10 @@
 
 Version : 6.4
 
+For recent changes see actual release notes :
+
+https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub
+
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
 <b>All you need in the beginning, is to install BBOalert and play normally.</b> BBOalert will :
