@@ -624,7 +624,7 @@ This convention card together with the BBOalert data will become available for y
 BBOalert allows to store data on a file hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data. Actually three sites are supported with their specific limitations due to the particular data security implementation :
 
 - Google Drive : only GoogleDocs format are supported. The data can be formatted as a pretty readable and printable document. Both partners can edit the document online
-- Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format us standard for documentation purposed in Github environment.
+- Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format is standard for documentation purposed in Github environment.
 - Dropbox : only ASCII text files are supported without the possiblity of online editing
 
 We assume that you are familiar with the tool of your choice.
@@ -647,18 +647,18 @@ The public URL can be obtained in the following way :
 - Press the “Publish” button
 - the public URL link is displayed and can be used by BBOalert to import data  
        
-#### Dropbox
-       
-- edit your data locally in a ASCII file
-- upload it to your Dropbox account. 
-- make the file shared
-- generate the public URL link for viewing only (default is editing)
-
 #### Github
        
 - make public the repository where you store the data
 - upload the existing file from the PC or create a new data file and edit it
 - to obtain the public URL link select the data file with the right mouse button and use the "Copy link" command from the pop-up menu
+
+#### Dropbox
+       
+- edit your data locally as an ASCII file
+- upload it to your Dropbox account
+- make the file shared
+- generate the public URL link for viewing only (default is editing)
 
 #### BBOalert data
 
