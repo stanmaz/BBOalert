@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 6.3.0.2
+Version : 6.4
 
 The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
 
@@ -19,7 +19,7 @@ Thereafter you can decide to use advanced features if needed:
 - Keyboard and button shortcuts and abbreviations
 - Full Disclosure BSS file support
 - add custom features using Javascript
-- share your data using Github storage
+- share your data using Google Drive, Dropbox or Github storage
 
 If you you decide to use BBOalert, join the users community on Facebook 
 
@@ -621,32 +621,48 @@ This convention card together with the BBOalert data will become available for y
 
 ### Web storage support
 
-BBOalert allows to store ASCII data on a fle hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data.
+BBOalert allows to store data on a file hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data. Actually three sites are supported with their specific limitations due to the particular data security implementation :
+
+- Google Drive : only GoogleDocs format are supported. The data can be formatted as a pretty readable and printable document. Both partners can edit the document online
+- Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format us standard for documentation purposed in Github environment.
+- Dropbox : only ASCII text files are supported without the possiblity of online editing
+
+We assume that you are familiar with the tool of your choice.
        
-The best suitable site for this task is github.com which hosts also the BBOalert project. Other popular storage sites like Google Drive do not allow to read files programatically.
-
-GitHub is easy and is free of charge for personal use. All you have to do is :
+Notes :
        
-- create a Github account (best using the same user ID as on BBO)
-- sign-in and create a public repository. You may use any name you wish but we prefer a standard name "BBOalert_data" to make your data searchable for other BBOalert users.
-- create a folder where you wish to store your data
+- GoogleDocs and Github provide version control. You can easily follow the file history and eventually revert to the previous version.
+- Github uses explicit static file names in the URL link. GoogleDocs and Dropbox use dynamic cryptic file ID's instead.
+
+To access the data BBOalert needs a public URL link to the file. For each site the procedure is different.
        
-You will find on Web many tutorials explaining how to use Github.
+#### Google Drive
+       
+GoogleDocs documents should be used to contain the data. BBOalert recognizes only paragraphs with the 'normal text' attributes. Other document elements (headers, footers etc) are ignored.
 
-#### Scripts
+The public URL can be obtained in the following way :
+       
+- open the data file in Google Docs
+- use the “Publish to the web” command from the “File” menu
+- Press the “Publish” button
+- the public URL link is displayed and can be used by BBOalert to import data  
+       
+#### Dropbox
+       
+- edit your data locally in a ASCII file
+- upload it to your Dropbox account. 
+- make the file shared
+- generate the public URL link for viewing only (default is editing)
 
-Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
-
-    //Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/stanmazLib.js
-    
-Storing scripts on Github has two advantages :
-
-- Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
-- Published scripts can be shared with others
+#### Github
+       
+- make public the repository where you store the data
+- upload the existing file from the PC or create a new data file and edit it
+- to obtain the public URL link select the data file with the right mouse button and use the "Copy link" command from the pop-up menu
 
 #### BBOalert data
 
-Your data can be split in separate ASCII text files published thru Dropbox in the same way as Javascript code.
+Your data can be split in separate files.
 
 Each piece of data can be loaded into BBOalert with the Import statement as follows :
 
@@ -663,6 +679,17 @@ The rest of the data will be loaded by following the link above.
 
 Handling a large data file is not easy and subdividing it into smaller linked pieces is a great help. This enables collaborative editing and easy sharing of effort. Each module can represent a convention that can be published within the users group on Facebook and reused by others.
 
+#### Scripts
+
+Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
+
+    Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/stanmazLib.js
+    
+Storing scripts on Github has two advantages :
+
+- Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
+- Published scripts can be shared with others       
+       
 #### Support for the generic BBO convention card
 
 The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software removes new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
