@@ -396,27 +396,6 @@ function undoCommand() {
 	}, 100);
 }
 
-
-/**
- * @ignore
- */
-function undoCommandNew() {
-	var mc = document.querySelectorAll('.menuClass');
-	if (mc == null) return;
-	for (var i = 0; i < mc.length; i++) {
-		for (var j = 0; j < mc[i].children.length; j++) {
-			if (mc[i].children[j].textContent.search('Undo') != -1) {
-				//						clearInterval(t);
-				setTimeout(() => {
-					mc[i].children[j].click();
-				}, 100);
-				return;
-			}
-
-		}
-	}
-}
-
 /**
  * @ignore
  */
@@ -1403,7 +1382,7 @@ function setAdPanel() {
 	adPanel0.style.backgroundColor = 'black';
 	adPanel0.style.zIndex = "5000";
 	adPanel0.style.display = 'none';
-	adPanel0.style.height = '100%';
+	adPanel0.style.height = '97%';
 	adPanel0.style.right = '57px';
 	appPanel.appendChild(adPanel0);
 
@@ -1491,7 +1470,7 @@ function setAdPanel() {
 	adPanelTabs.appendChild(btButtons);
 
 	var btInfo = document.createElement("button");
-	btInfo.textContent = "Info";
+	btInfo.textContent = "Rel.Notes";
 	btInfo.id = "bttab-info";
 	btInfo.style.width = "25%";
 	btInfo.style.height = "100%";
@@ -1988,12 +1967,12 @@ function checkOptionsVulnerability() {
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
 	var btns = adPanel.querySelectorAll('button');
-	if (getDealNumber() == '') {
+//	if (getDealNumber() == '') {
 		for (var i = 0; i < btns.length; i++) {
 			btns[i].optionValid = true;
 			setOptionColor(btns[i]);
 		}
-	}
+//	}
 	if ((nd = getNavDiv()) == null) return;
 	var abc = nd.querySelector('.auctionBoxClass');
 	if (!isVisible(abc)) return;
@@ -2480,10 +2459,11 @@ function updateAlertDataAsync(at, callback) {
 						parents.push(parent);
 						var myIdx = urls.length - 1;
 						pending++;
-						fetch(url)
+						fetch(url, {cache: "no-store"})
 							.then(x => x.text())
 							.then(data => {
 								console.log('Done    ' + url);
+								data = HTMLpage2text(data);
 								if (data != '') {
 									if (r0 == 'Import') {
 										to[last] = [];
@@ -2521,6 +2501,7 @@ function updateAlertDataAsync(at, callback) {
 	var parents = [];
 	var pending = 1;
 	console.time("Read time");
+	initBBOalertEvents();
 	addrecs(at, tab, -1);
 }
 
@@ -2656,4 +2637,56 @@ function getFinalContractPanel() {
 	} catch {
 		return null;
 	}
+}
+
+function initBBOalertEvents() {
+	var ue = document.body.querySelector("bboalert-events");
+	if (ue != null) ue.parentNode.removeChild(ue);
+	ue = document.createElement("bboalert-events");
+	document.body.appendChild(ue);
+	ue = document.body.querySelector("bboalert-events");
+	return ue;
+}
+
+
+function addBBOalertEvent(ev, fn) {
+	var ue = BBOalertEvents();
+	ue.addEventListener(ev, fn, false);
+}
+
+function BBOalertEvents() {
+	var ue = document.body.querySelector("bboalert-events");
+	if (ue == null) ue = initBBOalertEvents();
+	return ue;
+}
+
+
+function beep(f, d) {
+	var context = new(window.AudioContext || window.webkitAudioContext)();
+    var osc = context.createOscillator();
+    osc.type = 'square';
+    osc.frequency.value = f;
+    osc.connect(context.destination);
+    osc.start();
+    osc.stop(context.currentTime + d);    
+}
+
+function openDropbox(url) {
+	window.open(url,'','width=100,height=100');
+}
+
+function HTMLpage2text (html) {
+	var i1 = html.indexOf("<body>");
+	if (i1 == -1) return html;
+	var i2 = html.indexOf("</body>");
+	if (i2 == -1) return html;
+	html = html.slice(i1 + 6,i2);
+	var d = document.createElement("div");
+	d.innerHTML = html;
+	var p = d.querySelectorAll("p");
+	var txt = "";
+	for  (i = 0; i < p.length; i++) {
+		txt = txt + p[i].textContent + "\n";
+	}
+	return txt;
 }

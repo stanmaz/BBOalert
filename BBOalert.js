@@ -24,6 +24,30 @@ var lastDealNumber = '';
 //const DATABEGIN = '↔';
 const DATABEGIN = '⬛';
 
+if (window.location.href.startsWith("https://www.dropbox.com/")) {
+	console.log('Dropbox : ' + window.location.href);
+	var lst = 'Dropbox\n';
+	var links = document.querySelectorAll("a.sl-link--file");
+	for (var i = 0; i < links.length; i++) {
+		lst = lst + links[i].href + '\n';
+	}
+	lst = lst + 'End\n';
+	writeToClipboard(lst);
+	window.close();
+}
+
+if (window.location.href.startsWith("https://docs.google.com/"))
+	if (window.location.href.endsWith("/pub")) {
+		console.log('Google Drive HTML : ' + window.location.href);
+		var lst = '';
+		var links = document.querySelectorAll("p");
+		for (var i = 0; i < links.length; i++) {
+			lst = lst + links[i].textContent + '\n';
+		}
+		lst = lst + '\n';
+		writeToClipboard(lst);
+	}
+
 /**
  * @ignore
  */
@@ -66,7 +90,7 @@ function setCC(CCtxt) {
 			if (rec.length > 2) {
 				el = document.getElementById(rec[1].trim());
 				if (el != null) {
-//					el.style.fontFamily = "arial";
+					//					el.style.fontFamily = "arial";
 					ccText = rec[2].split(/\\n/).join('\n');
 					el.value = ccText;
 					el.dispatchEvent(changeEvent);
@@ -75,7 +99,7 @@ function setCC(CCtxt) {
 				ccText = '';
 			} else if (rec.length == 2) {
 				if (el != null) {
-//					el.style.fontFamily = "arial";
+					//					el.style.fontFamily = "arial";
 					el.value = ccText;
 					el.dispatchEvent(changeEvent);
 					ccText = '';
@@ -83,7 +107,7 @@ function setCC(CCtxt) {
 				el = document.getElementById(rec[1].trim());
 			} else if (rec.length == 1) {
 				if (el != null) {
-//					el.style.fontFamily = "arial";
+					//					el.style.fontFamily = "arial";
 					el.value = ccText;
 					el.dispatchEvent(changeEvent);
 					ccText = '';
@@ -135,8 +159,7 @@ function receiveMessageBBO(event) {
 
 }
 
-function Clipboard2CC() {
-}
+function Clipboard2CC() {}
 
 
 function CCfromClipboard() {
@@ -194,7 +217,7 @@ function addCCbuttons() {
 	var ccbboa = document.getElementById('bboalert-cc');
 	if (ccbboa != null) return;
 	var d = document.createElement('div');
-//	d.style.width = bd.style.width;
+	//	d.style.width = bd.style.width;
 	d.style.height = '30px';
 	//	d.style.backgroundColor = 'yellow';
 	d.id = 'bboalert-cc';
@@ -286,6 +309,7 @@ function clearData() {
  */
 function getDataType(data) {
 	header = data.slice(0, 80);
+	if (header.startsWith("https://")) return "URL";
 	if (header.search(/bboalert/i) != -1) return 'BBOalert';
 	if (header.indexOf('*00') != -1) return 'BSS';
 	if (header.indexOf('?00') != -1) return 'BSS';
@@ -451,7 +475,11 @@ function processTable() {
  * @ignore
  */
 function getClipboardData(newData) {
-	navigator.clipboard.readText().then((cbData) => {
+	navigator.clipboard.readText().then((cbd) => {
+		var cbData = cbd;
+		if (getDataType(cbData) == 'URL') {
+			cbData = "BBOalert\nImport," + cbd;
+		}
 		if (getDataType(cbData) == '') {
 			bboalertLog(version + '<br>no valid data found in clipboard');
 			return;
@@ -732,6 +760,7 @@ function findShortcut(text) {
 		rec = txt.split(",");
 		if (rec.length < 3) continue;
 		if (rec[0].trim() != 'Shortcut') continue;
+		if (rec[1].trim() == '') continue;
 		if (!text.endsWith(rec[1].trim())) continue;
 		short = rec[1].trim();
 		long = rec[2].trim();

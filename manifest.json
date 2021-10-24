@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "6.3.0.2",
+	"version": "6.4",
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",
@@ -11,6 +11,7 @@
 	"content_scripts": [
 		{
 			"matches": [
+				"https://docs.google.com/*",
 				"*://www.bridgebase.com/v3/*",
 				"*://webutil.bridgebase.com/v2/*"
 			],

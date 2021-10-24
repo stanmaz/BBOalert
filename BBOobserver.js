@@ -57,10 +57,42 @@ function initGlobals() {
     notificationDisplayed = false;
     notificationText = '';
     lastChatMessage = '';
-    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub?embedded=true";
+
+    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub";
 }
 
 initGlobals();
+
+const E_onAnyMutation = new Event('onAnyMutation');
+const E_onBiddingBoxCreated = new Event('onBiddingBoxCreated');
+const E_onBiddingBoxDisplayed = new Event('onBiddingBoxDisplayed');
+const E_onBiddingBoxHidden = new Event('onBiddingBoxHidden');
+const E_onAuctionBoxDisplayed = new Event('onAuctionBoxDisplayed');
+const E_onAuctionBegin = new Event('onAuctionBegin');
+const E_onAuctionBoxHidden = new Event('onAuctionBoxHidden');
+const E_onAuctionEnd = new Event('onAuctionEnd');
+const E_onFinalContractDisplayed = new Event('onFinalContractDisplayed');
+const E_onNewAuction = new Event('onNewAuction');
+const E_onNewActivePlayer = new Event('onNewActivePlayer');
+const E_onExplainCallDisplayed = new Event('onExplainCallDisplayed');
+const E_onExplainCallHidden = new Event('onExplainCallHidden');
+const E_onBiddingBoxRemoved = new Event('onBiddingBoxRemoved');
+const E_onLogin = new Event('onLogin');
+const E_onLogoff = new Event('onLogoff');
+const E_onAnyOpponentChange = new Event('onAnyOpponentChange');
+const E_onNewDeal = new Event('onNewDeal');
+const E_onNewCallSelected = new Event('onNewCallSelected');
+const E_onCallLevelSelected = new Event('onCallLevelSelected');
+const E_onMyLead = new Event('onMyLead');
+const E_onNewPlayedCard = new Event('onNewPlayedCard');
+const E_onCallExplanationPanelDisplayed = new Event('onCallExplanationPanelDisplayed');
+const E_onMyCardsDisplayed = new Event('onMyCardsDisplayed');
+const E_onDealEnd = new Event('onDealEnd');
+const E_onAnnouncementDisplayed = new Event('onAnnouncementDisplayed');
+const E_onNotificationDisplayed = new Event('onNotificationDisplayed');
+const E_onNewChatMessage = new Event('onNewChatMessage');
+const E_onDataLoad = new Event('onDataLoad');
+
 
 // Options for the observer (which mutations to observe)
 const config = {
@@ -153,7 +185,7 @@ const callback = function (mutationsList, observer) {
         callExplanationPanelDisplayed = !callExplanationPanelDisplayed;
         if (callExplanationPanelDisplayed) onCallExplanationPanelDisplayed();
     }
-    if ((myCardsDisplayed != getMyHand()) &&  (getMyHand().length == 26)) {
+    if ((myCardsDisplayed != getMyHand()) && (getMyHand().length == 26)) {
         myCardsDisplayed = getMyHand();
         onMyCardsDisplayed();
     }
@@ -172,14 +204,14 @@ observer.observe(targetNode, config);
 function onAnyMutation() {
     // move down CC table
     var ccd = document.getElementById('ccDiv');
-	if (ccd != null) ccd.style.top = "";
-//	if (ccd != null) ccd.style.top = "85px";
+    if (ccd != null) ccd.style.top = "";
+    //	if (ccd != null) ccd.style.top = "85px";
     partnershipOptions();
     checkOptionsVulnerability();
     setOptionColors();
     if ($("#adpanel2").length == 1) {
         if (document.activeElement.tagName.toLowerCase() == "input") {
-//            document.activeElement.tagName.onfocus = inputOnFocus;
+            //            document.activeElement.tagName.onfocus = inputOnFocus;
             if (!$("#rightDiv")[0].contains(document.activeElement)) {
                 $("#adpanel2")[0].inputObject = document.activeElement;
                 if (document.activeElement.onclick == null) {
@@ -191,6 +223,7 @@ function onAnyMutation() {
         }
     }
     hover_bboalert();
+    BBOalertEvents().dispatchEvent(E_onAnyMutation);
     execUserScript('%onAnyMutation%');
 }
 
@@ -199,12 +232,13 @@ function onBiddingBoxCreated() {
     LHOpponent = '';
     RHOpponent = '';
     activePlayer = '';
+    BBOalertEvents().dispatchEvent(E_onBiddingBoxCreated);
     execUserScript('%onBiddingBoxCreated%');
 }
 
 function onBiddingBoxDisplayed() {
     setBiddingButtonEvents();
-//    setExplainInputClickEvents();
+    //    setExplainInputClickEvents();
     var elAlertExplain = getExplainInput();
     if (elAlertExplain.onclick == null) {
         elAlertExplain.onclick = function () {
@@ -212,48 +246,61 @@ function onBiddingBoxDisplayed() {
         };
     }
     elAlertExplain.onkeyup = inputOnKeyup;
-//    elAlertExplain.onfocus = inputOnFocus;
+    //    elAlertExplain.onfocus = inputOnFocus;
     getExplainInput().setAttribute("maxlength", "69");
+    BBOalertEvents().dispatchEvent(E_onBiddingBoxDisplayed);
     execUserScript('%onBiddingBoxDisplayed%');
 }
 
 function onBiddingBoxHidden() {
+    BBOalertEvents().dispatchEvent(E_onBiddingBoxHidden);
     execUserScript('%onBiddingBoxHidden%');
 }
 
 function onAuctionBoxDisplayed() {
+    BBOalertEvents().dispatchEvent(E_onAuctionBoxDisplayed);
     execUserScript('%onAuctionBoxDisplayed%');
     setTimeout(function () {
-        if (getContext() == '') execUserScript('%onAuctionBegin%');
+        if (getContext() == '') {
+            BBOalertEvents().dispatchEvent(E_onAuctionBegin);
+            execUserScript('%onAuctionBegin%');
+        }
     }, 200);
 }
 
 function onAuctionBoxHidden() {
     activePlayer = '';
+    BBOalertEvents().dispatchEvent(E_onAuctionBoxHidden);
     execUserScript('%onAuctionBoxHidden%');
     var ctx = getContext();
     if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
+        BBOalertEvents().dispatchEvent(E_onAuctionEnd);
         execUserScript('%onAuctionEnd%');
     }
 }
 
 function onFinalContractDisplayed() {
+    BBOalertEvents().dispatchEvent(E_onFinalContractDisplayed);
     execUserScript('%onFinalContractDisplayed%');
 }
 
 function onNewAuction() {
     if (currentAuction != '')
-    if (currentAuction != '??') execUserScript('%onNewAuction%');
+        if (currentAuction != '??') {
+            BBOalertEvents().dispatchEvent(E_onNewAuction);
+            execUserScript('%onNewAuction%');
+        }
 }
 
 function onNewActivePlayer() {
+    BBOalertEvents().dispatchEvent(E_onNewActivePlayer);
     execUserScript('%onNewActivePlayer%');
 }
 
 function onExplainCallDisplayed() {
     dragElement(getExplainCallBox());
     getExplainCallBox().onkeyup = inputOnKeyup;
-//    getExplainCallBox().onfocus = inputOnFocus;
+    //    getExplainCallBox().onfocus = inputOnFocus;
     var e = getExplainCallInput();
     if (e.onclick == null) {
         e.onclick = function () {
@@ -263,15 +310,18 @@ function onExplainCallDisplayed() {
     getExplainCallBox().style.width = "auto";
     getExplainCallBox().style.height = "auto";
     dragElement(getExplainCallBox());
+    BBOalertEvents().dispatchEvent(E_onExplainCallDisplayed);
     execUserScript('%onExplainCallDisplayed%');
 }
 
 function onExplainCallHidden() {
+    BBOalertEvents().dispatchEvent(E_onExplainCallHidden);
     execUserScript('%onExplainCallHidden%');
 }
 
 function onBiddingBoxRemoved() {
     setBiddingButtonEvents();
+    BBOalertEvents().dispatchEvent(E_onBiddingBoxRemoved);
     execUserScript('%onBiddingBoxRemoved%');
 }
 
@@ -310,6 +360,7 @@ function onNavDivDisplayed() {
             }, 200);
             restoreSettings();
             hideUnusedOptions();
+            BBOalertEvents().dispatchEvent(E_onLogin);
             execUserScript('%onLogin%');
         });
     }, 500);
@@ -320,6 +371,7 @@ function onNavDivHidden() {
     setOptionsOff();
     initGlobals();
     localStorage.setItem('BBOalertCache', alertOriginal);
+    BBOalertEvents().dispatchEvent(E_onLogoff);
     execUserScript('%onLogoff%');
 }
 
@@ -334,54 +386,72 @@ function onAnyOpponentChange() {
         opponentChanged = opponentChanged + 'R';
         RHOpponent = myOpponent(false);
     }
+    BBOalertEvents().dispatchEvent(E_onAnyOpponentChange);
     execUserScript('%onAnyOpponentChange%');
 }
 
 function onNewDeal() {
     activePlayer = '';
+    BBOalertEvents().dispatchEvent(E_onNewDeal);
     execUserScript('%onNewDeal%');
 }
 
 function onNewCallSelected() {
-    if (lastSelectedCall.length == 2) execUserScript('%onNewCallSelected%');
-    if (lastSelectedCall.length == 1) execUserScript('%onCallLevelSelected%');
+    if (lastSelectedCall.length == 2) {
+        BBOalertEvents().dispatchEvent(E_onNewCallSelected);
+        execUserScript('%onNewCallSelected%');
+    }
+    if (lastSelectedCall.length == 1) {
+        BBOalertEvents().dispatchEvent(E_onCallLevelSelected);
+        execUserScript('%onCallLevelSelected%');
+    }
 }
 
 function onNewLead() {
     if (myDirection() != "") {
         if (getMyHand().length == 24) {
+            BBOalertEvents().dispatchEvent(E_onMyLead);
             execUserScript('%onMyLead%');
         }
     }
 }
 
 function onNewPlayedCard() {
-    if (playedCards != '') execUserScript('%onNewPlayedCard%');
+    if (playedCards != '') {
+        BBOalertEvents().dispatchEvent(E_onNewPlayedCard);
+        execUserScript('%onNewPlayedCard%');
+    }
 }
 
 function onCallExplanationPanelDisplayed() {
     dragElement(getCallExplanationPanel());
+    BBOalertEvents().dispatchEvent(E_onCallExplanationPanelDisplayed);
     execUserScript('%onCallExplanationPanelDisplayed%');
 }
 
 function onMyCardsDisplayed() {
+    BBOalertEvents().dispatchEvent(E_onMyCardsDisplayed);
     execUserScript('%onMyCardsDisplayed%');
 }
 
 
 function onDealEndPanelDisplayed() {
+    BBOalertEvents().dispatchEvent(E_onDealEnd);
     execUserScript('%onDealEnd%');
 }
 
-function onAnnouncementDisplayed () {
+function onAnnouncementDisplayed() {
     dragElement(getAnnouncementPanel());
+    BBOalertEvents().dispatchEvent(E_onAnnouncementDisplayed);
     execUserScript('%onAnnouncementDisplayed%');
 }
 
-function onNotificationDisplayed () {
+function onNotificationDisplayed() {
+    BBOalertEvents().dispatchEvent(E_onNotificationDisplayed);
     execUserScript('%onNotificationDisplayed%');
 }
 
-function onNewChatMessage () {
+function onNewChatMessage() {
+    BBOalertEvents().dispatchEvent(E_onNewChatMessage);
     execUserScript('%onNewChatMessage%');
 }
