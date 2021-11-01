@@ -28,10 +28,10 @@
 
     1C--1D__,	1H,	    12-19p 4+!H; denies 5+!S and 16-19p balanced
     +,		    1S,	    (12-19p 4+!H5+!S) or (16-19p 4!H4!S balanced)
-    +,  		1N,	    16-19 4!H balanced; denies 4!S
-    +,  		2C,	    +20p 4!H 4+!C eccentric hand; denies 4+!S
-    +,  		2D,	    +20p 4!H 4+!D eccentric hand; denies 4+!S
-    +,  		2H,	    4 losers 5!H4+m
+    +,          1N,	    16-19 4!H balanced; denies 4!S
+    +,          2C,	    +20p 4!H 4+!C eccentric hand; denies 4+!S
+    +,          2D,	    +20p 4!H 4+!D eccentric hand; denies 4+!S
+    +,          2H,	    4 losers 5!H4+m
     +,  		2S,	    4 losers 4!H5+!S
     +,  		2N,	    20-22p 4!H balanced
     +,  		3C,	    7 losers 4!H6!C
