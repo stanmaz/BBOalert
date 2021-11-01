@@ -4,9 +4,9 @@
 
 ### First response
 
-    1C--,		1D,	    (0-5p any shape) or (6+p 3!H)
-    1C__,		1H,	    6+p 4+!S
-    +,		    1S,	    6+p Texas->NT
+    1C--,       1D,	    (0-5p any shape) or (6+p 3!H)
+    1C__,       1H,	    6+p 4+!S
+    +,          1S,	    6+p Texas->NT
     +,		    1N,	    (Texas->!C undefined force) or (10+p natural)
     +,		    2C,	    Texas->!D undefined force
     +,		    2D,	    6+p fit 4+!H
