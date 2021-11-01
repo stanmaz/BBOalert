@@ -118,34 +118,34 @@
 - Bid his 5+ card Hearts using transfer and then :
 
 		1N__2D__2H__,	2S,	5!H5!S game inviting
-		+,				2N,	5!H game inviting
-		+,				3C,	5!H5!C game inviting
-		+,				3D,	5!H5!D game inviting
-		+,				3H,	6!H game inviting
+		+,		2N,	5!H game inviting
+		+,		3C,	5!H5!C game inviting
+		+,		3D,	5!H5!D game inviting
+		+,		3H,	6!H game inviting
 
 - Bid his 5+ card Spades using transfer and then :
 
 		1N__2H__2S__,	2N,	5!S game inviting
-		+,				3C,	5!S5!C game inviting
-		+,				3D,	5!S5!D game inviting
-		+,				3H,	5!S GF short in !H
-		+,				3S,	6!S game inviting
+		+,		3C,	5!S5!C game inviting
+		+,		3D,	5!S5!D game inviting
+		+,		3H,	5!S GF short in !H
+		+,		3S,	6!S game inviting
 
 - Bid his 5+ card Diamonds using transfer and then :	
 
 		1N__2C__2D__,	2N,	5!D game inviting
-		+,				3C,	5!D4!C game inviting
-		+,				3D,	6!D game inviting	
+		+,		3C,	5!D4!C game inviting
+		+,		3D,	6!D game inviting	
 
 - Bid his 5+ card Clubs using Texas 2S :
 
-		1N__2S__,		2N,		12-13p preference NT
-		+,				3C,		12-13p preference 3C
-		+,				3D,		14-15p 5!C xx!D
-		+,				3H,		14-15p xx!H
-		+,				3S,		14-15p xx!S
-		1N__2S__2N__,		3C,	6!C game inviting
-		+,				3D,	5!C5!D game inviting
+		1N__2S__,	2N,		12-13p preference NT
+		+,		3C,		12-13p preference 3C
+		+,		3D,		14-15p 5!C xx!D
+		+,		3H,		14-15p xx!H
+		+,		3S,		14-15p xx!S
+		1N__2S__2N__,	3C,	6!C game inviting
+		+,		3D,	5!C5!D game inviting
 
 <b>Case 3 : if responder has a trivial hand with 5+M and GF values :</b>
 
@@ -186,13 +186,13 @@
 
 - He should always begin with the inquiry of opener’s force
 
-		1N__2C__2D__,		2S,	asking opener’s force
-		1N__2C__2D__2S__,		2N,	minimum
-		+,						3C,	maximum short in !C
-		+,						3D,	maximum short in !D
-		+,						3H,	maximum short in !H
-		+,						3S,	maximum short in !S
-		+,						3N,	maximum 4333
+		1N__2C__2D__,	2S,	asking opener’s force
+		1N__2C__2D__2S__,	2N,	minimum
+		+,			3C,	maximum short in !C
+		+,			3D,	maximum short in !D
+		+,			3H,	maximum short in !H
+		+,			3S,	maximum short in !S
+		+,			3N,	maximum 4333
 
 <div style="page-break-after: always;"></div>
 
@@ -212,10 +212,10 @@
 
 ### After relay
 
-	2N__3C__,		3D,		Mandatory transfer
-	2N__3C__3D__,			3H,		short !H
-	2N__3C__3D__,			3S,		short !S
-	2N__3C__3D__,			3N,		KQxxxx or KJxxxx !D
+	2N__3C__,	3D,		Mandatory transfer
+	2N__3C__3D__,		3H,		short !H
+	2N__3C__3D__,		3S,		short !S
+	2N__3C__3D__,		3N,		KQxxxx or KJxxxx !D
 
 <div style="page-break-after: always;"></div>
 
@@ -277,11 +277,11 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 ### First response
 
 	2D__,		2H,		to play
-	+,			2S,		5!S 0-2!H forcing
-	+,			2N,		Relay - at least invitational denies 5!S
-	+,			3C,		6!C 0-2!H game forcing
-	+,			3D,		6!D 0-2!H game forcing
-	+,			3H,		preempt
+	+,		2S,		5!S 0-2!H forcing
+	+,		2N,		Relay - at least invitational denies 5!S
+	+,		3C,		6!C 0-2!H game forcing
+	+,		3D,		6!D 0-2!H game forcing
+	+,		3H,		preempt
 
 ### Rebid after negative response
 
@@ -328,11 +328,11 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 ### Rebid after negative response
 
 	2H__2S__,	2N,	20-22p 5!S balanced
-	+,			3C,	3 losers 5!S4!C
-	+,			3D,	3 losers 5!S4!D
-	+,			3H,	4 losers 5!S4!H
-	+,			3S,	4 losers 6!S
-	+,			3N,	23-35p 5!S balanced
+	+,		3C,	3 losers 5!S4!C
+	+,		3D,	3 losers 5!S4!D
+	+,		3H,	4 losers 5!S4!H
+	+,		3S,	4 losers 6!S
+	+,		3N,	23-35p 5!S balanced
 
 ### Responder has 5+ hearts
 
