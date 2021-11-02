@@ -141,7 +141,13 @@
 	+,		   	 2D,   	 +10p fit in a major,        	Inviting
 	1DDb2D,   	 Db,   	 +10p fit in a major,        	Double replaces 2D response
 	1DDb__,   	 1N,   	 10-13p natural. Major misfit
-	+,		   	 2N,   	 14-16p natural. Major misfit
+	1DDb__1N__,		2C,	5!H4!S
+	+,			2D,	5!S4!H
+	+,			2H,	5!H5!S 8-10p
+	1DDb__,		 2N,   	 14-16p natural. Major misfit
+	1DDb__2N__,		3C,	5!H4!S
+	+,			3D,	5!S4!H
+	+,			3H,	5!H5!S 8-10p
 
 >Responses with major two-suiter
 
