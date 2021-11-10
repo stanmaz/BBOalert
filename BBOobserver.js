@@ -57,6 +57,7 @@ function initGlobals() {
     notificationDisplayed = false;
     notificationText = '';
     lastChatMessage = '';
+    recordNewAlerts = true;
 
     srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub";
 }

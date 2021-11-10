@@ -488,6 +488,7 @@ function getClipboardData(newData) {
 			bboalertLog(version + '<br>can not append BSS formatted data');
 			return;
 		}
+		if (!cbData.endsWith("\n")) cbData = cbData + "\n";
 		if (newData) {
 			updateText = "";
 			updateCount = 0;
@@ -912,6 +913,7 @@ function getAlert() {
  * @ignore
  */
 function saveAlert() {
+	if (!recordNewAlerts) return;
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	//	var explainText = elimine2Spaces(elAlertExplain.value).trim();
