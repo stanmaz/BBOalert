@@ -1,7 +1,5 @@
 
-BBOalert, Overcalls
-
-## Overcalls
+## BBOalert, Overcalls
 
 ### Against natural 1C opening
 
