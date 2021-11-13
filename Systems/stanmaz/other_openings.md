@@ -235,7 +235,7 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 	
 ## Opening 2NT
 
-	,	2N,	weak 6!D or forcing game 6!C
+	,	2N,	weak 6!D or forcing game 6!D
 
 ### First response
 
