@@ -1,3 +1,6 @@
+
+## BBOalert, Other openings
+
 ## Opening 1H
 
 	,	1H,		(16+p balanced) or (12+p 5+!C) denies 4M unlimited
