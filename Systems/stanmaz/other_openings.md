@@ -1,6 +1,6 @@
 ## Opening 1H
 
-	,	1H,		(16-19p balanced) or (12+p 5+!C) denies 4M 
+	,	1H,		(16+p balanced) or (12+p 5+!C) denies 4M unlimited
 
 ### First response
 
@@ -24,23 +24,26 @@
 	+,		2D,		20-22 5!C5!D
 	+,		2H,		20-22p 5!C4!D3!H
 	+,		2S,		20-22p 5!C4!D3!S
-	+,		2N,		20-22p 5!C4!D2!H2!S
+	+,		2N,		20-22p balanced
 	+,		3C,		4 losers 6!C
 	+,		3D,		3 losers 5!C5!D
 	+,		3H,		23-25p 5!C4!D3!H
 	+,		3S,		23-25p 5!C4!D3!S
+	+,		3N,		23-25p balanced
 
 <div style="page-break-after: always;"></div>
 
 ### Opener’s rebid after positive relay
 
-	1H__1S__,	1N,		16-19p balanced (5!C4!D2!H2!S possible)
+	1H__1S__,	1N,		12-15p 5!C4+!D
 	+,		2C,		12-15p 6!C
 	+,		2D,		16+p balanced
 	+,		2H,		16+p 5+!C3!H
 	+,		2S,		16+p 5+!C3!S
 	+,		2N,		16-17p 5!C4!D2!H2!S
 	+,		3N,		18-19p 5!C4!D2!H2!S
+
+<div style="page-break-after: always;"></div>
 
 ## Opening 1S
 
@@ -353,31 +356,35 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 
 ## Opening 2S
 
-	,	2S,	weak 5!C5!D or 6!C or forcing game 6!C
+	,	2S,	weak 6!C or forcing game 6!C
 
 ### First response
 
-	2S__,		2N,		Relay (preference !D if weak)
+	2S__,		2N,		asking side stopper
 	+,		3C,		to play if weak opening
 
-	2S__2N__,	3C,		weak 6!C
-	2S__2N__3C__,		3D,		3NT try : Stopper !D
-	+,			3H,		3NT try : Stopper !H and !S
-	+,			3S,		5+!S  forcing
-	+,			3N,		to play
+	2S__2N__,	3C,		weak 6!C no side stopper
+	+,		3D,		weak 6!C stopper !D
+	+,		3H,		weak 6!C stopper !H
+	+,		3S,		weak 6!C stopper !S
+	
+## Opening 2NT
 
+	,	2N,	weak 6!D or forcing game 6!C
 
+### First response
+
+	2N__,		3C,		asking side stopper
+	+,		3D,		to play if weak opening
+
+	2N__3C__,	3D,		weak 6!D no side stopper
+	+,		3H,		weak 6!D stopper !H
+	+,		3S,		weak 6!D stopper !S
+	+,		3N,		weak 6!D stopper !C
 
 ## Opening 3C
 
-	,	3C,	6!D weak or game forcing 6!D
-
-### First response
-
-	3C__,		3D,		to play if weak opening
-	+,		3H,		3NT try : stopper !H
-	+,		3S,		3NT try : stopper !S and !C
-	+,		3N,		to play
+	,	3C,	weak 5!C5!D
 
 <div style="page-break-after: always;"></div>
 
