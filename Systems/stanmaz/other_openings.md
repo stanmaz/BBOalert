@@ -1,4 +1,4 @@
-BBOalert, Other openings Version 1
+BBOalert, Other openings Version 1.1
 
 ## Opening 1H
 
@@ -221,7 +221,7 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 
 ## Opening 2S
 
-	,	2S,	weak 6!C or forcing game 6!C
+	,	2S,	6!C weak or forcing game
 
 ### First response
 
@@ -235,7 +235,7 @@ weak = 8-11 if 6 card or 10-11 if 5 card
 	
 ## Opening 2NT
 
-	,	2N,	weak 6!D or forcing game 6!D
+	,	2N,	6!D weak or forcing game
 
 ### First response
 
