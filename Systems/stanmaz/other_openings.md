@@ -1,4 +1,4 @@
-## BBOalert, 20210328 Opening 1C
+BBOalert, 20210328 Opening 1C
 
 ## Opening 1H
 
