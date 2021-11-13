@@ -1,4 +1,4 @@
-BBOalert, Other openings
+BBOalert, Other openings Version 1
 
 ## Opening 1H
 
