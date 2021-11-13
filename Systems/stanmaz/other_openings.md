@@ -1,4 +1,3 @@
-
 ## BBOalert, Other openings
 
 ## Opening 1H
