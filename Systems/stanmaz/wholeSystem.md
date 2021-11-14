@@ -27,4 +27,6 @@
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/against_overcalls.md
 
-    Option,Updates
+    Option,Updates OFF
+    Option,Updates ON
+    
