@@ -1,5 +1,7 @@
     BBOalert
 
+    > Google Docs : Openings
+    Import,https://docs.google.com/document/d/e/2PACX-1vTIxxJEJ41eOFCo_4SNU79sj0ZgMiUcB1cj8tOWwu8R5xwD5KV4sAxLQh_B7klUJU9qgPUh5rRmixYO/pub
     
     > Google Docs : Opening 1C
     Import,https://docs.google.com/document/d/e/2PACX-1vSz8gq9LwJQ2UY5El6czdaElyvzSjQMx1dvrIh9Ss_0-muXDwr9-7N8bAblEryG0QwkKcgWIivR3WXs/pub
