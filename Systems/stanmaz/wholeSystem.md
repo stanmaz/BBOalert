@@ -23,7 +23,7 @@
 
 
     Option,MySystem
-    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_system.md
+    Import,https://docs.google.com/document/d/e/2PACX-1vRt5EZfbeIxI-jSKSj6C9vTEusl-F7sX3bwXX2TlMibpr6oas3AFxlr98gTRMvgZwSVjURCNVIdRG_L/pub
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/against_overcalls.md
 
