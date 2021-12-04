@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 6.4.0.1
+Version : 6.5
 
 For recent changes see actual release notes :
 
@@ -91,7 +91,7 @@ BBOalert creates four panels :
    - text area to display program messages
 - "Options" : to enable/disable user definable optional blocks of data
 - "Shortcuts : to access user definable text shortcut buttons
-- "Info" : to display release notes
+- "Documents" : to display release notes and imported documents
 
 The panels can be selected by clicking the corresponding buttons at the top of the panel.
 
