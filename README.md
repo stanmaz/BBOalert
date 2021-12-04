@@ -263,7 +263,7 @@ you can write :
 
 #### Long explanation text
 
-If you need more than 69 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. The chat message should be sent to the opponents to complete the alert procedure.
+If you need more than 69 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. In the second part <br> code may be used as line break to split the text over multiple lines. The chat message should be sent to the opponents to complete the alert procedure.
 
 Example :
 
