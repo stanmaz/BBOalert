@@ -58,8 +58,10 @@ function initGlobals() {
     notificationText = '';
     lastChatMessage = '';
     recordNewAlerts = true;
-
+    // Release notes : stable version
     srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub";
+    // Release notes : beta version
+//    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQlUHDS_XUimLvS722emrPw5Bzpyjm8lPKxZ9jwVwOVJVq0zQd3fawML8sylwxYIGKiZB60eJENB2TG/pub";
 }
 
 initGlobals();

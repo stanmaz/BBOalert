@@ -1015,13 +1015,35 @@ function getVisibleMessageInput() {
 /**
  * send chat message programatically
  */
-function sendChat() {
+ function sendChat() {
 	cr = document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return;
 	cb = cr[0].querySelector('.sendButtonClass');
 	if (cb == null) return;
 	if (!isVisible(cb)) return;
 	cb.click();
+}
+/**
+ * send chat message programatically
+ */
+ function sendAlertChat() {
+	cr = document.querySelectorAll('.chatRowClass');
+	if (cr.length == 0) return;
+	cb = cr[0].querySelector('.sendButtonClass');
+	if (cb == null) return;
+	if (!isVisible(cb)) return;
+	var elMessage = getChatInput();
+	if (elMessage == null) return;
+	var msgList = replaceSuitSymbols(getChatMessage(), "!").split("<br>");
+	console.log(msgList);
+	var eventInput = new Event('input');
+	for (let i = 0; i < msgList.length; i++) {
+		elMessage.value = msgList[i];
+		elMessage.dispatchEvent(eventInput);
+		cb.click();
+	}
+	elMessage.value = "";
+	elMessage.dispatchEvent(eventInput);
 }
 
 /**
@@ -1470,12 +1492,12 @@ function setAdPanel() {
 	adPanelTabs.appendChild(btButtons);
 
 	var btInfo = document.createElement("button");
-	btInfo.textContent = "Rel.Notes";
+	btInfo.textContent = "Documents";
 	btInfo.id = "bttab-info";
 	btInfo.style.width = "25%";
 	btInfo.style.height = "100%";
 	btInfo.style.fontSize = "16px";
-	btInfo.style.backgroundColor = "white";
+	btInfo.style.backgroundColor = "palegreen";
 	btInfo.style.color = 'black';
 	btInfo.style.display = "inline";
 	btInfo.onclick = function () {
@@ -1547,8 +1569,14 @@ function setAdPanel() {
 	adPanel2.style.zIndex = "5000";
 	adPanel3.inputObject = null;
 	adPanel3.style.overflow = "hidden auto";
-
-	adPanel0.appendChild(adPanel3);
+	var infoSelector = document.createElement('select');
+	infoSelector.id = 'bboalert-is';
+	infoSelector.style.width = "100%";
+	infoSelector.style.fontSize = "18px";
+	infoSelector.style.backgroundColor = "palegreen";
+	infoSelector.onchange = infoSelectorChanged;
+	infoSelector.add(new Option('Release Notes', srcRelnotes));
+	adPanel3.appendChild(infoSelector);
 
 	var iframeRelnotes = document.createElement("iframe");
 	iframeRelnotes.src = srcRelnotes;
@@ -1556,7 +1584,34 @@ function setAdPanel() {
 	iframeRelnotes.style.width = "100%";
 	iframeRelnotes.id = "bboalert-relnotes";
 	adPanel3.appendChild(iframeRelnotes);
+	adPanel0.appendChild(adPanel3);
+	infoSelectorChanged();
 }
+
+function initInfoSelector () {
+	var infoSel = document.getElementById("bboalert-is");
+	if (infoSel == null) return;
+	$(infoSel).children().remove();
+	infoSel.add(new Option('Release Notes', srcRelnotes));
+	infoSel.selectedIndex = 0;
+	infoSelectorChanged();
+}
+
+
+function infoSelectorChanged () {
+	var infoSel = document.getElementById("bboalert-is");
+	if (infoSel == null) return;
+	var ifrm = document.getElementById("bboalert-relnotes");
+	if (ifrm == null) return;
+	ifrm.src = infoSel.options[infoSel.selectedIndex].value;
+}
+
+function addInfoOption(txt, val) {
+	var infoSel = document.getElementById("bboalert-is");
+	if (infoSel == null) return;
+	infoSel.add(new Option(txt, val));
+}
+
 
 /**
  * hide BBOalert panel
@@ -2463,7 +2518,7 @@ function updateAlertDataAsync(at, callback) {
 							.then(x => x.text())
 							.then(data => {
 								console.log('Done    ' + url);
-								data = HTMLpage2text(data);
+								data = HTMLpage2text(data, url);
 								if (data != '') {
 									if (r0 == 'Import') {
 										to[last] = [];
@@ -2502,6 +2557,7 @@ function updateAlertDataAsync(at, callback) {
 	var pending = 1;
 	console.time("Read time");
 	initBBOalertEvents();
+	initInfoSelector();
 	addrecs(at, tab, -1);
 }
 
@@ -2675,18 +2731,114 @@ function openDropbox(url) {
 	window.open(url,'','width=100,height=100');
 }
 
-function HTMLpage2text (html) {
+function HTMLpage2text (html, url) {
 	var i1 = html.indexOf("<body>");
 	if (i1 == -1) return html;
 	var i2 = html.indexOf("</body>");
 	if (i2 == -1) return html;
-	html = html.slice(i1 + 6,i2);
 	var d = document.createElement("div");
 	d.innerHTML = html;
-	var p = d.querySelectorAll("p");
+	addInfoOption(d.querySelector("title").textContent, url);
+	html = html.slice(i1 + 6,i2);
+	d.innerHTML = html;
+	var p = d.querySelectorAll("p,ul,li");
 	var txt = "";
+	var lvl = 0;
+	recList = ["","","","","","","","","","","","","","","","","","","",""];
 	for  (i = 0; i < p.length; i++) {
-		txt = txt + p[i].textContent + "\n";
+		if (p[i].tagName.toLowerCase() == "p") {
+			lvl = 0;
+			recList[lvl] = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim() + ",,";
+			txt = txt + p[i].textContent + "\n";
+		} else if (p[i].tagName.toLowerCase() == "ul") {
+			var lvl = parseInt(p[i].classList[1].split("-")[2]) + 1;
+		} else if (p[i].tagName.toLowerCase() == "li") {
+			var t = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim();
+			var i0 = t.indexOf(" ");
+			t0 = t.substr(0,i0);
+			t1 = t.substr(i0+1);
+			var oppsBid = "--";
+			if (t0.split(",").length > 1) {
+				oppsBid = t0.split(",")[0];
+				t =t0.split(",")[1] + "," + t1;
+			} else {
+				t = t0 + "," + t1;
+			}
+			t = elimineSpaces(recList[lvl-1].split(",")[0] + recList[lvl-1].split(",")[1] + oppsBid + ",") + t;
+			recList[lvl] = t;
+			txt = txt + t + "\n";
+		}
 	}
-	return txt;
+	txt = txt.replace(/\u00A0/g, ' ');
+	var tr = txt.split("\n");
+	for (let i = 0; i < tr.length; i++) {
+		tr[i] = replaceSuitSymbolsInRecord(tr[i]);
+	}
+	return tr.join("\n");
+}
+
+function toggleAlertList(el, expandTree) {
+    function ulLevel(ul) {
+        if (ul.tagName.toLowerCase() != "ul") return -1;
+        try {
+            return parseInt(ul.classList[1].split("-")[2]);
+        } catch {
+            return -1;
+        }
+    }
+    var l = $("p,li");
+    for (let i = 0; i < l.length; i++) {
+        l[i].itemNr = i;
+        l[i].level = ulLevel(l[i].parentNode);
+    }
+    var l0 = el.level;
+    var l1 = l[el.itemNr + 1].level;
+//    if (l0 < 0) return;
+    var treeVisible = $(l[el.itemNr + 1]).is(":visible");
+    for (let i = el.itemNr + 1; i < l.length; i++) {
+        if (l[i].level <= l0) {
+            for (let i = 0; i < l.length - 1; i++) {
+                if ($(l[i]).is(":visible") && $(l[i+1]).is(":hidden")) {
+                    l[i].style.backgroundColor = "yellow";
+                } else {
+                    l[i].style.backgroundColor = "white";
+                }
+            }        
+            return false;
+        }
+        if (treeVisible) {
+            if (l[i].level > l0) {
+                $(l[i]).hide();
+            }
+        } else {
+            if ((l[i].level == l1) || expandTree) {
+                $(l[i]).show();
+            }
+        }
+
+    }
+}
+
+
+function replaceSuitSymbolsInRecord(r) {
+	var rx = r.split(",");
+	if (rx.length < 3) return r;
+	rx[0] = replaceSuitSymbols(rx[0], "");
+	rx[1] = replaceSuitSymbols(rx[1], "");
+	rx[2] = replaceSuitSymbols(rx[2], "!");
+	return rx.join(",");
+}
+
+function replaceSuitSymbols(txt, prefix) {
+	var t = txt;
+	t = t.replace(/♣/g,prefix+"C");
+	t = t.replace(/♧/g,prefix+"C"); // white clubs
+	t = t.replace(/♦/g,prefix+"D");
+	t = t.replace(/♢/g,prefix+"D"); // white diamonds
+	t = t.replace(/♥/g,prefix+"H");
+	t = t.replace(/♡/g,prefix+"H"); // white hearts
+	t = t.replace(/♠/g,prefix+"S");
+	t = t.replace(/♤/g,prefix+"S"); // white spades
+	if (prefix == '') t = t.replace(/NT/g,prefix+"N");
+	return t;
 }

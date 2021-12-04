@@ -39,13 +39,16 @@ if (window.location.href.startsWith("https://www.dropbox.com/")) {
 if (window.location.href.startsWith("https://docs.google.com/"))
 	if (window.location.href.endsWith("/pub")) {
 		console.log('Google Drive HTML : ' + window.location.href);
-		var lst = '';
-		var links = document.querySelectorAll("p");
-		for (var i = 0; i < links.length; i++) {
-			lst = lst + links[i].textContent + '\n';
-		}
-		lst = lst + '\n';
-		writeToClipboard(lst);
+		$("#banners").remove();
+		$("#contents")[0].style.padding = "0px";
+		$("#contents")[0].style.cursor = "pointer";
+		let expand = true;
+		try {
+			expand = !($("p")[0].textContent == "no_expand");
+		} catch {}
+		if (expand) $("p,li").click(function (event) {
+			toggleAlertList(this, event.ctrlKey);
+		});
 	}
 
 /**
@@ -714,6 +717,7 @@ function findAlert(context, call) {
 		if (txt == 'Untrusted') trustedZone = false;
 		if (txt == 'Option') matchOption = true;
 		//		if (rec.length < 2) continue;
+		rec[0] = rec[0].replace(/!/g, "");
 		currentContext = elimineSpaces(rec[0].trim());
 		if (currentContext == "+") {
 			currentContext = lastContext;
@@ -721,6 +725,7 @@ function findAlert(context, call) {
 			lastContext = currentContext;
 		}
 		if (rec.length < 3) continue;
+		rec[1] = rec[1].replace(/!/g, "");
 		if (!matchContext(rec[1].trim(), call)) continue;
 		currentContext = execUserScript(scan.replaceAliases(currentContext));
 		if (matchContext(currentContext, stripContext(context))) {
@@ -766,9 +771,9 @@ function findShortcut(text) {
 		short = rec[1].trim();
 		long = rec[2].trim();
 		expandedText = text.slice(0, -short.length) + long;
-		return execUserScript(expandedText);
+		return replaceSuitSymbols(execUserScript(expandedText), "!");
 	}
-	return execUserScript(expandedText);
+	return replaceSuitSymbols(execUserScript(expandedText), "!");
 }
 
 function inputOnFocus() {
@@ -902,7 +907,7 @@ function getAlert() {
 	if (exp.length > 1) {
 		setChatMessage(exp[1]);
 		setTimeout(function () {
-			if (!buttonOKvisible()) sendChat();
+			if (!buttonOKvisible()) sendAlertChat();
 		}, 500);
 	} else {
 		setChatMessage('');
@@ -1201,12 +1206,12 @@ function setBiddingButtonEvents() {
 		elBiddingButtons[16].onmousedown = function () {
 			addLog('click:[OK]');
 			saveAlert();
-			sendChat();
+			sendAlertChat();
 		};
 		elBiddingButtons[16].addEventListener("touchstart", function () {
 			addLog('click:[OK]');
 			saveAlert();
-			sendChat();
+			sendAlertChat();
 		});
 	}
 }
