@@ -1,4 +1,4 @@
-BBOalert,<b><br>meto 210509<br></b>,
+BBOALERT,<b><br>meto 210509<br></b>,
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
 Option,Gazilli,meto+sansmelegi
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_Gazilli.txt,meto+sansmelegi
