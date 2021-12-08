@@ -1,4 +1,4 @@
-BBOALERT,<b><br>meto 210509<br></b>,
+BBOALERT,<b><br>meto 210509 camomille<br></b>,
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
 Option,InterventinMajorFit,meto+camomille, meto+gurus, meto+gypsyqueen, meto+ozbay, meto+ratrut, meto+nilsun
 Option,NFB,meto+camomille, meto+gypsyqueen, meto+nilsun, meto+gurus, meto+ratrut, meto+ozbay
