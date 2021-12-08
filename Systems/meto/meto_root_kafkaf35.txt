@@ -1,4 +1,4 @@
-BBOALERT,<b><br>meto 210509<br></b>,
+BBOALERT,<b><br>meto 210509 kafka35<br></b>,
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/meto/meto_common.txt
 Option,Interventionmajor, meto+camomille, meto+nilsun, meto+gurus, meto+_kafkaf35, meto+ozbay
 Option,FNTDefans,meto+342257, meto+_kafkaf35, meto+camomille
