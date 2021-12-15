@@ -1,1 +1,2 @@
-
+BBOALERT,Precito loader from Github
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/precito/precito-20211214.txt
