@@ -1,4 +1,4 @@
-BBOalert,Development after overcall
+BBOALERT,Development after overcall
 ### Development after overcall by opponents
 
 >In the BBOalert code below, we show only bids altered by opponent’s overcall. Other bids should be alerted manually as they come. Exhaustive coding is practically impossible. 
