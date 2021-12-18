@@ -1,4 +1,4 @@
-    //BBOALERT, Entire system
+    //BBOALERT, Entire system using "Include" keyword
     //Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Scripts/stanmazLib.js
     **//Script,onAnyMutation,stanmazLib.HOVER_BBOALERT_TAB(true);
     //Script,onAnyMutation,stanmazLib.CARD_COLORS(true);
