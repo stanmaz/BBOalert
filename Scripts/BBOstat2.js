@@ -19,6 +19,7 @@
     var LAST_PLAYER = '';
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
+        console.log("addConfigBox");
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onLogin", function () {
@@ -45,9 +46,8 @@
         LAST_PLAYER = getActivePlayer();
         TIME_REF = Date.now();
     });
-    addBBOalertEvent("onNewAuction", function () {
-        TIME_REF = Date.now();
-        if (cfg.Enable_Log_Now && cfg.Log_onNewAuction)
+        addBBOalertEvent("onNewAuction", function () {
+        if (cfg.Enable_Log_Now && cfg.Log_onNewAuction) {
             if (auctionBoxDisplayed)
                 if (getContext() != '') {
                     var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + getContext();
@@ -55,10 +55,11 @@
                     EVENT_LOG = EVENT_LOG + s + '\n';
                     localStorage.setItem('BBOalertEvents', EVENT_LOG);
                 }
+        }
+        TIME_REF = Date.now();
     });
     addBBOalertEvent("onNewPlayedCard", function () {
-        TIME_REF = Date.now();
-        if (cfg.Enable_Log_Now && cfg.Log_onNewPlayedCard)
+        if (cfg.Enable_Log_Now && cfg.Log_onNewPlayedCard) {
             if (playedCards != '') {
                 var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + playedCards;
                 console.log(s);
@@ -66,6 +67,8 @@
                 EVENT_LOG = EVENT_LOG + s + '\n';
                 localStorage.setItem('BBOalertEvents', EVENT_LOG);
             }
+        }
+        TIME_REF = Date.now();
     });
     addBBOalertEvent("onAnnouncementDisplayed", function () {
         if (cfg.Enable_Log_Now && cfg.Log_onAnnouncementDisplayed) {
