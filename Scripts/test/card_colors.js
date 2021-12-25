@@ -9,14 +9,14 @@
     cfg.text_color_diamonds = "darkorange";
     cfg.text_color_hearts = "crimson";
     cfg.text_color_spades = "black";
-    cfg.text_color_pass = "white";
+    // cfg.text_color_pass = "white";
     cfg.text_color_double = "white";
     cfg.text_color_redouble = "white";
     cfg.background_color_clubs = "lightcyan";
     cfg.background_color_diamonds = "lightyellow";
     cfg.background_color_hearts = "white";
     cfg.background_color_spâdes = "white";
-    cfg.background_color_pass = "green";
+    // cfg.background_color_pass = "green";
     cfg.background_color_double = "red";
     cfg.background_color_redouble = "blue";
     // Register configuration
