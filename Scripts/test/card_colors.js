@@ -59,6 +59,10 @@
             $(".auctionBoxCellClass span:contains('♦')").css("color", "");
             $(".auctionBoxCellClass span:contains('♥')").css("color", "");
             $(".auctionBoxCellClass span:contains('♠')").css("color", "");
+            $(".biddingBoxClass span:contains('♣')").css("color", "");
+            $(".biddingBoxClass span:contains('♦')").css("color", "");
+            $(".biddingBoxClass span:contains('♥')").css("color", "");
+            $(".biddingBoxClass span:contains('♠')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("background-color", "");
             $(".auctionBoxCellClass:contains('Rdbl')").css("color", "")
