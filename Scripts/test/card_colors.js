@@ -46,11 +46,15 @@
             $(".cardArea:contains('♣')").css("color", "");
             $(".cardArea:contains('♦')").css("color", "");
             $(".cardArea:contains('♥')").css("color", "");
-            $(".cardArea:contains('♣')").css("background-color", "white");
-            $(".cardArea:contains('♦')").css("background-color", "white");
+            $(".cardArea:contains('♠')").css("color", "");
+            $(".cardArea:contains('♣')").css("background-color", "");
+            $(".cardArea:contains('♦')").css("background-color", "");
+            $(".cardArea:contains('♥')").css("background-color", "");
+            $(".cardArea:contains('♠')").css("background-color", "");
             $(".auctionBoxCellClass span:contains('♣')").css("color", "");
             $(".auctionBoxCellClass span:contains('♦')").css("color", "");
             $(".auctionBoxCellClass span:contains('♥')").css("color", "");
+            $(".auctionBoxCellClass span:contains('♠')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("background-color", "");
             $(".auctionBoxCellClass:contains('Rdbl')").css("color", "")
