@@ -59,7 +59,7 @@
             $(".auctionBoxCellClass span:contains('♦')").css("color", "");
             $(".auctionBoxCellClass span:contains('♥')").css("color", "");
             $(".auctionBoxCellClass span:contains('♠')").css("color", "");
-            $(".biddingBoxClass span:contains('♣')").css("color", "black");
+            $(".biddingBoxClass span:contains('♣')").css("color", "");
             $(".biddingBoxClass span:contains('♦')").css("color", "");
             $(".biddingBoxClass span:contains('♥')").css("color", "");
             $(".biddingBoxClass span:contains('♠')").css("color", "");
