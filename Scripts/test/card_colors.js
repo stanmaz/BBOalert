@@ -38,6 +38,10 @@
             $(".auctionBoxCellClass span:contains('♦')").css("color", cfg.text_color_diamonds);
             $(".auctionBoxCellClass span:contains('♥')").css("color",cfg.text_color_hearts);
             $(".auctionBoxCellClass span:contains('♠')").css("color", cfg.text_color_spades);
+            $(".biddingBoxClass span:contains('♣')").css("color",cfg.text_color_clubs);
+            $(".biddingBoxClass span:contains('♦')").css("color", cfg.text_color_diamonds);
+            $(".biddingBoxClass span:contains('♥')").css("color",cfg.text_color_hearts);
+            $(".biddingBoxClass span:contains('♠')").css("color", cfg.text_color_spades);
             $(".auctionBoxCellClass:contains('Dbl')").css("color", cfg.text_color_double);
             $(".auctionBoxCellClass:contains('Dbl')").css("background-color", cfg.background_color_double);
             $(".auctionBoxCellClass:contains('Rdbl')").css("color", cfg.text_color_redouble);
