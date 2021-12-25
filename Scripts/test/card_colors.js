@@ -2,6 +2,7 @@
 //Script,onDataLoad
 (function () {
     // Default configuration
+    var title = "Modified colors";
     var cfg = {};
     cfg.enabled = false;
     cfg.text_color_clubs = "green";
@@ -19,8 +20,8 @@
     cfg.background_color_double = "red";
     cfg.background_color_redouble = "blue";
     // Register configuration
-    cfg = addPlugin("Modified colors", cfg, function (retcfg) {
-        cfg = retcfg;
+    addBBOalertEvent("onDataLoad", function () {
+        addConfigBox(title, cfg);
     });
     // User script code
     function updateColors () {
