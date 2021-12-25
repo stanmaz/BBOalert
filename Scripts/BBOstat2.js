@@ -18,7 +18,9 @@
     var TIME_REF = Date.now();
     var LAST_PLAYER = '';
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-    addConfigBox(title, cfg);
+    addBBOalertEvent("onDataLoad", function () {
+        addConfigBox(title, cfg);
+    });
     addBBOalertEvent("onLogin", function () {
         cfg.Enable_Log_Now = false;
         cfg.Enable_Log_at_Next_Deal = false;
