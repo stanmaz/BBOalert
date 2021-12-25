@@ -2,7 +2,7 @@
 //Script,onDataLoad
 (function () {
     // Default configuration
-    var title = "Modified card colors";
+    var title = "Modified colors";
     var cfg = {};
     cfg.enabled = false;
     cfg.text_color_clubs = "green";
