@@ -43,10 +43,10 @@
             $(".auctionBoxCellClass:contains('Rdbl')").css("color", cfg.text_color_redouble);
             $(".auctionBoxCellClass:contains('Rdbl')").css("background-color", cfg.background_color_redouble);
         } else {
-            $(".cardArea:contains('♣')").css("color", "");
+            $(".cardArea:contains('♣')").css("color", "black");
             $(".cardArea:contains('♦')").css("color", "");
             $(".cardArea:contains('♥')").css("color", "");
-            $(".cardArea:contains('♠')").css("color", "");
+            $(".cardArea:contains('♠')").css("color", "black");
             $(".cardArea:contains('♣')").css("background-color", "");
             $(".cardArea:contains('♦')").css("background-color", "");
             $(".cardArea:contains('♥')").css("background-color", "");
