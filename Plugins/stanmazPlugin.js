@@ -230,7 +230,7 @@
         if (mn.length == 1) mn = '0' + mn;
         cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
         lastChatMessage = ci[ci.length-1].textContent;
-    };);  
+    });  
 })();
 
 
