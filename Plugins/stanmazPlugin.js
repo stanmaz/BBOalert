@@ -212,5 +212,25 @@
     // End of user script code
 })();
 
+(function () {
+    var title = "Miscelanous small scripts"
+    var cfg = {};
+    cfg.Enable_chat_timestamp = false;
+        addBBOalertEvent("onDataLoad", function () {
+        addConfigBox(title, cfg);
+    });
+    addBBOalertEvent("onNewChatMessage", function ()
+        if (!cfg.Enable_chat_timestamp) return;
+        var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
+        var cs = ci[ci.length-1].querySelector("span");
+        var now = new Date();
+        var hh = now.getHours().toString();
+        if (hh.length == 1) hh = '0' + hh;
+        var mn = now.getMinutes().toString();
+        if (mn.length == 1) mn = '0' + mn;
+        cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
+        lastChatMessage = ci[ci.length-1].textContent;
+    };);  
+})();
 
 
