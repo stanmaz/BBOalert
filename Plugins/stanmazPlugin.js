@@ -219,7 +219,7 @@
         addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
-    addBBOalertEvent("onNewChatMessage", function ()
+    addBBOalertEvent("onNewChatMessage", function () {
         if (!cfg.Enable_chat_timestamp) return;
         var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
         var cs = ci[ci.length-1].querySelector("span");
