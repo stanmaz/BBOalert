@@ -216,7 +216,9 @@
     var title = "Miscelanous small scripts"
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
-        addBBOalertEvent("onDataLoad", function () {
+    cfg.Enable_prealert = false;  
+    cfg.Prealert_shortcut = "PREALERT"; 
+    addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onNewChatMessage", function () {
@@ -230,6 +232,10 @@
         if (mn.length == 1) mn = '0' + mn;
         cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
         lastChatMessage = ci[ci.length-1].textContent;
+    });  
+    addBBOalertEvent("onAnyOpponentChange", function () {
+        if (!cfg.Enable_prealert) return;       
+        setChatMessage(findShortcut(cfg.Prealert_shortcut),true);
     });  
 })();
 
