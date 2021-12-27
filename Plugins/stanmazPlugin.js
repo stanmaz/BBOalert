@@ -217,7 +217,8 @@
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
     cfg.Enable_prealert = false;  
-    cfg.Prealert_shortcut = "PREALERT"; 
+    cfg.Prealert_shortcut = "PREALERT";
+    cfg.Enable_move_table_left = false; 
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -236,6 +237,26 @@
     addBBOalertEvent("onAnyOpponentChange", function () {
         if (!cfg.Enable_prealert) return;       
         setChatMessage(findShortcut(cfg.Prealert_shortcut),true);
+    });
+    moveTableLeft = function () {
+        var nd = getNavDiv();
+        if (nd != null) {
+            var dt = nd.querySelector('.dealViewerToolbarClass');
+            if (dt != null) {
+                var cc = nd.querySelector('.coverClass');
+                if (cc != null) {
+                    cc.style.left = '0px';
+                    var ds = nd.querySelector('.dealScreenDivClass');
+                    if (ds != null) {
+                        dt.style.left = ($(cc).width() + 4) + 'px';
+                    }
+                }
+            }
+        }
+    }
+    addBBOalertEvent("onAnyMutation", function () {
+        if (!cfg.Enable_move_table_left) return;
+        moveTableLeft();       
     });  
 })();
 
