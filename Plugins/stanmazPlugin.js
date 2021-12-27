@@ -245,19 +245,23 @@
             if (dt != null) {
                 var cc = nd.querySelector('.coverClass');
                 if (cc != null) {
-                    cc.style.left = '0px';
-                    var ds = nd.querySelector('.dealScreenDivClass');
-                    if (ds != null) {
-                        dt.style.left = ($(cc).width() + 4) + 'px';
+                    if (cfg.Enable_move_table_left) {
+                        cc.style.left = '0px';
+                        var ds = nd.querySelector('.dealScreenDivClass');
+                        if (ds != null) {
+                            dt.style.left = ($(cc).width() + 4) + 'px';
+                        }    
+                    } else {
+                        if (cc.style.left == '0px') {
+                            $(".verticalClass.selected").click();
+                            $(".verticalClass.selected").click();
+                        }
                     }
                 }
             }
         }
     }
     addBBOalertEvent("onAnyMutation", function () {
-        if (!cfg.Enable_move_table_left) return;
         moveTableLeft();       
     });  
 })();
-
-
