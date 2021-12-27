@@ -253,8 +253,7 @@
                         }    
                     } else {
                         if (cc.style.left == '0px') {
-                            $(".verticalClass.selected").click();
-                            $(".verticalClass.selected").click();
+                            redrawTable();
                         }
                     }
                 }
