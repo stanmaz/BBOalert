@@ -253,6 +253,7 @@
                         }    
                     } else {
                         if (cc.style.left == '0px') {
+                        cc.style.left = '';
                             redrawTable();
                         }
                     }
