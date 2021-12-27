@@ -319,6 +319,6 @@
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft();
         removeIconsFromTabs();       
-        largeBiddingBox(cfg.cfg.Large_bidding_box);
+        largeBiddingBox(cfg.Large_bidding_box);
     });  
 })();
