@@ -220,6 +220,7 @@
     cfg.Prealert_shortcut = "PREALERT";
     cfg.Move_table_left = false; 
     cfg.Remove_icons_from_tabs = false; 
+    cfg.Large_bidding_box = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -266,9 +267,58 @@
         if(!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").show();
         $(".area-label").css("font-weight", "bold");
     };
+    largeBiddingBox = function (on) {
+        if (getPartnerHand() != '') return;
+        if (on) {
+            if (biddingBoxDisplayed) {
+                if (auctionBoxDisplayed) {
+                    var elAuctionBox = getAuctionBox();
+                    elAuctionBox.style.height = '40%';
+                    elAuctionBox.style.top = '0px';
+                }
+                var elBiddingBox = document.querySelector(".biddingBoxClass");
+                var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+                elBiddingBox.style.top = '40%';
+                elBiddingBox.style.left = '0px';
+                elBiddingBox.style.height = '35%';
+                elBiddingBox.style.width = '100%';
+                for (var i = 0; i < 17; i++) {
+                    elBiddingButtons[i].style.height = '30%';
+                    if (i < 12) elBiddingButtons[i].style.fontSize = '8vh';
+                    else elBiddingButtons[i].style.fontSize = '5vh';
+                    elBiddingButtons[i].style.width = '8%';
+                }
+                elBiddingButtons[0].style.left = '15%';
+                elBiddingButtons[1].style.left = '25%';
+                elBiddingButtons[2].style.left = '35%';
+                elBiddingButtons[3].style.left = '45%';
+                elBiddingButtons[4].style.left = '55%';
+                elBiddingButtons[5].style.left = '65%';
+                elBiddingButtons[6].style.left = '75%';
+                elBiddingButtons[7].style.left = '20%';
+                elBiddingButtons[8].style.left = '30%';
+                elBiddingButtons[9].style.left = '40%';
+                elBiddingButtons[10].style.left = '50%';
+                elBiddingButtons[11].style.left = '60%';
+                elBiddingButtons[11].style.width = '18%';
+                elBiddingButtons[7].style.top = '40%';
+                elBiddingButtons[8].style.top = '40%';
+                elBiddingButtons[9].style.top = '40%';
+                elBiddingButtons[10].style.top = '40%';
+                elBiddingButtons[11].style.top = '40%';
+                elBiddingButtons[13].style.top = '33%';
+                elBiddingButtons[14].style.top = '33%';
+                elBiddingButtons[15].style.top = '65%';
+                elBiddingButtons[16].style.left = '';
+                elBiddingButtons[16].style.right = '4px';
+            }
+        }
+    };
+
 
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft();
         removeIconsFromTabs();       
+        largeBiddingBox(cfg.cfg.Large_bidding_box);
     });  
 })();
