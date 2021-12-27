@@ -268,7 +268,7 @@
         $(".area-label").css("font-weight", "bold");
     };
     largeBiddingBox = function (on) {
-        if (getPartnerHand() != '') return;
+//        if (getPartnerHand() != '') return;
         if (on) {
             if (biddingBoxDisplayed) {
                 if (auctionBoxDisplayed) {
