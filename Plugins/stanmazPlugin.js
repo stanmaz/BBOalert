@@ -286,7 +286,7 @@
                     elBiddingButtons[i].style.height = '30%';
                     if (i < 12) elBiddingButtons[i].style.fontSize = '8vh';
                     else elBiddingButtons[i].style.fontSize = '5vh';
-                    elBiddingButtons[i].style.width = '8%';
+                    elBiddingButtons[i].style.width = '12%';
                 }
                 elBiddingButtons[0].style.left = '15%';
                 elBiddingButtons[1].style.left = '25%';
