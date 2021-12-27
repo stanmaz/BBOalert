@@ -218,7 +218,8 @@
     cfg.Enable_chat_timestamp = false;
     cfg.Enable_prealert = false;  
     cfg.Prealert_shortcut = "PREALERT";
-    cfg.Enable_move_table_left = false; 
+    cfg.Move_table_left = false; 
+    cfg.Remove_icons_from_tabs = false; 
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -253,15 +254,21 @@
                         }    
                     } else {
                         if (cc.style.left == '0px') {
-                        cc.style.left = '';
                             redrawTable();
                         }
                     }
                 }
             }
         }
-    }
+    };
+    removeIconsFromTabs =  function () {
+        if(cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").hide();
+        else $(".verticalClass mat-icon").hide();
+        $(".area-label").css("font-weight", "bold");
+    };
+
     addBBOalertEvent("onAnyMutation", function () {
-        moveTableLeft();       
+        moveTableLeft();
+        removeIconsFromTabs();       
     });  
 })();
