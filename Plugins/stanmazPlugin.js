@@ -263,7 +263,7 @@
     };
     removeIconsFromTabs =  function () {
         if(cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").hide();
-        else $(".verticalClass mat-icon").hide();
+        else $(".verticalClass mat-icon").show();
         $(".area-label").css("font-weight", "bold");
     };
 
