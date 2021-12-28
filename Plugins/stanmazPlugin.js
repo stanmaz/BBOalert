@@ -218,7 +218,7 @@
     cfg.Enable_chat_timestamp = false;
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
-    cfg.Move_table_left = false;
+//    cfg.Move_table_left = false;
     cfg.Remove_icons_from_tabs = false;
     cfg.Large_bidding_box = false;
     addBBOalertEvent("onDataLoad", function () {
@@ -404,7 +404,7 @@
         }
     };
     addBBOalertEvent("onAnyMutation", function () {
-        moveTableLeft();
+//        moveTableLeft();
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
     });
