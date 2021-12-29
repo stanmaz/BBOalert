@@ -217,6 +217,9 @@
     var cfg = {};
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
+    addBBOalertEvent("onDataLoad", function () {
+        addConfigBox(title, cfg);
+    });
     addBBOalertEvent("onAnyOpponentChange", function () {
         if (!cfg.Enable_prealert) return;
         setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
