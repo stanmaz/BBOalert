@@ -222,6 +222,7 @@
     cfg.Remove_icons_from_tabs = false;
     cfg.Large_bidding_box = false;
     cfg.Modified_OK_button = false;
+    cfg.Swap_bidding_buttons = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -253,7 +254,7 @@
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         if (on) {
-            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width()+"px");
+            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width() + "px");
             if (document.head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
                 document.head.appendChild(moveTableLeftStyle);
@@ -440,7 +441,41 @@
                     if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
                 }
                 $("bridge-screen bidding-box-button span")[16].textContent = elimineSpaces(txt);
-            }    
+            }
+        }
+    };
+    var swapBiddingButtonsStyleText = `
+    #navDiv .explainInputClass {
+        left: 4px !important;
+    }
+    #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
+        right: 4px !important;
+        left: unset !important;
+    }
+    #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
+        right: 4px !important;
+        left: unset !important;
+    }
+    #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
+        right: 4px !important;
+        left: unset !important;
+    }
+    #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
+        right: 4px !important;
+        left: unset !important;
+    }
+    #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
+        left: 4px !important;
+    }
+    `;
+    var swapBiddingButtonsStyle = document.createElement('style');
+    swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
+    swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
+    swapBiddingButtons = function (on) {
+        if (on) {
+            if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
+        } else {
+            $("#wap-bidding-buttons-style").remove();
         }
     };
     addBBOalertEvent("onAnyMutation", function () {
@@ -448,5 +483,6 @@
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
+        swapBiddingButtons(cfg.Swap_bidding_buttons);
     });
 })();
