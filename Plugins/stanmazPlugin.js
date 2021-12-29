@@ -218,7 +218,7 @@
     cfg.Enable_chat_timestamp = false;
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
-//    cfg.Move_table_left = false;
+    cfg.Move_table_left = false;
     cfg.Remove_icons_from_tabs = false;
     cfg.Large_bidding_box = false;
     addBBOalertEvent("onDataLoad", function () {
@@ -240,26 +240,20 @@
         if (!cfg.Enable_prealert) return;
         setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
     });
-    moveTableLeft = function () {
-        var nd = getNavDiv();
-        if (nd != null) {
-            var dt = nd.querySelector('.dealViewerToolbarClass');
-            if (dt != null) {
-                var cc = nd.querySelector('.coverClass');
-                if (cc != null) {
-                    if (cfg.Enable_move_table_left) {
-                        cc.style.left = '0px';
-                        var ds = nd.querySelector('.dealScreenDivClass');
-                        if (ds != null) {
-                            dt.style.left = ($(cc).width() + 4) + 'px';
-                        }
-                    } else {
-                        if (cc.style.left == '0px') {
-                            redrawTable();
-                        }
-                    }
-                }
-            }
+    var moveTableLeftStyleText = `
+    #navDiv .dealViewerToolbarClass {
+        left: 0px !important;
+    }    
+    `;
+    var moveTableLeftStyle = document.createElement('style');
+    moveTableLeftStyle.id = 'move-table-left--style';
+    moveTableLeftStyle.innerHTML = moveTableLeftStyleText;
+    document.head.appendChild(largeBoxStyle);
+    moveTableLeft = function (on) {
+        if (on) {
+            if (document.head.querySelector("#move-table-left--style") == null) document.head.appendChild(largeBoxStyle);
+        } else {
+            $("#move-table-left--style").remove();
         }
     };
     removeIconsFromTabs = function () {
@@ -404,7 +398,7 @@
         }
     };
     addBBOalertEvent("onAnyMutation", function () {
-//        moveTableLeft();
+        moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
     });
