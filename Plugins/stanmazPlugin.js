@@ -475,7 +475,7 @@
         if (on) {
             if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
         } else {
-            $("#wap-bidding-buttons-style").remove();
+            $("#swap-bidding-buttons-style").remove();
         }
     };
     addBBOalertEvent("onAnyMutation", function () {
