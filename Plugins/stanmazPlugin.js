@@ -244,14 +244,21 @@
     #navDiv .dealViewerToolbarClass {
         left: 0px !important;
     }    
+    #navDiv .coverClass {
+        left: coverclasspos !important;
+    }    
     `;
     var moveTableLeftStyle = document.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
-    moveTableLeftStyle.innerHTML = moveTableLeftStyleText;
-    document.head.appendChild(largeBoxStyle);
     moveTableLeft = function (on) {
         if (on) {
-            if (document.head.querySelector("#move-table-left--style") == null) document.head.appendChild(largeBoxStyle);
+            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width()+"px");
+            if (document.head.querySelector("#move-table-left--style") == null) {
+                moveTableLeftStyle.innerHTML = t;
+                document.head.appendChild(moveTableLeftStyle);
+            } else {
+                document.head.querySelector("#move-table-left--style").innerHTML = t;
+            }
         } else {
             $("#move-table-left--style").remove();
         }
