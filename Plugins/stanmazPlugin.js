@@ -213,7 +213,7 @@
 })();
 
 (function () {
-    var title = "Miscelanous small scripts";
+    var title = "Miscelanous simple scripts";
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
     cfg.Enable_prealert = false;
