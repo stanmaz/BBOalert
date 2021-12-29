@@ -213,11 +213,20 @@
 })();
 
 (function () {
+    var title = "Automatic prealert";
+    var cfg = {};
+    cfg.Enable_prealert = false;
+    cfg.Prealert_shortcut = "PREALERT";
+    addBBOalertEvent("onAnyOpponentChange", function () {
+        if (!cfg.Enable_prealert) return;
+        setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+    });
+})();
+
+(function () {
     var title = "Miscelanous simple scripts";
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
-    cfg.Enable_prealert = false;
-    cfg.Prealert_shortcut = "PREALERT";
     cfg.Move_table_left = false;
     cfg.Remove_icons_from_tabs = false;
     cfg.Large_bidding_box = false;
@@ -237,10 +246,6 @@
         if (mn.length == 1) mn = '0' + mn;
         cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
         lastChatMessage = ci[ci.length - 1].textContent;
-    });
-    addBBOalertEvent("onAnyOpponentChange", function () {
-        if (!cfg.Enable_prealert) return;
-        setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
     });
     var moveTableLeftStyleText = `
     #navDiv .dealViewerToolbarClass {
