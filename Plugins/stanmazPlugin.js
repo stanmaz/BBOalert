@@ -227,7 +227,7 @@
 })();
 
 (function () {
-    var title = "Miscelanous simple scripts";
+    var title = "Miscellaneous simple scripts";
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
     cfg.Move_table_left = false;
