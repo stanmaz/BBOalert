@@ -235,6 +235,7 @@
     cfg.Large_bidding_box = false;
     cfg.Modified_OK_button = false;
     cfg.Swap_bidding_buttons = false;
+    cfg.Auto_chat_to_opponents = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -486,6 +487,23 @@
             $("#swap-bidding-buttons-style").remove();
         }
     };
+    autoChatToOpponents = function () {
+        addBBOalertEvent('onMyCardsDisplayed', function () {
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
+            }
+        });
+        addBBOalertEvent('onNewChatMessage', function () {
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
+            }
+        });        
+    };
+    addBBOalertEvent("onDataLoad", function () {
+        autoChatToOpponents();
+    });
+    autoChatToOpponents();
+
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
