@@ -776,6 +776,7 @@ If you discover a serious bug in the program :
 - new feature : export of log data
 
 ### Version 3.2 skipped
+
 ### Version 3.3
 
 New features
