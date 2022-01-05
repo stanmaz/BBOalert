@@ -289,6 +289,15 @@ function exportAlertData() {
 /**
  * @ignore
  */
+function exportOriginalData() {
+	writeToClipboard(alertOriginal);
+	localStorage.setItem('BBOalertCache', alertOriginal);
+	bboalertLog(version + " Original data exported to clipboard");
+}
+
+/**
+ * @ignore
+ */
 function importClipboardData() {
 	getClipboardData(true);
 }
@@ -302,8 +311,25 @@ function appendClipboardData() {
 
 function clearData() {
 	if (confirm("Are you sure you want to clear data ?")) {
-		writeToClipboard('BBOalert\n');
-		getClipboardData(true);
+		updateText = "";
+		updateCount = 0;
+		alertData = 'BBOalert\n';
+		alertOriginal = alertData;
+		bboalertLog("Reading data");
+		bboalertLog(version + "<br>Clearing data<br>");
+		setTimeout(() => {
+			updateAlertDataAsync(alertOriginal, function () {
+				if (alertData == null) alertData = 'BBOalert\n';
+				alertTable = alertData.split("\n");
+				saveAlertTableToClipboard();
+				processTable();
+				displayHeaders();
+				addBBOalertLog("<br>" + alertTable.length + " records imported");
+				setTimeout(function () {
+					setOptions(true);
+				}, 200);
+			});
+		}, 1000);
 	}
 }
 
@@ -471,16 +497,22 @@ function processTable() {
 	setScriptList();
 	saveAlertTableToClipboard();
 	hover_bboalert();
+	clearConfigMenu();
+	BBOalertEvents().dispatchEvent(E_onDataLoad);
 	execUserScript('%onDataLoad%');
 }
 
+
+var importedURL = "";
 /**
  * @ignore
  */
 function getClipboardData(newData) {
 	navigator.clipboard.readText().then((cbd) => {
 		var cbData = cbd;
+		importedURL = "";
 		if (getDataType(cbData) == 'URL') {
+			importedURL = cbData.split("\n")[0].trim();
 			cbData = "BBOalert\nImport," + cbd;
 		}
 		if (getDataType(cbData) == '') {
@@ -491,7 +523,7 @@ function getClipboardData(newData) {
 			bboalertLog(version + '<br>can not append BSS formatted data');
 			return;
 		}
-		if (!cbData.endsWith("\n")) cbData = cbData + "\n";
+		if (!cbData.endsWith("\n")) cbData = cbData + "\n";
 		if (newData) {
 			updateText = "";
 			updateCount = 0;
@@ -515,8 +547,8 @@ function getClipboardData(newData) {
 				}, 1000);
 			}
 		} else {
-			alertData = alertData + cbData;
-			alertOriginal = alertData;
+			alertOriginal = alertOriginal + cbData;
+			//			alertOriginal = alertData;
 			bboalertLog("Reading data");
 			bboalertLog(version + "<br>Reading data<br>");
 			setTimeout(() => {

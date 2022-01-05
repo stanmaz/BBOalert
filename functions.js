@@ -770,7 +770,9 @@ function elimineSpaces(str) {
  * @ignore
  */
 function readFromClipboard(callback) {
-	navigator.clipboard.readText().then((cbData) => {callback(cbData);});
+	navigator.clipboard.readText().then((cbData) => {
+		callback(cbData);
+	});
 }
 
 /**
@@ -1015,7 +1017,7 @@ function getVisibleMessageInput() {
 /**
  * send chat message programatically
  */
- function sendChat() {
+function sendChat() {
 	cr = document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return;
 	cb = cr[0].querySelector('.sendButtonClass');
@@ -1026,7 +1028,7 @@ function getVisibleMessageInput() {
 /**
  * send chat message programatically
  */
- function sendAlertChat() {
+function sendAlertChat() {
 	cr = document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return;
 	cb = cr[0].querySelector('.sendButtonClass');
@@ -1272,6 +1274,67 @@ function clearOptionsSelector() {
 	optionsSelector.selectedIndex = 0;
 }
 
+function saveRecentURL() {
+	var fileSelector = document.getElementById("bboalert-menu-file");
+	if (fileSelector == null) return;
+	var txt = "";
+	for (var i = 9; i < fileSelector.options.length; i++) {
+		txt = txt + fileSelector.options[i].label + "," + fileSelector.options[i].value + "\n";
+	}
+	window.localStorage.setItem("BBOAlertRecentURL", txt);
+}
+
+function loadRecentURL() {
+	var fileSelector = document.getElementById("bboalert-menu-file");
+	if (fileSelector == null) return;
+	var txt = "";
+	for (let i = fileSelector.options.length - 1; i >= 9; i--) {
+		fileSelector.options.remove(i);
+	}
+	txt = window.localStorage.getItem("BBOAlertRecentURL");
+	if (txt == null) return;
+	var t = txt.split("\n");
+	for (let i = 0; i < t.length; i++) {
+		let r = t[i].split(",");
+		console.log(i + " " + r[0] + " " + r[1]);
+		if (r[0] == "") continue;
+		importedURL = r[1];
+		addRecentURL(r[0], r[1]);
+	}
+}
+
+
+function clearRecentURL() {
+	var fileSelector = document.getElementById("bboalert-menu-file");
+	if (fileSelector == null) return;
+	for (var i = fileSelector.options.length - 1; i >= 9; i--) {
+		fileSelector.options.remove(i);
+	}
+	saveRecentURL();
+	$(fileSelector.options[8]).hide();
+}
+
+function addRecentURL(label, url) {
+	var fileSelector = document.getElementById("bboalert-menu-file");
+	if (fileSelector == null) return;
+	if (label == "") return;
+	if (url == "") return;
+	if (makeDirectLink(importedURL) != url) return;
+	var lbl = label.replaceAll("<br>", "");
+	lbl = lbl.replaceAll("<b>", "");
+	lbl = lbl.replaceAll("</b>", "");
+	for (var i = 9; i < fileSelector.options.length; i++) {
+		if (fileSelector.options[i].value == url) {
+			fileSelector.options.remove(i);
+		}
+	}
+	var opt = new Option(lbl, url);
+	opt.style.backgroundColor = "white";
+	fileSelector.add(opt, 9);
+	$(fileSelector.options[8]).show();
+	saveRecentURL();
+}
+
 /**
  * @ignore
  */
@@ -1285,12 +1348,15 @@ function setControlButtons() {
 		fileSelector.style.fontSize = "18px";
 		fileSelector.style.backgroundColor = "lightblue";
 		fileSelector.add(new Option('Data...'));
-		fileSelector.add(new Option('   Import'));
-		fileSelector.add(new Option('   Append'));
+		fileSelector.add(new Option('   Paste (New)'));
+		fileSelector.add(new Option('   Paste (Append)'));
 		fileSelector.add(new Option('   Clear'));
-		fileSelector.add(new Option('   Export All'));
-		fileSelector.add(new Option('   Export New'));
-		fileSelector.add(new Option('   Export Log'));
+		fileSelector.add(new Option('   Copy All'));
+		fileSelector.add(new Option('   Copy New'));
+		fileSelector.add(new Option('   Copy Log'));
+		fileSelector.add(new Option('   Copy Original'));
+		fileSelector.add(new Option('   Clear Recent URLs'));
+		$(fileSelector.options[8]).hide();
 		fileSelector.onchange = function () {
 			if (this.selectedIndex == 1) importClipboardData();
 			if (this.selectedIndex == 2) appendClipboardData();
@@ -1298,9 +1364,16 @@ function setControlButtons() {
 			if (this.selectedIndex == 4) exportAlertData();
 			if (this.selectedIndex == 5) exportUpdateData();
 			if (this.selectedIndex == 6) exportLogData();
+			if (this.selectedIndex == 7) exportOriginalData();
+			if (this.selectedIndex == 8) clearRecentURL();
+			if (this.selectedIndex > 8) {
+				writeToClipboard(this.options[this.selectedIndex].value);
+				getClipboardData(true);
+			}
 			this.selectedIndex = 0;
 		};
 		adPanel.appendChild(fileSelector);
+		loadRecentURL();
 	}
 	if (adPanel.querySelector('#bboalert-menu-settings') == null) {
 		var settingsSelector = document.createElement('select');
@@ -1329,6 +1402,29 @@ function setControlButtons() {
 			this.selectedIndex = 0;
 		};
 		adPanel.appendChild(settingsSelector);
+	}
+	if (adPanel.querySelector('#bboalert-menu-config') == null) {
+		var configSelector = document.createElement('select');
+		configSelector.id = 'bboalert-menu-config';
+		configSelector.style.width = "100%";
+		configSelector.style.fontSize = "18px";
+		configSelector.style.backgroundColor = "bisque";
+		configSelector.style.display = "none";
+		configSelector.add(new Option('Plugin settings ...'));
+		configSelector.onchange = function () {
+			if (this.selectedIndex == 0) {
+//				$("#bboalert-config-panel").hide();
+			} else {
+				var cfgsel = document.querySelector('#bboalert-menu-config');
+				var s = localStorage.getItem('BBOalertConfig ' + cfgsel.options[cfgsel.selectedIndex].label);
+				if (s != null) {
+					$.extend({}, this.options[this.selectedIndex].cfgObj, JSON.parse(s));
+				}
+				setConfigBox(this.options[this.selectedIndex].cfgLabel,this.options[this.selectedIndex].cfgObj);
+			}
+			cfgsel.selectedIndex = 0;
+		};
+		adPanel.appendChild(configSelector);
 	}
 	if (adPanel.querySelector('#bboalert-p1') == null) {
 		var p1 = document.createElement("p");
@@ -1588,7 +1684,7 @@ function setAdPanel() {
 	infoSelectorChanged();
 }
 
-function initInfoSelector () {
+function initInfoSelector() {
 	var infoSel = document.getElementById("bboalert-is");
 	if (infoSel == null) return;
 	$(infoSel).children().remove();
@@ -1598,7 +1694,7 @@ function initInfoSelector () {
 }
 
 
-function infoSelectorChanged () {
+function infoSelectorChanged() {
 	var infoSel = document.getElementById("bboalert-is");
 	if (infoSel == null) return;
 	var ifrm = document.getElementById("bboalert-relnotes");
@@ -2022,12 +2118,12 @@ function checkOptionsVulnerability() {
 	var adPanel = document.getElementById("adpanel");
 	if (adPanel == null) return;
 	var btns = adPanel.querySelectorAll('button');
-//	if (getDealNumber() == '') {
-		for (var i = 0; i < btns.length; i++) {
-			btns[i].optionValid = true;
-			setOptionColor(btns[i]);
-		}
-//	}
+	//	if (getDealNumber() == '') {
+	for (var i = 0; i < btns.length; i++) {
+		btns[i].optionValid = true;
+		setOptionColor(btns[i]);
+	}
+	//	}
 	if ((nd = getNavDiv()) == null) return;
 	var abc = nd.querySelector('.auctionBoxClass');
 	if (!isVisible(abc)) return;
@@ -2483,6 +2579,23 @@ function loadJS(url) {
 		.catch(error => console.log("Erreur : " + error));
 }
 
+function getBBOalertHeader(data) {
+	var txt = '';
+	var scan = new BBOalertData();
+	scan.setData(data);
+	while ((txt = scan.getNextLine()) != null) {
+		var rec = txt.split(",");
+		if (rec.length > 1) {
+			if (rec[0].trim().toUpperCase().indexOf('BBOALERT') != -1) {
+				if (rec[0].trim() != '') {
+					return rec[1].trim();
+				}
+			}
+		}
+	}
+	return "";
+}
+
 function updateAlertDataAsync(at, callback) {
 	function findURL(url, parent) {
 		var idx = parent;
@@ -2514,11 +2627,15 @@ function updateAlertDataAsync(at, callback) {
 						parents.push(parent);
 						var myIdx = urls.length - 1;
 						pending++;
-						fetch(url, {cache: "no-store"})
+						fetch(url, {
+								cache: "no-store"
+							})
 							.then(x => x.text())
 							.then(data => {
 								console.log('Done    ' + url);
 								data = HTMLpage2text(data, url);
+								console.log('Header  ' + getBBOalertHeader(data));
+								addRecentURL(getBBOalertHeader(data), url);
 								if (data != '') {
 									if (r0 == 'Import') {
 										to[last] = [];
@@ -2603,7 +2720,7 @@ function getCard(index) {
 function getLastChatMessaage() {
 	try {
 		var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
-		return ci[ci.length-1].textContent;	
+		return ci[ci.length - 1].textContent;
 	} catch {
 		return '';
 	}
@@ -2719,19 +2836,19 @@ function BBOalertEvents() {
 
 function beep(f, d) {
 	var context = new(window.AudioContext || window.webkitAudioContext)();
-    var osc = context.createOscillator();
-    osc.type = 'square';
-    osc.frequency.value = f;
-    osc.connect(context.destination);
-    osc.start();
-    osc.stop(context.currentTime + d);    
+	var osc = context.createOscillator();
+	osc.type = 'square';
+	osc.frequency.value = f;
+	osc.connect(context.destination);
+	osc.start();
+	osc.stop(context.currentTime + d);
 }
 
 function openDropbox(url) {
-	window.open(url,'','width=100,height=100');
+	window.open(url, '', 'width=100,height=100');
 }
 
-function HTMLpage2text (html, url) {
+function HTMLpage2text(html, url) {
 	var i1 = html.indexOf("<body>");
 	if (i1 == -1) return html;
 	var i2 = html.indexOf("</body>");
@@ -2739,13 +2856,13 @@ function HTMLpage2text (html, url) {
 	var d = document.createElement("div");
 	d.innerHTML = html;
 	addInfoOption(d.querySelector("title").textContent, url);
-	html = html.slice(i1 + 6,i2);
+	html = html.slice(i1 + 6, i2);
 	d.innerHTML = html;
 	var p = d.querySelectorAll("p,ul,li");
 	var txt = "";
 	var lvl = 0;
-	recList = ["","","","","","","","","","","","","","","","","","","",""];
-	for  (i = 0; i < p.length; i++) {
+	recList = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+	for (i = 0; i < p.length; i++) {
 		if (p[i].tagName.toLowerCase() == "p") {
 			lvl = 0;
 			recList[lvl] = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim() + ",,";
@@ -2755,16 +2872,16 @@ function HTMLpage2text (html, url) {
 		} else if (p[i].tagName.toLowerCase() == "li") {
 			var t = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim();
 			var i0 = t.indexOf(" ");
-			t0 = t.substr(0,i0);
-			t1 = t.substr(i0+1);
+			t0 = t.substr(0, i0);
+			t1 = t.substr(i0 + 1);
 			var oppsBid = "--";
 			if (t0.split(",").length > 1) {
 				oppsBid = t0.split(",")[0];
-				t =t0.split(",")[1] + "," + t1;
+				t = t0.split(",")[1] + "," + t1;
 			} else {
 				t = t0 + "," + t1;
 			}
-			t = elimineSpaces(recList[lvl-1].split(",")[0] + recList[lvl-1].split(",")[1] + oppsBid + ",") + t;
+			t = elimineSpaces(recList[lvl - 1].split(",")[0] + recList[lvl - 1].split(",")[1] + oppsBid + ",") + t;
 			recList[lvl] = t;
 			txt = txt + t + "\n";
 		}
@@ -2777,46 +2894,53 @@ function HTMLpage2text (html, url) {
 	return tr.join("\n");
 }
 
-function toggleAlertList(el, expandTree) {
-    function ulLevel(ul) {
-        if (ul.tagName.toLowerCase() != "ul") return -1;
-        try {
-            return parseInt(ul.classList[1].split("-")[2]);
-        } catch {
-            return -1;
-        }
-    }
-    var l = $("p,li");
-    for (let i = 0; i < l.length; i++) {
-        l[i].itemNr = i;
-        l[i].level = ulLevel(l[i].parentNode);
-    }
-    var l0 = el.level;
-    var l1 = l[el.itemNr + 1].level;
-//    if (l0 < 0) return;
-    var treeVisible = $(l[el.itemNr + 1]).is(":visible");
-    for (let i = el.itemNr + 1; i < l.length; i++) {
-        if (l[i].level <= l0) {
-            for (let i = 0; i < l.length - 1; i++) {
-                if ($(l[i]).is(":visible") && $(l[i+1]).is(":hidden")) {
-                    l[i].style.backgroundColor = "yellow";
-                } else {
-                    l[i].style.backgroundColor = "white";
-                }
-            }        
-            return false;
-        }
-        if (treeVisible) {
-            if (l[i].level > l0) {
-                $(l[i]).hide();
-            }
-        } else {
-            if ((l[i].level == l1) || expandTree) {
-                $(l[i]).show();
-            }
-        }
 
-    }
+COLLAPSED_BG_COLOR = "yellow";
+COLLAPSED_TEXT_COLOR = "black";
+
+function toggleAlertList(el, expandTree) {
+	function ulLevel(ul) {
+		if (ul.tagName.toLowerCase() != "ul") return -1;
+		try {
+			return parseInt(ul.classList[1].split("-")[2]);
+		} catch {
+			return -1;
+		}
+	}
+	var l = $("p,li");
+	for (let i = 0; i < l.length; i++) {
+		l[i].itemNr = i;
+		l[i].level = ulLevel(l[i].parentNode);
+	}
+	var l0 = el.level;
+	var l1 = l[el.itemNr + 1].level;
+	//    if (l0 < 0) return;
+	var treeVisible = $(l[el.itemNr + 1]).is(":visible");
+	for (let i = el.itemNr + 1; i < l.length; i++) {
+		if ((l[i].level <= l0) || i == (l.length - 1)) {
+			for (let i = 0; i < l.length - 1; i++) {
+				if ($(l[i]).is(":visible") && $(l[i + 1]).is(":hidden")) {
+					$(l[i]).css("background-color", COLLAPSED_BG_COLOR);
+					$(l[i]).children().css("background-color", COLLAPSED_BG_COLOR);
+					//					l[i].style.color = COLLAPSED_TEXT_COLOR;
+				} else {
+					$(l[i]).css("background-color", "");
+					$(l[i]).children().css("background-color", "");
+				}
+			}
+			return false;
+		}
+		if (treeVisible) {
+			if (l[i].level > l0) {
+				$(l[i]).hide();
+			}
+		} else {
+			if ((l[i].level == l1) || expandTree) {
+				$(l[i]).show();
+			}
+		}
+
+	}
 }
 
 
@@ -2831,14 +2955,14 @@ function replaceSuitSymbolsInRecord(r) {
 
 function replaceSuitSymbols(txt, prefix) {
 	var t = txt;
-	t = t.replace(/♣/g,prefix+"C");
-	t = t.replace(/♧/g,prefix+"C"); // white clubs
-	t = t.replace(/♦/g,prefix+"D");
-	t = t.replace(/♢/g,prefix+"D"); // white diamonds
-	t = t.replace(/♥/g,prefix+"H");
-	t = t.replace(/♡/g,prefix+"H"); // white hearts
-	t = t.replace(/♠/g,prefix+"S");
-	t = t.replace(/♤/g,prefix+"S"); // white spades
-	if (prefix == '') t = t.replace(/NT/g,prefix+"N");
+	t = t.replace(/♣/g, prefix + "C");
+	t = t.replace(/♧/g, prefix + "C"); // white clubs
+	t = t.replace(/♦/g, prefix + "D");
+	t = t.replace(/♢/g, prefix + "D"); // white diamonds
+	t = t.replace(/♥/g, prefix + "H");
+	t = t.replace(/♡/g, prefix + "H"); // white hearts
+	t = t.replace(/♠/g, prefix + "S");
+	t = t.replace(/♤/g, prefix + "S"); // white spades
+	if (prefix == '') t = t.replace(/NT/g, prefix + "N");
 	return t;
 }
