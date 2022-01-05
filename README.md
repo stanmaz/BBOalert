@@ -120,7 +120,7 @@ BBOalert uses the clipboard to import or export data. Using the clipboard instea
 - open the data file using your favorite text editor (see section : 'Data file format')
 - select all text (usually with Ctrl-A keystroke)
 - copy it to the clipboard (usually with Ctrl-C keystroke)
-- select "Import" from the "Data" menu on the blue BBOalert panel
+- select "Paste (New)" from the "Data" menu on the blue BBOalert panel
 
 ## Recommended way of using BBOalert
 
@@ -128,13 +128,13 @@ BBOalert uses the clipboard to import or export data. Using the clipboard instea
 
 - It is recommended to enable 'Confirm Bids' (Account + Settings + Confirm Bids). This will give you the opportunity to verify if the explanation is correct, before sending it to the opponents. The chat part of the long explanation text will be sent automatically.
 
-- Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Import' only if the data has changed or if the cache has been cleared.
+- Data is saved in browser's cache and is recalled automatically at the next session. You should use 'Paste (New)' only if the data has changed or if the cache has been cleared.
 
-- 'Append' button allows you to add code to the previously imported code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.
+- 'Paste (Append)' command allows you to add code to the previously pasted code. This allows splitting data into separate files for openings and development, overcalls, and the keyboard shortcut, as examples.
 
 - <b>Only BBOalert native code can be appended, not BSS data.</b> However, appending BBOalert native data to the previously imported BSS data is allowed.
 
-- With the 'Export New' button you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
+- With the 'Copy New' command you can copy the manual alerts to the clipboard and paste them at the end of your data file. The records imported this way will contain a timestamp and the deal number. You can retrieve from BBO the deals to review the manually alerted calls before committing the changes in your data file. 
 
 - BBOalert was designed initially for BBO in English and then adapted to other languages. If you discover incompatibilies of BBOalert with BBO in your language :
 
@@ -143,25 +143,9 @@ BBOalert uses the clipboard to import or export data. Using the clipboard instea
 
 We use the "You only alert once" principle. All you need to do in the beginning, is to play and alert if necessary. Your explanations will be recorded in the browser's cache and in the clipboard. The next time, when the same situation occurs, your call will be alerted automatically. Because cache is a temporary storage, you should paste the clipboard content from time to time in a text file as backup.
 
-It is more efficient to prepare data in advance with a editor and import this data into BBOalert. It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
+It is more efficient to prepare data in advance with a editor and paste this data into BBOalert. It is needless to code your entire system at once; it is a huge task. In each bidding system there are sequences which almost never occur.
 
-As the program continues to record each manually alerted call for which no explanation has been found in the data file, your data will expand as needed.
-
-I recommend to proceed this way :
-
-- Instead of a simple text editor, create a new file in Google Docs beginning with the keyword BBOalert
-- make this file "Shareable" with write access for your partner and send him the URL link. This guarantees to be always in sync.
-- enter the code for opening bids and frequently used responses without using the advanced features (wildcards, RegEX and options)
-- start playing using this data (remember : select all text + copy to clipboard before using the 'Import')
-- alert your calls by hand if necessary. You can define shortcuts for the frequently used phrases and use them while entering explanations.
-- at the end of the session, press the 'Export' button and paste the clipboard content at the end of the file. Your partner should do it too.
-- review with your partner all newly created alerts and make the necessary corrections in the data file
-
-For very large files Google Docs may become too slow. In such a case collaborative online code editors are preferred like https://cryptpad.fr/code/.
-
-This way, the file is ready for the next session and will contain recently alerted calls.
-
-The best method to learn BBOalert is to create a teaching table and to experiment with data.
+You and your partner should use the same data. The simple but ineffcient method it to edit the data locally and share the file as mail attachment. The best way of sharing data is by using the cloud storage. See the "Web storage support" section for details.
 
 ## Alert button
 
@@ -640,7 +624,7 @@ Notes :
 
 To access the data BBOalert needs a public URL link to the file. For each site the procedure is different.
        
-#### Google Drive
+#### Google Docs
        
 GoogleDocs documents should be used to contain the data. BBOalert recognizes only paragraphs with the 'normal text' attributes. Other document elements (headers, footers etc) are ignored.
 
