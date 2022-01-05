@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 6.5
+Version : 6.6.1.1
 
 For recent changes see actual release notes :
 
@@ -97,12 +97,12 @@ The panels can be selected by clicking the corresponding buttons at the top of t
 
 The "Data" menu contains commands related to the data input/output :
 
-- <b>Import</b> : to read new data from the clipboard
-- <b>Append</b> : to append additional data from the clipboard
+- <b>Paste (New)</b> : to read new data from the clipboard
+- <b>Paste (Append)</b> : to append additional data from the clipboard
 - <b>Clear</b> : to erase all data
-- <b>Export All</b> : write all data to the clipboard
-- <b>Export New</b> : write data related to tha manual alerts  to the clipboard
-- <b>Export Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
+- <b>Copy All</b> : write all data to the clipboard
+- <b>Copy New</b> : write data related to tha manual alerts  to the clipboard
+- <b>Copy Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
 
 The "Settings" menu contains commands to enable/disable features :
 
