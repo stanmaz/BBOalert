@@ -596,7 +596,7 @@ To share the data with your partner via the BBO server :
 
 - make a convention card (Account+Convention Card) using "SAYC - Standard American Yellow Card" or "Simple Modern ACOL" as template
 - open it for editing
-- make is shareable by filling your partner's name
+- make it shareable by filling your partner's name
 - press "Get from BBOalert" to append your data to the text in the "Defensive Carding" text
 - press "Save Changes"
 
