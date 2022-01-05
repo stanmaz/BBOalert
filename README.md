@@ -756,7 +756,7 @@ New feature : Multiline support for chat message shortcuts : \n in the shortcut 
 - manual alerts are recorded in the cache (see 'Recommended way of using BBOalert' section)
 - the whole data is kept in the clipboard until overwritten by 'Export' command or by an external application
 - Alert button turned automatically ON. When turned OFF, the call explanation is erased. (see 'Alert button' section)
-- backslash to split long records  (see 'Continuation line' section)
+- backslash to split long records (see 'Continuation line' section)
 
 If you discover a serious bug in the program :
 
