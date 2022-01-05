@@ -247,7 +247,7 @@ you can write :
 
 #### Long explanation text
 
-If you need more than 69 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first will be used in the explanation field of the bidding box. The second part will be set in the chat box. In the second part <br> code may be used as line break to split the text over multiple lines. The chat message should be sent to the opponents to complete the alert procedure.
+If you need more than 69 characters to explain the alerted call, the solution is to place in the middle of the text the '#' character. It will split the text into two parts : the first part will be used in the explanation field of the bidding box. The second part will be set in the chat box. In the second part <br> code may be used as line break to split the text over multiple lines when it is sent.
 
 Example :
 
@@ -442,9 +442,9 @@ If you choose John as partner the 1NT 12-14 option will be enabled and 15-17 dis
 
 ![](./images/PartnerSelection.png)
 
-If you play with a partner who is not specified with any option, you may choose options manually (first Select All) or select the options of another partner.
+If you play with a partner who is not specified with any option, you may choose options manually (first Options-All) or select the options of another partner.
 
-It is possible to disable all options by chosing 'Select-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option.
+It is possible to disable all options by chosing 'Options-None' from the dropbox. This feature can be used to disable also your entire bidding system if you declare it as an option.
 
 ### Trusted code
 
@@ -522,6 +522,14 @@ https://www.w3schools.com/colors/colors_names.asp
 
 The full list of property names (only a few apply to buttons) :
 https://www.w3schools.com/jsref/dom_obj_style.asp
+
+Shortcut records wiil be also automatically displayed on the "Shortcuts" panel as buttons. The same attributes can be assigned to shortcuts as to buttons.
+
+    Shortcuts,HO,Hallo opps,width=50% backgroundColor=orange
+
+If you do not want a shortcut to appear on the buttons panel you may use the "Display" attribute as in the example :
+
+    Shortcuts,HO,Hallo opps,display=none
 
 ### Alias
 
@@ -669,11 +677,11 @@ Handling a large data file is not easy and subdividing it into smaller linked pi
 
 #### Scripts
 
-Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files in Dropbox and use the public link in the data file as in this example:
+Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files and use the public link in the data file as in this example:
 
     Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/stanmazLib.js
     
-Storing scripts on Github has two advantages :
+Storing scripts on the web has two advantages :
 
 - Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
 - Published scripts can be shared with others       
@@ -729,8 +737,6 @@ CC,directq
 CC,slam
 ...text for “Slam Bidding” section
 CC
-
-
 
 ## Release notes 
 
