@@ -916,7 +916,7 @@ function execUserScript(txt) {
 	return txt1;
 }
 
-
+lastQueryContext = "";
 /**
  * @ignore
  */
@@ -925,6 +925,7 @@ function getAlert() {
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	var alertText = findAlert(getContext(), callText);
+	lastQueryContext = getContext();
 	alertText = execUserScript(alertText);
 	var exp = alertText.split('#');
 	var eventInput = new Event('input');
@@ -957,10 +958,11 @@ function saveAlert() {
 	var explainText = normalize(elAlertExplain.value);
 	if (normalize(getChatMessage()) != '') explainText = explainText + '#' + normalize(getChatMessage());
 	if (explainText == "") return;
-	var alertText = findAlert(getContext(), callText);
+//	var alertText = findAlert(getContext(), callText);
+	var alertText = findAlert(lastQueryContext, callText);
 	if (alertText.indexOf('%') != -1) return;
 	if (explainText != alertText) {
-		var newrec = stripContext(getContext()) + "," + callText + "," + explainText;
+		var newrec = stripContext(lastQueryContext) + "," + callText + "," + explainText;
 		newrec = newrec + "," + getNow() + " Deal " + getDealNumber() + " " + myPartner();
 		addLog('save:[' + getDealNumber() + '|' + areWeVulnerable() + '|' + getSeatNr() + '|' + stripContext(getContext()) + '|' + callText + '|' + explainText + ']');
 		alertTable.push(newrec);
