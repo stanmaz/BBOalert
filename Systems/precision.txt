@@ -1,4 +1,5 @@
-BBOalert
+Error *00{Precision(Forum)}=NYYYYYYSimplified Precison a la Wei. Natural 1!d-opening.Helene-t December 2006 on the basis of BBO-Forum polls
+|,--,Please read chat#Simplified Precison a la Wei. Natural 1!d-opening.Helene-t December 2006 on the basis of BBO-Forum polls
 1C1D,1H,
 1C1D,1N,8-10 or 14-15
 1C1D1N--,2C,Stayman
@@ -14,8 +15,8 @@ BBOalert
 1C1D,2S,
 1C1D,3C,
 1C1D,3D,
-1C1D,Db,Please read chat#Semipositive; any hand that can't penalize !d; or t/o on !d
-1C1D,--,Please read chat#0-5 HCP or semipositive with !d (trap pass)
+1C1D,Db,Semipositive; any hand that can't penalize !d; or t/o on !d
+1C1D,--,0-5 HCP or semipositive with !d (trap pass)
 1C1H,1N,8-10 or 14-15
 1C1H1N--,2C,Stayman
 1C1H1N--,2D,
@@ -30,12 +31,13 @@ BBOalert
 1C1H,2S,
 1C1H,3C,
 1C1H,3D,
-1C1H,Db,Please read chat#Semipositive; any hand that can't penalize !h; or t/o on !h
-1C1H,--,Please read chat#0-5 HCP or semipositive with !h (trap pass)
+1C1H,Db,Semipositive; any hand that can't penalize !h; or t/o on !h
+1C1H,--,0-5 HCP or semipositive with !h (trap pass)
 1C1N,2C,
 1C1N2C--,2D,
 1C1N,2D,
 1C1N,2H,
+1C1N,2N,
 1C1N,2S,
 1C1N,3C,
 1C1N,3D,
@@ -55,8 +57,8 @@ BBOalert
 1C1S,2S,
 1C1S,3C,
 1C1S,3D,
-1C1S,Db,Please read chat#Semipositive; any hand that can't penalize !s; or t/o on !s
-1C1S,--,Please read chat#0-5 HCP or semipositive with !s (trap pass)
+1C1S,Db,Semipositive; any hand that can't penalize !s; or t/o on !s
+1C1S,--,0-5 HCP or semipositive with !s (trap pass)
 1C2C,2D,
 1C2C,2H,
 1C2C,2N,8-10 or 14+
@@ -66,8 +68,8 @@ BBOalert
 1C2C,3H,
 1C2C,3N,11-13
 1C2C,3S,
-1C2C,Db,Please read chat#Semipositive; any hand that can't penalize !c; or t/o on !c
-1C2C,--,Please read chat#0-5 HCP or semipositive with !c (trap pass)
+1C2C,Db,Semipositive; any hand that can't penalize !c; or t/o on !c
+1C2C,--,0-5 HCP or semipositive with !c (trap pass)
 1C2D,2H,
 1C2D,2N,8-10 or 14+
 1C2D,2S,
@@ -76,8 +78,8 @@ BBOalert
 1C2D,3H,
 1C2D,3N,11-13
 1C2D,3S,
-1C2D,Db,Please read chat#Semipositive; any hand that can't penalize !d; or t/o on !d
-1C2D,--,Please read chat#0-5 HCP or semipositive with !d (trap pass)
+1C2D,Db,Semipositive; any hand that can't penalize !d; or t/o on !d
+1C2D,--,0-5 HCP or semipositive with !d (trap pass)
 1C2H,2N,8-10 or 14+
 1C2H,2S,
 1C2H,3C,
@@ -85,28 +87,31 @@ BBOalert
 1C2H,3H,5-5 minors
 1C2H,3N,11-13
 1C2H,3S,
-1C2H,Db,Please read chat#Semipositive; any hand that can't penalize !h; or t/o on !h
-1C2H,--,Please read chat#0-5 HCP or semipositive with !h (trap pass)
+1C2H,Db,Semipositive; any hand that can't penalize !h; or t/o on !h
+1C2H,--,0-5 HCP or semipositive with !h (trap pass)
 1C2S,2N,8-10 or 14+
 1C2S,3C,
 1C2S,3D,
 1C2S,3H,
 1C2S,3N,11-13
 1C2S,3S,
-1C2S,Db,Please read chat#Semipositive; any hand that can't penalize !s; or t/o on !s
-1C2S,--,Please read chat#0-5 HCP or semipositive with !s (trap pass)
+1C2S,Db,Semipositive; any hand that can't penalize !s; or t/o on !s
+1C2S,--,0-5 HCP or semipositive with !s (trap pass)
 1C3C,3D,
 1C3C,3H,
+1C3C,3N,
 1C3C,3S,
-1C3C,Db,Please read chat#Semipositive; any hand that can't penalize !c; or t/o on !c
-1C3C,--,Please read chat#0-5 HCP or semipositive with !c (trap pass)
+1C3C,Db,Semipositive; any hand that can't penalize !c; or t/o on !c
+1C3C,--,0-5 HCP or semipositive with !c (trap pass)
 1C3D,3H,
+1C3D,3N,
 1C3D,3S,
-1C3D,Db,Please read chat#Semipositive; any hand that can't penalize !d; or t/o on !d
-1C3D,--,Please read chat#0-5 HCP or semipositive with !d (trap pass)
+1C3D,Db,Semipositive; any hand that can't penalize !d; or t/o on !d
+1C3D,--,0-5 HCP or semipositive with !d (trap pass)
 ,1C,16+HCP
 1CDb,1D,0-7 HCP or three-suited
 1CDb1D--,1H,16-21 Usually 5+ !hs
+1CDb1D--1H--,1N,
 1CDb1D--1H--,1S,
 1CDb1D--1H--,2C,
 1CDb1D--1H--,2D,
@@ -119,10 +124,12 @@ BBOalert
 1CDb1D--1N--,2C,Stayman
 1CDb1D--1N--,2D,
 1CDb1D--1N--,2H,
+1CDb1D--1N--,2N,
 1CDb1D--1N--,2S,Weak with either minor
 1CDb1D--1N--,3C,
 1CDb1D--1N--,3D,
 1CDb1D--,1S,16-21 HCP. Usually 5+ !ss
+1CDb1D--1S--,1N,
 1CDb1D--1S--,2C,
 1CDb1D--1S--,2D,
 1CDb1D--1S--,2H,
@@ -134,6 +141,7 @@ BBOalert
 1CDb1D--,2C,16-21
 1CDb1D--2C--,2D,
 1CDb1D--2C--,2H,
+1CDb1D--2C--,2N,
 1CDb1D--2C--,2S,
 1CDb1D--2C--,3C,
 1CDb1D--2C--,3D,Three-suited
@@ -164,10 +172,11 @@ BBOalert
 1CDb,2S,
 1CDb,3C,
 1CDb,3D,
-1CDb,--,Please read chat#Negative w/ 3- clubs. Or 3-suited positive; short in clubs
-1CDb,Rd,Please read chat#Negative w/ 4+ clubs. Or 3-suited positive; not short in clubs.
+1CDb,--,Negative w/ 3- clubs. Or 3-suited positive; short in clubs
+1CDb,Rd,Negative w/ 4+ clubs. Or 3-suited positive; not short in clubs.
 1C--,1D,0-7 HCP or three-suited
 1C--1D--,1H,16-21 Usually 5+ !hs
+1C--1D--1H--,1N,
 1C--1D--1H--,1S,
 1C--1D--1H--,2C,
 1C--1D--1H--,2D,
@@ -180,10 +189,12 @@ BBOalert
 1C--1D--1N--,2C,Stayman
 1C--1D--1N--,2D,
 1C--1D--1N--,2H,
+1C--1D--1N--,2N,
 1C--1D--1N--,2S,Weak with either minor
 1C--1D--1N--,3C,
 1C--1D--1N--,3D,
 1C--1D--,1S,16-21 HCP. Usually 5+ !ss
+1C--1D--1S--,1N,
 1C--1D--1S--,2C,
 1C--1D--1S--,2D,
 1C--1D--1S--,2H,
@@ -195,6 +206,7 @@ BBOalert
 1C--1D--,2C,16-21
 1C--1D--2C--,2D,
 1C--1D--2C--,2H,
+1C--1D--2C--,2N,
 1C--1D--2C--,2S,
 1C--1D--2C--,3C,
 1C--1D--2C--,3D,Three-suited
@@ -225,34 +237,44 @@ BBOalert
 1C--,2S,
 1C--,3C,
 1C--,3D,
+1D1H,1N,
 1D1H,1S,
 1D1H,2C,
 1D1H,2D,
+1D1H,2N,
 1D1H,Db,4!s; possibly longer !c if < GF
+1D1S,1N,
 1D1S,2C,
 1D1S,2D,
 1D1S,2H,
+1D1S,2N,
 1D1S,Db,4!h; possibly longer !c if < GF
 1D2C,2D,
 1D2C,2H,
+1D2C,2N,
 1D2C,2S,
 1D2C,3C,!d raise
 1D2C,Db,both majors; possibly long !s if < GF
 ,1D,11-15 HCP; 4+ !d or 4135/1435
 1DDb,1H,
+1DDb,1N,
 1DDb,1S,
 1DDb,2C,
 1DDb,2D,
 1DDb,2H,
+1DDb,2N,
 1DDb,2S,
 1DDb,3C,
 1DDb,3D,
 1DDb,Rd,Penalty-oriented and/or !c and/or !d
 1D--,1H,
+1D--1H--,1N,
 1D--1H--,1S,
+1D--1H--1S--,1N,
 1D--1H--1S--,2C,4th suit
 1D--1H--1S--,2D,
 1D--1H--1S--,2H,
+1D--1H--1S--,2N,
 1D--1H--1S--,2S,Usually four spades
 1D--1H--1S--,3C,
 1D--1H--1S--,3D,Usually four diamonds
@@ -261,14 +283,16 @@ BBOalert
 1D--1H--,2C,!c may be longer than !d
 1D--1H--2C--,2D,
 1D--1H--2C--,2H,
+1D--1H--2C--,2N,
 1D--1H--2C--,2S,4th suit
 1D--1H--2C--,3C,
 1D--1H--2C--,3D,Usually four diamonds
 1D--1H--2C--,3H,
 1D--1H--,2D,
 1D--1H--2D--,2H,
-1D--1H--2D--,2S,Please read chat#Ostensibly natural; maybe NT probe; adv cue for !d or waiting
-1D--1H--2D--,3C,Please read chat#Onstensibly natural; maybe NT probe or adv cue for !d
+1D--1H--2D--,2N,
+1D--1H--2D--,2S,Ostensibly natural; maybe NT probe; adv cue for !d or waiting
+1D--1H--2D--,3C,Onstensibly natural; maybe NT probe or adv cue for !d
 1D--1H--2D--,3D,
 1D--1H--2D--,3H,
 1D--1H--2D--,4D,
@@ -279,13 +303,15 @@ BBOalert
 1D--1H--3D--,3H,
 1D--1H--3D--,3S,Notrump probe or advanced cue
 1D--1H--,3H,
+1D--,1N,
 1D--,1S,
 1D--1S--,1N,1453-shape systematically possible
 1D--1S--,2C,!c may be longer than !d
 1D--1S--,2D,
 1D--1S--2D--,2H,
+1D--1S--2D--,2N,
 1D--1S--2D--,2S,
-1D--1S--2D--,3C,Please read chat#Can be a notrump probe or adv cue for !d
+1D--1S--2D--,3C,Can be a notrump probe or adv cue for !d
 1D--1S--2D--,3D,
 1D--1S--2D--,3H,
 1D--1S--2D--,3S,
@@ -296,22 +322,27 @@ BBOalert
 1D--,2C,
 1D--2C--,2D,Extra length and/or minimum hand
 1D--2C--,2H,
+1D--2C--,2N,
 1D--2C--,2S,
 1D--2C--,3C,
 1D--2C--,3D,
 1D--,2D,
 1D--,2H,
+1D--,2N,
 1D--,2S,
 1D--,3C,
 1D--,3D,
 ,1H,11-15 HCP
+1H--,1N,
 1H--1N--,2C,
 1H--1N--,2D,
 1H--1N--,2H,
 1H--1N--,2S,No further agreements
 1H--1N--,3H,
 1H--,1S,
+1H--1S--,1N,
 1H--1S--1N--,2H,
+1H--1S--1N--,2N,
 1H--1S--1N--,2S,Usually six spades
 1H--1S--1N--,3C,
 1H--1S--1N--,3D,Usually four diamonds
@@ -320,6 +351,7 @@ BBOalert
 1H--1S--,2C,
 1H--1S--2C--,2D,4th suit
 1H--1S--2C--,2H,Possibly false preference
+1H--1S--2C--,2N,
 1H--1S--2C--,2S,
 1H--1S--2C--,3C,
 1H--1S--2C--,3D,
@@ -328,6 +360,7 @@ BBOalert
 1H--1S--2C--,4C,
 1H--1S--,2D,
 1H--1S--2D--,2H,Possibly false preference
+1H--1S--2D--,2N,
 1H--1S--2D--,2S,
 1H--1S--2D--,3C,4th suit
 1H--1S--2D--,3D,
@@ -335,6 +368,7 @@ BBOalert
 1H--1S--2D--,3S,
 1H--1S--2D--,4D,
 1H--1S--,2H,
+1H--1S--2H--,2N,
 1H--1S--2H--,2S,
 1H--1S--2H--,3C,
 1H--1S--2H--,3D,Usually four diamonds
@@ -349,25 +383,29 @@ BBOalert
 1H--,2C,
 1H--2C--,2D,
 1H--2C--,2H,Minimum and/or extra length
+1H--2C--,2N,
 1H--2C--,2S,
 1H--2C--,3C,
 1H--2C--,3D,
 1H--2C--,3H,
 1H--,2D,
 1H--2D--,2H,
+1H--2D--,2N,
 1H--2D--,2S,
 1H--2D--,3C,
 1H--2D--,3D,
 1H--2D--,3H,
 1H--,2H,
+1H--,2N,
 1H--,2S,
 1H--,3C,
 1H--,3D,
 1H--,3H,
+1H--,3N,
 1H--,3S,
 1H--,4C,
 1H--,4D,
-1H--,4H,Please read chat#In principle preemptive but can be quite strong
+1H--,4H,In principle preemptive but can be quite strong
 ,1N,(12+)13-15 HCP
 1NDb,2C,
 1NDb,2D,
@@ -382,14 +420,17 @@ BBOalert
 1N--,2C,Stayman
 1N--,2D,
 1N--,2H,
+1N--,2N,
 1N--,2S,Weak with either minor
 1N--,3C,
 1N--,3D,
 ,1S,11-15 HCP
+1S--,1N,
 1S--,2C,
 1S--2C--,2D,
 1S--2C--2D--,2H,4th suit
 1S--2C--,2H,
+1S--2C--,2N,
 1S--2C--,2S,Extra length and/or minimum
 1S--2C--,3C,
 1S--2C--,3D,
@@ -398,25 +439,31 @@ BBOalert
 1S--2D--,2H,
 1S--2D--,2S,Minimum and/or extra length
 1S--,2H,
+1S--2H--,2N,
 1S--2H--,2S,Minimum and/or extra length
 1S--2H--,3C,
 1S--2H--,3D,
 1S--2H--,3H,
+1S--,2N,
 1S--,2S,
 1S--,3C,Either one-suited or fitbid
 1S--,3D,Either one-suited or fitbid
 1S--,3H,Either one-suited or fitbid
+1S--,3N,
 1S--,3S,
 1S--,4C,
 1S--,4D,
 2C2D,2H,
+2C2D,2N,
 2C2D,2S,
 2C2D,3C,
 2C2D,Db,Negative
+2C2H,2N,
 2C2H,2S,
 2C2H,3C,
 2C2H,3D,
 2C2H,Db,Negative
+2C2S,2N,
 2C2S,3C,
 2C2S,3D,
 2C2S,3H,
@@ -424,9 +471,10 @@ BBOalert
 ,2C,11-15 HCP; 6 !cs or good five + 4M
 2C--,2D,
 2C--2D--,2H,
-2C--2D--2H--,2S,Please read chat#Ostensibly 5!s but can be a notrump probe
+2C--2D--2H--,2N,
+2C--2D--2H--,2S,Ostensibly 5!s but can be a notrump probe
 2C--2D--2H--,3C,Weaker than a direct raise (2NT)
-2C--2D--2H--,3D,Please read chat#Ostensibly natural but can be a notrump probe
+2C--2D--2H--,3D,Ostensibly natural but can be a notrump probe
 2C--2D--2H--,3H,Usually 4+
 2C--2D--,2N,6!c likes to declare in notrump
 2C--2D--2N--,3C,
@@ -434,15 +482,16 @@ BBOalert
 2C--2D--2N--,3H,
 2C--2D--2N--,3S,
 2C--2D--,2S,
+2C--2D--2S--,2N,
 2C--2D--2S--,3C,Weaker than a direct raise (2NT)
-2C--2D--2S--,3D,Please read chat#Ostensibly natural but can be a notrump probe
-2C--2D--2S--,3H,Please read chat#Ostensibly 5!h but can be a notrump probe
+2C--2D--2S--,3D,Ostensibly natural but can be a notrump probe
+2C--2D--2S--,3H,Ostensibly 5!h but can be a notrump probe
 2C--2D--2S--,3S,Usually 4+
-2C--2D--,3C,Please read chat#6!c no maximum; likes partner to declare in notrumps
-2C--2D--3C--,3D,Please read chat#Ostensibly natural but can be a notrump probe
+2C--2D--,3C,6!c no maximum; likes partner to declare in notrumps
+2C--2D--3C--,3D,Ostensibly natural but can be a notrump probe
 2C--2D--3C--,3H,
 2C--2D--3C--,3S,Usually notrump probe
-2C--2D--,3D,Please read chat#6!c maximum; likes partner to declare in notrumps
+2C--2D--,3D,6!c maximum; likes partner to declare in notrumps
 2C--2D--,3H,6!c+4!h; maximum
 2C--2D--,3S,6!c+4!s; maximum
 2C--,2H,
@@ -456,11 +505,12 @@ BBOalert
 2D2S,Db,Penalty
 2D3C,3D,
 2D3C,Db,Penalty
-,2D,Please read chat#11-15 HCP. 4414/4405 or 4315/3415 with weak !cs
+,2D,11-15 HCP. 4414/4405 or 4315/3415 with weak !cs
 2DDb,2H,
 2DDb,--,Diamonds; opener must pass
-2DDb,Rd,Please read chat#Both majors (3+ 3+); no preference; or GF
-2D--,2H,Please read chat#Opener passes with 4 !hs; otherwise rebids 2!s
+2DDb,Rd,Both majors (3+ 3+); no preference; or GF
+2D--,2H,Opener passes with 4 !hs; otherwise rebids 2!s
+2D--,2N,
 2D--2N--,3C,Minimum
 2D--2N--,3D,4414
 2D--2N--3D--,3H,
@@ -483,4 +533,5 @@ BBOalert
 3N--,4C,pass or correct
 3N--,4D,Asks for singleton 
 Option
+
 
