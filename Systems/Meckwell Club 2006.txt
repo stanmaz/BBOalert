@@ -4,7 +4,8 @@ BBOalert
 1N,2H,5+!H
 1N,2N,Good hand. A 5card MAJOR + a minor
 1N,2S,5+!S
-Error *001N=NYYYYYY0Strong NT(15-17HcP)|,1N,Strong NT(15-17HcP)
+Error *001N=NYYYYYY0Strong NT(15-17HcP)
+|,1N,Strong NT(15-17HcP)
 1NDb2C--2D,2H,5+!H + 4+!S
 1NDb2C--2D,2S,5+!S + 4+!H
 1NDb2C--2D,3C,!C + !D
@@ -28,7 +29,8 @@ Error *001N=NYYYYYY0Strong NT(15-17HcP)|,1N,Strong NT(15-17HcP)
 1NDbRd2C--,2S,5+!S + 4+!H
 1NDbRd2C--,3C,5+!C + 4+!D
 2C,2N,2-suiter; !C + !D
-Error *002C=NYYYYYY00819+HcP, SAYC-like|,2C,19+HcP; SAYC-like
+Error *002C=NYYYYYY00819+HcP, SAYC-like
+|,2C,19+HcP; SAYC-like
 2C,Db,2-suiter; !H + !S
 2C--2D,2N,2-suiter; !C + !D
 2C--2D,Db,2-suiter; !H + !S
@@ -40,7 +42,8 @@ Error *002C=NYYYYYY00819+HcP, SAYC-like|,2C,19+HcP; SAYC-like
 2D,3N,Natural; Signoff
 2D,4C,Strong 6+!H
 2D,4D,Strong 6+!S
-Error *002D=NYYYYYY008Preempt|,2D,Preempt
+Error *002D=NYYYYYY008Preempt
+|,2D,Preempt
 2D,Db,Takeout
 2H,2N,!C + !D
 2H,2S,5+!S
@@ -50,7 +53,8 @@ Error *002D=NYYYYYY008Preempt|,2D,Preempt
 2H,3N,Signoff
 2H,4C,Strong hand; !C + !D
 2H,4D,Strong 6+!S
-Error *002H=NYYYYYY008Preempt|,2H,Preempt
+Error *002H=NYYYYYY008Preempt
+|,2H,Preempt
 2HDb3H,3N,No !H Stop; Takeout
 2HDb3H3N--,4C,5+!C
 2HDb3H3N--,4D,5+!D
@@ -132,7 +136,8 @@ Error *002H=NYYYYYY008Preempt|,2H,Preempt
 2S,3S,!H + !C
 2S,4C,Strong + minors
 2S,4D,Strong 6+!H
-Error *002S=NYYYYYY008Preempt|,2S,Preempt
+Error *002S=NYYYYYY008Preempt
+|,2S,Preempt
 2SDb3S,3N,No !S Stop; Takeout
 2SDb3S3N--,4C,5+!C
 2SDb3S3N--,4D,5+!D
@@ -193,7 +198,8 @@ Error *002S=NYYYYYY008Preempt|,2S,Preempt
 3C,4H,6+!H; Signoff
 3C,4N,!D + !H
 3C,4S,6+!S; Signoff
-Error *003C=NYYYYYY008Preempt|,3C,Preempt
+Error *003C=NYYYYYY008Preempt
+|,3C,Preempt
 3C,Db,Takeout
 3D,3H,5+!H
 3D,3N,Signoff
@@ -203,7 +209,8 @@ Error *003C=NYYYYYY008Preempt|,3C,Preempt
 3D,4H,6+!H; Signoff
 3D,4N,!C + !H
 3D,4S,6+!S; Signoff
-Error *003D=NYYYYYY008Preempt|,3D,Preempt
+Error *003D=NYYYYYY008Preempt
+|,3D,Preempt
 3D,Db,Takeout
 3H,3N,Signoff
 3H,3S,5+!S
@@ -212,7 +219,8 @@ Error *003D=NYYYYYY008Preempt|,3D,Preempt
 3H,4H,Michael CUE; Takeout
 3H,4N,!C + !D
 3H,4S,6+!S; Signoff
-Error *003H=NYYYYYY008Preempt|,3H,Preempt
+Error *003H=NYYYYYY008Preempt
+|,3H,Preempt
 3H,Db,Takeout
 3S,3N,Signoff
 3S,4C,5+!C
@@ -220,21 +228,24 @@ Error *003H=NYYYYYY008Preempt|,3H,Preempt
 3S,4H,5+!H
 3S,4N,!C + !D
 3S,4S,Michael CUE; Takeout
-Error *003S=NYYYYYY008Preempt|,3S,Preempt
+Error *003S=NYYYYYY008Preempt
+|,3S,Preempt
 3S,Db,Takeout
 4C,4D,5+!D
 4C,4H,5+!H
 4C,4N,Natural
 4C,4S,5+!S
-Error *004C=NYYYYYY008Preempt|,4C,Preempt
+Error *004C=NYYYYYY008Preempt
+|,4C,Preempt
 4C,Db,Takeout
 4D,4H,5+!H
 4D,4N,Natural
 4D,4S,5+!S
-Error *004D=NYYYYYY008Preempt|,4D,Preempt
+Error *004D=NYYYYYY008Preempt
+|,4D,Preempt
 4D,Db,Takeout
-20,6},Please read chat#------------  GENERAL APPROACH  ---------------- 1!C
-Option,Opening @n@N
+20,6},------------  GENERAL APPROACH  ---------------- 1!C
+Option,Opening_@n@N
 1C1D1H,Db,Sputnik conv. (Neg. double)
 1C1D1S,Db,Sputnik conv. (Neg. double)
 1C1D2C,2N,Lebensohl conv.
@@ -307,7 +318,8 @@ Option,Opening @n@N
 1C4C--,4D,Bid your MAJOR
 1C4C--,4H,Pass/correct
 1C4C--,4S,Pass/correct
-Error *011C=NYYYYYY008None VULN(equal)|,1C,None VULN(equal)
+Error *011C=NYYYYYY008None VULN(equal)
+|,1C,None VULN(equal)
 1C,Db,Sputnik conv. (Negative DBL)
 1C----,1D,4+!D
 1C----1D--,1H,5+!S
@@ -402,7 +414,8 @@ Error *011C=NYYYYYY008None VULN(equal)|,1C,None VULN(equal)
 1D4C--,4D,Bid your MAJOR
 1D4C--,4H,Pass/correct
 1D4C--,4S,Pass/correct
-Error *011D=NYYYYYY008None VULN(equal)|,1D,None VULN(equal)
+Error *011D=NYYYYYY008None VULN(equal)
+|,1D,None VULN(equal)
 1D,Db,Sputnik conv. (Negative DBL)
 1D----,1D,4+!D
 1D----1D--,1H,5+!S
@@ -483,7 +496,8 @@ Error *011D=NYYYYYY008None VULN(equal)|,1D,None VULN(equal)
 1H,3C,5!C + 5!S
 1H,3D,5!D + 5!S
 1H,4H,Strong 6+!S
-Error *011H=NYYYYYY008None VULN(equal)|,1H,None VULN(equal)
+Error *011H=NYYYYYY008None VULN(equal)
+|,1H,None VULN(equal)
 1H,Db,Sputnik conv. (Negative DBL)
 1H----,1D,4+!D
 1H----1D--,1H,5+!S
@@ -562,7 +576,8 @@ Error *011H=NYYYYYY008None VULN(equal)|,1H,None VULN(equal)
 1S,3C,5!C + 5!H
 1S,3D,5!D + 5!H
 1S,4C,Strong 6+!H
-Error *011S=NYYYYYY008None VULN(equal)|,1S,None VULN(equal)
+Error *011S=NYYYYYY008None VULN(equal)
+|,1S,None VULN(equal)
 1S,Db,Sputnik conv. (Negative DBL)
 1S--1N,3C,5!C + 5!H
 1S----,1D,4+!D
@@ -601,7 +616,7 @@ Error *011S=NYYYYYY008None VULN(equal)|,1S,None VULN(equal)
 1S----1S--,2N,Limit; 4!S
 1S----1S--,3H,7-9cP; 4!S
 1S----1S--,3S,Preempt
-Option,Opening @v@N
+Option,Opening_@v@N
 1C1D1H,Db,Sputnik conv. (Neg. double)
 1C1D1S,Db,Sputnik conv. (Neg. double)
 1C1D2C,2N,Lebensohl conv.
@@ -662,7 +677,8 @@ Option,Opening @v@N
 1C4C--,4D,Bid your MAJOR
 1C4C--,4H,Pass/correct
 1C4C--,4S,Pass/correct
-Error *021C=NYYYYYY008We: UNfavorable VULN|,1C,We: UNfavorable VULN
+Error *021C=NYYYYYY008We: UNfavorable VULN
+|,1C,We: UNfavorable VULN
 1C,Db,Sputnik conv. (Negative DBL)
 1C----,1D,4+!D
 1C----1D--,1H,5+!S
@@ -757,7 +773,8 @@ Error *021C=NYYYYYY008We: UNfavorable VULN|,1C,We: UNfavorable VULN
 1D4C--,4D,Bid your MAJOR
 1D4C--,4H,Pass/correct
 1D4C--,4S,Pass/correct
-Error *021D=NYYYYYY008We: UNfavorable VULN|,1D,We: UNfavorable VULN
+Error *021D=NYYYYYY008We: UNfavorable VULN
+|,1D,We: UNfavorable VULN
 1D,Db,Sputnik conv. (Negative DBL)
 1D----,1D,4+!D
 1D----1D--,1H,5+!S
@@ -838,7 +855,8 @@ Error *021D=NYYYYYY008We: UNfavorable VULN|,1D,We: UNfavorable VULN
 1H,3C,5!C + 5!S
 1H,3D,5!D + 5!S
 1H,4H,Strong 6+!S
-Error *021H=NYYYYYY008We: UNfavorable VULN|,1H,We: UNfavorable VULN
+Error *021H=NYYYYYY008We: UNfavorable VULN
+|,1H,We: UNfavorable VULN
 1H,Db,Sputnik conv. (Negative DBL)
 1H----,1D,4+!D
 1H----1D--,1H,5+!S
@@ -917,7 +935,8 @@ Error *021H=NYYYYYY008We: UNfavorable VULN|,1H,We: UNfavorable VULN
 1S,3C,5!C + 5!H
 1S,3D,5!D + 5!H
 1S,4C,Strong 6+!H
-Error *021S=NYYYYYY008We: UNfavorable VULN|,1S,We: UNfavorable VULN
+Error *021S=NYYYYYY008We: UNfavorable VULN
+|,1S,We: UNfavorable VULN
 1S,Db,Sputnik conv. (Negative DBL)
 1S--1N,3C,5!C + 5!H
 1S----,1D,4+!D
@@ -956,7 +975,7 @@ Error *021S=NYYYYYY008We: UNfavorable VULN|,1S,We: UNfavorable VULN
 1S----1S--,2N,Limit; 4!S
 1S----1S--,3H,7-9cP; 4!S
 1S----1S--,3S,Preempt
-Option,Opening @n@V
+Option,Opening_@n@V
 1C1D1H,Db,Sputnik conv. (Neg. double)
 1C1D1S,Db,Sputnik conv. (Neg. double)
 1C1D2C,2N,Lebensohl conv.
@@ -977,7 +996,7 @@ Option,Opening @n@V
 1C1H--,2N,Limit; 4!H
 1C1H--,3D,7-9cP; 4!H
 1C1H--,3H,Preempt
-1C,1N,Please read chat#FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
+1C,1N,FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
 1C1N--,2C,Stayman
 1C1N--2C--,2D,14-18HcP; No MAJOR
 1C1N--2C--,2H,14-18HcP; bal; 4!H
@@ -1013,7 +1032,7 @@ Option,Opening @n@V
 1C1N--,3D,Invite
 1C1N--,3H,GF
 1C1N--,3S,GF
-1C1N--,--,Please read chat#Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
+1C1N--,--,Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
 1C1S2C,2N,Lebensohl
 1C1S2D,2N,Lebensohl
 1C1S2H,2N,Lebensohl
@@ -1042,7 +1061,8 @@ Option,Opening @n@V
 1C4C--,4D,Bid your MAJOR
 1C4C--,4H,Pass/correct
 1C4C--,4S,Pass/correct
-Error *031C=NYYYYYY008We: fav VULN|,1C,We: fav VULN
+Error *031C=NYYYYYY008We: fav VULN
+|,1C,We: fav VULN
 1C,Db,Sputnik conv. (Negative DBL)
 1C----,1D,4+!D
 1C----1D--,1H,5+!S
@@ -1090,7 +1110,7 @@ Error *031C=NYYYYYY008We: fav VULN|,1C,We: fav VULN
 1D1H--,2N,Limit; 4!H
 1D1H--,3D,7-9cP; 4!H
 1D1H--,3H,Preempt
-1D,1N,Please read chat#FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
+1D,1N,FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
 1D1N--,2C,Stayman
 1D1N--2C--,2D,14-18HcP; No MAJOR
 1D1N--2C--,2H,14-18HcP; bal; 4!H
@@ -1126,7 +1146,7 @@ Error *031C=NYYYYYY008We: fav VULN|,1C,We: fav VULN
 1D1N--,3D,Invite
 1D1N--,3H,GF
 1D1N--,3S,GF
-1D1N--,--,Please read chat#Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
+1D1N--,--,Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
 1D1S2C,2N,Lebensohl
 1D1S2D,2N,Lebensohl
 1D1S2H,2N,Lebensohl
@@ -1162,7 +1182,8 @@ Error *031C=NYYYYYY008We: fav VULN|,1C,We: fav VULN
 1D4C--,4D,Bid your MAJOR
 1D4C--,4H,Pass/correct
 1D4C--,4S,Pass/correct
-Error *031D=NYYYYYY008We: fav VULN|,1D,We: fav VULN
+Error *031D=NYYYYYY008We: fav VULN
+|,1D,We: fav VULN
 1D,Db,Sputnik conv. (Negative DBL)
 1D----,1D,4+!D
 1D----1D--,1H,5+!S
@@ -1200,7 +1221,7 @@ Error *031D=NYYYYYY008We: fav VULN|,1D,We: fav VULN
 1D----1S--,2N,Limit; 4!S
 1D----1S--,3H,7-9cP; 4!S
 1D----1S--,3S,Preempt
-1H,1N,Please read chat#FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
+1H,1N,FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
 1H1N--,2C,Stayman
 1H1N--2C--,2D,14-18HcP; No MAJOR
 1H1N--2C--,2H,14-18HcP; bal; 4!H
@@ -1236,7 +1257,7 @@ Error *031D=NYYYYYY008We: fav VULN|,1D,We: fav VULN
 1H1N--,3D,Invite
 1H1N--,3H,GF
 1H1N--,3S,GF
-1H1N--,--,Please read chat#Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
+1H1N--,--,Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
 1H1S2C,2N,Lebensohl
 1H1S2D,2N,Lebensohl
 1H1S2H,2N,Lebensohl
@@ -1268,7 +1289,8 @@ Error *031D=NYYYYYY008We: fav VULN|,1D,We: fav VULN
 1H,3C,5!C + 5!S
 1H,3D,5!D + 5!S
 1H,4H,Strong 6+!S
-Error *031H=NYYYYYY008We: fav VULN|,1H,We: fav VULN
+Error *031H=NYYYYYY008We: fav VULN
+|,1H,We: fav VULN
 1H,Db,Sputnik conv. (Negative DBL)
 1H----,1D,4+!D
 1H----1D--,1H,5+!S
@@ -1306,7 +1328,7 @@ Error *031H=NYYYYYY008We: fav VULN|,1H,We: fav VULN
 1H----1S--,2N,Limit; 4!S
 1H----1S--,3H,7-9cP; 4!S
 1H----1S--,3S,Preempt
-1S,1N,Please read chat#FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
+1S,1N,FAV: 14-18HcP;bal or long weak (Gardner 1NT overcall)
 1S1N--,2C,Stayman
 1S1N--2C--,2D,14-18HcP; No MAJOR
 1S1N--2C--,2H,14-18HcP; bal; 4!H
@@ -1342,7 +1364,7 @@ Error *031H=NYYYYYY008We: fav VULN|,1H,We: fav VULN
 1S1N--,3D,Invite
 1S1N--,3H,GF
 1S1N--,3S,GF
-1S1N--,--,Please read chat#Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
+1S1N--,--,Mistake - 1NT is forcing (Gardner 1NT overcall in favorable VULN) 
 1S2C2D,2N,Lebensohl
 1S2C2H,2N,Lebensohl
 1S2C2S,2N,Lebensohl
@@ -1372,7 +1394,8 @@ Error *031H=NYYYYYY008We: fav VULN|,1H,We: fav VULN
 1S,3C,5!C + 5!H
 1S,3D,5!D + 5!H
 1S,4C,Strong 6+!H
-Error *031S=NYYYYYY008We: fav VULN|,1S,We: fav VULN
+Error *031S=NYYYYYY008We: fav VULN
+|,1S,We: fav VULN
 1S,Db,Sputnik conv. (Negative DBL)
 1S--1N,3C,5!C + 5!H
 1S----,1D,4+!D
@@ -1411,7 +1434,7 @@ Error *031S=NYYYYYY008We: fav VULN|,1S,We: fav VULN
 1S----1S--,2N,Limit; 4!S
 1S----1S--,3H,7-9cP; 4!S
 1S----1S--,3S,Preempt
-Option,Opening @v@V
+Option,Opening_@v@V
 1C1D1H,Db,Sputnik conv. (Neg. double)
 1C1D1S,Db,Sputnik conv. (Neg. double)
 1C1D2C,2N,Lebensohl conv.
@@ -1472,7 +1495,8 @@ Option,Opening @v@V
 1C4C--,4D,Bid your MAJOR
 1C4C--,4H,Pass/correct
 1C4C--,4S,Pass/correct
-Error *041C=NYYYYYY008Both  VULN(equal)|,1C,Both  VULN(equal)
+Error *041C=NYYYYYY008Both  VULN(equal)
+|,1C,Both  VULN(equal)
 1C,Db,Sputnik conv. (Negative DBL)
 1C----,1D,4+!D
 1C----1D--,1H,5+!S
@@ -1567,7 +1591,8 @@ Error *041C=NYYYYYY008Both  VULN(equal)|,1C,Both  VULN(equal)
 1D4C--,4D,Bid your MAJOR
 1D4C--,4H,Pass/correct
 1D4C--,4S,Pass/correct
-Error *041D=NYYYYYY008Both  VULN(equal)|,1D,Both  VULN(equal)
+Error *041D=NYYYYYY008Both  VULN(equal)
+|,1D,Both  VULN(equal)
 1D,Db,Sputnik conv. (Negative DBL)
 1D----,1D,4+!D
 1D----1D--,1H,5+!S
@@ -1648,7 +1673,8 @@ Error *041D=NYYYYYY008Both  VULN(equal)|,1D,Both  VULN(equal)
 1H,3C,5!C + 5!S
 1H,3D,5!D + 5!S
 1H,4H,Strong 6+!S
-Error *041H=NYYYYYY008Both  VULN(equal)|,1H,Both  VULN(equal)
+Error *041H=NYYYYYY008Both  VULN(equal)
+|,1H,Both  VULN(equal)
 1H,Db,Sputnik conv. (Negative DBL)
 1H----,1D,4+!D
 1H----1D--,1H,5+!S
@@ -1727,7 +1753,8 @@ Error *041H=NYYYYYY008Both  VULN(equal)|,1H,Both  VULN(equal)
 1S,3C,5!C + 5!H
 1S,3D,5!D + 5!H
 1S,4C,Strong 6+!H
-Error *041S=NYYYYYY008Both  VULN(equal)|,1S,Both  VULN(equal)
+Error *041S=NYYYYYY008Both  VULN(equal)
+|,1S,Both  VULN(equal)
 1S,Db,Sputnik conv. (Negative DBL)
 1S--1N,3C,5!C + 5!H
 1S----,1D,4+!D
@@ -1771,7 +1798,7 @@ Option
 1C1D,1N,8+HcP; bal + Stop; GF. Natural continue
 1C1D,1S,8+HcP; 5+!S; GF. Natural continue
 1C1D,2C,8+HcP; 5+!C; GF. Natural continue
-1C1D,2D,Please read chat#8+HcP; bal; GF. w/o stop. Natural continue
+1C1D,2D,8+HcP; bal; GF. w/o stop. Natural continue
 1C1D,Db,6-7HcP; ANY. SYS on
 1C1DDb--,1H,*5!H  *4!H+5minor  *3-suit
 1C1DDb--1H--,1N,*0-4HcP; 0-3!H   *5HcP; 0-2!H
@@ -1868,7 +1895,7 @@ Option
 1C1DDb--1N--2N--,3H,5!H
 1C1DDb--1N--2N--,3N,Signoff
 1C1DDb--1N--2N--,3S,5!S
-1C1DDb--1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1DDb--1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1DDb--1N--2SDb,2N,minimum
 1C1DDb--1N--2SDb2N--,3C,6+!C; weak
 1C1DDb--1N--2SDb2N--,3D,6+!H; Invite
@@ -2062,7 +2089,7 @@ Option
 1C1D----1N--2N--,3H,5!H
 1C1D----1N--2N--,3N,Signoff
 1C1D----1N--2N--,3S,5!S
-1C1D----1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1D----1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1D----1N--2SDb,2N,minimum
 1C1D----1N--2SDb2N--,3C,6+!C; weak
 1C1D----1N--2SDb2N--,3D,6+!H; Invite
@@ -2277,7 +2304,7 @@ Option
 1C1H,1S,8+HcP; 5+!S; GF. Natural continue
 1C1H,2C,8+HcP; 5+!C; GF. Natural continue
 1C1H,2D,8+HcP; 5+!D; GF. Natural continue
-1C1H,2H,Please read chat#8+HcP; bal; GF. w/o stop. Natural continue
+1C1H,2H,8+HcP; bal; GF. w/o stop. Natural continue
 1C1H,Db,6-7HcP; ANY. SYS on
 1C1HDb--,1N,17-19HcP; bal
 1C1HDb--1N--,2C,Stayman
@@ -2359,7 +2386,7 @@ Option
 1C1HDb--1N--2N--,3H,5!H
 1C1HDb--1N--2N--,3N,Signoff
 1C1HDb--1N--2N--,3S,5!S
-1C1HDb--1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1HDb--1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1HDb--1N--2SDb,2N,minimum
 1C1HDb--1N--2SDb2N--,3C,6+!C; weak
 1C1HDb--1N--2SDb2N--,3D,6+!H; Invite
@@ -2538,7 +2565,7 @@ Option
 1C1H----1N--2N--,3H,5!H
 1C1H----1N--2N--,3N,Signoff
 1C1H----1N--2N--,3S,5!S
-1C1H----1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1H----1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1H----1N--2SDb,2N,minimum
 1C1H----1N--2SDb2N--,3C,6+!C; weak
 1C1H----1N--2SDb2N--,3D,6+!H; Invite
@@ -2877,7 +2904,7 @@ Option
 1C1S,2C,8+HcP; 5+!C; GF. Natural continue
 1C1S,2D,8+HcP; 5+!D; GF. Natural continue
 1C1S,2H,8+HcP; 5+!H; GF. Natural continue
-1C1S,2S,Please read chat#8+HcP; bal; GF. w/o stop. Natural continue
+1C1S,2S,8+HcP; bal; GF. w/o stop. Natural continue
 1C1S,Db,6-7HcP; ANY. SYS on
 1C1SDb--,1N,17-19HcP; bal
 1C1SDb--1N--,2C,Stayman
@@ -2959,7 +2986,7 @@ Option
 1C1SDb--1N--2N--,3H,5!H
 1C1SDb--1N--2N--,3N,Signoff
 1C1SDb--1N--2N--,3S,5!S
-1C1SDb--1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1SDb--1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1SDb--1N--2SDb,2N,minimum
 1C1SDb--1N--2SDb2N--,3C,6+!C; weak
 1C1SDb--1N--2SDb2N--,3D,6+!H; Invite
@@ -3124,7 +3151,7 @@ Option
 1C1S----1N--2N--,3H,5!H
 1C1S----1N--2N--,3N,Signoff
 1C1S----1N--2N--,3S,5!S
-1C1S----1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C1S----1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C1S----1N--2SDb,2N,minimum
 1C1S----1N--2SDb2N--,3C,6+!C; weak
 1C1S----1N--2SDb2N--,3D,6+!H; Invite
@@ -3490,7 +3517,7 @@ Option
 1CDb1DDb1N--2N--,3H,5!H
 1CDb1DDb1N--2N--,3N,Signoff
 1CDb1DDb1N--2N--,3S,5!S
-1CDb1DDb1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1CDb1DDb1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1CDb1DDb1N--2SDb,2N,minimum
 1CDb1DDb1N--2SDb2N--,3C,6+!C; weak
 1CDb1DDb1N--2SDb2N--,3D,6+!H; Invite
@@ -3679,7 +3706,7 @@ Option
 1CDb1D--1N--2N--,3H,5!H
 1CDb1D--1N--2N--,3N,Signoff
 1CDb1D--1N--2N--,3S,5!S
-1CDb1D--1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1CDb1D--1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1CDb1D--1N--2SDb,2N,minimum
 1CDb1D--1N--2SDb2N--,3C,6+!C; weak
 1CDb1D--1N--2SDb2N--,3D,6+!H; Invite
@@ -4003,7 +4030,7 @@ Option
 1C--1DDb1N--2N--,3H,5!H
 1C--1DDb1N--2N--,3N,Signoff
 1C--1DDb1N--2N--,3S,5!S
-1C--1DDb1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C--1DDb1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C--1DDb1N--2SDb,2N,minimum
 1C--1DDb1N--2SDb2N--,3C,6+!C; weak
 1C--1DDb1N--2SDb2N--,3D,6+!H; Invite
@@ -4192,7 +4219,7 @@ Option
 1C--1D--1N--2N--,3H,5!H
 1C--1D--1N--2N--,3N,Signoff
 1C--1D--1N--2N--,3S,5!S
-1C--1D--1N--,2S,Please read chat#ASK strength. *6+!C;weak *4 MAJ + short MAJOR
+1C--1D--1N--,2S,ASK strength. *6+!C;weak *4 MAJ + short MAJOR
 1C--1D--1N--2SDb,2N,minimum
 1C--1D--1N--2SDb2N--,3C,6+!C; weak
 1C--1D--1N--2SDb2N--,3D,6+!H; Invite
@@ -4412,7 +4439,7 @@ Option
 1C--2D--,3N,Signoff
 1C--2D--,4H,6+!H; Signoff
 1C--2D--,4S,6+!S; Signoff
-1C--,2H,Please read chat#*UPH:14+HcP; bal  *PH:4-6HcP; 5-5 MAJORs
+1C--,2H,*UPH:14+HcP; bal  *PH:4-6HcP; 5-5 MAJORs
 1C--,2N,8+HcP; GF. 3-suiter. 4414; 4441
 1C--2N--,3C,ASK singleton
 1C--2N--3C--,3D,0-1!C. 4-4-4-1
@@ -4470,7 +4497,7 @@ Option
 1C--2N--3C--3H--,4H,Signoff
 1C--2N--3C--3H--,4S,Signoff
 1C--2N--3C--3H--,5C,Signoff
-1C--,2S,Please read chat#8+HcP; GF. 3-suiter. 1444; 4144; 0445; 0454
+1C--,2S,8+HcP; GF. 3-suiter. 1444; 4144; 0445; 0454
 1C--2S--,2N,ASK distrib
 1C--2S--2N--,3C,1-4-4-4
 1C--2S--2N--3C--,3D,CAB
@@ -6038,7 +6065,7 @@ Option
 1D--,4H,7+!H; Signoff
 1D--,4S,7+!S; Signoff
 1D--,--,0-3HcP; ANY
-,2N,Please read chat#ALL      : 19-21HcP; Semi-bal. (5 MAJOR/Stiff honor OK)
+,2N,ALL      : 19-21HcP; Semi-bal. (5 MAJOR/Stiff honor OK)
 2NDb,3C,5card Stayman
 2NDb3C--,3D,No 5card MAJOR
 2NDb3C--3D--,3H,4+!S or 0-3!S
@@ -6284,7 +6311,7 @@ Option
 3H--,4H,Signoff
 3H--,4S,Signoff
 3H--,--,To play
-,3N,Please read chat#ALL      : Good but not solid 7+cd minor
+,3N,ALL      : Good but not solid 7+cd minor
 3N--,4C,Pass/correct
 3N--,4D,ASK short
 3N--4D--,4H,0-1!S
@@ -6376,7 +6403,7 @@ Option
 ,4N,5!C + 5!D
 4N--,5C,Signoff
 4N--,5D,Signoff
-Option,Opening @3
+Option,Opening_@3
 2S2N,3C,6+!C; Round
 2S2N,3D,6+!D; Round
 2S2N,3H,6+!H; Round
@@ -6422,12 +6449,12 @@ Option,Opening @3
 2S--,3S,Invite
 2S--,4H,Signoff
 2S--,4S,Signoff
-Option,Opening @3@n
-,1N,Please read chat#3seat nV: 14-16HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
-Option,Opening @3@v
-,1N,Please read chat#3seat   V: 15-17HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
-Option,Opening @4
-,1N,Please read chat#4seat     : 15-17HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
+Option,Opening_@3@n
+,1N,3seat nV: 14-16HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
+Option,Opening_@3@v
+,1N,3seat   V: 15-17HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
+Option,Opening_@4
+,1N,4seat     : 15-17HcP; bal.  5!H!S/6!C!D or stiff honor acceptable
 2S2N,3C,6+!C; Round
 2S2N,3D,6+!D; Round
 2S2N,3H,6+!H; Round
@@ -6477,7 +6504,7 @@ Option,Opening @4
 2S--,3S,Invite
 2S--,4H,Signoff
 2S--,4S,Signoff
-Option,Opening @1@2
+Option,Opening_@1@2
 1H1N,2C,6-10HcP; 5+!D
 1H1N,2D,6-10HcP; 5+!S
 1H1N,2H,7-11HcP; 3+!H
@@ -6895,7 +6922,7 @@ Option,Opening @1@2
 1H--,4D,3+!H; 0!D
 1H--,4H,Signoff
 1H--,4S,To play
-,1N,Please read chat#1-2seat  : 14-16HcP; bal. 5!H!S/6!C!D or stiff honor acceptable
+,1N,1-2seat  : 14-16HcP; bal. 5!H!S/6!C!D or stiff honor acceptable
 1N--,2C,Stayman
 1N--2C--,2D,No 4 card MAJOR
 1N--2C--2D--,2H,Weak; 4+!H  +  4+!S
@@ -6995,7 +7022,7 @@ Option,Opening @1@2
 1N--2N--,3H,5!H
 1N--2N--,3N,Signoff
 1N--2N--,3S,5!S
-1N--,2S,Please read chat#ASK strength. Maybe weak 6+!C or slam try in !D!H!S
+1N--,2S,ASK strength. Maybe weak 6+!C or slam try in !D!H!S
 1N--2SDb,2N,minimum; 9-10HcP
 1N--2SDb,3C,MAXIMUM; 11-12HcP
 1N--2SDb,--,minimum; 9-10HcP
@@ -7824,7 +7851,7 @@ Option,Opening @1@2
 2H2S,3H,4+!H; NF
 2H2S,Db,Penalty
 2H2S,Rd,0-9!D; 6-7!D. To play
-,2H,Please read chat#1-2seat: 10-15HcP; 3-suiter. 4414; 4405; 4315; 3415
+,2H,1-2seat: 10-15HcP; 3-suiter. 4414; 4405; 4315; 3415
 2HDb,2N,ASK with values
 2HDb2N--3C3D,3N,Signoff
 2HDb2N--3C3D,4C,Trans -> 4!H
@@ -8283,7 +8310,7 @@ Option,Opening @1@2
 2S--,3S,Invite
 2S--,4H,Signoff
 2S--,4S,Signoff
-Option,Opening @3@4
+Option,Opening_@3@4
 1H1N,2C,6-10HcP; 5+!D
 1H1N,2D,6-10HcP; 5+!S
 1H1N,2H,7-11HcP; 3+!H
@@ -9332,7 +9359,7 @@ Option,Opening @3@4
 2D2S,4C,Invite !C
 2D2S,Db,Penalty
 2D2S,Rd,0-9!D; 6-7!D. To play
-,2D,Please read chat#3-4seat: 10-15HcP; 3-suiter. 4414; 4405; 4315; 3415
+,2D,3-4seat: 10-15HcP; 3-suiter. 4414; 4405; 4315; 3415
 2DDb,2N,ASK with values
 2DDb2N--3C3D,3N,Signoff
 2DDb2N--3C3D,4C,Trans -> 4!H
@@ -9777,4 +9804,5 @@ Option,Opening @3@4
 2H--,4H,Signoff
 2H--,--,To play
 Option
+
 
