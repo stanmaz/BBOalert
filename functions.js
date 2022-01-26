@@ -1029,15 +1029,11 @@ function sendChat() {
  * send chat message programatically
  */
 function sendAlertChat() {
-	cr = document.querySelectorAll('.chatRowClass');
-	if (cr.length == 0) return;
-	cb = cr[0].querySelector('.sendButtonClass');
-	if (cb == null) return;
-	if (!isVisible(cb)) return;
 	var elMessage = getChatInput();
 	if (elMessage == null) return;
+	cb = getChatSendButton(elMessage);
+	if (cb == null) return;
 	var msgList = replaceSuitSymbols(getChatMessage(), "!").split("<br>");
-	console.log(msgList);
 	var eventInput = new Event('input');
 	for (let i = 0; i < msgList.length; i++) {
 		elMessage.value = msgList[i];
@@ -2751,10 +2747,9 @@ function getChatSendButton(inp) {
 	if (cr.length == 0) return null;
 	for (var i = 0; i < cr.length; i++) {
 		if (cr[i].contains(inp)) {
-			var sb = cr[i].querySelector(".sendButtonClass");
-			if (typeof (sb) != "object") return null;
-			if (sb.tagName.toLowerCase() != "button") return null;
-			return sb;
+			var sb = cr[i].querySelectorAll("button");
+			if (sb.length < 2) return null;
+			return sb[1];
 		}
 	}
 }
