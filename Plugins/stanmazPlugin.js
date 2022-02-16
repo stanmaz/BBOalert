@@ -282,10 +282,13 @@
     var largeBoxStyleText = `
     #navDiv .auctionBoxClass {
         top: 0px !important;
-        height: 40% !important;
+        height: 33% !important;
+    }
+    #navDiv .scrollerClass {
+        height: 100% !important;
     }
     #navDiv .biddingBoxClass {
-        top: 40% !important;
+        top: 34% !important;
         left: 0px !important;
         height: 45% !important;
         width: 100% !important;
