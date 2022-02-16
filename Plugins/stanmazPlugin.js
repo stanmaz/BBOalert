@@ -484,7 +484,7 @@
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
-        if (on && (confirmBids() == "Y")) {
+        if (on && (confirmBidsSet() == "Y")) {
             if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
         } else {
             $("#swap-bidding-buttons-style").remove();
