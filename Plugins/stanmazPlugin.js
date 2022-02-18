@@ -236,6 +236,7 @@
     cfg.Modified_OK_button = false;
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
+    cfg.Disable_alerts_with_casual_partner = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
