@@ -509,6 +509,7 @@
         });        
     };
     disableAlertsWithCasualPartner = function (on) {
+        console.log("on = " + on);
         if (on) {
             if (myPartner() == '') return;
             var i = searchOptionsSelector(myPartner() + '+' + whoAmI());
@@ -538,7 +539,7 @@
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
     });
-    addBBOalertEvent("onNewAuction", function () {
+    addBBOalertEvent("onNewDeal", function () {
         disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
     });
 })();
