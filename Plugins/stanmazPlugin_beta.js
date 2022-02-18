@@ -1,8 +1,13 @@
-//BBOalert,stanmazPlugin version 1.0
+
+
+
+
+
+    //BBOalert,stanmazPlugin version 1.0
 
 // The script for BBO event logging
 (function () {
-    var title = "BBO event logging"
+    var title = "BBO event logging";
     var cfg = {};
     cfg.Enable_Log_Now = false;
     cfg.Enable_Log_at_Next_Deal = false;
@@ -204,7 +209,7 @@
             $(".biddingBoxClass span:contains('♠')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("background-color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')").css("color", "")
+            $(".auctionBoxCellClass:contains('Rdbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Rdbl')").css("background-color", "");
         }
     }
@@ -227,7 +232,7 @@
 })();
 
 (function () {
-    var title = "Miscelanous simple scripts";
+    var title = "Miscellaneous simple scripts";
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
     cfg.Move_table_left = false;
@@ -236,6 +241,7 @@
     cfg.Modified_OK_button = false;
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
+    cfg.Disable_alerts_with_casual_partner = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -282,10 +288,13 @@
     var largeBoxStyleText = `
     #navDiv .auctionBoxClass {
         top: 0px !important;
-        height: 40% !important;
+        height: 33% !important;
+    }
+    #navDiv .scrollerClass {
+        height: 100% !important;
     }
     #navDiv .biddingBoxClass {
-        top: 40% !important;
+        top: 34% !important;
         left: 0px !important;
         height: 45% !important;
         width: 100% !important;
@@ -481,7 +490,7 @@
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
-        if (on) {
+        if (on && (confirmBidsSet() == "Y")) {
             if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
         } else {
             $("#swap-bidding-buttons-style").remove();
@@ -499,6 +508,24 @@
             }
         });        
     };
+    disableAlertsWithCasualPartner = function (on) {
+        if (on) {
+            if (myPartner() == '') return;
+            var i = searchOptionsSelector(myPartner() + '+' + whoAmI());
+            if (i == -1) {
+                i = searchOptionsSelector(whoAmI() + '+' + myPartner());
+                if (i == -1) {
+                    i = searchOptionsSelector(myPartner());
+                }
+            }
+            if (i != -1) return;
+            i = 2;
+            var optionsSelector = document.getElementById('bboalert-ds');
+            if (optionsSelector.selectedIndex == i) return;
+            optionsSelector.selectedIndex = i;
+            optionsSelectorChanged();
+        }
+    };
     addBBOalertEvent("onDataLoad", function () {
         autoChatToOpponents();
     });
@@ -510,5 +537,8 @@
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
+    });
+    addBBOalertEvent("onNewAuction", function () {
+        disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
     });
 })();
