@@ -509,8 +509,8 @@
         });        
     };
     disableAlertsWithCasualPartner = function (on) {
-        console.log("on = " + on);
         if (on) {
+            if (myDirection() == '') return;
             if (myPartner() == '') return;
             var i = searchOptionsSelector(myPartner() + '+' + whoAmI());
             if (i == -1) {
