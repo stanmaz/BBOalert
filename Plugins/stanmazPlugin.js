@@ -1,8 +1,13 @@
-//BBOalert,stanmazPlugin version 1.0
+
+
+
+
+
+    //BBOalert,stanmazPlugin version 1.0
 
 // The script for BBO event logging
 (function () {
-    var title = "BBO event logging"
+    var title = "BBO event logging";
     var cfg = {};
     cfg.Enable_Log_Now = false;
     cfg.Enable_Log_at_Next_Deal = false;
@@ -204,7 +209,7 @@
             $(".biddingBoxClass span:contains('♠')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Dbl')").css("background-color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')").css("color", "")
+            $(".auctionBoxCellClass:contains('Rdbl')").css("color", "");
             $(".auctionBoxCellClass:contains('Rdbl')").css("background-color", "");
         }
     }
@@ -503,6 +508,25 @@
             }
         });        
     };
+    disableAlertsWithCasualPartner = function (on) {
+        if (on) {
+            if (myDirection() == '') return;
+            if (myPartner() == '') return;
+            var i = searchOptionsSelector(myPartner() + '+' + whoAmI());
+            if (i == -1) {
+                i = searchOptionsSelector(whoAmI() + '+' + myPartner());
+                if (i == -1) {
+                    i = searchOptionsSelector(myPartner());
+                }
+            }
+            if (i != -1) return;
+            i = 2;
+            var optionsSelector = document.getElementById('bboalert-ds');
+            if (optionsSelector.selectedIndex == i) return;
+            optionsSelector.selectedIndex = i;
+            optionsSelectorChanged();
+        }
+    };
     addBBOalertEvent("onDataLoad", function () {
         autoChatToOpponents();
     });
@@ -514,5 +538,8 @@
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
+    });
+    addBBOalertEvent("onNewDeal", function () {
+        disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
     });
 })();
