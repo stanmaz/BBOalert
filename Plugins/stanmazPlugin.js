@@ -257,7 +257,7 @@
         ci.forEach(function (cx) {
             if (cx.textContent.match(/^[0-2][0-9][:][0-6][0-9]/) == null) {
                 var cs = cx.querySelector("span");
-                cs.textContent = hh + ':' + mn + ' ' + cx.textContent;
+                cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
             }
         });
     });
