@@ -254,8 +254,12 @@
         if (hh.length == 1) hh = '0' + hh;
         var mn = now.getMinutes().toString();
         if (mn.length == 1) mn = '0' + mn;
-        cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
-        lastChatMessage = ci[ci.length - 1].textContent;
+        ci.forEach(function (cx) {
+            if (cx.textContent.match(/^[0-2][0-9][:][0-6][0-9]/) == null) {
+                var cs = cx.querySelector("span");
+                cs.textContent = hh + ':' + mn + ' ' + cx.textContent;
+            }
+        });
     });
     var moveTableLeftStyleText = `
     #navDiv .dealViewerToolbarClass {
