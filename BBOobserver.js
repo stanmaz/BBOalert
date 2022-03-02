@@ -57,6 +57,7 @@ function initGlobals() {
     notificationDisplayed = false;
     notificationText = '';
     lastChatMessage = '';
+    lastUserExplanation = '';
     recordNewAlerts = true;
     // Release notes : stable version
     srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub";
@@ -248,6 +249,12 @@ function onBiddingBoxDisplayed() {
             toggleButtons(this);
         };
     }
+    lastUserExplanation = '';
+    if (elAlertExplain.oninput == null) {
+        elAlertExplain.oninput = function () {
+            lastUserExplanation = elAlertExplain.value;
+        };
+    }
     elAlertExplain.onkeyup = inputOnKeyup;
     //    elAlertExplain.onfocus = inputOnFocus;
     getExplainInput().setAttribute("maxlength", "69");
@@ -433,6 +440,7 @@ function onCallExplanationPanelDisplayed() {
 }
 
 function onMyCardsDisplayed() {
+    lastUserExplanation = '';
     BBOalertEvents().dispatchEvent(E_onMyCardsDisplayed);
     execUserScript('%onMyCardsDisplayed%');
 }

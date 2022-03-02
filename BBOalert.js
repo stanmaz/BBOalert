@@ -926,8 +926,10 @@ function getAlert() {
 	if (elAlertExplain == null) return;
 	var alertText = findAlert(getContext(), callText);
 	lastQueryContext = getContext();
+	lastQueryCall = callText;
 	alertText = execUserScript(alertText);
 	var exp = alertText.split('#');
+	lastQueryExplanation = normalize(exp[0]);
 	var eventInput = new Event('input');
 	if (elAlertExplain.value.trim() == '') {
 		elAlertExplain.value = exp[0];
@@ -951,18 +953,12 @@ function getAlert() {
  * @ignore
  */
 function saveAlert() {
+	var explainText = normalize(lastUserExplanation);
+	lastUserExplanation = "";
 	if (!recordNewAlerts) return;
-	var elAlertExplain = getExplainInput();
-	if (elAlertExplain == null) return;
-	//	var explainText = elimine2Spaces(elAlertExplain.value).trim();
-	var explainText = normalize(elAlertExplain.value);
-	if (normalize(getChatMessage()) != '') explainText = explainText + '#' + normalize(getChatMessage());
 	if (explainText == "") return;
-//	var alertText = findAlert(getContext(), callText);
-	var alertText = findAlert(lastQueryContext, callText);
-	if (alertText.indexOf('%') != -1) return;
-	if (explainText != alertText) {
-		var newrec = stripContext(lastQueryContext) + "," + callText + "," + explainText;
+	if (explainText != lastQueryExplanation) {
+		var newrec = stripContext(lastQueryContext) + "," + lastQueryCall + "," + explainText;
 		newrec = newrec + "," + getNow() + " Deal " + getDealNumber() + " " + myPartner();
 		addLog('save:[' + getDealNumber() + '|' + areWeVulnerable() + '|' + getSeatNr() + '|' + stripContext(getContext()) + '|' + callText + '|' + explainText + ']');
 		alertTable.push(newrec);

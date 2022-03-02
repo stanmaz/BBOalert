@@ -1020,7 +1020,9 @@ function getVisibleMessageInput() {
 function sendChat() {
 	cr = document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return;
-	cb = cr[0].querySelector('.sendButtonClass');
+	var elMessage = getChatInput();
+	if (elMessage == null) return;
+	cb = getChatSendButton(elMessage);
 	if (cb == null) return;
 	if (!isVisible(cb)) return;
 	cb.click();
