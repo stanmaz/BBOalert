@@ -1,1 +1,776 @@
-cccc
+BBOalert,Avocado Club 9
+
+Option,Opening_@n
+Option,Opening_@v
+Option,Strong_notrump_overcall
+Option,Weak_notrump_overcall,Israusa+theScoop9
+Option,Gambling_3N
+Option,Namyats,Israusa+theScoop9
+Option,DONT
+Option,Modified_Cappelletti,Israusa+theScoop9
+Option,Rosencrantz,bschmidt+theScoop9,bschmidt+Joe_Old,theScoop9+Joe_Old
+Option,Drury,bschmidt+Joe_Old
+Option,Non-Drury,?????+theScoop9,??????+Israusa
+
+Option,Opening_@n
+,1D,2+ !ds; 10-15 hcp
+1D--1[HS]--,1N,13-15; balanced
+1D--1N--,2N,15 hcp; balanced
+,1N,10-12; balanced
+Option,Opening_@v
+,1D,2+ !ds; 10-14 hcp
+1D--1[HS]--,1N,10-12; balanced
+,1N,13-15; balanced
+Option,Strong_notrump_overcall
+1[CDHS],1N,16-19; balanced or semi-balanced
+Option,Weak_notrump_overcall
+1[CDHS],1N,12-15; balanced or semi-balanced
+Option,Gambling_3N
+,3N,solid minor; not much outside
+3N--,4C,pass or correct
+Option,Namyats
+,3N,weak w/one minor; asks partner to bid 4!c
+3N--,4C,forced
+,4C,7+ !hs; usually 8+; stronger than 4!h
+,4D,7+ !ss; usually 8+; stronger than 4!s
+,4H,natural; weaker than 4C !h preempt
+,4S,natural; weaker than 4D !s preempt
+Option,DONT
+(1N|1N----),2C,!cs + another suit
++,2D,!ds + one major
++,2H,both majors
++,Db,unspecified one-suiter
+(1N2C--|1N2CDb|1N----2C--|1N----2CDb),2D,pass or correct
+(1N2D--|1N2DDb|1N----2D--|1N----2DDb),2H,pass or correct
+1N2C2[HS],Db,please bid your 2nd suit
+1NDb2[CHDS],Db,please bid your suit
+Option,Modified_Cappelletti
+(1N|1N----),Db,penalty-oriented
++,2C,one minor OR major-minor 2-suiter
++,2D,both majors
+(1NDb--|1N----Db--),2C,Stayman
++,2D,->!hs
++,2H,->!ss
++,2S,6+ !cs; any strength
++,2N,6+ !ds; any strength
++,3C,5+/5+ minors; weak
++,3D,5+/5+ minors; invitational
++,3H,5+/5+ majors; invitational
++,3S,5+/5+ majors; intended as forcing
+Option,Rosencrantz
+1C1DDb,Rd,!d raise with a top honor
+1C1D1H,Db,!d raise with a top honor
+1C1D1S,Db,!d raise with a top honor
+1C1D1N,Db,!d raise with a top honor
+1C1D2C,Db,!d raise with a top honor
+(1[CD]1HDb|1C--1D1HDb),Rd,!h raise with a top honor
+(1[CD]1H1S|1C--1D1H1S),Db,!h raise with a top honor
+1[CD]1H1N,Db,!h raise with a top honor
+1C--1D1H1N,Db,penalty
+(1[CD]1H2C|1C--1D1H2C),Db,!h raise with a top honor
+(1[CD]1H2D|1C--1D1H2D),Db,!h raise with a top honor
+(1[CDH]1SDb|1[CD]--1[DH]1SDb),Rd,!s raise with a top honor
+1[CDH]1S1N,Db,!s raise with a top honor
+1[CD]--1[DH]1S1N,Db,penalty
+(1[CDH]1S2C|1[CD]--1[DH]1S2C),Db,!s raise with a top honor
+(1[CDH]1S2D|1[CD]--1[DH]1S2D),Db,!s raise with a top honor
+(1[CDH]1S2H|1[CD]--1[DH]1S2H),Db,!s raise with a top honor
+Option,Drury
+(----1H--|------1H--|1C--1D--1H--),2C,3-cd !h raise; 7-9 hcp
++,2D,4-cd !h raise; 7-9 hcp
+(----1S--|------1S--|1C--1D--1S--),2C,3-cd !s raise; 7-9 hcp
++,2D,4-cd !s raise; 7-9 hcp
+1H--,3C,4+ !h raise; 7-12 hcp
++,3D,3-cd !h raise; 11-13 hcp; no good side
+(----1[HS]--|------1[HS]--),3C,6+ !cs; 6-9 hcp
+1C--1D--1[HS]--,3C,7+ !cs; 4-8 hcp
+(----1[HS]--|------1[HS]--),3D,6+ !ds; 6-9 hcp
+1C--1D--1[HS]--,3D,7+ !ds; 4-8 hcp
+1S--,3C,4+ !s raise; 7-12 hcp
++,3D,3-cd !s raise; 11-13 hcp; no good side
+Option,Non-Drury
+1[HS]--,2C,4+ !cs; usually 5+; forcing but not GF
+1[HS]--,2D,5+ !ds; forcing but not GF
+1H--,3C,4+ !h raise; 7-12 hcp
++,3D,3-cd !h raise; 11-13 hcp; no good side
+(----1H--|------1H--),3C,4+ !h raise; 7-9 hcp 
++,3D,3-cd !h raise; exactly 9 hcp; no good side
+1C--1D--1H--,3C,4+ !h raise; 5-8 hcp
+1S--,3C,4+ !s raise; 7-12 hcp
++,3D,3-cd !s raise; 11-13 hcp; no good side
+(----1S--|------1S--),3C,4+ !s raise; 7-9 hcp
++,3D,3-cd !s raise; exactly 9 hcp; no good side
+1C--1D--1S--,3C,4+ !s raise; 5-8 hcp
++,3D,3-cd !s raise; 7-8 hcp; no good side
+Option
+
+(1N--|1C--1D--1N--|1[CDHS]1N--),2C,Stayman
++,2D,->!hs
++,2H,->!ss
++,2S,6+ !cs; any strength
++,2N,6+ !ds; any strength
++,3C,5+/5+ minors; weak
++,3D,5+/5+ minors; invitational
++,3H,5+/5+ majors; invitational
+(1N--|1[CD]1N--),3S,5+/5+ majors; forcing
+1C--1D--1N--,3S,5+/5+ majors; intended as forcing
+(1N--2C--2D--|1C--1D--1N--2C--2D--|1[CD]1N--2C--2D--),2H,5-cd !hs; 4- or 5-cd !ss; weak
++,2S,5-cd !ss; 4-cd !hs; signoff
++,2N,invite; might not have a 4-cd major
++,3H,5-cd !ss; 4-cd !hs; forcing
++,3S,5-cd !hs; 4-cd !ss; forcing
+(1N--2C--2H--|1C--1D--1N--2C--2H--|1[CD]1N--2C--2H--),2N,less than 4-cd !ss; invitational
++,2S,exactly 4-cd !ss; invitational
++,3S,agrees !hs; shows slam interest
+(1N--2C--2S--|1C--1D--1N--2C--2S--|1[CD]1N--2C--2S--),2N,invitational; might not have 4-cd !hs
++,3H,agrees !ss; shows slam interest
+(1N--2D--2H--|1C--1D--1N--2D--2H--|1[DS]1N--2D--2H--),3C,natural; invitational; 1-rd force
+(1N--2D--2H--|1C--1D--1N--2D--2H--|1[CS]1N--2D--2H--),3D,natural; invitational; 1-rd force
+(1N--2H--2S--|1C--1D--1N--2H--2S--|1[DH]1N--2H--2S--),3C,natural; invitational; 1-rd force
+(1N--2H--2S--|1C--1D--1N--2H--2S--|1[CH]1N--2H--2S--),3D,natural; invitational; 1-rd force
+(1N--2S--|1C--1D--1N--2S--|1[DHS]1N--2S--),2N,Qxx or better in !cs
++,3C,less than Qxx in !cs
+(1N--2N--|1C--1D--1N--2N--|1[CHS]1N--2N--),3C,Qxx or better in !ds
++,3D,less than Qxx in !ds
+
+(1N2[CDHS]|1C--1D--1N2[CDHS]|1[CDHS]1N2[CDHS]),2N,forces 3!c; various hand types
+(1N2[CDHS]2N--|1C--1D--1N2[CDHS]2N--|1[CDHS]1N2[CDHS]2N--),3C,forced
+(1N2C|1C--1D--1N2C|1[CDHS]1N2C),Db,Stayman
++,2D,natural; non-forcing
++,2H,natural; non-forcing
++,2S,natural; non-forcing
++,3C,Stayman with no !c stopper
++,3D,natural; forcing
++,3H,5+ !hs; forcing
++,3S,5+ !ss; forcing
++,3N,denies !c stopper
+(1N2D|1C--1D--1N2D|1[CDHS]1N2D),Db,penalties
++,2H,natural; non-forcing
++,2S,natural; non-forcing
++,3C,natural; forcing
++,3D,Stayman with no !d stopper
++,3H,5+ !hs; forcing
++,3S,5+ !ss; forcing
++,3N,denies !d stopper
+(1N2H|1C--1D--1N2H|1[CDHS]1N2H),Db,penalties
++,2S,natural; non-forcing
++,3C,6+ !cs; forcing
++,3D,6+ !ds; forcing
++,3H,Stayman with no !h stopper
++,3S,5+ !ss; forcing
++,3N,denies !h stopper
+(1N2S|1C--1D--1N2S|1[CDHS]1N2S),Db,penalties
++,3C,6+ !cs; forcing
++,3D,6+ !ds; forcing
++,3H,5+ !hs; forcing
++,3S,Stayman with no !s stopper
++,3N,denies !s stopper
+(1N2C2N--3C--|1C--1D--1N2C2N--3C--|1[CHS]1N2C2N--3C--),3D,6+ !ds; invitational
++,3H,5+ !hs; invitational
++,3S,5+ !ss; invitational
++,3N,promises !c stopper
+(1N2D2N--3C--|1C--1D--1N2D2N--3C--|1[DHS]1N2D2N--3C--),3C,5+ !cs; signoff
++,3D,Stayman with !d stopper
++,3H,5+ !hs; invitational
++,3S,5+ !ss; invitational
++,3N,promises !d stopper
+(1N2H2N--3C--|1C--1D--1N2H2N--3C--|1[DHS]1N2H2N--3C--),3C,5+ !cs; signoff
++,3D,5+ !ds; signoff
++,3H,Stayman with !h stopper
++,3S,5+ !ss; invitational
++,3N,promises !h stopper
+(1N2S2N--3C--|1C--1D--1N2S2N--3C--|1[DHS]1N2S2N--3C--),3C,5+ !cs; signoff
++,3D,5+ !ds; signoff
++,3H,5+ !hs; non-forcing
++,3S,Stayman with !s stopper
++,3N,promises !s stopper
+
+(1NDb|1C--1D__1NDb|1[CDHS]1NDb),--,-> Rdbl; good hand or !cs&!hs or !ds&!s
++,2C,both minors
++,2D,!ds and !hs
++,2H,both majors
++,2S, !ss and !cs
++,Rd,one-suited hand; asks p to bid 2!c
+(1NDb----|1C--1D__1NDb----|1[CDHS]1NDb----),Rd,forced
+(1NDb----Rd--|1C--1D__1NDb----Rd--|1[DS]1NDb----Rd--),2C,!cs and !hs
++,2D,!ds & !ss
++,2H,4+ !cs and 5+ !hs
++,2S,4+ !ds and 5+ !ss
+(1NDbRd--|1C--1D__1NDbRd--|1[CDHS]1NDbRd--),2C,forced
+
+,2N,21-22; balanced
+(2N--|1C--1D--2N--|1C--1DDb2N--|1C--2N--|2D--2H--2N--),3C,Stayman
++,3D,->!hs
++,3H,->!ss
++,3S,relay to 3N; slam try w/1 or bth minors
++,4D,->!hs
++,4H,->!ss
+(2N--3C--|1C--1D--2N--3C--|1C--2N--3C--|2D--2H--2N--3C--),3D,one or both 4-cd majors
++,3H,5-cd !hs
++,3S,5-cd !ss
++,3N,no 4- or 5-cd major
+(2N--3C--3D--|1C--1D--2N--3C--3D--|1C--2N--3C--3D--|2D--2H--2N--3C--3D--),3H,4-cd !ss
++,3S,4-cd !hs
++,4D,both 4-cd majors
+(2N--3S--|1C--1D--2N--3S--|1C--2N--3S--|2D--2H--2N--3S--),3N,forced
+(2N--3S--3N--|1C--1D--2N--3S--3N--|1C--2N--3S--3N--|2D--2H--2N--3S--3N--),4C,slam try with 6+ !cs
++,4D,slam try with 6+ !ds
++,4H,both minors; longer !cs than !ds
++,4S,both minors; longer !ds than !cs
++,4N,both minors; equal length
+
+,1C,artificial; 15+ hcp
+1C--,1D,artificial; any 0-8 hcp or bad bal 9
+1C--,1H,5+ !hs; 9+ hcp; GF
+----1C--,1H,5+ !hs; exactly 9 hcp
+------1C--,1H,5+ !hs; exactly 9 hcp
+1C--,1S,5+ !ss; 9+ hcp; GF
+----1C--,1S,5+ !ss; exactly 9 hcp
+------1C--,1S,5+ !ss; exactly 9 hcp
+1C--,1N,9+ to 12 balanced
+----1C--,1N,exactly good 9 hcp; balanced
+------1C--,1N,exactly good 9 hcp; balanced
+1C--,2C,5+ !cs; 9+ hcp; GF
+----1C--,2C,5+ !cs; exactly 9 hcp
+------1C--,2C,5+ !cs; exactly 9 hcp
+1C--,2D,5+ !ds; 9+ hcp; GF
+----1C--,2D,5+ !ds; exactly 9 hcp
+------1C--,2D,5+ !ds; exactly 9 hcp
+1C--,2H,decent 6-cd !h suit; 5-8 hcp
+1C--,2S,decent 6-cd !s suit; 5-8 hcp
+1C--2[HS]--,2N,artificial; asks for feature
+1C--,2N,13-15 balanced
+1C--,3C,4-4-4-1 (short !cs); 9+ hcp; GF
+----1C--,3C,4-4-4-1 (short !cs); exactly 9 hcp
+------1C--,3C,4-4-4-1 (short !cs); exactly 9 hcp
+1C--,3D,4-4-1-4 (short !ds); 9+ hcp; GF
+----1C--,3D,4-4-1-4 (short !ds); exactly 9 hcp
+------1C--,3D,4-4-1-4 (short !ds); exactly 9 hcp
+1C--,3H,4-1-4-4 (short !hs); 9+ hcp; GF
+----1C--,3H,4-1-4-4 (short !hs); exactly 9 hcp
+------1C--,3H,4-1-4-4 (short !hs); exactly 9 hcp
+1C--,3S,1-4-4-4 (short !ss); 9+ hcp; GF
+----1C--,3S,1-4-4-4 (short !ss); exactly 9 hcp
+------1C--,3S,1-4-4-4 (short !ss); exactly 9 hcp
+1C--,3N,16+ balanced
+1C--1D--,1H,4+ !hs
++,1S,usually 5+ !ss
++,1N,16-18 balanced
++,2C,5+ !cs
++,2D,5+ !ds
++,2H,5+ !hs; GF
+1C--1D--2H--,3C,artificial; very bad hand
+1C--1D--,2S,5+ !ss; GF
+1C--1D--2S--,3C,artificial; very bad hand
+(1C--1D--|1C--1DDb),2N,19-20; balanced
+1C--1D--,3C,6+ !cs; GF
+1C--1D--3C--,3D,artificial; very bad hand
+1C--1D--,3D,6+ !ds; GF
+
+1C--1H--,1S,5+ !ss; asks !s support & no of cntrls
+1C--1H--1S--,1N,less than Qxx in !ss; 0 to 3 cntrls
++,2C,less than Qxx in !ss; 4 or more cntrls
++,2D,Qxx or better in !ss; 0 to 3 cntrls
++,2H,3-cd !ss with a top honor; 4+ cntrls
++,2S,Jxxx or better in !ss; 4 or more cntrls
+1C--1H--,2C,5+ !cs; asks !c support & no of cntrls
+1C--1H--2C--,2D,less than Qxx in !cs; 0 to 3 cntrls
++,2H,less than Qxx in !cs; 4 or more cntrls
++,2S,Qxx or better in !cs; 0 to 3 cntrls
++,2N,3-cd !cs with a top honor; 4+ cntrls
++,3C,Jxxx or better in !cs; 4 or more cntrls
+1C--1H--,2D,5+ !ds; asks !d support & no of cntrls
+1C--1H--2D--,2H,less than Qxx in !ds; 0 to 3 cntrls
++,2S,less than Qxx in !ds; 4 or more cntrls
++,2N,Qxx or better in !ds; 0 to 3 cntrls
++,3C,3-cd !ds with a top honor; 4+ cntrls
++,3D,Jxxx or better in !ds; 4 or more cntrls
+1C--1H--,2H,3+ !hs; asks !h quality
+1C--1H--2H--,2S,no top !hs
++,2N,exactly 5-cd !hs with one top honor
++,3C,exactly 5-cd !hs with 2 top honors
++,3D,6+ !hs with one top honor
++,3H,6+ !hs with 2 top honors
++,3S,5+ !hs headed by AKQ
+1C--1S--,2C,5+ !cs; asks !c support & no of cntrls
+1C--1S--2C--,2D,less than Qxx in !cs; 0 to 3 cntrls
++,2H,less than Qxx in !cs; 4 or more cntrls
++,2S,Qxx or better in !cs; 0 to 3 cntrls
++,2N,3-cd !cs with a top honor; 4+ cntrls
++,3C,Jxxx or better in !cs; 4 or more cntrls
+1C--1S--,2D,5+ !ds; asks !d support & no of cntrls
+1C--1S--2D--,2H,less than Qxx in !ds; 0 to 3 cntrls
++,2S,less than Qxx in !ds; 4 or more cntrls
++,2N,Qxx or better in !ds; 0 to 3 cntrls
++,3C,3-cd !ds with a top honor; 4+ cntrls
++,3D,Jxxx or better in !ds; 4 or more cntrls
+1C--1S--,2H,5+ !hs; asks !h support & no of cntrls
+1C--1S--2H--,2S,less than Qxx in !hs; 0 to 3 cntrls
++,2N,less than Qxx in !hs; 4 or more cntrls
++,3C,Qxx or better in !hs; 0 to 3 cntrls
++,3D,3-cd !hs with a top honor; 4+ cntrls
++,3H,Jxxx or better in !hs; 4 or more cntrls
+1C--1S--,2S,3+ !ss; asks !s quality
+1C--1S--2S--,2N,no top !ss
++,3C,exactly 5-cd !ss with one top honor
++,3D,exactly 5-cd !ss with 2 top honors
++,3H,6+ !ss with one top honor
++,3S,6+ !ss with 2 top honors
++,3N,5+ !ss headed by AKQ
+1C--1N--,2C,Stayman
+1C--1N--,2D,5+ !ds; asks !d support & no of cntrls
+1C--1N--2D--,2H,less than Qxx in !ds; 0 to 3 cntrls
++,2S,less than Qxx in !ds; 4 or more cntrls
++,2N,Qxx or better in !ds; 0 to 3 cntrls
++,3C,3-cd !ds with a top honor; 4+ cntrls
++,3D,Jxxx or better in !ds; 4 or more cntrls
+1C--1N--,2H,5+ !hs; asks !h support & no of cntrls
+1C--1N--2H--,2S,less than Qxx in !hs; 0 to 3 cntrls
++,2N,less than Qxx in !hs; 4 or more cntrls
++,3C,Qxx or better in !hs; 0 to 3 cntrls
++,3D,3-cd !hs with a top honor; 4+ cntrls
++,3H,Jxxx or better in !hs; 4 or more cntrls
+1C--1N--,2S,5+ !ss; asks !s support & no of cntrls
+1C--1N--2S--,2N,less than Qxx in !ss; 0 to 3 cntrls
++,3C,less than Qxx in !ss; 4 or more cntrls
++,3D,Qxx or better in !ss; 0 to 3 cntrls
++,3H,3-cd !ss with a top honor; 4+ cntrls
++,3S,Jxxx or better in !ss; 4 or more cntrls
+1C--1N--,2N,both minors (at least 5-5)
+1C--1N--,3C,5+ !cs; asks !c support & no of cntrls
+1C--1N--3C--,3D,less than Qxx in !cs; 0 to 3 cntrls
++,3H,less than Qxx in !cs; 4 or more cntrls
++,3S,Qxx or better in !cs; 0 to 3 cntrls
++,3N,3-cd !cs with a top honor; 4+ cntrls
++,4C,Jxxx or better in !cs; 4 or more cntrls
+1C--2C--,2D,5+ !ds; asks !d support & no of cntrls
+1C--2C--2D--,2H,less than Qxx in !ds; 0 to 3 cntrls
++,2S,less than Qxx in !ds; 4 or more cntrls
++,2N,Qxx or better in !ds; 0 to 3 cntrls
++,3C,3-cd !ds with a top honor; 4+ cntrls
++,3D,Jxxx or better in !ds; 4 or more cntrls
+1C--2C--,2H,5+ !hs; asks !h support & no of cntrls
+1C--2C--2H--,2S,less than Qxx in !hs; 0 to 3 cntrls
++,2N,less than Qxx in !hs; 4 or more cntrls
++,3C,Qxx or better in !hs; 0 to 3 cntrls
++,3D,3-cd !hs with a top honor; 4+ cntrls
++,3H,Jxxx or better in !hs; 4 or more cntrls
+1C--2C--,2S,5+ !ss; asks !s support & no of cntrls
+1C--2C--2S--,2N,less than Qxx in !ss; 0 to 3 cntrls
++,3C,less than Qxx in !ss; 4 or more cntrls
++,3D,Qxx or better in !ss; 0 to 3 cntrls
++,3H,3-cd !ss with a top honor; 4+ cntrls
++,3S,Jxxx or better in !ss; 4 or more cntrls
+1C--2C--,3C,3+ !cs; asks !c quality
+1C--2C--3C--,3D,no top !cs
++,3H,exactly 5-cd !cs with one top honor
++,3S,exactly 5-cd !cs with 2 top honors
++,3N,6+ !cs with one top honor
++,4C,6+ !cs with 2 top honors
++,4D,5+ !cs headed by AKQ
+1C--2D--,2H,5+ !hs; asks !h support & no of cntrls
+1C--2D--2H--,2S,less than Qxx in !hs; 0 to 3 cntrls
++,2N,less than Qxx in !hs; 4 or more cntrls
++,3C,Qxx or better in !hs; 0 to 3 cntrls
++,3D,3-cd !hs with a top honor; 4+ cntrls
++,3H,Jxxx or better in !hs; 4 or more cntrls
+1C--2D--,2S,5+ !ss; asks !s support & no of cntrls
+1C--2D--2S--,2N,less than Qxx in !ss; 0 to 3 cntrls
++,3C,less than Qxx in !ss; 4 or more cntrls
++,3D,Qxx or better in !ss; 0 to 3 cntrls
++,3H,3-cd !ss with a top honor; 4+ cntrls
++,3S,Jxxx or better in !ss; 4 or more cntrls
+1C--2D--,3C,5+ !cs; asks !c support & no of cntrls
+1C--2D--3C--,3D,less than Qxx in !cs; 0 to 3 cntrls
++,3H,less than Qxx in !cs; 4 or more cntrls
++,3S,Qxx or better in !cs; 0 to 3 cntrls
++,3N,3-cd !cs with a top honor; 4+ cntrls
++,4C,Jxxx or better in !cs; 4 or more cntrls
+1C--2D--,3D,3+ !ds; asks !d quality
+1C--2D--3D--,3H,no top !ds
++,3S,exactly 5-cd !ds with one top honor
++,3N,exactly 5-cd !ds with 2 top honors
++,4C,6+ !ds with one top honor
++,4D,6+ !ds with 2 top honors
++,4H,5+ !ds headed by AKQ
+
+1CDb,1D,5+ !ds; 5-8 hcp
++,1H,5+ !hs; 5-8 hcp
++,1S,5+ !ss; 5-8 hcp
++,1N,6-8 balanced
++,2C,5+ !cs; 5-8 hcp
++,2D,good 6+ cd !ds; 9+ hcp
++,2H,good 6+ cd !hs; 9+ hcp
++,2S,good 6+ cd !ss; 9+ hcp
++,2N,9-11 balanced
++,3C,good 6+ cd !cs; 9+ hcp
++,Rd,9+ hcp; any distribution; GF
+1C1D,Db,5-8 with 4+/4+ majors OR 9+ any distrib
++,1H,5+ !hs; 5-8 hcp
++,1S,5+ !ss; 5-8 hcp
++,1N,6-8 balanced with partial+ !d stopper
++,2C,5+ !cs; 5-8 hcp
++,2D,9+ hcp balanced; no !d stopper; GF
++,2H,good 6+ cd !hs; 9+ hcp; GF
++,2S,good 6+ cd !ss; 9+ hcp; GF
++,2N,9-11 balanced with !d stopper
++,3C,good 6+ cd !cs; 9+ hcp; GF
+1C1[DHS]1N--,2C,Stayman
+1C1H,Db,5-8 with 4-cd !ss OR 9+ any distrib
++,1S,5+ !ss; 5-8 hcp
++,1N,6-8 balanced with partial+ !h stopper
++,2C,5+ !cs; 5-8 hcp
++,2D,5+ !ds; 5-8 hcp
++,2H,9+ hcp balanced; no !h stopper; GF
++,2S,good 6+ cd !ss; 9+ hcp; GF
++,2N,9-11 balanced with !h stopper
++,3C,good 6+ cd !cs; 9+ hcp; GF
++,3D,good 6+ cd !ds; 9+ hcp; GF
+1C1S,Db,5-8 with 4-cd !hs OR 9+ any distrib
++,1N,6-8 balanced with partial+ !s stopper
++,2C,5+ !cs; 5-8 hcp
++,2D,5+ !ds; 5-8 hcp
++,2H,5+ !hs; 5-8 hcp
++,2S,9+ hcp balanced; no !s stopper; GF
++,2N,9-11 balanced with !s stopper
++,3C,good 6+ cd !cs; 9+ hcp; GF
++,3D,good 6+ cd !ds; 9+ hcp; GF
++,3H,good 6+ cd !hs; 9+ hcp; GF
+
+(1CDb1N--|1C1[CDHS]1N--),2C,Stayman
+
+1C1N,Db,5-8 with 4+/4+ majors OR 9+ any distrib
++,2C,both majors plus !c stopper; 9+ hcp; GF
++,2D,both majors plus !d stopper; 9+ hcp; GF
++,2H,5+ !hs; 5-8 hcp
++,2S,5+ !ss; 5-8 hcp
++,2N,7-9 balanced
++,3H,good 6+ cd !hs; 9+ hcp; GF
++,3S,good 6+ cd !ss; 9+ hcp; GF
+1C2C,Db,5-8 with 4+/4+ majors OR 9+ any distrib
++,2D,5+ !ds; 5-8 hcp
++,2H,5+ !hs; 5-8 hcp
++,2S,5+ !ss; 5-8 hcp
++,2N,7-9 balanced with !c stopper
++,3C,9+ balanced; no !c stopper; GF
++,3D,good 6+ cd !ds; 9+ hcp; GF
++,3H,good 6+ cd !hs; 9+ hcp; GF
++,3S,good 6+ cd !ss; 9+ hcp; GF
+1C2D,Db,5-8 with 4+/4+ majors OR 9+ any distrib
++,2H,5+ !hs; 5-8 hcp
++,2S,5+ !ss; 5-8 hcp
++,2N,7-9 balanced with !d stopper
++,3C,5+ !cs; 5-8 hcp
++,3D,9+ balanced; no !d stopper; GF
++,3H,good 6+ cd !hs; 9+ hcp; GF
++,3S,good 6+ cd !ss; 9+ hcp; GF
+1C2H,Db,5-8 with 4-cd !ss OR 9+ any distrib
++,2S,5+ !ss; 5-8 hcp
++,2N,7-9 balanced with !h stopper
++,3C,5+ !cs; 5-8 hcp
++,3D,5+ !ds; 5-8 hcp
++,3H,9+ hcp balanced; no !h stopper; GF
++,3S,good 6+ cd !ss; 9+ hcp; GF
++,3N,10-12 balanced with !h stopper
++,4C,good 6+ cd !cs; 9+ hcp; GF
++,4D,good 6+ cd !ds; 9+ hcp; GF
+1C2S,Db,6-8 with 4-cd !hs OR 9+ any distrib
++,2N,7-9 balanced with !s stopper
++,3C,5+ !cs; 5-8 hcp
++,3D,5+ !ds; 5-8 hcp
++,3H,5+ !hs; 5-8 hcp
++,3S,9+ hcp balanced; no !s stopper; GF
++,3N,10-12 balanced with !s stopper
++,4C,good 6+ cd !cs; 9+ hcp; GF
++,4D,good 6+ cd !ds; 9+ hcp; GF
+
+1D--1[HS]--1N--,2C,checkback
++,3C,6+ !cs; 0-10 hcp
+1D--1H--,1S,4-cd !ss and 4+ !ds
+1D--1H--1S--,2C,artificial GF
+1D--1H--1S--,3C,6+ !cs; weak
+1D--1[HS]--,2C,4+ !ds; !cs may be longer than !ds
+1D--1H--2C--,2S,artificial GF
+1D--1S--2D--,2H,natural; non-forcing
+1D--,1N,0-11 hcp
+----1D--,1N,0-9 hcp
+1D--,2C,4+ !cs; usually 5+; forcing but not GF
+1D--2C--,2D,6+ !ds
+1D--2C--,2H,!h stopper; no !s stopper
+1D--2C--,2N,both majors stopped; 10-12 hcp
+1D--2C--,2S,!s stopper; no !h stopper
+1D--2C--,3C,4+ cd !c support
+1D--2C--,3D,solid suit
+1D--,2D,5+ !ds; forcing
+1D--2D--,2H,!h stopper; no !s stopper
+1D--2D--,2N,both majors stopped; 10-12 hcp
+1D--2D--,2S,!s stopper; no !h stopper
+1D--2D--,3C,4+ !ds; !cs may be longer than !ds
+1D--,2H,5+ !hs; GF
+1D--,2N,12-13 balanced
+1D--,2S,5+ !ss; GF
+1D--,3C,6+ !cs; 0-10 hcp
+1D--,3D,5+ !ds; usually 6+; 0-10 hcp
+
+1D__1HDb,Rd,3-cd !h support
+1D__1H__,Db,3-cd !h support
+1D__1SDb,Rd,3-cd !s support
+1D__1S__,Db,3-cd !s support
+1D----Db,Rd,SOS
+
+,1H,5+ !hs; 10-14 hcp
+1H--,1S,5+ !ss
++,2N,4+ !h raise; Jacoby
++,2S,6+ !ss; GF
++,3H,4+ !h raise; 0-6 hcp
++,3S,4+ !h raise; 1 or no !ss
++,4C,4+ !h raise; 1 or no !cs
++,4D,4+ !h raise; 1 or no !ds
++,4H,can be preemptive or strong
+1H--1S--2C--,2D,artificial GF
+1H--1S--2D--,3C,artificial GF
+1H--2C--2D--,2S,artificial GF
+1H--3C--,3D,artificial; asks min or max
+1H--,1N,forcing; could have 4-cd !ss
+1[HS]--2N--,3C,1 or no !cs
++,3D,1 or no !ds
++,4C,good 5+ !cs
++,4D,good 5+ !ds
+1H--2N--,3H,no shortness; maximum slam interest
++,3S,1 or no !ss
++,3N,no shortness; intermediate slam interest
++,4H,no shortness; minimum slam interest
+1H1S,3C,natural; weak
++,3D,natural; weak
++,3H,weak
++,3S,4+ !h raise; 1 or no !ss
++,4C,natural; weak
++,4D,natural; weak
++,4H,can be preemptive or strong
+1H2[CDH],4H,can be preemptive or strong
+1H2C,3D,natural; weak
++,3H,weak
++,3S,good 7+ !ss with nothing outside
++,4C,4+ !h raise; 1 or no !cs
++,4D,natural; weak
+1H2D,3H,weak
++,3S,good 7+ !ss with nothing outside
++,4C,natural; weak
++,4D,4+ !h raise; 1 or no !ds
+
+(1HDb|1SDb),2N,3-cd !h raise; 11-13 hcp
+1HDb,3C,4+ !h raise; 7-10 hcp
++,3D,4+ !h raise; 10-12 hcp
+1SDb,3C,4+ !s raise; 7-10 hcp
++,3D,4+ !s raise; 10-12 hcp
+
+,1S,5+ !ss; 10-14 hcp
+1S--,1N,forcing
++,2H,5+ !hs; forcing but not GF
++,2N,4+ !s raise; Jacoby
++,3H,6+ !hs; GF
++,3S,4+ !s raise; 0-6 hcp
++,4C,4+ !s raise; 1 or no !cs
++,4D,4+ !s raise; 1 or no !ds
++,4H,4+ !s raise; 1 or no !hs
++,4S,can be preemptive or strong
+1S--2C--2D--,2H,artificial GF
+1S--2C--2H--,3D,artificial GF
+1S--2D--2H--,3C,artificial GF
+1S--3C--,3D,artificial; asks min or max
+1S--2N--,3H,1 or no !h
++,3S,no shortness; maximum slam interest
++,3N,no shortness; intermediate slam interest
++,4S,no shortness; minimum slam interest
+1S2[CDH],4S,can be preemptive or strong
+1S2C,3D,natural; weak
++,3H,natural; weak
++,3S,weak
++,4C,4+ !s raise; 1 or no !cs
++,4D,natural; weak
+1S2D,3H,natural; weak
++,3S,weak
++,4C,natural; weak
++,4D,4+ !s raise; 1 or no !ds
++,4H,natural signoff
+1S2H,3S,weak
++,4C,natural; weak
++,4D,natural; weak
++,4H,4+ !s raise; 1 or no !hs
+
+1N--2CDb,--,no !c stop; says nothing about majors
+1N--2CDb,Rd,suggestion to play 2C redoubled
++,2D,no 4-cd major; with !c stopper
++,2H,4-cd !hs; with !c stopper
++,2S,4-cd !ss; with !c stopper
+1N--2CDb----,Rd,repeat Stayman
+1N--2CDb----Rd--,2D,4-cd !hs; less than 4-cd !ss
++,2H,4-cd !ss; less than 4-cd !hs
++,2S,no 4-card major
++,2N,both 4-card majors; minimum hcp
++,3C,both 4-card majors; maximum hcp
+
+,2C,5+ !cs; 10-14 hcp; may have 4-cd  major
+2C--,2D,artificial; 11+ hcp; asks for major
+2C--2D--2H--,2S,5+ !ss; invitational
++,3C,signoff
++,3D,natural; forcing
++,3H,invitational
+2C--2D--,2N,6+ !cs; 10-12 hcp; bad !c suit
+2C--2D--2N--,3C,signoff
++,3D,natural; forcing
++,3H,5+ !hs; invitational
++,3S,5+ !ss; invitational
+2C--2D--2S--,3C,signoff
++,3D,natural; forcing
++,3H,5+ !hs; invitational
++,3S,invitational
+2C--2D--,3C,6+ !cs; 13-14 hcp OR good !cs; not both
+2C--2D--3C--,3D,natural; forcing
+2C--2D--3C--,3H,5+ !hs; invitational
+2C--2D--3C--,3S,5+ !ss; invitational
+2C--2D--,3D,good 6+ !cs; 13-14 hcp; !d stopper
+2C--2D--,3H,good 6+ !cs; 13-14; !h stop; no !d stop
+2C--2D--,3S,good 6+ !cs; 13-14; only nt stop in !ss
+2C--,2H,5+ !hs; non-force; p runs w/1 or 0 !hs
+2C--,2N,12-13 hcp
+2C--,2S,5+ !ss; non-force; p runs w/1 or 0 !ss
+2C--,3C,preemptive
+2C--,3D,6+ !ds; invitational
+2C--,3H,5+ !hs; GF
+2C--,3S,5+ !ss; GF
+2C--,4D,RKC 1430 for !cs
+2C__,Db,negative
+
+,2D,23+ bal or strong 3-suiter (3-4 LTC)
+2D--,2H,forced response
+2D--2H--,2N,23-24; balanced
++,2S,3-suiter; short !cs; no 5 maj; 3/4 LTC
++,3C,3-suiter; short !ds; no 5 maj; 3/4 LTC
++,3D,3-suiter; short !hs; 4-cd !ss; 3/4 LTC
++,3H,3-suiter; short !ss; 4-cd !hs; 3/4 LTC
++,3S,27+; balanced
++,3N,25-26; balanced
+2D--2H--3S--,3N,signoff
+(2D--2H--3S--|2D--2H--3N--),4C,Baron (bid 4-cd suits up the line)
++,4D,->!hs
++,4H,->!ss
++,4S,relay to 4N; slam try w/1 or bth minors
+(2D--2H--3S--4S--|2D--2H--3N--4S--),4N,forced
+(2D--2H--3S--4S--4N--|2D--2H--3N--4S--4N--),5C,slam try with 6+ !cs
++,5D,slam try with 6+ !ds
++,5H,both minors; longer !cs than !ds
++,5S,both minors; longer !ds than !cs
++,5N,both minors; equal length
+
+,2H,4-cd !ss; 5 !hs OR 4-4-1-4; 10-14 hcp
+2H--,2S,signoff
++,3C,6+ !cs; invites 3N
++,3D,6+ !ds; invites 3N
++,3H,invitational
++,3S,invitational
+2H--,2N,artificial; asks min/max and distrib
+2H--2N--,3C,10-12; confirms 5-cd !hs
++,3D,4-4-1-4 or 4-4-0-5 (short !ds)
++,3H,4-5-1-3 (singleton !d); 13-14 hcp
++,3N,4-5-2-2; 13-14 hcp
++,4C,4-5-0-4 (!d void); 13-14 hcp
++,4D,4-5-4-0 (!c void); 13-14 hcp
++,3S,4-5-3-1 (singleton !c); 13-14 hcp
+2H--2N--3C--,3D,artificial; asks distribution
+2H--2N--3C--3D--,3H,4-5-1-3 (singleton !d)
++,3S,4-5-3-1 (singleton !c)
++,3N,4-5-2-2
++,4C,4-5-0-4 (!d void)
++,4D,4-5-4-0 (!c void)
+
+,2S,good suit; 5-9 hcp
+2S--,2N,asks for feature
+2S--,3S,preemptive
+
+1C--1H--2H--3C--3D--,3S,3rd-round !d control
+1S--2N--3N--4N--,5H,2 key-cards for !ss; no !sQ
+2C--2D--2S--4N--,5H,2 key-cards for !ss; no !sQ
+1C--1H--2H--2N--,3C,asks about !c controls
+1C--1H--2H--2N--3C--3S--,4C,asks type of !c control
+1C--1H--1S--2C--2H--,2S,no top hearts (A; K; or Q)
+1C--3N--,4D,->!hs
+1S--2N--3N--4N--,5C,1 key card,20200716_20:17 Deal 8
+1S--2H--,4D,4-cd !hs; max; !d shortness,20200726_17:06 Deal 12
+1S--,2H,natural, 1-rd force, not GF,20200726_17:44 Deal 18
+1C--2C--3CDb,3S,6+ !cs; to 2 of top 3,20200805_19:38 Deal 2
+1C2S3H--,4S,RKC in !hs,20200812_16:06 Deal 2
+1C2S3H--4S--4N--,5C,asking for !h Q,20200812_16:07 Deal 2
+1N2CDb,2D,pass or correct,20200812_17:01 Deal 11
+1SDb,2N,3-cd limit raise,20200819_17:04 Deal 12
+1C--2C--3C--3S--4D--,4N,2nd round !d control,20200827_18:22 Deal 6
+1D1H1N2S,3C,4+ !ds; !cs may be longer,20200827_18:28 Deal 7
+1C--1S--2D--2N--,3C,asks about !c controls,20200902_16:04 Deal 1
+1C--1S--2D--2N--3C--3D--,3S,asks about !s controls,20200902_16:05 Deal 1
+1N2C--,2H,insisting on !hs,20200902_17:01 Deal 11
+1C--1H--2H--3H--,3S,asks about !s controls,20200907_17:57 Deal 18
+
+1S2SDb,2N,asks which minor,20200924_17:04 Deal 11
+1D2D,2H,good hand with !cs,20200926_16:41 Deal 7
+1C--2D--2H--2N--3D--,3N,5-cd !ds to 2 of the top 3 honors,20201015_22:58 Deal 16
+1C--2D--2H--2N--3D--3N--4C--,5C,AK or AQ in !cs,20201015_22:59 Deal 16
+1C--1S--2S--3D--,3H,asks about !h controls,20201031_16:53 Deal 9
+1C--1S--2S--3D--3H--4D--,5C,asks about !c controls,20201031_16:54 Deal 9
+1C--2C--2S--3S--,4D,asks about !d controls,20201107_19:37 Deal 2
+1C--2C--2S--3S--4D--5C--,5H,asks about !h controls,20201107_19:38 Deal 2
+1H--2C--3C--4D--,4N,3 key-cards for !cs; no !cQ,20201121_19:43 Deal 5
+1C--1D--3D--3S--4N--5D--,5H,asking about !sQ,20201129_16:04 Deal 1
+
+2H2S--4N--5C--,5D,Q ask,20201220_17:53 Deal 2
+3D----Db--3H--4D--4N--5C--5D--,5H,no !hQ,20201220_21:58 Deal 6
+
+Options,Manual Alert
+1C--1H--2H--3C--,3D,asks about !d controls,20210213_20:43 Deal 5
+1C--1H--2H--3C--3D--4C--,4S,asks about !s controls,20210213_20:44 Deal 5
+1C--1H--2H--3H--3SDb,--,3rd-round !s control,20210218_18:07 Deal 4
+2S2N--,3D,->!hs,20210219_22:13 Deal 10
+1C--1N--2C--2H--,3S,agrees !hs; slam interest,20210220_19:09 Deal 14
+1C--1S2D2H--,2S,less than Qxx in !hs; 0-3 cntrls,20210220_19:22 Deal 16
+1C--1H--2H--2N--3C--,3S,2nd-round !c control,20210323_20:45 Deal 8
+1C--1H--2H--2N--3C--3S--4D--,4N,2nd-round !d control,20210323_20:46 Deal 8
+1C--1D--1N--2CDb,2D,no 4-cd major AND a !c stopper,20210325_20:40 Deal 6
+1N3C,Db,negative (asks for major),20210325_21:54 Deal 18
+1C--1D--1S--,4C,splinter raise of !ss,20210412_15:17 Deal 3
+1C1SDb--3N--,4D,natural; forcing,20210506_20:21 Deal 4
+1C--1S--2S--3D--4C--,4S,2nd-round control of !cs,20210508_21:00 Deal 11
+1C--1H1S2H--,3C,exactly 5-card !hs to 2 top honors,20210524_15:31 Deal 6 thescoop9
+1C--1H1S2H--3C--3D--,4C,1st-round !d control,20210524_15:31 Deal 6 thescoop9
+1C--1H1S2H--3C--3D--4C--4D--,4S,!dA,20210524_15:33 Deal 6 thescoop9
+1C--1H1S2H--3C--3D--4C--4D--4S--5C--,5D,no !c control,20210524_15:33 Deal 6 thescoop9
+1C--1NDb2S--,3C,less than Qxx in !ss; 4+ controls (A = 2; K = 1),20210527_20:16 Deal 3 thescoop9
+1S2H,2N,natural; invitational,20210527_21:40 Deal 16
+1C--1S--2S--3C--3H--,4C,2nd-round !h control,20210530_19:43 Deal 7 thescoop9
+1D--1HDb,1S,4 !ss and 4+ !ds,20210530_19:55 Deal 9 thescoop9
+1C--1H--2H--2N--3D--,4D,!dAK or !dAQ,20210604_16:08 Deal 11 thescoop9
+1C--1H--2H--2N--3D--4D--4S--,5C,3rd-round !s control,20210604_16:10 Deal 11 thescoop9
+2H----2N--,3H,->!ss,20210614_15:19 Deal 4 thescoop9
+1C--1S--2D--3C--,3H,asks about !h control,20210627_18:30 Deal 10 thescoop9
+1C--1S--2D--3C--3H--4C--,4H,asks type of !h control,20210627_18:31 Deal 10 thescoop9
+1C--2D--3D--4H--5CDb,Rd,no !c control,20210627_22:59 Deal 19 thescoop9
+2N--3C--3D--3H--3S--4N--,5C,4 key cards; for !ss,20210911_19:13 Deal 2 thescoop9
+1C--1D1SDb--2S--3D--4H--4N--,5C,1 key card; for !hs,20210920_14:22 Deal 12 joe_old
+1D1HDb--,2C,4+ !ds; !cs may be longer,20210927_19:14 Deal 2 thescoop9
+1D1N--2N--,3C,Qxx or better in !ds,20210930_20:40 Deal 13 joe_old
+1NDb----Rd--,2C,!cs & !hs,20211026_19:21 Deal 3 thescoop9
+1H--2N--3D--3S--4D--,4S,RKC in !hs,20211028_15:26 Deal 19 joe_old
+1H--1S--2D--,3H,invitational (not forcing),20211028_17:54 Deal 11 joe_old
+1N----Db----,Rd,unspecified one-suiter,20211030_14:16 Deal 12
+1S2S--,2N,ask for partner's minor,20211030_19:15 Deal 12 joe_old
+1C--1S--2C--2H--3H--3S--4C--4N--,5S,2 keycards for !cs; with !cQ,20211030_19:55 Deal 18 joe_old
+1C--1H--1S--2C--,2H,asks !h quality,20211103_20:13 Deal 12 joe_old
+1C--1H--1S--2C--2H--3D--3H--4C--4H--4N--,5D,3 key cards; for !hs,20211103_20:15 Deal 12 joe_old
+1C--1H--1S--2D--,2H,asks !h quality,20211113_19:30 Deal 5 thescoop9
+1C--1S--2H--2N--,3D,natural; forcing,20211123_20:19 Deal 13
+1C--1S--2S--3C--4C--,4S,2nd-round !c control,20211204_20:44 Deal 18 joe_old
+2DDb----2N--,3H,-> !ss,20211207_19:37 Deal 6 thescoop9
+1S--2S3D,Db,invitational,20211208_20:03 Deal 10 thescoop9
+1H--1N--2D--,2S,strongest possible !d raise,20211228_19:27 Deal 4 thescoop9
+1C1N,2D,9+ balanced; with !d stop,20211230_19:49 Deal 7 thescoop9
+1C--2D--2N--,3S,natural, forcing,20220111_15:47 Deal 1
+1C--1S--2S3C,3D,exactly 5-card !ss to 2 of the top 3,20220121_15:52 Deal 2 thescoop9
+1C--1S--2S3C3D--4C--,4S,2nd round !c control,20220121_15:53 Deal 2 thescoop9
