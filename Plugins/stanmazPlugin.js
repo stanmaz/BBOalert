@@ -387,30 +387,30 @@
     }
     #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
         height: 30% !important;
-        width: 12% !important;
+        width: 10% !important;
         font-size: 4vh !important;
     }
     #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
         height: 30% !important;
-        width: 12% !important;
+        width: 10% !important;
         top: 33% !important;
         font-size: 4vh !important;
     }
     #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
         height: 30% !important;
-        width: 12% !important;
+        width: 10% !important;
         top: 33% !important;
         font-size: 4vh !important;
     }
     #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
         height: 30% !important;
-        width: 12% !important;
+        width: 10% !important;
         top: 65% !important;
         font-size: 4vh !important;
     }
     #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
         height: 30% !important;
-        width: 12% !important;
+        width: 10% !important;
         left: unset !important;
         right: 4px !important;
         font-size: 4vh !important;
