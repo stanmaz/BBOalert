@@ -1,4 +1,4 @@
-BBOalert,BFUN
+BBOalert,BFUN test
 Trusted
 ,1C,Artificial 16+ pts,20220418_20:49 Deal 15 robbef
 ,1D,11-15 pts; 4+!D
