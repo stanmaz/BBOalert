@@ -347,6 +347,6 @@ BBOalert,BFUN
     1N,3D,5-5 !H/!S or 7+!S
     1N,3H,5-5 !S/!C or 7+!C
 
-    Option,Recording OFF
-    Option,Recording ON
+    Option,Recorded OFF
+    Option,Recorded ON
     
