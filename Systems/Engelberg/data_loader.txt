@@ -1,3 +1,2 @@
 BBOalert,BFUN
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Engelberg/BFUNalerts.md
-Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
