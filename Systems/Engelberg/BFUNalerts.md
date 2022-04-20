@@ -1,5 +1,6 @@
 BBOalert,BFUN
 # BFUN system
+    Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
     Shortcut,Hello,Hi! 1C 16+; 1NT 13-15 balanced; 4-card majors; canape (two-suiters open with secondary suit first); UDA
 
     Trusted
