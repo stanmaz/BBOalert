@@ -199,10 +199,10 @@
             $(".cardArea:contains('♦')").css("background-color", "");
             $(".cardArea:contains('♥')").css("background-color", "");
             $(".cardArea:contains('♠')").css("background-color", "");
-            $(".auctionBoxCellClass span:contains('♣')").css("color", "");
-            $(".auctionBoxCellClass span:contains('♦')").css("color", "");
-            $(".auctionBoxCellClass span:contains('♥')").css("color", "");
-            $(".auctionBoxCellClass span:contains('♠')").css("color", "");
+            $(".auctionBoxCellClass span:contains('♣')").css("color", "rgb(0, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♦')").css("color", "rgb(203, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♥')").css("color", "rgb(203, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♠')").css("color", "rgb(0, 0, 0)");
             $(".biddingBoxClass span:contains('♣')").css("color", "");
             $(".biddingBoxClass span:contains('♦')").css("color", "");
             $(".biddingBoxClass span:contains('♥')").css("color", "");
