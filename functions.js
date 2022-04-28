@@ -2452,7 +2452,7 @@ function sendMessageToOpponents(text) {
 function getMyHand() {
 	var yref = 0;
 	var hand = '';
-	var cc = $('.cardClass .topLeft');
+	var cc = $('#navDiv .cardClass .topLeft');
 	if (cc.length == 0) return '';
 	for (var i = 0; i < cc.length; i++) {
 		if (cc[i].getClientRects().length > 0) {
