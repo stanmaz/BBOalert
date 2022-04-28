@@ -634,14 +634,18 @@ To access the data BBOalert needs a public URL link to the file. For each site t
        
 #### Google Docs
        
-GoogleDocs documents should be used to contain the data. BBOalert recognizes only paragraphs with the 'normal text' attributes. Other document elements (headers, footers etc) are ignored.
+GoogleDocs documents can be used to contain the data. BBOalert recognizes only paragraphs with the 'normal text' attributes. Also buletted lists may ne used to represent a hierachical bidding trees. Other document elements (headers, footers etc) are ignored.
 
 The public URL can be obtained in the following way :
        
 - open the data file in Google Docs
-- use the “Publish to the web” command from the “File” menu
+- use the “Share/Publish to the web” command from the “File” menu
 - Press the “Publish” button
-- the public URL link is displayed and can be used by BBOalert to import data  
+- the public URL link is displayed and can be used by BBOalert to import data
+       
+More details can be found in the document :
+       
+https://docs.google.com/document/d/1XTma7fZbI0pRU3TtNFOLAG0sUKyBaXFtkQAu90rwfRY/edit?usp=sharing
        
 #### Github
        
