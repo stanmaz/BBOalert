@@ -247,7 +247,7 @@
     });
     addBBOalertEvent("onNewChatMessage", function () {
         if (!cfg.Enable_chat_timestamp) return;
-        var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
+        var ci = $("#chatDiv .chatOutputClass chat-list-item", window.parent.document).toArray();
         var cs = ci[ci.length - 1].querySelector("span");
         var now = new Date();
         var hh = now.getHours().toString();
@@ -274,20 +274,20 @@
     moveTableLeft = function (on) {
         if (on) {
             var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width() + "px");
-            if (document.head.querySelector("#move-table-left--style") == null) {
+            if (parent.document.head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
-                document.head.appendChild(moveTableLeftStyle);
+                parent.document.head.appendChild(moveTableLeftStyle);
             } else {
-                document.head.querySelector("#move-table-left--style").innerHTML = t;
+                parent.document.head.querySelector("#move-table-left--style").innerHTML = t;
             }
         } else {
-            $("#move-table-left--style").remove();
+            $("#move-table-left--style", window.parent.document).remove();
         }
     };
     removeIconsFromTabs = function () {
-        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").hide();
-        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").show();
-        $(".area-label").css("font-weight", "bold");
+        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", window.parent.document).hide();
+        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", window.parent.document).show();
+        $(".area-label", window.parent.document).css("font-weight", "bold");
     };
     var largeBoxStyleText = `
     #navDiv .auctionBoxClass {
@@ -419,22 +419,22 @@
     var largeBoxStyle = document.createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
-    document.head.appendChild(largeBoxStyle);
+    parent.document.head.appendChild(largeBoxStyle);
     largeBiddingBox = function (on) {
         //        if (getPartnerHand() != '') return;
         if (on) {
-            if (document.head.querySelector("#large-box-style") == null) document.head.appendChild(largeBoxStyle);
+            if (parent.document.head.querySelector("#large-box-style") == null) parent.document.head.appendChild(largeBoxStyle);
         } else {
-            $("#large-box-style").remove();
+            $("#large-box-style", window.parent.document).remove();
         }
     };
     modified_OK_button = function (on) {
         if (on) {
             if (callText.length == 2) {
                 var txt = callText;
-                var btok = $("bridge-screen bidding-box-button button")[16];
-                var btnt = $("bridge-screen bidding-box-button button")[11];
-                var btok_span = $("bridge-screen bidding-box-button span")[16];
+                var btok = $("bridge-screen bidding-box-button button", window.parent.document)[16];
+                var btnt = $("bridge-screen bidding-box-button button", window.parent.document)[11];
+                var btok_span = $("bridge-screen bidding-box-button span", window.parent.document)[16];
                 if (callText == "Db") {
                     txt = 'Dbl';
                     btok.style.backgroundColor = "rgb(203, 0, 0)";
@@ -454,15 +454,15 @@
                     if (callText.slice(-1) == "C") txt = callText.charAt(0) + "♣";
                     if (callText.slice(-1) == "D") {
                         txt = callText.charAt(0) + "♦";
-                        $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                        $("bridge-screen bidding-box-button span", window.parent.document)[16].style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "H") {
                         txt = callText.charAt(0) + "♥";
-                        $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                        $("bridge-screen bidding-box-button span", window.parent.document)[16].style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
                 }
-                $("bridge-screen bidding-box-button span")[16].textContent = elimineSpaces(txt);
+                $("bridge-screen bidding-box-button span", window.parent.document)[16].textContent = elimineSpaces(txt);
             }
         }
     };
@@ -495,9 +495,9 @@
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
         if (on && (confirmBidsSet() == "Y")) {
-            if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
+            if (parent.document.head.querySelector("#swap-bidding-buttons-style") == null) parent.document.head.appendChild(swapBiddingButtonsStyle);
         } else {
-            $("#swap-bidding-buttons-style").remove();
+            $("#swap-bidding-buttons-style", window.parent.document).remove();
         }
     };
     autoChatToOpponents = function () {
