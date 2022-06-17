@@ -269,11 +269,11 @@
         left: coverclasspos !important;
     }    
     `;
-    var moveTableLeftStyle = document.createElement('style');
+    var moveTableLeftStyle = parent.document.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         if (on) {
-            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width() + "px");
+            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass", window.parent.document).width() + "px");
             if (parent.document.head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
                 parent.document.head.appendChild(moveTableLeftStyle);
