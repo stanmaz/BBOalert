@@ -1,8 +1,3 @@
-
-
-
-
-
     //BBOalert,stanmazPlugin version 1.0
 
 // The script for BBO event logging
