@@ -13,7 +13,7 @@
         left: coverclasspos !important;
     }    
     `;
-    var moveTableLeftStyle = parent.document.createElement('style');
+    var moveTableLeftStyle = document.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         console.log("on = " + on);
