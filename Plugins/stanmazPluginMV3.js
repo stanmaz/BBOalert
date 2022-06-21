@@ -411,7 +411,7 @@
         font-size: 4vh !important;
     }
     `;
-    var largeBoxStyle = document.createElement('style');
+    var largeBoxStyle = parent.document.createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
     parent.document.head.appendChild(largeBoxStyle);
@@ -485,7 +485,7 @@
         left: 4px !important;
     }
     `;
-    var swapBiddingButtonsStyle = document.createElement('style');
+    var swapBiddingButtonsStyle = parent.document.createElement('style');
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
