@@ -241,6 +241,7 @@
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onNewChatMessage", function () {
+        console.log("cfg.Enable_chat_timestamp" + cfg.Enable_chat_timestamp);
         if (!cfg.Enable_chat_timestamp) return;
         var ci = $("#chatDiv .chatOutputClass chat-list-item", window.parent.document).toArray();
         var cs = ci[ci.length - 1].querySelector("span");
