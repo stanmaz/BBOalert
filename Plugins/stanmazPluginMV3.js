@@ -264,17 +264,17 @@
         left: coverclasspos !important;
     }    
     `;
-    var moveTableLeftStyle = parent.document.createElement('style');
+    var moveTableLeftStyle = window.parent.document.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         console.log("on = " + on);
         if (on) {
             var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass", window.parent.document).width() + "px");
-            if (parent.document.head.querySelector("#move-table-left--style") == null) {
+            if (window.parent.document.head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
-                parent.document.head.appendChild(moveTableLeftStyle);
+                window.parent.document.head.appendChild(moveTableLeftStyle);
             } else {
-                parent.document.head.querySelector("#move-table-left--style").innerHTML = t;
+                window.parent.document.head.querySelector("#move-table-left--style").innerHTML = t;
             }
         } else {
             $("#move-table-left--style", window.parent.document).remove();
@@ -412,14 +412,14 @@
         font-size: 4vh !important;
     }
     `;
-    var largeBoxStyle = parent.document.createElement('style');
+    var largeBoxStyle = window.parent.document.createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
-    parent.document.head.appendChild(largeBoxStyle);
+    window.parent.document.head.appendChild(largeBoxStyle);
     largeBiddingBox = function (on) {
         //        if (getPartnerHand() != '') return;
         if (on) {
-            if (parent.document.head.querySelector("#large-box-style") == null) parent.document.head.appendChild(largeBoxStyle);
+            if (window.parent.document.head.querySelector("#large-box-style") == null) window.parent.document.head.appendChild(largeBoxStyle);
         } else {
             $("#large-box-style", window.parent.document).remove();
         }
@@ -486,12 +486,12 @@
         left: 4px !important;
     }
     `;
-    var swapBiddingButtonsStyle = parent.document.createElement('style');
+    var swapBiddingButtonsStyle = document.createElement('style');
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
         if (on && (confirmBidsSet() == "Y")) {
-            if (parent.document.head.querySelector("#swap-bidding-buttons-style") == null) parent.document.head.appendChild(swapBiddingButtonsStyle);
+            if (window.parent.document.head.querySelector("#swap-bidding-buttons-style") == null) window.parent.document.head.appendChild(swapBiddingButtonsStyle);
         } else {
             $("#swap-bidding-buttons-style", window.parent.document).remove();
         }
