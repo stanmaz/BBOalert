@@ -16,7 +16,6 @@
     var moveTableLeftStyle = document.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
-        console.log("on = " + on);
         if (on) {
             var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass", window.parent.document).width() + "px");
             if (parent.document.head.querySelector("#move-table-left--style") == null) {
