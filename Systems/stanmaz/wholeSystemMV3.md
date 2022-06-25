@@ -1,4 +1,4 @@
-    //BBOALERT, Entire system
+    //BBOALERT, Entire system MV3
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPluginMV3.js
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
