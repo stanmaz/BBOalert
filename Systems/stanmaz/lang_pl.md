@@ -55,7 +55,7 @@
     Alias,any 6 card suit with max 1.5 loser,dowolny kolor 6-kartowy z maximum 1.5 przegrywającej
 
     Shortcut,Raccourcis clavier,,width=100% backgroundColor=Cyan fontSize=16px
-    Shortcut,ww,Czesc; używamy uproszczonej DWURURKI:\notwarcie 1x na podwójnym Texasie (1T=4+!H;1K=4+!S;1C=5+!C albo zrównoważone;1P=5+!D)\npierwsza odpowiedź=relay albo Texas. Potem naturalnie.\nNasza karta konwencyjna\n https://drive.google.com/file/d/1JS0K7fJp_uBWZQIJCmEUEA9NJtrmyby_/view?usp=sharing\nAtak 3cia lub 5ta ; Najwyższa z sekwencji (przeciw BA) lub odwrotnie (przeciw kontraktowi w kolor).\nPo ataku partnera :niska jest zachęcająca\nWłoskie zrzutki nieparzysta=zachęcająca parzysta=Lavinthal\n
+    Shortcut,ww,Czesc; używamy uproszczonej DWURURKI:\notwarcie 1x na podwójnym Texasie (1T=4+!H;1K=4+!S;1C=5+!C albo zrównoważone;1P=5+!D)\npierwsza odpowiedź=relay albo Texas. Potem naturalnie.\nAtak 3cia lub 5ta ; Najwyższa z sekwencji (przeciw BA) lub odwrotnie (przeciw kontraktowi w kolor).\nPo ataku partnera :niska jest zachęcająca\nWłoskie zrzutki nieparzysta=zachęcająca parzysta=Lavinthal\n
     Shortcut,GTG,Niestety muszę odejść; Dzięki; Do następnego razu\n
     Shortcut,ML,Ostatnie rozdanie; Dzięki\n
     Shortcut,dd,Dzień dobry!\n
