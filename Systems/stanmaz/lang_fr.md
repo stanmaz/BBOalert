@@ -51,7 +51,7 @@
     Alias,any 6 card suit with max 1.5 loser,quelconque couleur 6ème avec maximum 1.5 perdantes
 
     Shortcut,Raccourcis clavier,,width=100% backgroundColor=Cyan fontSize=16px
-    Shortcut,ww,Bonjour; nous utilisons un schema inhabituel mais simple:\nouverture 1x en double Texas (1T=4+!H;1K=4+!S;1C=5+!C ou régulier;1P=5+!D)\n1ère réponse=relais ou Texas. Naturel après.\nCarte de convention sous\n https://drive.google.com/file/d/1Wtir81flGWQ26_1Rz3k-RNecnK5Kv9jv/view?usp=sharing\n Entame 3ème/5ème; Tête de séquence (contre SA) ou Rousinov (contre couleur).\nSur l’entame du partenaire :petit=encourageant\nPremière défausse italienne (impaire=encourageant)\n
+    Shortcut,ww,Bonjour; nous utilisons un schema inhabituel mais simple:\nouverture 1x en double Texas (1T=4+!H;1K=4+!S;1C=5+!C ou régulier;1P=5+!D)\n1ère réponse=relais ou Texas. Naturel après.\nEntame 3ème/5ème; Tête de séquence (contre SA) ou Rousinov (contre couleur).\nSur l’entame du partenaire :petit=encourageant\nPremière défausse italienne (impaire=encourageant)\n
     Shortcut,GTG,Je suis désolé mais je dois partir; Merci à tous; A la prochaine\n
     Shortcut,ML,Ma dernière donne; Merci\n
     Shortcut,SP,Sorry partenaire\n
