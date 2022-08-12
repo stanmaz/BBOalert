@@ -10,8 +10,7 @@
     Full CC\n\
     https://drive.google.com/file/d/1JS0K7fJp_uBWZQIJCmEUEA9NJtrmyby_/view?usp=sharing\n\
     Lead 3rd/5th; Sequence:top(NT); Rousinov(suit). Discard:odd=encouraging.\n\
-    On partner’s lead:small=encouraging\nFirst italian discard (odd=encouraging)\n\
-    We don't ask and we don't accept UNDO. Use confirm bids and confirm cards option\n
+    On partner’s lead:small=encouraging\nFirst italian discard (odd=encouraging)\n
 
     Shortcut,LL,Lead 3rd/5th; Sequence:top(NT); Rousinov(suit). Discard:odd=encouraging.\nOn partner’s lead:small=encouraging\nFirst italian discard (odd=encouraging)\n
     Shortcut,xx,%onBiddingBoxDisplayed%
