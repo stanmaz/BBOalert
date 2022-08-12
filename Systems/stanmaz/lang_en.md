@@ -7,8 +7,6 @@
     Welcome; we use very simple but unusual scheme:\n\
     opening 1x in double Texas (1C=4+!H;1D=4+!S;1H=5+!C or balanced;1S=5+!D)\n\
     1st response=relay or Texas. Then natural.We hope you do not mind. Thanks.\n\
-    Full CC\n\
-    https://drive.google.com/file/d/1JS0K7fJp_uBWZQIJCmEUEA9NJtrmyby_/view?usp=sharing\n\
     Lead 3rd/5th; Sequence:top(NT); Rousinov(suit). Discard:odd=encouraging.\n\
     On partner’s lead:small=encouraging\nFirst italian discard (odd=encouraging)\n
 
