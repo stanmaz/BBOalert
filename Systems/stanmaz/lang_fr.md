@@ -1,3 +1,4 @@
+    BBOalert,lang_fr - Version 3
     Alias, or , ou ,
     Alias, and , et ,
     Alias,if,si
