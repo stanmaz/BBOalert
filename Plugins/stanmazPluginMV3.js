@@ -182,7 +182,7 @@
             $(".biddingBoxClass span:contains('♥')", window.parent.document).css("color", cfg.text_color_hearts);
             $(".biddingBoxClass span:contains('♠')", window.parent.document).css("color", cfg.text_color_spades);
             $(".auctionBoxCellClass:contains('Dbl')", window.parent.document).css("color", cfg.text_color_double);
-            $(".auctionBoxCellClass:contains('Dbl')").css("background-color", cfg.background_color_double);
+            $(".auctionBoxCellClass:contains('Dbl')", window.parent.document).css("background-color", cfg.background_color_double);
             $(".auctionBoxCellClass:contains('Rdbl')", window.parent.document).css("color", cfg.text_color_redouble);
             $(".auctionBoxCellClass:contains('Rdbl')", window.parent.document).css("background-color", cfg.background_color_redouble);
         } else {
