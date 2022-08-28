@@ -1,11 +1,5 @@
     //BBOALERT, Entire system MV3
-    Script,onDataLoad
-    $('.verticalClass',window.parent.document)[0].click();
-    setTimeout(setOptionsOff,1000);
-    var optionsSelector = document.getElementById('bboalert-ds');
-    optionsSelector.selectedIndex = 2;
-    optionsSelectorChanged();
-    Script
+
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPluginMV3.js
 
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
