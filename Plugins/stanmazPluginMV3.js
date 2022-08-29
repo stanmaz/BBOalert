@@ -19,7 +19,7 @@
     var TIME_REF = Date.now();
     var LAST_PLAYER = '';
     EVENT_LOG = localStorage.getItem('BBOalertEvents');
-    if ((typeof EVENT_LOG) == null) EVENT_LOG = '';
+    if (EVENT_LOG == null) EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
         console.log("addConfigBox");
         addConfigBox(title, cfg);
