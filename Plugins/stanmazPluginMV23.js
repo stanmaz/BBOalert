@@ -1,8 +1,11 @@
 
-if (document.title == 'Bridge Base Online')
+if (document.title == 'Bridge Base Online') {
     BBOcontext = document;
-else
+    console.log(document.title);
+} else {
     BBOcontext = parent.document;
+    console.log(document.title);
+}
 
 
 
