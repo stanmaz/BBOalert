@@ -1,6 +1,5 @@
-var BBOcontext = document;
+window.BBOcontext = document;
 if (document.title != 'Bridge Base Online') {
-    var BBOcontext = parent.document;
+    window.BBOcontext = parent.document;
 }
 console.log(BBOcontext.title);
-
