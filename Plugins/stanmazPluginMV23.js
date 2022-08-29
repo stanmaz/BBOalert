@@ -1,8 +1,3 @@
-var BBOcontext = document;
-if (document.title != 'Bridge Base Online') {
-    var BBOcontext = parent.document;
-}
-console.log(BBOcontext.title);
 
 //BBOalert,stanmazPlugin version 1.0
 
@@ -146,11 +141,6 @@ console.log(BBOcontext.title);
 })();
 
 (function () {
-    var BBOcontext = document;
-    if (document.title != 'Bridge Base Online') {
-        var BBOcontext = parent.document;
-    }
-    console.log(BBOcontext.title);
     // Default configuration
     var title = "Modified suit colors";
     var cfg = {};
