@@ -272,16 +272,16 @@ else
         left: coverclasspos !important;
     }    
     `;
-    var moveTableLeftStyle = document.createElement('style');
+    var moveTableLeftStyle = BBOcontext.createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         if (on) {
             var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass",BBOcontext).width() + "px");
-            if (document.head.querySelector("#move-table-left--style") == null) {
+            if (BBOcontext.head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
-                document.head.appendChild(moveTableLeftStyle);
+                BBOcontext.head.appendChild(moveTableLeftStyle);
             } else {
-                document.head.querySelector("#move-table-left--style").innerHTML = t;
+                BBOcontext.head.querySelector("#move-table-left--style").innerHTML = t;
             }
         } else {
             $("#move-table-left--style",BBOcontext).remove();
@@ -419,14 +419,14 @@ else
         font-size: 4vh !important;
     }
     `;
-    var largeBoxStyle = document.createElement('style');
+    var largeBoxStyle = BBOcontext.createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
-    document.head.appendChild(largeBoxStyle);
+    BBOcontext.head.appendChild(largeBoxStyle);
     largeBiddingBox = function (on) {
         //        if (getPartnerHand() != '') return;
         if (on) {
-            if (document.head.querySelector("#large-box-style") == null) document.head.appendChild(largeBoxStyle);
+            if (BBOcontext.head.querySelector("#large-box-style") == null) BBOcontext.head.appendChild(largeBoxStyle);
         } else {
             $("#large-box-style").remove();
         }
@@ -498,7 +498,7 @@ else
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
         if (on && (confirmBidsSet() == "Y")) {
-            if (BBOcontext.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
+            if (BBOcontext.head.querySelector("#swap-bidding-buttons-style") == null) BBOcontext.head.appendChild(swapBiddingButtonsStyle);
         } else {
             $("#swap-bidding-buttons-style",BBOcontext).remove();
         }
@@ -528,7 +528,7 @@ else
             }
             if (i != -1) return;
             i = 2;
-            var optionsSelector = document.getElementById('bboalert-ds');
+            var optionsSelector = BBOcontext.getElementById('bboalert-ds');
             if (optionsSelector.selectedIndex == i) return;
             optionsSelector.selectedIndex = i;
             optionsSelectorChanged();
