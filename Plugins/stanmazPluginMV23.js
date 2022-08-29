@@ -1,9 +1,9 @@
 
 if (document.title == 'Bridge Base Online') {
-    window.BBOcontext = document;
+    var BBOcontext = document;
     console.log(document.title);
 } else {
-    window.BBOcontext = parent.document;
+    var BBOcontext = parent.document;
     console.log(document.title);
 }
 
