@@ -130,7 +130,7 @@
         if (cfg.Export_Log_Data) {
             writeToClipboard(EVENT_LOG);
             localStorage.setItem('BBOalertEvents', EVENT_LOG);
-            bboalertLog(EVENT_LOG.split("\n").length + " records exported to clipboard");
+            bboalertLog(EVENT_LOG.split("\n").length + " events exported to clipboard");
             cfg.Export_Log_Data = false;
         }
         if (cfg.Clear_Log_Data) {
