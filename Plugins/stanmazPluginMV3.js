@@ -23,6 +23,10 @@
     addBBOalertEvent("onDataLoad", function () {
         console.log("addConfigBox");
         addConfigBox(title, cfg);
+            cfg.Enable_Log_Now = false;
+            cfg.Enable_Log_at_Next_Deal = false;
+            cfg.Export_Log_Data = false;
+            cfg.Clear_Log_Data = false;
     });
     addBBOalertEvent("onLogin", function () {
         cfg.Enable_Log_Now = false;
