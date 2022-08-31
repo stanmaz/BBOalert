@@ -127,6 +127,7 @@
         }
     });
     addBBOalertEvent("onAnyMutation", function () {
+        console.log("cfg.Export_Log_Data = " + cfg.Export_Log_Data);
         if (cfg.Export_Log_Data) {
             writeToClipboard(EVENT_LOG);
             localStorage.setItem('BBOalertEvents', EVENT_LOG);
