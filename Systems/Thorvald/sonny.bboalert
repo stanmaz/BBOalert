@@ -1,0 +1,13 @@
+BBOalert, 27-05-2022 Precito
+Script,onBiddingBoxDisplayed,getExplainInput().setAttribute("maxlength", "69");
+Script,onDataLoad
+$("#adpanel button").each(function() {
+if(this.id.includes("@s")) return;
+this.innerHTML = this.innerText;
+this.id = "Option," + this.textContent;
+});
+Script
+Option,Entire system
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/precito.system
+Option,RecordedBids OFF
+Option,RecordedBids ON

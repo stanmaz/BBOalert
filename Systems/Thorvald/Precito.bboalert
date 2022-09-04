@@ -1,0 +1,23 @@
+BBOalert, 29-07-2022 01:47:19 Precito
+Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPluginMV3.js
+Script,onBiddingBoxDisplayed,getExplainInput().setAttribute("maxlength", "69");
+Script
+Script,onDataLoad
+$("#adpanel button").each(function() {
+if(this.id.includes("@s")) return;
+this.innerHTML = this.innerText;
+this.id = "Option," + this.textContent;
+});
+setOptionsOn();
+$("#bboalert-ds").val('Disable-Alerts');
+$('.verticalClass',window.parent.document)[0].click();
+setTimeout(setOptionsOff,1000);
+Script
+Option,Entire system
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/buttons.bboscript
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/shortcuts.bboscript
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/shortcut_sonny.bboscript
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/precito.system
+Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/focusoptions.js
+Option,RecordedBids OFF
+Option,RecordedBids ON

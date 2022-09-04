@@ -1,0 +1,2273 @@
+﻿BBOalert, 04-08-2022 17:59:08 Daniel Brandgaard
+Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
+Option,Entire system
+Shortcut,Shortcuts for the CHAT box, , width=100% backgroundColor=palegreen
+Shortcut,w_w, We are Daniel and Thorvald and are play 2/1 GF;\n1NT = 15-17 bal 5-card major possible \nLeads 1./3./5. \nTactical bids outside length and range agreements might occur\n, width=34% backgroundColor=greenyellow
+Shortcut,dvv, Vi spiller 5-farve major og 2/1 GF; \n1NT = 15-17 "bal"-ish.\nUdspil 1.3./5. \nMalmø-markering i uinteressant farve \nVi op- og nedgraderer en del\n, width=33% backgroundColor=lightgreen
+shortcut,Casual, set "Permission required to play" in the table options and put "+private+ +nokill+ +slow+" in the Description of the table when you create it (near the top of the create window).
+Shortcut,Thinking, Thinking, Whole hand\n, width=50% backgroundColor=peachpuff
+Shortcut,UDCA, Upside down count, attitude\n, width=50% backgroundColor=gold
+Shortcut,Standard Carding, Standard carding. Good Luck. \n, width=50% backgroundColor=antiquewhite
+Shortcut,Good Luck, Good luck partner \n, width=50% backgroundColor=skyblue
+Shortcut,Thank you, Thank You. \n, width=50% backgroundColor=greenyellow
+Shortcut,Well done partner, Well done partner\n, width=50%  backgroundColor=pink
+Shortcut,Well done opps, Well done opponents\n, width=50% backgroundColor=violet
+Shortcut,Be right back, Be right back\n, width=50% backgroundColor=papayawhip
+Shortcut,Back, Back\n, width=50% backgroundColor=navajowhite
+Shortcut,For SLAM bidding to ALERT box, , width=100% backgroundColor=palegreen
+Shortcut,KCA, Asking for Key cards\n, width=50% backgroundColor=yellow
+Shortcut,K ask,Asking about Ks\n, width=50% backgroundColor=white
+Shortcut,0 or 3 Key Cards, 0 or 3 Key cards\n, width=50% backgroundColor=peachpuff
+Shortcut,1 or 4 Key Cards, 1 or 4 Key cards\n, width=50% backgroundColor=thistle
+Shortcut,2 or 5 Key Cards no Q, 2 or 5 Key cards without Q\n, width=50% backgroundColor=burlywood
+Shortcut,2 or 5 Key Cards with Q, 2 or 5 Key cards with Q\n, width=50% backgroundColor=peachpuff
+Shortcut,Q ask, Asking about Q of trumps\n, width=50% backgroundColor=lightblue
+Shortcut,no Q, denying Q of trumps\n, width=50% backgroundColor=lightgreen
+Shortcut,Q no K, Have Q but no Kings\n, width=50% backgroundColor=khaki
+Shortcut,Q with K of bid suit, Have Q and K of bid suit\n, width=50% backgroundColor=lightblue
+Shortcut,K of bid suit, K of bid suit\n, width=50% backgroundColor=darkkhaki
+Shortcut,One K, 1 King\n, width=50% backgroundColor=cornflowerblue
+Shortcut,Two K, 2 Kings\n, width=50% backgroundColor=lightpink
+Shortcut,Three K, 3 Kings\n, width=50% backgroundColor=lightsalmon
+Shortcut,A ask, Asking about Aces\n, width=50% backgroundColor=aqua
+Shortcut,Zero A, No Aces\n, width=50% backgroundColor=peachpuff
+Shortcut,One A, 1 Ace\n, width=50% backgroundColor=blanchedalmond
+Shortcut,Two A, 2 Aces\n, width=50% backgroundColor=lightgreen
+Shortcut,Three A, 3 Aces\n, width=50% backgroundColor=tan 
+Shortcut,Four A, 4 Aces\n, width=50% backgroundColor=lightblue
+Button,Transfer, Transfer to,backgroundColor=yellow width=40% fontSize=32px borderRadius=100%
+Button,♣, !C,width=11% fontSize=32px borderRadius=100%
+Button,♦, !D,width=11% fontSize=32px borderRadius=100% color=red
+Button,♥, !H,width=11% fontSize=32px borderRadius=100% color=red
+Button,♠, !S,width=11% fontSize=32px borderRadius=100%
+Button,NT, NT,borderRadius=100% width=16% fontSize=32px
+Button,Send, \n,borderRadius=100% width=40% fontSize=32px
+Button,Emoticons,,width=100% backgroundColor=palegreen fontSize=16px
+Button,😀,😀\n,width= borderRadius=100% fontSize=32px
+Button,😞,😞\n,width= borderRadius=100% fontSize=32px
+Button,😢,😢\n,width= borderRadius=100% fontSize=32px
+Button,👍,👍\n,width= borderRadius=100% fontSize=32px
+Button,👎,👎\n,width= borderRadius=100% fontSize=32px
+Button,😊,😊\n,width= borderRadius=100% fontSize=32px
+Button,👏,👏\n, width= borderRadius=100% fontSize=32px
+Script,onBiddingBoxDisplayed,getExplainInput().setAttribute("maxlength", "69");
+## Script,onExplainCallDisplayed,setExplainCallText("");
+Option,vs (1C) @s
+Option,vs_(1C) 3+<span style="color: green; font-size: large;">♣</span> 
+Option,vs_(1C) 2+<span style="color: green; font-size: large;">♣</span> 
+Option,vs_(1C) Strong 
+Option,vs (1N) @s
+Option,vs_(1N) Starting from 14 
+Option,vs_(1N) Starting from 13 
+Option,vs (2D) @s
+Option,vs_(2D) Nat 
+Option,vs_(2D) Multi 
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(1C) 3+<span style="color: green; font-size: large;">♣</span> 
+1C----,Db,T/O
+1C----DbRd,--,Suggesting to play
+1C----Db1S,Db,Strong !C
+1C----Db2C,Db,Penalty
+1C,1H,5+!H
+1C1H--,1N,Transfer; 6+!C
+1C1H--,2C,Transfer; 6+!D
+1C1H--,2D,3+!H; 8+ hcp
+1C1H--,2H,Bad raise
+1C1H--,2N,4+!H; Inv+
+1C1H--2N--,3C,Any min
+1C1H--2N--3C--,3D,Asking for single
+1C1H--2N--3C--3D--,3H,Single !C
+1C1H--2N--3C--3D--,3S,Single !D
+1C1H--2N--3C--3D--,3N,Single !S
+1C1H--2N--3C--3D--,4C,Cue; no shortage
+1C1H--2N--3C--3D--,4D,Cue; no shortage
+1C1H--2N--3C--3D--,4H,No shortage; no minor cue
+1C1H--2N--3C--,3H,Inv
+1C1H--2N--3C--,3S,Single !C
+1C1H--2N--3C--,3N,Single !D
+1C1H--2N--3C--,4C,Single !S
+1C1H--2N--3C--,4D,Void
+1C1H--2N--,3D,Extra without shortage
+1C1H--2N--3D--,3H,Single !C
+1C1H--2N--3D--,3S,Single !D
+1C1H--2N--3D--,3N,Single !S
+1C1H--2N--3D--,4C,Cue
+1C1H--2N--3D--,4D,Cue
+1C1H--2N--3D--,4H,No shortage; no minor cue
+1C1H--2N--,3H,Short !C; extra
+1C1H--2N--,3S,Short !D; extra
+1C1H--2N--,3N,Single or void !S; extra
+1C1H--2N--,4C,Void
+1C1H--2N--,4D,Void
+1C1H--2N--,4H,Subminimum; not shortage
+1C,1S,5+!S
+1C1S--,1N,Transfer; 6+!C
+1C1S--,2C,Transfer; 6+!D
+1C1S--,2D,Transfer; 6+!H
+1C1S--,2H,3+!S; 8+ hcp
+1C1S--,2S,bad raise
+1C1S--,2N,4+!S; Inv+
+1C1S--2N--,3C,Min
+1C1S--2N--3C--,3D,Relay asking for shortage
+1C1S--2N--3C--3D--,3H,Short !C
+1C1S--2N--3C--3D--,3S,Short !D
+1C1S--2N--3C--3D--,3N,Short !H
+1C1S--2N--3C--3D--,4C,Cue; no shortage
+1C1S--2N--3C--3D--,4D,Cue; no shortage
+1C1S--2N--3C--3D--,4H,Cue; no shortage
+1C1S--2N--3C--,3H,Short !C
+1C1S--2N--3C--,3S,Invit
+1C1S--2N--3C--,3N,Short !D
+1C1S--2N--3C--,4C,Short !H
+1C1S--2N--,3D,Extra; no shortage
+1C1S--2N--3D--,3H,Short !C
+1C1S--2N--3D--,3S,Short !D
+1C1S--2N--3D--,3N,Short !H
+1C1S--2N--3D--,4C,Cue
+1C1S--2N--3D--,4D,Cue
+1C1S--2N--3D--,4H,Cue
+1C1S--2N--,3H,Single !C
+1C1S--2N--,3S,Single !D
+1C1S--2N--,3N,Single !H
+1C1S--2N--,4C,Void
+1C1S--2N--,4D,Void
+1C1S--2N--,4H,Void
+1C1S--2N--,4S,Subminimum without shortage
+1C,2C,Michaels
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(1C) 2+<span style="color: green; font-size: large;">♣</span> 
+1C,2D,Michaels 
+1C2D--,2N,Invit
+1C2D--,3C,Nat; F1
+1C2D--,3H,Invit
+1C2D--,3S,Invit
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(1C) Strong 
+1C,Db,Majors
+1C1D--1H--,2C,5+!D; 4+!C. 12-17 hcp
+1C1D--1H--,2D,6(5)+!D; 12-14
+1C1D--1H--,3C,Nat; GF
+1C1D--1H--,3D,6+!D; 16+ hcp
+1C1D--1H--,3S,Slammish with shortage
+1C1D--1H--3S--,3N,Relay
+1C1D--1H--3S--3N--,4C,Single !C
+1C1D--1H--3S--3N--,4H,Single !H
+1C1D--1H--,3N,To play; 6+!D
+1C1D--1H--,4C,Void in !C
+1C1D--1H--,4D,6+!D; 4+!H; extra
+1C1D--1H--,1S,4+!S; unbal
+1C1D--1H--,1N,12-14 hcp
+%UC0167284% 1N,2C,Transfer to !D; to play or invitational
+%UC0167284% 1N,2D,GF
+%UC0167284% 1N,2H,Signoff
+%UC0167284% 1N,2S,Signoff
+%UC0167284% 1N,2N,Transfer to 3!C (normally some 5-5 and GF)
+%UC0167284% 1N,3C,Signoff
+%UC0167284% 1N,3H,Distributional Invit
+%UC0167284% 1N,3S,Distributional Invit
+1C1D--1H--,2C,6(5)+!C; 12-14 hcp
+1C1D--1H--,2D,4+!D; 16+ hcp
+1C1D--1H--,2H,3+!H (unbal) or 4+!H; 12-15 hcp
+1C1D--1H--2H--,2N,Asking
+1C1D--1H--2H--2N--,3C,3!H and min
+1C1D--1H--2H--2N--,3D,3!H and max
+1C1D--1H--2H--2N--,3H,4!H and min
+1C1D--1H--2H--2N--,3S,4!H and max
+1C1D--1H--,2S,4+!S; GF
+1C1D--1H--,2N,18-19 bal
+1C1D--1H--2N--,3C,Transfer to 3!D; weak
+1C1D--1H--2N--3C--,3D,Mandatory
+1C1D--1H--2N--3C--3D--,3H,Sign-off
+1C1D--1H--2N--3C--3D--,3N,Choice of game (5332)
+1C1D--1H--2N--,3D,Nat; GF
+1C1D--1H--2N--,3H,Nat; GF
+1C1D--1H--2N--3H--,3S,4!S
+1C1D--1H--2N--,3S,4!S
+1C1D--1H--,3C,6+!C; 16+ hcp
+1C1D--1H--,3D,0-1!D; 4+!H; 14-15 hcp
+1C1D--1H--3D--,3N,Asking
+1C1D--1H--3D--3N--,4D,Void
+1C1D--1H--,3H,4+!H; unbal 14-15 hcp
+1C1D--1H--,3S,Unknown single; slammish
+1C1D--1H--3S--,3N,Relay
+1C1D--1H--3S--3N--,4C,Single !S
+1C1D--1H--3S--3N--,4D,Single !D
+1C1D--1H--,3N,To play; 6+!C
+1C1D--1H--,4C,6+!C; 4!H
+1C1D--1H--,4D,Void
+1C1D--1H--,4H,18-19 hcp; 4!H; no shortage
+1C1D--1S--,2C,5+!D; 4+!C; 12-17 hcp
+1C1D--1S--,2D,6(5)+!D; 12-14
+1C1D--1S--,3C,5+d>; 4+!C; GF
+1C1D--1S--,3D,6+!D; 16+ hcp
+1C1D--1S--,3N,To play; 6+!D
+1C1D--1S--3N--,4C,Relay
+1C1D--1S--3N--4C--,4D,Single !C
+1C1D--1S--3N--4C--,4H,Single !H
+1C1D--1S--,4C,Void
+1C1D--1S--,4D,6+!D; 4!S; extra
+1C1D--1S--,1N,12-14 hcp
+1C1D--1S--,2C,6(5)+!C; 12-14 hcp
+1C1D--1S--,2D,4+!D; extra
+1C1D--1S--,2H,4+!H; extra
+1C1D--1S--,2S,3+!S (unbal) or 4+!S
+1C1D--1S--2S--,2N,Asking
+1C1D--1S--2S--2N--,3C,3!S; min
+1C1D--1S--2S--2N--,3D,3!S; max
+1C1D--1S--2S--2N--,3H,4!S; min
+1C1D--1S--2S--2N--,3S,4!S; max
+1C1D--1S--,2N,18-19 bal
+1C1D--1S--2N--,3C,Transfer to 3!D
+1C1D--1S--2N--3C--,3D,Mandatory
+1C1D--1S--2N--3C--3D--,3S,Signoff
+1C1D--1S--2N--3C--3D--,3N,Choice of game (5332)
+1C1D--1S--2N--,3D,Nat; GF
+1C1D--1S--2N--,3H,Nat; GF
+1C1D--1S--2N--,3S,Nat; GF
+1C1D--1S--,3C,6+!C; 16+ hcp
+1C1D--1S--,3D,0-1!D; 4+!S; extra
+1C1D--1S--3D--,3N,Asking
+1C1D--1S--3D--3N--,4D,Void
+1C1D--1S--,3H,0-1!H; 4!S 14-15 hcp
+1C1D--1S--3H--,3N,Asking
+1C1D--1S--3H--3N--,4H,Void
+1C1D--1S--,3S,4!S; unbal; extra
+1C1D--1S--,3N,To play; 6+!C
+1C1D--1S--3N--,4C,Relay
+1C1D--1S--3N--4C--,4D,Single !D
+1C1D--1S--3N--4C--,4H,Single !H
+1C1D--1S--,4C,6+!C; 4!S
+1C1D--1S--,4D,Void
+1C1D--1S--,4H,Void
+1C1D--1S--,4S,4!S; 18-19 hcp; no shortage
+1C1D--,1N,7-10 hcp
+1C1D--1N--,2C,5+!D and 5+!C
+1C1D--1N--,2D,6+!D; min
+1C1D--1N--,2H,Nat; extra
+1C1D--1N--,2S,Nat; extra
+1C1D--1N--,2N,Invit
+1C1D--1N--,3C,5+!D and 4+!C; 16+ hcp
+1C1D--1N--,3D,6+!D; 16+ hcp
+1C1D--,2C,4+!C; GF
+1C1D--2C--,2D,6+!D; min
+1C1D--2C--,2H,Nat; extra
+1C1D--2C--,2S,Nat; extra
+1C1D--2C--,2N,12-14 bal
+1C1D--2C--,3C,4+!D and 4+!C; nor shortage; min
+1C1D--2C--,3D,6+!D; extra
+1C1D--2C--,3H,Splinter; 4+!C
+1C1D--2C--,3S,Splinter; 4+!C
+1C1D--,2D,5+!D; GF
+1C1D--2D--,2H,Relay (15+ hcp)
+1C1D--2D--2H--,2S,Single
+1C1D--2D--2H--,2N,No shortage with majorstoppers
+1C1D--2D--2H--,3C,Single
+1C1D--2D--2H--,3D,No void; not both major stopped
+1C1D--2D--2H--,3H,Single
+1C1D--2D--2H--,3S,Void
+1C1D--2D--2H--,4C,Void
+1C1D--2D--2H--,4H,Void
+1C1D--2D--,2S,Single !S; min
+1C1D--2D--,2N,12-14 bal
+1C1D--2D--2N--,3C,Single
+1C1D--2D--2N--,3D,Slammish
+1C1D--2D--2N--,3H,Single
+1C1D--2D--2N--,3S,Single
+1C1D--2D--,3C,Single !C; min
+1C1D--2D--,3D,12-14 no shortage
+1C1D--2D--3D--,3H,Stopper
+1C1D--2D--3D--,3S,Stopper
+1C1D--2D--,3H,Single !H; min
+1C1D--2D--,3S,Void; min
+1C1D--2D--,4C,Void; min
+1C1D--2D--,4H,Void; min
+1C1D--,2H,WJS
+1C1D--2H--,2N,Nat; Inv
+1C1D--2H--,3H,Nat; Inv
+1C1D--,2S,WJS
+1C1D--2S--,2N,Nat; Inv
+1C1D--2S--,3S,Nat; Inv
+1C1D--,2N,5+!D; 11-12 bal
+1C1D--2N--,3C,Stopper/nat
+1C1D--2N--,3D,Min; 5+!D
+1C1D--2N--,3H,Stopper/nat
+1C1D--2N--,3S,Stopper/nat
+1C1D--,3C,5+!D; 10-12 unbal
+1C1D--3C--,3D,Min
+1C1D--3C--,3H,Nat/Stopper
+1C1D--3C--,3S,Nat/Stopper
+1C1D--,3D,5+!D; 5-7 hcp
+1C1D--3D--,3H,Nat/Stopper
+1C1D--3D--,3S,Nat/Stopper
+1C1D--3D--,4C,Splint
+1C1D--3D--,4D,Invit
+1C1D--3D--4D--,4H,Cue
+1C1D--3D--4D--,4S,Cue
+1C1D--3D--,4H,Splint
+1C1D--3D--,4S,Splint
+1C1D--3D--,4N,RKCB-0314
+1C1D--,3H,7+!H; preemptive
+1C1D--,3S,7+!S; preemptive
+1C1H--,3C,Strong Bergen
+1C1H--,3D,Weak Bergen
+1C1H--1S--,1N,12-14 bal
+1C1H--1S--,2C,16+ hcp or 6+!H
+1C1H--1S--2C--,2D,8+ hcp; GF if opener is 16+
+1C1H--1S--2C--2D--,2S,3!S; GF
+1C1H--1S--2C--2D--,2H,6+!H; NF
+1C1H--1S--2C--2D--2H--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,2S,4+!S; GF
+1C1H--1S--2C--2D--2S--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,2N,Some 4-card minor
+1C1H--1S--2C--2D--2N--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,3C,5+!C
+1C1H--1S--2C--2D--3C--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,3D,5+!D
+1C1H--1S--2C--2D--3D--,3H,3!H; 10-11
+1C1H--1S--2C--,2S,Weak; not 3!H
+1C1H--1S--2C--,2D,8+ hcp; GF if opener is 16+
+1C1H--1S--2C--2D--,2H,6+!H; NF
+1C1H--1S--2C--2D--2H--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,2S,4+!S; GF
+1C1H--1S--2C--2D--2S--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,2N,Some 4-card minor
+1C1H--1S--2C--2D--2N--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,3C,5+!C
+1C1H--1S--2C--2D--3C--,3H,3!H; 10-11
+1C1H--1S--2C--2D--,3D,5+!D
+1C1H--1S--2C--2D--3D--,3H,3!H; 10-11
+1C1H--1S--2C--,2H,Min
+1C1H--1S--2C--,2N,Minors; min
+1C1H--1S--2C--,3C,6+!C; min
+1C1H--1S--2C--,3D,6+!D; min
+1C1H--1S--2C--,3H,5-7 hcp; 3!H
+1C1H--1S--,2D,Nat; less than 16 hcp
+1C1H--1S--,2H,4+!C; less than 16 hcp
+1C1H--1S--,2S,Nat; less than 16 hcp
+1C1H--1S--,2N,4+!S; Inv+
+1C1H--1S--2N--,3C,Any GF
+1C1H--1S--2N--3C--,3D,6!H and 4!S
+1C1H--1S--2N--3C--3D--,3H,Relay
+1C1H--1S--2N--3C--3D--3H--,3S,Single !C
+1C1H--1S--2N--3C--3D--3H--,3N,Single !D
+1C1H--1S--2N--3C--,3H,Single !C
+1C1H--1S--2N--3C--,3S,Single !D
+1C1H--1S--2N--,3D,Invitational
+1C1H--1S--2N--3D--,3H,6!H and 4!S
+1C1H--1S--,3C,5+!C; less than 16
+1C1H--1S--,3D,5+!D; less than 16
+1C1H--1S--,3H,Nat; less then 16 hcp
+1C1H--1S--,4C,Void; agreeing !S
+1C1H--1S--,4D,Void; agreeing !S
+1C1H--,1N,7-11 hcp; might be 3!H with 10-11
+1C1H--1N--,2C,16+ hcp or 6+!H
+1C1H--1N--2C--,2D,8+ hcp; GF if opener is 16+
+1C1H--1N--2C--2D--,2H,6+!H; NF
+1C1H--1N--2C--2D--2H--,3H,3!H; 10-11
+1C1H--1N--2C--2D--,2S,4+!S; GF
+1C1H--1N--2C--2D--2S--,3H,3!H; 10-11
+1C1H--1N--2C--2D--,2N,Some 4-card minor
+1C1H--1N--2C--2D--2N--,3H,3!H; 10-11
+1C1H--1N--2C--2D--,3C,5+!C
+1C1H--1N--2C--2D--3C--,3H,3!H; 10-11
+1C1H--1N--2C--2D--,3D,5+!D
+1C1H--1N--2C--2D--3D--,3H,3!H; 10-11
+1C1H--1N--2C--,2H,Min
+1C1H--1N--2C--,2N,Minors; min
+1C1H--1N--2C--,3C,6+!C; min
+1C1H--1N--2C--,3D,6+!D; min
+1C1H--1N--2C--,3H,5-7 hcp; 3!H
+1C1H--1N--,2D,4+!D; less than 16
+1C1H--1N--,2H,4+!C; less than 16
+1C1H--1N--,2S,4+!S; less than 16
+1C1H--1N--,2N,Nat; Inv
+1C1H--1N--,3C,5+!C; Inv
+1C1H--1N--,3D,5+!C; Inv
+1C1H--1N--,3H,7+!H; Inv
+1C1H--,2C,3+!C; GF; no majors
+1C1H--2C--,2H,Min
+1C1H--2C--,2S,Nat; extra
+1C1H--2C--,2N,12-14 bal
+1C1H--2C--,3C,Min on only 3-card support
+1C1H--2C--,3D,Splinter; agreeing !C
+1C1H--2C--,3H,6+!H; extra
+1C1H--2C--,3S,Splinter; agreeing !C
+1C1H--2C--,4C,2524; extra
+1C1H--,2D,4+!D; GF; no majors
+1C1H--2D--,2H,Min
+1C1H--2D--,2S,Nat; with extra
+1C1H--2D--,2N,12-14 bal
+1C1H--2D--,3C,Nat; extra
+1C1H--2D--,3D,Nat; min or only 3-card support
+1C1H--2D--,3H,6+!H; extra
+1C1H--2D--,3S,Splinter; agreeing !D
+1C1H--2D--,4C,Splinter agreeing !D
+1C1H--2D--,4D,2542; extra
+1C1H--,2H,3-4 !H; 7-9 hcp
+1C1H--2H--,2S,Transfer to 2N (Romex)
+1C1H--2H--2S--,2N,Required
+1C1H--2H--2S--2N--,3C,Long suit trial
+1C1H--2H--2S--2N--,3D,Long suit trial
+1C1H--2H--2S--2N--,3H,Long suit trial in !S
+1C1H--2H--,2N,Short suit trial in !S
+1C1H--2H--,3C,Short suit trial
+1C1H--2H--,3D,Short suit trial
+1C1H--2H--,4S,Voidwood
+%UC0048548% 4S,4N,0 or 3 aces
+%UC0048548% 4S,5C,1 or 4 aces
+%UC0048548% 4S,5D,2 Aces; no trump Q
+%UC0048548% 4S,5H,2 Aces and trump Q
+1C1H--2H--,5C,Voidwood
+%UC0026390% 5C,5D,0 or 3 aces
+%UC0026390% 5C,5H,1 or 4 aces
+%UC0026390% 5C5H--,5N,Showing all aces
+%UC0026390% 5C,5S,2 aces; no Q of trumph
+%UC0026390% 5C,5N,2 aces and Q of trumph
+1C1H--2H--,5D,Voidwood
+%UC0026399% 5D,5H,0 or 3 aces
+%UC0026399% 5D,5S,1 or 4 aces
+%UC0026399% 5D,5N,2 aces; no Q of trumph
+%UC0026399% 5D,6C,2 aces and Q of trumph
+1C1H--,2S,WJS
+1C1H--2S--,2N,3+!S; Inv+
+1C1H--2S--,3C,Nat; NF
+1C1H--2S--,3D,Nat; NF
+1C1H--2S--,3H,Nat; NF
+1C1H--2S--,3S,Preemptive
+1C1H--2S--,4D,Nat; Inv
+1C1H--,2N,4+!H; Inv+
+1C1H--2N--,3C,Any min
+1C1H--2N--3C--,3D,Asking for single
+1C1H--2N--3C--3D--,3H,Single !C
+1C1H--2N--3C--3D--,3S,Single !D
+1C1H--2N--3C--3D--,3N,Single !S
+1C1H--2N--3C--3D--,4C,Cue; no shortage
+1C1H--2N--3C--3D--,4D,Cue; no shortage
+1C1H--2N--3C--3D--,4H,No shortage; no minor cue
+1C1H--2N--3C--,3H,Inv
+1C1H--2N--3C--,3S,Single !C
+1C1H--2N--3C--,3N,Single !D
+1C1H--2N--3C--,4C,Single !S
+1C1H--2N--3C--,4D,Void
+1C1H--2N--,3D,Extra without shortage
+1C1H--2N--3D--,3H,Single !C
+1C1H--2N--3D--,3S,Single !D
+1C1H--2N--3D--,3N,Single !S
+1C1H--2N--3D--,4C,Cue
+1C1H--2N--3D--,4D,Cue
+1C1H--2N--3D--,4H,No shortage; no minor cue
+1C1H--2N--,3H,Short !C; extra
+1C1H--2N--,3S,Short !D; extra
+1C1H--2N--,3N,Single or void !S; extra
+1C1H--2N--,4C,Void
+1C1H--2N--,4D,Void
+1C1H--2N--,4H,Subminimum; not shortage
+1C1H--,3C,Nat; Inv
+1C1H--,3D,Nat; Inv
+1C1H--,3H,Preemptive
+1C1H--,3S,8-12 hcp; some single
+1C1H--3S--,3N,Relay
+1C1H--3S--3N--,4C,Single
+1C1H--3S--3N--,4D,Single
+1C1H--3S--3N--,4H,Single !S
+1C1H--,3N,Void in !S
+1C1H--,4C,Void; 8-12 hcp 
+1C1H--,4D,Void; 8-12 hcp 
+1C1S--,3C,Strong Bergen
+1C1S--,3D,Weak Bergen
+1C1S--,1N,7-11 hcp; might have 3!S with 10-11 hcp
+1C1S--1N--,2C,16+ hcp or 6+!S
+1C1S--1N--2C--,2D,8+ hcp; GF opposite 16+
+1C1S--1N--2C--2D--,2H,Nat; GF
+1C1S--1N--2C--2D--2H--,2S,3!S; 10-11 hcp
+1C1S--1N--2C--2D--,2S,6+!S; NF
+1C1S--1N--2C--2D--2S--,3S,3!S; 10-11 hcp
+1C1S--1N--2C--2D--,2N,Some 4-card minor
+1C1S--1N--2C--2D--2N--,3S,3!S; 10-11 hcp
+1C1S--1N--2C--2D--,3C,5+!C
+1C1S--1N--2C--2D--3C--,3S,3!S; 10-11 hcp
+1C1S--1N--2C--2D--,3D,5+!C
+1C1S--1N--2C--2D--3D--,3S,3!S; 10-11 hcp
+1C1S--1N--2C--,2H,Nat; weak not 3!S
+1C1S--1N--2C--,2N,Weak; minors
+1C1S--1N--2C--,3C,Nat; weak not 3!S
+1C1S--1N--2C--,3D,Nat; weak not 3!S
+1C1S--1N--2C--,3H,6+!H; weak not 3!S
+1C1S--1N--2C--,3S,3!S; 5-7 hcp
+1C1S--1N--,2D,4+!D; less than 16 hcp
+1C1S--1N--,2H,4+!H; less than 16 hcp
+1C1S--1N--,2H,4+!C; less than 16 hcp
+1C1S--1N--,2N,Nat; Inv
+1C1S--1N--,3C,5!C; Inv
+1C1S--1N--,3D,5+!D; Inv
+1C1S--1N--,3H,5+!H; Inv
+1C1S--1N--,3S,7!S. Inv
+1C1S--,2C,3+!C; GF
+1C1S--2C--,2D,4+!D
+1C1S--2C--,2H,4+!H
+1C1S--2C--,2S,6+!S; min
+1C1S--2C--,2N,12-14 bal
+1C1S--2C--,3C,3!C or 4+!C and minimum without shortage
+1C1S--2C--,3D,Splinter
+1C1S--2C--,3H,Splinter
+1C1S--2C--,3S,6+!S
+1C1S--2C--,4C,5224; extra
+1C1S--,2D,4+!D; GF
+1C1S--2D--,2S,Min
+1C1S--2D--,2N,12-14 bal
+1C1S--2D--,3C,4+!C; extra
+1C1S--2D--,3D,3!D or 4+!D and min; no shortage
+1C1S--2D--,3H,Single !H; 4+!D
+1C1S--2D--,3S,6+!S; Extra
+1C1S--2D--,4C,Single !C; 4+!D
+1C1S--2D--,4D,5242 with extra
+1C1S--,2H,5+!H; GF
+1C1S--2H--,2S,Min; not 3!H
+1C1S--2H--,2N,12-14 bal
+1C1S--2H--,3C,Nat; extra
+1C1S--2H--,3D,Nat; extra
+1C1S--2H--,3H,Nat; slammish
+1C1S--2H--3H--,3S,Honor cue
+1C1S--2H--3H--,3N,Slammaish; no  shortage
+1C1S--2H--3H--,4C,Short !C
+1C1S--2H--3H--,4D,Short !D
+1C1S--2H--3H--,4H,Min
+1C1S--2H--,3S,6+!S; singlesuited
+1C1S--2H--,4C,Splinter; 4+!H
+1C1S--2H--,4D,Splinter; 4+!H
+1C1S--2H--,4H,Min; 3!H
+1C1S--,2S,3-4!S; 7-9 hcp
+1C1S--2S--,2N,Transfer to 3!C (Romex)
+1C1S--2S--2N--,3C,Mandatory
+1C1S--2S--2N--3C--,3D,Long suit trial
+1C1S--2S--2N--3C--,3H,Long suit trial
+1C1S--2S--2N--3C--,3S,Long suit trial in !C
+1C1S--2S--,3C,Short suit trial
+1C1S--2S--,3D,Short suit trial
+1C1S--2S--,3H,Short suit trial
+1C1S--2S--,5C,Voidwood
+1C1S--2S--,5D,Voidwood
+1C1S--2S--,5H,Voidwood
+%UC0026481% 5H,5S,0 or 3 aces
+%UC0026481% 5H,5N,1 or 4 aces
+%UC0026481% 5H,6C,2 aces; no Q of trumph
+%UC0026481% 5H,6D,2 aces and Q of trumph
+1C1S--,2N,4+!S; Inv+
+1C1S--2N--,3C,Min
+1C1S--2N--3C--,3D,Relay asking for shortage
+1C1S--2N--3C--3D--,3H,Short !C
+1C1S--2N--3C--3D--,3S,Short !D
+1C1S--2N--3C--3D--,3N,Short !H
+1C1S--2N--3C--3D--,4C,Cue; no shortage
+1C1S--2N--3C--3D--,4D,Cue; no shortage
+1C1S--2N--3C--3D--,4H,Cue; no shortage
+1C1S--2N--3C--,3H,Short !C
+1C1S--2N--3C--,3S,Invit
+1C1S--2N--3C--,3N,Short !D
+1C1S--2N--3C--,4C,Short !H
+1C1S--2N--,3D,Extra; no shortage
+1C1S--2N--3D--,3H,Short !C
+1C1S--2N--3D--,3S,Short !D
+1C1S--2N--3D--,3N,Short !H
+1C1S--2N--3D--,4C,Cue
+1C1S--2N--3D--,4D,Cue
+1C1S--2N--3D--,4H,Cue
+1C1S--2N--,3H,Single !C
+1C1S--2N--,3S,Single !D
+1C1S--2N--,3N,Single !H
+1C1S--2N--,4C,Void
+1C1S--2N--,4D,Void
+1C1S--2N--,4H,Void
+1C1S--2N--,4S,Subminimum without shortage
+1C1S--,3C,Nat; Inv
+1C1S--,3D,Nat; Inv
+1C1S--,3H,Nat; Inv
+1C1S--,3S,Preemptive
+1C1S--,3N,8-12 hcp; some single
+1C1S--3N--,4C,Relay
+1C1S--3N--4C--,4D,Singleton
+1C1S--3N--4C--,4H,Singleton
+1C1S--3N--4C--,4S,Singleton !C
+1C1S--,4C,8-12 hcp; Void
+1C1S--,4D,8-12 hcp; Void
+1C1S--,4H,8-12 hcp; Void
+1C,1N,Majors; 12+ hcp
+1C,2C,Nat or the red
+1C,2D,Nat or Majors
+1C,2H,Nat or the blacks
+1C,2S,Nat or minors
+1C,2N,5-5 minors
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+1D,2D,Michaels
+1D2D--,2N,Invit
+1D2D--,3C,Nat; F1
+1D2D--,3H,Invit
+1D2D--,3S,Invit
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+1H--2H,Db,T/O
+1H--2HDb--,2N,Scrambling
+1H,Db,T/O
+1HDb2H,2N,Lebensohl
+%UC0043434% 2N,3C,Accept
+%UC0043434% 2N3C--,3H,Asking for stopper with 4!S
+%UC0043434% 2N3C--,3S,Inv
+%UC0043434% 2N3C--,3N,Choice of games; 4!S
+1H,2H,Michaels
+1H2H--,2N,Asking for minor
+1H2H--,3S,Invit
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+1S--2S,Db,T/O
+1S--2SDb--,2N,Scrambling
+1S,Db,T/O
+1SDb2S,2N,Lebensohl
+%UC0027369% 2N,3C,Accept 
+%UC0027369% 2N3C--,3S,4!H; no spadestopper
+%UC0027369% 2N3C--,3N,4!H and stopper
+%UC0027369% 2N,3S,Strong hand; GF
+1S,2S,Michaels
+1S2S--,2N,Asking for minor
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1N
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(1N) Starting from 14 
+1N,Db,4!S + another suit
+1N,2C,!C+!H; constructive or distributional
+1N,2D,!D+!H; constructive or distributional
+1N,2H,Singlesuited; constructive
+1N,2S,Singlesuited; constructive
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 1N
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(1N) Starting from 13 
+1N,Db,15+ hcp
+1N,2C,??
+1N,2D,Weak singlesuited major
+1N,Db,4!S + another suit
+1N,2C,!C+!H; constructive or distributional
+1N,2D,!D+!H; constructive or distributional
+1N,2H,Singlesuited; constructive
+1N,2S,Singlesuited; constructive
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 2C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2C,Db,Majors
+2C,2D,Nat or majors
+2C,2H,Nat or black suits
+2C,2S,Nat or minors
+2C,2N,2-suited
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 2D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(2D) Nat 
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 2D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+Option,vs_(2D) Multi 
+2D--2H----,4C,5+!C and 5!S
+2D--2H----,4D,5+!D and 5!S
+2D--2H,Db,!H or T/O
+2D--2H,2N,14-16 hcp
+2D--2H2N--,3C,Stayman
+2D--2H2N--3C--,3D,At least one major
+2D--2H2N--3C--3D--,3H,4!S
+2D--2H2N--3C--3D--,3S,4!H
+2D--2H2N--3C--,3H,5!H
+2D--2H2N--3C--,3S,5!S
+2D--2H2N--3C--,3N,No majors
+2D--2H2N--,3D,5+!H
+2D--2H2N--3D--,3H,3+!H
+2D--2H2N--3D--3H--,3S,Shortage
+2D--2H2N--3D--3H--,3N,No shortage
+2D--2H2N--3D--3H--,4C,Shortage
+2D--2H2N--3D--3H--,4D,Shortage
+2D--2H2N--3D--3H--,4N,RKCB-1430
+%UC0026132% 4N,5C,1 or 4 aces
+%UC0026132% 4N5C--,5D,Relay for !HQ
+%UC0026132% 4N5C--5D--,5H,No !HQ
+%UC0026132% 4N5C--5D--,5S,!HQ and extra cue in !S
+%UC0026132% 4N5C--5D--5S--,5N,Promising all aces and !SQ
+%UC0026132% 4N5C--5D--,5N,!HQ and !DK
+%UC0026132% 4N5C--5D--,6C,!HQ and extra cue in !C
+%UC0026132% 4N5C--5D--,6D,!HQ and !DKQ
+%UC0026132% 4N5C--5D--,6H,!HQ and nothing extra
+%UC0026132% 4N5C--,5H,To play if responder has only 1 ace
+%UC0026132% 4N5C--,5S,Specific Suit Ask
+%UC0026132% 4N5C--5S--,5N,Queen or doubleton
+%UC0026132% 4N5C--5S--,6C,Kxx(x)
+%UC0026132% 4N5C--5S--,6D,Kx or single
+%UC0026132% 4N5C--5S--,6H,No control in !S
+%UC0026132% 4N5C--5S--,6S,KQ
+%UC0026132% 4N5C--,5N,All aces and !HQ are present
+%UC0026132% 4N5C--5N--,6C,Extra cue in !C
+%UC0026132% 4N5C--5N--,6D,Extra cue in !D or Last train
+%UC0026132% 4N5C--5N--,6H,Nothing extra
+%UC0026132% 4N5C--,6C,Specific Suit Ask
+%UC0026132% 4N5C--,6D,Specific Suit Ask
+%UC0026132% 4N,5D,0 or 3 aces
+%UC0026132% 4N5D--,5H,To play if 0 aces (Asking for Q)
+%UC0026132% 4N5D--5H--,--,0 aces
+%UC0026132% 4N5D--5H--,5S,3 aces; !HQ; extra in !S
+%UC0026132% 4N5D--5H--,5N,Got 3 and !HQ
+%UC0026132% 4N5D--5H--,6C,3 aces; !HQ; extra in !C
+%UC0026132% 4N5D--5H--,6D,3 aces; !HQ; extra in !D
+%UC0026132% 4N5D--5H--,6H,3 aces; no !HQ
+%UC0026132% 4N5D--,5S,Asking for !HQ (assuming zero aces)
+%UC0026132% 4N5D--,5N,All aces and !HQ are present
+%UC0026132% 4N5D--5N--,6C,Something extra in !C
+%UC0026132% 4N5D--5N--,6D,Something extra in !D
+%UC0026132% 4N5D--5N--,6H,Nothing extra
+%UC0026132% 4N,5H,2 aces; no !HQ
+%UC0026132% 4N5H--,5N,All aces and !HQ are present
+%UC0026132% 4N5H--5N--,6C,Something extra in !C
+%UC0026132% 4N5H--5N--6C--,7H,Counting to 13
+%UC0026132% 4N5H--5N--,6D,Something extra in !D
+%UC0026132% 4N5H--5N--,6H,Nothing extra
+%UC0026132% 4N,5S,2 aces; !HQ
+%UC0026132% 4N5S--,5N,Showing all aces and !HQ
+%UC0026132% 4N5S--5N--,6C,Cue in !C
+%UC0026132% 4N5S--5N--,6D,Cue in !D
+%UC0026132% 4N5S--5N--,6H,Nothing extra
+%UC0026132% 4N,5N,A void and odd no of aces
+%UC0026132% 4N5N--,6H,TO play
+%UC0026132% 4N5N--,7H,TO play
+%UC0026132% 4N,6C,Void !C and even no of aces
+%UC0026132% 4N,6D,Void !D and even no of aces
+%UC0026132% 4N,6H,Void !S and even no of aces
+2D--2H2N--3D--,3S,4+!S; no fit
+2D--2H2N--,3H,5+!S
+2D--2H2N--3H--,3S,3+!S
+2D--2H2N--3H--3S--,3N,No shortage
+2D--2H2N--3H--3S--,4C,Shortage
+2D--2H2N--3H--3S--,4D,Shortage
+2D--2H2N--3H--3S--,4H,Shortage
+2D--2H2N--3H--3S--,4N,RKCB-1430
+%UC0004074% 4N,5C,1 or 4 of 5 aces
+%UC0004074% 4N5C--,5D,Asking for !SQ
+%UC0004074% 4N5C--5D--,5H,!SQ and extra control in !H
+%UC0004074% 4N5C--5D--,5S,No !SQ or extra length
+%UC0004074% 4N5C--5D--5S--,5N,?
+%UC0004074% 4N5C--5D--,5N,!SQ; and something extra; not showable
+%UC0004074% 4N5C--5D--5N--,6C,Ekstra ikke-vist kontrol
+%UC0004074% 4N5C--5D--5N--,6D,Ekstra ikke-vist kontrol
+%UC0004074% 4N5C--5D--5N--,6H,Ekstra ikke-vist kontrol
+%UC0004074% 4N5C--5D--,6C,!SQ and extra control in !C
+%UC0004074% 4N5C--5D--,6D,!SQ and extra control in !D
+%UC0004074% 4N5C--5D--,6S,!SQ; but nothing extra
+%UC0004074% 4N5C--,5H,Specific Suit Ask
+%UC0004074% 4N5C--,5S,To play if only 1 ace
+%UC0004074% 4N5C--,5N,Promising all aces and !SQ
+%UC0004074% 4N5C--5N--,6C,Extra control in !C
+%UC0004074% 4N5C--5N--6C--,6D,Asking for !DK
+%UC0004074% 4N5C--5N--6C--6D--,6S,No !DK
+%UC0004074% 4N5C--5N--6C--6D--,7S,Got the King
+%UC0004074% 4N5C--5N--6C--,6H,Asking for !HK
+%UC0004074% 4N5C--5N--6C--6H--,6S,No !HK
+%UC0004074% 4N5C--5N--6C--6H--,7S,Got !HK
+%UC0004074% 4N5C--5N--6C--,6N,Last grand slam try
+%UC0004074% 4N5C--5N--,6D,Extra control in !D;denies extra in !C
+%UC0004074% 4N5C--5N--6D--,6N,Last grand slam try
+%UC0004074% 4N5C--5N--,6H,Extra control in !H; nothing extra in minor
+%UC0004074% 4N5C--5N--6H--,6N,Last grand slam try
+%UC0004074% 4N5C--5N--,6S,Nothing extra
+%UC0004074% 4N5C--5N--6S--,6N,Last grand slam try
+%UC0004074% 4N5C--5N--,6N,Got all Kings
+%UC0004074% 4N5C--5N--,7S,2-3 extra controls; or just counting to 13
+%UC0004074% 4N5C--,6C,Specific Suit Ask
+%UC0004074% 4N5C--,6D,Specific Suit Ask
+%UC0004074% 4N5C--,6H,Bid 7 if !SQ
+%UC0004074% 4N5C--6H--,6S,No !SQ
+%UC0004074% 4N5C--6H--,7S,I have !SQ
+%UC0004074% 4N,5D,0 or 3 aces
+%UC0004074% 4N5D--,5H,Asking for !SQ
+%UC0004074% 4N5D--5H--,5S,No trump queen
+%UC0004074% 4N5D--5H--,5N,Trump queen - Extra cue in !H
+%UC0004074% 4N5D--5H--,6C,Trump queen - Extra cue in  !C
+%UC0004074% 4N5D--5H--,6D,Trump queen - Extra cue in  !D
+%UC0004074% 4N5D--5H--,6H,Trump queen - KQ in !H
+%UC0004074% 4N5D--5H--,6S,Trump queen - nothing else
+%UC0004074% 4N5D--,5S,To play if 0 aces
+%UC0004074% 4N5D--5S--,5N,Extra - looking for cue
+%UC0004074% 4N5D--5S--,6C,Extra cue
+%UC0004074% 4N5D--5S--,6D,Extra cue
+%UC0004074% 4N5D--5S--,6H,Extra cue
+%UC0004074% 4N5D--,5N,Showing all aces and !SQ
+%UC0004074% 4N5D--5N--,6C,Extra control in !C
+%UC0004074% 4N5D--5N--6C--,6D,Asking for !DK
+%UC0004074% 4N5D--5N--6C--6D--,6S,No !DK
+%UC0004074% 4N5D--5N--6C--6D--,7S,Got the King
+%UC0004074% 4N5D--5N--6C--,6H,Asking for !HK
+%UC0004074% 4N5D--5N--6C--6H--,6S,No !HK
+%UC0004074% 4N5D--5N--6C--6H--,7S,Got !HK
+%UC0004074% 4N5D--5N--6C--,6N,Last grand slam try
+%UC0004074% 4N5D--5N--,6D,Extra control in !D;denies extra in !C
+%UC0004074% 4N5D--5N--6D--,6N,Last grand slam try
+%UC0004074% 4N5D--5N--,6H,Extra control in !H; nothing extra in minor
+%UC0004074% 4N5D--5N--6H--,6N,Last grand slam try
+%UC0004074% 4N5D--5N--,6S,Nothing extra
+%UC0004074% 4N5D--5N--6S--,6N,Last grand slam try
+%UC0004074% 4N5D--5N--,6N,Got all Kings
+%UC0004074% 4N5D--5N--,7S,2-3 extra controls; or just counting to 13
+%UC0004074% 4N5D--,6C,Specific suit ask
+%UC0004074% 4N5D--6C--,6D,Nothing or KQ in !C
+%UC0004074% 4N5D--6C--,6H,Q or KJ in !C
+%UC0004074% 4N5D--6C--,6S,QJ or K in !C
+%UC0004074% 4N5D--6C--,6N,KQJ in !C
+%UC0004074% 4N5D--,6D,Specific suit ask
+%UC0004074% 4N5D--,6H,Specific suit ask
+%UC0004074% 4N,5H,2 aces; no !SQ
+%UC0004074% 4N5H--,5N,Showing all aces and !SQ
+%UC0004074% 4N5H--5N--,6C,Extra control in !C
+%UC0004074% 4N5H--5N--6C--,6D,Asking for !DK
+%UC0004074% 4N5H--5N--6C--6D--,6S,No !DK
+%UC0004074% 4N5H--5N--6C--6D--,7S,Got the King
+%UC0004074% 4N5H--5N--6C--,6H,Asking for !HK
+%UC0004074% 4N5H--5N--6C--6H--,6S,No !HK
+%UC0004074% 4N5H--5N--6C--6H--,7S,Got !HK
+%UC0004074% 4N5H--5N--6C--,6N,Last grand slam try
+%UC0004074% 4N5H--5N--,6D,Extra control in !D;denies extra in !C
+%UC0004074% 4N5H--5N--6D--,6N,Last grand slam try
+%UC0004074% 4N5H--5N--,6H,Extra control in !H; nothing extra in minor
+%UC0004074% 4N5H--5N--6H--,6N,Last grand slam try
+%UC0004074% 4N5H--5N--,6S,Nothing extra
+%UC0004074% 4N5H--5N--6S--,6N,Last grand slam try
+%UC0004074% 4N5H--5N--,6N,Got all Kings
+%UC0004074% 4N5H--5N--,7S,2-3 extra controls; or just counting to 13
+%UC0004074% 4N5H--,6C,Specific Suit Ask
+%UC0004074% 4N5H--,6D,Specific Suit Ask
+%UC0004074% 4N5H--,6H,Specific Suit Ask
+%UC0004074% 4N,5S,2 aces; !SQ
+%UC0004074% 4N5S--,5N,Showing all aces and !SQ
+%UC0004074% 4N5S--5N--,6C,Extra control in !C
+%UC0004074% 4N5S--5N--6C--,6D,Asking for !DK
+%UC0004074% 4N5S--5N--6C--6D--,6S,No !DK
+%UC0004074% 4N5S--5N--6C--6D--,7S,Got the King
+%UC0004074% 4N5S--5N--6C--,6H,Asking for !HK
+%UC0004074% 4N5S--5N--6C--6H--,6S,No !HK
+%UC0004074% 4N5S--5N--6C--6H--,7S,Got !HK
+%UC0004074% 4N5S--5N--6C--,6N,Last grand slam try
+%UC0004074% 4N5S--5N--,6D,Extra control in !D;denies extra in !C
+%UC0004074% 4N5S--5N--6D--,6N,Last grand slam try
+%UC0004074% 4N5S--5N--,6H,Extra control in !H; nothing extra in minor
+%UC0004074% 4N5S--5N--6H--,6N,Last grand slam try
+%UC0004074% 4N5S--5N--,6S,Nothing extra
+%UC0004074% 4N5S--5N--6S--,6N,Last grand slam try
+%UC0004074% 4N5S--5N--,6N,Got all Kings
+%UC0004074% 4N5S--5N--,7S,2-3 extra controls; or just counting to 13
+%UC0004074% 4N5S--,6C,Specific Suit Ask
+%UC0004074% 4N5S--,6D,Specific Suit Ask
+%UC0004074% 4N5S--,6H,Specific Suit Ask
+%UC0004074% 4N,5N,Some void and odd no of aces
+%UC0004074% 4N5N--,6C,Where is the void
+%UC0004074% 4N5N--6C--,6D,Void in lowest suit
+%UC0004074% 4N5N--,6D,?
+%UC0004074% 4N5N--,6H,?
+%UC0004074% 4N,6C,Void and even no of aces
+%UC0004074% 4N6C--,6D,?
+%UC0004074% 4N6C--,6H,?
+%UC0004074% 4N,6D,Void and even no of aces
+%UC0004074% 4N6D--,6H,?
+%UC0004074% 4N,6H,Void and even no of aces
+2D--2H2N--,3S,Minors
+2D--2H2N--3S--,4C,4+!C (might be 3 with a weak major)
+2D--2H2N--3S--,4D,4+!D (might be 3 with a weak major)
+2D--2H2N--,4C,6+!C; slammish
+2D--2H2N--,4D,6+!D; slammish
+2D--2S,Db,!S or T/O
+2D,Db,12-16 bal or any 17+
+2DDb2H,Db,!H or T/O
+2D,2H,Nat; 12-16
+2D,2S,Nat; 12-16
+2D,2N,17-19
+2D2N--,3C,Stayman
+2D2N--3C--,3D,At least one major
+2D2N--3C--3D--,3H,4!S
+2D2N--3C--3D--,3S,4!H
+2D2N--3C--,3H,5!H
+2D2N--3C--,3S,5!S
+2D2N--3C--,3N,No majors
+2D2N--,3D,5+!H
+2D2N--3D--,3H,3+!H
+2D2N--3D--3H--,3S,Shortage
+2D2N--3D--3H--,3N,No shortage
+2D2N--3D--3H--,4C,Shortage
+2D2N--3D--3H--,4D,Shortage
+2D2N--3D--3H--,4N,RKCB-1430
+2D2N--3D--,3S,4+!S; no fit
+2D2N--,3H,5+!S
+2D2N--3H--,3S,3+!S
+2D2N--3H--3S--,3N,No shortage
+2D2N--3H--3S--,4C,Shortage
+2D2N--3H--3S--,4D,Shortage
+2D2N--3H--3S--,4H,Shortage
+2D2N--3H--3S--,4N,RKCB-1430
+2D2N--,3S,Minors
+2D2N--3S--,4C,4+!C (might be 3 with a weak major)
+2D2N--3S--,4D,4+!D (might be 3 with a weak major)
+2D2N--,4C,6+!C; slammish
+2D2N--,4D,6+!D; slammish
+2D,3C,Nat; 13-16
+2D,3D,Nat; 13-16
+2D,3H,Nat; NF
+2D,3S,Nat; NF
+2D,3N,Gambling
+2D,4C,5+!C and 5!H
+2D,4D,5+!D and 5!H
+2D,4N,Minors
+Option
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 2H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2H,Db,T/O
+2HDb--,2N,Lebensohl
+2H,4C,Leaping Michaels
+2H,4D,Leaping Michaels
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 2S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+2S,Db,T/O
+2SDb--,2N,Lebensohl
+2S,4C,Leaping Michaels
+2S,4D,Leaping Michaels
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 3C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+3C,4C,Majors
+3C,4D,5+!D and a major
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 3D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+3D,4C,5+!C and a major
+3D,4D,Majors
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 3H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+3H,4C,5+!C and 5!S
+3H,4D,5+!D and 5!S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opps Opening 3S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+3S,4C,5+!C and 5!H
+3S,4D,5+!D and 5!H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 1C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,1C,3+!C
+1C--,1D,Walsh
+1C--1D--,1H,4+!H; unbal
+1C--1D--,1S,4+!S; unbal
+1C--1D--,1N,12-14 hcp; might have major
+1C--1D--,2C,6(5)+!C; no majors; min
+1C--1D--,2D,4+!D; min
+1C--1D--,2H,Nat; GF
+1C--1D--,2S,Nat; GF
+1C--1D--,2N,18-19 bal
+1C--1D--,3C,6+!C; 16+ hcp
+1C--1D--,3D,4+!D; 5+!C; 14-15 hcp
+1C--1D--,3H,Splinter; agreeing !D
+1C--1D--,3S,Splinter; agreeing !D
+1C--,1H,4+!H; longer minor possible
+1C--1H--,1S,4+!S; unbal
+1C--1H--,1N,12-14 hcp
+1C--1H--,2C,6(5)+!C; 12-14 hcp
+1C--1H--,2D,4+!D; 16+ hcp
+1C--1H--,2H,3+!H (unbal) or 4+!H; 12-15 hcp
+1C--1H--2H--,2N,Asking
+1C--1H--2H--2N--,3C,3!H and min
+1C--1H--2H--2N--,3D,3!H and max
+1C--1H--2H--2N--,3H,4!H and min
+1C--1H--2H--2N--,3S,4!H and max
+1C--1H--,2S,4+!S; GF
+1C--1H--,2N,18-19 bal
+1C--1H--2N--,3C,Transfer to 3!D; weak
+1C--1H--2N--3C--,3D,Mandatory
+1C--1H--2N--3C--3D--,3H,Sign-off
+1C--1H--2N--3C--3D--,3N,Choice of game (5332)
+1C--1H--2N--,3D,Nat; GF
+1C--1H--2N--,3H,Nat; GF
+1C--1H--2N--3H--,3S,4!S
+1C--1H--2N--,3S,4!S
+1C--1H--,3C,6+!C; 16+ hcp
+1C--1H--,3D,0-1!D; 4+!H; 14-15 hcp
+1C--1H--3D--,3N,Asking
+1C--1H--3D--3N--,4D,Void
+1C--1H--,3H,4+!H; unbal 14-15 hcp
+1C--1H--,3S,Unknown single; slammish
+1C--1H--3S--,3N,Relay
+1C--1H--3S--3N--,4C,Single !S
+1C--1H--3S--3N--,4D,Single !D
+1C--1H--,3N,To play; 6+!C
+1C--1H--,4C,6+!C; 4!H
+1C--1H--,4D,Void
+1C--1H--,4H,18-19 hcp; 4!H; no shortage
+1C--1HDb,Rd,3!H
+1C--1H1S,Db,3!H
+1C--1H2C,Db,3!H
+1C--1H2D,Db,3!H
+1C--1H3D,Db,Extra without a more descriptive bid
+1C--,1S,4+!S; longer minor possible
+1C--1S--,1N,12-14 hcp
+1C--1S--,2C,6(5)+!C; 12-14 hcp
+1C--1S--,2D,4+!D; extra
+1C--1S--,2H,4+!H; extra
+1C--1S--,2S,3+!S (unbal) or 4+!S
+1C--1S--2S--,2N,Asking
+1C--1S--2S--2N--,3C,3!S; min
+1C--1S--2S--2N--,3D,3!S; max
+1C--1S--2S--2N--,3H,4!S; min
+1C--1S--2S--2N--,3S,4!S; max
+1C--1S--,2N,18-19 bal
+1C--1S--2N--,3C,Transfer to 3!D
+1C--1S--2N--3C--,3D,Mandatory
+1C--1S--2N--3C--3D--,3S,Signoff
+1C--1S--2N--3C--3D--,3N,Choice of game (5332)
+1C--1S--2N--,3D,Nat; GF
+1C--1S--2N--,3H,Nat; GF
+1C--1S--2N--,3S,Nat; GF
+1C--1S--,3C,6+!C; 16+ hcp
+1C--1S--,3D,0-1!D; 4+!S; extra
+1C--1S--3D--,3N,Asking
+1C--1S--3D--3N--,4D,Void
+1C--1S--,3H,0-1!H; 4!S 14-15 hcp
+1C--1S--3H--,3N,Asking
+1C--1S--3H--3N--,4H,Void
+1C--1S--,3S,4!S; unbal; extra
+1C--1S--,3N,To play; 6+!C
+1C--1S--3N--,4C,Relay
+1C--1S--3N--4C--,4D,Single !D
+1C--1S--3N--4C--,4H,Single !H
+1C--1S--,4C,6+!C; 4!S
+1C--1S--,4D,Void
+1C--1S--,4H,Void
+1C--1S--,4S,4!S; 18-19 hcp; no shortage
+1C--,1N,7-11 hcp
+1C--1N--,2C,6+!C; 12-15 hcp
+1C--1N--,2D,Nat; extra
+1C--1N--,2H,Nat; extra
+1C--1N--,2S,Nat; extra
+1C--1N--,2N,Invit
+1C--1N--,3C,6+!C; 16+ hcp
+1C--1N--,3D,5!D; longer !C
+1C--1N--,3H,5!H; longer !C
+1C--1N--,3S,5!S; longer !C
+1C--,2C,5+!C; GF; no majors
+1C--2C--,2D,Relay; 15+ hcp
+1C--2C--2D--,2H,Single
+1C--2C--2D--,2S,Single
+1C--2C--2D--,2N,No single; major stoppers
+1C--2C--2D--,3C,No single; missing a majorstopper
+1C--2C--2D--,3D,Single
+1C--2C--2D--,3H,Void
+1C--2C--2D--,3S,Void
+1C--2C--2D--,4D,Void
+1C--2C--,2H,Single; min
+1C--2C--,2S,Single; min
+1C--2C--,2N,12-14 bal
+1C--2C--2N--,3C,Slammish
+1C--2C--2N--,3D,Single
+1C--2C--2N--,3H,Single
+1C--2C--2N--,3S,Single
+1C--2C--,3C,12-14 no single or void
+1C--2C--3C--,3D,Nat/Stopper
+1C--2C--3C--,3H,Nat/Stopper
+1C--2C--3C--,3S,Nat/Stopper
+1C--2C--,3D,Single; min
+1C--2C--,3H,Void; min
+1C--2C--,3S,Void; min
+1C--,2D,9-11 unbal; 4+!C; no majors
+1C--2D--,2H,Stopper/Nat; extra
+1C--2D--,2S,Stopper/Nat; extra
+1C--2D--,2N,12-14; 3!C
+1C--2D--,3C,To play with 4+!C
+1C--2D--,3D,Splinter
+1C--2D--,3H,Splinter
+1C--2D--,3S,Splinter
+1C--2D--,3N,TO play
+1C--2D--,4C,Slammish
+1C--2D--,4D,Void; agreeing !C
+1C--2D--,4H,Void; agreeing !C
+1C--2D--,4S,Void; agreeing !C
+1C--,2H,WJS
+1C--2H--,2N,Nat; Inv
+1C--2H--,3H,Nat; Inv
+1C--,2S,WJS
+1C--2S--,2N,Nat; Inv
+1C--2S--,3S,Nat; Inv
+1C--,2N,5!C; 11-12 hcp bal
+1C--2N--,3D,Stopper/Nat
+1C--2N--,3H,Stopper/Nat
+1C--2N--,3S,Stopper/Nat
+1C--2N--,4C,Slammish
+1C--2N--4C--,4D,Cue
+1C--2N--4C--,4H,Cue
+1C--2N--4C--,4S,Cue
+1C--2N--,4D,Void - agreeing !C
+1C--2N--,4H,Void - agreeing !C
+1C--2N--,4S,Void - agreeing !C
+1C--,3C,5-7 hcp; 5+!C; no majors
+1C--3C--,3D,Stopper or advance cue
+1C--3C--,3H,Stopper or advance cue
+1C--3C--,3S,Stopper or advance cue
+1C--3C--,4C,Invit to 5!C
+1C--3C--,4D,Splinter
+1C--3C--,4H,Splinter
+1C--3C--,4S,Splinter
+1C--3C--,4N,RKCB-0314
+%UC0026129% 4N--,5C,0 or 3 aces
+%UC0026129% 4N--5C--,5D,Asking for !CQ
+%UC0026129% 4N--5C--5D--,5H,!CQ and extra in !H
+%UC0026129% 4N--5C--5D--,5S,!CQ and extra in !S
+%UC0026129% 4N--5C--5D--,5N,!CQ and extra in !D or just general extra
+%UC0026129% 4N--5C--5D--,6C,No !CQ
+%UC0026129% 4N--5C--,5N,Showing all aces and !CQ
+%UC0026129% 4N--5C--5N--,6C,Nothing extra
+%UC0026129% 4N--5C--5N--,6D,Extra in !D
+%UC0026129% 4N--5C--5N--,6H,Extra in !H
+%UC0026129% 4N--5C--5N--,6S,Extra in !S
+%UC0026129% 4N--,5D,1 or 4 aces
+%UC0026129% 4N--5D--,5H,Asking for !CQ (Showing all aces)
+%UC0026129% 4N--5D--5H--,5S,!CQ and extra cue in !S
+%UC0026129% 4N--5D--5H--,5N,!CQ; nothing extra in !S
+%UC0026129% 4N--5D--5H--,6C,No !CQ
+%UC0026129% 4N--5D--,5N,Showing all aces and !CQ
+%UC0026129% 4N--,5H,2 aces; no !CQ
+%UC0026129% 4N--5H--,5N,Showing all aces and !CQ
+%UC0026129% 4N--5H--5N--,6C,Nothing extra
+%UC0026129% 4N--5H--5N--,7C,At least 2 extra keycards
+%UC0026129% 4N--,5S,2 aces and !CQ
+%UC0026129% 4N--5S--,5N,Showing all aces and !CQ
+%UC0026129% 4N--5S--5N--,6D,!DK
+%UC0026129% 4N--5S--5N--,6S,!SK
+1C--,3D,Preemptive
+1C--,3H,Preemptive
+1C--,3S,Preemptive
+1C--,3N,13-15 hcp
+1C--3N--,4C,Nat; slammish
+1C--3N--4C--,4D,Cue
+1C--3N--4C--,4H,Cue
+1C--3N--4C--,4S,Cue
+1C--3N--4C--,5C,Bad hand for slam
+1C--,4C,6+!C; Preeemptive
+1C--,4D,Nat; NF
+1C1D,Db,4-4 or better in majors
+1C1D,1H,4+!H; F1
+1C1D,1S,4+!S; F1
+1C1H,Db,4!S
+1C1H,1S,5+!S; F1
+1C1S,Db,4+!H
+1C1SDb--,1N,12-14 bal
+1C1SDb--,2C,5+!C
+1C1SDb--2C--,2H,6!H; NF
+1C1S,3H,Nat; Inv
+1C2C,Db,Penalty in at least one major
+1C2C,2D,Nat; NF
+1C2C,2H,Forcing with !D
+1C2C,2S,Forcing with !C
+1C2C,2N,Nat; Inv
+1C2C,3C,Nat; NF
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 1D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,1D,3+!D
+1D--1H--,2C,5+!D; 4+!C. 12-17 hcp
+1D--1H--,2D,6(5)+!D; 12-14
+1D--1H--,3C,Nat; GF
+1D--1H--,3D,6+!D; 16+ hcp
+1D--1H--,3S,Slammish with shortage
+1D--1H--3S--,3N,Relay
+1D--1H--3S--3N--,4C,Single !C
+1D--1H--3S--3N--,4H,Single !H
+1D--1H--,3N,To play; 6+!D
+1D--1H--,4C,Void in !C
+1D--1H--,4D,6+!D; 4+!H; extra
+1D--1H--,1S,4+!S; unbal
+1D--1H--,1N,12-14 hcp
+1D--1H--,2C,6(5)+!C; 12-14 hcp
+1D--1H--,2D,4+!D; 16+ hcp
+1D--1H--,2H,3+!H (unbal) or 4+!H; 12-15 hcp
+1D--1H--2H--,2N,Asking
+1D--1H--2H--2N--,3C,3!H and min
+1D--1H--2H--2N--,3D,3!H and max
+1D--1H--2H--2N--,3H,4!H and min
+1D--1H--2H--2N--,3S,4!H and max
+1D--1H--,2S,4+!S; GF
+1D--1H--,2N,18-19 bal
+1D--1H--2N--,3C,Transfer to 3!D; weak
+1D--1H--2N--3C--,3D,Mandatory
+1D--1H--2N--3C--3D--,3H,Sign-off
+1D--1H--2N--3C--3D--,3N,Choice of game (5332)
+1D--1H--2N--,3D,Nat; GF
+1D--1H--2N--,3H,Nat; GF
+1D--1H--2N--3H--,3S,4!S
+1D--1H--2N--,3S,4!S
+1D--1H--,3C,6+!C; 16+ hcp
+1D--1H--,3D,0-1!D; 4+!H; 14-15 hcp
+1D--1H--3D--,3N,Asking
+1D--1H--3D--3N--,4D,Void
+1D--1H--,3H,4+!H; unbal 14-15 hcp
+1D--1H--,3S,Unknown single; slammish
+1D--1H--3S--,3N,Relay
+1D--1H--3S--3N--,4C,Single !S
+1D--1H--3S--3N--,4D,Single !D
+1D--1H--,3N,To play; 6+!C
+1D--1H--,4C,6+!C; 4!H
+1D--1H--,4D,Void
+1D--1H--,4H,18-19 hcp; 4!H; no shortage
+1D--1S--,2C,5+!D; 4+!C; 12-17 hcp
+1D--1S--,2D,6(5)+!D; 12-14
+1D--1S--,3C,5+d>; 4+!C; GF
+1D--1S--,3D,6+!D; 16+ hcp
+1D--1S--,3N,To play; 6+!D
+1D--1S--3N--,4C,Relay
+1D--1S--3N--4C--,4D,Single !C
+1D--1S--3N--4C--,4H,Single !H
+1D--1S--,4C,Void
+1D--1S--,4D,6+!D; 4!S; extra
+1D--1S--,1N,12-14 hcp
+1D--1S--,2C,6(5)+!C; 12-14 hcp
+1D--1S--,2D,4+!D; extra
+1D--1S--,2H,4+!H; extra
+1D--1S--,2S,3+!S (unbal) or 4+!S
+1D--1S--2S--,2N,Asking
+1D--1S--2S--2N--,3C,3!S; min
+1D--1S--2S--2N--,3D,3!S; max
+1D--1S--2S--2N--,3H,4!S; min
+1D--1S--2S--2N--,3S,4!S; max
+1D--1S--,2N,18-19 bal
+1D--1S--2N--,3C,Transfer to 3!D
+1D--1S--2N--3C--,3D,Mandatory
+1D--1S--2N--3C--3D--,3S,Signoff
+1D--1S--2N--3C--3D--,3N,Choice of game (5332)
+1D--1S--2N--,3D,Nat; GF
+1D--1S--2N--,3H,Nat; GF
+1D--1S--2N--,3S,Nat; GF
+1D--1S--,3C,6+!C; 16+ hcp
+1D--1S--,3D,0-1!D; 4+!S; extra
+1D--1S--3D--,3N,Asking
+1D--1S--3D--3N--,4D,Void
+1D--1S--,3H,0-1!H; 4!S 14-15 hcp
+1D--1S--3H--,3N,Asking
+1D--1S--3H--3N--,4H,Void
+1D--1S--,3S,4!S; unbal; extra
+1D--1S--,3N,To play; 6+!C
+1D--1S--3N--,4C,Relay
+1D--1S--3N--4C--,4D,Single !D
+1D--1S--3N--4C--,4H,Single !H
+1D--1S--,4C,6+!C; 4!S
+1D--1S--,4D,Void
+1D--1S--,4H,Void
+1D--1S--,4S,4!S; 18-19 hcp; no shortage
+1D--,1N,7-10 hcp
+1D--1N--,2C,5+!D and 5+!C
+1D--1N--,2D,6+!D; min
+1D--1N--,2H,Nat; extra
+1D--1N--,2S,Nat; extra
+1D--1N--,2N,Invit
+1D--1N--,3C,5+!D and 4+!C; 16+ hcp
+1D--1N--,3D,6+!D; 16+ hcp
+1D--,2C,4+!C; GF
+1D--2C--,2D,6+!D; min
+1D--2C--,2H,Nat; extra
+1D--2C--,2S,Nat; extra
+1D--2C--,2N,12-14 bal
+1D--2C--,3C,4+!D and 4+!C; nor shortage; min
+1D--2C--,3D,6+!D; extra
+1D--2C--,3H,Splinter; 4+!C
+1D--2C--,3S,Splinter; 4+!C
+1D--,2D,5+!D; GF
+1D--2D--,2H,Relay (15+ hcp)
+1D--2D--2H--,2S,Single
+1D--2D--2H--,2N,No shortage with majorstoppers
+1D--2D--2H--,3C,Single
+1D--2D--2H--,3D,No void; not both major stopped
+1D--2D--2H--,3H,Single
+1D--2D--2H--,3S,Void
+1D--2D--2H--,4C,Void
+1D--2D--2H--,4H,Void
+1D--2D--,2S,Single !S; min
+1D--2D--,2N,12-14 bal
+1D--2D--2N--,3C,Single
+1D--2D--2N--,3D,Slammish
+1D--2D--2N--,3H,Single
+1D--2D--2N--,3S,Single
+1D--2D--,3C,Single !C; min
+1D--2D--,3D,12-14 no shortage
+1D--2D--3D--,3H,Stopper
+1D--2D--3D--,3S,Stopper
+1D--2D--,3H,Single !H; min
+1D--2D--,3S,Void; min
+1D--2D--,4C,Void; min
+1D--2D--,4H,Void; min
+1D--,2H,WJS
+1D--2H--,2N,Nat; Inv
+1D--2H--,3H,Nat; Inv
+1D--,2S,WJS
+1D--2S--,2N,Nat; Inv
+1D--2S--,3S,Nat; Inv
+1D--,2N,5+!D; 11-12 bal
+1D--2N--,3C,Stopper/nat
+1D--2N--,3D,Min; 5+!D
+1D--2N--,3H,Stopper/nat
+1D--2N--,3S,Stopper/nat
+1D--,3C,5+!D; 10-12 unbal
+1D--3C--,3D,Min
+1D--3C--,3H,Nat/Stopper
+1D--3C--,3S,Nat/Stopper
+1D--,3D,5+!D; 5-7 hcp
+1D--3D--,3H,Nat/Stopper
+1D--3D--,3S,Nat/Stopper
+1D--3D--,4C,Splint
+1D--3D--,4D,Invit
+1D--3D--4D--,4H,Cue
+1D--3D--4D--,4S,Cue
+1D--3D--,4H,Splint
+1D--3D--,4S,Splint
+1D--3D--,4N,RKCB-0314
+1D--,3H,7+!H; preemptive
+1D--,3S,7+!S; preemptive
+1D1S,2C,5+!C; 10+ hcp
+1D1S,2H,5+!H; 10+ hcp
+1D1S,Db,4+!H
+1D1SDb--,1N,12-14 bal
+1D1SDb--,2C,5+!C
+1D1SDb--2C--,2H,6!H; NF
+1D1S,3H,Nat; Inv
+1D2C----,Db,T/O
+1D2C----Db--,--,Penalty
+1D2C,Db,Negative
+1D4S,Db,T/O
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 1H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,1H,5+!H
+1H--1S--,1N,12-14 bal
+1H--1S--,2C,16+ hcp or 6+!H
+1H--1S--2C--,2D,8+ hcp; GF if opener is 16+
+1H--1S--2C--2D--,2S,3!S; GF
+1H--1S--2C--2D--,2H,6+!H; NF
+1H--1S--2C--2D--2H--,3H,3!H; 10-11
+1H--1S--2C--2D--,2S,4+!S; GF
+1H--1S--2C--2D--2S--,3H,3!H; 10-11
+1H--1S--2C--2D--,2N,Some 4-card minor
+1H--1S--2C--2D--2N--,3H,3!H; 10-11
+1H--1S--2C--2D--,3C,5+!C
+1H--1S--2C--2D--3C--,3H,3!H; 10-11
+1H--1S--2C--2D--,3D,5+!D
+1H--1S--2C--2D--3D--,3H,3!H; 10-11
+1H--1S--2C--,2S,Weak; not 3!H
+1H--1S--2C--,2D,8+ hcp; GF if opener is 16+
+1H--1S--2C--2D--,2H,6+!H; NF
+1H--1S--2C--2D--2H--,3H,3!H; 10-11
+1H--1S--2C--2D--,2S,4+!S; GF
+1H--1S--2C--2D--2S--,3H,3!H; 10-11
+1H--1S--2C--2D--,2N,Some 4-card minor
+1H--1S--2C--2D--2N--,3H,3!H; 10-11
+1H--1S--2C--2D--,3C,5+!C
+1H--1S--2C--2D--3C--,3H,3!H; 10-11
+1H--1S--2C--2D--,3D,5+!D
+1H--1S--2C--2D--3D--,3H,3!H; 10-11
+1H--1S--2C--,2H,Min
+1H--1S--2C--,2N,Minors; min
+1H--1S--2C--,3C,6+!C; min
+1H--1S--2C--,3D,6+!D; min
+1H--1S--2C--,3H,5-7 hcp; 3!H
+1H--1S--,2D,Nat; less than 16 hcp
+1H--1S--,2H,4+!C; less than 16 hcp
+1H--1S--,2S,Nat; less than 16 hcp
+1H--1S--,2N,4+!S; Inv+
+1H--1S--2N--,3C,Any GF
+1H--1S--2N--3C--,3D,6!H and 4!S
+1H--1S--2N--3C--3D--,3H,Relay
+1H--1S--2N--3C--3D--3H--,3S,Single !C
+1H--1S--2N--3C--3D--3H--,3N,Single !D
+1H--1S--2N--3C--,3H,Single !C
+1H--1S--2N--3C--,3S,Single !D
+1H--1S--2N--,3D,Invitational
+1H--1S--2N--3D--,3H,6!H and 4!S
+1H--1S--,3C,5+!C; less than 16
+1H--1S--,3D,5+!D; less than 16
+1H--1S--,3H,Nat; less then 16 hcp
+1H--1S--,4C,Void; agreeing !S
+1H--1S--,4D,Void; agreeing !S
+1H--,1N,7-11 hcp; might be 3!H with 10-11
+1H--1N--,2C,16+ hcp or 6+!H
+1H--1N--2C--,2D,8+ hcp; GF if opener is 16+
+1H--1N--2C--2D--,2H,6+!H; NF
+1H--1N--2C--2D--2H--,3H,3!H; 10-11
+1H--1N--2C--2D--,2S,4+!S; GF
+1H--1N--2C--2D--2S--,3H,3!H; 10-11
+1H--1N--2C--2D--,2N,Some 4-card minor
+1H--1N--2C--2D--2N--,3H,3!H; 10-11
+1H--1N--2C--2D--,3C,5+!C
+1H--1N--2C--2D--3C--,3H,3!H; 10-11
+1H--1N--2C--2D--,3D,5+!D
+1H--1N--2C--2D--3D--,3H,3!H; 10-11
+1H--1N--2C--,2H,Min
+1H--1N--2C--,2N,Minors; min
+1H--1N--2C--,3C,6+!C; min
+1H--1N--2C--,3D,6+!D; min
+1H--1N--2C--,3H,5-7 hcp; 3!H
+1H--1N--,2D,4+!D; less than 16
+1H--1N--,2H,4+!C; less than 16
+1H--1N--,2S,4+!S; less than 16
+1H--1N--,2N,Nat; Inv
+1H--1N--,3C,5+!C; Inv
+1H--1N--,3D,5+!C; Inv
+1H--1N--,3H,7+!H; Inv
+1H--,2C,3+!C; GF; no majors
+1H--2C--,2H,Min
+1H--2C--,2S,Nat; extra
+1H--2C--,2N,12-14 bal
+1H--2C--,3C,Min on only 3-card support
+1H--2C--,3D,Splinter; agreeing !C
+1H--2C--,3H,6+!H; extra
+1H--2C--,3S,Splinter; agreeing !C
+1H--2C--,4C,2524; extra
+1H--,2D,4+!D; GF; no majors
+1H--2D--,2H,Min
+1H--2D--,2S,Nat; with extra
+1H--2D--,2N,12-14 bal
+1H--2D--,3C,Nat; extra
+1H--2D--,3D,Nat; min or only 3-card support
+1H--2D--,3H,6+!H; extra
+1H--2D--,3S,Splinter; agreeing !D
+1H--2D--,4C,Splinter agreeing !D
+1H--2D--,4D,2542; extra
+1H--,2H,3-4 !H; 7-9 hcp
+1H--2H--,2S,Transfer to 2N (Romex)
+1H--2H--2S--,2N,Required
+1H--2H--2S--2N--,3C,Long suit trial
+1H--2H--2S--2N--,3D,Long suit trial
+1H--2H--2S--2N--,3H,Long suit trial in !S
+1H--2H--,2N,Short suit trial in !S
+1H--2H--,3C,Short suit trial
+1H--2H--,3D,Short suit trial
+1H--2H--,4S,Voidwood
+1H--2H--,5C,Voidwood
+1H--2H--,5D,Voidwood
+1H--,2S,WJS
+1H--2S--,2N,3+!S; Inv+
+1H--2S--,3C,Nat; NF
+1H--2S--,3D,Nat; NF
+1H--2S--,3H,Nat; NF
+1H--2S--,3S,Preemptive
+1H--2S--,4D,Nat; Inv
+1H--,2N,4+!H; Inv+
+1H--2N--,3C,Any min
+1H--2N--3C--,3D,Asking for single
+1H--2N--3C--3D--,3H,Single !C
+1H--2N--3C--3D--,3S,Single !D
+1H--2N--3C--3D--,3N,Single !S
+1H--2N--3C--3D--,4C,Cue; no shortage
+1H--2N--3C--3D--,4D,Cue; no shortage
+1H--2N--3C--3D--,4H,No shortage; no minor cue
+1H--2N--3C--,3H,Inv
+1H--2N--3C--,3S,Single !C
+1H--2N--3C--,3N,Single !D
+1H--2N--3C--,4C,Single !S
+1H--2N--3C--,4D,Void
+1H--2N--,3D,Extra without shortage
+1H--2N--3D--,3H,Single !C
+1H--2N--3D--,3S,Single !D
+1H--2N--3D--,3N,Single !S
+1H--2N--3D--,4C,Cue
+1H--2N--3D--,4D,Cue
+1H--2N--3D--,4H,No shortage; no minor cue
+1H--2N--,3H,Short !C; extra
+1H--2N--,3S,Short !D; extra
+1H--2N--,3N,Single or void !S; extra
+1H--2N--,4C,Void
+1H--2N--,4D,Void
+1H--2N--,4H,Subminimum; not shortage
+1H--,3C,Nat; Inv
+1H--,3D,Nat; Inv
+1H--,3H,Preemptive
+1H--,3S,8-12 hcp; some single
+1H--3S--,3N,Relay
+1H--3S--3N--,4C,Single
+1H--3S--3N--,4D,Single
+1H--3S--3N--,4H,Single !S
+1H--,3N,Void in !S
+1H--,4C,Void; 8-12 hcp 
+1H--,4D,Void; 8-12 hcp 
+1HDb,Rd,10+ hcp; penalty oriented
+1HDb,1S,Nat; F1
+1HDb,1N,Transfer; 6+!C
+1HDb,2C,Transfer; 6+!D
+1HDb,2D,3+!H; 8+ hcp
+1HDb,2H,Weak raise
+1HDb,2S,WJS
+1HDb,2N,4´!H; Invit+
+1HDb2N--,3C,Any min
+1HDb2N--3C--,3D,Asking for single
+1HDb2N--3C--3D--,3H,Single !C
+1HDb2N--3C--3D--,3S,Single !D
+1HDb2N--3C--3D--,3N,Single !S
+1HDb2N--3C--3D--,4C,Cue; no shortage
+1HDb2N--3C--3D--,4D,Cue; no shortage
+1HDb2N--3C--3D--,4H,No shortage; no minor cue
+1HDb2N--3C--,3H,Inv
+1HDb2N--3C--,3S,Single !C
+1HDb2N--3C--,3N,Single !D
+1HDb2N--3C--,4C,Single !S
+1HDb2N--3C--,4D,Void
+1HDb2N--,3D,Extra without shortage
+1HDb2N--3D--,3H,Single !C
+1HDb2N--3D--,3S,Single !D
+1HDb2N--3D--,3N,Single !S
+1HDb2N--3D--,4C,Cue
+1HDb2N--3D--,4D,Cue
+1HDb2N--3D--,4H,No shortage; no minor cue
+1HDb2N--,3H,Short !C; extra
+1HDb2N--,3S,Short !D; extra
+1HDb2N--,3N,Single or void !S; extra
+1HDb2N--,4C,Void
+1HDb2N--,4D,Void
+1HDb2N--,4H,Subminimum; not shortage
+1HDb,3H,4+!H; Inv
+1H1S,2S,3!H; Inv+
+1H1S,2N,4+!H; Inv+
+1H1S2N--,3C,Any min
+1H1S2N--3C--,3D,Asking for single
+1H1S2N--3C--3D--,3H,Single !C
+1H1S2N--3C--3D--,3S,Single !D
+1H1S2N--3C--3D--,3N,Single !S
+1H1S2N--3C--3D--,4C,Cue; no shortage
+1H1S2N--3C--3D--,4D,Cue; no shortage
+1H1S2N--3C--3D--,4H,No shortage; no minor cue
+1H1S2N--3C--,3H,Inv
+1H1S2N--3C--,3S,Single !C
+1H1S2N--3C--,3N,Single !D
+1H1S2N--3C--,4C,Single !S
+1H1S2N--3C--,4D,Void
+1H1S2N--,3D,Extra without shortage
+1H1S2N--3D--,3H,Single !C
+1H1S2N--3D--,3S,Single !D
+1H1S2N--3D--,3N,Single !S
+1H1S2N--3D--,4C,Cue
+1H1S2N--3D--,4D,Cue
+1H1S2N--3D--,4H,No shortage; no minor cue
+1H1S2N--,3H,Short !C; extra
+1H1S2N--,3S,Short !D; extra
+1H1S2N--,3N,Single or void !S; extra
+1H1S2N--,4C,Void
+1H1S2N--,4D,Void
+1H1S2N--,4H,Subminimum; not shortage
+1H2C,2N,4+!H; Inv+
+1H2C2N--,3C,Any min
+1H2C2N--3C--,3D,Asking for single
+1H2C2N--3C--3D--,3H,Single !C
+1H2C2N--3C--3D--,3S,Single !D
+1H2C2N--3C--3D--,3N,Single !S
+1H2C2N--3C--3D--,4C,Cue; no shortage
+1H2C2N--3C--3D--,4D,Cue; no shortage
+1H2C2N--3C--3D--,4H,No shortage; no minor cue
+1H2C2N--3C--,3H,Inv
+1H2C2N--3C--,3S,Single !C
+1H2C2N--3C--,3N,Single !D
+1H2C2N--3C--,4C,Single !S
+1H2C2N--3C--,4D,Void
+1H2C2N--,3D,Extra without shortage
+1H2C2N--3D--,3H,Single !C
+1H2C2N--3D--,3S,Single !D
+1H2C2N--3D--,3N,Single !S
+1H2C2N--3D--,4C,Cue
+1H2C2N--3D--,4D,Cue
+1H2C2N--3D--,4H,No shortage; no minor cue
+1H2C2N--,3H,Short !C; extra
+1H2C2N--,3S,Short !D; extra
+1H2C2N--,3N,Single or void !S; extra
+1H2C2N--,4C,Void
+1H2C2N--,4D,Void
+1H2C2N--,4H,Subminimum; not shortage
+1H2C,3C,3!H; Inv+
+1H2D,2N,4+!H; Inv+
+1H2D2N--,3C,Any min
+1H2D2N--3C--,3D,Asking for single
+1H2D2N--3C--3D--,3H,Single !C
+1H2D2N--3C--3D--,3S,Single !D
+1H2D2N--3C--3D--,3N,Single !S
+1H2D2N--3C--3D--,4C,Cue; no shortage
+1H2D2N--3C--3D--,4D,Cue; no shortage
+1H2D2N--3C--3D--,4H,No shortage; no minor cue
+1H2D2N--3C--,3H,Inv
+1H2D2N--3C--,3S,Single !C
+1H2D2N--3C--,3N,Single !D
+1H2D2N--3C--,4C,Single !S
+1H2D2N--3C--,4D,Void
+1H2D2N--,3D,Extra without shortage
+1H2D2N--3D--,3H,Single !C
+1H2D2N--3D--,3S,Single !D
+1H2D2N--3D--,3N,Single !S
+1H2D2N--3D--,4C,Cue
+1H2D2N--3D--,4D,Cue
+1H2D2N--3D--,4H,No shortage; no minor cue
+1H2D2N--,3H,Short !C; extra
+1H2D2N--,3S,Short !D; extra
+1H2D2N--,3N,Single or void !S; extra
+1H2D2N--,4C,Void
+1H2D2N--,4D,Void
+1H2D2N--,4H,Subminimum; not shortage
+1H2D,3D,3!H; Inv+
+1H2H,--,Might be penalty
+1H2H,Db,Stolen bid
+1H2H,2S,3!H; 10+ hcp
+1H2H,2N,4+!H; Invt+
+1H2H2N--,3C,Any min
+1H2H2N--3C--,3D,Asking for single
+1H2H2N--3C--3D--,3H,Single !C
+1H2H2N--3C--3D--,3S,Single !D
+1H2H2N--3C--3D--,3N,Single !S
+1H2H2N--3C--3D--,4C,Cue; no shortage
+1H2H2N--3C--3D--,4D,Cue; no shortage
+1H2H2N--3C--3D--,4H,No shortage; no minor cue
+1H2H2N--3C--,3H,Inv
+1H2H2N--3C--,3S,Single !C
+1H2H2N--3C--,3N,Single !D
+1H2H2N--3C--,4C,Single !S
+1H2H2N--3C--,4D,Void
+1H2H2N--,3D,Extra without shortage
+1H2H2N--3D--,3H,Single !C
+1H2H2N--3D--,3S,Single !D
+1H2H2N--3D--,3N,Single !S
+1H2H2N--3D--,4C,Cue
+1H2H2N--3D--,4D,Cue
+1H2H2N--3D--,4H,No shortage; no minor cue
+1H2H2N--,3H,Short !C; extra
+1H2H2N--,3S,Short !D; extra
+1H2H2N--,3N,Single or void !S; extra
+1H2H2N--,4C,Void
+1H2H2N--,4D,Void
+1H2H2N--,4H,Subminimum; not shortage
+1H2H,3H,4+!H; less than 10 hcp
+1H2H,4C,Splinter
+1H2H,4D,Splinter
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 1S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,1S,5+!S
+1S--,1N,7-11 hcp; might have 3!S with 10-11 hcp
+1S--1N--,2C,16+ hcp or 6+!S
+1S--1N--2C--,2D,8+ hcp; GF opposite 16+
+1S--1N--2C--2D--,2H,Nat; GF
+1S--1N--2C--2D--2H--,2S,3!S; 10-11 hcp
+1S--1N--2C--2D--,2S,6+!S; NF
+1S--1N--2C--2D--2S--,3S,3!S; 10-11 hcp
+1S--1N--2C--2D--,2N,Some 4-card minor
+1S--1N--2C--2D--2N--,3S,3!S; 10-11 hcp
+1S--1N--2C--2D--,3C,5+!C
+1S--1N--2C--2D--3C--,3S,3!S; 10-11 hcp
+1S--1N--2C--2D--,3D,5+!C
+1S--1N--2C--2D--3D--,3S,3!S; 10-11 hcp
+1S--1N--2C--,2H,Nat; weak not 3!S
+1S--1N--2C--,2N,Weak; minors
+1S--1N--2C--,3C,Nat; weak not 3!S
+1S--1N--2C--,3D,Nat; weak not 3!S
+1S--1N--2C--,3H,6+!H; weak not 3!S
+1S--1N--2C--,3S,3!S; 5-7 hcp
+1S--1N--,2D,4+!D; less than 16 hcp
+1S--1N--,2H,4+!H; less than 16 hcp
+1S--1N--,2H,4+!C; less than 16 hcp
+1S--1N--,2N,Nat; Inv
+1S--1N--,3C,5!C; Inv
+1S--1N--,3D,5+!D; Inv
+1S--1N--,3H,5+!H; Inv
+1S--1N--,3S,7!S. Inv
+1S--,2C,3+!C; GF
+1S--2C--,2D,4+!D
+1S--2C--,2H,4+!H
+1S--2C--,2S,6+!S; min
+1S--2C--,2N,12-14 bal
+1S--2C--,3C,3!C or 4+!C and minimum without shortage
+1S--2C--,3D,Splinter
+1S--2C--,3H,Splinter
+1S--2C--,3S,6+!S
+1S--2C--,4C,5224; extra
+1S--,2D,4+!D; GF
+1S--2D--,2S,Min
+1S--2D--,2N,12-14 bal
+1S--2D--,3C,4+!C; extra
+1S--2D--,3D,3!D or 4+!D and min; no shortage
+1S--2D--,3H,Single !H; 4+!D
+1S--2D--,3S,6+!S; Extra
+1S--2D--,4C,Single !C; 4+!D
+1S--2D--,4D,5242 with extra
+1S--,2H,5+!H; GF
+1S--2H--,2S,Min; not 3!H
+1S--2H--,2N,12-14 bal
+1S--2H--,3C,Nat; extra
+1S--2H--,3D,Nat; extra
+1S--2H--,3H,Nat; slammish
+1S--2H--3H--,3S,Honor cue
+1S--2H--3H--,3N,Slammaish; no  shortage
+1S--2H--3H--,4C,Short !C
+1S--2H--3H--,4D,Short !D
+1S--2H--3H--,4H,Min
+1S--2H--,3S,6+!S; singlesuited
+1S--2H--,4C,Splinter; 4+!H
+1S--2H--,4D,Splinter; 4+!H
+1S--2H--,4H,Min; 3!H
+1S--,2S,3-4!S; 7-9 hcp
+1S--2S--,2N,Transfer to 3!C (Romex)
+1S--2S--2N--,3C,Mandatory
+1S--2S--2N--3C--,3D,Long suit trial
+1S--2S--2N--3C--,3H,Long suit trial
+1S--2S--2N--3C--,3S,Long suit trial in !C
+1S--2S--,3C,Short suit trial
+1S--2S--,3D,Short suit trial
+1S--2S--,3H,Short suit trial
+1S--2S--,5C,Voidwood
+1S--2S--,5D,Voidwood
+1S--2S--,5H,Voidwood
+1S--,2N,4+!S; Inv+
+1S--2N--,3C,Min
+1S--2N--3C--,3D,Relay asking for shortage
+1S--2N--3C--3D--,3H,Short !C
+1S--2N--3C--3D--,3S,Short !D
+1S--2N--3C--3D--,3N,Short !H
+1S--2N--3C--3D--,4C,Cue; no shortage
+1S--2N--3C--3D--,4D,Cue; no shortage
+1S--2N--3C--3D--,4H,Cue; no shortage
+1S--2N--3C--,3H,Short !C
+1S--2N--3C--,3S,Invit
+1S--2N--3C--,3N,Short !D
+1S--2N--3C--,4C,Short !H
+1S--2N--,3D,Extra; no shortage
+1S--2N--3D--,3H,Short !C
+1S--2N--3D--,3S,Short !D
+1S--2N--3D--,3N,Short !H
+1S--2N--3D--,4C,Cue
+1S--2N--3D--,4D,Cue
+1S--2N--3D--,4H,Cue
+1S--2N--,3H,Single !C
+1S--2N--,3S,Single !D
+1S--2N--,3N,Single !H
+1S--2N--,4C,Void
+1S--2N--,4D,Void
+1S--2N--,4H,Void
+1S--2N--,4S,Subminimum without shortage
+1S--,3C,Nat; Inv
+1S--,3D,Nat; Inv
+1S--,3H,Nat; Inv
+1S--,3S,Preemptive
+1S--,3N,8-12 hcp; some single
+1S--3N--,4C,Relay
+1S--3N--4C--,4D,Singleton
+1S--3N--4C--,4H,Singleton
+1S--3N--4C--,4S,Singleton !C
+1S--,4C,8-12 hcp; Void
+1S--,4D,8-12 hcp; Void
+1S--,4H,8-12 hcp; Void
+1SDb,Rd,10+ hcp; penalty oriented
+1SDb,1N,Transfer; 6+!C
+1SDb,2C,Transfer; 6+!D
+1SDb,2D,Transfer; 6+!H
+1SDb,2H,3+!S; 8+ hcp
+1SDb,2S,Bad raise
+1SDb,2N,4+!S; Inv+
+1SDb2N--,3C,Min
+1SDb2N--3C--,3D,Relay asking for shortage
+1SDb2N--3C--3D--,3H,Short !C
+1SDb2N--3C--3D--,3S,Short !D
+1SDb2N--3C--3D--,3N,Short !H
+1SDb2N--3C--3D--,4C,Cue; no shortage
+1SDb2N--3C--3D--,4D,Cue; no shortage
+1SDb2N--3C--3D--,4H,Cue; no shortage
+1SDb2N--3C--,3H,Short !C
+1SDb2N--3C--,3S,Invit
+1SDb2N--3C--,3N,Short !D
+1SDb2N--3C--,4C,Short !H
+1SDb2N--,3D,Extra; no shortage
+1SDb2N--3D--,3H,Short !C
+1SDb2N--3D--,3S,Short !D
+1SDb2N--3D--,3N,Short !H
+1SDb2N--3D--,4C,Cue
+1SDb2N--3D--,4D,Cue
+1SDb2N--3D--,4H,Cue
+1SDb2N--,3H,Single !C
+1SDb2N--,3S,Single !D
+1SDb2N--,3N,Single !H
+1SDb2N--,4C,Void
+1SDb2N--,4D,Void
+1SDb2N--,4H,Void
+1SDb2N--,4S,Subminimum without shortage
+1S2S,--,Might be penalty
+1S2S,Db,Stolen bid
+1S2S,2N,4+!S; inv+
+1S2S2N--,3C,Min
+1S2S2N--3C--,3D,Relay asking for shortage
+1S2S2N--3C--3D--,3H,Short !C
+1S2S2N--3C--3D--,3S,Short !D
+1S2S2N--3C--3D--,3N,Short !H
+1S2S2N--3C--3D--,4C,Cue; no shortage
+1S2S2N--3C--3D--,4D,Cue; no shortage
+1S2S2N--3C--3D--,4H,Cue; no shortage
+1S2S2N--3C--,3H,Short !C
+1S2S2N--3C--,3S,Invit
+1S2S2N--3C--,3N,Short !D
+1S2S2N--3C--,4C,Short !H
+1S2S2N--,3D,Extra; no shortage
+1S2S2N--3D--,3H,Short !C
+1S2S2N--3D--,3S,Short !D
+1S2S2N--3D--,3N,Short !H
+1S2S2N--3D--,4C,Cue
+1S2S2N--3D--,4D,Cue
+1S2S2N--3D--,4H,Cue
+1S2S2N--,3H,Single !C
+1S2S2N--,3S,Single !D
+1S2S2N--,3N,Single !H
+1S2S2N--,4C,Void
+1S2S2N--,4D,Void
+1S2S2N--,4H,Void
+1S2S2N--,4S,Subminimum without shortage
+1S2S,3H,3!S; Inv+
+1S2S,3S,4+!S; less than 10 hcp
+1S2S,4C,Splinter
+1S2S,4D,Splinter
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 1N
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,1N,15-17; 5-card major possible
+1N----2H,Db,Penalty
+1N----2S,Db,Penalty
+1N--,2C,Stayman
+1N--2C--,2D,No major
+1N--2C--2D--,2H,5!H and 4-5 !S; NF
+1N--2C--2D--,2S,5!S and 4!H; to play
+1N--2C--2D--,2N,Invit
+1N--2C--2D--,3C,Nat; GF
+1N--2C--2D--,3D,Nat; GF
+1N--2C--2D--,3H,Smolen
+1N--2C--2D--3H--3N--,4H,Transfer
+1N--2C--2D--,3S,Smolen
+1N--2C--2D--3S--3N--,4D,Transfer to 4!H
+1N--2C--2D--3S--3N--4D--,4H,Mandatory
+1N--2C--,2H,4-5 !H
+1N--2C--2H--,2S,4+!H; slammish
+1N--2C--2H--,2N,Inv
+1N--2C--2H--,3C,Nat; GF
+1N--2C--2H--,3D,Nat; GF
+1N--2C--2H--,3H,Invit
+1N--2C--2H--,3S,Splint
+1N--2C--2H--,4C,Splint
+1N--2C--2H--,4D,Splint
+1N--2C--,2S,4-5 !S
+1N--2C--2S--,2N,Invit
+1N--2C--2S--,3C,Nat; GF
+1N--2C--2S--,3D,Nat; GF
+1N--2C--2S--,3H,4+!S; slammish
+1N--2C--2S--,3S,Invit
+1N--2C--2S--,4C,Splint
+1N--2C--2S--,4D,Splint
+1N--2C--2S--,4H,Splint
+1N--,2D,5+!H
+1N--2D--,2H,Not superfit
+1N--2D--2H--,2S,Nat; Inv
+1N--2D--2H--,2N,Nat; Inv
+1N--2D--2H--,3C,Nat; GF
+1N--2D--2H--,3D,Nat; GF
+1N--2D--2H--,3H,Nat; Inv
+1N--2D--2H--,3S,Splinter
+1N--2D--2H--,3N,Choice of game
+1N--2D--2H--,4C,Splinter
+1N--2D--2H--,4D,Splinter
+1N--2D--,3H,4+!H; max
+1N--,2H,5+!S
+1N--2H--,2S,Not superfit
+1N--2H--2S--,2N,Nat; Inv
+1N--2H--2S--,3C,Nat; GF
+1N--2H--2S--,3D,Nat; GF
+1N--2H--2S--,3H,5-5 majors GF
+1N--2H--2S--,3S,Nat; Inv
+1N--2H--2S--,3N,Choice of games
+1N--2H--2S--,4C,Shortage
+1N--2H--2S--,4D,Shortage
+1N--2H--2S--,4H,Shortage
+1N--2H--,3S,4+!S; max
+1N--,2S,One or both minors; no 4-card major
+1N--2S--,2N,Equal minors or better !D
+1N--2S--2N--,3H,Shortage; GF
+1N--2S--2N--,3S,Shortage; GF
+1N--2S--2N--,4C,Nat; slammish
+1N--2S--2N--,4D,Nat; slammish
+1N--2S--,3C,Better !C than !D
+1N--2S--3C--,3H,Shortage; GF
+1N--2S--3C--,3S,Shortage; GF
+1N--2S--3C--,4C,Nat; slammish
+1N--2S--3C--,4D,Nat; slammish
+1N--,2N,Invit
+1N--,3C,Nat; Inv
+1N--,3D,Nat; Inv
+1N--,3H,Shortage; 4!S
+1N--3H--,3S,4-5 !S
+1N--3H--,3N,To play; not 4!S
+1N--3H--,4C,Nat; not 4!S
+1N--3H--,4D,Nat; not 4!S
+1N--3H--,4S,Nat; min
+1N--,3S,Shortage; 4!H
+1N--3S--,3N,To play; not 4!H
+1N--3S--,4C,Nat; not 4!H
+1N--3S--,4D,Nat; not 4!H
+1N--,4C,Solid 6+!H
+1N--4C--,4D,Slammish in !H
+1N--,4D,Solid 6+!S
+1N--4D--,4H,Slammish in !S
+1N--,4N,Quantitative
+1N--,5N,Grandslam invit
+1NDb,Rd,Points
+1NDb,2C,Stayman
+1NDb2C--,2D,No major
+1NDb2C--2D--,2H,5!H and 4-5 !S; NF
+1NDb2C--2D--,2S,5!S and 4!H; to play
+1NDb2C--2D--,2N,Invit
+1NDb2C--2D--,3C,Nat; GF
+1NDb2C--2D--,3D,Nat; GF
+1NDb2C--2D--,3H,Smolen
+1NDb2C--2D--3H--3N--,4H,Transfer
+1NDb2C--2D--,3S,Smolen
+1NDb2C--2D--3S--3N--,4D,Transfer to 4!H
+1NDb2C--2D--3S--3N--4D--,4H,Mandatory
+1NDb2C--,2H,4-5 !H
+1NDb2C--2H--,2S,4+!H; slammish
+1NDb2C--2H--,2N,Inv
+1NDb2C--2H--,3C,Nat; GF
+1NDb2C--2H--,3D,Nat; GF
+1NDb2C--2H--,3H,Invit
+1NDb2C--2H--,3S,Splint
+1NDb2C--2H--,4C,Splint
+1NDb2C--2H--,4D,Splint
+1NDb2C--,2S,4-5 !S
+1NDb2C--2S--,2N,Invit
+1NDb2C--2S--,3C,Nat; GF
+1NDb2C--2S--,3D,Nat; GF
+1NDb2C--2S--,3H,4+!S; slammish
+1NDb2C--2S--,3S,Invit
+1NDb2C--2S--,4C,Splint
+1NDb2C--2S--,4D,Splint
+1NDb2C--2S--,4H,Splint
+1NDb,2D,5+!H
+1NDb2D--,2H,Not superfit
+1NDb2D--2H--,2S,Nat; Inv
+1NDb2D--2H--,2N,Nat; Inv
+1NDb2D--2H--,3C,Nat; GF
+1NDb2D--2H--,3D,Nat; GF
+1NDb2D--2H--,3H,Nat; Inv
+1NDb2D--2H--,3S,Splinter
+1NDb2D--2H--,3N,Choice of game
+1NDb2D--2H--,4C,Splinter
+1NDb2D--2H--,4D,Splinter
+1NDb2D--,3H,4+!H; max
+1NDb,2H,5+!S
+1NDb2H--,2S,Not superfit
+1NDb2H--2S--,2N,Nat; Inv
+1NDb2H--2S--,3C,Nat; GF
+1NDb2H--2S--,3D,Nat; GF
+1NDb2H--2S--,3H,5-5 majors GF
+1NDb2H--2S--,3S,Nat; Inv
+1NDb2H--2S--,3N,Choice of games
+1NDb2H--2S--,4C,Shortage
+1NDb2H--2S--,4D,Shortage
+1NDb2H--2S--,4H,Shortage
+1NDb2H--,3S,4+!S; max
+1NDb,2S,One or both minors; no 4-card major
+1NDb2S--,2N,Equal minors or better !D
+1NDb2S--2N--,3H,Shortage; GF
+1NDb2S--2N--,3S,Shortage; GF
+1NDb2S--2N--,4C,Nat; slammish
+1NDb2S--2N--,4D,Nat; slammish
+1NDb2S--,3C,Better !C than !D
+1NDb2S--3C--,3H,Shortage; GF
+1NDb2S--3C--,3S,Shortage; GF
+1NDb2S--3C--,4C,Nat; slammish
+1NDb2S--3C--,4D,Nat; slammish
+1NDb,2N,Invit
+1NDb,3C,Nat; Inv
+1NDb,3D,Nat; Inv
+1NDb,3H,Shortage; 4!S
+1NDb3H--,3S,4-5 !S
+1NDb3H--,3N,To play; not 4!S
+1NDb3H--,4C,Nat; not 4!S
+1NDb3H--,4D,Nat; not 4!S
+1NDb3H--,4S,Nat; min
+1NDb,3S,Shortage; 4!H
+1NDb3S--,3N,To play; not 4!H
+1NDb3S--,4C,Nat; not 4!H
+1NDb3S--,4D,Nat; not 4!H
+1NDb,4C,Solid 6+!H
+1NDb4C--,4D,Slammish in !H
+1NDb,4D,Solid 6+!S
+1NDb4D--,4H,Slammish in !S
+1NDb,4N,Quantitative
+1NDb,5N,Grandslam invit
+1N2C,Db,Inv+; forcing to 2N or penalty
+1N2C,2H,Stopper; no !S-stopper
+1N2C,2S,Stopper; no !H-stopper
+1N2C,2N,Nat; Inv
+1N2C,3C,Nat; Inv
+1N2C,3D,Nat; Inv
+1N2C,3H,Splinter
+1N2C,3S,Splinter
+1N2D,Db,T/O
+1N2H,Db,T/O
+1N2H,2N,Lebensohl
+1N2S,2N,Lebensohl
+1N2S,3C,Nat; Forcing
+1N2S,3D,Nat; Forcing
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,2C,Strong; 20-21 hcp bal or any GF
+2C--,2D,Relay
+2C--2D--,2H,Nat; strong
+2C--2D--2H--,2S,2nd negative
+2C--2D--2H--,2N,Positive with !S
+2C--2D--,2S,Nat; strong
+2C--2D--2S--,2N,Positive with !C
+2C--2D--2S--,3C,2nd negative
+2C--2D--,2N,20-21
+2C--2D--2N--,3C,Stayman
+2C--2D--2N--3C--,3D,At least one major
+2C--2D--2N--3C--3D--,3H,4!S
+2C--2D--2N--3C--3D--,3S,4!H
+2C--2D--2N--3C--,3H,5!H
+2C--2D--2N--3C--,3S,5!S
+2C--2D--2N--3C--,3N,No majors
+2C--2D--2N--,3D,5+!H
+2C--2D--2N--3D--,3H,3+!H
+2C--2D--2N--3D--3H--,3S,Shortage
+2C--2D--2N--3D--3H--,3N,No shortage
+2C--2D--2N--3D--3H--,4C,Shortage
+2C--2D--2N--3D--3H--,4D,Shortage
+2C--2D--2N--3D--3H--,4N,RKCB-1430
+2C--2D--2N--3D--,3S,4+!S; no fit
+2C--2D--2N--,3H,5+!S
+2C--2D--2N--3H--,3S,3+!S
+2C--2D--2N--3H--3S--,3N,No shortage
+2C--2D--2N--3H--3S--,4C,Shortage
+2C--2D--2N--3H--3S--,4D,Shortage
+2C--2D--2N--3H--3S--,4H,Shortage
+2C--2D--2N--3H--3S--,4N,RKCB-1430
+2C--2D--2N--,3S,Minors
+2C--2D--2N--3S--,4C,4+!C (might be 3 with a weak major)
+2C--2D--2N--3S--,4D,4+!D (might be 3 with a weak major)
+2C--2D--2N--,4C,6+!C; slammish
+2C--2D--2N--,4D,6+!D; slammish
+2C--,2H,To play opposite 20-21
+2C--,2S,To play opposite 20-21
+2C--,2N,Weak; both minors
+2C--,3C,6+!C; To play opposite 20-21
+2C--,3D,6+!D; To play opposite 20-21
+2C--,3N,10+ hcp; 4333
+2C//,--,Weak
+2C//,Db,positive without a suit
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,2D,Weak 2 in major (4-9 hcp)
+2D--,2H,P/C
+2D--,2S,P/C
+2D--,2N,Relay
+2D--2N--,3C,Min with !H
+2D--2N--3C--,3D,Nat; forcing
+2D--2N--3C--,3S,Nat; forcing
+2D--2N--3C--,4C,Nat; forcing
+2D--2N--3C--,4D,Slammish with !H
+2D--2N--,3D,Min with !S
+2D--2N--3D--,3H,Nat; forcing
+2D--2N--3D--,4C,Nat; forcing
+2D--2N--3D--,4D,Nat; forcing
+2D--2N--3D--,4H,Slammish with !S
+2D--2N--,3H,Max with !S
+2D--2N--,3S,Max with !H
+2D--,4C,Transfer me into your suit
+2D--4C--,4D,!H
+2D--4C--,4H,!S
+2D--,4D,Bid your suit
+2DDb,--,Nat; to play
+2DDb,Rd,Bid your suit
+2DDb,2H,Nat; to play
+2DDb,2S,Nat; to play
+2DDb,3C,Nat; to play
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+------,2D,6+!D; 12-15 hcp
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,2H,6+!H; 10-13 hcp
+2H--,2S,5+!S; forcing
+2H--,2N,Relay
+2H--2N--,3C,Min
+2H--2N--3C--,3D,Relay
+2H--2N--3C--3D--,3H,No shortage
+2H--2N--3C--3D--,3S,Short !C
+2H--2N--3C--3D--,3N,Short !D
+2H--2N--3C--3D--,4C,Short !S
+2H--2N--3C--,3H,Invit
+2H--2N--,3D,Max; no shortage
+2H--2N--,3H,Max; short !C
+2H--2N--,3S,Max; short !D
+2H--2N--,3N,Max; short !S
+2H--,3C,5+!C; forcing
+2H--,3D,5+!D; forcing
+2H--,3H,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,2S,6+!S; 10-13 hcp
+2S--,2N,Relay
+2S--2N--,3C,Min
+2S--2N--3C--,3D,Relay
+2S--2N--3C--3D--,3H,No shortage
+2S--2N--3C--3D--,3S,Short !C
+2S--2N--3C--3D--,3N,Short !D
+2S--2N--3C--3D--,4C,Short !H
+2S--2N--3C--,3S,Invit
+2S--2N--,3D,Max; no shortage
+2S--2N--,3H,Max; short !C
+2S--2N--,3S,Max; short !D
+2S--2N--,3N,Max; short !H
+2S--,3C,Nat; forcing
+2S--,3D,Nat; forcing
+2S--,3H,Nat; forcing
+2S--,3S,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 2N
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,2N,22-24; 5-card major possible
+2N--,3C,Stayman
+2N--3C--,3D,At least one major
+2N--3C--3D--,3H,4!S
+2N--3C--3D--,3S,4!H
+2N--3C--,3H,5!H
+2N--3C--,3S,5!S
+2N--3C--,3N,No majors
+2N--,3D,5+!H
+2N--3D--,3H,3+!H
+2N--3D--3H--,3S,Shortage
+2N--3D--3H--,3N,No shortage
+2N--3D--3H--,4C,Shortage
+2N--3D--3H--,4D,Shortage
+2N--3D--3H--,4N,RKCB-1430
+2N--3D--,3S,4+!S; no fit
+2N--,3H,5+!S
+2N--3H--,3S,3+!S
+2N--3H--3S--,3N,No shortage
+2N--3H--3S--,4C,Shortage
+2N--3H--3S--,4D,Shortage
+2N--3H--3S--,4H,Shortage
+2N--3H--3S--,4N,RKCB-1430
+2N--,3S,Minors
+2N--3S--,4C,4+!C (might be 3 with a weak major)
+2N--3S--,4D,4+!D (might be 3 with a weak major)
+2N--,4C,6+!C; slammish
+2N--,4D,6+!D; slammish
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 3C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,3C,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 3D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,3D,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 3H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,3H,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 3S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,3S,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 3N
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,3N,Solid minor
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 4C
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,4C,Namyats
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 4D
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,4D,Namyats
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 4H
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,4H,Preemptive
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+  Opening 4S
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+,4S,Preemptive
+Option,
+Option
+Script, UC0167284, R =  "(1C1D--1H--|1C1D--1S--|1C--1D--|1C--1H--|1C--1S--|1D--1H--|1D--1S--)"
+Script, UC0167606, R =  "(1C1D--3D--|1D--3D--)"
+Script, UC0048548, R =  "(1C1H--2H--|1H--2H--)"
+Script, UC0026390, R =  "(1C1H--2H--|1C1S--2S--|1H--2H--|1S--2S--)"
+Script, UC0026399, R =  "(1C1H--2H--|1C1S--2S--|1H--2H--|1S--2S--)"
+Script, UC0026481, R =  "(1C1S--2S--|1S--2S--)"
+Script, UC0043434, R =  "(1HDb2H|2HDb--|1N2H)"
+Script, UC0027369, R =  "(1SDb2S|2SDb--|1N2S)"
+Script, UC0026132, R =  "(2D--2H2N--3D--3H--|2D2N--3D--3H--|2C--2D--2N--3D--3H--|2N--3D--3H--)"
+Script, UC0004074, R =  "(2D--2H2N--3H--3S--|2D2N--3H--3S--|2C--2D--2N--3H--3S--|2N--3H--3S--)"
+Script, UC0026129, R =  "(1C--3C--)"
+Option,Locate Ambiguous bids
+Script,onDataLoad
+var findOptionByLabel = function (label) {
+   return $('button').filter(function() {
+      return $(this).text() == label;
+   });
+};
+selectOptionsDisplay = function (ctx="", opt="", parent="") {
+  if (($('#bboalert-ds')[0].selectedIndex!=2)&&(matchContext(ctx, stripContext(getContext())))) {
+    setOptionsOn();
+    $('#bttab-options')[0].click();
+    if (parent == '') {
+       $("button[id^='Option,']").hide();       $("button[id^='Option," + opt +"']").show();
+    } else {
+       var optx = findOptionByLabel(parent);
+       if (optx.length == 0) return;
+       if (optx[0].style.backgroundColor == "lightgreen") {
+         $("button[id^='Option," + opt +"']").attr("optionActive", true);
+         $("button[id^='Option," + opt +"']").show();
+       } else {
+         $("button[id^='Option," + opt +"']").attr("optionActive", false);
+         $("button[id^='Option," + opt +"']").hide();
+       }
+    }
+  }
+};
+var filterOptions = function () {
+  selectOptionsDisplay("1C","vs_(1C)");
+  selectOptionsDisplay("1N","vs_(1N)");
+  selectOptionsDisplay("2D","vs_(2D)");
+};
+Script
+Script,onBiddingBoxDisplayed
+  setTimeout(() => {
+  filterOptions();
+}, 100);    
+Script,onBiddingBoxHidden,setOptionsOff();
+Option
+Option,RecordedBids OFF
+Option,RecordedBids ON
+

@@ -1,0 +1,15 @@
+Button,Transfer, Transfer to,backgroundColor=yellow width=40% fontSize=32px borderRadius=100%
+Button,♣, !C,width=11% fontSize=32px borderRadius=100%
+Button,♦, !D,width=11% fontSize=32px borderRadius=100% color=red
+Button,♥, !H,width=11% fontSize=32px borderRadius=100% color=red
+Button,♠, !S,width=11% fontSize=32px borderRadius=100%
+Button,NT, NT,borderRadius=100% width=16% fontSize=32px
+Button,Send, \n,borderRadius=100% width=40% fontSize=32px
+Button,Emoticons,,width=100% backgroundColor=palegreen fontSize=16px
+Button,😀,😀\n,width= borderRadius=100% fontSize=32px
+Button,😞,😞\n,width= borderRadius=100% fontSize=32px
+Button,😢,😢\n,width= borderRadius=100% fontSize=32px
+Button,👍,👍\n,width= borderRadius=100% fontSize=32px
+Button,👎,👎\n,width= borderRadius=100% fontSize=32px
+Button,😊,😊\n,width= borderRadius=100% fontSize=32px
+Button,👏,👏\n,width= borderRadius=100% fontSize=32px
