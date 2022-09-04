@@ -14,10 +14,10 @@ $('.verticalClass',window.parent.document)[0].click();
 setTimeout(setOptionsOff,1000);
 Script
 Option,Entire system
-Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/buttons.bboscript
-Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/shortcuts.bboscript
-Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/shortcut_sonny.bboscript
-Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/precito.system
-Import,https://github.com/ThorvaldAagaard/BBOalert/blob/master/Custom/focusoptions.js
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/buttons.bboscript
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/shortcuts.bboscript
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/shortcut_sonny.bboscript
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/precito.system
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/focusoptions.js
 Option,RecordedBids OFF
 Option,RecordedBids ON
