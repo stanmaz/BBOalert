@@ -71,6 +71,7 @@ Script, onAnyMutation
 setTimeout(() => {
     if ($('#bboalert-ds').val() == 'Options-Filter') filterOptions();
 }, 100);
+Script
 ****Script, onBiddingBoxHidden, setOptionsOff();
 Option, Locate Ambiguous bids
 Option
