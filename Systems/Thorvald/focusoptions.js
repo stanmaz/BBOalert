@@ -69,7 +69,7 @@ filterOptions = function () {
 Script
 Script, onBiddingBoxDisplayed
 setTimeout(() => {
-    filterOptions();
+    if ($('#bboalert-ds').val() == 'Options-Filter') filterOptions();
 }, 100);
 Script, onBiddingBoxHidden, setOptionsOff();
 Option, Locate Ambiguous bids
