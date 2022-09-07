@@ -19,6 +19,6 @@ Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/buttons.
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/shortcuts.bboscript
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/shortcut_sonny.bboscript
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/precito.system
-Javascript,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/focusoptionsPlugin.js
+Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/Thorvald/focusoptions.js
 Option,RecordedBids OFF
 Option,RecordedBids ON
