@@ -72,8 +72,8 @@ setTimeout(() => {
     if ($('#bboalert-ds').val() == 'Options-Filter') {
         filterOptions();
     } else {
-        $("button[id^='Option,").attr("optionActive", true);
-        $("button[id^='Option,").show();
+//        $("button[id^='Option,").attr("optionActive", true);
+//        $("button[id^='Option,").show();
     }
 }, 100);
 Script
