@@ -6,9 +6,11 @@
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onBiddingBoxDisplayed", function () {
-        setTimeout(() => {
-            filterOptions();
-        }, 100);        
+        if (cfg.Enable_options_filter) {
+            setTimeout(() => {
+                filterOptions();
+            }, 100);
+        }
     });
     addBBOalertEvent("onBiddingBoxHidden", function () {
         setOptionsOff();
