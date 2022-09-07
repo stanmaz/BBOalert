@@ -2,7 +2,6 @@ Script, onDataLoad
 if ($("#bboalert-ds option:contains('Options-Filter')").length == 0) {
     $('#bboalert-ds').append(new Option('Options-Filter', 'Options-Filter'));
     $('#bboalert-ds').on("change", function () {
-        console.log($('#bboalert-ds').val());
         if ($('#bboalert-ds').val() == 'Options-Filter') {
             filterOptions();
         }
