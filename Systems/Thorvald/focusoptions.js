@@ -84,6 +84,7 @@ setTimeout(() => {
     }
 }, 100);
 Script
+Script, onBiddingBoxDisplayed, setOptionsOn();
 Script, onBiddingBoxHidden, setOptionsOff();
 Option, Locate Ambiguous bids
 Option
