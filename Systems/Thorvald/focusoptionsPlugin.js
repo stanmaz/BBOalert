@@ -3,12 +3,12 @@
     var cfg = {};
     cfg.Enable_options_filter = false;
     addBBOalertEvent("onDataLoad", function () {
-        console.log("----Register option filter Version 1.1");
+        console.log("----Register option filter Version 1.2");
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onBiddingBoxDisplayed", function () {
+        console.log("----Enable_options_filter = " + cfg.Enable_options_filter);
         if (cfg.Enable_options_filter) {
-        console.log("----Execute filter");
             setTimeout(() => {
                 filterOptions();
             }, 100);
