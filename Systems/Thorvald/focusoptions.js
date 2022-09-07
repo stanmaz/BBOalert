@@ -69,10 +69,15 @@ filterOptions = function () {
 Script
 Script, onAnyMutation
 setTimeout(() => {
-    if ($('#bboalert-ds').val() == 'Options-Filter') filterOptions();
+    if ($('#bboalert-ds').val() == 'Options-Filter') {
+        filterOptions();
+    } else {
+        $("button[id^='Option,").attr("optionActive", true);
+        $("button[id^='Option,").show();
+    }
 }, 100);
 Script
-****Script, onBiddingBoxHidden, setOptionsOff();
+Script, onBiddingBoxHidden, setOptionsOff();
 Option, Locate Ambiguous bids
 Option
 
