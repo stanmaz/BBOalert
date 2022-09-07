@@ -1,6 +1,12 @@
 Script, onDataLoad
 if ($("#bboalert-ds option:contains('Options-Filter')").length == 0) {
     $('#bboalert-ds').append(new Option('Options-Filter', 'Options-Filter'));
+    $('#bboalert-ds').on("change", function () {
+        console.log($('#bboalert-ds').val());
+        if ($('#bboalert-ds').val() == 'Options-Filter') {
+            filterOptions();
+        }
+    });
 }
 var findOptionByLabel = function (label) {
     return $('button').filter(function () {
@@ -67,7 +73,7 @@ filterOptions = function () {
     selectOptionsDisplay("1N2S", "vs_1N-(2S)");
 };
 Script
-Script, onAnyMutation
+Script, onNewAuction
 setTimeout(() => {
     if ($('#bboalert-ds').val() == 'Options-Filter') {
         filterOptions();
