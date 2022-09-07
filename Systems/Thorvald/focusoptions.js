@@ -1,4 +1,7 @@
 Script, onDataLoad
+if ($("#bboalert-ds option:contains('Options-Filter')").length == 0) {
+    $('#bboalert-ds').append(new Option('Options-Filter', 'Options-Filter'));
+}
 var findOptionByLabel = function (label) {
     return $('button').filter(function () {
         return $(this).text() == label;
