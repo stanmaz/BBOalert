@@ -67,11 +67,11 @@ filterOptions = function () {
     selectOptionsDisplay("1N2S", "vs_1N-(2S)");
 };
 Script
-Script, onBiddingBoxDisplayed
+Script, onAnyMutation
 setTimeout(() => {
     if ($('#bboalert-ds').val() == 'Options-Filter') filterOptions();
 }, 100);
-Script, onBiddingBoxHidden, setOptionsOff();
+****Script, onBiddingBoxHidden, setOptionsOff();
 Option, Locate Ambiguous bids
 Option
 
