@@ -3,16 +3,19 @@
     var cfg = {};
     cfg.Enable_options_filter = false;
     addBBOalertEvent("onDataLoad", function () {
+        console.log("----Register option filter Version 1.1");
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onBiddingBoxDisplayed", function () {
         if (cfg.Enable_options_filter) {
+        console.log("----Execute filter");
             setTimeout(() => {
                 filterOptions();
             }, 100);
         }
     });
     addBBOalertEvent("onBiddingBoxHidden", function () {
+        console.log("----Bidding box hidden");
         setOptionsOff();
     });
     var findOptionByLabel = function (label) {
@@ -40,6 +43,7 @@
         }
     };
     filterOptions = function () {
+        console.log("----Start filter");
         selectOptionsDisplay("1C", "vs_(1C)");
         selectOptionsDisplay("1D", "vs_(1D)");
         selectOptionsDisplay("1H", "vs_(1H)");
