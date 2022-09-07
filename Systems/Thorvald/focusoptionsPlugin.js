@@ -3,7 +3,7 @@
     var cfg = {};
     cfg.Enable_options_filter = false;
     addBBOalertEvent("onDataLoad", function () {
-        console.log("----Register option filter Version 1.2");
+        console.log("----Register option filter Version 1.3");
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onBiddingBoxDisplayed", function () {
@@ -24,6 +24,7 @@
         });
     };
     selectOptionsDisplay = function (ctx = "", opt = "", parent = "") {
+        console.log("----Select options " + ctx + " " + opt);
         if (($('#bboalert-ds')[0].selectedIndex != 2) && (matchContext(ctx, stripContext(getContext())))) {
             setOptionsOn();
             $('#bttab-options')[0].click();
