@@ -33,6 +33,7 @@ selectOptionsDisplay = function (ctx = "", opt = "", parent = "") {
     }
 };
 filterOptions = function () {
+    $("button[id^='Option,").hide();
     selectOptionsDisplay("1C", "vs_(1C)");
     selectOptionsDisplay("1D", "vs_(1D)");
     selectOptionsDisplay("1H", "vs_(1H)");
