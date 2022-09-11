@@ -541,9 +541,9 @@
 
     blockAds = function (on) {
         if (on) {
-            $("#bbo_ad1",window.parent.document).hide();
-            $("#bbo_ad2",window.parent.document).hide();
-            $("#bbo_app",window.parent.document).css("left","0px");
+            $("#bbo_ad1",window.parent.document).css("width", "1px");
+            $("#bbo_ad2",window.parent.document).css("width", "1px");
+            $("#bbo_app",window.parent.document).css("left","1px");
         }
     }
     
