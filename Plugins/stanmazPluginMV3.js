@@ -242,6 +242,7 @@
     cfg.Modified_OK_button = false;
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
+    cfg.Block_ads = false;
     cfg.Disable_alerts_with_casual_partner = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
@@ -538,12 +539,21 @@
     });
     autoChatToOpponents();
 
+    blockAds = function (on) {
+        if (on) {
+            $("#bbo_ad1",window.parent.document).hide();
+            $("#bbo_ad2",window.parent.document).hide();
+            $("#bbo_app",window.parent.document).css("left","0px");
+        }
+    }
+    
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
+        blockAds(cfg.Block_ads);
     });
     addBBOalertEvent("onNewDeal", function () {
         disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
