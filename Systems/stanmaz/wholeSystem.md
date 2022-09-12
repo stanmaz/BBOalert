@@ -1,6 +1,7 @@
     //BBOALERT, Entire system
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
 
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/adBlock.js
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
 
