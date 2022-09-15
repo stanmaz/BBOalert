@@ -1,5 +1,6 @@
     BBOalert,lang_pl version 1
     Alias, or , albo ,
+    Alias,NT,BA
     Alias, and , i ,
     Alias,if,jeżeli
     Alias,any,jakikolwiek
