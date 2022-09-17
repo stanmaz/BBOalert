@@ -60,7 +60,7 @@
     Shortcut,ww,Czesc; używamy uproszczonej DWURURKI:\notwarcie 1x na podwójnym Texasie (1T=4+!H;1K=4+!S;1C=5+!C albo zrównoważone;1P=5+!D)\npierwsza odpowiedź=relay albo Texas. Potem naturalnie.\nAtak 3cia lub 5ta ; Najwyższa z sekwencji (przeciw BA) lub odwrotnie (przeciw kontraktowi w kolor).\nPo ataku partnera :niska jest zachęcająca\nWłoskie zrzutki nieparzysta=zachęcająca parzysta=Lavinthal\n
     Shortcut,GTG,Niestety muszę odejść; Dzięki; Do następnego razu\n
     Shortcut,ML,Ostatnie rozdanie; Dzięki\n
-    Shortcut,dd,%_dd_%
+    Shortcut,dd,%_dd_%\n
     Shortcut,SP,Sorry\n
     Shortcut,Raccourcis enchères,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,TC,Texas !C
