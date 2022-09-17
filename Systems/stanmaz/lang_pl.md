@@ -1,5 +1,5 @@
-    BBOalert,lang_pl version 2
-    Script,_dd_,let d = new Date();if (d.getHours() < 19) {R="Dzien dobry";} else {R = "Dobry wieczor";}; 
+    BBOalert,lang_pl version 3
+    Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzien dobry";} else {R = "Dobry wieczór";}; 
     Alias, or , albo ,
     Alias,NT,BA
     Alias, and , i ,
@@ -13,7 +13,7 @@
     Alias,suit,kolor
     Alias,card,kart
     Alias,weak,słaby
-    Alias,strong,mocne
+    Alias,strong,silne
     Alias,preempt,blok
     Alias,Relay,relay
     Alias,Clubs,Trefle
