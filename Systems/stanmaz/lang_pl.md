@@ -1,4 +1,5 @@
     BBOalert,lang_pl version 1
+    Script,_dd_,let d = new Date();if (d.getHours() < 19) {R="Dzien dobry";} else {R = "Dobry wieczor";}; 
     Alias, or , albo ,
     Alias,NT,BA
     Alias, and , i ,
@@ -59,7 +60,7 @@
     Shortcut,ww,Czesc; używamy uproszczonej DWURURKI:\notwarcie 1x na podwójnym Texasie (1T=4+!H;1K=4+!S;1C=5+!C albo zrównoważone;1P=5+!D)\npierwsza odpowiedź=relay albo Texas. Potem naturalnie.\nAtak 3cia lub 5ta ; Najwyższa z sekwencji (przeciw BA) lub odwrotnie (przeciw kontraktowi w kolor).\nPo ataku partnera :niska jest zachęcająca\nWłoskie zrzutki nieparzysta=zachęcająca parzysta=Lavinthal\n
     Shortcut,GTG,Niestety muszę odejść; Dzięki; Do następnego razu\n
     Shortcut,ML,Ostatnie rozdanie; Dzięki\n
-    Shortcut,dd,Dzień dobry!\n
+    Shortcut,dd,%_dd_%
     Shortcut,SP,Sorry\n
     Shortcut,Raccourcis enchères,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,TC,Texas !C
