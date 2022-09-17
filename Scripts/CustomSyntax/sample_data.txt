@@ -6,4 +6,3 @@ Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/Cust
 1[HS]--,JUMP_RAISE,preempt
 1[HS]--,SHIFT,4+ cards suit
 1[HS]--,JUMP_SHIFT,6+ card suit; preempt
-1[HS],
