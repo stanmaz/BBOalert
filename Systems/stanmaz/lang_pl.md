@@ -1,4 +1,4 @@
-    BBOalert,lang_pl version 1
+    BBOalert,lang_pl version 2
     Script,_dd_,let d = new Date();if (d.getHours() < 19) {R="Dzien dobry";} else {R = "Dobry wieczor";}; 
     Alias, or , albo ,
     Alias,NT,BA
