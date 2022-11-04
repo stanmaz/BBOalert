@@ -426,7 +426,7 @@ return document;
         if (on) {
             if (BBOcontext().head.querySelector("#large-box-style") == null) BBOcontext().head.appendChild(largeBoxStyle);
         } else {
-            $("#large-box-style").remove();
+            $("#large-box-style",BBOcontext().head).remove();
         }
     };
     modified_OK_button = function (on) {
