@@ -2,7 +2,7 @@
 //BBOalert,stanmazPlugin version 1.0
 
 function BBOcontext() {
-if (document.title != 'Bridge Base Online') return parent.document;
+if (document.title != 'Bridge Base Online') return window.parent.document;
 return document;
 }
 
