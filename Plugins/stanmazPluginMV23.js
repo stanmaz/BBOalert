@@ -31,6 +31,18 @@ return document;
     cfg.Export_Log_Data = false;
         console.log("addConfigBox");
         addConfigBox(title, cfg);
+        addBBOalertEvent("onAnyMutation", function () {
+            if (cfg.Export_Log_Data) {
+                writeToClipboard(EVENT_LOG);
+                localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
+                cfg.Export_Log_Data = false;
+            }
+            if (cfg.Clear_Log_Data) {
+                if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
+                cfg.Clear_Log_Data = false;
+            }
+        });
     });
     addBBOalertEvent("onLogin", function () {
         cfg.Enable_Log_Now = false;
@@ -132,18 +144,6 @@ return document;
             if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
             EVENT_LOG = EVENT_LOG + s + '\n';
             localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onAnyMutation", function () {
-        if (cfg.Export_Log_Data) {
-            writeToClipboard(EVENT_LOG);
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-            bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
-            cfg.Export_Log_Data = false;
-        }
-        if (cfg.Clear_Log_Data) {
-            if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-            cfg.Clear_Log_Data = false;
         }
     });
 })();
