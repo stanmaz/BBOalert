@@ -26,6 +26,9 @@ return document;
     var LAST_PLAYER = '';
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
+    cfg.Enable_Log_Now = false;
+    cfg.Enable_Log_at_Next_Deal = false;
+    cfg.Export_Log_Data = false;
         console.log("addConfigBox");
         addConfigBox(title, cfg);
     });
