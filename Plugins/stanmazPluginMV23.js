@@ -33,6 +33,7 @@ return document;
         addConfigBox(title, cfg);
         addBBOalertEvent("onAnyMutation", function () {
             if (cfg.Export_Log_Data) {
+                console.log("config = " + cfg);
                 writeToClipboard(EVENT_LOG);
                 localStorage.setItem('BBOalertEvents', EVENT_LOG);
                 bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
