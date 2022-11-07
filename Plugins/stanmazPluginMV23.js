@@ -26,7 +26,7 @@ return document;
     var LAST_PLAYER = '';
     if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
-        console.log("addConfigBox");
+        console.log("addConfigBox : " + title);
         addConfigBox(title, cfg);
         cfg.Enable_Log_Now = false;
         cfg.Enable_Log_at_Next_Deal = false;
