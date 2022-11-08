@@ -24,7 +24,8 @@ return document;
     cfg.Log_onCallExplanationPanelDisplayed = true;
     var TIME_REF = Date.now();
     var LAST_PLAYER = '';
-    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+    EVENT_LOG = localStorage.getItem('BBOalertEvents');
+    if (EVENT_LOG == null) EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
         console.log("addConfigBox : " + title);
         addConfigBox(title, cfg);
