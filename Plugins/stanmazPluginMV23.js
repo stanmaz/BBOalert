@@ -248,6 +248,7 @@ return document;
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
+    cfg.Remove_Ads = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
@@ -542,12 +543,22 @@ return document;
     });
     autoChatToOpponents();
 
+    removeAds = function (on) {
+        if (on) {
+            $("#bbo_ad1",BBOcontext).hide();
+            $("#bbo_ad2",BBOcontext).hide();
+            $("#bbo_app",BBOcontext).css("left","0px");
+            $("#bbo_app",BBOcontext).css("right","0px");
+            $("#bbo_app",BBOcontext).css("width","");
+        }
+    }
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
+        removeAds(cfg.Remove_Ads);
     });
     addBBOalertEvent("onNewDeal", function () {
         disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
