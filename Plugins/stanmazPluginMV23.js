@@ -551,7 +551,8 @@ return document;
             $("#bbo_app",BBOcontext).css("right","0px");
             $("#bbo_app",BBOcontext).css("width","");
         }
-    }
+    };
+    
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
