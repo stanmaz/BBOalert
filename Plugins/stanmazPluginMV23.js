@@ -545,11 +545,11 @@ return document;
 
     removeAds = function (on) {
         if (on) {
-            $("#bbo_ad1",BBOcontext).hide();
-            $("#bbo_ad2",BBOcontext).hide();
-            $("#bbo_app",BBOcontext).css("left","0px");
-            $("#bbo_app",BBOcontext).css("right","0px");
-            $("#bbo_app",BBOcontext).css("width","");
+            $("#bbo_ad1",BBOcontext()).hide();
+            $("#bbo_ad2",BBOcontext()).hide();
+            $("#bbo_app",BBOcontext()).css("left","0px");
+            $("#bbo_app",BBOcontext()).css("right","0px");
+            $("#bbo_app",BBOcontext()).css("width","");
         }
     };
     
