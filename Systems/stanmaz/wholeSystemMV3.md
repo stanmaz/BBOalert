@@ -2,7 +2,7 @@
 
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPluginMV23.js
 
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/adBlockMV3.js
+    **Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/adBlockMV3.js
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
 
