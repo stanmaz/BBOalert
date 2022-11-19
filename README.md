@@ -15,7 +15,11 @@ The purpose of this browser extension is to reduce to the absolute minimum the m
 
 Thereafter you can decide to use advanced features if needed:
 
-- efficient coding alerts using wild cards, RegEx expressions and user scripts
+- efficient coding alerts using wild cards, RegEx expressions and user 
+
+
+
+s
 - declare conventions in optional blocks of code that can be turned ON and OFF
 - declare which conventions you play with which partner
 - Seat-dependent openings and development
@@ -323,6 +327,7 @@ Portions of the text can be replaced by the result returned by a user definable 
 
 Scripts may be used in fields :
 - bidding context
+- call
 - explanation text
 - shortcut text
 - button text
@@ -565,7 +570,7 @@ Sorting aliases by <string1> length is important (remember : last match counts).
 
 The word ‘without’ will be translated to ‘avecout’ which is wrong. Reversing the order will give the correct result.
 
-Aliases may be used also in the bidding context field. Example :
+Aliases may be used also in the bidding context or in the call field. Example :
 
       Alias,#,2C--2D--
       #2N--,3C,Puppet Stayman
@@ -614,6 +619,7 @@ BBOalert allows to store data on a file hosting server and to import it dynamica
 - Google Drive : only GoogleDocs format are supported. The data can be formatted as a pretty readable and printable document. Both partners can edit the document online
 - Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format is standard for documentation purposed in Github environment.
 - Dropbox : only ASCII text files are supported without the possiblity of online editing
+- Google Blogger https://www.blogger.com
 
 We assume that you are familiar with the tool of your choice.
        
@@ -651,6 +657,10 @@ https://docs.google.com/document/d/1XTma7fZbI0pRU3TtNFOLAG0sUKyBaXFtkQAu90rwfRY/
 - upload it to your Dropbox account
 - make the file shared
 - generate the public URL link for viewing only (default is editing)
+       
+#### Blogger
+       
+Note : This section is under development
 
 #### BBOalert data
 
