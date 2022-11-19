@@ -500,8 +500,37 @@ function processTable() {
 	clearConfigMenu();
 	BBOalertEvents().dispatchEvent(E_onDataLoad);
 	execUserScript('%onDataLoad%');
+	setParentBBOalertData(alertOriginal);
 }
 
+function setParentBBOalertData(text) {
+	if (window.parent.document.getElementById("BBOalertOriginal") == null) {
+		var d = document.createElement("data");
+		d.id = "BBOalertOriginal";
+		window.parent.document.body.appendChild(d);
+	}
+	d = window.parent.document.getElementById("BBOalertOriginal");
+	d.value = text;
+}
+
+function makeAlertData() {
+	setOptions(true);
+	bboalertLog("Reading data");
+	bboalertLog(version + "<br>Reading data<br>");
+	setTimeout(() => {
+		updateAlertDataAsync(alertOriginal, function () {
+			if (alertData == null) alertData = 'BBOalert\n';
+			alertTable = alertData.split("\n");
+			saveAlertTableToClipboard();
+			processTable();
+			displayHeaders();
+			addBBOalertLog("<br>" + alertTable.length + " records imported");
+			setTimeout(function () {
+				setOptions(true);
+			}, 200);
+		});
+	}, 1000);
+}
 
 var importedURL = "";
 /**
@@ -730,10 +759,74 @@ function updateAlertText(alertText) {
 	else return execUserScript(alertText);
 }
 
+
 /**
  * @ignore
  */
-function findAlert(context, call) {
+ function findAlert(context, call) {
+	console.time("findalert");
+	trustedBid = false;
+	var trustedZone = false;
+	var lastContext = "";
+	var alertText = "";
+	var txt = '';
+	var matchFound = false;
+	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
+	var scan = new BBOalertData();
+	while ((txt = scan.getNextRecord()) != null) {
+		// Keyword Option alone end optional block
+		if (txt == 'Trusted') trustedZone = true;
+		if (txt == 'Untrusted') trustedZone = false;
+		if (txt == 'Option') matchOption = true;
+		//		if (rec.length < 2) continue;
+//		console.log("Before " + txt);
+//		txt = execUserScript(scan.replaceAliases(txt));
+//		console.log("After  " + txt);
+		rec = txt.split(",");
+		recTemp = rec;
+		rec[0] = rec[0].replace(/!/g, "");
+		currentContext = elimineSpaces(rec[0].trim());
+		if (currentContext == "+") {
+			currentContext = lastContext;
+		} else {
+			lastContext = currentContext;
+		}
+		if (rec.length < 3) continue;
+		rec[1] = rec[1].replace(/!/g, "");
+		rec[1] = execUserScript(scan.replaceAliases(rec[1]));
+		if (!matchContext(rec[1].trim(), call)) continue;
+		currentContext = execUserScript(scan.replaceAliases(currentContext));
+		if (matchContext(currentContext, stripContext(context))) {
+			matchFound = true;
+			idx = alertTableCursor;
+			alertText = scan.replaceAliases(rec[2]);
+			trustedBid = trustedZone;
+			foundContext = currentContext;
+			foundCall = rec[1].trim();
+		}
+		if (matchContext(currentContext, context)) {
+			matchFound = true;
+			alertText = scan.replaceAliases(rec[2]);
+			trustedBid = trustedZone;
+			foundContext = currentContext;
+			foundCall = rec[1].trim();
+		}
+	}
+	alertText = normalize(alertText);
+	// Confirm bid id match not found
+	if (!matchFound) trusteBid = false;
+	alertText = updateAlertText(alertText);
+	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
+		'|' + context + '|' + call + '|' + matchFound + '|' + alertText + '|' + trustedBid + ']');
+	console.timeEnd("findalert");
+	return alertText;
+}
+
+
+/**
+ * @ignore
+ */
+function findAlertOLD(context, call) {
 	trustedBid = false;
 	var trustedZone = false;
 	var lastContext = "";
@@ -1013,12 +1106,12 @@ function setPostMortem() {
  * @ignore
  */
 function setBiddingButtonEvents() {
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	var elBiddingBox = parent.document.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return;
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return;
 	if (elBiddingButtons.length < 17) return;
-	setUndo();
+//	setUndo();
 	setPostMortem();
 	if (elBiddingButtons[0].onmousedown == null) {
 		elBiddingButtons[0].onmousedown = function () {

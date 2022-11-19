@@ -1,9 +1,3 @@
-// Global variables
-var alertData = "";
-var alertOriginal = "";
-var alertTable = alertData.split("\n");
-const CHECKED_CHAR = "✔";
-
 function getBBOalertHeaderMsg() {
 	try {
 		var r = alertTable[0].split(',')[1];
@@ -13,37 +7,6 @@ function getBBOalertHeaderMsg() {
 	} catch {
 		return '';
 	}
-}
-
-/**
- * @ignore
- */
-function stringToCC(s) {
-	ref = shiftChars(s, 256);
-	var t = '';
-	for (i = 0; i < ref.length; i = i + 30) {
-		t = t + '\n' + ref.substr(i, 30);
-	}
-	return t;
-}
-
-/**
- * @ignore
- */
-function CCtoString(s) {
-	if (s == undefined) return '';
-	if (s == null) return '';
-	if (s == '') return '';
-	var ref = s.replace(/ /g, '');
-	if (getDataType(s) == 'BBOalert') {
-		ref = ref.replace(/←/g, '\n');
-		ref = ref.replace(/→/g, '\t');
-		ref = ref.replace(/↓/g, '!');
-		ref = ref.replace(/…/g, ' ');
-	} else {
-		return shiftChars(ref.replace(/\n/g, ""), -256);
-	}
-	return ref;
 }
 
 /**
@@ -89,7 +52,7 @@ function makeRegExp(s) {
  * @ignore
  */
 function setPageReload() {
-	var nb = document.querySelector('.navBarClass');
+	var nb = parent.document.querySelector('.navBarClass');
 	if (nb == null) return;
 	var nadc = nb.querySelector('.nonAnonDivClass');
 	if (nadc == null) return;
@@ -102,7 +65,7 @@ function setPageReload() {
  * @ignoreµ
  */
 function preparePageReload() {
-	var db = document.querySelector('mat-dialog-container');
+	var db = parent.document.querySelector('mat-dialog-container');
 	if (db == null) return;
 	var bt = db.querySelector('button');
 	if (bt == null) return;
@@ -120,7 +83,7 @@ function pageReload() {
  * click OK button programatically
  */
 function clickOK() {
-	var elBiddingBox = document.querySelector(".biddingBoxClass");
+	var elBiddingBox = parent.document.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return false;
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
@@ -154,35 +117,30 @@ function normalize(s) {
 	return elimine2Spaces(s.replace(/,+/g, ';')).trim();
 }
 
-var version = chrome.runtime.getManifest().name + ' ' + chrome.runtime.getManifest().version;
-var logText = version + '\n';
-logText = logText + navigator.userAgent + '\n';
-
 /**
  * get main BBO panel div element
  * @returns div element
  */
 function getNavDiv() {
-	return document.getElementById('navDiv');
+	return parent.document.getElementById('navDiv');
 }
-
 /**
  * returns div element containing chat dialog
  */
 function getChatDiv() {
-	return document.getElementById('chatDiv');
+	return parent.document.getElementById('chatDiv');
 }
 
 /**
  * returns current BBO user-id
  */
 function whoAmI() {
-	var nb = document.querySelector('.navBarClass');
+	var nb = parent.document.querySelector('.navBarClass');
 	if (nb == null) {
 		addLog('whoAmI .navBarClass not found');
 		return '';
 	}
-	var nt = document.querySelector('.nameTagClass');
+	var nt = parent.document.querySelector('.nameTagClass');
 	if (nt == null) {
 		addLog('whoAmI .nameTagClass not found');
 		return '';
@@ -193,7 +151,7 @@ function whoAmI() {
 /**
  * @ignore
  */
-function myDirection() {
+ function myDirection() {
 	if ((nd = getNavDiv()) == null) return '';
 	var cs = nd.querySelector('.coverClass');
 	if (cs == null) return '';
@@ -207,13 +165,15 @@ function myDirection() {
 	if (me == '') return '';
 	for (var i = 0; i < 4; i++) {
 		if (nd[i].textContent.trim().toLowerCase() == me) {
-			return dc[i].textContent.trim();
+			var dir = dc[i].textContent.trim();
+			return dir;
 		}
 	} {
 		addLog(me + ' seat not found');
 		return '';
 	}
 }
+
 
 /**
  * @ignore
@@ -237,14 +197,14 @@ var triggerDragAndDrop = function (selectorDrag, selectorDrop, dist) {
 
 	// function for triggering mouse events
 	var fireMouseEvent = function (type, elem, centerX, centerY) {
-		var evt = document.createEvent('MouseEvents');
+		var evt = parent.document.createEvent('MouseEvents');
 		evt.initMouseEvent(type, true, true, window, 1, 1, 1, centerX, centerY, false, false, false, false, 0, elem);
 		elem.dispatchEvent(evt);
 	};
 
 	// fetch target elements
-	var elemDrag = document.querySelector(selectorDrag);
-	var elemDrop = document.querySelector(selectorDrop);
+	var elemDrag = parent.document.querySelector(selectorDrag);
+	var elemDrop = parent.document.querySelector(selectorDrop);
 	if (!elemDrag || !elemDrop) return false;
 
 	// calculate positions
@@ -419,13 +379,13 @@ function addBBOalertButton() {
 	b.style.width = '100%';
 	b.style.height = '100%';
 	b.style.backgroundColor = 'blue';
-	b.textContent = 'Ale\nrt';
+	b.textContent = 'Alert';
 	b.style.color = 'white';
 	b.style.display = 'block';
 	b.id = 'myButton';
 	b.style.zIndex = "1";
 	b.onclick = toggleOptions;
-	var cc = document.querySelector('.connectionClass');
+	var cc = parent.document.querySelector('.connectionClass');
 	for (var i = 0; i < cc.children.length; i++) cc.children[i].style.display = 'none';
 	cc.appendChild(b);
 }
@@ -457,29 +417,19 @@ function ourVulnerability() {
 	return '@n';
 }
 
-/**
- * @ignore
- */
-function openAccountTab() {
-	var vc = document.querySelectorAll('.verticalClass');
-	if (vc.length < 4) return false;
-	vc[3].click();
-	return true;
-}
-
 
 /**
  * check if confirm bids switch is ON
  * returns 'Y' 'N' or '' if not found
  */
 function confirmBidsSet() {
-	var rd = document.getElementById('rightDiv');
+	var rd = parent.document.getElementById('rightDiv');
 	if (rd == null) return '';
 	var sc = rd.querySelectorAll('.settingClass');
 	if (sc.length < 6) {
 		if (sc.length == 0) return '';
 	}
-	if (document.querySelectorAll('.settingClass')[4].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
+	if (parent.document.querySelectorAll('.settingClass')[4].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
 	else return 'N';
 }
 
@@ -492,7 +442,7 @@ function buttonOKvisible() {
 	if (elBiddingBox == null) return false;
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
-	if (elBiddingButtons.lebgth < 17) return false;
+	if (elBiddingButtons.length < 17) return false;
 	return (elBiddingButtons[16].style.display != 'none');
 }
 
@@ -500,7 +450,7 @@ function buttonOKvisible() {
  * toggle BBOalert panel display
  */
 function toggleOptions() {
-	var adPanel0 = document.getElementById("adpanel0");
+	var adPanel0 = parent.document.getElementById("adpanel0");
 	if (adPanel0 == null) return;
 	if (adPanel0.style.display == 'none') {
 		setOptions(true);
@@ -619,17 +569,17 @@ function toggleOptions1() {
  * display BBOalert panel if on=true. Otherwise hide it
  */
 function setOptions(on) {
-	var adPanel0 = document.getElementById("adpanel0");
+	var adPanel0 = parent.document.getElementById("adpanel0");
 	if (adPanel0 == null) return;
 	if (on) {
 		adPanel0.style.display = 'block';
-		if (adPanel0.getBoundingClientRect().width < 250) {
-			triggerDragAndDrop('.hDividerClass', '.hDividerClass', (adPanel0.getBoundingClientRect().width) - 300);
+		if (adPanel0.getBoundingClientRect().width < 350) {
+			triggerDragAndDrop('.hDividerClass', '.hDividerClass', (adPanel0.getBoundingClientRect().width) - 400);
 		}
 	} else {
 		adPanel0.style.display = 'none';
 	}
-	var b = document.getElementById('bboalert-tab');
+	var b = parent.document.getElementById('bboalert-tab');
 	if (b == null) return;
 	var t = b.querySelector('.verticalClass');
 	if (t == null) return;
@@ -650,7 +600,7 @@ function setButtonPanel(on) {
 	var adPanel0 = document.getElementById("adpanel0");
 	if (adPanel0 == null) return;
 	if (on) {
-		var b = document.querySelector('#bboalert-sc');
+		var b = parent.document.querySelector('#bboalert-sc');
 		if (b != null) {
 			if (b.style.backgroundColor == "red") return;
 		}
@@ -672,12 +622,12 @@ function setButtonPanel(on) {
  * @ignore
  */
 function addBBOalertTab() {
-	if (document.getElementById('bboalert-tab') != null) return;
-	var rd = document.getElementById('rightDiv');
+	if (parent.document.getElementById('bboalert-tab') != null) return;
+	var rd = parent.document.getElementById('rightDiv');
 	if (rd == null) return;
 	var vt = rd.querySelector('.verticalTabBarClass');
 	if (vt == null) return;
-	tabs = vt.children;
+	var tabs = vt.children;
 	if (tabs == null) return;
 	if (tabs.length < 2) return;
 	t = tabs[1].cloneNode(true);
@@ -687,7 +637,7 @@ function addBBOalertTab() {
 	t.style.color = 'white';
 	t.backgroundColor = 'red';
 	vt.appendChild(t);
-	t = document.getElementById('bboalert-tab');
+	t = parent.document.getElementById('bboalert-tab');
 	t.onclick = toggleOptions;
 }
 
@@ -932,7 +882,7 @@ function getDealNumber() {
  * @ignore
  */
 function setTitle(txt) {
-	t = document.querySelectorAll('div.titleSpanClass');
+	t = parent.document.querySelectorAll('div.titleSpanClass');
 	if (t.length == 0) return;
 	for (var i = 0; i < t.length; i++) {
 		t[i].textContent = txt;
@@ -943,7 +893,7 @@ function setTitle(txt) {
  * @ignore
  */
 function setTitleText(txt) {
-	t = document.querySelector('.titleClass');
+	t = parent.document.querySelector('.titleClass');
 	if (t == null) return;
 	if (isVisible(t)) {
 		t.innerText = '';
@@ -952,7 +902,7 @@ function setTitleText(txt) {
 		}, 500);
 		return;
 	}
-	t = document.querySelectorAll('div.titleSpanClass');
+	t = parent.document.querySelectorAll('div.titleSpanClass');
 	if (t.length == 0) return;
 	for (var i = 0; i < t.length; i++) {
 		t[i].textContent = '';
@@ -1002,7 +952,7 @@ function matchContext(refContext, actContext) {
  * retrieve visible chat input element
  */
 function getVisibleMessageInput() {
-	cr = document.querySelectorAll('.chatRowClass');
+	cr = parent.document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return null;
 	m = cr[0].querySelector('.messageInputClass');
 	if (m == null) return null;
@@ -1018,7 +968,7 @@ function getVisibleMessageInput() {
  * send chat message programatically
  */
 function sendChat() {
-	cr = document.querySelectorAll('.chatRowClass');
+	cr = parent.document.querySelectorAll('.chatRowClass');
 	if (cr.length == 0) return;
 	var elMessage = getChatInput();
 	if (elMessage == null) return;
@@ -1073,11 +1023,13 @@ function setChatInputMessage(msg, send, elMessage) {
  * If send=true send it immediately
  */
 function setInputMessage(msg, send, elMessage) {
+	console.log("setInputMessage 1 " + msg);
 	var eventInput = new Event('input');
 	if (elMessage == null) return;
 	msgList = msg.split(/\\n/);
 	var sb = getChatSendButton(elMessage);
 	// if not chat messaqge set text
+	console.log("setInputMessage sb " + sb);
 	if (sb == null) {
 		elMessage.value = msgList[0];
 		elMessage.dispatchEvent(eventInput);
@@ -1091,12 +1043,18 @@ function setInputMessage(msg, send, elMessage) {
 		return;
 	}
 	// multiline message : send all except the last if no send flag
-	for (i = 0; i < msgList.length; i++) {
+	var i = 0;
+	ti = setInterval(() => {
+		console.log("setInputMessage 2 " + msgList[i]);
 		elMessage.value = msgList[i];
 		elMessage.dispatchEvent(eventInput);
 		if (i < msgList.length - 1) sb.click();
-		else if (send) sb.click();
-	}
+		else {
+			if (send) sb.click();
+			clearInterval(ti);
+		}
+		i++;
+	}, 100);
 }
 
 
@@ -1193,7 +1151,7 @@ function getExplainInput() {
  * retrieve chat text input element
  */
 function getChatInput() {
-	var cd = document.getElementById('chatDiv');
+	var cd = parent.document.getElementById('chatDiv');
 	if (cd == null) return null;
 	return cd.querySelector(".messageInputClass");
 }
@@ -1213,7 +1171,7 @@ function setExplainText(txt) {
  * @ignore
  */
 function isSplitScreen() {
-	var nb = document.querySelector('.navBarClass');
+	var nb = parent.document.querySelector('.navBarClass');
 	return isVisible(nb);
 }
 
@@ -1221,7 +1179,7 @@ function isSplitScreen() {
  * @ignore
  */
 function isAdBlockerOn() {
-	app = document.getElementById('bbo_app');
+	app = parent.document.getElementById('bbo_app');
 	return (app.style.left == "0px");
 }
 
@@ -1229,19 +1187,19 @@ function isAdBlockerOn() {
  * @ignore
  */
 function isBBOready() {
-	return (isVisible(document.querySelector('.infoStat')));
+	return (isVisible(parent.document.querySelector('.infoStat')));
 }
 
 /**
  * @ignore
  */
 function setStatTextDiv() {
-	if (document.getElementById('statText') != null) return;
-	var st = document.createElement('div');
+	if (parent.document.getElementById('statText') != null) return;
+	var st = parent.document.createElement('div');
 	st.style.height = '100%';
 	st.id = 'statText';
 	st.textContent = 'BBOalert';
-	is = document.querySelector('.infoStat');
+	is = parent.document.querySelector('.infoStat');
 	isp = is.parentNode;
 	isp.insertBefore(st, isp.firstChild);
 }
@@ -1250,7 +1208,7 @@ function setStatTextDiv() {
  * @ignore
  */
 function setStatText(txt) {
-	var st = document.getElementById('statText');
+	var st = parent.document.getElementById('statText');
 	if (st == null) return;
 	st.textContent = txt;
 	if (txt != '') {
@@ -1411,14 +1369,14 @@ function setControlButtons() {
 		configSelector.add(new Option('Plugin settings ...'));
 		configSelector.onchange = function () {
 			if (this.selectedIndex == 0) {
-//				$("#bboalert-config-panel").hide();
+				//				$("#bboalert-config-panel").hide();
 			} else {
 				var cfgsel = document.querySelector('#bboalert-menu-config');
 				var s = localStorage.getItem('BBOalertConfig ' + cfgsel.options[cfgsel.selectedIndex].label);
 				if (s != null) {
 					$.extend({}, this.options[this.selectedIndex].cfgObj, JSON.parse(s));
 				}
-				setConfigBox(this.options[this.selectedIndex].cfgLabel,this.options[this.selectedIndex].cfgObj);
+				setConfigBox(this.options[this.selectedIndex].cfgLabel, this.options[this.selectedIndex].cfgObj);
 			}
 			cfgsel.selectedIndex = 0;
 		};
@@ -1430,6 +1388,7 @@ function setControlButtons() {
 		p1.id = 'bboalert-p1';
 		p1.style.margin = "5px";
 		adPanel.appendChild(p1);
+		$("#bboalert-p1").css("font-family", "Arial, Helvetica, sans-serif");
 		return true;
 	}
 	return false;
@@ -1488,7 +1447,7 @@ function addBBOalertLog(txt) {
  */
 function setAdPanel() {
 	if (document.getElementById("adpanel") != null) return;
-	var appPanel = document.getElementById("rightDiv");
+	var appPanel = parent.document.getElementById("rightDiv");
 	if (appPanel == null) return;
 	var adPanel0 = document.createElement("div");
 	adPanel0.id = 'adpanel0';
@@ -1497,10 +1456,11 @@ function setAdPanel() {
 	adPanel0.style.left = '0px';
 	adPanel0.style.backgroundColor = 'black';
 	adPanel0.style.zIndex = "5000";
-	adPanel0.style.display = 'none';
+	adPanel0.style.display = 'block';
 	adPanel0.style.height = '97%';
-	adPanel0.style.right = '57px';
-	appPanel.appendChild(adPanel0);
+	adPanel0.style.width = '100%';
+	//	adPanel0.style.right = '57px';
+	document.body.appendChild(adPanel0);
 
 	var adPanelTabs = document.createElement("div");
 	adPanelTabs.id = 'adpanel-tabs';
@@ -1725,7 +1685,7 @@ function setOptionsOn() {
  * @ignore
  */
 function setTabEvents() {
-	var rd = document.getElementById('rightDiv');
+	var rd = parent.document.getElementById('rightDiv');
 	if (rd == null) return;
 	var vt = rd.querySelector('.verticalTabBarClass');
 	if (vt == null) return;
@@ -2216,6 +2176,33 @@ function getActivePlayer() {
 	var nd1 = nd.querySelectorAll('.nameBarClass');
 	if (nd1 == null) return '';
 	if (nd1.length != 4) return '';
+	var hover_i = -1;
+	for (var i = 0; i < 4; i++) {
+		if (nd1[i].style.backgroundColor == "rgb(204, 204, 154)") {
+			hover_i = i;
+		}
+	}
+	if (hover_i == -1) {
+		for (var i = 0; i < 4; i++) {
+			if (nd1[i].style.backgroundColor == "rgb(255, 206, 0)") {
+				return nd1[i].textContent;
+			}
+		}
+		return '';
+	}
+	for (var i = 0; i < 4; i++) {
+		if (nd1[i].style.backgroundColor == "rgb(255, 206, 0)") {
+			return nd1[i].textContent;
+		}
+	}
+	return nd1[hover_i].textContent;
+}
+
+function getActivePlayer_old() {
+	if ((nd = getNavDiv()) == null) return '';
+	var nd1 = nd.querySelectorAll('.nameBarClass');
+	if (nd1 == null) return '';
+	if (nd1.length != 4) return '';
 	for (var i = 0; i < 4; i++) {
 		if (nd1[i].style.backgroundColor == "rgb(255, 206, 0)") {
 			return nd1[i].textContent;
@@ -2327,7 +2314,7 @@ function setAlert(on) {
  */
 function tableType() {
 	// get score panel
-	var sp = document.querySelector('.scorePanelClass');
+	var sp = parent.document.querySelector('.scorePanelClass');
 	// if no score panel element -> no table
 	if (sp == null) return 'no';
 	// if score panel not displayed -> practice table
@@ -2343,14 +2330,14 @@ function tableType() {
 function getPartnerAlert() {
 	var partnerContext = getContext().slice(0, -4);
 	var partnerCall = getContext().slice(-4, -2);
-	return findAlertText(partnerContext, partnerCall);
+	return findAlert(partnerContext, partnerCall);
 }
 
 /**
  * retrieve current chat destination
  */
 function getCurrentChatDestination() {
-	var mi = $('#chatDiv .channelButtonClass');
+	var mi = parent.$('#chatDiv .channelButtonClass');
 	if (mi.length == 0) return '';
 	return mi[0].textContent;
 }
@@ -2359,7 +2346,7 @@ function getCurrentChatDestination() {
  * @ignore
  */
 function getChatDestinationMenuItem(t) {
-	var mi = $('#chatDiv menu-item div');
+	var mi = parent.$('#chatDiv menu-item div');
 	for (var i = 0; i < mi.length; i++) {
 		if (mi[i].textContent.trim().toLowerCase() == t.toLowerCase()) {
 			return mi[i];
@@ -2379,7 +2366,7 @@ function getChatDestinationMenuItem(t) {
 
 
 function isChatDestinationOK(t) {
-	var cb = $('#chatDiv .messageInputDivClass .channelButtonClass')[0];
+	var cb = parent.$('#chatDiv .messageInputDivClass .channelButtonClass')[0];
 	if (cb.textContent.slice(1).toLowerCase() == t.toLowerCase()) return true;
 	if (t == 'Table') {
 		if (isTable(cb.textContent)) return true;
@@ -2395,17 +2382,17 @@ function isChatDestinationOK(t) {
  */
 function setChatDestination(t) {
 	if (isChatDestinationOK(t)) return;
-	var cb = $('#chatDiv .messageInputDivClass .channelButtonClass')[0];
+	var cb = parent.$('#chatDiv .messageInputDivClass .channelButtonClass')[0];
 	var ok = false;
-	$('#chatDiv .menuClass').hide();
-	$('#chatDiv .messageInputDivClass .channelButtonClass')[0].click();
+	parent.$('#chatDiv .menuClass').hide();
+	parent.$('#chatDiv .messageInputDivClass .channelButtonClass')[0].click();
 	var dmi = getChatDestinationMenuItem(t);
 	setTimeout(function () {
 		if (dmi != null) {
 			dmi.click();
 			ok = true;
 		}
-		$('#chatDiv .menuClass').hide();
+		parent.$('#chatDiv .menuClass').hide();
 	}, 100);
 }
 
@@ -2422,11 +2409,11 @@ function setChatToTable() {
 function sendPrivateChat(uid, text) {
 	var t = text;
 	if (!t.endsWith('\\n')) t = t + '\\n';
-	var od = $('#chatDiv .messageInputDivClass .channelButtonClass')[0].textContent;
+	var od = parent.$('#chatDiv .messageInputDivClass .channelButtonClass')[0].textContent;
 	setChatDestination('Private');
 	//    var cd = $('#chatDiv .messageInputDivClass .channelButtonClass span');
-	var cd = $('#chatDiv .getStringDialogClass .messageInputClass');
-	var bt = $('#chatDiv .getStringDialogClass button');
+	var cd = parent.$('#chatDiv .getStringDialogClass .messageInputClass');
+	var bt = parent.$('#chatDiv .getStringDialogClass button');
 	setTimeout(function () {
 		cd[0].value = uid;
 		var eventInput = new Event('input');
@@ -2452,7 +2439,7 @@ function sendMessageToOpponents(text) {
 function getMyHand() {
 	var yref = 0;
 	var hand = '';
-	var cc = $('#navDiv .cardClass .topLeft');
+	var cc = parent.$('#navDiv .cardClass .topLeft');
 	if (cc.length == 0) return '';
 	for (var i = 0; i < cc.length; i++) {
 		if (cc[i].getClientRects().length > 0) {
@@ -2480,7 +2467,7 @@ function getMyHand() {
 function getPartnerHand() {
 	var yref = 1000000;
 	var hand = '';
-	var cc = $('.cardClass .topLeft');
+	var cc = parent.$('.cardClass .topLeft');
 	if (cc.length == 0) return '';
 	for (var i = 0; i < cc.length; i++) {
 		if (cc[i].getClientRects().length > 0) {
@@ -2564,7 +2551,7 @@ function dragElement(elmnt) {
  * 
  */
 function getAuctionBox() {
-	return $('bridge-screen .auctionBoxClass')[0];
+	return parent.$('bridge-screen .auctionBoxClass')[0];
 }
 
 function loadJS(url) {
@@ -2574,7 +2561,7 @@ function loadJS(url) {
 		.then(y => {
 			eval(y);
 		})
-		.catch(error => console.log("Erreur : " + error));
+		.catch(error => console.log("Error : " + error));
 }
 
 function getBBOalertHeader(data) {
@@ -2614,7 +2601,8 @@ function updateAlertDataAsync(at, callback) {
 				to.push(element);
 				var r0 = r[0].trim();
 				if ((r0 == 'Import') || (r0 == 'Javascript') || (r0 == '//Javascript')) {
-					var url = makeDirectLink(r[1].trim());
+					urlOriginal = r[1].trim();
+					var url = makeDirectLink(urlOriginal);
 					if (findURL(url, parent)) {
 						console.log('Error : circular reference :');
 						console.log('to  ' + url);
@@ -2631,7 +2619,7 @@ function updateAlertDataAsync(at, callback) {
 							.then(x => x.text())
 							.then(data => {
 								console.log('Done    ' + url);
-								data = HTMLpage2text(data, url);
+								data = HTMLpage2text(data, url, urlOriginal);
 								console.log('Header  ' + getBBOalertHeader(data));
 								addRecentURL(getBBOalertHeader(data), url);
 								if (data != '') {
@@ -2660,8 +2648,9 @@ function updateAlertDataAsync(at, callback) {
 		}
 		pending--;
 		if (pending == 0) {
-			console.timeEnd("Read time");
-			console.log('Total ' + tab.flat(999).length + ' records');
+//			console.timeEnd("Read time");
+			timer = Date.now() - timer;
+			console.log('Total ' + tab.flat(999).length + ' records in ' + timer/1000 + " secs");
 			alertData = tab.flat(999).join('\n');
 			callback();
 		}
@@ -2670,7 +2659,7 @@ function updateAlertDataAsync(at, callback) {
 	var urls = [];
 	var parents = [];
 	var pending = 1;
-	console.time("Read time");
+	var timer = Date.now();
 	initBBOalertEvents();
 	initInfoSelector();
 	addrecs(at, tab, -1);
@@ -2678,6 +2667,9 @@ function updateAlertDataAsync(at, callback) {
 
 function makeDirectLink(s) {
 	var url = s;
+	if (url.indexOf(".blogspot.com") != -1) {
+		return getBlogPostURL(url);
+	}
 	if (url.indexOf("www.dropbox.com") != -1) {
 		return url.replace("www.dropbox.com", "dl.dropbox.com");
 	}
@@ -2706,7 +2698,7 @@ function loadScript(url) {
 }
 
 function getCard(index) {
-	var card = $(".cardClass").filter(function () {
+	var card = parent.$(".cardClass").filter(function () {
 		return $(this).css('z-index') == index;
 	}).text();
 	if (card.length == 6) {
@@ -2717,7 +2709,7 @@ function getCard(index) {
 
 function getLastChatMessaage() {
 	try {
-		var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
+		var ci = parent.$("#chatDiv .chatOutputClass chat-list-item").toArray();
 		return ci[ci.length - 1].textContent;
 	} catch {
 		return '';
@@ -2729,23 +2721,23 @@ function getPlayedCards() {
 }
 
 function getAnnouncementPanel() {
-	return $("bridge-screen .announcementPanelClass")[0];
+	return parent.$("bridge-screen .announcementPanelClass")[0];
 }
 
 function getNotificationPanel() {
-	return $("bridge-screen .notificationClass")[0];
+	return parent.$("bridge-screen .notificationClass")[0];
 }
 
 function getCallExplanationPanel() {
-	return $("bridge-screen .callExplanationClass")[0];
+	return parent.$("bridge-screen .callExplanationClass")[0];
 }
 
 function getCallExplanationText() {
-	return $("bridge-screen .callExplanationClass .textClass").text();
+	return parent.$("bridge-screen .callExplanationClass .textClass").text();
 }
 
 function getChatSendButton(inp) {
-	var cr = $(".chatRowClass");
+	var cr = $(".chatRowClass", window.parent.document);
 	if (cr.length == 0) return null;
 	for (var i = 0; i < cr.length; i++) {
 		if (cr[i].contains(inp)) {
@@ -2775,14 +2767,14 @@ function isHoverEnabled() {
 
 function hover_bboalert() {
 	try {
-		var t = document.getElementById('bboalert-tab');
-		var rd = document.getElementById('rightDiv');
+		var t = window.parent.document.getElementById('bboalert-tab');
+		var rd = window.parent.document.getElementById('rightDiv');
 		var vt = rd.querySelector('.verticalTabBarClass');
 		var tabs = vt.querySelectorAll('.verticalClass');
 		if (t.onmouseenter == null) t.onmouseenter = function () {
 			if (isHoverEnabled()) {
 				setOptions(true);
-				$("#bboalert-tab")[0].focus();
+				parent.$("#bboalert-tab")[0].focus();
 			}
 		};
 		for (var i = 0; i < tabs.length; i++) {
@@ -2790,7 +2782,7 @@ function hover_bboalert() {
 				if (tabs[i].onmouseenter == null) tabs[i].onmouseenter = function () {
 					if (isHoverEnabled()) {
 						setOptionsOff();
-						document.activeElement.blur();
+						window.parent.document.activeElement.blur();
 						if ((this.className.indexOf("selected") == -1) || ($("#adpanel0").width() == 0)) {
 							this.click();
 						}
@@ -2803,7 +2795,7 @@ function hover_bboalert() {
 
 function getFinalContractPanel() {
 	try {
-		return $("bridge-screen .tricksPanelClass")[0];
+		return parent.$("bridge-screen .tricksPanelClass")[0];
 	} catch {
 		return null;
 	}
@@ -2832,7 +2824,7 @@ function BBOalertEvents() {
 
 
 function beep(f, d) {
-	var context = new(window.AudioContext || window.webkitAudioContext)();
+	var context = new window.AudioContext();
 	var osc = context.createOscillator();
 	osc.type = 'square';
 	osc.frequency.value = f;
@@ -2845,7 +2837,13 @@ function openDropbox(url) {
 	window.open(url, '', 'width=100,height=100');
 }
 
-function HTMLpage2text(html, url) {
+function HTMLpage2text(html, url, urlOriginal) {
+	if (url.startsWith("https://www.googleapis.com/blogger/v3/blogs/byurl?url=")) {
+		return registerBlogId(html, url, urlOriginal);
+	}
+	if (url.startsWith("https://blogger.googleapis.com/v3/blogs/")) {
+		return bloggerPostData(html, url, urlOriginal);
+	}
 	var i1 = html.indexOf("<body>");
 	if (i1 == -1) return html;
 	var i2 = html.indexOf("</body>");
@@ -2858,14 +2856,14 @@ function HTMLpage2text(html, url) {
 	var p = d.querySelectorAll("p,ul,li");
 	var txt = "";
 	var lvl = 0;
-	recList = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+	var recList = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
 	for (i = 0; i < p.length; i++) {
 		if (p[i].tagName.toLowerCase() == "p") {
 			lvl = 0;
 			recList[lvl] = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim() + ",,";
 			txt = txt + p[i].textContent + "\n";
 		} else if (p[i].tagName.toLowerCase() == "ul") {
-			var lvl = parseInt(p[i].classList[1].split("-")[2]) + 1;
+			lvl = parseInt(p[i].classList[1].split("-")[2]) + 1;
 		} else if (p[i].tagName.toLowerCase() == "li") {
 			var t = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim();
 			var i0 = t.indexOf(" ");
@@ -2890,10 +2888,6 @@ function HTMLpage2text(html, url) {
 	}
 	return tr.join("\n");
 }
-
-
-COLLAPSED_BG_COLOR = "yellow";
-COLLAPSED_TEXT_COLOR = "black";
 
 function toggleAlertList(el, expandTree) {
 	function ulLevel(ul) {
@@ -2962,4 +2956,72 @@ function replaceSuitSymbols(txt, prefix) {
 	t = t.replace(/♤/g, prefix + "S"); // white spades
 	if (prefix == '') t = t.replace(/NT/g, prefix + "N");
 	return t;
+}
+
+userScriptMap = new Map();
+function setUserScript(n, f) {
+	userScriptMap.set(n,f);
+}
+
+function getUserScript(n) {
+	var f = userScriptMap.get(n);
+    if (f == undefined) return function () {return "not_found";};
+    else return f;
+}
+
+function scriptArg(S) {
+	var i1 = S.indexOf("\(");
+	var i2 = S.indexOf("\)");
+	if (i1 == -1) return "";
+	if (i2 < i1) return "";
+	return S.slice(i1+1, i2);
+}
+
+function isDebuggingTable () {
+	if ((nd = getNavDiv()) == null) return false;
+	var nd1 = nd.querySelectorAll('.nameDisplayClass');
+	if (nd1 == null) return false;
+	if (nd1.length != 4) return false;
+	for (var i = 0; i < 4; i++) {
+		if (nd1[i].textContent != whoAmI()) return false;
+	}
+	return true;
+}
+
+function partnerDirection() {
+	var md = myDirection();
+	if (md == "S") return "N";
+	if (md == "W") return "E";
+	if (md == "N") return "S";
+	if (md == "E") return "W";
+	return '';
+}
+
+function directionRHO() {
+	var md = myDirection();
+	if (md == "S") return "E";
+	if (md == "W") return "S";
+	if (md == "N") return "W";
+	if (md == "E") return "N";
+	return '';
+}
+
+function directionLHO() {
+	var md = myDirection();
+	if (md == "S") return "W";
+	if (md == "W") return "N";
+	if (md == "N") return "E";
+	if (md == "E") return "S";
+	return '';
+}
+
+function getLanguage() {
+	var lang = "en";
+	var i = window.parent.location.href.indexOf('lang=');
+	if (i != -1) {
+		lang = window.parent.location.href.slice(i+5, i+7);
+	} else {
+		lang = navigator.language.slice(0,2);
+	}
+	return lang;
 }

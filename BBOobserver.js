@@ -1,103 +1,3 @@
-function initGlobals() {
-    /**
-     * boolean = true : if main BBO panel displayed
-     */
-    navDivDisplayed = false;
-    /**
-     * boolean = true : if bidding box exists
-     * Bidding box element is created when the table
-     * is displayed
-     */
-    biddingBoxExists = false;
-    /**
-     * boolean = true : if bidding box is displayed
-     */
-    biddingBoxDisplayed = false;
-    /**
-     * boolean = true : when opponents ask more info
-     */
-    explainCallDisplayed = false;
-    /**
-     * boolean = true : during the auction
-     */
-    auctionBoxDisplayed = false;
-    /**
-     * string : contains current board number
-     */
-    lastDealNumber = '';
-    /**
-     * string : contains LHO user id
-     */
-    LHOpponent = '';
-    /**
-     * string : contains RHO user id
-     */
-    RHOpponent = '';
-    /**
-     * string = 'L' when LHO changed or 'R' when RHO changed
-     */
-    opponentChanged = '';
-    /**
-     * string : contains current auction
-     */
-    currentAuction = '??';
-    /**
-     * string : contains current active player direction and uid
-     */
-    activePlayer = '';
-    lastSelectedCall = '';
-    cardLead = '';
-    playedCards = '';
-    callExplanationPanelDisplayed = false;
-    myCardsDisplayed = '';
-    dealEndPanelDisplayed = false;
-    announcemenDisplayed = false;
-    finalContractDisplayed = false;
-    announcementText = '';
-    notificationDisplayed = false;
-    notificationText = '';
-    lastChatMessage = '';
-    lastUserExplanation = '';
-    recordNewAlerts = true;
-    // Release notes : stable version
-    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub";
-    // Release notes : beta version
-//    srcRelnotes = "https://docs.google.com/document/d/e/2PACX-1vQlUHDS_XUimLvS722emrPw5Bzpyjm8lPKxZ9jwVwOVJVq0zQd3fawML8sylwxYIGKiZB60eJENB2TG/pub";
-}
-
-initGlobals();
-
-const E_onAnyMutation = new Event('onAnyMutation');
-const E_onBiddingBoxCreated = new Event('onBiddingBoxCreated');
-const E_onBiddingBoxDisplayed = new Event('onBiddingBoxDisplayed');
-const E_onBiddingBoxHidden = new Event('onBiddingBoxHidden');
-const E_onAuctionBoxDisplayed = new Event('onAuctionBoxDisplayed');
-const E_onAuctionBegin = new Event('onAuctionBegin');
-const E_onAuctionBoxHidden = new Event('onAuctionBoxHidden');
-const E_onAuctionEnd = new Event('onAuctionEnd');
-const E_onFinalContractDisplayed = new Event('onFinalContractDisplayed');
-const E_onNewAuction = new Event('onNewAuction');
-const E_onNewActivePlayer = new Event('onNewActivePlayer');
-const E_onExplainCallDisplayed = new Event('onExplainCallDisplayed');
-const E_onExplainCallHidden = new Event('onExplainCallHidden');
-const E_onBiddingBoxRemoved = new Event('onBiddingBoxRemoved');
-const E_onLogin = new Event('onLogin');
-const E_onLogoff = new Event('onLogoff');
-const E_onAnyOpponentChange = new Event('onAnyOpponentChange');
-const E_onNewDeal = new Event('onNewDeal');
-const E_onNewCallSelected = new Event('onNewCallSelected');
-const E_onCallLevelSelected = new Event('onCallLevelSelected');
-const E_onMyLead = new Event('onMyLead');
-const E_onNewPlayedCard = new Event('onNewPlayedCard');
-const E_onCallExplanationPanelDisplayed = new Event('onCallExplanationPanelDisplayed');
-const E_onMyCardsDisplayed = new Event('onMyCardsDisplayed');
-const E_onDealEnd = new Event('onDealEnd');
-const E_onAnnouncementDisplayed = new Event('onAnnouncementDisplayed');
-const E_onNotificationDisplayed = new Event('onNotificationDisplayed');
-const E_onNewChatMessage = new Event('onNewChatMessage');
-const E_onDataLoad = new Event('onDataLoad');
-
-
 // Options for the observer (which mutations to observe)
 const config = {
     attributes: true,
@@ -197,29 +97,50 @@ const callback = function (mutationsList, observer) {
     observer.observe(targetNode, config);
 };
 
+/**
+ * @ignore
+ */
+function openAccountTab() {
+    var vc = parent.document.querySelectorAll('.verticalClass');
+    if (vc.length < 4) return false;
+    vc[3].click();
+    return true;
+}
+
+// openAccountTab();
+
 // Create an observer instance linked to the callback function
 const observer = new MutationObserver(callback);
 
 // Start observing the target node for configured mutations
-const targetNode = document.body;
-observer.observe(targetNode, config);
+const targetNode = parent.document.body;
+var tmr = setInterval(function () {
+    console.log("Scripts loaded = " + $("script").length);
+    if ($("script").length != 12) return; // be sure all scripts ale loaded
+    if (!isVisible(getNavDiv())) return;
+    initGlobals();
+    navDivDisplayed = true;
+    onNavDivDisplayed();
+    clearInterval(tmr);
+    observer.observe(targetNode, config);
+}, 100);
 
 
 function onAnyMutation() {
     // move down CC table
-    var ccd = document.getElementById('ccDiv');
+    var ccd = parent.document.getElementById('ccDiv');
     if (ccd != null) ccd.style.top = "";
     //	if (ccd != null) ccd.style.top = "85px";
     partnershipOptions();
     checkOptionsVulnerability();
     setOptionColors();
     if ($("#adpanel2").length == 1) {
-        if (document.activeElement.tagName.toLowerCase() == "input") {
+        if (parent.document.activeElement.tagName.toLowerCase() == "input") {
             //            document.activeElement.tagName.onfocus = inputOnFocus;
-            if (!$("#rightDiv")[0].contains(document.activeElement)) {
-                $("#adpanel2")[0].inputObject = document.activeElement;
-                if (document.activeElement.onclick == null) {
-                    document.activeElement.onclick = function () {
+            if (!parent.$("#rightDiv")[0].contains(parent.document.activeElement)) {
+                $("#adpanel2")[0].inputObject = parent.document.activeElement;
+                if (parent.document.activeElement.onclick == null) {
+                    parent.document.activeElement.onclick = function () {
                         toggleButtons(this);
                     };
                 }
@@ -297,8 +218,31 @@ function onFinalContractDisplayed() {
 function onNewAuction() {
     if (currentAuction != '')
         if (currentAuction != '??') {
+            ctxArray = bidArray(stripContext(getContext()));
             BBOalertEvents().dispatchEvent(E_onNewAuction);
             execUserScript('%onNewAuction%');
+            console.log("Active player " + activePlayer);
+            if (activePlayer.slice(0, 1) == directionRHO()) {
+                let txt = findAlert(getContext().slice(0, -2), getContext().slice(-2));
+                console.log("Partner bid " + getContext().slice(-2) + " = " + txt);
+                BBOalertEvents().dispatchEvent(E_onPartnerAuction);
+                execUserScript('%onPartnerAuction%');
+            }
+            if (activePlayer.slice(0, 1) == directionLHO()) {
+                console.log("My bid " + getContext().slice(-2));
+                BBOalertEvents().dispatchEvent(E_onMyAuction);
+                execUserScript('%onMyAuction%');
+            }
+            if (activePlayer.slice(0, 1) == myDirection()) {
+                console.log("RHO bid " + getContext().slice(-2));
+                BBOalertEvents().dispatchEvent(E_onRHOAuction);
+                execUserScript('%onRHOAuction%');
+            }
+            if (activePlayer.slice(0, 1) == partnerDirection()) {
+                console.log("LHO bid " + getContext().slice(-2));
+                BBOalertEvents().dispatchEvent(E_onLHOAuction);
+                execUserScript('%onLHOAuction%');
+            }
         }
 }
 
@@ -335,10 +279,22 @@ function onBiddingBoxRemoved() {
     execUserScript('%onBiddingBoxRemoved%');
 }
 
+function checkNewVersion() {
+    var oldVersion = localStorage.getItem("BBOalertVersion");
+    var curVersion = document.title;
+    if (oldVersion != curVersion) {
+        setTimeout(function() {
+            alert("\nNew BBOalert version loaded : " + curVersion + "\n\nPlease read release notes on the 'Documents' tab");
+            localStorage.setItem("BBOalertVersion", curVersion);   
+        },100);
+    }
+}
+
 function onNavDivDisplayed() {
+    console.log("Iframe navDiv displayed");
     // complete initial setup
     $(window).on("beforeunload", exportUpdateData);
-    $(".logoutBlock button")[0].onclick = exportUpdateData;
+    parent.document.querySelector(".logoutBlock button")
     setUI();
     addBBOalertTab();
     alertData = localStorage.getItem('BBOalertCache');
@@ -372,11 +328,13 @@ function onNavDivDisplayed() {
             hideUnusedOptions();
             BBOalertEvents().dispatchEvent(E_onLogin);
             execUserScript('%onLogin%');
+            checkNewVersion();
         });
     }, 500);
 }
 
 function onNavDivHidden() {
+    console.log("Iframe navDiv displayed");
     setButtonPanel(false);
     setOptionsOff();
     initGlobals();

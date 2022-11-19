@@ -22,7 +22,7 @@ function clearConfigMenu() {
     for (var i = configSelector.options.length - 1; i > 0; i--) {
         configSelector.options[i].remove();
     }
-//    $("#bboalert-config-panel").hide();
+    //    $("#bboalert-config-panel").hide();
     $("#bboalert-menu-config").hide();
 }
 
@@ -35,10 +35,10 @@ function setConfigBox(title, cfg) {
         t = '';
         if ((typeof (v[i])) == "boolean") {
             t = '"checkbox"';
-            if (v[i] == true) t = t + ' checked';   
+            if (v[i] == true) t = t + ' checked';
         }
         if ((typeof (v[i])) == "number") {
-            t = '"number" value=' +  v[i];
+            t = '"number" value=' + v[i];
         }
         if ((typeof (v[i])) == "string") {
             t = '"text" value="' + v[i] + '"';
@@ -48,34 +48,42 @@ function setConfigBox(title, cfg) {
     h = h + '</table><button>Cancel</button><button>OK</button>';
     var d = document.createElement('DIV');
     d.innerHTML = h;
+    d.style.fontSize = "small";
     var b = d.querySelectorAll("button");
     b[0].onclick = function () {
+        $("#adpanel0").show();
         $(d).dialog("destroy");
     };
     b[1].onclick = function () {
         var j = d.querySelectorAll('input');
         for (let i = 0; i < v.length; i++) {
             if ((typeof (v[i])) == "boolean") {
-                eval('cfg.'+k[i]+'='+j[i].checked);
+                eval('cfg.' + k[i] + '=' + j[i].checked);
             }
             if ((typeof (v[i])) == "number") {
-                eval('cfg.'+k[i]+'='+j[i].value);
+                eval('cfg.' + k[i] + '=' + j[i].value);
             }
             if ((typeof (v[i])) == "string") {
-                eval('cfg.'+k[i]+'="'+j[i].value+'"');
+                eval('cfg.' + k[i] + '="' + j[i].value + '"');
             }
         }
         localStorage.setItem('BBOalertConfig ' + title, JSON.stringify(cfg));
+        $("#adpanel0").show()
+        BBOalertEvents().dispatchEvent(E_onAnyMutation);
         $(d).dialog("destroy");
     };
-    $(d).dialog();
+    $("#adpanel0").hide()
+    $(d).dialog().css("font-size", "16px");
     $(d).dialog({
         title: title
     });
     $(d).dialog({
         width: "auto"
     });
+    $(d).dialog({
+        modal: true
+    });
+    $(".ui-button").remove();
 }
 
-function redrawTable() {
-}
+function redrawTable() {}
