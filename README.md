@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 6.6.1.7
+Version : 7.0
 
 For recent changes see actual release notes :
 
