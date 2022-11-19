@@ -1,9 +1,10 @@
 
+//BBOalert,stanmazPlugin version 2.0
 
-
-
-
-    //BBOalert,stanmazPlugin version 1.0
+function BBOcontext() {
+if (document.title != 'Bridge Base Online') return window.parent.document;
+return document;
+}
 
 // The script for BBO event logging
 (function () {
@@ -26,8 +27,24 @@
     EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (EVENT_LOG == null) EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
-        console.log("addConfigBox");
+        console.log("addConfigBox : " + title);
         addConfigBox(title, cfg);
+        cfg.Enable_Log_Now = false;
+        cfg.Enable_Log_at_Next_Deal = false;
+        cfg.Export_Log_Data = false;
+        addBBOalertEvent("onAnyMutation", function () {
+            if (cfg.Export_Log_Data) {
+                console.log("config = " + cfg);
+                writeToClipboard(EVENT_LOG);
+                localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
+                cfg.Export_Log_Data = false;
+            }
+            if (cfg.Clear_Log_Data) {
+                if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
+                cfg.Clear_Log_Data = false;
+            }
+        });
     });
     addBBOalertEvent("onLogin", function () {
         cfg.Enable_Log_Now = false;
@@ -131,18 +148,6 @@
             localStorage.setItem('BBOalertEvents', EVENT_LOG);
         }
     });
-    addBBOalertEvent("onAnyMutation", function () {
-        if (cfg.Export_Log_Data) {
-            writeToClipboard(EVENT_LOG);
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-            bboalertLog(EVENT_LOG.split("\n").length + " records exported to clipboard");
-            cfg.Export_Log_Data = false;
-        }
-        if (cfg.Clear_Log_Data) {
-            if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-            cfg.Clear_Log_Data = false;
-        }
-    });
 })();
 
 (function () {
@@ -171,47 +176,47 @@
     // User script code
     function updateColors() {
         if (cfg.enabled) {
-            $(".cardArea:contains('♣')").css("color", cfg.text_color_clubs);
-            $(".cardArea:contains('♦')").css("color", cfg.text_color_diamonds);
-            $(".cardArea:contains('♥')").css("color", cfg.text_color_hearts);
-            $(".cardArea:contains('♠')").css("color", cfg.text_color_spades);
-            $(".cardArea:contains('♣')").css("background-color", cfg.background_color_clubs);
-            $(".cardArea:contains('♦')").css("background-color", cfg.background_color_diamonds);
-            $(".cardArea:contains('♥')").css("background-color", cfg.background_color_hearts);
-            $(".cardArea:contains('♠')").css("background-color", cfg.background_color_spades);
-            $(".auctionBoxCellClass span:contains('♣')").css("color", cfg.text_color_clubs);
-            $(".auctionBoxCellClass span:contains('♦')").css("color", cfg.text_color_diamonds);
-            $(".auctionBoxCellClass span:contains('♥')").css("color", cfg.text_color_hearts);
-            $(".auctionBoxCellClass span:contains('♠')").css("color", cfg.text_color_spades);
-            $(".biddingBoxClass span:contains('♣')").css("color", cfg.text_color_clubs);
-            $(".biddingBoxClass span:contains('♦')").css("color", cfg.text_color_diamonds);
-            $(".biddingBoxClass span:contains('♥')").css("color", cfg.text_color_hearts);
-            $(".biddingBoxClass span:contains('♠')").css("color", cfg.text_color_spades);
-            $(".auctionBoxCellClass:contains('Dbl')").css("color", cfg.text_color_double);
-            $(".auctionBoxCellClass:contains('Dbl')").css("background-color", cfg.background_color_double);
-            $(".auctionBoxCellClass:contains('Rdbl')").css("color", cfg.text_color_redouble);
-            $(".auctionBoxCellClass:contains('Rdbl')").css("background-color", cfg.background_color_redouble);
+            $(".cardArea:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
+            $(".cardArea:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
+            $(".cardArea:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
+            $(".cardArea:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
+            $(".cardArea:contains('♣')", BBOcontext()).css("background-color", cfg.background_color_clubs);
+            $(".cardArea:contains('♦')", BBOcontext()).css("background-color", cfg.background_color_diamonds);
+            $(".cardArea:contains('♥')", BBOcontext()).css("background-color", cfg.background_color_hearts);
+            $(".cardArea:contains('♠')", BBOcontext()).css("background-color", cfg.background_color_spades);
+            $(".auctionBoxCellClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
+            $(".auctionBoxCellClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
+            $(".auctionBoxCellClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
+            $(".auctionBoxCellClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
+            $(".biddingBoxClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
+            $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
+            $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
+            $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
+            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", cfg.text_color_double);
+            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
+            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
+            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
         } else {
-            $(".cardArea:contains('♣')").css("color", "black");
-            $(".cardArea:contains('♦')").css("color", "");
-            $(".cardArea:contains('♥')").css("color", "");
-            $(".cardArea:contains('♠')").css("color", "black");
-            $(".cardArea:contains('♣')").css("background-color", "");
-            $(".cardArea:contains('♦')").css("background-color", "");
-            $(".cardArea:contains('♥')").css("background-color", "");
-            $(".cardArea:contains('♠')").css("background-color", "");
-            $(".auctionBoxCellClass span:contains('♣')").css("color", "rgb(0, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♦')").css("color", "rgb(203, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♥')").css("color", "rgb(203, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♠')").css("color", "rgb(0, 0, 0)");
-            $(".biddingBoxClass span:contains('♣')").css("color", "");
-            $(".biddingBoxClass span:contains('♦')").css("color", "");
-            $(".biddingBoxClass span:contains('♥')").css("color", "");
-            $(".biddingBoxClass span:contains('♠')").css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')").css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')").css("background-color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')").css("color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')").css("background-color", "");
+            $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
+            $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
+            $(".cardArea:contains('♥')", BBOcontext()).css("color", "");
+            $(".cardArea:contains('♠')", BBOcontext()).css("color", "black");
+            $(".cardArea:contains('♣')", BBOcontext()).css("background-color", "");
+            $(".cardArea:contains('♦')", BBOcontext()).css("background-color", "");
+            $(".cardArea:contains('♥')", BBOcontext()).css("background-color", "");
+            $(".cardArea:contains('♠')", BBOcontext()).css("background-color", "");
+            $(".auctionBoxCellClass span:contains('♣')", BBOcontext()).css("color", "rgb(0, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♦')", BBOcontext()).css("color", "rgb(203, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♥')", BBOcontext()).css("color", "rgb(203, 0, 0)");
+            $(".auctionBoxCellClass span:contains('♠')", BBOcontext()).css("color", "rgb(0, 0, 0)");
+            $(".biddingBoxClass span:contains('♣')", BBOcontext()).css("color", "");
+            $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", "");
+            $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", "");
+            $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", "");
+            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", "");
+            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", "");
+            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", "");
+            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", "");
         }
     }
     addBBOalertEvent("onAnyMutation", updateColors);
@@ -243,12 +248,13 @@
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
+    cfg.Remove_Ads = false;
     addBBOalertEvent("onDataLoad", function () {
         addConfigBox(title, cfg);
     });
     addBBOalertEvent("onNewChatMessage", function () {
         if (!cfg.Enable_chat_timestamp) return;
-        var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
+        var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
         var cs = ci[ci.length - 1].querySelector("span");
         var now = new Date();
         var hh = now.getHours().toString();
@@ -270,25 +276,25 @@
         left: coverclasspos !important;
     }    
     `;
-    var moveTableLeftStyle = document.createElement('style');
+    var moveTableLeftStyle = BBOcontext().createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
         if (on) {
-            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass").width() + "px");
-            if (document.head.querySelector("#move-table-left--style") == null) {
+            var t = moveTableLeftStyleText.replace("coverclasspos", $("#navDiv .dealViewerToolbarClass", BBOcontext()).width() + "px");
+            if (BBOcontext().head.querySelector("#move-table-left--style") == null) {
                 moveTableLeftStyle.innerHTML = t;
-                document.head.appendChild(moveTableLeftStyle);
+                BBOcontext().head.appendChild(moveTableLeftStyle);
             } else {
-                document.head.querySelector("#move-table-left--style").innerHTML = t;
+                BBOcontext().head.querySelector("#move-table-left--style").innerHTML = t;
             }
         } else {
-            $("#move-table-left--style").remove();
+            $("#move-table-left--style", BBOcontext()).remove();
         }
     };
     removeIconsFromTabs = function () {
-        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").hide();
-        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon").show();
-        $(".area-label").css("font-weight", "bold");
+        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).hide();
+        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).show();
+        $(".area-label", BBOcontext()).css("font-weight", "bold");
     };
     var largeBoxStyleText = `
     #navDiv .auctionBoxClass {
@@ -417,25 +423,25 @@
         font-size: 4vh !important;
     }
     `;
-    var largeBoxStyle = document.createElement('style');
+    var largeBoxStyle = BBOcontext().createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
-    document.head.appendChild(largeBoxStyle);
+    BBOcontext().head.appendChild(largeBoxStyle);
     largeBiddingBox = function (on) {
         //        if (getPartnerHand() != '') return;
         if (on) {
-            if (document.head.querySelector("#large-box-style") == null) document.head.appendChild(largeBoxStyle);
+            if (BBOcontext().head.querySelector("#large-box-style") == null) BBOcontext().head.appendChild(largeBoxStyle);
         } else {
-            $("#large-box-style").remove();
+            $("#large-box-style",BBOcontext().head).remove();
         }
     };
     modified_OK_button = function (on) {
         if (on) {
             if (callText.length == 2) {
                 var txt = callText;
-                var btok = $("bridge-screen bidding-box-button button")[16];
-                var btnt = $("bridge-screen bidding-box-button button")[11];
-                var btok_span = $("bridge-screen bidding-box-button span")[16];
+                var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+                var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
+                var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
                 if (callText == "Db") {
                     txt = 'Dbl';
                     btok.style.backgroundColor = "rgb(203, 0, 0)";
@@ -455,15 +461,15 @@
                     if (callText.slice(-1) == "C") txt = callText.charAt(0) + "♣";
                     if (callText.slice(-1) == "D") {
                         txt = callText.charAt(0) + "♦";
-                        $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                        $("bridge-screen bidding-box-button span", BBOcontext())[16].style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "H") {
                         txt = callText.charAt(0) + "♥";
-                        $("bridge-screen bidding-box-button span")[16].style.color = "rgb(203, 0, 0)";
+                        $("bridge-screen bidding-box-button span", BBOcontext())[16].style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
                 }
-                $("bridge-screen bidding-box-button span")[16].textContent = elimineSpaces(txt);
+                $("bridge-screen bidding-box-button span", BBOcontext())[16].textContent = elimineSpaces(txt);
             }
         }
     };
@@ -491,14 +497,14 @@
         left: 4px !important;
     }
     `;
-    var swapBiddingButtonsStyle = document.createElement('style');
+    var swapBiddingButtonsStyle = BBOcontext().createElement('style');
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
     swapBiddingButtons = function (on) {
         if (on && (confirmBidsSet() == "Y")) {
-            if (document.head.querySelector("#swap-bidding-buttons-style") == null) document.head.appendChild(swapBiddingButtonsStyle);
+            if (BBOcontext().head.querySelector("#swap-bidding-buttons-style") == null) BBOcontext().head.appendChild(swapBiddingButtonsStyle);
         } else {
-            $("#swap-bidding-buttons-style").remove();
+            $("#swap-bidding-buttons-style", BBOcontext()).remove();
         }
     };
     autoChatToOpponents = function () {
@@ -511,7 +517,7 @@
             if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
-        });        
+        });
     };
     disableAlertsWithCasualPartner = function (on) {
         if (on) {
@@ -526,7 +532,7 @@
             }
             if (i != -1) return;
             i = 2;
-            var optionsSelector = document.getElementById('bboalert-ds');
+            var optionsSelector = BBOcontext().getElementById('bboalert-ds');
             if (optionsSelector.selectedIndex == i) return;
             optionsSelector.selectedIndex = i;
             optionsSelectorChanged();
@@ -537,12 +543,23 @@
     });
     autoChatToOpponents();
 
+    removeAds = function (on) {
+        if (on) {
+            $("#bbo_ad1",BBOcontext()).hide();
+            $("#bbo_ad2",BBOcontext()).hide();
+            $("#bbo_app",BBOcontext()).css("left","0px");
+            $("#bbo_app",BBOcontext()).css("right","0px");
+            $("#bbo_app",BBOcontext()).css("width","");
+        }
+    };
+    
     addBBOalertEvent("onAnyMutation", function () {
         moveTableLeft(cfg.Move_table_left);
         removeIconsFromTabs();
         largeBiddingBox(cfg.Large_bidding_box);
         modified_OK_button(cfg.Modified_OK_button);
         swapBiddingButtons(cfg.Swap_bidding_buttons);
+        removeAds(cfg.Remove_Ads);
     });
     addBBOalertEvent("onNewDeal", function () {
         disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
