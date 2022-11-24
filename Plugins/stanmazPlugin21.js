@@ -307,8 +307,13 @@ function BBOcontext() {
         }
     };
     removeIconsFromTabs = function () {
-        if (cfg.Remove_icons_from_tabs) $(".verticalClass svg", BBOcontext()).hide();
-        if (!cfg.Remove_icons_from_tabs) $(".verticalClass svg", BBOcontext()).show();
+        if (cfg.Remove_icons_from_tabs) {
+            console.log("svg hide");
+            $(".verticalClass svg", BBOcontext()).hide()
+        } else {
+            console.log("svg show");
+            $(".verticalClass svg", BBOcontext()).show();
+        }
         $(".area-label", BBOcontext()).css("font-weight", "bold");
     };
     var largeBoxStyleText = `
