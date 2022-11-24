@@ -272,7 +272,7 @@ function BBOcontext() {
             });
             addBBOalertEvent("onAnyMutation", function () {
                 moveTableLeft(cfg.Move_table_left);
-                removeIconsFromTabs();
+                removeIconsFromTabs(cfg.Remove_icons_from_tabs);
                 largeBiddingBox(cfg.Large_bidding_box);
                 modified_OK_button(cfg.Modified_OK_button);
                 swapBiddingButtons(cfg.Swap_bidding_buttons);
@@ -306,9 +306,9 @@ function BBOcontext() {
             $("#move-table-left--style", BBOcontext()).remove();
         }
     };
-    removeIconsFromTabs = function () {
-        console.log("svg " + cfg.Remove_icons_from_tabs);
-        if (cfg.Remove_icons_from_tabs) {
+    removeIconsFromTabs = function (on) {
+        console.log("svg " + on);
+        if (on) {
             console.log("svg hide");
             $(".verticalClass svg", BBOcontext()).hide()
         } else {
