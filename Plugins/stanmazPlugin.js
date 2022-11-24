@@ -1,9 +1,9 @@
 
-//BBOalert,stanmazPlugin version 2.0
+//BBOalert,stanmazPlugin version 2.1
 
 function BBOcontext() {
-if (document.title != 'Bridge Base Online') return window.parent.document;
-return document;
+    if (document.title != 'Bridge Base Online') return window.parent.document;
+    return document;
 }
 
 // The script for BBO event logging
@@ -27,125 +27,125 @@ return document;
     EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (EVENT_LOG == null) EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
-        console.log("addConfigBox : " + title);
-        addConfigBox(title, cfg);
-        cfg.Enable_Log_Now = false;
-        cfg.Enable_Log_at_Next_Deal = false;
-        cfg.Export_Log_Data = false;
-        addBBOalertEvent("onAnyMutation", function () {
-            if (cfg.Export_Log_Data) {
-                console.log("config = " + cfg);
+        if (addConfigBox(title, cfg) != null) {
+            cfg.Enable_Log_Now = false;
+            cfg.Enable_Log_at_Next_Deal = false;
+            cfg.Export_Log_Data = false;
+            addBBOalertEvent("onAnyMutation", function () {
+                if (cfg.Export_Log_Data) {
+                    console.log("config = " + cfg);
+                    writeToClipboard(EVENT_LOG);
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
+                    cfg.Export_Log_Data = false;
+                }
+                if (cfg.Clear_Log_Data) {
+                    if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
+                    cfg.Clear_Log_Data = false;
+                }
+            });
+            addBBOalertEvent("onLogin", function () {
+                cfg.Enable_Log_Now = false;
+                cfg.Enable_Log_at_Next_Deal = false;
+                TIME_REF = Date.now();
+                LAST_PLAYER = '';
+                if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+            });
+            addBBOalertEvent("onLogoff", function () {
                 writeToClipboard(EVENT_LOG);
                 localStorage.setItem('BBOalertEvents', EVENT_LOG);
-                bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
-                cfg.Export_Log_Data = false;
-            }
-            if (cfg.Clear_Log_Data) {
-                if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-                cfg.Clear_Log_Data = false;
-            }
-        });
-    });
-    addBBOalertEvent("onLogin", function () {
-        cfg.Enable_Log_Now = false;
-        cfg.Enable_Log_at_Next_Deal = false;
-        TIME_REF = Date.now();
-        LAST_PLAYER = '';
-        if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-    });
-    addBBOalertEvent("onLogoff", function () {
-        writeToClipboard(EVENT_LOG);
-        localStorage.setItem('BBOalertEvents', EVENT_LOG);
-    });
-    addBBOalertEvent("onNewActivePlayer", function () {
-        setTimeout(function () {
-            LAST_PLAYER = activePlayer;
-        }, 200);
-    });
-    addBBOalertEvent("onAuctionBegin", function () {
-        if (cfg.Enable_Log_at_Next_Deal) {
-            cfg.Enable_Log_Now = true;
-            cfg.Enable_Log_at_Next_Deal = false;
-        }
-        LAST_PLAYER = getActivePlayer();
-        TIME_REF = Date.now();
-    });
-    addBBOalertEvent("onNewAuction", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onNewAuction) {
-            if (auctionBoxDisplayed)
-                if (getContext() != '') {
-                    var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + getContext();
+            });
+            addBBOalertEvent("onNewActivePlayer", function () {
+                setTimeout(function () {
+                    LAST_PLAYER = activePlayer;
+                }, 200);
+            });
+            addBBOalertEvent("onAuctionBegin", function () {
+                if (cfg.Enable_Log_at_Next_Deal) {
+                    cfg.Enable_Log_Now = true;
+                    cfg.Enable_Log_at_Next_Deal = false;
+                }
+                LAST_PLAYER = getActivePlayer();
+                TIME_REF = Date.now();
+            });
+            addBBOalertEvent("onNewAuction", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onNewAuction) {
+                    if (auctionBoxDisplayed)
+                        if (getContext() != '') {
+                            var s = getNow(true) + ',onNewAuction,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + getContext();
+                            console.log(s);
+                            EVENT_LOG = EVENT_LOG + s + '\n';
+                            localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                        }
+                }
+                TIME_REF = Date.now();
+            });
+            addBBOalertEvent("onNewPlayedCard", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onNewPlayedCard) {
+                    if (playedCards != '') {
+                        var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + playedCards;
+                        console.log(s);
+                        if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                        EVENT_LOG = EVENT_LOG + s + '\n';
+                        localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                    }
+                }
+                TIME_REF = Date.now();
+            });
+            addBBOalertEvent("onAnnouncementDisplayed", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onAnnouncementDisplayed) {
+                    var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getAnnouncementPanel().textContent + '"';
                     console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
                     EVENT_LOG = EVENT_LOG + s + '\n';
                     localStorage.setItem('BBOalertEvents', EVENT_LOG);
                 }
-        }
-        TIME_REF = Date.now();
-    });
-    addBBOalertEvent("onNewPlayedCard", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onNewPlayedCard) {
-            if (playedCards != '') {
-                var s = getNow(true) + ',onNewPlayedCard,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',' + (Date.now() - TIME_REF) + ',' + playedCards;
-                console.log(s);
-                if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-                EVENT_LOG = EVENT_LOG + s + '\n';
-                localStorage.setItem('BBOalertEvents', EVENT_LOG);
-            }
-        }
-        TIME_REF = Date.now();
-    });
-    addBBOalertEvent("onAnnouncementDisplayed", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onAnnouncementDisplayed) {
-            var s = getNow(true) + ',onAnnouncementDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getAnnouncementPanel().textContent + '"';
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onNotificationDisplayed", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onNotificationDisplayed) {
-            var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getNotificationPanel().textContent + '"';
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onNewDeal", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onNewDeal) {
-            var s = getNow(true) + ',onNewDeal,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,' + getDealNumber();
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onDealEnd", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onDealEnd) {
-            var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getDealEndPanel().textContent + '"';
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onNewChatMessage", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onNewChatMessage) {
-            var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getLastChatMessaage() + '"';
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
-        }
-    });
-    addBBOalertEvent("onCallExplanationPanelDisplayed", function () {
-        if (cfg.Enable_Log_Now && cfg.Log_onCallExplanationPanelDisplayed) {
-            var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getCallExplanationText() + '"';
-            console.log(s);
-            if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
-            EVENT_LOG = EVENT_LOG + s + '\n';
-            localStorage.setItem('BBOalertEvents', EVENT_LOG);
+            });
+            addBBOalertEvent("onNotificationDisplayed", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onNotificationDisplayed) {
+                    var s = getNow(true) + ',onNotificationDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getNotificationPanel().textContent + '"';
+                    console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                    EVENT_LOG = EVENT_LOG + s + '\n';
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                }
+            });
+            addBBOalertEvent("onNewDeal", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onNewDeal) {
+                    var s = getNow(true) + ',onNewDeal,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,' + getDealNumber();
+                    console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                    EVENT_LOG = EVENT_LOG + s + '\n';
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                }
+            });
+            addBBOalertEvent("onDealEnd", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onDealEnd) {
+                    var s = getNow(true) + ',onDealEnd,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getDealEndPanel().textContent + '"';
+                    console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                    EVENT_LOG = EVENT_LOG + s + '\n';
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                }
+            });
+            addBBOalertEvent("onNewChatMessage", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onNewChatMessage) {
+                    var s = getNow(true) + ',onNewChatMessage,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getLastChatMessaage() + '"';
+                    console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                    EVENT_LOG = EVENT_LOG + s + '\n';
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                }
+            });
+            addBBOalertEvent("onCallExplanationPanelDisplayed", function () {
+                if (cfg.Enable_Log_Now && cfg.Log_onCallExplanationPanelDisplayed) {
+                    var s = getNow(true) + ',onCallExplanationPanelDisplayed,' + getDealNumber() + ',' + LAST_PLAYER.slice(0, 1) + ',' + LAST_PLAYER.slice(1) + ',,"' + getCallExplanationText() + '"';
+                    console.log(s);
+                    if ((typeof EVENT_LOG) == "undefined") EVENT_LOG = '';
+                    EVENT_LOG = EVENT_LOG + s + '\n';
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
+                }
+            });
         }
     });
 })();
@@ -171,7 +171,9 @@ return document;
     cfg.background_color_redouble = "blue";
     // Register configuration
     addBBOalertEvent("onDataLoad", function () {
-        addConfigBox(title, cfg);
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onAnyMutation", updateColors);
+        }
     });
     // User script code
     function updateColors() {
@@ -219,7 +221,6 @@ return document;
             $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", "");
         }
     }
-    addBBOalertEvent("onAnyMutation", updateColors);
     // End of user script code
 })();
 
@@ -229,11 +230,12 @@ return document;
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
     addBBOalertEvent("onDataLoad", function () {
-        addConfigBox(title, cfg);
-    });
-    addBBOalertEvent("onAnyOpponentChange", function () {
-        if (!cfg.Enable_prealert) return;
-        setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onAnyOpponentChange", function () {
+                if (!cfg.Enable_prealert) return;
+                setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+            });
+        }
     });
 })();
 
@@ -250,32 +252,44 @@ return document;
     cfg.Disable_alerts_with_casual_partner = false;
     cfg.Remove_Ads = false;
     addBBOalertEvent("onDataLoad", function () {
-        addConfigBox(title, cfg);
-    });
-    addBBOalertEvent("onNewChatMessage", function () {
-        if (!cfg.Enable_chat_timestamp) return;
-        var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
-        var cs = ci[ci.length - 1].querySelector("span");
-        var now = new Date();
-        var hh = now.getHours().toString();
-        if (hh.length == 1) hh = '0' + hh;
-        var mn = now.getMinutes().toString();
-        if (mn.length == 1) mn = '0' + mn;
-        ci.forEach(function (cx) {
-            if (cx.textContent.match(/^[0-2][0-9][:][0-6][0-9]/) == null) {
-                var cs = cx.querySelector("span");
-                cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
-            }
-        });
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onNewChatMessage", function () {
+                if (!cfg.Enable_chat_timestamp) return;
+                var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
+                var cs = ci[ci.length - 1].querySelector("span");
+                var now = new Date();
+                var hh = now.getHours().toString();
+                if (hh.length == 1) hh = '0' + hh;
+                var mn = now.getMinutes().toString();
+                if (mn.length == 1) mn = '0' + mn;
+                ci.forEach(function (cx) {
+                    if (cx.textContent.match(/^[0-2][0-9][:][0-6][0-9]/) == null) {
+                        var cs = cx.querySelector("span");
+                        cs.textContent = hh + ':' + mn + ' ' + cs.textContent;
+                    }
+                });
+            });
+            addBBOalertEvent("onAnyMutation", function () {
+                moveTableLeft(cfg.Move_table_left);
+                removeIconsFromTabs(cfg.Remove_icons_from_tabs);
+                largeBiddingBox(cfg.Large_bidding_box);
+                modified_OK_button(cfg.Modified_OK_button);
+                swapBiddingButtons(cfg.Swap_bidding_buttons);
+                removeAds(cfg.Remove_Ads);
+            });
+            addBBOalertEvent("onNewDeal", function () {
+                disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
+            });
+        }
     });
     var moveTableLeftStyleText = `
-    #navDiv .dealViewerToolbarClass {
-        left: 0px !important;
-    }    
-    #navDiv .coverClass {
-        left: coverclasspos !important;
-    }    
-    `;
+        #navDiv .dealViewerToolbarClass {
+            left: 0px !important;
+        }    
+        #navDiv .coverClass {
+            left: coverclasspos !important;
+        }    
+        `;
     var moveTableLeftStyle = BBOcontext().createElement('style');
     moveTableLeftStyle.id = 'move-table-left--style';
     moveTableLeft = function (on) {
@@ -291,138 +305,141 @@ return document;
             $("#move-table-left--style", BBOcontext()).remove();
         }
     };
-    removeIconsFromTabs = function () {
-        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).hide();
-        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).show();
+    removeIconsFromTabs = function (on) {
+        if (on) {
+            $(".verticalClass svg", BBOcontext()).hide()
+        } else {
+            $(".verticalClass svg", BBOcontext()).show();
+        }
         $(".area-label", BBOcontext()).css("font-weight", "bold");
     };
     var largeBoxStyleText = `
-    #navDiv .auctionBoxClass {
-        top: 0px !important;
-        height: 33% !important;
-    }
-    #navDiv .scrollerClass {
-        height: 100% !important;
-    }
-    #navDiv .biddingBoxClass {
-        top: 34% !important;
-        left: 0px !important;
-        height: 45% !important;
-        width: 100% !important;
-    }
-    #navDiv .explainInputClass {
-        left: 15% !important;
-        width: 80% !important;
-        font-size: 4vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(1) .biddingBoxButtonClass {
-        left: 15% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(2) .biddingBoxButtonClass {
-        left: 25% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(3) .biddingBoxButtonClass {
-        left: 35% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(4) .biddingBoxButtonClass {
-        left: 45% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(5) .biddingBoxButtonClass {
-        left: 55% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(6) .biddingBoxButtonClass {
-        left: 65% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(7) .biddingBoxButtonClass {
-        left: 75% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(8) .biddingBoxButtonClass {
-        left: 20% !important;
-        top: 40% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(9) .biddingBoxButtonClass {
-        left: 30% !important;
-        top: 40% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(10) .biddingBoxButtonClass {
-        left: 40% !important;
-        top: 40% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(11) .biddingBoxButtonClass {
-        left: 50% !important;
-        top: 40% !important;
-        height: 30% !important;
-        width: 8% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(12) .biddingBoxButtonClass {
-        left: 60% !important;
-        top: 40% !important;
-        height: 30% !important;
-        width: 18% !important;
-        font-size: 8vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
-        height: 30% !important;
-        width: 11% !important;
-        font-size: 4vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
-        height: 30% !important;
-        width: 11% !important;
-        top: 33% !important;
-        font-size: 4vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
-        height: 30% !important;
-        width: 11% !important;
-        top: 33% !important;
-        font-size: 4vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
-        height: 30% !important;
-        width: 11% !important;
-        top: 65% !important;
-        font-size: 4vh !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
-        height: 30% !important;
-        width: 11% !important;
-        left: unset !important;
-        right: 4px !important;
-        font-size: 4vh !important;
-    }
-    `;
+        #navDiv .auctionBoxClass {
+            top: 0px !important;
+            height: 33% !important;
+        }
+        #navDiv .scrollerClass {
+            height: 100% !important;
+        }
+        #navDiv .biddingBoxClass {
+            top: 34% !important;
+            left: 0px !important;
+            height: 45% !important;
+            width: 100% !important;
+        }
+        #navDiv .explainInputClass {
+            left: 15% !important;
+            width: 80% !important;
+            font-size: 4vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(1) .biddingBoxButtonClass {
+            left: 15% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(2) .biddingBoxButtonClass {
+            left: 25% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(3) .biddingBoxButtonClass {
+            left: 35% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(4) .biddingBoxButtonClass {
+            left: 45% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(5) .biddingBoxButtonClass {
+            left: 55% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(6) .biddingBoxButtonClass {
+            left: 65% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(7) .biddingBoxButtonClass {
+            left: 75% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(8) .biddingBoxButtonClass {
+            left: 20% !important;
+            top: 40% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(9) .biddingBoxButtonClass {
+            left: 30% !important;
+            top: 40% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(10) .biddingBoxButtonClass {
+            left: 40% !important;
+            top: 40% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(11) .biddingBoxButtonClass {
+            left: 50% !important;
+            top: 40% !important;
+            height: 30% !important;
+            width: 8% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(12) .biddingBoxButtonClass {
+            left: 60% !important;
+            top: 40% !important;
+            height: 30% !important;
+            width: 18% !important;
+            font-size: 8vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
+            height: 30% !important;
+            width: 11% !important;
+            font-size: 4vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
+            height: 30% !important;
+            width: 11% !important;
+            top: 33% !important;
+            font-size: 4vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
+            height: 30% !important;
+            width: 11% !important;
+            top: 33% !important;
+            font-size: 4vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
+            height: 30% !important;
+            width: 11% !important;
+            top: 65% !important;
+            font-size: 4vh !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
+            height: 30% !important;
+            width: 11% !important;
+            left: unset !important;
+            right: 4px !important;
+            font-size: 4vh !important;
+        }
+        `;
     var largeBoxStyle = BBOcontext().createElement('style');
     largeBoxStyle.id = 'large-box-style';
     largeBoxStyle.innerHTML = largeBoxStyleText;
@@ -432,14 +449,16 @@ return document;
         if (on) {
             if (BBOcontext().head.querySelector("#large-box-style") == null) BBOcontext().head.appendChild(largeBoxStyle);
         } else {
-            $("#large-box-style",BBOcontext().head).remove();
+            $("#large-box-style", BBOcontext().head).remove();
         }
     };
     modified_OK_button = function (on) {
+        if (!buttonOKvisible()) return;
+        var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+        var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
         if (on) {
             if (callText.length == 2) {
-                var txt = callText;
-                var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+                var txt = callText;                
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
                 if (callText == "Db") {
@@ -471,32 +490,36 @@ return document;
                 }
                 $("bridge-screen bidding-box-button span", BBOcontext())[16].textContent = elimineSpaces(txt);
             }
+        } else {
+            btok.style.backgroundColor = "rgb(255, 206, 0)";
+            btok_span.style.color = "black";
+            $("bridge-screen bidding-box-button span", BBOcontext())[16].textContent = "OK";
         }
     };
     var swapBiddingButtonsStyleText = `
-    #navDiv .explainInputClass {
-        left: 4px !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
-        right: 4px !important;
-        left: unset !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
-        right: 4px !important;
-        left: unset !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
-        right: 4px !important;
-        left: unset !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
-        right: 4px !important;
-        left: unset !important;
-    }
-    #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
-        left: 4px !important;
-    }
-    `;
+        #navDiv .explainInputClass {
+            left: 4px !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(13) .biddingBoxButtonClass {
+            right: 4px !important;
+            left: unset !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(14) .biddingBoxButtonClass {
+            right: 4px !important;
+            left: unset !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(15) .biddingBoxButtonClass {
+            right: 4px !important;
+            left: unset !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(16) .biddingBoxButtonClass {
+            right: 4px !important;
+            left: unset !important;
+        }
+        #navDiv bidding-box-button:nth-of-type(17) .biddingBoxButtonClass {
+            left: 4px !important;
+        }
+        `;
     var swapBiddingButtonsStyle = BBOcontext().createElement('style');
     swapBiddingButtonsStyle.id = 'swap-bidding-buttons-style';
     swapBiddingButtonsStyle.innerHTML = swapBiddingButtonsStyleText;
@@ -542,26 +565,13 @@ return document;
         autoChatToOpponents();
     });
     autoChatToOpponents();
-
     removeAds = function (on) {
         if (on) {
-            $("#bbo_ad1",BBOcontext()).hide();
-            $("#bbo_ad2",BBOcontext()).hide();
-            $("#bbo_app",BBOcontext()).css("left","0px");
-            $("#bbo_app",BBOcontext()).css("right","0px");
-            $("#bbo_app",BBOcontext()).css("width","");
+            $("#bbo_ad1", BBOcontext()).hide();
+            $("#bbo_ad2", BBOcontext()).hide();
+            $("#bbo_app", BBOcontext()).css("left", "0px");
+            $("#bbo_app", BBOcontext()).css("right", "0px");
+            $("#bbo_app", BBOcontext()).css("width", "");
         }
     };
-    
-    addBBOalertEvent("onAnyMutation", function () {
-        moveTableLeft(cfg.Move_table_left);
-        removeIconsFromTabs();
-        largeBiddingBox(cfg.Large_bidding_box);
-        modified_OK_button(cfg.Modified_OK_button);
-        swapBiddingButtons(cfg.Swap_bidding_buttons);
-        removeAds(cfg.Remove_Ads);
-    });
-    addBBOalertEvent("onNewDeal", function () {
-        disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
-    });
 })();
