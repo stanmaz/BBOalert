@@ -27,8 +27,7 @@ function BBOcontext() {
     EVENT_LOG = localStorage.getItem('BBOalertEvents');
     if (EVENT_LOG == null) EVENT_LOG = '';
     addBBOalertEvent("onDataLoad", function () {
-        if (addConfigBox(title, cfg)) {
-            console.log("addConfigBox : " + title);
+        if (addConfigBox(title, cfg) != null) {
             cfg.Enable_Log_Now = false;
             cfg.Enable_Log_at_Next_Deal = false;
             cfg.Export_Log_Data = false;
@@ -172,7 +171,7 @@ function BBOcontext() {
     cfg.background_color_redouble = "blue";
     // Register configuration
     addBBOalertEvent("onDataLoad", function () {
-        if (addConfigBox(title, cfg)) {
+        if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onAnyMutation", updateColors);
         }
     });
@@ -231,7 +230,7 @@ function BBOcontext() {
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
     addBBOalertEvent("onDataLoad", function () {
-        if (addConfigBox(title, cfg)) {
+        if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
                 setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
@@ -253,7 +252,7 @@ function BBOcontext() {
     cfg.Disable_alerts_with_casual_partner = false;
     cfg.Remove_Ads = false;
     addBBOalertEvent("onDataLoad", function () {
-        if (addConfigBox(title, cfg)) {
+        if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewChatMessage", function () {
                 if (!cfg.Enable_chat_timestamp) return;
                 var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
