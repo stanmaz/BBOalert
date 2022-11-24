@@ -451,10 +451,11 @@ function BBOcontext() {
         }
     };
     modified_OK_button = function (on) {
+        var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+        var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
         if (on) {
             if (callText.length == 2) {
-                var txt = callText;
-                var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+                var txt = callText;                
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
                 if (callText == "Db") {
@@ -486,6 +487,10 @@ function BBOcontext() {
                 }
                 $("bridge-screen bidding-box-button span", BBOcontext())[16].textContent = elimineSpaces(txt);
             }
+        } else {
+            btok.style.backgroundColor = "rgb(255, 206, 0)";
+            btok_span.style.color = "black";
+            $("bridge-screen bidding-box-button span", BBOcontext())[16].textContent = "OK";
         }
     };
     var swapBiddingButtonsStyleText = `
