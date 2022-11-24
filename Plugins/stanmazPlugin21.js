@@ -307,6 +307,7 @@ function BBOcontext() {
         }
     };
     removeIconsFromTabs = function () {
+        console.log(cfg.Remove_icons_from_tabs);
         if (cfg.Remove_icons_from_tabs) {
             console.log("svg hide");
             $(".verticalClass svg", BBOcontext()).hide()
