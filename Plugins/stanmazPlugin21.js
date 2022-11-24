@@ -307,12 +307,9 @@ function BBOcontext() {
         }
     };
     removeIconsFromTabs = function (on) {
-        console.log("svg " + on);
         if (on) {
-            console.log("svg hide");
             $(".verticalClass svg", BBOcontext()).hide()
         } else {
-            console.log("svg show");
             $(".verticalClass svg", BBOcontext()).show();
         }
         $(".area-label", BBOcontext()).css("font-weight", "bold");
