@@ -451,6 +451,7 @@ function BBOcontext() {
         }
     };
     modified_OK_button = function (on) {
+        if (!buttonOKvisible()) return;
         var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
         var btok_span = $("bridge-screen bidding-box-button span", BBOcontext())[16];
         if (on) {
