@@ -307,8 +307,8 @@ function BBOcontext() {
         }
     };
     removeIconsFromTabs = function () {
-        if (cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).hide();
-        if (!cfg.Remove_icons_from_tabs) $(".verticalClass mat-icon", BBOcontext()).show();
+        if (cfg.Remove_icons_from_tabs) $(".verticalClass svg", BBOcontext()).hide();
+        if (!cfg.Remove_icons_from_tabs) $(".verticalClass svg", BBOcontext()).show();
         $(".area-label", BBOcontext()).css("font-weight", "bold");
     };
     var largeBoxStyleText = `
