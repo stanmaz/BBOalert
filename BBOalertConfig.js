@@ -1,7 +1,7 @@
 function addConfigBox(label, cfg) {
     console.log(cfg.name);
     var configSelector = document.getElementById('bboalert-menu-config');
-    if (configSelector == null) return;
+    if (configSelector == null) return null;
     var opt = new Option(label);
     var s = localStorage.getItem('BBOalertConfig ' + label);
     if (s != null) {
@@ -10,6 +10,19 @@ function addConfigBox(label, cfg) {
         $.extend(cfg, JSON.parse(s));
         testobj3 = cfg;
     }
+    // Avoid duplication
+    var exists = false;
+    $("#bboalert-menu-config option").each(function (index) {
+        if (index != 0) {
+            console.log($(this).text() + " " + label);
+            if ($(this).text() == label) {
+                console.log("Exists " + label);
+                exists = true;
+            }
+        }
+    });
+    if (exists) return null;
+    console.log("Add " + label);
     opt.cfgObj = cfg;
     opt.cfgLabel = label;
     configSelector.add(opt);
@@ -86,4 +99,4 @@ function setConfigBox(title, cfg) {
     $(".ui-button").remove();
 }
 
-function redrawTable() {}
+function redrawTable() { }

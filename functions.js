@@ -85,9 +85,9 @@ function pageReload() {
 function clickOK() {
 	var elBiddingBox = parent.document.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return false;
-	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+	var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return false;
-	if (elBiddingButtons.lebgth < 17) return false;
+	if (elBiddingButtons.length < 17) return false;
 	setTimeout(function () {
 		elBiddingButtons[16].click();
 	}, 300);
@@ -3024,4 +3024,9 @@ function getLanguage() {
 		lang = navigator.language.slice(0,2);
 	}
 	return lang;
+}
+
+function BBOcontext() {
+    if (document.title != 'Bridge Base Online') return window.parent.document;
+    return document;
 }
