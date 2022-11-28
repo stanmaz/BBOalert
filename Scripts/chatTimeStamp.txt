@@ -1,5 +1,5 @@
 //Script,onNewChatMessage
-var ci = $("#chatDiv .chatOutputClass chat-list-item").toArray();
+var ci = $("#chatDiv .chatOutputClass chat-list-item", window.parent.document).toArray();
 var cs = ci[ci.length-1].querySelector("span");
 var now = new Date();
 var hh = now.getHours().toString();
