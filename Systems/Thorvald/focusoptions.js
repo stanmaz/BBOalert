@@ -85,6 +85,15 @@ setTimeout(() => {
 Script
 Script, onBiddingBoxDisplayed, setOptionsOn();
 Script, onBiddingBoxHidden, setOptionsOff();
+Script, onNewActivePlayer
+if (tableType() == "practice") {
+    console.log(getActivePlayer());
+    getBiddingBox().style.display = "none";
+    setTimeout(() => {
+        getBiddingBox().style.display = "inline-block";
+    }, 1000);
+}
+Script
 Option, Locate Ambiguous bids
 Option
 
