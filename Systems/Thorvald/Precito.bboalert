@@ -1,6 +1,6 @@
 BBOalert, 29-07-2022 01:47:19 Precito Version stanmaz
 BBOalert,Version 1.0
-Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPluginMV3.js
+Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
 Script,onBiddingBoxDisplayed,getExplainInput().setAttribute("maxlength", "69");
 Script
 Script,onDataLoad
