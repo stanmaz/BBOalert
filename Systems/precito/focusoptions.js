@@ -1,4 +1,4 @@
-
+Option, Locate Ambiguous bids
 Script, onDataLoad
 findOptionByLabel = function (label) {
     return $('button').filter(function () {
@@ -75,4 +75,4 @@ setTimeout(() => {
 }, 100);
 Script, onBiddingBoxHidden, setOptionsOff();
 
-
+Option
