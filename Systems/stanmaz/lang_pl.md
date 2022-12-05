@@ -94,7 +94,7 @@
     Shortcut,NK,Wyjście przeciw BA : K = typowe AKW AKD KDW ou KD10\n,width=20%
     Shortcut,NQ,Wyjście przeciw BA : D = typowe DW10 or DW\n,width=20%
     Shortcut,NJ,Wyjście przeciw BA : W = typowe ADW or W10x\n,width=20%
-    Shortcut,NT,Wyjście przeciw BA : 10 = typowe AW10 or RW10 ot 109x\n,width=20%
+    Shortcut,N10,Wyjście przeciw BA : 10 = typowe AW10 or RW10 ot 109x\n,width=20%
 
     Shortcut,SA,Wyjście przeciw kolorowi : A = typiquement AR even number of cards\n,width=20%
     Shortcut,SK,Wyjście przeciw kolorowi : R = typiquement AR odd number of cards\n,width=20%
