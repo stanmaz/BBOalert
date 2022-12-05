@@ -88,7 +88,7 @@ Alias, or , o ,
     Shortcut,NK,Entame contre SA : R = typiquement ARJ ARQ RQJ ou RQT\n,width=20%
     Shortcut,NQ,Entame contre SA : D = typiquement DVT or DV9\n,width=20%
     Shortcut,NJ,Entame contre SA : V = typiquement ADV or V10x\n,width=20%
-    Shortcut,NT,Entame contre SA : 10 = typiquement AV10 or RV10 ot 109x\n,width=20%
+    Shortcut,N10,Entame contre SA : 10 = typiquement AV10 or RV10 ot 109x\n,width=20%
 
     Shortcut,SA,Attacco contro colore : A = tipicamente AR numero pari di carte\n,width=20%
     Shortcut,SK,Entame contre couleur : R = tipicamente AR numero dispari di carte\n,width=20%
