@@ -47,7 +47,7 @@
     Shortcut,NK,Lead against NT : K = typically AKJ AKQ KQJ or KQT\n,width=20%
     Shortcut,NQ,Lead against NT : Q = typically QJT or QJ9\n,width=20%
     Shortcut,NJ,Lead against NT : J = typically AQJ or JTx\n,width=20%
-    Shortcut,NT,Lead against NT : 10 = typically AJ10 or KJ10 ot 109x\n,width=20%
+    Shortcut,N10,Lead against NT : 10 = typically AJ10 or KJ10 ot 109x\n,width=20%
 
     Shortcut,SA,Lead against suit : A = typically AK even number of cards\n,width=20%
     Shortcut,SK,Lead against suit : K = typically AK odd number of cards\n,width=20%
