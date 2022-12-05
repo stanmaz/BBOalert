@@ -1,3 +1,7 @@
+/*
+To invoke this script in your HTML code include the record
+<script src="https://github.com/stanmaz/BBOalert/edit/master/Scripts/stackEditTamplate/onload.js"></script>
+*/
 function setSuitColors () {
     document.querySelectorAll("*").forEach(function (e) {
         try {
