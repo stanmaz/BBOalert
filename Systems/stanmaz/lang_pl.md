@@ -1,6 +1,5 @@
     BBOalert,lang_pl version 3
     Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzien dobry";} else {R = "Dobry wieczór";};
-    Alias,->NT,->BA
     Alias, or , albo ,
     Alias, and , i ,
     Alias,if,jeżeli
@@ -21,6 +20,7 @@
     Alias,Hearts,Kiery
     Alias,Spades,Piki
     Alias,Control,Kontrola
+    Alias,Texas->NT,Texas->BA
     Alias,stopper,zatrzymanie
     Alias,possible,możliwy
     Alias,no stopper,bez zatrzymania
