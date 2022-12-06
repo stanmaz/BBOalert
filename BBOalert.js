@@ -45,7 +45,7 @@ if (window.location.href.startsWith("https://docs.google.com/"))
 		let expand = true;
 		try {
 			expand = !($("p")[0].textContent == "no_expand");
-		} catch {}
+		} catch { }
 		if (expand) $("p,li").click(function (event) {
 			toggleAlertList(this, event.ctrlKey);
 		});
@@ -157,12 +157,12 @@ function receiveMessageBBO(event) {
 					}, 200);
 				});
 			}, 1000);
-		} catch {}
+		} catch { }
 	}
 
 }
 
-function Clipboard2CC() {}
+function Clipboard2CC() { }
 
 
 function CCfromClipboard() {
@@ -254,7 +254,7 @@ function addCCbuttons() {
 if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')) {
 	window.addEventListener("message", receiveMessageCC, false);
 	addCCbuttons();
-} else if (location.href.startsWith('https://webutil.bridgebase.com/v2')) {} else {
+} else if (location.href.startsWith('https://webutil.bridgebase.com/v2')) { } else {
 	window.addEventListener("message", receiveMessageBBO, false);
 }
 
@@ -595,7 +595,7 @@ function getClipboardData(newData) {
 			}, 1000);
 		}
 		clearOptionButtons();
-		if (getDataType(cbData) == 'BBOalert') {} else {
+		if (getDataType(cbData) == 'BBOalert') { } else {
 			lvls = "1234567";
 			suits = "CDHSN";
 			alertTable = alertData.split("\n");
@@ -763,7 +763,7 @@ function updateAlertText(alertText) {
 /**
  * @ignore
  */
- function findAlert(context, call) {
+function findAlert(context, call) {
 	console.time("findalert");
 	trustedBid = false;
 	var trustedZone = false;
@@ -779,9 +779,9 @@ function updateAlertText(alertText) {
 		if (txt == 'Untrusted') trustedZone = false;
 		if (txt == 'Option') matchOption = true;
 		//		if (rec.length < 2) continue;
-//		console.log("Before " + txt);
-//		txt = execUserScript(scan.replaceAliases(txt));
-//		console.log("After  " + txt);
+		//		console.log("Before " + txt);
+		//		txt = execUserScript(scan.replaceAliases(txt));
+		//		console.log("After  " + txt);
 		rec = txt.split(",");
 		recTemp = rec;
 		rec[0] = rec[0].replace(/!/g, "");
@@ -920,7 +920,20 @@ function inputOnKeyup(key) {
 	var text1b = text1.slice(this.selectionStart, text1.length);
 	if (key.altKey) {
 		text1a = text1a + 'Alt' + key.key.toUpperCase();
+		text2 = findShortcut(text1a) + text1b;
+		if (text1 != text2) {
+			setInputMessage(text2, false, this);
+			this.focus();
+			this.selectionStart = text2.length - text1b.length;
+			this.selectionEnd = text2.length - text1b.length;
+		}
 	}
+}
+
+function inputChanged() {
+    var text1 = this.value;
+	var text1a = text1.slice(0, this.selectionStart);
+	var text1b = text1.slice(this.selectionStart, text1.length);
 	text2 = findShortcut(text1a) + text1b;
 	if (text1 != text2) {
 		setInputMessage(text2, false, this);
@@ -1111,7 +1124,7 @@ function setBiddingButtonEvents() {
 	elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
 	if (elBiddingButtons == null) return;
 	if (elBiddingButtons.length < 17) return;
-//	setUndo();
+	//	setUndo();
 	setPostMortem();
 	if (elBiddingButtons[0].onmousedown == null) {
 		elBiddingButtons[0].onmousedown = function () {

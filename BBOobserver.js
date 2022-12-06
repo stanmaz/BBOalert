@@ -177,6 +177,7 @@ function onBiddingBoxDisplayed() {
         };
     }
     elAlertExplain.onkeyup = inputOnKeyup;
+    elAlertExplain.oninput = inputChanged;
     //    elAlertExplain.onfocus = inputOnFocus;
     getExplainInput().setAttribute("maxlength", "69");
     BBOalertEvents().dispatchEvent(E_onBiddingBoxDisplayed);
@@ -224,7 +225,6 @@ function onNewAuction() {
             console.log("Active player " + activePlayer);
             if (activePlayer.slice(0, 1) == directionRHO()) {
                 let txt = findAlert(getContext().slice(0, -2), getContext().slice(-2));
-                console.log("Partner bid " + getContext().slice(-2) + " = " + txt);
                 BBOalertEvents().dispatchEvent(E_onPartnerAuction);
                 execUserScript('%onPartnerAuction%');
             }
@@ -254,6 +254,7 @@ function onNewActivePlayer() {
 function onExplainCallDisplayed() {
     dragElement(getExplainCallBox());
     getExplainCallBox().onkeyup = inputOnKeyup;
+    getExplainCallBox().oninput = inputChanged;
     //    getExplainCallBox().onfocus = inputOnFocus;
     var e = getExplainCallInput();
     if (e.onclick == null) {
@@ -313,6 +314,7 @@ function onNavDivDisplayed() {
             addBBOalertLog("<br>" + alertTable.length + " records from cache");
             var elMessage = getChatInput();
             elMessage.onkeyup = inputOnKeyup;
+            elMessage.oninput = inputChanged;
             if (elMessage.onclick == null) {
                 elMessage.onclick = function () {
                     toggleButtons(this);

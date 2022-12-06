@@ -23,9 +23,13 @@ function bloggerPostData(html, url, urlOriginal) {
     postContent = JSON.parse(html).content;
     postTitle = JSON.parse(html).title;
     postURL = JSON.parse(html).url;
-    addInfoOption(postTitle, postURL.replace("http:","https:"));    
+    addInfoOption(postTitle, postURL.replace("http:","https:"));
+    return parseHTML(postContent);    
+}
+
+function parseHTML(html) {
     var d = document.createElement("div");
-	d.innerHTML = postContent;
+	d.innerHTML = html;
     var txt = "";
 	var lvl = 0;
     var p = d.querySelectorAll("p,ul,li,pre,iframe");
@@ -47,6 +51,9 @@ function bloggerPostData(html, url, urlOriginal) {
                     lvl = 0;
                     recList[lvl] = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim() + ",,";
                     p[i].innerHTML = p[i].innerHTML.replaceAll("<br>","\n");
+                    lastRec = p[i].textContent.split("\n");
+                    lastRec = lastRec[lastRec.length-1];
+                    recList[lvl] = elimine2Spaces(lastRec.replace(/\u00A0/g, ' ')).trim() + ",,";
                     if (p[i].innerText.endsWith("\n")) {
                         txt = txt + p[i].innerText;
                     } else {
@@ -67,6 +74,7 @@ function bloggerPostData(html, url, urlOriginal) {
 		if (p[i].tagName.toLowerCase() == "li") {
 			lvl = liNestingLevel(p[i]);
 			var t = elimine2Spaces(p[i].textContent.replace(/\u00A0/g, ' ')).trim();
+            t = t.split("\n")[0];
 			var i0 = t.indexOf(" ");
 			t0 = t.substr(0, i0);
 			t1 = t.substr(i0 + 1);
@@ -88,14 +96,15 @@ function bloggerPostData(html, url, urlOriginal) {
 		tr[i] = replaceSuitSymbolsInRecord(tr[i]);
 	}
 	return tr.join("\n");
+
 }
 
 // return the nesting level of the list element
 function liNestingLevel(li) {
     var lvl = 0;
     var lix = li; 
-    while (lix.parentElement.tagName.toLowerCase() == "ul") {
-        lvl++;
+    while (lix.parentElement != null) {
+        if (lix.parentElement.tagName.toLowerCase() == "ul") lvl++;
         lix = lix.parentElement;
     }
     return lvl;
