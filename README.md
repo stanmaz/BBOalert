@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 7.0.1
+Version : 7.1
 
 For recent changes see actual release notes :
 
@@ -236,6 +236,30 @@ you can use code
     1N--,    2C,    Stayman
     +,       2D,    Texas !H
     +,       2H,    Texas !S
+
+#### Markdown lists
+
+Bidding sequences can be coded in form a hierarchical lists. Markdown language unordered lists syntax apply. Example :
+
+    ,1N,15-17p
+    - 2C Stayman
+        - 2D no 4-card major
+            - 2H weak major two-suiter
+    - 2D Transfer
+
+Following rules apply : 
+
+- Starting point of the tree is to be coded in the normal way (context,call,explanation)
+- Indentation
+    - Level 1 must start with a hyphen with no leading spaces
+    - Level N indentation = (N-1)x4 spaces (exactly multiple of 4) and a hyphen
+-    Within the list the call and its explanation should be separated by space(s) and/or tab(s), not by a comma
+-    By default opponents are assumed to pass. If they don’t, add their bid before your bid separated by a comma. Example of a 2C response after RHO’s double :
+
+    ,1N,15-17p
+    - Db,2C to play
+
+- Asterisk may be used instead of hyphen
 
 #### Continuation line
 
