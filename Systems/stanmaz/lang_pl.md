@@ -20,7 +20,7 @@
     Alias,Hearts,Kiery
     Alias,Spades,Piki
     Alias,Control,Kontrola
-    Alias,Texas->NT,Texas->BA
+    Alias,Texas->N,Texas->BA
     Alias,stopper,zatrzymanie
     Alias,possible,możliwy
     Alias,no stopper,bez zatrzymania
