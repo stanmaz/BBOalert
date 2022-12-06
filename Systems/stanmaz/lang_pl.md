@@ -19,6 +19,7 @@
     Alias,Diamonds,Karo
     Alias,Hearts,Kiery
     Alias,Spades,Piki
+    Alias,NoTrump,BezAtu
     Alias,Control,Kontrola
     Alias,Texas->N,Texas->BA
     Alias,stopper,zatrzymanie
