@@ -21,7 +21,6 @@
     Alias,Spades,Piki
     Alias,NoTrump,BezAtu
     Alias,Control,Kontrola
-    Alias,Texas->N,Texas->BA
     Alias,stopper,zatrzymanie
     Alias,possible,możliwy
     Alias,no stopper,bez zatrzymania
