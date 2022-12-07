@@ -33,24 +33,29 @@ class BBOalertData {
         this.aliasList.push(r);
     }
 
-    replaceAliases(t) {
+    replaceAliases(t, field = "") {
         var oldText = '';
         var newText = t;
         var i = 0;
         while (oldText != newText) {
             if (i++ > 10) return newText;
             oldText = newText;
-            newText = this.replaceAlias(oldText);
+            newText = this.replaceAlias(oldText, field);
         }
         return newText;
     }
 
-    replaceAlias(t) {
+    replaceAlias(t, field) {
         var oldStr = '';
         var newStr = '';
         for (var i = 0; i < this.aliasList.length; i++) {
             var r = this.aliasList[i].split(',');
             if (r.length < 3) continue;
+            if (r.length > 3) {
+                if (field != "") {
+                    if (r[3].indexOf(field) == -1) continue;
+                }
+            }
             if (t.indexOf(r[1]) != -1) {
                 oldStr = r[1];
                 newStr = r[2];

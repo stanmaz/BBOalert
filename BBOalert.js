@@ -738,15 +738,15 @@ function findAlertText(context, call) {
 			lastContext = currentContext;
 		}
 		if (rec.length < 3) continue;
-		currentContext = execUserScript(scan.replaceAliases(currentContext));
+		currentContext = execUserScript(scan.replaceAliases(currentContext,"C"));
 		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
 			matchFound = true;
 			idx = alertTableCursor;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 		}
 		if (matchContext(currentContext, context) && (matchContext(rec[1].trim(), call))) {
 			matchFound = true;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 		}
 	}
 	alertText = normalize(alertText);
@@ -793,20 +793,20 @@ function findAlert(context, call) {
 		}
 		if (rec.length < 3) continue;
 		rec[1] = rec[1].replace(/!/g, "");
-		rec[1] = execUserScript(scan.replaceAliases(rec[1]));
+		rec[1] = execUserScript(scan.replaceAliases(rec[1], "B"));
 		if (!matchContext(rec[1].trim(), call)) continue;
-		currentContext = execUserScript(scan.replaceAliases(currentContext));
+		currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
 		if (matchContext(currentContext, stripContext(context))) {
 			matchFound = true;
 			idx = alertTableCursor;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
 		}
 		if (matchContext(currentContext, context)) {
 			matchFound = true;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
@@ -852,18 +852,18 @@ function findAlertOLD(context, call) {
 		if (rec.length < 3) continue;
 		rec[1] = rec[1].replace(/!/g, "");
 		if (!matchContext(rec[1].trim(), call)) continue;
-		currentContext = execUserScript(scan.replaceAliases(currentContext));
+		currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
 		if (matchContext(currentContext, stripContext(context))) {
 			matchFound = true;
 			idx = alertTableCursor;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
 		}
 		if (matchContext(currentContext, context)) {
 			matchFound = true;
-			alertText = scan.replaceAliases(rec[2]);
+			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();

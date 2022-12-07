@@ -429,7 +429,7 @@ function confirmBidsSet() {
 	if (sc.length < 6) {
 		if (sc.length == 0) return '';
 	}
-	if (parent.document.querySelectorAll('.settingClass')[4].querySelector('mat-slide-toggle').classList[2] == "mat-checked") return 'Y';
+	if (parent.document.querySelectorAll('.settingClass')[4].querySelector('ion-toggle').getAttribute("aria-checked") == "true") return 'Y';
 	else return 'N';
 }
 
@@ -3052,7 +3052,7 @@ function parseMarkdown(data) {
 	var lvl = 0;
 	txtTable.forEach(function (l) {
 		var l1 = l.replaceAll("\t", "    ").replace("*","-");
-		if (l1.trim().startsWith("-")) {
+		if (l1.trim().startsWith("- ") && ((l1.indexOf("-")%4) == 0)) {
 			lvl = l1.indexOf("-") / 4 + 1;
 			var t = elimine2Spaces(l.trim().substr(1).trim());
 			t = t.split("\n")[0];
@@ -3156,4 +3156,13 @@ function redisplayBiddingBox(time = 100) {
 	setTimeout(function () {
 		bb.style.display = "inline-block";
 	}, time);
+}
+
+function getBiddingBoxButtons () {
+	var elBiddingBox = parent.document.querySelector(".biddingBoxClass");
+	if (elBiddingBox == null) return null;
+	var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");
+	if (elBiddingButtons == null) return null;
+	if (elBiddingButtons.length < 17) return null;
+	return elBiddingButtons;
 }
