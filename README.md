@@ -6,7 +6,7 @@ Version : 7.1
 
   * [Purpose](#purpose)
   * [Installation](#installation)
-  * [Data import/export](#data-import-export)
+  * [Data import/export](#data-importexport)
   * [Recommended way of using BBOalert](#recommended-way-of-using-bboalert)
   * [Alert button](#alert-button)
   * [Data file format](#data-file-format)
