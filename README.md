@@ -2,6 +2,45 @@
 
 Version : 7.1
 
+**Table Of Content**
+
+  * [Purpose](#purpose)
+  * [Installation](#installation)
+  * [Data import/export](#data-import-export)
+  * [Recommended way of using BBOalert](#recommended-way-of-using-bboalert)
+  * [Alert button](#alert-button)
+  * [Data file format](#data-file-format)
+    + [Examples](#examples)
+      - [Opening bid](#opening-bid)
+      - [Development](#development)
+      - [Development with opponents overcall](#development-with-opponents-overcall)
+      - [Overcall](#overcall)
+    + [Advanced features](#advanced-features)
+      - [Seat-dependent openings](#seat-dependent-openings)
+      - [Continued context](#continued-context)
+      - [Markdown lists](#markdown-lists)
+      - [Continuation line](#continuation-line)
+      - [Long explanation text](#long-explanation-text)
+      - [Wildcards](#wildcards)
+      - [Regular Expressions - RegEx](#regular-expressions---regex)
+    + [User definable scripts](#user-definable-scripts)
+    + [Optional code](#optional-code)
+    + [Partnership options](#partnership-options)
+    + [Trusted code](#trusted-code)
+    + [Keyboard Shortcuts](#keyboard-shortcuts)
+    + [Button Shortcuts](#button-shortcuts)
+    + [Alias](#alias)
+    + [Full Disclosure BSS file support](#full-disclosure-bss-file-support)
+    + [Using BBO convention card to share data](#using-bbo-convention-card-to-share-data)
+    + [Web storage support](#web-storage-support)
+      - [Google Docs](#google-docs)
+      - [Github](#github)
+      - [Dropbox](#dropbox)
+      - [Blogger](#blogger)
+      - [BBOalert data](#bboalert-data)
+      - [Scripts](#scripts)
+    + [Support for the generic BBO convention card](#support-for-the-generic-bbo-convention-card)
+
 For recent changes see actual release notes :
 
 https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub
@@ -722,7 +761,7 @@ Storing scripts on the web has two advantages :
 - Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
 - Published scripts can be shared with others       
        
-#### Support for the generic BBO convention card
+### Support for the generic BBO convention card
 
 The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software removes new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
 
