@@ -66,7 +66,13 @@ BBOalert is useful for all types of BBO users :
 
 This extension can be installed using the link :
 
-- Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert
+- Firefox : https://addons.mozilla.org/en-US/firefox/addon/bboalert<br>The following supplementary action is required to enable clipboard operations :
+    - Open the about:config page and accept the security warnings
+    - Search for the clipboard keyword
+    - set **dom.events.asyncClipboard.readText** and **dom.events.testing.asyncClipboard** parameters to true
+    
+![](./images/FirefoxClipboardPermissions.png)
+
 - Chrome  : https://chrome.google.com/webstore/detail/bboalert/bjgihidachainhhhilkeemegdhehnlcf
  
 If you discover a serious bug in the program :
