@@ -73,6 +73,6 @@ Script, onBiddingBoxDisplayed
 setTimeout(() => {
     filterOptions();
 }, 100);
-Script, onBiddingBoxHidden, setOptionsOff();
-
+Script, onBiddingBoxHidden, setOptionsOff();optionsSelectorChanged();
 Option
+
