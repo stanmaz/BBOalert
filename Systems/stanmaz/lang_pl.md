@@ -55,7 +55,7 @@
     Alias,weak opening,słabe otwarcie
     Alias,undefined force,dowolna siła
     Alias,any 6 card suit with max 1.5 loser,dowolny kolor 6-kartowy z maximum 1.5 przegrywającej
-
+    Alias,suitBid,suitBid
     Shortcut,Raccourcis clavier,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,ww,Czesc; używamy uproszczonej DWURURKI:\notwarcie 1x na podwójnym Texasie (1T=4+!H;1K=4+!S;1C=5+!C albo zrównoważone;1P=5+!D)\npierwsza odpowiedź=relay albo Texas. Potem naturalnie.\nAtak 3cia lub 5ta ; Najwyższa z sekwencji (przeciw BA) lub odwrotnie (przeciw kontraktowi w kolor).\nPo ataku partnera :niska jest zachęcająca\nWłoskie zrzutki nieparzysta=zachęcająca parzysta=Lavinthal\n
     Shortcut,GTG,Niestety muszę odejść; Dzięki; Do następnego razu\n
