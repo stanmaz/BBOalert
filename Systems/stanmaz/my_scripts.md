@@ -1,4 +1,4 @@
-    Script,suitBid,R=B.slice(-1);
+    Script,SUIT_BID,R=B.slice(-1);
     Script,transfer,\
     var suit = B.slice(-1);\
     if (/C/.test(suit)) R=B.slice(0,1) + "!D";\
