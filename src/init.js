@@ -1,0 +1,2 @@
+
+initGlobals();
