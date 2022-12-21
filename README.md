@@ -164,7 +164,7 @@ You will find detailed information later in this text but before you continue to
 
 ## Data import/export
 
-BBOalert uses the clipboard to import or export data. Using the clipboard instead of direct file access gives the user the freedom of choice of text editing tool. The code can be edited as a simmple ASCII file or with any text processing tool like Word. To read the data from a file :
+BBOalert uses the clipboard to import or export data. Using the clipboard instead of direct file access gives the user the freedom of choice of text editing tool. The code can be edited as a simple ASCII file or with any text processing tool like Word. To read the data from a file :
 
 - open the data file using your favorite text editor (see section : 'Data file format')
 - select all text (usually with Ctrl-A keystroke)
