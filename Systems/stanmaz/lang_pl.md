@@ -1,4 +1,4 @@
-    BBOalert,lang_pl version 3
+    BBOalert,lang_pl version 4
     Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzień dobry i Wesołych Świąt";} else {R = "Dobry wieczór i Wesołych Świąt";};
     Alias, or , albo ,
     Alias, and , i ,
