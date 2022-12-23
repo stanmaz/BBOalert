@@ -1,6 +1,5 @@
     BBOalert,lang_pl version 3
     Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzień dobry i Wesołych Świąt";} else {R = "Dobry wieczór i Wesołych Świąt";};
-    Shortcut,zz,Cześć
     Alias, or , albo ,
     Alias, and , i ,
     Alias,if,jeżeli
@@ -62,6 +61,7 @@
     Shortcut,GTG,Niestety muszę odejść; Dzięki; Do następnego razu\n
     Shortcut,ML,Ostatnie rozdanie; Dzięki\n
     Shortcut,dd,%_dd_%\n
+    Shortcut,zz,Cześć
     Shortcut,SP,Sorry\n
     Shortcut,Raccourcis enchères,,width=100% backgroundColor=Cyan fontSize=16px
     Shortcut,TC,Texas !C
