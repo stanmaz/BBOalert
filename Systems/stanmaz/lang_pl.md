@@ -1,5 +1,5 @@
-    BBOalert,lang_pl version 4.1
-    Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzień dobry i Wesołych Świąt";} else {R = "Dobry wieczór i Wesołych Świąt";};
+    BBOalert,lang_pl version 4.2
+    Script,_dd_,let d = new Date();if (d.getHours() < 18) {R="Dzień dobry";} else {R = "Dobry wieczór";};
     Alias, or , albo ,
     Alias, and , i ,
     Alias,if,jeżeli
