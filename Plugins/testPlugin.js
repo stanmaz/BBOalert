@@ -262,13 +262,11 @@ function BBOcontext() {
                     if (secs_left == 0) {
                         clearInterval(timer);
                         setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
-                        return;
                     }
                     if (secs_left == cfg.Timeout_warning) {
                         setChatMessage(findShortcut(cfg.Timeout_warning), true);
                     }
-                },1000)
-                setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+                },1000);
             });
         }
     });
