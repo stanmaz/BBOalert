@@ -249,7 +249,7 @@ function BBOcontext() {
     cfg.Timeout_warning = 10;
     cfg.Warning_shortcut = "TIMEOUT_WARNING";
     timer = null;
-    addBBOalertEvent("onDataLoad", function () {
+    function timeout () {        
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewActivePlayer", function () {
                 if (!cfg.Enable_timeout) return;
@@ -275,6 +275,9 @@ function BBOcontext() {
                 },1000);
             });
         }
+    }
+    addBBOalertEvent("onDataLoad", function () {
+        timeout();
     });
 })();    
     
