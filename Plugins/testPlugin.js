@@ -264,6 +264,8 @@ function BBOcontext() {
                         setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
                     }
                     if (secs_left == cfg.Timeout_warning) {
+                        console.log(cfg.Warning_shortcut);
+                        console.log(findShortcut(cfg.Warning_shortcut));
                         setChatMessage(findShortcut(cfg.Warning_shortcut), true);
                     }
                 },1000);
