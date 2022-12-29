@@ -261,11 +261,11 @@ function BBOcontext() {
                     console.log("Left " + secs_left);
                     if (secs_left == 0) {
                         clearInterval(timer);
+                        setChatDestination("Table");
                         setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
                     }
                     if (secs_left == cfg.Timeout_warning) {
-                        console.log(cfg.Warning_shortcut);
-                        console.log(findShortcut(cfg.Warning_shortcut));
+                        setChatDestination("Table");
                         setChatMessage(findShortcut(cfg.Warning_shortcut), true);
                     }
                 },1000);
