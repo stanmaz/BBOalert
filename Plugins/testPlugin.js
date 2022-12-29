@@ -249,38 +249,41 @@ function BBOcontext() {
     cfg.Timeout_warning = 10;
     cfg.Warning_shortcut = "TIMEOUT_WARNING";
     timer = null;
-    function timeout () {        
-        if (addConfigBox(title, cfg) != null) {
-            addBBOalertEvent("onNewActivePlayer", function () {
-                if (!cfg.Enable_timeout) return;
-                if (!auctionBoxDisplayed) return;
-                var secs_left = cfg.Timeout_value;
-                if (timer != null) clearInterval(timer);
-                timer = setInterval(function () {
-                    secs_left--;
-                    console.log("Left " + secs_left);
-                    if (secs_left == 0) {
-                        clearInterval(timer);
-                        setChatDestination("Table");
-                        setTimeout(function () {
-                            setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
-                        },500);
-                    }
-                    if (secs_left == cfg.Timeout_warning) {
-                        setChatDestination("Table");
-                        setTimeout(function () {
-                            setChatMessage(findShortcut(cfg.Warning_shortcut), true);
-                        },500);
-                    }
-                },1000);
-            });
-        }
+    function timeout() {
+        if (!cfg.Enable_timeout) return;
+        if (!auctionBoxDisplayed) return;
+        var secs_left = cfg.Timeout_value;
+        if (timer != null) clearInterval(timer);
+        timer = setInterval(function () {
+            secs_left--;
+            console.log("Left " + secs_left);
+            if (secs_left == 0) {
+                clearInterval(timer);
+                setChatDestination("Table");
+                setTimeout(function () {
+                    setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
+                }, 500);
+            }
+            if (secs_left == cfg.Timeout_warning) {
+                setChatDestination("Table");
+                setTimeout(function () {
+                    setChatMessage(findShortcut(cfg.Warning_shortcut), true);
+                }, 500);
+            }
+        }, 1000);
     }
     addBBOalertEvent("onDataLoad", function () {
-        timeout();
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onNewActivePlayer", function () {
+                timeout();
+            });
+            addBBOalertEvent("onAuctionBegin", function () {
+                timeout();
+            });
+        }
     });
-})();    
-    
+})();
+
 (function () {
     var title = "Miscellaneous simple scripts";
     var cfg = {};
@@ -500,7 +503,7 @@ function BBOcontext() {
         var btok_span = $("span", btok)[0];
         if (on) {
             if (callText.length == 2) {
-                var txt = callText;                
+                var txt = callText;
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 if (callText == "Db") {
                     txt = 'Dbl';
