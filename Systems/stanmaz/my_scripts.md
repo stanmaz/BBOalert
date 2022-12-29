@@ -14,3 +14,7 @@
     if (/S/.test(suit)) R="NT";\
     if (/N/.test(suit)) R="!C";
     Script
+    Script,shortBeep,beep(600,0.2);
+    Script,longBeep,beep(1000,1);
+    Shortcut,TIMEOUT,%longBeep%,width=50%
+    Shortcut,TIMEOUT_WARNING,%shortBeep%,width=50%
