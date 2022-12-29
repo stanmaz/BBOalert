@@ -42,6 +42,7 @@ function BBOcontext() {
                 if (cfg.Clear_Log_Data) {
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
                     cfg.Clear_Log_Data = false;
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
                 }
             });
             addBBOalertEvent("onLogin", function () {
@@ -239,6 +240,10 @@ function BBOcontext() {
     });
 })();
 
+(function () {
+
+})();    
+    
 (function () {
     var title = "Miscellaneous simple scripts";
     var cfg = {};
