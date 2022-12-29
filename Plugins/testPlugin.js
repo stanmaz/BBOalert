@@ -253,6 +253,7 @@ function BBOcontext() {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewActivePlayer", function () {
                 if (!cfg.Enable_timeout) return;
+                if (!auctionBoxDisplayed) return;
                 var secs_left = cfg.Timeout_value;
                 if (timer != null) clearInterval(timer);
                 timer = setInterval(function () {
