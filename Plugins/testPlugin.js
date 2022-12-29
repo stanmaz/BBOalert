@@ -241,7 +241,36 @@ function BBOcontext() {
 })();
 
 (function () {
-
+    var title = "Bidding timeout";
+    var cfg = {};
+    cfg.Enable_timeout = false;
+    cfg.Timeout_value = 45;
+    cfg.Timeout_shortcut = "TIMEOUT";
+    cfg.Timeout_warning = 10;
+    cfg.Warning_shortcut = "TIMEOUT_WARNING";
+    timer = null;
+    addBBOalertEvent("onDataLoad", function () {
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onNewActivePlayer", function () {
+                if (!cfg.Enable_timeout) return;
+                var secs_left = cfg.Timeout_value;
+                if (timer != null) clearInterval(timer);
+                timer = setInterval(function () {
+                    secs_left--;
+                    console.log("Left " + secs_left);
+                    if (secs_left == 0) {
+                        clearInterval(timer);
+                        setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
+                        return;
+                    }
+                    if (sec_left == cfg.Timeout_warning) {
+                        setChatMessage(findShortcut(cfg.Timeout_warning), true);
+                    }
+                },1000)
+                setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+            });
+        }
+    });
 })();    
     
 (function () {
