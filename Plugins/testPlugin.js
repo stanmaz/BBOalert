@@ -249,11 +249,15 @@ function BBOcontext() {
     cfg.Timeout_warning = 10;
     cfg.Warning_shortcut = "TIMEOUT_WARNING";
     timer = null;
+    window.pluginBiddingTimeoutValue = cfg.Timeout_value;
+    window.pluginBiddingTimeoutWarning = cfg.Timeout_warning;
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewActivePlayer", function () {
                 if (!cfg.Enable_timeout) return;
                 if (!auctionBoxDisplayed) return;
+                window.pluginBiddingTimeoutValue = cfg.Timeout_value;
+                window.pluginBiddingTimeoutWarning = cfg.Timeout_warning;            
                 var secs_left = cfg.Timeout_value;
                 if (timer != null) clearInterval(timer);
                 timer = setInterval(function () {
