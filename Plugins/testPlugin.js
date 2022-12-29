@@ -262,11 +262,15 @@ function BBOcontext() {
                     if (secs_left == 0) {
                         clearInterval(timer);
                         setChatDestination("Table");
-                        setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
+                        setTimeout(function () {
+                            setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
+                        },500);
                     }
                     if (secs_left == cfg.Timeout_warning) {
                         setChatDestination("Table");
-                        setChatMessage(findShortcut(cfg.Warning_shortcut), true);
+                        setTimeout(function () {
+                            setChatMessage(findShortcut(cfg.Warning_shortcut), true);
+                        },500);
                     }
                 },1000);
             });
