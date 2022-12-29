@@ -132,3 +132,6 @@
     /*
     *   Polish shortcuts, buttons and aliases
     */
+
+    Shortcut,TIMEOUT,%longBeep%,width=50%
+    Shortcut,TIMEOUT_WARNING,%shortBeep%,width=50%

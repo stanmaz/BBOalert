@@ -16,5 +16,3 @@
     Script
     Script,shortBeep,beep(600,0.2);
     Script,longBeep,beep(1000,1);
-    Shortcut,TIMEOUT,%longBeep%,width=50%
-    Shortcut,TIMEOUT_WARNING,%shortBeep%,width=50%
