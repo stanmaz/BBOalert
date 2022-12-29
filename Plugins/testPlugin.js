@@ -264,7 +264,7 @@ function BBOcontext() {
                         setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
                         return;
                     }
-                    if (sec_left == cfg.Timeout_warning) {
+                    if (secs_left == cfg.Timeout_warning) {
                         setChatMessage(findShortcut(cfg.Timeout_warning), true);
                     }
                 },1000)
