@@ -1,5 +1,5 @@
 
-//BBOalert,stanmazPlugin version 2.1
+//BBOalert,stanmazPlugin version 3
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -42,6 +42,7 @@ function BBOcontext() {
                 if (cfg.Clear_Log_Data) {
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
                     cfg.Clear_Log_Data = false;
+                    localStorage.setItem('BBOalertEvents', EVENT_LOG);
                 }
             });
             addBBOalertEvent("onLogin", function () {
@@ -234,6 +235,50 @@ function BBOcontext() {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
                 setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+            });
+        }
+    });
+})();
+
+(function () {
+    var title = "Bidding timeout";
+    var cfg = {};
+    cfg.Enable_timeout = false;
+    cfg.Timeout_value = 45;
+    cfg.Timeout_shortcut = "TIMEOUT";
+    cfg.Timeout_warning = 10;
+    cfg.Warning_shortcut = "TIMEOUT_WARNING";
+    timer = null;
+    function timeout() {
+        if (!cfg.Enable_timeout) return;
+        if (!auctionBoxDisplayed) return;
+        var secs_left = cfg.Timeout_value;
+        if (timer != null) clearInterval(timer);
+        timer = setInterval(function () {
+            secs_left--;
+            console.log("Left " + secs_left);
+            if (secs_left == 0) {
+                clearInterval(timer);
+                setChatDestination("Table");
+                setTimeout(function () {
+                    setChatMessage(findShortcut(cfg.Timeout_shortcut), true);
+                }, 500);
+            }
+            if (secs_left == cfg.Timeout_warning) {
+                setChatDestination("Table");
+                setTimeout(function () {
+                    setChatMessage(findShortcut(cfg.Warning_shortcut), true);
+                }, 500);
+            }
+        }, 1000);
+    }
+    addBBOalertEvent("onDataLoad", function () {
+        if (addConfigBox(title, cfg) != null) {
+            addBBOalertEvent("onNewActivePlayer", function () {
+                timeout();
+            });
+            addBBOalertEvent("onAuctionBegin", function () {
+                timeout();
             });
         }
     });
