@@ -1,7 +1,3 @@
-//BBOalert, custom syntax script library version 001
-//Script,onDataLoad,bidSymbolMap = new Map();
-//Script,onAuctionBegin,console.log("New map");bidSymbolMap = new Map();
-//Script,onNewAuction,console.log("Reset map");if (getContext() == '') bidSymbolMap = new Map();
 //Script,_raise_,R = bidSymbol("RAISE", B, getBidFromContext(2,0,5));
 //Script,_jump_raise_,R = bidSymbol("JUMP_RAISE", B, getBidFromContext(2,0,10));
 //Script,_cuebid_rho_,R = bidSymbol("CUEBID_RHO", B, getBidFromContext(3,0,5));
