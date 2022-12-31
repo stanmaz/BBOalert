@@ -1,3 +1,4 @@
+//Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
 //Script,_raise_,R = bidSymbol("RAISE", B, getBidFromContext(2,0,5));
 //Script,_jump_raise_,R = bidSymbol("JUMP_RAISE", B, getBidFromContext(2,0,10));
 //Script,_cuebid_rho_,R = bidSymbol("CUEBID_RHO", B, getBidFromContext(3,0,5));
