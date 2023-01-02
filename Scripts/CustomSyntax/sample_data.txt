@@ -1,4 +1,4 @@
-BBOalert,Custom syntax sample data Version 001
+BBOalert,Custom syntax sample data Version 1.0
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
 
 1[HS]--,RAISE,6-10HCP 3+ cards fit suit bid
