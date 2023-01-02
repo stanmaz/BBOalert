@@ -1,11 +1,10 @@
-//BBOalert,Custom syntax library Version 1.0
+//BBOalert,Custom syntax library Version 1.1
 //Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
 //Script,_raise_,R = bidSymbol("RAISE",C , B, getBidFromContext(2,0,5));
 //Script,_jump_raise_,R = bidSymbol("JUMP_RAISE",C , B, getBidFromContext(2,0,10));
 //Script,_cuebid_rho_,R = bidSymbol("CUEBID_RHO",C , B, getBidFromContext(3,0,5));
 //Script,_cuebid_lho_,R = bidSymbol("CUEBID_LHO",C , B, getBidFromContext(1,0,5));
-/*
-Script,_shift_
+//Script,_shift_
 var bid = getBidFromContext(2,0,0);
 var R = "(";
 for (var i = 1; i < 5; i++) {
@@ -15,8 +14,8 @@ for (var i = 1; i < 5; i++) {
 }
 R = R + ")";
 R = bidSymbol("SHIFT",C , B, R);
-Script
-Script,_jump_shift_
+//Script
+//Script,_jump_shift_
 var bid = getBidFromContext(2,0,5);
 var R = "(";
 for (var i = 1; i < 5; i++) {
@@ -26,7 +25,8 @@ for (var i = 1; i < 5; i++) {
 }
 R = R + ")";
 R = bidSymbol("JUMP_SHIFT",C , B, R);
-Script
+//Script
+/*
 Alias,RAISE,%_raise_%
 Alias,JUMP_RAISE,%_jump_raise_%
 Alias,SHIFT,%_shift_%
