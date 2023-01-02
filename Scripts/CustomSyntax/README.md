@@ -1,4 +1,4 @@
-To use you own BBOalert syntax the file should import the base script :
+To use your own BBOalert syntax the file should import the base script :
 
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
     
