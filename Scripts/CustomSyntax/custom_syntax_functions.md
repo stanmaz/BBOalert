@@ -46,7 +46,7 @@ getCallbyIndex("1H", 2) will return "1N"
 | --- | --- | --- |
 | who | <code>Number</code> | (0=me, 1=LHO, 2=partner, 3=RHO) |
 | idx | <code>Number</code> | (0=first, 1=second, ... -1=last) |
-| offset | <code>\*</code> |  |
+| offset | <code>Number</code> |  |
 
 **Example**  
 ```js
