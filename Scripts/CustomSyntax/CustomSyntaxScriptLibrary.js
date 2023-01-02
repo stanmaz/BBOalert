@@ -1,4 +1,4 @@
-//BBOalert,Custom syn,tax library Version 1.0
+//BBOalert,Custom syntax library Version 1.0
 //Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
 //Script,_raise_,R = bidSymbol("RAISE",C , B, getBidFromContext(2,0,5));
 //Script,_jump_raise_,R = bidSymbol("JUMP_RAISE",C , B, getBidFromContext(2,0,10));
