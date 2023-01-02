@@ -26,7 +26,7 @@ The BBOalert code example :
     1[HS]--,%raise%,8-10p 3+ cards fit
     1[HS]--%raise%--,2N,trial bid; no shortness
 
-To make the code more readable we can substitute the %raise% script call by can be substituted by an alias of your choice. By default the alias is used in all fields. To avoid the unpredictable effects we can limit its usage to the context and to the call field by @C@B tags
+To make the code more readable we can substitute the %raise% script call by can be substituted by an alias of your choice. By default the alias is used in all fields. To avoid the unpredictable effects we can limit its usage to the context and to the call field by @C@B tags. Also the script and alias names must be different.
 
     Alias,RAISE,%raise%,@C@B
     ,1[HS],5 cards suit
