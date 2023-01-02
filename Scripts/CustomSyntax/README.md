@@ -1,4 +1,6 @@
 Prerequitite : BBOalert version 7.2.2 Beta
+
+
 https://chrome.google.com/webstore/detail/bboalert-beta/bpjekdfacgkngnchpkbcmjnpeanfamch?hl=en&authuser=0
 
 To use your own BBOalert syntax the file should import the base script :
