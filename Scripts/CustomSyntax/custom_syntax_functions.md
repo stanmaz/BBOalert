@@ -53,10 +53,10 @@ getCallbyIndex("1H", 2) will return "1N"
 getBidFromContext(2, 0, 5) will return "2H" from the auction "1H--" (simple raise)
 BBOalert code example :
 
-    Script,RAISE,R = getBidFromContext(2, 0, 5);
-    Alias,raise,%RAISE%,@C@B
-    1[HS]--,raise,8-10p 3+p cards fit
-    1[HS]--raise--,2N,trial bid; no shortness
+    Script,raise,R = getBidFromContext(2, 0, 5);
+    Alias,RAISE,%raise%,@C@B
+    1[HS]--,RAISE,8-10p 3+p cards fit
+    1[HS]--RAISE--,2N,trial bid; no shortness
 
 Note : @C@B tags are limiting the Alias to the context or call field, not the explanation.
 ```
