@@ -19,7 +19,7 @@
 
 | Param | Type | Description |
 | --- | --- | --- |
-| bids | <code>\*</code> | string representing a bidding sequence |
+| bids | <code>String</code> | string representing a bidding sequence |
 
 <a name="getCallbyIndex"></a>
 
@@ -29,8 +29,8 @@
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| bid | <code>\*</code> |  | : valid 2-characters bid |
-| idx | <code>\*</code> | <code>0</code> | : offset |
+| bid | <code>String</code> |  | : valid 2-characters bid |
+| idx | <code>Number</code> | <code>0</code> | : offset |
 
 **Example**  
 ```js
@@ -44,8 +44,8 @@ getCallbyIndex("1H", 2) will return "1N"
 
 | Param | Type | Description |
 | --- | --- | --- |
-| who | <code>\*</code> | (0=me, 1=LHO, 2=partner, 3=RHO) |
-| idx | <code>\*</code> | (0=first, 1=second, ... -1=last) |
+| who | <code>Number</code> | (0=me, 1=LHO, 2=partner, 3=RHO) |
+| idx | <code>Number</code> | (0=first, 1=second, ... -1=last) |
 | offset | <code>\*</code> |  |
 
 **Example**  
@@ -68,10 +68,10 @@ Note : @C@B tags are limiting the Alias to the context or call field, not the ex
 
 | Param | Type | Description |
 | --- | --- | --- |
-| bidName | <code>\*</code> | arbitrary name |
-| context | <code>\*</code> | current bidding context; should be always the variable C in the script |
-| bid | <code>\*</code> | current bid; should be always the variable B in the script |
-| refbid | <code>\*</code> | pattern to be used to match the bid. May be A single bid or RegEx pattern from getBidFromContext function |
+| bidName | <code>String</code> | arbitrary name |
+| context | <code>String</code> | current bidding context; should be always the variable C in the script |
+| bid | <code>String</code> | current bid; should be always the variable B in the script |
+| refbid | <code>String</code> | pattern to be used to match the bid. May be A single bid or RegEx pattern from getBidFromContext function |
 
 **Example**  
 ```js
