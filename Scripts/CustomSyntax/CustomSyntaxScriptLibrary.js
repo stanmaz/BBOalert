@@ -1,10 +1,10 @@
-//BBOalert,Custom syntax library Version 1.2
+//BBOalert,Custom syntax library Version 1.3
 //Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
 //Script,_raise_,R = bidSymbol("RAISE",C , B, getBidFromContext(2,0,5));
 //Script,_jump_raise_,R = bidSymbol("JUMP_RAISE",C , B, getBidFromContext(2,0,10));
 //Script,_cuebid_rho_,R = bidSymbol("CUEBID_RHO",C , B, getBidFromContext(3,0,5));
 //Script,_cuebid_lho_,R = bidSymbol("CUEBID_LHO",C , B, getBidFromContext(1,0,5));
-//Script,_suit_bid_,R = B.slice(-1);
+//Script,_suit_bid_,R = "!" + B.slice(-1);
 //Script,_shift_
 var bid = getBidFromContext(2,0,0);
 var R = "(";
