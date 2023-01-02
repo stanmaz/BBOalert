@@ -1,8 +1,8 @@
 BBOalert,Custom syntax sample data Version 001
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
 
-1[HS]--,RAISE,6-10HCP 3+ cards fit
+1[HS]--,RAISE,6-10HCP 3+ cards fit suit bid
 1[HS]--RAISE--,2N,trial bid; no shortness
-1[HS]--,JUMP_RAISE,preempt
-1[HS]--,SHIFT,4+ cards suit
-1[HS]--,JUMP_SHIFT,6+ card suit; preempt
+1[HS]--,JUMP_RAISE,6+ cards suit bid; preempt 
+1[HS]--,SHIFT,4+ cards suit bid
+1[HS]--,JUMP_SHIFT,6+ card suit bid; preempt
