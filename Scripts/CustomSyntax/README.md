@@ -1,11 +1,37 @@
-To use the custom syntax include this in your code :
+To use you own BBOalert syntax the file should import the base script :
 
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
     
-This script library contains scripts :
+Then you should define a script computing the call field depending on the actual bidding context. In most cases it will be a simple script as in the example :
 
-    _raise_
-    _jump_raise_
-    
+    Script,raise,R = R = bidSymbol("raise",C ,B, getBidFromContext(2,0,5));
+
+In this example the the arguments of bidSymbol are :
+- "raise" = arbitrary name
+- C = mandatory global variable which contains the current bidding context
+- B = mandatory global variable which contains the current call
+- getBidFromContext function computing the call field content dynamically. The arguments are :
+    - 2 = partner
+    - 0 = partner's first bid (opening bid)
+    - 5 = fifth bid above the opening wich is the raise call
+ 
+The BBOalert code example :
+
+    1[HS]--,%raise%,8-10p 3+ cards fit
+    1[HS]--%raise%--,2N,trial bid; no shortness
+
+To make the code more readable we can substitute the %raise% script call by can be substituted by an alias of your choice. By default the alias is used in all fields. To avoid the unpredictable effects we can limit its usage to the context and to the call field by @C@B tags
+
+    Alias,RAISE,%raise%,@C@B
+    1[HS]--,RAISE,8-10p 3+ cards fit
+    1[HS]--RAISE--,2N,trial bid; no shortness
+
+Finally we can improve the code by using the buletted lists (see BBOalert README file) :
+
+    Alias,RAISE,%raise%,@C@B
+    ,1[HS],5 cards suit
+    - RAISE     8-10p 3+ cards fit
+        - 2N         trial bid; no shortness
+
 
 
