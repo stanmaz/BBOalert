@@ -2,7 +2,7 @@ To use you own BBOalert syntax the file should import the base script :
 
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
     
-Then you should define a script computing the call field depending on the actual bidding context. In most cases it will be a simple script as in the example :
+Then you should define scripts computing the call field depending on the actual bidding context. In most cases it will be a simple script as in the example :
 
     Script,raise,R = R = bidSymbol("raise",C ,B, getBidFromContext(2,0,5));
 
@@ -17,12 +17,14 @@ In this example the the arguments of bidSymbol are :
  
 The BBOalert code example :
 
+    ,1[HS],5 cards suit
     1[HS]--,%raise%,8-10p 3+ cards fit
     1[HS]--%raise%--,2N,trial bid; no shortness
 
 To make the code more readable we can substitute the %raise% script call by can be substituted by an alias of your choice. By default the alias is used in all fields. To avoid the unpredictable effects we can limit its usage to the context and to the call field by @C@B tags
 
     Alias,RAISE,%raise%,@C@B
+    ,1[HS],5 cards suit
     1[HS]--,RAISE,8-10p 3+ cards fit
     1[HS]--RAISE--,2N,trial bid; no shortness
 
