@@ -25,5 +25,5 @@ Shortcut,1CD,R=%1CD%
 Alias,1m,%1CD%
 Alias,1M,%1HS%
 ,1m,4+card %1CD_M1% 
-,1M,4+card %1HS_M1% 
+,1M,5+card %1HS_M1% 
 */
