@@ -1,4 +1,4 @@
-Prerequisite : BBOalert version 7.2.2 Beta
+Prerequisite : BBOalert version 7.2.2 Beta or higher
 
 
 https://chrome.google.com/webstore/detail/bboalert-beta/bpjekdfacgkngnchpkbcmjnpeanfamch?hl=en&authuser=0
