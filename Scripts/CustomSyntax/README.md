@@ -18,7 +18,7 @@ In this example the the arguments of bidSymbol are :
 - getBidFromContext function computing the call field content dynamically. The arguments are :
     - 2 = partner
     - 0 = partner's first bid (opening bid)
-    - 5 = fifth bid above the opening wich is the raise call
+    - 5 = fifth bid above the opening which is the raise call
  
 The BBOalert code example :
 
