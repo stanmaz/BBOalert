@@ -4,6 +4,6 @@ Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/Cust
 ,1[HS], 5+ cards suit bid
 - RAISE   6-10HCP 3+ cards fit suit bid
     - 2N    trial bid; no shortness
-- JUMP_RAISE    6+ cards suit bid; preempt 
+- JUMP_RAISE    preempt 
 - SHIFT         4+ cards suit bid
 - JUMP_SHIFT    6+ cards suit bid; preempt
