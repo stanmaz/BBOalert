@@ -1,0 +1,7 @@
+Alias,RAISE,%_raise_%,@C@B
+Alias,JUMP_RAISE,%_jump_raise_%,@C@B
+Alias,SHIFT,%_shift_%,@C@B
+Alias,JUMP_SHIFT,%_jump_shift_%,@C@B
+Alias,CUE_RHO,%_cuebid_rho%,@C@B
+Alias,CUE_LHO,%_cuebid_lho%,@C@B
+Alias,suit bid,%_suit_bid_%
