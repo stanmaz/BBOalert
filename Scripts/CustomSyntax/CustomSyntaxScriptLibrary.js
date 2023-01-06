@@ -30,9 +30,7 @@ R = R + ")";
 R = bidSymbol("JUMP_SHIFT",C , B, R);
 //Script
 Script,_opening_
-console.log("B = " + B);
 if (matchContext(C+B, B)) {
-    console.log("Set opening bid : " + bidSymbol("opening_bid","" , B, B));
     bidSymbol("opening_bid","" , B, B);
 } else {
     R = "??";
