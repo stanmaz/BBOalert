@@ -27,12 +27,18 @@ for (var i = 1; i < 5; i++) {
 R = R + ")";
 R = bidSymbol("JUMP_SHIFT",C , B, R);
 //Script
-/*
-Alias,RAISE,%_raise_%,@C@B
-Alias,JUMP_RAISE,%_jump_raise_%,@C@B
-Alias,SHIFT,%_shift_%,@C@B
-Alias,JUMP_SHIFT,%_jump_shift_%,@C@B
-Alias,CUE_RHO,%_cuebid_rho%,@C@B
-Alias,CUE_LHO,%_cuebid_lho%,@C@B
-Alias,suit bid,%_suit_bid_%
-*/
+Script,_opening_
+console.log("B = " + B);
+if (matchContext(C+B, B)) {
+    console.log("Set opening bid : " + bidSymbol("opening_bid","" , B, B));
+    bidSymbol("opening_bid","" , B, B);
+} else {
+    R = "??";
+}
+//Script
+//Script,_step1_,R = bidSymbol("step1",C , B, getBidFromContext(2,-1,1));
+//Script,_step2_,R = bidSymbol("step1",C , B, getBidFromContext(2,-1,2));
+//Script,_step3_,R = bidSymbol("step1",C , B, getBidFromContext(2,-1,3));
+//Script,_step4_,R = bidSymbol("step1",C , B, getBidFromContext(2,-1,4));
+//Script,_opening_bid_,R = bidSymbolMap.get("opening_bid");
+//Script,_opening_suit_,R = bidSymbolMap.get("opening_bid").slice(-1);
