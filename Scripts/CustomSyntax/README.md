@@ -4,7 +4,7 @@ Prerequisite : BBOalert version 7.3 Beta or higher
 
 The <call> field can be defined dynamically using a script. Example :
 
-    Script,raise,R = R = getBidFromContext(2,0,5);
+    Script,raise,R = getBidFromContext(2,0,5);
 
 In this example the the arguments of bidSymbol are :
 - "raise" = arbitrary name
