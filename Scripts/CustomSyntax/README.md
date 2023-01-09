@@ -2,7 +2,7 @@ Prerequisite : BBOalert version 7.3 Beta or higher
 
     https://chrome.google.com/webstore/detail/bboalert-beta/bpjekdfacgkngnchpkbcmjnpeanfamch?hl=en&authuser=0
 
-The <call> field can be defined dynamically using a script. Example :
+The ***call*** field can be defined dynamically using a script. Example :
 
     Script,raise,R = getBidFromContext(2,0,5);
 
