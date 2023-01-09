@@ -1,24 +1,17 @@
-Prerequisite : BBOalert version 7.2.2 Beta or higher
+Prerequisite : BBOalert version 7.3 Beta or higher
 
+    https://chrome.google.com/webstore/detail/bboalert-beta/bpjekdfacgkngnchpkbcmjnpeanfamch?hl=en&authuser=0
 
-https://chrome.google.com/webstore/detail/bboalert-beta/bpjekdfacgkngnchpkbcmjnpeanfamch?hl=en&authuser=0
+The <call> field can be defined dynamically using a script. Example :
 
-To use your own BBOalert syntax, the file should import the base script :
-
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxBase.js
-    
-Then you should define scripts computing the call field depending on the actual bidding context. In most cases it will be a simple script as in the example :
-
-    Script,raise,R = R = bidSymbol("raise",C ,B, getBidFromContext(2,0,5));
+    Script,raise,R = R = getBidFromContext(2,0,5);
 
 In this example the the arguments of bidSymbol are :
 - "raise" = arbitrary name
-- C = mandatory global variable which contains the current bidding context
-- B = mandatory global variable which contains the current call
 - getBidFromContext function computing the call field content dynamically. The arguments are :
-    - 2 = partner
+    - 2 = partner (0=caller;1=LHO;2=partner;3=RHO)
     - 0 = partner's first bid (opening bid)
-    - 5 = fifth bid above the opening which is the raise call
+    - 5 = fifth bid above the opening which is the raise call (e.g. after opening 1H the raise of 2H is the fifth step)
  
 The BBOalert code example :
 
