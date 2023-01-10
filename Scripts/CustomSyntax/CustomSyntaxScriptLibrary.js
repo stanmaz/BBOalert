@@ -28,3 +28,17 @@ R = R + ")";
 //Script,_step2_,R = getBidFromContext(2,-1,2);
 //Script,_step3_,R = getBidFromContext(2,-1,3);
 //Script,_step4_,R = getBidFromContext(2,-1,4);
+//Script,_steps_
+var bid = getBidFromContext(2,-1,0);
+console.log(bid);
+var R = "(";
+var b;
+for (var i = 1; i < 40; i++) {
+    b = getCallbyIndex(bid, i);
+    R = R + b;
+    if (b != "7N") R = R + "|";
+    if (b == "7N") break;
+}
+R = R + ")";
+//Script
+
