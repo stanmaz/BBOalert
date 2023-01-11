@@ -42,8 +42,8 @@ for (var i = 1; i < 40; i++) {
 R = R + ")";
 //Script
 //Script,_select_
-var list = bidSymbolMap.get("comment").split("\\n");
-var idx = (BR.indexOf(B)-1)/3;
+var list = bidSymbolMap.get("foundRecord").split(",");
+var idx = (BR.indexOf(B)-1)/3 + 3;
 if (idx < list.length) R = list[idx].trim();
 //Script
 
