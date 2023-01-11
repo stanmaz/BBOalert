@@ -1,4 +1,4 @@
-//BBOalert,Custom syntax library Version 1.3
+//BBOalert,Custom syntax library Version 1.4
 //Script,_raise_,R = getBidFromContext(2,0,5);
 //Script,_jumpraise_,R = getBidFromContext(2,0,10);
 //Script,_cuebidrho_,R = getBidFromContext(3,0,5);
