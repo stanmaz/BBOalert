@@ -30,7 +30,6 @@ R = R + ")";
 //Script,_step4_,R = getBidFromContext(2,-1,4);
 //Script,_steps_
 var bid = getBidFromContext(2,-1,0);
-console.log(bid);
 var R = "(";
 var b;
 for (var i = 1; i < 40; i++) {
