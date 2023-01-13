@@ -6,3 +6,4 @@ Alias,CUE_RHO,%_cuebid_rho%,@C@B
 Alias,CUE_LHO,%_cuebid_lho%,@C@B
 Alias,suit bid,%_suitbid_%,@E
 Alias,STEP1,%_step1_%,@C@B
+Alias,STEPS,%_steps_%,@C@B
