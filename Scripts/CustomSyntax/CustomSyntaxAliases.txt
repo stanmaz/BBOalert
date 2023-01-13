@@ -1,3 +1,5 @@
+BBOalert,Aliases 1.0
+
 Alias,RAISE,%_raise_%,@C@B
 Alias,JUMP_RAISE,%_jumpraise_%,@C@B
 Alias,SHIFT,%_shift_%,@C@B
