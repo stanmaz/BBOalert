@@ -9,6 +9,9 @@
     Import,Lang_PL_file,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_pl.md
     Import,Lang_IT_file,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_it.md
     
+    Import,adBlock.js
+    Import,my_scripts.md
+    Import,myturn.txt
     Option,▶Lang EN
     Import,Lang_EN_file
     Option,▶Lang FR
