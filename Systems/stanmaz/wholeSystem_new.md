@@ -1,21 +1,16 @@
-    //BBOALERT, Entire system with URL list
+    //BBOALERT, Entire system with URL list 1.0
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
-
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/adBlock.js
-    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
-
-    Import,Lang_EN,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_en.md
-
+    
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/stanmaz/fileList.md
+    
     Option,▶Lang EN
-    Import,Lang_EN
+    Import,Lang_EN_file
     Option,▶Lang FR
-    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_fr.md
+    Import,Lang_FR_file
     Option,▶Lang PL
-    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_pl.md
+    Import,Lang_PL_file
     Option,▶Lang IT
-    Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_it.md
-
+    Import,Lang_IT_file
 
     Option,MySystem
     Import,https://docs.google.com/document/d/e/2PACX-1vTIxxJEJ41eOFCo_4SNU79sj0ZgMiUcB1cj8tOWwu8R5xwD5KV4sAxLQh_B7klUJU9qgPUh5rRmixYO/pub
