@@ -43,14 +43,9 @@ The actually available scripts are :
 
 | Script | Returns |
 |--------|---------|
-|`_raise_`||
-|`_jumpraise_`||
-|`_cuebidrho_`||
-|`_cuebidlho_`||
-|`_suitbid_`||
-|`_shift_`||
-|`_step1_`||
-|`_step2_`||
-|`_step3_`||
-|`_steps_`||
-|`_select_`||
+|`_raise_`|simple raise of the partner's first bid|
+|`_jumpraise_`|jump raise of the partner's first bid|
+|`_cuebidrho_`|cue bid of the RHO's last bid|
+|`_cuebidlho_`|cue bid of the LHO's last bid|
+|`_shift_`|new suit|
+|`_steps_`|regEx matching all bids above the last bid of the partner|
