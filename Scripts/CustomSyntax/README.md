@@ -4,7 +4,7 @@ Prerequisite : BBOalert version 7.3 Beta or higher
 
 BBOalert uses the record structure :
 
-    ***context***,***call***,***explanation***
+   ***context***,***call***,***explanation***
 
 The ***call*** field can be defined dynamically using a script. Example :
 
