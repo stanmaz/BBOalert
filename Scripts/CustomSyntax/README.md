@@ -21,7 +21,7 @@ In this example the the arguments are :
     - 0 = partner's first bid (opening bid); 1 = second bid etc...
     - 5 = fifth step above the opening it (e.g. after opening 1H the raise of 2H is the fifth step); For a jump raise this paramerter would be 10.
 
-An alias should be defined to link the script with a symbol used in the alert code. Tag @C should be added to limit the use of the alias to the ***context*** and the @B tag to limit the use of the alias to the ***call*** field.
+An alias should be defined to link the script with a symbol used in the alert code. Tag @C should be added to limit the use of the alias to the ***context*** and the @B tag to limit the use of the alias to the ***call*** field. In the example, RAISE is arbitrary and you may use any name.
 
     Alias,RAISE,%_raise_%,@C@B
 
