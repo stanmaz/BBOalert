@@ -6,16 +6,20 @@ BBOalert uses the record structure :
 
    ***context***,***call***,***explanation***
 
-The ***call*** field can be defined dynamically using a script. Example :
+The ***call*** field can be defined dynamically using a script. Frequently used scripts are predefined in a file which can be installed with :
+
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
+
+Example of a simple script which return a bid for simple raise of the the opening suit :
 
     Script,_raise_,R = getBidFromContext(2,0,5);
 
-In this example the the arguments of bidSymbol are :
-- "raise" = arbitrary name
+In this example the the arguments are :
+- "_raise_" = script name
 - getBidFromContext function computing the call field content dynamically. The arguments are :
     - 2 = partner (0=caller;1=LHO;2=partner;3=RHO)
-    - 0 = partner's first bid (opening bid)
-    - 5 = fifth step above the opening it (e.g. after opening 1H the raise of 2H is the fifth step)
+    - 0 = partner's first bid (opening bid); 1 = second bid etc...
+    - 5 = fifth step above the opening it (e.g. after opening 1H the raise of 2H is the fifth step); For a jump raise this paramerter would be 10.
 
 An alias should be defined to link the script with a symbol used in the alert code. Tag @C should be added to limit the use of the alias to the ***context*** and the @B tag to limit the use of the alias to the ***call*** field.
 
