@@ -38,3 +38,19 @@ Finally we can improve the code by using the buletted lists (see BBOalert README
     ,1[HS],5 cards suit
     - RAISE     8-10p 3+ cards fit
         - 2N         trial bid; no shortness
+
+The actually available scripts are :
+
+| Script | Returns |
+|--------|---------|
+|_raise_||
+|_jumpraise_||
+|_cuebidrho_||
+|_cuebidlho_||
+|_suitbid_||
+|_shift_||
+|_step1_||
+|_step2_||
+|_step3_||
+|_steps_||
+|_select_||
