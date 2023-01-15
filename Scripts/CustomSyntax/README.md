@@ -10,7 +10,7 @@ The ***call*** field can be defined dynamically using a script. Frequently used 
 
     Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
 
-Example of a simple script which return a bid for simple raise of the the opening suit :
+Example of a simple script which returns a bid for the simple raise of the the opening suit :
 
     Script,_raise_,R = getBidFromContext(2,0,5);
 
