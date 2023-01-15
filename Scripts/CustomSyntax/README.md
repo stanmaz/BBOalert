@@ -43,8 +43,8 @@ The actually available scripts are :
 
 | Script | Returns |
 |--------|---------|
-|`_raise_`|simple raise of the partner's first bid|
-|`_jumpraise_`|jump raise of the partner's first bid|
+|`_raise_`|simple raise of the partner's opening bid|
+|`_jumpraise_`|jump raise of the partner's opening bid|
 |`_cuebidrho_`|cue bid of the RHO's last bid|
 |`_cuebidlho_`|cue bid of the LHO's last bid|
 |`_shift_`|new suit|
