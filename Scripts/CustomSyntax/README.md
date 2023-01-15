@@ -43,14 +43,14 @@ The actually available scripts are :
 
 | Script | Returns |
 |--------|---------|
-|_raise_||
-|_jumpraise_||
-|_cuebidrho_||
-|_cuebidlho_||
-|_suitbid_||
-|_shift_||
-|_step1_||
-|_step2_||
-|_step3_||
-|_steps_||
-|_select_||
+|`_raise_`||
+|`_jumpraise_`||
+|`_cuebidrho_`||
+|`_cuebidlho_`||
+|`_suitbid_`||
+|`_shift_`||
+|`_step1_`||
+|`_step2_`||
+|`_step3_`||
+|`_steps_`||
+|`_select_`||
