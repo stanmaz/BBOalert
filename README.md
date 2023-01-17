@@ -217,7 +217,7 @@ Where :
 
 Alerted calls should contain at least three text fields separated by commas :
 
-    <context>,<call>,<explanation>[,optional text ignored by BBOalert]
+    ***context***,***call***,<explanation>[,optional text ignored by BBOalert]
     
 where "context" is the bidding sequence preceding the "call". In those two fields we use two-character self-explaining tokens :
 
@@ -412,9 +412,9 @@ An example of data file :
 Note : X and Y are arbitrary script names,and there are no specific limitations.
 
 - The script should use variables :
-   - CR : <context> field
+   - CR : ***context*** field
    - C : actual bidding context
-   - BR : <call> field
+   - BR : ***call*** field
    - B : actual call (bid)
    - R : string to be returned
 - The script may use the makeRegExp function, which transforms the string into a RegExp object. BBOalert wildcards _ and * will be replaced by dots.
