@@ -1,5 +1,5 @@
 
-//BBOalert,stanmazPlugin version 3
+//BBOalert,stanmazPlugin version 3.1
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -230,11 +230,17 @@ function BBOcontext() {
     var cfg = {};
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
+    var lockPrealert = false;
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
-                setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+                if (lockPrealert) return;
+                lockPrealert = true;
+                setTimeout(function () {
+                    setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+                    lockPrealert = false;
+                }, 1000);
             });
         }
     });
