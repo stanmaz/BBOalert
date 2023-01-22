@@ -237,9 +237,9 @@ function BBOcontext() {
                 if (!cfg.Enable_prealert) return;
                 if (lockPrealert) return;
                 setTimeout(function () {
-                    lockPrealert = true;
                     setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
-                }, 1000)
+                    lockPrealert = false;
+                }, 1000);
             });
         }
     });
