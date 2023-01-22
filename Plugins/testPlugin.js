@@ -236,6 +236,7 @@ function BBOcontext() {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
                 if (lockPrealert) return;
+                lockPrealert = true;
                 setTimeout(function () {
                     setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
                     lockPrealert = false;
