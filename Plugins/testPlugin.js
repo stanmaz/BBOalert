@@ -230,10 +230,13 @@ function BBOcontext() {
     var cfg = {};
     cfg.Enable_prealert = false;
     cfg.Prealert_shortcut = "PREALERT";
+    var lockPrealert = false;
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
+                if (lockPrealert) return;
+                
                 setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
             });
         }
