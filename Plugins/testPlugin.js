@@ -503,7 +503,7 @@ function BBOcontext() {
         var btok_span = $("span", btok)[0];
         if (on) {
             if (callText.length == 2) {
-                var txt = callText;
+                var txt = callText;                
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 if (callText == "Db") {
                     txt = 'Dbl';
