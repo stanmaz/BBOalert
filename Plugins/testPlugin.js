@@ -236,8 +236,10 @@ function BBOcontext() {
             addBBOalertEvent("onAnyOpponentChange", function () {
                 if (!cfg.Enable_prealert) return;
                 if (lockPrealert) return;
-                
-                setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+                setTimeout(function () {
+                    lockPrealert = true;
+                    setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
+                }, 1000)
             });
         }
     });
