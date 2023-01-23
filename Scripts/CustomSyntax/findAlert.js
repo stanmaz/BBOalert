@@ -1,4 +1,5 @@
 function findAlert(context, call) {
+	console.log("findAlert Version 1 " +  context + " " + call);
 	console.time("findalert");
 	trustedBid = false;
 	var trustedZone = false;
@@ -9,7 +10,8 @@ function findAlert(context, call) {
 	var symkey;
 	var symval;
 	var foundRecord = "";
-	var recorg = "";
+	var rec;
+	var recorg = ;
 	var originalRecord = "";
 	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
@@ -19,8 +21,8 @@ function findAlert(context, call) {
 		if (txt == 'Untrusted') trustedZone = false;
 		if (txt == 'Option') matchOption = true;
 		rec = txt.split(",");
+		recorg = txt.split(",");
 		if (rec.length < 3) continue;
-		recTemp = rec;
 		rec[1] = elimineSpaces(rec[1].replace(/!/g, "").trim());
 		var rec1old = rec[1];
 		rec[1] = scan.replaceAliases(rec[1], "@B");
