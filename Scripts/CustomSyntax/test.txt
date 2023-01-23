@@ -1,5 +1,5 @@
 BBOalert,test findAlert 1.00
-Javascript,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/findAlert.js
+Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/findAlert.js
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxAliases.txt
 
