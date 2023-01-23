@@ -1,4 +1,4 @@
-BBOalert,test findAlert 1.00
+BBOalert,test findAlert 1
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/findAlert.js
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxScriptLibrary.js
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/CustomSyntax/CustomSyntaxAliases.txt
