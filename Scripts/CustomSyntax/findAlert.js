@@ -11,7 +11,7 @@ function findAlert(context, call) {
 	var symval;
 	var foundRecord = "";
 	var rec;
-	var recorg = ;
+	var recorg;
 	var originalRecord = "";
 	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
