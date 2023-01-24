@@ -629,10 +629,10 @@ function BBOcontext() {
     T_for_10 = function (on) {
         if (on) {
             $(".topLeft div:contains('10')",window.parent.document).text("T");
-            $(".handDiagramClass:contains('10')",window.parent.document).text("T");
+            $(".handDiagramCardClass:contains('10')",window.parent.document).text("T");
         } else {
             $(".topLeft div:contains('T')",window.parent.document).text("10");
-            $(".handDiagramClass:contains('T')",window.parent.document).text("10");
+            $(".handDiagramCardClass:contains('T')",window.parent.document).text("10");
         }
     };
 })();
