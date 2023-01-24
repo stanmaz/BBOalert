@@ -302,6 +302,7 @@ function BBOcontext() {
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
     cfg.Remove_Ads = false;
+    cfg.T_for_10 = false;
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewChatMessage", function () {
@@ -327,6 +328,7 @@ function BBOcontext() {
                 modified_OK_button(cfg.Modified_OK_button);
                 swapBiddingButtons(cfg.Swap_bidding_buttons);
                 removeAds(cfg.Remove_Ads);
+                T_for_10 (cfg.T_for_10);
             });
             addBBOalertEvent("onNewDeal", function () {
                 disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
@@ -622,6 +624,13 @@ function BBOcontext() {
             $("#bbo_app", BBOcontext()).css("left", "0px");
             $("#bbo_app", BBOcontext()).css("right", "0px");
             $("#bbo_app", BBOcontext()).css("width", "");
+        }
+    };
+    T_for_10 = function (on) {
+        if (on) {
+            $(".topLeft div:contains('10')",window.parent.document).text("T");
+        } else {
+            $(".topLeft div:contains('T')",window.parent.document).text("10");
         }
     };
 })();
