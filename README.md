@@ -548,7 +548,7 @@ You are also allowed to define Alt-key shortcuts as shown in this example :
 
 The \n token within the shortcut text will split it and each part will be sent immediately. Example :
 
-   Shortcut,WC,Welcome\nwe are playing SAYC\nItalian discard\n
+    Shortcut,WC,Welcome\nwe are playing SAYC\nItalian discard\n
    
 This should be used only in the chat box only to increase the readabilit of the message by subdividing it separate lines. 
 
@@ -562,13 +562,13 @@ At the top of the panel three buttons are predefined to erase single character, 
 
 The data format is similar to keyboard shortcuts :
 
-   Button,<token>,<full text>[,optional properties]
+    Button,<token>,<full text>[,optional properties]
    
 This will create a button with <token> label. Pressing the button will append <full text>
    
 Example
 
-   Button,Hello,Hello; We are playing ACOL
+    Button,Hello,Hello; We are playing ACOL
    
 You don't need to duplicate keybord shortcuts into buttons. Keyboard shortcuts will be displayed together with button shortcuts.
 
