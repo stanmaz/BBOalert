@@ -783,33 +783,33 @@ Then :
 
 You can use this template to prepare your data (hint : set the keyboard to overstrike mode to preserve text line length). The field ID’s are self explanatory.
 
-CC,summary
-… text for “System Summary” section
-CC,ntopen
-… text for “Notrump Openings” section
-CC,majoropen
-… text for “Minor Suit Openings” section
-CC,minoropen
-… text for “Minor Suit Openings” section
-CC,level2open
-… text for “2-Level Openings” section
-CC,other
-… text for “Other important notes” section
-CC,doubles
-… text for “Doubles” section
-CC,ntocalls
-… text for “Notrump Overcalls” section
-CC,socalls
-… text for “Simple Overcalls” section
-CC,over1nt
-… text for “Over 1NT Openings” section
-CC,jocalls
-… text for “Jump Overcalls” section
-CC,overtox
-...text for “Over Takeout Doubles” section
-CC,directq
-...text for “Over Takeout Doubles” section
-CC,slam
-...text for “Slam Bidding” section
-CC
+    CC,summary
+    … text for “System Summary” section
+    CC,ntopen
+    … text for “Notrump Openings” section
+    CC,majoropen
+    … text for “Minor Suit Openings” section
+    CC,minoropen
+    … text for “Minor Suit Openings” section
+    CC,level2open
+    … text for “2-Level Openings” section
+    CC,other
+    … text for “Other important notes” section
+    CC,doubles
+    … text for “Doubles” section
+    CC,ntocalls
+    … text for “Notrump Overcalls” section
+    CC,socalls
+    … text for “Simple Overcalls” section
+    CC,over1nt
+    … text for “Over 1NT Openings” section
+    CC,jocalls
+    … text for “Jump Overcalls” section
+    CC,overtox
+    ...text for “Over Takeout Doubles” section
+    CC,directq
+    ...text for “Over Takeout Doubles” section
+    CC,slam
+    ...text for “Slam Bidding” section
+    CC
 
