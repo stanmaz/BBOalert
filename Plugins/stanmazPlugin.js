@@ -632,7 +632,6 @@ function BBOcontext() {
             $(".bottomRight div:contains('10')",window.parent.document).text("T");
             $(".handDiagramCardClass:contains('10')",window.parent.document).text("T");
             $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
-                console.log($(this).html());
                 $(this).html($(this).html().replace("10","T"));
             });
         } else {
@@ -640,10 +639,7 @@ function BBOcontext() {
             $(".bottomRight div:contains('T')",window.parent.document).text("10");
             $(".handDiagramCardClass:contains('T')",window.parent.document).text("10");
             $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
-                let h = $(this).html();
-                h = h.replace("T", "10");
-                console.log(h);
-                $(this).html(h);
+                $(this).html($(this).html().replace("T","10"));
             });
         }
     };
