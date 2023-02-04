@@ -631,16 +631,18 @@ function BBOcontext() {
             $(".topLeft div:contains('10')",window.parent.document).text("T");
             $(".bottomRight div:contains('10')",window.parent.document).text("T");
             $(".handDiagramCardClass:contains('10')",window.parent.document).text("T");
-            let h = $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).html();
-            h = h.replace("10", "T");
-            $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).html(h);
+            $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function (e) {
+                e.innerHTML = e.innerHTML.replace("10","T");
+            });
         } else {
             $(".topLeft div:contains('T')",window.parent.document).text("10");
             $(".bottomRight div:contains('T')",window.parent.document).text("10");
             $(".handDiagramCardClass:contains('T')",window.parent.document).text("10");
             let h = $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).html();
             h = h.replace("T", "10");
-            $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).html(h);
+            $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function (e) {
+                e.innerHTML = e.innerHTML.replace("T","10");
+            });
         }
     };
 })();
