@@ -632,16 +632,18 @@ function BBOcontext() {
             $(".bottomRight div:contains('10')",window.parent.document).text("T");
             $(".handDiagramCardClass:contains('10')",window.parent.document).text("T");
             $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
-                this.innerHTML = this.innerHTML.replace("10","T");
+                console.log($(this).html());
+                $(this).html($(this).html().replace("10","T"));
             });
         } else {
             $(".topLeft div:contains('T')",window.parent.document).text("10");
             $(".bottomRight div:contains('T')",window.parent.document).text("10");
             $(".handDiagramCardClass:contains('T')",window.parent.document).text("10");
-            let h = $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).html();
-            h = h.replace("T", "10");
             $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
-                this.innerHTML = this.innerHTML.replace("T","10");
+                let h = $(this).html();
+                h = h.replace("T", "10");
+                console.log(h);
+                $(this).html(h);
             });
         }
     };
