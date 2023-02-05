@@ -585,6 +585,11 @@ function BBOcontext() {
     autoChatToOpponents = function () {
         addBBOalertEvent('onMyCardsDisplayed', function () {
             if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
+            }
+        });
+        addBBOalertEvent('onAuctionBegin', function () {
+            if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
         });
