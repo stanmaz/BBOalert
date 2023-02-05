@@ -599,6 +599,11 @@ function BBOcontext() {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
         });
+        addBBOalertEvent('onDealEnd', function () {
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
+            }
+        });
     };
     disableAlertsWithCasualPartner = function (on) {
         if (on) {
