@@ -593,6 +593,12 @@ function BBOcontext() {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
         });
+        addBBOalertEvent('onNewPlayedCard', function () {
+            if ()
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
+            }
+        });
     };
     disableAlertsWithCasualPartner = function (on) {
         if (on) {
