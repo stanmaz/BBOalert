@@ -594,7 +594,7 @@ function BBOcontext() {
             }
         });
         addBBOalertEvent('onNewPlayedCard', function () {
-            if ()
+            if (getContext() == '') return;
             if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
