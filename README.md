@@ -388,6 +388,12 @@ Examples :
       /Db$/,Rd,forcing; may be SOS              ,but redouble is forcing
       /^(1N|1N----)$/,Db,for penalties
 
+When the <call> field contains a regex group containing a list of possible bids with different explanations, the explanations can be listed in the same one record in supplementary comma separated fields.
+
+	Example : 
+
+	1N--,(2C|2D|2H|2S),Stayman,Texas !H,Texas !S,Texas !C
+
 Wildcards and regular expressions are powerfull features to get more compact code, but must be used carefully.
 
 ### User definable scripts
@@ -424,6 +430,8 @@ Note : X and Y are arbitrary script names,and there are no specific limitations.
 - To span the script over multiple lines \ should be used at the end of the line
    
 More information about scripting can be found in the "Scripting in BBOalert.pdf" file.
+
+Scripting allows defining custom syntax. This feature is experimental : See this [folder](https://github.com/stanmaz/BBOalert/tree/master/Scripts/CustomSyntax) for details
 
 ### Optional code
 
@@ -610,7 +618,7 @@ If you do not want a shortcut to appear on the buttons panel you may use the "Di
 
 The format of an alias record is :
 
-      Alias,<string1>,<string2>
+      Alias,<string1>,<string2>,<tags>
       
 If any explanation text record contains <string1> it will be replaced by <string2>. Following rules apply :
 
@@ -619,6 +627,30 @@ If any explanation text record contains <string1> it will be replaced by <string
 - Always the last match is used for string substitution
 - The aliases should be sorted from the shortest to the longest <string1>
 - In both strings case and spaces matter (leading and trailing). Note : to keep the visual control of trailing spaces in <string2> a comma may be added at the end of the record.
+
+Optional <tags> may be used to restrict the use to a specific data field :
+- @C : <context> field
+- @B : <call> field
+- @E : <explanation> field
+- @G : global : String substitution on the record before parsing. This allows formatting the  whole data records dynamically. As the comma is not allowed in the alias text, the HTML entity “&comma;” should be used instead.
+- no tag : String substitution on all fields after parsing
+
+Examples of the use of tags :
+
+- @C@B : prevents to substitute the character “m” in the explanation text
+
+    Alias,m,[CD],@C@B
+
+- The @G tag allows using the plain language to make the code more readable
+
+    Alias,Opening 1 club : ,&comma;1C&comma;,@G
+    Opening 1 club : 16+p any distribution
+
+- The @G tag allows to use a custom field separator. E.g. : he vertical bar can be used as a field separator instead of a comma. This technique allows to present the list opening bids as a table in markdown format. 
+
+    Alias,|,&comma;,@G
+    | 1D | 4+!D |
+
 
 The main purpose of aliases is to solve the problem of national bridge events where the usage of the local language is required. Maintaining two different data files for two different languages is not practical. The aliases can be used to translate expressions depending on the selected language. Example of code :
 
