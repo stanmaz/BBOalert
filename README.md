@@ -764,6 +764,29 @@ The rest of the data will be loaded by following the link above.
 
 Handling a large data file is not easy and subdividing it into smaller linked pieces is a great help. This enables collaborative editing and easy sharing of effort. Each module can represent a convention that can be published within the users group on Facebook and reused by others.
 
+The URL’s used in the “Import” records are long and cryptic because instead of real file names the cloud service providers use file ID’s to identify the file. It is possible to create an alias using an arbitrary short name. The advantages : 
+
+- Readability of the code
+- Easy data maintenance if the URL changes
+
+Example : instead of 
+
+    Import,https://docs.google.com/document/d/e/2PACX-1vSz8gq9LwJQ2UY5El6czdaElyvzSjQMx1dvrIh9Ss_0-muXDwr9-7N8bAblEryG0QwkKcgWIivR3WXs/pub
+
+First define an alias at the data beginning 
+
+    Import,1C_Opening,https://docs.google.com/document/d/e/2PACX-1vSz8gq9LwJQ2UY5El6czdaElyvzSjQMx1dvrIh9Ss_0-muXDwr9-7N8bAblEryG0QwkKcgWIivR3WXs/pub
+
+And then use 
+
+    Import,1C_Opening
+
+Note : 
+
+- URL aliases must be defined before they are used
+- Import aliases must be defined in the root file of the hierarchical file organisation.
+- Multiple definitions of the same alias (same alias, different URL’s) are allowed : the last one will be used.
+
 #### Scripts
 
 Until now all Javascript code was included in the data file. With this release it is possible to save every piece of Javascript code in separate files and use the public link in the data file as in this example:
