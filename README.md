@@ -431,7 +431,7 @@ Note : X and Y are arbitrary script names,and there are no specific limitations.
    
 More information about scripting can be found in the "Scripting in BBOalert.pdf" file.
 
-Scripting allows defining custom syntax. This feature is experimental : see this [folder](https://github.com/stanmaz/BBOalert/tree/master/Scripts/CustomSyntax) for details
+Scripting allows custom data syntax. This feature is experimental : see this [folder](https://github.com/stanmaz/BBOalert/tree/master/Scripts/CustomSyntax) for details
 
 ### Optional code
 
