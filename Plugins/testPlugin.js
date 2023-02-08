@@ -305,6 +305,7 @@ function BBOcontext() {
     cfg.T_for_10 = false;
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
+            console.log("T for 10 = " + cfg.T_for_10);
             addBBOalertEvent("onNewChatMessage", function () {
                 if (!cfg.Enable_chat_timestamp) return;
                 var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
