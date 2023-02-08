@@ -1,5 +1,5 @@
 
-//BBOalert,stanmazPlugin version 3
+//BBOalert,stanmazPlugin version 3.2
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -302,6 +302,7 @@ function BBOcontext() {
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
     cfg.Remove_Ads = false;
+    cfg.T_for_10 = "T";
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewChatMessage", function () {
@@ -327,6 +328,7 @@ function BBOcontext() {
                 modified_OK_button(cfg.Modified_OK_button);
                 swapBiddingButtons(cfg.Swap_bidding_buttons);
                 removeAds(cfg.Remove_Ads);
+                T_for_10 (cfg.T_for_10);
             });
             addBBOalertEvent("onNewDeal", function () {
                 disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
@@ -583,12 +585,23 @@ function BBOcontext() {
     autoChatToOpponents = function () {
         addBBOalertEvent('onMyCardsDisplayed', function () {
             if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
+            }
+        });
+        addBBOalertEvent('onNewAuction', function () {
+            if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
             }
         });
-        addBBOalertEvent('onNewChatMessage', function () {
+        addBBOalertEvent('onNewPlayedCard', function () {
+            if (getContext() == '') return;
             if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
+            }
+        });
+        addBBOalertEvent('onDealEnd', function () {
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
             }
         });
     };
@@ -622,6 +635,23 @@ function BBOcontext() {
             $("#bbo_app", BBOcontext()).css("left", "0px");
             $("#bbo_app", BBOcontext()).css("right", "0px");
             $("#bbo_app", BBOcontext()).css("width", "");
+        }
+    };
+    T_for_10 = function (on) {
+        if (on) {
+            $(".topLeft div:contains('10')",window.parent.document).text("T");
+            $(".bottomRight div:contains('10')",window.parent.document).text("T");
+            $(".handDiagramCardClass:contains('10')",window.parent.document).text("T");
+            $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("10","T"));
+            });
+        } else {
+            $(".topLeft div:contains('T')",window.parent.document).text("10");
+            $(".bottomRight div:contains('T')",window.parent.document).text("10");
+            $(".handDiagramCardClass:contains('T')",window.parent.document).text("10");
+            $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("T","10"));
+            });
         }
     };
 })();
