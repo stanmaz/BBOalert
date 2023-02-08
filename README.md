@@ -629,9 +629,9 @@ If any explanation text record contains <string1> it will be replaced by <string
 - In both strings case and spaces matter (leading and trailing). Note : to keep the visual control of trailing spaces in <string2> a comma may be added at the end of the record.
 
 Optional <tags> may be used to restrict the use to a specific data field :
-- @C : <context> field
-- @B : <call> field
-- @E : <explanation> field
+- @C : context field
+- @B : call field
+- @E : explanation field
 - @G : global : String substitution on the record before parsing. This allows formatting the  whole data records dynamically. As the comma is not allowed in the alias text, the HTML entity “&comma;” should be used instead.
 - no tag : String substitution on all fields after parsing
 
