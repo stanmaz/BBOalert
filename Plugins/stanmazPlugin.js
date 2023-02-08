@@ -304,6 +304,7 @@ function BBOcontext() {
     cfg.Remove_Ads = false;
     cfg.T_for_10 = false;
     addBBOalertEvent("onDataLoad", function () {
+        console.log("Title = " + title);
         if (addConfigBox(title, cfg) != null) {
             addBBOalertEvent("onNewChatMessage", function () {
                 if (!cfg.Enable_chat_timestamp) return;
