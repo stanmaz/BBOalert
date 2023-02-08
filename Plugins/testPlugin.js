@@ -306,6 +306,11 @@ function BBOcontext() {
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             console.log("T for 10 = " + cfg.T_for_10);
+            if ((typeof cfg.T_for_10) == "string") {
+                if (cfg.T_for_10 == "T") cfg.T_for_10 = true;
+                else cfg.T_for_10 = false;                
+            }
+            console.log("T for 10 = " + cfg.T_for_10);
             addBBOalertEvent("onNewChatMessage", function () {
                 if (!cfg.Enable_chat_timestamp) return;
                 var ci = $("#chatDiv .chatOutputClass chat-list-item", BBOcontext()).toArray();
