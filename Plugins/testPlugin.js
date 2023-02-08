@@ -302,7 +302,7 @@ function BBOcontext() {
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
     cfg.Remove_Ads = false;
-    cfg.T_for_10 = false;
+    cfg.T_for_10 = "T";
     addBBOalertEvent("onDataLoad", function () {
         if (addConfigBox(title, cfg) != null) {
             console.log("T for 10 = " + cfg.T_for_10);
