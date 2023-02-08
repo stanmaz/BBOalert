@@ -643,12 +643,12 @@ Examples of the use of tags :
 
 - The @G tag allows using the plain language to make the code more readable
 
-    Alias,Opening 1 club : ,&comma;1C&comma;,@G
+    Alias,Opening 1 club : ,```&comma;```1C```&comma;```,@G
     Opening 1 club : 16+p any distribution
 
 - The @G tag allows to use a custom field separator. E.g. : he vertical bar can be used as a field separator instead of a comma. This technique allows to present the list opening bids as a table in markdown format. 
 
-    Alias,|,&comma;,@G
+    Alias,|,```&comma;```,@G
     | 1D | 4+!D |
 
 
