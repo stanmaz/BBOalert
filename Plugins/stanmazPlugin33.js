@@ -1,5 +1,5 @@
 
-//BBOalert,stanmazPlugin version 3.4
+//BBOalert,stanmazPlugin version 3.3
 
 console.log("Plugin version : 3.3");
 
