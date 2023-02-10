@@ -1,4 +1,4 @@
-BBOalert, file must begin with BBOalert keyword 1.1
+BBOalert, file must begin with BBOalert keyword 1.2
 
 You can use this sample data to test BBOalert features. You should
 - press 'Raw' button on this page
