@@ -55,11 +55,7 @@ The purpose of this browser extension is to reduce to the absolute minimum the m
 
 Thereafter you can decide to use advanced features if needed:
 
-- efficient coding alerts using wild cards, RegEx expressions and user 
-
-
-
-s
+- efficient coding alerts using wild cards, RegEx expressions and user scripts
 - declare conventions in optional blocks of code that can be turned ON and OFF
 - declare which conventions you play with which partner
 - Seat-dependent openings and development
