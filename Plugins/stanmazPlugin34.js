@@ -654,6 +654,18 @@ function BBOcontext() {
             $(".cardSurfaceClass .handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("10","T"));
             });
+            $("history-screen .topLeft div:contains('10')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("10","T"));
+            });
+            $("history-screen .bottomRight div:contains('10')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("10","T"));
+            });
+            $("history-screen .handDiagramCardClass:contains('10')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("10","T"));
+            });
+            $("history-screen .handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("10","T"));
+            });
         } else {
             $(".cardSurfaceClass .topLeft div:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
@@ -665,6 +677,18 @@ function BBOcontext() {
                 $(this).html($(this).html().replace("T","10"));
             });
             $(".cardSurfaceClass .handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("T","10"));
+            });
+            $("history-screen .topLeft div:contains('T')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("T","10"));
+            });
+            $("history-screen .bottomRight div:contains('T')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("T","10"));
+            });
+            $("history-screen .handDiagramCardClass:contains('T')",window.parent.document).each(function () {
+                $(this).html($(this).html().replace("T","10"));
+            });
+            $("history-screen .handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
             });
         }
