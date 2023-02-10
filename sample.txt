@@ -1,6 +1,6 @@
 BBOalert, file must begin with BBOalert keyword 1.4
 
-You can use this sample data to test BBOalert features. You should
+You can use this sample data to test BBOalert features. You should :
 - press 'Raw' button on this page
 - Ctrl-A to select all text
 - Ctrl-C to copy it to the clipboard
