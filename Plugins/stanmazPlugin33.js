@@ -642,29 +642,29 @@ function BBOcontext() {
     };
     T_for_10 = function (on) {
         if (on) {
-            $(".topLeft div:contains('10')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .topLeft div:contains('10')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("10","T"));
             });
-            $(".bottomRight div:contains('10')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .bottomRight div:contains('10')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("10","T"));
             });
-            $(".handDiagramCardClass:contains('10')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .handDiagramCardClass:contains('10')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("10","T"));
             });
-            $(".handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .handDiagramCurrentTrickClass .innerDivClass:contains('10')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("10","T"));
             });
         } else {
-            $(".topLeft div:contains('T')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .topLeft div:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
             });
-            $(".bottomRight div:contains('T')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .bottomRight div:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
             });
-            $(".handDiagramCardClass:contains('T')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .handDiagramCardClass:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
             });
-            $(".handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
+            $(".cardSurfaceClass .handDiagramCurrentTrickClass .innerDivClass:contains('T')",window.parent.document).each(function () {
                 $(this).html($(this).html().replace("T","10"));
             });
         }
