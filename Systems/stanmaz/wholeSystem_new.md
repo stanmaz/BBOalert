@@ -1,4 +1,4 @@
-    //BBOALERT, Entire system with URL list 1.0
+    //BBOALERT, Entire system with URL list 1.1
     Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
     
     Import,my_scripts.md,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
