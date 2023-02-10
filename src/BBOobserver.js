@@ -116,7 +116,7 @@ const observer = new MutationObserver(callback);
 const targetNode = parent.document.body;
 var tmr = setInterval(function () {
     console.log("Scripts loaded = " + $("script").length);
-    if ($("script").length != 12) return; // be sure all scripts ale loaded
+    if ($("script").length != 16) return; // be sure all scripts ale loaded
     if (!isVisible(getNavDiv())) return;
     initGlobals();
     navDivDisplayed = true;
@@ -197,6 +197,7 @@ function onAuctionBoxDisplayed() {
     setTimeout(function () {
         if (getContext() == '') {
             BBOalertEvents().dispatchEvent(E_onAuctionBegin);
+            bidSymbolMap.clear();
             execUserScript('%onAuctionBegin%');
         }
     }, 200);
@@ -219,6 +220,7 @@ function onFinalContractDisplayed() {
 }
 
 function onNewAuction() {
+    if (currentAuction == '') bidSymbolMap.clear();
     if (currentAuction != '')
         if (currentAuction != '??') {
             ctxArray = bidArray(stripContext(getContext()));
@@ -428,3 +430,6 @@ function onNewChatMessage() {
     BBOalertEvents().dispatchEvent(E_onNewChatMessage);
     execUserScript('%onNewChatMessage%');
 }
+
+
+

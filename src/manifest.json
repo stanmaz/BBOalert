@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "7.1.3",
+	"version": "8.0.1",
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",
@@ -11,13 +11,17 @@
 	"web_accessible_resources": [{
 		"resources": [
 			"globals.js",
+			"BBO_DOM.js",
 			"blogspot.js",
 			"functions.js",
 			"BBOalertData.js",
 			"BBOalert.js",
 			"BBOalertConfig.js",
 			"custom_syntax.js",
+			"BBOalertUI.js",
+			"BBOalertOptions.js",
 			"BBOobserver.js",
+			"webStorage.js",
 			"init.js"
 	],
 		"matches": [
@@ -28,6 +32,7 @@
 		{
 			"matches": [
 				"https://docs.google.com/*",
+				"https://drive.google.com/file/d/*/preview",
 				"*://www.bridgebase.com/v3/*",
 				"*://webutil.bridgebase.com/v2/*"
 			],
@@ -40,7 +45,8 @@
 				"BBOalertData.js",
 				"googleDocs.js",
 				"CC.js",
-				"BBOalertIframe.js"
+				"BBOalertIframe.js",
+				"main.js"
 			],
 			"all_frames":true
 		}

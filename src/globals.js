@@ -12,6 +12,7 @@ var logText = version + '\n';
 var logText = logText + navigator.userAgent + '\n';
 COLLAPSED_BG_COLOR = "yellow";
 COLLAPSED_TEXT_COLOR = "black";
+var bidSymbolMap = new Map();
 
 apiKey = "AIzaSyBDC18V7_Sw4fIHoIkOR40nRPMZAuW2QMk";
 

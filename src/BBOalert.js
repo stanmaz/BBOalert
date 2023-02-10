@@ -499,6 +499,7 @@ function processTable() {
 	BBOalertEvents().dispatchEvent(E_onDataLoad);
 	execUserScript('%onDataLoad%');
 	setParentBBOalertData(alertOriginal);
+	bidSymbolMap.clear();
 }
 
 function setParentBBOalertData(text) {
@@ -736,7 +737,7 @@ function findAlertText(context, call) {
 			lastContext = currentContext;
 		}
 		if (rec.length < 3) continue;
-		currentContext = execUserScript(scan.replaceAliases(currentContext,"C"));
+		currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
 		if (matchContext(currentContext, stripContext(context)) && (matchContext(rec[1].trim(), call))) {
 			matchFound = true;
 			idx = alertTableCursor;
@@ -769,6 +770,9 @@ function findAlert(context, call) {
 	var alertText = "";
 	var txt = '';
 	var matchFound = false;
+	var symkey;
+	var symval;
+	var foundRecord = "";
 	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
 	while ((txt = scan.getNextRecord()) != null) {
@@ -777,34 +781,68 @@ function findAlert(context, call) {
 		if (txt == 'Untrusted') trustedZone = false;
 		if (txt == 'Option') matchOption = true;
 		rec = txt.split(",");
+		if (rec.length < 3) continue;
 		recTemp = rec;
-		rec[0] = rec[0].replace(/!/g, "");
-		currentContext = elimineSpaces(rec[0].trim());
+		rec[1] = elimineSpaces(rec[1].replace(/!/g, "").trim());
+		var rec1old = rec[1];
+		rec[1] = scan.replaceAliases(rec[1], "@B");
+		rec[1] = execUserScript(rec[1]);
+		// replace map keys by values
+		bidSymbolMap.forEach(function (values, keys) {
+			rec[0] = rec[0].replaceAll(keys, values);
+		});
+		rec[0] = scan.replaceAliases(rec[0], "@C");
+		rec[0] = elimineSpaces(rec[0].replace(/!/g, "").trim());
+		currentContext = rec[0];
 		if (currentContext == "+") {
 			currentContext = lastContext;
 		} else {
 			lastContext = currentContext;
 		}
-		if (rec.length < 3) continue;
-		rec[1] = rec[1].replace(/!/g, "");
-		rec[1] = execUserScript(scan.replaceAliases(rec[1], "B"));
-		if (!matchContext(rec[1].trim(), call)) continue;
 		currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
-		if (matchContext(currentContext, stripContext(context))) {
+		foundComment = "";
+		var suffix = "";
+		if (rec[1] == "") continue;
+		if (rec[1] != "") {
+			if (!matchContext(rec[1], call)) continue;
+		} else {
+			suffix = call; // if call field is empty then append the current call for matching
+		}
+		if (matchContext(currentContext, stripContext(context) + suffix)) {
 			matchFound = true;
 			idx = alertTableCursor;
 			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
+			symkey = rec1old;
+			symval = rec[1];
+			if (rec.length > 3) foundComment = rec[3];
+			foundRecord = rec.join(",");
 		}
-		if (matchContext(currentContext, context)) {
+		if (matchContext(currentContext, context + suffix)) {
 			matchFound = true;
 			alertText = scan.replaceAliases(rec[2], "E");
 			trustedBid = trustedZone;
 			foundContext = currentContext;
 			foundCall = rec[1].trim();
+			symkey = rec1old;
+			symval = rec[1];
+			if (rec.length > 3) foundComment = rec[3];
+			foundRecord = rec.join(",");
 		}
+	}
+	// if rec[1] contains a script, add symbol to the map
+	if (symkey != symval) {
+		bidSymbolMap.set(symkey, symval);
+	}
+	// case of regex group of bids and multiple explanations
+	if (foundCall.startsWith("("))
+	if (foundCall.endsWith(")")) {
+		let callList = foundCall.replaceAll("(", "").replaceAll(")", "").split("|");
+		let expList = foundRecord.split(",");
+		let idx = callList.indexOf(call);
+		if ((idx != -1) && (idx <= expList.length-2)) alertText = expList[idx+2];
 	}
 	alertText = normalize(alertText);
 	// Confirm bid id match not found
@@ -925,7 +963,7 @@ function inputOnKeyup(key) {
 }
 
 function inputChanged() {
-    var text1 = this.value;
+	var text1 = this.value;
 	var text1a = text1.slice(0, this.selectionStart);
 	var text1b = text1.slice(this.selectionStart, text1.length);
 	text2 = findShortcut(text1a) + text1b;

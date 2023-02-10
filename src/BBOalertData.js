@@ -1,3 +1,6 @@
+oldStr = '';
+newStr = '';
+
 /**
  * @ignore
  */
@@ -53,7 +56,12 @@ class BBOalertData {
             if (r.length < 3) continue;
             if (r.length > 3) {
                 if (field != "") {
-                    if (r[3].indexOf(field) == -1) continue;
+                    if ((r[3] != "") && (r[3].indexOf(field) == -1)) continue;
+                } else {
+                    if (t.indexOf(r[1]) != -1) {
+                        oldStr = r[1];
+                        newStr = r[2];
+                    }
                 }
             }
             if (t.indexOf(r[1]) != -1) {
@@ -61,7 +69,7 @@ class BBOalertData {
                 newStr = r[2];
             }
         }
-        if (newStr == '') return t;
+//        if (newStr == '') return t;
         return t.replace(oldStr, newStr);
     }
 
@@ -98,7 +106,10 @@ class BBOalertData {
             } else if (keyword == 'Alias') {
                 if (this.matchOption) this.addAlias(txt);
             } else {
-                if (this.matchOption) return txt;
+                if (this.matchOption) {
+                    txt = this.replaceAliases(txt, "@G");
+                    return txt.replaceAll("&comma;",",");
+                }
             }
         }
         return null;
