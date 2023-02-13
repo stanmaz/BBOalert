@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3
+//BBOalert,stanmazPlugin version 3.6.4
 
-console.log("Plugin version : 3.6.3");
+console.log("Plugin version : 3.6.4");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -587,14 +587,11 @@ function BBOcontext() {
     };
     autoChatToOpponents = function () {
         addBBOalertEvent('onTableDisplayed', function () {
-            console.log("onTableDisplayed");
-            if (myDirection() != '') {
-                if (cfg.Auto_chat_to_opponents) {
-                    setTimeout(function () {
-                        console.log("set to table");
-                        setChatDestination('Table');
-                    }, 2000);
-                }
+            if (cfg.Auto_chat_to_opponents) {
+                setTimeout(function () {
+                    console.log("set to table");
+                    setChatDestination('Table');
+                }, 2000);
             }
         });
         addBBOalertEvent('onMyCardsDisplayed', function () {
@@ -641,7 +638,6 @@ function BBOcontext() {
     addBBOalertEvent("onDataLoad", function () {
         autoChatToOpponents();
     });
-    autoChatToOpponents();
     removeAds = function (on) {
         if (on) {
             $("#bbo_ad1", BBOcontext()).hide();
