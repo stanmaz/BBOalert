@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.1
+//BBOalert,stanmazPlugin version 3.6.2
 
-console.log("Plugin version : 3.6.1");
+console.log("Plugin version : 3.6.2");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -590,6 +590,7 @@ function BBOcontext() {
             if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) {
                     setTimeout(function () {
+                        console.log("set to table");
                         setChatDestination('Table');
                     }, 2000);
                 }
