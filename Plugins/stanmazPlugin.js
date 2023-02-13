@@ -586,6 +586,11 @@ function BBOcontext() {
         }
     };
     autoChatToOpponents = function () {
+        addBBOalertEvent('onTableDisplayed', function () {
+            if (myDirection() != '') {
+                if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
+            }
+        });
         addBBOalertEvent('onMyCardsDisplayed', function () {
             if (myDirection() != '') {
                 if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
