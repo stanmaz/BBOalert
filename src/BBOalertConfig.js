@@ -64,6 +64,7 @@ function setConfigBox(title, cfg) {
     d.style.fontSize = "small";
     var b = d.querySelectorAll("button");
     b[0].onclick = function () {
+        clearInterval(ti);
         $("#adpanel0").show();
         $(d).dialog("destroy");
     };
@@ -81,11 +82,15 @@ function setConfigBox(title, cfg) {
             }
         }
         localStorage.setItem('BBOalertConfig ' + title, JSON.stringify(cfg));
+        clearInterval(ti);
         $("#adpanel0").show()
         BBOalertEvents().dispatchEvent(E_onAnyMutation);
         $(d).dialog("destroy");
     };
-    $("#adpanel0").hide()
+    $("#adpanel0").hide();
+    var ti = setInterval(function () {
+        $(".ui-dialog").show();
+    }, 100);
     $(d).dialog().css("font-size", "16px");
     $(d).dialog({
         title: title

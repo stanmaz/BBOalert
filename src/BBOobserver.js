@@ -19,6 +19,11 @@ const callback = function (mutationsList, observer) {
         if (navDivDisplayed) onNavDivDisplayed();
         else onNavDivHidden();
     }
+    if ($("bridge-screen",window.parent.document).is(":visible") != tableDisplayed) {
+        tableDisplayed = !tableDisplayed;
+        if (tableDisplayed) onTableDisplayed();
+        else onTableHidden();
+    }
     if (isVisible(getBiddingBox()) != biddingBoxDisplayed) {
         biddingBoxDisplayed = !biddingBoxDisplayed;
         if (biddingBoxDisplayed) onBiddingBoxDisplayed();
@@ -431,5 +436,14 @@ function onNewChatMessage() {
     execUserScript('%onNewChatMessage%');
 }
 
+function onTableDisplayed () {
+    BBOalertEvents().dispatchEvent(E_onTableDisplayed);
+    execUserScript('%onTableDisplayed%');
+}
 
+
+function onTableHidden () {
+    BBOalertEvents().dispatchEvent(E_onTableHidden);
+    execUserScript('%onTableHidden%');
+}
 

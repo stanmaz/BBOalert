@@ -926,6 +926,8 @@ function toggleAlertList(el, expandTree) {
 function replaceSuitSymbolsInRecord(r) {
 	var rx = r.split(",");
 	if (rx.length < 3) return r;
+	if (rx[0].trim() == "Option") return r;
+	if (rx[0].trim() == "Import") return r;
 	rx[0] = replaceSuitSymbols(rx[0], "");
 	rx[1] = replaceSuitSymbols(rx[1], "");
 	rx[2] = replaceSuitSymbols(rx[2], "!");

@@ -49,6 +49,8 @@ E_onAnnouncementDisplayed = new Event('onAnnouncementDisplayed');
 E_onNotificationDisplayed = new Event('onNotificationDisplayed');
 E_onNewChatMessage = new Event('onNewChatMessage');
 E_onDataLoad = new Event('onDataLoad');
+E_onTableDisplayed = new Event('onTableDisplayed');
+E_onTableHidden = new Event('onTableHidden');
 
 function bidArray(bids) {
     let bidarr = [];
@@ -115,6 +117,7 @@ function initGlobals() {
     /**
      * string : contains current active player direction and uid
      */
+    tableDisplayed = false;
     activePlayer = '';
     lastSelectedCall = '';
     cardLead = '';
