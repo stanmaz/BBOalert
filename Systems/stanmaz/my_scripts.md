@@ -16,3 +16,4 @@
     Script
     Script,shortBeep,beep(600,0.2);
     Script,longBeep,beep(1000,1);
+    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
