@@ -11,7 +11,7 @@ The script names used in the configuration dialog boxes are generally self-expla
 - <b>BBO event logging</b>
 - <b>Modified suit colors</b>
 - <b>Automatic prealert : the prealert shortcut is used when the opponents change</b>
-- <b>Bidding timeout : automatically send a chat message with when a bid takes too long</b>
+- <b>Bidding timeout : automatically send a chat message when a bid takes too long</b>
 - <b>Miscellaneous simple scripts</b>
     - Enable chat timestamp
     - Move table left
