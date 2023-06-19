@@ -420,21 +420,23 @@ function getSeatNr() {
  * Get actual bidding context
  */
 function getContext() {
+    var nd;
 	if ((nd = getNavDiv()) == null) return '??';
-	ctx = '';
-	bs = nd.querySelectorAll('bridge-screen');
-	if (bs.length == 0) {
+	var ctx = '';
+	var bs = nd.querySelector('bridge-screen');
+	if (bs == null) {
 		return "??";
 	}
-	auction = bs[0].querySelectorAll('.auctionBoxCellClass');
+	var auctionBox = nd.querySelector('auction-box');
+	if (auctionBox == null) {
+		return "??";
+	}	
+	var auction = auctionBox.querySelectorAll('.auction-cell');
 	if (auction.length == 0) {
-		return "??";
-	}
-	if (auction.length == 1) {
 		return "";
 	}
-	for (var i = 1; i < auction.length; i++) {
-		el = translateCall(auction[i].innerText);
+	for (var i = 0; i < auction.length; i++) {
+		el = translateCall(auction[i].textContent);
 		ctx = ctx + el;
 		//	Translate Double, Redouble and Pass from different language interfaces
 	}

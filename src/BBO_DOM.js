@@ -115,26 +115,13 @@ function undoCommand() {
 	}, 100);
 }
 
-/**
- * @ignore
- */
-function setUndo() {
-	if ((nd = getNavDiv()) == null) return;
-	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
-	if (cells == null) return;
-	if (cells.length != 4) return;
-	if (cells[0].onclick == null) cells[0].onclick = undoCommand;
-	if (cells[1].onclick == null) cells[1].onclick = undoCommand;
-	if (cells[2].onclick == null) cells[2].onclick = undoCommand;
-	if (cells[3].onclick == null) cells[3].onclick = undoCommand;
-}
 
 /**
  * retrieve my direction from the auction box 'S' 'W' 'N' 'E' or '' if not found
  */
 function mySeat() {
 	if ((nd = getNavDiv()) == null) return '';
-	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	var cells = nd.querySelectorAll('.auction-box-header-cell');
 	if (cells == null) return '';
 	if (cells.length != 4) return '';
 	return cells[3].innerText.slice(0, 1);
@@ -259,10 +246,10 @@ function addBBOalertTab() {
  */
 function areWeVulnerable() {
 	if ((nd = getNavDiv()) == null) return '';
-	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	var cells = nd.querySelectorAll('.auction-box-header-cell');
 	if (cells == null) return '';
 	if (cells.length != 4) return '';
-	if (cells[3].style.backgroundColor == "rgb(255, 255, 255)") return '@n';
+	if (!$(cells[3]).hasClass("vulnerable")) return '@n';
 	return '@v';
 }
 
@@ -271,10 +258,10 @@ function areWeVulnerable() {
  */
 function areTheyVulnerable() {
 	if ((nd = getNavDiv()) == null) return '';
-	var cells = nd.querySelectorAll('.auctionBoxHeaderCellClass');
+	var cells = nd.querySelectorAll('.auction-box-header-cell');
 	if (cells == null) return '';
 	if (cells.length != 4) return '';
-	if (cells[2].style.backgroundColor == "rgb(255, 255, 255)") return '@N';
+	if (!$(cells[2]).hasClass("vulnerable")) return '@N';
 	return '@V';
 }
 
