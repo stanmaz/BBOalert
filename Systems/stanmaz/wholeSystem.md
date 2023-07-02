@@ -1,7 +1,7 @@
     //BBOALERT, Entire system
-    ** Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
+    Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
-    Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
+    ** Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
 
     Option,▶Lang EN
     Import,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_en.md
