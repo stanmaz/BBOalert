@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 8.0.5
+Version : 8.0.7
 
 **Table Of Content**
 
