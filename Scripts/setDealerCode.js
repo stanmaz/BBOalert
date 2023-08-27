@@ -1,3 +1,4 @@
+//Script,onDataLoad
 window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
     var txtar = null;
     var delayValue = 500;
@@ -60,7 +61,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     clearInterval(intrv);
                     break;
                 case 15:
-                    // Prevent endless loop
+                    // Prevent andless loop
                     clearInterval(intrv);
                     break;
             }
@@ -68,3 +69,4 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
         }
     }, delayValue);
 };
+//Script
