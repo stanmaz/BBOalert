@@ -1,6 +1,0 @@
-bboalert
-Script,onAnyMutation,document.getElementById("bbo_ad1").style.display = "none";
-Script,onAnyMutation,document.getElementById("bbo_ad2").style.display = "none";
-Script,onAnyMutation,document.getElementById("bbo_app").style.left = "0px";
-Script,onAnyMutation,document.getElementById("bbo_app").style.width = "";
-
