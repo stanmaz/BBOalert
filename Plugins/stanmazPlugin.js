@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.1
+//BBOalert,stanmazPlugin version 3.6.2
 
-console.log("Plugin version : 3.6.1");
+console.log("Plugin version : 3.6.2");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -189,18 +189,18 @@ function BBOcontext() {
             $(".cardArea:contains('♦')", BBOcontext()).css("background-color", cfg.background_color_diamonds);
             $(".cardArea:contains('♥')", BBOcontext()).css("background-color", cfg.background_color_hearts);
             $(".cardArea:contains('♠')", BBOcontext()).css("background-color", cfg.background_color_spades);
-            $(".auctionBoxCellClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
-            $(".auctionBoxCellClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
-            $(".auctionBoxCellClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
-            $(".auctionBoxCellClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
+            $("auction-box-cell .call-strain.clubs", BBOcontext()).css("color", cfg.text_color_clubs);
+            $("auction-box-cell .call-strain.diamonds", BBOcontext()).css("color", cfg.text_color_diamonds);
+            $("auction-box-cell .call-strain.hearts", BBOcontext()).css("color", cfg.text_color_hearts);
+            $("auction-box-cell .call-strain.spades", BBOcontext()).css("color", cfg.text_color_spades);
             $(".biddingBoxClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
             $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
             $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
             $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", cfg.text_color_double);
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("color", cfg.text_color_double);
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
@@ -210,18 +210,18 @@ function BBOcontext() {
             $(".cardArea:contains('♦')", BBOcontext()).css("background-color", "");
             $(".cardArea:contains('♥')", BBOcontext()).css("background-color", "");
             $(".cardArea:contains('♠')", BBOcontext()).css("background-color", "");
-            $(".auctionBoxCellClass span:contains('♣')", BBOcontext()).css("color", "rgb(0, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♦')", BBOcontext()).css("color", "rgb(203, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♥')", BBOcontext()).css("color", "rgb(203, 0, 0)");
-            $(".auctionBoxCellClass span:contains('♠')", BBOcontext()).css("color", "rgb(0, 0, 0)");
+            $("auction-box-cell .call-strain.clubs", BBOcontext()).css("color", "rgb(0, 0, 0)");
+            $("auction-box-cell .call-strain.diamonds", BBOcontext()).css("color", "rgb(203, 0, 0)");
+            $("auction-box-cell .call-strain.hearts", BBOcontext()).css("color", "rgb(203, 0, 0)");
+            $("auction-box-cell .call-strain.spades", BBOcontext()).css("color", "rgb(0, 0, 0)");
             $(".biddingBoxClass span:contains('♣')", BBOcontext()).css("color", "");
             $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", "");
             $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", "");
             $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", "");
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("color", "");
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", "");
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", "");
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", "");
         }
     }
     // End of user script code
