@@ -189,10 +189,10 @@ function BBOcontext() {
             $(".cardArea:contains('♦')", BBOcontext()).css("background-color", cfg.background_color_diamonds);
             $(".cardArea:contains('♥')", BBOcontext()).css("background-color", cfg.background_color_hearts);
             $(".cardArea:contains('♠')", BBOcontext()).css("background-color", cfg.background_color_spades);
-            $(".auctionBoxCellClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
-            $(".auctionBoxCellClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
-            $(".auctionBoxCellClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
-            $(".auctionBoxCellClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
+            $("auction-box-cell .call-strain.clubs", BBOcontext()).css("color", cfg.text_color_clubs);
+            $("auction-box-cell .call-strain.diamonds", BBOcontext()).css("color", cfg.text_color_diamonds);
+            $("auction-box-cell .call-strain.hearts", BBOcontext()).css("color", cfg.text_color_hearts);
+            $("auction-box-cell .call-strain.spades", BBOcontext()).css("color", cfg.text_color_spades);
             $(".biddingBoxClass span:contains('♣')", BBOcontext()).css("color", cfg.text_color_clubs);
             $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
             $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
