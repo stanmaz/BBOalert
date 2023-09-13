@@ -197,10 +197,10 @@ function BBOcontext() {
             $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", cfg.text_color_diamonds);
             $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", cfg.text_color_hearts);
             $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", cfg.text_color_spades);
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", cfg.text_color_double);
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("color", cfg.text_color_double);
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
@@ -218,10 +218,10 @@ function BBOcontext() {
             $(".biddingBoxClass span:contains('♦')", BBOcontext()).css("color", "");
             $(".biddingBoxClass span:contains('♥')", BBOcontext()).css("color", "");
             $(".biddingBoxClass span:contains('♠')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Dbl')", BBOcontext()).css("background-color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("color", "");
-            $(".auctionBoxCellClass:contains('Rdbl')", BBOcontext()).css("background-color", "");
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("color", "");
+            $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", "");
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", "");
+            $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", "");
         }
     }
     // End of user script code
