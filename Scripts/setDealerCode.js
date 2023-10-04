@@ -16,11 +16,13 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     // Open dialog
                     $("menu-item div:contains('Deal source')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Source de la donne')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('Fuente de la mano')", parent.window.document).trigger("click");
                     break;
                 case 2:
                     // Select "Advanced" tab
                     $("modal-content div:contains('Advanced')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avancé')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Avanzado')", parent.window.document).trigger("click");
                     break;
                 case 3:
                     // Select "Dealer" selector
