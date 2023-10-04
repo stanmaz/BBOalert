@@ -18,6 +18,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Source de la donne')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Fuente de la mano')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Quelle für Verteilungen')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('Origine della mano')", parent.window.document).trigger("click");
                     break;
                 case 2:
                     // Select "Advanced" tab
@@ -25,6 +26,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Avancé')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avanzado')", parent.window.document).trigger("click");
                     $("modal-content div:contains('D:Fortgeschritten')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Avanzato')", parent.window.document).trigger("click");
                     break;
                 case 3:
                     // Select "Dealer" selector
