@@ -26,6 +26,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Givkälla')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Fordelingskilde')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Hånd-kilde')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('Jakolähde')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Źródło rozdań')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Definice rozdání')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Leosztások forrása')", parent.window.document).trigger("click");
@@ -43,6 +44,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Avancerad')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Viderekommen')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avansert')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Edistynyt')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Zaawansowany')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Pokročilý')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Haladó')", parent.window.document).trigger("click");
