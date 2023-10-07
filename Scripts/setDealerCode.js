@@ -30,6 +30,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Źródło rozdań')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Definice rozdání')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Leosztások forrása')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('За раздаване')", parent.window.document).trigger("click");
                     break;
                 case 2:
                     // Select "Advanced" tab
@@ -48,6 +49,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Zaawansowany')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Pokročilý')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Haladó')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Напреднал')", parent.window.document).trigger("click");
                     break;
                 case 3:
                     // Select "Dealer" selector
