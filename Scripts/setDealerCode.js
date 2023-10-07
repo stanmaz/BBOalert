@@ -21,6 +21,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Fonte da mãos')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Quelle für Verteilungen')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Origine della mano')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('Sursa donelor')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Spelbron')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Givkälla')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Fordelingskilde')", parent.window.document).trigger("click");
@@ -37,6 +38,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Avançado')", parent.window.document).trigger("click");
                     $("modal-content div:contains('D:Fortgeschritten')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avanzato')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Avansat')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Gevorderd')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avancerad')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Viderekommen')", parent.window.document).trigger("click");
