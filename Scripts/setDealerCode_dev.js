@@ -36,7 +36,9 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     // Select "Dealer" selector
                     $("modal-content mat-select", parent.window.document).click();
                     $("mat-option", parent.window.document).each(function (idx) {
-                        if (dealer.includes(dirs.charAt(idx)) this.click();
+                        if (dealer.includes(dirs.charAt(idx)) {
+                            this.click();                            
+                        }
                     });
                     break;
                 case 4:
