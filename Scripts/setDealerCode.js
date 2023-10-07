@@ -22,6 +22,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Quelle für Verteilungen')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Origine della mano')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Spelbron')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('Givkälla')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Źródło rozdań')", parent.window.document).trigger("click");
                     break;
                 case 2:
@@ -33,6 +34,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('D:Fortgeschritten')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Avanzato')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Gevorderd')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('Avancerad')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Zaawansowany')", parent.window.document).trigger("click");
                     break;
                 case 3:
