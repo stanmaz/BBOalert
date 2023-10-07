@@ -4,6 +4,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
     var delayValue = 500;
     var cnt = -1;
     var intrv;
+    var dirs = "SWNE";
     intrv = setInterval(() => {
         try {
             cnt++;
@@ -34,22 +35,26 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     // Select "Dealer" selector
                     $("modal-content mat-select", parent.window.document).click();
                     $("mat-option", parent.window.document).each(function (idx) {
-                        let s = dealer.includes(this.textContent.charAt(1));
-                        if (s != $("mat-pseudo-checkbox", this).hasClass("mat-pseudo-checkbox-checked")) {
+                        if ($("mat-pseudo-checkbox", this).hasClass("mat-pseudo-checkbox-checked")) {
+                            if (dealer.includes(dirs.charAt(idx))) return;
                             this.click();
+                        } else {
+                            if (dealer.includes(dirs.charAt(idx))) {
+                                this.click();                            
+                            }    
                         }
                     });
                     break;
                 case 4:
                     /// Check "Randomly ..." box
-                    if (($("modal-content mat-checkbox:contains('Randomly ')", parent.window.document).hasClass("mat-checkbox-checked")) != rotateDeals) {
-                        $("modal-content mat-checkbox:contains('Randomly ') .mat-checkbox-input", parent.window.document).trigger("click");
+                    if (($("modal-content mat-checkbox:first", parent.window.document).hasClass("mat-checkbox-checked")) != rotateDeals) {
+                        $("modal-content mat-checkbox:first .mat-checkbox-input", parent.window.document).trigger("click");
                     }
                     break;
                 case 5:
                     /// Check "Use this input ..." box
-                    if (!$("modal-content mat-checkbox:contains('Use ')", parent.window.document).hasClass("mat-checkbox-checked")) {
-                        $("modal-content mat-checkbox:contains('Use ') .mat-checkbox-input", parent.window.document).trigger("click");
+                    if (!$("modal-content mat-checkbox:last", parent.window.document).hasClass("mat-checkbox-checked")) {
+                        $("modal-content mat-checkbox:last .mat-checkbox-input", parent.window.document).trigger("click");
                     }
                     break;
                 case 6:
