@@ -36,8 +36,13 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     // Select "Dealer" selector
                     $("modal-content mat-select", parent.window.document).click();
                     $("mat-option", parent.window.document).each(function (idx) {
-                        if (dealer.includes(dirs.charAt(idx)) {
-                            this.click();                            
+                        if ($("mat-pseudo-checkbox", this).hasClass("mat-pseudo-checkbox-checked")) {
+                            if (dealer.includes(dirs.charAt(idx))) return;
+                            this.click();
+                        } else {
+                            if (dealer.includes(dirs.charAt(idx))) {
+                                this.click();                            
+                            }    
                         }
                     });
                     break;
