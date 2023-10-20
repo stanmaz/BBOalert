@@ -52,6 +52,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Haladó')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Напреднал')", parent.window.document).trigger("click");
                     $("modal-content div:contains('İleri düzey')", parent.window.document).trigger("click");
+                    if (dealerCode == "") clearInterval(intrv);
                     break;
                 case 3:
                     // Select "Dealer" selector
