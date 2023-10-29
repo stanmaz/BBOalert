@@ -1,4 +1,4 @@
-BBOalert
+BBOalert,BBO SAYC
 Option
 1C,1D,
 1C,1H,
