@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "8.0.5",
+	"version": "8.0.11",
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",

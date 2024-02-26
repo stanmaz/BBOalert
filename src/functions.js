@@ -928,11 +928,25 @@ function toggleAlertList(el, expandTree) {
 function replaceSuitSymbolsInRecord(r) {
 	var rx = r.split(",");
 	if (rx.length < 3) return r;
-	if (rx[0].trim() == "Option") return r;
-	if (rx[0].trim() == "Import") return r;
-	rx[0] = replaceSuitSymbols(rx[0], "");
-	rx[1] = replaceSuitSymbols(rx[1], "");
-	rx[2] = replaceSuitSymbols(rx[2], "!");
+    switch (rx[0].trim()) {
+        case "Option":
+            return r;
+        case "Import":
+            return r;
+        case "Alias":
+            return r;
+        case "Button":
+            rx[2] = replaceSuitSymbols(rx[2], "!");
+            break;
+        case "Shortcut":
+            rx[2] = replaceSuitSymbols(rx[2], "!");
+            break;
+        default:
+            rx[0] = replaceSuitSymbols(rx[0], "");
+            rx[1] = replaceSuitSymbols(rx[1], "");
+            rx[2] = replaceSuitSymbols(rx[2], "!");
+            break;
+    }
 	return rx.join(",");
 }
 

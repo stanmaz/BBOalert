@@ -41,7 +41,7 @@ class BBOalertData {
         var newText = t;
         var i = 0;
         while (oldText != newText) {
-            if (i++ > 10) return newText;
+            if (i++ > 100) return newText;
             oldText = newText;
             newText = this.replaceAlias(oldText, field);
         }

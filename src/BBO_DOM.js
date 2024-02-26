@@ -164,14 +164,8 @@ function keyboardEntrySet() {
  * returns 'Y' 'N' or '' if not found
  */
 function accountSettingsSet(idx) {
-	var rd = parent.document.getElementById('rightDiv');
-	if (rd == null) return '';
-	var sc = rd.querySelectorAll('.settingClass');
-	if (sc.length < 6) {
-		if (sc.length == 0) return '';
-	}
 	try {
-		if (parent.document.querySelectorAll('.settingClass')[idx].querySelector('ion-toggle').getAttribute("aria-checked") == "true") return 'Y';
+		if (parent.window.document.querySelectorAll('account-screen ion-toggle')[idx].getAttribute("aria-checked") == "true") return 'Y';
 		else return 'N';	
 	} catch {
 		return '';

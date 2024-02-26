@@ -838,12 +838,15 @@ function findAlert(context, call) {
 	}
 	// case of regex group of bids and multiple explanations
 	if (foundCall.startsWith("("))
-	if (foundCall.endsWith(")")) {
-		let callList = foundCall.replaceAll("(", "").replaceAll(")", "").split("|");
-		let expList = foundRecord.split(",");
-		let idx = callList.indexOf(call);
-		if ((idx != -1) && (idx <= expList.length-2)) alertText = expList[idx+2];
-	}
+		if (foundCall.endsWith(")")) {
+			let callList = foundCall.replaceAll("(", "").replaceAll(")", "").split("|");
+			let expList = foundRecord.split(",").slice(2);
+			let idx = callList.indexOf(call);
+			if (idx != -1) {
+				if (idx < expList.length - 1) alertText = expList[idx]
+				else alertText = expList[expList.length - 1];
+			}
+		}
 	alertText = normalize(alertText);
 	// Confirm bid id match not found
 	if (!matchFound) trusteBid = false;
