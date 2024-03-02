@@ -117,7 +117,7 @@ delayedAlert = function (txt, delay = 0) {
     }, delay)
 }
 
-getCard = function (index) {
+window.getCard = function (index) {
 	var card = parent.$(".cardClass:visible").filter(function () {
 		return ($(this).css('z-index') == index);
 	}).text();
