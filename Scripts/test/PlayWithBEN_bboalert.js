@@ -4,15 +4,18 @@ console.log(getNow(true) + " onNewDeal");
 //Script,onMyCardsDisplayed
 console.log(getNow(true) + " onMyCardsDisplayed " + myCardsDisplayed);
 //Script,onNewAuction
-console.log(getNow(true) + " onNewAuction " + currentAuction + " next " + whosTurn() + " " + isMyTurn());
+console.log(getNow(true) + " onNewAuction " + currentAuction + " turn " + whosTurn() + " " + isMyTurn());
 var ctx = getContext();
 if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
     dummyDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+1);
     declarerDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+3);
     execUserScript('%onBeforePlayingCard%');
+} else {
+    if (isMyTurn()) execUserScript('%onMyTurnToBid%');
 }
 //Script,onAuctionBegin
-console.log(getNow(true) + " onAuctionBegin" + " " + isMyTurn());
+console.log(getNow(true) + " onAuctionBegin" + " myTurn " + isMyTurn());
+if (isMyTurn()) execUserScript('%onMyTurnToBid%');
 dummyDirection = "";
 declarerDirection = "";
 //Script,onAuctionEnd
@@ -26,7 +29,7 @@ console.log(getNow(true) + " onMyLead");
 //Script,onDealEnd
 console.log(getNow(true) + " onDealEnd");
 //Script,onNewPlayedCard
-console.log(getNow(true) + " onNewPlayedCard " + getPlayedCards() + whosTurn());
+console.log(getNow(true) + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
 if (whosTurn() != "") {
     execUserScript('%onBeforePlayingCard%');
 }
@@ -37,6 +40,13 @@ if (whosTurn() == directionLHO()) who = "lho";
 if (whosTurn() == partnerDirection()) who = "partner";
 if (whosTurn() == directionRHO()) who = "rho";
 console.log(getNow(true) + " onBeforePlayingCard " + whosTurn() + " " + who);
+if (isMyTurn()) execUserScript('%onMyTurnToPlay%');
+//Script,onNewActivePlayer
+console.log(getNow(true) + " onNewActivePlayer " + activePlayer);
+//Script,onMyTurnToBid
+console.log(getNow(true) + " onMyTurnToBid");
+//Script,onMyTurnToPlay
+console.log(getNow(true) + " onMyTurnToPlay");
 //Script
 
 //BBOalert,myFunctions
@@ -101,4 +111,21 @@ whosTurn = function () {
     }).find(".directionClass").text();
 }
 
+delayedAlert = function (txt, delay = 0) {
+    setTimeout(function() {
+        alert(txt);
+    }, delay)
+}
+
+getCard = function (index) {
+	var card = parent.$(".cardClass:visible").filter(function () {
+		return ($(this).css('z-index') == index);
+	}).text();
+	if (card.length == 6) {
+		card = "T" + card.slice(-1);
+	} else card = card.slice(0, 2);
+	return card;
+}
+
 //Script
+
