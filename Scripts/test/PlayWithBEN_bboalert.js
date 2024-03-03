@@ -1,4 +1,4 @@
-//BBOalert, log 2024-02-28, Play with BEN
+//BBOalert, stanmaz new events 20240303
 //Script,onNewDeal
 console.log(getNow(true) + " onNewDeal");
 //Script,onMyCardsDisplayed
@@ -102,7 +102,10 @@ function getCard(index) {
 }
 
 isMyTurn = function () {
-    return ($("bridge-screen" ,parent.window.document).find(".nameBarClass:visible").first().css("background-color") == 'rgb(255, 206, 0)')
+    if ($("bridge-screen" ,parent.window.document).find(".nameBarClass:visible").first().css("background-color") == 'rgb(255, 206, 0)') {
+        return (activePlayer.substring(1) == whoAmI());
+    }
+    return false;
 }
 
 whosTurn = function () {
