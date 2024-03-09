@@ -1,4 +1,5 @@
-//BBOalert, stanmaz new events 20240303
+//BBOalert, stanmaz new events 
+//BBOalert, version 20240309
 //Script,onNewDeal
 console.log(getNow(true) + " onNewDeal");
 //Script,onMyCardsDisplayed
@@ -41,6 +42,7 @@ if (whosTurn() == partnerDirection()) who = "partner";
 if (whosTurn() == directionRHO()) who = "rho";
 console.log(getNow(true) + " onBeforePlayingCard " + whosTurn() + " " + who);
 if (isMyTurn()) execUserScript('%onMyTurnToPlay%');
+if ((who == "partner" && partnerDirection() == dummyDirection) || (isMyTurn())) execUserScript('%onMyTurnToPlay%');
 //Script,onNewActivePlayer
 console.log(getNow(true) + " onNewActivePlayer " + activePlayer);
 //Script,onMyTurnToBid
@@ -103,7 +105,7 @@ function getCard(index) {
 
 isMyTurn = function () {
     if ($("bridge-screen" ,parent.window.document).find(".nameBarClass:visible").first().css("background-color") == 'rgb(255, 206, 0)') {
-        return (activePlayer.substring(1) == whoAmI());
+        return (activePlayer.substring(1).toLowerCase() == whoAmI().toLowerCase());
     }
     return false;
 }
@@ -119,6 +121,7 @@ delayedAlert = function (txt, delay = 0) {
         alert(txt);
     }, delay)
 }
+
 
 window.getCard = function (index) {
 	var card = parent.$(".cardClass:visible").filter(function () {
