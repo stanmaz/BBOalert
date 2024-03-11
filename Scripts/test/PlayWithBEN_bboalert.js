@@ -1,36 +1,29 @@
 //BBOalert, stanmaz new events 
 //BBOalert, version 20240309
 //Script,onNewDeal
-console.log(getNow(true) + " onNewDeal");
+console.log(Date.now() + " onNewDeal");
 //Script,onMyCardsDisplayed
-console.log(getNow(true) + " onMyCardsDisplayed " + myCardsDisplayed);
+console.log(Date.now() + " onMyCardsDisplayed " + myCardsDisplayed);
 //Script,onNewAuction
-console.log(getNow(true) + " onNewAuction " + currentAuction + " turn " + whosTurn() + " " + isMyTurn());
-var ctx = getContext();
-if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
-    dummyDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+1);
-    declarerDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+3);
-    execUserScript('%onBeforePlayingCard%');
-} else {
-    if (isMyTurn()) execUserScript('%onMyTurnToBid%');
-}
+console.log(Date.now() + " onNewAuction " + currentAuction + " turn " + whosTurn() + " " + isMyTurn());
+
 //Script,onAuctionBegin
-console.log(getNow(true) + " onAuctionBegin" + " myTurn " + isMyTurn());
+console.log(Date.now() + " onAuctionBegin" + " myTurn " + isMyTurn());
 if (isMyTurn()) execUserScript('%onMyTurnToBid%');
 dummyDirection = "";
 declarerDirection = "";
 //Script,onAuctionEnd
-console.log(getNow(true) + " onAuctionEnd");
+console.log(Date.now() + " onAuctionEnd");
 //Script,onBiddingBoxDisplayed
-console.log(getNow(true) + " onBiddingBoxDisplayed");
+console.log(Date.now() + " onBiddingBoxDisplayed");
 //Script,onAuctionBoxDisplayed
-console.log(getNow(true) + " onAuctionBoxDisplayed");
+console.log(Date.now() + " onAuctionBoxDisplayed");
 //Script,onMyLead
-console.log(getNow(true) + " onMyLead");
+console.log(Date.now() + " onMyLead");
 //Script,onDealEnd
-console.log(getNow(true) + " onDealEnd");
+console.log(Date.now() + " onDealEnd");
 //Script,onNewPlayedCard
-console.log(getNow(true) + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
+console.log(Date.now() + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
 if (whosTurn() != "") {
     execUserScript('%onBeforePlayingCard%');
 }
@@ -40,15 +33,24 @@ if (whosTurn() == myDirection()) who = "me";
 if (whosTurn() == directionLHO()) who = "lho";
 if (whosTurn() == partnerDirection()) who = "partner";
 if (whosTurn() == directionRHO()) who = "rho";
-console.log(getNow(true) + " onBeforePlayingCard " + whosTurn() + " " + who);
-if (isMyTurn()) execUserScript('%onMyTurnToPlay%');
+console.log(Date.now() + " onBeforePlayingCard " + whosTurn() + " " + who);
 if ((who == "partner" && partnerDirection() == dummyDirection) || (isMyTurn())) execUserScript('%onMyTurnToPlay%');
 //Script,onNewActivePlayer
-console.log(getNow(true) + " onNewActivePlayer " + activePlayer);
+console.log(Date.now() + " onNewActivePlayer " + activePlayer);
+if (auctionBoxDisplayed) {
+    let ctx = getContext();
+    if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
+        dummyDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+1);
+        declarerDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+3);
+        execUserScript('%onBeforePlayingCard%');
+    } else {
+        if (isMyTurn()) execUserScript('%onMyTurnToBid%');
+    }
+}
 //Script,onMyTurnToBid
-console.log(getNow(true) + " onMyTurnToBid");
+console.log(Date.now() + " onMyTurnToBid context: "+ getContext());
 //Script,onMyTurnToPlay
-console.log(getNow(true) + " onMyTurnToPlay");
+console.log(Date.now() + " onMyTurnToPlay Cards played: " + getPlayedCards());
 //Script
 
 //BBOalert,myFunctions
