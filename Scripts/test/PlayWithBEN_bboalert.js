@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240311
+//BBOalert, version 20240312
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal");
 //Script,onMyCardsDisplayed
@@ -40,15 +40,15 @@ console.log(Date.now() + " onNewActivePlayer " + activePlayer);
 if (auctionBoxDisplayed) {
     let ctx = getContext();
     if ((ctx.length >= 8) && (ctx.endsWith('------'))) {
-        dummyDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+1);
-        declarerDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn())+3);
+        dummyDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn()) + 1);
+        declarerDirection = "NESWNESW".charAt("NESW".indexOf(whosTurn()) + 3);
         execUserScript('%onBeforePlayingCard%');
     } else {
         if (isMyTurn()) execUserScript('%onMyTurnToBid%');
     }
 }
 //Script,onMyTurnToBid
-console.log(Date.now() + " onMyTurnToBid context: "+ getContext());
+console.log(Date.now() + " onMyTurnToBid context: " + getContext());
 //Script,onMyTurnToPlay
 console.log(Date.now() + " onMyTurnToPlay Cards played: " + getPlayedCards());
 //Script
@@ -58,8 +58,8 @@ console.log(Date.now() + " onMyTurnToPlay Cards played: " + getPlayedCards());
 dummyDirection = "";
 declarerDirection = "";
 getCardByValue = function (cv) {
-    var card =  $("bridge-screen" ,parent.window.document).find(".topLeft:visible").filter(function () {
-        if (replaceSuitSymbols(this.textContent,"") == cv) return this;
+    var card = $("bridge-screen", parent.window.document).find(".topLeft:visible").filter(function () {
+        if (replaceSuitSymbols(this.textContent, "") == cv) return this;
     });
     if (card.length != 0) return card[0];
     return null;
@@ -75,7 +75,7 @@ playCardByValue = function (cv) {
 
 getDummyCards = function () {
     playedCards = [];
-    var cards =  $("bridge-screen" ,parent.window.document).find(".cardClass:visible").each(function () {
+    var cards = $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith("3")) {
             var c = $(this).find(".topLeft").text();
             playedCards.push(replaceSuitSymbols(c, ""));
@@ -86,7 +86,7 @@ getDummyCards = function () {
 
 getMyCards = function () {
     playedCards = [];
-    var cards =  $("bridge-screen" ,parent.window.document).find(".cardClass:visible").each(function () {
+    var cards = $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith("1")) {
             var c = $(this).find(".topLeft").text();
             playedCards.push(replaceSuitSymbols(c, ""));
@@ -96,43 +96,59 @@ getMyCards = function () {
 }
 
 function getCard(index) {
-	var card = parent.$(".cardClass:visible").filter(function () {
-		return $(this).css('z-index') == index;
-	}).text();
-	if (card.length == 6) {
-		card = "T" + card.slice(-1);
-	} else card = card.slice(0, 2);
-	return card;
+    var card = parent.$(".cardClass:visible").filter(function () {
+        return $(this).css('z-index') == index;
+    }).text();
+    if (card.length == 6) {
+        card = "T" + card.slice(-1);
+    } else card = card.slice(0, 2);
+    return card;
 }
 
 isMyTurn = function () {
-    if ($("bridge-screen" ,parent.window.document).find(".nameBarClass:visible").first().css("background-color") == 'rgb(255, 206, 0)') {
+    if ($("bridge-screen", parent.window.document).find(".nameBarClass:visible").first().css("background-color") == 'rgb(255, 206, 0)') {
         return (activePlayer.substring(1).toLowerCase() == whoAmI().toLowerCase());
     }
     return false;
 }
 
 whosTurn = function () {
-    return $("bridge-screen,parent",parent.window.document).find(".nameBarClass:visible").filter(function() {
+    return $("bridge-screen,parent", parent.window.document).find(".nameBarClass:visible").filter(function () {
         if (this.style.backgroundColor == 'rgb(255, 206, 0)') return this;
     }).find(".directionClass").text();
 }
 
 delayedAlert = function (txt, delay = 0) {
-    setTimeout(function() {
+    setTimeout(function () {
         alert(txt);
     }, delay)
 }
 
 
 window.getCard = function (index) {
-	var card = parent.$(".cardClass:visible").filter(function () {
-		return ($(this).css('z-index') == index);
-	}).text();
-	if (card.length == 6) {
-		card = "T" + card.slice(-1);
-	} else card = card.slice(0, 2);
-	return card;
+    var card = parent.$(".cardClass:visible").filter(function () {
+        return ($(this).css('z-index') == index);
+    }).text();
+    if (card.length == 6) {
+        card = "T" + card.slice(-1);
+    } else card = card.slice(0, 2);
+    return card;
+}
+
+selectBid = function (bid, alert = false) {
+    let bbb = parent.$("bidding-box button");
+    if (bbb.length != 17) return;
+    if (alert != (bbb[15].style.backgroundColor == 'rgb(255, 255, 255)')) bbb[15].click();
+    switch (bid) {
+        case "--": bbb[12].click(); break;
+        case "Db": bbb[13].click(); break;
+        case "Rd": bbb[14].click(); break;
+        default:
+            $(bbb).each(function (idx) {
+                if (idx < 12)
+                if (bid.indexOf(replaceSuitSymbols(this.textContent.substring(1), "")) != -1) this.click();
+            });
+    }
 }
 
 //Script
