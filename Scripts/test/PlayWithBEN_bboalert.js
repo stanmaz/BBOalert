@@ -1,14 +1,18 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240314
+//BBOalert, version 20240314.1
+//Script,onAnyMutation
+//console.log(Date.now() + " onAnyMutation");
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal");
 //Script,onMyCardsDisplayed
 console.log(Date.now() + " onMyCardsDisplayed " + myCardsDisplayed);
 //Script,onNewAuction
-console.log(Date.now() + " onNewAuction " + currentAuction + " turn " + whosTurn() + " " + isMyTurn());
-if (!((currentAuction.length >= 8) && (currentAuction.endsWith('------')))) {
-    if (isMyTurn()) execUserScript('%onMyTurnToBid%');
-}
+setTimeout(function () {
+    console.log(Date.now() + " onNewAuction " + currentAuction + " turn " + whosTurn() + " " + isMyTurn());
+    if (!((currentAuction.length >= 8) && (currentAuction.endsWith('------')))) {
+        if (isMyTurn()) execUserScript('%onMyTurnToBid%');
+    }
+}, 50);
 //Script,onAuctionBegin
 console.log(Date.now() + " onAuctionBegin" + " myTurn " + isMyTurn());
 if (isMyTurn()) execUserScript('%onMyTurnToBid%');
