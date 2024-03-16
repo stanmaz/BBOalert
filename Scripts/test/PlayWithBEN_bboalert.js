@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240315
+//BBOalert, version 20240316
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -238,5 +238,8 @@ window.onNewActivePlayer = function () {
     }
 }
 
+window.mySeat = function() {
+    return $(".auction-header",getNavDiv()).text().slice(-2,-1);
+}
 //Script
 
