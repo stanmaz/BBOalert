@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240316
+//BBOalert, version 20240316.1
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -68,25 +68,25 @@ playCardByValue = function (cv) {
 }
 
 getDummyCards = function () {
-    playedCards = [];
-    var cards = $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
+    let cards = [];
+    $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith("3")) {
             var c = $(this).find(".topLeft").text();
-            playedCards.push(replaceSuitSymbols(c, ""));
+            cards.push(replaceSuitSymbols(c, ""));
         }
     });
-    return playedCards;
+    return cards;
 }
 
 getMyCards = function () {
-    playedCards = [];
-    var cards = $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
+    let cards = [];
+    $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith("1")) {
             var c = $(this).find(".topLeft").text();
-            playedCards.push(replaceSuitSymbols(c, ""));
+            cards.push(replaceSuitSymbols(c, ""));
         }
     });
-    return playedCards;
+    return cards;
 }
 
 function getCard(index) {
