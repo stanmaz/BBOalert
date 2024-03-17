@@ -33,8 +33,8 @@ console.log(Date.now() + " onMyLead");
 //Script,onDealEnd
 console.log(Date.now() + " onDealEnd");
 //Script,onNewPlayedCard
+console.log(Date.now() + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
 if (whosTurn() != "") {
-    console.log(Date.now() + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
     execUserScript('%onBeforePlayingCard%');
 }
 //Script,onBeforePlayingCard
