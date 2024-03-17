@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317
+//BBOalert, version 20240317.1
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -24,6 +24,7 @@ console.log(Date.now() + " onAuctionBegin");
 //Script,onAuctionEnd
 console.log(Date.now() + " onAuctionEnd");
 execUserScript('%onBeforePlayingCard%');
+if (isMyTurnToPlay()) execUserScript('%onMyTurnToPlay%');
 //Script,onBiddingBoxDisplayed
 console.log(Date.now() + " onBiddingBoxDisplayed");
 //Script,onAuctionBoxDisplayed
@@ -36,10 +37,10 @@ console.log(Date.now() + " onDealEnd");
 console.log(Date.now() + " onNewPlayedCard " + getPlayedCards() + " turn " + whosTurn());
 if (whosTurn() != "") {
     execUserScript('%onBeforePlayingCard%');
+    if (isMyTurnToPlay()) execUserScript('%onMyTurnToPlay%');
 }
 //Script,onBeforePlayingCard
 console.log(Date.now() + " onBeforePlayingCard " + whosTurn());
-if (isMyTurnToPlay()) execUserScript('%onMyTurnToPlay%');
 //Script,onNewActivePlayer
 console.log(Date.now() + " onNewActivePlayer " + activePlayer);
 //Script,onMyTurnToBid
