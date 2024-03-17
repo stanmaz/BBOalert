@@ -54,7 +54,8 @@ console.log(Date.now() + " onMyTurnToPlay Cards played: " + getPlayedCards());
 //BBOalert,myFunctions
 //Script,onDataLoad
 currentContext = "??";
-getCardByValue = function (cv) {
+getCardByValue = function (cval) {
+    let cv =  cval.replace("T", "10");
     var card = $("bridge-screen", parent.window.document).find(".topLeft:visible").filter(function () {
         if (replaceSuitSymbols(this.textContent, "") == cv) return this;
     });
@@ -84,7 +85,6 @@ getCardsByDirection = function (direction) {
         if (this.style.zIndex.startsWith(zidx)) {
             let c = $(this).find(".topLeft").text();
             c = replaceSuitSymbols(c, "").replace("10", "T");
-            c = (c + c).slice(1,3);
             cards.push(c);
         }
     });
