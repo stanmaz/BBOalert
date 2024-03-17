@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317.4
+//BBOalert, version 20240317.5
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -83,7 +83,8 @@ getCardsByDirection = function (direction) {
     $("bridge-screen .cardSurfaceClass", getNavDiv()).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith(zidx)) {
             let c = $(this).find(".topLeft").text();
-            c = replaceSuitSymbols(c, "");
+            c = replaceSuitSymbols(c, "").replace("10", "T");
+            c = (c + c).slice(1,3);
             cards.push(c);
         }
     });
