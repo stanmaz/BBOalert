@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317.1
+//BBOalert, version 20240317.2
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -103,6 +103,10 @@ getMyCards = function () {
 
 getDummyCards = function () {
     return getCardsByDirection(getDummyDirection());
+}
+
+getDeclarerCards = function () {
+    return getCardsByDirection(getDeclarerDirection());
 }
 
 isMyTurnToBid = function () {
