@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317.3
+//BBOalert, version 20240317.4
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -80,10 +80,11 @@ getCardsByDirection = function (direction) {
         case "E" : zidx = "4"; break;
         default : return cards;
     }
-    $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
+    $("bridge-screen .cardSurfaceClass", getNavDiv()).find(".cardClass:visible").each(function () {
         if (this.style.zIndex.startsWith(zidx)) {
-            var c = $(this).find(".topLeft").text();
-            cards.push(replaceSuitSymbols(c, ""));
+            let c = $(this).find(".topLeft").text();
+            c = replaceSuitSymbols(c, "");
+            cards.push(c);
         }
     });
     return cards;
