@@ -1,10 +1,12 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317.2
+//BBOalert, version 20240317.3
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
 //Script,onMyCardsDisplayed
 console.log(Date.now() + " onMyCardsDisplayed " + myCardsDisplayed);
+currentAuction = '';
+execUserScript('%onNewContext%');
 //Script,onNewAuction
 console.log(Date.now() + " onNewAuction");
 //Script,onNewContext
@@ -120,7 +122,7 @@ isMyTurnToPlay = function () {
 }
 
 isMyTurn = function () {
-    return isMyTurnToBid();
+    return (isMyTurnToBid()||isMyTurnToPlay());
 }
 
 whosTurn = function () {
