@@ -1,5 +1,5 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240316.1
+//BBOalert, version 20240317
 //Script,onAnyMutation
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
@@ -67,21 +67,18 @@ playCardByValue = function (cv) {
     }
 }
 
-getDummyCards = function () {
+getCardsByDirection = function (direction) {
     let cards = [];
+    let zidx = "";
+    switch (direction) {
+        case "S" : zidx = "1"; break;
+        case "W" : zidx = "2"; break;
+        case "N" : zidx = "3"; break;
+        case "E" : zidx = "4"; break;
+        default : return cards;
+    }
     $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
-        if (this.style.zIndex.startsWith("3")) {
-            var c = $(this).find(".topLeft").text();
-            cards.push(replaceSuitSymbols(c, ""));
-        }
-    });
-    return cards;
-}
-
-getMyCards = function () {
-    let cards = [];
-    $("bridge-screen", parent.window.document).find(".cardClass:visible").each(function () {
-        if (this.style.zIndex.startsWith("1")) {
+        if (this.style.zIndex.startsWith(zidx)) {
             var c = $(this).find(".topLeft").text();
             cards.push(replaceSuitSymbols(c, ""));
         }
@@ -97,6 +94,14 @@ function getCard(index) {
         card = "T" + card.slice(-1);
     } else card = card.slice(0, 2);
     return card;
+}
+
+getMyCards = function () {
+    return getCardsByDirection(mySeat());
+}
+
+getDummyCards = function () {
+    return getCardsByDirection(getDummyDirection());
 }
 
 isMyTurnToBid = function () {
@@ -124,8 +129,6 @@ delayedAlert = function (txt, delay = 0) {
         alert(txt);
     }, delay)
 }
-
-
 
 selectBid = function (bid, alert = false) {
     let bbb = parent.$("bidding-box button");
