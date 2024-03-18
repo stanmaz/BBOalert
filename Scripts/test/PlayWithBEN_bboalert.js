@@ -1,6 +1,10 @@
 //BBOalert, stanmaz new events 
-//BBOalert, version 20240317.5
+//BBOalert, version 20240318
 //Script,onAnyMutation
+if ((dummyCardsDisplayed != getDummyCards().toString()) && (getDummyCards().join("").length == 26)) {
+    dummyCardsDisplayed = getDummyCards().toString();
+    onDummyCardsDisplayed();
+}
 //Script,onNewDeal
 console.log(Date.now() + " onNewDeal " + getDealNumber());
 //Script,onMyCardsDisplayed
@@ -54,6 +58,7 @@ console.log(Date.now() + " onMyTurnToPlay Cards played: " + getPlayedCards());
 //BBOalert,myFunctions
 //Script,onDataLoad
 currentContext = "??";
+dummyCardsDisplayed = "";
 getCardByValue = function (cval) {
     let cv =  cval.replace("T", "10");
     var card = $("bridge-screen", parent.window.document).find(".topLeft:visible").filter(function () {
@@ -85,7 +90,7 @@ getCardsByDirection = function (direction) {
         if (this.style.zIndex.startsWith(zidx)) {
             let c = $(this).find(".topLeft").text();
             c = replaceSuitSymbols(c, "").replace("10", "T");
-            cards.push(c);
+            if (c.length == 2) cards.push(c);
         }
     });
     return cards;
@@ -252,6 +257,11 @@ window.onNewActivePlayer = function () {
 
 window.mySeat = function() {
     return $(".auction-header",getNavDiv()).text().slice(-2,-1);
+}
+
+window.onDummyCardsDisplayed = function () {
+//    BBOalertEvents().dispatchEvent(E_onMyCardsDisplayed);
+    execUserScript('%onDummyCardsDisplayed%');
 }
 //Script
 
