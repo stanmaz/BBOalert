@@ -1,4 +1,4 @@
-//BBOalert,Replace BBOalert tab by a button Version 1.0
+//BBOalert,Replace BBOalert tab by a button 1.0
 //Script,onDataLoad
 $("#bboalert-button",parent.window.document).remove();
 $('.connectionClass',parent.window.document).parent().append(`<div id="bboalert-button" style="height: 46px; width: 46px;">
