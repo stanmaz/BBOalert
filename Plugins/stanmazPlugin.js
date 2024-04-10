@@ -630,7 +630,7 @@ function BBOcontext() {
             }
             if (i != -1) return;
             i = 2;
-            var optionsSelector = BBOcontext().getElementById('bboalert-ds');
+            var optionsSelector = document.getElementById('bboalert-ds');
             if (optionsSelector.selectedIndex == i) return;
             optionsSelector.selectedIndex = i;
             optionsSelectorChanged();
