@@ -67,19 +67,16 @@ BBOalert,Precision
     1C--,2D,12+ pts; 5+!D
     1C--,2H,12+ pts; 5+!H
     1C--,2S,12+ pts; 4441 shape with unspecified singleton
-    ----1C--,1H,8-10 pts; 5+!H; game forcing
-    ----1C--,1S,8-10 pts; 5+!S; game forcing
-    ----1C--,1N,8-10 pts; balanced; game forcing
-    ----1C--,2C,8-10 pts; 5+!C; game forcing
-    ----1C--,2D,8-10 pts; 5+!D; game forcing
-    ----1C--,2S,8-10 pts; 4441 shape with unspecified singleton; game forcing
-    ------1C--,1H,8-10 pts; 5+!H; game forcing
-    ------1C--,1S,8-10 pts; 5+!S; game forcing
-    ------1C--,1N,8-10 pts; balanced; game forcing
-    ------1C--,2C,8-10 pts; 5+!C; game forcing
-    ------1C--,2D,8-10 pts; 5+!D; game forcing
-    ------1C--,2S,8-10 pts; 4441 shape with unspecified singleton; game forcing
-
+    
+    Option,Seat_@3@4
+    1C--,1H,8-10 pts; 5+!H; game forcing
+    1C--,1S,8-10 pts; 5+!S; game forcing
+    1C--,1N,8-10 pts; balanced; game forcing
+    1C--,2C,8-10 pts; 5+!C; game forcing
+    1C--,2D,8-10 pts; 5+!D; game forcing
+    1C--,2S,8-10 pts; 4441 shape with unspecified singleton; game forcing
+    
+    Option,Precision
     1C--1D--,1H,4+!H forcing one round
     1C--1D--,1S,4+!S forcing one round
     1C--1D--,1N,17-19 pts; balanced
