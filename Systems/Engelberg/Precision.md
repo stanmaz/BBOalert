@@ -1,4 +1,6 @@
 BBOalert,Precision
+BBOalert,Version 1
+
 # Precision based on the book Standard Modern Precision
     Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
     Shortcut,prehi,Hi! Precision: 1C 16+; 1D may be short; 1NT 14-16 balanced; standard signals\n
