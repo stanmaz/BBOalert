@@ -924,3 +924,6 @@ BBOalert,Version 1
     1D--1H1S,Db,3+!H
     1D--1HDb,Rd,3+!H
     1D--1SDb,Rd,3+!S
+
+Option,Recorded OFF
+Option,Recorded ON
