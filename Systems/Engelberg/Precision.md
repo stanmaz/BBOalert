@@ -359,8 +359,12 @@ BBOalert,Version 1
     1D--,2C,4+!C; 11+ pts; no 4-card major unless 6-4+; forcing
     1DDb,2[CD],to play
     1DDb,2N,invitational diamond raise
-    ----1D--,2C,5+!C; 9-10 pts; denies 4-card major
-    ----1D--,2D,5+!D; 9-10 pts; denies 4-card major
+
+    Option,Seat_@3
+    1D--,2C,5+!C; 9-10 pts; denies 4-card major
+    1D--,2D,5+!D; 9-10 pts; denies 4-card major
+
+    Option,Precision
     1D--,2D,4+!D; 11+ pts; no 4-card major unless 6-4+; forcing
     1D--,2H,5!S 4-5!H; less than invitational
     1D--,2S,5!S 4-5!H; invitational
@@ -476,12 +480,17 @@ BBOalert,Version 1
 ##  2-over-1 for 1M openings
 
     1[HS]--,1N,forcing
-    ----1[HS]--,1N,not forcing
-    ------1[HS]--,1N,not forcing
+
+    Option,Seat_@3@4
+    1[HS]--,1N,not forcing
+    
+    Option,Precision
     1[HS]--,2C,game force; 4+!C
     1[HS]--,2D,game force; 4+!D
     1S--,2H,game force; 5+!H
-    ----1[HS]--,2C,3-card invitational support
+
+    Option,Seat_@3
+    1[HS]--,2C,3-card invitational support
 
 
 ## 2C Opening
@@ -863,20 +872,20 @@ BBOalert,Version 1
     1D----,2N,5+!C 5+!H; 7-11 or 15-18 pts
     1[HS]----,2N,5+!C 5+!D; 7-11 or 15-18 pts
 
-    ------1C,1N,5+!D 5+!H
-    ------1D,1N,5+!C 5+!H
-    ------1[HS],1N,5+!C 5+!D
-    ------1C----,1N,5+!D 5+!H
-    ------1D----,1N,5+!C 5+!H
-    ------1[HS]----,1N,5+!C 5+!D
+    Option,Seat_@4
+    1C,1N,5+!D 5+!H
+    1D,1N,5+!C 5+!H
+    1[HS],1N,5+!C 5+!D
+    1C----,1N,5+!D 5+!H
+    1D----,1N,5+!C 5+!H
+    1[HS]----,1N,5+!C 5+!D
 
-    --1C----,1N,5+!D 5+!H
-    --1D----,1N,5+!C 5+!H
-    --1[HS]----,1N,5+!C 5+!D
-    ----1C----,1N,5+!D 5+!H
-    ----1D----,1N,5+!C 5+!H
-    ----1[HS]----,1N,5+!C 5+!D
+    Option,Seat_@2@3
+    1C----,1N,5+!D 5+!H
+    1D----,1N,5+!C 5+!H
+    1[HS]----,1N,5+!C 5+!D
 
+    Option,Precision
     3C,4C,5+!H 5+!S
     3D,4D,5+!H 5+!S
     3H,4H,5+!S and a minor
