@@ -1,5 +1,5 @@
 BBOalert,Precision
-BBOalert,Version 4
+BBOalert,Version 5
 
 # Precision based on the book Standard Modern Precision
 <!---
@@ -25,8 +25,8 @@ BBOalert,Version 4
 |-|-|
 |1♣️|Artificial 16+ pts|
 |1♦️|11-15 pts; 2+!D; denies 5-card major|
-|1H|11-15 pts; 5+!H|
-|1S|11-15 pts; 5+!S|
+|1♥️|11-15 pts; 5+!H|
+|1♠️|11-15 pts; 5+!S|
 |1N|14-16 pts; balanced|
 |2C|Artificial: 11-15 pts; 6+!C|
 |2D|Artificial: 11-15 pts; three-suited with short diamonds|
