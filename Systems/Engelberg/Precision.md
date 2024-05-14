@@ -1,8 +1,13 @@
 BBOalert,Precision
-BBOalert,Version 1
+BBOalert,Version 2
 
 # Precision based on the book Standard Modern Precision
+<!---
     Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
+    Alias,|,&comma;,@G
+    Alias,||Untrusted|,Untrusted,@G
+--->
+
     Shortcut,prehi,Hi! Precision: 1C 16+; 1D may be short; 1NT 14-16 balanced; standard signals\n
 
     Trusted
@@ -10,26 +15,26 @@ BBOalert,Version 1
 ## Openings
 
     Option,Precision,enigmisto+bhohe,enigmisto+billhohe
-    ,1C,Artificial 16+ pts
-    ,1D,11-15 pts; 2+!D; denies 5-card major
-    ,1H,11-15 pts; 5+!H
-    ,1S,11-15 pts; 5+!S
-    ,1N,14-16 pts; balanced
-    ,2C,Artificial: 11-15 pts; 6+!C
-    ,2D,Artificial: 11-15 pts; three-suited with short diamonds
-    ,2H,weak preempt; 5-6!H
-    ,2S,weak preempt; 5-6!S
-    ,2N,20-21 pts; balanced
-
-    Untrusted
-
-    ,3C,weak preempt; 7!C
-    ,3D,weak preempt; 7!D
-    ,3H,weak preempt; 7!H
-    ,3S,weak preempt; 7!S
-    ,3N,solid 7+ card minor suit
-    ,4C,8+ !H with strong hand
-    ,4D,8+ !S with strong hand
+|Opening|Explanation|
+|-|-|
+|1C|Artificial 16+ pts|
+|1D|11-15 pts; 2+!D; denies 5-card major|
+|1H|11-15 pts; 5+!H|
+|1S|11-15 pts; 5+!S|
+|1N|14-16 pts; balanced|
+|2C|Artificial: 11-15 pts; 6+!C|
+|2D|Artificial: 11-15 pts; three-suited with short diamonds|
+|2H|weak preempt; 5-6!H|
+|2S|weak preempt; 5-6!S|
+|2N|20-21 pts; balanced|
+||Untrusted|
+|3C|weak preempt; 7!C|
+|3D|weak preempt; 7!D|
+|3H|weak preempt; 7!H|
+|3S|weak preempt; 7!S|
+|3N|solid 7+ card minor suit|
+|4C|8+ !H with strong hand|
+|4D|8+ !S with strong hand|d
 
 ## 1N Opening
 
