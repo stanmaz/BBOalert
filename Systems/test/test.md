@@ -1,6 +1,6 @@
 <!--- 
 BBOalert, test
-BBOalert, Version 6
+BBOalert, Version 7
 --->
 
 Option,Precision,enigmisto+bhohe,enigmisto+billhohe
@@ -9,7 +9,6 @@ Option,Precision,enigmisto+bhohe,enigmisto+billhohe
 <!--- 
 Alias,|,&comma;,@g
 --->
-
 |Opening|Explanation|
 |-|-|
 |1C|Artificial 16+ pts|
@@ -22,16 +21,14 @@ Alias,|,&comma;,@g
 |2H|weak preempt; 5-6!H|
 |2S|weak preempt; 5-6!S|
 |2N|20-21 pts; balanced|
-
-Untrusted
-
-,3C,weak preempt; 7!C
-,3D,weak preempt; 7!D
-,3H,weak preempt; 7!H
-,3S,weak preempt; 7!S
-,3N,solid 7+ card minor suit
-,4C,8+ !H with strong hand
-,4D,8+ !S with strong hand
+||Untrusted|
+|3C|weak preempt; 7!C|
+|3D|weak preempt; 7!D|
+|3H|weak preempt; 7!H|
+|3S|weak preempt; 7!S|
+|3N|solid 7+ card minor suit|
+|4C|8+ !H with strong hand|
+|4D|8+ !S with strong hand|
 
 
 ,1C,xxxx
