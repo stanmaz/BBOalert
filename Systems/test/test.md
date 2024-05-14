@@ -1,13 +1,13 @@
 <!--- 
 BBOalert, test
-BBOalert, Version 7
+BBOalert, Version 8
 --->
 
 Option,Precision,enigmisto+bhohe,enigmisto+billhohe
 
 
 <!--- 
-Alias,|,&comma;,@g
+Alias,|,&comma;,@G
 --->
 |Opening|Explanation|
 |-|-|
@@ -29,20 +29,4 @@ Alias,|,&comma;,@g
 |3N|solid 7+ card minor suit|
 |4C|8+ !H with strong hand|
 |4D|8+ !S with strong hand|
-
-
-,1C,xxxx
-
-    1C
-- 1D  yyyy
-    -  1H  zzzz
-
-Alias,|,&comma;
-
-Context|Call|Explanation
--------|-------|-------
-1N--|2C|Stayman
-+|2D|Texas !H
-
-Alias,|,|
 
