@@ -1,6 +1,6 @@
 BBOalert, test
 
-BBOalert, Version 4
+BBOalert, Version 5
 
 ,1C,xxxx
 
@@ -8,7 +8,7 @@ BBOalert, Version 4
 - 1D  yyyy
     -  1H  zzzz
 
-Alias,|&comma;
+Alias,|,&comma;
 
 Context|Call|Explanation
 -------|-------|-------
