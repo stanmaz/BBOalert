@@ -1,6 +1,6 @@
 BBOalert, test
 
-BBOalert, Version 3
+BBOalert, Version 4
 
 ,1C,xxxx
 
