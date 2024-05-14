@@ -8,6 +8,10 @@ BBOalert,Version 4
     Alias,||Untrusted|,Untrusted,@G
     Alias,<b>,,@G
     Alias,</b>,,@G
+    Alias,♣️,C,@C@B
+    Alias,♦️,D,@C@B
+    Alias,♥️,H,@C@B
+    Alias,♠️,S,@C@B
 --->
 
     Shortcut,prehi,Hi! Precision: 1C 16+; 1D may be short; 1NT 14-16 balanced; standard signals\n
@@ -19,8 +23,8 @@ BBOalert,Version 4
     Option,Precision,enigmisto+bhohe,enigmisto+billhohe
 |Opening|Explanation|
 |-|-|
-|1C|Artificial 16+ pts|
-|1D|11-15 pts; 2+!D; denies 5-card major|
+|1♣️|Artificial 16+ pts|
+|1♦️|11-15 pts; 2+!D; denies 5-card major|
 |1H|11-15 pts; 5+!H|
 |1S|11-15 pts; 5+!S|
 |1N|14-16 pts; balanced|
