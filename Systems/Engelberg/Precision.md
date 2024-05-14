@@ -1,11 +1,13 @@
 BBOalert,Precision
-BBOalert,Version 2
+BBOalert,Version 3
 
 # Precision based on the book Standard Modern Precision
 <!---
     Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
     Alias,|,&comma;,@G
     Alias,||Untrusted|,Untrusted,@G
+    Alias,<b>,,@G
+    Alias,</b>,,@G
 --->
 
     Shortcut,prehi,Hi! Precision: 1C 16+; 1D may be short; 1NT 14-16 balanced; standard signals\n
@@ -27,7 +29,7 @@ BBOalert,Version 2
 |2H|weak preempt; 5-6!H|
 |2S|weak preempt; 5-6!S|
 |2N|20-21 pts; balanced|
-||Untrusted|
+||<b>Untrusted</b>|
 |3C|weak preempt; 7!C|
 |3D|weak preempt; 7!D|
 |3H|weak preempt; 7!H|
