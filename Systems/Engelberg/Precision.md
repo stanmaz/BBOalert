@@ -1,5 +1,5 @@
 BBOalert,Precision
-BBOalert,Version 7
+BBOalert,Version 8
 
 # Precision based on the book Standard Modern Precision
 <!---
@@ -8,10 +8,6 @@ BBOalert,Version 7
     Alias,||Untrusted|,Untrusted,@G
     Alias,<b>,,@G
     Alias,</b>,,@G
-    Alias,♣️,C,@C@B
-    Alias,♦️,D,@C@B
-    Alias,♥️,H,@C@B
-    Alias,♠️,S,@C@B
 --->
 
     Shortcut,prehi,Hi! Precision: 1C 16+; 1D may be short; 1NT 14-16 balanced; standard signals\n
@@ -23,10 +19,10 @@ BBOalert,Version 7
     Option,Precision,enigmisto+bhohe,enigmisto+billhohe
 |Opening|Explanation|
 |-|-|
-|1♣️|Artificial 16+ pts|
-|1♦️|11-15 pts; 2+!D; denies 5-card major|
-|1♥️|11-15 pts; 5+!H|
-|1♠️|11-15 pts; 5+!S|
+|1C|Artificial 16+ pts|
+|1D|11-15 pts; 2+!D; denies 5-card major|
+|1H|11-15 pts; 5+!H|
+|1S|11-15 pts; 5+!S|
 |1N|14-16 pts; balanced|
 |2C|Artificial: 11-15 pts; 6+!C|
 |2D|Artificial: 11-15 pts; three-suited with short diamonds|
@@ -47,13 +43,13 @@ BBOalert,Version 7
 <details open><summary>1NT</summary>
 
 1N
-- 2♣️    Stayman; 9+ pts; might not have 4-card major  
-- 2♦️    Transfer to hearts; 5+!H
-    - 2♥️    Accept transfer
-    - 3♥️    Super-accept transfer; 4+!H and max NT hand
-- 2♥️    Transfer to spades; 5+!S
-    - 2♠️    Accept transfer
-    - 3♠️    Super-accept transfer; 4+!S and max NT hand 
+- 2C    Stayman; 9+ pts; might not have 4-card major  
+- 2D    Transfer to hearts; 5+!H
+    - 2H    Accept transfer
+    - 3h    Super-accept transfer; 4+!H and max NT hand
+- 2H    Transfer to spades; 5+!S
+    - 2S    Accept transfer
+    - 3S    Super-accept transfer; 4+!S and max NT hand 
    
 </details>
 
