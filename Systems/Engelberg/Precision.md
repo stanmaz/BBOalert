@@ -1,26 +1,5 @@
 BBOalert,Precision
-BBOalert,Version 5
-
-- item a
-- item b
-    - item b1
-    - item b2
-- item c
-
-
-- 2♣️    Stayman; 9+ pts; might not have 4-card major
-- 2♦️    Transfer to hearts; 5+!H
-    -    2♥️    Accept transfer
-        -    2♠️    qsdsqdqsds
-- item3
-
-
-*    2♣️    Stayman; 9+ pts; might not have 4-card major  
-*    2♦️    Transfer to hearts; 5+!H
-    * 2♥️    Accept transfer
-    *    2♠️    qsdsqdqsds
-    *    3♥️    Super-accept transfer; 4+!H and max NT hand
-
+BBOalert,Version 6
 
 # Precision based on the book Standard Modern Precision
 <!---
@@ -65,18 +44,23 @@ BBOalert,Version 5
 
 ## 1N Opening
 
+<details open><summary>1NT</summary>
+
 1N
-*    2♣️    Stayman; 9+ pts; might not have 4-card major  
-*    2♦️    Transfer to hearts; 5+!H
-    *    2♥️    Accept transfer
-    *    2S    qsdsqdqsds    
-    *    3♥️    Super-accept transfer; 4+!H and max NT hand
+- 2♣️    Stayman; 9+ pts; might not have 4-card major  
+- 2♦️    Transfer to hearts; 5+!H
+    - 2♥️    Accept transfer
+    - 3♥️    Super-accept transfer; 4+!H and max NT hand
+- 2♥️    Transfer to spades; 5+!S
+    - 2♠️    Accept transfer
+    - 3♠️    Super-accept transfer; 4+!S and max NT hand 
+   
+</details>
 
 
+```
 
-    1N--2H--,2S,Accept transfer
-    1N--2H--,3S,Super-accept transfer; 4+!S and max NT hand
-    1N--,2H,Transfer to spades; 5+!S
+
     1N--,2S,Transfer to clubs; 6+!C
     1N--2S--,2N,Not interested in 3NT
     1N--2S--2N--,3C,correct to !C
@@ -95,6 +79,7 @@ BBOalert,Version 5
     1N--2N--,3D,Accept transfer with interest in 3NT
     1N--2N--3D--,3H,game forcing strength; short !H
     1N--2N--3D--,3S,game forcing strength; short !S
+```
 
 ##  1C Opening
 
