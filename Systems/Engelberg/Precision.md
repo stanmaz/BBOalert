@@ -1,5 +1,5 @@
 BBOalert,Precision
-BBOalert,Version 6
+BBOalert,Version 7
 
 # Precision based on the book Standard Modern Precision
 <!---
