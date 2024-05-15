@@ -1,5 +1,5 @@
 BBOalert,Precision
-BBOalert,Version 8
+BBOalert,Version 9
 
 # Precision based on the book Standard Modern Precision
 <!---
@@ -36,20 +36,23 @@ BBOalert,Version 8
 |3S|weak preempt; 7!S|
 |3N|solid 7+ card minor suit|
 |4C|8+ !H with strong hand|
-|4D|8+ !S with strong hand|d
+|4D|8+ !S with strong hand|
 
 ## 1N Opening
 
-<details open><summary>1NT</summary>
+<details open><summary>1NT development</summary>
 
 1N
 - 2C    Stayman; 9+ pts; might not have 4-card major  
 - 2D    Transfer to hearts; 5+!H
     - 2H    Accept transfer
-    - 3h    Super-accept transfer; 4+!H and max NT hand
+    - 3H    Super-accept transfer; 4+!H and max NT hand
 - 2H    Transfer to spades; 5+!S
     - 2S    Accept transfer
-    - 3S    Super-accept transfer; 4+!S and max NT hand 
+    - 3S    Super-accept transfer; 4+!S and max NT hand
+- 2S    Transfer to clubs; 6+!C
+    - 2N    Not interested in 3NT
+        - 3C    correct to !C
    
 </details>
 
@@ -57,9 +60,9 @@ BBOalert,Version 8
 ```
 
 
-    1N--,2S,Transfer to clubs; 6+!C
-    1N--2S--,2N,Not interested in 3NT
-    1N--2S--2N--,3C,correct to !C
+
+
+
     1N--2S--2N--,3D,game forcing strength; short !D
     1N--2S--2N--,3H,game forcing strength; short !H
     1N--2S--2N--,3S,game forcing strength; short !S
