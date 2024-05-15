@@ -1,6 +1,27 @@
 BBOalert,Precision
 BBOalert,Version 5
 
+- item a
+- item b
+    - item b1
+    - item b2
+- item c
+
+
+- 2♣️    Stayman; 9+ pts; might not have 4-card major
+- 2♦️    Transfer to hearts; 5+!H
+    -    2♥️    Accept transfer
+        -    2♠️    qsdsqdqsds
+- item3
+
+
+*    2♣️    Stayman; 9+ pts; might not have 4-card major  
+*    2♦️    Transfer to hearts; 5+!H
+    * 2♥️    Accept transfer
+    *    2♠️    qsdsqdqsds
+    *    3♥️    Super-accept transfer; 4+!H and max NT hand
+
+
 # Precision based on the book Standard Modern Precision
 <!---
     Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/stanmazPlugin.js
@@ -45,11 +66,14 @@ BBOalert,Version 5
 ## 1N Opening
 
 1N
--    2C    Stayman; 9+ pts; might not have 4-card major
--    2D    Transfer to hearts; 5+!H
+*    2♣️    Stayman; 9+ pts; might not have 4-card major  
+*    2♦️    Transfer to hearts; 5+!H
+    *    2♥️    Accept transfer
+    *    2S    qsdsqdqsds    
+    *    3♥️    Super-accept transfer; 4+!H and max NT hand
 
-    1N--2D--,2H,Accept transfer
-    1N--2D--,3H,Super-accept transfer; 4+!H and max NT hand
+
+
     1N--2H--,2S,Accept transfer
     1N--2H--,3S,Super-accept transfer; 4+!S and max NT hand
     1N--,2H,Transfer to spades; 5+!S
