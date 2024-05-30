@@ -435,9 +435,21 @@ Almost everyone on BBO is using the SAYC bidding system. But SAYC is not the wor
 
 To solve this problem, the keyword 'Option' followed by the option name are used. The optional block of code is ended by another optional block or by bare 'Option' keyword. The selectable options will be displayed on the red "Options" panel.
 
-The subsequent options with the common prefix word will be grouped automatically. Within the group only one option can be selected to avoid conflicting codes. You are free to disable any option. Initially the first member of each group is enabled.
+The subsequent options with the common prefix word will be grouped automatically. Within the group only one option can be selected to avoid conflicting codes (mutually exclusive options). You are free to disable any option. Initially the first member of each group is enabled. This feature is typically used for : 
 
-It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary.
+- defensive bidding depending on the system played by the opponents. It is recommended to provide all overcalls in optional code blocks for each possible opening. This will allow you to unselect portions of code if necessary. Example :
+```
+    Option,vs1NT weak
+    ... code for overcalls after weak 1NT opening
+    Option,vs1NT strong
+    ... code for overcalls after strong 1NT opening
+```
+- disabling by default the recorded alerts by creating two mutually exclusive options. The prefix word **Recorded** may be replaced by a word of your choice.
+```
+    Option,Recorded OFF
+    Option,Recorded ON 
+```
+
 
 Optional blocks of data can be used also for :
 - vulnerability-dependent openings by using @n or @v tags (our vulnerability) or @N or @V (opponent's vulnerability)
