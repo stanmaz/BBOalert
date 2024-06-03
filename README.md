@@ -35,6 +35,7 @@ Version : 8.0.11
     + [Web storage support](#web-storage-support)
       - [Google Docs](#google-docs)
       - [GoogleDrive](#googledrive)
+      - [OneDrive](#onedrive)
       - [Github](#github)
       - [Dropbox](#dropbox)
       - [Blogger](#blogger)
@@ -156,7 +157,8 @@ The "Settings" menu contains commands to enable/disable features :
 - <b>Hover BBOalert Tabs</b> : if enabled the BBOalert panels are selected by moving the mouse over the corresponding button at the top of the BBOalert panel
 - <b>Hover BBO Tabs</b> : if enabled the BBO tabs at the right side are selected by moving the mouse over the tab
 - <b>Collapse Options</b> : if enabled the mutually exclusive blocks of data are grouped together and only the selected block is shown. This feature is particullary usefull to save space on the panel when many blocks are defined
-
+- <b>Disable recording</b> : if set, the manual alerts are not recorded
+  
 You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
 ## Data import/export
@@ -766,7 +768,22 @@ The public URL can be obtained in the following way :
 - select the file with the right mouse button
 - select the "Get link" command
 - make sure that under "General Access" the "Anyone with the link" and "Viewer" options are selected
-- Press the “Copy link” button 
+- Press the “Copy link” button
+
+#### OneDrive
+
+The data can be imported from text files stored in OneDrive cloud. The URL link for public viewing should be used with the “Import” record.
+
+The public URL can be obtained in the following way :
+
+- open the OneDrive folder containing the file
+- select the file with the right mouse button
+- select the "Share" command
+- By default the link will allow editing the file. To avoid uncontrolled file editing by anyone, it is recommended to restrict the link to the view permission : 
+    - Click at the "Anyone with the link can edit"
+    - In the new dialog box change “Can edit” field into “Can view” and press “Apply” button
+- make sure that under "Copy Link" the "Anyone with the link can view" is selected
+- Press the “Copy” button
 
 #### Github
        
