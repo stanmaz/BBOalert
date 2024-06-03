@@ -772,7 +772,7 @@ The public URL can be obtained in the following way :
 
 #### OneDrive
 
-The data can be imported from text files stored in OneDrive cloud. The URL link for public viewing should be used with the “Import” record. Note : the file size is not limited.
+The data can be imported from text files stored in OneDrive cloud. The .txt file extension must be used. The URL link for public viewing should be used with the “Import” record. Note : the file size is not limited.
 
 The public URL can be obtained in the following way :
 
