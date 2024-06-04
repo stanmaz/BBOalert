@@ -1097,6 +1097,7 @@ function getAlert() {
 function saveAlert() {
 	var explainText = normalize(lastUserExplanation);
 	lastUserExplanation = "";
+	if (isSettingON(5)) return;
 	if (!recordNewAlerts) return;
 	if (explainText == "") return;
 	if (explainText != lastQueryExplanation) {

@@ -214,6 +214,7 @@ function setControlButtons() {
 		settingsSelector.add(new Option('Hover BBOalert Tabs'));
 		settingsSelector.add(new Option('Hover BBO Tabs'));
 		settingsSelector.add(new Option('Collapse Options'));
+		settingsSelector.add(new Option('Disable recording'));
 		settingsSelector.onchange = function () {
 			if (this.selectedIndex > 0) {
 				if (this.options[this.selectedIndex].textContent.slice(0, 1) == CHECKED_CHAR) {

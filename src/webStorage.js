@@ -25,6 +25,13 @@ function makeDirectLink(s) {
 			return url.substring(0, idx) + "/preview";
 		}
 	}
+	if (url.startsWith("https://1drv.ms/")) {
+		var idx1 = url.indexOf("s!");
+		var idx2 = url.indexOf("?e=");
+		if ((idx1 !=  -1) && (idx2 != -1)) {
+			return "https://api.onedrive.com/v1.0/shares/s!" + url.substring(idx1+2, idx2) + "/root/content";
+		}
+	}
 	return url;
 }
 
