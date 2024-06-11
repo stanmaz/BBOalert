@@ -1,6 +1,6 @@
-//BBOalert, Set Teaching Table v1.1
+//BBOalert, Set Teaching Table v1.2
 //Script,setTeachingTable
-var delayValue = 250;
+var delayValue = 500;
 Promise.resolve()
     // press "Home" button
     .then(() => $("nav-bar button", BBOcontext()).eq(1).click())
