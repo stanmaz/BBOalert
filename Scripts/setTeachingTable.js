@@ -1,4 +1,4 @@
-//BBOalert, Set Teaching Table v1.0
+//BBOalert, Set Teaching Table v1.1
 //Script,setTeachingTable
 var delayValue = 250;
 Promise.resolve()
@@ -12,7 +12,7 @@ Promise.resolve()
     .then(() => $(".menuGrid navigation-list-button .navClass", BBOcontext()).eq(4).click())
     .then(() => delay(delayValue))
     // press "Start a Teaching table"
-    .then(() => $(".menuGrid navigation-list-button .navClass", BBOcontext()).eq(13).click())
+    .then(() => $(".menuGrid navigation-list-button .navClass:visible", BBOcontext()).eq(1).click())
     .then(() => delay(delayValue))
     // click table switches. Eventually remove unwanted portions of code.
     // Disallow kibitzers
