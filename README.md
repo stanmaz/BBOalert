@@ -707,7 +707,7 @@ BBOalert converts BSS data internally to the BBOalert native format. Vulnerabili
 
 The converted data is available in the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
 
-### Using BBO convention card to share data (obsolete)
+### Using BBO convention card to share data
 
 To share the data with your partner via the BBO server :
 
@@ -855,7 +855,7 @@ Storing scripts on the web has two advantages :
 - Smaller data file. Scripts are not merged with the user data but dynamically added to the BBOalert program.
 - Published scripts can be shared with others       
        
-### Support for the generic BBO convention card (obsolete)
+### Support for the generic BBO convention card
 
 The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software removes new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
 
