@@ -709,6 +709,8 @@ The converted data is available in the clipboard. You can paste it into the text
 
 ### Using BBO convention card to share data
 
+Note : this feature has been removed
+
 To share the data with your partner via the BBO server :
 
 - make a convention card (Account+Convention Card) using "SAYC - Standard American Yellow Card" or "Simple Modern ACOL" as template
@@ -856,6 +858,8 @@ Storing scripts on the web has two advantages :
 - Published scripts can be shared with others       
        
 ### Support for the generic BBO convention card
+
+Note : this feature has been removed
 
 The drawback of the generic convention card (templates : “BBO Advanced (2/1=GF)” “SAYC - Standard American Yellow Card” or “Simple Modern Acol”) is the lack of text formatting features. The problem is that BBO software removes new line characters and elimines multiple spaces or tabs. The text displayed to the opponents is very hard to read.
 
