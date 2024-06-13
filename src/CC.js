@@ -243,6 +243,8 @@ function addCCbuttons() {
 	$("#ccDiv").css("top", "90px");
 }
 
+
+/* CC feature disabled
 if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')) {
 	window.addEventListener("message", receiveMessageCC, false);
 	addCCbuttons();
@@ -251,7 +253,7 @@ if (location.href.startsWith('https://webutil.bridgebase.com/v2/v2cc/v2cc.html')
 	$("#titleEdit").width(100);
 	$("#ccDiv").css("top", "90px");
 }
-
+*/
 
 /**
  * @ignore
