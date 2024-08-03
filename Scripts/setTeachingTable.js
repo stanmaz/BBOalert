@@ -1,4 +1,4 @@
-//BBOalert, Set Teaching Table v1.2
+//BBOalert, Set Teaching Table v1.3
 //Script,setTeachingTable
 var delayValue = 500;
 Promise.resolve()
@@ -15,7 +15,7 @@ Promise.resolve()
     .then(() => $(".menuGrid navigation-list-button .navClass:visible", BBOcontext()).eq(1).click())
     .then(() => delay(delayValue))
     // click table switches. Eventually remove unwanted portions of code.
-    .then(() => $("table-options-panel ion-toggle", BBOcontext()).click())
+    .then(() => $("table-options-panel .optionGrid ion-toggle", BBOcontext()).click())
     .then(() => delay(delayValue))
     // press "Start Table" button
     .then(() => $("start-table-screen .buttonRowClass button", BBOcontext()).eq(2).click())
