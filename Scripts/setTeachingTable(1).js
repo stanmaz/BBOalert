@@ -15,20 +15,8 @@ Promise.resolve()
     .then(() => $(".menuGrid navigation-list-button .navClass:visible", BBOcontext()).eq(1).click())
     .then(() => delay(delayValue))
     // click table switches. Eventually remove unwanted portions of code.
-    // Disallow kibitzers
-    .then(() => $("table-options-panel .toggleDivClass ion-toggle", BBOcontext()).eq(0).click())
-    .then(() => delay(delayValue))
-    // Disallow kibitzers to chat with players
-    .then(() => $("table-options-panel .toggleDivClass ion-toggle", BBOcontext()).eq(1).click())
-    .then(() => delay(delayValue))
-    // Set "Permission required to kibitz"
-    .then(() => $("table-options-panel .toggleDivClass ion-toggle", BBOcontext()).eq(2).click())
-    .then(() => delay(delayValue))
-    // Set "Permission required to play"
-    .then(() => $("table-options-panel .toggleDivClass ion-toggle", BBOcontext()).eq(3).click())
-    .then(() => delay(delayValue))
-    // Make the table "Invisible"
-    .then(() => $("table-options-panel .toggleDivClass ion-toggle", BBOcontext()).eq(4).click())
+    // Toggle all options
+    .then(() => $("table-options-panel ion-toggle", BBOcontext()).click())
     .then(() => delay(delayValue))
     // press "Start Table" button
     .then(() => $("start-table-screen .buttonRowClass button", BBOcontext()).eq(2).click())
