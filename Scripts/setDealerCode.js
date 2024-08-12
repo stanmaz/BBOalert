@@ -32,6 +32,8 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("menu-item div:contains('Leosztások forrása')", parent.window.document).trigger("click");
                     $("menu-item div:contains('За раздаване')", parent.window.document).trigger("click");
                     $("menu-item div:contains('Bord kaynağı')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('源牌局')", parent.window.document).trigger("click");
+                    $("menu-item div:contains('发牌机设置')", parent.window.document).trigger("click");
                     break;
                 case 2:
                     // Select "Advanced" tab
@@ -52,6 +54,8 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Haladó')", parent.window.document).trigger("click");
                     $("modal-content div:contains('Напреднал')", parent.window.document).trigger("click");
                     $("modal-content div:contains('İleri düzey')", parent.window.document).trigger("click");
+                    $("modal-content div:contains('高級')", parent.window.document).trigger("click"); //lang=zh-TW
+//                    $("modal-content div:contains('高级')", parent.window.document).trigger("click"); //lang=zh-CN is identical to sh-TW
                     if (dealerCode == "") clearInterval(intrv);
                     break;
                 case 3:
