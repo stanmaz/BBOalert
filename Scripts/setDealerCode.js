@@ -55,7 +55,7 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                     $("modal-content div:contains('Напреднал')", parent.window.document).trigger("click");
                     $("modal-content div:contains('İleri düzey')", parent.window.document).trigger("click");
                     $("modal-content div:contains('高級')", parent.window.document).trigger("click"); //lang=zh-TW
-//                    $("modal-content div:contains('高级')", parent.window.document).trigger("click"); //lang=zh-CN is identical to sh-TW
+                    $("modal-content div:contains('高级')", parent.window.document).trigger("click"); //lang=zh-CN
                     if (dealerCode == "") clearInterval(intrv);
                     break;
                 case 3:
