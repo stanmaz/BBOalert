@@ -34,7 +34,7 @@ Version : 8.2.2
     + [Using BBO convention card to share data](#using-bbo-convention-card-to-share-data)
     + [Web storage support](#web-storage-support)
       - [Google Docs](#google-docs)
-      - [GoogleDrive](#googledrive)
+      - [GoogleDrive (discontinued)](#googledrive)
       - [OneDrive](#onedrive)
       - [Github](#github)
       - [Dropbox](#dropbox)
@@ -761,6 +761,8 @@ More details can be found in the document :
 https://docs.google.com/document/d/1XTma7fZbI0pRU3TtNFOLAG0sUKyBaXFtkQAu90rwfRY/edit?usp=sharing
        
 #### GoogleDrive
+
+<b>Support discontinued</b>
 
 The data can be imported from text files stored in GoogleDrive cloud. The URL link for public viewing should be used with the “Import” record. Note : the file size is limited to 260k bytes
 
