@@ -229,6 +229,7 @@ function addBBOalertTab() {
 	t.id = 'bboalert-tab';
 	t.onclick = toggleOptions;
 	t.style.color = 'white';
+	t.style.display = "none";
 	t.backgroundColor = 'red';
 	vt.appendChild(t);
 	t = parent.document.getElementById('bboalert-tab');
@@ -383,7 +384,7 @@ function setInputMessage(msg, send, elMessage) {
 	console.log("setInputMessage 1 " + msg);
 	var eventInput = new Event('input');
 	if (elMessage == null) return;
-	msgList = msg.split(/\\n/);
+	var msgList = msg.split(/\\n/);
 	var sb = getChatSendButton(elMessage);
 	// if not chat messaqge set text
 	console.log("setInputMessage sb " + sb);

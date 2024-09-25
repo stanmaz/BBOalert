@@ -71,7 +71,7 @@ function initBBOalertIframe() {
 }
 
 function loadScripts() {
-  $("#adpanel0").show();
+//  $("#adpanel0").show();
   addIframeScript("globals.js");
   addIframeScript("BBO_DOM.js");
   addIframeScript("blogspot.js");

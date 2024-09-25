@@ -19,7 +19,7 @@ const callback = function (mutationsList, observer) {
         if (navDivDisplayed) onNavDivDisplayed();
         else onNavDivHidden();
     }
-    if ($("bridge-screen",window.parent.document).is(":visible") != tableDisplayed) {
+    if ($("bridge-screen", window.parent.document).is(":visible") != tableDisplayed) {
         tableDisplayed = !tableDisplayed;
         if (tableDisplayed) onTableDisplayed();
         else onTableHidden();
@@ -112,6 +112,13 @@ function openAccountTab() {
     return true;
 }
 
+function openMessageTab() {
+    var vc = parent.document.querySelectorAll('.verticalClass');
+    if (vc.length < 4) return false;
+    vc[0].click();
+    return true;
+}
+
 // openAccountTab();
 
 // Create an observer instance linked to the callback function
@@ -176,13 +183,13 @@ function onBiddingBoxDisplayed() {
         };
     }
     lastUserExplanation = '';
-/*
-    if (elAlertExplain.oninput == null) {
-        elAlertExplain.oninput = function () {
-            lastUserExplanation = elAlertExplain.value;
-        };
-    }
-*/
+    /*
+        if (elAlertExplain.oninput == null) {
+            elAlertExplain.oninput = function () {
+                lastUserExplanation = elAlertExplain.value;
+            };
+        }
+    */
     elAlertExplain.onkeyup = inputOnKeyup;
     elAlertExplain.oninput = inputChanged;
     //    elAlertExplain.onfocus = inputOnFocus;
@@ -293,10 +300,10 @@ function checkNewVersion() {
     var oldVersion = localStorage.getItem("BBOalertVersion");
     var curVersion = document.title;
     if (oldVersion != curVersion) {
-        setTimeout(function() {
+        setTimeout(function () {
             alert("\nNew BBOalert version loaded : " + curVersion + "\n\nPlease read release notes on the 'Documents' tab");
-            localStorage.setItem("BBOalertVersion", curVersion);   
-        },100);
+            localStorage.setItem("BBOalertVersion", curVersion);
+        }, 100);
     }
 }
 
@@ -312,7 +319,9 @@ function onNavDivDisplayed() {
     if (alertData == "") alertData = 'BBOalert\n';
     alertOriginal = alertData;
     openAccountTab();
-    setOptions(true);
+    openMessageTab();
+    restoreSettings();
+    setOptions(!isSettingON(7));
     bboalertLog(version + "<br>Reading data<br>");
     setTimeout(() => {
         updateAlertDataAsync(alertOriginal, function () {
@@ -333,13 +342,14 @@ function onNavDivDisplayed() {
             setTabEvents();
             partnershipOptions();
             setTimeout(function () {
-                setOptions(true);
+                setOptions(!isSettingON(7));
             }, 200);
-            restoreSettings();
+//            restoreSettings();
             hideUnusedOptions();
             BBOalertEvents().dispatchEvent(E_onLogin);
             execUserScript('%onLogin%');
             checkNewVersion();
+            setBBOalertButton(isSettingON(8));
         });
     }, 500);
 }
@@ -436,13 +446,13 @@ function onNewChatMessage() {
     execUserScript('%onNewChatMessage%');
 }
 
-function onTableDisplayed () {
+function onTableDisplayed() {
     BBOalertEvents().dispatchEvent(E_onTableDisplayed);
     execUserScript('%onTableDisplayed%');
 }
 
 
-function onTableHidden () {
+function onTableHidden() {
     BBOalertEvents().dispatchEvent(E_onTableHidden);
     execUserScript('%onTableHidden%');
 }

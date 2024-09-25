@@ -773,6 +773,7 @@ function findAlert(context, call) {
 	var symkey;
 	var symval;
 	var foundRecord = "";
+	if (isSettingON(6)) return "";
 	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
 	while ((txt = scan.getNextRecord()) != null) {
@@ -1381,10 +1382,16 @@ function setBiddingButtonEvents() {
 			saveAlert();
 			sendAlertChat();
 		};
+		elBiddingButtons[16].onmouseup = function () {
+            $(".mat-ripple-element", elBiddingButtons[16]).remove();
+        };
 		elBiddingButtons[16].addEventListener("touchstart", function () {
 			addLog('click:[OK]');
 			saveAlert();
 			sendAlertChat();
+		});
+		elBiddingButtons[16].addEventListener("touchend", function () {
+            $(".mat-ripple-element", elBiddingButtons[16]).remove();
 		});
 	}
 }

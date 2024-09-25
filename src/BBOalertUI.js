@@ -215,6 +215,9 @@ function setControlButtons() {
 		settingsSelector.add(new Option('Hover BBO Tabs'));
 		settingsSelector.add(new Option('Collapse Options'));
 		settingsSelector.add(new Option('Disable recording'));
+		settingsSelector.add(new Option('Disable auto-alerts'));
+		settingsSelector.add(new Option('Silent startup'));
+		settingsSelector.add(new Option('BBOalert button'));
 		settingsSelector.onchange = function () {
 			if (this.selectedIndex > 0) {
 				if (this.options[this.selectedIndex].textContent.slice(0, 1) == CHECKED_CHAR) {
@@ -225,6 +228,9 @@ function setControlButtons() {
 				if (this.selectedIndex == 4) {
 					showAllActiveOptions();
 					hideUnusedOptions();
+				}
+				if (this.selectedIndex = 8) {
+					setBBOalertButton(isSettingON(8));
 				}
 			}
 			saveSettings();
@@ -266,6 +272,22 @@ function setControlButtons() {
 	}
 	return false;
 }
+
+function setBBOalertButton(on) {
+	if (on) {
+		$("#bboalert-button",parent.window.document).remove();
+		var bbb = parent.window.document.createElement("div");
+		$('.connectionClass',parent.window.document).parent().append(bbb);
+		bbb.outerHTML = BBOalertButtonHTML;
+		$("#bboalert-button",parent.window.document).click(toggleOptions);
+		$("#bboalert-tab",parent.window.document).hide();
+	} else {
+		$("#bboalert-button",parent.window.document).remove();
+		$("#bboalert-tab",parent.window.document).show();
+		
+	}
+}
+
 
 /**
  * @ignore
