@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.1
+//BBOalert,stanmazPlugin version 3.6.3.2
 
-console.log("Plugin version : 3.6.3.1");
+console.log("Plugin version : 3.6.3.2");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -518,7 +518,7 @@ function BBOcontext() {
             if (callText.length == 2) {
                 var txt = callText;
                 var txt0 = "";
-                btok_span.textContent = txt;
+                btok_span.textContent = "";
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 if (callText == "Db") {
                     txt = 'Dbl';
