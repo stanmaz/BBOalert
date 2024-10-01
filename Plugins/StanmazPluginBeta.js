@@ -517,6 +517,7 @@ function BBOcontext() {
         if (on) {
             if (callText.length == 2) {
                 var txt = callText;
+                var txt0 = "";
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
                 if (callText == "Db") {
                     txt = 'Dbl';
@@ -531,21 +532,24 @@ function BBOcontext() {
                     btok.style.backgroundColor = "rgb(16, 102, 16)";
                     btok_span.style.color = "white";
                 } else {
-                    btok_span.style.color = "black";
+                    btok_span.style.color = "";
                     btok.style.backgroundColor = "rgb(172, 197, 197)";
                     if (callText.slice(-1) == "N") txt = callText.charAt(0) + btnt.textContent;
                     if (callText.slice(-1) == "C") txt = callText.charAt(0) + "♣";
                     if (callText.slice(-1) == "D") {
-                        txt = callText.charAt(0) + "♦";
-                        $("bridge-screen bidding-box-button span", BBOcontext())[16].style.color = "rgb(203, 0, 0)";
+                        txt = "♦";
+                        txt0 = callText.charAt(0);
+                        btok_span.style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "H") {
-                        txt = callText.charAt(0) + "♥";
-                        $("bridge-screen bidding-box-button span", BBOcontext())[16].style.color = "rgb(203, 0, 0)";
+                        txt = "♥";
+                        txt0 = callText.charAt(0);
+                        btok_span.style.color = "rgb(203, 0, 0)";
                     }
                     if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
                 }
-                btok_span.textContent = elimineSpaces(txt);
+                btok_span.textContent = txt;
+                btok.innerHTML = txt0 + btok.innerHTML;
             }
         } else {
             btok.style.backgroundColor = "rgb(255, 206, 0)";
@@ -630,7 +634,7 @@ function BBOcontext() {
             }
             if (i != -1) return;
             i = 2;
-            var optionsSelector = BBOcontext().getElementById('bboalert-ds');
+            var optionsSelector = document.getElementById('bboalert-ds');
             if (optionsSelector.selectedIndex == i) return;
             optionsSelector.selectedIndex = i;
             optionsSelectorChanged();
