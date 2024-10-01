@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.3
+//BBOalert,stanmazPlugin version 3.6.3.4
 
-console.log("Plugin version : 3.6.3.3");
+console.log("Plugin version : 3.6.3.4");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -536,18 +536,27 @@ function BBOcontext() {
                     btok_span.style.color = "";
                     btok.style.backgroundColor = "rgb(172, 197, 197)";
                     if (callText.slice(-1) == "N") txt = callText.charAt(0) + btnt.textContent;
-                    if (callText.slice(-1) == "C") txt = callText.charAt(0) + "♣";
+                    if (callText.slice(-1) == "C") {
+                        txt = "♣";
+                        txt0 = callText.charAt(0);
+                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
+                    }
                     if (callText.slice(-1) == "D") {
                         txt = "♦";
                         txt0 = callText.charAt(0);
-                        btok_span.style.color = "rgb(203, 0, 0)";
+                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
                     }
                     if (callText.slice(-1) == "H") {
                         txt = "♥";
                         txt0 = callText.charAt(0);
+                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(9).find("span").first().css("color");
                         btok_span.style.color = "rgb(203, 0, 0)";
                     }
-                    if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
+                    if (callText.slice(-1) == "S") {
+                        txt = "♠";
+                        txt0 = callText.charAt(0);
+                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
+                    }
                 }
                 btok_span.textContent = txt;
                 btok.innerHTML = txt0 + btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
