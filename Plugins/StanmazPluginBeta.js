@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.2
+//BBOalert,stanmazPlugin version 3.6.3.3
 
-console.log("Plugin version : 3.6.3.2");
+console.log("Plugin version : 3.6.3.3");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -550,11 +550,11 @@ function BBOcontext() {
                     if (callText.slice(-1) == "S") txt = callText.charAt(0) + "♠";
                 }
                 btok_span.textContent = txt;
-                btok.innerHTML = txt0 + btok.innerHTML;
+                btok.innerHTML = txt0 + btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
             }
         } else {
             btok.style.backgroundColor = "rgb(255, 206, 0)";
-            btok_span.style.color = "black";
+            btok_span.style.color = "";
             btok_span.textContent = "OK";
         }
     };
