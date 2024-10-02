@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.7
+//BBOalert,stanmazPlugin version 3.6.3.8
 
-console.log("Plugin version : 3.6.3.7");
+console.log("Plugin version : 3.6.3.8");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -520,6 +520,7 @@ function BBOcontext() {
                 var txt0 = "";
                 btok_span.textContent = "";
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
+                btok_span.style.fontSize = "";
                 if (callText == "Db") {
                     txt = 'Dbl';
                     btok.style.backgroundColor = "rgb(203, 0, 0)";
@@ -540,22 +541,26 @@ function BBOcontext() {
                         txt = "♣";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(7).find("span").first().css("color");
+                        btok_span.style.fontSize = "large";
                     }
                     if (callText.slice(-1) == "D") {
                         txt = "♦";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
+                        btok_span.style.fontSize = "large";
                     }
                     if (callText.slice(-1) == "H") {
                         txt = "♥";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(9).find("span").first().css("color");
                         btok_span.style.color = "rgb(203, 0, 0)";
+                        btok_span.style.fontSize = "large";
                     }
                     if (callText.slice(-1) == "S") {
                         txt = "♠";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(10).find("span").first().css("color");
+                        btok_span.style.fontSize = "large";
                     }
                 }
                 btok_span.textContent = txt;
