@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.9
+//BBOalert,stanmazPlugin version 3.6.3.10
 
-console.log("Plugin version : 3.6.3.9");
+console.log("Plugin version : 3.6.3.10");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -570,6 +570,7 @@ function BBOcontext() {
             btok.style.backgroundColor = "rgb(255, 206, 0)";
             btok_span.style.color = "";
             btok_span.textContent = "OK";
+            btok.innerHTML = btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
         }
     };
     var swapBiddingButtonsStyleText = `
