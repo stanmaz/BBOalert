@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.8
+//BBOalert,stanmazPlugin version 3.6.3.9
 
-console.log("Plugin version : 3.6.3.8");
+console.log("Plugin version : 3.6.3.9");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -541,26 +541,26 @@ function BBOcontext() {
                         txt = "♣";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(7).find("span").first().css("color");
-                        btok_span.style.fontSize = "large";
+                        btok_span.style.fontSize = "larger";
                     }
                     if (callText.slice(-1) == "D") {
                         txt = "♦";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
-                        btok_span.style.fontSize = "large";
+                        btok_span.style.fontSize = "larger";
                     }
                     if (callText.slice(-1) == "H") {
                         txt = "♥";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(9).find("span").first().css("color");
                         btok_span.style.color = "rgb(203, 0, 0)";
-                        btok_span.style.fontSize = "large";
+                        btok_span.style.fontSize = "larger";
                     }
                     if (callText.slice(-1) == "S") {
                         txt = "♠";
                         txt0 = callText.charAt(0);
                         btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(10).find("span").first().css("color");
-                        btok_span.style.fontSize = "large";
+                        btok_span.style.fontSize = "larger";
                     }
                 }
                 btok_span.textContent = txt;
