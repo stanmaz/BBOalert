@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.13
+//BBOalert,stanmazPlugin version 3.6.3.14
 
-console.log("Plugin version : 3.6.3.13");
+console.log("Plugin version : 3.6.3.14");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -513,6 +513,7 @@ function BBOcontext() {
     modified_OK_button = function (on) {
         if (!buttonOKvisible()) return;
         var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
+        btok.style.backgroundColor = "rgb(255, 206, 0)";
         var btok_span = $("span", btok)[0];
         if (on) {
             if (callText.length == 2) {
@@ -535,7 +536,7 @@ function BBOcontext() {
                     btok_span.style.color = "white";
                 } else {
                     btok_span.style.color = "";
-                    btok.style.backgroundColor = "lightyellow";
+//                    btok.style.backgroundColor = "lightyellow";
                     if (callText.slice(-1) == "N") txt = callText.charAt(0) + btnt.textContent;
                     if (callText.slice(-1) == "C") {
                         txt = "♣";
@@ -567,7 +568,7 @@ function BBOcontext() {
                 btok.innerHTML = txt0 + btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
             }
         } else {
-            btok.style.backgroundColor = "rgb(255, 206, 0)";
+//            btok.style.backgroundColor = "rgb(255, 206, 0)";
             btok_span.style.color = "";
             btok_span.textContent = "OK";
             btok.innerHTML = btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
