@@ -8,10 +8,6 @@ modified_OK_button = function (on) {
     console.log("Plugin : call selected " + callText);
     var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
     var btok_span = $("span", btok)[0];
-    console.log("Plugin : html " + btok.innerHTML);
-    var i = btok.innerHTML.indexOf("<");
-    btok.innerHTML = btok.innerHTML.substring(i);
-    console.log("Plugin : html " + i);
     if (on) {
         if (callText.length == 2) {
             var txt1 = ""
@@ -66,26 +62,19 @@ modified_OK_button = function (on) {
                             fntsiz = "larger";
                             break
                     }
-                    //                    btok_span.style.fontSize = "larger";
-                    //                    btok_span.textContent = elimineSpaces(txt);
-                    //                    btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(7).find("span").first().css("color");
                     break;
             }
-            setTimeout(function() {
-                console.log("Plugin 2 : " + txt1 + txt2 + " " + bkg + " " + clr + " " + fntsiz);
-                btok_span.textContent = txt2;
-                $(btok_span).css("background-color", bkg);
-                $(btok_span).css("color", clr);
-                if (fntsiz != "") $(btok_span).css("text-size", fntsiz);
-                console.log("Plugin 3 : span outer html " + btok_span.outerHTML);
-                btok_span.outerHTML = txt1 + btok_span.outerHTML;
-                console.log("Plugin 4 : span outer html " + btok_span.outerHTML);    
-            }, 1000 );
+            console.log("Plugin 2 : " + txt1 + txt2 + " " + bkg + " " + clr + " " + fntsiz);
+            var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + ';">' + txt2 +'</span>';
+            console.log("Plugin 3 : " + h);
+            $(btok_span).hide();
+            $(btok).find(".temp").remove();
+            $(btok_span).after(h);
+
         }
     } else {
-        btok.style.backgroundColor = "rgb(255, 206, 0)";
-        btok_span.style.color = "black";
-        btok_span.textContent = "OK";
+        $(btok_span).hide();
+        $(btok).find(".temp").remove();
     };
 }
 //Script
