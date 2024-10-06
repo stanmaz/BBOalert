@@ -1,4 +1,4 @@
-//BBOalert, test modified OK button
+//BBOalert, test modified OK button v1
 /*
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
 */
