@@ -37,9 +37,10 @@ modified_OK_button = function (on) {
                     bkg = "rgb(255, 206, 0)";
                     switch (callText.charAt(1)) {
                         case "N":
-                            txt2 = btnt.textContent;
+                            txt1 = txt1 + elimineSpaces(btnt.textContent);
+                            txt2 = "";
                             clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(11).find("span").first().css("color");
-                            fntsiz = $("bridge-screen bidding-box-button button", BBOcontext()).eq(11).find("span").first().css("font-size");
+                            fntsiz = "";
                             break
                         case "C":
                             txt2 = "♣";
@@ -65,7 +66,7 @@ modified_OK_button = function (on) {
                     break;
             }
             console.log("Plugin 2 : " + txt1 + txt2 + " " + bkg + " " + clr + " " + fntsiz);
-            var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + ';">' + txt2 +'</span>';
+            var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + '; font-size: ' + fntsiz +';">' + txt2 +'</span>';
             console.log("Plugin 3 : " + h);
             $(btok_span).hide();
             $(btok).find(".temp").remove();
