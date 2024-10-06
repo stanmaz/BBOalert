@@ -583,7 +583,7 @@ function BBOcontext() {
     
             }
         } else {
-            $(btok_span).hide();
+            $(btok_span).show();
             $(btok).find(".temp").remove();
         };
     }
