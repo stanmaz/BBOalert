@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.14
+//BBOalert,stanmazPlugin version 3.6.3.15
 
-console.log("Plugin version : 3.6.3.14");
+console.log("Plugin version : 3.6.3.15");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -529,17 +529,17 @@ function BBOcontext() {
                     case "Db":
                         txt2 = 'Dbl';
                         bkg = "rgb(203, 0, 0)";
-                        clr = "white";
+                        clr = "black";
                         break;
                     case "Rd":
                         txt2 = 'Rdbl';
                         bkg = "rgb(67, 119, 169";
-                        clr = "white";
+                        clr = "black";
                         break;
                     case "--":
                         txt2 = 'Pass';
                         bkg = "rgb(16, 102, 16)";
-                        clr = "white";
+                        clr = "black";
                         break;
                     default:
                         txt1 = callText.charAt(0);
