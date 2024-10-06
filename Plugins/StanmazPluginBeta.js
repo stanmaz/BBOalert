@@ -330,13 +330,15 @@ function BBOcontext() {
                 moveTableLeft(cfg.Move_table_left);
                 removeIconsFromTabs(cfg.Remove_icons_from_tabs);
                 largeBiddingBox(cfg.Large_bidding_box);
-                modified_OK_button(cfg.Modified_OK_button);
                 swapBiddingButtons(cfg.Swap_bidding_buttons);
                 removeAds(cfg.Remove_Ads);
                 T_for_10(cfg.T_for_10);
             });
             addBBOalertEvent("onNewDeal", function () {
                 disableAlertsWithCasualPartner(cfg.Disable_alerts_with_casual_partner);
+            });
+            addBBOalertEvent("onNewCallSelected", function () {
+                modified_OK_button(cfg.Modified_OK_button);
             });
         }
     });
@@ -511,70 +513,81 @@ function BBOcontext() {
         }
     };
     modified_OK_button = function (on) {
-        if (!buttonOKvisible()) return;
+        //    if (!buttonOKvisible()) return;
+        console.log("Plugin : call selected " + callText);
         var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
-        btok.style.backgroundColor = "rgb(255, 206, 0)";
         var btok_span = $("span", btok)[0];
         if (on) {
             if (callText.length == 2) {
-                var txt = callText;
-                var txt0 = "";
-                btok_span.textContent = "";
+                var txt1 = ""
+                var txt2 = "OK";
                 var btnt = $("bridge-screen bidding-box-button button", BBOcontext())[11];
-                btok_span.style.fontSize = "";
-                if (callText == "Db") {
-                    txt = 'Dbl';
-                    btok.style.backgroundColor = "rgb(203, 0, 0)";
-                    btok_span.style.color = "white";
-                } else if (callText == "Rd") {
-                    txt = 'Rdbl';
-                    btok.style.backgroundColor = "rgb(67, 119, 169)";
-                    btok_span.style.color = "white";
-                } else if (callText == "--") {
-                    txt = 'Pass';
-                    btok.style.backgroundColor = "rgb(16, 102, 16)";
-                    btok_span.style.color = "white";
-                } else {
-                    btok_span.style.color = "";
-//                    btok.style.backgroundColor = "lightyellow";
-                    if (callText.slice(-1) == "N") txt = callText.charAt(0) + btnt.textContent;
-                    if (callText.slice(-1) == "C") {
-                        txt = "♣";
-                        txt0 = callText.charAt(0);
-                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(7).find("span").first().css("color");
-                        btok_span.style.fontSize = "larger";
-                    }
-                    if (callText.slice(-1) == "D") {
-                        txt = "♦";
-                        txt0 = callText.charAt(0);
-                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
-                        btok_span.style.fontSize = "larger";
-                    }
-                    if (callText.slice(-1) == "H") {
-                        txt = "♥";
-                        txt0 = callText.charAt(0);
-                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(9).find("span").first().css("color");
-                        btok_span.style.color = "rgb(203, 0, 0)";
-                        btok_span.style.fontSize = "larger";
-                    }
-                    if (callText.slice(-1) == "S") {
-                        txt = "♠";
-                        txt0 = callText.charAt(0);
-                        btok_span.style.color = $("bridge-screen bidding-box-button button", BBOcontext()).eq(10).find("span").first().css("color");
-                        btok_span.style.fontSize = "larger";
-                    }
+                var bkg = "white";
+                var clr = "black";
+                var fntsiz = "";
+                switch (callText) {
+                    case "Db":
+                        txt2 = 'Dbl';
+                        bkg = "rgb(203, 0, 0)";
+                        clr = "white";
+                        break;
+                    case "Rd":
+                        txt2 = 'Rdbl';
+                        bkg = "rgb(67, 119, 169";
+                        clr = "white";
+                        break;
+                    case "--":
+                        txt2 = 'Pass';
+                        bkg = "rgb(16, 102, 16)";
+                        clr = "white";
+                        break;
+                    default:
+                        txt1 = callText.charAt(0);
+                        bkg = "rgb(255, 206, 0)";
+                        switch (callText.charAt(1)) {
+                            case "N":
+                                txt1 = txt1 + elimineSpaces(btnt.textContent);
+                                txt2 = "";
+                                clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(11).find("span").first().css("color");
+                                fntsiz = "";
+                                break
+                            case "C":
+                                txt2 = "♣";
+                                clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(7).find("span").first().css("color");
+                                fntsiz = "larger";
+                                break
+                            case "D":
+                                txt2 = "♦";
+                                clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(8).find("span").first().css("color");
+                                fntsiz = "larger";
+                                break
+                            case "H":
+                                txt2 = "♥";
+                                clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(9).find("span").first().css("color");
+                                fntsiz = "larger";
+                                break
+                            case "S":
+                                txt2 = "♠";
+                                clr = $("bridge-screen bidding-box-button button", BBOcontext()).eq(10).find("span").first().css("color");
+                                fntsiz = "larger";
+                                break
+                        }
+                        break;
                 }
-                btok_span.textContent = txt;
-                btok.innerHTML = txt0 + btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
+                console.log("Plugin 2 : " + txt1 + txt2 + " " + bkg + " " + clr + " " + fntsiz);
+                var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + '; font-size: ' + fntsiz +';">' + txt2 +'</span>';
+                console.log("Plugin 3 : " + h);
+                $(btok_span).hide();
+                $(btok).find(".temp").remove();
+                $(btok_span).after(h);
+    
             }
         } else {
-//            btok.style.backgroundColor = "rgb(255, 206, 0)";
-            btok_span.style.color = "";
-            btok_span.textContent = "OK";
-            btok.innerHTML = btok.innerHTML.substring(btok.innerHTML.indexOf("<span"));
-        }
-    };
-    var swapBiddingButtonsStyleText = `
+            $(btok_span).hide();
+            $(btok).find(".temp").remove();
+        };
+    }
+        var swapBiddingButtonsStyleText = `
         #navDiv .explainInputClass {
             left: 4px !important;
         }
