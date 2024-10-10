@@ -166,7 +166,7 @@ function keyboardEntrySet() {
 function accountSettingsSet(idx) {
 	try {
 		if (parent.window.document.querySelectorAll('account-screen ion-toggle')[idx].getAttribute("aria-checked") == "true") return 'Y';
-		else return 'N';	
+		else return 'N';
 	} catch {
 		return '';
 	}
@@ -577,6 +577,21 @@ function setStatText(txt) {
  * @ignore
  */
 function setTabEvents() {
+	$("#rightDiv .verticalTabBarClass tab-bar-button", parent.document).not("#bboalert-tab").each(function () {
+		console.log("tab element = " + this.textContent);
+		this.onmousedown = function (ev) {
+			var e = ev.target;
+			window.s = e;
+			console.log("tab element = " + e);
+			e.style.pointerEvents = "auto";
+			if ($(e).hasClass("selected")) {
+				console.log("tab event disabled");
+				if ($("#adpanel0", parent.document).is(":visible")) e.style.pointerEvents = "none";
+			}
+			setOptionsOff();
+		}
+	})
+	/*
 	var rd = parent.document.getElementById('rightDiv');
 	if (rd == null) return;
 	var vt = rd.querySelector('.verticalTabBarClass');
@@ -586,9 +601,17 @@ function setTabEvents() {
 	if (tabs.length == 0) return;
 	for (var i = 0; i < tabs.length; i++) {
 		if (tabs[i].textContent.search('BBOalert') == -1) {
-			if (tabs[i].onmousedown == null) tabs[i].onmousedown = setOptionsOff;
+			if (tabs[i].onmousedown == null) tabs[i].onmousedown = function (event) {
+				e = event.target;
+				e.style.pointerEvents = "auto";
+				if ($(e).hasClass("selected")) {
+					if ($("#adpanel0", parent.document).is(":visible")) e.style.pointerEvents = "none";
+				}
+				setOptionsOff();
+			};
 		}
 	}
+	*/
 }
 
 /**
@@ -1020,7 +1043,7 @@ function redisplayBiddingBox(time = 100) {
 	}, time);
 }
 
-function getBiddingBoxButtons () {
+function getBiddingBoxButtons() {
 	var elBiddingBox = parent.document.querySelector(".biddingBoxClass");
 	if (elBiddingBox == null) return null;
 	var elBiddingButtons = elBiddingBox.querySelectorAll(".biddingBoxButtonClass");

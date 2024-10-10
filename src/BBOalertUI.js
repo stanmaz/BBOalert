@@ -274,18 +274,17 @@ function setControlButtons() {
 }
 
 function setBBOalertButton(on) {
-	if (on) {
-		$("#bboalert-button",parent.window.document).remove();
-		var bbb = parent.window.document.createElement("div");
-		$('.connectionClass',parent.window.document).parent().append(bbb);
-		bbb.outerHTML = BBOalertButtonHTML;
-		$("#bboalert-button",parent.window.document).click(toggleOptions);
-		$("#bboalert-tab",parent.window.document).hide();
-	} else {
-		$("#bboalert-button",parent.window.document).remove();
-		$("#bboalert-tab",parent.window.document).show();
-		
-	}
+    if (on) {
+        $("#bboalert-button",parent.window.document).remove();
+        var bbb = parent.window.document.createElement("div");
+        $('.nameTagClass',parent.window.document).eq(0).parent().append(bbb);
+        bbb.outerHTML = BBOalertButtonHTML;
+        $("#bboalert-button",parent.window.document).click(toggleOptions);
+        $("#bboalert-tab",parent.window.document).hide();
+    } else {
+        $("#bboalert-button",parent.window.document).remove();
+        $("#bboalert-tab",parent.window.document).show();       
+    }
 }
 
 
