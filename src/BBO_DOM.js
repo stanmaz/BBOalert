@@ -192,11 +192,13 @@ function setOptions(on) {
 	var adPanel0 = parent.document.getElementById("adpanel0");
 	if (adPanel0 == null) return;
 	if (on) {
+		$("#rightDiv .verticalTabBarClass tab-bar-button", parent.document).not("#bboalert-tab").find(".verticalClass").addClass("covered");
 		adPanel0.style.display = 'block';
 		if (adPanel0.getBoundingClientRect().width < 350) {
 			triggerDragAndDrop('.hDividerClass', '.hDividerClass', (adPanel0.getBoundingClientRect().width) - 400);
 		}
 	} else {
+		$("#rightDiv .verticalTabBarClass tab-bar-button", parent.document).not("#bboalert-tab").find(".verticalClass").removeClass("covered")
 		adPanel0.style.display = 'none';
 	}
 	var b = parent.document.getElementById('bboalert-tab');
@@ -577,21 +579,6 @@ function setStatText(txt) {
  * @ignore
  */
 function setTabEvents() {
-	$("#rightDiv .verticalTabBarClass tab-bar-button", parent.document).not("#bboalert-tab").each(function () {
-		console.log("tab element = " + this.textContent);
-		this.onmousedown = function (ev) {
-			var e = ev.target;
-			window.s = e;
-			console.log("tab element = " + e);
-			e.style.pointerEvents = "auto";
-			if ($(e).hasClass("selected")) {
-				console.log("tab event disabled");
-				if ($("#adpanel0", parent.document).is(":visible")) e.style.pointerEvents = "none";
-			}
-			setOptionsOff();
-		}
-	})
-	/*
 	var rd = parent.document.getElementById('rightDiv');
 	if (rd == null) return;
 	var vt = rd.querySelector('.verticalTabBarClass');
@@ -601,17 +588,9 @@ function setTabEvents() {
 	if (tabs.length == 0) return;
 	for (var i = 0; i < tabs.length; i++) {
 		if (tabs[i].textContent.search('BBOalert') == -1) {
-			if (tabs[i].onmousedown == null) tabs[i].onmousedown = function (event) {
-				e = event.target;
-				e.style.pointerEvents = "auto";
-				if ($(e).hasClass("selected")) {
-					if ($("#adpanel0", parent.document).is(":visible")) e.style.pointerEvents = "none";
-				}
-				setOptionsOff();
-			};
+			if (tabs[i].onmousedown == null) tabs[i].onmousedown = setOptionsOff;
 		}
 	}
-	*/
 }
 
 /**

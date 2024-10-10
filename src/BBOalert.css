@@ -20,3 +20,6 @@
   background-color: blue;
 }
 
+.selected.covered {
+  pointer-events: none;
+}
