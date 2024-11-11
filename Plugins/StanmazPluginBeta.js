@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3.15
+//BBOalert,stanmazPlugin version 3.7.1
 
-console.log("Plugin version : 3.6.3.15");
+console.log("Plugin version : 3.7.1");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -201,6 +201,10 @@ function BBOcontext() {
             $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", cfg.text_color_clubs);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", cfg.text_color_diamonds);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", cfg.text_color_hearts);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", cfg.text_color_spades);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
@@ -222,6 +226,10 @@ function BBOcontext() {
             $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", "");
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", "");
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", "");
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", "#000000");
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", "#CB0000");
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", "#CB0000");
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", "#000000");
         }
     }
     // End of user script code
@@ -513,8 +521,6 @@ function BBOcontext() {
         }
     };
     modified_OK_button = function (on) {
-        //    if (!buttonOKvisible()) return;
-        console.log("Plugin : call selected " + callText);
         var btok = $("bridge-screen bidding-box-button button", BBOcontext())[16];
         var btok_span = $("span", btok)[0];
         if (on) {
@@ -574,7 +580,6 @@ function BBOcontext() {
                         }
                         break;
                 }
-                console.log("Plugin 2 : " + txt1 + txt2 + " " + bkg + " " + clr + " " + fntsiz);
                 var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + '; font-size: ' + fntsiz +';">' + txt2 +'</span>';
                 console.log("Plugin 3 : " + h);
                 $(btok_span).hide();
