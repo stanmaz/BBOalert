@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.7
+//BBOalert,stanmazPlugin version 3.7.1
 
-console.log("Plugin version : 3.7");
+console.log("Plugin version : 3.7.1");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -201,10 +201,10 @@ function BBOcontext() {
             $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", text_color_clubs);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", text_color_diamonds);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", text_color_hearts);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", text_color_spades);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", cfg.text_color_clubs);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", cfg.text_color_diamonds);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", cfg.text_color_hearts);
+            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", cfg.text_color_spades);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
