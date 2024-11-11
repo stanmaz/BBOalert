@@ -201,10 +201,10 @@ function BBOcontext() {
             $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", cfg.background_color_double);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", cfg.text_color_redouble);
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", cfg.background_color_redouble);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", cfg.text_color_clubs);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", cfg.text_color_diamonds);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", cfg.text_color_hearts);
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", cfg.text_color_spades);
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", cfg.text_color_clubs);
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", cfg.text_color_diamonds);
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", cfg.text_color_hearts);
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", cfg.text_color_spades);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
@@ -226,10 +226,10 @@ function BBOcontext() {
             $(".auction-box-cell:contains('Dbl')", BBOcontext()).css("background-color", "");
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("color", "");
             $(".auction-box-cell:contains('Rdbl')", BBOcontext()).css("background-color", "");
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", "#000000");
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", "#CB0000");
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", "#CB0000");
-            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", "#000000");
+  //          $("span:visible", parent.document).filter(function() {return this.textContent=="♣"}).css("color", "#000000");
+  //          $("span:visible", parent.document).filter(function() {return this.textContent=="♦"}).css("color", "#CB0000");
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♥"}).css("color", "#CB0000");
+//            $("span:visible", parent.document).filter(function() {return this.textContent=="♠"}).css("color", "#000000");
         }
     }
     // End of user script code
