@@ -1,8 +1,8 @@
 
-//BBOalert,stanmazPlugin version 3.7.3
+//BBOalert,stanmazPlugin version 3.7.4
 
-console.log("Plugin version : 3.7.3");
-addBBOalertLog("<br>Plugin version : 3.7.3")
+console.log("Plugin version : 3.7.4");
+addBBOalertLog("<br>Plugin version : 3.7.4")
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
@@ -206,6 +206,10 @@ function BBOcontext() {
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♦"}).css("color", cfg.text_color_diamonds);
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♥"}).css("color", cfg.text_color_hearts);
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♠"}).css("color", cfg.text_color_spades);
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♣"}).css("color", cfg.text_color_clubs);
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♦"}).css("color", cfg.text_color_diamonds);
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♥"}).css("color", cfg.text_color_hearts);
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♠"}).css("color", cfg.text_color_spades);
         } else {
             $(".cardArea:contains('♣')", BBOcontext()).css("color", "black");
             $(".cardArea:contains('♦')", BBOcontext()).css("color", "");
@@ -231,6 +235,10 @@ function BBOcontext() {
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♦"}).css("color", "#CB0000");
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♥"}).css("color", "#CB0000");
             $("span:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♠"}).css("color", "#000000");
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♣"}).css("color", "#000000");
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♦"}).css("color", "#CB0000");
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♥"}).css("color", "#CB0000");
+            $("div.suitSymbolClass:visible", BBOcontext()).filter(function() {return elimineSpaces(this.textContent)=="♠"}).css("color", "#000000");
         }
     }
     // End of user script code
