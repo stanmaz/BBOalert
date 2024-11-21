@@ -730,9 +730,9 @@ This convention card together with the BBOalert data will become available for y
 BBOalert allows to store data on a file hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data. Actually three sites are supported with their specific limitations due to the particular data security implementation :
 
 - GoogleDocs : The data can be formatted as a pretty readable and printable document. Both partners can edit the document online
+- OneDrive : only ASCII text files are supported without the possiblity of online editing
 - Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format is standard for documentation purposed in Github environment.
 - Dropbox : only ASCII text files are supported without the possiblity of online editing
-- Google Blogger https://www.blogger.com
 
 We assume that you are familiar with the tool of your choice.
        
