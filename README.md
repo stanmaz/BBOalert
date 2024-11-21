@@ -34,7 +34,6 @@ Version : 8.3
     + [Using BBO convention card to share data](#using-bbo-convention-card-to-share-data)
     + [Web storage support](#web-storage-support)
       - [Google Docs](#google-docs)
-      - [GoogleDrive (discontinued)](#googledrive)
       - [OneDrive](#onedrive)
       - [Github](#github)
       - [Dropbox](#dropbox)
@@ -731,7 +730,6 @@ This convention card together with the BBOalert data will become available for y
 BBOalert allows to store data on a file hosting server and to import it dynamically at the beginning of each session. This facilitates the file sharing making sure that both partners use the same data. Actually three sites are supported with their specific limitations due to the particular data security implementation :
 
 - GoogleDocs : The data can be formatted as a pretty readable and printable document. Both partners can edit the document online
-- GoogleDrive : The data can be imported from text files stored in GoogleDrive.
 - Github : only ASCII text files are supported. Both partners can edit the data online. To make the data more readable the Markdown format should be used. Markdown format is standard for documentation purposed in Github environment.
 - Dropbox : only ASCII text files are supported without the possiblity of online editing
 - Google Blogger https://www.blogger.com
@@ -759,20 +757,6 @@ The public URL can be obtained in the following way :
 More details can be found in the document :
        
 https://docs.google.com/document/d/1XTma7fZbI0pRU3TtNFOLAG0sUKyBaXFtkQAu90rwfRY/edit?usp=sharing
-       
-#### GoogleDrive
-
-<b>Support discontinued</b>
-
-The data can be imported from text files stored in GoogleDrive cloud. The URL link for public viewing should be used with the “Import” record. Note : the file size is limited to 260k bytes
-
-The public URL can be obtained in the following way :
-       
-- open the GoogleDrive folder containing the file
-- select the file with the right mouse button
-- select the "Get link" command
-- make sure that under "General Access" the "Anyone with the link" and "Viewer" options are selected
-- Press the “Copy link” button
 
 #### OneDrive
 
