@@ -573,7 +573,6 @@ function BBOcontext() {
                         break;
                 }
                 var h ='<span class="temp">' + txt1 + '</span><span class="temp" style="color:' + clr + '; font-size: ' + fntsiz +';">' + txt2 +'</span>';
-                console.log("Plugin 3 : " + h);
                 $(btok_span).hide();
                 $(btok).find(".temp").remove();
                 $(btok_span).after(h);
