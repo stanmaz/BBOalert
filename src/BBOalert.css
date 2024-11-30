@@ -20,6 +20,7 @@
   background-color: blue;
 }
 
-.selected.covered {
-  pointer-events: none;
+.verticalClass.selected.covered {
+  background-color: white  !important;
+  color: rgba(0, 0, 0, 0.51)  !important;
 }

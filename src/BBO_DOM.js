@@ -189,6 +189,7 @@ function buttonOKvisible() {
  * display BBOalert panel if on=true. Otherwise hide it
  */
 function setOptions(on) {
+	setTabEvents();
 	var adPanel0 = parent.document.getElementById("adpanel0");
 	if (adPanel0 == null) return;
 	if (on) {
@@ -206,11 +207,11 @@ function setOptions(on) {
 	var t = b.querySelector('.verticalClass');
 	if (t == null) return;
 	if (on) {
-		t.style.backgroundColor = "green";
+		t.style.backgroundColor = "rgb(49, 96, 191)";
 		t.style.color = 'white';
 	} else {
-		t.style.backgroundColor = "rgb(209, 214, 221)";
-		t.style.color = 'black';
+		t.style.backgroundColor = "white";
+		t.style.color = 'rgba(0, 0, 0, 0.51)';
 	}
 }
 
@@ -586,11 +587,22 @@ function setTabEvents() {
 	var tabs = vt.children;
 	if (tabs == null) return;
 	if (tabs.length == 0) return;
+	window.xxxx = tabs;
+	if (parent.document.querySelector(".verticalTabBarClass").onmouseup == null) 
+		parent.document.querySelector(".verticalTabBarClass").onmouseup = function () 
+		{
+			console.log("up");
+			$("tab-bar-button" ,parent.document).css("pointer-events", "");						
+		}
 	for (var i = 0; i < tabs.length; i++) {
 		if (tabs[i].textContent.search('BBOalert') == -1) {
-			if (tabs[i].onmousedown == null) tabs[i].onmousedown = setOptionsOff;
+			if (tabs[i].onmousedown == null) tabs[i].onmousedown = function () 
+				{
+					$("tab-bar-button" ,parent.document).has(".selected.covered").css("pointer-events", "none");
+					setOptionsOff();
+				}
+			}
 		}
-	}
 }
 
 /**
