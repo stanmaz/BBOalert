@@ -218,6 +218,7 @@ function setControlButtons() {
 		settingsSelector.add(new Option('Disable auto-alerts'));
 		settingsSelector.add(new Option('Silent startup'));
 		settingsSelector.add(new Option('BBOalert button'));
+		settingsSelector.add(new Option('Deferred alerts'));
 		settingsSelector.onchange = function () {
 			if (this.selectedIndex > 0) {
 				if (this.options[this.selectedIndex].textContent.slice(0, 1) == CHECKED_CHAR) {

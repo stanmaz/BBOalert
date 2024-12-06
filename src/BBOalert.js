@@ -773,7 +773,6 @@ function findAlert(context, call) {
 	var symkey;
 	var symval;
 	var foundRecord = "";
-	if (isSettingON(6)) return "";
 	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
 	var scan = new BBOalertData();
 	while ((txt = scan.getNextRecord()) != null) {
@@ -855,62 +854,7 @@ function findAlert(context, call) {
 	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
 		'|' + context + '|' + call + '|' + matchFound + '|' + alertText + '|' + trustedBid + ']');
 	console.timeEnd("findalert");
-	return alertText;
-}
-
-
-/**
- * @ignore
- */
-function findAlertOLD(context, call) {
-	trustedBid = false;
-	var trustedZone = false;
-	var lastContext = "";
-	var alertText = "";
-	var txt = '';
-	var matchFound = false;
-	if (document.getElementById('bboalert-ds').selectedIndex == 2) return "";
-	var scan = new BBOalertData();
-	while ((txt = scan.getNextRecord()) != null) {
-		rec = txt.split(",");
-		// Keyword Option alone end optional block
-		if (txt == 'Trusted') trustedZone = true;
-		if (txt == 'Untrusted') trustedZone = false;
-		if (txt == 'Option') matchOption = true;
-		//		if (rec.length < 2) continue;
-		rec[0] = rec[0].replace(/!/g, "");
-		currentContext = elimineSpaces(rec[0].trim());
-		if (currentContext == "+") {
-			currentContext = lastContext;
-		} else {
-			lastContext = currentContext;
-		}
-		if (rec.length < 3) continue;
-		rec[1] = rec[1].replace(/!/g, "");
-		if (!matchContext(rec[1].trim(), call)) continue;
-		currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
-		if (matchContext(currentContext, stripContext(context))) {
-			matchFound = true;
-			idx = alertTableCursor;
-			alertText = scan.replaceAliases(rec[2], "E");
-			trustedBid = trustedZone;
-			foundContext = currentContext;
-			foundCall = rec[1].trim();
-		}
-		if (matchContext(currentContext, context)) {
-			matchFound = true;
-			alertText = scan.replaceAliases(rec[2], "E");
-			trustedBid = trustedZone;
-			foundContext = currentContext;
-			foundCall = rec[1].trim();
-		}
-	}
-	alertText = normalize(alertText);
-	// Confirm bid id match not found
-	if (!matchFound) trusteBid = false;
-	alertText = updateAlertText(alertText);
-	addLog('find:[' + getDealNumber() + '|' + mySeat() + '|' + areWeVulnerable() + '|' + ourVulnerability() + '|' + getSeatNr() +
-		'|' + context + '|' + call + '|' + matchFound + '|' + alertText + '|' + trustedBid + ']');
+	if (isSettingON(6)) return "";
 	return alertText;
 }
 
@@ -1068,6 +1012,8 @@ function getAlert() {
 	var elAlertExplain = getExplainInput();
 	if (elAlertExplain == null) return;
 	var alertText = findAlert(getContext(), callText);
+	alertHistoryMap.set(getContext() + callText, alertText);
+	if (isSettingON(9)) alertText = "";
 	lastQueryContext = getContext();
 	lastQueryCall = callText;
 	alertText = execUserScript(alertText);

@@ -210,6 +210,7 @@ function onAuctionBoxDisplayed() {
         if (getContext() == '') {
             BBOalertEvents().dispatchEvent(E_onAuctionBegin);
             bidSymbolMap.clear();
+            alertHistoryMap.clear();
             execUserScript('%onAuctionBegin%');
         }
     }, 200);
@@ -268,19 +269,36 @@ function onNewActivePlayer() {
 }
 
 function onExplainCallDisplayed() {
-    getExplainCallBox().onkeyup = inputOnKeyup;
-    getExplainCallBox().oninput = inputChanged;
+    getExplainCallInput().onkeyup = inputOnKeyup;
+    getExplainCallInput().oninput = inputChanged;
 //    $(getExplainCallBox()).draggable();
-    getExplainCallInput().setAttribute("maxlength", "69");
+//    getExplainCallInput().setAttribute("maxlength", "69");
     //    getExplainCallBox().onfocus = inputOnFocus;
+    var x = $(".headingClass", getExplainCallBox())[0];
+    var bok = $(getExplainCallBox()).find("button")[0].onclick = function () {
+        sendAlertChat();
+    }
+    x.onclick = function () {
+        var b = translateCall($(".headingClass", getExplainCallBox()).text().split(" ").at(-1));
+        var c = getContext().substring(0, getContext().indexOf(b));
+        setExplainCallText(findAlert(c,b));
+        if(trustedBid) $(getExplainCallBox()).find("button").click();
+    };
     var e = getExplainCallInput();
     if (e.onclick == null) {
         e.onclick = function () {
             toggleButtons(this);
         };
     }
-    getExplainCallBox().style.width = "auto";
-    getExplainCallBox().style.height = "auto";
+//    if (getExplainCallInput().value == "") setExplainCallText(getExplainCallAlert().substring(0,39));
+    if (getExplainCallInput().value == "") {
+        var b = translateCall($(".headingClass", getExplainCallBox()).text().split(" ").at(-1));
+        var c = getContext().substring(0, getContext().indexOf(b));
+        setExplainCallText(findAlert(c,b));
+        if(trustedBid) $(getExplainCallBox()).find("button").click();
+    }
+//    getExplainCallBox().style.width = "auto";
+//    getExplainCallBox().style.height = "auto";
     BBOalertEvents().dispatchEvent(E_onExplainCallDisplayed);
     execUserScript('%onExplainCallDisplayed%');
 }
