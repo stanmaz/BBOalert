@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 8.4
+Version : 8.5
 
 **Table Of Content**
 
@@ -157,6 +157,9 @@ The "Settings" menu contains commands to enable/disable features :
 - <b>Hover BBO Tabs</b> : if enabled the BBO tabs at the right side are selected by moving the mouse over the tab
 - <b>Collapse Options</b> : if enabled the mutually exclusive blocks of data are grouped together and only the selected block is shown. This feature is particullary usefull to save space on the panel when many blocks are defined
 - <b>Disable recording</b> : if set, the manual alerts are not recorded
+- <b>Silent startup</b> : if set, BBOalert well remain hidden while starting the BBO session
+- <b>BBOalert button</b> : if set, a button will be used instead of athe tab to toggle the BBOalert panel
+- <b>Deferred alerts</b> : if set, automatic alert explanation will happen only on demand by opponents
   
 You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
