@@ -90,10 +90,10 @@ Sample of selectable blocks of data
 
 Reserved tags @n and @v will enable automatic switching of code depending on actual
 vulnerability.
-    Option,MyOpenings @n
+    Option,MyOpenings_@n
     ,1N,12-14 balanced
 
-    Option,MyOpenings @v
+    Option,MyOpenings_@v
     ,1N,15-17 balanced
 
 Bare 'Option' keyword will end the optional block 
@@ -106,6 +106,8 @@ Option,2D Multi,john
 Option,2D Weak,joe
 ,2D,weak card 6!D
 Option
+
+
 
 
 
