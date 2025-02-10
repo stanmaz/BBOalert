@@ -117,6 +117,7 @@ Examples :
 ,    3H,    @T@D preempt with hearts,    combination of both
 ,    3S,    @A preempt with spades,      alert button automatically pressed
 ,    3N,    @A,                          alerted and to be explained manually
-,    4C,    @A@D
+,    4C,    @D                           alerted and explained when the opponents require it
+
 
 
