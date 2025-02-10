@@ -21,7 +21,9 @@ Empty lines are allowed for better readability
 Comment lines like this are ignored
 
 Example :
-    1C--1D--1H--,	1N,		explanation text, 
+    1C--1D--1H--,1N,explanation text
+For better readability leading spaces or tabs are allowed
+    1C--1D--1H--,	1N,		explanation text
 
 Note -- which represents passed oponents. Instead of -- you can use double underscore __ as wild card
 if the meaning of the call does not depend of eventual overcalls made by oponents.
@@ -29,27 +31,24 @@ In the example below, the meaning of each of each call remains the same, even if
     1C__1D__1H__,	1N,		explanation text,
 
 The opening bid must begin with empty field
-    ,1C,17+HCP any distribution,Comment: this is the typical opening bid of Precision System
+    ,    1C,    17+HCP any distribution,Comment: this is the typical opening bid of Precision System
 
 The negative response to 1C opening is 1D
-    1C--,1D,0-7HCP any distribution
+    1C--,    1D,    0-7HCP any distribution
 The bidding context is 1C-- which means opening 1C followed by opponent's pass (-- code)
 
 Opener's rebid after 1D response will be coded
-    1C--1D--,1N,17-19HCP balanced hand
+    1C--1D--,    1N,    17-19HCP balanced hand
 
 Similar after the 1H overcall after 1D
-    1C--1D1H,1N,17-19HCP balanced hand
+    1C--1D1H,    1N,    17-19HCP balanced hand
 
 If the opening is seat sensitive you should mention explicitely initial passes
-    ----,1H,9-14HCP 4+!S
-    ----1S--,2C,10-11p Drury after initial pass
+    ----,    1H,    9-14HCP 4+!S
+    ----1S--,    2C,    10-11p Drury after initial pass
 
 Our own overcalls after opponent's opening are represented by code
-    1H,2N,minor two-suiter
-
-For better readability leading spaces or tabs are allowed
-    1H,     2N,     minor two-suiter
+    1H,    2N,    minor two-suiter
 
 If the same bidding sequence is defined twice, only the last one will be considered.
 Typical situation when, during the game, you modify the exeplanation for the alerted call.
@@ -99,11 +98,11 @@ vulnerability.
 Bare 'Option' keyword will end the optional block 
     Option
 
-The options can be enabled only for a spacific partner if you provide his user-id with the optio
+The options can be enabled only for a spacific partner if you provide both user-id's with the option
 
-Option,2D Multi,john
+Option,2D Multi,myUID+johnUID
 ,2D,weak 6M or any strong hand
-Option,2D Weak,joe
+Option,2D Weak,meUID+joeUID
 ,2D,weak card 6!D
 Option
 
