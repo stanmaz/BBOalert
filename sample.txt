@@ -1,11 +1,9 @@
-BBOalert, file must begin with BBOalert keyword 1.5.1
+BBOalert, Sample data 1.5.1
 
 You can use this sample data to test BBOalert features. You should :
-- press 'Raw' button on this page
-- Ctrl-A to select all text
-- Ctrl-C to copy it to the clipboard
+- copy in the clipboard the URL of this file : https://github.com/stanmaz/BBOalert/edit/master/sample.txt
 - In BBO, after successfull login
-    - press 'Import' button
+    - press "Data.../Paste (New)" menu button on the blue BBOalert panel
     - Practice
     - Start a Teaching Table
     - Start Table
