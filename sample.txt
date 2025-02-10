@@ -107,11 +107,16 @@ Option,2D Weak,meUID+joeUID
 Option
 
 Advanced automation features :
-
+Explanation supplementary flags :
+    @T    =    trusted explanation
+    @D    =    deferred explanation
+    @A    =    alert flag set
+Examples :
 ,    3C,    @T preempt with clubs,       trusted explanation sent directly to opponernts
 ,    3D,    @D preempt with diamonds,    will be explained later on opponent's request
 ,    3H,    @T@D preempt with hearts,    combination of both
 ,    3S,    @A preempt with spades,      alert button automatically pressed
-,    3N,    @A,                          alerted and to be explained manually on request
+,    3N,    @A,                          alerted and to be explained manually
+,    4C,    @A@D
 
 
