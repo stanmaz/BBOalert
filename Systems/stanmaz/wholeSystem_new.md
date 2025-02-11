@@ -1,5 +1,5 @@
-    //BBOALERT, Entire system with URL list 1.1
-    Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
+    //BBOALERT, Entire system with URL list 1.2
+    **Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
     
     Import,my_scripts.md,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
     Import,myturn.txt,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
