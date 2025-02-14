@@ -824,7 +824,7 @@ ASCII text files stored with Google Drive are supported. To get the file URL for
 - Go to Google Drive
 - Select the ASCII file with the right mouse button
 - Select “Share” command
-- Select “Share” frome the popup menu
+- Select “Share” from the popup menu
 - Make sure “Anyone with this link” is set to “Viewer”
 - Press “Copy link” to get the URL into the clipboard
 
