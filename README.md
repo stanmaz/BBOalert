@@ -164,6 +164,8 @@ The "Settings" menu contains commands to enable/disable features :
   
 You will find detailed information later in this text but before you continue to read it it is recommended to get familiar with the basic BBOalert functions by following the [tutorial](Tutorial/GettingStarted.pdf).
 
+Thru the "Plugin settings..." menu addional self-explanatory utilities can be enabled and configured. 
+
 ## Data import/export
 
 BBOalert uses the clipboard to import or export data. Using the clipboard instead of direct file access gives the user the freedom of choice of text editing tool. The code can be edited as a simple ASCII file or with any text processing tool like Word. To read the data from a file :
