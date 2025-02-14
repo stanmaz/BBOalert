@@ -554,7 +554,55 @@ The code between the keywords 'Trusted' and 'Untrusted' will not require to be c
 
 ### Auction control tags
 
+Tags may be used in the call explanation text to automate some actions making the auction more fluid.
 
+- @T = makes the call “Trusted”. The call will be confirmed automatically bypassing the OK button. This is to be used with calls you are 100% confident in (e.g. openings)
+- @t = makes the call “Untrusted”. It will override the global “Trusted” flag.
+- @D = deferred call explanation. You will explain the call only on explicit request of an opponent. 
+- @d = overrides the global “Deferred alerts” flag from the “Settings” menu for a particular explanation. (see Release notes version 8.5)
+- @A =  sets the “Alert” button
+
+The tags may be anywhere in the text and may be combined. They will be removed before sending the explanation to the opponents. Examples : 
+
+Trusted call. Explanation will be sent immediately without verification.
+
+    ,	1C,	@T explanation
+
+Same effect
+
+    ,	1C,	explanation @T
+
+Deferred call explanation. The call is automatically alerted but will be explained later on explicit request by opponents.
+
+    ,	1C,	@D explanation
+
+Trusted and deferred call explanation.
+
+    ,	1C,	@T@D explanation
+
+Alerted call without explanation (to be explained manually
+on demand). 
+
+    ,	1C,	@D
+
+All bids are trusted except 1D opening and calls beyond the “Untrusted” keyword
+Trusted
+
+    ,	1C,	explanation
+    ,	1D,	@t explanation
+    ,	1H,	explanation
+
+Untrusted
+
+    ,	1S, explanation
+
+Alerted call without explanation (to be explained manually).
+
+    ,	1C,	@A
+
+Alerted call without explanation (to be explained manually on explicit request by opponents)
+
+    ,	1C,	@D
 
 ### Keyboard Shortcuts
 
