@@ -27,6 +27,7 @@ Version : 8.5
     + [Optional code](#optional-code)
     + [Partnership options](#partnership-options)
     + [Trusted code](#trusted-code)
+    + [Auction control tags](#auction-control-tags)
     + [Keyboard Shortcuts](#keyboard-shortcuts)
     + [Button Shortcuts](#button-shortcuts)
     + [Alias](#alias)
@@ -550,6 +551,10 @@ The code between the keywords 'Trusted' and 'Untrusted' will not require to be c
       ,1D,11-15HCP not 5 card major
       Untrusted
       ,1N,13-15HCP balanced
+
+### Auction control tags
+
+
 
 ### Keyboard Shortcuts
 
