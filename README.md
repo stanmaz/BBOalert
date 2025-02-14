@@ -35,6 +35,7 @@ Version : 9.0
     + [Using BBO convention card to share data](#using-bbo-convention-card-to-share-data)
     + [Web storage support](#web-storage-support)
       - [Google Docs](#google-docs)
+      - [Google Drives](#google-drive)
       - [OneDrive](#onedrive)
       - [Github](#github)
       - [Dropbox](#dropbox)
@@ -815,6 +816,18 @@ The public URL can be obtained in the following way :
 More details can be found in the document :
        
 https://docs.google.com/document/d/1XTma7fZbI0pRU3TtNFOLAG0sUKyBaXFtkQAu90rwfRY/edit?usp=sharing
+
+### Google Drive
+
+ASCII text files stored with Google Drive are supported. To get the file URL for the “Import” record : 
+- Go to Google Drive
+- Select the ASCII file with the right mouse button
+- Select “Share” command
+- Select “Share” frome the popup menu
+- Make sure “Anyone with this link” is set to “Viewer”
+- Press “Copy link” to get the URL into the clipboard
+
+The file may not exceed 250kb.
 
 #### OneDrive
 
