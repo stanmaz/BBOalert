@@ -1,7 +1,7 @@
 
-//BBOalert,stanmazPlugin version 3.6.3
+//BBOalert,stanmazPlugin version 3.6.4
 
-console.log("Plugin version : 3.6.3");
+console.log("Plugin version : 3.6.4");
 
 function BBOcontext() {
     if (document.title != 'Bridge Base Online') return window.parent.document;
