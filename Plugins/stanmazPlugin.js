@@ -295,7 +295,7 @@ function BBOcontext() {
 })();
 
 (function () {
-    var title = "Miscellaneous simple scripts v1.0";
+    var title = "Miscellaneous simple scripts";
     var cfg = {};
     cfg.Enable_chat_timestamp = false;
     cfg.Move_table_left = false;
