@@ -1,4 +1,4 @@
-if (document.title.startsWith("BBOalert 8") {
+if (document.title.startsWith("BBOalert 8")) {
 
 //BBOalert,stanmazPlugin version 3.6.4
 
