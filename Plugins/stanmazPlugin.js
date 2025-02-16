@@ -305,7 +305,7 @@ function BBOcontext() {
     cfg.Swap_bidding_buttons = false;
     cfg.Auto_chat_to_opponents = false;
     cfg.Disable_alerts_with_casual_partner = false;
-    cfg.Remove_Ads = false;
+//    cfg.Remove_Ads = false;
     cfg.T_for_10 = false;
     addBBOalertEvent("onDataLoad", function () {
         console.log("Title = " + title);
