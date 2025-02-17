@@ -167,7 +167,7 @@ You will find detailed information later in this text but before you continue to
 
 Thru the "Plugin settings..." menu addional self-explanatory utilities can be enabled and configured. 
 - <b>BBO event logging</b> : produces a CSV log file containing all relevant events with timing information. Can be usefull as evidence of slow play.
-- <b>Modified suit colors</b> : allows to customize suit colors. [Standard HTML color names](https://www.w3schools.com/html/html_colors.asp) or rgb(red, green, blue) code may be used. Example for red : <b>rgb(255,0,0)</b>.
+- <b>Modified suit colors</b> : allows to customize suit colors. [Standard HTML color names](https://www.w3schools.com/html/html_colors.asp) or rgb(red, green, blue) code may be used. Example for red : <b>rgb(255,0,0)</b>
   
 ![](./images/ModifiedSuitColors.png)
 
