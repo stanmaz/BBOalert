@@ -181,7 +181,7 @@ Through the "Plugin settings..." menu addional self-explanatory utilities can be
     - <b>Modified OK button</b> : The OK text is replaced by the actually selected call for better control before confirming.
     - <b>Swap bidding buttons</b> : The OK button is moved to the left side of the bidding box, PASS, DBL, RDBLand ALERT buttons to the right side.
     - <b>Auto chat to opponents</b> : the chat destination will be automatically set to OPPONENTS between the auction begin and the last trick played. Thereafter it will be set back to TABLE.
-    - <b>Disable alerts with casual partner</b> : automatic alerts will be disabled when you don't play wit a partner not defined in the OPTION parnership.
+    - <b>Disable alerts with casual partner</b> : automatic alerts will be disabled when you play with a partner not defined in any OPTION parnership.
     - <b>T for 10</b> : T will be used instead of 10 on card symbols.
 
 ## Data import/export
