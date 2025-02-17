@@ -167,12 +167,12 @@ You will find detailed information later in this text but before you continue to
 
 Thru the "Plugin settings..." menu addional self-explanatory utilities can be enabled and configured. 
 - <b>BBO event logging</b> : produces a CSV log file containing all relevant events with timing information. Can be usefull as evidence of slow play.
-- <b>Modified suit colors</b> : allows to customize suit colors. [Standard HTML color names](https://www.w3schools.com/html/html_colors.asp) or rgb(red, green, blue) code may be used. Example for red : <b>rgb(255,0,0)</b>
+- <b>Modified suit colors</b> : allows customization of suit colors. [Standard HTML color names](https://www.w3schools.com/html/html_colors.asp) or rgb(red, green, blue) code may be used. Example for red : <b>rgb(255,0,0)</b>
   
 ![](./images/ModifiedSuitColors.png)
 
 - <b>Automatic prealert</b> : The text defined with the PREALERT shortcut will be sent as chat when opponents change. Instead of PREALERT you may use your own shortcut name.
-- <b>Bidding timeout</b> : will automatically produce a chat messages when the opponents exceed the defined time limits.
+- <b>Bidding timeout</b> : will automatically produce chat messages when the opponents exceed the defined time limits.
 - <b>Miscellaneous simple scripts</b> :
     - <b>Enable chat timestamp</b> : adds a timestamp to each new chat message
     - <b>Move table left</b> : pushes the table area to the left side of the screen to maximize the space reserved to the BBOalert panel
@@ -182,7 +182,7 @@ Thru the "Plugin settings..." menu addional self-explanatory utilities can be en
     - <b>Swap bidding buttons</b> : The OK button is moved to the left side of the bidding box, PASS, DBL, RDBLand ALERT buttons to the right side.
     - <b>Auto chat to opponents</b> : the chat destination will be automatically set to OPPONENTS between the auction begin and the last trick played. Thereafter it will be set back to TABLE.
     - <b>Disable alerts with casual partner</b> : automatic alerts will be disabled when you don't play wit a partner not defined in the OPTION parnership.
-    - <b>T for 10</b> : T will be used instead 10 on card symbols.
+    - <b>T for 10</b> : T will be used instead of 10 on card symbols.
 
 ## Data import/export
 
