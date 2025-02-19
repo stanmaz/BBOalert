@@ -6,6 +6,7 @@ Version : 9.0
 
   * [Purpose](#purpose)
   * [Installation](#installation)
+  * [Menus](#menus)
   * [Data import/export](#data-importexport)
   * [Recommended way of using BBOalert](#recommended-way-of-using-bboalert)
   * [Alert button](#alert-button)
@@ -142,6 +143,8 @@ BBOalert creates four panels :
 - "Documents" : to display release notes and imported documents
 
 The panels can be selected by clicking the corresponding buttons at the top of the panel.
+
+### Menus
 
 The "Data" menu contains commands related to the data input/output :
 
