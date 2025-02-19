@@ -157,12 +157,13 @@ The "Data" menu contains commands related to the data input/output :
 
 The "Settings" menu contains commands to enable/disable features :
 
-- <b>Shortcuts</b> : if enabled the "Shortcuts" panel will appear automatically at the start of text entry (chat or alert text)
-- <b>Hover BBOalert Tabs</b> : if enabled the BBOalert panels are selected by moving the mouse over the corresponding button at the top of the BBOalert panel
-- <b>Hover BBO Tabs</b> : if enabled the BBO tabs at the right side are selected by moving the mouse over the tab
-- <b>Collapse Options</b> : if enabled the mutually exclusive blocks of data are grouped together and only the selected block is shown. This feature is particullary usefull to save space on the panel when many blocks are defined
+- <b>Shortcuts</b> : if enabled, the "Shortcuts" panel will appear automatically at the start of text entry (chat or alert text)
+- <b>Hover BBOalert Tabs</b> : if enabled, the BBOalert panels are selected by moving the mouse over the corresponding button at the top of the BBOalert panel
+- <b>Hover BBO Tabs</b> : if enabled, the BBO tabs at the right side are selected by moving the mouse over the tab
+- <b>Collapse Options</b> : if enabled, the mutually exclusive blocks of data are grouped together and only the selected block is shown. This feature is particullary usefull to save space on the panel when many blocks are defined
 - <b>Disable recording</b> : if set, the manual alerts are not recorded
-- <b>Silent startup</b> : if set, BBOalert well remain hidden while starting the BBO session
+- <b>Disable auto-alerts</b> : if set, automatic alerting mechanism is disabled
+- <b>Silent startup</b> : if set, BBOalert will remain hidden while starting the BBO session
 - <b>BBOalert button</b> : if set, a button will be used instead of athe tab to toggle the BBOalert panel
 - <b>Deferred alerts</b> : if set, automatic alert explanation will happen only on demand by opponents
   
