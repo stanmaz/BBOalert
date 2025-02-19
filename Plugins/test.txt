@@ -1,3 +1,0 @@
-bboalert,test beta plugin
-Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
-Javascript,https://github.com/stanmaz/BBOalert/blob/master/Plugins/StanmazPluginBeta.js
