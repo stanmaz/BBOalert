@@ -1,0 +1,4 @@
+
+initGlobals();
+DEBUG = false;
+
