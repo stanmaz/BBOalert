@@ -77,6 +77,6 @@ function delay(duration) {
     });
 }
 //Script
-Shortcut,SBT,%setTeachingTable%
+Shortcut,SBT,%setBiddingTable%
 
 
