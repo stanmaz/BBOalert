@@ -19,3 +19,7 @@ $(".navBarClass .titleClass", window.parent.document).text(txt);
 var l = $("bridge-screen deal-viewer .coverClass .cardSurfaceClass .topLeft", parent.window.document).length;
 if((l%13) == 0) displayHCP();
 //Script
+//Script,onAnyMutation
+var l = $("bridge-screen deal-viewer .coverClass .cardSurfaceClass .topLeft", parent.window.document).length;
+if((l%13) == 0) displayHCP();
+//Script
