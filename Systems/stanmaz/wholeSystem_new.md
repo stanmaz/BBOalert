@@ -1,6 +1,6 @@
     //BBOALERT, Entire system with URL list 1.2
     **Javascript,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Plugins/stanmazPlugin.js
-    
+    Script,onDataLoad,$("#bbo_ad1,#bbo_ad2", PWD).remove();$(parent.window).trigger('resize');
     Import,my_scripts.md,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/my_scripts.md
     Import,myturn.txt,https://github.com/stanmaz/BBOalert/blob/master/Scripts/test/myturn.txt
     Import,Lang_EN_file,https://raw.githubusercontent.com/stanmaz/BBOalert/master/Systems/stanmaz/lang_en.md
