@@ -49,36 +49,26 @@ For recent changes see actual release notes :
 
 https://docs.google.com/document/d/e/2PACX-1vQ_8Iv9HbBj4nWDXSY_kHsW1ZP_4c4dbOVO0GLuObJc1vFu_TBg9oV6ZJXMWd_tLITOj7i6WaJBeZJI/pub
 
-The purpose of this browser extension is to reduce to the absolute minimum the manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
-
-<b>All you need in the beginning, is to install BBOalert and play normally.</b> BBOalert will :
-
-- record alerted calls
-- alert automatically the recorded calls
-
-Thereafter you can decide to use advanced features if needed:
-
-- efficient coding alerts using wild cards, RegEx expressions and user scripts
-- declare conventions in optional blocks of code that can be turned ON and OFF
-- declare which conventions you play with which partner
-- Seat-dependent openings and development
-- Vulnerability-dependent openings and development
-- Keyboard and button shortcuts and abbreviations
-- Full Disclosure BSS file support
-- add custom features using Javascript
-- share your data using Google Drive, Dropbox or Github storage
-
-If you you decide to use BBOalert, join the users community on Facebook 
-
-   https://www.facebook.com/groups/706384146770707/
-
-Facebook should be used to :
-
-- report bugs
-- propose enhancements
-- ask questions
-
 We assume that you are familiar with BBO.
+
+BBOalert is a browser extension that minimizes manual operations due to the alerting procedure while playing bridge on BBO (www.bridgebase.com).
+
+It records alerted calls and automatically alerts the recorded calls.
+
+It offers advanced features such as :
+- efficiently coding alerts using wild cards, RegEx expressions and user scripts
+- declaring conventions in optional blocks of code that can be turned on and off
+- declaring which conventions you play with which partner
+- seat-dependent openings and development
+- vulnerability-dependent openings and development
+- keyboard and button shortcuts and abbreviations
+- Full Disclosure BSS file support
+- adding custom features using Javascript
+- sharing your data using Google Drive, OneDrive, Dropbox or Github storage.
+
+If you decide to use BBOalert, join the users community on Facebook : https://www.facebook.com/groups/706384146770707/
+
+Facebook should be used to report bugs, propose enhancements and ask questions.
 
 ## Purpose
 
