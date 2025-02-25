@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 9.0
+Version : 9.0.0.4
 
 **Table Of Content**
 
