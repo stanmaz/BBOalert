@@ -1,0 +1,2 @@
+bboalert
+Script,onAnyMutation,console.log("onAnyMutation");
