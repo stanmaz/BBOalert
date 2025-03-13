@@ -8,34 +8,36 @@
 		"48": "BBOalert48.png",
 		"128": "BBOalert128.png"
 	},
-	"web_accessible_resources": [{
-		"resources": [
-			"iframe/globals.js",
-			"iframe/BBO_DOM.js",
-			"iframe/blogspot.js",
-			"iframe/functions.js",
-			"iframe/BBOalertData.js",
-			"iframe/BBOalert.js",
-			"iframe/BBOalertFind.js",
-			"iframe/BBOalertConfig.js",
-			"iframe/custom_syntax.js",
-			"iframe/BBOalertUI.js",
-			"iframe/BBOalertOptions.js",
-			"iframe/BBOobserver.js",
-			"iframe/BBOobserverHandlers.js",
-			"iframe/webStorage.js",
-			"iframe/BBOalertPlugin.js",
-			"iframe/init.js"
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"iframe/globals.js",
+				"iframe/BBO_DOM.js",
+				"iframe/blogspot.js",
+				"iframe/functions.js",
+				"iframe/BBOalertData.js",
+				"iframe/BBOalert.js",
+				"iframe/BBOalertFind.js",
+				"iframe/BBOalertConfig.js",
+				"iframe/custom_syntax.js",
+				"iframe/BBOalertUI.js",
+				"iframe/BBOalertOptions.js",
+				"iframe/BBOobserver.js",
+				"iframe/BBOobserverHandlers.js",
+				"iframe/webStorage.js",
+				"iframe/BBOalertPlugin.js",
+				"iframe/init.js"
+			],
+			"matches": [
+				"https://*/*"
+			]
+		}
 	],
-		"matches": [
-			"https://*/*"
-		]
-	}],
- "browser_specific_settings": {
-    "gecko": {
-        "id": "{1c6494f5-d8e3-4877-a269-2adf40fc1f9a}"
-    }
-  },
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{1c6494f5-d8e3-4877-a269-2adf40fc1f9a}"
+		}
+	},
 	"content_scripts": [
 		{
 			"matches": [
@@ -46,13 +48,13 @@
 			"css": [
 				"BBOalert.css"
 			],
-			"js": [ 
+			"js": [
 				"jquery-3.5.1.min.js",
 				"googleDocs.js",
 				"BBOalertIframe.js",
 				"main.js"
 			],
-			"all_frames":true
+			"all_frames": true
 		}
 	]
 }
