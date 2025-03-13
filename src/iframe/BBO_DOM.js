@@ -546,12 +546,15 @@ function getActivePlayer() {
     var name = $('bridge-screen deal-viewer .nameBarClass', PWD)
         .filter(function () {
             return this.style.backgroundColor === "rgb(255, 206, 0)";
-        }).find(".nameDisplayClass").text().toLowerCase();
-    if (name != '') return name;
-    return $('bridge-screen deal-viewer .nameBarClass', PWD)
-        .filter(function () {
-            return this.style.backgroundColor === "rgb(204, 204, 154)";
-        }).find(".nameDisplayClass").text().toLowerCase();
+        }).text();
+    if (name == '') {
+        name = $('bridge-screen deal-viewer .nameBarClass', PWD)
+            .filter(function () {
+                return this.style.backgroundColor === "rgb(204, 204, 154)";
+            }).text();
+    }
+    // return direction + UID in lower case
+    return name.charAt(0) + name.substring(1).toLowerCase();
 }
 
 /**
@@ -692,17 +695,20 @@ function sendPrivateChat(uid, text) {
  * retrieve my hand into a string
  */
 function getMyHand() {
-    return $('#navDiv .cardClass .topLeft', PWD).filter(function () {
-        return this.parentElement.parentElement.parentElement.style.zIndex.startsWith("1")
-    }).text().replaceAll("10", "T");
+    return getHandBySeat(mySeat());
 }
 
 /**
  * retrieve partner's hand if visible
  */
 function getPartnerHand() {
-    return $('#navDiv .cardClass .topLeft', PWD).filter(function () {
-        return this.parentElement.parentElement.parentElement.style.zIndex.startsWith("3")
+    return getHandBySeat(partnerSeat());
+}
+
+function getHandBySeat(seat) {
+    var zidx = ("SWNE".indexOf(seat)+1).toString();
+    return $('#navDiv .cardClass .topLeft:visible', PWD).filter(function () {
+        return this.parentElement.parentElement.parentElement.style.zIndex.startsWith(zidx)
     }).text().replaceAll("10", "T");
 }
 
@@ -924,4 +930,9 @@ function setBiddingButtonEvents() {
 		}
 	}
 	);
+}
+
+function disableSplitScreenSwitch() {
+    if ($($("settings-list ion-toggle", PWD).get(0)).attr("aria-checked")) 
+        $($("settings-list ion-toggle", PWD).get(0)).attr("disabled", "true");
 }

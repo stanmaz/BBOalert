@@ -682,7 +682,7 @@ function PluginInit() {
             #bbo_app {
                 left: 0px !important;
                 right: 0px !important;
-                width: "" !important;
+                width: 100% !important;
             }
             #bbo_ad1,#bbo_ad2 {
                 display: none !important;

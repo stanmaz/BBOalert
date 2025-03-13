@@ -17,6 +17,7 @@ function onAnyMutation() {
         }
     }
     hover_bboalert();
+    disableSplitScreenSwitch();
     BBOalertEvents().dispatchEvent(E_onAnyMutation);
     execUserScript('%onAnyMutation%');
 }
