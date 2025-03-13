@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "BBOalert",
 	"description": "Auto alert on BBO",
-	"version": "9.0",
+	"version": "9.0.0.6",
 	"icons": {
 		"16": "BBOalert16.png",
 		"48": "BBOalert48.png",
@@ -31,6 +31,11 @@
 			"https://*/*"
 		]
 	}],
+ "browser_specific_settings": {
+    "gecko": {
+        "id": "{1c6494f5-d8e3-4877-a269-2adf40fc1f9a}"
+    }
+  },
 	"content_scripts": [
 		{
 			"matches": [

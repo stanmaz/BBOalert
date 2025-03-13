@@ -33,17 +33,27 @@ const observer = new MutationObserver(callback);
 // Start observing the target node for configured mutations
 const targetNode = document.body;
 window.onload = function() {
+  cleanUpBBOalert();
   observer.observe(targetNode, config);
 };
 
 function onNavDivDisplayed() {
   if (DEBUG) console.log("navDiv displayed");
+  cleanUpBBOalert();
   initBBOalertIframe();
 }
 
 function onNavDivHidden() {
   if (DEBUG) console.log("navDiv hidden");
-  $("#adpanel0").hide();
+  cleanUpBBOalert();
+  observer.disconnect();
+}
+
+function cleanUpBBOalert() {
+  $((".verticalClass")).removeClass("covered");
+  $("#adpanel0").remove();
+  $("#bboalert-tab").remove();
+  $("#bboalert-button").remove();
 }
 
 function getBBOlanguage() {
