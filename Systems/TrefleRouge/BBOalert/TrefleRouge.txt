@@ -1,5 +1,6 @@
 // BBOalert, Trefle Rouge
 
+Import,{RCbase.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCbase.tex
 Import,{RCIntro.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCIntro.tex
 Import,{RCExemple.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCExemple.tex
 Import,{RC1T.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC1T.tex
