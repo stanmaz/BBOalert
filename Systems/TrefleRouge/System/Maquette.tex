@@ -1,0 +1,143 @@
+\documentclass[a4paper,12pt, french]{book}
+\usepackage[french]{babel}
+
+\PassOptionsToPackage{table}{xcolor}
+\usepackage{onedown}
+\setdefaults{colors=4A, bidlong=off, bidline =0}
+\usepackage{tcolorbox}
+\newcommand{\T}{\Cl}
+\newcommand{\K}{\Di}
+\newcommand{\C}{\He}
+\renewcommand{\P}{\Sp}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[Bjornstrup]{fncychap}
+
+\usepackage{fontspec}
+%\setmainfont{Universalis ADF Std}
+%\setmainfont{liberation Sans}
+\setmainfont{Caladea}
+\newfontfamily{\myfont}{Caladea}[Ligatures = TeX]%[NFSSFamily=cmss]
+\newfontfamily{\sansserif}{liberation Sans}[Ligatures = TeX]
+\bidderfont{\mdseries\myfont}
+\compassfont{\mdseries\sansserif}
+\gamefont{\bfseries\sansserif}
+\legendfont{\mdseries\sansserif}
+\namefont{\mdseries\sansserif}
+\otherfont{\bfseries\sansserif}
+
+
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+\definecolor{apricot}{rgb}{0.98, 0.81, 0.69}
+\definecolor{bananamania}{rgb}{0.98, 0.91, 0.71}
+
+%\usepackage{fourier-otf}
+\newcommand{\titre}[1]
+{
+\newpage
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+
+\begin{center}
+\Large
+  \includegraphics[width=0.5cm]{trefle.png}
+  \hfill
+  #1
+  \hfill
+  \includegraphics[width=0.5cm]{trefle.png}
+\end{center}
+\end{tcolorbox}
+}
+
+\newcommand{\enchbox}[2]{
+\vspace{8pt}
+\tcbox[left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=0mm,
+toptitle=0.5mm,bottomtitle=0.5mm,title=#1]{%fond vert
+\arrayrulecolor{blue!5!black}\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{ccc}
+ #2
+\end{tabular}
+}
+\vspace{8pt}
+}
+
+\rowcolors{1}{bananamania}{white}
+\newcommand{\rb}{\rowcolor{bananamania} }
+\newcommand{\rw}{\rowcolor{white} }
+
+\tcbset{colframe=red!50!black,colback=white,colupper=red!50!black,
+fonttitle=\bfseries,nobeforeafter,center title}
+\usepackage[firstpage]{draftwatermark}
+
+
+\makeatletter
+\renewcommand{\thesection}{\@arabic\c@section}
+\makeatother
+
+\begin{document}
+
+
+
+ \begin{titlepage}
+ \centering
+ \SetWatermarkLightness{0.8}
+\SetWatermarkText{\includegraphics[angle=-45]{REDCLUB.png}}
+ {\huge\bfseries Le trèfle rouge\par}
+
+ {\Large\itshape Hubert Quatreville\par}
+ \vfill
+\end{titlepage}
+
+
+\section*{TODOLIST}
+
+Ce document est une version de travail.
+Un certain nombre de séquences risquent d'être modifiées.
+
+[ ] Relecture par au moins deux bridgeurs
+
+[X] Test sur BBO d'au moins 100 donnes
+
+[ ] Test d'au moins 1000 donnes
+
+[ ] Simplification des complexités inutiles
+
+[ ] Confection d'une couverture attractive
+
+
+
+\include{RCIntro.tex}
+\include{RCExemple.tex}
+\include{RCbase.tex}
+\include{RC1T.tex}
+\include{RC1K.tex}
+\include{RC1C.tex}
+\include{RC1P.tex}
+\include{RC1SA.tex}
+\include{RC2m.tex}
+\include {RC2C.tex}
+
+\chapter{Ouvertures de 2SA et au delà}
+
+\section*{Ouverture de 2\NT}
+
+L'ouverture habituelle de 20-21H convient parfaitement.
+On peut y greffer n'importe quel système. Ce qui est proposé dans le SEF 2024 est déjà suffisamment efficace. L'ouverture peut comporter une majeure cinquième mais le Puppet Stayman, dans sa version standard est fortement déconseillé, il crée plus de problèmes qu'il n'en règle.
+
+On trouve quelques Staymans performants à droite et à gauche comme le Muppet, le Romex ou l'Advanced Stayman. Tout ces systèmes performants demandent un gros investissement en temps de mémorisation.
+
+\section*{Ouverture de barrage}
+
+Les ouvertures de barrage sont indépendantes de tout système. Jouez comme bon vous semble. Pour ma part, je reste convaincu, que les barrages constructifs sont plus efficaces que les barrages anarchiques, mais pas de beaucoup. Sauf Vert contre Rouge où il faut y aller franco.
+
+Les barrages en Texas ou en double Texas sont des aberrations qui ne font qu'aider les adversaires à se défendre correctement.
+Mais si ça vous amuse, c'est marrant à jouer. Et c'est le plus important.
+
+\end{document}
+
+
+
+
+
+
+
+
