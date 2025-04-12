@@ -1,5 +1,5 @@
-# Trefle Rouge
-BBOalert, Trefle Rouge
+// BBOalert, Trefle Rouge
+
 Import,RC1T.tex,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC1T.tex
 Import,RC1K.tex,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC1K.tex
 Import,RC1C.tex,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC1C.tex
