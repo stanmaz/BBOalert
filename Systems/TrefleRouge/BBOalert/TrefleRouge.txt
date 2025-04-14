@@ -12,4 +12,4 @@ Import,{RC2m.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/Trefle
 Import,{RC2C.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2C.tex
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/Maquette.tex
 
-
+https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
