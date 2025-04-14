@@ -1,5 +1,7 @@
 // BBOalert, Trefle Rouge
 
+Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
+
 Import,{RCbase.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCbase.tex
 Import,{RCIntro.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCIntro.tex
 Import,{RCExemple.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCExemple.tex
@@ -11,5 +13,3 @@ Import,{RC1SA.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/Trefl
 Import,{RC2m.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2m.tex
 Import,{RC2C.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2C.tex
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/Maquette.tex
-
-https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
