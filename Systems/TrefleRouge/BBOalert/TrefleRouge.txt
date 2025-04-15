@@ -13,3 +13,13 @@ Import,{RC1SA.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/Trefl
 Import,{RC2m.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2m.tex
 Import,{RC2C.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2C.tex
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/Maquette.tex
+
+Option,Lang FR
+Option,Lang EN
+Alias,chicane,void
+Alias,Régulier,balanced
+Alias,Au moins,at least
+Alias,cartes à,cards
+Alias,Pas de majeure 4ième,no 4-card major
+Option
+
