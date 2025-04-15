@@ -2,6 +2,16 @@
 
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
 
+Option,Lang FR
+Option,Lang EN
+Alias,chicane,void
+Alias,Régulier,balanced
+Alias,Au moins,at least
+Alias,cartes à,cards
+Alias,Pas de majeure 4ième,no 4-card major
+Option
+
+
 Import,{RCbase.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCbase.tex
 Import,{RCIntro.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCIntro.tex
 Import,{RCExemple.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCExemple.tex
@@ -14,12 +24,4 @@ Import,{RC2m.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/Trefle
 Import,{RC2C.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RC2C.tex
 Import,https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/Maquette.tex
 
-Option,Lang FR
-Option,Lang EN
-Alias,chicane,void
-Alias,Régulier,balanced
-Alias,Au moins,at least
-Alias,cartes à,cards
-Alias,Pas de majeure 4ième,no 4-card major
-Option
 
