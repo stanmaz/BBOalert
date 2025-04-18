@@ -51,7 +51,7 @@
 \newcommand{\enchbox}[2]{
 \vspace{8pt}
 \tcbox[left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=0mm,
-toptitle=0.5mm,bottomtitle=0.5mm,title=#1]{%fond vert
+toptitle=0.5mm,bottomtitle=0.5mm,title=\parenthese{#1}]{%fond vert
 \arrayrulecolor{blue!5!black}\renewcommand{\arraystretch}{1.2}%
 \begin{tabular}{ccc}
  #2
@@ -73,6 +73,26 @@ fonttitle=\bfseries,nobeforeafter,center title}
 \renewcommand{\thesection}{\@arabic\c@section}
 \makeatother
 
+\usepackage{expl3}
+\usepackage{xparse}
+
+\ExplSyntaxOn
+
+% Définir une nouvelle commande pour effectuer les substitutions
+\NewDocumentCommand{\replacechars}{mmmmm}
+ {
+  \tl_set:Nn \l_tmpa_tl { #1 }
+  \tl_replace_all:Nnn \l_tmpa_tl { #2 } { #3 }
+  \tl_replace_all:Nnn \l_tmpa_tl { #4 } { #5 }
+  \tl_use:N \l_tmpa_tl
+ }
+
+\ExplSyntaxOff
+
+\newcommand{\parenthese}[1]{%
+\replacechars{#1}{>}{)}{<}{(}%
+}
+
 \begin{document}
 
 
@@ -89,6 +109,7 @@ fonttitle=\bfseries,nobeforeafter,center title}
 
 
 \section*{TODOLIST}
+\enchbox{1\C\ 1\P\ 2\C\ 2\P \\ 3\C ?}{ZOUKAIDOVLADIVLADA}
 
 Ce document est une version de travail.
 Un certain nombre de séquences risquent d'être modifiées.

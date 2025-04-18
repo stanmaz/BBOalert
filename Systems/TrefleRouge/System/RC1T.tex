@@ -28,9 +28,9 @@ L'ouverture de 1\T est à la fois la plus fréquente et la plus complexe.
 
  1\C & 5H+ & Au moins 4 cartes à \P\\
 
-1\P & @A# 0-4H & Toute distribution\\
-  \rb & 5-7DH & 4+ cartes à \C \\
-  & 12H+ & Ni majeure 4\ieme ni mineure 5\ieme\\
+1\P & 0-4H & ou\\
+  \rb & 5-7DH & 4+ cartes à \C ou \\
+  & 12H+ & régulier\\
 1\NT & 12H+ & 5 cartes à \T\\
 
  2\T & 12H+ & 5 cartes à \K\\
@@ -320,23 +320,24 @@ L'enchère de 1\C dévore un peu d'espace. Cela a deux conséquences. Le relai �
 
 C'est la séquence la plus ambiguë.
 
-Le fit \C est exclu mais le fit \P est encore possible. Si l'ouvreur a une main forte, il le fera savoir. Une redemande ultérieure à \P de l'ouvreur montrera une main très forte (au moins 20 points) et sera forcing de manche.
+Le fit \C et le fit \P sont encore possibles. Avec 5 cartes à \P, le répondant réitère son Texas.
 
-Avec 5 cartes à \P, le répondant répète ses piques avec un jeu faible ou passe par l'enchère de 2\C avec au moins 11H.
+La difficulté de la séquence est la nécessité de disposer d'une enchère forte pour le répondant pour les cas où il aurait plus de 16 points d'honneur.
 
-Les enchères en mineure sont des Canapés. Et tout ce qui est au niveau de 3 est forcing de manche.
+Il y a trois candidats : 2\T qui pose un problème de mémorisation, 2\P qui pose un problème de mémorisation et 3\T semi-naturel qui permet de retomber sur ses pieds.
+J'ai choisi (provisoirement) 2\P qui est a priori la plus facile à manier. De plus, les enchères à pique sont presque toutes artificielles dans le système.
 
 \enchbox{1\T--1\C--1\P}
 {
 1\NT & 5-10H & 4 cartes à \P \\
 2\T  & 5-10H & 5+ cartes à \T \\
 2\K  & 5-10H & 5+ cartes à \K \\
-2\C  & 11H + & 5+ cartes à \P \\
-2\P  & 5-10H & 5+ cartes à \P \\
+2\C  & 5H + & 5+ cartes à \P \\
+2\P  & 16H+ & artificiel \\
 2\NT & 11H & Fourre-tout \\
 3\T & 12H+ & 5+ cartes à \T \\
 3\K & 12H+ & 5+ cartes à \K \\
-3\C & 16H+ & Régulier \\
+3\C & 13-15H+ & 3 cards in !H \\
 3\P & 15H+ & 6 belles cartes à \P \\
 3SA & 13-15H & Régulier \\
 }
@@ -351,7 +352,7 @@ Les enchères en mineure sont des Canapés. Et tout ce qui est au niveau de 3 es
  Le principe est le suivant : toute enchère à saut est forcing de manche, soit dans une optique de chelem, soit dans une optique de recherche de la meilleure manche.
  Toute enchère sans saut indique la zone au dessus que la même enchère non précédée de 1\P.
 
- \enchbox{1T--1\C--1\P--1\NT}
+ \enchbox{1\T--1\C--1\P--1\NT}
  {
  2\T & 15-17H(18) & 5 cartes à \T \\
  2\K & 15-17H(18) & 5 cartes à \K \\
@@ -375,12 +376,14 @@ La nomination d'une mineure est canapé et dénie 5 cartes à pique.
 
 Si le répondant hésite à jouer 3SA, il montre son singleton au niveau de 3.
 
+Le redemande artificiel à 2\P est moins utile qu'après une réponse à 1\P (4\NT quantitatif fonctionnerait) mais elle est maintenue ici par souci d'homogénéité du système.
+
 \enchbox{1\T--1\C--1\NT}
 {
 2\T &5-7H& 5 cartes faible\\
 2\K &5-7H& 5 cartes faible\\
-2\C& 8H+& 5 cartes à \P\\
-2\P& 5-7H & 5 cartes à \P\\
+2\C& 5H+& 5 cartes à \P\\
+2\P& 16H+ & Artificiel \\
 2\NT & 8H & Naturel \\
 3\T & 9H+ & Singleton \T\\
 3\K & 9H+ & Singleton \K\\
@@ -488,8 +491,7 @@ Sur toute redemande de l'ouvreur à 2\NT, 3\T est un check-back Stayman. On util
 Les autres enchères au niveau de 3 montrent un singleton (3\C dans la mejeur de l'ouvreur pour le singleton \T)
 
 
-\titre{
-  1\T -- 1SA}
+\titre{1\T -- 1\NT}
 
 
 L'enchère de 1SA est forcing de manche avec une vraie couleur \T. Par ailleurs, l'enchère dénie 4 cartes à \C et 4 cartes à \P.
