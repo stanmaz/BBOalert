@@ -1,4 +1,4 @@
-// BBOalert, Trefle Rouge
+// BBOalert, Trefle Rouge stanmaz
 
 Import,https://github.com/stanmaz/BBOalert/blob/master/Scripts/setTeachingTable.js
 
