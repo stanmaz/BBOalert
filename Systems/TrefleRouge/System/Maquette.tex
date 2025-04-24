@@ -93,27 +93,12 @@ fonttitle=\bfseries,nobeforeafter,center title}
 \replacechars{#1}{>}{)}{<}{(}%
 }
 
+\newcommand{\VoirChat}[1]
+{}
+
 \begin{document}
 
-\enchbox{1\T--1\K--1\NT}
-{
-2\T && naturel non forcing \\
-&& naturel non forcing 1 \\
-&& naturel non forcing 2 \\
-&& naturel non forcing 3 \\
-&& naturel non forcing 4 \\
-&& naturel non forcing 5 \\
-&& naturel non forcing 6 \\
-2\K && naturel non forcing \\
-2\C & 8H & 3 cartes à \C \\
-2\P & 10-11H & bicolore mineur \\
-2\NT & 8H &  \\
-3\T  & 10-11H & singleton \T\\
-3\K & 10-11H & singleton \K\\
-3\C & 9-11H  & 3 cartes à \C\\
-3\P & 10-11H & singleton \P\\
-3\NT & 9-11H &
-}
+
 
  \begin{titlepage}
  \centering
@@ -127,7 +112,6 @@ fonttitle=\bfseries,nobeforeafter,center title}
 
 
 \section*{TODOLIST}
-\enchbox{1\C\ 1\P\ 2\C\ 2\P \\ 3\C ?}{ZOUKAIDOVLADIVLADA}
 
 Ce document est une version de travail.
 Un certain nombre de séquences risquent d'être modifiées.
@@ -136,17 +120,28 @@ Un certain nombre de séquences risquent d'être modifiées.
 
 [X] Test sur BBO d'au moins 100 donnes
 
+[X] Compatibilité BBOAlert
+
 [ ] Test d'au moins 1000 donnes
 
 [ ] Simplification des complexités inutiles
 
 [ ] Confection d'une couverture attractive
 
+Version 0.15
 
+\include{RCIntro.tex}
+\include{RCExemple.tex}
+\include{RCbase.tex}
+\include{RC1T.tex}
+\include{RC1K.tex}
+\include{RC1C.tex}
+\include{RC1P.tex}
+\include{RC1SA.tex}
+\include{RC2m.tex}
+\include {RC2C.tex}
 
-
-
-\chapter{Ouvertures de 2SA et au delà}
+\chapter{Ouvertures de 2\NT et au delà}
 
 \section*{Ouverture de 2\NT}
 
@@ -163,11 +158,4 @@ Les barrages en Texas ou en double Texas sont des aberrations qui ne font qu'aid
 Mais si ça vous amuse, c'est marrant à jouer. Et c'est le plus important.
 
 \end{document}
-
-
-
-
-
-
-
 
