@@ -1,6 +1,5 @@
 // BBOalert, Trefle Rouge stanmaz
-BBOalert, Version BBOalert
-// BBOalert, Trefle Rouge stanmaz 1.1
+// BBOalert, Trefle Rouge stanmaz 1.2
 
 //BBOalert, Set Teaching Table v1.3.1
 //Script,setTeachingTable
