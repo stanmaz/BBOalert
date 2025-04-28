@@ -9,9 +9,9 @@ Alias,Régulier,balanced
 Alias,Au moins,at least
 Alias,cartes à,cards
 Alias,Pas de majeure 4ième,no 4-card major
-Alias,3\T à 4\P,(3|4)[\T\K\C\P],@B
 Option
 
+Alias,Alias,3!C à 4!S,(3|4)[CDHS],@G
 
 Import,{RCbase.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCbase.tex
 Import,{RCIntro.tex},https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCIntro.tex
