@@ -9,6 +9,7 @@ Alias,Régulier,balanced
 Alias,Au moins,at least
 Alias,cartes à,cards
 Alias,Pas de majeure 4ième,no 4-card major
+Alias,3\T à 4\P,(3|4)[\T\K\C\P],@C
 Option
 
 
