@@ -93,4 +93,4 @@ parseLatex = function (latexData) {
 	}
 	return outar.join("\n") + "\n";
 }
-success("OK");
+
