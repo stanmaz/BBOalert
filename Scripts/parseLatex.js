@@ -1,3 +1,4 @@
+//ExecScript
 parseLatex = function (latexData) {
 	const CR = "\r";
 	const LF = "\n";
