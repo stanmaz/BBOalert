@@ -1,4 +1,5 @@
 //ExecScript
-console.log("hallo Dolly 2");
-xxx = function () {return "abc"}
-success("abc\ndef\n")
+url = "https://github.com/stanmaz/BBOalert/blob/master/Systems/TrefleRouge/System/RCbase.tex";
+fetchWebData(url, function() {
+  console.log("fetchWebData ", data.length);
+}, failure);
