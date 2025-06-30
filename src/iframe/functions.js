@@ -22,6 +22,12 @@ function userScript(S, CR, C, BR, B) {
 	R = '';
 	try {
 		eval(S);
+		if (DEBUG) console.log(S);
+		if (DEBUG) console.log(CR);
+		if (DEBUG) console.log(C);
+		if (DEBUG) console.log(BR);
+		if (DEBUG) console.log(B);
+		if (DEBUG) console.log(R);
 		return R;
 	} catch (error) {
 		addLog('Error in script');

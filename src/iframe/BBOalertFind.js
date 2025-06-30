@@ -12,12 +12,15 @@ class BBOalertFind {
         this.foundContext = '';
         this.lastContext = "";
         this.foundCall = '';
+        window.foundContext = this.foundContext;
+        window.foundCall = this.foundCall;
         this.trustedZone = false;
         this.alertText = "";
         this.txt = '';
         this.matchFound = false;
         this.foundRecord = "";
         this.bidSymbolMap = new Map();
+        this.R = '';
     }
 
     findAlert(context, call) {
@@ -44,7 +47,7 @@ class BBOalertFind {
             rec[1] = elimineSpaces(rec[1].replace(/!/g, "").trim());
             var rec1old = rec[1];
             rec[1] = scan.replaceAliases(rec[1], "@B");
-            rec[1] = execUserScript(rec[1]);
+            rec[1] = this.execUserScript(rec[1]);
             // replace map keys by values
             this.bidSymbolMap.forEach(function (values, keys) {
                 rec[0] = rec[0].replaceAll(keys, values);
@@ -57,7 +60,7 @@ class BBOalertFind {
             } else {
                 this.lastContext = currentContext;
             }
-            currentContext = execUserScript(scan.replaceAliases(currentContext, "C"));
+            currentContext = this.execUserScript(scan.replaceAliases(currentContext, "C"));
             var foundComment = "";
             var suffix = "";
             if (rec[1] == "") continue;
@@ -72,6 +75,8 @@ class BBOalertFind {
                 this.trustedBid = trustedZone;
                 this.foundContext = currentContext;
                 this.foundCall = rec[1].trim();
+                window.foundContext = this.foundContext;
+                window.foundCall = this.foundCall;
                 symkey = rec1old;
                 symval = rec[1];
                 if (rec.length > 3) foundComment = rec[3];
@@ -83,6 +88,8 @@ class BBOalertFind {
                 this.trustedBid = trustedZone;
                 this.foundContext = currentContext;
                 this.foundCall = rec[1].trim();
+                window.foundContext = this.foundContext;
+                window.foundCall = this.foundCall;
                 symkey = rec1old;
                 symval = rec[1];
                 if (rec.length > 3) foundComment = rec[3];
@@ -135,6 +142,47 @@ class BBOalertFind {
         }
         return alertText.trim();
     }
+
+    execUserScript(txt) {
+        var rec = txt.split('%');
+        if (rec.length < 2) return txt;
+        var txt1 = '';
+        var script;
+        for (var i = 0; i < rec.length; i++) {
+            if (i % 2 == 0) {
+                txt1 = txt1 + rec[i];
+            } else {
+                script = getScript(rec[i]);
+                if (script != '') {
+                    txt1 = txt1 + this.userScript(script, this.foundContext, getContext(), 
+                        this.foundCall, this.callText);
+                } else {
+                    txt1 = txt1 + "%" + rec[i];
+                    if (i < rec.length - 1) txt1 = txt1 + "%";
+                }
+            }
+        }
+        return txt1;
+    }
+
+    userScript(S, CR, C, BR, B) {
+	this.R = '';
+	try {
+		eval(S);
+		if (DEBUG) console.log(S);
+		if (DEBUG) console.log(CR);
+		if (DEBUG) console.log(C);
+		if (DEBUG) console.log(BR);
+		if (DEBUG) console.log(B);
+		if (DEBUG) console.log(R);
+		return R;
+	} catch (error) {
+		addLog('Error in script');
+		addLog(error);
+		addLog(S);
+		return 'ERROR';
+	}
+}
 }
 
 function getCallExplanation(context, call) {

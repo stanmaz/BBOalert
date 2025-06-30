@@ -236,8 +236,12 @@ function PluginInit() {
         addBBOalertEvent("onDataLoad", function () {
             if (addConfigBox(title, cfg) != null) {
                 addBBOalertEvent("onAnyOpponentChange", function () {
+                    if (tableType() == 'no') return;
+                    if (tableType() == 'robot') return;
+                    if (tableType() == 'kibitz') return;
                     if (!cfg.Enable_prealert) return;
                     if (lockPrealert) return;
+                    setChatDestination("Table");
                     lockPrealert = true;
                     setTimeout(function () {
                         setChatMessage(findShortcut(cfg.Prealert_shortcut), true);
@@ -626,8 +630,10 @@ function PluginInit() {
             }
         };
         autoChatToOpponents = function () {
-            if (tableType() != 'game') return;
+            if (DEBUG) console.log("autoChatToOpponents");
             addBBOalertEvent('onTableDisplayed', function () {
+                console.log("onTableDisplayed");
+                if (tableType() != 'game') return;
                 if (cfg.Auto_chat_to_opponents) {
                     setTimeout(function () {
                         setChatDestination('Table');
@@ -635,22 +641,30 @@ function PluginInit() {
                 }
             });
             addBBOalertEvent('onMyCardsDisplayed', function () {
+                if (DEBUG) console.log("onMyCardsDisplayed");
+                if (tableType() != 'game') return;
                 if (myDirection() != '') {
                     if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
                 }
             });
             addBBOalertEvent('onNewAuction', function () {
+                if (DEBUG) console.log("onNewAuction");
+                if (tableType() != 'game') return;
                 if (myDirection() != '') {
                     if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
                 }
             });
             addBBOalertEvent('onNewPlayedCard', function () {
+                if (DEBUG) console.log("onNewPlayedCard");
+                if (tableType() != 'game') return;
                 if (getContext() == '') return;
                 if (myDirection() != '') {
                     if (cfg.Auto_chat_to_opponents) setChatDestination('Opponents');
                 }
             });
             addBBOalertEvent('onDealEnd', function () {
+                if (DEBUG) console.log("onDealEnd");
+                if (tableType() != 'game') return;
                 if (myDirection() != '') {
                     if (cfg.Auto_chat_to_opponents) setChatDestination('Table');
                 }
