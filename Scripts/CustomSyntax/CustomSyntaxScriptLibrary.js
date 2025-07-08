@@ -6,7 +6,7 @@
 //Script,_suitbid_,R = "!" + B.slice(-1);
 //Script,_shift_
 var bid = getBidFromContext(2,0,0);
-var R = "(";
+R = "(";
 for (var i = 1; i < 5; i++) {
     if (getCallbyIndex(bid, i).slice(-1) == "N") continue;
     R = R + getCallbyIndex(bid, i);
@@ -16,7 +16,7 @@ R = R + ")";
 //Script
 //Script,_jump_shift_
 var bid = getBidFromContext(2,0,5);
-var R = "(";
+R = "(";
 for (var i = 1; i < 5; i++) {
     if (getCallbyIndex(bid, i).slice(-1) == "N") continue;
     R = R + getCallbyIndex(bid, i);
@@ -30,7 +30,7 @@ R = R + ")";
 //Script,_step4_,R = getBidFromContext(2,-1,4);
 //Script,_steps_
 var bid = getBidFromContext(2,-1,0);
-var R = "(";
+R = "(";
 var b;
 for (var i = 1; i < 40; i++) {
     b = getCallbyIndex(bid, i);
