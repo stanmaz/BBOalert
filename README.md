@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 9.0.2.1
+Version : 9.0.3
 
 **Table Of Content**
 
@@ -143,6 +143,10 @@ The "Data" menu contains commands related to the data input/output :
 - <b>Copy All</b> : write all data to the clipboard
 - <b>Copy New</b> : write data related to tha manual alerts  to the clipboard
 - <b>Copy Log</b> : write log data to the clipboard. Log data should be provided with a bug report related to unexpected bid explanation retrieved from the data
+- <b>Copy Original</b> : write original data entered with the <b>Paste (New)</b> command.
+- <b>Clear Recent URLs</b> : The list of URLs entered with the <b>Paste (New)</b> command is cleared.
+- <b>Bidding Scenarios</b> : loads the data for practicing typical bidding scenarios. See https://github.com/ADavidBailey/Practice-Bidding-Scenarios/blob/main/README.md for details.
+
 
 The "Settings" menu contains commands to enable/disable features :
 
