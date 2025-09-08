@@ -201,6 +201,7 @@ function setControlButtons() {
 		};
 		adPanel.appendChild(fileSelector);
 		loadRecentURL();
+		addBiddingScenariosURL();
 	}
 	if (adPanel.querySelector('#bboalert-menu-settings') == null) {
 		var settingsSelector = document.createElement('select');
@@ -274,19 +275,19 @@ function setControlButtons() {
 }
 
 function setBBOalertButton(on) {
-    if (on) {
-		if(PWD.getElementById("bboalert-button") != null) return;
-        $("#bboalert-button",parent.window.document).remove();
-        var bbb = parent.window.document.createElement("div");
-        $('.nameTagClass',parent.window.document).eq(0).parent().append(bbb);
-        bbb.outerHTML = BBOalertButtonHTML;
-        $("#bboalert-button",parent.window.document).click(toggleOptions);
-        $("#bboalert-tab",parent.window.document).hide();
-    } else {
-		if($("#bboalert-tab:visible", PWD).length != 0) return;
-        $("#bboalert-button",parent.window.document).remove();
-        $("#bboalert-tab",parent.window.document).show();       
-    }
+	if (on) {
+		if (PWD.getElementById("bboalert-button") != null) return;
+		$("#bboalert-button", parent.window.document).remove();
+		var bbb = parent.window.document.createElement("div");
+		$('.nameTagClass', parent.window.document).eq(0).parent().append(bbb);
+		bbb.outerHTML = BBOalertButtonHTML;
+		$("#bboalert-button", parent.window.document).click(toggleOptions);
+		$("#bboalert-tab", parent.window.document).hide();
+	} else {
+		if ($("#bboalert-tab:visible", PWD).length != 0) return;
+		$("#bboalert-button", parent.window.document).remove();
+		$("#bboalert-tab", parent.window.document).show();
+	}
 }
 
 

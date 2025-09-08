@@ -426,7 +426,7 @@ function getSeatNr() {
  * Get actual bidding context
  */
 function getContext() {
-    var nd;
+	var nd;
 	if ((nd = getNavDiv()) == null) return '??';
 	var ctx = '';
 	var bs = nd.querySelector('bridge-screen');
@@ -436,7 +436,7 @@ function getContext() {
 	var auctionBox = nd.querySelector('auction-box');
 	if (auctionBox == null) {
 		return "??";
-	}	
+	}
 	var auction = auctionBox.querySelectorAll('.auction-cell');
 	if (auction.length == 0) {
 		return "";
@@ -544,6 +544,12 @@ function clearRecentURL() {
 	}
 	saveRecentURL();
 	$(fileSelector.options[8]).hide();
+	addBiddingScenariosURL();
+}
+
+function addBiddingScenariosURL() {
+	importedURL = "https://raw.githubusercontent.com/ADavidBailey/Practice-Bidding-Scenarios/main/-PBS.txt";
+	addRecentURL("Bidding Scenarios", importedURL);
 }
 
 function addRecentURL(label, url) {
@@ -770,7 +776,7 @@ function updateAlertDataAsync(at, callback) {
 							if (DEBUG) console.log('Header  ' + getBBOalertHeader(data));
 							addRecentURL(getBBOalertHeader(data), url);
 							if (data != '') {
-								if (r0 == 'Import') {						
+								if (r0 == 'Import') {
 									to[last] = [];
 									addrecs(data, to[last], myIdx);
 								} else {
@@ -803,14 +809,14 @@ function updateAlertDataAsync(at, callback) {
 	}
 	var tab = [];
 	var urls = [];
-	var URLmap = new Map ();
+	var URLmap = new Map();
 	var parents = [];
 	var pending = 1;
 	var timer = Date.now();
 	initBBOalertEvents();
 	initInfoSelector();
 	clearConfigMenu();
-    PluginInit();
+	PluginInit();
 	addrecs(at, tab, -1);
 }
 
@@ -936,25 +942,25 @@ function toggleAlertList(el, expandTree) {
 function replaceSuitSymbolsInRecord(r) {
 	var rx = r.split(",");
 	if (rx.length < 3) return r;
-    switch (rx[0].trim()) {
-        case "Option":
-            return r;
-        case "Import":
-            return r;
-        case "Alias":
-            return r;
-        case "Button":
-            rx[2] = replaceSuitSymbols(rx[2], "!");
-            break;
-        case "Shortcut":
-            rx[2] = replaceSuitSymbols(rx[2], "!");
-            break;
-        default:
-            rx[0] = replaceSuitSymbols(rx[0], "");
-            rx[1] = replaceSuitSymbols(rx[1], "");
-            rx[2] = replaceSuitSymbols(rx[2], "!");
-            break;
-    }
+	switch (rx[0].trim()) {
+		case "Option":
+			return r;
+		case "Import":
+			return r;
+		case "Alias":
+			return r;
+		case "Button":
+			rx[2] = replaceSuitSymbols(rx[2], "!");
+			break;
+		case "Shortcut":
+			rx[2] = replaceSuitSymbols(rx[2], "!");
+			break;
+		default:
+			rx[0] = replaceSuitSymbols(rx[0], "");
+			rx[1] = replaceSuitSymbols(rx[1], "");
+			rx[2] = replaceSuitSymbols(rx[2], "!");
+			break;
+	}
 	return rx.join(",");
 }
 
@@ -1045,13 +1051,13 @@ function decodeEntities(encodedStr) {
 	return $.parseHTML(encodedStr)[0].textContent;
 }
 
-$.fn.onAny = function(cb){
-	for(var k in this[0])
-	  if(k.search('on') === 0)
-		this.on(k.slice(2), function(e){
-		  // Probably there's a better way to call a callback function with right context, $.proxy() ?
-		  cb.apply(this,[e]);
-		});
+$.fn.onAny = function (cb) {
+	for (var k in this[0])
+		if (k.search('on') === 0)
+			this.on(k.slice(2), function (e) {
+				// Probably there's a better way to call a callback function with right context, $.proxy() ?
+				cb.apply(this, [e]);
+			});
 	return this;
-  }; 
+};
 
