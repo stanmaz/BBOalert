@@ -71,11 +71,11 @@ Facebook should be used to report bugs, propose enhancements and ask questions.
 
 ## Purpose
 
-Tired of repeating the same story while alerting your bids on BBO? If yes, this browser extension is your friend.
+Tired of repeating the same explanations when alerting your bids on BBO? If so, this browser extension is your friend.
 
-During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining each alerted call is time consuming and therefore frustrating for all participants.
+During the bidding, conventional calls must be alerted and explained to the opponents. Playing artificial bidding systems on BBO is not practical because explaining every alerted call is time-consuming and therefore frustrating for all participants.
 
-BBOalert solves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during the game are recorded for future use.
+BBOalert solves this problem. Artificial bidding sequences can be predefined in a table. Opponents get the explanation automatically and immediately. Explanations entered manually during a game are also recorded for future use.
 
 BBOalert has similar functionality as "Full Disclosure" which is no longer supported by BBO. One difference should be emphasized :
 
