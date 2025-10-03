@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 9.0.3
+Version : 9.0.4
 
 **Table Of Content**
 
@@ -846,6 +846,8 @@ The file may not exceed 250kb.
 
 #### OneDrive
 
+<b>Note : due to the changes made by Microsoft the support for OneDrive files is suspended.</b>
+
 The data can be imported from text files stored in OneDrive cloud. The .txt file extension must be used. The URL link for public viewing should be used with the “Import” record. Note : the file size is not limited.
 
 The public URL can be obtained in the following way :
@@ -916,7 +918,17 @@ Note :
 
 - URL aliases must be defined before they are used
 - Import aliases must be defined in the root file of the hierarchical file organisation.
-- Multiple definitions of the same alias (same alias, different URL’s) are allowed : the last one will be used.
+- Multiple definitions of the same alias (same alias, different URL’s) are allowed : the last one will be used.  
+- BBOalert allows the use of URLs shortened  through the tinyurl.com service. While anonymous use of the service is possible, registered users can customize shortened URLs to make them more relevant.  
+  BBOalert converts the short URL to the original long URL by briefly opening the data file in a pop-up window. When a short URL is used for the first time, a notification appears prompting you to click to continue. To prevent this, disable pop
+up blocking:
+    - Chrome: chrome://settings/content/popups
+    - Firefox:   about:preferences#privacy<br>
+  For security reasons, it's best to enable general pop-up blocking, except for certain sites. In our case, you should allow pop-ups for https://www.bridgebase.com.
+- To enable a partner to load your shared data file with one click, you need to edit your BBO profile. Make sure the Other field ends with the URL that is normally used by the Data/Copy (New) command. When your partner opens your profile, BBOalert will then add a button allowing them to import the data file directly. The full URLs are long strings, typically 80 to 120 characters, which, together with your system description, might not fit. The Other text field in the profile is limited to 252 characters. If necessary, shortened URL may be used.
+
+
+
 
 #### Scripts
 
