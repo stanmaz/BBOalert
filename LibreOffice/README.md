@@ -7,10 +7,9 @@
 - Normal text paragraphs are used as they are.
 - Unordered lists are used to define bidding sequences in a hierarchical way. The text line preceding the list defines the starting point of the bidding context.
 - Tables: The first column is the call and the second column is the call explanation. A third column may be used for comments. The text line preceding the table defines the starting point of the bidding context.
-- Frames may be used to encompass the data. Frames may be moved to any position on the page, but their anchor defines where the data will be inserted in the output data.
+- Frames may be used to encompass the data for better readability.
 - Comments may be used to insert hidden (not printed) code.
 - BBO suit codes can be converted to colored suit symbols using the **ReplaceCardSuitCodes** macro. To revert to BBO suit codes, use the **ReplaceSuitSymbols** macro. To enable the macros, install the LibreOffice extension:
     - Download the file: https://github.com/stanmaz/BBOalert/blob/master/LibreOffice/BBOalert.oxt
     - Execute in LibreOffice the menu commands **Tools -> Extensions -> Add** and select the downloaded `BBOalert.oxt` file. Restart LibreOffice to enable the macros.
 
- Dowload the 
