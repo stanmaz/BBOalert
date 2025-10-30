@@ -1,5 +1,5 @@
 (function () {
-	var title = "Auto redeal";
+	var title = "Auto redeal at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
