@@ -1,4 +1,4 @@
-```markdown
+
 # To encode BBOalert data with LibreOffice Writer
 
 - Use the Flat XML ODF Text Document (.fodt) (ASCII/uncompressed) format instead of the default ODF Text Document (.odt) (compressed/binary).
@@ -16,4 +16,3 @@
   - Download the file: https://github.com/stanmaz/BBOalert/blob/master/LibreOffice/BBOalert.oxt
   - In LibreOffice choose Tools → Extensions → Add, select the downloaded `BBOalert.oxt` file, and restart LibreOffice.
   - If needed, enable macros in Tools → Options → LibreOffice → Security → Macro Security and set an appropriate security level.
-```
