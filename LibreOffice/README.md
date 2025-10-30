@@ -1,8 +1,8 @@
 
 # To encode BBOalert data with LibreOffice Writer
 
-- Use the Flat XML ODF Text Document (.fodt) (ASCII/uncompressed) format instead of the default ODF Text Document (.odt) (compressed/binary).
-- Upload the .fodt file to the web storage service of your choice. Preferred providers are GitHub or Dropbox. Google Drive is not recommended because .fodt files are relatively large and can easily exceed viewer size limits.
+- Use the default ODF Text Document (.odt) (compressed/binary) or the Flat XML ODF Text Document (.fodt) (ASCII/uncompressed) format.
+- Upload the document file to the web storage service of your choice. Recommended providers are **Dropbox** or **Github**. **Dropbox** is prefered because of automatic synchronisation between the local and the remote storage. **Google Drive** is not supported.
 - Create a public URL for viewing and use that URL to import data into BBOalert (see https://github.com/stanmaz/BBOalert/tree/master?tab=readme-ov-file#web-storage-support).
 
 # Features supported by BBOalert
@@ -16,3 +16,5 @@
   - Download the file: https://github.com/stanmaz/BBOalert/blob/master/LibreOffice/BBOalert.oxt
   - In LibreOffice choose Tools → Extensions → Add, select the downloaded `BBOalert.oxt` file, and restart LibreOffice.
   - If needed, enable macros in Tools → Options → LibreOffice → Security → Macro Security and set an appropriate security level.
+
+
