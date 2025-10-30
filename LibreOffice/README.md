@@ -17,4 +17,10 @@
   - In LibreOffice choose Tools → Extensions → Add, select the downloaded `BBOalert.oxt` file, and restart LibreOffice.
   - If needed, enable macros in Tools → Options → LibreOffice → Security → Macro Security and set an appropriate security level.
 
+Copy the link :
+
+    https://github.com/stanmaz/BBOalert/blob/master/LibreOffice/LibreOfficeSampleData.odt
+    
+and execute the BBOalert command **Data/Paste (New)** to load the sample data file.
+
 
