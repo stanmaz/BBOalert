@@ -15,7 +15,7 @@
 				var msg = `autoRedeal,${getContext()},${getHandBySeat('N')},${getHandBySeat('E')},${getHandBySeat('S')},${getHandBySeat('W')}`;
 				msg = replaceSuitSymbols(msg, "");
 				console.log(msg);
-				setChatMessage(msg + "\\n", true);
+//				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
 				$(".redeal-button", PWD).click();
 			})
