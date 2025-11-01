@@ -13,6 +13,7 @@
 				if (!ctx.endsWith("------")) return;
 				setChatDestination("Table");
 				var msg = `autoRedeal,${getContext()},${getHandBySeat('N')},${getHandBySeat('E')},${getHandBySeat('S')},${getHandBySeat('W')}`;
+				console.log(msg);
 				msg = replaceSuitSymbols(msg, "") + "\\n";
 				setChatMessage(msg, true);
 				cfg.max_deals--;
