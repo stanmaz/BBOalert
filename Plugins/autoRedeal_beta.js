@@ -21,7 +21,7 @@
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
 				setChatDestination("Table");
-				var msg = `autoRedeal,${getContext()} ${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}`;
+				var msg = `autoRedeal,${getContext()},${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}`;
 				msg = replaceSuitSymbols(msg, "");
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
