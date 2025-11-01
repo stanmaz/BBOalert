@@ -1,4 +1,13 @@
 (function () {
+	function hand2PBN(t) {
+	// reverse string
+		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
+		var s = n.substring(n.indexOf("S"),n.lastIndexOf("S")+2).replaceAll(/[SHDC]/g,"");
+		var h = n.substring(n.indexOf("H"),n.lastIndexOf("H")+2).replaceAll(/[SHDC]/g,"");
+		var d = n.substring(n.indexOf("D"),n.lastIndexOf("D")+2).replaceAll(/[SHDC]/g,"");
+		var c = n.substring(n.indexOf("C"),n.lastIndexOf("C")+2).replaceAll(/[SHDC]/g,"");
+		return `${s}.${h}.${d}.${c}`
+	}
 	var title = "Auto redeal at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
@@ -12,7 +21,7 @@
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
 				setChatDestination("Table");
-				var msg = `autoRedeal,${getContext()},${getHandBySeat('N')},${getHandBySeat('E')},${getHandBySeat('S')},${getHandBySeat('W')}`;
+				var msg = `autoRedeal,${getContext()},${hand2PBN(getHandBySeat('N'))},${hand2PBN(getHandBySeat('E'))},${hand2PBN(getHandBySeat('S'))},${hand2PBN(getHandBySeat('W'))}`;
 				msg = replaceSuitSymbols(msg, "");
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
