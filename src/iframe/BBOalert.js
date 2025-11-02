@@ -105,6 +105,7 @@ function clearData() {
  * @ignore
  */
 function getDataType(data) {
+	if (data.startsWith("Import,")) return 'BBOalert';
 	header = data.slice(0, 80);
 	if (header.startsWith("https://")) return "URL";
 	if (header.search(/bboalert/i) != -1) return 'BBOalert';

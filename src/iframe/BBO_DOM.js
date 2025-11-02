@@ -964,3 +964,61 @@ function getPlayerAtSeat(seat) {
 		return (this.textContent.startsWith(seat));
 	}).find(".nameDisplayClass").text();
 }
+
+function getOpenProfile() {
+	var pp = parent.document.querySelector('profile-popup');
+	if (pp == null) return null;
+	if (!isVisible(pp)) return null;
+	return pp;
+}
+
+function getOpenProfileBBOid() {
+	var pp = getOpenProfile();
+	if (pp == null) return "";
+	return pp.querySelector('name-tag span').firstChild.textContent.trim()
+}
+
+function getOpenProfileBBOalertURL() {
+	var info = $("profile-popup .otherInfoClass", PWD).text();
+	if (!info.includes("https://")) return "";
+	return info.substring(info.lastIndexOf("https://")).trim();
+}
+
+function loadBBOalertURLinProfile() {
+	var url = getOpenProfileBBOalertURL();
+	if (url == "") return;
+	importedURL = url;
+	readNewData("BBOalert\nImport," + importedURL);
+}
+
+function addBBOalertButtonToProfile() {
+	var pp = getOpenProfile();
+	if (pp == null) return;
+	$('.bboalertProfileButtonClass', pp).remove();
+	var url = getOpenProfileBBOalertURL();
+	if (url == "") return;
+	importedURL = url;
+	loadBBOalertWebDataFile(importedURL, importedURL,
+		function (data) {
+			var txt = data;
+			if (getDataType(txt) == "BBOalert") {
+				var button = document.createElement("button");
+				button.className = "bboalertProfileButtonClass";
+				button.textContent = "Import BBOalert data";
+				button.onclick = function () {
+					setOptions(true);
+					$('#bttab-bboalert').click();
+					readNewData("BBOalert\nImport," + importedURL);
+				};
+				var pp = getOpenProfile();
+				pp.querySelector('.otherInfoClass').after(button);
+			}
+		},
+		function (error) {
+			console.log("Error loading BBOalert data from " + importedURL + " : " + error);
+		});
+}
+
+function removeBBOalertButtonFromProfile() {
+	$('profile-popup .bboalertProfileButtonClass', PWD).remove();
+}

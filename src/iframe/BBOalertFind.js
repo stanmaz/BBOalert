@@ -69,6 +69,7 @@ class BBOalertFind {
             } else {
                 suffix = call; // if call field is empty then append the current call for matching
             }
+            if (rec[2].includes("@I")) continue;
             if (matchContext(currentContext, stripContext(context) + suffix)) {
                 matchFound = true;
                 alertText = scan.replaceAliases(rec[2], "E");

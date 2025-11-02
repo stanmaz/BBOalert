@@ -199,6 +199,7 @@ function onNavDivDisplayed() {
     openAccountTab();
     openMessageTab();
     restoreSettings();
+    loadTinyURL();
     setOptions(!isSettingON(7));
     bboalertLog(version + "<br>Reading data<br>");
     setTimeout(() => {
@@ -353,4 +354,3 @@ function onTableHidden() {
     BBOalertEvents().dispatchEvent(E_onTableHidden);
     execUserScript('%onTableHidden%');
 }
-

@@ -31,6 +31,8 @@ const BBOobserverCallback = function (mutationsList, observer) {
     checkPlayedCards();
     checkCallExplanationPanel();
     checkMyCardsDisplayed();
+    checkProfileBoxDisplayed();
+    checkOpenProfileBBOalertURL();
     onAnyMutation();
     observer.observe(targetNode, config);
 };
@@ -153,7 +155,8 @@ function checkOKbuttonVisible() {
         OKbuttonVisible = buttonOKvisible();
         if (isVisible(getAuctionBox())) {
             if (OKbuttonVisible) {
-                onOKbuttonDisplayed();} else {onOKbuttonHidden();}
+                onOKbuttonDisplayed();
+            } else { onOKbuttonHidden(); }
         }
     }
 }
@@ -162,7 +165,7 @@ function checkOKbuttonPressed() {
     if (buttonOKpressed() != OKbuttonPressed) {
         OKbuttonPressed = buttonOKpressed();
         if (isVisible(getAuctionBox())) {
-            if (OKbuttonPressed) {onOKbuttonPressed();}
+            if (OKbuttonPressed) { onOKbuttonPressed(); }
         }
     }
 }
@@ -201,11 +204,31 @@ function checkMyCardsDisplayed() {
         onMyCardsDisplayed();
     }
 }
+
+function checkProfileBoxDisplayed() {
+    if (getOpenProfileBBOid() != openProfileBBOid) {
+        openProfileBBOid = getOpenProfileBBOid();
+    }
+}
+
+function checkOpenProfileBBOalertURL() {
+    if (getOpenProfileBBOalertURL() != openProfileBBOalertURL) {
+        openProfileBBOalertURL = getOpenProfileBBOalertURL();
+        if (openProfileBBOalertURL != "") {
+            addBBOalertButtonToProfile();
+        } else {
+            removeBBOalertButtonFromProfile();
+        }
+    }
+}  
+
 /**
  * @ignore
  */
 
 // openAccountTab();
+
+
 
 // Create an observer instance linked to the callback function
 const BBOobserver = new MutationObserver(BBOobserverCallback);

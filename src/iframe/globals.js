@@ -55,6 +55,9 @@ let logText = `${version}\n${navigator.userAgent}\n`;
 let bidSymbolMap = new Map();
 let alertHistoryMap = new Map();
 let PWD = parent.window.document;
+let openProfileBBOid = "";
+let openProfileBBOalertURL = "";
+let listTinyURL = new Map();
 
 let apiKey = "AIzaSyBDC18V7_Sw4fIHoIkOR40nRPMZAuW2QMk";
 
@@ -96,6 +99,8 @@ E_onNewChatMessage = new Event('onNewChatMessage');
 E_onDataLoad = new Event('onDataLoad');
 E_onTableDisplayed = new Event('onTableDisplayed');
 E_onTableHidden = new Event('onTableHidden');
+E_onProfileBoxDisplayed = new Event('onProfileBoxDisplayed');
+E_onProfileBoxHidden = new Event('onProfileBoxHidden');
 
 function bidArray(bids) {
     let bidarr = [];
