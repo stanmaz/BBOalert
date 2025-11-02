@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.2");
+	console.log("autoRedeal version 1.4");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -32,6 +32,20 @@
 				if (vul == "@v@N") vul = "NS";
 				if (vul == "@n@V") vul = "EW";
 				if (vul == "@v@V") vul = "All";
+				var ctx = getContext();
+				var auc = "";
+				var auction = "";
+				while (ctx.length > 0) {
+    				var bid = ctx.substring(0, 2);
+    				auc = auc + bid + "      ";
+    				if (auc.length == 32) {
+        				auction = auction + auc + "\n";
+        				auc = "";
+    				}
+    			ctx = ctx.slice(2);
+				}
+				auction = auction + auc + "\n";
+				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass");
 				setChatDestination("Table");
 				var msg = `
 [Event "autoRedeal"]
@@ -39,6 +53,8 @@
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]
+[Auction "${dealer}"]
+${auction}
 `;
 				msg = replaceSuitSymbols(msg, "");
 				txt = txt+msg;
