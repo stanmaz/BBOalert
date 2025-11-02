@@ -21,7 +21,7 @@
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
 				setChatDestination("Table");
-				var msg = `autoRedeal,${getContext()},[Board "${GetDealNumber}"]
+				var msg = `autoRedeal,${getContext()},[Board "${getDealNumber()}"]
 				[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]`;
 				msg = replaceSuitSymbols(msg, "");
 				console.log(msg);
