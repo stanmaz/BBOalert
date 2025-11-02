@@ -32,11 +32,12 @@
 				if (vul == "@n@V") vul = "EW";
 				if (vul == "@v@V") vul = "All";
 				setChatDestination("Table");
-				var msg = `${getContext()},[Event "autoRedeal"]
+				var msg = `[Event "autoRedeal"]
 				[Board "${getDealNumber()}"]
 				[Dealer "${dealer}"]
 				[Vulnerable "${vul}"]
-				[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]`;
+				[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]
+				`;
 				msg = replaceSuitSymbols(msg, "");
 				txt = txt+msg;
 				window.autoRedeal = txt;
