@@ -1,5 +1,5 @@
 function initBBOalertIframe() {
-//  if (document.getElementById("adpanel0") != null) return;
+  //  if (document.getElementById("adpanel0") != null) return;
   var appPanel = document.getElementById("rightDiv");
   if (appPanel == null) return;
   $("#adpanel0").remove();
@@ -17,8 +17,9 @@ function initBBOalertIframe() {
   $('#bboalert-iframe').remove();
   ifrm = document.createElement("iframe");
   ifrm.allow = "clipboard-read; clipboard-write";
-  ifrm.sandbox = 'allow-scripts allow-same-origin allow-modals allow-popups';
+  ifrm.sandbox = 'allow-scripts allow-same-origin allow-modals allow-popups allow-forms';
   ifrm.id = 'bboalert-iframe';
+  ifrm.name = 'bboalert';
   ifrm.width = "100%";
   ifrm.height = "100%";
   var version = chrome.runtime.getManifest().name + ' ' + chrome.runtime.getManifest().version;
@@ -35,6 +36,7 @@ function initBBOalertIframe() {
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" integrity="sha256-rMfkFFWoB2W1/Zx+4bgHim0WC7vKRVrq6FTeZclH1Z4=" crossorigin="anonymous"></script>
         <script defer src="${chrome.runtime.getURL("iframe/globals.js")}" crossorigin='anonymous'></script>
         <script defer src="${chrome.runtime.getURL("iframe/BBO_DOM.js")}" crossorigin='anonymous'></script>
         <script defer src="${chrome.runtime.getURL("iframe/blogspot.js")}" crossorigin='anonymous'></script>

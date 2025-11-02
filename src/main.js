@@ -32,7 +32,7 @@ const observer = new MutationObserver(callback);
 
 // Start observing the target node for configured mutations
 const targetNode = document.body;
-window.onload = function() {
+window.onload = function () {
   cleanUpBBOalert();
   observer.observe(targetNode, config);
 };
@@ -91,5 +91,14 @@ if (window.location.href.startsWith("https://drive.google.com/file/d/") && windo
       clearInterval(intervalId);
     }
   }, 100);
+}
+
+if (window.opener != null) {
+  $(document).ready(function () {
+    window.opener.postMessage(window.name + "," + window.location.href, '*');
+    if (window.name.startsWith("https://tinyurl.com")) {
+      window.close();
+    }
+  });
 }
 
