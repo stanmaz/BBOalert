@@ -20,7 +20,7 @@
 				if (cfg.max_deals < 1) {
 					if (confirm("Press OK to copy data to the clipboard")) {
 						writeToClipboard(txt);
-//						return;
+						return;
 					}
 				}
 				var ctx = getContext();
