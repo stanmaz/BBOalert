@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.7");
+	console.log("autoRedeal version 1.8");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -57,7 +57,7 @@ ${auction}
 `;
 				msg = replaceSuitSymbols(msg, "");
 				txt = txt+msg;
-				localStorage.setItem("autoRedealLog",msg);
+				localStorage.setItem("autoRedealLog",txt);
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
