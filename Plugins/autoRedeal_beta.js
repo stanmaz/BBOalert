@@ -13,15 +13,14 @@
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
 	var txt = "";
+	window.autoRedeal = txt;
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_redeal) return;
 				if (cfg.max_deals < 1) {
-					if (confirm("Press OK to copy data to the clipboard")) {
-						writeToClipboard(txt);
+						window.autoRedeal = txt;
 						return;
-					}
 				}
 				var ctx = getContext();
 				if (ctx.length < 8) return;
@@ -40,6 +39,7 @@
 				[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]`;
 				msg = replaceSuitSymbols(msg, "");
 				txt = txt+msg;
+				window.autoRedeal = txt;
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
