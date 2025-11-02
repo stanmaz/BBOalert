@@ -1,4 +1,5 @@
 (function () {
+	console.log("autoRedeal version 1.1");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
