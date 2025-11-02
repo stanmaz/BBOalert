@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.8");
+	console.log("autoRedeal version 1.9");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -19,7 +19,6 @@
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_redeal) return;
 				if (cfg.max_deals < 1) {
-						parent.window.autoRedeal = txt;
 						return;
 				}
 				var ctx = getContext();
