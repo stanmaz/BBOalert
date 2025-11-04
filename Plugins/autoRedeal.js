@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.3");
+	console.log("autoRedeal version 1.2");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -39,16 +39,16 @@
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_Log) {
                     if (DEBUG) console.log("config = " + cfg);
-					if (localStorage.removeItem('autoRedealLog') == undefined) return;
-					if (localStorage.removeItem('autoRedealLog') == "") return;
+					if (localStorage.getItem('autoRedealLog') == undefined) return;
+					if (localStorage.getItem('autoRedealLog') == "") return;
                     writeToClipboard(EVENT_LOG);
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
                     cfg.Export_Log = false;
                 }
                 if (cfg.Clear_Log) {
-					if (localStorage.removeItem('autoRedealLog') == undefined) return;
-					if (localStorage.removeItem('autoRedealLog') == "") return;
+					if (localStorage.getItem('autoRedealLog') == undefined) return;
+					if (localStorage.getItem('autoRedealLog') == "") return;
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
                     cfg.Clear_Log = false;
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
