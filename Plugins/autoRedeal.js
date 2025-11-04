@@ -20,13 +20,30 @@
         return "E";
     	}
 	}
-	var title = "Auto redeal at auction end";
+	var title = "Auto redeal+capture at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
-	var txt = "";
+	cfg.Export_Log_Data = false;
+	cfg.Clear_Log_Data = false;
+	var EVENT_LOG = localStorage.getItem('autoRedealLog');
+	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
+			addBBOalertEvent("onAnyMutation", function () {
+                if (cfg.Export_Log_Data) {
+                    if (DEBUG) console.log("config = " + cfg);
+                    writeToClipboard(EVENT_LOG);
+                    localStorage.setItem('autoRedealLog', EVENT_LOG);
+                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
+                    cfg.Export_Log_Data = false;
+                }
+                if (cfg.Clear_Log_Data) {
+                    if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
+                    cfg.Clear_Log_Data = false;
+                    localStorage.setItem('autoRedealLog', EVENT_LOG);
+                }
+            });
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_redeal) return;
 				var ctx = getContext();
@@ -54,7 +71,7 @@
 				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass");
 				setChatDestination("Table");
 				var msg = `
-[Event "autoRedeal"]
+[Event "autoCapture"]
 [Board "${getDealNumber()}"]
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
@@ -63,10 +80,9 @@
 ${auction}
 `;
 				msg = replaceSuitSymbols(msg, "");
-				txt = txt+msg;
-				localStorage.setItem("autoRedealLog",txt);
+				EVENT_LOG = EVENT_LOG + msg;
+				localStorage.setItem("autoRedealLog",EVENT_LOG);
 				console.log(msg);
-//				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
 				if (cfg.max_deals < 1) {
 					cfg.max_deals = 0;
@@ -77,3 +93,4 @@ ${auction}
 		}
 	});
 })();
+
