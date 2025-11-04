@@ -9,17 +9,21 @@
 		var c = n.substring(n.indexOf("C"),n.lastIndexOf("C")+2).replaceAll(/[SHDC]/g,"");
 		return `${s}.${h}.${d}.${c}`
 	}
-	function getDealerSeat() {
+	function getDealerSeatNr() {
     	var d =$(".vulPanelDealerClass", PWD).first();
-    	if (d.width() == undefined) return "";
+    	if (d.width() == undefined) return "-1";
     	if (d.width() > d.height()) {    // NS
-        	if (d.position().top == 0) return "N";
-        	return "S";
+        	if (d.position().top == 0) return 0;
+        	return 2;
     	} else {   // EW
-        	if (d.position().left == 0) return "W";
-        return "E";
+        	if (d.position().left == 0) return 3;
+        return 1;
     	}
 	}
+    function getDealerSeat() {
+        var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
+        return ah.charAt((getDealerSeatNr()+1)%4)
+    }
 	var title = "Auto redeal+capture at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
