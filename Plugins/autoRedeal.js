@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.4");
+	console.log("autoRedeal version 1.3");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -24,23 +24,23 @@
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
-	cfg.Export_Log_Data = false;
-	cfg.Clear_Log_Data = false;
+	cfg.Export_Log = false;
+	cfg.Clear_Log = false;
 	var EVENT_LOG = localStorage.getItem('autoRedealLog');
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
 			addBBOalertEvent("onAnyMutation", function () {
-                if (cfg.Export_Log_Data) {
+                if (cfg.Export_Log) {
                     if (DEBUG) console.log("config = " + cfg);
                     writeToClipboard(EVENT_LOG);
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
-                    cfg.Export_Log_Data = false;
+                    cfg.Export_Log = false;
                 }
-                if (cfg.Clear_Log_Data) {
+                if (cfg.Clear_Log) {
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-                    cfg.Clear_Log_Data = false;
+                    cfg.Clear_Log = false;
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
                 }
             });
