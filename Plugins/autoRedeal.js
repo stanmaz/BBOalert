@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.2");
+	console.log("autoRedeal version 1.1");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -68,7 +68,7 @@ ${auction}
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
-				if (cfg.max_deals < 0) {
+				if (cfg.max_deals < 1) {
 						return;
 				}
 				$(".redeal-button", PWD).click();
