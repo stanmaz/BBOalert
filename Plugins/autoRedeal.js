@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.1");
+	console.log("autoRedeal version 1.2");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -29,9 +29,6 @@
 		if (addConfigBox(title, cfg) != null) {
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_redeal) return;
-				if (cfg.max_deals < 1) {
-						return;
-				}
 				var ctx = getContext();
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
@@ -71,6 +68,9 @@ ${auction}
 				console.log(msg);
 //				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
+				if (cfg.max_deals < 0) {
+						return;
+				}
 				$(".redeal-button", PWD).click();
 			})
 		}
