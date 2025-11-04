@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.2");
+	console.log("autoRedeal version 1.3");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -34,6 +34,8 @@
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
+			cfg.Export_Log = false;
+			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_Log) {
                     if (DEBUG) console.log("config = " + cfg);
