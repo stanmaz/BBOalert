@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.0");
+	console.log("autoRedeal version 1.1");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -8,6 +8,17 @@
 		var d = n.substring(n.indexOf("D"),n.lastIndexOf("D")+2).replaceAll(/[SHDC]/g,"");
 		var c = n.substring(n.indexOf("C"),n.lastIndexOf("C")+2).replaceAll(/[SHDC]/g,"");
 		return `${s}.${h}.${d}.${c}`
+	}
+	function getDealerSeat() {
+    	var d =$(".vulPanelDealerClass", PWD).first();
+    	if (d.width() == undefined) return "";
+    	if (d.width() > d.height()) {    // NS
+        	if (d.position().top == 0) return "N";
+        	return "S";
+    	} else {   // EW
+        	if (d.position().left == 0) return "W";
+        return "E";
+    	}
 	}
 	var title = "Auto redeal at auction end";
 	var cfg = {};
@@ -24,7 +35,7 @@
 				var ctx = getContext();
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
-				var dealer = "NESW".charAt((getDealNumber() - 1) % 4);
+				var dealer = getDealerSeat();
 				var vul = areWeVulnerable()+areTheyVulnerable();
 				if (vul == "@n@N") vul = "none";
 				if (vul == "@v@N") vul = "NS";
