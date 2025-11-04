@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.9");
+	console.log("autoRedeal version 1.3");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -9,22 +9,47 @@
 		var c = n.substring(n.indexOf("C"),n.lastIndexOf("C")+2).replaceAll(/[SHDC]/g,"");
 		return `${s}.${h}.${d}.${c}`
 	}
+	function getDealerSeat() {
+    	var d =$(".vulPanelDealerClass", PWD).first();
+    	if (d.width() == undefined) return "";
+    	if (d.width() > d.height()) {    // NS
+        	if (d.position().top == 0) return "N";
+        	return "S";
+    	} else {   // EW
+        	if (d.position().left == 0) return "W";
+        return "E";
+    	}
+	}
 	var title = "Auto redeal at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
-	var txt = "";
+	cfg.Export_Log_Data = false;
+	cfg.Clear_Log_Data = false;
+	var EVENT_LOG = localStorage.getItem('autoRedealLog');
+	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
+			addBBOalertEvent("onAnyMutation", function () {
+                if (cfg.Export_Log_Data) {
+                    if (DEBUG) console.log("config = " + cfg);
+                    writeToClipboard(EVENT_LOG);
+                    localStorage.setItem('autoRedealLog', EVENT_LOG);
+                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
+                    cfg.Export_Log_Data = false;
+                }
+                if (cfg.Clear_Log_Data) {
+                    if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
+                    cfg.Clear_Log_Data = false;
+                    localStorage.setItem('autoRedealLog', EVENT_LOG);
+                }
+            });
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_redeal) return;
-				if (cfg.max_deals < 1) {
-						return;
-				}
 				var ctx = getContext();
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
-				var dealer = "NESW".charAt((getDealNumber() - 1) % 4);
+				var dealer = getDealerSeat();
 				var vul = areWeVulnerable()+areTheyVulnerable();
 				if (vul == "@n@N") vul = "none";
 				if (vul == "@v@N") vul = "NS";
@@ -55,13 +80,18 @@
 ${auction}
 `;
 				msg = replaceSuitSymbols(msg, "");
-				txt = txt+msg;
-				localStorage.setItem("autoRedealLog",txt);
+				EVENT_LOG = EVENT_LOG + msg;
+				localStorage.setItem("autoRedealLog",EVENT_LOG);
 				console.log(msg);
-//				setChatMessage(msg + "\\n", true);
 				cfg.max_deals--;
+				if (cfg.max_deals < 1) {
+					cfg.max_deals = 0;
+					return;
+				}
 				$(".redeal-button", PWD).click();
 			})
 		}
 	});
 })();
+
+
