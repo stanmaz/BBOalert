@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.7");
+	console.log("autoRedeal version 1.6");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -24,20 +24,20 @@
         var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
         return ah.charAt((getDealerSeatNr()+1)%4)
     }
-	var title = "PBN capture 1.7";
+	var title = "PBN capture";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 0;
-	cfg.Export_PBN_Log = false;
-	cfg.Clear_PBN_Log = false;
+	cfg.Export_PBN = false;
+	cfg.Clear_PBN = false;
 	var EVENT_LOG = localStorage.getItem('autoRedealLog');
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
-			cfg.Export_Log = false;
+			cfg.Export_PBN = false;
 			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
-                if (cfg.Export_Log) {
+                if (cfg.Export_PBN) {
                     if (DEBUG) console.log("config = " + cfg);
 					if (localStorage.getItem('autoRedealLog') == null) return;
 					if (localStorage.getItem('autoRedealLog') == "") return;
@@ -45,7 +45,7 @@
 					downloadTextAsFile(EVENT_LOG, "autoRedealLog.pbn");
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/autoRedealLog.pbn file");
-                    cfg.Export_Log = false;
+                    cfg.Export_PBN = false;
                 }
                 if (cfg.Clear_Log) {
 					if (localStorage.getItem('autoRedealLog') == null) return;
