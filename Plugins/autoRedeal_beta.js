@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.5");
+	console.log("autoRedeal version 1.6");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -28,8 +28,8 @@
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 0;
-	cfg.Export_Log = false;
-	cfg.Clear_Log = false;
+	cfg.Export_PBN_Log = false;
+	cfg.Clear_PBN_Log = false;
 	var EVENT_LOG = localStorage.getItem('autoRedealLog');
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
