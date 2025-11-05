@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.2");
+	console.log("autoRedeal version 1.5");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -9,18 +9,22 @@
 		var c = n.substring(n.indexOf("C"),n.lastIndexOf("C")+2).replaceAll(/[SHDC]/g,"");
 		return `${s}.${h}.${d}.${c}`
 	}
-	function getDealerSeat() {
+	function getDealerSeatNr() {
     	var d =$(".vulPanelDealerClass", PWD).first();
-    	if (d.width() == undefined) return "";
+    	if (d.width() == undefined) return "-1";
     	if (d.width() > d.height()) {    // NS
-        	if (d.position().top == 0) return "N";
-        	return "S";
+        	if (d.position().top == 0) return 0;
+        	return 2;
     	} else {   // EW
-        	if (d.position().left == 0) return "W";
-        return "E";
+        	if (d.position().left == 0) return 3;
+        return 1;
     	}
 	}
-	var title = "Auto redeal at auction end";
+    function getDealerSeat() {
+        var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
+        return ah.charAt((getDealerSeatNr()+1)%4)
+    }
+	var title = "Auto redeal+capture at auction end";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 64;
@@ -30,15 +34,22 @@
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
+			cfg.Export_Log = false;
+			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_Log) {
                     if (DEBUG) console.log("config = " + cfg);
+					if (localStorage.getItem('autoRedealLog') == null) return;
+					if (localStorage.getItem('autoRedealLog') == "") return;
                     writeToClipboard(EVENT_LOG);
+					downloadTextAsFile(EVENT_LOG, "autoRedealLog.pbn");
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard");
                     cfg.Export_Log = false;
                 }
                 if (cfg.Clear_Log) {
+					if (localStorage.getItem('autoRedealLog') == null) return;
+					if (localStorage.getItem('autoRedealLog') == "") return;
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
                     cfg.Clear_Log = false;
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
@@ -71,11 +82,11 @@
 				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass");
 				setChatDestination("Table");
 				var msg = `
-[Event "autoRedeal"]
+[Event "autoCapture"]
 [Board "${getDealNumber()}"]
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
-[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]
+[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
 [Auction "${dealer}"]
 ${auction}
 `;
@@ -93,5 +104,3 @@ ${auction}
 		}
 	});
 })();
-
-
