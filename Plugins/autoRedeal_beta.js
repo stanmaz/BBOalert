@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.6");
+	console.log("autoRedeal version 1.7");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -30,7 +30,7 @@
 	cfg.max_deals = 0;
 	cfg.Export_PBN = false;
 	cfg.Clear_PBN = false;
-	var EVENT_LOG = localStorage.getItem('autoRedealLog');
+	var EVENT_LOG = localStorage.getItem('PBNcapture');
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
@@ -39,20 +39,20 @@
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_PBN) {
                     if (DEBUG) console.log("config = " + cfg);
-					if (localStorage.getItem('autoRedealLog') == null) return;
-					if (localStorage.getItem('autoRedealLog') == "") return;
+					if (localStorage.getItem('PBNcapture') == null) return;
+					if (localStorage.getItem('PBNcapture') == "") return;
                     writeToClipboard(EVENT_LOG);
-					downloadTextAsFile(EVENT_LOG, "autoRedealLog.pbn");
-                    localStorage.setItem('autoRedealLog', EVENT_LOG);
-                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/autoRedealLog.pbn file");
+		    downloadTextAsFile(EVENT_LOG, "BBOalertCapture.pbn");
+                    localStorage.setItem('PBNcapture', EVENT_LOG);
+                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/BBOalertCapture.pbn file");
                     cfg.Export_PBN = false;
                 }
                 if (cfg.Clear_Log) {
-					if (localStorage.getItem('autoRedealLog') == null) return;
-					if (localStorage.getItem('autoRedealLog') == "") return;
+					if (localStorage.getItem('PBNcapture') == null) return;
+					if (localStorage.getItem('PBNcapture') == "") return;
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
                     cfg.Clear_Log = false;
-                    localStorage.setItem('autoRedealLog', EVENT_LOG);
+                    localStorage.setItem('PBNcapture', EVENT_LOG);
                 }
             });
 			addBBOalertEvent("onNewAuction", function () {
@@ -92,7 +92,7 @@ ${auction}
 `;
 				msg = replaceSuitSymbols(msg, "");
 				EVENT_LOG = EVENT_LOG + msg;
-				localStorage.setItem("autoRedealLog",EVENT_LOG);
+				localStorage.setItem("PBNcapture",EVENT_LOG);
 				console.log(msg);
 				cfg.max_deals--;
 				if (cfg.max_deals < 1) {
