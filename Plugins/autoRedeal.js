@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.3");
+	console.log("autoRedeal version 1.4");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -85,7 +85,7 @@
 [Board "${getDealNumber()}"]
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
-[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}]
+[Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
 [Auction "${dealer}"]
 ${auction}
 `;
