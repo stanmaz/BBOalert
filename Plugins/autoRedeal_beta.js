@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.6");
+	console.log("autoRedeal version 1.7");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -24,7 +24,7 @@
         var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
         return ah.charAt((getDealerSeatNr()+1)%4)
     }
-	var title = "PBN capture";
+	var title = "PBN capture 1.7";
 	var cfg = {};
 	cfg.Enable_redeal = false;
 	cfg.max_deals = 0;
