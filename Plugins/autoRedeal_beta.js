@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.7");
+	console.log("autoRedeal version 1.6");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -35,7 +35,7 @@
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
 			cfg.Export_PBN = false;
-			cfg.Clear_Log = false;
+			cfg.Clear_PBN = false;
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_PBN) {
                     if (DEBUG) console.log("config = " + cfg);
@@ -47,11 +47,11 @@
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/BBOalertCapture.pbn file");
                     cfg.Export_PBN = false;
                 }
-                if (cfg.Clear_Log) {
+                if (cfg.Clear_PBN) {
 					if (localStorage.getItem('PBNcapture') == null) return;
 					if (localStorage.getItem('PBNcapture') == "") return;
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-                    cfg.Clear_Log = false;
+                    cfg.Clear_PBN = false;
                     localStorage.setItem('PBNcapture', EVENT_LOG);
                 }
             });
