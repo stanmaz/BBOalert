@@ -24,10 +24,10 @@
         var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
         return ah.charAt((getDealerSeatNr()+1)%4)
     }
-	var title = "Auto redeal+capture at auction end";
+	var title = "PBN capture";
 	var cfg = {};
 	cfg.Enable_redeal = false;
-	cfg.max_deals = 64;
+	cfg.max_deals = 0;
 	cfg.Export_Log = false;
 	cfg.Clear_Log = false;
 	var EVENT_LOG = localStorage.getItem('autoRedealLog');
@@ -104,3 +104,4 @@ ${auction}
 		}
 	});
 })();
+
