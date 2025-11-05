@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.6");
+	console.log("autoRedeal version 1.5");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -44,7 +44,7 @@
                     writeToClipboard(EVENT_LOG);
 					downloadTextAsFile(EVENT_LOG, "autoRedealLog.pbn");
                     localStorage.setItem('autoRedealLog', EVENT_LOG);
-                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/autoRedealLog.pbn");
+                    bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/autoRedealLog.pbn file");
                     cfg.Export_Log = false;
                 }
                 if (cfg.Clear_Log) {
