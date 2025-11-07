@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.6");
+	console.log("autoRedeal version 1.7");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -26,16 +26,16 @@
     }
 	var title = "PBN capture";
 	var cfg = {};
-	cfg.Enable_redeal = false;
-	cfg.max_deals = 0;
+	cfg.Enable_Log = false;
+	cfg.Auto_redeals = 0;
 	cfg.Export_PBN = false;
-	cfg.Clear_PBN = false;
+	cfg.Clear_Log = false;
 	var EVENT_LOG = localStorage.getItem('PBNcapture');
 	if (EVENT_LOG == null) EVENT_LOG = '';
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
 			cfg.Export_PBN = false;
-			cfg.Clear_PBN = false;
+			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
                 if (cfg.Export_PBN) {
                     if (DEBUG) console.log("config = " + cfg);
@@ -47,16 +47,16 @@
                     bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/BBOalertCapture.pbn file");
                     cfg.Export_PBN = false;
                 }
-                if (cfg.Clear_PBN) {
+                if (cfg.Clear_Log) {
 					if (localStorage.getItem('PBNcapture') == null) return;
 					if (localStorage.getItem('PBNcapture') == "") return;
                     if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-                    cfg.Clear_PBN = false;
+                    cfg.Clear_Log = false;
                     localStorage.setItem('PBNcapture', EVENT_LOG);
                 }
             });
 			addBBOalertEvent("onNewAuction", function () {
-				if (!cfg.Enable_redeal) return;
+				if (!cfg.Enable_Log) return;
 				var ctx = getContext();
 				if (ctx.length < 8) return;
 				if (!ctx.endsWith("------")) return;
@@ -94,9 +94,9 @@ ${auction}
 				EVENT_LOG = EVENT_LOG + msg;
 				localStorage.setItem("PBNcapture",EVENT_LOG);
 				console.log(msg);
-				cfg.max_deals--;
-				if (cfg.max_deals < 1) {
-					cfg.max_deals = 0;
+				cfg.Auto_redeals--;
+				if (cfg.Auto_redeals < 1) {
+					cfg.Auto_redeals = 0;
 					return;
 				}
 				$(".redeal-button", PWD).click();
