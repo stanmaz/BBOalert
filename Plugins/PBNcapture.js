@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.0");
+	console.log("PBN Capture version 1.1");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -55,7 +55,8 @@
 						EVENT_LOG = '';
 						localStorage.setItem('PBNcapture', EVENT_LOG);
 					}
-				});
+				}
+			});
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_Log) return;
 				var ctx = getContext();
