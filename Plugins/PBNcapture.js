@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.1");
+	console.log("PBN Capture version 1.2");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -38,6 +38,7 @@
 			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
 				if (cfg.Export_PBN) {
+					bboalertLog("");
 					cfg.Export_PBN = false;
 					if (DEBUG) console.log("config = " + cfg);
 					if (localStorage.getItem('PBNcapture') == null) return;
