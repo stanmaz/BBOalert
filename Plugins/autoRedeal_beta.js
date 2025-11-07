@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.8");
+	console.log("autoRedeal version 1.6");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -86,8 +86,10 @@
     			ctx = ctx.slice(2);
 				}
 				auction = auction + auc + "\n";
-				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass").replaceAll("N ", "NT");
+				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass").replaceAll("N", "NT");
+				console.log("contract = " + contract);
 				contract = contract.replaceAll("N", "NT");
+				console.log("contract = " + contract);
 				var msg = `
 [Event "autoCapture"]
 [Board "${getDealNumber()}"]
