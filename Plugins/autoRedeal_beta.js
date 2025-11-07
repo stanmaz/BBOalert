@@ -1,5 +1,5 @@
 (function () {
-	console.log("autoRedeal version 1.6");
+	console.log("autoRedeal version 1.7");
 	function hand2PBN(t) {
 	// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -69,8 +69,15 @@
 				var ctx = getContext();
 				var auc = "";
 				var auction = "";
+				var contract = "--";
+				var risc = "";
 				while (ctx.length > 0) {
     				var bid = ctx.substring(0, 2);
+					if (bid != "--") {
+						if (/[1234567][CDHSN]/.test(bid)) contract = bid;
+						if (bid == "Db") risc = "X";
+						if (bid == "Rd") risc = "XX";
+					}
     				auc = auc + bid + "      ";
     				if (auc.length == 32) {
         				auction = auction + auc + "\n";
@@ -79,14 +86,15 @@
     			ctx = ctx.slice(2);
 				}
 				auction = auction + auc + "\n";
-				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass");
-				setChatDestination("Table");
+				auction = auction.replaceAll("Db", "X ").replaceAll("Rd", "XX").replaceAll("--  ", "Pass").replaceAll("N ", "NT");
+				contract = contract.replaceAll("N", "NT");
 				var msg = `
 [Event "autoCapture"]
 [Board "${getDealNumber()}"]
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
+[Contract "${contract}${risc}"]
 [Auction "${dealer}"]
 ${auction}
 `;
