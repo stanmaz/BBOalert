@@ -38,6 +38,7 @@
 			cfg.Clear_Log = false;
 			addBBOalertEvent("onAnyMutation", function () {
 				if (cfg.Export_PBN) {
+					cfg.Export_PBN = false;
 					if (DEBUG) console.log("config = " + cfg);
 					if (localStorage.getItem('PBNcapture') == null) return;
 					if (localStorage.getItem('PBNcapture') == "") return;
@@ -45,16 +46,16 @@
 					downloadTextAsFile(EVENT_LOG, "BBOalertCapture.pbn");
 					localStorage.setItem('PBNcapture', EVENT_LOG);
 					bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/BBOalertCapture.pbn file");
-					cfg.Export_PBN = false;
 				}
 				if (cfg.Clear_Log) {
+					cfg.Clear_Log = false;
 					if (localStorage.getItem('PBNcapture') == null) return;
 					if (localStorage.getItem('PBNcapture') == "") return;
-					if (confirm("Are you sure you want to clear log ?")) EVENT_LOG = '';
-					cfg.Clear_Log = false;
-					localStorage.setItem('PBNcapture', EVENT_LOG);
-				}
-			});
+					if (confirm("Are you sure you want to clear log ?")) {
+						EVENT_LOG = '';
+						localStorage.setItem('PBNcapture', EVENT_LOG);
+					}
+				});
 			addBBOalertEvent("onNewAuction", function () {
 				if (!cfg.Enable_Log) return;
 				var ctx = getContext();
@@ -76,9 +77,9 @@
 					if (bid != "--") {
 						bid = bid.replaceAll("N", "NT");
 						if (/[1234567][CDHSN]/.test(bid)) {
-                            contract = bid;
-                            risk = "";
-                        }
+							contract = bid;
+							risk = "";
+						}
 						if (bid == "Db") risk = "X";
 						if (bid == "Rd") risk = "XX";
 					} else {
