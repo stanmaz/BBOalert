@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.2");
+	console.log("PBN Capture version 1.3");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -85,7 +85,7 @@
 						if (bid == "Db") risk = "X";
 						if (bid == "Rd") risk = "XX";
 					} else {
-						bid = "pass";
+						bid = "Pass";
 					}
 					bid = (bid + "        ").substring(0, 8);
 					auc = auc + bid;
