@@ -42,7 +42,7 @@
 					cfg.Export_PBN = false;
 					if (DEBUG) console.log("config = " + cfg);
 					if (!localStorage.getItem('PBNcapture')) {
-						bboalertLog("Log is already empty");
+						bboalertLog("Nothing to export");
 						return;
 					}
 					if (localStorage.getItem('PBNcapture') == "") return;
@@ -53,8 +53,10 @@
 				}
 				if (cfg.Clear_Log) {
 					cfg.Clear_Log = false;
-					if (localStorage.getItem('PBNcapture') == null) return;
-					if (localStorage.getItem('PBNcapture') == "") return;
+					if (!localStorage.getItem('PBNcapture')) {
+						bboalertLog("Log is empty");
+						return;
+					}
 					if (confirm("Are you sure you want to clear log ?")) {
 						EVENT_LOG = '';
 						localStorage.setItem('PBNcapture', EVENT_LOG);
