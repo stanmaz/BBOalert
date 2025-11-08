@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.3");
+	console.log("PBN Capture version 1.4");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -41,7 +41,10 @@
 					bboalertLog("");
 					cfg.Export_PBN = false;
 					if (DEBUG) console.log("config = " + cfg);
-					if (localStorage.getItem('PBNcapture') == null) return;
+					if (!localStorage.getItem('PBNcapture')) {
+						bboalertLog("Log is already empty");
+						return;
+					}
 					if (localStorage.getItem('PBNcapture') == "") return;
 					writeToClipboard(EVENT_LOG);
 					downloadTextAsFile(EVENT_LOG, "BBOalertCapture.pbn");
