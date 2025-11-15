@@ -621,11 +621,9 @@ Alerted call without explanation (to be explained manually on explicit request b
 
     ,	1C,	@D
 
-Explanation ignored because :
-- call explained elsewhere
-- call not alertable
+Explanation ignored because the call is explained elsewhere or is not alertable
 
-    ,    1N, @I 15-17 balanced
+    ,	1N,	@I 15-17 balanced
 
 ### Keyboard Shortcuts
 
