@@ -33,7 +33,6 @@ Version : 9.1.0.1
     + [Button Shortcuts](#button-shortcuts)
     + [Alias](#alias)
     + [Full Disclosure BSS file support](#full-disclosure-bss-file-support)
-    + [Using BBO convention card to share data](#using-bbo-convention-card-to-share-data)
     + [Web storage support](#web-storage-support)
       - [Google Docs](#google-docs)
       - [Google Drive](#google-drive)
@@ -577,7 +576,8 @@ Tags may be used in the call explanation text to automate some actions making th
 - @t = makes the call “Untrusted”. It will override the global “Trusted” flag.
 - @D = deferred call explanation. You will explain the call only on explicit request of an opponent. 
 - @d = overrides the global “Deferred alerts” flag from the “Settings” menu for a particular explanation. (see Release notes version 8.5)
-- @A =  sets the “Alert” button
+- @A = sets the “Alert” button
+- @I = ignore the explanation
 
 The tags may be anywhere in the text and may be combined. They will be removed before sending the explanation to the opponents. Examples : 
 
@@ -620,6 +620,12 @@ Alerted call without explanation (to be explained manually).
 Alerted call without explanation (to be explained manually on explicit request by opponents)
 
     ,	1C,	@D
+
+Explanation ignored because :
+- call explained elsewhere
+- call not alertable
+
+    ,    1N, @I 15-17 balanced
 
 ### Keyboard Shortcuts
 
@@ -778,25 +784,6 @@ BBOalert can read BSS files in the same way as native BBOalert :
 BBOalert converts BSS data internally to the BBOalert native format. Vulnerability-dependent calls are supported (@n or @v tag in the optnion name). Seat-dependent openings are set in separate optional blocks (@1 @2 @3 or @4 tag in the option name).
 
 The converted data is available in the clipboard. You can paste it into the text editor and use it as a starting point for further modifications. Another possible scenario is to keep importing the original BSS file and to create an overriding code (in BBOalert native format) in a separate file to be appended later ('Append' button).
-
-### Using BBO convention card to share data
-
-Note : this feature has been disabled
-
-To share the data with your partner via the BBO server :
-
-- make a convention card (Account+Convention Card) using "SAYC - Standard American Yellow Card" or "Simple Modern ACOL" as template
-- open it for editing
-- make it shareable by filling your partner's name
-- press "Get from BBOalert" to append your data to the text in the "Defensive Carding" text
-- press "Save Changes"
-
-Note : while editing the "Defensive Carding" text, do not alter anything beyond the large square character which separates your text from the BBOalert data.
-
-This convention card together with the BBOalert data will become available for your partner. To load data into BBOalert
-
-- open the convention card for editing
-- press "Send to BBOalert"
 
 ### Web storage support
 
