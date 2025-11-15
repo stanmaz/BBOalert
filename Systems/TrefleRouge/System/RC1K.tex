@@ -19,9 +19,9 @@ Les enchères de 1\NT, 2\T et 2\K sont des Texas forcing de manche. l'enchère d
 \enchbox{Ouverture de 1\K}
 {
 1\C & 5-11H & Pas 4 cartes à \P \\
-1\P & 0-4H & Toute distribution \\
-\rb & 5-7DH & 4 cartes à \P \\
-& 12H+ & Pas 4 cartes à \P \\
+1\P & 0-4H & toute distribution ou \\
+\rb & 5-7DH & 4+ cartes à \P ou \\
+& 12H+ & 0-3 cartes à \P \\
 1\NT & 12H+ & 5 cartes à \T \\
 2\T & 12H+ & 5 cartes à \K \\
 2\K & 12H+ & 5 cartes à \C \\
@@ -32,10 +32,10 @@ Les enchères de 1\NT, 2\T et 2\K sont des Texas forcing de manche. l'enchère d
 3\K & 9-11H & 6 cartes à \K \\
 3\C & 9-11H & 6+ cartes à \C \\
 3\P & 7-9H & 5 cartes à \P \\
-3\NT & 8-11H & Chicane indéterminée \\
-4\T & 8-11H & Singleton \T\\
-4\K & 8-11H & Singleton \K\\
-4\C & 8-11H & Singleton \C\\
+3\NT & 8-11H & chicane indéterminée \\
+4\T & 8-11H & singleton \T \\
+4\K & 8-11H & singleton \K \\
+4\C & 8-11H & singleton \C \\
 4\P & 0-10H& Barrage 6 cartes \\
 4\NT && Blackwood brutal\\
 }
@@ -43,6 +43,10 @@ Les enchères de 1\NT, 2\T et 2\K sont des Texas forcing de manche. l'enchère d
 \end{multicols}
 
 \titre{1\K--1\C}
+
+\begin{multicols}{2}
+
+
 
 Le répondant a au plus une main limite de manche. De plus il n'a pas 4 cartes à \P.
 
@@ -56,28 +60,43 @@ Mise à part 2\NT, les enchères à saut sont naturelles et forcing de manche. T
 Ce chapitre est moins détaillé que le chapitre sur l'ouverture de 1\T car, en réalité, tout ce qui est nécessaire pour développer l'ouverture de 1\K n'est qu'un sous-ensemble de ce qui est nécessaire pour développer l'ouverture de 1\T. Se pose quand même le problème des fit \C quand le répondant est dans la zone 5-11H.
 
 Avec 5 cartes à \P, l'ouvreur doit annoncer 1\NT dans la zone 15-17H. Avec un jeu plat de 18H, il peut répondre 2\NT. Sinon, la réponse de 1\K étant positiven, il impose la manche par l'enchère de 2\P.
-
+\\
 \enchbox{1\K--1\C}
 {
-1\P & 12-14H & Régulier\\
-\rb& 22H+ & Régulier\\
-& 15H+ & Toute distribution \\
-1\NT & 15-17H & Régulier \\
+1\P & 12-14H & régulier\\
+\rb& 22H+ & régulier\\
+& 15H+ & toute distribution \\
+1\NT & 15-17H & régulier \\
 2\T & 12-14H & 5 cartes à \T \\
 2\K & 12-14H & 5 cartes à \K \\
 2\C & 12-14H & 5 cartes à \C \\
-2\P & &5+ cartes, forcing de manche \\
-2\NT & 18-19H & Régulier \\
-3\T  && Canapé forcing de manche \\
-3\T  && Canapé forcing de manche \\
+2\P &18H+ &5+ \P, forcing de manche \\
+-> & 2\NT & relai \\
+->-> & 3\T & naturel \\
+\rw ->-> & 3\K & naturel \\
+->-> & 3\C & naturel \\
+\rw ->-> & 3\P & 6 cartes \\
+->-> & 3\NT & 5-3-3-2 \\
+-> & 3\T & naturel \\
+-> & 3\K & naturel \\
+-> & 3\C & naturel \\
+-> & 3\P & 3 cartes \\
+2\NT & 18-19H & régulier \\
+3\T  && canapé forcing de manche \\
+3\K  && canapé forcing de manche \\
 3\C && 5-5 forcing de manche \\
 
 }
 
+\end{multicols}
 \titre{
   1\K \\
   Réponses après intervention
 }
+
+\begin{multicols}{2}
+
+
 
 Les Texas mineurs perdent leurs caractères forcing de manche et commencent à 8H.
 
@@ -87,9 +106,107 @@ Le \Redouble est une enchère punitive. Il dénie 4 cartes à \C et promet 10H e
 
 Avec un fit \P, on donne le fit à 2\P ou on fait un Texas, le tout en ignorant de \Double. L'intervention donne une troisième façon de donner le fit, l'enchère de 1\P avec un jeu de manche plat sans ambition de chelem. Attention, cette façon de faire fait jouer le coup de l'autre main.
 
+\enchbox{1\K <\Double>}
+{
+\Redouble &10H+& punitif\\
+1\C & 7-9H & \\
+1\P & 12H+ &  \\
+1\NT &8H+ & 5 cartes à \T \\
+2\T &8H+ & 5 cartes à \K \\
+}
+
 \section*{Intervention par 1\C}
 
-Le \Double et l'enchère de 1\P montrent a peu près le même type de jeu. Une main non fittée, avec ou sans l'arrêt  \C (dans tous les cas, on préfère faire jouer l'ouvreur). Le \double est plutôt compétitif, en tout cas limité à 11H alors que l'enchère de 1\P est forcing de manche. Par ailleurs, l'enchère de 1\P peut masquer une main fittée de manche dans un jeu plat.
+Le \Double et l'enchère de 1\P montrent a peu près le même type de jeu. Une main non fittée, avec ou sans l'arrêt  \C (dans tous les cas, on préfère faire jouer l'ouvreur). Le \double est plutôt compétitif, en tout cas limité à 11H alors que l'enchère de 1\P est forcing de manche.
+
+L'enchère de 2\NT. Comme on joue en Texas, le cue-bid s'exprime par l'enchère de 2\K pour exprimer les mains de manche. Avec une main limite de manche ou de chelem, il est préférable de passer par le soutien Texas à 2\C.
+
+\enchbox{1\K <1\C}
+{
+\Double &8-11H& \\
+1\P & 12H+ &  \\
+1\NT &8H+ & 5 cartes à \T \\
+2\T &8H+ & 5 cartes à \K \\
+2\K && manche à \P \\
+2\C &11DH+& 4++ cartes à \P \\
+2\P & 8-10DH & 4 cartes à \P \\
+3\T & 9-11H & 6+ cartes à \T \\
+3\K & 9-11H & 6 cartes à \K \\
+3\C & 9-10DH & 5 cartes à \P \\
+3\P & 6-8DH & 5 cartes à \P \\
+}
+
+
+\textit{Remarque : La majorité des enchères compétitives difficiles est une bataille entre les \C et les \P. Aussi, cette séquence a bénéficié d'une attention toute particulière. C'est le seul cas où 3\P est un barrage.
+Sur les intervention mineure, faute de place, 3\P garde sa signification de mixted raise (8(-0DH)).}
+
+\section*{Intervention par 1\P}
+
+Même si l'ouverture de 1\K promet 4 cartes à \P, l'intervention naturelle à 1\P reste possible.  On pourrait penser à punir dans cette situation. A priori, c'est une mauvaise idée. Les adversaires ne sont pas des idiots et même si ça tourne mal à \P, ils auront une porte de sortie ailleurs. En conséquence, le système ne se préoccupe pas de cette possibilité.
+
+L'enchère de 2\C garde sa signification de 4 cartes à \P. Évidemment, c'est absurde. Sauf que ! Pour certains adversaires 1\P ne sera pas une enchère naturelle. Et on ne va pas changer le système en fonction des différentes situations. D'autre part, certains adversaires n'auront aucune convention de prévue dans cette situation et l'enchère pourra être naturelle pour l'un et artificielle pour l'autre. Donc nous, on s'en fout, on retombe sur nos pattes quoi qu'il arrive. Si on commence à perdre du temps, ils vont pouvoir exprimer leur bicolore ou je ne sais quoi. On donnant le fit immédiatement, on respecte la stratégie générale des enchère compétitive.
+
+\textbf{Règle : En enchères compétitives, tout fit doit être exprimée immédiatement et arrivé au plus vite au palier de la sécurité distributionnelle.}
+
+Dans cette situation, un contre Spoutnik n'aurait aucun sens. En effet, si l'ouvreur possède 4 cartes à \C, il aura obligatoirement 5 cartes à \P et donc 18H ! Autant dire que les adversaires vont prendre cher.
+
+Le contre indique donc du jeu, à partir de 8H, sans couleur énonçable naturellement.
+
+\enchbox{1\K <1\P}
+{
+\Double & 8H+ & régulier \\
+1\NT & 8H+ & 5 cartes à \T  \\
+2\T & 8H+ & 5 cartes à \K \\
+2\K & 8H+ & 5 cartes à \C \\
+2\C & 11DH+ & 4+ cartes à \P \\
+2\P & 8-10H & 4+ cartes à \P \\
+3\T & 9-11H & 6+ cartes à \T \\
+3\K & 9-11H & 6 cartes à \K \\
+3\C & 9-11H & 6+ cartes à \C \\
+}
+
+\section*{Interventions à 2\T}
+
+Les interventions au palier de 2 détruisent nos Texas. Le soutien à 3\P devient limite de manche.
+
+Cette situation nous est bien plus favorable qu'après une ouverture de 1\T. En effet le \Double Spoutnik ne sert pas à  montrer 4 cartes à \C (l'ouvreur ne peut pas les avoir sauf à avoir 18H et 5 cartes à \P et, outre que c'est invraisemblable dans le contexte, on le saura en temps utile) mais à gérer les mains limites de manche avec un jeu régulier ou avec l'autre mineure. De sorte que les changements de couleur 2\K après l'intervention à 2\T ou 3\T après une intervention à \K peuvent être considérés comme quasiment forcing de manche (sauf gros misfit).
+
+En réponse au contre d'appel, l'ouvreur a besoin d'une enchère poubelle quand il n'a pas l'arrêt de la couleur adverse. Cette enchère poubelle est 2\P.
+\\
+\enchbox{1\K <2\T>}
+{
+\Double & 8H+ & \\
+-> & 2\P & wait and see \\
+2\K & (11)12H+ & 5+ cartes à \K \\
+2\C & (11)12H+ & 5+ cartes à \C \\
+2\P & 8-10DH & 4+ cartes à \P \\
+2\NT & 11H & naturel \\
+3\T  & 12DH & manche à \P \\
+3\K & 9-11H & 6 cartes à \K \\
+3\C & 9-11H & 6 cartes à \C \\
+3\P & 11DH & limite à \P \\
+}
+
+\enchbox{1\K <2\K>}
+{
+\Double & 8H+ & \\
+-> & 2\P & wait and see \\
+2\C & (11)12H+ & 5+ cartes à \C \\
+2\P & 8-10DH & 4+ cartes à \P \\
+2\NT & 11H & naturel \\
+3\T  & 12H+ & 5+ cartes à \T \\
+3\K & 12DH & manche à \P \\
+3\C & 9-11H & 6 cartes à \C \\
+3\P & 11DH & limite à \P \\
+}
+
+\section*{Gestion des barrages}
+
+Le \Double Spoutnik permet de gérer au mieux la plupart des problèmes. En réponse à ce contre, la nomination des \P au palier le plus bas sert d'enchère poubelle à un ouvreur en panne d'enchère.
+Avec 18H et 5 cartes, il fait un saut à 4\P, qui 'est pas nécessairement une conclusion. Avec une bombe, il dispose du cue-bid, qui suggère 5 cartes à pique mais ne les garanti pas.
+
+
+\end{multicols}
 
 \titre{1\K--1\C--1\P}
 Dans cette séquence, le répondant considère, dans un premier temps que l'ouvreur possède 12-14H. Retrouver les fit \C est important.
@@ -118,7 +235,7 @@ Dans cette séquence, le répondant n'a pas le droit de dépasser 2\NT pour lais
 3\T & 9-11H & Singleton \T \\
 3\K & 9-11H & Singleton \K \\
 3\C & 9-11H & Singleton \C \\
-3\P & 9-11H & 3 cartes à \P\\
+3\P & 9-11H & 3 cartes à \P \\
 }
 
 \titre{1\K--1\C--2\NT}
@@ -126,13 +243,13 @@ Dans cette séquence, le répondant n'a pas le droit de dépasser 2\NT pour lais
 {
 
 3\T &  & Check-back \\
--> & 3\K & 3 cartes à \C et 5 cartes à \P\\
--> & 3\C & 3 cartes à \C et 5 cartes à \P\\
--> & 3\P & 2 cartes à \C et 5 cartes à \P\\
--> & 3\NT & 2 cartes à \C et 4 cartes à \P\\
+-> & 3\K & 3 cartes à \C et 5 cartes à \P \\
+-> & 3\C & 3 cartes à \C et 5 cartes à \P \\
+-> & 3\P & 2 cartes à \C et 5 cartes à \P \\
+-> & 3\NT & 2 cartes à \C et 4 cartes à \P \\
 3\K &  & Singleton \K \\
 3\C &  & Singleton \C \\
-3\P &  & Singleton \T\\
+3\P &  & Singleton \T \\
 }
 
 \titre{1\K--1\P}
@@ -147,7 +264,7 @@ Dans cette séquence, le répondant n'a pas le droit de dépasser 2\NT pour lais
 2\NT & 22-23H & Régulier \\
 3\T & & Canapé forcing de manche \\
 3\K && Canapé forcing de manche \\
-3\C && 5-5 forcing de manche \\
+3\C && 5-4+ forcing de manche \\
 3\P && Naturel forcing de manche \\
 }
 
@@ -171,11 +288,74 @@ Dans cette séquence, le répondant n'a pas le droit de dépasser 2\NT pour lais
 {
 
 3\T &  & Check-back \\
--> & 3\K & 3 cartes à \C et 5 cartes à \P\\
--> & 3\C & 3 cartes à \C et 5 cartes à \P\\
--> & 3\P & 2 cartes à \C et 5 cartes à \P\\
--> & 3\NT & 2 cartes à \C et 4 cartes à \P\\
+-> & 3\K & 3 cartes à \C et 5 cartes à \P \\
+-> & 3\C & 3 cartes à \C et 5 cartes à \P \\
+-> & 3\P & 2 cartes à \C et 5 cartes à \P \\
+-> & 3\NT & 2 cartes à \C et 4 cartes à \P \\
 3\K &  & Singleton \K \\
 3\C &  & Singleton \C \\
-3\P &  & Singleton \T\\
+3\P &  & Singleton \T \\
+}
+
+\titre{1\K--2\C}
+
+L'enchère de 2\C annonce de fit \P et une main au moins limite de manche.
+
+Les mains de manche passant par 2\C auront toujours un petit quelque chose en plus. Une couleur cinquième secondaire productrice de levées (d'autes systèmes feraient un soutien différé) ou 4 atouts et un singleton. Les mains banales de manche passent par 2\NT pour éviter de donner de faus-espoirs à l'ouvreur.
+
+Avec une main faible, 12-13H, l'ouvreur se contente de rectifier à 2\P. Avec une main banale de manche, il annonce symmétriquement 2\NT, enchère sur laquelle le répondant conclueera à 4\P le plus souvent.
+
+Avec une main distribuée, l'ouvreur montre sa deuxième couleur au niveau de 3 ou fait un splinter. Avec une bombe, il annonce 3\P qui est l'enchère la plus forte posssible dans ce contexte.
+
+\enchbox{1\K--2\C}
+{
+2\P & 12-13H & \\
+2\NT & 14-18H & wait and see \\
+3\T & 14H+ & 5 cartes \\
+3\K & 14H+ & 5 cartes \\
+3\C & 14H+ & 5 cartes \\
+3\P & 19H+ & chelem \\
+3\NT & 14-16H & régulier \\
+4\T  & 15-17H & splinter \\
+4\K & 15-17H & splinter \\
+4\C & 15-17H & splinter \\
+}
+
+\textit{Remarque : les zones des splinters sont donnés à titre indicatif. Il faudra ajuster avec la pratique.}
+
+
+\titre{1\K--2\P}
+
+Les enchères suivent les mêmes principes que sur la réponse à 2\C avec une différence de taille. L'ouvreur concluera à 4\P au lieu de transiter par 2\NT.
+
+\enchbox{1\K--2\P}
+{
+2\NT & 15-16H & limite de manche \\
+3\T & 19H+ & 5 cartes excentré\\
+3\K & 19H+ & 5 cartes excentré\\
+3\C & 19H+ & 5 cartes excentré\\
+3\P & 22H+ & chelem \\
+3\NT & 17-20 & régulier \\
+4\T  & 20-22H & splinter \\
+4\K & 20-22H & splinter \\
+4\C & 20-22H & splinter \\
+}
+
+\titre{1\K--2\NT}
+
+En annonçant 2\NT, le répondant annonce une main banale de manche sans ambition de chelems. le plus souvent, l'ouvreur conclu à 4\P.
+
+Cependant, il n'a pas limité sa main. Toute autre enchère que 4\P est une tentative de chelem. L'enchère la plus forte est 3\P qui déclenche immédiatement la procédure de contrôles.
+Les enchères de 3\T, 3\K et 3\C sont naturelles et demande au partenaire de juger sa main. Les enchères de 4\T, 4\K et 4\C sont des splinters, pour que le partenaire juge sa main.
+
+\enchbox{1\K--2\NT}
+{
+3\T & 14H+ & 5 cartes excentré\\
+3\K & 14H+ & 5 cartes excentré\\
+3\C & 14H+ & 5 cartes excentré\\
+3\P & 19H+ & chelem \\
+3\NT & 17-20 & régulier \\
+4\T  & 14-16H & splinter \\
+4\K & 14-16H & splinter \\
+4\C & 14-16H & splinter \\
 }

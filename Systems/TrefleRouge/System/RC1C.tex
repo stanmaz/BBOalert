@@ -15,12 +15,12 @@ Avec 5 cartes à \P et un jeu faible, il répond 2\T non forcing. A partir de 6H
 {
 1\P&0-5H ou 9H+& Pas 5 cartes à \P \\
 1SA& 6-8H & Pas de majeure cinquième\\
-2\T & 0-5H & 5 cartes à \P\\
-2\K & 6H+ & 5 cartes à \C\\
-2\C & 6H+& 5 cartes à \P\\
-2\P & 3-8H & 6 belles cartes à \P\\
-2\NT & 9H+ & 6 très belles cartes à \T\\
-3\T & 9H+ & 6 très belles cartes à \K\\
+2\T & 0-5H & 5 cartes à \P \\
+2\K & 6H+ & 5 cartes à \C \\
+2\C & 6H+& 5 cartes à \P \\
+2\P & 3-8H & 6 belles cartes à \P \\
+2\NT & 9H+ & 6 belles cartes à \T \\
+3\T & 9H+ & 6 belles cartes à \K \\
 }
 
 
@@ -40,15 +40,15 @@ Les valeurs en point H sont indicative. Il faut plutôt compter en levées de je
 
 \enchbox{1\C--1\P}
 {
-1\NT & 15-19H & Jeu régulier \\
-2\T  & 15-19H & Naturel \\
-2\K  & 15-19H & Naturel \\
-2\C  & 19H+ & Bicolore mineur\\
-2\P  & 19-22H & Unicolore mineur\\
-2\NT & 22-23H & Régulier\\
-3\T &22H+& Naturel forcing de manche\\
-3\K &22H+& Naturel forcing de manche\\
-3\NT && Pour les jouer \\
+1\NT & 15-19H & régulier \\
+2\T  & 15-19H & naturel \\
+2\K  & 15-19H & naturel \\
+2\C  & 19H+ & bicolore mineur\\
+2\P  & 19-22H & unicolore mineur\\
+2\NT & 22-23H & régulier\\
+3\T &22H+& naturel forcing de manche\\
+3\K &22H+& naturel forcing de manche\\
+3\NT && pour les jouer \\
 }
 
 
@@ -58,28 +58,50 @@ Comme dans toutes les séquences 1x--1\P--1\NT, les enchères au niveau de 2 ind
 
 \enchbox{1\C--1\P--1\NT}
 {
-2\T && CONCLUSION\\
-2\K && CONCLUSION\\
-2\C && CONCLUSION \\
-2\P &9H+& Bicolore mineur\\
-2SA &14H+& Quantitatif \\
-3\T && Singleton \T \\
-3\K && Singleton \K \\
-3\C && Singleton \C \\
-3\P && Singleton \P \\
-3\NT&9-13H& CONCLUSION
+2\T && conclusion\\
+2\K && conclusion\\
+2\C && conclusion \\
+2\P &9H+& bicolore mineur\\
+2\NT &14H+& quantitatif \\
+-> & 3\T & 15H \\
+\rb -> & 3\K & 16H \\
+-> & 3\C & 17H \\
+\rb -> & 3\P & 18H \\
+-> & 3\NT & 19H \\
+3\T && singleton \T \\
+3\K && singleton \K \\
+3\C && singleton \C \\
+3\P && singleton \P \\
+3\NT&9-13H& conclusion
 }
 
-\enchbox{1\C--1\P--1\NT -- 2\NT}
+
+\titre{1\C--1\P--2\NT}
+
+Comme sur toute redemande à 2\NT, 3\T est un checkback Stayman, à la recherche d'un fit \C (le fit \P étant exclu par la réponse de 1\P);
+Les autres enchères annoncent un singleton.
+
+Il n'est hélas pas possible d'annoncer un singleton \T sans dépasser 3\NT. Avec un tel singleton, il est toujors possible d'annoncer 4\K en cas d'espoir de chelem. Sinon 3\NT fera l'affaire.
+
+\enchbox{1\C--1\P--2\NT}
 {
-3\T &15H& \\
-3\K &16H& \\
-2\C &17H& \\
-3\P &18H& \\
-3\NT &19H& \\
+3\T && checkback Stayman \\
+\rw -> &  3\K & impossible \\
+\rw -> &  3\C & 3 cartes à \C \\
+\rw -> & 3\P & impossible \\
+\rw -> & 3\NT & 2 cartes à \C \\
+3\K && singleton \K \\
+3\C && singleton \C \\
+3\P && singleton \P \\
+3\NT && conclusion \\
+4\T && chelem \T \\
+\rb -> & 4\NT & refus \\
+\rw 4\K && chelem \K \\
+ -> & 4\NT & refus \\
 }
 
-Ainsi, le répondant peut soit conclure, soit rechercher un chelem, éventuellement en mineure.
+\textit{Remarque : Les esprits tordus peuvent modifié le check-back pour y inclure la possibilité du singleton \T. L'effort de mémoire à fournir rend la chose scabreuse.}
+
 
 \titre{1\C--2\K}
 
@@ -89,11 +111,11 @@ Le répondant montre 5 cartes à \C dans un jeu pas complètement nul. Avec une 
 
 \enchbox{1\C--2\K}
 {
-2\C & 15-17H & 2 ou 3 cartes à \C\\
-2\P & 18H+   & Non fitté, forcing manche \\
-2\NT & 18-19H & Régulier \\
-3\T  & 15-17H & Naturel \\
-3\K  & 15-17H & Naturel \\
-3\C  & 18H+ & Fit forcing de manche \\
+2\C & 15-17H & 2 ou 3 cartes à \C \\
+2\P & 18H+   & non fitté, forcing manche \\
+2\NT & 18-19H & régulier \\
+3\T  & 15-17H & naturel \\
+3\K  & 15-17H & naturel \\
+3\C  & 18H+ & fit forcing de manche \\
 }
 

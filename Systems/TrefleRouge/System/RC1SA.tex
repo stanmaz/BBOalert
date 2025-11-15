@@ -11,19 +11,19 @@ Avec un bicolore majeur 5-5, le répondant utilise la séquence 1SA-2\K-2\C-2\P 
 
 \enchbox{Ouverture de 1\NT}
 {
-2\T &0H+& Puppet Stayman \\
--> &  2\K & Pas de majeure cinquième\\
+2\T &0H+& puppet stayman \\
+-> &  2\K & pas de majeure cinquième\\
 \rw -> & 2\C & 5 cartes à \C \\
- -> &  2\P & 5 cartes à \P\\
-2\K &0H+& Texas \C \\
-2\C &0H+& Texas \P \\
-2\P &0H+& Texas \T\\
-2\NT &12H+& Bicolore mineur\\
-3\T &0H+& Texas \K \\
-3\K &16+& Texas \C de chelem\\
-3\C &16H+& Texas \P de chelem\\
-3\NT &12H+& Pragmatique\\
-4\K & 12H+& 5-5 majeur de manche \\
+ -> &  2\P & 5 cartes à \P \\
+2\K &0H+& texas \C \\
+2\C &0H+& texas \P \\
+2\P &0H+& texas \T \\
+2\NT &12H+& bicolore mineur\\
+3\T &0H+& texas \K \\
+3\K &16+& texas \C de chelem\\
+3\C &16H+& texas \P de chelem\\
+3\NT &12H+& pour les jouer\\
+4\K & 12H+& 5-5 majeur \\
 }
 
 
@@ -37,15 +37,115 @@ L'ouvreur n'a pas de majeure cinquième. Le répondant va maintenant expliquer s
 {
 2\C & 10-11H & 5 cartes à \C \\
 2\P & 10-11H & 5 cartes à \P \\
-2\NT & 11HL & Proposition \\
-3\T  & 12H+ & Singleton \T\\
-3\K & 12H+ & Singleton \K \\
-3\C & 12H+ & Singleton \C \\
-3\P & 12H+ & Singleton \P \\
+2\NT & 11HL & limite \\
+3\T  & 12H+ & singleton \T \\
+3\K & 12H+ & singleton \K \\
+3\C & 12H+ & singleton \C \\
+3\P & 12H+ & singleton \P \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titre{1\NT -- 2\T -- 2\C}
+
+La convention 2025 à 3\K permet de gérer à la fois les splinters et les demandes de contrôle. de sorte que les enchères directes de 4\T et de 4\K ne sont pas des splinters mais de petites tentatives naturelles de chelem demandant à l'ouvreur de juger de la qualité de ses honneurs.
+
+Pour des raisons de robustesse, on conserve la convention 2012. C'est toujours une tentative de chelem mais au poids. On demande à l'ouvreur de juger sa main.
+
+\enchbox{1\NT -- 2\T -- 2\C}
+{
+2\P & 10-11H & Misère dorée\\
+2\NT & 11HL & limite \\
+3\T  && 4 cartes à \P singleton indéterminé ou 5422 de chelem\\
+-> & 3\K & relai obligatoire \\
+->-> & 3\C & singleton \C \\
+->-> & 3\P & singleton \T \\
+->-> & 3\NT & singleton \K \\
+->-> & 4\T  & 5422 de chelem \\
+->-> & 4\K  & 5422 de chelem \\
+->-> & 4\C & singleton \K de chelem\\
+3\K & 17H+ & convention 2025 \\
+-> & 3\C & relai obligatoire \\
+3\C & 11H & fit limite \\
+3\P && timide tentative de chelem \\
+4\T && naturel fitté \\
+4\K && naturel fitté \\
+}
+
+\enchbox{1\NT -- 2\T -- 2\C -- 3\T -- 3\K -- 3\C}
+{
+3\P  && faible à \C \\
+->  & 3\NT & 4441 \\
+->  & 4\T & 5 cartes \\
+-> & 4\K & 5 cartes \\
+3\NT && belles cartes à \C \\
+4\T  && 5422 \\
+4\K  && 5422 \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titre{1\NT -- 2\T -- 2\C -- 3\K -- 3\C}
+
+\enchbox{1\NT -- 2\T -- 2\C -- 3\K -- 3\C}
+{
+3\P && déclenchement des contrôles \\
+-> & 3\NT & contrôle \P \\
+3\NT && singleton \C \\
+4\T &&  singleton \T \\
+4\K &&  singleton \K \\
+}
+
+Il y a redondance ici. le singleton \C peut aussi se nommer à 4\C.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titre{1\NT -- 2\T -- 2\P}
+
+La convention 2025 à 3\K permet de gérer à la fois les splinters et les demandes de contrôle. de sorte que les enchères directes de 4\T et de 4\K ne sont pas des splinters mais de petites tentatives naturelles de chelem demandant à l'ouvreur de juger de la qualité de ses honneurs.
+
+L'enchère de 3\C est inusitée dans le contexte. On peut y voir une tentative de chelem au poids. C'est à dire un 2012 atténué.
+
+\enchbox{1\NT -- 2\T -- 2\P}
+{
+2\NT & 11HL & limite \\
+3\T  && 4 cartes à \P singleton indéterminé ou 5422 de chelem\\
+-> & 3\K & relai obligatoire \\
+->-> & 3\C & singleton \P \\
+->-> & 3\P & singleton \T \\
+->-> & 3\NT & singleton \K \\
+->-> & 4\T  & 5422 de chelem \\
+->-> & 4\K  & 5422 de chelem \\
+->-> & 4\C & singleton \K de chelem\\
+3\K & 17H+ & convention 2025 \\
+-> & 3\C & relai obligatoire \\
+3\C && timide tentative de chelem \\
+3\P & 11H & fit limite \\
+4\T && naturel fitté \\
+4\K && naturel fitté \\
+}
+
+\enchbox{1\NT -- 2\T -- 2\C -- 3\T -- 3\K -- 3\C}
+{
+3\P  && faible à \P \\
+->  & 3\NT & 4441 \\
+3\NT && belles cartes à  \P \\
+4\T  && 5422 \\
+4\T  && 5422 \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titre{1\NT -- 2\T -- 2\P -- 3\K -- 3\C}
+
+\enchbox{1\NT -- 2\T -- 2\P -- 3\K -- 3\C}
+{
+3\P && déclenchement des contrôles \\
+-> & 3\NT & contrôle \C \\
+3\NT && singleton \P \\
+4\T &&  singleton \T \\
+4\K &&  singleton \K \\
 }
 
 
-\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \titre{1\NT -- 2\K -- 2\C}
 
@@ -58,21 +158,21 @@ Avec un singleton dans une main 5-4-3-1 (ou plus rarement 5-4-4-0), le répondan
 
 
 \enchbox{1\NT -- 2\K -- 2\C}{
-2\P && 5-5 limite de manche\\
+2\P && 5-5 limite\\
 -> & 2\NT & relai\\
 ->->&& 3\T\ 5 cartes limite  \\
 ->->&& 3\K\ 5 cartes limite  \\
 ->->&& 3\C\ 5-5 majeur limite  \\
 2\NT && J'ai un singleton \\
 -> & 3\T\ & relai\\
-->->&& 3\K singleton \K\\
-->->&& 3\C singleton \T\\
-->->&& 3\P singleton \P\\
+->->&& 3\K singleton \K \\
+->->&& 3\C singleton \T \\
+->->&& 3\P singleton \P \\
 3\T && 5 cartes\\
 3\K && 5 cartes\\
-3\C && 6 cartes limite de manche\\
-3\NT && Choix de manche\\
-4\C && Fin\\
+3\C && 6 cartes \\
+3\NT && choix de manche\\
+4\C && pour les jouer\\
 }
 
 
@@ -91,14 +191,15 @@ Avec un singleton dans une main 5-4-3-1 (ou plus rarement 5-4-4-0), le répondan
 
 
 \enchbox{1\NT -- 2\C -- 2\P}{
-2\NT && J'ai un singleton\\
--> & 3\T\ >& 3\K singleton \K\\
-\rb -> & 3\T\ >& 3\C singleton \C\\
--> & 3\T\ >& 3\P singleton \T\\
+2\NT && singleton indéterminé\\
+-> & 3\T &relai\\
+->->& 3\K &singleton \K \\
+\rb->->& 3\C &singleton \C \\
+->->& 3\P &singleton \T \\
 3\T && 5 cartes\\
 3\K && 5 cartes\\
 3\C && 5-5 de chelem\\
-3\NT && Choix de manche\\
+3\NT && choix de manche\\
 4\P && Fin\\
 
 }
@@ -111,6 +212,16 @@ Le répondant possède 6 cartes à \T ou 5 cartes et une volonté de chelem (19-
 
 L'ouvreur peut utiliser l'enchère de 2\NT avec deux gros honneurs troisièmes. Sinon il rectifie à 3\T. Le répondant nomme alors éventuellement son singleton.
 
+\enchbox{1 \NT--2\P}
+{
+2\NT & 14H & deux gros honneurs \\
+3\T  & & wait and see\\
+-> & 3\K & singleton \K \\
+-> & 3\C & singleton \C \\
+-> & 3\P & singleton \P \\
+-> & 3\NT& tentative de chelem \\
+}
+
 \newpage
 
 \titre{1\NT -- 2\NT}
@@ -119,6 +230,15 @@ L'enchère de 2\NT indique un bicolore mineur. Sans majeure cinquième, l'ouvreu
 Le répondant annonce alors son singleton à 3\C ou 3\P, ce qui laisse l'occasion à l’ouvreur de freiner avec des points perdus.
 
 Avec une majeure cinquième, l'ouvreur nomme sa majeure.
+
+\enchbox{1\NT -- 2\NT}
+{
+3\T && beau fit \\
+3\K && beau fit \\
+3\C && 5 cartes \\
+3\P && 5 cartes \\
+3\NT && décourageant \\
+}
 
 \newpage
 
@@ -129,4 +249,84 @@ Le répondant possède 6 cartes à \K ou 5 cartes et une volonté de chelem (19-
 
 L'ouvreur rectifie et le répondant annonce son singleton. 3\NT avec un singleton \T sans volonté de chelem.
 
-\newpage
+\enchbox{1\NT -- 3\T}
+{
+3\K  && obligatoire \\
+-> & 3\K & singleton \K \\
+-> & 3\C & singleton \C \\
+-> & 3\NT & singleton \T \\
+-> & 4\T & singleton \T chelem\\
+-> & 4\NT & quantitatif \\
+}
+
+\titre{Réaction à un contre punitif}
+
+\begin{multicols}{2}
+
+
+Lorsque les adversaires contrent notre ouverture de 1\NT, ce contre est, le plus souvent punitif, et même s'il ne l'est pas officiellement, le partenaire du contreur passera souvent. Il en est de même du contre de réveil.
+
+Aussi, le système s'organise autour de la recherche du meilleur fit possible afin de minimiser la pénalité. De temps à autre, le répondant aura un jeu fort. Dans ce cas, il peut commencer par passer ou par surcontrer, ces deux enchères étant forcing. avec une main unicolore très forte, il commence par surcontrer avant d'annoncer sa couleur. En cas de bicolore très fort, il commence par passer avant d'annoncer une de ses couleurs.
+
+La procédure d'échappement est basée sur deux principes :
+
+\begin{itemize}
+ \item Le \Redouble indique une \textbf{égalité entre les mineures} ou rarement un jeu unicolore très fort. La \Pass indique qu'on a une préférence pour une des deux mineures (ou un jeu très fort bicolore voire tricolore).
+ \item Le système est \textbf{symétrique}. Si le surcontre a lieu en réveil, l'ouvreur utilise les même système que si c'était son partenaire qui avait ouvert de 1\NT. \textit{Pour des raisons combinatoires, l'ouvreur ne peut pas être ni fort ni 3-3 en mineure.}
+\end{itemize}
+
+\enchbox{1\NT<\Double!>}
+{
+\Pass && bicolore fort ou  \\
+\rw && préférence \T ou \\
+&& préférence \K \\
+-> & \Redouble! & pas de couleur 5\ieme \\
+\rb &->-> & 2\T  \quad  préférence \\
+\rb &->-> & 2\K  \quad   préférence \\
+\rb &->-> & 2\C  \quad  naturel forcing \\
+\rb &->-> & 2\P  \quad  naturel forcing \\
+-> & 2\T & 5+ cartes \\
+-> & 2\K & 5+ cartes \\
+-> & 2\C & 5 cartes \\
+-> & 2\P & 5 cartes \\
+\Redouble! && unicolore fort ou\\
+\rw && 4-4 ou 3-3 mineur \\
+\rb-> & 2\T & 4+ cartes \\
+-> & 2\K & 4+ cartes \\
+\rb-> & 2\C & 5 cartes \\
+-> & 2\P & 5 cartes \\
+2\T && naturel\\
+2\K && naturel\\
+2\C && naturel\\
+2\P && naturel\\
+}
+
+
+
+\enchbox{1\NT<\Pass> \Pass <\Double!>}
+{
+\Pass && 4-3 mineur\\
+-> & \Redouble! & pas de couleur 5\ieme \\
+\rw &->-> & 2\T  \quad  4 cartes \\
+&->-> & 2\K  \quad  4 cartes \\
+-> & 2\T & 5+ cartes \\
+-> & 2\K & 5+ cartes \\
+\Redouble! && 4-4 mineur\\
+\rb --> & 2\T & 3+ cartes \\
+\rb --> & 2\K & 3+ cartes \\
+\rb --> & 2\C & 5 cartes \\
+\rb --> & 2\P & 5 cartes \\
+2\T && naturel\\
+2\K && naturel\\
+2\C && naturel\\
+2\P && naturel\\
+}
+
+\end{multicols}
+\titre{Réaction aux interventions diverses}
+
+Inutile de modifier le système auquel vous êtes habitué ici.
+Le système le plus populaire, le Rubensol, est efficace quelle que soit la zone de l'ouverture de 1\NT.
+
+
+
