@@ -1,5 +1,6 @@
 #! /bin/sh
-node tex2bboalert.js RCbase.tex > RC.txt
+echo BBOalert, Trefle Rouge > RC.txt
+node tex2bboalert.js RCbase.tex >> RC.txt
 node tex2bboalert.js RC1T.tex >> RC.txt
 node tex2bboalert.js RC1K.tex >> RC.txt
 node tex2bboalert.js RC1C.tex >> RC.txt
