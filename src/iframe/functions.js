@@ -1061,3 +1061,26 @@ $.fn.onAny = function (cb) {
 	return this;
 };
 
+function downloadTextAsFile(text, fileName) {
+	var blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+	// 1. Create a Blob URL
+	var url = URL.createObjectURL(blob);
+
+	// 2. Create a link element
+	var a = document.createElement('a');
+
+	// 3. Set attributes
+	a.href = url;
+	a.download = fileName;
+	a.style.display = 'none'; // Hide the link
+
+	// Append to body (necessary for a.click() to work in some browsers)
+	document.body.appendChild(a);
+
+	// 4. Trigger click
+	a.click();
+
+	// 5. Clean up - Remove the element and revoke the URL
+	document.body.removeChild(a);
+	URL.revokeObjectURL(url);
+}
