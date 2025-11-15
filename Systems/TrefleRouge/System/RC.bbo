@@ -1,0 +1,958 @@
+BBOalert, Trefle Rouge
+BBOalert,   RCbase.tex
+\enchbox{Tableau des ouvertures}{
+
+- ,1!C 12H+ 4+ cartes à !H (!C ou !D possiblement plus long)
+- ,1!D 12H+ 4+ cartes à !S(!C !D ou !H possiblement plus long)
+- ,1!H 15H+ pas de majeure 4ième
+- ,1!S 11-17H 5 cartes à !S
+- ,1!N 12-14H régulier
+- ,2!C 12-14H 5+ cartes à !C
+- ,2!D 12-14H 5+ cartes à !D
+- ,2!H 12-14H 5+ cartes à !H, 0-3 cartes à !S
+- ,2!S 0-10H 6 cartes à !S
+- ,2!N 20-21H régulier
+- ,3!C à 4!S 5-10H barrage constructif (sauf vert contre rouge)}
+
+BBOalert,   RC1T.tex
+\enchbox{Ouverture 1!C}
+1!C
+- 1!D 5-11H Pas de majeure 4ième
+- 1!H 5H+ Au moins 4 cartes à !S
+- 1!S 0-4H toute distribution ou
+- 5-7DH 4+ cartes à !H ou
+- 12H+ régulier
+- 1!N 12H+ 5 cartes à !C
+- 2!C 12H+ 5 cartes à !D
+- 2!D 11DH+ 4+ cartes à !H
+- 2!H 8-10DH 4+cartes à !H
+- 2!S 9-11H  6+ cartes à !S
+- 2!N 12-15H 4(5) cartes à !H
+- 3!C  9-11H  6+ cartes à !C
+- 3!D 9-11H  6+ cartes à !D
+- 3!H 7-9H 5 cartes à !H
+- 3!S 8-11H splinter chicane indéterminée
+- 3!N 8-11H splinter singleton !S
+- 4!C 8-11H splinter singleton !C
+- 4!D 8-11H splinter singleton !D
+- 4!H barrage 6 cartes
+- 4!S 0-9H naturel 7+ cartes
+- 4!N blackwood brutal
+\enchbox{1!C <Db>}
+1!CDb
+- ,Rd 10H+ punitif
+- ,1!D 7-9H
+- ,1!H 7H+ 5+ cartes à !S
+- ,1!S 12H+
+- ,1!N 8H+ 5 cartes à !C
+- ,2!C 8H+ 5 cartes à !D
+\enchbox{1!C <1!D>}
+1!C1!D
+- ,Db 7-11H
+- ,1!H 7H+ 4+ cartes à !S
+- ,1!S 12H+
+- ,1!N 8H+ 5 cartes à !C
+- ,2!C 8H+ 5 cartes à !D
+\enchbox{1!C <1!H>}
+1!C1!H
+- ,Db 7H+
+- ,1!S 12H+  0-3 cartes à !S
+- ,1!N 8H+ 5 cartes à !C
+- ,2!C 8H+ 5 cartes à !D
+\enchbox{1!C <1!S>}
+1!C1!S
+- ,Db 7H+
+- ,1!N 8H+ 5 cartes à !C
+- ,2!C 8H+ 5 cartes à !D
+\enchbox{1!C <1!N>}
+1!C1!N
+- ,Db punitif
+- ,2!C naturel faible
+- ,2!D naturel faible
+- ,2!H naturel faible
+- ,2!S naturel faible
+- ,2!N cue-bid fitté
+\enchbox{1!C <1!N> Db <2!C> (Texas)}
+1!C1!NDb2!C
+- ,-- faible ou punitif
+- ,Db appel
+- ,2!D cue-bid
+- ,2!H 5 cartes 15-17H
+- ,2!S bicolore cher
+- ,3!C Canapé
+\enchbox{1!C <1!N> Db <2!C> (Naturel)}
+1!C1!NDb2!C
+- ,-- appel
+- ,Db Punitif
+- ,2!D Canapé
+- ,2!H 5 cartes 15-17H
+- ,2!S bicolore cher
+- ,3!C cue-bid
+\enchbox{1!C <2!C>}
+1!C2!C
+- ,Db 8H+ 4+ cartes à !S
+- ,2!D naturel forcing
+- ,2\H naturel
+- ,2!S  naturel forcing
+- ,3\H  limite de manche }
+\enchbox{1!C <2!D>}
+1!C2!D
+- ,Db 8H+ 4+ cartes à !S
+- ,2!S  naturel forcing
+- ,3!C naturel forcing
+- ,3\H  limite de manche
+\enchbox{1!C <3!C> Db <-->}
+1!C3!CDb--
+- ,3!D naturel
+- ,3!H wait and see
+- ,3\S 4 cartes
+- ,3!N arrêt !C
+\enchbox{1!C <3!D> Db <-->}
+1!C3!DDb--
+- ,3!H wait and see
+- ,3\S 4 cartes
+- ,3!N arrêt !C
+\enchbox{1!C -- 1!D}
+1!C--1!D
+- 1!H 15H+ 5+ cartes à !H
+- 1!S 12H-14H régulier ou
+- 15H+ exactement 4 cartes à !H
+- 2!C 12-14H Canapé
+- 2!D 12-14H Canapé
+- 2!H 20H+ 5+ cartes à !H forcing de manche
+- 2!S 20H+ 4 cartes à !H forcing de manche
+- 2!N 18-19H Régulier 4 cartes à !H
+- 3!C 20H+ Naturel forcing de manche
+- 3!D 20H+ Naturel forcing de manche
+- 3!H 20H+ 6+ cartes à !H forcing de manche
+- 3!S 18H+ 6-5 forcing de manche
+\enchbox{1!C--1!D--1!H}
+1!C--1!D--1!H
+- 1!S 5-6 ou 9+ faible ou régulier
+- 1!N 7-8H Régulier
+- 2!C  7-8H 6 cartes
+- 2!D  7-8H 6 cartes
+- 2!H  7-8DH 3 cartes
+- 3!H  11DH+ 3 cartes
+- 4!H  9-10DH 3 cartes
+\enchbox{1!C--1!D -- 1!S}
+1!C--1!D--1!S
+- 1!N 5-10H Régulier
+- 2!C 5-10H (5)6 cartes
+- 2!D 5-10H (5)6 cartes
+- 2!H 5-9H Bicolore mineur
+- 2!S 10-11H Bicolore mineur
+- 2!N 11H Régulier
+- 3!C 5-8H 7 cartes
+- 3!D 5-8H 7 cartes
+\enchbox{1!C--1!D -- 1!S--1!N}
+1!C--1!D--1!S--1!N
+- 2!C 15-17H Canapé
+- 2!D 15-17H Canapé
+- 2!H 18+H 4-4-4-1
+    -  2!S\ relai quasi-obligatoire
+        -  2!N singleton !S
+        -  3!C singleton !C
+        -  3!D singleton !D
+- 2!S  Bicolore 6-5
+- 2!N 22H+ Régulier
+- 3!C 18-19H Canapé
+- 3!D 18-19H Canapé
+\enchbox{1!C--1!D--1!N}
+1!C--1!D--1!N
+- 2!C naturel non forcing
+- 2!D naturel non forcing
+- 2!H 8H 3 cartes à !H
+- 2!S 10-11H bicolore mineur
+- 2!N 8H
+- 3!C  10-11H singleton !C
+- 3!D 10-11H singleton !D
+- 3!H 9-11H  3 cartes à !H
+- 3!S 10-11H singleton !S
+- 3!N 9-11H
+\enchbox{1!C--1!D--2!N}
+1!C--1!D--2!N
+- 3!C checkback inutile
+    -  3!N rectification obligatoire
+- 3!D singleton !D
+- 3!H singleton !C
+- 3!S singleton !S
+\enchbox{1!C -- 1!H}
+1!C--1!H
+- 1!S 12H+ Relai
+- 1!N 15-17H  Régulier
+- 2!C 12-14H Canapé
+- 2!D 12-14H Canapé
+- 2!H 15-17H 5 cartes à !H, irrégulier
+- 2!S 12-14H 4 cartes à !S
+- 2!N 18-19H Régulier
+- 3!C (18)19H+ Naturel forcing de manche
+- 3!D (18)19H+ Naturel forcing de manche
+- 3!H 19H+ 6 cartes à !H forcing de manche
+- 3!S 17-19DH 4 cartes à !S
+\enchbox{1!C--1!H--1!S}
+1!C--1!H--1!S
+- 1!N 5-10H 4 cartes à !S
+- 2!C  5-10H 5+ cartes à !C
+- 2!D  5-10H 5+ cartes à !D
+- 2!H  5H + 5+ cartes à !S
+- 2!S  16H+ artificiel
+- 2!N 11H Fourre-tout
+- 3!C 12H+ 5+ cartes à !C
+- 3!D 12H+ 5+ cartes à !D
+- 3!H 13-15H+ 3 cards in !H
+- 3!S 15H+ 6 belles cartes à !S
+- 3SA 13-15H Régulier
+\enchbox{1!C--1!H--1!S--1!N}
+1!C--1!H--1!S--1!N
+- 2!C 15-17H(18) 5 cartes à !C
+- 2!D 15-17H(18) 5 cartes à !D
+- 2!H 18-19H 5 cartes à !H
+- 2!S 18-19H 4 cartes à !S
+- 2!N 22-23H Régulier
+\enchbox{1!C--1!H--1!N}
+1!C--1!H--1!N
+- 2!C 5-7H 5 cartes faible
+- 2!D 5-7H 5 cartes faible
+- 2!H 5H+ 5 cartes à !S
+- 2!S 16H+ artificiel
+- 2!N 8H naturel
+- 3!C 9H+ singleton !C
+- 3!D 9H+ singleton !D
+- 3!H 9H+ 3 cartes à !H
+- 3!S 16H+ 6 cartes à !S
+- 3!N Conclusion
+\enchbox{1!C--1!H--2!N}
+1!C--1!H--2!N
+- 3!C checkback Stayman
+    -  3!S 3 cartes à !S
+    -  3!N 2 cartes à !S
+- 3!D singleton !D
+- 3!H singleton !C
+- 3!S chelem !S
+\enchbox{1!C -- 1!S}
+1!C--1!S
+- 1!N 12H-19H Régulier
+- 2!C 12-21H Canapé
+- 2!D 12-21H Canapé
+- 2!H 15-21H 5 cartes à !H, irrégulier
+- 2!S 22-23H Tout type de main
+    -  2!N relai obligatoire
+        -  3!C Naturel non forcing
+        -  3!D Naturel non forcing
+    -  3!H Naturel non forcing
+- 2!N 22-23H Régulier
+- 3!C  Naturel forcing de manche
+- 3!D  Naturel forcing de manche
+- 3!H  6 cartes à !H forcing de manche
+- 3!S  Bicolore 6-5 Forcing de manche
+\enchbox{1!C--1!S--1!N}
+1!C--1!S--1!N
+- 2!C 0-4H (5)6 cartes
+- 2!D 0-4H (5)6 cartes
+- 2!H 0-7DH 4 cartes à !H
+- 2!S 0-4H 5+ cartes à !S
+- 2!N 14H+ Quantitatif
+    -  3!C 12-13H
+    -  3!D 14-15H
+    -  3!H 16-17H
+    -  3!S 18-19H
+\enchbox{1!C--1!S--2!N--3!C}
+1!C--1!S--2!N--3!C
+- 3!D 5 cartes à !H et 3 cartes à !S
+- 3!H 5 cartes à !H et 3 cartes à !S
+- 3!S 4 cartes à !H et 2 cartes à !S
+- 3!N 4 cartes à !H et 2 cartes à !S
+\enchbox{1!C--1!N}
+1!C--1!N
+- 2!C 12-14H Fitté ou pas
+- 2!D 12-14H 5 cartes
+- 2!H 15H+ 5 cartes
+- 2!S 12H+ Bicolore 6-5
+- 2!N 15H+ 4 cartes à !H
+- 3!C 15H+ beau fit
+- 3!D 15H+ naturel
+\enchbox{1!C--2!D}
+1!C--2!D
+- 2!H 12-13H
+- 2!S 16-18H naturel
+- 2!N 14-18H wait and see
+- 3!C 14H+ 5 cartes
+- 3!D 14H+ 5 cartes
+- 3!H 19H+ chelem
+- 3!S 15-17H splinter
+- 3!N 14-16H régulier
+- 4!C  15-17H splinter
+- 4!D 15-17H splinter
+\enchbox{1!C--2!H}
+1!C--2!H
+- 2!S 19H+ naturel
+- 2!N 15-16H limite de manche
+- 3!C 19H+ 5 cartes excentré
+- 3!D 19H+ 5 cartes excentré
+- 3!H 22H+ chelem
+- 3!S 20-22H splinter
+- 3!N 17-20 régulier
+- 4!C  20-22H splinter
+- 4!D 20-22H splinter
+\enchbox{1!C--2!N}
+1!C--2!N
+- 3!C 14H+ 5 cartes excentré
+- 3!D 14H+ 5 cartes excentré
+- 3!H 19H+ chelem
+- 3!S 14-16H splinter
+- 3!N 17-20 régulier
+- 4!C  14-16H splinter
+- 4!D 14-16H splinter
+
+BBOalert,   RC1K.tex
+\enchbox{Ouverture de 1!D}
+1!D
+- 1!H 5-11H Pas 4 cartes à !S
+- 1!S 0-4H toute distribution ou
+- 5-7DH 4+ cartes à !S ou
+- 12H+ 0-3 cartes à !S
+- 1!N 12H+ 5 cartes à !C
+- 2!C 12H+ 5 cartes à !D
+- 2!D 12H+ 5 cartes à !H
+- 2!H 11DH+ 4 cartes à !S
+- 2!S 8-10DH 4 cartes à !S
+- 2!N 12-15H 4(5) cartes à !S sans singleton
+- 3!C 9-11H 6+ cartes à !C
+- 3!D 9-11H 6 cartes à !D
+- 3!H 9-11H 6+ cartes à !H
+- 3!S 7-9H 5 cartes à !S
+- 3!N 8-11H chicane indéterminée
+- 4!C 8-11H singleton !C
+- 4!D 8-11H singleton !D
+- 4!H 8-11H singleton !H
+- 4!S 0-10H Barrage 6 cartes
+- 4!N Blackwood brutal
+\enchbox{1!D--1!H}
+1!D--1!H
+- 1!S 12-14H régulier
+- 22H+ régulier
+- 15H+ toute distribution
+- 1!N 15-17H régulier
+- 2!C 12-14H 5 cartes à !C
+- 2!D 12-14H 5 cartes à !D
+- 2!H 12-14H 5 cartes à !H
+- 2!S 18H+ 5+ !S, forcing de manche
+    -  2!N relai
+        -  3!C naturel
+        -  3!D naturel
+        -  3!H naturel
+        -  3!S 6 cartes
+        -  3!N 5-3-3-2
+    -  3!C naturel
+    -  3!D naturel
+    -  3!H naturel
+    -  3!S 3 cartes
+- 2!N 18-19H régulier
+- 3!C  canapé forcing de manche
+- 3!D  canapé forcing de manche
+- 3!H 5-5 forcing de manche
+\enchbox{1!D <Db>}
+1!DDb
+- ,Rd 10H+ punitif
+- ,1!H 7-9H
+- ,1!S 12H+
+- ,1!N 8H+ 5 cartes à !C
+- ,2!C 8H+ 5 cartes à !D
+\enchbox{1!D <1!H}
+1!D1!H
+- Db 8-11H
+- 1!S 12H+
+- 1!N 8H+ 5 cartes à !C
+- 2!C 8H+ 5 cartes à !D
+- 2!D manche à !S
+- 2!H 11DH+ 4++ cartes à !S
+- 2!S 8-10DH 4 cartes à !S
+- 3!C 9-11H 6+ cartes à !C
+- 3!D 9-11H 6 cartes à !D
+- 3!H 9-10DH 5 cartes à !S
+- 3!S 6-8DH 5 cartes à !S
+\enchbox{1!D <1!S}
+1!D1!S
+- Db 8H+ régulier
+- 1!N 8H+ 5 cartes à !C
+- 2!C 8H+ 5 cartes à !D
+- 2!D 8H+ 5 cartes à !H
+- 2!H 11DH+ 4+ cartes à !S
+- 2!S 8-10H 4+ cartes à !S
+- 3!C 9-11H 6+ cartes à !C
+- 3!D 9-11H 6 cartes à !D
+- 3!H 9-11H 6+ cartes à !H
+\enchbox{1!D <2!C>}
+1!D2!C
+- ,Db 8H+
+    -  2!S wait and see
+- ,2!D (11)12H+ 5+ cartes à !D
+- ,2!H (11)12H+ 5+ cartes à !H
+- ,2!S 8-10DH 4+ cartes à !S
+- ,2!N 11H naturel
+- ,3!C  12DH manche à !S
+- ,3!D 9-11H 6 cartes à !D
+- ,3!H 9-11H 6 cartes à !H
+- ,3!S 11DH limite à !S
+\enchbox{1!D <2!D>}
+1!D2!D
+- ,Db 8H+
+    -  2!S wait and see
+- ,2!H (11)12H+ 5+ cartes à !H
+- ,2!S 8-10DH 4+ cartes à !S
+- ,2!N 11H naturel
+- ,3!C  12H+ 5+ cartes à !C
+- ,3!D 12DH manche à !S
+- ,3!H 9-11H 6 cartes à !H
+- ,3!S 11DH limite à !S
+\enchbox{1!D--1!H -- 1!S}
+1!D--1!H--1!S
+- 1!N 5-10H Régulier
+- 2!C 5-10H (5)6 cartes
+- 2!D 5-10H (5)6 cartes
+- 2!H 5-10H 5+ cartes à !H
+- 2!S 10-11H 5 cartes à !H
+- 2!N 11H Régulier
+\enchbox{1!D--1!H -- 1!N}
+1!D--1!H--1!N
+- 2!C 5-10H (5)6 cartes
+- 2!D 5-10H (5)6 cartes
+- 2!H 5-7H 5+ cartes à !H
+- 2!S 8-11H 5 cartes à !H
+- 2!N 8H Régulier
+- 3!C 9-11H Singleton !C
+- 3!D 9-11H Singleton !D
+- 3!H 9-11H Singleton !H
+- 3!S 9-11H 3 cartes à !S
+\enchbox{1!D--1!H -- 2!N}
+1!D--1!H--2!N
+- 3!C  Check-back
+    -  3!D 3 cartes à !H et 5 cartes à !S
+    -  3!H 3 cartes à !H et 5 cartes à !S
+    -  3!S 2 cartes à !H et 5 cartes à !S
+    -  3!N 2 cartes à !H et 4 cartes à !S
+- 3!D  Singleton !D
+- 3!H  Singleton !H
+- 3!S  Singleton !C
+\enchbox{1!D--1!S}
+1!D--1!S
+- 1!N 12-19H Régulier
+- 2!C 12-21H Canapé
+- 2!D 12-21H Canapé
+- 2!H 12-21H Canapé
+- 2!S 18-21H 5+ cartes à !S
+- 2!N 22-23H Régulier
+- 3!C  Canapé forcing de manche
+- 3!D Canapé forcing de manche
+- 3!H 5-4+ forcing de manche
+- 3!S Naturel forcing de manche
+\enchbox{1!D--1!S -- 1!N}
+1!D--1!S--1!N
+- 2!C 0-4H (5)6 cartes
+- 2!D 0-4H (5)6 cartes
+- 2!H 0-4H 5+ cartes à !H
+- 2!S 0-7DH 4 cartes à !S
+- 2!N 14H+ Quantitatif
+    -  3!C 12-13H
+    -  3!D 14-15H
+    -  3!H 16-17H
+    -  3!S 18-19H
+\enchbox{1!D--1!S -- 2!N}
+1!D--1!S--2!N
+- 3!C  Check-back
+    -  3!D 3 cartes à !H et 5 cartes à !S
+    -  3!H 3 cartes à !H et 5 cartes à !S
+    -  3!S 2 cartes à !H et 5 cartes à !S
+    -  3!N 2 cartes à !H et 4 cartes à !S
+- 3!D  Singleton !D
+- 3!H  Singleton !H
+- 3!S  Singleton !C
+\enchbox{1!D--2!H}
+1!D--2!H
+- 2!S 12-13H
+- 2!N 14-18H wait and see
+- 3!C 14H+ 5 cartes
+- 3!D 14H+ 5 cartes
+- 3!H 14H+ 5 cartes
+- 3!S 19H+ chelem
+- 3!N 14-16H régulier
+- 4!C  15-17H splinter
+- 4!D 15-17H splinter
+- 4!H 15-17H splinter
+\enchbox{1!D--2!S}
+1!D--2!S
+- 2!N 15-16H limite de manche
+- 3!C 19H+ 5 cartes excentré
+- 3!D 19H+ 5 cartes excentré
+- 3!H 19H+ 5 cartes excentré
+- 3!S 22H+ chelem
+- 3!N 17-20 régulier
+- 4!C  20-22H splinter
+- 4!D 20-22H splinter
+- 4!H 20-22H splinter
+\enchbox{1!D--2!N}
+1!D--2!N
+- 3!C 14H+ 5 cartes excentré
+- 3!D 14H+ 5 cartes excentré
+- 3!H 14H+ 5 cartes excentré
+- 3!S 19H+ chelem
+- 3!N 17-20 régulier
+- 4!C  14-16H splinter
+- 4!D 14-16H splinter
+- 4!H 14-16H splinter
+
+BBOalert,   RC1C.tex
+\enchbox{Ouverture de 1!H}
+1!H
+- 1!S0-5H ou 9H+ Pas 5 cartes à !S
+- 1SA 6-8H Pas de majeure cinquième
+- 2!C 0-5H 5 cartes à !S
+- 2!D 6H+ 5 cartes à !H
+- 2!H 6H+ 5 cartes à !S
+- 2!S 3-8H 6 belles cartes à !S
+- 2!N 9H+ 6 belles cartes à !C
+- 3!C 9H+ 6 belles cartes à !D
+\enchbox{1!H--1!S}
+1!H--1!S
+- 1!N 15-19H régulier
+- 2!C  15-19H naturel
+- 2!D  15-19H naturel
+- 2!H  19H+ bicolore mineur
+- 2!S  19-22H unicolore mineur
+- 2!N 22-23H régulier
+- 3!C 22H+ naturel forcing de manche
+- 3!D 22H+ naturel forcing de manche
+- 3!N pour les jouer
+\enchbox{1!H--1!S--1!N}
+1!H--1!S--1!N
+- 2!C conclusion
+- 2!D conclusion
+- 2!H conclusion
+- 2!S 9H+ bicolore mineur
+- 2!N 14H+ quantitatif
+    -  3!C 15H
+    -  3!D 16H
+    -  3!H 17H
+    -  3!S 18H
+    -  3!N 19H
+- 3!C singleton !C
+- 3!D singleton !D
+- 3!H singleton !H
+- 3!S singleton !S
+- 3!N9-13H conclusion
+\enchbox{1!H--1!S--2!N}
+1!H--1!S--2!N
+- 3!C checkback Stayman
+    -  3!D impossible
+    -  3!H 3 cartes à !H
+    -  3!S impossible
+    -  3!N 2 cartes à !H
+- 3!D singleton !D
+- 3!H singleton !H
+- 3!S singleton !S
+- 3!N conclusion
+- 4!C chelem !C
+    -  4!N refus
+- 4!D chelem !D
+    -  4!N refus
+\enchbox{1!H--2!D}
+1!H--2!D
+- 2!H 15-17H 2 ou 3 cartes à !H
+- 2!S 18H+  non fitté, forcing manche
+- 2!N 18-19H régulier
+- 3!C  15-17H naturel
+- 3!D  15-17H naturel
+- 3!H  18H+ fit forcing de manche
+
+BBOalert,   RC1P.tex
+\enchbox{1!S}
+1!S
+- 1!N 5H+ 0-2 cartes à !S, forcing, illimité si 4 cartes à !H
+- 2!C  12H+ forcing de manche, pas de fit, pas 4 cartes à !H \
+- 2!D  8H+  5 cartes à !H
+- 2!H  9DH+ 3+ cartes à !S
+- 2!S  8-9H 2 cartes à !S, préférence anticipée
+- 2!N 12-15H pour jouer 4!S
+- 3!C  9-11H 6 belles cartes
+- 3!D 9-11H 6 belles cartes
+- 3!H 9-11H 6 belles cartes
+- 3!S 9-10DH 4 cartes
+- 3SA 7-11H chicane indéterminée et 5 atouts
+- 4!C 7-11H splinter 5 atouts
+- 4!D 7-11H splinter 5 atouts
+- 4!H 7-11H splinter 5 atouts
+- 4!S 0-10H barrage 5 atouts
+\enchbox{1!S--2!H}
+1!S--2!H
+- {2!S 11-15H
+- 2!N 15-17H
+\enchbox{1!S--2!H--2!S}
+1!S--2!H--2!S
+- -- 9-10 DH
+- 2!N 11-12 DH
+- 3!C  5 cartes, chelem
+- 3!D  5 cartes, chelem
+- 3!H  5 cartes, chelem
+- 3!S 19-20DH quantitatif
+- 3!N 21DH+ contrôles
+- 4!C  splinter fort
+- 4!D  splinter fort
+- 4!H  splinter fort
+- 4!S 13-20 DH
+\enchbox{1!S--2!H--2!N}
+1!S--2!H--2!N
+- 3!C  5 cartes, chelem
+- 3!D  5 cartes, chelem
+- 3!H  5 cartes, chelem
+- 3!S 15-16DH quantitatif
+- 3!N contrôles
+- 4!C  splinter fort
+- 4!D  splinter fort
+- 4!H  splinter fort
+- 4!S 9-16 DH
+\enchbox{1!S--1!N}
+1!S--1!N
+- 2!C 11-17H 4+ cartes à !C
+- 2!D 11-17H 4+ cartes à !D
+- 2!H 11-17H 4+ cartes à !H
+- 2!S 11-17H 6 cartes à !S
+- 2!N 16-17H 6 cartes à !S et une mineure 4ième
+- 3!C 16-17H 5 cartes à !C
+- 3!D 16-17H 5 cartes à !D
+- 3!H 16-17H 5 cartes à !H
+- 3!S 16-17H 7 cartes à !S ou 6 très belles
+\enchbox{1!S--1!N--2!H}
+1!S--1!N--2!H
+- Passe 0-7H 3+ cartes à !H
+- 2!S 10H+  4 cartes à !H
+- 2SA 10-12H régulier
+- 3!C 7-8H naturel
+- 3!D 7-8H naturel
+- 3!H 8-9H 4 cartes à !H
+\enchbox{1!S--1!N--2!H--2!S}
+1!S--1!N--2!H--2!S
+- 2!N 15-17H belle main
+- 3!H 11-12H
+- 4!H 13-14H
+\enchbox{1!S -- 2!C}
+1!S--2!C
+- 2!D 11-17H wait and see
+- 2!H 11-17H 5+ cartes à !H
+- 2!S 11-17H 6+ cartes à !S
+- 2!N 16-17H 6 cartes à !S et une mineure 4ième
+- 3!C 16-17H 5 cartes à !C
+- 3!D 16-17H 5 cartes à !D
+- 3!H 16-17H 5 cartes à !H
+- 3!S 16-17H 7 cartes à !S ou 6 très belles
+
+BBOalert,   RC1SA.tex
+\enchbox{Ouverture de 1!N}
+1!N
+- 2!C 0H+ puppet stayman
+    -  2!D pas de majeure cinquième
+    -  2!H 5 cartes à !H
+    -  2!S 5 cartes à !S
+- 2!D 0H+ texas !H
+- 2!H 0H+ texas !S
+- 2!S 0H+ texas !C
+- 2!N 12H+ bicolore mineur
+- 3!C 0H+ texas !D
+- 3!D 16+ texas !H de chelem
+- 3!H 16H+ texas !S de chelem
+- 3!N 12H+ pour les jouer
+- 4!D 12H+ 5-5 majeur
+\enchbox{1!N -- 2!C -- 2!D}
+1!N--2!C--2!D
+- 2!H 10-11H 5 cartes à !H
+- 2!S 10-11H 5 cartes à !S
+- 2!N 11HL limite
+- 3!C  12H+ singleton !C
+- 3!D 12H+ singleton !D
+- 3!H 12H+ singleton !H
+- 3!S 12H+ singleton !S
+\enchbox{1!N -- 2!C -- 2!H}
+1!N--2!C--2!H
+- 2!S 10-11H Misère dorée
+- 2!N 11HL limite
+- 3!C  4 cartes à !S singleton indéterminé ou 5422 de chelem
+    -  3!D relai obligatoire
+        -  3!H singleton !H
+        -  3!S singleton !C
+        -  3!N singleton !D
+        -  4!C 5422 de chelem
+        -  4!D 5422 de chelem
+        -  4!H singleton !D de chelem
+- 3!D 17H+ convention 2025
+    -  3!H relai obligatoire
+- 3!H 11H fit limite
+- 3!S timide tentative de chelem
+- 4!C naturel fitté
+- 4!D naturel fitté
+\enchbox{1!N -- 2!C -- 2!H -- 3!C -- 3!D -- 3!H}
+1!N--2!C--2!H--3!C--3!D--3!H
+- 3!S  faible à !H
+    -  3!N 4441
+    -  4!C 5 cartes
+    -  4!D 5 cartes
+- 3!N belles cartes à !H
+- 4!C  5422
+- 4!D  5422
+\enchbox{1!N -- 2!C -- 2!H -- 3!D -- 3!H}
+1!N--2!C--2!H--3!D--3!H
+- 3!S déclenchement des contrôles
+    -  3!N contrôle !S
+- 3!N singleton !H
+- 4!C  singleton !C
+- 4!D  singleton !D
+\enchbox{1!N -- 2!C -- 2!S}
+1!N--2!C--2!S
+- 2!N 11HL limite
+- 3!C  4 cartes à !S singleton indéterminé ou 5422 de chelem
+    -  3!D relai obligatoire
+        -  3!H singleton !S
+        -  3!S singleton !C
+        -  3!N singleton !D
+        -  4!C 5422 de chelem
+        -  4!D 5422 de chelem
+        -  4!H singleton !D de chelem
+- 3!D 17H+ convention 2025
+    -  3!H relai obligatoire
+- 3!H timide tentative de chelem
+- 3!S 11H fit limite
+- 4!C naturel fitté
+- 4!D naturel fitté
+\enchbox{1!N -- 2!C -- 2!H -- 3!C -- 3!D -- 3!H}
+1!N--2!C--2!H--3!C--3!D--3!H
+- 3!S  faible à !S
+    -  3!N 4441
+- 3!N belles cartes à !S
+- 4!C  5422
+- 4!C  5422
+\enchbox{1!N -- 2!C -- 2!S -- 3!D -- 3!H}
+1!N--2!C--2!S--3!D--3!H
+- 3!S déclenchement des contrôles
+    -  3!N contrôle !H
+- 3!N singleton !S
+- 4!C  singleton !C
+- 4!D  singleton !D
+\enchbox{1!N -- 2!D -- 2!H}{
+1!N--2!D--2!H
+- 2!S 5-5 limite
+    -  2!N relai
+        -  3!C\ 5 cartes limite
+        -  3!D\ 5 cartes limite
+        -  3!H\ 5-5 majeur limite
+- 2!N J'ai un singleton
+    -  3!C\ relai
+        -  3!D singleton !D
+        -  3!H singleton !C
+        -  3!S singleton !S
+- 3!C 5 cartes
+- 3!D 5 cartes
+- 3!H 6 cartes
+- 3!N choix de manche
+- 4!H pour les jouer
+\enchbox{1!N -- 2!H -- 2!S}{
+1!N--2!H--2!S
+- 2!N singleton indéterminé
+    -  3!C relai
+        -  3!D singleton !D
+        -  3!H singleton !H
+        -  3!S singleton !C
+- 3!C 5 cartes
+- 3!D 5 cartes
+- 3!H 5-5 de chelem
+- 3!N choix de manche
+- 4!S Fin
+\enchbox{1 !N--2!S}
+1!N--2!S
+- 2!N 14H deux gros honneurs
+- 3!C  wait and see
+    -  3!D singleton !D
+    -  3!H singleton !H
+    -  3!S singleton !S
+    -  3!N tentative de chelem
+\enchbox{1!N -- 2!N}
+1!N--2!N
+- 3!C beau fit
+- 3!D beau fit
+- 3!H 5 cartes
+- 3!S 5 cartes
+- 3!N décourageant
+\enchbox{1!N -- 3!C}
+1!N--3!C
+- 3!D  obligatoire
+    -  3!D singleton !D
+    -  3!H singleton !H
+    -  3!N singleton !C
+    -  4!C singleton !C chelem
+    -  4!N quantitatif
+\enchbox{1!N<Db!>}
+1!NDb
+- ,-- bicolore fort ou  préférence !C ou  préférence !D
+    -  Rd! pas de couleur 5ième
+        -  2!C préférence
+        -  2!D  préférence
+        -  2!H naturel forcing
+        -  2!S naturel forcing
+    -  2!C 5+ cartes
+    -  2!D 5+ cartes
+    -  2!H 5 cartes
+    -  2!S 5 cartes
+- ,Rd! unicolore fort ou  4-4 ou 3-3 mineur
+    -  2!C 4+ cartes
+    -  2!D 4+ cartes
+    -  2!H 5 cartes
+    -  2!S 5 cartes
+- ,2!C naturel
+- ,2!D naturel
+- ,2!H naturel
+- ,2!S naturel
+\enchbox{1!N<--> -- <Db!>}
+1!N----Db
+- ,-- 4-3 mineur
+    -  Rd! pas de couleur 5ième
+        -  2!C 4 cartes
+        -  2!D 4 cartes
+    -  2!C 5+ cartes
+    -  2!D 5+ cartes
+- ,Rd! 4-4 mineur
+- ,-- 2!C 3+ cartes
+- ,-- 2!D 3+ cartes
+- ,-- 2!H 5 cartes
+- ,-- 2!S 5 cartes
+- ,2!C naturel
+- ,2!D naturel
+- ,2!H naturel
+- ,2!S naturel
+
+BBOalert,   RC2m.tex
+\enchbox{Ouverture de 2!C}
+2!C
+- 2!D 10H+ relai
+- 2!H 3-8H 6 belles cartes à !H
+- 2!S 3-8H 6 cartes cartes à !S
+- 2SA 11H limite
+- 3!C 5-9H au moins 3 cartes
+- 3!D 12H+ naturel
+- 3!H 9-11H belle couleur 6ième
+- 3!S 9-11H belle couleur 6ième
+- 3!N conclusion
+- 4!C chelem
+\enchbox{2!C -- 2!D}
+2!C--2!D
+- 2!H 12-14H 3 cartes à !H
+- 2!S 12-14H 3 cartes à !S (0-2 !H)
+- 2SA 12-13H 6-4 médiocre
+- 3!C 12-14H 7 cartes à !C
+    -  3!D gadget
+        -  3!H singleton !H
+        -  3!S singleton !S
+        -  3!N 7-2-2-2
+        -  4!C singleton !D (8!C)
+- 3!D 12-14H bicolore 6-5
+- 3!H 14H 6-4 singleton !H
+- 3!S 14H 6-4 singleton !S
+- 3SA 14H 2-2-4-5 ou 2-2-3-6
+\enchbox{2!C--2!D--2!H}
+2!C--2!D--2!H
+- 2!S  5 cartes à !S
+- 2!N fit !C limite
+- 3!C 10-11H fit !C limite
+- 3!D 12H+ fit !C forcing manche
+- 3!H 10-11H naturel limite
+- 3!S chelem à !H
+\enchbox{2!C--2!D--2!H--2!S}
+2!C--2!D--2!H--2!S
+- 2!N 12-13H 1!S-3!H-4!D-5!C
+- 3!C  12-13H 1!S-3!H-3!D-6!C
+- 3!D  12-14H 3!S-3!H-1!D-6!C
+    -  3!H chelem à !S
+    -  3!S naturel limite
+- 3!H 14H 1!S-3!H-4!D-5!C
+- 3!S 14H 1!S-3!H-3!D-6!C
+- 3!N 14H 2!S-3!H-3!D-6!C
+\enchbox{2!C--2!D--2!H--3!C}
+2!C--2!D--2!H--3!C
+- 3!D 14H singleton !D
+- 3!S 14H singleton !S
+- 3!N 14H pour les jouer
+\enchbox{2!C--2!D--2!H--3!D}
+2!C--2!D--2!H--3!D
+- 3!H singleton !D
+- 3!S singleton !S
+- 3!N régulier
+\enchbox{La séquence 2!C--2!D--2!S}
+2!C--2!D--2!S
+- 2!N 11H proposition
+- 3!C 10-11H fit !C limite
+- 3!D 12H+ fit !C forcing
+- 3!H chelem à !S
+- 3!S 11H proposition
+\enchbox{2!C--2!D--2!S--3!D}
+2!C--2!D--2!S--3!D
+- 3!H singleton !H
+- 3!S singleton !D
+- 3!N régulier
+\enchbox{Ouverture de 2!D}
+2!D
+- 2!H 10H+ relai ambiguë
+- 2!S 3-8H 6 belles cartes à !S
+- 2SA 11H proposition
+- 3!C 12H+ naturel
+- 3!D 5-9H au moins 3 cartes
+- 3!H 9-11H naturel, belle couleur 6ième
+- 3!S 9-11H naturel, belle couleur 6ième
+\enchbox{2!D--2!H--}
+2!D--2!H--
+- {2!S 12-14H 3 cartes à !S
+- 2SA 12-14H 3 cartes à !H (pas à !S)
+- 3!C 12-14H  4-5 cartes
+- 3!D 12-14H  7 cartes
+- 3!H 14H 5-5 singleton !H
+- 3!S 14H 5-5 singleton !S
+- 3SA 14H 2-2-4-5 ou 2-2-3-6
+\enchbox{2!D--2 !H--2!S}
+2!D--2!H--2!S
+- 2!N 5 cartes à !H
+    -  3!C singleton !H
+    -  3!D 3 cartes à !H
+    -  3!N 3-2-6-2 (14H)
+    -  4!D 7+ cartes à !D
+- 3!C  Fit !D forcing
+- 3!D  Fit !D limite
+- 3!H proposition
+- 3!S chelem à !H
+
+BBOalert,   RC2C.tex
+\enchbox{Ouverture de 2!H}
+2!H
+- 2!S 12H+ interrogative à !S
+- 2!N 11HL naturel
+- 3!C  9-11H 6 belles cartes
+- 3!D 9-11H 6 belles cartes
+- 3!H 11DH propositionnel
+- 3!S 9-11H 6 belles cartes
+- 3SA conclusion
+- 4!H conclusion
+- 4!S conclusion
+- 4!N blackwood brutal
+\enchbox{2!H--2!S}
+2!H--2!S
+- 2SA 5 cartes à !H et 3 cartes à !S
+- 3!C 4 cartes à !C et 0-2 cartes à !S
+- 3!D 4 cartes à !D et 0-2 cartes à !S
+- 3!H 6 cartes à !H et 0-2 à !S
+- 3!S 6 cartes à !H et 3 cartes à !S
+- 3SA (n'existe pas)
+- 4!C 6 cartes
+- 4!D 6 cartes
+- 4!H 8 cartes
+\enchbox{2\c--2!S--2!N}
+--2!S--2!N
+- 3!C naturel
+- 3!D naturel
+- 3!H chelem !H
+- 3!S chelem !S
+
