@@ -17,7 +17,7 @@ function initBBOalertIframe() {
   $('#bboalert-iframe').remove();
   ifrm = document.createElement("iframe");
   ifrm.allow = "clipboard-read; clipboard-write";
-  ifrm.sandbox = 'allow-scripts allow-same-origin allow-modals allow-popups allow-forms';
+  ifrm.sandbox = 'allow-scripts allow-same-origin allow-modals allow-popups allow-forms allow-downloads';
   ifrm.id = 'bboalert-iframe';
   ifrm.name = 'bboalert';
   ifrm.width = "100%";
