@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.4");
+	console.log("PBN Capture version 1.5");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -87,8 +87,14 @@
 							contract = bid;
 							risk = "";
 						}
-						if (bid == "Db") risk = "X";
-						if (bid == "Rd") risk = "XX";
+						if (bid == "Db") {
+							risk = "X";
+							bid = "X";
+						}
+						if (bid == "Rd") {
+							risk = "XX";
+							bid = "XX";
+						}
 					} else {
 						bid = "Pass";
 					}
@@ -100,14 +106,27 @@
 					}
 					ctx = ctx.slice(2);
 				}
+				var leader = getActivePlayer().substring(0,1);
+				var declarer = "?";
+				switch (leader) {
+					case "N" : declarer = "W"; break;
+					case "E" : declarer = "N"; break;
+					case "S" : declarer = "E"; break;
+					case "W" : declarer = "S"; break;
+				}
 				auction = auction + auc + "\n";
 				var msg = `
 [Event "autoCapture"]
 [Board "${getDealNumber()}"]
+[West "${getPlayerAtSeat("W")}"]
+[North "${getPlayerAtSeat("N")}"]
+[East "${getPlayerAtSeat("E")}"]
+[South "${getPlayerAtSeat("S")}"]
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
 [Contract "${contract}${risk}"]
+[Declarer "${declarer}"]
 [Auction "${dealer}"]
 ${auction}
 `;
