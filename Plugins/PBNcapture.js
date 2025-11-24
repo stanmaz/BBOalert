@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.5");
+	console.log("PBN Capture version 1.6");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -24,10 +24,23 @@
 		var ah = $("auction-box-header-cell", PWD).text().replaceAll(" ", "").replaceAll("\n", "");
 		return ah.charAt((getDealerSeatNr() + 1) % 4)
 	}
+	function renuùberBoards(txt) {
+		t = txt.split("\n");
+		var n = 1;
+		for (let i = 0; i < t.length; i++) {
+			if (t[i].startsWith("[Board")) {
+				t[i] = `[Board "${n}"]`;
+				n++;
+			}
+		}
+		txt = t.join("\n");
+		return txt;
+	}
 	var title = "PBN capture and auto-redeal";
 	var cfg = {};
 	cfg.Enable_Log = false;
 	cfg.Auto_redeals = 0;
+	cfg.Renumber_boards = false;
 	cfg.Export_PBN = false;
 	cfg.Clear_Log = false;
 	var EVENT_LOG = localStorage.getItem('PBNcapture');
@@ -47,7 +60,7 @@
 					}
 					if (localStorage.getItem('PBNcapture') == "") return;
 					writeToClipboard(EVENT_LOG);
-					downloadTextAsFile(EVENT_LOG, "BBOalertCapture.pbn");
+					downloadTextAsFile(renuùberBoards(EVENT_LOG), "BBOalertCapture.pbn");
 					localStorage.setItem('PBNcapture', EVENT_LOG);
 					bboalertLog(EVENT_LOG.split("\n").length + " log records exported to clipboard and\nto Downloads/BBOalertCapture.pbn file");
 				}
@@ -106,13 +119,13 @@
 					}
 					ctx = ctx.slice(2);
 				}
-				var leader = getActivePlayer().substring(0,1);
+				var leader = getActivePlayer().substring(0, 1);
 				var declarer = "?";
 				switch (leader) {
-					case "N" : declarer = "W"; break;
-					case "E" : declarer = "N"; break;
-					case "S" : declarer = "E"; break;
-					case "W" : declarer = "S"; break;
+					case "N": declarer = "W"; break;
+					case "E": declarer = "N"; break;
+					case "S": declarer = "E"; break;
+					case "W": declarer = "S"; break;
 				}
 				auction = auction + auc + "\n";
 				var msg = `
