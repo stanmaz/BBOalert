@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.6");
+	console.log("PBN Capture version 1.6.0.1");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -83,7 +83,7 @@
 				if (!ctx.endsWith("------")) return;
 				var dealer = getDealerSeat();
 				var vul = areWeVulnerable() + areTheyVulnerable();
-				if (vul == "@n@N") vul = "none";
+				if (vul == "@n@N") vul = "None";
 				if (vul == "@v@N") vul = "NS";
 				if (vul == "@n@V") vul = "EW";
 				if (vul == "@v@V") vul = "All";
