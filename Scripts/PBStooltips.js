@@ -1,3 +1,4 @@
+//Script,onDataLoad
 $("#BBOalertTooltipStyle").remove();
 $(document.head).append(`<style id="BBOalertTooltipStyle">
             div.ui-tooltip {
@@ -25,3 +26,4 @@ $("#adpanel2 button").each(function () {
     txt = $(this).val().split("%")[0].replace("\\n--- ", "");
     $(this).prop("title", txt);
 });
+//Script
