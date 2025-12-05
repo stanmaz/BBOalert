@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.7");
+	console.log("PBN Capture version 1.7.0.2");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -20,6 +20,29 @@
 			hcp = hcp + "JQKA".indexOf(s) + 1;
 		}));
 		return hcp;
+	}
+	function seatTPC(seat) {
+		// compute HCP
+		var tpc = 0;
+		hand2PBN(getHandBySeat(seat)).split("").forEach(((s) => {
+			tpc = tpc + "JQKA".indexOf(s) + 1;
+		}));
+		// Add short suit points
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			tpc = tpc + 3 - s.substring(0, 3).length;
+		}));
+		// Subtract if short suit contains at least one honnor
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			if ((s.length < 3) && ("A" + s).match(/[QKA]/g).length > 1) tpc = tpc -1;
+		}));
+		return tpc;
+	}
+	function seatLTC(seat) {
+		var ltc = 0;
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			ltc = ltc + s.substring(0, 3).length - ("A" + s).match(/[QKA]/g).length + 1;
+		}));
+		return ltc;
 	}
 	function getDealerSeatNr() {
 		var d = $(".vulPanelDealerClass", PWD).first();
@@ -152,6 +175,8 @@
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
 {Shape ${seatHandShape('N')} ${seatHandShape('E')} ${seatHandShape('S')} ${seatHandShape('W')}}
 {HCP ${seatHCP('N')} ${seatHCP('E')} ${seatHCP('S')} ${seatHCP('W')}}
+{TPC ${seatTPC('N')} ${seatTPC('E')} ${seatTPC('S')} ${seatTPC('W')}}
+{Losers ${seatLTC('N')} ${seatLTC('E')} ${seatLTC('S')} ${seatLTC('W')}}
 [Contract "${contract}${risk}"]
 [Declarer "${declarer}"]
 [Auction "${dealer}"]
