@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.6.0.1");
+	console.log("PBN Capture version 1.7.0.3");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -8,6 +8,46 @@
 		var d = n.substring(n.indexOf("D"), n.lastIndexOf("D") + 2).replaceAll(/[SHDC]/g, "");
 		var c = n.substring(n.indexOf("C"), n.lastIndexOf("C") + 2).replaceAll(/[SHDC]/g, "");
 		return `${s}.${h}.${d}.${c}`
+	}
+	function seatHandShape(seat) {
+		var t = "";
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => { t = t + s.length }));
+		return t;
+	}
+	function seatHCP(seat) {
+		var hcp = 0;
+		hand2PBN(getHandBySeat(seat)).split("").forEach(((s) => {
+			hcp = hcp + "JQKA".indexOf(s) + 1;
+		}));
+		return hcp;
+	}
+	function seatTPC(seat) {
+		// compute HCP
+		var tpc = 0;
+		hand2PBN(getHandBySeat(seat)).split("").forEach(((s) => {
+			tpc = tpc + "JQKA".indexOf(s) + 1;
+		}));
+		// Add short suit points
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			tpc = tpc + 3 - s.substring(0, 3).length;
+		}));
+		// Subtract if short suit contains at least one honnor
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			if ((s.length < 3) && ("A" + s).match(/[QKA]/g).length > 1) tpc = tpc -1;
+		}));
+		return tpc;
+	}
+	function seatLTC(seat) {
+		var ltc = 0;
+		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
+			switch (s.length) {
+				case 0 : break;
+				case 1 : if (s != "A") ltc++;break;
+				case 2 : ltc = ltc + 2 - ("A" + s).match(/[KA]/g).length + 1;break;
+				default : ltc = ltc + 3 - ("A" + s).match(/[QKA]/g).length + 1;
+			}			
+		}));
+		return ltc;
 	}
 	function getDealerSeatNr() {
 		var d = $(".vulPanelDealerClass", PWD).first();
@@ -138,6 +178,10 @@
 [Dealer "${dealer}"]
 [Vulnerable "${vul}"]
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
+{Shape ${seatHandShape('N')} ${seatHandShape('E')} ${seatHandShape('S')} ${seatHandShape('W')}}
+{HCP ${seatHCP('N')} ${seatHCP('E')} ${seatHCP('S')} ${seatHCP('W')}}
+{TP ${seatTPC('N')} ${seatTPC('E')} ${seatTPC('S')} ${seatTPC('W')}}
+{Losers ${seatLTC('N')} ${seatLTC('E')} ${seatLTC('S')} ${seatLTC('W')}}
 [Contract "${contract}${risk}"]
 [Declarer "${declarer}"]
 [Auction "${dealer}"]

@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.7.0.2");
+	console.log("PBN Capture version 1.7.0.3");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -40,7 +40,12 @@
 	function seatLTC(seat) {
 		var ltc = 0;
 		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
-			ltc = ltc + s.substring(0, 3).length - ("A" + s).match(/[QKA]/g).length + 1;
+			switch (s.length) {
+				case 0 : break;
+				case 1 : if (s != "A") ltc++;break;
+				case 2 : ltc = ltc + 2 - ("A" + s).match(/[KA]/g).length + 1;break;
+				default : ltc = ltc + 3 - ("A" + s).match(/[QKA]/g).length + 1;
+			}			
 		}));
 		return ltc;
 	}
@@ -175,7 +180,7 @@
 [Deal "N:${hand2PBN(getHandBySeat('N'))} ${hand2PBN(getHandBySeat('E'))} ${hand2PBN(getHandBySeat('S'))} ${hand2PBN(getHandBySeat('W'))}"]
 {Shape ${seatHandShape('N')} ${seatHandShape('E')} ${seatHandShape('S')} ${seatHandShape('W')}}
 {HCP ${seatHCP('N')} ${seatHCP('E')} ${seatHCP('S')} ${seatHCP('W')}}
-{TPC ${seatTPC('N')} ${seatTPC('E')} ${seatTPC('S')} ${seatTPC('W')}}
+{TP ${seatTPC('N')} ${seatTPC('E')} ${seatTPC('S')} ${seatTPC('W')}}
 {Losers ${seatLTC('N')} ${seatLTC('E')} ${seatLTC('S')} ${seatLTC('W')}}
 [Contract "${contract}${risk}"]
 [Declarer "${declarer}"]
