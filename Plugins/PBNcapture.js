@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.7.0.3");
+	console.log("PBN Capture version 1.7.0.4");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -33,7 +33,7 @@
 		}));
 		// Subtract if short suit contains at least one honnor
 		hand2PBN(getHandBySeat(seat)).split(".").forEach(((s) => {
-			if ((s.length < 3) && ("A" + s).match(/[QKA]/g).length > 1) tpc = tpc -1;
+			if ((s.length < 3) && ("A" + s).match(/[JQKA]/g).length > 1) tpc = tpc -1;
 		}));
 		return tpc;
 	}
@@ -200,4 +200,3 @@ ${auction}
 		}
 	});
 })();
-
