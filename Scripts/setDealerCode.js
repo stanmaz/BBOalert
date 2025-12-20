@@ -100,6 +100,10 @@ window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
                 case 9:
                     // Close dialog
                     $("modal-content button", parent.window.document)[0].dispatchEvent(new Event("click"));
+                    break;
+                case 10:
+                    // Redeal
+                    $(".redeal-button", PWD).click();
                     clearInterval(intrv);
                     break;
                 case 15:
