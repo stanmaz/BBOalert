@@ -1,5 +1,6 @@
 //Script,onDataLoad
 window.setDealerCode = function (dealerCode, dealer = "S", rotateDeals = true) {
+    if (window.PBSrandomRotation != undefined) rotateDeals = window.PBSrandomRotation;
     var txtar = null;
     var delayValue = 500;
     var cnt = -1;
