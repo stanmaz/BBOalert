@@ -14,7 +14,7 @@
 - add to the page URL :
     - <b>&new</b> to clear the logfile cache before running the script
     - <b>&add</b> to run the script without clearing the cache
-- reload the page. The script will open pages for each board one-by-one and will add PBN data to the cache, until no more boards are available.
+- reload the page. The script will open pages for each board one-by-one and will add PBN data to the cache, until no more boards are available. Then the data will be saved in the <b>Dowloads</b> folder.
 
 Example :
 
