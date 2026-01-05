@@ -2,14 +2,14 @@
 
 ## How to install a script
 
-- make sure the TamperMonkey extension is installed
+- make sure the <b>TamperMonkey</b> browser extension is installed
 - open the script file and press the <b>Raw</b> button
 - press <b>Install</b>
 
 ## Script : LoveBridge Vugraph PBN
 
 - open the https://vugraph.lovebridge.com/ page
-- select "Running of Final Score/results" and press "Boards" (team events)
+- select <b>Running or Final Score/results</b> and press <b>Boards</b> (team events)
 - select the starting board number and the segment number
 - add to the page URL :
     - <b>&new</b> to clear the logfile cache before running the script
