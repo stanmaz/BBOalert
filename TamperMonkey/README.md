@@ -3,7 +3,7 @@
 ## How to install a script
 
 - make sure the TamperMonkey extension is installed
-- open the script file and press <b>Raw</b> button
+- open the script file and press the <b>Raw</b> button
 - press <b>Install</b>
 
 ## Script : LoveBridge Vugraph PBN
@@ -12,10 +12,13 @@
 - select "Running of Final Score/results" and press "Boards" (team events)
 - select the starting board number and the segment number
 - add to the page URL :
-    - &new to clear the logfile cache and run the script
-    - &add to run the script and add
-- reload the page. The script will open the page for each board one-by-one and will add PBN data to the cache, until no more boards are available.
+    - <b>&new</b> to clear the logfile cache before running the script
+    - <b>&add</b> to run the script without clearing the cache
+- reload the page. The script will open pages for each board one-by-one and will add PBN data to the cache, until no more boards are available.
+
 Example :
+
 Original URL : https://vugraph.lovebridge.com/screen/tbricfed/118292?screen=frequency&board=1&round=1
-Modified URL : https://vugraph.lovebridge.com/screen/tbricfed/118292?screen=frequency&board=1&round=1&new
+
+Modified URL : https://vugraph.lovebridge.com/screen/tbricfed/118292?screen=frequency&board=1&round=1&new<br>
 or           : https://vugraph.lovebridge.com/screen/tbricfed/118292?screen=frequency&board=1&round=1&add
