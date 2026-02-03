@@ -20,6 +20,7 @@
 	addBBOalertEvent("onDataLoad", function () {
 		if (addConfigBox(title, cfg) != null) {
 			addBBOalertEvent("onNewActivePlayer", function () {
+				if (tableType() != "practice") return;
 				var activePlayer = getActivePlayer();
 				if (cfg.West && (activePlayer.charAt(0) == "W")) clickPass();
 				if (cfg.North && (activePlayer.charAt(0) == "N")) clickPass();
