@@ -177,7 +177,7 @@ function setControlButtons() {
 		fileSelector.style.backgroundColor = "lightblue";
 		fileSelector.add(new Option('Data...'));
 		fileSelector.add(new Option('   Paste (New)'));
-		fileSelector.add(new Option('   Paste (Append)'));
+		fileSelector.add(new Option('   Paste (Prepend)'));
 		fileSelector.add(new Option('   Clear'));
 		fileSelector.add(new Option('   Copy All'));
 		fileSelector.add(new Option('   Copy New'));

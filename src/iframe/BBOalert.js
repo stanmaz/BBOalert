@@ -49,9 +49,11 @@ function exportAlertData() {
 	for (i = 0; i < alertTable.length; i++) {
 		txt = txt + alertTable[i] + '\n';
 	}
+	downloadTextAsFile(txt, 'BBOalertData.txt');
 	writeToClipboard(txt);
 	localStorage.setItem('BBOalertCache', alertOriginal);
-	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + alertTable.length + " records exported to clipboard");
+	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + "<br>" + alertTable.length + " records exported to clipboard" +
+		" and downloaded as <b>BBOalertData.txt</b>");
 }
 
 /**
@@ -79,6 +81,7 @@ function appendClipboardData() {
 
 function clearData() {
 	if (confirm("Are you sure you want to clear data ?")) {
+		localStorage.setItem('BBOalertPrepend', "");
 		updateText = "";
 		updateCount = 0;
 		alertData = 'BBOalert\n';
@@ -325,23 +328,9 @@ function getClipboardData(newData) {
 		if (newData) {
 			readNewData(cbData);
 		} else {
-			alertOriginal = alertOriginal + cbData;
-			//			alertOriginal = alertData;
-			bboalertLog("Reading data");
-			bboalertLog(version + "<br>Reading data<br>");
-			setTimeout(() => {
-				updateAlertDataAsync(alertOriginal, function () {
-					if (alertData == null) alertData = 'BBOalert\n';
-					alertTable = alertData.split("\n");
-					saveAlertTableToClipboard();
-					processTable();
-					displayHeaders();
-					addBBOalertLog("<br>" + alertTable.length + " records imported");
-					setTimeout(function () {
-						setOptions(true);
-					}, 200);
-				});
-			}, 1000);
+			localStorage.setItem('BBOalertPrepend', cbData + "\n");
+			bboalertLog("Prepending data done");
+			readNewData(alertOriginal);
 		}
 		clearOptionButtons();
 		if (getDataType(cbData) == 'BBOalert') { } else {
@@ -452,6 +441,10 @@ function getClipboardData(newData) {
 }
 
 function readNewData(cbData) {
+	var prependData = localStorage.getItem('BBOalertPrepend');
+	if (prependData == null) {
+		prependData = "";
+	}
 	updateText = "";
 	updateCount = 0;
 	alertData = cbData;
@@ -460,7 +453,7 @@ function readNewData(cbData) {
 		bboalertLog("Reading data");
 		bboalertLog(version + "<br>Reading data<br>");
 		setTimeout(() => {
-			updateAlertDataAsync(alertOriginal, function () {
+			updateAlertDataAsync(prependData + alertOriginal, function () {
 				if (alertData == null) alertData = 'BBOalert\n';
 				alertTable = alertData.split("\n");
 				saveAlertTableToClipboard();
@@ -478,12 +471,18 @@ function readNewData(cbData) {
  * @ignore
  */
 function exportUpdateData() {
-	if (updateCount == 0) {
-		bboalertLog(version + "<br>no new records to export");
-		return;
+	var scan = new BBOalertData();
+	var updateText = '';
+	while ((txt = scan.getNextRecord()) != null) {
+		var rec = txt.split(",");
+		if (rec.length < 4) continue;
+		if (rec[3].trim().substring(0, 8) == getNow().substring(0,8)) updateText = updateText + txt + '\n';
 	}
+	if (updateText != '') downloadTextAsFile(updateText,'BBOalertNewData.txt');
+	var updateCount = updateText.split("\n").length - 1;
 	writeToClipboard(updateText);
-	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + updateCount + " new records exported to clipboard");
+	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + "<br>" + updateCount + " new records exported to clipboard" +
+		" and downloaded as <b>BBOalertNewData.txt</b>");
 }
 
 var trustedBid = false;
@@ -762,7 +761,7 @@ function getAlert() {
 	var fa = new BBOalertFind();
 	var alertText = fa.findAlert(getContext(), callText);
 	trustedBid = fa.trustedBid;
-	if(fa.alertedBid) setAlert(fa.alertedBid);
+	if (fa.alertedBid) setAlert(fa.alertedBid);
 	alertHistoryMap.set(getContext() + callText, alertText);
 	if (fa.deferredExplanation) {
 		if (alertText != "") setAlert(true);

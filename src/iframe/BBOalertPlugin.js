@@ -299,17 +299,50 @@ function PluginInit() {
     })();
 
     (function () {
+        console.log("AutoPass version 1.0");
+
+        function clickPass() {
+            try {
+                getBiddingBoxButtons()[12].click();
+                setTimeout(() => {
+                    getBiddingBoxButtons()[16].click();
+                }, 100);
+                getBiddingBoxButtons()[16].click();
+            } catch { }
+        }
+
+        var title = "Automatic pass on teaching table";
+        var cfg = {};
+        cfg.West = false;
+        cfg.North = false;
+        cfg.East = false;
+        cfg.South = false;
+        addBBOalertEvent("onDataLoad", function () {
+            if (addConfigBox(title, cfg) != null) {
+                addBBOalertEvent("onNewActivePlayer", function () {
+                    if (tableType() != "practice") return;
+                    var activePlayer = getActivePlayer();
+                    if (cfg.West && (activePlayer.charAt(0) == "W")) clickPass();
+                    if (cfg.North && (activePlayer.charAt(0) == "N")) clickPass();
+                    if (cfg.East && (activePlayer.charAt(0) == "E")) clickPass();
+                    if (cfg.South && (activePlayer.charAt(0) == "S")) clickPass();
+                });
+            }
+        });
+    })();
+
+    (function () {
         var title = "Miscellaneous simple scripts";
         var cfg = {};
         cfg.Enable_chat_timestamp = false;
         cfg.Move_table_left = false;
-//        cfg.Remove_icons_from_tabs = false;
+        //        cfg.Remove_icons_from_tabs = false;
         cfg.Large_bidding_box = false;
         cfg.Modified_OK_button = false;
         cfg.Swap_bidding_buttons = false;
         cfg.Auto_chat_to_opponents = false;
         cfg.Disable_alerts_with_casual_partner = false;
-//        cfg.Remove_Ads = false;
+        //        cfg.Remove_Ads = false;
         cfg.T_for_10 = false;
         addBBOalertEvent("onDataLoad", function () {
             if (DEBUG) console.log("Title = " + title);
@@ -332,7 +365,7 @@ function PluginInit() {
                 });
                 addBBOalertEvent("onAnyMutation", function () {
                     moveTableLeft(cfg.Move_table_left);
-//                    removeIconsFromTabs(cfg.Remove_icons_from_tabs);
+                    //                    removeIconsFromTabs(cfg.Remove_icons_from_tabs);
                     largeBiddingBox(cfg.Large_bidding_box);
                     swapBiddingButtons(cfg.Swap_bidding_buttons);
                     removeAds(cfg.Move_table_left);
@@ -704,7 +737,7 @@ function PluginInit() {
         `
         var removeAdsStyle = BBOcontext().createElement('style');
         removeAdsStyle.id = 'remove-ads-style';
-        removeAdsStyle.innerHTML = removeAdsStyleText;       
+        removeAdsStyle.innerHTML = removeAdsStyleText;
         removeAds = function (on) {
             if (on && (tableType() == "game")) {
                 BBOcontext().head.appendChild(removeAdsStyle);

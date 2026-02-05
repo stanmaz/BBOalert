@@ -88,8 +88,8 @@ function HTMLpage2text(html, url, urlOriginal) {
 			tr[i] = replaceSuitSymbolsInRecord(tr[i]);
 		}
 		return tr.join("\n");
-	} else if (html.startsWith("<?xml")) {
-		return getXMLfile(html);
+	} else if (html.trim().startsWith("<?xml")) {
+		return getXMLfile(html.trim());
 	} else {
 		var i1 = html.indexOf("<body");
 		var i2 = html.indexOf("</body>");
@@ -135,13 +135,24 @@ function getGoogleDriveFile(gdURL, success, failure) {
 	}, 5000);
 }
 
+function isOdtFile(url) {
+    // 1. Quick check: Does the URL path end in .odt?
+	const urlPath = new URL(url).pathname.toLowerCase();
+   	return urlPath.endsWith('.odt');
+}
 
-function fetchWebData(url, success, failure) {
+function isDocxUrl(url) {
+    // 1. Quick check: Extension validation
+	const urlPath = new URL(url).pathname.toLowerCase();
+   	return urlPath.endsWith('.docx');
+}
+
+async function fetchWebData(url, success, failure) {
 	if (url.startsWith("https://drive.google.com/file/d/")) {
 		getGoogleDriveFile(url, success, failure);
 	} else if (url.startsWith("https://tinyurl.com/")) {
 		importTinyURL(url, success, failure);
-	} else if (url.includes(".odt")) {
+	} else if (isOdtFile(url)) {
 		fetch(url)       // 1) fetch the url
 			.then(function (response) {                       // 2) filter on 200 OK
 				if (response.status === 200 || response.status === 0) {
@@ -153,6 +164,24 @@ function fetchWebData(url, success, failure) {
 			.then(JSZip.loadAsync)                            // 3) chain with the zip promise
 			.then(function (zip) {
 				return zip.file("content.xml").async("string"); // 4) chain with the text content promise
+			})
+			.then((text) => {                    // 5) display the result
+				success(text);
+			}, function error(e) {
+				failure(e);
+			});
+	} else if (isDocxUrl(url)) {
+		fetch(url)       // 1) fetch the url
+			.then(function (response) {                       // 2) filter on 200 OK
+				if (response.status === 200 || response.status === 0) {
+					return Promise.resolve(response.blob());
+				} else {
+					return Promise.reject(new Error(response.statusText));
+				}
+			})
+			.then(JSZip.loadAsync)                            // 3) chain with the zip promise
+			.then(function (zip) {
+				return zip.file("word/document.xml").async("string"); // 4) chain with the text content promise
 			})
 			.then((text) => {                    // 5) display the result
 				success(text);
@@ -268,6 +297,17 @@ function loadTinyURL() {
 }
 
 function getXMLfile(xml) {
+	if (xml.indexOf("<office:document") != -1) {
+		return getODTfile(xml);
+	}
+	if (xml.indexOf("<w:document") != -1) {
+		return getDOCXfile(xml);
+	}
+	return xml;
+}
+
+
+function getODTfile(xml) {
 	function getListNestingLevel(e) {
 		var n = 0;
 		var rootTable = false;
@@ -356,5 +396,101 @@ function getXMLfile(xml) {
 		txtout.push(e);
 	})
 	//	console.log(txtout);
+	return txtout.join("\n");
+}
+
+function getDOCXfile(xml) {
+	function getListNestingLevel(e) {
+		var n = 0;
+		var rootTable = false;
+		e1 = e;
+		while (e1.parent().length != 0) {
+			if (e1.parent().prop("nodeName") == "text:list") {
+				rootTable = false;
+				n++;
+			}
+			if (e1.parent().prop("nodeName") == "table:table") {
+				n++;
+				rootTable = true;
+			}
+			e1 = e1.parent();
+		}
+		if (rootTable) n--;
+		return n;
+	}
+	function getListNestingIndent(n) {
+		if (n == 0) return "";
+		var indent = "- ";
+		n--;
+		while (n > 0) {
+			indent = "    " + indent;
+			n--;
+		}
+		return indent;
+	}
+	function firstCellInRow(cell) {
+		if ($(cell).parent().find("table\\:table-cell:first").is(cell)) return true;
+		return false;
+	}
+	function lastCellInRow(cell) {
+		if ($(cell).parent().find("table\\:table-cell:last").is(cell)) return true;
+		return false;
+	}
+	function isHeaderRow(cell) {
+		while (cell.parent().length > 0) {
+			if (cell.parent().prop("nodeName") == "table:table-header-rows") return true;
+			cell = cell.parent();
+		}
+		return false;
+	}
+	window.xmlFile = xml;
+	var xmlDoc = $.parseXML(xmlFile.replaceAll("<w:tab />", " "));
+	window.xmlDoc = xmlDoc;
+	var txt = [];
+	$xml = $(xmlDoc);
+	$xml.find("w\\:p").each(function () {
+		//		console.log(this.parentNode.nodeName + " " + this.nextSibling.parentNode.nodeName + " " + this.textContent);
+		// handle table cells
+		if ($(this).parent().prop("nodeName") == 'table:table-cell') {
+			var recPrefix = "";
+			var sep = ",";
+			var nl = getListNestingLevel($(this).parent());
+			//			console.log("nesting level = " + nl + " " + this.textContent);
+			if (nl > 0) {
+				recPrefix = getListNestingIndent(nl);
+				sep = " ";
+			}
+			if (firstCellInRow($(this).parent())) {
+				if (isHeaderRow($(this).parent())) recPrefix = "";
+				txt.push(recPrefix + this.textContent);
+				if (lastCellInRow($(this).parent())) return;
+			} else {
+				txt[txt.length - 1] = txt[txt.length - 1] + sep + this.textContent;
+			}
+			return;
+		}
+		var lvl = parseInt($(this).find("w\\:ilvl").attr("w:val"));
+		if (isNaN(lvl)) lvl = -1;
+		lvl = lvl + 1;
+//		console.log("lvl = " + lvl + " " + getListNestingIndent(lvl) + this.textContent);
+		var tableHeader = "";
+		// skip annotation and frame objects but not its content
+		if ($(this).find("office\\:annotation").length > 0) return;
+		if ($(this).find("draw\\:frame").length > 0) return;
+		// Handle lists
+		if (lvl > 0) {
+			//			console.log("level = " + getListNestingLevel($(this).parent()) + " " + this.textContent)
+			txt.push(getListNestingIndent(lvl) + this.textContent);
+			return;
+		}
+		// copy paragraph to the output
+		txt.push(this.textContent);
+	})
+	var txtout = [];
+	txt.forEach(function (e) {
+		if (e.trim() == "-") return;
+		txtout.push(e);
+	})
+	console.log(txtout);
 	return txtout.join("\n");
 }
