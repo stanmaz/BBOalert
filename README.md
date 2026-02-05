@@ -137,7 +137,7 @@ The panels can be selected by clicking the corresponding buttons at the top of t
 The "Data" menu contains commands related to the data input/output :
 
 - <b>Paste (New)</b> : to read new data from the clipboard
-- <b>Paste (Append)</b> : to append additional data from the clipboard
+- <b>Paste (Prepend)</b> : to prepend additional data from the clipboard
 - <b>Clear</b> : to erase all data
 - <b>Copy All</b> : write all data to the clipboard
 - <b>Copy New</b> : write data related to tha manual alerts  to the clipboard
