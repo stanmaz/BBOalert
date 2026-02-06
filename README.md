@@ -1,6 +1,6 @@
 # BBOalert
 
-Version : 9.1.1.1
+Version : 9.1.1.x
 
 **Table Of Content**
 
@@ -858,10 +858,6 @@ The public URL can be obtained in the following way :
 - upload it to your Dropbox account
 - make the file shared
 - generate the public URL link for viewing only (default is editing)
-       
-#### Blogger
-       
-Note : This section is under development
 
 #### BBOalert data
 
