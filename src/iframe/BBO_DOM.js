@@ -29,6 +29,7 @@ function confirmBid() {
  * @returns div element
  */
 function getNavDiv() {
+	$("#navbar-menu-dropdown-content", PWD).css("z-index", "5001");
 	return PWD.getElementById('navDiv');
 }
 /**
