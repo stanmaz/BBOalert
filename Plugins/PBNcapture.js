@@ -1,5 +1,5 @@
 (function () {
-	console.log("PBN Capture version 1.7.0.4");
+	console.log("PBN Capture version 1.7.0.5");
 	function hand2PBN(t) {
 		// reverse string
 		var n = replaceSuitSymbols(t, "").split("").reverse().join("");
@@ -106,6 +106,7 @@
 				}
 				if (cfg.Clear_Log) {
 					cfg.Clear_Log = false;
+					localStorage.setItem('BBOalertPlugin ' + title, JSON.stringify(cfg));
 					if (!localStorage.getItem('PBNcapture')) {
 						bboalertLog("Log is empty");
 						return;
