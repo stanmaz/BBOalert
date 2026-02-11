@@ -93,6 +93,7 @@
 				if (cfg.Export_PBN) {
 					bboalertLog("");
 					cfg.Export_PBN = false;
+					localStorage.setItem('BBOalertPlugin ' + title, JSON.stringify(cfg));
 					if (DEBUG) console.log("config = " + cfg);
 					if (!localStorage.getItem('PBNcapture')) {
 						bboalertLog("Nothing to export");
