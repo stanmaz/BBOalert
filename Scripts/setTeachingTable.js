@@ -1,4 +1,4 @@
-//BBOalert, Set Teaching Table v1.3.1
+//BBOalert, Set Teaching Table v1.3.2
 //Script,setTeachingTable
 var delayValue = 500;
 Promise.resolve()
