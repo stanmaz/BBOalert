@@ -59,7 +59,7 @@ let openProfileBBOid = "";
 let openProfileBBOalertURL = "";
 let listTinyURL = new Map();
 
-let apiKey = "AIzaSyBDC18V7_Sw4fIHoIkOR40nRPMZAuW2QMk";
+let apiKey = "";
 
 E_onAnyMutation = new Event('onAnyMutation');
 E_onBiddingBoxCreated = new Event('onBiddingBoxCreated');

@@ -473,13 +473,17 @@ function readNewData(cbData) {
 function exportUpdateData() {
 	var scan = new BBOalertData();
 	var updateText = '';
-	while ((txt = scan.getNextRecord()) != null) {
+	while ((txt = scan.getNextLine()) != null) {
 		var rec = txt.split(",");
 		if (rec.length < 4) continue;
-		if (rec[3].trim().substring(0, 8) == getNow().substring(0,8)) updateText = updateText + txt + '\n';
+		if (rec[3].trim().substring(0, 8) == getNow().substring(0, 8)) updateText = updateText + txt + '\n';
 	}
-	if (updateText != '') downloadTextAsFile(updateText,'BBOalertNewData.txt');
+	if (updateText != '') downloadTextAsFile(updateText, 'BBOalertNewData.txt');
 	var updateCount = updateText.split("\n").length - 1;
+	if (updateCount == 0) {
+		bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + "<br>No new record to export");
+		return;
+	}
 	writeToClipboard(updateText);
 	bboalertLog(version + "<br>" + getBBOalertHeaderMsg() + "<br>" + updateCount + " new records exported to clipboard" +
 		" and downloaded as <b>BBOalertNewData.txt</b>");
@@ -805,6 +809,9 @@ function saveAlert() {
 		newrec = newrec + "," + getNow() + " Deal " + getDealNumber() + " " + myPartner();
 		addLog('save:[' + getDealNumber() + '|' + areWeVulnerable() + '|' + getSeatNr() + '|' + stripContext(getContext()) + '|' + callText + '|' + explainText + ']');
 		alertTable.push(newrec);
+		if (!alertData.endsWith("\n")) alertData = alertData + "\n";
+		if (!alertOriginal.endsWith("\n")) alertOriginal = alertOriginal + "\n";
+		if (!updateText.endsWith("\n")) updateText = updateText + "\n";
 		updateText = updateText + newrec + '\n';
 		alertData = alertData + newrec + '\n';
 		alertOriginal = alertOriginal + newrec + '\n';
