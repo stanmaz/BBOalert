@@ -1,4 +1,4 @@
-var IntoBridgePatchVerion = "1.0.2";
+var IntoBridgePatchVerion = "1.0.3";
 document.title = document.title + " IntoBridgePatch " + IntoBridgePatchVerion;
 
 function isIntoBridge() {
@@ -329,7 +329,6 @@ function getChatMessage() {
 function getBiddingBox() {
 	var bb = $("#bidding-box", PWD).get(0);
 	if (bb == undefined) return null;
-	setBiddingButtonEvents();
 	return bb;
 }
 
@@ -366,7 +365,6 @@ function getExplainCallInput() {
  * retrieve bidding box text input element
  */
 function getExplainInput() {
-	setAlert(true);
 	return $("input[name='alert']", PWD).get(0);
 }
 
@@ -383,10 +381,18 @@ function getChatInput() {
  * set bidding box explanation text
  */
 function setExplainText(txt) {
-	setAlert(true);
 	setTimeout(function () {
 		if (DEBUG) console.log("setExplainText " + txt);
-		setNativeValue(getExplainInput(), txt);
+		if (getExplainInput()) {
+			setNativeValue(getExplainInput(), txt)
+		}
+		else {
+			$("header p[data-testid='table-title']", PWD)
+				.css("color", "red")
+				.css("background-color", "white")
+				.text(txt);
+		}
+
 	}, 100);
 }
 
@@ -916,8 +922,10 @@ function getMyCall() {
  * @ignore
  */
 function setBiddingButtonEvents() {
-	if (isIntoBridge()) {
-		$("#bidding-box button", PWD).on('mousedown', function (event) {
+	setAlert(true);
+	lastQueryExplanation = "";
+	PWD.querySelectorAll("#bidding-box button").forEach(function (button) {
+		button.onmousedown = function (event) {
 			if (DEBUG) console.log("box button pressed" + $(this).text());
 			ct = "";
 			$("#bidding-box button[data-active]", PWD).each(function () {
@@ -938,14 +946,22 @@ function setBiddingButtonEvents() {
 						if (DEBUG) console.log("confirm button pressed" + $(this).text());
 						if (DEBUG) console.log("lastQueryExplanation " + lastQueryExplanation);
 						lastUserExplanation = getExplainInput().value;
+						if (lastAlertChat != "") {
+							if (DEBUG) console.log("Sending chat message to opponents: " + lastAlertChat);
+							chatToOpponents(lastAlertChat);
+						}
+						if (lastUserExplanation == "") setAlert(false);
 						if (DEBUG) console.log("lastUserExplanation  " + lastUserExplanation);
 						saveAlert();
 					});
+				} else {
+					setExplainText("");
 				}
 			}, 500);
-		});
+		};
 		return;
 	}
+	)
 }
 
 function getBiddingBoxButtonIndexByText(txt) {
@@ -1091,16 +1107,70 @@ function setBBOalertButton(on) {
 }
 
 async function chatToOpponents(msg) {
-	await waitForElm("div[data-testid='left-seat-slot'] button:eq(0):visible").then((el) => {$(el).click()})
-	.then(waitForElm("button[data-testid='open chat']:eq(0):visible")).then((el) => {$(el).click()});
-	await waitForElm("form input[name='message']:visible").then((el) => {setNativeValue($(el).get(0), msg)});
-	await waitForElm("button[aria-label='Send']:eq(0):visible").then((el) => {$(el).click()});
-	await waitForElm("#navigation-menu-toggle:visible").then((el) => {$(el).click()});
-/*
-	el = await waitForElm("div[data-testid='right-seat-slot'] button:eq(0):visible");el.click();
-	el = await waitForElm("button[data-testid='open chat']:eq(0):visible");el.click();
-	el = await waitForElm("form input[name='message']");setNativeValue($(el).get(0), msg);
-	el = await waitForElm("button[aria-label='Send']:eq(0):visible");el.click();
-	el = await waitForElm("button[aria-label='Send']:eq(0):visible");el.click();
-	el = await waitForElm("#navigation-menu-toggle");el.click();*/
+	await sendMessageToOpponent(true, msg);
+	await sendMessageToOpponent(false, msg);
+}
+
+
+/**
+ * Sends a chat message to a user identified by their profile span.
+ * @param {string} message - The text message to send.
+ */
+async function sendMessageToOpponent(LHO, message) {
+	$("button[aria-label='Close']", PWD).click();
+	// 1. Locate the trigger element (the span or its parent button)
+	if (LHO) {
+		var triggerButton = $("div[data-testid='left-seat-slot'] button", PWD).get(0);
+	} else {
+		var triggerButton = $("div[data-testid='right-seat-slot'] button", PWD).get(0);
+
+	}
+
+	if (!triggerButton) {
+		console.error("User profile trigger not found.");
+		return;
+	}
+
+	// 2. Open the user profile popover
+	triggerButton.click();
+
+	// Wait for the popover/DOM to update
+	await new Promise(resolve => setTimeout(resolve, 500));
+
+	// 3. Find and click the "Message" button
+	const messageButton = Array.from(parent.document.querySelectorAll('button'))
+		.find(btn => btn.textContent.includes('Message') || btn.getAttribute('data-testid') === 'open chat');
+	const closeButton = Array.from(parent.document.querySelectorAll('button'))
+		.find(btn => btn.textContent.includes('Message') || btn.getAttribute('aria-label') === 'Close');
+
+	if (!messageButton) {
+		console.error("Message button not found in popover.");
+		return;
+	}
+	messageButton.click();
+
+	// Wait for chat input to appear
+	await new Promise(resolve => setTimeout(resolve, 500));
+
+	$("button[aria-label='Close']", PWD).click()
+
+	// 4. Locate the input field and the send button
+	const chatInput = parent.document.querySelector('input[placeholder="Write a message…"]');
+	const chatForm = chatInput?.closest('form');
+
+	if (!chatInput || !chatForm) {
+		console.error("Chat input or form not found.");
+		return;
+	}
+
+	// 5. Set the message and submit
+	// Using native setter and triggering 'input' event to ensure framework state (like React/Chakra) updates
+	const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+	nativeInputValueSetter.call(chatInput, message);
+	chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+	// Submit the form
+	chatForm.requestSubmit();
+	$("#navigation-menu-toggle", PWD).click();
+
 }
